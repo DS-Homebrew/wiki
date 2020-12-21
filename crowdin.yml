@@ -1,0 +1,9 @@
+"project_id_env": "DS_HOMEBREW_WIKI_CROWDIN_ID"
+"api_token_env": "CROWDIN_TOKEN"
+preserve_hierarchy: true
+
+files:
+  - source: /pages/_en-US/**/*.md
+    translation: /pages/_%locale%/**/%original_file_name%
+  - source: /_data/en-US/**/*.json
+    translation: /_data/%locale%/**/%original_file_name%
