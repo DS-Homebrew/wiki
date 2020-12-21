@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en-US" }}">
+{% include head.html%}
+
+<body>
+	<div class="content">
+		{% include nav.html %}
+
+		<main>
+			<div class="container-fluid">
+				<div class="row pt-5">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-8">
+						{% include anchor-headings.html html=content anchorBody="<small>#</small>" anchorClass="header-anchor" %}
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	{% include footer.html %}
+
+	{% include common-js.html %}
+</body>
+</html>

@@ -1,0 +1,63 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en-US" }}">
+{% include head.html%}
+
+<body>
+	<div class="content">
+		{% include nav.html %}
+
+		<main>
+			<div class="container-fluid">
+				<div class="row pt-5">
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						{% assign items = site[page.collection] | where: "section", page.section | sort: "category" %}
+						<ul class="list-unstyled">
+						<!-- First check for index -->
+						{% for item in items %}
+							{% if item.url contains "index.html" %}
+								<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+							{% endif %}
+						{% endfor %}
+						{% for item in items %}
+							{% unless item.url contains "index.html" %}
+								{% if item.category and category != item.category %}
+								{% if category %}
+										</ul>
+										</li>
+										</details>
+									{% endif %}
+									{% assign category = item.category %}
+									<li>
+									<details {% if page.category == category %}open{% endif %}>
+									<summary>{{ category }}</summary>
+									<ul>
+								{% endif %}
+								<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+							{% endunless %}
+						{% endfor %}
+						{% if category %}
+							</ul>
+							</details>
+						{% endif %}
+						<div class="d-md-none"><hr></div>
+					</div>
+					<div class="col-md-7">
+						<h1>{{ page.title }}</h1>
+						<hr>
+						{% include anchor-headings.html html=content anchorBody="<small>#</small>" anchorClass="header-anchor" %}
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	{% include footer.html %}
+
+	{% include common-js.html %}
+</body>
+</html>

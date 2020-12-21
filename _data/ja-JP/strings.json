@@ -1,0 +1,8 @@
+{
+	"title": "DS-Homebrew ウィキ",
+	"description": "DS-Homebrewのプロジェクトためのウィキ",
+	"discord-server": "Discordサーバ（英語のみ）",
+	"source": "ソース",
+	"by": "$1による",
+	"published-with": "<a href=\"https://pages.github.com\">GitHub Pages</a>で公開しています、GitHubに<a href=\"https://github.com/$1\">ソース</a>を表示します。"
+}

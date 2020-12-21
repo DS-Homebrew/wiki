@@ -1,0 +1,18 @@
+title       : "DS-Homebrew Wiki"
+description : "Wikis for DS-Homebrew projects"
+repo        : "DS-Homebrew/wiki"
+color       : "#072f4f"
+image       : "https://avatars1.githubusercontent.com/u/46971470?s=200&v=4"
+
+collections_dir: pages
+
+collections:
+  en-US:
+    output: true
+    permalink: /:path:output_ext
+  ja-JP:
+    output: true
+
+lang-names:
+  en-US: English
+  ja-JP: 日本語
