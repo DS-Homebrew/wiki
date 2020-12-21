@@ -1,14 +1,14 @@
 [
-  {
-    "title": "ホーム",
-    "url": "/ja-JP"
-  },
-  {
-    "title": "TWiLight Menu++",
-    "url": "/ja-JP/twilightmenu"
-  },
-  {
-    "title": "DSインデックス",
-    "url": "/ja-JP/ds-index"
-  }
+    {
+        "title": "ホーム",
+        "url": "/"
+    },
+    {
+        "title": "TWiLight Menu++",
+        "url": "/twilightmenu"
+    },
+    {
+        "title": "DSインデックス",
+        "url": "/ds-index"
+    }
 ]

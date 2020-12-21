@@ -1,0 +1,9 @@
+{
+	"by": "Przez: $1",
+	"description": "Wiki dla projektów DS-Homebrew",
+	"discord-server": "Serwer Discord (tylko po angielsku)",
+	"help-translate": "Help translate!",
+	"published-with": "Opublikowane za pomocą <a href=\"https://pages.github.com\">GitHub Pages</a>, przeglądnij <a href=\"https://github.com/$1\">kod źródłowy</a> na GitHubie.",
+	"source": "Źródło",
+	"title": "DS-Homebrew Wiki"
+}
