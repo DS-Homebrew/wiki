@@ -7,3 +7,5 @@ files:
     translation: /pages/_%locale%/**/%original_file_name%
   - source: /_data/en-US/**/*.json
     translation: /_data/%locale%/**/%original_file_name%
+  - source: /assets/js/i18n/en-US.js
+    translation: /assets/js/i18n/%locale%.js
