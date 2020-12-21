@@ -10,9 +10,57 @@ collections:
   en-US:
     output: true
     permalink: /:path:output_ext
+  da-DK:
+    output: true
+  de-DE:
+    output: true
+  es-ES:
+    output: true
+  fr-FR:
+    output: true
+  hu-HU:
+    output: true
+  it-IT:
+    output: true
   ja-JP:
+    output: true
+  ko-KR:
+    output: true
+  no-NO:
+    output: true
+  pl-PL:
+    output: true
+  pt-PT:
+    output: true
+  ru-RU:
+    output: true
+  sv-SE:
+    output: true
+  tr-TR:
+    output: true
+  uk-UA:
+    output: true
+  zh-CN:
+    output: true
+  zh-TW:
     output: true
 
 lang-names:
+  da-DK: Dansk
+  de-DE: Deutsch
   en-US: English
+  es-ES: Español
+  fr-FR: Français
+  hu-HU: Magyar
+  it-IT: Italiano
   ja-JP: 日本語
+  ko-KR: 한국어
+  no-NO: Norsk bokmål
+  pl-PL: Polski
+  pt-PT: Português
+  ru-RU: Русский
+  sv-SE: Svenska
+  tr-TR: Türkçe
+  uk-UA: Українська
+  zh-CN: 中文 (简体)
+  zh-TW: 中文 (繁體)
