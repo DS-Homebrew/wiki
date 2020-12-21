@@ -4,10 +4,10 @@
 	<meta name="viewport" content="width=device-width,maximum-scale=2">
 
 	<title>
-		{% if site.data[page.lang].strings.title != page.title %}
+		{% if site.data[page.collection].strings.title != page.title %}
 			{{ page.title }} |
 		{% endif %}
-		{{ site.data[page.lang].strings.title }}
+		{{ site.data[page.collection].strings.title }}
 	</title>
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -1,17 +1,17 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 	<div class="container-fluid maxwidth">
 		<span class="navbar-brand">
-			<a class="navbar-brand mb-0 h1" href="{{ site.data[page.lang].nav[0].url }}">{{ site.data[page.lang].strings.title }}</a>
+			<a class="navbar-brand mb-0 h1" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ site.data[page.collection].nav[0].url }}">{{ site.data[page.collection].strings.title }}</a>
 		</span>
 		<button class="navbar-toggler mr-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav">
-				{% for item in site.data[page.lang].nav %}
+				{% for item in site.data[page.collection].nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ item.url }}">{{ item.title }}</a>
 						</li>
 					{% endif %}
 					{% if item.items %}
@@ -30,7 +30,7 @@
 					{% endif %}
 				{% endfor %}
 				<li class="nav-item">
-					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}">{{ site.data[page.lang].strings.source}}</a>
+					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}">{{ site.data[page.collection].strings.source}}</a>
 				</li>
 			</ul>
 			<div class="btn-group language-dropdown">
@@ -40,17 +40,17 @@
 					</svg>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-end-sm">
-					{% assign ref = page.url | split: page.lang | last %}
+					{% assign ref = page.url | split: page.collection | last %}
 					{% for collection in site.collections %}
 						{% for item in site[collection.label] %}
 							{% assign itemRef = item.url | split: item.lang | last %}
 							{% if itemRef == ref %}
-								<li><a class="dropdown-item{% if item.lang == page.lang %} active {% endif %}" href="{{ item.url }}">{{ site.lang-names[item.lang] }}</a></li>
+								<li><a class="dropdown-item{% if item.lang == page.collection %} active {% endif %}" href="{{ item.url }}">{{ site.lang-names[item.lang] }}</a></li>
 							{% endif %}
 						{% endfor %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
-					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.lang].strings.help-translate }}</a></li>
+					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.help-translate }}</a></li>
 				</ul>
 			</div>
 		</div>
