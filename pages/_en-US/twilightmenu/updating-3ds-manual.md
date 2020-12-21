@@ -5,7 +5,7 @@ section: twilightmenu
 title: Updating (3DS, Manual)
 category: Updating
 ---
-**NOTE:** Starting with v16.4.0, please move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location.
+**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
 
 ### Updating
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)

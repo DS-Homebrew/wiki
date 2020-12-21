@@ -11,15 +11,15 @@ category: Installing
 1. Copy the `_nds` folder to your flashcard's microSD card root
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
 1. Copy the `roms` folder to your flashcard's microSD card root
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location.
-1. 
-   1. **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again.
-   1. **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-   - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+1. ...
+   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
+      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
 
 ### To run games using your flashcard firmware
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below.
+   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:
    - R4i-SDHC

@@ -7,8 +7,8 @@ category: Installing
 ---
 ### Requirements
 
-* The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-* The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
+- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
 
 ### Installing (Working Camera)
 1. Open FBI and select `Remote Install`, then `Scan QR Code`

@@ -3,17 +3,17 @@ lang: en-US
 layout: wiki
 section: ds-index
 title: Retail ROMs
-description: The complete guide to modding the Nintendo DS
+description: An explanation of all things DS modding
 ---
 
 ### Anti-Piracy
 
 AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
 
-- For nds-bootstrap's purposes, you could load a `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you could keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
+- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
 - For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you could try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### CloneBoot
 
@@ -50,7 +50,7 @@ In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5
 
 ### Action Replay Cheats
 
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which could alter the experience of the game(s) being played altogether.
+Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
 Flashcarts can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcart kernel respectively. The following kernels can utilize cheats:
 - Wood R4 (`usrcheat.dat`)
