@@ -353,6 +353,14 @@ kbd.face {
 	border-radius: 15px;
 }
 
+// Sidebar
+.sidebar-container {
+	font-size: 0.9rem;
+}
+.sidebar-container li {
+	padding-bottom: 0.25rem;
+}
+
 @media only screen and (min-width: 576px) {
 	// Only right align language dropdown when sm+
 	.language-dropdown {
