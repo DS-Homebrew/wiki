@@ -22,7 +22,7 @@ layout: compress
 								<!-- First check for index -->
 								{% for item in items %}
 									{% if item.url contains "index.html" %}
-										<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+										<li class="{% unless item contains category %}li-bullet{% endunless %} {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endif %}
 								{% endfor %}
 								<!-- Then the other pages -->
@@ -40,7 +40,7 @@ layout: compress
 											<summary>{{ category }}</summary>
 											<ul>
 										{% endif %}
-										<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+										<li class="{% unless item contains category %}li-bullet{% endunless %} {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endunless %}
 								{% endfor %}
 								{% if category %}
