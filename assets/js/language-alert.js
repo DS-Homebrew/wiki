@@ -7,17 +7,15 @@ if(!languageID.match(/[a-z][a-z]-[A-Z][A-Z]/)) {
 if(languageID) {
 	for(let language of document.getElementById("language-dropdown").children) {
 		if(language.children[0].dataset.languageId == languageID && !language.children[0].classList.contains("active")) {
-			console.log(languageID)
 			for(let languageAlert of document.getElementsByClassName("language-alert")) {
 				languageAlert.classList.remove("d-none");
 				let a = document.createElement("a");
 				a.href = `${languageID == "en-US" ? "" : ("/" + languageID)}${window.location.pathname.replace(/[a-z][a-z]-[A-Z][A-Z]\//, "")}`;
-				console.log(a.href);
 				languageAlert.prepend(a);
 	
 				import(`./i18n/${languageID}.js`).then(obj => {
 					a.innerHTML = obj.default.pageIsInYourLanguage;
-				}).catch((err) => {console.log(err); a.innerHTML = "This page is available in your language!"});
+				}).catch(() => a.innerHTML = "This page is available in your language!");
 				break;
 			}
 		}

@@ -19,33 +19,36 @@ layout: compress
 						<div class="rounded-3 border sidebar-container mb-3 p-3">
 							{% assign items = site[page.collection] | where: "section", page.section | sort: "category" %}
 							<ul class="list-unstyled">
-							<!-- First check for index -->
-							{% for item in items %}
-								{% if item.url contains "index.html" %}
-									<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
-								{% endif %}
-							{% endfor %}
-							{% for item in items %}
-								{% unless item.url contains "index.html" %}
-									{% if item.category and category != item.category %}
-									{% if category %}
-											</ul>
-											</li>
-											</details>
-										{% endif %}
-										{% assign category = item.category %}
-										<li>
-										<details {% if page.category == category %}open{% endif %}>
-										<summary>{{ category }}</summary>
-										<ul>
+								<!-- First check for index -->
+								{% for item in items %}
+									{% if item.url contains "index.html" %}
+										<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endif %}
-									<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
-								{% endunless %}
-							{% endfor %}
-							{% if category %}
-								</ul>
-								</details>
-							{% endif %}
+								{% endfor %}
+								<!-- Then the other pages -->
+								{% for item in items %}
+									{% unless item.url contains "index.html" %}
+										{% if item.category and category != item.category %}
+											{% if category %}
+												</ul>
+												</details>
+												</li>
+											{% endif %}
+											{% assign category = item.category %}
+											<li>
+											<details {% if page.category == category %}open{% endif %}>
+											<summary>{{ category }}</summary>
+											<ul>
+										{% endif %}
+										<li {% unless item contains category %}class="li-bullet"{% endunless %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+									{% endunless %}
+								{% endfor %}
+								{% if category %}
+									</ul>
+									</details>
+									</li>
+								{% endif %}
+							</ul>
 						</div>
 					</div>
 					<div class="col-sm-9">
