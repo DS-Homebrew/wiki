@@ -15,6 +15,6 @@ category: Installing
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
 ### Autobooting with Unlaunch
-1. Turn on your DSi while holding <kbd>A</kbd> and <kbd>B</kbd>
+1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 1. In the Unlaunch menu, go to `OPTIONS`
 1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen

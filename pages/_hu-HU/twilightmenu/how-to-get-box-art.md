@@ -9,7 +9,7 @@ category: Egyéb
 ### 3DS
 1. Install [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
    - This will replace the normal TWiLight Menu++ Updater, so use Universal-Updater instead for updating TWiLight Menu++
-1. Select `Extras`, `Boxart`, then press <kbd>X</kbd> to scan the full SD card or <kbd>A</kbd> to select a folder to scan
+1. Select `Extras`, `Boxart`, then press <kbd class="face">X</kbd> to scan the full SD card or <kbd class="face">A</kbd> to select a folder to scan
 1. Choose a box art size
 1. Choose a border style
 1. Make sure box art is set to be shown in TWiLight Menu++ settings

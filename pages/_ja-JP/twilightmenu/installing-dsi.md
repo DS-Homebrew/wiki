@@ -15,6 +15,6 @@ category: インストール
 1. **hiyaCFWユーザー：**`title`フォルダをSDカードのルートにコピーする
 
 ### Unlaunchで自動起動
-1. <kbd>A</kbd>と<kbd>B</kbd>を押したままDSiをオンにする
+1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiをオンにする
 1. Unlaunchメニューで`OPTIONS`に移動します
 1. `NO BUTTON`または選択されるボタンを下部画面に「`BOOT.NDS`」を表示された`TWiLight Menu++`に設定します
