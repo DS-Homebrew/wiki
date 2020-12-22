@@ -23,7 +23,7 @@
 							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
 							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
 								{% for entry in item.items %}
-									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{{ entry.url }}">{{ entry.title }}</a>
+									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ entry.url }}">{{ entry.title }}</a>
 								{% endfor %}
 							</div>
 						</li>
@@ -42,14 +42,17 @@
 				<ul class="dropdown-menu dropdown-menu-end-sm" id="language-dropdown">
 					{% assign ref = page.url | split: page.collection | last %}
 					{% for collection in site.collections %}
-						{% for item in site[collection.label] %}
-							{% assign itemRef = item.url | split: item.lang | last %}
-							{% if itemRef == ref %}
-								<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url }}">{{ site.lang-names[item.lang] }}</a></li>
-							{% endif %}
-						{% endfor %}
+						{% unless collection.label == "ic-IC" %}
+							{% for item in site[collection.label] %}
+								{% assign itemRef = item.url | split: item.lang | last %}
+								{% if itemRef == ref %}
+									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url }}">{{ site.lang-names[item.lang] }}</a></li>
+								{% endif %}
+							{% endfor %}
+						{% endunless %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
+					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url }}{% endif %}{% endfor %}">{{ site.data[page.collection].strings.translate }}</a></li>
 					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.help-translate }}</a></li>
 				</ul>
 			</div>

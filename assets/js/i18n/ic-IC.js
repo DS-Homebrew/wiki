@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'crwdns14576:0crwdne14576:0' };

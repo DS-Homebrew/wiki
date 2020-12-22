@@ -10,6 +10,8 @@ collections:
   en-US:
     output: true
     permalink: /:path:output_ext
+  ic-IC:
+    output: true
   da-DK:
     output: true
   de-DE:

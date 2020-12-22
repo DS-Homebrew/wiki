@@ -17,4 +17,15 @@
 
 	{% include favicon.html %}
 	{% include seo.html %}
+
+	{% if page.collection == "ic-IC" %}
+		<script>
+			var _jipt = [];
+			_jipt.push(['project', 'ds-homebrew-wiki']);
+			_jipt.push(['escape', function() {
+				window.location.href = "http://wiki.ds-homebrew.com";
+			}]);
+		</script>
+		<script src="//cdn.crowdin.com/jipt/jipt.js"></script>
+	{% endif %}
 </head>
