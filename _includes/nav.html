@@ -52,8 +52,8 @@
 						{% endunless %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
-					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url }}{% endif %}{% endfor %}">{{ site.data[page.collection].strings.translate }}</a></li>
-					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.help-translate }}</a></li>
+					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url }}{% endif %}{% endfor %}">{{ site.data[page.collection].strings.translate-here }}</a></li>
+					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
 				</ul>
 			</div>
 		</div>
