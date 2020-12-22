@@ -11,7 +11,7 @@ category: Updating
 1. Open Universal-Updater
    - If you don't have it, follow the [installing](installing-3ds-universal-updater) instructions
 1. Find TWiLight Menu++ in the app grid, you can search for it if you're having trouble finding it
-1. Press <kbd>A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
+1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
 
 
