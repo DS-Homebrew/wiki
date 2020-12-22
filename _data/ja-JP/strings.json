@@ -2,8 +2,9 @@
 	"by": "$1による",
 	"description": "DS-Homebrewのプロジェクトためのウィキ",
 	"discord-server": "Discordサーバ（英語のみ）",
-	"help-translate": "翻訳を手伝う！",
 	"published-with": "<a href=\"https://pages.github.com\">GitHub Pages</a>で公開され、GitHubで<a href=\"https://github.com/$1\">ソース</a>を表示します。",
 	"source": "ソース",
+	"translate-here": "ここで翻訳",
+	"translate-on-crowdin": "Crowdinで翻訳",
 	"title": "DS-Homebrewウィキ"
 }

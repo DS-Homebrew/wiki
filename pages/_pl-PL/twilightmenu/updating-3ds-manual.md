@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: twilightmenu
-title: Updating (3DS, Manual)
-category: Updating
+title: Aktualizacja (3DS, Ręcznie)
+category: Aktualizacja
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**UWAGA:** Jeśli aktualizujesz z wersji starszej niż v16.4.0, przenieś pilki `.sav` dla gier DS do nowego folderu o nazwie `saves`. Folder `saves` powinien być w tym samym miejscu co gry DS.
 
-### Updating
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+### Aktualizacja
+1. Pobierz najnowszą wersję `TWiLightMenu-3DS.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Wypakuj `TWiLightMenu-3DS.7z`
+1. Skopiuj folder `_nds` do katalogu głównego karty SD
+1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty SD
+1. Skopiuj dwa pliki `.cia` do katalogu głównego karty SD
+1. Zainstaluj przerzucone pliki CIA z FBI na swoim 3DSie
 
 ### More steps for the flashcard side
 

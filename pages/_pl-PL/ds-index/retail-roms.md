@@ -1,23 +1,23 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: ds-index
-title: Retail ROMs
-description: An explanation of all things DS modding
+title: ROM-y detaliczne
+description: Wyjaśnienie wszystkich rzeczy dotyczących modowania DSa
 ---
 
-### Anti-Piracy
+### Anty-Piractwo
 
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+AP (skrót od anty-piractwo) jest metodą stosowaną przez deweloperów w celu wymuszania legalnych zakupów i zapobiegania piractwu. Może to być obchodzone przez loadera lub samego ROM-a.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+- Dla celów nds-bootstrap, możesz załadować plik `.IPS` w celu obejścia wspomnianych patchów. Plik `.IPS` zostanie wpatchowany w nds-bootstrap, aby pliki ROM pozostały nienaruszone. Pakiet plików `.IPS` jest automatycznie dołączony do TWiLight Menu++.
+- Do celów Wood R4, te patche są zawarte w samym oprogramowaniu. Nie będziesz musiał modyfikować ROM-a.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+W przypadku braku pliku `.IPS` dla twojego ROM-u albo twoje oprogramowanie ROM-u nie spatchowało, możesz spróbować bezpośrednio modyfikować ROM-a używając [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### CloneBoot
 
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
+Cloneboot dzieje się kiedy gra próbuje wysłać swój własny załadowany plik binarny arm9/arm7 do innej konsoli. Używany jest przez DS Download Play dla gry wieloosobowej z użyciem jednej kopii gry. Nie wszystkie gry używają jednak cloneboot.
 
 Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
 

@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Updating (3DS, Manual)
-category: Updating
+title: Frissítés (3DS, kézi)
+category: Frissítés
 ---
 
 **NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
 
 ### Updating
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
+1. Másold az `_nds` mappát a microSD kártyád gyökerébe
+1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
+1. Másold a két `.cia` fájlt a microSD kártyád gyökerébe
+1. A 3DS-eden telepítsd a két CIA fájlt az FBI-jal
 
 ### More steps for the flashcard side
 

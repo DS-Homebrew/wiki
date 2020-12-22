@@ -7,7 +7,7 @@ description: An explanation of all things DS modding
 ---
 
 ### Przygotowywanie CFW
-Chociaż większość korzyści z Custom Firmware dotyczy systemów Nintendo DSi i Nintendo 3DS, to umożliwia ono także odblokowanie możliwości konsoli. Instalowanie Custom Firmware jest dosyć łatwe, a w większości przypadków potrzebujesz tylko karty (micro)SD. Mamy dla Ciebie najlepsze poradniki z instrukcjami krok po kroku.
+Chociaż większość korzyści z Custom Firmware dotyczy systemów Nintendo DSi i Nintendo 3DS, to umożliwia ono także odblokowanie możliwości konsoli. Instalacja Custom Firmware jest dosyć łatwe, a w większości przypadków potrzebujesz tylko karty (micro)SD. Mamy dla Ciebie najlepsze poradniki z instrukcjami krok po kroku.
 
 - [Poradnik Hakowania 3DS](https://3ds.hacks.guide)
   - Komenda Lightning: `mod 3ds`

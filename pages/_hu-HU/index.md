@@ -6,6 +6,6 @@ title: Kezdőlap
 
 # Köszöntjük a DS-Homebrew Wiki-ben!
 
-This site is where you can find wikis for TWiLight Menu++ and other DS-Homebrew projects. Click on one of the sections at the top, then a list of pages will be on the left.
+Ez az oldal, ahol megtalálható a TWiLight Menu++ és más DS-Homebrew projektek wiki-je. Kattintsd a szekciók egyikére fent, majd a megjelenő oldallistára a bal oldalon.
 
-If you would like to help contribute you can find the source code on [GitHub](https://github.com/{{ site.repo }}) or help translate on [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). To discuss this or get help with anything on it, please join the [DS<sup>(i)</sup> Mode Hacking](https://ds-hombrew.com/discord) Discord server (English only).
+Ha szeretnél közreműködni, a forrás megtalálható a [GitHub](https://github.com/{{ site.repo }})-on, vagy segíts fordítani a [Crowdin](https://crowdin.com/project/ds-homebrew-wiki)-en. Beszélgetésért vagy segítségért bármiben csatlakozz a [DS<sup>(i)</sup> Mode Hacking](https://ds-hombrew.com/discord) Discord szerverhez (angol nyelven).

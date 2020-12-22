@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'Ta strona jest dostępna po polsku!' };

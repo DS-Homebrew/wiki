@@ -1,33 +1,33 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: twilightmenu
-title: Installing (3DS)
-category: Installing
+title: Instalacja (3DS)
+category: Instalacja
 ---
 
-### Requirements
+### Wymagania
 
-- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+- Najnowsza wersja [FBI](https://github.com/Steveice10/FBI/releases)
+- Najnowsza wersja [Luma3DS](https://github.com/lumateam/luma3ds/releases)
 
-### Installing (Working Camera)
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of the [TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater) <br>![TWiLight Menu++ Updater QR code](https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png)
-1. Close FBI and Launch the TWiLight Menu++ Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Select `Release` next to `TWLMenu++`
-   - This will take a while
-1. Select `Release` next to `nds-bootstrap`
+### Instalacja (Działający Aparat)
+1. Otwórz FBI i wybierż `Remote Install`, a następnie `Scan QR Code`
+1. Zeskanuj ten kod QR, by zainstalować najnowszą wersję [TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater) <br>![Kod QR TWiLight Menu++ Updater](https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png)
+1. Zamknij FBI i włącz TWiLight Menu++ Updater
+   - Jeśli nie pokaże się na twoim ekranie głównym, zrestartuj konsolę
+1. Wybierz `Release` obok `TWLMenu++`
+   - To trochę zajmie
+1. Wybierz `Release` obok `nds-bootstrap`
 
-### Installing (Non-Working Camera)
-1. Download the `TWiLightMenu-Updater.cia` file from the [TWiLight Menu++ Updater release page](https://github.com/RocketRobz/TWiLightMenu-Updater/releases)
-1. Place the `TWiLightMenu-Updater.cia` file anywhere on your SD card
-1. Launch FBI on your Nintendo 3DS
-1. In FBI, go to the place you pasted the `TWiLightMenu-Updater.cia` file
-1. Select the `TWiLightMenu-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and Launch the TWiLight Menu++ Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Select `Release` next to `TWLMenu++`
-   - This will take a while
-1. Select `Release` next to `nds-bootstrap`
+### Instalacja (Niedziałający Aparat)
+1. Pobierz plik `TWiLightMenu-Updater.cia` ze [strony wydań TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater/releases)
+1. Umieść plik `TWiLightMenu-Updater.cia` w dowolnym miejscu na karcie SD
+1. Uruchom FBI na swoim Nintendo 3DS
+1. W FBI, przejdź do miejsca, w którym umieściłeś plik `TWiLightMenu-Updater.cia`
+1. Wybierz `TWiLightMenu-Updater.cia` i naciśnij przycisk "Install & Delete"
+1. Zamknij FBI i włącz TWiLight Menu++ Updater
+   - Jeśli nie pokaże się na twoim ekranie głównym, zrestartuj konsolę
+1. Wybierz `Release` obok `TWLMenu++`
+   - To trochę zajmie
+1. Wybierz `Release` obok `nds-bootstrap`

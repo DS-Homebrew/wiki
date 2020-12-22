@@ -1,33 +1,33 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: twilightmenu
-title: Installing (3DS)
-category: Installing
+title: インストール（3DS）
+category: インストール
 ---
 
-### Requirements
+### 必要条件
 
-- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+- [FBI](https://github.com/Steveice10/FBI/releases)の最新バージョン
+- [Luma3DS](https://github.com/lumateam/luma3ds/releases)の最新バージョン
 
-### Installing (Working Camera)
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of the [TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater) <br>![TWiLight Menu++ Updater QR code](https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png)
-1. Close FBI and Launch the TWiLight Menu++ Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Select `Release` next to `TWLMenu++`
-   - This will take a while
-1. Select `Release` next to `nds-bootstrap`
+### インストール（機能されるカメラ）
+1. FBIを開き、`Remote Install`を選択し、`Scan QR Code`します
+1. このQRコードをスキャンして、[TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater)の最新バージョンをインストースします <br>![TWiLight Menu++ UpdaterのQRコード](https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png)
+1. FBIを閉じ、TWiLight Menu++ Updaterを起動します
+   - ホームメニューに表示されない場合は、3DSを再起動します
+1. `TWLMenu++`の横にある`Release`を選択します
+   - しばらく時間がかかります
+1. `nds-bootstrap`の横にある`Release`を選択します
 
-### Installing (Non-Working Camera)
-1. Download the `TWiLightMenu-Updater.cia` file from the [TWiLight Menu++ Updater release page](https://github.com/RocketRobz/TWiLightMenu-Updater/releases)
-1. Place the `TWiLightMenu-Updater.cia` file anywhere on your SD card
-1. Launch FBI on your Nintendo 3DS
-1. In FBI, go to the place you pasted the `TWiLightMenu-Updater.cia` file
-1. Select the `TWiLightMenu-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and Launch the TWiLight Menu++ Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Select `Release` next to `TWLMenu++`
-   - This will take a while
-1. Select `Release` next to `nds-bootstrap`
+### インストール（機能されないカメラ）
+1. [TWiLight Menu++ Updaterのリリースページ](https://github.com/RocketRobz/TWiLightMenu-Updater/releases)から`TWiLightMenu-Updater.cia`ファイルをダウンロードする
+1. `TWiLightMenu-Updater.cia`ファイルをSDカードの任意の場所に配置します
+1. FBIをニンテンドー3DSで起動する
+1. FBIで、`TWiLightMenu-Updater.cia`ファイルを貼り付けた場所に移動します
+1. `TWiLightMenu-Updater.cia`ファィルを選択し、「Install & Delete」を押します
+1. FBIを閉じ、TWiLight Menu++ Updaterを起動します
+   - ホームメニューに表示されない場合は、3DSを再起動します
+1. `TWLMenu++`の横にある`Release`を選択します
+   - しばらく時間がかかります
+1. `nds-bootstrap`の横にある`Release`を選択します

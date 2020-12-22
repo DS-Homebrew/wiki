@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 title: DSi / 3DS skinek létrehozása
-category: Customization
+category: Testreszabás
 ---
 
 The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
@@ -16,9 +16,9 @@ in order to compile your themes into Grit RIFF Format. This will compile your pa
 
 Be aware the paletted textures come with more restrictions than BMP textures, the primary being an absolute maximum of 16 colors per texture. However, some textures may have even tighter default palette restrictions, which can be modified at the risk of running out of palette memory (see below).
 
-## Theme file descriptions
+## Téma fájl leírások
 
-The `volume` and `battery` textures are self explanatory.
+A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 
 ### Háttér texturák (`background_grit` mappa)
 | Textúra            | Leírás                                                                                            |
@@ -86,7 +86,7 @@ You can add custom fonts in NFTR (Nitro FonT Resource) format, these are not in 
 | large.nftr | The large font used for titles            |
 | small.nftr | The smaller font used for most other text |
 
-## Theme configuration
+## Téma konfigurálás
 
 You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures.
 

@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'Ez az oldal elérhető magyarul!' };

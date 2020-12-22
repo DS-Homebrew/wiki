@@ -1,14 +1,14 @@
 [
-    {
-        "title": "Kezdőlap",
-        "url": "/"
-    },
-    {
-        "title": "TWiLight Menu++",
-        "url": "/twilightmenu"
-    },
-    {
-        "title": "DS Index",
-        "url": "/ds-index"
-    }
+		{
+				"title": "Kezdőlap",
+				"url": "/"
+		},
+		{
+				"title": "TWiLight Menu++",
+				"url": "/twilightmenu"
+		},
+		{
+				"title": "DS Index",
+				"url": "/ds-index"
+		}
 ]

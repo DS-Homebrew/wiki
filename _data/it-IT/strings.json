@@ -2,8 +2,9 @@
 	"by": "Da: $1",
 	"description": "Wiki per progetti DS-Homebrew",
 	"discord-server": "Server Discord (solo in inglese)",
-	"help-translate": "Aiutaci a tradurre!",
 	"published-with": "Pubblicato con <a href=\"https://pages.github.com\">Pagine GitHub</a>, visualizza <a href=\"https://github.com/$1\">il sorgente</a> su GitHub.",
 	"source": "Fonte",
+	"translate-here": "Translate here",
+	"translate-on-crowdin": "Translate on Crowdin",
 	"title": "DS-Homebrew Wiki"
 }

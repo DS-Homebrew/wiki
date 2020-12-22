@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Custom Unlaunch Backgrounds
-category: Customization
+title: Testreszabott Unlaunch hátterek
+category: Testreszabás
 ---
 
 Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
@@ -11,7 +11,7 @@ Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom back
 - The file must be less than or equal to 15,472 bytes
 - GIFs with more than 31 colors require specially made palettes to prevent breaking the text
 
-### Installing
+### Telepítés
 1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
 1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
 1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
@@ -40,7 +40,7 @@ As the GIF's palette is loaded to the same area of VRAM as the text palettes it 
 1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
     - If your image doesn't have at least 133 colors you will also need to add filler colors to arrange the text colors in the correct spots
 1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br> ![Palette with correct text colors](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br> ![Paletta helyes szöveg színekkel](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
 1. Use the color picker to make your new colors match those in the above image
 1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
 1. In the next popup, make sure `GIF comment` is off and click `Export`

@@ -2,19 +2,19 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Installing (DSi)
-category: Installing
+title: Telepítés (DSi)
+category: Telepítés
 ---
 
-### Installing
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Telepítés
+1. Töltsd le a `TWiLightMenu-DSi.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt
+1. Másold az `_nds` mappát a microSD kártyád gyökerébe
+1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
+1. Másold a `roms` mappát a microSD kártyád gyökerébe
+1. **hiyaCFW falhasználók:** Másold a `title` mappát az SD kártyád gyökerébe
 
-### Autobooting with Unlaunch
-1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-1. In the Unlaunch menu, go to `OPTIONS`
-1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen
+### Automatikus indulás Unlaunch-csel
+1. Kapcsold be a DSi-d miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
+1. Az Unlaunch menüben menj az `OPTIONS` menühöz
+1. Állítsd be a `NO BUTTON` értéket vagy a választásod szerinti gombot a `TWiLight Menu++`-höz, ami a `BOOT.NDS` mutatja az alsó képernyőn

@@ -22,7 +22,7 @@ category: Telepítés
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
 
-1. For these flashcards:
+1. Ezekhez a flashkártyákhoz:
    - R4i-SDHC
    - r4isdhc.com kártyák
    - r4isdhc.hk kártyák
@@ -35,7 +35,7 @@ category: Telepítés
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
 
-   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Telepítsd az YSMenu-t [innen](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Make sure you have `YSMenu.nds` and `TTMenu` folder (renamed from `YSMenu`, if existed) on the flashcard microSD root
 1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
 

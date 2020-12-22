@@ -7,7 +7,7 @@ description: Una spiegazione di tutte le cose del modding del DS
 ---
 
 ### Configurare CFW
-Mentre la maggior parte dei vantaggi del Custom Firmware sono per il Nintendo DSi e la famiglia dei sistemi del Nintendo 3DS, ti permette di sbloccare le possibilità della tua console. Installare il Custom Firmware è abbastanza facile, e nella maggior parte dei casi, tutto ciò di cui hai bisogno è una scheda (micro)SD. Abbiamo le migliori guide da seguire, con istruzioni passo per passo.
+Mentre la maggior parte dei vantaggi del Custom Firmware sono per il Nintendo DSi e la famiglia dei sistemi del Nintendo 3DS, ti permette di sbloccare tuttto il potenziale della tua console. Installare il Custom Firmware è abbastanza facile, e nella maggior parte dei casi, tutto ciò di cui hai bisogno è una scheda (micro)SD. Abbiamo le migliori guide da seguire, con istruzioni passo per passo.
 
 - [Guida all'Hacking del 3DS](https://3ds.hacks.guide)
   - Comando Lightning: `mod 3ds`

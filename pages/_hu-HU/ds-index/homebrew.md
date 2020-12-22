@@ -6,7 +6,7 @@ title: Homebrew
 description: An explanation of all things DS modding
 ---
 
-### Development
+### Fejlesztés
 
 Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 
@@ -14,7 +14,7 @@ Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitAR
 - **Graphic Library:** We recommend using easyGL2D, which comes shipped with libnds. However, you can use NightFox Lib
 - **Entire Toolchains:** We recommend using devkitARM and libnds, as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use ToolchainGenericDS
 
-### Flashcards
+### Flashkártyák
 
 DS mode flashcards are a slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, the ability to be used without modding your system and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
 

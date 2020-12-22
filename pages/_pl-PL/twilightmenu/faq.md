@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: twilightmenu
-title: FAQ & Troubleshooting
-category: Other
+title: FAQ & Rozwiązywanie problemów
+category: Inne
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+Dla więcej FAQ, odwiedź [wątek na GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 
-#### Q: Why is my 3DS/2DS stuck on black screens when launching TWiLight Menu++, or why is my 3DS/2DS powering off when launching TWiLight Menu++?
-A: TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
+#### P: Dlaczego mój 3DS/2DS zatrzymuje się na czarnym ekranie podczas włączania TWiLight Menu++ albo dlaczego mój 3DS/2DS się wyłącza podczas włączania TWiLight Menu++?
+O: TWL_FIRM może być uszkodzony. Postępuj zgodnie z tym przewodnikiem, aby naprawić problem: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
 
-#### Q: I get a white screen when booting TWiLight Menu++. How do I fix this?
-A:
-- First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
-- If that doesn't work, format your SD card to FAT32 with 32kb cluster/allocation size
-- If that also doesn't work, try a different SD card
+#### P: Mam biały ekran podczas uruchamiania TWiLight Menu++. Jak to naprawić?
+O:
+- Najpierw, spróbuj wstawić konsolę w tryb uśpienia (np. poprzez zamknięcie konsoli albo poprzez wciśnięcie przycisku uśpienia na O2DS), a następnie ją "obudź"
+- Jeśli to nie działa, sformatuj kartę SD do FAT32 z 32KB rozmiarem przydziału
+- Jeśli to też nie zadziała, spróbuj innej karty SD
 
-#### Q: Why do I get a white screen when trying to load a game from SD Card?
-A:
-- First, check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
+#### P: Dlaczego dostaję biały ekran podczas uruchamiania gry z karty SD?
+O:
+- Najpierw, sprawdź [listę kompatybilności nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) i upewnij się że gra jest kompatybna
 - If the game that's attempted to be launched is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
 - If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 
