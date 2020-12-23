@@ -32,8 +32,14 @@ layout: compress
 								<!-- First do the index -->
 								{% for item in items %}
 									{% if item.url contains "index.html" %}
-										<li class="{% unless item contains category %}li-bullet{% endunless %} {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endif %}
+								{% endfor %}
+								{% assign noCat = items | where: "category", nil %}
+								{% for item in noCat %}
+									{% unless item.url contains "index.html" %}
+										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+									{% endunless %}
 								{% endfor %}
 								<!-- Then the other pages -->
 								{% for cat in categories %}
@@ -41,15 +47,12 @@ layout: compress
 										<details {% if page.category contains cat %}open{% endif %}>
 											<summary>{{ cat }}</summary>
 											<ul>
-											{% for item in items %}
-												{% unless item.category contains cat%}
-													{% continue %}
-												{% endunless %}
-												{% if item.url contains "index.html" %}
-													{% continue %}
-												{% endif %}
-												<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
-											{% endfor %}
+												{% for item in items %}
+													{% unless item.category contains cat %}
+														{% continue %}
+													{% endunless %}
+													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+												{% endfor %}
 											</ul>
 										</details>
 									</li>
