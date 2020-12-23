@@ -17,31 +17,42 @@ layout: compress
 				<div class="row pt-5">
 					<div class="col-sm-3">
 						<div class="rounded-3 border sidebar-container mb-3 p-3">
-							{% assign items = site[page.collection] | where: "section", page.section | sort: "category" %}
+							<!-- get category list -->
+							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
+							{% for item in items %}
+								{% if item.category.first %}
+									{% assign list = item.category %}
+								{% else %}
+									{% assign list = item.category | split: "don't split, i just want an array. this shouldn't be in a string." %}
+								{% endif %}
+								{% assign categories = categories | concat: list %}
+							{% endfor %}
+							{% assign categories = categories | uniq | sort_natural %}
 							<ul class="list-unstyled">
-								<!-- First check for index -->
+								<!-- First do the index -->
 								{% for item in items %}
 									{% if item.url contains "index.html" %}
 										<li class="{% unless item contains category %}li-bullet{% endunless %} {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endif %}
 								{% endfor %}
 								<!-- Then the other pages -->
-								{% for item in items %}
-									{% unless item.url contains "index.html" %}
-										{% if item.category and category != item.category %}
-											{% if category %}
-												</ul>
-												</details>
-												</li>
-											{% endif %}
-											{% assign category = item.category %}
-											<li>
-											<details {% if page.category == category %}open{% endif %}>
-											<summary>{{ category }}</summary>
+								{% for cat in categories %}
+									<li>
+										<details {% if page.category contains cat %}open{% endif %}>
+											<summary>{{ cat }}</summary>
 											<ul>
-										{% endif %}
-										<li class="{% unless item contains category %}li-bullet{% endunless %} {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
-									{% endunless %}
+											{% for item in items %}
+												{% unless item.category contains cat%}
+													{% continue %}
+												{% endunless %}
+												{% if item.url contains "index.html" %}
+													{% continue %}
+												{% endif %}
+												<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+											{% endfor %}
+											</ul>
+										</details>
+									</li>
 								{% endfor %}
 								{% if category %}
 									</ul>
