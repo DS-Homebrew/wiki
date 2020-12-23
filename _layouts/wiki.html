@@ -35,13 +35,13 @@ layout: compress
 										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endif %}
 								{% endfor %}
-								{% assign noCat = items | where: "category", nil %}
-								{% for item in noCat %}
-									{% unless item.url contains "index.html" %}
+								<!-- Then the pages not in categories -->
+								{% for item in items %}
+									{% unless item.url contains "index.html" or item.category %}
 										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 									{% endunless %}
 								{% endfor %}
-								<!-- Then the other pages -->
+								<!-- Finally, the other pages -->
 								{% for cat in categories %}
 									<li>
 										<details {% if page.category contains cat %}open{% endif %}>
