@@ -12,7 +12,7 @@ Hardmodding is when you physically solder the motherboard of the Nintendo DSi to
 
 ### Nintendo DSi
 
-- To hardmod a Nintendo DSi / DSi XL (LL) you will need:
+To hardmod a Nintendo DSi / DSi XL (LL) you will need:
   - [Pencil tipped soldering iron](https://www.amazon.com/Sywon-Soldering-Station-Temperature-Adjustable/dp/B01N4571Q6/)
   - [Very fine wire](https://www.amazon.com/BNTECHGO-Silicone-Flexible-Stranded-Impedance/dp/B01MXGNTA4/ref=sr_1_8?crid=1Y1M31ZLILOYN&dchild=1&keywords=30+awg+wire&qid=1608818117&sprefix=30+AWG+%2Caps%2C250&sr=8-8), 28AWG or smaller, preferably 30AWG+ 
   - SD to microSD adapter
