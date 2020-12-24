@@ -21,6 +21,7 @@ Be aware the paletted textures come with more restrictions than BMP textures, th
 The `volume` and `battery` textures are self explanatory.
 
 ### Background textures (`background_grit` folder)
+
 | Texture          | Description                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------- |
 | bottom           | The bottom background texture when not hovering over an icon                                      |
@@ -30,6 +31,7 @@ The `volume` and `battery` textures are self explanatory.
 | top              | The top background                                      |
 
 ### Paletted textures (`grit` folder)
+
 | Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
@@ -65,8 +67,9 @@ The `volume` and `battery` textures are self explanatory.
 | wirelessicons | The icons displayed to indicate a game has wireless support                                    | 7 Colors                                                        |
 
 ### UI textures (`ui` folder)
+
 | Texture          | Description                                             |
-| ---------------- | --------------------------------------------------------|
+| ---------------- | ------------------------------------------------------- |
 | date_time_font   | The font to display the date and time                   |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
@@ -81,7 +84,7 @@ The `volume` and `battery` textures are self explanatory.
 
 You can add custom fonts in NFTR (Nitro FonT Resource) format, these are not in the example themes, but you can download the default fonts from [here](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/nitrofiles/graphics/font). One utility you can use to edit NFTR files is Pk11's [nftr-editor](https://pk11.us/nftr-editor/) (works in any modern browser).
 
-| File       | Description |
+| File       | Description                               |
 | ---------- | ----------------------------------------- |
 | large.nftr | The large font used for titles            |
 | small.nftr | The smaller font used for most other text |
