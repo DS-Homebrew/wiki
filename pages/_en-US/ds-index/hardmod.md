@@ -35,7 +35,7 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
   - DAT0 to pin 7
 
 #### Soldered microSD adapter example
-![microSD example](https://safan41.github.io/hardmodguide/images/sd.jpg)
+![microSD example](/assets/images/dsi-harmod/sd.jpg)
 
 - Insert the microSD card adapter to your computer
   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
