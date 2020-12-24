@@ -45,7 +45,7 @@ Menu BGM needs to be a **16-bit 16kHz Mono** raw PCM file. You can use [Audacity
 If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
 
 To export in the correct format, do:
-1. Select `File` > `Export` > `Export Audio`
+1. Select `File` > `Export` > `Export Audio...`
 1. Set `File Type` to `Other uncompressed files`
 1. Set `Header` to `RAW (header-less)`
 1. Set `Encoding` to `Signed 16-bit PCM`
