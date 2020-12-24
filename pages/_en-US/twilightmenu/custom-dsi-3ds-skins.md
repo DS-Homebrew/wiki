@@ -134,4 +134,4 @@ Paletted textures are not checked for validity. An invalid texture should be rar
 
 ## Custom background music and sound fonts.
 
-The DSi Menu and 3DS themes also support custom music. See [Adding custom music / SFX](Adding-custom-music-sfx) for more details.
+The DSi Menu and 3DS themes also support custom music. See [DSi / 3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
