@@ -108,7 +108,7 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
 | `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
 | `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `VolumeRenderX`          | The X position on the top screen to draw the right shoulder                                                  | 4             | 4             |
+| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
 | `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 16            | 16            |
 | `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
 | `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
