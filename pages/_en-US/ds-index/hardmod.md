@@ -22,11 +22,11 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
 
 #### DSi side A pinouts
-![DSi side A pinouts](https://safan41.github.io/hardmodguide/images/pinouts/DSi/a.jpg)
+![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)
 #### DSi side B pinouts
-![DSi side B pinouts](https://safan41.github.io/hardmodguide/images/pinouts/DSi/b.png)
+![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.jpg)
 #### DSi XL side B pinouts
-![DSi XL side B pinouts](https://safan41.github.io/hardmodguide/images/pinouts/DSi%20XL/nand.png)
+![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - You will need to solder the points on the motherboard to the microSD card adapter
   - CMD to pin 2
