@@ -22,9 +22,9 @@ The sound effect bank contains sound effects such as the icon select sound, etc.
 |wrong.wav|Played when reaching the end of the page|
 |switch.wav|Played when switching pages|
 |stop.wav|Played on the DSi Theme when the select cursor stops moving|
-|menu.wav|Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details|
+|bgm.pcm.raw|Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details|
 
-You can then run `make` to make the sound effect bank. All files listed above, except *menu.wav* are required, but you can make them silent.
+You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
 
 Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
 
