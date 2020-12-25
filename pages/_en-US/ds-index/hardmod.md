@@ -24,7 +24,7 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
 #### DSi side A pinouts
 ![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)
 #### DSi side B pinouts
-![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.jpg)
+![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)
 #### DSi XL side B pinouts
 ![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
