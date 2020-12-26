@@ -35,7 +35,7 @@ The `volume` and `battery` textures are self explanatory.
 | Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
-| box           | The box texture, containing both full and empty textures (for DSi Theme)                       |                                                                 |
+| box           | The box texture, containing both full and empty textures (DSi Theme)                           |                                                                 |
 | box_empty     | The texture displayed for an empty box (3DS Theme)                                             | On the 3DS theme, the transparent color is `#E0DAD9` by default |
 | box_full      | The texture displayed for a box with an icon (3DS Theme)                                       | On the 3DS theme, the transparent color is `#E0DAD9` by default |
 | brace         | The brace texture shown past the first and last icon (DSi theme)                               | 4 Colors                                                        |
@@ -126,7 +126,7 @@ Occasionally, you may require more than the default number of colors for some pa
 
 For example, in `scroll_window.grit`, you may edit `-pn7` and change `7` to `16` for 16 colors. Be aware that if you remove the entire `-pn` line, you may encounter unexpected results.
 
-Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of palettes to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
+Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of colors in the palette to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
 
 Additionally, paletted textures must have dimensions that are a multiple of 2. Paletted textures sizes can not be changed except for `bubble` and `start_border`, which can have configurable sprite dimensions in `theme.ini`. However, note that doing so may have unexpected consequences.
 
