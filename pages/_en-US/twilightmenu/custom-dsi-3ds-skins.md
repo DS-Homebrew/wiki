@@ -12,7 +12,7 @@ Changes to paletted textures are more involved. Within the `grit` and `backgroun
 ```bash
 $ make
 ```
-in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the [advanced theming](#advanced-theming) section below.
+in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the advanced theming section below.
 
 Be aware the paletted textures come with more restrictions than BMP textures, the primary being an absolute maximum of 16 colors per texture. However, some textures may have even tighter default palette restrictions, which can be modified at the risk of running out of palette memory (see below).
 
@@ -21,21 +21,19 @@ Be aware the paletted textures come with more restrictions than BMP textures, th
 The `volume` and `battery` textures are self explanatory.
 
 ### Background textures (`background_grit` folder)
-
 | Texture          | Description                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------- |
 | bottom           | The bottom background texture when not hovering over an icon                                      |
 | bottom_bubble    | The bottom background texture when hovering over an icon                                          |
 | bottom_ds        | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
 | bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top              | The top background                                                                                |
+| top              | The top background                                      |
 
 ### Paletted textures (`grit` folder)
-
 | Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
-| box           | The box texture, containing both full and empty textures (DSi Theme)                           |                                                                 |
+| box           | The box texture, containing both full and empty textures (for DSi Theme)                       |                                                                 |
 | box_empty     | The texture displayed for an empty box (3DS Theme)                                             | On the 3DS theme, the transparent color is `#E0DAD9` by default |
 | box_full      | The texture displayed for a box with an icon (3DS Theme)                                       | On the 3DS theme, the transparent color is `#E0DAD9` by default |
 | brace         | The brace texture shown past the first and last icon (DSi theme)                               | 4 Colors                                                        |
@@ -63,13 +61,12 @@ The `volume` and `battery` textures are self explanatory.
 | scroll_window | The part of the scrollbar that indicates the icons that are in view                            | 7 Colors                                                        |
 | small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)               |                                                                 |
 | start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                  |                                                                 |
-| start_text    | The text displayed on the start border (DSi Theme)                                             | 4 Colors                                                        |
+| start_text    | The text displayed for the start border on the (DSi Theme)                                     | 4 Colors                                                        |
 | wirelessicons | The icons displayed to indicate a game has wireless support                                    | 7 Colors                                                        |
 
 ### UI textures (`ui` folder)
-
 | Texture          | Description                                             |
-| ---------------- | ------------------------------------------------------- |
+| ---------------- | --------------------------------------------------------|
 | date_time_font   | The font to display the date and time                   |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
@@ -84,7 +81,7 @@ The `volume` and `battery` textures are self explanatory.
 
 You can add custom fonts in NFTR (Nitro FonT Resource) format, these are not in the example themes, but you can download the default fonts from [here](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/nitrofiles/graphics/font). One utility you can use to edit NFTR files is Pk11's [nftr-editor](https://pk11.us/nftr-editor/) (works in any modern browser).
 
-| File       | Description                               |
+| File       | Description |
 | ---------- | ----------------------------------------- |
 | large.nftr | The large font used for titles            |
 | small.nftr | The smaller font used for most other text |
@@ -108,17 +105,17 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
 | `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
 | `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
+| `VolumeRenderX`          | The X position on the top screen to draw the right shoulder                                                  | 4             | 4             |
 | `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 16            | 16            |
 | `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
 | `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
 | `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0             | 1             |
-| `StartTextUserPalette`   | Use the DSi Profile color for the palette of the start text                                                  | N/A           | 1             |
-| `StartBorderUserPalette` | Use the DSi Profile color for the palette of the start border                                                | N/A           | 1             |
-| `ButtonArrowUserPalette` | Use the DSi Profile color for the palette of the arrow buttons on the bottom of the screen                   | N/A           | 1             |
-| `MovingArrowUserPalette` | Use the DSi Profile color for the palette of the arrow shown when moving icons                               | N/A           | 1             |
-| `LaunchDotsUserPalette`  | Use the DSi Profile color for the palette of the launch dots                                                 | N/A           | 1             |
-| `DialogBoxUserPalette`   | Use the DSi Profile color for the palette of the dialog box                                                  | N/A           | 1             |
+| `StartTextUserPalette`   | Assign the DSi Profile Theme to the palette of the start text                                                | N/A           | 1             |
+| `StartBorderUserPalette` | Assign the DSi Profile Theme Palette to the palette of the start border                                      | N/A           | 1             |
+| `ButtonArrowUserPalette` | Assign the DSi Profile Theme Palette to the palette of the arrow buttons on the bottom of the screen         | N/A           | 1             |
+| `MovingArrowUserPalette` | Assign the DSi Profile Theme Palette to the palette of the arrow shown when moving icons                     | N/A           | 1             |
+| `LaunchDotsUserPalette`  | Assign the DSi Profile Theme Palette to the palette of the launch dots                                       | N/A           | 1             |
+| `DialogBoxUserPalette`   | Assign the DSi Profile Theme Palette to the palette of the dialog box                                        | N/A           | 1             |
 
 ## Advanced theming
 
@@ -126,12 +123,12 @@ Occasionally, you may require more than the default number of colors for some pa
 
 For example, in `scroll_window.grit`, you may edit `-pn7` and change `7` to `16` for 16 colors. Be aware that if you remove the entire `-pn` line, you may encounter unexpected results.
 
-Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of colors in the palette to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
+Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of palettes to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
 
 Additionally, paletted textures must have dimensions that are a multiple of 2. Paletted textures sizes can not be changed except for `bubble` and `start_border`, which can have configurable sprite dimensions in `theme.ini`. However, note that doing so may have unexpected consequences.
 
 Paletted textures are not checked for validity. An invalid texture should be rare if created with the provided makefile, but in certain cases a corrupted texture will cause the menu to not load at all.
 
-## Custom background music and sound effects
+## Custom background music and sound fonts.
 
-The DSi Menu and 3DS themes also support custom music. See [DSi / 3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+The DSi Menu and 3DS themes also support custom music. See [Adding custom music / SFX](Adding-custom-music-sfx) for more details.
