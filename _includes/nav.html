@@ -11,7 +11,8 @@
 				{% for item in site.data[page.collection].nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ item.url }}">{{ item.title }}</a>
+							{% assign section = "/" | append: page.section %}
+							<a class="nav-link {% if item.url == section %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ item.url }}">{{ item.title }}</a>
 						</li>
 					{% endif %}
 					{% if item.items %}
