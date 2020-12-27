@@ -367,6 +367,14 @@ kbd.face {
 	padding-bottom: 0.25rem;
 }
 
+.direction-ltr {
+	direction: ltr;
+}
+
+.direction-rtl {
+	direction: rtl;
+}
+
 @media only screen and (min-width: 576px) {
 	// Version of .position-absolute that only triggers for sm+
 	.position-absolute-sm {
