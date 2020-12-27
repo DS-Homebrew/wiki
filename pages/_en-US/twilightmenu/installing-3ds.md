@@ -28,7 +28,7 @@ category: Installing
 1. Launch FBI on your Nintendo 3DS
 1. In FBI, go to the place you pasted the `Universal-Updater.cia` file
 1. Select the `Universal-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and Launch Universal-Updater
+1. Close FBI and launch Universal-Updater
    - If it doesn't show up on your home menu, reboot your 3DS
 1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
