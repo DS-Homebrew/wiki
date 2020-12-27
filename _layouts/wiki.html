@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.collection | default: "en-US" }}">
+<html lang="{{ page.collection | default: "en-US" }}" {% if site.rtl contains page.collection %}dir="rtl"{% endif %}>
 {% include head.html%}
 
 <body>
@@ -43,11 +43,11 @@ layout: compress
 								<!-- Finally, the other pages -->
 								{% for cat in categories %}
 									<li>
-										<details {% if page.category contains cat %}open{% endif %}>
+										<details {% if page.category == cat or page.category.first and page.category contains cat %}open{% endif %}>
 											<summary>{{ cat }}</summary>
 											<ul>
 												{% for item in items %}
-													{% unless item.category contains cat %}
+													{% unless item.category == cat or item.category.first and item.category contains cat %}
 														{% continue %}
 													{% endunless %}
 													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>

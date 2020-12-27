@@ -292,7 +292,13 @@ div .btn-primary:hover {
 
 .li-bullet {
 	list-style: disc;
-	margin-left: 1em;
+	margin-left: 1.25em;
+}
+
+html[dir=rtl] .li-bullet {
+	list-style: disc;
+	margin-left: 0;
+	margin-right: 1.5em;
 }
 
 // Hide header anchors unless hovering the header
@@ -362,15 +368,16 @@ kbd.face {
 }
 
 @media only screen and (min-width: 576px) {
-	// Only right align language dropdown when sm+
-	.language-dropdown {
-		position: absolute;
-		right: 5px;
+	// Version of .position-absolute that only triggers for sm+
+	.position-absolute-sm {
+		position: absolute!important;
 	}
-	.dropdown-menu-end-sm {
+
+	// Seems to be broken in RTL in bootstrap v5.0-beta1, so override here
+	html[dir=rtl] .dropdown-menu-sm-end {
 		--bs-position: end;
-		right: 0;
-		left: auto;
+		right: auto;
+		left: 0;
 	}
 }
 

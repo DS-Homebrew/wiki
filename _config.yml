@@ -20,6 +20,8 @@ collections:
     output: true
   fr-FR:
     output: true
+  he-IL:
+    output: true
   hu-HU:
     output: true
   it-IT:
@@ -53,6 +55,7 @@ lang-names:
   en-US: English
   es-ES: Español
   fr-FR: Français
+  he-IL: עברית
   hu-HU: Magyar
   it-IT: Italiano
   ja-JP: 日本語
@@ -66,3 +69,5 @@ lang-names:
   uk-UA: Українська
   zh-CN: 中文 (简体)
   zh-TW: 中文 (繁體)
+
+rtl: [he-IL]
