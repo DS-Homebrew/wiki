@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: ds-index
 title: Kereskedelmi ROM-ok
-description: An explanation of all things DS modding
+description: Minden a DS moddolásról
 ---
 
 ### Anti-Piracy
@@ -17,22 +17,22 @@ In case there isn't a `.IPS` file for your ROM or your software didn't patch you
 
 ### CloneBoot
 
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
+A Cloneboot az, amikor egy játék elküldi saját betöltött arm9/arm7 binárisát egy másik konzolra. Ez a DS Download Play-hez használt, az egykártyás több játékos játékokhoz. Nem az összes játék, ami támogatja az egykártyás többjátékos játékot használ cloneboot-ot.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
+Aktuálisan az nds-bootstrap cloneboot patchei töröttek mert az arm9/7 binárisok patchelésre kerültek, ami az RSA aláírásaikat érvénytelené teszi.
 
-### Thumb instructions
-Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
+### Thumb utasítások
+A 32-bites hagyományos ARM utasítások helyett a THUMB 16-bites utasításokat használ. Ez hasznos lehet, ha a memória sávszélesség a szűk keresztmetszet.
 
-### Save Files
-Nintendo DS cartridges have 4 known save types:
+### Mentés fájlok
+A Nintendo DS cartridge-ek 4 ismert mentés típussal rendelkeznek:
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+Habár ritka, léteznek DS cartridge-k NAND alapú mentéssel: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
 
@@ -40,13 +40,13 @@ There are different formats to use depending on the loader, but nds-bootstrap us
 Card DMA (stands for Direct Memory Access) is a more efficient way to read catridge data than by software. When there isn't any data available, code can still execute. In software catridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
 
 You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+- Például: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Donor ROM
 
 In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save. The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result. In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
 
-### Action Replay Cheats
+### Action Replay csalások
 
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
@@ -68,4 +68,4 @@ Cheat codes generally have types A through E, and here is a description of them:
 
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutives addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
 
-Credits: (`DeadSkullzJr`)
+Készítők: (`DeadSkullzJr`)

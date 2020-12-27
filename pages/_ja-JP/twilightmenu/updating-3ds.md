@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: twilightmenu
-title: Updating (3DS)
-category: Updating
+title: 更新（3DS）
+category: 更新
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**注：**v16.4.0より古いバージョンから更新する場合は、DSゲームの`.sav`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDS ROMと同じ場所に置いてください。
 
-### Updating
-1. Launch the TWiLight Menu++ Updater
-   - If you don't have it, follow the [installing](installing-%7C-3ds) instructions
-1. Select `Release` next to `TWLMenu++`
-   - This will take a while
-1. Select `Release` next to `nds-bootstrap`
+### 更新
+1. Universal-Updaterを開く
+   - お持ちでない場合は、[インストール](installing-3ds)手順に従ってください
+1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます。
+1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールする
+   - しばらく時間がかかります
 
-### More steps for the flashcard side
+### フラッシュカード側の他の手順
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+TWLMenu++でSDとフラッシュカードの内容を切り替えることができ、フラッシュカードのTWLMenu++はv16.3.0以降である場合は、以下の手順に従ってください。
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. TWLMenu++の設定に行く
+1. `TWiLight Menu++を更新します`を選択します
+1. `本体の(micro)SD > Slot-1のmicroSD`を選択します

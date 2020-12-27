@@ -14,7 +14,7 @@ O: TWL_FIRM może być uszkodzony. Postępuj zgodnie z tym przewodnikiem, aby na
 #### P: Mam biały ekran podczas uruchamiania TWiLight Menu++. Jak to naprawić?
 O:
 - Najpierw, spróbuj wstawić konsolę w tryb uśpienia (np. poprzez zamknięcie konsoli albo poprzez wciśnięcie przycisku uśpienia na O2DS), a następnie ją "obudź"
-- Jeśli to nie działa, sformatuj kartę SD do FAT32 z 32KB rozmiarem przydziału
+- If that doesn't work, format your SD card to FAT32 with 32KB cluster/allocation size
 - Jeśli to też nie zadziała, spróbuj innej karty SD
 
 #### P: Dlaczego dostaję biały ekran podczas uruchamiania gry z karty SD?
@@ -37,3 +37,9 @@ A: Depending on the save file of sudokuhax, the touch screen inputs may not work
 
 #### Q: Can The Biggest Loser boot TWiLight Menu++?
 A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+
+#### Q: How do I get games?
+A: You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). You can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump GBA games on DS or DS games on DSi, or [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump DS and 3DS games 3DS.
+
+#### Q: Can I get the save files from my cartridges onto my SD card? / Can I put my save files from the SD onto my cartridges?
+A: Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.

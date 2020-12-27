@@ -12,20 +12,20 @@ category: インストール
 1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピーする
 1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピーする
 1. `roms`フォルダをフラッシュカードのmicroSDカードのルートにコピーする
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+1. すでにセーブデータがある場合は、DS ROMの場所にある`.sav`ファイルを`saves`という新しいフォルダに移動します。このフォルダもDS ROMの場所にあります。
 1. ...
-   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **DS Phat/liteユーザー：**`BOOT.NDS`を起動すると、白い画面のロックアップが発生した場合は、DSメモリー拡張カートリッジを挿入して、もう一度やり直してください
+   - **DSi/3DSユーザー：**本体のSDカードでTWLMenu++を実行し、`Slot-1でSCFGアクセス`をオンにする
+      - これにより、フラッシュカードのゲームでTWLクロック速度やVRAMブーストを使用し、本体のSDカードにアクセスすることができます
 
-### To run games using your flashcard firmware
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+### フラッシュカードのファームウェアを使用してゲームを実行するには
+1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します
+   - そうしたら場合は、手順3に進みます。 そうでない場合は、以下の手順に従ってください
 
-1. For these flashcards:
+1. 以下のフラッシュカードため：
    - R4i-SDHC
-   - r4isdhc.com cards
-   - r4isdhc.hk cards
+   - r4isdhc.comのカード
+   - r4isdhc.hkのカード
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -35,13 +35,13 @@ category: インストール
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
 
-   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Make sure you have `YSMenu.nds` and `TTMenu` folder (renamed from `YSMenu`, if existed) on the flashcard microSD root
-1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   [ここ](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)からYSMenuをインストールします
+      - フラッシュカードのmicroSDのルートに`YSMenu.nds`と`TTMenu`フォルダ（必要場合は、`YSMenu`から名前を変更）があることを確認します
+1. `nds-bootstrapを使用 (B4DS)`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます。
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### TWiLight Menu++を自動起動する
+1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します
+   - フラッシュカードが見つけない場合は、これをスキップします
 1. ...
-   - **DS Phat/DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **DS Phat/DS Liteユーザー：**DSメニューで設定に移動し、自動起動をオンにして、起動時にフラッシュカードょ起動します
+   - **DSi/3DSユーザー：**本体のSDカードでTWLMenu++を実行し、`Slot-1を自動起動`をオンにする

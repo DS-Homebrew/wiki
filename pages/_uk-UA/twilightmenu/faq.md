@@ -14,7 +14,7 @@ A: TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: 
 #### Q: I get a white screen when booting TWiLight Menu++. How do I fix this?
 A:
 - First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
-- If that doesn't work, format your SD card to FAT32 with 32kb cluster/allocation size
+- If that doesn't work, format your SD card to FAT32 with 32KB cluster/allocation size
 - If that also doesn't work, try a different SD card
 
 #### Q: Why do I get a white screen when trying to load a game from SD Card?
@@ -37,3 +37,9 @@ A: Depending on the save file of sudokuhax, the touch screen inputs may not work
 
 #### Q: Can The Biggest Loser boot TWiLight Menu++?
 A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+
+#### Q: How do I get games?
+A: You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). You can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump GBA games on DS or DS games on DSi, or [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump DS and 3DS games 3DS.
+
+#### Q: Can I get the save files from my cartridges onto my SD card? / Can I put my save files from the SD onto my cartridges?
+A: Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.

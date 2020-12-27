@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'עמוד זה זמין בעברית!' };

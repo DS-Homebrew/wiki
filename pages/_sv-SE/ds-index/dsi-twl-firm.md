@@ -1,23 +1,23 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: ds-index
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: An explanation of all things DS modding
+description: En förklaring av allting som är DS moddning
 ---
 
-### Setting-up CFW
-While most of the benefits of Custom Firmware are for the Nintendo DSi and the Nintendo 3DS family of systems, it allows you to unlock your consoles possibilities. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD Card. We have the best of guides for you to follow, with step-by-step instructions.
+### Konfigurera CFW
+Medan de flesta av fördelarna med custom firmware är för Nintendo DSi och Nintendo 3DS familjerna, så låter den dig låsa upp flera möjligheter med din konsol. Att installera custom firmware är ganska enkelt, och i de flesta fall är allt man behöver ett (mikro)SD kort. Vi har de bästa guiderna som du kan följa, med steg-för-steg-instruktioner.
 
 - [3DS Hacking Guide](https://3ds.hacks.guide)
-  - Lightning command: `mod 3ds`
-  - Kuriisu command: `guide 3ds`
+  - Lightning kommando: `mod 3ds`
+  - Kuriisu kommando: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
-  - Lightning command: `mod dsi cfw`
-  - Kuriisu command: `guide dsi`
+  - Lightning kommando: `mod dsi cfw`
+  - Kuriisu kommando: `guide dsi`
 
-### CPU Speeds
-The Nintendo DS shipped with a 67Mhz processor in 2004. The Nintendo DSi shipped with an 133Mhz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67Mhz. Some applications tied themselves to that clock speed and as a result, would not work well with a higher clock speed. Most games, however, would outperform the original with a higher clock speed.
+### CPU Hastigheter
+Nintendo DS släpptes år 2004 med en 67Mhz processor. Nintendo DSi släpptes år 2009 med en 133Mhz processor. De flesta DS-spel gjordes innan Nintendo DSi kom ut, och därför hade de bara en 67Mhz processor tillgänglig. Vissa program var bundna till den frekvensen, och fungerade därför inte bra med en högre frekvens. De flesta spel skulle däremot prestera bättre än orginalet med en högre frekvens.
 
 nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work with the higher clock speed. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 

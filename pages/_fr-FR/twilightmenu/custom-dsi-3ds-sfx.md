@@ -22,9 +22,9 @@ The sound effect bank contains sound effects such as the icon select sound, etc.
 | wrong.wav   | Played when reaching the end of the page                                               |
 | switch.wav  | Played when switching pages                                                            |
 | stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| menu.wav    | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
+| bgm.pcm.raw | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
 
-You can then run `make` to make the sound effect bank. All files listed above, except *menu.wav* are required, but you can make them silent.
+You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
 
 Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
 
@@ -40,12 +40,18 @@ You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to
 
 ## Menu BGM
 
-To create custom menu BGM, you will need to install [SoX](https://sourceforge.net/projects/sox/files/sox/14.4.2/sox-14.4.2-win32.exe/download).
-
-Menu BGM is created from **menu.wav**, which must be **16-bit 16kHz Mono**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Menu BGM needs to be a **16-bit 16kHz Mono** raw PCM file. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
 
 If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
 
-If SoX is installed, once you run `make`, you will get a `bgm.pcm.raw` file, that can be copied to the *sound* subfolder in your theme folder.
+To export in the correct format, do:
+1. Select `File` > `Export` > `Export Audio...`
+1. Set `File Type` to `Other uncompressed files`
+1. Set `Header` to `RAW (header-less)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Click `OK` to the metadata editing
+
+Now you have a `bgm.pcm.raw` file that can be copied to the *sound* subfolder in your theme folder.
 
 Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.

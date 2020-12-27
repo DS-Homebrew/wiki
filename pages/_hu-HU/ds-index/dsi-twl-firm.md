@@ -3,25 +3,25 @@ lang: hu-HU
 layout: wiki
 section: ds-index
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: An explanation of all things DS modding
+description: Minden a DS moddolásról
 ---
 
-### Setting-up CFW
-While most of the benefits of Custom Firmware are for the Nintendo DSi and the Nintendo 3DS family of systems, it allows you to unlock your consoles possibilities. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD Card. We have the best of guides for you to follow, with step-by-step instructions.
+### CFW telepítése
+Habár a legtöbb előny az egyedi firmware a Nintendo DSi és Nintendo 3DS számára nyújtja, lehetővé teszi, hogy felold a konzolod lehetőségeit. Az egyedi firmware telepítése elég könnyű és a legtöbb esetben csak egy (micro)SD kártyára van szükséged hozzá. A legjobb útmutatókkal rendelkezünk, kövesd lépésről lépésre.
 
 - [3DS Hacking Guide](https://3ds.hacks.guide)
-  - Lightning command: `mod 3ds`
-  - Kuriisu command: `guide 3ds`
+  - Lightning parancs: `mod 3ds`
+  - Kuriisu parancs: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
-  - Lightning command: `mod dsi cfw`
-  - Kuriisu command: `guide dsi`
+  - Lightning parancs: `mod dsi cfw`
+  - Kuriisu parancs: `guide dsi`
 
-### CPU Speeds
-The Nintendo DS shipped with a 67Mhz processor in 2004. The Nintendo DSi shipped with an 133Mhz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67Mhz. Some applications tied themselves to that clock speed and as a result, would not work well with a higher clock speed. Most games, however, would outperform the original with a higher clock speed.
+### CPU sebességek
+A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo DSi 133MHz-es processzorral jött ki 2009-ben. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem működik jól magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
 
-nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work with the higher clock speed. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
+Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
-### Nintendo DSi System Menu
+### A Nintendo DSi System Menu
 The Nintendo DSi System Menu uses a signed 32-bit integer to determine the free space on the NAND. Using the actual NAND, amount will never go above 128 MB so it was safe. However, when we redirect the NAND to the SD Card, it goes above the 32-bit integer limit, which makes it overflow to a negative number. The negative number of free space will unfortunately cause an "An error has occurred" error message, not letting you boot into the menu. Fortunately, this can be fixed by making a dummy file to put it in a positive number.
 
 The positive and negative numbers are determined by pairs of two. For example, 1-2 GB of free space is allowed while 3-4 isn't. 5-6 GB of free space is allowed while 7-8 isn't.

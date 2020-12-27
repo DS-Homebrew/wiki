@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Updating (3DS, Manual)
-category: Updating
+title: Aggiornamento (3DS, Manuale)
+category: Aggiornamento
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**NOTA:** Se aggiorni da una versione più vecchia della v16.4.0, si prega di spostare i tuo file `.sav` per o giochi del DS in una nuova cartella chiamata `saves`, con la cartella `saves` nello stesso posto delle ROM del DS.
 
-### Updating
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+### Aggiornamento
+1. Scarica l'ultima versione di `TWiLightMenu-3DS.7z` dalla [pagina delle versioni](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Estrai `TWiLightMenu-3DS.7z`
+1. Copia la cartella `_nds` nella tua scheda SD
+1. Copia il file `BOOT.NDS` nella tua scheda SD
+1. Copia i due file `.cia` nella tua scheda SD
+1. Sul tuo 3DS, installa i due file CIA con FBI
 
-### More steps for the flashcard side
+### Ulteriori passi per il lato della flashcard
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è su v16.3. 0 o successiv3, segui questi passaggi.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Vai nelle impostazioni di TWLMenu++
+1. Seleziona `Aggiorna TWiLight Menu++`
+1. Seleziona `Console (micro)SD > Slot-1 microSD`

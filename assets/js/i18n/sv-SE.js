@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'Den här sidan finns på svenska!' };

@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Installing (DSi)
-category: Installing
+title: Installazione (DSi)
+category: Installazione
 ---
 
-### Installing
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Installazione
+1. Scarica l'ultima versione di `TWiLightMenu-DSi.7z` dalla [pagina delle versioni](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Estrai `TWiLightMenu-DSi.7z`
+1. Copia la cartella `_nds` nella tua scheda SD
+1. Copia il file `BOOT.NDS` nella tua scheda SD
+1. Copia la cartella `roms` nella tua scheda SD
+1. **Utenti di hiyaCFW:** Copiate la cartella `title` nella vostra scheda SD
 
-### Autobooting with Unlaunch
-1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-1. In the Unlaunch menu, go to `OPTIONS`
-1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen
+### Auto-avvio con Unlaunch
+1. Accendi il tuo DSi tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
+1. Nel menu Unlaunch, vai a `OPTIONS`
+1. Imposta `NO BUTTON` o un pulsante di tua scelta a ` TWiLight Menu++,` nel quale ci dovrebbe essere scritto `BOOT.NDS` sullo schermo inferiore

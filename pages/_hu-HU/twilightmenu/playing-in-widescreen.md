@@ -6,26 +6,26 @@ title: Játék széles képenyőn
 category: Egyéb
 ---
 
-Requires an Old/New Nintendo 3DS or 2DS console.
+Old/New Nintendo 3DS vagy 2DS konzolt igényel.
 
-**Preparation**
-- Make sure Luma's `boot.firm` is on the SD root for this to work
-- If you used TWiLight Menu++ Updater or Universal-Updater to update, please install the latest TWiLight Menu++ CIAs using FBI
+**Előkészítés**
+- Ellenőrizd, hogy a Luma `boot.firm` -je megtalálható-e az SD kártya gyökerében, ahhoz, hogy ez működjön
+- Ha a TWiLight Menu++ Updater-t vagy az Universal-Updater-t használtad frissítésre, kérjük telepítsd a TWiLight Menu++ CIA-t az FBI használatával
 
-1. Download [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. In Luma config, enable external FIRMs and modules
-1. Install the TWPatch CIA
-1. Launch TWPatch
-1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
-   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+1. Töltsd le a [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia)-et ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. A luma konfigurációban engedélyezd a külső FIRM-eket és modulokat
+1. Telepítsd a TWPatch CIA-t
+1. Indítsd el a TWPatch-ot
+1. Nyomj <kbd class="face">X</kbd> + <kbd>START</kbd> gombot a `TwlBg.cxi` fájl széles képernyővel történő generálásához
+   - Ha felső képernyő nem mutatja, hogy a széles képernyő patch engedélyezett, próbáld újra a 4-es lépéshez
+   - Ha a széles képernyő nem működik, várj az RTCom-activált széles képernyő kiadásáig
+1. A TWiLight Menu++ beállításokban válts az `Egyéb beállítások` oldalra és állítsd be a `Képernyő arány`-t `16:10`-re
+   - Ez játékonként is beállítható egyébként
 
-You're all done! Enjoy your DS games in widescreen!
+Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 
-**NOTE1**: Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. For this to be fixed so only the widescreen-compatible games run in widescreen, wait for RTCom-activated widescreen to be released.
+**MEGJEGYZÉS1**: Minden játék/app a DS(i) módban széles képernyővel fog futni, még azok is amelyek nem kompatibilisek a széles képernyővel. Ennek a javítására, hogy csak a széles képernyő kompatibilis játékok fussanak széles képernyőn, várj az RTCom-aktivált széles képernyő kiadásáig.
 
-**NOTE2:** Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched. If you don't see the screen aspect ratio setting, wait for RTCom-activated widescreen to be released.
+**MEGJEGYZÉS2:** Ne tartsd nyomva a <kbd>START</kbd> vagy <kbd>SELECT</kbd> gombokat, amikor indítod a TWLMenu++-t, ha nem szeretnéd, hogy a széles képernyő hibásan nézzen ki. Ha nem látod a képernyő arány beállítást, várj az RTCom-aktivált széles képernyő kiadásáig.
 
-Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+Nem minden játék széles képernyő kompatibilis. [Készítettünk egy listát a széles képernyőt támogató játékokról](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)

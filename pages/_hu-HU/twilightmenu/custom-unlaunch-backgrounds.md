@@ -6,43 +6,43 @@ title: Testreszabott Unlaunch hátterek
 category: Testreszabás
 ---
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
-- Only the first frame will be shown, no animated backgrounds
-- The file must be less than or equal to 15,472 bytes
-- GIFs with more than 31 colors require specially made palettes to prevent breaking the text
+A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egyedi háttérképpel rendelkezzen. Ez egy 256 x 192 GIF fájl kell legyen, a néhány korlátozással:
+- Csak az első képkocka kerül bemutatásra, nincs animált háttér
+- A fájlnak 15,472 bájtosnak, vagy annál kisebbnek kell lennie
+- A 31 színnél többel rendelkező GIF-ek esetén speciálisan készült paletta szükséges, hogy megelőzze a szöveg összetörését
 
 ### Telepítés
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
-1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
-1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
-1. Exit settings and launch `Unlaunch DSi Installer`
-   - It should use your custom image, if it does not then turn off your console and make sure your GIF conforms with the requirements above
-1. Choose `Install Now`
+1. Másold a GIF fájlt az `sd:/_nds/TWiLightMenu/unlaunch/backgrounds` mappába
+1. Töltsd le a [legfrissebb Unlaunch telepítőt](https://problemkaputt.de/unlaunch.zip) és csomagold ki az `UNLAUNCH.DSI`-t az SD kártyádra
+1. Nyisd meg a TWiLight Menu++ beállításokat, és válts az `Unlaunch beállítások` oldalra, és kattints a `Háttér`-re, majd válaszd ki amelyiket szeretnéd
+1. Lépj ki a beállításokból és indítsd el az `Unlaunch DSi Installer`-t
+   - Használnia kell majd az egyedi képedet, ha mégsem, akkor kapcsold ki a konzolod, és ellenőrizd, hogy a GIF fájlod megfelel-e a fenti követelményeknek
+1. Válaszd az `Install Now` opciót
 
-### Using GIFs with more than 31 colors
-As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
-1. Open your image in GIMP and make sure it's 256 x 192 pixels
-1. In the menu bar at the top, select `Image` -> `Mode` -> `Indexed...`
-1. Select `Generate optimum palette` and set the maximum colors to anything up to 226 colors
-1. Select a dithering pattern from the `Color dithering` dropdown
-   - Images without dithering generally compress best, but with it will generally look better, try and see which looks best for the size
-1. Click `Convert`
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-   - If it gives any warnings, click the accept button
-1. In the next popup, disable the `GIF comment` and click `Export`
-1. Check the size of the exported file, if it's 15,472 bytes or less, then skip to step 13
-1. If your GIF is too large, then using either [gifsicle](http://www.lcdf.org/gifsicle/) or [ezgif.com](https://ezgif.com/optimize) you can try optimizing it
-   - These instructions will use ezgif as its simpler, being a website
-1. Open https://ezgif.com/optimize, and upload your GIF
-1. Try different compression levels until you find the best one under 15,472 bytes (15.11KiB), ideally a bit under as GIMP may increase the size a bit
-1. Save the optimized GIF and open it in GIMP
-1. In the menu bar at the top, select `Windows` -> `Dockable Dialogs` -> `Colormap`
-1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
-    - If your image doesn't have at least 133 colors you will also need to add filler colors to arrange the text colors in the correct spots
-1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br> ![Paletta helyes szöveg színekkel](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
-1. Use the color picker to make your new colors match those in the above image
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-1. In the next popup, make sure `GIF comment` is off and click `Export`
-1. Ensure the image is still under 15,472 bytes, if it's gotten too big then repeat from step 10 using a higher compression level
-1. You're done! Follow the [installing](#installing) section above to use your image!
+### 31 színnél többel rendelkező GIF használata
+Mivel a GIF palettája VRAM-ba ugyanoda került betöltésre, ahova a szöveg paletta is, az felül fogja írni, ha a paletta túl nagy; ez azonban megkerülhető azzal, ha a szöveg palettát beleágyazzuk a GIF palettába. Ezt más színekkel használva lehetővé teszi az eltérő szöveg színeket, ha azt szeretnéd. Ezek az instrukciók [GIMP](https://gimp.org)-hez készültek, de bármilyen képszerkesztő, ami tudja egy kép palettájának átrendezését megfelel a munkára.
+1. Nyisd meg a képedet a GIMP-ben és ellenőrizd, hogy a mérete 256 x 192 pixel
+1. A menüben felül válaszd a `Kép` -> `Mód` -> `Indexelt...` opciókat
+1. Válaszd az `Optimális paletta előállítása` opciót, és állíts a színek maximális számát 226-ra
+1. Válassz egy színszórás (dithering) mintát a `Színszórás` lenyíló listából
+   - A képek színszórás nélkül általában jobban tömöríthetők, de vele általában jobban néznek ki; próbáld ki melyik néz ki jobban a mérethez
+1. Kattints az `Átalakítás` gombra
+1. A menüben felül válaszd az `Fájl` ->`Exportálás másként...` opciót, majd adj neki nevet a `.gif` kiterjesztéssel és kattints az `Exportálás` gombra
+   - Ha bármilyen figyelmeztetést ad, kattints az Elfogad gombra
+1. A következő előugró ablakban tilts le a `GIF-megjegyzés`-t és kattints az `Exportálás` gombra
+1. Ellenőrizd az exportált fájl méretét, hogy 15 472 bájt vagy kisebb lett-e, és ha igen, ugorj a 13. lépésre
+1. Ha a GIF-ed túl nagy, akkor vagy a [gifsicle](http://www.lcdf.org/gifsicle/) vagy az [ezgif.com](https://ezgif.com/optimize) használatával próbáld meg optimalizálni
+   - Ezek az instrukciók az ezgif használatát mutatják be, ami egyszerű, mert ez egy weboldal
+1. Nyisd meg https://ezgif.com/optimize oldalt és töltsd fel a GIF fájlodat
+1. Próbálj ki különböző tömörítési szinteket, hogy megtaláld a legjobbat 15 472 bájt alatt (15.11KiB), ideálisan egy kicsit alatta, mert a GIMP még növelheti kicsit a méretet
+1. Mentsd le az optimalizált GIF-et, majd nyisd meg GIMP-ben
+1. A menüben felül válaszd az `Ablakok` -> `Dokkolható párbeszédablakok` -> `Színtérkép` opciókat
+1. Változtasd meg az aktuális `Előtér színt` #080808-ra és adj hozzá 14 új színt a `+` gombbal
+    - Ha képed nem tartalmaz legalább 133 színt, akkor szükséged lesz kitöltő színekre, hogy a szöveg színeket a megfelelő helyre rakhasd
+1. Kattints jobb gombbal a Színtérképre és válaszd a `Színtérkép újrarendezése...` opciót
+1. Rendezd el az új színeket, hogy ehhez igazodjanak: (A 2. és 3. oszlop a 49-es indexnél kezdődik)<br> ![Paletta, helyes szöveg színekkel](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Használd a pipettát, hogy az új színeid egyezzenek az alábbi képen lévőkkel
+1. A menüben felül válaszd az `Fájl` ->`Exportálás másként...` opciót, majd adj neki nevet a `.gif` kiterjesztéssel és kattints az `Exportálás` gombra
+1. A következő előugró ablakban ellenőrizd, hogy a `GIF-megjegyzés` kikapcsolt és kattints az `Exportálás` gombra
+1. Ellenőrizd, hogy a fájl mérete még mindig 15 472 bájt alatt van-e; ha túl nagy lett ismételd meg a 10. lépéstől magasabb tömörítési szintet használva
+1. Kész vagy! Kövesd a [telepítés](#installing) fejezetet feljebb, a kép használatához!

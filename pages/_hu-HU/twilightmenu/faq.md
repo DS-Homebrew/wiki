@@ -6,34 +6,40 @@ title: GYIK & hibaelhárítás
 category: Egyéb
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 
-#### Q: Why is my 3DS/2DS stuck on black screens when launching TWiLight Menu++, or why is my 3DS/2DS powering off when launching TWiLight Menu++?
-A: TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
+#### K: Miért ragad fekete képernyőn a 3DS/2DS-em, amikor indítom a TWiLight Menu++-t, vagy miért kapcsol ki a 3DS/2DS-em, amikor indítom a TWiLight Menu++-t?
+V: A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót, hogy kijavítsd a hibát: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
 
-#### Q: I get a white screen when booting TWiLight Menu++. How do I fix this?
-A:
-- First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
-- If that doesn't work, format your SD card to FAT32 with 32kb cluster/allocation size
-- If that also doesn't work, try a different SD card
+#### K: Fehér képernyőt kapok a TWiLight Menu++ bootolásakor. Hogyan tudom javítani?
+V:
+- Először próbáld meg a konzolodat alvó üzemmódba rakni (pl. lecsukva a konzol tetejét vagy a sleep gomb megnyomásával az O2DS-en), majd felkelteni a konzolt belőle
+- Ha ez nem működik, formázd az SD kártyádat FAT32-re 32KB cluster/foglalási mérettel
+- Ha ez sem működik, próbálj egy másik SD kártyát
 
-#### Q: Why do I get a white screen when trying to load a game from SD Card?
-A:
-- First, check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
-- If the game that's attempted to be launched is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+#### K: Miért kapok fehér képernyőt, ha megpróbálok betölteni egy játékot az SD kártyáról?
+V:
+- Először ellenőrizd [az nds-bootstrap kompatibilitás listát ](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) legyél biztos benne, hogy a játékod kompatiblis
+- Ha a betöltendő játék egy DSi kibővített játék, akkor ellenőrizd, hogy a TWiLight Menu++ `DS mód`-ra van-e állítva
+- Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
 
-#### Q: How do I use cheats?
-A: You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+#### K: Hogyan használhatom a csalásokat?
+V: Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa. Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 
-#### Q: How do I show a custom picture on the top screen of the DSi theme?
-A: A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+#### K: Hogyan jelenítek meg egy egyedi képet a felső képernyőn a DSi témában?
+V: Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából kerül megjelenítésre minden alkalommal, amikor a menü betöltésre kerül.
 
-- The file(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use tinypng to reduce the size
+- A fájl(ok) felbontása nem lehet nagyobb, mint 208x156
+- Ha hibát tapasztalsz, az leginkább a képméret hiba. Kérjük használd a tinypng-t a méret csökkentéséhez
 
-#### Q: Why isn't touch input working on sudokuhax?
-A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### K: Miért nem működik az érintő képernyő a sudokuhax-szal?
+V: A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfordulhat, hogy nem működik.
 
-#### Q: Can The Biggest Loser boot TWiLight Menu++?
-A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### K: Tud a The Biggest Loser bebootolni TWiLight Menu++-vel?
+V: Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
+
+#### K: Hogyan szerezhetek játékokat?
+V: Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications)-ról tölthetsz le. Használatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t GBA játékok dumpolására a DS-en vagy DS játékok dumpolására a DSi-n, vagy a [GodMode9](https://github.com/d0k3/GodMode9/releases)-et DS és 3DS játékokat 3DS-en.
+
+#### K: A cardridge-ekből a mentéseimet ki tudom rakni az SD kártyámra? / Be tudom másolni a mentéseimet az SD kártyáról a cardridge-kbe?
+V: Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t DSi-n és 3DS-en vagy a [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)-ot 3DS-en.

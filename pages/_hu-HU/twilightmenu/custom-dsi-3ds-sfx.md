@@ -2,50 +2,56 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: DSi / 3DS szkinek - Egyedi hangeffektek
+title: DSi / 3DS szkinek - Egyedi hangeffektusok
 category: Testreszabás
 ---
 
-TWiLightMenu supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/sound/bgm.pcm.raw` respectively. Both files are optional, if one is missing the default music will be used. You should then also set the music option in settings to "Theme".
+A TWiLightMenu támogatja az egyedi hang fájlokat a témákban. Rakd a hangfájlokat a `sound` alkönyvtárba a téma mappádba, például a `white` téma esetén, a fájlaid a `themes/white/sound/sfx.bin` és a `themes/sound/bgm.pcm.raw` lesznek. Mindkét fájl opcionális, ha hiányzik valamelyik, az alapértelmezett zene kerül felhasználásra. Be kell ezt követően állítanod a zene opciókat a témához.
 
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Ezek a lépések feltételezik, hogy rendelkezel devkitPro-val telepített mmutil-lal. A devkitPro-t beszerezheted a [devkitPro weboldaláról](https://devkitpro.org/wiki/Getting_Started).
 
-## Sound Effect Bank
-The sound effect bank contains sound effects such as the icon select sound, etc.
+## Hang effektusok bank
+A hang effekt bank olyan hangeffekteket tartalmaz, mint például az ikon választás hang, stb.
 
-| File        | Description                                                                            |
-| ----------- | -------------------------------------------------------------------------------------- |
-| startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
-| launch.wav  | Played when launching a game                                                           |
-| select.wav  | Played when moving the select cursor                                                   |
-| wrong.wav   | Played when reaching the end of the page                                               |
-| switch.wav  | Played when switching pages                                                            |
-| stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| menu.wav    | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
+| Fájl        | Leírás                                                                                          |
+| ----------- | ----------------------------------------------------------------------------------------------- |
+| startup.wav | Induláskor játszódik le. Tekintsd meg a [Indítási hang](#startup-sound) szekciót a részletekért |
+| back.wav    | Vissza                                                                                          |
+| launch.wav  | Játék indításakor játszódik le                                                                  |
+| select.wav  | Ez játszódik le, amikor mozgatjuk a kiválasztó kurzort                                          |
+| wrong.wav   | Az oldal végének elérésekor játszódik le                                                        |
+| switch.wav  | Oldalak váltásakor játszódik le                                                                 |
+| stop.wav    | A DSi témán játszódik le, ha a kiválaszt kurzor abbahagyja a mozgást                            |
+| bgm.pcm.raw | Nem része a hang banknak. Tekintsd meg a [Menü BGM](#menu-bgm) szekciót a részletekért          |
 
-You can then run `make` to make the sound effect bank. All files listed above, except *menu.wav* are required, but you can make them silent.
+Ezt követően futtathatod `make`-et, hogy létrehozd a hang effektusok bankot. Minden fent listázott fájlra szükség van, kivéve a *bgm.pcm.raw*-ot, de némává lehet őket tenni.
 
-Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
+Az eredmény *sfx.bin* fájlnak a mérete **512000B = 512KB alatt kell legyen**. Bármi nagyobb összeomláshoz vezethet, vagy néhány hang nem játszódik le teljesen.
 
-### Startup sound
-While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+### Indítási hang
+Amíg más hang effektusok működnek bármilyen WAV fájllal, az indítási hangnak egy megadott formátumúnak kell lennie, hogy megfelelően működjön, egyébként szünet lesz az indítási hang vége és a háttérzene kezdete között.
 
-The startup.wav file must be **16-bit 16kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+A startup.wav fájl **16-bit 16kHz** minőségű kell legyen. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a **Sávok > Mix > Mix Stereo down to Mono** menüpontban.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+Be kell állítanod a `PlayStartupJingle=1` opciót a saját `theme.ini` fájlodban, hogy az indítási zene lejátszódjék.
 
 
-## Menu BGM
+## Menü BGM
 
-To create custom menu BGM, you will need to install [SoX](https://sourceforge.net/projects/sox/files/sox/14.4.2/sox-14.4.2-win32.exe/download).
+A Menü BGM-nek **16-bit 16kHz Monó** nyers PCM fájlnak kell lennie. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
 
-Menu BGM is created from **menu.wav**, which must be **16-bit 16kHz Mono**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a **Sávok > Mix > Mix Stereo down to Mono** menüpontban.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+A megfelelő formátumban exportáláshoz a következőket tedd:
+1. Válaszd a `Fájl` > `Export` > `Hang exportálása...` opciókat
+1. Állítsd a `Fájl típusa` opciót `Egyéb tömörítettlen fájlok`-ra
+1. Állítsd a `Fejléc`-et `RAW (header-less)`-re
+1. Állítsd a `Kódolás`-t to `Signed 16-bit PCM`-re
+1. Állítsd a fájlnevet `bgm.pcm.raw`-ra, majd kattints a `Mentés` gombra
+1. Kattints az `OK`-ra a metaadat szerkesztése ablakban
 
-If SoX is installed, once you run `make`, you will get a `bgm.pcm.raw` file, that can be copied to the *sound* subfolder in your theme folder.
+Most már rendelkezel a `bgm.pcm.raw` fájllal, ami bemásolható a *sound* almappába a témád mappáján belül.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Az sfx.bin-nel ellentétben, a *bgm.pcm.raw* akármekkora nagy lehet.

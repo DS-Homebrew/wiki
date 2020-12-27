@@ -1,15 +1,15 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Uninstalling (DS & DSi)
-category: Uninstalling
+title: Disinstallazione (DS & DSi)
+category: Disinstallazione
 ---
 
-### Uninstalling
-1. Go to either the console's SD card or the flashcard's SD card
-1. Open `_nds`
-1. Delete the `TWiLightMenu` folder
-1. Delete the nds-bootstrap and GBARunner2 files
-1. Exit `_nds`
-1. Delete `boot.nds`
+### Disinstallazione
+1. Vai alla scheda SD della console o alla scheda SD della flashcard
+1. Apri `_nds`
+1. Elimina la cartella `TWiLightMenu`
+1. Elimina i file nds-bootstrap e GBARunner2
+1. Esci da `_nds`
+1. Elimina `boot.nds`

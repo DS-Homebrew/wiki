@@ -6,22 +6,22 @@ title: RAM Disk létrehozása
 category: Egyéb
 ---
 
-NOTE: You do not need to follow this if you're using a flashcard.
+MEJEGYZÉS: Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.
 
-To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
+A RAM disk létrehozásához töltsd le [ezt](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) az eszközt (kattints a `Download Software`-re), és kövesd a további lépéseket.
 
-Instructions by @Dakkon7, modified by RocketRobz:
+A lépések @Dakkon7-tól, módosította RocketRobz:
 
-1. Run RAMDisk
-1. Click **View** -> **Advanced**
-1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
-1. Click **Load/Save**
-1. Click `Start RAMDisk`, and a new window for your .img should appear
-1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
-1. Save `romname.img` to a folder called `ramdisks` in the .nds file location
-1. Click `Stop RAMDisk` when you're done
-1. In TWiLight Menu++, open per-game settings for your homebrew
-1. Set RAM disk to 0
-1. Launch your homebrew, and it should read your RAM disk
+1. Futtasd a RAMDisk-et
+1. Kattints **View** -> **Advanced** opciókra
+1. A **Disk Size**-hoz, írj `12`-t a DSi-hez vagy `28`-at a 3DS-hez, a **Max 1023 MB** felett
+1. Vedd ki a jelölést a **Create TEMP Directory** elől, ha be lenne már jelölve
+1. Katints a **Load/Save** opcióra
+1. Kattints a `Start RAMDisk`-re, és egy új ablak az .img fájlodra fog megjelenni
+1. Rakj be bármilyen fájlt és/vagy mappát, amit a homebrew vár itt, és/vagy amit használni szeretnél
+1. A RAMDisk programban, kattints a `Save Disk Image Now` opcióra
+1. Mentsd a `romname.img` fájlt egy `ramdisks` nevű mappába az .nds fájl lokációra
+1. Kattints a `Stop RAMDisk` opcióra, ha kész vagy
+1. A TWiLight Menu++, nyisd meg a játékonkénti beállításokat a homebrew alkalmazásodhoz
+1. Állítsd a RAM disk-et 0-ra
+1. Indítsd el a homebrew-od, és az olvasni tudja majd a RAM disk-edet

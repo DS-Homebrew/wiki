@@ -17,4 +17,4 @@ category: Telepítés
 ### Automatikus indulás Unlaunch-csel
 1. Kapcsold be a DSi-d miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
 1. Az Unlaunch menüben menj az `OPTIONS` menühöz
-1. Állítsd be a `NO BUTTON` értéket vagy a választásod szerinti gombot a `TWiLight Menu++`-höz, ami a `BOOT.NDS` mutatja az alsó képernyőn
+1. Állítsd be a `NO BUTTON` értéket vagy a választásod szerinti gombot ahhoz a `TWiLight Menu++`-hoz, ami a `BOOT.NDS`-t mutatja az alsó képernyőn

@@ -2,45 +2,45 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: How to Get Box Art
+title: Box-art beszerzése
 category: Egyéb
 ---
 
 ### 3DS
-1. Install [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - This will replace the normal TWiLight Menu++ Updater, so use Universal-Updater instead for updating TWiLight Menu++
-1. Select `Extras`, `Boxart`, then press <kbd class="face">X</kbd> to scan the full SD card or <kbd class="face">A</kbd> to select a folder to scan
-1. Choose a box art size
-1. Choose a border style
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Telepítsd [KirovAir TWiLight Menu++ Updater fork-ját](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
+   - Ez lecseréli a hagyomános TWiLight Menu++ Updater-t, így használd az Universal-Updater-t majd e helyett a TWiLight Menu++ frissítésére
+1. Válaszd az `Extras`, `Boxart` opciókat, majd nyomd meg az <kbd class="face">X</kbd> gombot a teljes SD kártya végig nézéséhez, vagy az <kbd class="face">A</kbd> gombot, hogy kiválaszthasd a végig nézendő mappát
+1. Válaszd ki a box-art méretét
+1. Válassz egy keret stílust
+1. Ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
 ### Windows
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. Töltsd le a [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases) legfrissebb verzióját
+1. CSomagold ki a `TwilightBoxart-Windows-UX.zip`-et és futtasd a `TwilightBoxart.exe` állományt
+1. Kattints a `Detect SD` opcióra
+   - Ha nem találja meg a megfelelő SD kártyát, kattints a `Browse...`-ra és válaszd ki a jót
+1. Módosítsd a méret, keret, stb. opciókat, ahogy tetszik
+1. Kattints a `Start`-ra
+1. A DS-eden ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
 ### macOS/Linux
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor, then save the file
-1. Type the path to your SD card after `SdRoot=`
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI` file by drag dropping it onto your terminal
-1. Say `Yes` if it shows your SD path correctly
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. Töltsd le a [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases) legfrissebb verzióját
+1. Csomagold ki a `.zip` fájlt
+1. Nyisd meg a `TwilightBoxart.ini` fájlt egy szöveg editorral, majd mentsd a fájlt
+1. Írd be az SD kártyád útvonalát az `SdRoot=` mögé
+   - Ez macOS-en a `/Volumes/`, majd ezt követően az SD kártyád neve
+1. Nyisd meg a terminált
+1. A terminal-ban gépeld be, hogy `cd ` majd húzd bele a mappát, ami tartalmazza a `TwilightBoxart.CLI`-t a terminal-ba
+1. Futtasd a `chmod +x TwilightBoxart.CLI` parancsot
+1. Futtasd a `./TwilightBoxart.CLI` fájlt azzal, hogy belehúzod a terminal ablakba
+1. Válaszolj `Yes`-t, ha az SD kártyád útvonalát helyesen mutatja
+1. A DS-eden ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
-### Manual
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
-1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+### Kézzel
+1. Töltsd le a png box-art csomagot a [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs) oldaláról
+1. Csomagold ki a .png fájlokat a `sd:/_nds/TWiLightMenu/boxart` mappába
+1. A DS-eden ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
-**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`. Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`). Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143.
+**Saját box-art hozzáadása:** Rakd őket az `sd:/_nds/TWiLightMenu/boxart` mappába. A neve lehet a játék TID-e (pl. `ASME.png`), vagy a fájlneve (pl. `SM64DS.nds.png`). A formátuma `.png` kell legyen az ajánlott 128x115 felbontással, de maximum 208x143 lehet.
 
-Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
+Egyesével is letölthető box-art a GameTDB-ről, az **S Covers (png)** kategória alatt.

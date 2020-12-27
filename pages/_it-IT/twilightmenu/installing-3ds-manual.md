@@ -2,7 +2,7 @@
 lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Installazione (Manuale 3DS)
+title: Installazione (3DS, Manuale)
 category: Installazione
 ---
 

@@ -13,21 +13,23 @@ category: インストール
 
 ### インストール（機能されるカメラ）
 1. FBIを開き、`Remote Install`を選択し、`Scan QR Code`します
-1. このQRコードをスキャンして、[TWiLight Menu++ Updater](https://github.com/RocketRobz/TWiLightMenu-Updater)の最新バージョンをインストースします <br>![TWiLight Menu++ UpdaterのQRコード](https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png)
-1. FBIを閉じ、TWiLight Menu++ Updaterを起動します
+1. このQRコードをスキャンして、[Universal-Updater](https://github.com/Universal-Team/Universal-Updater)の最新バージョンをインストースします<br> ![Universal-UpdaterのQRコード](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. FBIを閉じ、Universal-Updaterを起動します
    - ホームメニューに表示されない場合は、3DSを再起動します
-1. `TWLMenu++`の横にある`Release`を選択します
+1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます。
+   - 次のアイコンがあります：![TWiLight Menu++のアイコン](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールする
    - しばらく時間がかかります
-1. `nds-bootstrap`の横にある`Release`を選択します
 
 ### インストール（機能されないカメラ）
-1. [TWiLight Menu++ Updaterのリリースページ](https://github.com/RocketRobz/TWiLightMenu-Updater/releases)から`TWiLightMenu-Updater.cia`ファイルをダウンロードする
-1. `TWiLightMenu-Updater.cia`ファイルをSDカードの任意の場所に配置します
+1. [Universal-Updaterのリリースページ](https://github.com/Universal-Team/Universal-Updater/releases)から`Universal-Updater.cia`ファイルをダウンロードする
+1. `Universal--Updater.cia`ファイルをSDカードの任意の場所に配置します
 1. FBIをニンテンドー3DSで起動する
-1. FBIで、`TWiLightMenu-Updater.cia`ファイルを貼り付けた場所に移動します
-1. `TWiLightMenu-Updater.cia`ファィルを選択し、「Install & Delete」を押します
-1. FBIを閉じ、TWiLight Menu++ Updaterを起動します
+1. FBIで、`Universal-Updater.cia`ファイルを貼り付けた場所に移動します
+1. `Universal-Updater.cia`ファィルを選択し、「Install & Delete」を押します
+1. FBIを閉じ、Universal-Updaterを起動します
    - ホームメニューに表示されない場合は、3DSを再起動します
-1. `TWLMenu++`の横にある`Release`を選択します
+1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます。
+   - 次のアイコンがあります：![TWiLight Menu++のアイコン](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールする
    - しばらく時間がかかります
-1. `nds-bootstrap`の横にある`Release`を選択します

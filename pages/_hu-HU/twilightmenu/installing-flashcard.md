@@ -12,15 +12,15 @@ category: Telepítés
 1. Másold az `_nds` mappát a flash kártyád microSD kártyájának gyökerébe
 1. Másold az `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe
 1. Másold a `roms` mappát a flash kártyád microSD kártyájának gyökerébe
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+1. Ha már van mentés adatod, mozgasd a `.sav` fájljaidat, ami a DS ROM lokáción találhatók egy új `saves` nevű mappába, ami szintén DS ROM lokáción található
 1. ...
-   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **DS Phat/lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
+   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++-t a konzol SD kártyáján és kapcsold be a `SCFG hozzáférést a Slot-1-ben` opciót
+      - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához
 
-### To run games using your flashcard firmware
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+### Játékok futtatása a flashcard firmware használatával
+1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
+   - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
 1. Ezekhez a flashkártyákhoz:
    - R4i-SDHC
@@ -36,12 +36,12 @@ category: Telepítés
    - R4xDS
 
    Telepítsd az YSMenu-t [innen](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Make sure you have `YSMenu.nds` and `TTMenu` folder (renamed from `YSMenu`, if existed) on the flashcard microSD root
-1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+      - Ellenőrizd, hogy az `YSMenu.nds` és a `TTMenu` mappák (átnevezve `YSMenu`-ről, ha létezett) léteznek a flashcard-od microSD kártyájának gyökerében
+1. Állítsd be a `Use nds-bootstrap (B4DS)` opciót `No`-ra, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### TWiLight Menu++ automatikus bootolása
+1. Csomagold ki az `Autoboot/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
+   - Lépd át ezt, ha nem látod a flashcard-od
 1. ...
-   - **DS Phat/DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **DS Phat/DS Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
+   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++-t a konzol SD kártyáján és kapcsold be a `Auto-start Slot-1` opciót
