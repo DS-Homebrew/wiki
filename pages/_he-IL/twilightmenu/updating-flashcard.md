@@ -1,23 +1,23 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Updating (Flashcard)
-category: Updating
+title: עדכון (פלאשקארט)
+category: עדכון
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**הערה:** אם אתם מעדכנים מגרסה ישנה יותר מv16.4.0, העבירו את קבצי ה`.sav` של משחקי הDS לתיקיה חדשה בשם `saves`, כאשר התיקייה נמצאת באותו מקום כמו הROMים של משחקי הDS.
 
-### Updating
-1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
+### עדכון
+1. הורידו את הגרסה האחרונה של `TWiLightMenu-Flashcard.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. חלצו את `TWiLightMenu-Flashcard.7z`
+1. העתיקו את התיקייה `_nds` לכרטיס המיקרו SD
+1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
 
-### More steps for the DSi/3DS SD Card side
+### שלבים נוספים עבור הSD של DSi/3DS
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+אם אתם יכולים להחליף את הקבצים שעל הSD של המכשיר ובין הקבצים על הפלאשקארד באמצעות TWLMenu++, וגם גרסאת TWLMenu++ על הפלאשקארד היא v16.3.0 או גבוהה יותר, עקבו אחרי השלבים האלו.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Slot-1 microSD > Console (micro)SD`
+1. לכו להגדרות של TWLMenu++
+1. בחרו ב`Update TWiLight Menu++`
+1. בחרו `Slot-1 microSD > Console (micro)SD`

@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Creating RAM Disks
-category: Other
+title: יצירת RAM Disks
+category: אחר
 ---
 
-NOTE: You do not need to follow this if you're using a flashcard.
+הערה: אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.
 
-To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
+על מנת ליצור RAM Disk, הורידו את הכלי ה[זה](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (לחצו על `Download Software`) ועקבו אחר ההוראות מטה.
 
-Instructions by @Dakkon7, modified by RocketRobz:
+ההוראות נכתבו על ידי @Dakkon7, ונערכו על ידי RocketRobz:
 
-1. Run RAMDisk
-1. Click **View** -> **Advanced**
-1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
-1. Click **Load/Save**
-1. Click `Start RAMDisk`, and a new window for your .img should appear
-1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
+1. הריצו את RAMDisk
+1. לחצו על **View** -> **Advanced**
+1. עבור **Disk Size**, רשמו `12` עבור DSi, או `28` עבור 3DS, מעל**Max 1023 MB**
+1. בטלו את הסימון **Create TEMP Directory**, אם הוא מסומן
+1. לחצו על **Load/Save**
+1. לחצו על`Start RAMDisk`, ויפתח חלון חדש בשביל ה.img שלכם
+1. מקמו כל קובץ או תיקיה שההומברו מצפה לה שם, ואת הקבצים שתרצו להשתמש בהם
+1. בתוכנת הRAMDisk, לחצו על `Save Disk Image Now`
 1. Save `romname.img` to a folder called `ramdisks` in the .nds file location
 1. Click `Stop RAMDisk` when you're done
 1. In TWiLight Menu++, open per-game settings for your homebrew

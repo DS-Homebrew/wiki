@@ -1,31 +1,31 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Installing (Flashcard)
-category: Installing
+title: התקנה (פלאשקארט)
+category: התקנה
 ---
 
-### Installing
-1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
-1. Copy the `roms` folder to your flashcard's microSD card root
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+### התקנה
+1. הורידו את הגרסה האחרונה של `TWiLightMenu-Flashcard.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. חלצו את `TWiLightMenu-Flashcard.7z`
+1. העתיקו את התיקייה `_nds` לכרטיס המיקרו SD
+1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
+1. העתיקו את התיקייה `roms` לכרטיס המיקרו SD
+1. אם כבר יש לכם שמירות, העבירו את קבצי ה`.sav` שלכם, שנמצאים במיקום של הROMים של הDS, לתיקייה חדשה שנקראת `saves`, שנמצאת גם כן במיקום של הROMים של הDS
 1. ...
-   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **משתמשי DS Phat/lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
+   - ** משתמשי DSi/3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `SCFG access in Slot-1`
+      - זה יאפשר לכם להשתמש בTWL clock speed ו/או בVRAM boost על המשחקים בפלאשקארט שלכם, וגם יאפשר לגשת לSD של הקונסולה
 
-### To run games using your flashcard firmware
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+### הרצת משחקים באמצעות הקושחה של הפלאשקארט שלכם
+1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
+   - לאחר שזה בוצע, המשיכו לשלב 3. במידה ולא, עקבו אחר ההוראות מתחת לרשימת הפלאשקארטים הבאה
 
-1. For these flashcards:
+1. לפלאשקראטים הבאים:
    - R4i-SDHC
-   - r4isdhc.com cards
-   - r4isdhc.hk cards
+   - כרטיסי r4isdhc.com
+   - כרטיסי r4isdhc.hk
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -35,13 +35,13 @@ category: Installing
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
 
-   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Make sure you have `YSMenu.nds` and `TTMenu` folder (renamed from `YSMenu`, if existed) on the flashcard microSD root
-1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   התקינו את YSMenu מ[כאן](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+      - וודאו שיש לכם את `YSMenu.nds` ואת התיקייה `TTMenu` (עברה שינוי שם מ`YSMenu`, אם הייתה קיימת), בכרטיס המיקרו SD של הפלאשקארט
+1. הגדירו את `Use nds-bootstrap (B4DS)` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### הפעלה אוטומטית של TWiLight Menu++
+1. חלצו את התוכן של `Autoboot/(הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
+   - דלגו על שלב זה, אם אתם לא רואים את הפלאשקארט שלכם
 1. ...
-   - **DS Phat/DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **משתמשי DS Phat/DS Lite:** לכו להגדרות בתפריט הDS שלכם, והפעילו את auto-start, כך שהפלאשקארט שלכם יעלה בהדלקת המכשיר
+   - ** משתמשי DSi/3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `Auto-start Slot-1`

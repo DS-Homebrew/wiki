@@ -1,12 +1,12 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Home
+title: דף הבית
 ---
 
-# Welcome to the TWiLight Menu++ wiki!
+# ברוכים הבאים לwiki של TWiLight Menu++!
 
-TWiLight Menu++ is an open-source DSi Menu upgrade/replacement, and frontend for nds-bootstrap for DSi, 3DS, and flashcards.
+TWiLight Menu++ היא תוכנת קוד פתוח המיועדת לשדרוג או החלפה של תפריט הDSi, בנוסף היא משמשת בתור תוכנת חזית בשביל nds-bootstrap על הDSi, 3DS ועל פלאשקארטים.
 
-For info on how to install, click on the page in the sidebar for your console in the Installing section.
+למידע לגבי התקנה, לחצו על העמוד בתפריט הצד בהתאם לקונסולה שלכם תחת אזור הההתקנה.

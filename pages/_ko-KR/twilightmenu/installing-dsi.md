@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Installing (DSi)
-category: Installing
+title: 설치하기 (DSi)
+category: 설치
 ---
 
-### Installing
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### 설치하기
+1. `TWiLightMenu-DSi.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.
+1. `TWiLightMenu-DSi.7z`를 압축 해제합니다.
+1. SD 카드 루트에 `_nds` 폴더를 복사합니다.
+1. SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
+1. SD 카드 루트에 `roms` 폴더를 복사합니다.
+1. **hiyaCFW 이용자:** SD 카드 루트에 `title` 폴더를 복사합니다.
 
-### Autobooting with Unlaunch
-1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-1. In the Unlaunch menu, go to `OPTIONS`
-1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen
+### Unlaunch로 자동 부팅하기
+1. <kbd class="face">A</kbd>와 <kbd class="face">B</kbd>를 누르면서 DSi 본체의 전원을 켜세요.
+1. Unlaunch menu에서 `OPTIONS`에 진입하세요.
+1. 하단 화면에서 `BOOT.NDS`가 표시된`TWiLight Menu++`를 `NO BUTTON`으로 설정하거나 또는 임의의 버튼으로 선택해서 설정합니다.

@@ -1,35 +1,35 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Installing (3DS)
-category: Installing
+title: 설치하기 (3DS)
+category: 설치
 ---
 
-### Requirements
+### 준비물
 
-- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+- [FBI](https://github.com/Steveice10/FBI/releases) 최신버전
+- [Luma3DS](https://github.com/lumateam/luma3ds/releases) 최신버전
 
-### Installing (Working Camera)
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### 설치하기 (카메라 이용)
+1. FBI를 열고 `Remote Install`에 진입합니다. 그러고 나서 `Scan QR Code`를 선택합니다.
+1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치합니다.<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. FBI를 닫고 Universal-Updater를 실행합니다.
+   - 홈 메뉴에 표시되지 않는다면 3DS를 재부팅 해주세요.
+1. TWiLight Menu++를 앱 그리드에서 찾으세요. 찾는 데 문제가 있는 경우 사이드바의 세 번째 탭으로 검색할 수 있습니다.
+   - TWiLight Menu++의 아이콘은 다음과 같습니다: ![TWiLight Menu++ 아이콘](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
+   - 시간이 조금 걸릴 수 있습니다.
 
-### Installing (Non-Working Camera)
-1. Download the `Universal-Updater.cia` file from the [Universal-Updater release page](https://github.com/Universal-Team/Universal-Updater/releases)
-1. Place the `Universal-Updater.cia` file anywhere on your SD card
-1. Launch FBI on your Nintendo 3DS
-1. In FBI, go to the place you pasted the `Universal-Updater.cia` file
-1. Select the `Universal-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### 설치하기 (카메라 없이)
+1. [Universal-Updater 릴리즈 페이지](https://github.com/Universal-Team/Universal-Updater/releases)에서 `Universal-Updater.cia` 파일을 다운로드하세요.
+1. SD카드의 아무데나 `Universal-Updater.cia` 파일을 놓으세요.
+1. 닌텐도 3DS에서 FBI를 실행하세요.
+1. FBI에서 `Universal-Updater.cia`파일을 붙여넣은 폴더를 찾으세요.
+1. `Universal-Updater.cia`파일을 선택해서 "Install & Delete"를 선택하세요.
+1. FBI를 닫고 Universal-Updater를 실행하세요.
+   - 홈 메뉴에 표시되지 않는다면 3DS를 재부팅 해주세요.
+1. TWiLight Menu++를 앱 그리드에서 찾으세요. 찾는 데 문제가 있는 경우 사이드바의 세 번째 탭으로 검색할 수 있습니다.
+   - TWiLight Menu++의 아이콘은 다음과 같습니다: ![TWiLight Menu++ 아이콘](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
+   - 시간이 조금 걸릴 수 있습니다.

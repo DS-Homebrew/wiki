@@ -12,7 +12,7 @@ A palettás textúrák változásai jobban érintettek. A `grit` és a `backgrou
 ```bash
 $ make
 ```
-parancsot, hogy lefordítsd a témádat Grit RIFF formátumra. Ez lefordítja a palettás textúrákat **.grf** formátumra, a `grf` mappába. Do not make changes to the `.grit` files until you have read the advanced theming section below.
+parancsot, hogy lefordítsd a témádat Grit RIFF formátumra. Ez lefordítja a palettás textúrákat **.grf** formátumra, a `grf` mappába. Ne módosítsd a `.grit` fájlokat addig, amíg nem olvastad a Fejlett témázás fejezetet lentebb.
 
 Tartsd szem előtt, hogy a palettás textúrák több korlátozással rendelkeznek, mint a BMP textúrák, a 16 szín textúránként az abszolút maximum. Azonban néhány textúra esetén még ennél is erősebb az alapértelmezett korlátozás, ami annak függvényében módosítható, hogy kifutsz a paletta memóriából (lásd lentebb).
 
@@ -33,7 +33,7 @@ A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 | Textúra       | Leírás                                                                                        | Paletta korlátozások (ha kevesebb, mint 16)                      |
 | ------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | bips          | A gördítősáv alján látható pontok (DSi téma)                                                  |                                                                  |
-| box           | The box texture, containing both full and empty textures (for DSi Theme)                      |                                                                  |
+| box           | Doboz textúrája, ami tartalmaz egyaránt teli és üres textúrákat (DSi téma)                    |                                                                  |
 | box_empty     | Üres doboz textúra (3DS téma)                                                                 | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
 | box_full      | Doboz ikonnal textúra (3DS téma)                                                              | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
 | brace         | A kapocs textúra ami az első és utolsó ikon után jelenik meg (DSi téma)                       | 4 szín                                                           |
@@ -61,7 +61,7 @@ A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 | scroll_window | A gördítősáv része, ami mutatja, hogy ikonok vannak a nézetben                                | 7 szín                                                           |
 | small_cart    | Az ikonok amik megjelennek fent (3DS téma) és a SELECT menüben (DSi téma)                     |                                                                  |
 | start_border  | A keret animáció kockák, amik a kiválasztott ikont jelzik (DSi téma)                          |                                                                  |
-| start_text    | The text displayed for the start border on the (DSi Theme)                                    | 4 szín                                                           |
+| start_text    | Az indító kereten megjelenített szöveg (DSi téma)                                             | 4 szín                                                           |
 | wirelessicons | A megjelenített ikonok, amik azt mutatják, hogy a játéknak van vezetéknélküli támogatása      | 7 szín                                                           |
 
 ### UI texturák (`ui` mappa)
@@ -105,17 +105,17 @@ Különböző opciókat konfigurálhatsz arról, hogy hogyan kerüljön rajzolá
 | `ShoulderLRenderX`       | Az X pozíciója bal vállnak a felső képernyőn                                                                        | 0                    | 0                    |
 | `ShoulderRRenderY`       | Az Y pozíciója jobb vállnak a felső képernyőn                                                                       | 172                  | 172                  |
 | `ShoulderRRenderX`       | Az X pozíciója jobb vállnak a felső képernyőn                                                                       | 178                  | 178                  |
-| `VolumeRenderX`          | The X position on the top screen to draw the right shoulder                                                         | 4                    | 4                    |
+| `VolumeRenderX`          | Az X pozíciója jobb vállnak a felső képernyőn                                                                       | 4                    | 4                    |
 | `VolumeRenderY`          | Az Y pozíciója a hangerő ikonnak a felső képernyőn                                                                  | 16                   | 16                   |
 | `BatteryRenderY`         | Az Y pozíciója az elem ikonnak a felső képernyőn                                                                    | 5                    | 5                    |
 | `BatteryRenderX`         | Az X pozíciója az elem ikonnak a felső képernyőn                                                                    | 235                  | 235                  |
 | `RenderPhoto`            | Kerüljön vagy ne kerüljön fénykép rajzolásra a felső képernyőn                                                      | 0                    | 1                    |
-| `StartTextUserPalette`   | Assign the DSi Profile Theme to the palette of the start text                                                       | N/A                  | 1                    |
-| `StartBorderUserPalette` | Assign the DSi Profile Theme Palette to the palette of the start border                                             | N/A                  | 1                    |
-| `ButtonArrowUserPalette` | Assign the DSi Profile Theme Palette to the palette of the arrow buttons on the bottom of the screen                | N/A                  | 1                    |
-| `MovingArrowUserPalette` | Assign the DSi Profile Theme Palette to the palette of the arrow shown when moving icons                            | N/A                  | 1                    |
-| `LaunchDotsUserPalette`  | Assign the DSi Profile Theme Palette to the palette of the launch dots                                              | N/A                  | 1                    |
-| `DialogBoxUserPalette`   | Assign the DSi Profile Theme Palette to the palette of the dialog box                                               | N/A                  | 1                    |
+| `StartTextUserPalette`   | A DSi profil téma paletta hozzárendelése a kezdő szöveg palettájához                                                | N/A                  | 1                    |
+| `StartBorderUserPalette` | A DSi profil téma paletta hozzárendelése a kezdő keret palettájához                                                 | N/A                  | 1                    |
+| `ButtonArrowUserPalette` | A DSi profil téma paletta hozzárendelése a nyíl gombok palettájához, amik a képernyő alján kerülnek megjelenítésre  | N/A                  | 1                    |
+| `MovingArrowUserPalette` | A DSi profil téma paletta hozzárendelése a nyilak palettájához, amik ikonok mozgatásakor kerülnek megjelenítésre    | N/A                  | 1                    |
+| `LaunchDotsUserPalette`  | A DSi profil téma paletta hozzárendelése az indítási pontok palettájához                                            | N/A                  | 1                    |
+| `DialogBoxUserPalette`   | A DSi profil téma paletta hozzárendelése a párbeszéd ablak palettájához                                             | N/A                  | 1                    |
 
 ## Fejlett témázás
 
@@ -123,12 +123,12 @@ Alkalmanként az alapértelmezettnél számúnál több színre van szükséged,
 
 Például a `scroll_window.grit`-ben szerkesztheted a `-pn7`-et és módosíthatod a `7`-et `16`-ra, hogy 16 színed legyen. Figyelj arra, hogy ha eltávolítod a teljes `-pn` sort, nem várt eredményt kaphatsz.
 
-Szintén figyelj arra, hogy az abszolút maximum 16 szín textúránként kódból betartatott, és így az nem módosítható. Even if you increase the number of palettes to above 16, no more than 16 colors worth of palette data will be loaded. A betöltött textúrák mennyiségétől függően, előfordulhat, hogy nincs elég paletta memória ahhoz, hogy 16 színű paletta legyen minden textúrához. Tartsd ezt észben, amikor a paletta méreteket állítod.
+Szintén figyelj arra, hogy az abszolút maximum 16 szín textúránként kódból betartatott, és így az nem módosítható. Még ha növeled is a paletták számát 16 felé, nem több, mint 16 szín kerül betöltésre a a palettából. A betöltött textúrák mennyiségétől függően, előfordulhat, hogy nincs elég paletta memória ahhoz, hogy 16 színű paletta legyen minden textúrához. Tartsd ezt észben, amikor a paletta méreteket állítod.
 
 Továbbá a palettás textúráknak a méretei oszthatók kell legyenek 2-vel. A palettás teytúrák mérete nem módosíthatók, kivéve a `bubble` és a `start_border`, amik konfigurálható sprite mérettel rendelkezhetnek a `theme.ini`-ben. Azonban ezek módosítása nem várt eredményeket is okozhat.
 
 A palettás textúrák nem kerülnek ellenőrzésre érvényesség szempontjából. Egy érvénytelen textúra ritka kell legyen, ha a biztosított makefile-lal készül, de egyes esetekben a hibás textúrák a menü betöltődését megakadályozhatják.
 
-## Custom background music and sound fonts.
+## Egyedi háttér zene és hangok
 
-A DSi Menü és a 3DS témák támogatják továbbá az egyedi zenét. See [Adding custom music / SFX](Adding-custom-music-sfx) for more details.
+A DSi Menü és a 3DS témák támogatják továbbá az egyedi zenét. Láds [Egyedi hangeffektusok](Adding-custom-music-sfx) fejezetet a részletekért.

@@ -1,19 +1,19 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Creating RAM Disks
-category: Other
+title: RAM 디스크 생성하기
+category: 기타
 ---
 
-NOTE: You do not need to follow this if you're using a flashcard.
+참고: Flashcard를 사용중이라면 하지 않아도 됩니다.
 
-To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
+RAM 디스크를 만들기 위해, [이 도구](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)를 받아주세요.(`Download Software`를 클릭하세요.)
 
-Instructions by @Dakkon7, modified by RocketRobz:
+설명: @Dakkon7, 수정: RocketRobz:
 
-1. Run RAMDisk
-1. Click **View** -> **Advanced**
+1. RAMDisk를 실행합니다.
+1. **View** -> **Advanced** 순으로 클릭합니다.
 1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
 1. Un-mark **Create TEMP Directory**, if it's already marked
 1. Click **Load/Save**

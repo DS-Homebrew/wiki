@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Uninstalling (3DS)
-category: Uninstalling
+title: הסרת התקנה (3DS)
+category: הסרת התקנה
 ---
 
-### Uninstalling
-1. Open FBI
-1. Go to `Titles`
-1. Find two `TWiLight Menu++` titles in purple text
-1. Delete both titles
-1. Exit the title list
-1. Go to the SD card
-1. Open `_nds`
-1. Delete the `TWiLightMenu` folder
-1. Delete the nds-bootstrap and GBARunner2 files
-1. Exit `_nds`
-1. Delete `boot.nds`
+### הסרת התקנה
+1. פתחו את FBI
+1. עברו ל `Titles`
+1. מצאו שתי שורות של `TWiLight Menu++` בצבע טקסט סגול
+1. מחקו את שתי השורות
+1. צאו מרשימת הtitles
+1. פתחו את כרטיס הSD
+1. פתחו את `_nds`
+1. מחקו את תקיית `TWiLightMenu`
+1. מחקו את הקבצים של nds-bootstrap ושל GBARunner2
+1. צאו מ`_nds`
+1. מחקו את `boot.nds`

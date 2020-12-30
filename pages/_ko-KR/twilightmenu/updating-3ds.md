@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Updating (3DS)
-category: Updating
+title: 업데이트하기 (3DS)
+category: 업데이트
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**참고:** v16.4.0보다 낮은 버전에서 업데이트 한다면, DS 게임의 `.sav` 파일을 `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만들어서 넣어주세요.
 
-### Updating
-1. Open Universal-Updater
-   - If you don't have it, follow the [installing](installing-3ds) instructions
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### 업데이트하기
+1. Universal-Updater를 실행합니다.
+   - 설치되어있지 않다면,  [설치하기](installing-3ds)에 대한 설명을 참고합니다.
+1. TWiLight Menu++를 앱 그리드에서 찾으세요. 찾는 데 문제가 있는 경우 사이드바의 세 번째 탭으로 검색할 수 있습니다.
+1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
+   - 시간이 조금 걸릴 수 있습니다.
 
-### More steps for the flashcard side
+### Flashcard 단을 위해서 더 할 것
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따릅니다.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. TWLMenu++ 설정으로 진입합니다.
+1. `TWiLight Menu++ 업데이트`를 선택합니다.
+1. `본체 (마이크로)SD > Slot-1 마이크로SD`를 선택합니다.

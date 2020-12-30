@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Updating (3DS, Manual)
-category: Updating
+title: עדכון (3DS, ידנית)
+category: עדכון
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**הערה:** אם אתם מעדכנים מגרסה ישנה יותר מv16.4.0, העבירו את קבצי ה`.sav` של משחקי הDS לתיקיה חדשה בשם `saves`, כאשר התיקייה נמצאת באותו מקום כמו הROMים של משחקי הDS.
 
-### Updating
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+### עדכון
+1. הורידו את הגרסה האחרונה של `TWiLightMenu-3DS.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. חלצו את `TWiLightMenu-3DS.7z`
+1. העתיקו את התיקייה `_nds` לכרטיס הSD
+1. העתיקו את `BOOT.NDS` לכרטיס הSD
+1. העתיקו את שתי קבצי ה`.cia` לכרטיס הSD
+1. במכשיר ה3DS, התקינו את שתי הCIAים באמצעות FBI
 
-### More steps for the flashcard side
+### שלבים נוספים עבור הפלאשקארד
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+אם אתם יכולים להחליף את הקבצים שעל הSD של המכשיר ובין הקבצים על הפלאשקארד באמצעות TWLMenu++, וגם גרסאת TWLMenu++ על הפלאשקארד היא v16.3.0 או גבוהה יותר, עקבו אחרי השלבים האלו.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. לכו להגדרות של TWLMenu++
+1. בחרו ב`Update TWiLight Menu++`
+1. בחרו ב`Console (micro)SD > Slot-1 microSD`

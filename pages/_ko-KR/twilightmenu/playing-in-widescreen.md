@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Playing in Widescreen
-category: Other
+title: 와이드스크린으로 플레이하기
+category: 기타
 ---
 
 Requires an Old/New Nintendo 3DS or 2DS console.

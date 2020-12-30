@@ -1,6 +1,6 @@
 [
 		{
-				"title": "Home",
+				"title": "홈",
 				"url": "/"
 		},
 		{
@@ -8,7 +8,7 @@
 				"url": "/twilightmenu"
 		},
 		{
-				"title": "DS Index",
+				"title": "DS 인덱스",
 				"url": "/ds-index"
 		}
 ]

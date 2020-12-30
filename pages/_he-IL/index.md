@@ -6,6 +6,6 @@ title: דף הבית
 
 # ברוכים הבאים לוויקי של DS-Homebrew!
 
-באתר זה תוכלו למצוא וויקי עבור TWiLight Menu++ ופרויקטים אחרים של DS-Homebrew. Click on one of the sections at the top, then a list of pages will be on the left.
+באתר זה תוכלו למצוא וויקי עבור TWiLight Menu++ ופרויקטים אחרים של DS-Homebrew. לחצו על אחד מהאזורים בחלק העליון, ואז רשימת עמודים תפתח בצד שמאל.
 
-If you would like to help contribute you can find the source code on [GitHub](https://github.com/{{ site.repo }}) or help translate on [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). To discuss this or get help with anything on it, please join the [DS<sup>(i)</sup> Mode Hacking](https://ds-hombrew.com/discord) Discord server (English only).
+אם תרצו לעזור, אתם יכולים למצוא את קוד המקור ב[GitHub](https://github.com/{{ site.repo }}) או אם תרצו לעזור לתרגם ב[Crowdin](https://crowdin.com/project/ds-homebrew-wiki). לדיונים או קבלת עזרה, הצטרפו לשרת הדיסקורד [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord) (אנגלית בלבד).

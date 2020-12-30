@@ -8,12 +8,12 @@ description: Minden a DS moddolásról
 
 ### Anti-Piracy
 
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+Az AP (rövidítés az anti-piracy-ra) egy módja annak, hogy a fejlesztők a legális vásárlásokat erőltessék és megelőzzék a kalózkodást. Ez megkerülhető a loaderben és a ROM-ban is egyaránt.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+- Az nds-bootstrap céljaira, betölthető egy `.IPS` fájl, annak érdekében, hogy, megkerülje azokat a patcheket. Ez az `.IPS` fájl az nds-bootstrap-on belül kerül patchelésre, így a ROM fájlok sértetlenek maradnak. Egy `.IPS` fájl csomag automatikusan beágyazott a TWiLight Menu++-ba.
+- A Wood R4 számára ezek a patchek a szoftverbe vannak ágyazva. Nem szükséges a ROM-ot magadnak módosítanod.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+Abban az esetben, ha nincs `.IPS` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot ROM [nds-scene eszköz](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával
 
 ### CloneBoot
 
@@ -34,38 +34,38 @@ A Nintendo DS cartridge-ek 4 ismert mentés típussal rendelkeznek:
 
 Habár ritka, léteznek DS cartridge-k NAND alapú mentéssel: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+Különböző formátumok léteznek loader-től függően, de az nds-bootstrap a nyers `.sav` formátumot használja. Ha más formátumot használ, akkor itt egy weboldal, amit használhat a konverzióra: http://www.shunyweb.info/convert.php
 
-### Card Read DMA
-Card DMA (stands for Direct Memory Access) is a more efficient way to read catridge data than by software. When there isn't any data available, code can still execute. In software catridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+### Kártya olvasás DMA
+A kártya DMA (rövidítése a Direct Memory Access-nek, közvetlen memória hozzáférés) egy sokkal hatékonyabb olvasási módja a cartridge adatnak, mint a szoftveres. Ha nincs elérhető adat, a kód futtatása tovább folytatódhat. A szoftveres cartridge adat olvasáskor, a regiszter pollolása, hogy van-e új adat, időt pocsékol. Ez a preferált módja az adathoz hozzáférésnek.
 
-You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
+A no$gba észre vehető egy játékról, hogy dma-t használ a DMA log bekapcsolásával az ARM9-en. Egy DMA hozzáférés a kártyához az AF000001 értéket használja harmadik paraméternek.
 - Például: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Donor ROM
 
-In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save. The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result. In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
+A korábbi nds-bootstrap verziókban egy Mario Kart DS ROM volt szükséges az SDK3-4 játékoknak, hogy működjenek vagy mentsenek. A ROM mint Donor ROM viselkedett. Az nds-bootstrap veszi a donor arm7 binárisát, lecseréli a vele az eredeti ROM arm7 binárisát, annak érdekében, hogy a mentés patchek működjenek, néhány mellékhatással eredményként. Későbbi nds-bootstrap verziókban egy Donor ROM szükséges bizonyos THUMB vagy SDK5 játékoknak, hogy bootoljanak, vagy mentsenek.
 
 ### Action Replay csalások
 
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+Az Action Replay csalás kódok olyan csalás kódok, amik lehetővé teszik, hogy alacsony színtű programozható változásokat intézzen a kedvenc játéka(i) memória régiójában. Ezek a változtatások lehetnek egyszerű érték változtatásoktól kezdve extrém fejlett ASM módosításokig, amik megváltoztathatják a velük játszott játék(ok) élményét.
 
-Flashcarts can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcart kernel respectively. The following kernels can utilize cheats:
+A flashcart-ok a csalás kódok előnyeit ki tudják használni csalás adatbázisokkal. A csalás funkció integrált a flashcart-ok kernel-ébe. A következő kernel-ek tudnak csalást használni:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/digitális bázisú megoldások is élvezhetik az előnyeit a csalás-adatbázisoknak; a szoftverek, amik aktuálisan használják őket:
 - NitroHax (`cheats.xml`)
-  - The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and trys to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+  - A motor betölti a teljes cheats.xml adatbázist a Nintendo DS korlátozott RAM-jába, és próbálja onnan menedzselni őket. Ez létrehoz egy erős korlátot, hogy hány csalással rendelkezhet, mert a NitroHax nem tölti be olyan cheats.xml fájlt, ami 2,4 MB feletti
 - TWiLight Menu++ (`usrcheat.dat`)
-  - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-  - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, the cheats file does not have a real limit.
-  - Bootstrap 4 DS (aka the nds-bootstrap version used on flashcarts) does not support cheats, due to not having enough RAM and the limitations of the Memory Expansion Pack.
+  - TWiLight Menu++ olvassa a `usrcheat.dat` fájlt, és kiküldi az engedélyezett csalás értékeket egy másik fájlba, amit az nds-bootstrap fel tud venni
+  - Az nds-bootstrap-ban lévő csalás motor a NitroHax-ban is lévőn alapul. Azonban, mivel a csalás fájl csak az engedélyezett csalásokat tartalmazza megadott címhez, a csalás fájlnak nincs valódi korlátja.
+  - Bootstrap 4 DS (másnéven az nds-bootstrap verzió ami a flashcart-okon használt) nem támogatja a csalásokat, mert nem rendelkezik elég RAM-mal, valamint a Memory Expansion Pack korlátozásai miatt.
 
-For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/page-38#post-9090779)
+A legteljesebb csalás adatbázishoz ajánljuk a DeadSkullzJr által készített [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/page-38#post-9090779)-t
 
-Cheat codes generally have types A through E, and here is a description of them:
+A csalás kódok jellemzően A-tl E-ig típusúak, és alább a leírásuk:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutives addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
+- Az 0xE kód típus 32-bites kód, ami lehetővé tesz egyszerre több egymás követő címre írást a memóriába. Lényegében olyan, mint az alap 32 bites RAM írási kódtípus (0x0), azzal a különbséggel, hogy az írandó értékek mellett nem szerepelnek címek. Ezzel szemben a 0xE kód típus úgy programozott, hogy automatikusan elágazzon egy indító címről, és utána döntse el a címet ahova írnia kell. Innentől kezdve, már csak meg kell írni, hogy elvégezze a munkát.
 
 Készítők: (`DeadSkullzJr`)

@@ -2,7 +2,7 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Updating (3DS)
+title: Frissítés (3DS)
 category: Frissítés
 ---
 
@@ -10,8 +10,8 @@ category: Frissítés
 
 ### Frissítés
 1. Nyisd meg az Universal-Updater-t
-   - If you don't have it, follow the [installing](installing-3ds) instructions
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
+   - Ha még nem rendelkezel vele, kövesd a [telepítési](installing-3ds) lépéseket
+1. Keresd meg a TWiLight Menu++-t az appok között; kereshetsz az oldalsáv harmadik fülén is, ha problémát okoz megtalálni
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
    - Ez eltart egy ideig
 

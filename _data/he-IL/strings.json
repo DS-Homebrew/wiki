@@ -2,8 +2,8 @@
 	"by": "ע\"י: $1",
 	"description": "וויקי עבור פרויקטים של DS-Homebrew",
 	"discord-server": "שרת Discord (אנגלית בלבד)",
-	"published-with": "Published with <a href=\"https://pages.github.com\">GitHub Pages</a>, view <a href=\"https://github.com/$1\">the source</a> on GitHub.",
-	"source": "Source",
+	"published-with": "פורסם עם <a href=\"https://pages.github.com\">GitHub Pages</a>, צפו <a href=\"https://github.com/$1\">במקור </a> בGitHub.",
+	"source": "מקור",
 	"translate-here": "תרגם כאן",
 	"translate-on-crowdin": "תרגם ב-Crowdin",
 	"title": "וויקי DS-Homebrew"
