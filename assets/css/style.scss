@@ -45,6 +45,7 @@ code {
 	background-color: var(--code-bg);
 	padding: 3px;
 	border-radius: 0.25rem;
+	white-space: nowrap;
 }
 
 // .a is for making other things look like <a>s
@@ -373,6 +374,18 @@ kbd.face {
 
 .direction-rtl {
 	direction: rtl;
+}
+
+// Details
+:not(li) > details {
+	margin-bottom: 1rem;
+}
+
+.details-content {
+	background-color: var(--details-bg);
+	margin-left: 1rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
 }
 
 @media only screen and (min-width: 576px) {
