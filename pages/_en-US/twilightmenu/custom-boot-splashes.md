@@ -6,7 +6,7 @@ title: Custom Boot Splashes
 category: Customization
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif`  and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
 
 Most GIF files up to 256x192 should work, with a few exceptions:
 - GIF files over 1MiB (DSi Mode) or 256KiB (DS Mode) may not play at full speed as they will be decompressed on the fly

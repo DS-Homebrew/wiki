@@ -6,7 +6,7 @@ title: Download Play / Pictochat in DS Classic Menu
 category: Other
 ---
 
-If you're using a DSi console, you should already be able to launch those apps.    
+If you're using a DSi console, you should already be able to launch those apps.
 Otherwise, if you have a 3DS, proceed below.
 
 In GodMode9:
