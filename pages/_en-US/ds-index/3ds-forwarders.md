@@ -138,3 +138,6 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Click the floppy disk button to generate the forwarder CIA(s)
 1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
    - If using EmuNAND, install to both SysNAND and EmuNAND
+
+If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+{:.alert .alert-warning}
