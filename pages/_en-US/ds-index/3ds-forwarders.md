@@ -131,7 +131,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Set your card as the `Target` on the left
    - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
 1. Enable `Automatically set ROM path`
-   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. /media/$USER/something/), please remove that part
+   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
    - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
 1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
    - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
