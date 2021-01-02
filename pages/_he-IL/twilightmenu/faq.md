@@ -1,45 +1,45 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: FAQ & Troubleshooting
-category: Other
+title: שאלות ותשובות & פתרון בעיות
+category: אחר
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+לשאלות ותשובות נוספות, בקרו ב[דיון בGBAtemp ](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 
-#### Q: Why is my 3DS/2DS stuck on black screens when launching TWiLight Menu++, or why is my 3DS/2DS powering off when launching TWiLight Menu++?
-A: TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
+#### ש: למה ה3DS/2DS שלי נתקע על מסך שחור שאני מפעיל את TWiLight Men++, או למה ה3DS/2DS שלי נכבה כשאני מפעיל את TWiLight Menu++?
+ת: TWL_FIRM ככל הנראה נפגם. עקבו אחרי מדריך זה על מנת לתקן את הבעיה: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide
 
-#### Q: I get a white screen when booting TWiLight Menu++. How do I fix this?
-A:
-- First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
-- If that doesn't work, format your SD card to FAT32 with 32KB cluster/allocation size
-- If that also doesn't work, try a different SD card
+#### ש: אני מקבל מסך לבן כשאני מפעיל את TWiLight Menu++. איך אני מתקן את זה?
+ת:
+- ראשית, נסו להכינס את המכשיר למצב שינה (סגירת החלק העליון של הקונסולה או לחיצה על כפתור השינה בO2DS), ואז להעיר אותו
+- אם זה לא עוזר, פרמטו את כרטיס הSD לFAT32 עם 32KB cluster/allocation size
+- אם גם זה לא עוזר, נסו כרטיס SD אחר
 
-#### Q: Why do I get a white screen when trying to load a game from SD Card?
-A:
-- First, check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
-- If the game that's attempted to be launched is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+#### ש: למה אני מקבל מסך לבן כשאני מנסה להפעיל משחק מכרטיס הSD?
+ת:
+- ראשית, בדקו את [רשימת התאימות של nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) ו-ודאו שהמשחק שלכם נתמך
+- אם המשחק שאתם מנסים להפעיל זה משחק DSi Enhanced, ודאו כי TWiLight Menu++ מוגדר להשתמש ב`DS Mode`
+- אם המשחק עבד בעבר, מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
 
-#### Q: How do I use cheats?
-A: You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+#### ש: איך אני משתמש בצ'יטים?
+ת: צריך מאגר ציטים בצורה של קובץ `usrcheat.dat` שנמצא בתיקיה `sd:/_nds/TWiLightMenu/extras/`. המאגר המעודכן ביותר הוא של [DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). לחלופין, ניתן להשתמש ב[r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) על מנת ליצור מאגר בעצמכם.
 
-#### Q: How do I show a custom picture on the top screen of the DSi theme?
-A: A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+#### ש: איך אני מראה תמונה מותאמת אישית במסך העליון בערכת הנושא של הDSi?
+ת: קובץ `.png` אקראי מהתיקייה `sd:/_nds/TWiLightMenu/dsimenu/photos/` יוצג כל פעם שהתפריט יעלה.
 
-- The file(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use tinypng to reduce the size
+- הגודל המקסימלי של הקבצים הוא 208x156
+- אם אתם מקבלים שגיאות, זוהי כנראה בעיה עם גודל התמונה. השתמשו בtinypng להקטין את הגודל
 
-#### Q: Why isn't touch input working on sudokuhax?
-A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### ש: למה מסך המגע לא עובד עם sudokuhax?
+ת: תלוי בשמירה של sudokuhax, מסך המגע עשוי לא לעבוד.
 
-#### Q: Can The Biggest Loser boot TWiLight Menu++?
-A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### ש: האם ניתן להשתמש בThe Biggest Loser על מנת להפעיל את TWiLight Menu++?
+ת: לא. מאחר וThe Biggest Loser הוא משחק Slot-1 ולא משחק DSiWare. גישה לSD נחסמת כאשר מריצים משחקי Slot-1.
 
-#### Q: How do I get games?
-A: You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). You can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump GBA games on DS or DS games on DSi, or [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump DS and 3DS games 3DS.
+#### ש: איך אני משיג משחקים?
+ת: ניתן להוריד משחקי הומברו מ [Universal-DB](https://db.universal-team.net/ds) ומ[GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת ליצור גיבוי של משחקי GBA על הDS או משחקי DS על הDSi, או להשתמש ב [GodMode9](https://github.com/d0k3/GodMode9/releases) על מנת ליצור גיבוי למשחקי DS ו3DS על ה3DS.
 
-#### Q: Can I get the save files from my cartridges onto my SD card? / Can I put my save files from the SD onto my cartridges?
-A: Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+#### ש: איך ניתן להעביר את השמירות מהקלטות משחק שלי אל הSD? /האם ניתן לשים את השמירות שלי מהSD על קלטות משחק?
+ת: כן, ניתן להשתמש ב [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על DSi או 3DS, או ב[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) על 3DS.

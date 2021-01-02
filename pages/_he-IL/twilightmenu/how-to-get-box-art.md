@@ -1,46 +1,46 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: How to Get Box Art
-category: Other
+title: איך להשיג תמונות קופסה
+category: אחר
 ---
 
 ### 3DS
-1. Install [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - This will replace the normal TWiLight Menu++ Updater, so use Universal-Updater instead for updating TWiLight Menu++
-1. Select `Extras`, `Boxart`, then press <kbd class="face">X</kbd> to scan the full SD card or <kbd class="face">A</kbd> to select a folder to scan
-1. Choose a box art size
-1. Choose a border style
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. התקינו את [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
+   - זה יחליף את הTWiLight Menu++ Updater הרגיל, אז השתמשו בUniversal-Updater במקום על מנת לעדכן את TWiLight Menu++
+1. בחרו ב`Extras`, ב`Boxart` ואז לחצו על <kbd class="face">X</kbd> על מנת לסרוק את כל כרטיס הSD או על <kbd class="face">A</kbd> על מנת לבחור תיקיה לסריקה
+1. בחר את גודל תמונות הקופסה
+1. בחרו את סגנון הגבול
+1. וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
 ### Windows
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. הורידו את הגרסה האחרונה של [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. חלצו את `TwilightBoxart-Windows-UX.zip` והריצו את `TwilightBoxart.exe`
+1. לחצו על `Detect SD`
+   - אם זה לא מוצא את כרטיס הSD הנכון, לחצו על `Browse...` ובחרו את הנכון
+1. שנו את הגדרות הגודל, גבול ועוד לפי רצונכם
+1. לחצו על `Start`
+1. במכשיר הDS שלכם, וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
 ### macOS/Linux
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor, then save the file
-1. Type the path to your SD card after `SdRoot=`
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI` file by drag dropping it onto your terminal
-1. Say `Yes` if it shows your SD path correctly
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. הורידו את הגרסה האחרונה של [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. חלצו את ה`.zip`
+1. פתחו את `TwilightBoxart.ini` שנמצא בתיקיה שחילצתם באמצעות עורך טקסט, ואז שמרו את הקובץ
+1. הקלידו את הנתיב לכרטיס הSD שלכם אחרי `SdRoot=`
+   - בmacOS זה יהיה `/Volumes/` ואז השם של הכרטיס SD
+1. פתח את terminal
+1. בterminal הקלידו `cd `, לאחר מכן גררו את התיקיה עם `TwilightBoxart.CLI` בתוכה על הterminal ושחררו
+1. הריצו את `chmod +x TwilightBoxart.CLI`
+1. הריצו את הקובץ `./TwilightBoxart.CLI` על ידי גרירה ושחררו על הterminal
+1. בחרו ב`Yes` אם זה מראה את הנתיב הנכון לSD שלכם
+1. במכשיר הDS שלכם, וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
-### Manual
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
-1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+### ידני
+1. הורידו חבילת תמונות קופסה בפורמט png מ[GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. חלצו את קבצי ה.png אל `sd:/_nds/TWiLightMenu/boxart`
+1. במכשיר הDS שלכם, וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
-**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`. Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`). Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143.
+**על מנת להוסיף תמונות קופסה משלכם:** מקמו אותם ב`sd:/_nds/TWiLightMenu/boxart`. הם יכולים להיות בשם של הTID של המשחק (לדוגמה `ASME.png`), או בשם של הקובץ (לדוגמה `SM64DS.nds.png`). הם חייבים להיות בפורמט `.png`, עם גודל מומלץ של 128x115 וגודל מקסימלי של 208x143.
 
-Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
+ניתן להוריד תמונות קופסה פרטניות מGameTDB מהקטגוריה **S Covers (png)**.

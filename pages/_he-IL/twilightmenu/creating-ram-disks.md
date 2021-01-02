@@ -20,8 +20,8 @@ category: אחר
 1. לחצו על`Start RAMDisk`, ויפתח חלון חדש בשביל ה.img שלכם
 1. מקמו כל קובץ או תיקיה שההומברו מצפה לה שם, ואת הקבצים שתרצו להשתמש בהם
 1. בתוכנת הRAMDisk, לחצו על `Save Disk Image Now`
-1. Save `romname.img` to a folder called `ramdisks` in the .nds file location
-1. Click `Stop RAMDisk` when you're done
-1. In TWiLight Menu++, open per-game settings for your homebrew
-1. Set RAM disk to 0
-1. Launch your homebrew, and it should read your RAM disk
+1. שמרו את `romname.img` לתיקיה בשם `ramdisks`, במיקום בו נמצא קובץ הnds. שלכם
+1. לחצו על `Stop RAMDisk` בסיום
+1. בTWiLight Menu++, פתחו את תפריט הגדרות המשחק בשביל ההומברו שלכם
+1. הגדירו את RAM disk ל0
+1. הפעילו את ההומברו שלכם, והוא אמור לקרוא את הRAM disk שלכם

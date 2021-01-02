@@ -3,6 +3,7 @@ lang: hu-HU
 layout: wiki
 section: ds-index
 title: Hardmod
+category: Útmutatók
 description: Minden a DS moddolásról
 ---
 

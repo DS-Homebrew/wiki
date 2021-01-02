@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: ds-index
 title: Hardmod
+category: Guides
 description: An explanation of all things DS modding
 ---
 

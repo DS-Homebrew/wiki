@@ -1,35 +1,35 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
-title: Installing (3DS)
-category: Installing
+title: Installation (3DS)
+category: Installation
 ---
 
-### Requirements
+### Krav
 
-- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+- Den senaste versionen av [FBI](https://github.com/Steveice10/FBI/releases)
+- Den senaste versionen av [Luma3DS](https://github.com/lumateam/luma3ds/releases)
 
-### Installing (Working Camera)
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### Installation (Med Kamera)
+1. Öppna FBI och välj `Remote Install`, sedan `Scan QR Code`
+1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Stäng FBI och starta Universal-Updater
+   - Om det inte dyker upp på hemmenyn, starta om din 3DS
+1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen
+   - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
+   - Det kommer att ta ett tag
 
-### Installing (Non-Working Camera)
-1. Download the `Universal-Updater.cia` file from the [Universal-Updater release page](https://github.com/Universal-Team/Universal-Updater/releases)
-1. Place the `Universal-Updater.cia` file anywhere on your SD card
-1. Launch FBI on your Nintendo 3DS
-1. In FBI, go to the place you pasted the `Universal-Updater.cia` file
-1. Select the `Universal-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### Installation (Utan Kamera)
+1. Ladda ner filen `Universal-Updater.cia` från [Universal-Updaters release sida](https://github.com/Universal-Team/Universal-Updater/releases)
+1. Placera filen `Universal-Updater.cia` var som helst på ditt SD-kort
+1. Starta FBI på din Nintendo 3DS
+1. I FBI, gå till den plats du klistrade in `Universal-Updater.cia` filen
+1. Välj filen `Universal-Updater.cia` och tryck på "Install & Delete"
+1. Stäng FBI och starta Universal-Updater
+   - Om det inte dyker upp på hemmenyn, starta om din 3DS
+1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen
+   - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
+   - Det kommer att ta ett tag

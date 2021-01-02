@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: ds-index
-title: Nintendo DS Modding Index
-description: An explanation of all things DS modding
+title: Index de modding Nintendo DS
+description: Une explication de tout le modding DS
 ---
 
-Welcome to the Nintendo DS modding resources section. This will attempt to explain most things related to Nintendo DS modding as well as be a basic introduction to the NTR firmware of the Nintendo DS, the TWL firmware of the Nintendo DSi, and TWL_FIRM of the Nintendo 3DS.
+Bienvenue dans la section ressources du modding Nintendo DS. Ce guide va essayer d'expliquer la plupart des choses liées au modding Nintendo DS ainsi qu'une introduction de base au firmware NTR de la Nintendo DS, le firmware TWL de la Nintendo DSi, et TWL_FIRM de la Nintendo 3DS.
 
 <div class="alert alert-warning" role="alert">
-If you need help, ask the <a href="https://ds-homebrew.com/discord">DS<sup>(i)</sup> Mode Hacking!</a> Discord server. (English only)
+Si vous avez besoin d'aide, demandez sur le serveur Discord<a href="https://ds-homebrew.com/discord">DS<sup>(i)</sup> Mode Hacking!</a> (Seulement en anglais)
 </div>

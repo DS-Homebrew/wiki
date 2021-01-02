@@ -1,18 +1,18 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Custom Boot Splashes
-category: Customization
+title: תמונת מסך אתחול מותאם אישית
+category: התאמה אישית
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif`  and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+ניתן להשתמש בקבצי GIF על מנת לקבל תמונות מותאמות אישית בזמן שמאתחלים את TWiLight Menu++. הקבצים צריכים להקרא `splashtop.gif` ו-`splashbottom.gif`, ולהמצא ב`sd:/_nds/TWiLightMenu/extras`. לאחר מכן יש להגדיר בהגדרות של TWiLight Menu++ את `DSi Splash Screen` ל`Custom`.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1MiB (DSi Mode) or 256KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10MB (DSi Mode) or about 2MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-  - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+רוב קבצי הGIF עד ל 256x192 אמורים לעבוד, עם כמה סייגים:
+- קבצי GIF מעל ל1MiB (מצב DSi) או 256KiB (מצב DS) עשויים לא לעבוד במהירות המלאה שלהם מאחר והם יעברו שחרור מכיווץ בזמן הריצה
+- 2 קבצי הGIF חייבים להיות מתחת ל10MB (מצב DSi) או 2MB (מצב DS)
+- אם 2 קבצי הGIF מוגדרים לרוץ בלולאה אינסופית, הם יוצגו במשך 3 שניות, לכן הגדירו את ספירת הלולאות על אחד מהם לפחות בשביל לשלוט בזמן הלולאה
+- קיימת תמיכה בדגל קלט משתמש, אז הגדירו אותו לדיליי ארוך בפריים אם תרצו להראות את התמונה ולהמתין כמו בברירת מחדל
+  - רק הGIF שממתין לקלט יעצור, כך שהשני יוכל להמשיך באנימציה
+- אם משתמשים בLocal Color Tables כל הפריים חייב להכתב מחדש, מאחר והוא יחליף את פלטת הצבעים של כל המסך, לא רק של הפריים הנוכחי
+- פריימים של טקסט או Interlaced לא יעבדו

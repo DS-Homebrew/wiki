@@ -3,7 +3,8 @@ lang: he-IL
 layout: wiki
 section: ds-index
 title: רומים רשמיים
-description: הסברים על כל מה שקשור למודינג של DS
+category: Reference
+description: An explanation of all things DS modding
 ---
 
 ### Anti-Piracy (נוגד פיראטיות)

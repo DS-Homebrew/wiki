@@ -1,14 +1,15 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: ds-index
 title: Hardmod
+category: Guides
 description: An explanation of all things DS modding
 ---
 
-Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...
+Le Hardmodding est quand vous soudez physiquement la carte mère de la Nintendo DSi à un adaptateur de carte SD afin d'être lu sur un ordinateur. Ceci est utile pour restaurer les sauvegardes de la NAND, pour visualiser la NAND sur votre PC, etc...
 ### Nintendo DS
-![Original DS motherboard with touch-points labeled](https://media.discordapp.net/attachments/547986366357700620/736370094392999947/mobo_pinout.png)
+![Carte mère DS originale avec points étiquetés](https://media.discordapp.net/attachments/547986366357700620/736370094392999947/mobo_pinout.png)
 
 ### Nintendo DSi
-Follow the "Hardware NAND Mod Guide" and "Decrypting your NAND" of [this](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) guide.
+Suivez le "Guide des mods NAND Hardware" et "Décrypter votre NAND" de [ce guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/).

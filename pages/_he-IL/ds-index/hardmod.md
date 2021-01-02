@@ -3,6 +3,7 @@ lang: he-IL
 layout: wiki
 section: ds-index
 title: Hardmod
+category: מדריכים
 description: הסברים על כל מה שקשור למודינג של DS
 ---
 

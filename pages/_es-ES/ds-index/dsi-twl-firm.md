@@ -3,7 +3,8 @@ lang: es-VE
 layout: wiki
 section: ds-index
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: Una explicación de todo lo relacionado con la modificación DS
+category: Reference
+description: An explanation of all things DS modding
 ---
 
 ### Configuración de CFW

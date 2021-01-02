@@ -3,7 +3,8 @@ lang: pl-PL
 layout: wiki
 section: ds-index
 title: ROM-y detaliczne
-description: Wyjaśnienie wszystkich rzeczy dotyczących modowania DSa
+category: Reference
+description: An explanation of all things DS modding
 ---
 
 ### Anty-Piractwo

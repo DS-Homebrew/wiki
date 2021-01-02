@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: ds-index
 title: Wi-Fi
+category: Reference
 description: An explanation of all things DS modding
 ---
 

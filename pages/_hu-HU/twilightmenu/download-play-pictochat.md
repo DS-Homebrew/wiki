@@ -6,8 +6,7 @@ title: Download Play / Pictochat a DS Classic Menu-ben
 category: Egyéb
 ---
 
-Ha DSi konzolt használsz, alapból képes vagy ezen alkalmazások megnyitására    
-Egyébként, ha 3DS-es van, az alábbiakat kell végrehajtanod.
+Ha DSi konzolt használsz, akkor meg kell tudnod nyitni ezeket az alkalmazásokat. Egyébként, ha 3DS-ed van, kövesd az alábbi lépéseket.
 
 A GodMode9-ben:
 - Nyomj <kbd class="r">R</kbd> + <kbd class="face">A</kbd>-t a SYSNAND TWLN-en

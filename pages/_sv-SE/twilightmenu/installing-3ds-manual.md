@@ -1,16 +1,16 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
-title: Installing (3DS, Manual)
-category: Installing
+title: Installation (3DS, Manuell)
+category: Installation
 ---
 
-### Installing
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
+### Installation
+1. Ladda ner den senaste versionen av `TWiLightMenu-3DS.7z` från [releases sidan](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrahera `TWiLightMenu-3DS.7z`
+1. Kopiera mappen `_nds` till ditt SD-korts rot
+1. Kopiera filen `BOOT.NDS` till din SD-korts rot
+1. Kopiera mappen `roms` till ditt SD-korts rot
+1. Kopiera de två `.cia` filerna till ditt SD-korts rot
 1. On your 3DS, install the two CIAs with FBI

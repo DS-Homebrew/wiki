@@ -3,6 +3,7 @@ lang: pl-PL
 layout: wiki
 section: ds-index
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
+category: Reference
 description: An explanation of all things DS modding
 ---
 

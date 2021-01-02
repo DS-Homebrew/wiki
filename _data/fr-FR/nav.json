@@ -1,6 +1,6 @@
 [
 		{
-				"title": "Home",
+				"title": "Accueil",
 				"url": "/"
 		},
 		{
@@ -8,7 +8,7 @@
 				"url": "/twilightmenu"
 		},
 		{
-				"title": "DS Index",
+				"title": "Index DS",
 				"url": "/ds-index"
 		}
 ]

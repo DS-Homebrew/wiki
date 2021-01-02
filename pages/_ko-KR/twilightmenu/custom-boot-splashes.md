@@ -6,7 +6,7 @@ title: 시작화면 커스텀하기
 category: 커스터마이징
 ---
 
-TWiLight Menu++가 켜질 때의 화면을 GIF 파일로 커스텀할 수 있습니다. `splashtop.gif`와 `splashbottom.gif`으로 되어있는 파일을 `sd:/_nds/TWiLightMenu/extras`에 놓습니다. 그러고 나서, TWiLight Menu++ 설정에서 `DSi 시작화면`을 `사용자 지정`으로 설정합니다.
+TWiLight Menu++가 켜질 때의 화면을 GIF 파일로 커스텀할 수 있습니다. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
 
 대부분의 GIF 파일은 256x192에서 작동하며, 예외 사항은 다음과 같습니다:
 - 켜자마자 즉시 실행되는 만큼, 1MiB (DSi 모드) 또는 256KiB (DS 모드)를 넘기는 GIF 파일은 최고 속도로 실행되지 않을 수 있습니다.

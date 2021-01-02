@@ -1,16 +1,16 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: DSi / 3DS skins - Custom SFX
-category: Customization
+title: סקינים לDSi/3DS - התאמה אישית של SFX
+category: התאמה אישית
 ---
 
-TWiLightMenu supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/sound/bgm.pcm.raw` respectively. Both files are optional, if one is missing the default music will be used. You should then also set the music option in settings to "Theme".
+TWiLightMenu תומך בקבצי שמע מותאמים אישית בערכות הנושא. מקמו את קבצי השמע שלכם בתת התיקיה `sound` שבתיקיה ערכת הנושא שלכם, למשל עבור ערכת הנושא `white`, תמקמו את הקבצים ב`themes/white/sound/sfx.bin` וב`themes/sound/bgm.pcm.raw` בהתאמה. שתי הקבצים הם אופציונליים, אם אחד מהם חסר יהיה שימוש במוזיקת ברירת המחדל. לאחר מכן תשנו את הגדרת המוזיקה בהגדרות ל"Theme".
 
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+הוראות אלו מניחות שיש לכם את devkitPro מותקן עם mmutil. ניתן להשיג את devkitPro ב[אתר האינטרנט של devkitPro ](https://devkitpro.org/wiki/Getting_Started).
 
-## Sound Effect Bank
+## בנק אפקטי צליל
 The sound effect bank contains sound effects such as the icon select sound, etc.
 
 | File        | Description                                                                            |

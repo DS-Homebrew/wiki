@@ -3,7 +3,8 @@ lang: ko-KR
 layout: wiki
 section: ds-index
 title: 닌텐도 DSi / 닌텐도 3DS TWL_FIRM
-description: DS 커스텀의 모든 것에 대한 설명
+category: Reference
+description: An explanation of all things DS modding
 ---
 
 ### 커스텀 펌웨어 준비

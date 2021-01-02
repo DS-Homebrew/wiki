@@ -3,6 +3,7 @@ lang: hu-HU
 layout: wiki
 section: ds-index
 title: Homebrew
+category: Referencia
 description: Minden a DS moddolásról
 ---
 
