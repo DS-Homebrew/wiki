@@ -1,6 +1,6 @@
 ---
 lang: crwdns13620:0crwdne13620:0
-layout: crwdns13622:0crwdne13622:0
+layout: wiki
 section: crwdns13624:0crwdne13624:0
 title: crwdns13626:0crwdne13626:0
 category: crwdns15200:0crwdne15200:0
