@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 title: Hardmod
 category: Guides
-description: An explanation of all things DS modding
+description: Une explication de tout le modding DS
 ---
 
 Le Hardmodding est quand vous soudez physiquement la carte mère de la Nintendo DSi à un adaptateur de carte SD afin d'être lu sur un ordinateur. Ceci est utile pour restaurer les sauvegardes de la NAND, pour visualiser la NAND sur votre PC, etc...

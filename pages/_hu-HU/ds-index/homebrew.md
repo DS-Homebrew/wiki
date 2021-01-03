@@ -15,7 +15,7 @@ Nintendo DS Homebrew fejlesztése tipikusan devkitPro eszközöket igényel, min
 - **Grafikus könyvtár:** Mi az easyGL2D-t ajánljuk, ami a libnds-sel érkezik. Azonban használhatod a NightFox Lib-et is
 - **Teljes eszköztárak:** Mi a devkitARM-ot és a libnds-t ajánljuk, ami tartalmazza a DSi kompatibilitást és nagyobb ökoszisztémája van. Azonban ha a cél kizárólag flashcard a Nintendo DS-en, nyugodtan használhatod a ToolchainGenericDS-t
 
-### Flashkártyák
+### Flashcard-ok
 
 A DS mód flashcard-ok slot-1 metódusa a Nintendo DS alkalmazások futtatásának. A flashcard-ok előnyei, hogy külön vannak a konzol állományok és a hordozható állományok, a rendszer moddolása nélkül is használhatók és működnek DS Phat/Lite konzolokon. Azonban, a konzol moddolásával szemben, többféle flashcard van a piacon, mind más kernel követelményekkel. A használt kernel az egyik legfontosabb.
 

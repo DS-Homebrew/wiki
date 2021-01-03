@@ -16,7 +16,7 @@ category: Frissítés
 
 ### További lépések a DSi/3DS SD kártya oldaláról
 
-Ha tudsz váltani az SD és flashkártya tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
+Ha tudsz váltani az SD és flashcard tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
 
 1. Menj a TWLMenu++ Beállítások-ba
 1. Válaszd a `TWiLight Menu++ frissítése` opciót

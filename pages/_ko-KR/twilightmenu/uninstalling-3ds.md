@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Uninstalling (3DS)
-category: Uninstalling
+title: 제거하기 (3DS)
+category: 제거
 ---
 
-### Uninstalling
-1. Open FBI
-1. Go to `Titles`
-1. Find two `TWiLight Menu++` titles in purple text
-1. Delete both titles
-1. Exit the title list
-1. Go to the SD card
-1. Open `_nds`
-1. Delete the `TWiLightMenu` folder
-1. Delete the nds-bootstrap and GBARunner2 files
-1. Exit `_nds`
-1. Delete `boot.nds`
+### 제거하기
+1. FBI를 실행합니다.
+1. `Titles`에 진입합니다.
+1. 보라색 텍스트의 `TWiLight Menu++` 타이틀 두 개를 찾습니다.
+1. 두 타이틀 모두 삭제합니다.
+1. 타이틀 목록에서 빠져나옵니다.
+1. SD card에 진입합니다.
+1. `_nds`에 진입합니다.
+1. `TWiLightMenu` 폴더를 삭제합니다.
+1. nds-bootstrap와 GBARunner2 파일들을 삭제합니다.
+1. `_nds`에서 빠져나옵니다.
+1. `boot.nds`를 삭제합니다.

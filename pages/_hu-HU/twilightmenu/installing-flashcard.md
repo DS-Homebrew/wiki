@@ -22,7 +22,7 @@ category: Telepítés
 1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
    - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
-1. Ezekhez a flashkártyákhoz:
+1. Ezekhez a flashcard-okhoz:
    - R4i-SDHC
    - r4isdhc.com kártyák
    - r4isdhc.hk kártyák

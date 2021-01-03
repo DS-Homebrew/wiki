@@ -1,72 +1,72 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: ds-index
-title: Retail ROMs
-category: Reference
-description: An explanation of all things DS modding
+title: ROMs originales
+category: Référence
+description: Une explication de tout le modding DS
 ---
 
-### Anti-Piracy
+### Anti-piratage
 
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+AP (abréviation de anti-piratage) est une méthode utilisée par les développeurs pour imposer des achats légitimes et empêcher le piratage. Cela peut être contourné soit depuis le lanceur, soit depuis la ROM elle-même.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+- Avec nds-bootstrap, vous pouvez charger un fichier `.IPS` afin de contourner ces patchs. Ce fichier `.IPS` sera patché à directement dans nds-bootstrap, donc vous pouvez garder les fichiers ROM intacts. Un pack de fichiers `.IPS` est automatiquement inclus avec TWiLight Menu++.
+- Avec Wood R4, ces correctifs sont inclus dans le logiciel. Vous n'aurez pas besoin de modifier la ROM elle-même.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+Dans le cas où il n'y a pas de fichier `.IPS` pour votre ROM ou votre lanceur n'a pas patché votre ROM, vous pouvez essayer de modifier directement la ROM elle-même en utilisant l'outil [nds-scene](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### CloneBoot
 
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
+Cloneboot, c'est quand un jeu envoie son propre binaire arm9/arm7 à une autre console. Il est utilisé pour le téléchargement DS, pour le multijoueur avec une seule carte. Mais tous les jeux qui ont le multijoueur avec une seule carte n'utilisent pas cloneboot.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
+Actuellement, les patchs cloneboot de nds-bootstrap sont cassés à cause des patchs des binaires arm9/7 qui rendent les signatures RSA invalides.
 
-### Thumb instructions
-Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
+### Instructions pour Thumb
+Au lieu des instructions ARM normales 32 bits, THUMB utilise des instructions 16 bits. Ceci est utile lorsque la bande passante mémoire ralentit la console.
 
-### Save Files
-Nintendo DS cartridges have 4 known save types:
+### Fichiers de sauvegarde
+Les cartouches Nintendo DS ont 4 types de sauvegarde connus :
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory
+- EEPROM - Mémoire programmable effaçable en lecture seule
 - FLASH
-- FRAM - Ferroelectric Random-Access Memory
+- FRAM - Mémoire d'accès aléatoire ferroélectrique
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+Bien que rare, il y a des Cartouches DS avec des sauvegardes basées sur la NAND : WarioWare DIY & Jam with the band (USA)/Daigasso Band Brothers
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+Il y a différents formats à utiliser selon le lanceur, mais nds-bootstrap utilise le format `.sav` brut. Si vous utilisez un format différent, voici un site web que vous pouvez utiliser pour le convertir : http://www.shunyweb.info/convert.php
 
-### Card Read DMA
-Card DMA (stands for Direct Memory Access) is a more efficient way to read catridge data than by software. When there isn't any data available, code can still execute. In software catridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+### Lecture DMA de la carte
+Card DMA (signifie Direct Access Memory, en français Accès direct à la mémoire) est un moyen plus efficace de lire des données de catridge que par le logiciel. Lorsqu'il n'y a pas de données disponibles, le code peut toujours être exécuté. Dans le code originel du lecteur de carte, le lecteur de données regarde si de nouvelles données sont disponibles dans le registre, ce qui fait perdre du temps. C'est le moyen privilégié d'accéder aux données.
 
-You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+Vous pouvez repérer un jeu qui utilise DMA dans no$gba en activant le log DMA sur ARM9. Un accès DMA à la carte utilise AF000001 comme troisième paramètre.
+- Par exemple : `DMA2 : 04100010 023C18C0 AF000001`
 
-### Donor ROM
+### ROM donatrice
 
-In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save. The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result. In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
+Dans les versions précédentes de nds-bootstrap, une ROM Mario Kart DS était nécessaire pour que les jeux SDK3-4 puissent fonctionner ou sauvegarder. La ROM a agi comme une ROM donatrice. nds-bootstrap saisit le binaire arm7 du donateur, remplaçant le binaire arm7 de la ROM, afin que les correctifs de sauvegarde puissent fonctionner, ce qui a cependant provoqué quelques effets secondaires. Dans les versions ultérieures de nds-bootstrap, une ROM Donatrice est nécessaire pour que certains jeux THUMB ou SDK5 puissent démarrer et sauvegarder.
 
-### Action Replay Cheats
+### Cheats d'Action Replay
 
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+Les cheats Action Replay sont des codes qui vous permettent de faire des changements programmables de bas niveau dans la zone mémoire de votre (vos) jeu(x) favori(s). Ces changements vont de simples ajustements de valeur à des réglages ASM extrêmement avancés, qui peuvent tous deux altérer l'expérience du ou des jeux joués.
 
-Flashcarts can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcart kernel respectively. The following kernels can utilize cheats:
+Les Flashcards peuvent tirer parti des cheats en utilisant des bases de données de codes. Les fonctionnalités de triche sont intégrées dans le noyau de la flashcard. Les noyaux suivants peuvent utiliser des cheats:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Les solutions Homebrew/digital peuvent également tirer parti des bases de données de cheats, ces logiciels actuellement disponibles peuvent les utiliser:
 - NitroHax (`cheats.xml`)
-  - The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and trys to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+  - Le moteur utilisé ici charge toute la base de données cheats.xml dans la RAM limitée de la Nintendo DS et essaye de gérer les choses à partir de là. Cela impose une limite sérieuse sur le nombre de cheats que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml au-delà de 2.4 Mo
 - TWiLight Menu++ (`usrcheat.dat`)
-  - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-  - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, the cheats file does not have a real limit.
-  - Bootstrap 4 DS (aka the nds-bootstrap version used on flashcarts) does not support cheats, due to not having enough RAM and the limitations of the Memory Expansion Pack.
+  - TWiLight Menu++ lit le `usrcheat.dat` et envoie les valeurs de triche activées à un autre fichier, que nds-bootstrap récupère
+  - Le moteur de triche utilisé dans nds-bootstrap est basé sur celui utilisé dans NitroHax. Cependant, en raison du fichier qui ne contient que des cheats activées pour ce titre spécifique, la taille du fichier n'a pas de limite réelle.
+  - Bootstrap 4 DS (la version nds-bootstrap utilisée sur les linkers) ne supporte pas les cheats, en raison du manque de mémoire vive et des limitations du Pack d'extension de mémoire.
 
-For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/page-38#post-9090779)
+Pour la base de données de cheats la plus complète, nous vous recommandons d'utiliser celle de DeadSkullzJr intitulée [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/page-38#post-9090779)
 
-Cheat codes generally have types A through E, and here is a description of them:
+Les cheat codes sont généralement de types A à E, voici une description des différents types:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutives addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
+- Le type de code 0xE est un type de code 32 bits qui vous permet de faire plusieurs écritures dans de nombreuses adresses consécutives en même temps. Essentiellement, c'est comme le type de code d'écriture de la RAM 32 bits (0x0), sauf qu'il n'y a pas d'adresses listées à la suite des valeurs que vous voulez écrire. Au lieu de cela, le type de code 0xE est programmé pour se brancher automatiquement à partir d'une adresse de départ, puis déterminer les adresses à écrire. À partir de là, il vous suffit de donner le montant à écrire pour qu'il fasse le travail.
 
-Credits: (`DeadSkullzJr`)
+Crédits: (`DeadSkullzJr`)

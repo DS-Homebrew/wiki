@@ -21,6 +21,7 @@ Tartsd szem előtt, hogy a palettás textúrák több korlátozással rendelkezn
 A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 
 ### Háttér texturák (`background_grit` mappa)
+
 | Textúra            | Leírás                                                                                            |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
 | bottom             | Az alsó háttérkép, ha nem ikon felett állunk                                                      |
@@ -30,6 +31,7 @@ A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 | top                | A felső háttér                                                                                    |
 
 ### Palettás texturák (`grit` mappa)
+
 | Textúra       | Leírás                                                                                        | Paletta korlátozások (ha kevesebb, mint 16)                      |
 | ------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | bips          | A gördítősáv alján látható pontok (DSi téma)                                                  |                                                                  |
@@ -65,6 +67,7 @@ A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 | wirelessicons | A megjelenített ikonok, amik azt mutatják, hogy a játéknak van vezetéknélküli támogatása      | 7 szín                                                           |
 
 ### UI texturák (`ui` mappa)
+
 | Textúra          | Leírás                                                  |
 | ---------------- | ------------------------------------------------------- |
 | date_time_font | A dátum és idő megjelenítésére használt karakterkészlet |

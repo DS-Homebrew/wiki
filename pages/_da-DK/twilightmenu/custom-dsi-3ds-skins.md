@@ -21,6 +21,7 @@ Be aware the paletted textures come with more restrictions than BMP textures, th
 The `volume` and `battery` textures are self explanatory.
 
 ### Background textures (`background_grit` folder)
+
 | Texture            | Description                                                                                       |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
 | bottom             | The bottom background texture when not hovering over an icon                                      |
@@ -30,6 +31,7 @@ The `volume` and `battery` textures are self explanatory.
 | top                | The top background                                                                                |
 
 ### Paletted textures (`grit` folder)
+
 | Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
@@ -65,6 +67,7 @@ The `volume` and `battery` textures are self explanatory.
 | wirelessicons | The icons displayed to indicate a game has wireless support                                    | 7 Colors                                                        |
 
 ### UI textures (`ui` folder)
+
 | Texture          | Description                                             |
 | ---------------- | ------------------------------------------------------- |
 | date_time_font | The font to display the date and time                   |

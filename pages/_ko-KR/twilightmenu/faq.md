@@ -1,12 +1,12 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: FAQ & Troubleshooting
-category: Other
+title: FAQ & 문제 해결하기
+category: 기타
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+더 많은 FAQ를 원하신다면, [GBAtemp 스레드](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)를 참고하세요.
 
 #### Q: Why is my 3DS/2DS stuck on black screens when launching TWiLight Menu++, or why is my 3DS/2DS powering off when launching TWiLight Menu++?
 A: TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide

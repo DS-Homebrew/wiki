@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: ds-index
 title: DS game forwarders (3DS)
-category: Guides
+category: מדריכים
 description: How to create CIA forwarders to have your DS games on your 3DS's home menu
 ---
 
@@ -98,7 +98,7 @@ After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change
 
 1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
 
-After you extract the pack for your card, you can edit `sd:/nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
+לאחר שתחלצו את החבילה עבור הכרטיס שלכם, תוכלו לערוך את `sd:/_nds/ntr_forwarder.ini` על מנת לשנות את ההגדרות. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
 - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message

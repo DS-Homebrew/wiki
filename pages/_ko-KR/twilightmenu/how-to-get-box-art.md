@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: How to Get Box Art
-category: Other
+title: 박스 아트 가져오기
+category: 기타
 ---
 
 ### 3DS

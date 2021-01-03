@@ -3,8 +3,8 @@ lang: fr-FR
 layout: wiki
 section: ds-index
 title: Homebrew
-category: Reference
-description: An explanation of all things DS modding
+category: Référence
+description: Une explication de tout le modding DS
 ---
 
 ### Développement

@@ -1,12 +1,12 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: How to create DSi / 3DS skins
-category: Customization
+title: DSi / 3DS 스킨 제작하기
+category: 커스터마이징
 ---
 
-The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+테마를 커스텀하는 가장 쉬운 방법은 테마의 `ui`, `battery` 또는 `volume` 폴더의 PNG 텍스쳐를 수정하는 것입니다. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
 
 Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
 ```bash
@@ -21,6 +21,7 @@ Be aware the paletted textures come with more restrictions than BMP textures, th
 The `volume` and `battery` textures are self explanatory.
 
 ### Background textures (`background_grit` folder)
+
 | Texture            | Description                                                                                       |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
 | bottom             | The bottom background texture when not hovering over an icon                                      |
@@ -30,6 +31,7 @@ The `volume` and `battery` textures are self explanatory.
 | top                | The top background                                                                                |
 
 ### Paletted textures (`grit` folder)
+
 | Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
@@ -65,6 +67,7 @@ The `volume` and `battery` textures are self explanatory.
 | wirelessicons | The icons displayed to indicate a game has wireless support                                    | 7 Colors                                                        |
 
 ### UI textures (`ui` folder)
+
 | Texture          | Description                                             |
 | ---------------- | ------------------------------------------------------- |
 | date_time_font | The font to display the date and time                   |
