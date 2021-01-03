@@ -31,13 +31,13 @@ layout: compress
 								<!-- First do the index -->
 								{% for item in items %}
 									{% if item.url contains "index.html" %}
-										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>
 									{% endif %}
 								{% endfor %}
 								<!-- Then the pages not in categories -->
 								{% for item in items %}
 									{% unless item.url contains "index.html" or item.category %}
-										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>
 									{% endunless %}
 								{% endfor %}
 								<!-- Finally, the other pages -->
@@ -50,7 +50,7 @@ layout: compress
 													{% unless item.category == cat or item.category.first and item.category contains cat %}
 														{% continue %}
 													{% endunless %}
-													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>
 												{% endfor %}
 											</ul>
 										</details>
