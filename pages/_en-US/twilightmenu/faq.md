@@ -44,3 +44,10 @@ A: You can download homebrew games from [Universal-DB](https://db.universal-team
 
 #### Q: Can I get the save files from my cartridges onto my SD card? / Can I put my save files from the SD onto my cartridges?
 A: Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+
+#### Q: How do I change TWiLight Menu++'s language?
+A:
+1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
+1. Press <kbd class="l">L</kbd> or <kbd class="face">Y</kbd> once (on flashcard / 3DS) or twice (on DSi)
+1. Change the first option until you see the language you want, then exit settings
+   - You may also want to change the next two options as they control the language of DS games and their titles in TWiLight Menu++
