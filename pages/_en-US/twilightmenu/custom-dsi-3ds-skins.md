@@ -80,15 +80,6 @@ The `volume` and `battery` textures are self explanatory.
 
 `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
 
-### Fonts (`font` folder)
-
-You can add custom fonts in NFTR (Nitro FonT Resource) format, these are not in the example themes, but you can download the default fonts from [here](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/nitrofiles/graphics/font). One utility you can use to edit NFTR files is Pk11's [nftr-editor](https://pk11.us/nftr-editor/) (works in any modern browser).
-
-| File       | Description |
-| ---------- | ----------------------------------------- |
-| large.nftr | The large font used for titles            |
-| small.nftr | The smaller font used for most other text |
-
 ## Theme configuration
 
 You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures.
