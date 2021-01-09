@@ -15,7 +15,7 @@ layout: compress
 				{% include language-alert.html %}
 				<div class="row pt-5">
 					<div class="col-sm-3">
-						<div class="rounded-3 border sidebar-container mb-3 p-3">
+						<div class="rounded-3 sidebar-container mb-3 p-3">
 							<!-- get category list -->
 							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
 							{% for item in items %}
