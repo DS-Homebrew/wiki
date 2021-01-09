@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: תמונת מסך אתחול מותאם אישית
-category: התאמה אישית
+category: customization
+title: Custom Boot Splashes
 ---
 
 ניתן להשתמש בקבצי GIF על מנת לקבל תמונות מותאמות אישית בזמן שמאתחלים את TWiLight Menu++. הקבצים צריכים להקרא `splashtop.gif` ו-`splashbottom.gif`, ולהמצא ב`sd:/_nds/TWiLightMenu/extras`. לאחר מכן יש להגדיר בהגדרות של TWiLight Menu++ את `DSi Splash Screen` ל`Custom`.

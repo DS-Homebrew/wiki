@@ -2,9 +2,12 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Telepítés (DSi)
-category: Telepítés
+category: installing
+title: Installing (DSi)
 ---
+
+If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+{:.alert .alert-info}
 
 ### Telepítés
 1. Töltsd le a `TWiLightMenu-DSi.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)

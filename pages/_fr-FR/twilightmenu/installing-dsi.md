@@ -2,9 +2,12 @@
 lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Installation (DSi)
-category: Installation
+category: installing
+title: Installing (DSi)
 ---
+
+If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+{:.alert .alert-info}
 
 ### Installation
 1. Téléchargez le dernier `TWiLightMenu-DSi.7z` depuis la [page de téléchargement](https://github.com/DS-Homebrew/TWiLightMenu/releases)

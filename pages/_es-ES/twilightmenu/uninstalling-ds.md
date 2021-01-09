@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: uninstalling
 title: Uninstalling (DS & DSi)
-category: Uninstalling
 ---
 
 ### Uninstalling

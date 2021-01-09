@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: התקנה (פלאשקארט)
-category: התקנה
+category: installing
+title: Installing (Flashcard)
 ---
 
 ### התקנה

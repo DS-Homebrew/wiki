@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Játék széles képenyőn
-category: Egyéb
+category: other
+title: Playing in Widescreen
 ---
 
 Old/New Nintendo 3DS vagy 2DS konzolt igényel.

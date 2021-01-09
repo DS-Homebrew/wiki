@@ -2,9 +2,12 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: התקנה (DSi)
-category: התקנה
+category: installing
+title: Installing (DSi)
 ---
+
+If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+{:.alert .alert-info}
 
 ### התקנה
 1. הורידו את הגרסה האחרונה של `TWiLightMenu-DSi.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)

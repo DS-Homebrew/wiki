@@ -2,8 +2,8 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: installing
 title: インストール（フラッシュカード）
-category: インストール
 ---
 
 ### インストール

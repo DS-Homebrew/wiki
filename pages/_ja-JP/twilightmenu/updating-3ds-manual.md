@@ -2,8 +2,8 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: updating
 title: 更新（3DS、手動）
-category: 更新
 ---
 
 **注：**v16.4.0より古いバージョンから更新する場合は、DSゲームの`.sav`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDS ROMと同じ場所に置いてください。

@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: ds-index
+category: guides
 title: DS game forwarders (3DS)
-category: מדריכים
 description: How to create CIA forwarders to have your DS games on your 3DS's home menu
 ---
 

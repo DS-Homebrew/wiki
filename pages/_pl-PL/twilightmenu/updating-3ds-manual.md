@@ -2,8 +2,8 @@
 lang: pl-PL
 layout: wiki
 section: twilightmenu
-title: Aktualizacja (3DS, Ręcznie)
-category: Aktualizacja
+category: updating
+title: Updating (3DS, Manual)
 ---
 
 **UWAGA:** Jeśli aktualizujesz z wersji starszej niż v16.4.0, przenieś pilki `.sav` dla gier DS do nowego folderu o nazwie `saves`. Folder `saves` powinien być w tym samym miejscu co gry DS.

@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: other
 title: How to Get Box Art
-category: Other
 ---
 
 ### 3DS

@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Désinstallation (3DS)
-category: Désinstallation
+category: uninstalling
+title: Uninstalling (3DS)
 ---
 
 ### Désinstallation

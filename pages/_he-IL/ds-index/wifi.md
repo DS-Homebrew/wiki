@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: ds-index
+category: reference
 title: Wi-Fi
-category: הפניה
 description: הסברים על כל מה שקשור למודינג של DS
 ---
 

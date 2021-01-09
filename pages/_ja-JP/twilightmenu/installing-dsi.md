@@ -2,9 +2,12 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: installing
 title: インストール（DSi）
-category: インストール
 ---
+
+DSiに自作ソフトを実行する方法がない場合は、[dsi.cfw.guide](https://dsi.cfw.guide)に従って、TWiLight Menu++をインストールしてください
+{:.alert .alert-info}
 
 ### インストール
 1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から最新の`TWiLightMenu-DSi.7z`をダウンロードする

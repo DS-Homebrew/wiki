@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Mise à jour (3DS, Manuel)
-category: Mise à jour
+category: updating
+title: Updating (3DS, Manual)
 ---
 
 **REMARQUE :** Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS dans un nouveau dossier appelé `saves`, qui se trouvera à la même place que les roms DS.

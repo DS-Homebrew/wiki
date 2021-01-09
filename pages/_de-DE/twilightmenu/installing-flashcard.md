@@ -2,8 +2,8 @@
 lang: de-DE
 layout: wiki
 section: twilightmenu
-title: Installation (FlashCard)
-category: Installiere
+category: installing
+title: Installing (Flashcard)
 ---
 
 ### Installiere

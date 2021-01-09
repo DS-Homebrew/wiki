@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Eltávolítás (3DS)
-category: Eltávolítás
+category: uninstalling
+title: Uninstalling (3DS)
 ---
 
 ### Eltávolítás

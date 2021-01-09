@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: 시작화면 커스텀하기
-category: 커스터마이징
+category: customization
+title: Custom Boot Splashes
 ---
 
 TWiLight Menu++가 켜질 때의 화면을 GIF 파일로 커스텀할 수 있습니다. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.

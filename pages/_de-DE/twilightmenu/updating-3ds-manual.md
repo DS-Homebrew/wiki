@@ -2,8 +2,8 @@
 lang: de-DE
 layout: wiki
 section: twilightmenu
-title: Aktualisieren (3DS, Handbuch)
-category: Aktualisieren
+category: updating
+title: Updating (3DS, Manual)
 ---
 
 **HINWEIS:** Wenn ein Update von einer Version älter als v16.4.0 erfolgt, verschieben Sie bitte Ihre `.sav` Dateien für DS Spiele in einem neuen Ordner namens `speichert`, mit dem `speichert` Ordner an der gleichen Stelle wie der DS roms.

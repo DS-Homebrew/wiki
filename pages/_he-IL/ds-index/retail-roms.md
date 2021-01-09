@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: ds-index
-title: רומים רשמיים
-category: Reference
+category: reference
+title: Retail ROMs
 description: An explanation of all things DS modding
 ---
 

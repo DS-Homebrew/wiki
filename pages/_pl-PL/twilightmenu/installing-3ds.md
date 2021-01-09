@@ -2,14 +2,12 @@
 lang: pl-PL
 layout: wiki
 section: twilightmenu
+category: installing
 title: Installing (3DS)
-category: Instalacja
 ---
 
-### Requirements
-
-- The latest version of [FBI](https://github.com/Steveice10/FBI/releases)
-- The latest version of [Luma3DS](https://github.com/lumateam/luma3ds/releases)
+You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+{:.alert .alert-info}
 
 ### Installing (Working Camera)
 1. Open FBI and select `Remote Install`, then `Scan QR Code`

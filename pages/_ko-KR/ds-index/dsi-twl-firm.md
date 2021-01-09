@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: ds-index
-title: 닌텐도 DSi / 닌텐도 3DS TWL_FIRM
-category: Reference
+category: reference
+title: Nintendo DSi / Nintendo 3DS TWL_FIRM
 description: An explanation of all things DS modding
 ---
 
@@ -23,9 +23,13 @@ description: An explanation of all things DS modding
 nds-bootstrap은 TWL Clock Speed를 옵션으로 갖고있는데, 이게 있다고 해서 ROM이 더 높은 클럭 속도에서 잘 작동하도록 조절하지는 않을것입니다. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 
 ### 닌텐도 DSi 본체 메뉴
-닌텐도 DSi 본체의 메뉴는 서명된 32비트 정수를 사용하여 NAND의 여유 공간을 결정해줍니다. 실제 NAND를 사용할 때는, 128MB를 넘지 않으므로 안전했습니다. 그러나, NAND를 SD카드에 리다이렉트 시키게 되면, 32비트 정수 제한을 넘겨버려서, 음수로 오버플로가 생겨버립니다. The negative number of free space will unfortunately cause an "An error has occurred" error message, not letting you boot into the menu. Fortunately, this can be fixed by making a dummy file to put it in a positive number.
+The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
 
-The positive and negative numbers are determined by pairs of two. For example, 1-2 GB of free space is allowed while 3-4 isn't. 5-6 GB of free space is allowed while 7-8 isn't.
+The ranges that make it overflow is determined by pairs of two. For example, 1-2 GB of free space is allowed while 3-4 isn't. 5-6 GB of free space is allowed while 7-8 isn't.
+
+This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+
+-----
 
 In version 1.4.0, RSA signatures in the DS Cart Whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 

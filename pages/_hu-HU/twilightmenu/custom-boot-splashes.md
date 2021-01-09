@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Egyedi boot képernyők
-category: Testreszabás
+category: customization
+title: Custom Boot Splashes
 ---
 
 Használhatsz egyedi GIF fájlokat arra, hogy egyedi indítóképernyőt jeleníts meg, amikor a TWiLight Menu++ boot-ol. A fájlok `splashtop.gif` és `splashbottom.gif` néven kell legyenek az `sd:/_nds/TWiLightMenu/extras`, mappában, és ezt követően be kell állítani a `DSi nyitókép` opciót `Egyéni`-re a TWiLight Menu++ beállításaiban.

@@ -2,8 +2,8 @@
 lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Disinstallazione (DS & DSi)
-category: Disinstallazione
+category: uninstalling
+title: Uninstalling (DS & DSi)
 ---
 
 ### Disinstallazione

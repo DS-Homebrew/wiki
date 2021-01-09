@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: 업데이트하기 (3DS, 수동)
-category: 업데이트
+category: updating
+title: Updating (3DS, Manual)
 ---
 
 **참고:** v16.4.0보다 낮은 버전에서 업데이트 한다면, DS 게임의 `.sav` 파일을 `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만들어서 넣어주세요.

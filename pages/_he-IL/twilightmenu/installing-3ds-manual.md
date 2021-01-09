@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: התקנה (3DS, ידנית)
-category: התקנה
+category: installing
+title: Installing (3DS, Manual)
 ---
 
 ### התקנה

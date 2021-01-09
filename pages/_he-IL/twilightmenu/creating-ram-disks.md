@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: יצירת RAM Disks
-category: אחר
+category: other
+title: Creating RAM Disks
 ---
 
 הערה: אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.

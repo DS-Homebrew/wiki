@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: ds-index
+category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-category: Référence
 description: Une explication de tout le modding DS
 ---
 
@@ -23,25 +23,29 @@ La Nintendo DS est livrée avec un processeur de 67Mhz en 2004. La Nintendo DSi 
 nds-bootstrap a une option TWL Clock Speed, mais il n'essaiera pas d'ajuster la ROM pour qu'elle fonctionne avec la vitesse d'horloge plus élevée. Cela se produira sur l'application elle-même, et les applications qui ne fonctionnent pas avec une vitesse plus élevée ne sont PAS un bug de nds-bootstrap.
 
 ### Menu Système Nintendo DSi
-Le menu de la console Nintendo DSi utilise un entier de 32 bits signé pour déterminer l'espace libre sur la NAND. En utilisant la NAND réelle, le montant ne va jamais dépasser 128 Mo, donc il est sûr. Cependant, lorsque nous redirigeons la NAND vers la carte SD, elle dépasse la limite de l'entier 32 bits, ce qui la fait déborder vers un nombre négatif. Le nombre négatif d'espace libre provoquera malheureusement un message d'erreur "Une erreur s'est produite", ne vous laissant pas démarrer dans le menu. Heureusement, cela peut être corrigé en faisant un fichier factice pour le mettre dans un nombre positif.
+The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
 
-Les nombres positifs et négatifs sont déterminés par des paires de deux. Par exemple, 1-2 Go d'espace libre est autorisé alors que 3-4 ne l'est pas. 5-6 Go d'espace libre est autorisé alors que 7-8 ne l'est pas.
+The ranges that make it overflow is determined by pairs of two. Par exemple, 1-2 Go d'espace libre est autorisé alors que 3-4 ne l'est pas. 5-6 Go d'espace libre est autorisé alors que 7-8 ne l'est pas.
 
-Dans la version 1.4.0, les signatures RSA dans la liste blanche de la Carte DS ne sont pas vérifiées. Il y a un exploit concernant une vulnérabilité dans la liste blanche de la flashcard Nintendo DSi qui vous permet d'accéder au processeur ARM9, Elle nécessite la version 1.4.0 (il a été corrigé dans les versions futures et n'existait pas dans les versions précédentes) et une flashcard avec une ROM modifiée.
+This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+
+-----
+
+In version 1.4.0, RSA signatures in the DS Cart Whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
 ### Accès Nintendo DSi Slot-1 & Blocage
-L'accès Slot-1 est bloqué lors du lancement d'applications à partir du menu Système, sauf si ces applications sont soit le lanceur Slot-1, soit les paramètres du système. Afin de lancer normalement les cartouches slot-1 non lançables, vous devrez soit faire un exploit des paramètres système, soit installer Unlaunch. Sans l'un ou l'autre, vous ne pouvez pas lancer de flashcards non lançables et vous ne pouvez pas dumper de ROMs sur votre carte SD.
+Slot-1 access is blocked when launching applications from the System Menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
 
-La liste blanche de la flashcard est vérifiée via les signatures RSA qui sont contenues via des clés RSA sur chaque firmware y compris 1.4.0. Cela signifie que les gens peuvent mettre en liste blanche leurs propres cartes
+The flashcard white list is checked via RSA signatures are contained via RSA keys on every firmware expect 1.4.0. This means that people can white list their own carts
 
-Avant la 1.4.0, la liste blanche ne contenait que deux sections. En 1.4.0, une troisième section est introduite. Elle a été faite pour bloquer les flashcards qui ont contourné les deux premières. La troisième section charge jusqu'à huit sections différentes de la rom et les vérifie avec un hachage pour voir si la rom a été altérée. Cependant, en raison de l'oubli de la mise en place d'une vérification de bon état, nous pouvons déborder dans l'adresse vector/interrupt de l'exception en utilisant une valeur suffisamment grande. Mieux encore, cela fonctionne sur ARM7 (le processeur de sécurité), ce qui en fait le premier exploit du processeur ARM7. Puisque cela se produit avant le verrouillage des registres SCFG, nous pouvons exécuter des homebrew avancés (comme des dumpers Slot-1 & dumpers externes slot-1)
+Before 1.4.0, the white list used to contain only two sections. In 1.4.0, they've introduced a third section which was made to block flashcards that got around the first two. The third section loads up to eight different section of the rom and checks them with a hash to see if the rom has been tampered with. However, due to the forgetfulness of putting any sanity check, we can overflow into the exception vector/interrupt address using a large enough value. Best of all, this runs on ARM7 (aka the security processor) so this makes it the first exploit for the ARM7 processor. Since this happens before the lock out of the SCFG registers, we can run advanced homebrew (such as Slot-1 dumpers & external slot-1 dumpers)
 
-Malheureusement, les exigences sont strictes. Il nécessite la version 1.4.0 et une flashcard avec une ROM modifiée. En outre, l'exploit n'a jamais été officiellement publié, à cause de Unlaunch, qui est beaucoup plus simple à installer et qui a moins de pré-requis (juste un moyen de lancer le homebrew) avec les mêmes avantages.
+Unfortunately, the requirements are tight. It requires version 1.4.0 and a flashcard with a modified ROM. Also, the exploit never officially came out, due to Unlaunch being much simpler to install and having less requirements (just a way to get into homebrew) with the same advantages.
 
 ### Caméra Nintendo DSi
-L'application Nintendo DSi Camera a la possibilité de prendre des photos dans le format JPEG et de les enregistrer soit sur la mémoire système, soit sur la carte SD. La façon dont elle est faite la restreint à des images prises sur DSi en raison de l'absence du propre HMAC stocké dans une balise personnalisée EXIF. Toute image personnalisée n'est pas lisible sur la DSi, qu'elles soient prises sur PC ou éditées le PC.
+The Nintendo DSi Camera application has the ability to take pictures in the JPEG and save them to either the System Memory or the SD card. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether its PC taken or PC edited.
 
-Un fichier `pit.bin` est utilisé pour charger des images. Cependant, la taille de l'en-tête à l'offset 0x16 est décochée, de sorte qu'une taille d'en-tête suffisante peut dépasser les limites et faire en sorte que le tampon soit écrasé et saute au code non signé. C'est ainsi que le Memory Pit fonctionne.
+A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 
 ### Nintendo DSi Bootstage 2
-La deuxième phase de démarrage de la Nintendo DSi charge en mémoire le "title.tmd" du menu principal. Cependant, ils ne spécifient pas de vérification de la taille du fichier, ce qui signifie que les 80k premiers octets sont chargés dans la RAM et que le reste peut être un payload personnalisé. C'est la base de l'exploit Unlaunch.
+The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.

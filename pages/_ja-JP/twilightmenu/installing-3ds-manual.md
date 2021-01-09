@@ -2,8 +2,8 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: installing
 title: インストール（3DS、手動）
-category: インストール
 ---
 
 ### インストール

@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: ds-index
+category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-category: Referencia
 description: Minden a DS moddolásról
 ---
 
@@ -23,9 +23,13 @@ A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
 ### A Nintendo DSi System Menu
-A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely a NAND-on. Az aktuális NAND-ot használva ez sosem megy fel 128 MB felé, így biztonságos. Azonban, ha átirányítjuk a NAND -ot az SD kártyára ez a 32-bit egész limit felé megy, ami a negatív számmá túlcsordulását eredményezi. Ez a negatív mértéke a szabad területnek az "An error has occurred" hibát okozza, és nem enged be a boot menübe. Szerencsére ez javítható a egy dummy fájlla, hogy pozitív szám legyen.
+A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
 
-A pozitív és negatív számok párokban kerülne értékelésre. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
+The ranges that make it overflow is determined by pairs of two. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
+
+This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+
+-----
 
 Az 1.4.0 verzióban az RSA aláírások a a DS Cart fehérlistában nem ellenőrzöttek. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
 
@@ -36,12 +40,12 @@ A flashcard white list RSA aláírásokkal kerül ellenőrzésre kivéve az 1.4.
 
 Az 1.4.0 előtt a white list két szekciót tartalmazott. Az 1.4.0-nál bevezetésre került a harmadik szekció, amivel a blokkolhatók olyan flash kártyák, amik az első kettőn túljutottak. A harmadik szekció 8 különböző szekciót olvas fel a rom-ról és ellenőrzi egy hash-sel, hogy a rom módosításra került-e. Azon az ellenőrzés hiánya miatt túlcsordultathatjuk a kivétel vektort/megszakítás címet elég nagy értékkel. A legjobb az egészben, hogy ez ARM7-en fut (másik nevén a biztonsági processzor) így ez lehetővé teszik az első exploit-ot az ARM7 processzor-ra. Mivel ez az SCFG regiszterek kizárása előtt történik, fejlett homebrew alkalmazást is futtathatunk (mint például a Slot-1 dumper-ek & külső slot-1 dumper-ek)
 
-Sajnos a követelmények elég szűket. 1.4.0 verziót és módosított ROM-os flashcard-ot igényel. Továbbá, az exploit nem jött ki sosem hivatalosan, mert az Unlaunch-ot még egyszerűbb telepíteni, és kevesebb követelménnyel rendelkezik (csak egy út a homebrew felé) hasonló előnyökkel.
+Sajnos a követelmények elég szűkek. 1.4.0 verziót és módosított ROM-os flashcard-ot igényel. Továbbá, az exploit nem jött ki sosem hivatalosan, mert az Unlaunch-ot még egyszerűbb telepíteni, és kevesebb követelménnyel rendelkezik (csak egy út a homebrew felé) hasonló előnyökkel.
 
 ### Nintendo DSi Camera
 A Nintendo DSi Camera alkalmazás képs fényképek készítésére JPEG-ben és azok mentésére a System Memory-ba vagy az SD kártyára. A mód, ahogy betöltésre kerül korlátozza az alkalmazást a DSi által készített képekre, a nem megfelelő HMAC tárolás miatt egy egyedi EXIF tag-ban. Bármilyen egyedi kép nem olvasható a DSi-n, függetlenül attól, hogy PC-n készült vagy szerkesztett.
 
-A `pit.bin` fájl alapján kerül a képek betöltésének sorrendje meghatározásra. Azonban a fejléc méret az offset 0x16-nál nem ellenőrzött, így elég nagy fejléc méret túl tud lépni ezeken a határokon, a buffer felülírását eredményezve aláíratlan kódra ugorva. Ez az ahogy a Memory Pit működik.
+A `pit.bin` fájl alapján kerül a képek betöltésének sorrendje meghatározásra. Azonban a fejléc méret az offset 0x16-nál nem ellenőrzött, így elég nagy fejléc méret túl tud lépni ezeken a határokon, a buffer felülírását eredményezve aláíratlan kódra ugorva. Ez az, ahogy a Memory Pit működik.
 
 ### Nintendo DSi 2. Bootstage
 A Nintendo DSi második bootstage tölti be a launcher "title.tmd"-jét a memóriába. Azonban ez nem végez fájlméret ellenőrzést, ami azt jelenti, hogy az első 80k bájt betöltésre kerül a RAM-ba, miközben a többi az egyedi payload lehet. Ez az alapja az Unlaunch exploit-nak.

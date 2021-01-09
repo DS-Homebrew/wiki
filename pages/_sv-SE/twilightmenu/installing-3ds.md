@@ -2,16 +2,14 @@
 lang: sv-SE
 layout: wiki
 section: twilightmenu
-title: Installation (3DS)
-category: Installation
+category: installing
+title: Installing (3DS)
 ---
 
-### Krav
+You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+{:.alert .alert-info}
 
-- Den senaste versionen av [FBI](https://github.com/Steveice10/FBI/releases)
-- Den senaste versionen av [Luma3DS](https://github.com/lumateam/luma3ds/releases)
-
-### Installation (Med Kamera)
+### Installing (Working Camera)
 1. Öppna FBI och välj `Remote Install`, sedan `Scan QR Code`
 1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
 1. Stäng FBI och starta Universal-Updater
@@ -21,7 +19,7 @@ category: Installation
 1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
    - Det kommer att ta ett tag
 
-### Installation (Utan Kamera)
+### Installing (Non-Working Camera)
 1. Ladda ner filen `Universal-Updater.cia` från [Universal-Updaters release sida](https://github.com/Universal-Team/Universal-Updater/releases)
 1. Placera filen `Universal-Updater.cia` var som helst på ditt SD-kort
 1. Starta FBI på din Nintendo 3DS

@@ -1,0 +1,34 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "Guides"
+		},
+		{
+			"key": "reference",
+			"title": "Reference"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "Installing"
+		},
+		{
+			"key": "updating",
+			"title": "Updating"
+		},
+		{
+			"key": "customization",
+			"title": "Customization"
+		},
+		{
+			"key": "other",
+			"title": "Other"
+		},
+		{
+			"key": "uninstalling",
+			"title": "Uninstalling"
+		}
+	]
+}

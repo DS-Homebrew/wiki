@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Installation (Flashcard)
-category: Installation
+category: installing
+title: Installing (Flashcard)
 ---
 
 ### Installation

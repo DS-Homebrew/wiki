@@ -2,8 +2,8 @@
 lang: pl-PL
 layout: wiki
 section: ds-index
+category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-category: Reference
 description: An explanation of all things DS modding
 ---
 
@@ -23,9 +23,13 @@ Nintendo DS było sprzedawane w 2004 z procesorem 67MHz. Nintendo DSi było sprz
 nds-bootstrap ma opcje TWL Clock Speed, ale nie bedzie on próbował dostosować naszego ROM do pracy z większym taktowaniem zegara procesora. To zadanie leży w rękach aplikacji, więc aplikacje nie działające z wyższymi taktowaniami NIE są problemem ze strony nds-bootstrap.
 
 ### Menu systemu Nintendo DSi
-Menu systemu Nintendo DSi używa 32-bitowy signed integer, aby określić dostępne miejsce w pamięci NAND. Korzystając z faktycznego NAND, ilość ta nigdy nie przekroczy 128MB, więc jest to bezpieczne. Gdy jednak przekierujemy NAND do karty SD, dostępna pamięć przekracza limit 32-bitowego signed integer i jako rezultat następuje overflow do liczby ujemnej. Negatywna ilość wolnego miejsca spowoduje komunikat "Wystąpił błąd" i nie pozwoli Ci uruchomić menu. Na szczęście można to naprawić, tworząc plik który oszukuje system, aby ten myślał że miejsce wolne jest dodatnie.
+The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
 
-Wartości dodatnie i ujemne określa się na podstawie par. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
+The ranges that make it overflow is determined by pairs of two. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
+
+This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+
+-----
 
 In version 1.4.0, RSA signatures in the DS Cart Whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 

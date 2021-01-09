@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: הסרת התקנה (DS & DSi)
-category: הסרת התקנה
+category: uninstalling
+title: Uninstalling (DS & DSi)
 ---
 
 ### הסרת התקנה

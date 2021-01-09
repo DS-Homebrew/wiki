@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: RAM 디스크 생성하기
-category: 기타
+category: other
+title: Creating RAM Disks
 ---
 
 참고: Flashcard를 사용중이라면 하지 않아도 됩니다.

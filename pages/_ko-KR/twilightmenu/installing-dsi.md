@@ -2,9 +2,12 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: 설치하기 (DSi)
-category: 설치
+category: installing
+title: Installing (DSi)
 ---
+
+If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+{:.alert .alert-info}
 
 ### 설치하기
 1. `TWiLightMenu-DSi.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.

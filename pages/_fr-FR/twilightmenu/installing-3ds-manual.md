@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Installation (3DS, Manuel)
-category: Installation
+category: installing
+title: Installing (3DS, Manual)
 ---
 
 ### Installation

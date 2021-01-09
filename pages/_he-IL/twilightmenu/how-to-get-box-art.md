@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: איך להשיג תמונות קופסה
-category: אחר
+category: other
+title: How to Get Box Art
 ---
 
 ### 3DS

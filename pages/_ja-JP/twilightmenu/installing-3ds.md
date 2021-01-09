@@ -2,14 +2,12 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: installing
 title: インストール（3DS）
-category: インストール
 ---
 
-### 必要条件
-
-- [FBI](https://github.com/Steveice10/FBI/releases)の最新バージョン
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases)の最新バージョン
+3DSにカスタムファームウェアで必要です。インストールには[3ds.hacks.guide](https://3ds.hacks.guide)に従ってください。
+{:.alert .alert-info}
 
 ### インストール（機能されるカメラ）
 1. FBIを開き、`Remote Install`を選択し、`Scan QR Code`します

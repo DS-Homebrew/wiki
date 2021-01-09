@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: ds-index
+category: reference
 title: Wi-Fi
-category: Referencia
 description: Minden a DS moddolásról
 ---
 

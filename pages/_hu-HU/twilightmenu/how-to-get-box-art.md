@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Box-art beszerzése
-category: Egyéb
+category: other
+title: How to Get Box Art
 ---
 
 ### 3DS

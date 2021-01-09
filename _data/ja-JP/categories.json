@@ -1,0 +1,34 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "ガイド"
+		},
+		{
+			"key": "reference",
+			"title": "参照"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "インストール"
+		},
+		{
+			"key": "updating",
+			"title": "更新"
+		},
+		{
+			"key": "customization",
+			"title": "カスタマイズ"
+		},
+		{
+			"key": "other",
+			"title": "その他"
+		},
+		{
+			"key": "uninstalling",
+			"title": "アンインストール"
+		}
+	]
+}

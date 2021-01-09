@@ -2,8 +2,8 @@
 lang: ja-JP
 layout: wiki
 section: twilightmenu
+category: uninstalling
 title: アンインストール（3DS）
-category: アンインストール
 ---
 
 ### アンインストール

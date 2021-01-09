@@ -2,8 +2,8 @@
 lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Download Play / Pictochat בתפריט הDS הקלאסי
-category: אחר
+category: other
+title: Download Play / Pictochat in DS Classic Menu
 ---
 
 אם אתם משתמשים במכשיר DSi, אתם אמורים להיות יכולים להריץ את האפליקציות האלו. אחרת, אם יש לכם 3DS, המשיכו עם המדריך.

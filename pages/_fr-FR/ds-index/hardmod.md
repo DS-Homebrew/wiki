@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: ds-index
+category: guides
 title: Hardmod
-category: Guides
 description: Une explication de tout le modding DS
 ---
 

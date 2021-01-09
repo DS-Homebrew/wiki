@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: 제거하기 (DS & DSi)
-category: 제거
+category: uninstalling
+title: Uninstalling (DS & DSi)
 ---
 
 ### 제거하기

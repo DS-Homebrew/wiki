@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Telepítés (Flashcard)
-category: Telepítés
+category: installing
+title: Installing (Flashcard)
 ---
 
 ### Telepítés

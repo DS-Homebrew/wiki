@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: ds-index
+category: reference
 title: Homebrew
-category: Référence
 description: Une explication de tout le modding DS
 ---
 

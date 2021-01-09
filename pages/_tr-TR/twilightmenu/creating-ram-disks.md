@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: other
 title: Creating RAM Disks
-category: Other
 ---
 
 NOTE: You do not need to follow this if you're using a flashcard.

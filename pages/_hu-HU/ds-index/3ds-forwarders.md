@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: ds-index
-title: DS játék forwarder-ek (3DS)
-category: Útmutatók
+category: guides
+title: DS game forwarders (3DS)
 description: Hogyan készíts CIA forwarder-t, hogy a DS játékaidat a 3DS home menüjében láthasd
 ---
 

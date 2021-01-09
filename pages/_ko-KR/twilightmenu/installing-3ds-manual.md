@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: 설치하기 (3DS, 수동)
-category: 설치
+category: installing
+title: Installing (3DS, Manual)
 ---
 
 ### 설치하기

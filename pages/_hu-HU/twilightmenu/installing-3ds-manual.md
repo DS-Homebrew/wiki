@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: Telepítés (3DS, kézi)
-category: Telepítés
+category: installing
+title: Installing (3DS, Manual)
 ---
 
 ### Telepítés

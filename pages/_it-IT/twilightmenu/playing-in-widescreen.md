@@ -2,8 +2,8 @@
 lang: it-IT
 layout: wiki
 section: twilightmenu
-title: Giocare in Widescreen
-category: Altro
+category: other
+title: Playing in Widescreen
 ---
 
 Richiede una console Vecchia/New Nintendo 3DS o 2DS.

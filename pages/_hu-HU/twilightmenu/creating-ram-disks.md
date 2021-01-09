@@ -2,8 +2,8 @@
 lang: hu-HU
 layout: wiki
 section: twilightmenu
-title: RAM Disk létrehozása
-category: Egyéb
+category: other
+title: Creating RAM Disks
 ---
 
 MEJEGYZÉS: Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.

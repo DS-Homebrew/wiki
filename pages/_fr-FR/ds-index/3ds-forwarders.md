@@ -2,8 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: ds-index
-title: Forwarders de jeu DS (3DS)
-category: Guides
+category: guides
+title: DS game forwarders (3DS)
 description: Comment créer des applications CIA pour avoir vos jeux DS dans le menu d'accueil de votre 3DS
 ---
 

@@ -2,8 +2,8 @@
 lang: ko-KR
 layout: wiki
 section: twilightmenu
-title: Unlaunch 배경화면 커스텀하기
-category: 커스터마이징
+category: customization
+title: Custom Unlaunch Backgrounds
 ---
 
 Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:

@@ -2,8 +2,8 @@
 lang: it-IT
 layout: wiki
 section: twilightmenu
+category: updating
 title: Updating (3DS)
-category: Aggiornamento
 ---
 
 **NOTA:** Se aggiorni da una versione più vecchia della v16.4.0, si prega di spostare i tuo file `.sav` per o giochi del DS in una nuova cartella chiamata `saves`, con la cartella `saves` nello stesso posto delle ROM del DS.
