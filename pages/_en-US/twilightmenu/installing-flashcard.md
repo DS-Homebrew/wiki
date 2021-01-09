@@ -2,9 +2,10 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: installing
 title: Installing (Flashcard)
-category: Installing
 ---
+
 ### Installing
 1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. Extract `TWiLightMenu-Flashcard.7z`

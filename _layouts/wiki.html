@@ -18,15 +18,6 @@ layout: compress
 						<div class="rounded-3 sidebar-container mb-3 p-3">
 							<!-- get category list -->
 							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
-							{% for item in items %}
-								{% if item.category.first %}
-									{% assign list = item.category %}
-								{% else %}
-									{% assign list = item.category | split: "don't split, i just want an array. this shouldn't be in a string." %}
-								{% endif %}
-								{% assign categories = categories | concat: list %}
-							{% endfor %}
-							{% assign categories = categories | uniq | sort_natural %}
 							<ul class="list-unstyled">
 								<!-- First do the index -->
 								{% for item in items %}
@@ -41,13 +32,13 @@ layout: compress
 									{% endunless %}
 								{% endfor %}
 								<!-- Finally, the other pages -->
-								{% for cat in categories %}
+								{% for cat in site.data[page.collection].categories[page.section] %}
 									<li>
-										<details {% if page.category == cat or page.category.first and page.category contains cat %}open{% endif %}>
-											<summary>{{ cat }}</summary>
+										<details {% if page.category == cat.key or page.category.first and page.category contains cat %}open{% endif %}>
+											<summary>{{ cat.title }}</summary>
 											<ul>
 												{% for item in items %}
-													{% unless item.category == cat or item.category.first and item.category contains cat %}
+													{% unless item.category == cat.key or item.category.first and item.category contains cat.key %}
 														{% continue %}
 													{% endunless %}
 													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>

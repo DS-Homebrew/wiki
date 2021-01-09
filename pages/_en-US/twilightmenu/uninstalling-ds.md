@@ -2,9 +2,10 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: uninstalling
 title: Uninstalling (DS & DSi)
-category: Uninstalling
 ---
+
 ### Uninstalling
 1. Go to either the console's SD card or the flashcard's SD card
 1. Open `_nds`

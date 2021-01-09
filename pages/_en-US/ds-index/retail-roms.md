@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: ds-index
+category: reference
 title: Retail ROMs
-category: Reference
 description: An explanation of all things DS modding
 ---
 

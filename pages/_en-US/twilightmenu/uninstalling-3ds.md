@@ -2,9 +2,10 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
+category: uninstalling
 title: Uninstalling (3DS)
-category: Uninstalling
 ---
+
 ### Uninstalling
 1. Open FBI
 1. Go to `Titles`
