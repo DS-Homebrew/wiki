@@ -47,14 +47,14 @@
 							{% for item in site[collection.label] %}
 								{% assign itemRef = item.url | split: item.lang | last %}
 								{% if itemRef == ref %}
-									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url | remove: ".html" }}">{{ site.lang-names[item.lang] }}</a></li>
+									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url | remove: ".html" }}">{{ site.data.lang-names[item.lang] }}</a></li>
 								{% endif %}
 							{% endfor %}
 						{% endunless %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
 					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url | remove: ".html" }}{% endif %}{% endfor %}">{{ site.data[page.collection].strings.translate-here }}</a></li>
-					<li><a class="dropdown-item" href="https://crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
+					<li><a class="dropdown-item" href="https://{% if site.data.crowdin-languages contains page.collection %}{{ site.data.crowdin-languages[page.collection] }}.{% endif %}crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
 				</ul>
 			</div>
 		</div>

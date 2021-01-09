@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="{{ page.collection | default: "en-US" }}" {% if site.rtl contains page.collection %}dir="rtl"{% endif %}>
+<html lang="{{ page.collection | default: "en-US" }}" {% if site.data.rtl contains page.collection %}dir="rtl"{% endif %}>
 {% include head.html%}
 
 <body>
