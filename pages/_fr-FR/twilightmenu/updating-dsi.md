@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Updating (DSi)
-category: Updating
+title: Mise à jour (DSi)
+category: Mise à jour
 ---
 
-**NOTE:** If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+**REMARQUE :** Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS dans un nouveau dossier appelé `saves`, qui se trouvera à la même place que les roms DS.
 
-### Updating
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Mise à jour
+1. Téléchargez le dernier `TWiLightMenu-DSi.7z` depuis la [page de téléchargement](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrayez `TWiLightMenu-DSi.7z`
+1. Copiez le dossier `_nds` à la racine de votre carte SD
+1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
+1. **Utilisateurs de hiyaCFW :** Copiez le dossier `title` à la racine de votre carte SD
 
-### More steps for the flashcard side
+### Étapes supplémentaire pour les flashcards
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Si vous pouvez basculer entre le contenu de la carte SD et de la carte flashcard dans TWLMenu++, et si le menu TWLMenu++ de la flashcard est sur v16.3.0 ou plus tard, veuillez suivre ces étapes.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Allez dans les paramètres TWLMenu++
+1. Sélectionnez `Mettre à jour TWiLight Menu++`
+1. Sélectionnez `Console (micro)SD > Slot-1 microSD`

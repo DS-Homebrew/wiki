@@ -1,31 +1,31 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: Playing in Widescreen
-category: Other
+title: משחק במסך רחב
+category: אחר
 ---
 
-Requires an Old/New Nintendo 3DS or 2DS console.
+דורש Old/New Nintendo 3DS או 2DS.
 
-**Preparation**
-- Make sure Luma's `boot.firm` is on the SD root for this to work
-- If you used TWiLight Menu++ Updater or Universal-Updater to update, please install the latest TWiLight Menu++ CIAs using FBI
+**הכנה**
+- וודאו שהקובץ`boot.firm` של Luma נמצא בשורש הSD שלכם
+- אם אתם משתמשים בTWiLight Menu++ Updater או בUniversal-Updater לעדכון, התקינו את קבצי הCIA העדכניים של TWiLight Menu++ באמצעות FBI
 
-1. Download [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. In Luma config, enable external FIRMs and modules
-1. Install the TWPatch CIA
-1. Launch TWPatch
-1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
-   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+1. הורידו את [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([דיון בGBATemp ](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. בהגדרות של Luma, אפשרו external FIRMs and modules
+1. התקינו את קובץ הCIA של TWPatch
+1. הפעילו את TWPatch
+1. לחצו על <kbd class="face">X</kbd> + <kbd>START</kbd> על מנת לייצר קובץ `TwlBg.cxi` עם מסך רחב
+   - אם המסך העליון לא מצביע על כך שהמסך הרחב מופעל, התחילו משלב 4 שוב
+   - אם המסך הרחב עדיין לא עובד, המתינו לשחרור של מסך רחב RTCom-activated
+1. בהגדרות של TWiLight Menu++, עברו לעמוד `Misc settings`,, והגדירו את `Screen Aspect Ratio` ל`16:10`
+   - ניתן גם לבצע הגדרה זאת עבור משחק בודד
 
-You're all done! Enjoy your DS games in widescreen!
+סיימתם! תהנו ממשחקי הDS שלכם במסך רחב!
 
-**NOTE1**: Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. For this to be fixed so only the widescreen-compatible games run in widescreen, wait for RTCom-activated widescreen to be released.
+**הערה 1**: כל משחק/אפליקציה במצב DS(i) תרוץ במסך רחב, גם המשחקים שלא תואמים. כדי שזה יתוקן כך שרק המשחקים התואמים למסך הרחב יפעלו במסך רחב, המתינו לשחרור מסך רחב RTCom-activated.
 
-**NOTE2:** Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched. If you don't see the screen aspect ratio setting, wait for RTCom-activated widescreen to be released.
+**הערה 2:** אל תלחצו על <kbd>START</kbd> or <kbd>SELECT</kbd> בטעינת TWLMenu++,, אם אתם לא רוצים שהמשחק הרחב יראה תקול. אם אתם לא רואים את הגדרת יחס גובה-רוחב של המסך, המתינו לשחרור של מסך רחב RTCom-activated.
 
-Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+לא כל המשחקים תואמים מסך רחב. [הכנו רשימה של משחקים שתואמים מסך רחב](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)

@@ -1,38 +1,38 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: twilightmenu
-title: How to create DSi / 3DS skins
-category: Customization
+title: איך להכין סקינים לDSi / 3DS
+category: התאמה אישית
 ---
 
-The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+הדרך הפשוטה ביותר להתאמה אישית של ערכת נושא היא על ידי עריכת קבצי הpng של הטקסטורות בתיקיות `ui`, `battery`, ו/או `volume` של ערכת הנושא. קבצים אלו יכולים להיות כל png עם דגש קטן שרק פיקסלים שהם 100% שקופים יהיו שקופים, כל דרגה אחרת של שקיפות תהיה ללא שקיפות כלל. בנוסף, כל חלק שהוא שקוף כחלק מסט (לדוגמת האייקונים של הבטריה) צריכים להיות שקופים בכל החלקים, מאחר ופיקסלים שקופים מדולגים במקום להיות מועברים לרקע, כך שכל חלק שהוא שקוף בחלקו יהיה עם טקסטורת הרקע במקום שקיפות. טקסטורות אלו רשאיות להיות בגדלים שונים, אך עשויות לדרוש התאמה של תצורת ערכת הנושא בשביל הצגה נכונה (ראו מטה).
 
-Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
+שינויים לטקסטורות עם לוח צבעים דורשים יותר עבודה. בתוך התיקיות `grit` ו`background_grit` של ערכת הנושא, קבצי התמונות השונים ניתנים לעריכה. נדרשים גם ה[devkitPro's toolchains](https://devkitpro.org) עם GRIT מותקן. לאחר סיום עריכת הקבצים, חייב להריץ את
 ```bash
 $ make
 ```
-in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the advanced theming section below.
+על מנת לקמפל את ערכות הנושא לפורמט Grit RIFF. זה יקמפל את הטקסטורות עם פלטת הצבעים לתוך פורמט **.grf** לתיקיית `grf`. אל תבצעו שינויים לקבצי `.grit` עד שתקראו את הפרק על הכנת ערכות נושא מתקדמת בהמשך.
 
-Be aware the paletted textures come with more restrictions than BMP textures, the primary being an absolute maximum of 16 colors per texture. However, some textures may have even tighter default palette restrictions, which can be modified at the risk of running out of palette memory (see below).
+שימו לב שטקסטרות עם פלטת צבעים מגיעות עם יותר מגבלות מאשר טקסטורות BMP, כשהעיקרי מביניהם הם מקסימום של 16 צבעים לכל טקסטורה. למרות הנאמר, חלק מהטקסטורות עלולות להיות עם מגבלות חמורות יותר, אך ניתן לערוך אותם עם סיכון של העדר זיכרון ללוח הצבעים (ראו מטה).
 
-## Theme file descriptions
+## תיאורי קבצי ערכת הנושא
 
-The `volume` and `battery` textures are self explanatory.
+טקסטורות ה `volume` וה`battery` מסבירות את עצמן.
 
-### Background textures (`background_grit` folder)
+### טקסטורות רקע (תיקיית `background_grit`)
 
-| Texture            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| bottom             | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble      | The bottom background texture when hovering over an icon                                          |
-| bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
-| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top                | The top background                                                                                |
+| טקסטורה            | תיאור                                                                                    |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| bottom             | טקסטורת הרקע בחלק התחתון כאשר לא מרחפים מעל אייקון                                       |
+| bottom_bubble      | טקסטורת הרקע בחלק התחתון כאשר מרחפים מעל אייקון                                          |
+| bottom_ds          | עבור ערכת הנושא 3DS, טקסטורת הרקע בחלק התחתון כאשר לא מרחפים מעל אייקון על מכשיר DS Lite |
+| bottom_bubble_ds | עבור ערכת הנושא 3DS, טקסטורת הרקע בחלק התחתון כאשר מרחפים מעל אייקון על מכשיר DS Lite    |
+| top                | הרקע בחלק העליון                                                                         |
 
-### Paletted textures (`grit` folder)
+### טקסטורות עם לוח צבעים (תיקיית `grit`)
 
-| Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
+| טקסטורה       | תיאור                                                                                          | מגבלות לוח צבעים (אם מתחת ל16)                                  |
 | ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
 | box           | The box texture, containing both full and empty textures (for DSi Theme)                       |                                                                 |

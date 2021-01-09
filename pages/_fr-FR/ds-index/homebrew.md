@@ -19,7 +19,7 @@ Le développement de homebrew pour Nintendo DS utilise les outils de devkitPro, 
 
 Les flashcards DS sont une méthode slot-1 pour exécuter des applications Nintendo DS. Les Flashcards ont l'avantage de garder séparés les fichiers de la console et les fichiers portables, ainsi que la possibilité d'être utilisé sans modifier votre système et d'être utilisables sur les consoles DS Phat/Lite. Cependant, contrairement au modding sur la console, il y a plusieurs flashcards sur le marché, chacune avec des exigences différentes sur le noyau. Le noyau que vous utilisez est le plus important.
 
-[Il y a un index des flashcards** en cours d'écriture**](https://nightyoshi370.github.io/mm-github-pages-starter/), qui contient des noyaux, des firmwares, des avis et des liens d'achat.
+[Il y a un index des flashcards **en cours d'écriture**](https://nightyoshi370.github.io/mm-github-pages-starter/), qui contient des noyaux, des firmwares, des avis et des liens d'achat.
 
 ### DLDI
 

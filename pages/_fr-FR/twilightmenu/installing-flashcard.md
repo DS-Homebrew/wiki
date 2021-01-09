@@ -1,31 +1,31 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
-title: Installing (Flashcard)
-category: Installing
+title: Installation (Flashcard)
+category: Installation
 ---
 
-### Installing
-1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
-1. Copy the `roms` folder to your flashcard's microSD card root
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+### Installation
+1. Téléchargez la dernière version de `TWiLightMenu-Flashcard.7z` depuis [la page de téléchargement](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrayez `TWiLightMenu-Flashcard.7z`
+1. Copiez le dossier `_nds` à la racine de la carte microSD de votre flashcard
+1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre flashcard
+1. Copiez le dossier `roms` à la racine de la carte microSD de votre flashcard
+1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav` qui sont à l'emplacement de votre ROM DS, dans un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROM DS
 1. ...
-   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **Utilisateurs d'une DS Phat/lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un pack d'extension de mémoire et réessayez
+   - **Utilisateurs d'une DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console et activez `SCFG access in Slot-1`
+      - Cela vous permettra d'utiliser la vitesse du cpu TWL et/ou VRAM boost sur vos jeux sur la flashcard ainsi que d'accéder à la carte SD de la console
 
-### To run games using your flashcard firmware
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+### Pour exécuter des jeux en utilisant votre firmware flashcard
+1. Extraire ce qui est dans `Flashcart Loader/(votre flashcard)` à la racine de la carte microSD
+   - Si vous l'avez fait, passez à l'étape 3. Dans le cas contraire, suivez les étapes en dessous de la liste de flashcard ci-dessous
 
-1. For these flashcards:
+1. Pour ces flashcards :
    - R4i-SDHC
-   - r4isdhc.com cards
-   - r4isdhc.hk cards
+   - Cartes r4isdhc.com
+   - Cartes r4isdhc.hk
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -35,13 +35,13 @@ category: Installing
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
 
-   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Make sure you have `YSMenu.nds` and `TTMenu` folder (renamed from `YSMenu`, if existed) on the flashcard microSD root
-1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   Installez YSMenu [ici](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+      - Assurez-vous d'avoir le dossier `YSMenu.nds` et `TTMenu` (renommez `YSMenu`, s'il existe) à la racine de la flashcard microSD
+1. Définissez `Use nds-bootstrap (B4DS)` à `No`, donc le firmware de la flashcard sera utilisé à la place de nds-bootstrap
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### Démarrage automatique de TWiLight Menu++
+1. Extraire le contenu de `Autoboot/(votre flashcard)` à la racine de la carte microSD de la flashcard
+   - Sautez cela, si vous ne voyez pas votre flashcard
 1. ...
-   - **DS Phat/DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **Utilisateurs de DS Phat/DS Lite :** Allez dans les paramètres du menu DS, et activez le démarrage automatique, pour que votre flashcard se lance au démarrage
+   - **Utilisateurs d'une DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console et activez `Auto-start Slot-1`

@@ -11,47 +11,47 @@ TWiLightMenu תומך בקבצי שמע מותאמים אישית בערכות �
 הוראות אלו מניחות שיש לכם את devkitPro מותקן עם mmutil. ניתן להשיג את devkitPro ב[אתר האינטרנט של devkitPro ](https://devkitpro.org/wiki/Getting_Started).
 
 ## בנק אפקטי צליל
-The sound effect bank contains sound effects such as the icon select sound, etc.
+בנק אפקטי הצליל מכיל אפקטי צליל שונים, לדוגמה צליל בחירת אייקון ועוד.
 
-| File        | Description                                                                            |
-| ----------- | -------------------------------------------------------------------------------------- |
-| startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
-| launch.wav  | Played when launching a game                                                           |
-| select.wav  | Played when moving the select cursor                                                   |
-| wrong.wav   | Played when reaching the end of the page                                               |
-| switch.wav  | Played when switching pages                                                            |
-| stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| bgm.pcm.raw | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
+| קובץ        | תיאור                                                                      |
+| ----------- | -------------------------------------------------------------------------- |
+| startup.wav | מושמע בהפעלה. ראו את הפרק [צליל הפעלה](#startup-sound) למידע נוסף          |
+| back.wav    | חזור                                                                       |
+| launch.wav  | מושמע בהפעלה משחק                                                          |
+| select.wav  | מושמע בהזזת סמן הבחירה                                                     |
+| wrong.wav   | מושמע בהגעה לקצה העמוד                                                     |
+| switch.wav  | מושמע בהעברת עמודים                                                        |
+| stop.wav    | מושמע בערכת הנושא DSi כאשר סמן הבחירה מפסיק לזוז                           |
+| bgm.pcm.raw | לא חלק מבנק הצלילים. ראו את הפרק [מוזיקת רקע בתפריט](#menu-bgm) למידע נוסף |
 
-You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
+לאחר מכן תוכלו להריץ את `make` ליצירת בנק אפקטי הצליל. כל הקבצים המפורטים מעלה, מבלבד *bgm.pcm.raw* הכרחיים, אך ניתן להשתיקם.
 
-Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
+קובץ *sfx.bin* הנוצר **חייב להיות מתחת ל512000B = 512KB**. קובץ גדול יותר יגרום לקריסות או לחלק מהקבצים לא לנגן בצורה מלאה.
 
-### Startup sound
-While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+### צליל הפעלה
+בעוד ששאר אפקטי הצליל יעבדו עם כל קובץ WAV, צליל ההפעלה חייב להיות בפורמט מסויים בשביל לעבוד כנדרש, אחרת יהיה פער בין סיום צליל ההפעלה לתחילת מוזיקת הרקע.
 
-The startup.wav file must be **16-bit 16kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+קובץ הstartup.wav חייב להיות **16-bit 16kHz**. לדוגמה, ניתן להשתמש ב[Audacity](https://www.audacityteam.org/download/) להמרת הקובץ לפורמט הזה. כשהקובץ טעון בAudacity שנו את ה**Project Rate (Hz)** ל**16000**, לחצו על **Shift+M** ושנו את ה**Format** ל**16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+אם הקובץ שלכם בסטריאו, לכו ל **Tracks > Mix > Mix Stereo down to Mono**.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+חייב להגדיר את `PlayStartupJingle=1` ב `theme.ini` בשביל שצליל ההפעלה ינוגן.
 
 
-## Menu BGM
+## מוזיקת רקע בתפריט
 
-Menu BGM needs to be a **16-bit 16kHz Mono** raw PCM file. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+מוזיקת רקע בתפריט צריכה להיות קובץ raw PCM עם ההגדרות **16-bit 16kHz Mono**. לדוגמה, ניתן להשתמש ב[Audacity](https://www.audacityteam.org/download/) להמרת הקובץ לפורמט הזה. כשהקובץ טעון בAudacity שנו את ה**Project Rate (Hz)** ל**16000**, לחצו על **Shift+M** ושנו את ה**Format** ל**16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+אם הקובץ שלכם בסטריאו, לכו ל **Tracks > Mix > Mix Stereo down to Mono**.
 
-To export in the correct format, do:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+לייצוא בפורמט הנכון, בצעו:
+1. בחרו ב `File` > `Export` > `Export Audio...`
+1. הגדירו את `File Type` ל`Other uncompressed files`
+1. הגדירו את `Header` ל`RAW (header-less)`
+1. הגדירו את `Encoding` ל`Signed 16-bit PCM`
+1. קבעו את שם המוצא ל`bgm.pcm.raw` ולחצו על `Save`
+1. לחצו על `OK` לעריכת הmetadata
 
-Now you have a `bgm.pcm.raw` file that can be copied to the *sound* subfolder in your theme folder.
+עכשיו יש לכם קובץ `bgm.pcm.raw` שניתן להעתיק לתת התיקייה *sound* בתיקיית ערכת הנושא שלכם.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+בניגוד לsfx.bin, גודלו של *bgm.pcm.raw* יכול להיות בכל גודל.
