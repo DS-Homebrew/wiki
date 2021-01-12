@@ -45,10 +45,11 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
 
 1. Download the version for the operating system you are using
 1. Run the script, selecting the NAND backup you wish to flash to your DSi
-1. Select the output path to be anywhere on your computer
+1. Switch to NAND mode with the button to the left of the file path
+1. Click `Start` to create the NAND backup without the no$gba footer
 
-- Once the script completes, there should be a folder at the selected output path with a long name starting with `FW`
-  - Use the file inside of this folder as the NAND image you flash onto the DSi
+- Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
+  - Use this file as the NAND image you flash onto the DSi
 
 
 #### Windows instructions (skip for macOS / Linux)
