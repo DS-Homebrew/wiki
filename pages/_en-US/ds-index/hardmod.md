@@ -40,6 +40,17 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
 - Insert the microSD card adapter into your computer
   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
 
+- You will first need to remove the NOCASH footer from the backup you are flashing to the DSi
+- This can be done by running the hiyaCFW helper application found [here](https://github.com/mondul/HiyaCFW-Helper/releases/latest)
+
+1. Download the version for the operating system you are using
+1. Run the script, selecting the NAND backup you wish to flash to your DSi
+1. Select the output path to be anywhere on your computer
+
+- Once the script completes, there should be a folder with a long name starting with `FW`
+  - Use the file inside of this folder as the NAND image you flash onto the DSi
+
+
 #### Windows instructions (skip for macOS / Linux)
 
 1. Open Win32DiskImager
@@ -80,6 +91,7 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
     - Replace {device-name} with the SD card mount location
     - E.g `cat /dev/sdb > nand0.bin`
     - Then run `cat {device-name} > nand1.bin`
+    
 
 1. Compare NAND dumps
   1. Run the following command:
