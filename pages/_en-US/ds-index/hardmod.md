@@ -47,7 +47,7 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
 1. Run the script, selecting the NAND backup you wish to flash to your DSi
 1. Select the output path to be anywhere on your computer
 
-- Once the script completes, there should be a folder with a long name starting with `FW`
+- Once the script completes, there should be a folder at the selected output path with a long name starting with `FW`
   - Use the file inside of this folder as the NAND image you flash onto the DSi
 
 
