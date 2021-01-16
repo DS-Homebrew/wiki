@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Uninstalling (DS & DSi)
+title: Eltávolítás (DS & DSi)
 ---
 
 ### Eltávolítás

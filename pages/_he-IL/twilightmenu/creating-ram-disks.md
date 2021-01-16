@@ -3,10 +3,11 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: other
-title: Creating RAM Disks
+title: יצירת RAM Disks
 ---
 
-הערה: אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.
+אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.
+{:.alert .alert-info}
 
 על מנת ליצור RAM Disk, הורידו את הכלי ה[זה](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (לחצו על `Download Software`) ועקבו אחר ההוראות מטה.
 

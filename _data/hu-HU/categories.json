@@ -2,33 +2,33 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "Útmutatók"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "Referencia"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Telepítés"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Frissítés"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Testreszabás"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Egyéb"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Eltávolítás"
 		}
 	]
 }

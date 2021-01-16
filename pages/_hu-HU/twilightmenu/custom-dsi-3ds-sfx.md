@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS skins - Custom SFX
+title: DSi / 3DS szkinek - Egyedi hangeffektusok
 ---
 
 A TWiLightMenu támogatja az egyedi hang fájlokat a témákban. Rakd a hangfájlokat a `sound` alkönyvtárba a téma mappádba, például a `white` téma esetén, a fájlaid a `themes/white/sound/sfx.bin` és a `themes/sound/bgm.pcm.raw` lesznek. Mindkét fájl opcionális, ha hiányzik valamelyik, az alapértelmezett zene kerül felhasználásra. Be kell ezt követően állítanod a zene opciókat a témához.

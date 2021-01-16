@@ -2,33 +2,33 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "מדריכים"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "הפניה"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "התקנה"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "עדכון"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "התאמה אישית"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "אחר"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "הסרת התקנה"
 		}
 	]
 }

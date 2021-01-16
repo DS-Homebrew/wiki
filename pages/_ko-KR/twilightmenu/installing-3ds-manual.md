@@ -3,8 +3,11 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (3DS, Manual)
+title: 설치하기 (3DS, 수동)
 ---
+
+설치를 진행하기 전에, [3ds.hacks.guide](https://3ds.hacks.guide)를 따라 사용자의 3DS 본체에 커스텀 펌웨어를 설치해야합니다.
+{:.alert .alert-info}
 
 ### 설치하기
 1. `TWiLightMenu-3DS.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.

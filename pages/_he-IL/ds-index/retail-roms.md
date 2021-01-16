@@ -3,8 +3,8 @@ lang: he-IL
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: An explanation of all things DS modding
+title: רומים רשמיים
+description: הסברים על כל מה שקשור למודינג של DS
 ---
 
 ### Anti-Piracy (נוגד פיראטיות)

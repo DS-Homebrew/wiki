@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Unlaunch Backgrounds
+title: Testreszabott Unlaunch hátterek
 ---
 
 A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egyedi háttérképpel rendelkezzen. Ez egy 256 x 192 GIF fájl kell legyen, a néhány korlátozással:

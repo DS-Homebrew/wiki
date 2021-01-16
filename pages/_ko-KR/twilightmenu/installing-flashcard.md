@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (Flashcard)
+title: 설치하기 (Flashcard)
 ---
 
 ### 설치하기

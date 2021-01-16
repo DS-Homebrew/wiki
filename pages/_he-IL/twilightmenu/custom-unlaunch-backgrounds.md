@@ -3,46 +3,46 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Unlaunch Backgrounds
+title: רקעים מותאמים אישית עבור Unlaunch
 ---
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
-- Only the first frame will be shown, no animated backgrounds
-- The file must be less than or equal to 15,472 bytes
-- GIFs with more than 31 colors require specially made palettes to prevent breaking the text
+באמצעות TWiLight Menu++ ניתן לעשות פאטץ להתקנה של Unlaunch על מנת לקבל תמונת רקע מותאמת אישית. היא חייבת להיות GIF בגודל 256x192, עם מספר מגבלות:
+- רק הפריים הראשון יוצג, ללא רקעים מונפשים
+- גודל הקובץ חייב להיות קטן או שווה ל15,472 בתים
+- קבצי GIF עם יותר מ31 צבעים דורשים פלטת צבעים מיוחדת על מנת להמנע מלהרוס את הטקסט
 
-### Installing
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
-1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
-1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
-1. Exit settings and launch `Unlaunch DSi Installer`
-   - It should use your custom image, if it does not then turn off your console and make sure your GIF conforms with the requirements above
-1. Choose `Install Now`
+### התקנה
+1. העתיקו את קובץ הGIF אל `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
+1. הורידו את [הגרסה האחרונה של ההתקנה של Unlaunch](https://problemkaputt.de/unlaunch.zip) וחלצו את `UNLAUNCH.DSI` אל כרטיס הSD שלכם
+1. פתחו את ההגדרות של TWiLight Menu++, עברו לעמוד `Unlaunch settings`, לחצו על `Background` ובחרו את הרקע שאתם רוצים
+1. צאו מההגדרות והריצו את `Unlaunch DSi Installer`
+   - הוא אמור להשתמש בתמונה המותאמת אישית שלכם, אם לא אז כבו את המכשיר ו-וודאו כי הGIF שלכם עומד בדרישות מעלה
+1. בחרו `Install Now`
 
-### Using GIFs with more than 31 colors
-As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
-1. Open your image in GIMP and make sure it's 256 x 192 pixels
-1. In the menu bar at the top, select `Image` -> `Mode` -> `Indexed...`
-1. Select `Generate optimum palette` and set the maximum colors to anything up to 226 colors
-1. Select a dithering pattern from the `Color dithering` dropdown
-   - Images without dithering generally compress best, but with it will generally look better, try and see which looks best for the size
-1. Click `Convert`
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-   - If it gives any warnings, click the accept button
-1. In the next popup, disable the `GIF comment` and click `Export`
-1. Check the size of the exported file, if it's 15,472 bytes or less, then skip to step 13
-1. If your GIF is too large, then using either [gifsicle](http://www.lcdf.org/gifsicle/) or [ezgif.com](https://ezgif.com/optimize) you can try optimizing it
-   - These instructions will use ezgif as its simpler, being a website
-1. Open https://ezgif.com/optimize, and upload your GIF
-1. Try different compression levels until you find the best one under 15,472 bytes (15.11KiB), ideally a bit under as GIMP may increase the size a bit
-1. Save the optimized GIF and open it in GIMP
-1. In the menu bar at the top, select `Windows` -> `Dockable Dialogs` -> `Colormap`
-1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
-    - If your image doesn't have at least 133 colors you will also need to add filler colors to arrange the text colors in the correct spots
-1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br> ![Palette with correct text colors](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
-1. Use the color picker to make your new colors match those in the above image
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-1. In the next popup, make sure `GIF comment` is off and click `Export`
-1. Ensure the image is still under 15,472 bytes, if it's gotten too big then repeat from step 10 using a higher compression level
-1. You're done! Follow the [installing](#installing) section above to use your image!
+### שימוש בGIFים עם יותר מ31 צבעים
+מאחר ולוח הצבעים של הGIF נטענת לאותו מקום בVRAM של לוח הצבעים של הטקסט, הוא יכתוב עליו אם הלוח גדול מידי. ניתן לעקוף זאת על ידי זה שנכלול את הלוח הצבעים של הטקטס בלוח של הGIF. שימוש בצבעים שונים יאפשר לכם גם לשנות את הצבע של הטקסט, אם תרצו. הוראות אלו יהיו עבור [GIMP](https://gimp.org), אבל כל עורך תמונות בעל יכולת לערוך מחדש את לוח הצבעים של תמונה יעבוד.
+1. פתחו את התמונה בGIMP ו-וודאו שהיא בגודל 256x192 פיקסלים
+1. בתפריט העליון, בחרו ב`Image` -> `Mode` -> `Indexed...`
+1. בחרו ב`Generate optimum palette` וקבעו את מספר הצבעים המקסימלי ל226 צבעים
+1. בחרו דפוס dithering מתפריט ה`Color dithering`
+   - תמונות ללא dithering בדרך כלל מתכווצות בצורה הכי טוב, אבל עם dithering נראות טובות יותר. נסו ותראו מה נראה הכי טוב לגודל המתאים
+1. לחצו על `Convert`
+1. בתפריט העליון, בחרו ב`File` -> `Export As...`, תנו לו שם עם הסיומת `.gif` ולחצו על `Export`
+   - אם הוא נותן שגיאות כלשהן, לחצו על כפתור האישור
+1. בחלון הקופץ הבא, בטלו את `GIF comment` ולחצו על `Export`
+1. בדקו את גודל הקובץ המיוצא, אם הוא 15,472 בתים או פחות, דלגו לשלב 13
+1. אם הGIF שלכם גדול מידי, ניתן לנסות לייעל את הגודל באמצעות [gifsicle](http://www.lcdf.org/gifsicle/) או באמצעות [ezgif.com](https://ezgif.com/optimize)
+   - הוראות אלו ישתמשו בezgif מאחר והוא פשוט יותר, למרות שהוא אתר אינטרנט
+1. פתחו את https://ezgif.com/optimize והעלו את הGIF שלכם
+1. נסו רמות דחיסה שונות עד שתמצאו את הטוב ביותר שמביא את הגודל למתחת ל15,472 בתים (15.11KiB), עדיפות למעט מתחת מאחר וGIMP עלול להגדיל את הגודל מעט
+1. שמרו את הGIF לאחר אופטימיזציה ופתחו אותו בGIMP
+1. בתפריט העליון, בחרו ב`Windows` -> `Dockable Dialogs` -> `Colormap`
+1. שנו את ה`Foreground color` הנוכחי ל#080808 והוסיפו 14 צבעים חדשים עם כפתור ה`+`
+    - אם לתמונה שלכם אין לפחות 133 צבעים תצטרכו להוסיף צבעים משלימים על מנת לסדר את הצבעי הטקסט במקומות הנכונים
+1. לחצו על מקש ימיני בעכבר מעל מפת הצבעים ובחרו ב`Rearrange Colormap...`
+1. סדרו את הצבעים מחדש כך שהם יתאימו לכך: (העמודה השניה והשלישית, החל מאינדקס 49)<br> ![לוח צבעים עם צבעי טקסט נכונים](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. השתמשו בבוחר הצבעים על מנת לגרום לצבעים החדשים שלכם להתאים לתמונה מעלה
+1. בתפריט העליון, בחרו ב`File` -> `Export As...`, תנו לו שם עם הסיומת `.gif` ולחצו על `Export`
+1. בחלון הקופץ הבא, וודאו ש`GIF comment` מבוטל ולחצו על `Export`
+1. וודאו שהתמונה היא עדיין מתחת ל15,472 בתים, אם היא נהייתה גדולה מידי חזרו על התהליך משלב 10 באמצעות רמת דחיסה גבוהה יותר
+1. סיימתם! עקבו אחר שלב ה[ההתקנה](#installing) למעלה על מנת להשתמש בתמונה!

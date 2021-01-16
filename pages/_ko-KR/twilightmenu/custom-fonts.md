@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Fonts
+title: 폰트 변경하기
 ---
 
 TWiLight Menu++ can use custom fonts in NFTR (Nitro FonT Resource) format. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.

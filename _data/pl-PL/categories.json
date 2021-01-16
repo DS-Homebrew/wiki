@@ -2,33 +2,33 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "Poradniki"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "Odwołanie"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Instalacja"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Aktualizacja"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Dostosowywanie"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Inne"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Dezinstalacja"
 		}
 	]
 }

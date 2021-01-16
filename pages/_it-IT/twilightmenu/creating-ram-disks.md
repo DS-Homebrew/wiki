@@ -6,7 +6,8 @@ category: other
 title: Creating RAM Disks
 ---
 
-NOTE: You do not need to follow this if you're using a flashcard.
+You do not need to follow this if you're using a flashcard.
+{:.alert .alert-info}
 
 To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
 

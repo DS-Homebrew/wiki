@@ -3,33 +3,33 @@ lang: he-IL
 layout: wiki
 section: ds-index
 category: guides
-title: DS game forwarders (3DS)
-description: How to create CIA forwarders to have your DS games on your 3DS's home menu
+title: מעבירי משחקי DS (על 3DS)
+description: איך לייצור מעבירי משחקים בקובץ CIA על מנת לקבל משחקי DS בתפריט הבית של ה3DS
 ---
 
-If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+אם אתם נתקלים בבעיות, בדקו את השו"ת ב[בנושא בGBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-### Requirements
+### דרישות
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) to install CIA files
-- (Optional) A supported DS flashcard
+- [Luma3DS](https://github.com/lumateam/luma3ds/releases), או כל CFW אחר שעושה פאטץ לTWL_NAND
+- [FBI](https://github.com/Steveice10/FBI/releases) להתקנת קבצי CIA
+- (אופציונאלי) פלאשקארט של DS שנתמך
 
 {% capture flashcards %}
-The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
+הפלאשקארטים המומלצים הם DSTT וAcekard 2i. אם אתם רוצים תאימות מושלמת למשחקים, השיגו את הSuperCard DSTWO / DSTWO PLUS. החסרון היחיד הוא שהם ירוקנו את הסוללה מהר יותר.
 
-If you have a flashcard that works with Apache Thunder's NTR Launcher, feel free to request it [on the GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Be sure to specify which build you're using (Normal or Alt), and if `RESETSLOT1` is set to `0` or `1` in `sd:/nds/ntr_launcher.ini`.
+אם יש לכם פלאשקארט שעובד עם NTR Launcher של Apache Thunder, תרגישו חופשי לבקש אותו ב[נושא בGBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). וודאו שאתם מציינים באיזה build אתם משתמשים (Normal או Alt), ואם `RESETSLOT1` מוגדר על `0` או על `1` ב`sd:/nds/ntr_launcher.ini`.
 
-Compatible:
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced games, including newer NTR games, don't work.)
+תואמים:
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (משחקים שהם DSi-Enhanced, כולל משחקי NTR חדשים יותר, לא יעבדו.)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses <2GB microSD card)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (משתמש בכרטיסי מיקרו SD בנפח <2GB)
 - [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses <2GB microSD card)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))

@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (Flashcard)
+title: התקנה (פלאשקארט)
 ---
 
 ### התקנה

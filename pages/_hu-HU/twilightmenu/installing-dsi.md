@@ -3,10 +3,10 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (DSi)
+title: Telepítés (DSi)
 ---
 
-If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw.guide](https://dsi.cfw.guide) oldalt a TWiLight Menu++ telepítéséhez
 {:.alert .alert-info}
 
 ### Telepítés

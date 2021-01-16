@@ -6,7 +6,8 @@ category: updating
 title: Updating (3DS, Manual)
 ---
 
-**UWAGA:** Jeśli aktualizujesz z wersji starszej niż v16.4.0, przenieś pilki `.sav` dla gier DS do nowego folderu o nazwie `saves`. Folder `saves` powinien być w tym samym miejscu co gry DS.
+If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+{:.alert .alert-info}
 
 ### Aktualizacja
 1. Pobierz najnowszą wersję `TWiLightMenu-3DS.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)

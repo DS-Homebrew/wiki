@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: ds-index
 category: reference
-title: Homebrew
-description: An explanation of all things DS modding
+title: הומברו
+description: הסברים על כל מה שקשור למודינג של DS
 ---
 
-### Development
+### פיתוח
 
 Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 

@@ -6,7 +6,8 @@ category: updating
 title: Updating (3DS)
 ---
 
-**NOTA:** Se aggiorni da una versione più vecchia della v16.4.0, si prega di spostare i tuo file `.sav` per o giochi del DS in una nuova cartella chiamata `saves`, con la cartella `saves` nello stesso posto delle ROM del DS.
+If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+{:.alert .alert-info}
 
 ### Aggiornamento
 1. Apri Universal-Updater

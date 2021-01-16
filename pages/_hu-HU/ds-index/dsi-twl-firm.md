@@ -23,11 +23,11 @@ A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
 ### A Nintendo DSi System Menu
-A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
+A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occured" fekete képernyőbe.
 
-The ranges that make it overflow is determined by pairs of two. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
+A tartományok, amik túlcsordultatják kettes csoportokban jelenkeznek. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
 
-This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+Ez a hiba soha nem fordul elől, ha a System Menu a NAND chipről bootolunk (mivel azok maximum 128 MB méretűek) de egy átirányító rendszer (mint például a hiyaCFW) ezt a hibát indukálhatja. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
 
 -----
 

@@ -19,7 +19,7 @@ O:
 - Jeśli to też nie zadziała, spróbuj innej karty SD
 
 #### P: Dlaczego dostaję biały ekran podczas uruchamiania gry z karty SD?
-A:
+O:
 - Najpierw, sprawdź [listę kompatybilności nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) i upewnij się że gra jest kompatybna
 - Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
 - If the game you're trying to launch is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`

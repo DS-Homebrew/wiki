@@ -3,10 +3,11 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (DSi)
+title: Frissítés (DSi)
 ---
 
-**MEGJEGYZÉS:** Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` DS játék fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DS romok.
+Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` DS játék fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DS romok.
+{:.alert .alert-info}
 
 ### Frissítés
 1. Töltsd le a `TWiLightMenu-DSi.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)

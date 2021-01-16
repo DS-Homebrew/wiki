@@ -3,13 +3,13 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (3DS)
+title: 설치하기 (3DS)
 ---
 
-You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+설치를 진행하기 전에, [3ds.hacks.guide](https://3ds.hacks.guide)를 따라 사용자의 3DS 본체에 커스텀 펌웨어를 설치해야합니다.
 {:.alert .alert-info}
 
-### Installing (Working Camera)
+### 설치하기 (카메라 이용)
 1. FBI를 열고 `Remote Install`에 진입합니다. 그러고 나서 `Scan QR Code`를 선택합니다.
 1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치합니다.<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
 1. FBI를 닫고 Universal-Updater를 실행합니다.
@@ -19,7 +19,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
    - 시간이 조금 걸릴 수 있습니다.
 
-### Installing (Non-Working Camera)
+### 설치하기 (카메라 없이)
 1. [Universal-Updater 릴리즈 페이지](https://github.com/Universal-Team/Universal-Updater/releases)에서 `Universal-Updater.cia` 파일을 다운로드하세요.
 1. SD카드의 아무데나 `Universal-Updater.cia` 파일을 놓으세요.
 1. 닌텐도 3DS에서 FBI를 실행하세요.

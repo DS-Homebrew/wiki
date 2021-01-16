@@ -2,33 +2,33 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "가이드"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "레퍼런스"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "설치"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "업데이트"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "커스터마이징"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "기타"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "제거"
 		}
 	]
 }

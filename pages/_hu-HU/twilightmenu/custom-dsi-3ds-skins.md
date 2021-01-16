@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to create DSi / 3DS skins
+title: DSi / 3DS szkinek létrehozása
 ---
 
 A legegyszerűbb módja egy téma egyediesítésének, ha szerkesztjük a png texturákat a téma `ui`, `battery`, és/vagy `volume` mappáiban. Ezek a fájlok bármilyen png-k lehetnek, azzal a fontos kiegészítéssel, hogy csak a 100%-ban átlátszó pixelek kerülnek átlátszóként megjelenítésre, minden más átlátszóság átlátszatlannak kerül kirajzolásra. Továbbá minden részletnek, ami átlátszó egy készletben (például az elem ikonok) átlátszónak kell lennie, mert az átlátszó pixelek egyszerűen átugrásra kerülnek, nem a háttér színnel kitöltésre; azaz bármilyen részlet ami csak néhányban átlátszó inkább háttérszín kell legyen, mint átlátszó. A textúrák lehetnek változó méretűek, de szükséges a téma konfiguráció változtatása, hogy helyesen jelenjenek meg (lásd alább).
@@ -16,11 +16,11 @@ parancsot, hogy lefordítsd a témádat Grit RIFF formátumra. Ez lefordítja a 
 
 Tartsd szem előtt, hogy a palettás textúrák több korlátozással rendelkeznek, mint a BMP textúrák, a 16 szín textúránként az abszolút maximum. Azonban néhány textúra esetén még ennél is erősebb az alapértelmezett korlátozás, ami annak függvényében módosítható, hogy kifutsz a paletta memóriából (lásd lentebb).
 
-The example themes are in the [`romsel_dsimenutheme/resources/dsimenu_theme_examples` folder](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) in TWiLight Menu++'s repository. To download them, [download the repository](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) or clone it with git, then find that folder.
+A példa témák a [`romsel_dsimenutheme/resources/dsimenu_theme_examples` mappában találhatók a ](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) TWiLight Menu++'s repository-jában. A letöltéséhez [töltsd le a repository-t](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) vagy klónozd git-tel, és keresd meg a mappát.
 
 ## Téma fájl leírások
 
-The `volume` and `battery` textures are self explanatory.
+A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 
 ### Háttér texturák (`background_grit` mappa)
 
@@ -80,11 +80,11 @@ The `volume` and `battery` textures are self explanatory.
 
 ### Videó texturák (`video` mappa)
 
-`3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
+A `3dsRotatingCubes.rvid` egy Rocket Video fájl. További információkért a videók rvid fájllá konvertálásáról, olvasd el [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) cikket a Vid2RVID wiki-ben. Ha nem szeretnéd, hogy megjelenjen, egyszerűen csak töröld.
 
 ## Téma konfigurálás
 
-You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures.
+Különböző opciókat konfigurálhatsz arról, hogy hogyan kerüljön rajzolásra a téma a `theme.ini` fájlban, hogy nagyobb sprite-okat és texturákat használhass.
 
 | Érték                    | Leírás                                                                                                              | Alapértelmezés (3DS) | Alapértelmezés (DSi) |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------- |
@@ -115,16 +115,16 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 
 ## Fejlett témázás
 
-Occasionally, you may require more than the default number of colors for some paletted textures. In such cases, you may modify the `.grit` compilation file for the texture to increase the size of the palette.
+Alkalmanként az alapértelmezettnél számúnál több színre van szükséged, palettás texturáknál. Ezekben az esetekben módosítanod kell a `.grit` kompilációs fájlt a texturához, hogy növeld a paletta méretét.
 
-For example, in `scroll_window.grit`, you may edit `-pn7` and change `7` to `16` for 16 colors. Be aware that if you remove the entire `-pn` line, you may encounter unexpected results.
+Például a `scroll_window.grit`-ben szerkesztheted a `-pn7`-et és módosíthatod a `7`-et `16`-ra, hogy 16 színed legyen. Figyelj arra, hogy ha eltávolítod a teljes `-pn` sort, nem várt eredményt kaphatsz.
 
-Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of palettes to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
+Szintén figyelj arra, hogy az abszolút maximum 16 szín textúránként kódból betartatott, és így az nem módosítható. Még ha növeled is a paletták számát 16 felé, nem több, mint 16 szín kerül betöltésre a a palettából. A betöltött textúrák mennyiségétől függően, előfordulhat, hogy nincs elég paletta memória ahhoz, hogy 16 színű paletta legyen minden textúrához. Tartsd ezt észben, amikor a paletta méreteket állítod.
 
-Additionally, paletted textures must have dimensions that are a multiple of 2. Paletted textures sizes can not be changed except for `bubble` and `start_border`, which can have configurable sprite dimensions in `theme.ini`. However, note that doing so may have unexpected consequences.
+Továbbá a palettás textúráknak a méretei oszthatók kell legyenek 2-vel. A palettás textúrák mérete nem módosíthatók, kivéve a `bubble` és a `start_border`, amik konfigurálható sprite mérettel rendelkezhetnek a `theme.ini`-ben. Azonban ezek módosítása nem várt eredményeket is okozhat.
 
-Paletted textures are not checked for validity. An invalid texture should be rare if created with the provided makefile, but in certain cases a corrupted texture will cause the menu to not load at all.
+A palettás textúrák nem kerülnek ellenőrzésre érvényesség szempontjából. Egy érvénytelen textúra ritka kell legyen, ha a biztosított makefile-lal készül, de egyes esetekben a hibás textúrák a menü betöltődését megakadályozhatják.
 
 ## Egyedi háttér zene és hangok
 
-The DSi Menu and 3DS themes also support custom music. See [DSi / 3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+A DSi Menü és a 3DS témák támogatják továbbá az egyedi zenét. Lásd a [DSi / 3DS szkinek - Egyedi hangeffektusok](custom-dsi-3ds-sfx) fejezetet a részletekért.

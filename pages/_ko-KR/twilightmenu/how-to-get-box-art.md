@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get Box Art
+title: 박스 아트 가져오기
 ---
 
 ### 3DS
@@ -36,7 +36,7 @@ title: How to Get Box Art
 1. Say `Yes` if it shows your SD path correctly
 1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
 
-### Manual
+### 수동
 1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
 1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings

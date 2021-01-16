@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get Box Art
+title: איך להשיג תמונות קופסה
 ---
 
 ### 3DS

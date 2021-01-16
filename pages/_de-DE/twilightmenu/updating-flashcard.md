@@ -6,7 +6,8 @@ category: updating
 title: Updating (Flashcard)
 ---
 
-**HINWEIS:** Wenn ein Update von einer Version älter als v16.4.0 erfolgt, verschieben Sie bitte Ihre `.sav` Dateien für DS Spiele in einem neuen Ordner namens `speichert`, mit dem `speichert` Ordner an der gleichen Stelle wie der DS roms.
+If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+{:.alert .alert-info}
 
 ### Aktualisieren
 1. Laden Sie die neueste Version von `TWiLightMenu-Flashcard.7z` von [der Veröffentlichungsseite](https://github.com/DS-Homebrew/TWiLightMenu/releases) herunter
@@ -16,7 +17,7 @@ title: Updating (Flashcard)
 
 ### Weitere Schritte für die DSi/3DS SD-Karten-Seite
 
-Wenn man in TWLMenü++ zwischen dem Inhalt der SD-Karte und der Karteikarte wechseln kann und die Karte TWLMenu++ auf v16.3.0 oder höher installiert ist, folgen Sie bitte diesen Schritten.
+If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
 1. Gehe zu TWLMenü++ Einstellungen
 1. Wählen Sie `Update TWiLight Menü++`

@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Uninstalling (3DS)
+title: הסרת התקנה (3DS)
 ---
 
 ### הסרת התקנה

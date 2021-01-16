@@ -3,10 +3,11 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: other
-title: Creating RAM Disks
+title: RAM 디스크 생성하기
 ---
 
-참고: Flashcard를 사용중이라면 하지 않아도 됩니다.
+Flashcard를 사용중이라면 하지 않아도 됩니다.
+{:.alert .alert-info}
 
 RAM 디스크를 만들기 위해, [이 도구](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)를 받아주세요.(`Download Software`를 클릭하세요.)
 

@@ -1,15 +1,15 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: An explanation of all things DS modding
+title: 시판되는 ROM
+description: DS 커스텀의 모든 것에 대한 설명
 ---
 
-### Anti-Piracy
+### 불법 복제 방지 기술 (Anti-Piracy)
 
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+불법 복제 방지 기술 (영어로 Anti-Piracy, 줄여서 AP) 은 개발자들이 정당한 구매를 장려하고, 불법 복제를 방지하기 위해 사용되었습니다. 이는 로더나 ROM 자체에서 우회할 수 있습니다.
 
 - For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
 - For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.

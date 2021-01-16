@@ -3,10 +3,11 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (DSi)
+title: עדכון (DSi)
 ---
 
-**הערה:** אם אתם מעדכנים מגרסה ישנה יותר מv16.4.0, העבירו את קבצי ה`.sav` של משחקי הDS לתיקיה חדשה בשם `saves`, כאשר התיקייה נמצאת באותו מקום כמו הROMים של משחקי הDS.
+אם אתם מעדכנים מגרסה ישנה יותר מv16.4.0, העבירו את קבצי ה`.sav` של משחקי הDS לתיקיה חדשה בשם `saves`, כאשר התיקייה נמצאת באותו מקום כמו הROMים של משחקי הDS.
+{:.alert .alert-info}
 
 ### עדכון
 1. הורידו את הגרסה האחרונה של `TWiLightMenu-DSi.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)

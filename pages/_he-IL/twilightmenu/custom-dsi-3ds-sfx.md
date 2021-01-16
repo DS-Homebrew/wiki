@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS skins - Custom SFX
+title: סקינים לDSi/3DS - התאמה אישית של SFX
 ---
 
 TWiLightMenu תומך בקבצי שמע מותאמים אישית בערכות הנושא. מקמו את קבצי השמע שלכם בתת התיקיה `sound` שבתיקיה ערכת הנושא שלכם, למשל עבור ערכת הנושא `white`, תמקמו את הקבצים ב`themes/white/sound/sfx.bin` וב`themes/sound/bgm.pcm.raw` בהתאמה. שתי הקבצים הם אופציונליים, אם אחד מהם חסר יהיה שימוש במוזיקת ברירת המחדל. לאחר מכן תשנו את הגדרת המוזיקה בהגדרות ל"Theme".

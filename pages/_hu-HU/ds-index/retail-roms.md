@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
+title: Kereskedelmi ROM-ok
 description: Minden a DS moddolásról
 ---
 

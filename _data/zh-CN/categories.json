@@ -12,23 +12,23 @@
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "安装"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "升级"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "自定义"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "其他"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "卸载"
 		}
 	]
 }

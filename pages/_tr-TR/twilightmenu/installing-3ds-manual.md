@@ -6,6 +6,9 @@ category: installing
 title: Installing (3DS, Manual)
 ---
 
+You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+{:.alert .alert-info}
+
 ### Installing
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. Extract `TWiLightMenu-3DS.7z`

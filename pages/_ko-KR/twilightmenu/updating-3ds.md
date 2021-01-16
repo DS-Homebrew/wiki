@@ -3,10 +3,11 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (3DS)
+title: 업데이트하기 (3DS)
 ---
 
-**참고:** v16.4.0보다 낮은 버전에서 업데이트 한다면, DS 게임의 `.sav` 파일을 `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만들어서 넣어주세요.
+v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DS 게임의 `.sav` 파일을 해당 폴더에 넣어주세요.
+{:.alert .alert-info}
 
 ### 업데이트하기
 1. Universal-Updater를 실행합니다.
@@ -17,7 +18,7 @@ title: Updating (3DS)
 
 ### Flashcard 단을 위해서 더 할 것
 
-TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따릅니다.
+TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따르도록 합니다.
 
 1. TWLMenu++ 설정으로 진입합니다.
 1. `TWiLight Menu++ 업데이트`를 선택합니다.

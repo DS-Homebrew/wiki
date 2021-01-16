@@ -3,10 +3,11 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: other
-title: Creating RAM Disks
+title: RAM Disk létrehozása
 ---
 
-MEJEGYZÉS: Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.
+Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.
+{:.alert .alert-info}
 
 A RAM disk létrehozásához töltsd le [ezt](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) az eszközt (kattints a `Download Software`-re), és kövesd a további lépéseket.
 

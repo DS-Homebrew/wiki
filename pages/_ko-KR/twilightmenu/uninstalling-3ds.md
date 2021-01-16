@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Uninstalling (3DS)
+title: 제거하기 (3DS)
 ---
 
 ### 제거하기

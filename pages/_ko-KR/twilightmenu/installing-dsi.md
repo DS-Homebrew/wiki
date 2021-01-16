@@ -3,10 +3,10 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (DSi)
+title: 설치하기 (DSi)
 ---
 
-If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+아직 사용자의 DSi 본체에 홈브류를 설치하지 않았다면, TWiLight Menu++를 설치하기 위해 [dsi.cfw.guide](https://dsi.cfw.guide)를 따르세요.
 {:.alert .alert-info}
 
 ### 설치하기

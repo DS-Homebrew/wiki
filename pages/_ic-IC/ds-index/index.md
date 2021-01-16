@@ -8,6 +8,5 @@ description: crwdns14344:0crwdne14344:0
 
 crwdns14346:0crwdne14346:0 crwdns14348:0crwdne14348:0
 
-<div class="alert alert-warning" role="alert">
-crwdns14674:0crwdne14674:0 crwdns14676:0crwdne14676:0
-</div>
+crwdns15828:0crwdne15828:0 crwdns15830:0crwdne15830:0
+crwdns15832:0{:.alert .alert-info}crwdne15832:0

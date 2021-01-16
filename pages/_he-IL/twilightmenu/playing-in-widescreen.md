@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: other
-title: Playing in Widescreen
+title: משחק במסך רחב
 ---
 
 דורש Old/New Nintendo 3DS או 2DS.
