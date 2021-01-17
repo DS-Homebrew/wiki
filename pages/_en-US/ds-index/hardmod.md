@@ -9,7 +9,7 @@ description: An explanation of all things DS modding
 
 Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...
 ### Nintendo DS
-![Original DS motherboard with touch-points labeled](https://media.discordapp.net/attachments/547986366357700620/736370094392999947/mobo_pinout.png)
+[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
@@ -23,11 +23,11 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
 
 #### DSi side A pinouts
-![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)
+[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
 #### DSi side B pinouts
-![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)
+[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
 #### DSi XL side B pinouts
-![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - You will need to solder the points on the motherboard to the microSD card adapter
   - CMD to pin 2
@@ -36,7 +36,7 @@ To hardmod a Nintendo DSi / DSi XL (LL) you will need:
   - DAT0 to pin 7
 
 #### Soldered microSD adapter example
-![microSD example](/assets/images/dsi-hardmod/sd.jpg)
+[![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
 - Insert the microSD card adapter into your computer
   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
