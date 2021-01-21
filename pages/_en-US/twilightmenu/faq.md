@@ -51,6 +51,31 @@ A:
 1. Change the first option until you see the language you want, then exit settings
    - You may also want to change the next two options as they control the language of DS games and their titles in TWiLight Menu++
 
+#### Q: What file extensions can I use for ROMs in TWiLight Menu++?
+
+A:
+
+| Console                   | Extensions                             |
+| ------------------------- | -------------------------------------- |
+| [ARGV][nds-hb-menu-argv]  | `.argv`                                |
+| Atari 2600                | `.a26`                                 |
+| Atari 5200                | `.a52`                                 |
+| Atari 7800                | `.a78`                                 |
+| DS                        | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` |
+| DSTWO Plugin              | `.plg`                                 |
+| Game Boy (Color)          | `.gb`, `.sgb`, `.gbc`                  |
+| Game Boy Advance          | `.agb`, `.gba`, `.mb`                  |
+| Game Gear                 | `.gg`                                  |
+| Genesis / Mega Drive      | `.gen`                                 |
+| Master System             | `.sms`                                 |
+| MPEG4 Video               | `.mp4`                                 |
+| NES / Famicom             | `.nes`, `.fds`                         |
+| PC Engine / TurboGrafx-16 | `.pce`                                 |
+| RVID Video                | `.rvid`                                |
+| SNES                      | `.smc`, `.sfc`                         |
+
+[nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
+
 #### Q: Why isn't touch input working on sudokuhax?
 A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
