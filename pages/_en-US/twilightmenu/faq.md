@@ -55,26 +55,38 @@ A:
 
 A:
 
-| Console                   | Extensions                             |
-| ------------------------- | -------------------------------------- |
-| [ARGV][nds-hb-menu-argv]  | `.argv`                                |
-| Atari 2600                | `.a26`                                 |
-| Atari 5200                | `.a52`                                 |
-| Atari 7800                | `.a78`                                 |
-| DS                        | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` |
-| DSTWO Plugin              | `.plg`                                 |
-| Game Boy (Color)          | `.gb`, `.sgb`, `.gbc`                  |
-| Game Boy Advance          | `.agb`, `.gba`, `.mb`                  |
-| Game Gear                 | `.gg`                                  |
-| Genesis / Mega Drive      | `.gen`                                 |
-| Master System             | `.sms`                                 |
-| MPEG4 Video               | `.mp4`                                 |
-| NES / Famicom             | `.nes`, `.fds`                         |
-| PC Engine / TurboGrafx-16 | `.pce`                                 |
-| RVID Video                | `.rvid`                                |
-| SNES                      | `.smc`, `.sfc`                         |
+| Console                   | Loader                                     | Extensions                             |
+| ------------------------- | ----------------------------------         | -------------------------------------- |
+| [ARGV][nds-hb-menu-argv]  | Native                                     | `.argv`                                |
+| Atari 2600                | [StellaDS][stellads]                       | `.a26`                                 |
+| Atari 5200                | [A5200DS][a5200ds]                         | `.a52`                                 |
+| Atari 7800                | [A7800DS][a7800ds]                         | `.a78`                                 |
+| DS                        | [nds-bootstrap][nds-bootstrap] / Native    | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` |
+| DSTWO Plugin              | [DSTWO][dstwo] (requires DSTWO flashcard)  | `.plg`                                 |
+| Game Boy (Color)          | [GameYob][gameyob]                         | `.gb`, `.sgb`, `.gbc`                  |
+| Game Boy Advance          | [GBARunner2][gbarunner2]                   | `.agb`, `.gba`, `.mb`                  |
+| Game Gear                 | S8DS                                       | `.gg`                                  |
+| Genesis / Mega Drive      | jEnesisDS / [PicoDriveTWL][picodrivetwl]   | `.gen`                                 |
+| Master System             | S8DS                                       | `.sms`                                 |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                | `.mp4`                                 |
+| NES / Famicom             | [nesDS][nesds]                             | `.nes`, `.fds`                         |
+| PC Engine / TurboGrafx-16 | NitroGrafx                                 | `.pce`                                 |
+| RVID Video                | [Rocket Video Player][rvidplayer]          | `.rvid`                                |
+| SNES                      | SNEmulDS                                   | `.smc`, `.sfc`                         |
 
 [nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
+[stellads]: https://github.com/wavemotion-dave/StellaDS
+[a5200ds]: https://github.com/wavemotion-dave/A5200DS
+[a7800ds]: https://github.com/wavemotion-dave/A7800DS
+[nds-bootstrap]: https://github.com/DS-Homebrew/nds-bootstrap
+[dstwo]: http://eng.supercard.sc
+[gameyob]: https://github.com/Drenn1/GameYob
+[gbarunner2]: https://github.com/Gericom/GBARunner2
+[picodrivetwl]: https://github.com/DS-Homebrew/PicoDriveTWL
+[mpeg4player]: https://gbatemp.net/threads/544095
+[nesds]: https://github.com/DS-Homebrew/NesDS
+[rvidplayer]: https://gbatemp.net/threads/539163
+
 
 #### Q: Why isn't touch input working on sudokuhax?
 A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
