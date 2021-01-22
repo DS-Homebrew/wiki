@@ -1,36 +1,36 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: ds-index
 category: guides
-title: DS game forwarders (3DS)
-description: How to create CIA forwarders to have your DS games on your 3DS's home menu
+title: Scorciatoie giochi del DS (3DS)
+description: Come creare scorciatoie CIA per avere i tuoi giochi DS nel menu home del tuo 3DS
 ---
 
-If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+Se hai qualche problema, controlla le FAQ sul thread [GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-### Requirements
+### Requisiti
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) to install CIA files
-- (Optional) A supported DS flashcard
+- [Luma3DS](https://github.com/lumateam/luma3ds/releases), o qualsiasi altro CFW che patcha TWL_NAND
+- [FBI](https://github.com/Steveice10/FBI/releases) per installare i file CIA
+- (Facoltativa) Una flashcard DS supportata
 
 {% capture flashcards %}
-The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
+Le flashcard raccomandate sono DSTT e Acekard 2i. Se vuoi una perfetta compatibilità con i giochi, prendi la SuperCard DSTWO / DSTWO PLUS. L'unico svantaggio è che svuota la batteria del sistema più velocemente.
 
-If you have a flashcard that works with Apache Thunder's NTR Launcher, feel free to request it [on the GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Be sure to specify which build you're using (Normal or Alt), and if `RESETSLOT1` is set to `0` or `1` in `sd:/nds/ntr_launcher.ini`.
+Se hai una flashcard che funziona con il Launcher NTR di Apache Thunder, non esitare a richiederla [sul thread GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Assicurati di specificare quale build stai usando (Normale o Alt), e se `RESETSLOT1` è impostato a `0` o `1` in `sd:/nds/ntr_launcher. ni`.
 
-Compatible:
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced games, including newer NTR games, don't work.)
+Compatibile:
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (i giochi DSi-Enhanced, compresi i giochi più recenti NTR, non funzionano.)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses <2GB microSD card)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses <2GB microSD card)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (utilizza  una <scheda microSD da 2GB)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (versione originale non-SDHC, utilizza una <scheda microSD da 2GB)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -38,48 +38,48 @@ Compatible:
 - [R4iDSN](http://3ds-flashcard.com/home/28-r4idsn-3ds.html)
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
-- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Normal and RTS versions)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Purple card may be incompatible)
+- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Versione Normale e RTS)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (La Purple card potrebbe essere incompatible)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
-- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normal and Plus versions)
+- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (versioni Normale e Plus)
 
-Untested:
-- R4i3D NEW (Use R4iDSN template and pack)
+Non Testato:
+- R4i3D NUOVO (utilizza modello e pacchetto R4iDSN)
 
-Partially compatible:
-- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing.)
-- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing.)
+Parzialmente compatibile:
+- Ace 3DS+ (compatibilità con i giochi pessima, quindi il salvataggio/caricamento dei file di salvataggio risulta in un crash.)
+- Gateway Blue Card (compatibilità con i giochi pessima, quindi il salvataggio/caricamento dei file di salvataggio risulta in un crash.)
+- EX4DS (compatibilità con i giochi pessima, quindi il salvataggio/caricamento dei file di salvataggio risulta in un crash.)
+- R4iLS (compatibilità con i giochi pessima, quindi il salvataggio/caricamento dei file di salvataggio risulta in un crash.)
+- Le flashcard con [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (La compatibilità con i giochi è pessima, quindi il salvataggio/caricamento dei file risulta in crash.)
 
-Incompatible:
-- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
-- (i)Edge (Unable to autoboot a .nds ROM)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com)/[www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
+Incompatibile:
+- CycloDS (i)Evolution (Può auto-avviare le ROM, ma funziona in modo diverso rispetto ad altre flashcard.)
+- (i)Edge (Impossibile effettuare l'autoboot di una .nds ROM)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com)/[www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (non il processo di scorciatoia) rende inutilizzabile la card)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (not the forwarder process) bricks the card)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (non il processo di scorciatoia) rende inutilizzabile la card)
 {% endcapture %}
 
 <details>
-    <summary>Supported flashcards</summary>
+    <summary>Flashcard supportate</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
 </details>
 
 PC:
-- A 64 bit OS
+- Un OS a 64 bit
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
-- Java 8 Update 251
-- **Linux users:** JavaFX
+- Aggiornamento Java 8 251
+- **Utenti Linux:** JavaFX
 
-### Part 1: Getting Started
+### Parte 1: Per Iniziare
 {% capture tab-sd-card %}
-1. Download the [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Extract the contents of the `for SD card root` folder to the root of your 3DS's SD card
+1. Scarica il pacchetto [scorciatoia della scheda SD](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
+1. Estrae il contenuto della cartella `per la scheda SD` nella directory principale della scheda SD del tuo 3DS
 
 After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change the settings:
 - `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone

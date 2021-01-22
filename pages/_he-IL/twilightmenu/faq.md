@@ -40,7 +40,7 @@ title: שאלות ותשובות & פתרון בעיות
 - על מכשיר DSi ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת להשיג את הגיבויים של משחקי הDS והDSiWare שלכם
 - על מכשיר 3DS ניתן להשתמש ב[GodMode9](https://github.com/d0k3/GodMode9/releases) על מנת להשיג את הגיבויים של משחקי DS, DSiWare ומשחקי Virtual Console
 
-#### ש: האם ניתן להעביר את השמירות מהקלטות משחק שלי אל הSD וההפך?
+#### Q: Can I get the save files from my game cards onto my SD card or vise versa?
 ת: כן, ניתן להשתמש ב [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על DSi או 3DS, או ב[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) על 3DS.
 
 #### ש: איך אני משנה את השפה שלTWiLight Menu++?
@@ -50,8 +50,51 @@ title: שאלות ותשובות & פתרון בעיות
 1. שנו את האופציה הראשונה עד שתראו את השפה שתרצו, ואז תצאו מההגדרות
    - ייתכן ותרצו לשנות את שתי האופציות הבאות, מאחר והן שולטות בשפה של משחקי DS ובשמות של המשחקים בTWiLight Menu++
 
-#### ש: למה מסך המגע לא עובד עם sudokuhax?
-ת: תלוי בשמירה של sudokuhax, מסך המגע עשוי לא לעבוד.
+#### Q: What systems does TWiLight Menu++ support?
 
-#### ש: האם ניתן להשתמש בThe Biggest Loser על מנת להפעיל את TWiLight Menu++?
-ת: לא. מאחר וThe Biggest Loser הוא משחק Slot-1 ולא משחק DSiWare. גישה לSD נחסמת כאשר מריצים משחקי Slot-1.
+A:
+
+| Console                   | Loader                                           | Extensions                             | Save file                                                |
+| ------------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------- |
+| [ARGV][nds-hb-menu-argv]  | Native                                           | `.argv`                                |                                                          |
+| Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                                          |
+| Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                                          |
+| Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                                          |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`<br>(retail ROMs only)       |
+| DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv`                       |
+| DSTWO Plugin              | [DSTWO][dstwo] (requires DSTWO flashcard)        | `.plg`                                 |                                                          |
+| Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                         |
+| Game Boy Advance          | [GBARunner2][gbarunner2], native                 | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                         |
+| Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                                      |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`<br>(flashcard only for jEnesisDS) |
+| Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                     |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                                          |
+| NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                                         |
+| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                          |
+| RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                          |
+| SNES                      | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`<br>(flashcard only)               |
+
+
+#### Q: Why isn't touch input working on sudokuhax?
+A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
+
+#### Q: Can The Biggest Loser boot TWiLight Menu++?
+A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+
+[a5200ds]: https://github.com/wavemotion-dave/A5200DS
+[a7800ds]: https://github.com/wavemotion-dave/A7800DS
+[dstwo]: http://eng.supercard.sc
+[gameyob]: https://github.com/Drenn1/GameYob
+[gbarunner2]: https://github.com/Gericom/GBARunner2
+[jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
+[mpeg4player]: https://gbatemp.net/threads/544095
+[ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
+[nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
+[nesds]: https://github.com/DS-Homebrew/NesDS
+[nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
+[pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
+[rvidplayer]: https://gbatemp.net/threads/539163
+[s8ds]: https://www.gamebrew.org/wiki/S8DS
+[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[stellads]: https://github.com/wavemotion-dave/StellaDS
+[unlaunch]: https://problemkaputt.de/unlaunch.htm

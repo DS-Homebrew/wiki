@@ -1,11 +1,11 @@
 ---
 lang: en-US
 layout: default
-title: Home
+title: Главная
 ---
 
-# Welcome to the DS-Homebrew Wiki!
+# Добро пожаловать в Вики (Википедию), посвященную хоумбрю Nintendo DS (DS-Homebrew Wiki)!
 
-This site is where you can find wikis for TWiLight Menu++ and other DS-Homebrew projects. Click on one of the sections at the top, then a list of pages will be on the left.
+Здесь вы можете найти вики для TWiLight Menu++ и других DS Хоумбрю (DS-Homebrew) проектов. Щелкните по одному из разделов вверху, затем нажмите на список страниц слева.
 
-If you would like to help contribute you can find the source code on [GitHub](https://github.com/{{ site.repo }}) or help translate on [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). To discuss this or get help with anything on it, please join the [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord) Discord server (English only).
+Если вы хотите помочь внести свой вклад, вы можете найти исходный код на [GitHub](https://github.com/{{ site.repo }}) или помочь с переводом на [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). Чтобы обсудить это или получить помощь, пожалуйста, присоединитесь к [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord) серверу Discord (ВНИМАНИЕ: сервер на английском языке).

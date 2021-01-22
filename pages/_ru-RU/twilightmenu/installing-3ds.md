@@ -3,31 +3,31 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (3DS)
+title: Установка (3DS)
 ---
 
-You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+Первым делом, вам нужно будет иметь кастомную прошивку на вашем 3DS  ([3ds.hacks.guide](https://3ds.hacks.guide)) для её установки.
 {:.alert .alert-info}
 
-### Installing (Working Camera)
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### Установка (С рабочей камерой)
+1. Откройте FBI и выберите `Удаленная установка`, затем `Сканируйте QR-код`
+1. Сканируйте этот QR-код для установки последней версии [Universal-Updater](https://github.com/Universal-Team/Universal-Updater).<br> ![Universal-Updater QR код](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Закройте FBI и запустите Universal-Updater.
+   - Если оно не появляется в главном меню, перезагрузите 3DS.
+1. Найдите TWiLight Menu + + в сетке приложений, вы сможете найти с помощью третьей вкладки на боковой панели, если у вас возникли проблемы с ее нахождением, то:
+   - Оно имеет такую иконку: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. Нажмите <kbd class="face">A</kbd> или нажмите на значок загрузки в боковой панели и выберите `TWiLight Menu++` для его установки.
+   - Загрузка может занять некоторое время.
 
-### Installing (Non-Working Camera)
-1. Download the `Universal-Updater.cia` file from the [Universal-Updater release page](https://github.com/Universal-Team/Universal-Updater/releases)
-1. Place the `Universal-Updater.cia` file anywhere on your SD card
-1. Launch FBI on your Nintendo 3DS
-1. In FBI, go to the place you pasted the `Universal-Updater.cia` file
-1. Select the `Universal-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and launch Universal-Updater
-   - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-   - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-   - This will take a while
+### Установка (Без камеры / С нерабочей камерой)
+1. Зугрузите файл `Universal-Updater.cia` со [страницы релиза Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases)
+1. Поместите файл `Universal-Updater.cia` в любом месте на вашей SD-карте.
+1. Запустите FBI на вашей Nintendo 3DS.
+1. В FBI, перейдите на место, где вы вставили файл `Universal-Updater.cia`.
+1. Выберите файл `Universal-Updater.cia` и нажмите "Install & Delete" ("Загрузить & Удалить").
+1. Закройте FBI и запустите Universal-Updater.
+   - Если оно не появляется в главном меню, перезагрузите 3DS.
+1. Найдите TWiLight Menu + + в сетке приложений, вы сможете найти с помощью третьей вкладки на боковой панели, если у вас возникли проблемы с ее нахождением, то:
+   - Оно имеет такую иконку: ![Иконка TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. Нажмите <kbd class="face">A</kbd> или нажмите на значок загрузки в боковой панели и выберите `TWiLight Menu++` для его установки.
+   - Загрузка может занять некоторое время.

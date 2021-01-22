@@ -15,7 +15,7 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 1. Flashcard의 SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. Flashcard의 SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
 
-### DSi/3DS SD 카드 단을 위해서 더 할 것
+### DSi/3DS SD 카드를 위한 추가적인 단계
 
 TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따르도록 합니다.
 

@@ -17,7 +17,7 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 1. SD 카드 루트에 `.cia` 파일 두 개를 복사합니다.
 1. 3DS 본체의 FBI에서 두 CIA 파일들을 설치합니다.
 
-### Flashcard 단을 위해서 더 할 것
+### Flashcard를 위한 추가적인 단계
 
 TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따르도록 합니다.
 

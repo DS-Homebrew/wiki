@@ -16,7 +16,7 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
    - 시간이 조금 걸릴 수 있습니다.
 
-### Flashcard 단을 위해서 더 할 것
+### Flashcard를 위한 추가적인 단계
 
 TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따르도록 합니다.
 
