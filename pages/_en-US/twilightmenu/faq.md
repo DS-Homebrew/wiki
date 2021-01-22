@@ -41,7 +41,7 @@ A: You can download homebrew games from [Universal-DB](https://db.universal-team
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
-#### Q: Can I get the save files from my cartridges onto my SD card or vise versa?
+#### Q: Can I get the save files from my game cards onto my SD card or vise versa?
 A: Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
 
 #### Q: How do I change TWiLight Menu++'s language?
