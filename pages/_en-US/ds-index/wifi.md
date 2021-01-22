@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: An explanation of all things DS modding
+description: Information on using Wi-Fi on the Nintendo DS
 ---
 
 - On Nintendo DS applications, you can only use WEP and Open WiFi

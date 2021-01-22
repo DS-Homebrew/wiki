@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Custom Boot Splashes
+description: How to use custom splash screens for TWiLight Menu++
 ---
 
 You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.

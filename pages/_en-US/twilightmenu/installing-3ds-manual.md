@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installing (3DS, Manual)
+description: How to install TWiLight Menu++ on the Nintendo 3DS (Manual method)
 ---
 
 You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it

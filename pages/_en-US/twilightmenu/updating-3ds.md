@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Updating (3DS)
+description: How to update TWiLight Menu++ on the Nintendo 3DS
 ---
 
 If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
