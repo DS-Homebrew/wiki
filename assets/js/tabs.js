@@ -1,18 +1,24 @@
-function openTab(event, tabName) {
-	for(let element of event.currentTarget.parentNode.parentNode.children) {
+function openTab(event, target) {
+	for(let element of target.parentNode.parentNode.children) {
 		if (element.id.includes("tab")) {
 			element.style.display = "none";
 		}
 	}
 
-	for(let element of event.currentTarget.parentNode.children) {
+	for(let element of target.parentNode.children) {
 		element.classList.remove("btn-secondary");
 		element.classList.add("btn-outline-secondary");
 	}
 	
-	document.getElementById(tabName).style.display = "block";
-	event.currentTarget.classList.remove("btn-outline-secondary");
-	event.currentTarget.classList.add("btn-secondary");
+	document.getElementById(`tab-${target.dataset.tabName}`).style.display = "block";
+	target.classList.remove("btn-outline-secondary");
+	target.classList.add("btn-secondary");
+
+	if(event) {
+		let url = new URL(window.location);
+		url.searchParams.set("tab", target.dataset.tabName);
+		history.pushState({}, "", url);
+	}
 }
 
 // Remove links from tab buttons
@@ -22,30 +28,36 @@ for(a of document.getElementsByClassName("tab-link")) {
 
 // Open the tabs for the current OS or the default
 for(let tabGroup of document.getElementsByClassName("tab-container")) {
+	let tab = new URL(window.location).searchParams.get("tab");
+	if(tab) {
+		openTab(null, Array.from(tabGroup.children[0].children).filter(r => r.dataset.tabName ==tab)[0]);
+		break;
+	}
+
 	for(let tab of tabGroup.children[0].children) {
 		if(tabGroup.classList.contains("tab-os")) {
 			if(navigator.platform.includes("Win")) {
 				if(tab.classList.contains("tab-windows")) {
-					tab.click();
+					openTab(null, tab);
 					break;
 				} else if(tab.classList.contains("other")) {
-					tab.click();
+					openTab(null, tab);
 				}
 			} else if(navigator.platform.includes("Mac")) {
 				if(tab.classList.contains("tab-macos")) {
-					tab.click();
+					openTab(null, tab);
 					break;
 				} else if(tab.classList.contains("other")) {
-					tab.click();
+					openTab(null, tab);
 				}
 			} else {
 				if(tab.classList.contains("tab-other")) {
-					tab.click();
+					openTab(null, tab);
 					break;
 				}
 			}
 		} else if(tab.classList.contains("tab-default")) {
-			tab.click();
+			openTab(null, tab);
 			break;
 		}
 	}
