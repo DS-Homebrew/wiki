@@ -1,0 +1,12 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.collection | default: "en-US" }}" {% if site.data.rtl contains page.collection %}dir="rtl"{% endif %}>
+<head>
+	<meta http-equiv="refresh" content="0; URL={{ page.destination }}">
+
+	{% include head.html %}
+</head>
+</html>

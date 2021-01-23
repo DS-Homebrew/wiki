@@ -1,8 +1,12 @@
+---
+layout: compress
+---
 
 <!DOCTYPE html>
 <html lang="{{ page.collection | default: "en-US" }}" {% if site.data.rtl contains page.collection %}dir="rtl"{% endif %}>
-{% include head.html%}
-
+<head>
+	{% include head.html %}
+</head>
 <body>
 	<div class="content">
 		{% include nav.html %}

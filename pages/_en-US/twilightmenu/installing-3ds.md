@@ -33,3 +33,12 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
+
+### Installing (Manual)
+1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extract `TWiLightMenu-3DS.7z`
+1. Copy the `_nds` folder to your SD card root
+1. Copy the `BOOT.NDS` file to your SD card root
+1. Copy the `roms` folder to your SD card root
+1. Copy the two `.cia` files to your SD card root
+1. On your 3DS, install the two CIAs with FBI
