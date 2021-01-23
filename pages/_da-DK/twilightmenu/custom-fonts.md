@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Custom Fonts
+description: How to use custom fonts with TWiLight Menu++
 ---
 
 TWiLight Menu++ can use custom fonts in NFTR (Nitro FonT Resource) format. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
@@ -26,5 +27,5 @@ You can make your own fonts using a utility such as Pk11's [nftr-editor](https:/
 1. Load an NFTR file in nftr-editor
 1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
    - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
-1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. ``)
+1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
 1. Click `Save`, then repeat for the other sizes

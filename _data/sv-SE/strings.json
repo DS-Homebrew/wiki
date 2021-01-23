@@ -1,10 +1,13 @@
 {
 	"by": "Vid: $1",
+	"close": "Close",
 	"description": "Wikis för DS-Homebrew projekt",
 	"discord-server": "Discord server (endast engelska)",
 	"published-with": "Publicerat med <a href=\"https://pages.github.com\">GitHub Pages</a>, visa<a href=\"https://github.com/$1\">källan</a> på GitHub.",
+	"select-language": "Select language",
 	"source": "Källa",
+	"title": "DS-Homebrew Wiki",
+	"toggle-navigation": "Toggle navigation",
 	"translate-here": "Översätt här",
-	"translate-on-crowdin": "Översätt på Crowdin",
-	"title": "DS-Homebrew Wiki"
+	"translate-on-crowdin": "Översätt på Crowdin"
 }

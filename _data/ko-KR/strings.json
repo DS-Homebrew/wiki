@@ -1,10 +1,13 @@
 {
 	"by": "By $1",
+	"close": "Close",
 	"description": "DS-Homebrew 프로젝트를 위한 위키",
 	"discord-server": "Discord 서버 (영어 전용)",
 	"published-with": "<a href=\"https://pages.github.com\">깃허브 페이지</a>를 통해 발행했으며, 깃허브에 <a href=\"https://github.com/$1\">소스</a>를 표시함.",
+	"select-language": "Select language",
 	"source": "소스",
+	"title": "DS-Homebrew 위키",
+	"toggle-navigation": "Toggle navigation",
 	"translate-here": "이 페이지 번역하기",
-	"translate-on-crowdin": "Crowdin에서 번역하기",
-	"title": "DS-Homebrew 위키"
+	"translate-on-crowdin": "Crowdin에서 번역하기"
 }

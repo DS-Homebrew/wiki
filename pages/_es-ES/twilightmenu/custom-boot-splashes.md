@@ -1,18 +1,19 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
+title: Pantallas de Inicio Personalizadas
+description: How to use custom splash screens for TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+Puedes usar tus propios GIF como pantalla de inicio de TWiLight Menu++. Tienen que llamarse `splashtop.gif` y `splashbottom.gif` y encontrarse en `sd:/_nds/TWiLightMenu/extras`, después poner `DSi Splash Screen` en `Custom` en las opciones de TWiLight Menu++.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1MiB (DSi Mode) or 256KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10MB (DSi Mode) or about 2MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-  - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+La mayoría de GIFs de 256x192 funcionan, con algunas excepciones:
+- GIFs de más de 1MiB (Modo DSi) o 256KiB (Modo DS) pueden ir lentos al estar siendo descomprimidos en el momento
+- Entre los dos, los GIFs deben pesar menos de 10MB (Modo DSi) o rondar los 2MB (Modo DS)
+- Si ambos GIFs están puestos en bucle se mostrarán durante 3 segundos, así que pon un contador de ciclos en al menos uno de ellos para controlar el tiempo
+- Puedes usar la señal de input del usuario y un tiempo de espera en un frame si quieres mostrar la imagen y esperar como las predeterminadas
+  - Solo el GIF que espera el input se parará, por lo que el otro puede seguir moviéndose
+- Si usas Local Color Tables el frame entero debe sobreescribirse ya que reemplazará la paleta de toda la pantalla, no solo de ese frame
+- No funcionarán frames entrelazados y de texto

@@ -4,12 +4,13 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Instalacja (3DS)
+description: How to install TWiLight Menu++ on the Nintendo 3DS
 ---
 
 Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.guide](https://3ds.hacks.guide/pl_PL/), w celu instalacji
 {:.alert .alert-info}
 
-### Instalacja (Działający Aparat)
+{% capture tab-working-camera %}
 1. Otwórz FBI i wybierz `Remote Install`, a następnie `Scan QR Code`
 1. Zeskanuj ten kod QR, by zainstalować najnowszą wersję [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Kod QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
 1. Zamknij FBI i uruchom Universal-Updater
@@ -17,9 +18,10 @@ Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.
 1. Znajdź menu TWiLight ++ w siatce aplikacji, możesz wyszukać za pomocą trzeciej karty na pasku bocznym, jeśli masz problem ze znalezieniem
    - Ma tę ikonę: ![Ikona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Naciśnij <kbd class="face">A</kbd> lub naciśnij ikonę pobierania na pasku bocznym i wybierz `TWiLight Menu++` aby go zainstalować
-   - To trochę zajmie
+   - This will take a while
+{% endcapture %}
 
-### Instalacja (Niedziałający Aparat)
+{% capture tab-non-working-camera %}
 1. Pobierz plik `Universal-Updater.cia` ze [strony wydań Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases)
 1. Umieść plik `Universal-Updater.cia` w dowolnym miejscu na karcie SD
 1. Uruchom FBI na swoim Nintendo 3DS
@@ -30,4 +32,37 @@ Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.
 1. Znajdź menu TWiLight ++ w siatce aplikacji, możesz wyszukać za pomocą trzeciej karty na pasku bocznym, jeśli masz problem ze znalezieniem
    - Ma tę ikonę: ![Ikona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Naciśnij <kbd class="face">A</kbd> lub naciśnij ikonę pobierania na pasku bocznym i wybierz `TWiLight Menu++` aby go zainstalować
-   - To trochę zajmie
+   - This will take a while
+{% endcapture %}
+
+{% capture tab-manual %}
+1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extract `TWiLightMenu-3DS.7z`
+1. Copy the `_nds` folder to your SD card root
+1. Copy the `BOOT.NDS` file to your SD card root
+1. Copy the `roms` folder to your SD card root
+1. Copy the two `.cia` files to your SD card root
+1. On your 3DS, install the two CIAs with FBI
+{% endcapture %}
+
+### Installing
+
+<div class="tab-container">
+   <div class="pb-3">
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
+   </div>
+   <div id="tab-working-camera">
+      <noscript><h4>Working Camera</h4></noscript>
+      {{ tab-working-camera | markdownify }}
+   </div>
+   <div id="tab-non-working-camera">
+      <noscript><h4>Non-Working Camera</h4></noscript>
+      {{ tab-non-working-camera | markdownify }}
+   </div>
+   <div id="tab-manual">
+      <noscript><h4>Manual</h4></noscript>
+      {{ tab-manual | markdownify }}
+   </div>
+</div>

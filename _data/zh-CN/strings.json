@@ -1,10 +1,13 @@
 {
 	"by": "By: $1",
+	"close": "Close",
 	"description": "Wikis for DS-Homebrew projects",
 	"discord-server": "Discord 服务器（仅限英语）",
 	"published-with": "使用 <a href=\"https://pages.github.com\">GitHub Pages</a> 发布，在 GitHub 上查看 <a href=\"https://github.com/$1\">源码</a> 。",
+	"select-language": "Select language",
 	"source": "Source",
+	"title": "DS-Homebrew Wiki",
+	"toggle-navigation": "Toggle navigation",
 	"translate-here": "Translate here",
-	"translate-on-crowdin": "Translate on Crowdin",
-	"title": "DS-Homebrew Wiki"
+	"translate-on-crowdin": "Translate on Crowdin"
 }

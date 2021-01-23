@@ -106,8 +106,8 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 <div class="tab-container">
     <div class="pb-3">
-        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, 'tab-sd-card')">SD Card</a>
-        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, 'tab-flashcard')">Flashcard</a>
+        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD Card</a>
+        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
     </div>
     <div id="tab-sd-card">
         <noscript><h4>SD Card</h4></noscript>

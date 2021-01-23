@@ -6,29 +6,29 @@
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "Référence"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Installation"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Mise à jour"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Personnalisation"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Autres"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Désinstallation"
 		}
 	]
 }

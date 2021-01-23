@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Egyedi betűtípusok
+description: How to use custom fonts with TWiLight Menu++
 ---
 
 A TWiLight Menu++ tud olyan egyedi betűkészleteket használni, amik NFTR (Nitro FonT Resource) formátumúak. A készletek a beállításokban, kézikönyv címekben és a Nintendo DSi, Nintendo 3DS, SEGA Saturn és Homebrew Launcher témákban kerülnek felhasználásra.
@@ -26,5 +27,5 @@ Létrehozhatod az egyedi betűkészleted olyan eszközökkel, mint például Pk1
 1. Töltsd be az NFTR fájlt az nftr-editor-ba
 1. Írd be a betűkészlet neveket, amit használni szeretnél, legmagasabb prioritástól a legkisebbig az `Input font` szöveg dobozba, vesszőkkel elválasztva
    - Az előnézetét láthatod a bemenő betűkészletnek a felső dobozban bal oldal és az aktuális NFTR-t az alsó dobozban
-1. Kattints a `Generate from font` okcióra, majd az `OK`-ra a meglévő karakterek újragenerálására, és `Cancel`-t a speciális gomb karakterek újragenerálására (pl.: ``)
+1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
 1. Kattints a `Save` opcióra, majd ismételd meg a másik méretre

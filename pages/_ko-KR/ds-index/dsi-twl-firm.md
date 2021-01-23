@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: An explanation of all things DS modding
+description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
 ---
 
 ### 커스텀 펌웨어 준비
@@ -23,7 +23,7 @@ description: An explanation of all things DS modding
 nds-bootstrap은 TWL Clock Speed를 옵션으로 갖고있는데, 이게 있다고 해서 ROM이 더 높은 클럭 속도에서 잘 작동하도록 조절하지는 않을것입니다. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 
 ### 닌텐도 DSi 본체 메뉴
-The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
+The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
 The ranges that make it overflow is determined by pairs of two. For example, 1-2 GB of free space is allowed while 3-4 isn't. 5-6 GB of free space is allowed while 7-8 isn't.
 

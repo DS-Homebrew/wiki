@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: הסברים על כל מה שקשור למודינג של DS
+description: Information on using Wi-Fi on the Nintendo DS
 ---
 
 - בתוכנות ומשחקים של Nintendo DS, אפשר להשתמש רק בWEP ובWIFI ללא אבטחה
@@ -12,7 +12,12 @@ description: הסברים על כל מה שקשור למודינג של DS
 
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
-### שחזור Nintendo DS WFC
+### Creating a hotspot
+There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+- [macOS](https://gbatemp.net/threads/571658)
+- [Linux](https://gbatemp.net/threads/543283)
+
+### Nintendo DS WFC Restoration
 
 1. הפעילו את ההגדות של Nintendo WFC
 1. התחברו לנקודת הגישה שלכם

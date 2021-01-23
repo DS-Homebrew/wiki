@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: רקעים מותאמים אישית עבור Unlaunch
+description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
 ---
 
 באמצעות TWiLight Menu++ ניתן לעשות פאטץ להתקנה של Unlaunch על מנת לקבל תמונת רקע מותאמת אישית. היא חייבת להיות GIF בגודל 256x192, עם מספר מגבלות:

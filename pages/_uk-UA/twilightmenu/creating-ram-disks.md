@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Creating RAM Disks
+description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
 ---
 
 You do not need to follow this if you're using a flashcard.

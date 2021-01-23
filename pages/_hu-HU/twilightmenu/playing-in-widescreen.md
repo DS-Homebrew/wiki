@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Játék széles képenyőn
+description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 ---
 
 Old/New Nintendo 3DS vagy 2DS konzolt igényel.

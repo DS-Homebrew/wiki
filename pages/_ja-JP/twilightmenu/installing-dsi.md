@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: インストール（DSi）
+description: ニンテンドーDSiにTWiLight Menu++をインストールする方法
 ---
 
 DSiに自作ソフトを実行する方法がない場合は、[dsi.cfw.guide](https://dsi.cfw.guide)に従って、TWiLight Menu++をインストールしてください

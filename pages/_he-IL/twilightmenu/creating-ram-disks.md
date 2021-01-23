@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: יצירת RAM Disks
+description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
 ---
 
 אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.

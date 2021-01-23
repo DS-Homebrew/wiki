@@ -2,33 +2,33 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "Guías"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "Referencias"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Instalación"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Actualización"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Personalización"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Otros"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Desinstalación"
 		}
 	]
 }

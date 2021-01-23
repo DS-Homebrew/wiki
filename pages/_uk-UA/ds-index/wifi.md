@@ -4,13 +4,18 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: An explanation of all things DS modding
+description: Information on using Wi-Fi on the Nintendo DS
 ---
 
 - On Nintendo DS applications, you can only use WEP and Open WiFi
 - On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA2 support
 
 Hotspots are usable, so you don't need to change your router configuration.
+
+### Creating a hotspot
+There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+- [macOS](https://gbatemp.net/threads/571658)
+- [Linux](https://gbatemp.net/threads/543283)
 
 ### Nintendo DS WFC Restoration
 

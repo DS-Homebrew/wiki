@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: ds-index
 category: guides
-title: DS game forwarders (3DS)
+title: Forwarders de jeu DS (3DS)
 description: Comment créer des applications CIA pour avoir vos jeux DS dans le menu d'accueil de votre 3DS
 ---
 
@@ -106,8 +106,8 @@ Après avoir extrait le pack pour votre carte, vous pouvez éditer `sd:/_nds/ntr
 
 <div class="tab-container">
     <div class="pb-3">
-        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, 'tab-sd-card')">Carte SD</a>
-        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, 'tab-flashcard')">Flashcard</a>
+        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD Card</a>
+        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
     </div>
     <div id="tab-sd-card">
         <noscript><h4>Carte SD</h4></noscript>

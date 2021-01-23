@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Frissítés (DSi)
+description: How to update TWiLight Menu++ on the Nintendo DSi
 ---
 
 Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` DS játék fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DS romok.

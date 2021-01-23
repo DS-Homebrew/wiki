@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: שאלות ותשובות & פתרון בעיות
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 לשאלות ותשובות נוספות, בקרו ב[דיון בGBAtemp ](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).

@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: GYIK & hibaelhárítás
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).

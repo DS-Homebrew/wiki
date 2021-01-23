@@ -3,6 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 title: דף הבית
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # ברוכים הבאים לwiki של TWiLight Menu++!

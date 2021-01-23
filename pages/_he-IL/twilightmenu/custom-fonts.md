@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: גופנים מותאמים אישית
+description: How to use custom fonts with TWiLight Menu++
 ---
 
 TWiLight Menu++ יכול להשתמש בגופנים מותאמים אישית בפורמט NFTR (Nitro FonT Resource). הם ישומו בהגדרות, בכותרות של המדריכים ובערכות הנושא של הNintendo DSi, Nintendo 3DS, SEGA Saturn ושל הHomebrew Launcher.
@@ -26,5 +27,5 @@ TWiLight Menu++ יכול להשתמש בגופנים מותאמים אישית �
 1. טענו את קובץ הNFTR לnftr-editor
 1. רשמו את השמותש ל הגופנים שאתם רוצים על פי סדר עדיפויות בתיבת הטקסט `Input font`, מופרדים בפסיק
    - ניתן לראות תצוגה מקדימה של הפונטים בתיבת הטקסט בצד שמאל ואת הNFTR הנוכחי בתיבת הטקסט התחתונה
-1. לחצו על `Generate from font`, בחרו ב`OK` על מנת ליצור מחדש תווים קיימים ו`Cancel` על מנת ליצור מחדש את תווי הכפתור המיוחדים (לדוגמת ``)
+1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
 1. לחצו על `Save`, וחזרו על הפעולה עבור שאר הגדלים

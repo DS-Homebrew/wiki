@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: DSi / 3DS skins - 커스텀 사운드 효과
+description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
 ---
 
 TWiLightMenu는 테마에서 커스텀 사운드를 지원합니다. 사용할 사운드 파일을 테마 폴더 안의 `sound` 디렉토리에 넣습니다. 예를 들어, `white`라는 테마가 있다고 치면 파일을 각각 `themes/white/sound/sfx.bin` 그리고 `themes/sound/bgm.pcm.raw`으로 해서 넣어둡니다. 두 파일들은 굳이 넣어야 할 필요는 없고, 둘 중 하나가 사라지면 기본 사운드를 사용합니다. 파일을 잘 넣어놨다면, 설정의 음악 옵션을 "테마"로 설정합니다.

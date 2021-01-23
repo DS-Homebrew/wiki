@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Une explication de tout le modding DS
+description: Information on using Wi-Fi on the Nintendo DS
 ---
 
 - Sur les applications Nintendo DS, vous ne pouvez utiliser que WEP et Open WiFi
@@ -12,7 +12,12 @@ description: Une explication de tout le modding DS
 
 Les hotspots sont utilisables, vous n'avez donc pas besoin de modifier la configuration de votre routeur.
 
-### Restauration Nintendo DS WFC
+### Creating a hotspot
+There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+- [macOS](https://gbatemp.net/threads/571658)
+- [Linux](https://gbatemp.net/threads/543283)
+
+### Nintendo DS WFC Restoration
 
 1. Lancez les paramètres Nintendo WFC
 1. Connectez-vous à votre point d'accès

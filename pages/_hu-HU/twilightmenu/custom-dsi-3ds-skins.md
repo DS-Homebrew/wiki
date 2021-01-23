@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: DSi / 3DS szkinek létrehozása
+description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 
 A legegyszerűbb módja egy téma egyediesítésének, ha szerkesztjük a png texturákat a téma `ui`, `battery`, és/vagy `volume` mappáiban. Ezek a fájlok bármilyen png-k lehetnek, azzal a fontos kiegészítéssel, hogy csak a 100%-ban átlátszó pixelek kerülnek átlátszóként megjelenítésre, minden más átlátszóság átlátszatlannak kerül kirajzolásra. Továbbá minden részletnek, ami átlátszó egy készletben (például az elem ikonok) átlátszónak kell lennie, mert az átlátszó pixelek egyszerűen átugrásra kerülnek, nem a háttér színnel kitöltésre; azaz bármilyen részlet ami csak néhányban átlátszó inkább háttérszín kell legyen, mint átlátszó. A textúrák lehetnek változó méretűek, de szükséges a téma konfiguráció változtatása, hogy helyesen jelenjenek meg (lásd alább).

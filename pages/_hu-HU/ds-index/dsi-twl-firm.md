@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: Minden a DS moddolásról
+description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
 ---
 
 ### CFW telepítése
@@ -23,7 +23,7 @@ A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
 ### A Nintendo DSi System Menu
-A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occured" fekete képernyőbe.
+A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
 A tartományok, amik túlcsordultatják kettes csoportokban jelenkeznek. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
 

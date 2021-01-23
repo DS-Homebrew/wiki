@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Minden a DS moddolásról
+description: Information on using Wi-Fi on the Nintendo DS
 ---
 
 - Nintendo DS applikációkból csak WEP és nyílt WiFi használható
@@ -12,7 +12,12 @@ description: Minden a DS moddolásról
 
 Hotspotok használhatók, így nem szükséges megváltoztatnod a routered konfigurációját.
 
-### Nintendo DS WFC helyreállítás
+### Creating a hotspot
+There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+- [macOS](https://gbatemp.net/threads/571658)
+- [Linux](https://gbatemp.net/threads/543283)
+
+### Nintendo DS WFC Restoration
 
 1. Indítsd el a Nintendo WFC beállításokat
 1. Csatlakozz a hozzáférési pontodhoz

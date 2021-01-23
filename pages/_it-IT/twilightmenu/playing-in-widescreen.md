@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Playing in Widescreen
+description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 ---
 
 Richiede una console Vecchia/New Nintendo 3DS o 2DS.

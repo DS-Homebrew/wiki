@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: An explanation of all things DS modding
+description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
 ---
 
 ### Configurare CFW
@@ -23,7 +23,7 @@ Il Nintendo DS era composto da un processore a 67Mhz nel 2004. Il Nintendo DSi e
 nds-bootstrap ha TWL Clock Speed come opzione, ma non cercherà di regolare le ROM per farle funzionare a velocità maggiore. Questo è colpa dell'applicazione in sé, e perciò le applicazioni che non funzionano ad una velocità più alta NON è un bug di nds-bootstrap.
 
 ### Menu di Sistema Nintendo DSi
-The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occured" black screen.
+The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
 The ranges that make it overflow is determined by pairs of two. Ad esempio, 1-2 GB di spazio libero è consentito mentre 3-4 no. 5-6 GB di spazio libero è consentito mentre 7-8 no.
 

@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: アンインストール（DSとDSi）
+description: ニンテンドーDSiまたはDSフラッシュカードからTWiLight Menu++をアンインストールする方法
 ---
 
 ### アンインストール

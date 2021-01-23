@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: FAQ & Troubleshooting
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 Dla więcej FAQ, odwiedź [wątek na GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).

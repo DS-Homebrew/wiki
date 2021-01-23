@@ -3,6 +3,7 @@ lang: pl-PL
 layout: wiki
 section: twilightmenu
 title: Strona Główna
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # Witaj w wiki TWiLight Menu++!

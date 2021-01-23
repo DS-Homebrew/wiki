@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: インストール（フラッシュカード）
+description: ニンテンドーDSフラッシュカードにTWiLight Menu++をインストールする方法
 ---
 
 ### インストール

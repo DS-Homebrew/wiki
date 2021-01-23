@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: DS 클래식 메뉴의 다운로드 플레이 / 픽토챗
+description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS Class Menu
 ---
 
 DSi 본체를 이용중이라면, 별도의 과정 없이 이 응용프로그램들을 이용할 수 있습니다. 그러나, 3DS 본체를 이용중이라면 아래 과정을 따르세요.

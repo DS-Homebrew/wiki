@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Box-art beszerzése
+description: How to get box art / game covers in TWiLight Menu++
 ---
 
 ### 3DS

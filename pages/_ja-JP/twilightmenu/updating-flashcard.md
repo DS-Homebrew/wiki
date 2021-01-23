@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: 更新（フラッシュカード）
+description: ニンテンドーDSフラッシュカードでTWiLight Menu++を更新する方法
 ---
 
 v16.4.0より古いバージョンから更新する場合は、DSゲームの`.sav`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDS ROMと同じ場所に置いてください。

@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: הומברו
-description: הסברים על כל מה שקשור למודינג של DS
+description: Information about homebrew on the Nintendo DS
 ---
 
 ### פיתוח

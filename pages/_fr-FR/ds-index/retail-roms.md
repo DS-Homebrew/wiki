@@ -3,8 +3,8 @@ lang: fr-FR
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: Une explication de tout le modding DS
+title: ROMs originales
+description: Information related to retail DS games
 ---
 
 ### Anti-piratage
@@ -38,7 +38,7 @@ Bien que rare, il y a des Cartouches DS avec des sauvegardes basées sur la NAND
 Il y a différents formats à utiliser selon le lanceur, mais nds-bootstrap utilise le format `.sav` brut. Si vous utilisez un format différent, voici un site web que vous pouvez utiliser pour le convertir : http://www.shunyweb.info/convert.php
 
 ### Lecture DMA de la carte
-Card DMA (signifie Direct Access Memory, en français Accès direct à la mémoire) est un moyen plus efficace de lire des données de catridge que par le logiciel. Lorsqu'il n'y a pas de données disponibles, le code peut toujours être exécuté. Dans le code originel du lecteur de carte, le lecteur de données regarde si de nouvelles données sont disponibles dans le registre, ce qui fait perdre du temps. C'est le moyen privilégié d'accéder aux données.
+Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. Lorsqu'il n'y a pas de données disponibles, le code peut toujours être exécuté. In software cartridge data reads, polling the register to see if there is new data wastes times. C'est le moyen privilégié d'accéder aux données.
 
 Vous pouvez repérer un jeu qui utilise DMA dans no$gba en activant le log DMA sur ARM9. Un accès DMA à la carte utilise AF000001 comme troisième paramètre.
 - Par exemple : `DMA2 : 04100010 023C18C0 AF000001`
@@ -51,22 +51,24 @@ Dans les versions précédentes de nds-bootstrap, une ROM Mario Kart DS était n
 
 Les cheats Action Replay sont des codes qui vous permettent de faire des changements programmables de bas niveau dans la zone mémoire de votre (vos) jeu(x) favori(s). Ces changements vont de simples ajustements de valeur à des réglages ASM extrêmement avancés, qui peuvent tous deux altérer l'expérience du ou des jeux joués.
 
-Les Flashcards peuvent tirer parti des cheats en utilisant des bases de données de codes. Les fonctionnalités de triche sont intégrées dans le noyau de la flashcard. Les noyaux suivants peuvent utiliser des cheats:
+Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. Les noyaux suivants peuvent utiliser des cheats:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
 Les solutions Homebrew/digital peuvent également tirer parti des bases de données de cheats, ces logiciels actuellement disponibles peuvent les utiliser:
-- NitroHax (`cheats.xml`)
-  - Le moteur utilisé ici charge toute la base de données cheats.xml dans la RAM limitée de la Nintendo DS et essaye de gérer les choses à partir de là. Cela impose une limite sérieuse sur le nombre de cheats que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml au-delà de 2.4 Mo
-- TWiLight Menu++ (`usrcheat.dat`)
-  - TWiLight Menu++ lit le `usrcheat.dat` et envoie les valeurs de triche activées à un autre fichier, que nds-bootstrap récupère
-  - Le moteur de triche utilisé dans nds-bootstrap est basé sur celui utilisé dans NitroHax. Cependant, en raison du fichier qui ne contient que des cheats activées pour ce titre spécifique, la taille du fichier n'a pas de limite réelle.
-  - Bootstrap 4 DS (la version nds-bootstrap utilisée sur les linkers) ne supporte pas les cheats, en raison du manque de mémoire vive et des limitations du Pack d'extension de mémoire.
+- [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
+  - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
+  - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
+- [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
+  - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
+  - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+  - Bootstrap 4 DS (the nds-bootstrap version used on flashcards) does not support cheats, due to not having enough RAM and the limitations of the Memory Expansion Pack
 
-Pour la base de données de cheats la plus complète, nous vous recommandons d'utiliser celle de DeadSkullzJr intitulée [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/page-38#post-9090779)
+For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
 Les cheat codes sont généralement de types A à E, voici une description des différents types:
 
-- Le type de code 0xE est un type de code 32 bits qui vous permet de faire plusieurs écritures dans de nombreuses adresses consécutives en même temps. Essentiellement, c'est comme le type de code d'écriture de la RAM 32 bits (0x0), sauf qu'il n'y a pas d'adresses listées à la suite des valeurs que vous voulez écrire. Au lieu de cela, le type de code 0xE est programmé pour se brancher automatiquement à partir d'une adresse de départ, puis déterminer les adresses à écrire. À partir de là, il vous suffit de donner le montant à écrire pour qu'il fasse le travail.
+- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentiellement, c'est comme le type de code d'écriture de la RAM 32 bits (0x0), sauf qu'il n'y a pas d'adresses listées à la suite des valeurs que vous voulez écrire. Au lieu de cela, le type de code 0xE est programmé pour se brancher automatiquement à partir d'une adresse de départ, puis déterminer les adresses à écrire. À partir de là, il vous suffit de donner le montant à écrire pour qu'il fasse le travail.
 
 Crédits: (`DeadSkullzJr`)

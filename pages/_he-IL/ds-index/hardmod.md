@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: הסברים על כל מה שקשור למודינג של DS
+description: How to hardmod a Nintendo DSi
 ---
 
 המושג Hardmod מתייחס למצב שבו מלחימים ללוח האם של הDSi מתאם לכרטיס SD, על מנת שהוא יוכל להקרא באמצעות מחשב. זה יעיל לשחזור גיבויי NAND, צפייה בNAND על המחשב ועוד...

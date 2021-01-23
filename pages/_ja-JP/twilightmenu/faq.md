@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: よくある質問とトラブルシューティング
+description: TWiLight Menu++のよくある質問とトラブルシューティング
 ---
 
 もっとよくある質問ため、[GBAtempスレッド](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)にアクセスしてください。
@@ -21,9 +22,9 @@ A：
 #### Q：SDカードからゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？
 A：
 - まず、[nds-bootstrapの互換性リスト](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0)を確認して、ゲームに互換性があることを確認してください
-- いくつかのチートは現時点でnds-bootstrapと互換性がないため、そのゲームのすべてのチートを無効にしましたをお試してください。<kbd class="l">L</kbd>を使って、ゲームのすべてのチートを無効にできます。
+- いくつかのチートは現時点でnds-bootstrapと互換性がないため、そのゲームのすべてのチートを無効にしましたをお試してください。<kbd class="l">L</kbd>を使って、ゲームのすべてのチートを無効にできます
 - 起動しようとしているゲームがDSi対応ゲーム場合は、TWiLight Menu++は`DS Mode`に設定されていることを確認します。
-- 以前に機能した場合は、`sd:/_nds/nds-bootstrap/`で`fatTable`と`patchOffsetCache`フォルダ削除してください。
+- 以前に機能した場合は、`sd:/_nds/nds-bootstrap/`で`fatTable`と`patchOffsetCache`フォルダ削除してください
 
 #### Q：チートはどうのように使いますか？
 A：`sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 最新のチートデータベースは、[DeadSkullzJrのデータベース](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/)です。 あるいは、[r4cce](http://hp.vector.co.jp/authors/VA013928/soft.html)を使って独自のチートデータベースを作成できます。
@@ -41,13 +42,13 @@ A：[Universal-DB](https://db.universal-team.net/ds)と[GameBrew](https://www.ga
 - 3DSでは、[GodMode9](https://github.com/d0k3/GodMode9/releases)を使ってDSゲーム、DSiウェア、バーチァルコンソールのゲームをダンプできます
 
 #### Q：ゲームカードからSDカードにセーブファイルを取得するまたは逆にことはできますか？
-A：はい、DSiと3DSで[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)、3DSで[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)を使えます。
+A：はい、DSiと3DSで[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)、3DSで[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)を使えます
 
 #### Q：TWiLight Menu++の言語を変更するにはどうしたらよいですか？
 A：
 1. TWiLight Menu++設定を開きます。これを行うには、TWiLight Menu++を読み込んでいる間に<kbd>SELECT</kbd>を押し続けます
 1. <kbd class="l">L</kbd>または<kbd class="face">Y</kbd>を1回（フラッシュカード・3DS上）または2回（DSi上）を押します
-1. 言語が表示されるまで最初のオプションを変更し、設定を終了します。
+1. 言語が表示されるまで最初のオプションを変更し、設定を終了します
    - DSゲームの言語とTWiLight Menu++にそれのタイトルを制御するため、次の2つのオプションを変更することもできます
 
 #### Q：TWiLight Menu++はどのシステムに対応ですか？

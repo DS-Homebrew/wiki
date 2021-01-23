@@ -3,10 +3,11 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (Flashcard)
+title: Mise à jour (Flashcard)
+description: How to update TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
-If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS dans un nouveau dossier appelé `saves`, qui se trouvera à la même place que les roms DS.
 {:.alert .alert-info}
 
 ### Mise à jour
@@ -17,7 +18,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 
 ### Étapes supplémentaires pour la carte SD DSi/3DS
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Si vous pouvez basculer entre le contenu de la carte SD et de la carte flashcard dans TWLMenu++, et si le menu TWLMenu++ de la flashcard est sur v16.3.0 ou supérieur, veuillez suivre ces étapes.
 
 1. Allez dans les paramètres TWLMenu++
 1. Sélectionnez `Mettre à jour TWiLight Menu++`

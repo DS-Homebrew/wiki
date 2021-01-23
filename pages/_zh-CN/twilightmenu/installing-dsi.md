@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: 安装步骤（DSi）
+description: How to install TWiLight Menu++ on the Nintendo DSi
 ---
 
 如果你还不能在你的 DSi 上运行自制程序，请按照 [dsi.cfw.guide](https://dsi.cfw.guide) 来安装 TWiLight Menu++

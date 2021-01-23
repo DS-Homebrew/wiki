@@ -1,19 +1,20 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: other
-title: Playing in Widescreen
+title: Jouer en plein écran
+description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 ---
 
-Requires an Old/New Nintendo 3DS or 2DS console.
+Nécessite une Old/New Nintendo 3DS ou 2DS.
 
-**Preparation**
-- Make sure Luma's `boot.firm` is on the SD root for this to work
-- If you used TWiLight Menu++ Updater or Universal-Updater to update, please install the latest TWiLight Menu++ CIAs using FBI
+**Préparation**
+- Assurez-vous que le `boot.firm` de Luma est à la racine de la carte SD pour que cela fonctionne
+- Si vous avez utilisé TWiLight Menu++ Updater ou Universal-Updater pour mettre à jour, veuillez installer la dernière CIA de TWiLight Menu++ en utilisant FBI
 
-1. Download [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. In Luma config, enable external FIRMs and modules
+1. Télécharger [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([thread GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Dans la configuration de Luma, activez "enable external FIRMs and modules"
 1. Install the TWPatch CIA
 1. Launch TWPatch
 1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen

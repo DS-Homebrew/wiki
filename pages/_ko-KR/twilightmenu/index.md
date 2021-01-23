@@ -3,6 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 title: 홈
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # TWiLight Menu++ 위키에 오신 것을 환영합니다!
