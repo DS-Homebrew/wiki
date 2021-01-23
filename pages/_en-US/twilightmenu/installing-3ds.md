@@ -46,6 +46,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
 
+### Installing
 <div class="tab-container">
    <div class="pb-3">
       <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
@@ -53,15 +54,15 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
       <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h3>Installing (Working Camera)</h3></noscript>
+      <noscript><h4>Working Camera</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h3>Installing (Non-Working Camera)</h3></noscript>
+      <noscript><h4>Non-Working Camera</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h3>Installing (Manual)</h3></noscript>
+      <noscript><h4>Manual</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>
