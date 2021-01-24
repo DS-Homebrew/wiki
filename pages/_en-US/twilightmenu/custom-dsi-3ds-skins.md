@@ -41,7 +41,7 @@ The `volume` and `battery` textures are self explanatory.
 | box           | The box texture, containing both full and empty textures (DSi Theme)                            |                                                                 |
 | box_empty     | The texture displayed for an empty box (3DS Theme)                                              | On the 3DS theme, the transparent color is `#E0DAD9` by default |
 | box_full      | The texture displayed for a box with an icon (3DS Theme)                                        | On the 3DS theme, the transparent color is `#E0DAD9` by default |
-| brace         | The brace texture shown past the first and last icon (DSi theme)                                | 4 Colors                                                        |
+| brace         | The brace texture shown past the first and last icon (DSi Theme)                                | 4 Colors                                                        |
 | bubble        | The bottom bit of the bubble that draws over the start border or icon box                       | 8 Colors                                                        |
 | button_arrow  | The textures for the arrows on either side of bottom scrollbar (DSi Theme)                      |                                                                 |
 | cornerbutton  | The buttons that are displayed on the SELECT menu (DSi Theme) (The name is based on an old use) |                                                                 |
