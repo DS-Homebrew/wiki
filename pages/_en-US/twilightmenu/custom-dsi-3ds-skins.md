@@ -35,39 +35,39 @@ The `volume` and `battery` textures are self explanatory.
 
 ### Paletted textures (`grit` folder)
 
-| Texture       | Description                                                                                    | Palette Restrictions (if less than 16)                          |
-| ------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                  |                                                                 |
-| box           | The box texture, containing both full and empty textures (DSi Theme)                           |                                                                 |
-| box_empty     | The texture displayed for an empty box (3DS Theme)                                             | On the 3DS theme, the transparent color is `#E0DAD9` by default |
-| box_full      | The texture displayed for a box with an icon (3DS Theme)                                       | On the 3DS theme, the transparent color is `#E0DAD9` by default |
-| brace         | The brace texture shown past the first and last icon (DSi theme)                               | 4 Colors                                                        |
-| bubble        | The bottom bit of the bubble that draws over the start border or icon box                      | 8 Colors                                                        |
-| button_arrow  | The textures for the arrows on either side of bottom scrollbar (DSi Theme)                     |                                                                 |
-| cornerbutton  | The buttons that are displayed on the SELECT menu (DSi Menu) (The name is based on an old use) |                                                                 |
-| cursor        | The border with animation frames that indicate the selected icon (3DS Theme)                   |                                                                 |
-| dialogbox     | The background of the dialog box that slides down                                              |                                                                 |
-| folder        | The icon for folders                                                                           |                                                                 |
-| icon_gb       | The icon for Game Boy games                                                                    |                                                                 |
-| icon_gba      | The icon for GBA games (All themes) and the top icon to launch GBARunner2 (3DS Theme)          | The default transparent color is `#00FF00`                      |
-| icon_gbamode  | The icon for native GBA Mode                                                                   |                                                                 |
-| icon_gg       | The icon for Game Gear games                                                                   |                                                                 |
-| icon_manual   | The icon for the manual                                                                        |                                                                 |
-| icon_md       | The icon for Mega Drive games                                                                  |                                                                 |
-| icon_nes      | The icon for NES games                                                                         |                                                                 |
-| icon_plg      | The icon for DSTWO plugins                                                                     |                                                                 |
-| icon_settings | The icon for Nintendo DSi Settings                                                             |                                                                 |
-| icon_sms      | The icon for Sega Master System games                                                          |                                                                 |
-| icon_snes     | The icon for SNES games                                                                        |                                                                 |
-| icon_unk      | The icon displayed when a game is missing an icon                                              |                                                                 |
-| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                         |                                                                 |
-| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                     |                                                                 |
-| progress      | The progress loading animation with 8 frames                                                   | 9 Colors                                                        |
-| scroll_window | The part of the scrollbar that indicates the icons that are in view                            | 7 Colors                                                        |
-| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)               |                                                                 |
-| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                  |                                                                 |
-| start_text    | The text displayed on the start border (DSi Theme)                                             | 4 Colors                                                        |
-| wirelessicons | The icons displayed to indicate a game has wireless support                                    | 7 Colors                                                        |
+| Texture       | Description                                                                                     | Palette Restrictions (if less than 16)                          |
+| ------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                   |                                                                 |
+| box           | The box texture, containing both full and empty textures (DSi Theme)                            |                                                                 |
+| box_empty     | The texture displayed for an empty box (3DS Theme)                                              | On the 3DS theme, the transparent color is `#E0DAD9` by default |
+| box_full      | The texture displayed for a box with an icon (3DS Theme)                                        | On the 3DS theme, the transparent color is `#E0DAD9` by default |
+| brace         | The brace texture shown past the first and last icon (DSi theme)                                | 4 Colors                                                        |
+| bubble        | The bottom bit of the bubble that draws over the start border or icon box                       | 8 Colors                                                        |
+| button_arrow  | The textures for the arrows on either side of bottom scrollbar (DSi Theme)                      |                                                                 |
+| cornerbutton  | The buttons that are displayed on the SELECT menu (DSi Theme) (The name is based on an old use) |                                                                 |
+| cursor        | The border with animation frames that indicate the selected icon (3DS Theme)                    |                                                                 |
+| dialogbox     | The background of the dialog box that slides down                                               |                                                                 |
+| folder        | The icon for folders                                                                            |                                                                 |
+| icon_gb       | The icon for Game Boy games                                                                     |                                                                 |
+| icon_gba      | The icon for GBA games (All themes) and the top icon to launch GBARunner2 (3DS Theme)           | The default transparent color is `#00FF00`                      |
+| icon_gbamode  | The icon for native GBA Mode                                                                    |                                                                 |
+| icon_gg       | The icon for Game Gear games                                                                    |                                                                 |
+| icon_manual   | The icon for the manual                                                                         |                                                                 |
+| icon_md       | The icon for Mega Drive games                                                                   |                                                                 |
+| icon_nes      | The icon for NES games                                                                          |                                                                 |
+| icon_plg      | The icon for DSTWO plugins                                                                      |                                                                 |
+| icon_settings | The icon for Nintendo DSi Settings                                                              |                                                                 |
+| icon_sms      | The icon for Sega Master System games                                                           |                                                                 |
+| icon_snes     | The icon for SNES games                                                                         |                                                                 |
+| icon_unk      | The icon displayed when a game is missing an icon                                               |                                                                 |
+| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                          |                                                                 |
+| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                      |                                                                 |
+| progress      | The progress loading animation with 8 frames                                                    | 9 Colors                                                        |
+| scroll_window | The part of the scrollbar that indicates the icons that are in view                             | 7 Colors                                                        |
+| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)                |                                                                 |
+| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                   |                                                                 |
+| start_text    | The text displayed on the start border (DSi Theme)                                              | 4 Colors                                                        |
+| wirelessicons | The icons displayed to indicate a game has wireless support                                     | 7 Colors                                                        |
 
 ### UI textures (`ui` folder)
 
