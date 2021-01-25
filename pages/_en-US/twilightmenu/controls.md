@@ -7,23 +7,33 @@ title: Controls
 description: Controls for using TWiLight Menu++
 ---
 
-#### DSi, 3DS Menu, SEGA Saturn, and Homebrew Launcher themes
-- Left/Right: Select a game/app
-- A/START: Launch game/app
-- L/R or SELECT+LEFT/RIGHT: Switch pages
-- (DSi/Saturn/HB theme) SELECT+UP/DOWN & release SELECT: Switch between the SD card and flashcard
-- Y: Per-game settings
-- Y+X: Cheat menu
-- X: Delete/hide game
-- (DSi/Saturn/HB theme) SELECT: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
+#### Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes
+- <kbd>Left</kbd> / <kbd>Right</kbd>: Select a game / app
+- <kbd class="face">A</kbd> / <kbd>START</kbd>: Launch game / app
+- <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd> / <kbd>Right</kbd>: Switch pages
+- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd> / <kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
+- <kbd class="face">Y</kbd>: Per-game settings
+   - <kbd class="face">X</kbd>: Cheat menu
+      - <kbd class="face">A</kbd>: Toggle cheat
+      - <kbd class="face">B</kbd>: Exit cheat menu
+      - <kbd class="face">X</kbd>: Save and exit cheat menu
+      - <kbd class="face">Y</kbd>: Show cheat description
+      - <kbd class="l">L</kbd>: Disable all cheats
+- <kbd class="face">X</kbd>: Delete/hide game
+- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
 
 #### R4 theme
-- Up/Down: Select a game/app
-- A: Launch game/app
-- L: Switch between the SD card and flashcard
-- Y: Per-game settings
-- Y+X: Cheat menu
+- <kbd>Up</kbd> / <kbd>Down</kbd>: Select a game / app
+- <kbd class="face">A</kbd>: Launch game / app
+- <kbd class="l">L</kbd>: Switch between the SD card and flashcard
+- <kbd class="face">Y</kbd>: Per-game settings
+   - <kbd class="face">X</kbd>: Cheat menu
+      - <kbd class="face">A</kbd>: Toggle cheat
+      - <kbd class="face">B</kbd>: Exit cheat menu
+      - <kbd class="face">X</kbd>: Save and exit cheat menu
+      - <kbd class="face">Y</kbd>: Show cheat description
+      - <kbd class="l">L</kbd>: Disable all cheats
 
-#### With CFW: DS ROMs (on SD)/carts
-- L+R+DOWN+B for 2 seconds: Return to TWiLight Menu++
+#### With CFW: DS ROMs (on SD) / carts
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++
 (If using an O3DS, then it does not work on all models)
