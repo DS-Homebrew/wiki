@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Pantallas de Inicio Personalizadas
-description: How to use custom splash screens for TWiLight Menu++
+description: Cómo usar pantallas de inicio personalizadas en TWiLight Menu++
 ---
 
 Puedes usar tus propios GIF como pantalla de inicio de TWiLight Menu++. Tienen que llamarse `splashtop.gif` y `splashbottom.gif` y encontrarse en `sd:/_nds/TWiLightMenu/extras`, después poner `DSi Splash Screen` en `Custom` en las opciones de TWiLight Menu++.

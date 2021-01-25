@@ -18,7 +18,7 @@ Habár a legtöbb előny az egyedi firmware a Nintendo DSi és Nintendo 3DS szá
   - Kuriisu parancs: `guide dsi`
 
 ### CPU sebességek
-A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo DSi 133MHz-es processzorral jött ki 2009-ben. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem működik jól magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
+The Nintendo DS shipped with a 67MHz processor in 2004. The Nintendo DSi shipped with an 133MHz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67MHz. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem működik jól magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
 
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 

@@ -4,20 +4,20 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Information on using Wi-Fi on the Nintendo DS
+description: Cómo usar el Wi-Fi de la Nintendo DS
 ---
 
 - En aplicaciones de Nintendo DS, solo puedes usar Wifis abiertos o con claves WEP
 - En las aplicaciones mejoradas/exclusivas de Nintendo DSi, también hay soporte para WPA2
 
-Se pueden usar Hotspots, así no tendrás que cambiar los ajustes de tu router.
+Se pueden usar puntos de acceso (hotspots), así no tendrás que cambiar los ajustes de tu router.
 
-### Creating a hotspot
-There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+### Crear un punto de acceso
+Hay varias guías para crear puntos de acceso compatibles para un juego de DS con macOS y Linux en GBAtemp. Si estás en Windows puedes lanzar Linux con un Live CD/USB.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Nintendo DS WFC Restoration
+### Restaurar CWF de Nintendo DS
 
 1. Ve a la configuración del CWF de Nintendo
 1. Conéctate a tu punto de acceso

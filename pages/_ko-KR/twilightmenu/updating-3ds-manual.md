@@ -2,6 +2,6 @@
 lang: ko-KR
 layout: redirect
 destination: 'updating-3ds?tab=manual#tab-manual'
-title: Updating (3DS, Manual)
+title: 업데이트하기 (3DS, 수동)
 ---
 

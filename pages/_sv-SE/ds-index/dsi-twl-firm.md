@@ -18,7 +18,7 @@ Medan de flesta av fördelarna med custom firmware är för Nintendo DSi och Nin
   - Kuriisu kommando: `guide dsi`
 
 ### CPU Hastigheter
-Nintendo DS släpptes år 2004 med en 67Mhz processor. Nintendo DSi släpptes år 2009 med en 133Mhz processor. De flesta DS-spel gjordes innan Nintendo DSi kom ut, och därför hade de bara en 67Mhz processor tillgänglig. Vissa program var bundna till den frekvensen, och fungerade därför inte bra med en högre frekvens. De flesta spel skulle däremot prestera bättre än orginalet med en högre frekvens.
+The Nintendo DS shipped with a 67MHz processor in 2004. The Nintendo DSi shipped with an 133MHz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67MHz. Vissa program var bundna till den frekvensen, och fungerade därför inte bra med en högre frekvens. De flesta spel skulle däremot prestera bättre än orginalet med en högre frekvens.
 
 nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work with the higher clock speed. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 

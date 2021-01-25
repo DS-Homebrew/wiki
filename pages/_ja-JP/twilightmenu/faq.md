@@ -55,25 +55,25 @@ A：
 
 A：
 
-| 本体                       | ローダー                                       | 拡張子                                | セーブファイル                                        |
-| ------------------------ | ------------------------------------------ | ---------------------------------- | ---------------------------------------------- |
-| [ARGV][nds-hb-menu-argv] | ネイティブ                                      | `.argv`                            |                                                |
-| Atari 2600               | [StellaDS][stellads]                       | `.a26`                             |                                                |
-| Atari 5200               | [A5200DS][a5200ds]                         | `.a52`                             |                                                |
-| Atari 7800               | [A7800DS][a7800ds]                         | `.a78`                             |                                                |
-| DS                       | [nds-bootstrap][ndsbs]、フラッシュカードのカーネル、ネイティブ | `.nds`、`.dsi`、`.ids`、`.srl`、`.app` | `saves/[ROMの名前].sav`<br>（小売ROMのみ）        |
-| DSiウェア                   | [Unlaunch][unlaunch]                       | `.nds`、`.dsi`、`.ids`、`.srl`、`.app` | `[ROMの名前].pub`、`[ROMの名前].prv`                  |
-| DSTWOプラグイン               | [DSTWO][dstwo]（DSTWOフラッシュカードが必要）           | `.plg`                             |                                                |
-| ゲームボーイ（カラー）              | [GameYob][gameyob]                         | `.gb`、`.sgb`、`.gbc`                | `[ROMの名前].sav`                                 |
-| ゲームボーイアドバンス              | [GBARunner2][gbarunner2]、ネイティブ             | `.agb`、`.gba`、`.mb`                | `[ROMの名前].sav`                                 |
-| ゲームギア                    | [S8DS][s8ds]                               | `.gg`                              | `[ROMの名前].gg.sav`                              |
-| メガドライブ・Genesis           | [jEnesisDS][jenesis]、[PicoDriveTWL][pdtwl] | `.gen`                             | `[ROMの名前].srm`<br>（jEnesisDSでフラッシュカードのみ） |
-| マスターシステム                 | [S8DS][s8ds]                               | `.sms`                             | `[ROMの名前].sms.sav`                             |
-| MPEG4ビデオ                 | [MPEG4プレイヤー][mpeg4player]                  | `.mp4`                             |                                                |
-| ファミリーコンピュータ・NES          | [nesDS][nesds]                             | `.nes`、`.fds`                      | `[ROMの名前].sav`                                 |
-| PCエンジン・TurboGrafx-16     | [NitroGrafx][nitrografx]                   | `.pce`                             |                                                |
-| RVIDビデオ                  | [Rocket Video Player][rvidplayer]          | `.rvid`                            |                                                |
-| スーパーファミコン                | [SNEmulDS][snemulds]                       | `.smc`、`.sfc`                      | `[ROMの名前].srm`<br>（フラッシュカードのみ）           |
+| 本体                       | ローダー                                       | 拡張子                                                    | セーブファイル                                        |
+| ------------------------ | ------------------------------------------ | ------------------------------------------------------ | ---------------------------------------------- |
+| [ARGV][nds-hb-menu-argv] | ネイティブ                                      | `.argv`                                                |                                                |
+| Atari 2600               | [StellaDS][stellads]                       | `.a26`                                                 |                                                |
+| Atari 5200               | [A5200DS][a5200ds]                         | `.a52`                                                 |                                                |
+| Atari 7800               | [A7800DS][a7800ds]                         | `.a78`                                                 |                                                |
+| DS                       | [nds-bootstrap][ndsbs]、フラッシュカードのカーネル、ネイティブ | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `saves/[ROMの名前].sav`<br>（小売ROMのみ）        |
+| DSiウェア                   | [Unlaunch][unlaunch]                       | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `[ROMの名前].pub`、`[ROMの名前].prv`                  |
+| DSTWOプラグイン               | [DSTWO][dstwo]（DSTWOフラッシュカードが必要）           | `.plg`                                                 |                                                |
+| ゲームボーイ（カラー）              | [GameYob][gameyob]                         | `.gb`、<wbr>​`.sgb`、​<wbr>`.gbc`                        | `[ROMの名前].sav`                                 |
+| ゲームボーイアドバンス              | [GBARunner2][gbarunner2]、ネイティブ             | `.agb`、<wbr>`.gba`、<wbr>`.mb`                          | `[ROMの名前].sav`                                 |
+| ゲームギア                    | [S8DS][s8ds]                               | `.gg`                                                  | `[ROMの名前].gg.sav`                              |
+| メガドライブ・Genesis           | [jEnesisDS][jenesis]、[PicoDriveTWL][pdtwl] | `.gen`                                                 | `[ROMの名前].srm`<br>（jEnesisDSでフラッシュカードのみ） |
+| マスターシステム                 | [S8DS][s8ds]                               | `.sms`                                                 | `[ROMの名前].sms.sav`                             |
+| MPEG4ビデオ                 | [MPEG4プレイヤー][mpeg4player]                  | `.mp4`                                                 |                                                |
+| ファミリーコンピュータ・NES          | [nesDS][nesds]                             | `.nes`、`.fds`                                          | `[ROMの名前].sav`                                 |
+| PCエンジン・TurboGrafx-16     | [NitroGrafx][nitrografx]                   | `.pce`                                                 |                                                |
+| RVIDビデオ                  | [Rocket Video Player][rvidplayer]          | `.rvid`                                                |                                                |
+| スーパーファミコン                | [SNEmulDS][snemulds]                       | `.smc`、`.sfc`                                          | `[ROMの名前].srm`<br>（フラッシュカードのみ）           |
 
 
 #### Q：sudokuhaxからタッチ入力がうまくいかないのはなぜですか？

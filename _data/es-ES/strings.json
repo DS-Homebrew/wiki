@@ -1,13 +1,13 @@
 {
 	"by": "Por: $1",
-	"close": "Close",
-	"description": "Wikis para proyectos DS-Homebrew",
+	"close": "Cerrar",
+	"description": "Wikis para proyectos de DS-Homebrew",
 	"discord-server": "Servidor de Discord (solo en inglés)",
 	"published-with": "Publicado con <a href=\"https://pages.github.com\">GitHub Pages</a>, puedes ver <a href=\"https://github.com/$1\">el código fuente</a> en GitHub.",
-	"select-language": "Select language",
+	"select-language": "Selección de idioma",
 	"source": "Fuente",
 	"title": "Wiki de DS-Homebrew",
-	"toggle-navigation": "Toggle navigation",
+	"toggle-navigation": "Modo de navegación",
 	"translate-here": "Traducir aquí",
 	"translate-on-crowdin": "Traducir en Crowdin"
 }

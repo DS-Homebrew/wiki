@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play / Pictochat in DS Classic Menu
-description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS Class Menu
+title: Descarga DS / Pictochat en el Menú Clásico DS
+description: Cómo tener Descarga DS y Pictochat en el Menú Clásico DS de TWiLight Menu++
 ---
 
-If you're using a DSi console, you should already be able to launch those apps. Otherwise, if you have a 3DS, proceed below.
+Si estás usando una consola DSi, ya deberías poder usar esas aplicaciones. Si no es el caso y tienes una 3DS, sigue estos pasos.
 
-In GodMode9:
-- Press <kbd class="r">R</kbd> + <kbd class="face">A</kbd> on SYSNAND TWLN
-- Select `Search for titles`
-- Select `DS Download Play (NTR-HNDA).tmd`
-- Select `TMD file options...`
-- Select `Dump CXI/NDS file`
-- Done. It should be under `sdmc:/gm9/out/`, as `DS Download Play (NTR-HNDA).nds`
+Dentro de GodMode9:
+- Pulsa <kbd class="r">R</kbd> + <kbd class="face">A</kbd> en SYSNAND TWLN
+- Selecciona `Search for titles`
+- Selecciona `DS Download Play (NTR-HNDA).tmd`
+- Selecciona `TMD file options...`
+- Selecciona `Dump CXI/NDS file`
+- ¡Hecho! Deberías encontrarlo en `sdmc:/gm9/out/`, como `DS Download Play (NTR-HNDA).nds`
 
-Copy to `sd:/_nds/`, and rename to `dlplay.nds`.
+Cópialo en `sd:/_nds/`, y cámbiale el nombre a `dlplay.nds`.
 
-The above steps will increase DLP boot speed.
+Los pasos anteriores aumentarán la velocidad de arranque de DLP.
 
-To run Pictochat on 3DS (DSi required):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi SD card, on the 3DS SD card, also in `sd:/_nds/` You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+Para usar Pictochat en 3DS (se necesita una DSi):
+- Copia `pictochat.nds` desde `sd:/_nds/` en la SD de la DSi a la SD de la 3DS, también en `sd:/_nds/` Primero debes acceder al Menú Clásico DS de TWiLight Menu++ en la DSi.

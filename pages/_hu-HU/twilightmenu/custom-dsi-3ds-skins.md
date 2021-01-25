@@ -35,39 +35,39 @@ A `volume` (hangerő) és `battery` (elem) texturák önmagukat magyarázzák.
 
 ### Palettás texturák (`grit` mappa)
 
-| Textúra       | Leírás                                                                                        | Paletta korlátozások (ha kevesebb, mint 16)                      |
-| ------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| bips          | A gördítősáv alján látható pontok (DSi téma)                                                  |                                                                  |
-| box           | Doboz textúrája, ami tartalmaz egyaránt teli és üres textúrákat (DSi téma)                    |                                                                  |
-| box_empty     | Üres doboz textúra (3DS téma)                                                                 | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
-| box_full      | Doboz ikonnal textúra (3DS téma)                                                              | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
-| brace         | A kapocs textúra ami az első és utolsó ikon után jelenik meg (DSi téma)                       | 4 szín                                                           |
-| bubble        | Az alsó darabja a buboréknak, ami az induló keret vagy az ikon doboz felé rajzolt             | 8 szín                                                           |
-| button_arrow  | A nyilak textúrái mindkét oldalán az alsó gördítő sávnak (DSi téma)                           |                                                                  |
-| cornerbutton  | A gombok, amik megjelennek a SELECT menüben (DSi Menü) (A név egy régi felhasználáson alapul) |                                                                  |
-| cursor        | A keret animáció kockák, amik a kiválasztott ikont jelzik (3DS téma)                          |                                                                  |
-| dialogbox     | A lecsúszó párbeszéd ablak háttere                                                            |                                                                  |
-| folder        | A mappák ikonja                                                                               |                                                                  |
-| icon_gb       | A Game Boy játékok ikonja                                                                     |                                                                  |
-| icon_gba      | A GBA játékok ikonja (minden téma) és a felső GBARunner2 indító ikon (3DS téma)               | Az alapértelmezett átlátszó szín kódja `#00FF00`                 |
-| icon_gbamode  | A natív GBA Mód ikonja                                                                        |                                                                  |
-| icon_gg       | Game Gear játékok ikonja                                                                      |                                                                  |
-| icon_manual   | A kézikönyv ikonja                                                                            |                                                                  |
-| icon_md       | Mega Drive játékok ikonja                                                                     |                                                                  |
-| icon_nes      | NES játékok ikonja                                                                            |                                                                  |
-| icon_plg      | DSTWO bővítmények ikonja                                                                      |                                                                  |
-| icon_settings | A Nintendo DSi Settings ikonja                                                                |                                                                  |
-| icon_sms      | Sega Master System játékok ikonja                                                             |                                                                  |
-| icon_snes     | SNES játékok ikonja                                                                           |                                                                  |
-| icon_unk      | Megjelenített ikon, ha a játéknak nincs ikonja                                                |                                                                  |
-| launch_dot    | A megjelenített pontok, amikor az alkalmazás indul (DSi téma)                                 |                                                                  |
-| moving_arrow  | A megjelenített nyíl, amikor az alkalmazás mozgatásra kerül (DSi téma)                        |                                                                  |
-| progress      | Töltési animáció 8 képkockával                                                                | 9 szín                                                           |
-| scroll_window | A gördítősáv része, ami mutatja, hogy ikonok vannak a nézetben                                | 7 szín                                                           |
-| small_cart    | Az ikonok amik megjelennek fent (3DS téma) és a SELECT menüben (DSi téma)                     |                                                                  |
-| start_border  | A keret animáció kockák, amik a kiválasztott ikont jelzik (DSi téma)                          |                                                                  |
-| start_text    | Az indító kereten megjelenített szöveg (DSi téma)                                             | 4 szín                                                           |
-| wirelessicons | A megjelenített ikonok, amik azt mutatják, hogy a játéknak van vezetéknélküli támogatása      | 7 szín                                                           |
+| Textúra       | Leírás                                                                                          | Paletta korlátozások (ha kevesebb, mint 16)                      |
+| ------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| bips          | A gördítősáv alján látható pontok (DSi téma)                                                    |                                                                  |
+| box           | Doboz textúrája, ami tartalmaz egyaránt teli és üres textúrákat (DSi téma)                      |                                                                  |
+| box_empty     | Üres doboz textúra (3DS téma)                                                                   | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
+| box_full      | Doboz ikonnal textúra (3DS téma)                                                                | A 3DS témában az átlátszó szín kódja alapértelmezetten `#E0DAD9` |
+| brace         | The brace texture shown past the first and last icon (DSi Theme)                                | 4 szín                                                           |
+| bubble        | Az alsó darabja a buboréknak, ami az induló keret vagy az ikon doboz felé rajzolt               | 8 szín                                                           |
+| button_arrow  | A nyilak textúrái mindkét oldalán az alsó gördítő sávnak (DSi téma)                             |                                                                  |
+| cornerbutton  | The buttons that are displayed on the SELECT menu (DSi Theme) (The name is based on an old use) |                                                                  |
+| cursor        | A keret animáció kockák, amik a kiválasztott ikont jelzik (3DS téma)                            |                                                                  |
+| dialogbox     | A lecsúszó párbeszéd ablak háttere                                                              |                                                                  |
+| folder        | A mappák ikonja                                                                                 |                                                                  |
+| icon_gb       | A Game Boy játékok ikonja                                                                       |                                                                  |
+| icon_gba      | A GBA játékok ikonja (minden téma) és a felső GBARunner2 indító ikon (3DS téma)                 | Az alapértelmezett átlátszó szín kódja `#00FF00`                 |
+| icon_gbamode  | A natív GBA Mód ikonja                                                                          |                                                                  |
+| icon_gg       | Game Gear játékok ikonja                                                                        |                                                                  |
+| icon_manual   | A kézikönyv ikonja                                                                              |                                                                  |
+| icon_md       | Mega Drive játékok ikonja                                                                       |                                                                  |
+| icon_nes      | NES játékok ikonja                                                                              |                                                                  |
+| icon_plg      | DSTWO bővítmények ikonja                                                                        |                                                                  |
+| icon_settings | A Nintendo DSi Settings ikonja                                                                  |                                                                  |
+| icon_sms      | Sega Master System játékok ikonja                                                               |                                                                  |
+| icon_snes     | SNES játékok ikonja                                                                             |                                                                  |
+| icon_unk      | Megjelenített ikon, ha a játéknak nincs ikonja                                                  |                                                                  |
+| launch_dot    | A megjelenített pontok, amikor az alkalmazás indul (DSi téma)                                   |                                                                  |
+| moving_arrow  | A megjelenített nyíl, amikor az alkalmazás mozgatásra kerül (DSi téma)                          |                                                                  |
+| progress      | Töltési animáció 8 képkockával                                                                  | 9 szín                                                           |
+| scroll_window | A gördítősáv része, ami mutatja, hogy ikonok vannak a nézetben                                  | 7 szín                                                           |
+| small_cart    | Az ikonok amik megjelennek fent (3DS téma) és a SELECT menüben (DSi téma)                       |                                                                  |
+| start_border  | A keret animáció kockák, amik a kiválasztott ikont jelzik (DSi téma)                            |                                                                  |
+| start_text    | Az indító kereten megjelenített szöveg (DSi téma)                                               | 4 szín                                                           |
+| wirelessicons | A megjelenített ikonok, amik azt mutatják, hogy a játéknak van vezetéknélküli támogatása        | 7 szín                                                           |
 
 ### UI texturák (`ui` mappa)
 

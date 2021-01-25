@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: RAM 디스크 생성하기
-description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
+description: TWiLight Menu++가 설치된 오래된 버전의 DS Homebrew를 이용해 RAM 디스크를 만드는 방법
 ---
 
 Flashcard를 사용중이라면 하지 않아도 됩니다.
@@ -17,13 +17,13 @@ RAM 디스크를 만들기 위해, [이 도구](http://memory.dataram.com/produc
 1. RAMDisk를 실행합니다.
 1. **View** -> **Advanced** 순으로 클릭합니다.
 1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
-1. Click **Load/Save**
-1. Click `Start RAMDisk`, and a new window for your .img should appear
-1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
-1. Save `romname.img` to a folder called `ramdisks` in the .nds file location
-1. Click `Stop RAMDisk` when you're done
-1. In TWiLight Menu++, open per-game settings for your homebrew
-1. Set RAM disk to 0
-1. Launch your homebrew, and it should read your RAM disk
+1. **Create TEMP Directory**에 체크가 되어있다면, 체크를 해제합니다.
+1. **Load/Save**를 클릭합니다.
+1. `Start RAMDisk`를 클릭하면, 사용자의 .img파일을 위한 새로운 창이 뜰 것입니다.
+1. Homebrew가 원하는 파일이나 폴더 그리고, 사용자가 쓸 파일을 넣습니다.
+1. RAMDisk 프로그램에서, `Save Disk Image Now`를 클릭합니다.
+1. .nds 파일 위치 안에 있는 `ramdisks`폴더에 `romname.img`를 저장합니다.
+1. 작업이 다 끝났으면, `Stop RAMDisk`를 클릭합니다.
+1. TWiLight Menu++에서, 게임 별 설정을 엽니다.
+1. RAM 디스크를 0으로 설정합니다.
+1. 홈브류를 실행하면, 사용자의 RAM 디스크를 읽을것입니다.

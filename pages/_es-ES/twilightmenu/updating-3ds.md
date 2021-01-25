@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Actualización (3DS)
-description: How to update TWiLight Menu++ on the Nintendo 3DS
+description: Cómo actualizar TWiLight Menu++ en la Nintendo 3DS
 ---
 
 Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos `.sav` de los juegos de DS, que se encuentran en la misma carpeta que tus ROMs, a una nueva llamada `saves` también en la carpeta de las ROMs.
@@ -15,16 +15,16 @@ Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos
    - Si no lo tienes, sigue las instrucciones de [instalación](installing-3ds)
 1. Busca TWiLight Menu++ en la lista de apps, puedes buscarlo en la 3a opción de la columna lateral si no consigues encontrarlo
 1. Presiona <kbd class="face">A</kbd> o toca el icono de descarga en el lateral y selecciona `TWiLight Menu++` para instalarlo
-   - This will take a while
+   - Esto llevará un tiempo
 {% endcapture %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Descarga la última versión de `TWiLightMenu-3DS.7z` desde la [página de lanzamientos](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrae `TWiLightMenu-3DS.7z`
+1. Copia la carpeta `_nds` en la raíz de tu tarjeta SD
+1. Copia el archivo `BOOT.NDS` en la raíz de tu tarjeta SD
+1. Copia los dos archivos `.cia` en la raíz de tu tarjeta SD
+1. Desde la 3DS, instala los dos CIAs con FBI
 {% endcapture %}
 
 ### Actualización
@@ -46,8 +46,8 @@ Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos
 
 ### Más pasos desde la flashcard
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Si puedes cambiar entre los contenidos de la SD y la flashcard en TWLMenu++ y el TWLMenu++ de la flashcard está en la versión v16.3.0 o superior, sigue estos pasos.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Ve a los ajustes de TWLMenu++
+1. Selecciona `Update TWiLight Menu++`
+1. Selecciona `Console (micro)SD > Slot-1 microSD`
