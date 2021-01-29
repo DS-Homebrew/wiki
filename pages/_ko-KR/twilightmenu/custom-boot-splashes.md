@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: 시작화면 커스텀하기
-description: How to use custom splash screens for TWiLight Menu++
+description: TWiLight Menu++의 시작화면을 커스텀하는 방법
 ---
 
 TWiLight Menu++가 켜질 때의 화면을 GIF 파일로 커스텀할 수 있습니다. `splashtop.gif`와 `splashbottom.gif`으로 되어있는 파일을 `sd:/_nds/TWiLightMenu/extras`에 놓습니다. 그러고 나서, TWiLight Menu++ 설정에서 `DSi 시작화면`을 `사용자 지정`으로 설정합니다.

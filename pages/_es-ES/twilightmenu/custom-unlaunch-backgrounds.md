@@ -25,7 +25,7 @@ Al cargarse la paleta del GIF en el mismo sitio de la VRAM que la paleta de los 
 1. Abre la imagen en GIMP y asegúrate que es de 256x192 píxeles
 1. En la barra superior del menú, selecciona `Image` -> `Mode` -> `Indexed...`
 1. Selecciona `Generate optimum palette` y pon como colores máximos cualquier cantidad hasta 226
-1. Elige un patrón de dithering del menú `Color dithering`
+1. Elige un patrón de dithering en el desplegable de `Color dithering`
    - Las imágenes sin dithering suelen comprimirse mejor, pero se ven mejor si se usa, así que prueba y elige la que más te guste
 1. Pincha en `Convert`
 1. En la barra superior del menú, selecciona `File` -> `Export As...`, dale un nombre con extensión `.gif`, y pincha `Export`

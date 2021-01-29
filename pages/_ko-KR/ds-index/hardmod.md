@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: How to hardmod a Nintendo DSi
+description: 닌텐도 DSi를 하드모드화 하는 방법
 ---
 
 Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...

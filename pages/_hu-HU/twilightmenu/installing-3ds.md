@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: Hogyan telepítsd a TWiLight Menu++-t Nintendo 3DS-re
 ---
 
 Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.guide](https://3ds.hacks.guide) oldalt a telepítéséhez
@@ -18,7 +18,7 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 1. Keresd meg a TWiLight Menu++-t az appok között; kereshetsz az oldalsáv harmadik fülén is, ha problémát okoz megtalálni
    - Ez az ikonja: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
-   - This will take a while
+   - Ez eltart egy ideig
 {% endcapture %}
 
 {% capture tab-non-working-camera %}
@@ -32,37 +32,37 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 1. Keresd meg a TWiLight Menu++-t az appok között; kereshetsz az oldalsáv harmadik fülén is, ha problémát okoz megtalálni
    - Ez az ikonja: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
-   - This will take a while
+   - Ez eltart egy ideig
 {% endcapture %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
+1. Másold az `_nds` mappát a microSD kártyád gyökerébe
+1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
+1. Másold a `roms` mappát a microSD kártyád gyökerébe
+1. Másold a két `.cia` fájlt a microSD kártyád gyökerébe
+1. A 3DS-eden telepítsd a két CIA fájlt az FBI-jal
 {% endcapture %}
 
-### Installing
+### Telepítés
 
 <div class="tab-container">
    <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Működő kamera</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Nem működő kamera</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Kézi</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h4>Working Camera</h4></noscript>
+      <noscript><h4>Működő kamera</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h4>Non-Working Camera</h4></noscript>
+      <noscript><h4>Nem működő kamera</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
+      <noscript><h4>Kézi</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>

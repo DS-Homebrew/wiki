@@ -4,10 +4,10 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: 폰트 변경하기
-description: How to use custom fonts with TWiLight Menu++
+description: TWiLight Menu++에서 커스텀 폰트를 사용하는 방법
 ---
 
-TWiLight Menu++ can use custom fonts in NFTR (Nitro FonT Resource) format. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
+TWiLight Menu++에서는 NFTR (Nitro FonT Resource) 포맷 파일로 커스텀 폰트를 사용할 수 있습니다. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
 
 ### Included font info
 There are three fonts included with TWiLight Menu++. When TWiLight Menu++ is running in DSi Mode they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. They are as follows:

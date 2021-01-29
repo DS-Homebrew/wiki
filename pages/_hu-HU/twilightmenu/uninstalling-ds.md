@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: Eltávolítás (DS & DSi)
-description: How to uninstall TWiLight Menu++ from Nintendo DSi or DS flashcard
+description: Hogyan távolítsd el a TWiLight Menu++-t Nintendo DSi vagy DS flashcard-ról
 ---
 
 ### Eltávolítás

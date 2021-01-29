@@ -2,6 +2,6 @@
 lang: fr-FR
 layout: redirect
 destination: 'installing-3ds?tab=manual#tab-manual'
-title: Installing (3DS, Manual)
+title: Installation (3DS, Manuel)
 ---
 

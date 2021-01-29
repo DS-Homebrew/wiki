@@ -4,29 +4,29 @@ layout: wiki
 section: ds-index
 category: reference
 title: 시판되는 ROM
-description: Information related to retail DS games
+description: 시판되는 DS 게임과 관련된 설명
 ---
 
 ### 불법 복제 방지 기술 (Anti-Piracy)
 
 불법 복제 방지 기술 (영어로 Anti-Piracy, 줄여서 AP) 은 개발자들이 정당한 구매를 장려하고, 불법 복제를 방지하기 위해 사용되어왔습니다. 이는 로더나 ROM 자체에서 우회할 수 있습니다.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+- nds-bootstrap에서는, 위에 이야기한 패치를 우회하기 위해 `.IPS`파일을 불러올 수 있습니다. 이러한 `.IPS` 파일은 nds-bootstrap 내부에 패치되므로, 롬파일을 온전히 유지할 수 있습니다. `.IPS`파일 팩은 자동으로 TWiLight Menu++에 포함됩니다.
+- Wood R4에서는, 이러한 패치가 소프트웨어 자체에 포함되어있습니다. 따라서, 사용자가 롬 파일 자체를 수정할 필요는 없습니다.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+롬이나 소프트웨어를 위한 `.IPS`파일이 롬파일에 패치되어있지 않은 경우, [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)을 이용해 직접 롬파일을 수정할 수도 있습니다.
 
 ### CloneBoot
 
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
+CloneBoot는 게임이 직접 로드한 arm9/arm7 바이너리를 다른 본체에 전송하는 것을 얘기합니다. 이는 단일 카드 멀티플레이를 위해 DS 다운로드 플레이에 사용됩니다. 단일 카드 멀티플레이를 지원하는 모든 게임이 cloneboot를 통한 것은 아닙니다.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
+현재는 arm9/7 바이너리가 RSA 서명을 무효화하도록 패치되어 nds-bootstrap의 cloneboot패치를 쓸 수 없게되었습니다.
 
-### Thumb instructions
-Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
+### Thumb 구조
+보통의 32비트 ARM 구조 대신에, THUMB는 16비트 구조를 이용합니다. 이것은 메모리 대역폭이 보다 좁을 때 유용합니다.
 
-### Save Files
-Nintendo DS cartridges have 4 known save types:
+### 세이브 파일
+닌텐도 DS 카트리지는 4가지의 알려진 세이브 타입이 있습니다.
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH

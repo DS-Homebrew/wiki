@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Homebrew
-description: Information about homebrew on the Nintendo DS
+description: Informations sur les homebrews de la Nintendo DS
 ---
 
 ### Développement

@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to create DSi / 3DS skins
-description: How to make custom DSi and 3DS skins for TWiLight Menu++
+title: Jak tworzyć skórki DSi / 3DS
+description: Jak tworzyć własne skórki DSi i 3DS dla TWiLight Menu++
 ---
 
-The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+Najprostszym sposobem dostosowania motywu jest edycja tekstur png w folderach `ui`, `battery`, i/lub `volume` motywu. Te pliki mogą być dowolnym plikiem png. Należy, jednak, zauważyć, że przeźroczystość będzie pokazana tylko dla pikseli w 100% przeźroczystych, reszta będzie kompletnie nieprzeźroczysta. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
 
 Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
 ```bash

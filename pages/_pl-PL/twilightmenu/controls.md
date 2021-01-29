@@ -1,38 +1,38 @@
 ---
-lang: en-US
+lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: other
-title: Controls
-description: Controls for using TWiLight Menu++
+title: Przypisanie klawiszy
+description: Przypisanie klawiszy TWiLight Menu++
 ---
 
-#### Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes
-- <kbd>Left</kbd> / <kbd>Right</kbd>: Select a game / app
-- <kbd class="face">A</kbd> / <kbd>START</kbd>: Launch game / app
-- <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd> / <kbd>Right</kbd>: Switch pages
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd> / <kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
-- <kbd class="face">X</kbd>: Delete/hide game
+#### Motywy Nintendo DSi, Nintendo 3DS, SEGA Saturn, i Homebrew Launcher
+- <kbd>Lewo</kbd> / <kbd>Prawo</kbd>: Wybierz grę / aplikację
+- <kbd class="face">A</kbd> / <kbd>START</kbd>: Uruchom grę / aplikację
+- <kbd class="l">L</kbd> / <kbd class="r">R</kbd> lub <kbd>SELECT</kbd> + <kbd>Lewo</kbd> / <kbd>Prawo</kbd>: Przełącz strony
+- (motyw DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Góra</kbd> / <kbd>Dół</kbd> i puść <kbd>SELECT</kbd>: Przełącz między kartą SD i flashcard
+- <kbd class="face">Y</kbd>: Ustawienia dla gry
+   - <kbd class="face">X</kbd>: Menu cheatów
+      - <kbd class="face">A</kbd>: Przełącz cheat
+      - <kbd class="face">B</kbd>: Wyjdź z menu cheatów
+      - <kbd class="face">X</kbd>: Zapisz i wyjdź z menu cheatów
+      - <kbd class="face">Y</kbd>: Pokaż opis cheatu
+      - <kbd class="l">L</kbd>: Wyłącz wszystkie cheaty
+- <kbd class="face">X</kbd>: Usuń/ukryj grę
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
 
-#### R4 theme
-- <kbd>Up</kbd> / <kbd>Down</kbd>: Select a game / app
-- <kbd class="face">A</kbd>: Launch game / app
-- <kbd class="l">L</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
+#### Motyw R4
+- <kbd>Góra</kbd> / <kbd>Dół</kbd>: Wybierz grę / aplikację
+- <kbd class="face">A</kbd>: Uruchom grę / aplikację
+- <kbd class="l">L</kbd>: Przełącz między kartą SD i flashcard
+- <kbd class="face">Y</kbd>: Ustawienia dla gry
+   - <kbd class="face">X</kbd>: Menu cheatów
+      - <kbd class="face">A</kbd>: Przełącz cheat
+      - <kbd class="face">B</kbd>: Wyjdź z menu cheatów
+      - <kbd class="face">X</kbd>: Zapisz i wyjdź z menu cheatów
+      - <kbd class="face">Y</kbd>: Pokaż opis cheatu
+      - <kbd class="l">L</kbd>: Wyłącz wszystkie cheaty
 
-#### With CFW: DS ROMs (on SD) / carts
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++ (If using an O3DS, then it does not work on all models)
+#### Z CFW: ROMy DS (na SD) / kartridże
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Dół</kbd> + <kbd class="face">B</kbd> przez 2 sekundy: Powrót do TWiLight Menu++ (Nie działa na niektórych modelach O3DS)

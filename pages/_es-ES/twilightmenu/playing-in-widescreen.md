@@ -29,4 +29,4 @@ Necesitas una consola Old/New Nintendo 3DS o 2DS.
 
 **NOTA 2:** No mantengas pulsado <kbd>START</kbd> o <kbd>SELECT</kbd> cuando lances TWLMenu++ si no quieres que la pantalla aparezca con glitches. Si no ves la opción para cambiar la resolución de la pantalla, espera al lanzamiento de RTCom con pantalla completa activada.
 
-No todos los juegos son compatibles con la pantalla completa. [Hemos creado una lis con los que sí lo son](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+No todos los juegos son compatibles con la pantalla completa. [Hemos creado una lista con los que sí lo son](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)

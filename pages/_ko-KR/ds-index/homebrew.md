@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: ds-index
 category: reference
-title: Homebrew
-description: Information about homebrew on the Nintendo DS
+title: 홈브류
+description: 닌텐도 DS의 홈브류에 대한 정보
 ---
 
-### Development
+### 개발
 
 Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 
@@ -25,7 +25,7 @@ DS mode flashcards are a slot-1 method of running Nintendo DS applications. Flas
 
 Different SD card slots have different hardware (most of the time) and code written for one card won't necessarily work for another card. DLDI (short for Dynamically Linked Device Interface) attempts to solve this by having the SD card handling code patched in externally. Loaders like YSMenu, Wood R4 and TWiLight Menu++ can automatically DLDI patch a homebrew, but if you need to manually patch it in, feel free to use a [DLDI Patcher](https://www.chishm.com/DLDI#tools) depending on your device.
 
-### Time Bomb
+### 시한 폭탄
 
 A time bomb is a expiration date on flashcard kernels that manufacturers use to force users to buy a new card. Once your system clock goes beyond a certain date, the kernel will refuse to boot past the expiration screen. Thankfully, a flag is not set anywhere and it's handled in the flashcard firmware, giving us two options for workarounds:
 
@@ -40,8 +40,8 @@ We recommend YSMenu, with TWiLight Menu++ if you prefer it, due to the higher co
 
 In order to test whether your flashcard has a time bomb, set the date on your system to the latest value possible and launch the flashcard.
 
-### ARGV Support
-ARGV is an information transmitter between two homebrew Nintendo DS applications. It can be used for forwarders or alternative menus.
+### ARGV 지원
+ARGV(Argument Vector)는 두 개의 홈브류 닌텐도 DS 응용프로그램 간의 정보 송신기입니다. It can be used for forwarders or alternative menus.
 
 - The homebrew needs to be programmed in order to take advantage of it. For example, GBARunner2, NesDS, and GameYob all have ARGV implementation
 - There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments

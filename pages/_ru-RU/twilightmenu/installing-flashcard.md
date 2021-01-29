@@ -35,9 +35,10 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
+   - DSTT(i)
 
-   Установите YSMenu [здесь](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Убедитесь, что у вас есть папка `YSMenu.nds` и `TTMenu` (Возьмите из папки `YSMenu`, если существует) на microSD корне флеш-картриджа.
+   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Установите `Use nds-bootstrap (B4DS)` на `No`, чтобы запуск TWLMenu++ был как в вашем флеш-картридже вместо nds-bootstrap.
 
 ### Автозагрузка TWiLight Menu++

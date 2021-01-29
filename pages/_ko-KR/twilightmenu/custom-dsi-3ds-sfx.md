@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: DSi / 3DS skins - 커스텀 사운드 효과
-description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
+description: TWiLight Menu++용 DSi와 3DS 스킨의 커스텀 배경음악과 사운드 효과를 사용하는 방법
 ---
 
 TWiLightMenu는 테마에서 커스텀 사운드를 지원합니다. 사용할 사운드 파일을 테마 폴더 안의 `sound` 디렉토리에 넣습니다. 예를 들어, `white`라는 테마가 있다고 치면 파일을 각각 `themes/white/sound/sfx.bin` 그리고 `themes/sound/bgm.pcm.raw`으로 해서 넣어둡니다. 두 파일들은 굳이 넣어야 할 필요는 없고, 둘 중 하나가 사라지면 기본 사운드를 사용합니다. 파일을 잘 넣어놨다면, 설정의 음악 옵션을 "테마"로 설정합니다.
@@ -25,9 +25,9 @@ TWiLightMenu는 테마에서 커스텀 사운드를 지원합니다. 사용할 �
 | stop.wav    | DSi 테마에서 선택커서가 움직임을 멈출 때 재생됩니다.                                 |
 | bgm.pcm.raw | 사운드 목록의 일부분이 아닙니다. 더 자세한 설명은 [메뉴 배경음악](#menu-bgm) 섹션을 참고해주세요.   |
 
-사운드 효과 뱅크를 만들기 위해 `make`를 실행할 수 있습니다. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
+사운드 효과 뱅크를 만들기 위해 `make`를 실행할 수 있습니다. 위에 나열된 모든 파일들은 *bgm.pcm.raw*가 필요하지만 무음으로 만들 수도 있습니다.
 
-Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
+최종적으로 *sfx.bin*은 **512000B = 512KB를 넘어서는 안됩니다**. 이것보다 높을 경우, 충돌을 일으키거나 사운드가 끝까지 재생되지 않을 수 있습니다.
 
 ### 부팅 음악
 While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.

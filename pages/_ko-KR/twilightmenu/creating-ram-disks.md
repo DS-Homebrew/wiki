@@ -16,7 +16,7 @@ RAM 디스크를 만들기 위해, [이 도구](http://memory.dataram.com/produc
 
 1. RAMDisk를 실행합니다.
 1. **View** -> **Advanced** 순으로 클릭합니다.
-1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
+1. **Disk Size**는, DSi일 때 type `12`, 3DS일 때 `28`, **최대 1023MB**까지 올릴 수 있습니다.
 1. **Create TEMP Directory**에 체크가 되어있다면, 체크를 해제합니다.
 1. **Load/Save**를 클릭합니다.
 1. `Start RAMDisk`를 클릭하면, 사용자의 .img파일을 위한 새로운 창이 뜰 것입니다.

@@ -35,9 +35,10 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
+   - DSTT(i)
 
    [ここ](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)からYSMenuをインストールします
-      - フラッシュカードのmicroSDのルートに`YSMenu.nds`と`TTMenu`フォルダ（必要場合は、`YSMenu`から名前を変更）があることを確認します
+      - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更しました）と`TTMenu`フォルダがあることを確認します
 1. `nds-bootstrapを使用 (B4DS)`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます。
 
 ### TWiLight Menu++を自動起動する

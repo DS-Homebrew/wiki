@@ -1,13 +1,13 @@
 {
 	"by": "$1 által",
-	"close": "Close",
+	"close": "Bezárás",
 	"description": "Wiki a DS-Homebrew projektekhez",
 	"discord-server": "Discord server (angol nyelven)",
 	"published-with": "<a href=\"https://pages.github.com\">GitHub Pages</a>-szel publikálva, tekintsd meg <a href=\"https://github.com/$1\">a forrást </a> a GitHub-on.",
-	"select-language": "Select language",
+	"select-language": "Nyelv kiválasztása",
 	"source": "Forrás",
 	"title": "DS-Homebrew Wiki",
-	"toggle-navigation": "Toggle navigation",
+	"toggle-navigation": "Navigációs mód váltás",
 	"translate-here": "Fordíts itt",
 	"translate-on-crowdin": "Fordítás a Crowdin-en"
 }

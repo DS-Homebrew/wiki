@@ -106,7 +106,7 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
 
 <div class="tab-container">
     <div class="pb-3">
-        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD Card</a>
+        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD kártya</a>
         <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
     </div>
     <div id="tab-sd-card">

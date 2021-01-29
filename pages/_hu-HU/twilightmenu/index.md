@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 title: Kezdőlap
-description: Guides on how to use and customize TWiLight Menu++
+description: Útmutató a TWiLight Menu++ használatáról és egyénivé tételéről
 ---
 
 # Köszöntjük a TWiLight Menu++ wiki-ben!

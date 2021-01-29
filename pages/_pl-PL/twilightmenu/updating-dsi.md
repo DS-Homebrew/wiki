@@ -1,26 +1,26 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (DSi)
-description: How to update TWiLight Menu++ on the Nintendo DSi
+title: Aktualizacja (DSi)
+description: Jak zaktualizować TWiLight Menu++ na Nintendo DSi
 ---
 
-If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie plików `.sav` do nowego folderu o nazwie `saves`, który ma się znajdować w tym samym miejscu co gry DS.
 {:.alert .alert-info}
 
-### Updating
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Aktualizacja
+1. Pobierz najnowszą wersję `TWiLightMenu-DSi.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Wypakuj `TWiLightMenu-DSi.7z`
+1. Skopiuj folder `_nds` do katalogu głównego karty SD
+1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty SD
+1. **Użytkownicy hiyaCFW:** Skopiuj folder `title` do katalogu głównego karty SD
 
-### More steps for the flashcard side
+### Więcej kroków dla użytkowników karty flashcard
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Jeśli można przełączać zawartość karty SD i karty flashcard w TWLMenu++, a jeśli karta flashcard TWLMenu++ jest w wersji v16.3.0 lub później, wykonaj te kroki.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Przejdź do ustawień TWLMenu++
+1. Wybierz `Update TWiLight Menu++`
+1. Wybierz `Console (micro)SD > Slot-1 microSD`

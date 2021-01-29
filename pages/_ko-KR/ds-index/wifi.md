@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Information on using Wi-Fi on the Nintendo DS
+description: 닌텐도 DS에서 Wi-Fi를 사용하는 방법에 대한 정보
 ---
 
 - 닌텐도 DS 응용프로그램에서는, WEP과 오픈 WiFi만 사용할 수 있습니다.
@@ -12,12 +12,12 @@ description: Information on using Wi-Fi on the Nintendo DS
 
 핫스팟은 사용 가능하므로, 라우터 설정을 바꾸지 않아도 됩니다.
 
-### Creating a hotspot
-There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
+### 핫스팟 만들기
+GBAtemp의 macOS와 Linux 컴퓨터 상에 DS 게임 호환 핫스팟을 만드는 방법입니다. 윈도우를 사용중이면, Linux live boot를 이용할 수도 있습니다.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Nintendo DS WFC Restoration
+### 닌텐도 DS Wi-Fi 커넥션 복구
 
 1. 닌텐도 Wi-Fi 커넥션 설정을 실행합니다.
 1. 사용자의 엑세스 포인트에 접속합니다.

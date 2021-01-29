@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Instalacja (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: Jak zainstalować TWiLight Menu++ na Nintendo 3DS
 ---
 
 Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.guide](https://3ds.hacks.guide/pl_PL/), w celu instalacji
@@ -18,7 +18,7 @@ Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.
 1. Znajdź menu TWiLight ++ w siatce aplikacji, możesz wyszukać za pomocą trzeciej karty na pasku bocznym, jeśli masz problem ze znalezieniem
    - Ma tę ikonę: ![Ikona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Naciśnij <kbd class="face">A</kbd> lub naciśnij ikonę pobierania na pasku bocznym i wybierz `TWiLight Menu++` aby go zainstalować
-   - This will take a while
+   - To trochę zajmie
 {% endcapture %}
 
 {% capture tab-non-working-camera %}
@@ -32,37 +32,37 @@ Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.
 1. Znajdź menu TWiLight ++ w siatce aplikacji, możesz wyszukać za pomocą trzeciej karty na pasku bocznym, jeśli masz problem ze znalezieniem
    - Ma tę ikonę: ![Ikona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Naciśnij <kbd class="face">A</kbd> lub naciśnij ikonę pobierania na pasku bocznym i wybierz `TWiLight Menu++` aby go zainstalować
-   - This will take a while
+   - To trochę zajmie
 {% endcapture %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Pobierz najnowszą wersję `TWiLightMenu-3DS.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Wypakuj `TWiLightMenu-3DS.7z`
+1. Skopiuj folder `_nds` do katalogu głównego karty SD
+1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty SD
+1. Skopiuj folder `roms` do katalogu głównego karty SD
+1. Skopiuj dwa pliki `.cia` do katalogu głównego karty SD
+1. Zainstaluj przerzucone pliki CIA z FBI na swoim 3DSie
 {% endcapture %}
 
-### Installing
+### Instalacja
 
 <div class="tab-container">
    <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Działający Aparat</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Niedziałający Aparat</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Ręcznie</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h4>Working Camera</h4></noscript>
+      <noscript><h4>Działający Aparat</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h4>Non-Working Camera</h4></noscript>
+      <noscript><h4>Niedziałający Aparat</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
+      <noscript><h4>Ręcznie</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>

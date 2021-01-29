@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (DSi)
-description: How to install TWiLight Menu++ on the Nintendo DSi
+description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DSi-ra
 ---
 
 Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw.guide](https://dsi.cfw.guide) oldalt a TWiLight Menu++ telepítéséhez

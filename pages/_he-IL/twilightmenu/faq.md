@@ -55,7 +55,7 @@ description: FAQs and troubleshooting for TWiLight Menu++
 
 A:
 
-| Console                   | Loader                                           | Extensions                             | Save file                                                |
+| Format                    | Loader                                           | Extensions                             | Save file                                                |
 | ------------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------- |
 | [ARGV][nds-hb-menu-argv]  | Native                                           | `.argv`                                |                                                          |
 | Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                                          |

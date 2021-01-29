@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: How to hardmod a Nintendo DSi
+description: A Nintendo DSi hardmod-olása
 ---
 
 A Hardmodding az az amikor fizikailag hozzá forrasztasz a egy SD kártya adaptert a Nintendo DSi alaplapjához, hogy olvasható legyen számítógépről. Ez hasznos lehet a NAND mentés visszaállításához, a NAND megtekintéséhez a PC-den, stb...

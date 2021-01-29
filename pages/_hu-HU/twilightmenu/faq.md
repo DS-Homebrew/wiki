@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: GYIK & hibaelhárítás
-description: FAQs and troubleshooting for TWiLight Menu++
+description: TWiLight Menu++ GYIK és hibaelhárítás
 ---
 
 További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
@@ -41,7 +41,7 @@ V: Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből
 - DSi-n használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a DS játékaid és a DSiWare dumpolásához
 - 3DS-n használhatod a [GodMode9](https://github.com/d0k3/GodMode9/releases)-t a DS játékaid, DSiWare és Virtual Console címek dumpolásához
 
-#### Q: Can I get the save files from my game cards onto my SD card or vise versa?
+#### K: A cardridge-ekből a mentéseimet ki tudom rakni az SD kártyámra és visszafelé?
 V: Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t DSi-n és 3DS-en vagy a [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)-ot 3DS-en.
 
 #### K: Hogyan állítom be a TWiLight Menu++-ban a nyelvet?
@@ -51,36 +51,36 @@ V:
 1. Módosítsd az első opciót, amíg nem látod a nyelvet, amit szeretnél, majd lépj ki a beállításokból
    - Elképzelhető, hogy módosítanád a következő két opciót, ami a DS játékok és címeik nyelvét befolyásolja a a TWiLight Menu++-ben
 
-#### Q: What systems does TWiLight Menu++ support?
+#### K: Milyen rendszereket támogat a TWiLight Menu++?
 
-A:
+V:
 
-| Console                   | Loader                                           | Extensions                             | Save file                                                |
-| ------------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------- |
-| [ARGV][nds-hb-menu-argv]  | Native                                           | `.argv`                                |                                                          |
-| Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                                          |
-| Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                                          |
-| Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                                          |
-| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`<br>(retail ROMs only)       |
-| DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv`                       |
-| DSTWO Plugin              | [DSTWO][dstwo] (requires DSTWO flashcard)        | `.plg`                                 |                                                          |
-| Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                         |
-| Game Boy Advance          | [GBARunner2][gbarunner2], native                 | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                         |
-| Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                                      |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`<br>(flashcard only for jEnesisDS) |
-| Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                     |
-| MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                                          |
-| NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                                         |
-| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                          |
-| RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                          |
-| SNES                      | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`<br>(flashcard only)               |
+| Formátum                  | Betöltő                                         | Kiterjesztések                         | Mentés fájl                                                    |
+| ------------------------- | ----------------------------------------------- | -------------------------------------- | -------------------------------------------------------------- |
+| [ARGV][nds-hb-menu-argv]  | Natív                                           | `.argv`                                |                                                                |
+| Atari 2600                | [StellaDS][stellads]                            | `.a26`                                 |                                                                |
+| Atari 5200                | [A5200DS][a5200ds]                              | `.a52`                                 |                                                                |
+| Atari 7800                | [A7800DS][a7800ds]                              | `.a78`                                 |                                                                |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, natív | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`<br>(csak kereskedelmi ROM-ok)     |
+| DSiWare                   | [Unlaunch][unlaunch]                            | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom neve].pub`, `[rom neve].prv`                             |
+| DSTWO bővítmény           | [DSTWO][dstwo] (DSTWO flashcard-ot igényel)     | `.plg`                                 |                                                                |
+| Game Boy (Color)          | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                                               |
+| Game Boy Advance          | [GBARunner2][gbarunner2], natív                 | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                                               |
+| Game Gear                 | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                                            |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`<br>(csak flashcard a jEnesisDS számára) |
+| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                                           |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                                                |
+| NES / Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                                               |
+| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                                |
+| RVID Video                | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                                |
+| SNES                      | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`<br>(csak flashcard)                     |
 
 
-#### Q: Why isn't touch input working on sudokuhax?
-A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### K: Miért nem működik az érintő képernyő a sudokuhax-szal?
+V: A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfordulhat, hogy nem működik.
 
-#### Q: Can The Biggest Loser boot TWiLight Menu++?
-A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### K: Tud a The Biggest Loser bebootolni TWiLight Menu++-vel?
+V: Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS

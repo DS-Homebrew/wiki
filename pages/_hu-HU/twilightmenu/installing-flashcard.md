@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (Flashcard)
-description: How to install TWiLight Menu++ on a Nintendo DS flashcard
+description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 ---
 
 ### Telepítés
@@ -35,9 +35,10 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
+   - DSTT(i)
 
    Telepítsd az YSMenu-t [innen](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Ellenőrizd, hogy az `YSMenu.nds` és a `TTMenu` mappák (átnevezve `YSMenu`-ről, ha létezett) léteznek a flashcard-od microSD kártyájának gyökerében
+      - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap (B4DS)` opciót `No`-ra, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 
 ### TWiLight Menu++ automatikus bootolása
