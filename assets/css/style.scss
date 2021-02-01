@@ -389,6 +389,18 @@ kbd.face {
 	border-radius: 0.5rem;
 }
 
+// Footnotes
+.footnotes li p {
+	margin-bottom: 0.25rem;
+}
+
+a.footnote::before {
+	content: "[";
+}
+a.footnote::after {
+	content: "]";
+}
+
 @media only screen and (min-width: 576px) {
 	// Version of .position-absolute that only triggers for sm+
 	.position-absolute-sm {
