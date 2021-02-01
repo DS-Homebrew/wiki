@@ -15,7 +15,7 @@ layout: compress
 			<div class="container-fluid main-content">
 				{% include language-alert.html %}
 				<div class="row pt-5">
-					<div class="col-sm-3">
+					<div class="col-md-3">
 						<div class="rounded-3 sidebar-container mb-3 p-3">
 							<!-- get category list -->
 							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
@@ -51,7 +51,7 @@ layout: compress
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-9">
+					<div class="col-md-9">
 						<h1>{{ page.title }}</h1>
 						<hr>
 						{% include anchor-headings.html html=content anchorBody="<small>#</small>" anchorClass="header-anchor" %}
