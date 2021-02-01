@@ -58,23 +58,23 @@ A:
 
 | Format                    | Loader                                           | Extensions                             | Save file                          |
 | ------------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------- |
-| [ARGV][nds-hb-menu-argv]  | Native                                           | `.argv`                                |                                    |
+| ARGV[^1]                  | Native                                           | `.argv`                                |                                    |
 | Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                    |
 | Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                    |
 | Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                    |
-| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^1]         |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]         |
 | DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
-| DSTWO Plugin              | [DSTWO][dstwo][^2]                               | `.plg`                                 |                                    |
+| DSTWO Plugin              | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
 | Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                   |
-| Game Boy Advance          | [GBARunner2][gbarunner2], native                 | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
+| Game Boy Advance          | [GBARunner2][gbarunner2], native[^4]             | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
 | Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^3]               |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^5]               |
 | Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`               |
 | MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                    |
 | NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                   |
 | PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                    |
 | RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                    |
-| SNES[^4]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^5]               |
+| SNES[^6]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^7]               |
 {:.table}
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
@@ -85,7 +85,6 @@ A:
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
 [mpeg4player]: https://gbatemp.net/threads/544095
 [ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
 [nesds]: https://github.com/DS-Homebrew/NesDS
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
@@ -95,11 +94,13 @@ A:
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 
-[^1]: Only for retail ROMs, homebrew do not have specific save files
-[^2]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
-[^3]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^4]: Only shown when when using a flashcard or Unlaunch is installed
-[^5]: Can only save when running from a flashcard
+[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
+[^2]: Only for retail ROMs, homebrew do not have specific save files
+[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
+[^4]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
+[^5]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^6]: Only shown when when using a flashcard or Unlaunch is installed
+[^7]: Can only save when running from a flashcard
 
 - Footnotes -
 {:footnotes}
