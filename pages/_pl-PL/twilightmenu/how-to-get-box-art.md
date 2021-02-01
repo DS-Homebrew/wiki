@@ -20,7 +20,7 @@ description: Jak dodać okładki gier do TWiLight Menu++
 1. Wypakuj `TwilightBoxart-Windows-UX.zip` i uruchom `TwilightBoxart.exe`
 1. Kliknij `Detect SD`
    - Jeśli nie znajdzie poprawnej karty SD, kliknij `Browse...` i wybierz właściwą kartę
-1. Dostosuj rozmiar, obramowanie itp do twojego uznania
+1. Dostosuj rozmiar, obramowanie itp do Twojego uznania
 1. Kliknij `Start`
 1. Na swoim DSie, Upewnij się, że okładka jest ustawiona na wyświetlanie w ustawieniach TWiLight Menu++
 
@@ -29,7 +29,7 @@ description: Jak dodać okładki gier do TWiLight Menu++
 1. Wypakuj `.zip`
 1. Otwórz `TwilightBoxart.ini` w wypakowanym folderze w edytorze tekstowym, a następnie zapisz plik
 1. Wpisz ścieżkę do karty SD po `SdRoot=`
-   - Na macOS jest to `/Volumes/` a następnie nazwa twojej karty SD
+   - Na macOS jest to `/Volumes/` a następnie nazwa Twojej karty SD
 1. Otwórz terminal
 1. W terminalu wpisz `cd` i przeciągnij na niego folder z `TwilightBoxart.CLI`
 1. Uruchom `chmod +x TwilightBoxart.CLI`

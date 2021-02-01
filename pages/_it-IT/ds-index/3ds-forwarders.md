@@ -81,13 +81,13 @@ PC:
 1. Scarica il pacchetto [scorciatoia della scheda SD](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
 1. Estrae il contenuto della cartella `per la scheda SD` nella directory principale della scheda SD del tuo 3DS
 
-After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change the settings:
-- `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
-- `SOUND_FREQ`: If set to 1, sound will play at 48khz, instead of 32khz
+Dopo aver estratto il pacchetto, è possibile modificare `sd:/_nds/nds-bootstrap.ini` e modificare le impostazioni:
+- `BOOST_CPU`: Se impostata a 1, viene utilizzata la velocità TWL, quindi non ci dovrebbero essere rallentamenti
+- `SOUND_FREQ`: Se impostata a 1, il suono verrà riprodotto a 48khz, invece di 32khz
 {% endcapture%}
 
 {% capture tab-flashcard %}
-1. Download one of these packs:
+1. Scarica uno di questi pacchetti:
    - [Original R4/M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i)/M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
@@ -96,9 +96,9 @@ After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change
    - [Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
+1. Estrai il contenuto della cartella `per Slot-1 microSD` nella root della scheda microSD della tua flashcard, e (se la cartella esiste) il contenuto della cartella `per scheda SD 3DS` nella directory principale della scheda SD del tuo 3DS.
 
-After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
+Dopo aver estratto il pacchetto per la tua Sd, puoi modificare `sd:/_nds/ntr_forwarder.ini` per modificare le impostazioni. Questo non è possibile per le flashcard Acekard RPG, R4 DS e R4i Gold RTS.
 - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message

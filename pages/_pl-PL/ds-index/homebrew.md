@@ -1,47 +1,47 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: ds-index
 category: reference
 title: Homebrew
-description: Information about homebrew on the Nintendo DS
+description: Informacje o Homebrew na Nintendo DS
 ---
 
-### Development
+### Tworzenie
 
-Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
+Zwykle do tworzenia Homebrew na Nintendo DS używa się narzędzi devkitPro, takich jak devkitARM, libnds czy libfat. Jednakże można pójść własną drogą i używać alternatywnych programów:
 
-- **SD Card libraries:** DevkitPro recommends libfat. We recommend using libslim instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphic Library:** We recommend using easyGL2D, which comes shipped with libnds. However, you can use NightFox Lib
-- **Entire Toolchains:** We recommend using devkitARM and libnds, as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use ToolchainGenericDS
+- **biblioteki kart SD:** DevkitPro zaleca libfat. We recommend using libslim instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Biblioteka graficzna:** Zalecamy użycie easyGL2D, które jest instalowane razem z libnds. Możesz też używać NightFox Lib
+- **Całe Toolchainy:** Rekomendujemy używanie devkitARM i libnds, ponieważ zawiera kompatybilnośćz DSi i ma większy ekosystem. Jeśli jednak Twoją docelową platformą są nagrywarki flashcard na Nintendo DS, możesz śmiało używać ToolchainGenericDS
 
-### Flashcards
+### Flashcardy
 
-DS mode flashcards are a slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, the ability to be used without modding your system and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
+Flashcardy DS mode to metoda slot-1 uruchamiania aplikacji Nintendo DS. Flashcardy mają taką zaletę, że trzymają pliki konsoli oddzielnie od plików przenośnych. Można je także używać bez modowania konsoli i można ich używać na konsolach DS Phat/Lite. Jednakże w przeciwieństwie do modowania konsoli, na rynku znajduje się wiele flashcardów, każdy z nich potrzebuje innego jądra. Najważniejsze jest to, jakiego jądra używasz.
 
-[There is a **work in progress** flashcard index](https://nightyoshi370.github.io/mm-github-pages-starter/), which has kernels, firmware, reviews and purchase links.
+[**Trwają prace** nad zrobieniem indeksu flashcardów](https://nightyoshi370.github.io/mm-github-pages-starter/), który posiada jądra, oprogramowania, recenzje i linki do kupna.
 
 ### DLDI
 
-Different SD card slots have different hardware (most of the time) and code written for one card won't necessarily work for another card. DLDI (short for Dynamically Linked Device Interface) attempts to solve this by having the SD card handling code patched in externally. Loaders like YSMenu, Wood R4 and TWiLight Menu++ can automatically DLDI patch a homebrew, but if you need to manually patch it in, feel free to use a [DLDI Patcher](https://www.chishm.com/DLDI#tools) depending on your device.
+Inne sloty na karty SD mają (najczęściej) inny hardware, a kod napisany dla jednej karty niekoniecznie będzie działał dla innej karty. DLDI (w skrócie Dynamically Linked Device Interface) próbuje rozwiązać ten problem poprzez patchowanie kodu obsługi karty SD zewnętrznie. Loadery jak YSMenu, Wood R4 czy TWiLight Menu++ mogą automatycznie w ten sposób patchować homebrew, ale jeśli musisz spatchować tak coś ręcznie, możesz użyć [DLDI Patcher](https://www.chishm.com/DLDI#tools) w zależności od urządzenia.
 
-### Time Bomb
+### Bomba Czasowa
 
-A time bomb is a expiration date on flashcard kernels that manufacturers use to force users to buy a new card. Once your system clock goes beyond a certain date, the kernel will refuse to boot past the expiration screen. Thankfully, a flag is not set anywhere and it's handled in the flashcard firmware, giving us two options for workarounds:
+Bomba czasowa to czas wygaśnięcia jądra nagrywarki flashcard, który jest używany przez producentów w celu zmuszenia użytkowników do kupienia nowego egzemplarza. Gdy twój zegar systemowy przekroczy określoną datę, jądrą odmówi uruchomienia i powiadomi Cię o wygaśnięciu. Na szczęście flaga nie jest nigdzie ustawiona, tylko obsługiwana jest przez oprogramowanie flashcarda, co pozwala nam na dwa obejścia:
 
-- Since it relies on the system clock, you can set back the date. This will break any game that uses your system clock, but it will allow you to use the default kernel.
-- Since it relies on the kernel and not the firmware, you can switch to an alternative kernel. There are two options available:
-  - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- The menu is quite ugly and only displays `.nds` files, but it has far better game support, cheat support and no memory pak requirement
-  - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- This is useful if you'd like to have all your ROMs from various consoles in the same menu, there are two ways to run DS games with TWiLight Menu++:
-    - With B4DS: Requires a Memory Expansion Pak for extended game compatibility and does not support cheats. But works on all flashcards that TWiLight Menu++ does
-    - With YSMenu: Gets the compatibility benefits of YSMenu with the better menu of TWiLight Menu++, however, cheats are not supported currently
+- Ponieważ funkcja opiera się na czasie systemowym, możesz ustawić wcześniejszą datę. Spowoduje to popsucie każdej gry używającej czasu systemowego, ale pozwoli Ci na używanie domyślnego jądra.
+- Ponieważ funkcja opiera się na jądrze, a nie na oprogramowaniu, możesz przełączyć się na alternatywne jądro. Masz dwie opcje:
+  - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menu jest dosyć brzydkie i pokazuje tylko pliki `.nds`, ale ma o wiele lepsze wsparcie gier i cheatów oraz nie wymaga memory paka
+  - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Przydatne jeśli chcesz mieć wszystkie ROMy z różnych konsol w jednym menu. Są dwa sposoby na uruchamianie gier DS z TWiLight Menu++:
+    - Z B4DS: Wymaga Memory Expansion Pak dla rozszerzonej kompatybilności gier i nie wspiera cheatów. Ale działa na wszystkich flashcardach, które są wspierane przez TWiLight Menu++
+    - Z YSMenu: Łączy kompatybilność YSMenu z lepszym menu TWiLight Menu++, ale cheaty nie są wspierane
 
-We recommend YSMenu, with TWiLight Menu++ if you prefer it, due to the higher compatibility, and lack of need for a Memory Expansion Pak. If you want to setup YSMenu, DeadSkullzJr has made a [Dropbox repo](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) with all the primary boot kernels set up for your flashcard. All it requires is a drag and drop to your SD card root and you have completed. Instructions on how to install TWiLight Menu++ are [on the flashcard install page](../twilightmenu/installing-flashcard).
+Rekomendujemy YSMenu(z TWiLight Menu++ jeśli tak preferujesz) ze względu na większość kompatybilność i brak potrzeby Memory Expansion Pak. Jeśli chcesz YSMenu, DeadSkullzJr zrobił [repozytorium Dropbox](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) z każdym głównym jądrem rozruchu, już przygotowanymi dla twojego flashcarda. Jedyne co trzeba zrobić to przenieść do katalogu głównego karty SD. Instrukcje instalacji TWiLight Menu++ są [na stronie instalacji na flashcarda](../twilightmenu/installing-flashcard).
 
-In order to test whether your flashcard has a time bomb, set the date on your system to the latest value possible and launch the flashcard.
+Aby sprawdzić, czy twoja nagrywarka ma bombę czasową, ustaw datę twojego systemu na najnowszą możliwą i uruchom ją.
 
-### ARGV Support
-ARGV is an information transmitter between two homebrew Nintendo DS applications. It can be used for forwarders or alternative menus.
+### Wsparcie ARGV
+ARGV to nadajnik informacji pomiędzy dwoma aplikacjami homebrew na Nintendo DS. Ta funkcja może być używana przez forwardery czy alternatywne menu.
 
-- The homebrew needs to be programmed in order to take advantage of it. For example, GBARunner2, NesDS, and GameYob all have ARGV implementation
-- There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments
+- Homebrew musi być odpowiednio zaprogramowane, by z tego skorzystać. Na przykład GBARunner2, NesDS i GameYob mają implementację ARGV
+- Potrzebny jest również sposób na ustawienie zmiennych ARGV. TWiLight Menu++ i HBMenu pozwalają na ustawienie argumentów ARGV

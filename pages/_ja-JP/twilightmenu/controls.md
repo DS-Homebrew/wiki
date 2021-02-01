@@ -36,3 +36,10 @@ description: TWiLight Menu++を使うためのコントロール
 
 #### CFWあり：DS ROM（SD上）／カートリッジ
 - 2秒ために<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd>：TWiLight Menu++に戻る（古い3DSを使う場合は、すべてのモデルで機能するとは限りません）
+
+#### 起動時のショートカット
+これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。
+
+- <kbd>SELECT</kbd>：設定を開く
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>：すべてのTWiLight Menu++設定をリセットする
+- <kbd class="face">B</kbd>：最後に実行されたROMの自動起動になっているかどうかに応じて、最後に実行されたROMを起動するまたは起動しない。

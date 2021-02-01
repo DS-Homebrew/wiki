@@ -36,3 +36,10 @@ description: Przypisanie klawiszy TWiLight Menu++
 
 #### Z CFW: ROMy DS (na SD) / kartridże
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Dół</kbd> + <kbd class="face">B</kbd> przez 2 sekundy: Powrót do TWiLight Menu++ (Nie działa na niektórych modelach O3DS)
+
+#### Skróty startowe
+Powinny być one wciśnięte na ekranie powitalnym TWiLight Menu++ / tuż po ekranie powitalnym Nintendo DSi.
+
+- <kbd>SELECT</kbd>: Otwórz ustawienia
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Resetuj wszystkie ustawienia TWiLight Menu++
+- <kbd class="face">B</kbd>: Włącz ostatnio uruchamiany ROM lub odwrotnie, w zależności od tego, czy autouruchamianie ostatniego ROMa jest włączone

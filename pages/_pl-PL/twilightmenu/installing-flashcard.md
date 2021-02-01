@@ -20,7 +20,7 @@ description: Jak zainstalować TWiLight Menu++ na Flashcardzie Nintendo DS
       - Pozwoli to na użycie szybkości zegara TWL i/lub przyszpieszenie VRAM twoich gier na flashcardzie, a także na dostęp do karty SD konsoli
 
 ### Aby uruchomić gry używając firmware flashcardu
-1. Wypakuj to co jest `Flashcart Loader/(twój flashcard)` do katalogu głównego karty microSD nagrywarki
+1. Wypakuj to co jest `Flashcart Loader/(Twój flashcard)` do katalogu głównego karty microSD nagrywarki
    - Jeśli to już zrobiłeś, przejdź do kroku 3. Jeśli nie, wykonaj kroki poniżej listy flashcardów
 
 1. Dla tych flashcardów:
@@ -42,7 +42,7 @@ description: Jak zainstalować TWiLight Menu++ na Flashcardzie Nintendo DS
 1. Ustaw `Użyj nds-bootstrap (B4DS)` na `Nie`, żeby był używany firmware flashcarda zamiast nds-bootstrap
 
 ### Autobotowanie TWiLight Menu++
-1. Wypakuj zawartość `Autoboot/(twój nagrywarka)` do katalogu głównego karty microSD nagrywarki
+1. Wypakuj zawartość `Autoboot/(Twój nagrywarka)` do katalogu głównego karty microSD nagrywarki
    - Pomiń ten krok, jeśli nie widzisz swojej nagrywarki
 1. ...
    - **Użytkownicy DS Phat/DS Lite:** Przejdź do ustawień w menu DSa, i włącz autostart, żeby flashcard uruchamiał się przy starcie

@@ -36,3 +36,10 @@ description: TWiLight Menu++의 조작법
 
 #### 커스텀 펌웨어: SD에 있는 DS ROM파일 / 카트
 - 2초 동안 <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd>: TWiLight Menu++로 돌아가기 (구형 3DS를 이용중일 때에는, 모든 모델에서 작동하지 않습니다.)
+
+#### 부팅 단축키
+아래는 TWiLight Menu++ 시작화면 실행중 또는, DSi 시작화면이 나온 즉시에 사용할 수 있는 단축키입니다.
+
+- <kbd>SELECT</kbd>: 설정 진입
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: TWiLight Menu++ 설정 초기화
+- <kbd class="face">B</kbd>: 마지막 실행 ROM을 자동 부팅할 수 있는지 여부에 따라 마지막 실행 ROM을 부팅합니다.

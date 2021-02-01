@@ -36,3 +36,10 @@ description: Controls for using TWiLight Menu++
 
 #### With CFW: DS ROMs (on SD) / carts
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++ (If using an O3DS, then it does not work on all models)
+
+#### Boot shortcuts
+These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+
+- <kbd>SELECT</kbd>: Open settings
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
+- <kbd class="face">B</kbd>: Boot the last ran ROM or vise versa depending on if autobooting the last ran ROM is enabled

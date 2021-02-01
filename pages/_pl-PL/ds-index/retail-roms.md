@@ -14,7 +14,7 @@ AP (skrót od anty-piractwo) jest metodą stosowaną przez deweloperów w celu w
 - Dla celów nds-bootstrap, możesz załadować plik `.IPS` w celu obejścia wspomnianych patchów. Plik `.IPS` zostanie wpatchowany w nds-bootstrap, aby pliki ROM pozostały nienaruszone. Pakiet plików `.IPS` jest automatycznie dołączony do TWiLight Menu++.
 - Do celów Wood R4, te patche są zawarte w samym oprogramowaniu. Nie będziesz musiał modyfikować ROM-a.
 
-W przypadku braku pliku `.IPS` dla twojego ROM-u albo twoje oprogramowanie ROM-u nie spatchowało, możesz spróbować bezpośrednio modyfikować ROM-a używając [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+W przypadku braku pliku `.IPS` dla Twojego ROM-u albo Twoje oprogramowanie ROM-u nie spatchowało, możesz spróbować bezpośrednio modyfikować ROM-a używając [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### CloneBoot
 

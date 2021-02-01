@@ -36,3 +36,10 @@ description: Controles de TWiLight Menu++
 
 #### Con CFW: ROMs de DS (en SD) / cartuchos
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Abj</kbd> + <kbd class="face">B</kbd> durante 2 segundos: Volver a TWiLight Menu++ (No funciona en todos los modelos de O3DS)
+
+#### Atajos al arrancar
+Estos comandos pueden hacerse en la pantalla de bienvenida de TWiLight Menu++ / justo después de la de Nintendo DSi.
+
+- <kbd>SELECT</kbd>: Abrir los ajustes
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Restablecer los ajustes de TWiLight Menu++
+- <kbd class="face">B</kbd>: Iniciar la última Rom usada o viceversa dependiendo de si el inicio automático de la última ROM está activado

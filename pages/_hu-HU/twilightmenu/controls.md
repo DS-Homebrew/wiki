@@ -20,7 +20,7 @@ description: A TWiLight Menu++ irányítása
       - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
       - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 - <kbd class="face">X</kbd>: Játék törlése/elrejtése
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
+- (DSi/Saturn/HBLtéma) <kbd>SELECT</kbd>: SELECT menü vagy DS Classic Menü (Ahol a rendszer menü, TWLMenu++ beállítások és a GBA Mód érhető el)
 
 #### R4 téma
 - <kbd>Fel</kbd> / <kbd>Le</kbd>: Játék / app kiválasztása
@@ -35,4 +35,11 @@ description: A TWiLight Menu++ irányítása
       - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 
 #### CFW-vel: DS ROM-ok (SD) / kártyákon
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++ (If using an O3DS, then it does not work on all models)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> 2 másodpercig: Visszatérés a TWiLight Menu++-ba (Előfordulhat, hogy nem működik néhány O3DS modellen)
+
+#### Indítási gyorsbillentyűk
+Ezeket a TWiLight Menu++ kezdőképernyőjén kell nyomni / rögtön a Nintendo DSi keződképernyő után.
+
+- <kbd>SELECT</kbd>: Beálltások megnyitása
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Minden TWiLight Menu++ beálltás alaphelyzetbe álltása
+- <kbd class="face">B</kbd>: Az utolsó futtatott ROM bootolása, vagy ellenkezője, attól függően, hogy az utolsó ROM-ra az autoboot engedélyezve volt-e
