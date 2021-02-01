@@ -99,7 +99,7 @@ A:
 [^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
 [^4]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
 [^5]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^6]: Only shown when when using a flashcard or Unlaunch is installed
+[^6]: Only shown when using a flashcard or Unlaunch is installed
 [^7]: Can only save when running from a flashcard
 
 - Footnotes -
