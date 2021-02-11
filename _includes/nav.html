@@ -47,7 +47,7 @@
 							{% for item in site[collection.label] %}
 								{% assign itemRef = item.url | split: item.lang | last %}
 								{% if itemRef == ref %}
-									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url | remove: ".html" }}">{{ site.data.lang-names[item.lang] }}</a></li>
+									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" data-language-id="{{ item.lang }}" href="{{ item.url | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
 								{% endif %}
 							{% endfor %}
 						{% endunless %}

@@ -394,6 +394,10 @@ kbd.face {
 	margin-bottom: 0.25rem;
 }
 
+a.footnote {
+	unicode-bidi: isolate;
+}
+
 a.footnote::before {
 	content: "[";
 }
