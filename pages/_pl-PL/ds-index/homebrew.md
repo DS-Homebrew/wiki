@@ -11,7 +11,7 @@ description: Informacje o Homebrew na Nintendo DS
 
 Zwykle do tworzenia Homebrew na Nintendo DS używa się narzędzi devkitPro, takich jak devkitARM, libnds czy libfat. Jednakże można pójść własną drogą i używać alternatywnych programów:
 
-- **biblioteki kart SD:** DevkitPro zaleca libfat. We recommend using libslim instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **biblioteki kart SD:** DevkitPro zaleca libfat. Rekomendujemy użycie libslim, ponieważ pozwala na użycie takich rzeczy, jak różnych partycji czy szybszych prędkości
 - **Biblioteka graficzna:** Zalecamy użycie easyGL2D, które jest instalowane razem z libnds. Możesz też używać NightFox Lib
 - **Całe Toolchainy:** Rekomendujemy używanie devkitARM i libnds, ponieważ zawiera kompatybilnośćz DSi i ma większy ekosystem. Jeśli jednak Twoją docelową platformą są nagrywarki flashcard na Nintendo DS, możesz śmiało używać ToolchainGenericDS
 

@@ -13,10 +13,11 @@ Nécessite une Old/New Nintendo 3DS ou 2DS.
 - Assurez-vous que le `boot.firm` de Luma est à la racine de la carte SD pour que cela fonctionne
 - Si vous avez utilisé TWiLight Menu++ Updater ou Universal-Updater pour mettre à jour, veuillez installer la dernière CIA de TWiLight Menu++ en utilisant FBI
 
-1. Télécharger [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([thread GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Dans la configuration de Luma, activez "enable external FIRMs and modules"
 1. Install the TWPatch CIA
 1. Launch TWPatch
+1. (Optional!) For a less pixelated widescreen, hold Y+B, and enable `GPU scale test (health hazard!)`
 1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
    - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
    - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released

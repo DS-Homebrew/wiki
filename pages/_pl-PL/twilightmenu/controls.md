@@ -20,7 +20,7 @@ description: Przypisanie klawiszy TWiLight Menu++
       - <kbd class="face">Y</kbd>: Pokaż opis cheatu
       - <kbd class="l">L</kbd>: Wyłącz wszystkie cheaty
 - <kbd class="face">X</kbd>: Usuń/ukryj grę
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
+- (motyw DSi/Saturn/HBL) <kbd>SELECT</kbd>: SELECT menu albo DS Classic Menu (gdzie można uzyskać dostęp do menu systemowego, ustawień TWLMenu++ i Trybu GBA)
 
 #### Motyw R4
 - <kbd>Góra</kbd> / <kbd>Dół</kbd>: Wybierz grę / aplikację
@@ -42,4 +42,4 @@ Powinny być one wciśnięte na ekranie powitalnym TWiLight Menu++ / tuż po ekr
 
 - <kbd>SELECT</kbd>: Otwórz ustawienia
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Resetuj wszystkie ustawienia TWiLight Menu++
-- <kbd class="face">B</kbd>: Włącz ostatnio uruchamiany ROM lub odwrotnie, w zależności od tego, czy autouruchamianie ostatniego ROMa jest włączone
+- <kbd class="face">B</kbd>: Włącz ostatnio uruchamiany ROM lub odwrotnie, w zależności od tego czy autouruchamianie ostatniego ROMa jest włączone

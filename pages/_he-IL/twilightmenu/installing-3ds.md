@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: התקנה (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: איך להתקין את TWiLight Menu++ על Nintendo 3DS
 ---
 
 ראשית תצטרכו שמכשיר ה3DS שלכם יהיה פרוץ עם קושחה מותאמת אישית. עקבו אחר [3ds.hacks.guide](https://3ds.hacks.guide) על מנת להתקין את הפריצה
@@ -49,20 +49,20 @@ description: How to install TWiLight Menu++ on the Nintendo 3DS
 
 <div class="tab-container">
    <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">מצלמה עובדת</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">מצלמת לא עובדת</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">ידני</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h4>Working Camera</h4></noscript>
+      <noscript><h4>מצלמה עובדת</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h4>Non-Working Camera</h4></noscript>
+      <noscript><h4>מצלמה לא עובדת</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
+      <noscript><h4>ידני</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>

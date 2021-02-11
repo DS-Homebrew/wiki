@@ -13,15 +13,16 @@ Wymaga Old/New Nintendo 3DS lub 2DS.
 - Upewnij się, że masz `boot.firm` Luma3DS w katalogu głównym karty SD
 - Jeśli używałeś TWiLight Menu++ Updater albo Universal-Updater do aktualizacji, prosimy o instalowanie najnowszych plików CIA TWiLight Menu++ używając FBI
 
-1. Pobierz [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([wątek na GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Pobierz [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([wątek na GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. W konfiguracji Luma, włącz zewnętrzne FIRM i moduły
 1. Zainstaluj CIA TWPatch
 1. Uruchom TWPatch
+1. (opcjonalne!) Dla mniej rozpikselowanego ekranu, przytrzymaj Y+B i włącz`GPU scale test (health hazard!)`
 1. Naciśnij <kbd class="face">X</kbd> + <kbd>START</kbd> aby wygenerować plik `TwlBg.cxi` z szerokim ekranem
-   - Jeśli górny ekran nie wskazuje, że patch na szeroki ekran jest włączony, powtórz wszystko od kroku 4.
+   - Jeśli górny ekran nie wskazuje, że patch na szeroki ekran jest włączony, powtórz wszystko od kroku 4
    - Jeśli szeroki ekran nadal nie działa, poczekaj aż wyjdzie możliwość uruchomienia szerokiego ekranu przez RTCom
 1. W ustawieniach TWiLight Menu++, zmień stronę na `Pozostałe ustawienia` i ustaw `Roździelczość Ekranu` na `16:10`
-   - Możnazmienić tą wartość oddzielnie dla każdej gry
+   - Można zmienić tą wartość oddzielnie dla każdej gry
 
 I to wszystko! Ciesz się swoimi szerokoekranowymi grami na DS!
 

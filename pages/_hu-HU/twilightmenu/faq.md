@@ -55,32 +55,43 @@ V:
 
 V:
 
-| Formátum                  | Betöltő                                         | Kiterjesztések                         | Mentés fájl                                                    |
-| ------------------------- | ----------------------------------------------- | -------------------------------------- | -------------------------------------------------------------- |
-| [ARGV][nds-hb-menu-argv]  | Natív                                           | `.argv`                                |                                                                |
-| Atari 2600                | [StellaDS][stellads]                            | `.a26`                                 |                                                                |
-| Atari 5200                | [A5200DS][a5200ds]                              | `.a52`                                 |                                                                |
-| Atari 7800                | [A7800DS][a7800ds]                              | `.a78`                                 |                                                                |
-| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, natív | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`<br>(csak kereskedelmi ROM-ok)     |
-| DSiWare                   | [Unlaunch][unlaunch]                            | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom neve].pub`, `[rom neve].prv`                             |
-| DSTWO bővítmény           | [DSTWO][dstwo] (DSTWO flashcard-ot igényel)     | `.plg`                                 |                                                                |
-| Game Boy (Color)          | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                                               |
-| Game Boy Advance          | [GBARunner2][gbarunner2], natív                 | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                                               |
-| Game Gear                 | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                                            |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`<br>(csak flashcard a jEnesisDS számára) |
-| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                                           |
-| MPEG4 Video               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                                                |
-| NES / Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                                               |
-| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                                |
-| RVID Video                | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                                |
-| SNES                      | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`<br>(csak flashcard)                     |
+| Formátum                  | Betöltő                                         | Kiterjesztések                         | Mentés fájl                        |
+| ------------------------- | ----------------------------------------------- | -------------------------------------- | ---------------------------------- |
+| ARGV[^1]                  | Natív                                           | `.argv`                                |                                    |
+| Atari 2600                | [StellaDS][stellads]                            | `.a26`                                 |                                    |
+| Atari 5200                | [A5200DS][a5200ds]                              | `.a52`                                 |                                    |
+| Atari 7800                | [A7800DS][a7800ds]                              | `.a78`                                 |                                    |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, natív | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`[^2]         |
+| DSiWare                   | [Unlaunch][unlaunch]                            | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom neve].pub`, `[rom neve].prv` |
+| DSTWO bővítmény           | [DSTWO][dstwo][^3]                              | `.plg`                                 |                                    |
+| Game Boy (Color)          | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                   |
+| Game Boy Advance          | [GBARunner2][gbarunner2], natív[^4]             | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                   |
+| Game Gear                 | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^5]               |
+| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`               |
+| MPEG4 Videó               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                    |
+| NES / Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                   |
+| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                    |
+| RVID Videó                | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                    |
+| SNES[^6]                  | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`[^7]               |
+{:.table}
 
+- Footnotes -
+{:footnotes}
 
 #### K: Miért nem működik az érintő képernyő a sudokuhax-szal?
 V: A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfordulhat, hogy nem működik.
 
 #### K: Tud a The Biggest Loser bebootolni TWiLight Menu++-vel?
 V: Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
+
+[^1]: Szöveg fájlokról, amik egy DS homebrew app útvonalát és argumentumait tartalmazzák az indításhoz, lásd az [nds-hb-menu README-jét](https://github.com/devkitPro/nds-hb-menu#passing-arguments) a további információkért
+[^2]: Csak kereskedelmi ROM-okhoz, a homebrew-ok nem rendelkeznek kifejezett mentés fájlokkal
+[^3]: Csak egy SuperCard DSTWO flashcard-ról indítva működik, mert az rendelkezik a szükséges további feldolgozási kapacitással és RAM-mal a cartridge-en belül
+[^4]: Egy Slot-2 flashcard-ot igényel, gy csak DS Phat-on és DS Lite-on működik
+[^5]: A jEnesis csak akkor tud menteni, ha flashcard-ról fut, de a PicoDriveTWL tud menteni SD kártyáról és flashcard-ról futtatás esetén is
+[^6]: Csak flashcard használatakor vagy ha az Unlaunch telepített jelenik meg
+[^7]: Csak akkor tud menteni, ha flashcard-ról fut
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -90,7 +101,6 @@ V: Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az S
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
 [mpeg4player]: https://gbatemp.net/threads/544095
 [ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
 [nesds]: https://github.com/DS-Homebrew/NesDS
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL

@@ -13,10 +13,11 @@ description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 - וודאו שהקובץ`boot.firm` של Luma נמצא בשורש הSD שלכם
 - אם אתם משתמשים בTWiLight Menu++ Updater או בUniversal-Updater לעדכון, התקינו את קבצי הCIA העדכניים של TWiLight Menu++ באמצעות FBI
 
-1. הורידו את [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([דיון בGBATemp ](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. הורידו את [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([דיון בGBATemp ](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. בהגדרות של Luma, אפשרו external FIRMs and modules
 1. התקינו את קובץ הCIA של TWPatch
 1. הפעילו את TWPatch
+1. (אופציונאלי!) על מנת לקבל משחק רחב פחות מפוקסל, החזיקו Y+B ואפשרו את `GPU scale test (health hazard!)`
 1. לחצו על <kbd class="face">X</kbd> + <kbd>START</kbd> על מנת לייצר קובץ `TwlBg.cxi` עם מסך רחב
    - אם המסך העליון לא מצביע על כך שהמסך הרחב מופעל, התחילו משלב 4 שוב
    - אם המסך הרחב עדיין לא עובד, המתינו לשחרור של מסך רחב RTCom-activated

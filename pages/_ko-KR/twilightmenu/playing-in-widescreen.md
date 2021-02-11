@@ -13,15 +13,16 @@ description: 닌텐도 3DS에서 와이드스크린으로 TWiLight Menu++를 이
 - `boot.firm`이 SD의 루트에 저장되어있는지 확인합니다.
 - 업데이트에 TWiLight Menu++ Updater나 Universal-Updater를 사용했다면, TWiLight Menu++의 CIA를 FBI를 통해 설치해주세요.
 
-1. [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([GBATemp 스레드](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))를 다운로드 해주세요.
+1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Luma config에서, external FIRMs와 modules를 활성화해주세요.
 1. TWPatch CIA를 설치해주세요.
 1. TWPatch를 실행해주세요.
-1. `TwlBg.cxi` 파일을 생성하기 위해 <kbd class="face">X</kbd>와 <kbd>START</kbd>를 동시에 누르세요.
-   - 상단 화면에 와이드 패치가 활성화되었음을 표시하지 않으면 4단계부터 다시 시작하세요.
-   - 여전히 와이드스크린이 작동하지 않는다면, RTCom-activated widescreen이 릴리즈될 때까지 기다립니다.
-1. TWiLight Menu++ 설정에서, `기타 설정` 페이지로 가서, `화면 비율`을 `16:10`으로 설정합니다.
-   - 이 작업은 게임마다 따로 설정할 수 있습니다.
+1. (Optional!) For a less pixelated widescreen, hold Y+B, and enable `GPU scale test (health hazard!)`
+1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
+   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
+1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
+   - This can be done per-game as well
 
 모든 작업이 끝났습니다! DS 게임을 와이드스크린으로 즐기세요!
 

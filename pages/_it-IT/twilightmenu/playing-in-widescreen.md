@@ -13,15 +13,16 @@ Richiede una console Vecchia/New Nintendo 3DS o 2DS.
 - Assicurati che il `boot.firm` di Luma sia nella scheda SD per funzionare
 - Se hai usato TWiLight Menu++ Updater o Universal-Updater per gli aggiornamenti, installare l'ultimo CIA di TWiLight Menu++ utilizzando FBI
 
-1. Scarica [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([thread GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Nella configurazione Luma, abilitare FIRM e moduli esterni
 1. Installa il file CIA di TWPatch
 1. Avvia TWPatch
-1. Premi <kbd class="face">X</kbd> + <kbd>START</kbd> per generare un file `TwlBg.cxi` con widescreen
-   - Se la schermata superiore non indica che la patch larga è abilitata, riavvia dal passaggio 4
-   - Se il widescreen ancora non funziona, attendere che venga rilasciato il widescreen RTCom-activated
-1. Nelle impostazioni di TWiLight Menu++, passa la pagina a `Impostazioni Varie`e imposta `Rapporto Dimensioni Schermo` a `16:10`
-   - Questo può essere fatto anche per gioco
+1. (Optional!) For a less pixelated widescreen, hold Y+B, and enable `GPU scale test (health hazard!)`
+1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
+   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
+1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
+   - This can be done per-game as well
 
 "Hai fatto tutto!"! Goditi i tuoi giochi del DS in widescreen!
 

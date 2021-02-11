@@ -37,17 +37,17 @@ Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam 
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
 
-### Card Read DMA
+### 카드 읽기 DMA
 Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
 
 You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - For example: `DMA2: 04100010 023C18C0 AF000001`
 
-### Donor ROM
+### Donor 롬
 
 In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save. The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result. In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
 
-### Action Replay Cheats
+### 액션 리플레이 치트
 
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 

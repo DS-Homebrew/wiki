@@ -13,12 +13,13 @@ Necesitas una consola Old/New Nintendo 3DS o 2DS.
 - Comprueba que el `boot.firm` de Luma se encuentra en la raíz de la SD para que esto funcione
 - Si has usado TWiLight Menu++ Updater o Universal-Updater para actualizar, instala los CIAs de la última versión de TWiLight Menu++ con FBI
 
-1. Descarga [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia) ([hilo de GBAtemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Descarga [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([hilo de GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. En la configuración de Luma, activa FIRMs y módulos externos
 1. Instala el CIA de TWPatch
 1. Abre TWPatch
+1. (Opcional) Para una pantalla completa menos pixelada, mantén Y+B y activa `GPU scale test (¡riesgo para la salud!)`
 1. Pulsa <kbd class="face">X</kbd> + <kbd>START</kbd> para generar un archivo `TwlBg.cxi` con pantalla completa
-   - Si la pantalla superior no indica que el parche está activado, repite el proceso desde el paso 4
+   - Si la pantalla superior no avisa de que el parche está activado, vuelve a empezar desde el paso 4
    - Si aún no funciona, espera al lanzamiento de RTCom con pantalla completa activada
 1. En los ajustes de TWiLight Menu++, ve a la página `Misc settings` y pon `Screen Aspect Ratio` a `16:10`
    - Esto también puede activarse en juegos individuales

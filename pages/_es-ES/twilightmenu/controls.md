@@ -42,4 +42,4 @@ Estos comandos pueden hacerse en la pantalla de bienvenida de TWiLight Menu++ / 
 
 - <kbd>SELECT</kbd>: Abrir los ajustes
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Restablecer los ajustes de TWiLight Menu++
-- <kbd class="face">B</kbd>: Iniciar la última Rom usada o viceversa dependiendo de si el inicio automático de la última ROM está activado
+- <kbd class="face">B</kbd>: Iniciar la última Rom usada o viceversa, dependiendo de si el inicio automático de la última ROM está activado

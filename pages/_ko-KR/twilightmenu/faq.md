@@ -41,7 +41,7 @@ A: 홈브류 게임들은 [Universal-DB](https://db.universal-team.net/ds) 와 [
 - DSi 상에서[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)를 이용해 DS 게임이나 DSi웨어를 덤프할 수 있습니다.
 - 3DS 상에서[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)를 이용해 DS 게임이나 DSi웨어, 버추얼 콘솔 게임을 덤프할 수 있습니다.
 
-#### Q: 세이브 파일을 게임 카드에서 SD카드로 혹은, 그 반대로 이동시킬 수 있나요?
+#### Q: Can I get the save files from my game cards onto my SD card or vice versa?
 A: 네. DSi에서 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)를 이용하거나 3DS에서 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)를 이용할 수 있습니다.
 
 #### Q: TWiLight Menu++의 언어를 변경하는 방법이 뭔가요?
@@ -55,32 +55,43 @@ A:
 
 A:
 
-| 포맷                       | 로더                                          | 확장자                                    | 세이브 파일                                              |
-| ------------------------ | ------------------------------------------- | -------------------------------------- | --------------------------------------------------- |
-| [ARGV][nds-hb-menu-argv] | 네이티브                                        | `.argv`                                |                                                     |
-| 아타리 2600                 | [StellaDS][stellads]                        | `.a26`                                 |                                                     |
-| 아타리 5200                 | [A5200DS][a5200ds]                          | `.a52`                                 |                                                     |
-| 아타리 7800                 | [A7800DS][a7800ds]                          | `.a78`                                 |                                                     |
-| DS                       | [nds-bootstrap][ndsbs], flashcard 커널, 네이티브  | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`<br>(시판되는 롬 전용)         |
-| DSi웨어                    | [Unlaunch][unlaunch]                        | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv`                  |
-| DSTWO 플러그인               | [DSTWO][dstwo] (DSTWO flashcard 필수)         | `.plg`                                 |                                                     |
-| 게임보이 (컬러)                | [GameYob][gameyob]                          | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                    |
-| 게임보이 어드밴스                | [GBARunner2][gbarunner2], 네이티브              | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                    |
-| 게임 기어                    | [S8DS][s8ds]                                | `.gg`                                  | `[rom name].gg.sav`                                 |
-| 제네시스 / 메가 드라이브           | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl] | `.gen`                                 | `[rom name].srm`<br>(jEnesisDS는 flashcard 전용) |
-| 마스터 시스템                  | [S8DS][s8ds]                                | `.sms`                                 | `[rom name].sms.sav`                                |
-| MPEG4 비디오                | [MPEG4 Player][mpeg4player]                 | `.mp4`                                 |                                                     |
-| NES / 패미컴                | [nesDS][nesds]                              | `.nes`, `.fds`                         | `[rom name].sav`                                    |
-| PC 엔진 / TurboGrafx-16    | [NitroGrafx][nitrografx]                    | `.pce`                                 |                                                     |
-| RVID 비디오                 | [Rocket Video Player][rvidplayer]           | `.rvid`                                |                                                     |
-| SNES                     | [SNEmulDS][snemulds]                        | `.smc`, `.sfc`                         | `[rom name].srm`<br>(flashcard 전용)            |
+| Format                    | Loader                                           | Extensions                             | Save file                          |
+| ------------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------- |
+| ARGV[^1]                  | Native                                           | `.argv`                                |                                    |
+| Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                    |
+| Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                    |
+| Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                    |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]         |
+| DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
+| DSTWO Plugin              | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
+| Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                   |
+| Game Boy Advance          | [GBARunner2][gbarunner2], native[^4]             | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
+| Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^5]               |
+| Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`               |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                    |
+| NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                   |
+| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                    |
+| RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                    |
+| SNES[^6]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^7]               |
+{:.table}
 
+- Footnotes -
+{:footnotes}
 
 #### Q: sudokuhax에서 왜 터치 입력이 작동되지 않나요?
-A: sudokuhax의 세이브 파일에 따라 터치스크린 입력이 작동하지 않을 수 있습니다.
+A: Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
 #### Q: The Biggest Loser가 TWiLight Menu++를 부팅할 수 있나요?
-A: 안됩니다. The Biggest Loser는 Slot-1 게임이고, DSi웨어 게임이 아니기 때문에, Slot-1 카드가 실행될 때에는 SD 접근이 비활성화됩니다.
+A: No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+
+[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
+[^2]: Only for retail ROMs, homebrew do not have specific save files
+[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
+[^4]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
+[^5]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^6]: Only shown when using a flashcard or Unlaunch is installed
+[^7]: Can only save when running from a flashcard
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -90,7 +101,6 @@ A: 안됩니다. The Biggest Loser는 Slot-1 게임이고, DSi웨어 게임이 �
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
 [mpeg4player]: https://gbatemp.net/threads/544095
 [ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nds-hb-menu-argv]: https://github.com/devkitPro/nds-hb-menu#passing-arguments
 [nesds]: https://github.com/DS-Homebrew/NesDS
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL

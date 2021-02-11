@@ -13,12 +13,13 @@ Old/New Nintendo 3DS vagy 2DS konzolt igényel.
 - Ellenőrizd, hogy a Luma `boot.firm` -je megtalálható-e az SD kártya gyökerében, ahhoz, hogy ez működjön
 - Ha a TWiLight Menu++ Updater-t vagy az Universal-Updater-t használtad frissítésre, kérjük telepítsd a TWiLight Menu++ CIA-t az FBI használatával
 
-1. Töltsd le a [TWPatch](https://puu.sh/GoWHS/9459f224fb.cia)-et ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Töltsd le a [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)-et ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. A luma konfigurációban engedélyezd a külső FIRM-eket és modulokat
 1. Telepítsd a TWPatch CIA-t
 1. Indítsd el a TWPatch-ot
+1. (Opcionális!) A kevésbé pixeles széles képernyőhöz tartsd nyomva az Y+B-t, majd engedélyezd a `GPU átméretezés tesztet (egészségügyi veszély!)`
 1. Nyomj <kbd class="face">X</kbd> + <kbd>START</kbd> gombot a `TwlBg.cxi` fájl széles képernyővel történő generálásához
-   - Ha felső képernyő nem mutatja, hogy a széles képernyő patch engedélyezett, próbáld újra a 4-es lépéshez
+   - Ha felső képernyő nem mutatja, hogy a széles képernyő patch engedélyezett, próbáld újra a 4-es lépéstől
    - Ha a széles képernyő nem működik, várj az RTCom-activált széles képernyő kiadásáig
 1. A TWiLight Menu++ beállításokban válts az `Egyéb beállítások` oldalra és állítsd be a `Képernyő arány`-t `16:10`-re
    - Ez játékonként is beállítható egyébként

@@ -3,8 +3,8 @@ lang: pl-PL
 layout: wiki
 section: ds-index
 category: reference
-title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
+title: TWL_FIRM Nintendo DSi / Nintendo 3DS
+description: Informacje o TWL_FIRM Nintendo DSi i Nintendo 3DS
 ---
 
 ### Przygotowywanie CFW
@@ -18,14 +18,14 @@ Chociaż większość korzyści z Custom Firmware dotyczy systemów Nintendo DSi
   - Komenda Kuriisu: `guide dsi`
 
 ### Szybkości CPU
-The Nintendo DS shipped with a 67MHz processor in 2004. The Nintendo DSi shipped with an 133MHz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67MHz. Niektóre aplikacje wiązały się z tą prędkością i w rezultacie nie działałyby one poprawnie z wyższymi taktowaniami zegara procesora. Większość gier wykorzystywałaby większy potencjał nowego procesora, aby uzyskać wyższą wydajność.
+Nintendo DS było sprzedawane w 2004 z procesorem 67MHz. Nintendo DSi było sprzedawane w 2009 z procesorem 133MHz. Większość gier z biblioteki Nintendo DS wyszło na rynek przed premierą Nintendo DSi. Z tego powodu mogły korzystać one tylko z procesora o prędkośći 67MHz. Niektóre aplikacje wiązały się z tą prędkością i w rezultacie nie działałyby one poprawnie z wyższymi taktowaniami zegara procesora. Większość gier wykorzystywałaby większy potencjał nowego procesora, aby uzyskać wyższą wydajność.
 
 nds-bootstrap ma opcje TWL Clock Speed, ale nie bedzie on próbował dostosować naszego ROM do pracy z większym taktowaniem zegara procesora. To zadanie leży w rękach aplikacji, więc aplikacje nie działające z wyższymi taktowaniami NIE są problemem ze strony nds-bootstrap.
 
 ### Menu systemu Nintendo DSi
-The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
+Menu systemu Nintendo DSi używa 32-bitowych liczb całkowitych, aby określić dostępne miejsce w pamięci urządzenia. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
-The ranges that make it overflow is determined by pairs of two. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
+Zakresy powodujące jego przepełnienie określa się na podstawie par. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
 
 This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
 

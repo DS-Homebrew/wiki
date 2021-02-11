@@ -7,7 +7,7 @@ title: Instalacja (3DS)
 description: Jak zainstalować TWiLight Menu++ na Nintendo 3DS
 ---
 
-Na początku musisz mieć zainstalowane Custom Firmware, przejdź do [3ds.hacks.guide](https://3ds.hacks.guide/pl_PL/), w celu instalacji
+Upewnij się, że masz zainstalowane Custom Firmware, jeśli nie, to zainstaluj je przy pomocy [3ds.hacks.guide](https://3ds.hacks.guide/pl_PL)
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}
