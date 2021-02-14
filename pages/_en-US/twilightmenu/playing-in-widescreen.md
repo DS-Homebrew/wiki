@@ -11,7 +11,6 @@ Requires an Old/New Nintendo 3DS or 2DS console.
 
 **Preparation**
 - Make sure Luma's `boot.firm` is on the SD root for this to work
-- If you used TWiLight Menu++ Updater or Universal-Updater to update, please install the latest TWiLight Menu++ CIAs using FBI
 
 1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. In Luma config, enable external FIRMs and modules
