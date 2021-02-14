@@ -13,6 +13,7 @@ Requires an Old/New Nintendo 3DS or 2DS console.
 - Make sure Luma's `boot.firm` is on the SD root for this to work
 
 1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+   - You can also use Universal-Updater to install TWPatch
 1. In Luma config, enable external FIRMs and modules
 1. Install the TWPatch CIA
 1. Launch TWPatch
