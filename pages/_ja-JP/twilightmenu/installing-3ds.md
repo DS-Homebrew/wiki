@@ -7,7 +7,7 @@ title: インストール（3DS）
 description: ニンテンドー3DSにTWiLight Menu++をインストールする方法
 ---
 
-3DSにカスタムファームウェアで必要です。インストールには[3ds.hacks.guide](https://3ds.hacks.guide)に従ってください。
+3DSにカスタムファームウェアが必要です。インストールには[3ds.hacks.guide](https://3ds.hacks.guide)に従ってください
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}
@@ -23,7 +23,7 @@ description: ニンテンドー3DSにTWiLight Menu++をインストールする�
 
 {% capture tab-non-working-camera %}
 1. [Universal-Updaterのリリースページ](https://github.com/Universal-Team/Universal-Updater/releases)から`Universal-Updater.cia`ファイルをダウンロードする
-1. `Universal--Updater.cia`ファイルをSDカードの任意の場所に配置します
+1. `Universal-Updater.cia`ファイルをSDカードの任意の場所に配置します
 1. FBIをニンテンドー3DSで起動する
 1. FBIで、`Universal-Updater.cia`ファイルを貼り付けた場所に移動します
 1. `Universal-Updater.cia`ファィルを選択し、「Install & Delete」を押します

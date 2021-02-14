@@ -9,21 +9,21 @@ description: Jak używać własnych czcionek z TWiLight Menu++
 
 TWiLight Menu++ może używać niestandardowych czcionek w formacie NFTR (Nitro FonT Resource). Będą one używane w Ustawieniach, tytułach podręcznika oraz w motywach Nintendo 3DS, SEGA Saturn i Homebrew Launcher.
 
-### Included font info
-Do TWiLight Menu++ są już dołączone trzy czcionki. When TWiLight Menu++ is running in DSi Mode they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. They are as follows:
-- Default: This uses the official DSi font as it's primary font and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
-- Chinese (Simplified): This uses Noto Sans CS as the primary font and has significantly more Chinese (Simplified) characters in DS Mode, at the cost of characters for other languages
-- Korean: This is identical to Default in DSi Mode, but in DS Mode has a more complete set of hangul, at the cost of characters for other languages
+### Dołączone informacje o czcionce
+Do TWiLight Menu++ są już dołączone trzy czcionki. Kiedy TWiLight Menu++ działa w DSi Mode te czcionki posiadają wszystkie znaki potrzebne dla języków, które są dostępne w TWiLight, natomiast w DS Mode czcionki są ograniczone z powodu ograniczonego RAMu. Wygląda to następująco:
+- Domyślna: używa oficjalnej czcionki DSi jako podstawowej czcionki i obsługuje wszystkie znaki, które są używane w TWiLight Menu++ we wszystkich językach w DS Mode
+- Chiński (uproszczony): używa CS Noto Sans jako podstawowej czcionki i ma znacznie więcej chińskich (uproszczonych) znaków w trybie DS, kosztem znaków innych języków.
+- Koreański: Identycznie jak Domyślne w DSi Mode, ale w DS Mode ma bardziej kompletny zestaw znaków hangul, kosztem znaków innych języków
 
 ### Struktura katalogu
-Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` where `[font name]` is whatever name you want and `[font file].nftr` is one of the following:
-- `large-ds.nftr`, `large-dsi.nftr`, or `large.nftr`: The larger font used for titles
-- `small-ds.nftr`, `small-dsi.nftr`, or `small.nftr`: The smaller font used for most other text
+Niestandardowe czcionki są wczytywane z `sd:/_nds/TWiLightMenu/extras/fonts/[nazwa czcionki]/[plik czcionki].nftr`, gdzie `[nazwa czcionki]` jest nazwą wybraną przez ciebie a `[nazwa czcionki].ntfr` jest jednym z następujących:
+- `large-ds.nftr`, `large-dsi.nftr` lub `large.nftr`: Większa czcionka używana w tytułach
+- `small-ds.nftr`, `small-dsi.nftr` lub `small.nftr`: Mniejsza czcionka dla reszty tekstu
 
-The `-ds` and `-dsi` files have higher priority than the normal one and if found will be used when TWiLight Menu++ is running in DS or DSi Mode respectively.
+Pliki `-ds` i `-dsi` mają wyższy priorytet niż normalne i jeśli zostaną wykryte, będą użyte, kiedy TWiLight Menu++ działa odpowiednio w DS lub DSi Mode.
 
-### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
+### Generowanie niestandardowych czcionek
+Możesz tworzyć własne czcionki za pomocą takich narzędzi, jak [ntfr-editor](https://pk11.us/nftr-editor/) Pk11. To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. Load an NFTR file in nftr-editor
 1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
    - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box

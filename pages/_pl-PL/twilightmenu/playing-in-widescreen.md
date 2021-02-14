@@ -28,6 +28,6 @@ I to wszystko! Ciesz się swoimi szerokoekranowymi grami na DS!
 
 **NOTKA1**: Każda gra/aplikacja w trybie DS(i) będzie działać w trybie szerokoekranowym, nawet te, które teggo nie wspierają. Żeby to naprawić, musisz poczekać aż wyjdzie tryb szerokoekranowy uruchamiany przez RTCom.
 
-**NOTE2:** Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched. If you don't see the screen aspect ratio setting, wait for RTCom-activated widescreen to be released.
+**NOTKA2:** Nie przytrzymuj <kbd>START</kbd> bądź <kbd>SELECT</kbd> podczas włączania TWLMenu++, jeśli nie chcesz, żeby szeroki ekran wyglądał dziwnie. Jeśli nie widzisz ustawień proporcji ekranu, poczekaj aż wyjdzie możliwość uruchomienia szerokiego ekranu przez RTCom.
 
-Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+Nie każda gra działa w szerokim ekranie. [Natomiast stworzyliśmy listę z działającymi grami](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)

@@ -18,7 +18,7 @@ description: How to install TWiLight Menu++ on the Nintendo DSi
 1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
-### Autobooting with Unlaunch
+### 使用Unlaunch自动引导
 1. 摁住 <kbd class="face">A</kbd> 和 <kbd class="face">B</kbd> 后，再摁下 DSi 的电源键
 1. 在 Unlaunch 的菜单中，选择 `OPTIONS`
 1. 将下屏中的 `BOOT.NDS` 项设置成 `NO BUTTON` 或是其他你想要的键位
