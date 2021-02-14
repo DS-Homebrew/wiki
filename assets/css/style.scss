@@ -87,6 +87,10 @@ img {
 	text-decoration: none;
 }
 
+.btn:focus {
+	box-shadow: none;
+}
+
 div .btn-primary:hover {
 	background-color: inherit;
 	opacity: inherit;
