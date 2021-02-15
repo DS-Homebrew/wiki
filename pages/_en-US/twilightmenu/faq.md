@@ -62,6 +62,7 @@ A:
 | Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                    |
 | Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                    |
 | Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                    |
+| Atari XEGS                | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                    |
 | DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]         |
 | DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
 | DSTWO Plugin              | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
@@ -93,6 +94,7 @@ A:
 [snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
+[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
 [^2]: Only for retail ROMs, homebrew do not have specific save files
