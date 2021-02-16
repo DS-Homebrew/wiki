@@ -17,14 +17,11 @@
 					{% endif %}
 					{% if item.items %}
 						<li class="nav-item dropdown">
-							<a class="nav-link
-								{% for entry in item.items %}
-									{% if entry.page_title == page.title %} active {% endif %}
-								{% endfor %}
-							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+							{% assign section = "/" | append: page.section %}
+							<a class="nav-link {% for entry in item.items %}{% if entry.url == section %} active {% endif %}{% endfor %} dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
 							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
 								{% for entry in item.items %}
-									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ entry.url }}">{{ entry.title }}</a>
+									<a class="dropdown-item{% if entry.url == section %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ entry.url }}">{{ entry.title }}</a>
 								{% endfor %}
 							</div>
 						</li>
