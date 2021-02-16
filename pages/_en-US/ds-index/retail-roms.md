@@ -72,5 +72,3 @@ For the most complete cheat database, we recommend using the one made by DeadSku
 Cheat codes generally have types A through E, and here is a description of them:
 
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
-
-Credits: (`DeadSkullzJr`)
