@@ -8,22 +8,17 @@ description: Information related to retail DS games
 ---
 
 ### Anti-Piracy
-
 AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
+- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
 - For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
-### CloneBoot
+### Cloneboot
+Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
 
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
-
-Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
-
-### Thumb instructions
-Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
+Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
 
 ### Save Files
 Nintendo DS cartridges have 4 known save types:
@@ -43,14 +38,15 @@ Card DMA (stands for Direct Memory Access) is a more efficient way to read cartr
 You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - For example: `DMA2: 04100010 023C18C0 AF000001`
 
-### Donor ROM
+### THUMB Instructions
+Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
 
+### Donor ROM
 In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save.
 The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result.
 In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
 
 ### Action Replay Cheats
-
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
 Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
