@@ -41,6 +41,9 @@
 
 	],
 	"community": [
-		
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
 	]
 }
