@@ -16,7 +16,7 @@ In order for GBARunner2 to load titles, a dump of the GBA BIOS is required. Newe
 
 After dumping the BIOS, it must be renamed as `bios.bin` and then should be placed in `sd:/_gba/` for GBARunner2 to read it. 
 
-You can verify that your BIOS is a proper dump by comparing it with the following hashes:
+You can verify that your BIOS is a proper dump by comparing it with the following checksums:
 
 **CRC32**: 81977335
 **MD5**: a860e8c0b6d573d191e4ec7db1b1e4f6
