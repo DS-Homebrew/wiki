@@ -12,7 +12,7 @@ Not right now. Instead, you can permanently inject cheat codes into your GBA ROM
 
 #### How do I use Nightly GBARunner2 Builds in TWiLight Menu++?
 
-1. Download the nighly build
+1. Download the nightly build
 1. Rename it to `GBARunner2_arm7dldi_3ds.nds` (or `GBARunner2_arm7dldi_dsi.nds` if you're on DSi)
 1. Place it in `sd:_nds`
 
