@@ -28,5 +28,5 @@ To improve performance, nds-bootstrap also shrinks the game's heap in memory, wh
 - nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued.
 - the DS Memory Expansion card is emulated meaning games that require that accessory will work
 
-### Donor ROMs
+#### Donor ROMs
 Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
