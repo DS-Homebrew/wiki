@@ -6,6 +6,7 @@ category: other
 title: FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---
+# FAQ
 
 #### Why do I get a white screen when trying to load a game from SD Card?
 - First, check the [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
@@ -30,3 +31,26 @@ To improve performance, nds-bootstrap also shrinks the game's heap in memory, wh
 
 #### Donor ROMs
 Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
+
+#### What is a nightly and where do I get it?
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added.
+You can get nightly builds for nds-bootstap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z)
+
+#### Why do my cheats not work?
+The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time.
+Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
+
+#### Is there anything else I should know about cheats?
+You can set heap shrink to `Hi` in settings for slightly better cheat support.<br>
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+
+#### nds-bootstrap troubleshooting
+If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it. 
+
+1. Run everything in 67mhz, DS Mode with 32 khz of audio. Basically, keep everything to DS settings. Don't try to improve it with DSi stuff
+2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
+
+If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case we had one issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one
+
+Also, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
