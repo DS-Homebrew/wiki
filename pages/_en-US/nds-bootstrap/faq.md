@@ -6,8 +6,6 @@ category: other
 title: FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---
-# FAQ
-
 #### Why do I get a white screen when trying to load a game from SD Card?
 - First, check the [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
 - Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
