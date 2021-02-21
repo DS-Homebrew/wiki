@@ -32,7 +32,10 @@
 		}
 	],
 	"nds-bootstrap": [
-
+		{
+			"key": "other",
+			"title": "Other"
+		}
 	],
 	"gbarunner2": [
 
