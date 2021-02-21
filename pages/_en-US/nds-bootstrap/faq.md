@@ -25,7 +25,7 @@ To improve performance, nds-bootstrap also shrinks the game's heap in memory, wh
 - Enhance your audio with 48 KHz
 - Use DSi mode, allowing for DSi features
 - Using certain cartridges, you are able to use IR in your application
-- nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued.
+- nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued
 - The DS Memory Expansion Pak is emulated meaning games that require that accessory will work
 
 #### Donor ROMs
