@@ -6,6 +6,10 @@ title: FAQ & Troubleshooting
 description: FAQs and troubleshooting for GBARunner2
 ---
 
+#### How do I create and add custom borders?
+
+You can read and follow [this guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) by FrescoASF.
+
 #### Are cheats supported?
 
 Not right now. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
