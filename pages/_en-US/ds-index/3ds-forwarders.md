@@ -74,7 +74,7 @@ PC:
 - A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux users:** JavaFX `sudo apt-get install openjfx` on a Debian based system, or `sudo pacman -S java-openjfx` if you're using a Arch based system.
+- **Linux users:** JavaFX `sudo apt-get install openjfx` on a Debian based system, or `sudo pacman -S java8-openjfx` if you're using a Arch based system.
 
 ### Part 1: Getting Started
 {% capture tab-sd-card %}
