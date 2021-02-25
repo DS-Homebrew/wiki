@@ -22,7 +22,7 @@ description: How to get box art / game covers in TWiLight Menu++
    - If it doesn't find the correct SD card click `Browse...` and select the right one
 1. Change the size, border, etc options to your liking
 1. Click `Start`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 ### macOS/Linux
 1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
@@ -35,12 +35,12 @@ description: How to get box art / game covers in TWiLight Menu++
 1. Run `chmod +x TwilightBoxart.CLI`
 1. Run `./TwilightBoxart.CLI`
 1. Say `Yes` if it shows your SD path correctly
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 ### Manual
 1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. On your DS, make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 **To add your own box art:**
 Place them in `sd:/_nds/TWiLightMenu/boxart`.
