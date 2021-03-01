@@ -6,7 +6,7 @@ if(!languages.includes(languageID)) {
 }
 
 
-if(languageID) {
+if(languageID && !sessionStorage?.languageAlertDismissed) {
 	for(let language of document.getElementById("language-dropdown").children) {
 		if((language.children[0].dataset.languageId == languageID && !language.children[0].classList.contains("active")) || languageID == "ic-IC") {
 			let languageAlert = document.getElementById("language-alert");
@@ -19,6 +19,12 @@ if(languageID) {
 			import(`./i18n/${languageID}.js`).then(obj => {
 				a.innerHTML = obj.default.pageIsInYourLanguage;
 			}).catch(() => a.innerHTML = "This page is available in your language!");
+
+			// Save dismissal to session storage on close
+			languageAlert.addEventListener("closed.bs.alert", () => {
+				if(sessionStorage)
+					sessionStorage.languageAlertDismissed = true;
+			});
 			break;
 		}
 	}
