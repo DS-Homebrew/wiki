@@ -68,15 +68,15 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 | DSiWare                   | [Unlaunch][unlaunch]                             | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
 | DSTWO Plugin              | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
 | Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                   |
-| Game Boy Advance          | [GBARunner2][gbarunner2], native[^4]             | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
+| Game Boy Advance          | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
 | Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^5]               |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]               |
 | Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`               |
 | MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                    |
 | NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                   |
 | PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                    |
 | RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                    |
-| SNES[^6]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^7]               |
+| SNES[^7]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]               |
 {:.table}
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
@@ -100,10 +100,11 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
 [^2]: Only for retail ROMs, homebrew do not have specific save files
 [^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
-[^4]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
-[^5]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^6]: Only shown when using a flashcard or Unlaunch is installed
-[^7]: Can only save when running from a flashcard
+[^4]: When running in DSi Mode, it can use the DSP for better sound
+[^5]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
+[^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^7]: Only shown when using a flashcard, 3DS's internal SD card, or DSi with Unlaunch installed
+[^8]: Can only save when running from a flashcard
 
 - Footnotes -
 {:footnotes}
