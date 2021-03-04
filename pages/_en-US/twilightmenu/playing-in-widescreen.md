@@ -18,9 +18,10 @@ Requires an Old / New Nintendo 3DS or 2DS console.
 1. Install `TWPatch.cia` using FBI
    - You can also use Universal-Updater to install TWPatch instead of the previous two steps
 1. Return to the home menu and launch TWPatch
-1. (Optional!) For a less pixelated widescreen, hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `GPU scale test (health hazard!)`
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scale test (health hazard!)`
    - The "health hazard!" is because it gave the developer a headache due to its blurriness
-1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
    - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
    - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
