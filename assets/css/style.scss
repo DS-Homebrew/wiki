@@ -337,6 +337,10 @@ table tr:nth-child(2n) {
 	background-color: var(--table-alt-bg);
 }
 
+.table {
+	color: inherit;
+}
+
 // Buttons
 kbd {
 	padding: 3px 6px;
