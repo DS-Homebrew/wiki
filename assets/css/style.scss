@@ -331,10 +331,15 @@ table th {
 }
 table th, table td {
 	padding: 6px 13px;
-	border: 1px solid var(--borders);
+	border: 1px solid var(--light-borders);
 }
 table tr:nth-child(2n) {
 	background-color: var(--table-alt-bg);
+}
+
+// Fix bootstrap messing up the th bottom borders and dark mode text
+.table>:not(:last-child)>:last-child>* {
+	border-bottom-color: var(--light-borders);
 }
 
 .table {
