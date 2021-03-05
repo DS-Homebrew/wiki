@@ -6,6 +6,4 @@ title: Home
 description: Coming Soon™
 ---
 
-# Other Projects Wiki Placeholder
-
-This is a placeholder index page for the other projects wiki, coming soon™!
+This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
