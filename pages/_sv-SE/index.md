@@ -1,11 +1,11 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: default
-title: Home
+title: Hem
 ---
 
-# Welcome to the DS-Homebrew Wiki!
+# Välkommen till DS-Homebrew Wikin!
 
-This site is where you can find wikis for TWiLight Menu++ and other DS-Homebrew projects. Click on one of the sections at the top, then a list of pages will be on the left.
+Här hittar du wikis för TWiLight Menu++ och andra DS-Homebrew projekt. Klicka på en av avsnitten högst upp, då kommer en lista över sidor att finnas till vänster.
 
-If you would like to help contribute you can find the source code on [GitHub](https://github.com/{{ site.repo }}) or help translate on [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). To discuss this or get help with anything on it, please join the [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord) Discord server (English only).
+Om du vill hjälpa till att bidra kan du hitta källkoden på [GitHub](https://github.com/{{ site.repo }}) eller hjälpa till att översätta på [Crowdin](https://crowdin.com/project/ds-homebrew-wiki). För att diskutera detta eller få hjälp med något, vänligen gå med i [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord) Discord-servern (endast på engelska).

@@ -74,22 +74,22 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Busca dónde está montada la tarjeta SD
    - Linux:
       1. Extrae el adaptador de tarjetas SD
-      1. Ejecuta `lbslk` en un terminal
+      1. Run `lbslk` in a terminal
       1. Conecta el adaptador de tarjetas SD
       1. Ejecuta `lbslk` de nuevo
       1. Esta vez debería aparecer un nuevo dispositivo
-         - Debería llamarse `/dev/sdb`, anota el nombre que tiene en *tu* terminal
+         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
       1. Extrae el adaptador de tarjetas SD
-      1. Ejecuta `df` en un terminal
+      1. Run `df` in a terminal
       1. Conecta el adaptador de tarjetas SD
       1. Ejecuta `df` de nuevo
       1. Debería aparecer un nuevo dispositivo
-         - Debería llamarse `/dev/disk1s1`, anota el nombre que tiene en *tu* terminal
+         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. Vuelca la NAND
-   - Ejecuta los siguientes comandos en un terminal:
+   - Run the following command in a terminal:
       - `cat {device-name} > nand0.bin`
       - Reemplaza `{device-name}` con la ubicación de montaje de la SD
       - P. ej. `cat /dev/sdb > nand0.bin`

@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'Halaman ini tersedia dalam Bahasa Indonesia!' };

@@ -74,7 +74,7 @@ PC:
 - Un OS a 64 bit
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Aggiornamento Java 8 251
-- **Utenti Linux:** JavaFX
+- **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
 ### Parte 1: Per Iniziare
 {% capture tab-sd-card %}

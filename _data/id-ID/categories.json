@@ -1,0 +1,48 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "Panduan"
+		},
+		{
+			"key": "reference",
+			"title": "Referensi"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "Memasang"
+		},
+		{
+			"key": "updating",
+			"title": "Memperbaharui"
+		},
+		{
+			"key": "customization",
+			"title": "Kustomisasi"
+		},
+		{
+			"key": "other",
+			"title": "Lainnya"
+		},
+		{
+			"key": "uninstalling",
+			"title": "Mencopot Pemasangan"
+		}
+	],
+	"nds-bootstrap": [
+		{
+			"key": "other",
+			"title": "Other"
+		}
+	],
+	"gbarunner2": [],
+	"other": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
+	]
+}

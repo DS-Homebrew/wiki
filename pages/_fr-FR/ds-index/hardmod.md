@@ -74,22 +74,22 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 1. Work out where the SD card is mounted
    - Linux:
       1. Unplug the SD card adapter
-      1. Run `lbslk` on a terminal
+      1. Run `lbslk` in a terminal
       1. Plug in the SD card adapter
       1. Run `lbslk` again
       1. This time a new device should appear
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* terminal
+         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
       1. Unplug the SD card adapter
-      1. Run `df` on a terminal
+      1. Run `df` in a terminal
       1. Plug in the SD card adapter
       1. Run `df` again
       1. A new device should appear in the list
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* terminal
+         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. Dump the NAND
-   - Run the following command on a terminal:
+   - Run the following command in a terminal:
       - `cat {device-name} > nand0.bin`
       - Replace `{device-name}` with the SD card mount location
       - E.g `cat /dev/sdb > nand0.bin`

@@ -7,22 +7,27 @@ title: Jugar en pantalla completa
 description: Cómo usar TWiLight Menu++ a pantalla completa en la Nintendo 3DS
 ---
 
-Necesitas una consola Old/New Nintendo 3DS o 2DS.
+Necesitas una consola Old / New Nintendo 3DS o 2DS.
+{:.alert .alert-info}
 
-**Preparación**
+### Preparación
 - Comprueba que el `boot.firm` de Luma se encuentra en la raíz de la SD para que esto funcione
-- Si has usado TWiLight Menu++ Updater o Universal-Updater para actualizar, instala los CIAs de la última versión de TWiLight Menu++ con FBI
 
-1. Descarga [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([hilo de GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. En la configuración de Luma, activa FIRMs y módulos externos
-1. Instala el CIA de TWPatch
-1. Abre TWPatch
-1. (Opcional) Para una pantalla completa menos pixelada, mantén Y+B y activa `GPU scale test (¡riesgo para la salud!)`
-1. Pulsa <kbd class="face">X</kbd> + <kbd>START</kbd> para generar un archivo `TwlBg.cxi` con pantalla completa
-   - Si la pantalla superior no avisa de que el parche está activado, vuelve a empezar desde el paso 4
-   - Si aún no funciona, espera al lanzamiento de RTCom con pantalla completa activada
-1. En los ajustes de TWiLight Menu++, ve a la página `Misc settings` y pon `Screen Aspect Ratio` a `16:10`
-   - Esto también puede activarse en juegos individuales
+### Instalación
+1. Descarga [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) y copia `TWPatch.cia` en la tarjeta SD ([hilo de GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Instala `TWPatch.cia` usando FBI
+   - También puedes usar Universal-Updater para instalar TWPatch y saltarte los dos pasos anteriores
+1. Vuelve al menú de inicio y abre TWPatch
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scale test (health hazard!)`
+   - The "health hazard!" is because it gave the developer a headache due to its blurriness
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
+   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
+1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
+1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
+1. Open TWiLight Menu++ settings, switch to the `Misc settings` page, and set `Screen Aspect Ratio` to `16:10`
+   - This can be done per-game as well
 
 ¡Hecho! ¡Disfruta de tus juegos de DS a pantalla completa!
 

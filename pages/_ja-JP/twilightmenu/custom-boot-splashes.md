@@ -1,19 +1,19 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
-description: How to use custom splash screens for TWiLight Menu++
+title: カスタム起動スプラッシュ
+description: TWiLight Menu++ためにカスタムのスプラッシュ画面を使う方法
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+カスタムのGIFファイルを使って、TWiLight Menu++を起動中にカスタムのスプラッシュ画面があることができます。 名前は`splashtop.gif`と`splashbottom.gif`である必要があり、それらを`sd:/_nds/TWiLightMenu/extras`に配置し、TWiLight Menu++設定で`DSiスプラッシュ画面`を`カスタム`に設定します。
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1MiB (DSi Mode) or 256KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10MB (DSi Mode) or about 2MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-  - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+256x192までのGIFファイルは、いくつかの例外を除いて機能するはずです：
+- 1MiB（DSiモード）または256KiB（DSモード）以上のGIFファィルは、その場で解凍されるため、フルスピードで再生しないことがあります。
+- 2つの間では、GIFは約10MB（DSiモード）または約2MB（DSモード）以下である必要があります。
+- 両方のGIFを永久にループするように設定する場合は3秒間表示されますため、少なくとも1つでループ数を設定して時間を制御します
+- ユーザー入力フラグがサポートされているので、デフォルトのようにスプラッシュを表示して待つ場合はフレームにそれと長い遅延を設定してください
+  - 入力待ちのGIFのみが一時停止され、他のGIFはアニメーションを続けることができます。
+- ローカルカラーテーブルを使う場合は、画面全体のパレットを置き換えられるため、現在のフレームだけでなく、フレーム全体を上書きする必要があります
+- インターレースとテキストのフレームは機能しません

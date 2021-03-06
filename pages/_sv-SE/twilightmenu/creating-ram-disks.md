@@ -1,29 +1,29 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: other
-title: Creating RAM Disks
-description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
+title: Skapa RAM-diskar
+description: Hur man skapar RAM-diskar för att använda gamla DS homebrew med TWiLight Menu++
 ---
 
-You do not need to follow this if you're using a flashcard.
+Du behöver inte följa detta om du använder ett minneskort.
 {:.alert .alert-info}
 
-To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
+För att göra en RAM-disk, ladda ner [detta](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) verktyg (klicka `Download Software`), och följ instruktionerna nedan.
 
-Instructions by @Dakkon7, modified by RocketRobz:
+Instruktioner av @Dakkon7, ändrad av RocketRobz:
 
-1. Run RAMDisk
-1. Click **View** -> **Advanced**
-1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
-1. Click **Load/Save**
-1. Click `Start RAMDisk`, and a new window for your .img should appear
-1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
-1. Save `romname.img` to a folder called `ramdisks` in the .nds file location
-1. Click `Stop RAMDisk` when you're done
-1. In TWiLight Menu++, open per-game settings for your homebrew
-1. Set RAM disk to 0
-1. Launch your homebrew, and it should read your RAM disk
+1. Kör RAMDisk
+1. Klicka på **View** -> **Advanced**
+1. För **Disk Size**, skriv `12` för DSi, eller `28` för 3DS, över **Max 1023 MB**
+1. Avmarkera **Create TEMP Directory**, om den redan är markerad
+1. Klicka på **Load/Save**
+1. Klicka på `Start RAMDisk`, och ett nytt fönster för din .img borde dykas upp
+1. Placera alla filer och/eller mappar som homebrew förväntar sig där, och/eller fil(er) som du vill använda
+1. I programmet RAMDisk klickar du på `Save Disk Image Now`
+1. Spara `romname.img` till en mapp som heter `ramdisks` i platsen där .nds filen finns
+1. Klicka på `Stop RAMDisk` när du är klar
+1. I TWiLight Menu++, öppna "Spelspecifika inställningar" för ditt homebrew
+1. Ställ in RAM-disk till 0
+1. Starta ditt homebrew, och det bör läsa din RAM-disk

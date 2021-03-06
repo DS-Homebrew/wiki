@@ -22,25 +22,25 @@ description: Cómo obtener las carátulas / cubiertas de los juegos en TWiLight 
    - Si no encuentra la tarjeta SD correcta pincha en `Browse...` y selecciónala
 1. Cambia el tamaño, borde, y demás opciones a tu gusto
 1. Pincha en `Start`
-1. Comprueba en tu DS que se pueden mostrar las carátulas en los ajustes de TWiLight Menu++
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 ### macOS/Linux
 1. Descarga la última versión de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Extrae el `.zip`
-1. Abre `TwilightBoxart.ini` en la carpeta extraída con un editor de texto y guarda el archivo
-1. Escribe la ruta de tu tarjeta SD después de `SdRoot=`
+1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
+1. Type the path to your SD card after `SdRoot=`, then save the file
    - En macOS es `/Volúmenes/` y el nombre de la tarjeta SD
 1. Abre la consola de comandos
 1. Escribe en la consola `cd` y arrastra a la consola la carpeta que contiene `TwilightBoxart.CLI`
 1. Ejecuta `chmod +x TwilightBoxart.CLI`
-1. Abre el archivo `./TwilightBoxart.CLI` arrastrándolo a la consola
+1. Run `./TwilightBoxart.CLI`
 1. Escribe `Yes` si muestra la ruta correcta de la SD
-1. Comprueba en tu DS que se pueden mostrar las carátulas en los ajustes de TWiLight Menu++
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 ### Manual
 1. Descarga un pack con imágenes en png de [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Extrae los archivos .png en `sd:/_nds/TWiLightMenu/boxart`
-1. Comprueba en tu DS que se pueden mostrar las carátulas en los ajustes de TWiLight Menu++
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
 **Para añadir tus propias imágenes:** Colócalas en `sd:/_nds/TWiLightMenu/boxart`. Pueden tener el TID del juego (ej. `ASME.png`) o el nombre del archivo (ej. `SM64DS.nds.png`). Tienen que estar en formato `.png`, con un tamaño recomendado de 128x115 y un máximo de 208x143.
 

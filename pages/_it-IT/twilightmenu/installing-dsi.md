@@ -3,11 +3,11 @@ lang: it-IT
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (DSi)
-description: How to install TWiLight Menu++ on the Nintendo DSi
+title: Installazione (DSi)
+description: Come installare TWiLight Menu++ sul Nintendo DSi
 ---
 
-If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+Se non hai già un modo per eseguire gli homebrew sul tuo DSi, segui [dsi.cfw.guide](https://dsi.cfw.guide) per installare TWiLight Menu++
 {:.alert .alert-info}
 
 ### Installazione

@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installation (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: Comment installer TWiLight Menu++ sur la Nintendo 3DS
 ---
 
 Vous avez besoin d'un Custom Firmware sur votre 3DS, suivez [3ds.hacks.guide](https://3ds.hacks.guide) pour l'installer
@@ -18,7 +18,7 @@ Vous avez besoin d'un Custom Firmware sur votre 3DS, suivez [3ds.hacks.guide](ht
 1. Trouvez TWiLight Menu++ dans la grille d'applications, vous pouvez rechercher avec le 3ème onglet sur la barre latérale si vous avez du mal à le trouver
    - Il a cette icône: ![Icône TWiLight Menu ++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou tapez sur l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
-   - This will take a while
+   - Cela prendra un certain temps
 {% endcapture %}
 
 {% capture tab-non-working-camera %}
@@ -32,37 +32,37 @@ Vous avez besoin d'un Custom Firmware sur votre 3DS, suivez [3ds.hacks.guide](ht
 1. Trouvez TWiLight Menu++ dans la grille d'applications, vous pouvez rechercher avec le 3ème onglet sur la barre latérale si vous avez du mal à le trouver
    - Il a cette icône: ![Icône TWiLight Menu ++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou tapez sur l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
-   - This will take a while
+   - Cela prendra un certain temps
 {% endcapture %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Téléchargez la dernière version de `TWiLightMenu-3DS.7z` depuis la [page de téléchargement](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrayez `TWiLightMenu-3DS.7z`
+1. Copiez le dossier `_nds` à la racine de votre carte SD
+1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
+1. Copiez le dossier `roms` à la racine de votre carte SD
+1. Copiez les deux fichiers `.cia` à la racine de votre carte SD
+1. Sur votre 3DS, installez les deux CIAs avec FBI
 {% endcapture %}
 
-### Installing
+### Installation
 
 <div class="tab-container">
    <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Caméra fonctionnelle</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Caméra non fonctionnelle</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manuel</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h4>Working Camera</h4></noscript>
+      <noscript><h4>Caméra Fonctionnelle</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h4>Non-Working Camera</h4></noscript>
+      <noscript><h4>Caméra non fonctionnelle</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
+      <noscript><h4>Manuel</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>

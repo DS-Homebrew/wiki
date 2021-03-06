@@ -74,22 +74,22 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Dowiedz się, gdzie karta SD jest zamontowana
    - Linux:
       1. Odłącz adapter karty SD
-      1. Uruchom `lbslk` w terminalu
+      1. Run `lbslk` in a terminal
       1. Podłącz adapter karty SD
       1. Uruchom ponownie `lbslk`
       1. Tym razem powinno pojawić się nowe urządzenie
-         - Może (ale nie musi) się nazywać `/dev/sdb`, zapisz jak się nazywa na *Twoim* terminalu
+         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
       1. Odłącz adapter karty SD
-      1. Uruchom `df` w terminalu
+      1. Run `df` in a terminal
       1. Podłącz adapter karty SD
       1. Uruchom ponownie `df`
       1. Na liście powinno się pokazać nowe urządzenie
-         - Może (ale nie musi) się nazywać `/dev/disk1s1`, zapisz jak się nazywa na *Twoim* terminalu
+         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. Zrzuć NAND
-   - Uruchom te polecenia w terminalu:
+   - Run the following command in a terminal:
       - `cat {nazwa-urządzenia} > nand0.bin`
       - Zamień `{nazwa-urządzenia}` na lokalizację karty SD
       - N.p. ` cat /dev/sdb > nand0.bin`

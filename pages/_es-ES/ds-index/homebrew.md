@@ -11,9 +11,9 @@ description: Acerca del homebrew en la Nintendo DS
 
 A la hora de desarrollar homebrew para Nintendo DS, normalmente se usan las herramientas de devkitPro, como devkitARM, libnds y libfat. Sin embargo, se puede usar software alternativo:
 
-- **Librerías de tarjetas SD:** DevkitPro recomienda libfat. Nosotros recomendamos usar libslim, ya que permite el uso de diversas particiones, mayor velocidad y evitar bloqueos
-- **Librería gráfica:** Recomendamos usar easyGL2D, que viene integrado en libnds. También puedes usar NightFox Lib
-- **Cadenas de trabajo completas:** Recomendamos usar devkitARM y libnds, ya que tiene compatibilidad con DSi y un ecosistema más amplio. Sin embargo, si tu objetivo son solo flashcards para Nintendo DS, siéntete libre de usar ToolchainGenericDS
+- **SD Card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphic Library:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Entire Toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Flashcards
 

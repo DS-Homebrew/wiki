@@ -2,7 +2,7 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "Vejledninger"
 		},
 		{
 			"key": "reference",
@@ -12,23 +12,37 @@
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Installation"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Opdatering"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Tilpasning"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Andet"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Afinstallation"
+		}
+	],
+	"nds-bootstrap": [
+		{
+			"key": "other",
+			"title": "Other"
+		}
+	],
+	"gbarunner2": [],
+	"other": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
 		}
 	]
 }

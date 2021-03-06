@@ -8,20 +8,25 @@ description: 닌텐도 3DS에서 와이드스크린으로 TWiLight Menu++를 이
 ---
 
 구 / 뉴 닌텐도 3DS 또는 2DS 본체가 필요합니다.
+{:.alert .alert-info}
 
-**준비하기**
+### 준비하기
 - `boot.firm`이 SD의 루트에 저장되어있는지 확인합니다.
-- 업데이트에 TWiLight Menu++ Updater나 Universal-Updater를 사용했다면, TWiLight Menu++의 CIA를 FBI를 통해 설치해주세요.
 
-1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Luma config에서, external FIRMs와 modules를 활성화해주세요.
-1. TWPatch CIA를 설치해주세요.
-1. TWPatch를 실행해주세요.
-1. (Optional!) For a less pixelated widescreen, hold Y+B, and enable `GPU scale test (health hazard!)`
-1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
+### 설치하기
+1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Install `TWPatch.cia` using FBI
+   - You can also use Universal-Updater to install TWPatch instead of the previous two steps
+1. Return to the home menu and launch TWPatch
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scale test (health hazard!)`
+   - The "health hazard!" is because it gave the developer a headache due to its blurriness
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
    - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
+1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
+1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
+1. Open TWiLight Menu++ settings, switch to the `Misc settings` page, and set `Screen Aspect Ratio` to `16:10`
    - This can be done per-game as well
 
 모든 작업이 끝났습니다! DS 게임을 와이드스크린으로 즐기세요!

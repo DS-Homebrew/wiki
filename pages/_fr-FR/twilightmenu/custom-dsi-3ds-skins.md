@@ -1,37 +1,37 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to create DSi / 3DS skins
-description: How to make custom DSi and 3DS skins for TWiLight Menu++
+title: Comment créer des skins DSi / 3DS
+description: Comment créer des skins DSi et 3DS personnalisés pour le TWiLight Menu++
 ---
 
-The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+La façon la plus simple de personnaliser un thème est de modifier les textures png dans le thème `ui`, `batterie`, et/ou `volume` dossiers. Ces fichiers peuvent être n'importe quel png avec une mise en garde mineure dans la mesure où seuls les pixels qui sont 100% transparents seront rendus de manière transparente, toute autre opacité sera dessinée comme complètement opaque. En outre, toute partie qui est transparente dans l'un des jeux (ex. toutes les icônes de la batterie) doivent être transparentes dans tous les cas car les pixels transparents sont simplement ignorés plutôt que retournés en arrière-plan, donc toute partie qui est transparente dans certains seulement devrait avoir la texture de fond plutôt que la transparence. Ces textures sont autorisées à varier en taille, mais peuvent nécessiter une mise à jour de la configuration du thème pour être affichées correctement (voir ci-dessous).
 
-Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
+Les modifications apportées aux textures palettées sont plus importantes. Dans les dossiers `grille` et `background_grit` d'un thème, les divers fichiers d'image peuvent être modifiés. Vous aurez également besoin de [toolchains de devkitPro](https://devkitpro.org) avec GRIT installé. Une fois que vous avez terminé l'édition de vos fichiers, vous devez exécuter
 ```bash
 $ make
 ```
-in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the [advanced theming](#advanced-theming) section below.
+afin de compiler vos thèmes au format Grit RIFF. Cela compilera vos textures palettées au format **.grf** dans le dossier `grf`. N'apportez pas de modifications aux fichiers `.grit` tant que vous n'avez pas lu la section [thème avancé](#advanced-theming) ci-dessous.
 
-Be aware the paletted textures come with more restrictions than BMP textures, the primary being an absolute maximum of 16 colors per texture. However, some textures may have even tighter default palette restrictions, which can be modified at the risk of running out of palette memory (see below).
+Sachez que les textures palettées sont plus restrictives que les textures BMP, la première étant un maximum absolu de 16 couleurs par texture. Cependant, certaines textures peuvent avoir des restrictions de palette par défaut encore plus strictes, qui peuvent être modifiées au risque de manquer de mémoire de palette (voir ci-dessous).
 
-The example themes are in the [`romsel_dsimenutheme/resources/dsimenu_theme_examples` folder](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) in TWiLight Menu++'s repository. To download them, [download the repository](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) or clone it with git, then find that folder.
+Les exemples de thèmes sont dans le dossier [`romsel_dsimenutheme/resources/dsimenu_theme_examples` ](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) dans le référentiel du TWiLightMenu++. Pour les télécharger, [téléchargez le référentiel](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) ou clonez le avec git, puis trouvez ce dossier.
 
-## Theme file descriptions
+## Description des fichiers de Thèmes
 
-The `volume` and `battery` textures are self explanatory.
+Les textures du`volume` et de la`batterie` sont explicites.
 
-### Background textures (`background_grit` folder)
+### Textures d'arrière-plan ( dossier`background_grit`)
 
-| Texture            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| bottom             | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble      | The bottom background texture when hovering over an icon                                          |
-| bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
-| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top                | The top background                                                                                |
+| Texture            | Description                                                                                                                  |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| bottom             | La texture de fond du bas de la page lorsque vous ne passez pas au-dessus d'une icône                                        |
+| bottom_bubble      | La texture de fond du bas lorsque vous passez au-dessus d'une icône                                                          |
+| bottom_ds          | Pour le thème 3DS, la texture de fond du bas quand vous ne passez pas au-dessus d'une icône lorsque vous êtes sur un DS lite |
+| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite                                |
+| top                | The top background                                                                                                           |
 
 ### Paletted textures (`grit` folder)
 

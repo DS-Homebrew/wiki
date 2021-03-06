@@ -74,22 +74,22 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
 1. Derítsük ki, hogyaz SD kártya hova lett felcsatolva
    - Linux:
       1. Húzd ki az SD kártya adaptert
-      1. Futtasd a `lbslk` parancsot a terminálban
+      1. Run `lbslk` in a terminal
       1. Dugd be az SD kártya adaptert
       1. Futtasd a `lbslk` parancsot újra
       1. Ez alkalommal egy új eszköznek kell megjelennie
-         - Lehet, hogy `/dev/sdb`-nek hívják, jegyezd fel, hogyan hívják a *te* terminálodban
+         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
       1. Húzd ki az SD kártya adaptert
-      1. Futtasd a `df` parancsot a terminálban
+      1. Run `df` in a terminal
       1. Dugd be az SD kártya adaptert
       1. Futtasd a `df` parancsot újra
       1. Egy új eszköznek kell megjelennie a listában
-         - Lehet, hogy `/dev/disk1s1`-nek hívják, jegyezd fel, hogyan hívják a *te* terminálodban
+         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. A NAND dumpolása
-   - Futtasd a következő parancsot a terminálban:
+   - Run the following command in a terminal:
       - `cat {device-name} > nand0.bin`
       - Cseréld a `{device-name}` részt az SD kártya csatolási pontjára
       - Pl.: `cat /dev/sdb > nand0.bin`

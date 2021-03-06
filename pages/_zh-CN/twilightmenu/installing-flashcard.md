@@ -3,27 +3,27 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (Flashcard)
+title: 安装说明(烧录卡)
 description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
-### Installing
-1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
-1. Copy the `roms` folder to your flashcard's microSD card root
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+### 安装步骤
+1. 下载最新版本的`TWiLightMenu-Flashcard.7z`[点击下载](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. 解压缩`TWiLightMenu-Flashcard.7z`
+1. 拷贝 `_nds` 目录到烧录卡存储卡的根目录下
+1. 拷贝 `BOOT.NDS`文件到烧录卡存储卡的根目录
+1. 拷贝`roms` 目录到烧录卡存储卡的根目录
+1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
 1. ...
-   - **DS Phat/lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **DS Phat/lite 用户:** 如果使用 `BOOT.NDS` 起到导致白屏卡机，请插入一张DS存储扩展卡(DS Memory Expansion Pak)，然后重试
+   - **DSi/3DS 用户:** 在主机的SD卡上运行 TWLMenu++, 打开 `SCFG access in Slot-1`选项
+      - 这会让你在使用烧录卡使用TWL/VRAM速度更快, 包括加载主机SD卡的速度
 
-### To run games using your flashcard firmware
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+### 使用烧录卡固件运行游戏
+1. 将 `Flashcart Loader/(你的烧录卡)`内的文件移到烧录卡的存储卡根目录下
+   - 如果已完成，请看步骤3。 如果没有，请使用如下烧录卡的用户按照步骤继续操作
 
-1. For these flashcards:
+1. 如下烧录卡
    - R4i-SDHC
    - r4isdhc.com cards
    - r4isdhc.hk cards
@@ -37,13 +37,13 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
    - R4xDS
    - DSTT(i)
 
-   Install YSMenu from [here](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Set `Use nds-bootstrap (B4DS)` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   点击 [这里](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)安装YSMenu
+      - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`文件) 和 `TTMenu` 目录
+1. 将 `Use nds-bootstrap (B4DS)` 设置为 `No`, 这样烧录卡固件就会取代nds-bootstrap
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### 自动启动TWiLight Menu++
+1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
+   - 如果你的烧录卡没有请跳过本步骤
 1. ...
-   - **DS Phat/DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **DS Phat/DS Lite 用户:** 在DS设置菜单中打开自动运行，这样开机就会自动进入烧录卡
+   - **DSi/3DS 用户:** 在主机SD卡中运行TWLMenu++ 并开启 `Auto-start Slot-1`设置

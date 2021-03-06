@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
@@ -7,13 +7,13 @@ title: Custom Unlaunch Backgrounds
 description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
 ---
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
-- Only the first frame will be shown, no animated backgrounds
-- The file must be less than or equal to 15,472 bytes
-- GIFs with more than 31 colors require specially made palettes to prevent breaking the text
+Med TWiLight Menu+ + kan du infoga Unlaunch installatören för att ha en anpassad bakgrundsbild. Detta måste vara en 256 x 192 GIF, med några begränsningar:
+- Endast den första ramen kommer att visas, inga animerade bakgrunder
+- Filen måste vara mindre än eller lika med 15,472 byte
+- GIF:ar med mer än 31 färger kräver specialgjorda paletter för att förhindra att texten bryts
 
-### Installing
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
+### Installation
+1. Kopiera GIF-filen till `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
 1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
 1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
 1. Exit settings and launch `Unlaunch DSi Installer`

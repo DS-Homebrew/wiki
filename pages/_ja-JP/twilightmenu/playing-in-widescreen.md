@@ -1,33 +1,38 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: other
-title: Playing in Widescreen
-description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
+title: ワイドスクリーンでプレイ
+description: ニンテンドー3DSでTWiLight Menu++をワイドスクリーンでプレイする方法
 ---
 
-Requires an Old/New Nintendo 3DS or 2DS console.
+古い / Newニンテンドー3DS・2DSが必要です。
+{:.alert .alert-info}
 
-**Preparation**
-- Make sure Luma's `boot.firm` is on the SD root for this to work
-- If you used TWiLight Menu++ Updater or Universal-Updater to update, please install the latest TWiLight Menu++ CIAs using FBI
+### 準備
+- Lumaの`boot.firm`がSDルート上にあることを確認してください
 
-1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. In Luma config, enable external FIRMs and modules
-1. Install the TWPatch CIA
-1. Launch TWPatch
-1. (Optional!) For a less pixelated widescreen, hold Y+B, and enable `GPU scale test (health hazard!)`
-1. Press <kbd class="face">X</kbd> + <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 4 again
-   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. In the TWiLight Menu++ settings, switch the page to `Misc settings`, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+### インストール
+1. [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)をダウンロードし、`TWPatch.cia`をSDカードにコピーします（[GBAtempスレッド](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/)）
+1. FBIを使って、`TWPatch.cia`をインストールします
+   - また、前の2つの手順ではなく、Universal-Updaterを使ってTWPatchをインストールすることもできます
+1. ホームメニューに戻り、TWPatchを起動します
+1. <kbd class="face">Y</kbd>+<kbd class="face">B</kbd>を長押しし、` Widescreen patch (384x240 16:10)`を有効にします
+1. （任意！） ピクセス化されていないワイドスクリーンのために、`GPU scale test (health hazard!)`を有効にします
+   - 「health hazard!」（健康被害！）は、開発者がぼやけたために頭痛がしたからです
+1. <kbd>START</kbd>を押して、ワイドスクリーン付きの`TwlBg.cxi`ファイルを生成します
+   - 上画面はワイドパッチが有効であることを示していない場合は、手順3から再度開始します
+   - それでもワイドスクリーンが機能しない場合は、RTCom対応ワイドスクリーンがリリースために待ってください
+1. <kbd>SELECT</kbd>を押したまま3DSを再起動し、Luma3DSの設定を開きます
+1. `external FIRMs and modules`を有効にして、<kbd>START</kbd>を押して保存して終了します
+1. TWiLight Menu++設定を開き、`その他の設定`ページに切り替え、`画面アスペクト比`を`16:10`に設定します
+   - これはゲームごとにも行うことができます
 
-You're all done! Enjoy your DS games in widescreen!
+すべて完了しました！ ワイドスクリーンでDSゲームをお楽しみください！
 
-**NOTE1**: Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. For this to be fixed so only the widescreen-compatible games run in widescreen, wait for RTCom-activated widescreen to be released.
+**注意1**：DS(i)モードのすべてのゲーム・アプリは、ワイドスクリーンに対応していないゲームでも、ワイドスクリーンで実行されます。 これを修正して、ワイドスクリーン互換性のゲームのみをワイドスクリーンで実行されるために、RTCom対応ワイドスクリーンがリリースために待ってください
 
-**NOTE2:** Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched. If you don't see the screen aspect ratio setting, wait for RTCom-activated widescreen to be released.
+**注意2**：ワイドスクリーンがグリッチに見えないようにするには、TWLMenu++を起動する時に<kbd>START</kbd>または<kbd>SELECT</kbd>を長押ししない 画面アスペクト比の設定が表示されない場合は、RTCom対応ワイドスクリーンがリリースために待っていください
 
-Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+すべてのゲームがワイドスクリーン対応ではありません。 [ワイドスクリーン付きゲームのリストを作成しました](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)。

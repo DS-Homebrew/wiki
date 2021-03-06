@@ -29,8 +29,6 @@ Los rangos que provocan el desbordamiento están determinados por pares de a dos
 
 El crash no ocurrirá nunca si el Menú del Sistema se lanza desde un chip NAND (ya que llega a los 128 MB), pero un sistema de redirección (como hiyaCFW) puede hacer que salte. Afortunadamente, este fallo se puede arreglar fácilmente colocando archivos dummy para que el contador vuelva a un número positivo. hiyaCFW hará esto por ti en la última versión.
 
------
-
 En la versión 1.4.0, las firmas RSA de la Lista Blanca de Cartuchos de DS no están verificadas. Hay un exploit que involucra una invulnerabilidad en la lista blanca de flashcard de Nintendo DSi que permiten tomar el control del procesador ARM9. Se necesita la versión 1.4.0 (ha sido parcheado en versiones posteriores y no existía en versiones anteriores) y una flashcard con una ROM modificada.
 
 ### Acceso y bloqueo del Slot-1 de Nintendo DSi
@@ -49,3 +47,6 @@ Se utiliza un archivo `pit.bin` para cargar imágenes. Sin embargo, el tamaño d
 
 ### Bootstage 2 de Nintendo DSi
 En el segundo bootstage de la Nintendo DSi se carga en memoria el "title.tmd" del lanzador. Sin embargo, no se comprueba el tamaño del archivo, lo que significa que los primeros 80k bytes se cargan en la RAM mientras que el resto puede ser un payload propio. Esta es la base del exploit de Unlaunch.
+
+### RTCom
+RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of gbarunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).

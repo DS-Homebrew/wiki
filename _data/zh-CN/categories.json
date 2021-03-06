@@ -30,5 +30,19 @@
 			"key": "uninstalling",
 			"title": "卸载"
 		}
+	],
+	"nds-bootstrap": [
+		{
+			"key": "other",
+			"title": "Other"
+		}
+	],
+	"gbarunner2": [],
+	"other": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
 	]
 }

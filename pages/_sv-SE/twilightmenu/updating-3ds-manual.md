@@ -1,7 +1,7 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: redirect
 destination: 'updating-3ds?tab=manual#tab-manual'
-title: Updating (3DS, Manual)
+title: Uppdatering (3DS, Manuell)
 ---
 

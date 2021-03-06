@@ -4,23 +4,23 @@ layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: How to hardmod a Nintendo DSi
+description: Hur man hardmoddar en Nintendo DSi
 ---
 
-Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...
+Hardmodding är när du fysiskt lödar moderkortet till en SD-kortsadapter för att läsas på en dator. Detta är användbart för att återställa NAND-säkerhetskopior, visa NAND på din dator, etc...
 
 ### Nintendo DS
 [![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi / DSi XL (LL) you will need:
+För att hardmodda en Nintendo DSi / DSi XL (LL) så behöver du:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
-   - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
-   - SD to microSD adapter
-   - An SD card reader able to read eMMC chips running in single data-line mode. [Here's a known working one](https://www.amazon.com/dp/B006T9B6R2)
-   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) and [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) if on Windows
-   - A valid NAND backup of the DSi you are hardmodding
+   - [Mycket fin koppartråd](https://www.amazon.com/dp/B01MXGNTA4), 28AWG eller mindre, helst 30AWG+
+   - SD till microSD-adapter
+   - En SD-kortläsare som kan läsa eMMC-chips. [T.ex den här läsaren.](https://www.amazon.com/dp/B006T9B6R2)
+   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) och [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) om du använder Windows
+   - En giltig NAND-säkerhetskopiering av DSi:n som du hardmoddar
    - To be comfortable soldering to pads that are as small as 0.5mm in diameter
 
 #### DSi side A pinouts
@@ -74,22 +74,22 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 1. Work out where the SD card is mounted
    - Linux:
       1. Unplug the SD card adapter
-      1. Run `lbslk` on a terminal
+      1. Run `lbslk` in a terminal
       1. Plug in the SD card adapter
       1. Run `lbslk` again
       1. This time a new device should appear
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* terminal
+         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
       1. Unplug the SD card adapter
-      1. Run `df` on a terminal
+      1. Run `df` in a terminal
       1. Plug in the SD card adapter
       1. Run `df` again
       1. A new device should appear in the list
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* terminal
+         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. Dump the NAND
-   - Run the following command on a terminal:
+   - Run the following command in a terminal:
       - `cat {device-name} > nand0.bin`
       - Replace `{device-name}` with the SD card mount location
       - E.g `cat /dev/sdb > nand0.bin`

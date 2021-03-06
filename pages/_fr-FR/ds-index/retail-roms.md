@@ -8,34 +8,32 @@ description: Information related to retail DS games
 ---
 
 ### Anti-piratage
-
 AP (abréviation de anti-piratage) est une méthode utilisée par les développeurs pour imposer des achats légitimes et empêcher le piratage. Cela peut être contourné soit depuis le lanceur, soit depuis la ROM elle-même.
 
-- Avec nds-bootstrap, vous pouvez charger un fichier `.IPS` afin de contourner ces patchs. Ce fichier `.IPS` sera patché à directement dans nds-bootstrap, donc vous pouvez garder les fichiers ROM intacts. Un pack de fichiers `.IPS` est automatiquement inclus avec TWiLight Menu++.
+- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
 - Avec Wood R4, ces correctifs sont inclus dans le logiciel. Vous n'aurez pas besoin de modifier la ROM elle-même.
 
-Dans le cas où il n'y a pas de fichier `.IPS` pour votre ROM ou votre lanceur n'a pas patché votre ROM, vous pouvez essayer de modifier directement la ROM elle-même en utilisant l'outil [nds-scene](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
-### CloneBoot
+### Cloneboot
+Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
 
-Cloneboot, c'est quand un jeu envoie son propre binaire arm9/arm7 à une autre console. Il est utilisé pour le téléchargement DS, pour le multijoueur avec une seule carte. Mais tous les jeux qui ont le multijoueur avec une seule carte n'utilisent pas cloneboot.
+Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
 
-Actuellement, les patchs cloneboot de nds-bootstrap sont cassés à cause des patchs des binaires arm9/7 qui rendent les signatures RSA invalides.
-
-### Instructions pour Thumb
-Au lieu des instructions ARM normales 32 bits, THUMB utilise des instructions 16 bits. Ceci est utile lorsque la bande passante mémoire ralentit la console.
-
-### Fichiers de sauvegarde
-Les cartouches Nintendo DS ont 4 types de sauvegarde connus :
+### Save Files
+Nintendo DS cartridges have 4 known save types:
 
 - EEPROM - Mémoire programmable effaçable en lecture seule
 - FLASH
 - FRAM - Mémoire d'accès aléatoire ferroélectrique
 - NAND - NOT-AND
 
-Bien que rare, il y a des Cartouches DS avec des sauvegardes basées sur la NAND : WarioWare DIY & Jam with the band (USA)/Daigasso Band Brothers
+Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
-Il y a différents formats à utiliser selon le lanceur, mais nds-bootstrap utilise le format `.sav` brut. Si vous utilisez un format différent, voici un site web que vous pouvez utiliser pour le convertir : http://www.shunyweb.info/convert.php
+There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+
+### Assembly
+Assembly is the native language used for all DS software. Assembly code comes in the form of either ARM or THUMB instructions. THUMB instructions are a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instrcutions over the regular 32-bit instructions that ARM uses. You can find more info on Assembly instructions, as well as a lot more technical information for the DS and DSi, at [gbatek](https://problemkaputt.de/gbatek.htm).
 
 ### Lecture DMA de la carte
 Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. Lorsqu'il n'y a pas de données disponibles, le code peut toujours être exécuté. In software cartridge data reads, polling the register to see if there is new data wastes times. C'est le moyen privilégié d'accéder aux données.
@@ -43,19 +41,14 @@ Card DMA (stands for Direct Memory Access) is a more efficient way to read cartr
 Vous pouvez repérer un jeu qui utilise DMA dans no$gba en activant le log DMA sur ARM9. Un accès DMA à la carte utilise AF000001 comme troisième paramètre.
 - Par exemple : `DMA2 : 04100010 023C18C0 AF000001`
 
-### ROM donatrice
+### Action Replay Cheats
+Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
-Dans les versions précédentes de nds-bootstrap, une ROM Mario Kart DS était nécessaire pour que les jeux SDK3-4 puissent fonctionner ou sauvegarder. La ROM a agi comme une ROM donatrice. nds-bootstrap saisit le binaire arm7 du donateur, remplaçant le binaire arm7 de la ROM, afin que les correctifs de sauvegarde puissent fonctionner, ce qui a cependant provoqué quelques effets secondaires. Dans les versions ultérieures de nds-bootstrap, une ROM Donatrice est nécessaire pour que certains jeux THUMB ou SDK5 puissent démarrer et sauvegarder.
-
-### Cheats d'Action Replay
-
-Les cheats Action Replay sont des codes qui vous permettent de faire des changements programmables de bas niveau dans la zone mémoire de votre (vos) jeu(x) favori(s). Ces changements vont de simples ajustements de valeur à des réglages ASM extrêmement avancés, qui peuvent tous deux altérer l'expérience du ou des jeux joués.
-
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. Les noyaux suivants peuvent utiliser des cheats:
+Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Les solutions Homebrew/digital peuvent également tirer parti des bases de données de cheats, ces logiciels actuellement disponibles peuvent les utiliser:
+Homebrew/digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
   - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
@@ -67,8 +60,6 @@ Les solutions Homebrew/digital peuvent également tirer parti des bases de donn�
 
 For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
-Les cheat codes sont généralement de types A à E, voici une description des différents types:
+Cheat codes generally have types A through E, and here is a description of them:
 
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentiellement, c'est comme le type de code d'écriture de la RAM 32 bits (0x0), sauf qu'il n'y a pas d'adresses listées à la suite des valeurs que vous voulez écrire. Au lieu de cela, le type de code 0xE est programmé pour se brancher automatiquement à partir d'une adresse de départ, puis déterminer les adresses à écrire. À partir de là, il vous suffit de donner le montant à écrire pour qu'il fasse le travail.
-
-Crédits: (`DeadSkullzJr`)

@@ -1,0 +1,1 @@
+export default { 'pageIsInYourLanguage': 'Denne side er tilgængelig på dansk!' };

@@ -4,10 +4,10 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installing (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: Come installare TWiLight Menu++ su Nintendo 3DS
 ---
 
-You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+Devi avere prima il Custom Firmware sul tuo 3DS, segui [3ds.hacks.guide](https://3ds.hacks.guide) per installarlo
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}
@@ -18,7 +18,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. Trova TWiLight Menu++ nella griglia delle applicazioni, puoi effettuare una ricerca con la terza scheda sulla barra laterale se hai problemi a trovarla
    - L' app ha questa icona: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Premi <kbd class="face">A</kbd> oppure tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarla
-   - This will take a while
+   - Ci vorrà un po' di tempo
 {% endcapture %}
 
 {% capture tab-non-working-camera %}
@@ -32,20 +32,20 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. Trova TWiLight Menu++ nella griglia delle applicazioni, puoi effettuare una ricerca con la terza scheda sulla barra laterale se hai problemi a trovarla
    - L' app ha questa icona: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Premi <kbd class="face">A</kbd> oppure tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarla
-   - This will take a while
+   - L'operazione potrebbe richiedere un pò di tempo
 {% endcapture %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Scarica l'ultima versione di `TWiLightMenu-3DS.7z` dalla [pagina delle versioni](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Estrai `TWiLightMenu-3DS.7z`
+1. Copia la cartella `_nds` sulla root della tua scheda SD
+1. Copia il file `BOOT.NDS` nella root della tua scheda SD
+1. Copia la cartella `roms` nella root della tua scheda SD
+1. Copia i due file `.cia` nella root della scheda SD
+1. Sul tuo 3DS, installa i due file CIA con FBI
 {% endcapture %}
 
-### Installing
+### Installazione
 
 <div class="tab-container">
    <div class="pb-3">
@@ -62,7 +62,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
+      <noscript><h4>Manuale</h4></noscript>
       {{ tab-manual | markdownify }}
    </div>
 </div>

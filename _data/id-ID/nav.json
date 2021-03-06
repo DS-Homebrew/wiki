@@ -1,0 +1,35 @@
+[
+		{
+				"title": "Beranda",
+				"url": "/"
+		},
+		{
+				"title": "Projects",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "Other Projects",
+								"url": "/other"
+						}
+				]
+		},
+		{
+				"title": "Indeks DS",
+				"url": "/ds-index"
+		},
+		{
+				"title": "Community Info",
+				"url": "/community"
+		}
+]

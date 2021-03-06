@@ -1,29 +1,24 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: Information related to retail DS games
+title: Retail ROMar
+description: Information relaterad till kommersiella DS spel
 ---
 
-### Anti-Piracy
+### Anti-piratkopiering
+AP (kort för anti-piratkopiering) är en metod som används av utvecklare för att genomdriva lagliga inköp och förhindra piratkopiering. Detta kan kringgås antingen från lastaren eller själva ROMen.
 
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
+- För Wood R4 ändamål så ingår dessa i själva programvaran. Du behöver inte ändra själva ROMen.
 
-- For nds-bootstrap's purposes, you can load an `.IPS` file in order to circumvent said patches. This `.IPS` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.IPS` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
-In case there isn't a `.IPS` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+### Cloneboot
+Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
 
-### CloneBoot
-
-Cloneboot is when a game sends it's own loaded arm9/arm7 binary to another console. It is used for DS Download Play, for single-card multiplayer. Not all games that have single-card multiplayer uses cloneboot though.
-
-Currently, nds-bootstrap's cloneboot patches is broken due to arm9/7 binaries being patched, which makes the RSA signatures invalid.
-
-### Thumb instructions
-Instead of the 32-bit regular ARM instructions, THUMB use 16-bit instructions. This is useful when memory bandwidth is a bottleneck.
+Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
 
 ### Save Files
 Nintendo DS cartridges have 4 known save types:
@@ -37,18 +32,16 @@ Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam 
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
 
+### Assembly
+Assembly is the native language used for all DS software. Assembly code comes in the form of either ARM or THUMB instructions. THUMB instructions are a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instrcutions over the regular 32-bit instructions that ARM uses. You can find more info on Assembly instructions, as well as a lot more technical information for the DS and DSi, at [gbatek](https://problemkaputt.de/gbatek.htm).
+
 ### Card Read DMA
-Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+Kort DMA (står för Direct Memory Access) är ett effektivare sätt att läsa patrondata än genom programvara. När det inte finns någon tillgänglig data kan koden fortfarande köras. I programvarors kassett dataläsare, att undersöka registret för att se om det finns ny data slösar tid. Det är det föredragna sättet att komma åt data.
 
-You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
-
-### Donor ROM
-
-In previous nds-bootstrap versions, a Mario Kart DS ROM was needed for SDK3-4 games to work or save. The ROM acted as a Donor ROM. nds-bootstrap grabs the donor's arm7 binary, replacing the original ROM's arm7 binary, in order for the save patches to work, and there was a few side effects as a result. In later nds-bootstrap versions, a Donor ROM is needed for certain THUMB or SDK5 games to boot, as well as save.
+Du kan upptäcka när ett spel som använder dma via nr$gba genom att aktivera DMA-loggen på ARM9. En DMAs tillgång till kassettet använder AF000001 som den tredje parametern.
+- Till exempel: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Action Replay Cheats
-
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
 Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
@@ -57,18 +50,16 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 
 Homebrew/digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-  - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
-- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-  - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
+  - NitroHax tillåter dig använda fusk med riktiga spelkort från ett minneskort. Motorn som används här laddar hela cheats.xml-databasen in i Nintendo DS:ens begränsade RAM-minne och försöker hantera saker därifrån. Detta innebär att det finns en allvarlig gräns för hur många fusk du kan ha, eftersom NitroHax inte kommer att ladda en cheats.xml fil över 2.4 MB
+- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` eller `usrcheat.dat`)
+  - NitroHax3DS är en version av NitroHax som körs från systemets SD-kort på DSi eller 3DS. Den ursprungliga versionen använder cheats.xml med samma 2.4 MB gräns, men det finns också en fork som laddar fusk från en usrcheat.dat-databas utan storleksbegränsning
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-  - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-  - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
-  - Bootstrap 4 DS (the nds-bootstrap version used on flashcards) does not support cheats, due to not having enough RAM and the limitations of the Memory Expansion Pack
+  - TWiLight Menu++ läser `usrcheat.dat` och skickar de aktiverade fuskvärdena till en annan fil, som nds-bootstrap plockar upp
+  - Fuskmotorn som används i nds-bootstrap är baserad på den som används i NitroHax. Men på grund av fuskfilen som innehåller endast aktiverade fusk för den specifika titeln, finns det bara en gräns för hur många fusk som kan aktiveras, inte en gräns för databasens storlek
+  - Bootstrap 4 DS (den nds-bootstrap versionen som används på minneskort) stöder inte fusk, på grund av att det inte finns tillräckligt med RAM, och begränsningarna i Memory Expansion Pack
 
 For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
 Cheat codes generally have types A through E, and here is a description of them:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
-
-Credits: (`DeadSkullzJr`)
+- 0xE-kodtypen är en 32-bitars kodtyp som gör att du kan skriva i många adresser på en gång. I grund och botten så är det som den grundläggande 32-bitars RAM (0x0), förutom detta inte har adresser listade bredvid de värden du vill skriva. Istället är 0xE-kod-typen programmerad att automatiskt grena från en startadress och sedan bestämma adresserna att skriva till. Därifrån behöver du bara ta in det belopp du ska skriva till för att det ska kunna fungera.

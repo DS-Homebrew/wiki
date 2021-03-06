@@ -30,7 +30,7 @@ description: איך לייצור מעבירי משחקים בקובץ CIA על �
 - Galaxy Eagle
 - M3 DS Real
 - [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (משתמש בכרטיסי מיקרו SD בנפח <2GB)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses <2GB microSD card)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (המקורי, לא גרסת הSDHC, משתמש בכרטיסי מיקרו SD <2GB)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -38,56 +38,56 @@ description: איך לייצור מעבירי משחקים בקובץ CIA על �
 - [R4iDSN](http://3ds-flashcard.com/home/28-r4idsn-3ds.html)
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
-- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Normal and RTS versions)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Purple card may be incompatible)
+- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (גרסה רגילה וRTS)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (כרטיסים סגולים עלולים לא להיות תואמים)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
-- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normal and Plus versions)
+- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (גרסה רגילה וPlus)
 
-Untested:
-- R4i3D NEW (Use R4iDSN template and pack)
+לא נבדק:
+- R4i3D NEW (השתמשו בתבנית ובחבילה של R4iDSN)
 
-Partially compatible:
-- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing.)
-- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing.)
+נתמכים חלקית:
+- Ace 3DS+ (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
+- Gateway Blue Card (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
+- EX4DS (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
+- R4iLS (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
+- כרטיסים עם [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
 
-Incompatible:
-- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
-- (i)Edge (Unable to autoboot a .nds ROM)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com)/[www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
+אינו תואם:
+- CycloDS (i)Evolution (יכול להפעיל בטעינה רומים, אבל עובד שונה מפלאשקארדים אחרים)
+- (i)Edge (לא מסוגל להפעיל בטעינה רום .nds)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com)/[www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (לא פעולת המעבירים) גורמים לבריק לקלטת)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (not the forwarder process) bricks the card)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (לא פעולת המעבירים) גורמים לבריק לקלטת)
 {% endcapture %}
 
 <details>
-    <summary>Supported flashcards</summary>
+    <summary>פלאשקארדים נתמכים</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
 </details>
 
 PC:
-- A 64 bit OS
+- מערכת הפעלה 64 ביט
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux users:** JavaFX
+- **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
-### Part 1: Getting Started
+### חלק 1: צעדים ראשונים
 {% capture tab-sd-card %}
-1. Download the [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Extract the contents of the `for SD card root` folder to the root of your 3DS's SD card
+1. הורידו את [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
+1. חלצו את התוכן של התיקיה `for SD card root` לכרטיס הSD של ה3DS שלכם
 
-After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change the settings:
-- `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
-- `SOUND_FREQ`: If set to 1, sound will play at 48khz, instead of 32khz
+לאחר שתחלצו את החבילה, תוכלו לערוך את `sd:/_nds/nds-bootstrap.ini` על מנת לשנות את ההגדרות:
+- `BOOST_CPU`: אם מוגדר ל1, מהירות השעון של TWL תהיה בשימוש והלאג יעלם
+- `SOUND_FREQ`: אם מוגדר ל1, צלילים ינוגנו ב48khz במקום ב32khz
 {% endcapture%}
 
 {% capture tab-flashcard %}
-1. Download one of these packs:
+1. הורידו את אחת מהחבילות הבאות:
    - [Original R4/M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i)/M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
@@ -96,48 +96,48 @@ After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change
    - [Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
+1. חלצו את התוכן של התיקייה `for Slot-1 microSD` אל כרטיס המיקרו SD של הפלאשקארד שלכם וגם (אם התיקייה קיימת) את התוכן של התיקיה `for 3DS SD card` לכרטיס הSD של ה3DS שלכם.
 
-לאחר שתחלצו את החבילה עבור הכרטיס שלכם, תוכלו לערוך את `sd:/_nds/ntr_forwarder.ini` על מנת לשנות את ההגדרות. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
-- `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
-- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
-- `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+לאחר שתחלצו את החבילה עבור הכרטיס שלכם, תוכלו לערוך את `sd:/_nds/ntr_forwarder.ini` על מנת לשנות את ההגדרות. זה לא אפשרי עבור Acekard RPG, R4 DS וR4i Gold RTS.
+- `NTRCLOCK`: אם מוגדר ל`0` או ש<kbd class="face">A</kbd> מוחזק, מסך העליה של הDSi יוצג במקום מסך העליה הרגיל של הDS ומהירות השעון של TWL תהיה בשימוש והלאג יעלם
+- `DISABLEANIMATION`: אם מוגדר ל`1` או ש<kbd class="face">B</kbd> מוחזק, מסך העליה של הDS / DSi ידולג
+- `HEALTHSAFETYMSG`: אם מוגדר ל`1`, מסך הבריאות ובטיחות של העליה יוצג במסך התחתון, אחרת המסך התחתון ישאר לבן ללא הודעה בריאות ובטיחות
 {% endcapture %}
 
 <div class="tab-container">
     <div class="pb-3">
-        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD Card</a>
-        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
+        <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">כרטיס SD</a>
+        <a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">פלאשקארד</a>
     </div>
     <div id="tab-sd-card">
-        <noscript><h4>SD Card</h4></noscript>
+        <noscript><h4>כרטיס SD</h4></noscript>
         {{ tab-sd-card | markdownify }}
     </div>
     <div id="tab-flashcard">
-        <noscript><h4>Flashcard</h4></noscript>
+        <noscript><h4>פלאשקארט</h4></noscript>
         {{ tab-flashcard | markdownify }}
     </div>
 </div>
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
-If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. In the 7z file, go to `_nds/TWiLightMenu/`
-1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+### חלק 2: קבלת קבצי תיקון האנטי פיראטיות (AP) מTWiLight Menu++
+אם יש לכם כבר את TWiLight Menu++, דלגו לחלק הבא.
+1. הורידו את הגרסה האחרונה של `TWiLightMenu-3DS.7z` מה[release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. בקובץ ה7z, לכו ל`_nds/TWiLightMenu/`
+1. העתיקו את התיקיה `apfix` אל `sd:/_nds/ntr-forwarder/` בכרטיס הSD של ה3DS שלכם
 
-### Part 3: Forwarder3-DS
-1. Open `Forwarder3DS.jar`
-   - If it doesn't open, make a new text file in the same folder as Forwarder3DS.jar containing `java -jar Forwarder3DS.jar` and save it as `Forwarder3DS.bat` and run that (make sure there is no `.txt` at the end)
-1. Set your card as the `Target` on the left
-   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
-1. Enable `Automatically set ROM path`
-   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
-   - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
-1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
-   - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
-   - **SD card users:** If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
-1. If you're playing a hack / translation of a DSi-Enhanced game that has it's banner / title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
-1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
-1. Click the floppy disk button to generate the forwarder CIA(s)
-1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-   - If using EmuNAND, install to both SysNAND and EmuNAND
+### חלק 3: Forwarder3-DS
+1. פתחו את `Forwarder3DS.jar`
+   - אם הוא לא נפתח, יצרו קובץ טקסט חדש באותה תיקיה עם Forwarder3DS.jar המכיל את השורה `java -jar Forwarder3DS.jar`, שמרו אותו כ`Forwarder3DS.bat` והריצו אותו במקום (ודאו שאין `.txt` בסוף שם הקובץ)
+1. הגדירו את כרטיס שלכם כ`Target` בצד שמאל
+   - **הערה:** אם אתם לא רואים רשימה של כרטיסים, הורידו [את קובץ הZIP הזה](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), ושימו את התיקיה `forwarders` באותה תיקיה כמו Forwarder3DS.jar ואז שנו אות השם ל`.forwarders`
+1. הפעילו את `Automatically set ROM path`
+   - **משתמשי Linux:** הדרך האוטומטית לא נכונה מאחר והיא כוללת את כל הדרך (לדוגמה `/media/$USER/something/`), בבקשה מחקו את החלק הזה
+   - **משתמשי macOS:** הדרך האוטומטית לא נכונה מאחר והיא כוללת את `/Volumes/(cardname)/` בהתחלה, בבקשה מחקו את החלק הזה
+1. לחצו על התיקיה בפינה הימנית העליונה ובחרו את הרומים שתרצו להכין עבורים מעבירים, או גררו ושחררו אותם על החלון
+   - **הערה:** קבצי הרום חייבים להיות כבר על כרטיס הSD שלכם כשאתם בוחרים אותם, ולא ניתן להזיזם בלי ליצור מחדש את המעבירים
+   - **משתמשי כרטיס SD:** אם קבצי השמירה שלכם נמצאים באותה תיקיה עם הרומים, העבירו אותם לתיקיה בשם `saves` כאשר התיקיה הזו נמצאת באותו מקום עם הרומים
+1. אם אתם משחקים בגרסת האק או תרגום של משחק DSi-Enhanced שהבאנר או הכותרת שלו שונו, מצאו את הבאנר [כאן](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), לחצו מקש ימיני על המשחק בForwarder3-DS, לחצו על `Import banner` ובחרו את הבאנר לשימוש
+1. אם אתם משתמשים ברום של הומברו, לחצו עליו, מחקו את ה `Game title` שלו ורשמו את השם של המשחק
+1. לחצו על הכפתור של הדיסקט ליצור הCIAים של המעבירים
+1. העתיקו את הCIAים לכרטיס הSD של ה3DS שלכם, והתקינו אותם באמצעות FBI
+   - אם אתם משתמשים בEmuNAND, התקינו אותם גם לSysNAND וגם לEmuNAND

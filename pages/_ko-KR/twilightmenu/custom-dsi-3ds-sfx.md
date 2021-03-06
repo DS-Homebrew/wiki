@@ -32,11 +32,11 @@ TWiLightMenu는 테마에서 커스텀 사운드를 지원합니다. 사용할 �
 ### 부팅 음악
 While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
 
-The startup.wav file must be **16-bit 16kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+startup.wav 파일은 반드시 **16-bit 16kHz** 형식이어야 합니다. 이 형식으로 변환하기 위해 [Audacity](https://www.audacityteam.org/download/)를 사용해볼 수 있습니다. Audacity에 파일이 로딩되었으면, **Project Rate (Hz)**를 **16000**으로 변경하고, **Shift+M**을 누른 다음, **Format**을 **16-bit PCM**으로 변경합니다.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+사용하려는 파일이 스테레오라면, **Tracks > Mix > Mix Stereo down to Mono**를 순서대로 진행하세요.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+부팅 음악을 재생하고 싶으시면, 사용자의 `theme.ini`에서 `PlayStartupJingle=1`로 설정해주세요.
 
 
 ## 메뉴 배경음악

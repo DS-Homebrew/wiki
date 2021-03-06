@@ -29,8 +29,6 @@ A tartományok, amik túlcsordultatják kettes csoportokban jelenkeznek. Példá
 
 Ez a hiba soha nem fordul elől, ha a System Menu a NAND chipről bootolunk (mivel azok maximum 128 MB méretűek) de egy átirányító rendszer (mint például a hiyaCFW) ezt a hibát indukálhatja. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
 
------
-
 Az 1.4.0 verzióban az RSA aláírások a a DS Cart fehérlistában nem ellenőrzöttek. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
 
 ### Nintendo DSi Slot-1 hozzáférés & letiltás
@@ -49,3 +47,6 @@ A `pit.bin` fájl alapján kerül a képek betöltésének sorrendje meghatároz
 
 ### Nintendo DSi 2. Bootstage
 A Nintendo DSi második bootstage tölti be a launcher "title.tmd"-jét a memóriába. Azonban ez nem végez fájlméret ellenőrzést, ami azt jelenti, hogy az első 80k bájt betöltésre kerül a RAM-ba, miközben a többi az egyedi payload lehet. Ez az alapja az Unlaunch exploit-nak.
+
+### RTCom
+RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of gbarunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).

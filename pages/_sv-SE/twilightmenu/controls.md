@@ -1,45 +1,45 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: other
-title: Controls
-description: Controls for using TWiLight Menu++
+title: Kontroller
+description: Kontroller för att använda TWiLight Meny++
 ---
 
-#### Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes
-- <kbd>Left</kbd> / <kbd>Right</kbd>: Select a game / app
-- <kbd class="face">A</kbd> / <kbd>START</kbd>: Launch game / app
-- <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd> / <kbd>Right</kbd>: Switch pages
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd> / <kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
-- <kbd class="face">X</kbd>: Delete/hide game
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
+#### Nintendo DSi, Nintendo 3DS, SEGA Saturnus och Homebrew Launcher teman
+- <kbd>Vänster</kbd> / <kbd>höger</kbd>: Välj ett spel / app
+- <kbd class="face">A</kbd> / <kbd>START</kbd>: Starta spel / app
+- <kbd class="l">L</kbd> / <kbd class="r">R</kbd> eller <kbd>SELECT</kbd> + <kbd>Vänster</kbd> / <kbd>Höger</kbd>: Byt sidor
+- (DSi/Saturn/HBL teman) <kbd>SELECT</kbd> + <kbd>Upp</kbd> / <kbd>Ner</kbd> & släpp <kbd>SELECT</kbd>: Växla mellan SD-kort och minneskort
+- <kbd class="face">Y</kbd>: Spelspecifika inställningar
+   - <kbd class="face">X</kbd>: Fuskmeny
+      - <kbd class="face">A</kbd>: Växla på/av fusk
+      - <kbd class="face">B</kbd>: Avsluta fuskmenyn
+      - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
+      - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
+      - <kbd class="l">L</kbd>: Inaktivera alla fusk
+- <kbd class="face">X</kbd>: Ta bort/dölj spel
+- (DSi/Saturn/HBL teman) <kbd>SELECT</kbd>: SELECT menyn eller DS Classic menyn (Där systemmenyn, TWLMenu++ inställningar och GBA-läge kan nås)
 
-#### R4 theme
-- <kbd>Up</kbd> / <kbd>Down</kbd>: Select a game / app
-- <kbd class="face">A</kbd>: Launch game / app
-- <kbd class="l">L</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
+#### R4 tema
+- <kbd>Upp</kbd> / <kbd>Ner</kbd>: Välj ett spel / app
+- <kbd class="face">A</kbd>: Starta spel / app
+- <kbd class="l">L</kbd>: Växla mellan SD-kort och minneskort
+- <kbd class="face">Y</kbd>: Spelspecifika inställningar
+   - <kbd class="face">X</kbd>: Fuskmeny
+      - <kbd class="face">A</kbd>: Växla på/av fusk
+      - <kbd class="face">B</kbd>: Avsluta fuskmenyn
+      - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
+      - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
+      - <kbd class="l">L</kbd>: Inaktivera alla fusk
 
-#### With CFW: DS ROMs (on SD) / carts
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++ (If using an O3DS, then it does not work on all models)
+#### Med CFW: DS ROM (på SD) / vagnar
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Ner</kbd> + <kbd class="face">B</kbd> i 2 sekunder: Återgå till TWiLight Menu++ (om du använder en O3DS så fungerar det inte på alla modeller)
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### Boot genvägar
+Dessa bör tryckas på TWiLight Menu+ + startskärm / direkt efter Nintendo DSi:ens startskärm.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM or vice versa depending on if autobooting the last ran ROM is enabled
+- <kbd>SELECT</kbd>: Öppna inställningar
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Återställ alla TWiLight Menu++ inställningar
+- <kbd class="face">B</kbd>: Starta den senaste körda ROMen eller vice versa beroende på om inställningen för att automatiskt starta den senaste körda ROMen är aktiverad

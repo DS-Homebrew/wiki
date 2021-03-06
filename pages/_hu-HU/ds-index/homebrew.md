@@ -11,9 +11,9 @@ description: Információk a homebrew-ról Nintendo DS-en
 
 Nintendo DS Homebrew fejlesztése tipikusan devkitPro eszközöket igényel, mint például devkitARM, libnds, és libfat. Azonban lehetőség van más ágakról alternatív szoftvert használni:
 
-- **SD kártya könyvtárak:** A DevkitPro a libfat-et ajánlja. Mi a libslim-et ajánljuk helyette, mert lehetővé teszi a használatát különböző partícióknak, gyorsabb sebességű, és nem blokkoló
-- **Grafikus könyvtár:** Mi az easyGL2D-t ajánljuk, ami a libnds-sel érkezik. Azonban használhatod a NightFox Lib-et is
-- **Teljes eszköztárak:** Mi a devkitARM-ot és a libnds-t ajánljuk, ami tartalmazza a DSi kompatibilitást és nagyobb ökoszisztémája van. Azonban ha a cél kizárólag flashcard a Nintendo DS-en, nyugodtan használhatod a ToolchainGenericDS-t
+- **SD Card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphic Library:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Entire Toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Flashcard-ok
 

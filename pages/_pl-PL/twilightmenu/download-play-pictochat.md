@@ -22,4 +22,4 @@ Skopiuj do `sd:/_nds/`i zmień nazwę na `dlplay.nds`.
 Powyższe kroki zwiększą prędkość rozruchu DLP.
 
 Aby uruchomić Pictochat na 3DS (wymagany DSi):
-- Skopiuj `pictochat.nds` z `sd:/_nds/` na karcie SD DSi, do `sd:/_nds/` karty SD 3DSa Najpierw musisz uzyskać dostęp do DS Classic Menu w TWiLight Menu++ na DSi.
+- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.

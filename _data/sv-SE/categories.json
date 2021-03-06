@@ -2,33 +2,47 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "Guider"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "Referens"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Installing"
+			"title": "Installation"
 		},
 		{
 			"key": "updating",
-			"title": "Updating"
+			"title": "Uppdatering"
 		},
 		{
 			"key": "customization",
-			"title": "Customization"
+			"title": "Anpassning"
 		},
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Annat"
 		},
 		{
 			"key": "uninstalling",
-			"title": "Uninstalling"
+			"title": "Avinstallering"
+		}
+	],
+	"nds-bootstrap": [
+		{
+			"key": "other",
+			"title": "Other"
+		}
+	],
+	"gbarunner2": [],
+	"other": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
 		}
 	]
 }

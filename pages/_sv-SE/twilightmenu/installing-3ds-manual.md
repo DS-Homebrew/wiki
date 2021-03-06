@@ -2,6 +2,6 @@
 lang: sv-SE
 layout: redirect
 destination: 'installing-3ds?tab=manual#tab-manual'
-title: Installing (3DS, Manual)
+title: Installation (3DS, Manuell)
 ---
 

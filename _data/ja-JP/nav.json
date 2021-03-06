@@ -4,11 +4,32 @@
 				"url": "/"
 		},
 		{
-				"title": "TWiLight Menu++",
-				"url": "/twilightmenu"
+				"title": "プロジェクト",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "その他のプロジェクト",
+								"url": "/other"
+						}
+				]
 		},
 		{
 				"title": "DSインデックス",
 				"url": "/ds-index"
+		},
+		{
+				"title": "コミュニティ情報",
+				"url": "/community"
 		}
 ]
