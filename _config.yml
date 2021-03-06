@@ -24,11 +24,15 @@ collections:
     output: true
   hu-HU:
     output: true
+  id-ID:
+    output: true
   it-IT:
     output: true
   ja-JP:
     output: true
   ko-KR:
+    output: true
+  nl-NL:
     output: true
   no-NO:
     output: true
