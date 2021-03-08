@@ -1,69 +1,69 @@
 ---
-lang: en-US
+lang: pl_PL
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Rules
-description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: Zasady DS⁽ⁱ⁾ Mode Hacking
+description: Zasady serwera Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-### Do NOT impersonate, trash talk or otherwise act disrespectful to others and their beliefs.
+### Nie podszywaj się, nie obrażaj oraz nie zachowuj się niemiło i bez szacunku wobec innych.
 
-- This applies especially to those offering their time for the community. (such as helpers or developers)
-- We will NOT tolerate insensitivity, regardless of whether the member is in the community or not.
-- Respect user privacy; Avoid attempts to communicate with users who aren't comfortable doing so or sharing information about them that they don't want shared.
-- Do NOT backseat moderate or try to "help" when a moderator is dealing with a situation. You hold no authority, so leave actual rule handling to staff.
-     - Reminders are fine, as long as you don't try to enforce them.
-- When knowing who created a piece of art, credit those content creators.
-
-
-### Do NOT bring the chat quality down.
-
-Examples include:
-- Asking to be spoon-fed information or spoon-feeding others
-- Asking for release dates for projects; It's ready when it's ready
-- Asking to ask; by asking to ask, you just asked
-- Requesting information that is either obvious or you could find with a little bit of research on your end (such as googling for links instead of asking for them to be handed to you)
-   - Important information will be held over at [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
-   - Check the channel topic & pinned messages; it most likely contains what you are looking for.
-- Intentionally elongating your message (for example: sending few words per message leaving it into a "popcorn" situation)
-- Repeating messages, whether it is repeated in the same channel or in multiple channels.
-     - If you're unsure where to post your message, post it in the one that makes the most sense.
-     - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
-- Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages. Use [mystbin](https://mystb.in/) for longer messages instead.
+- Dotyczy to w szczególności tych, którzy poświecają swój czas społeczności. (Osoby z rolą Helpers i Developers)
+- Nie będziemy tolerować niewrażliwości, nieważne czy ta osoba jest członkiem społeczności czy nie.
+- Szanuj prywatność; Nie próbuj rozmawiać z osobami, które tego sobie nie życzą i nie podawaj czyichś informacji bez ich zgody.
+- Nie próbuj moderować sam albo "pomagać", kiedy moderator robi coś z daną sytuacją. Nie masz żadnych uprawnień, więc moderowanie zostaw nam.
+     - Przypomnienia są w porządku, dopóki nie będziesz zmuszał kogoś do ich przestrzegania.
+- Jeśli wiesz kto zrobił daną część sztuki, napisz kto to zrobił.
 
 
-### Do NOT randomly send Discord server invite links with no context & without explicit staff permission
+### Nie obniżaj jakości czatu.
 
-- Giving links to other discord servers on request is allowed, but please ask a moderator in Direct Messages before advertising a server without prior context
-- DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules. Mass-DM advertisement (with proof) will land you a ban
-- Breaking this rule will result in your message containing the advertisement being deleted
-- Joining for the purpose of advertising your discord server will land you a ban.
+Na przykład:
+- Nie pytaj o oraz nie podawaj łatwo dostępnych informacji
+- Nie pytaj o daty wydania projektów; Będzie gotowe, kiedy będzie
+- Nie pytaj się czy możesz się o coś zapytać; pytasz się, kiedy pytasz o pytanie
+- Nie proś o oczywiste informację, które są oczywiste albo które możesz znaleźć za pomocą krótkiego szukania (zamiast pytać się o linki poszukaj ich sam)
+   - Ważne informacje znajdują się w [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
+   - Sprawdź temat kanału i przypięte wiadomości; najprawdopodobniej tam jest to, czego szukasz.
+- Nie wydłużaj specjalnie wiadomości (np. wysyłanie kilku wiadomości po kilka słów zamiast jednej, długiej)
+- Nie wysyłaj w kółko tych samych wiadomości, bez względu na to czy to w jednym kanale czy w kilku.
+     - Jeśli nie jesteś pewien gdzie wysłać wiadomość, wyślij ją tam, gdzie ma to najwięcej sensu.
+     - Jeśli nadal nie jesteś pewien, spytaj się w [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
+- Nie wysyłaj wiadomości dla samego wysyłania, jeśli chcesz coś napisać, niech to będzie coś wartościowego (nie narzekaj, że czat jest martwy, wyślij coś więcej niż powitanie, czy copypastę)
+- Nie wysyłaj bardzo długich wiadomości. Jeśli chcesz wysłać coś dłuższego, użyj [mystbin](https://mystb.in/).
 
 
-### Keep conversations within their respective channels.
+### Nie wysyłaj zaproszeń do serwerów Discord bez kontekstu i bez pozwolenia moderacji
 
-- Even if they are related, sometimes another channel would be more suitable.
-- Sometimes, even an entirely different server is preferable. We don't have the answers to everything.
-   - Different related servers are linked to in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283)
+- Wysłanie linków do innych serwerów jest w porządku jeśli ktoś o to poprosi, ale jeśli chcesz jakiś zareklamować, poproś o pozwolenie moderatora w prywatnej konwersacji
+- Reklamy w prywatnych konwersacjach są zakazane przez Regulamin Usług Discorda i przez nasz regulamin. Jeśli ktoś ma dowód, że masowo reklamowałeś w PW, zbanujemy Cię
+- Złamanie tej zasady spowoduje usunięcie reklamy
+- Jeśli dołączyłeś na serwer tylko w celu reklamy, to Cię zbanujemy
 
 
-### You may not have an alternative account on this server
+### Zachowaj rozmowy w odpowiednim kanale.
 
-- One account per person at a time (except when approved by a staff member). Be sure to leave this server on your other account before joining with a new one.
-- Punishments apply to the person, not the account. Any subsequent accounts made for the purposes of punishment evasion will result in both accounts being banned. ‎
+- Nawet jeśli są powiązane, czasami inny kanał może być bardziej odpowiedni.
+- Czasami nawet lepszy będzie całkowicie inny serwer. Nie mamy odpowiedzi na wszystko.
+   - Inne serwery znajdują się w [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283)
 
-### Do NOT recommend video guides.
 
-- Video guides aren't maintained very well (which leads to the videos being outdated and unreliable in the long term) and negligent for the sake of "user accessibility".
-- We have a list of guides in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) you could use instead. ‎
+### Nie możesz mieć dwóch kont na serwerze
 
-### Keep names exclusively alphanumeric, to keep them easy to read and tag.
+- Jedno konto na raz na osobę (chyba że moderacja się zgodzi). Upewnij się, że opuścisz serwer zanim dołączysz innym kontem.
+- Kary są wobec osoby, nie konta. Każde następne konto stworzone w celu unikania kary będzie zbanowane. ‎
 
-- Users with an (normally) unmentionable or unreadable username/nickname by normal means will be assigned a new nickname.
-  - If we have to flip our displays to read your name, it's an abnormal way.
-  - If we have to get your User ID in order to mention you, it's an abnormal way.
+### Nie polecaj jakichkolwiek przewodników wideo.
+
+- Przewodniki wideo nie utrzymują się za dobrze (co prowadzi do tego, że przewodniki są przestarzałe) i są zaniedbywane w celu "dostępności użytkownika".
+- Mamy listę przewodników, których możesz użyć, w [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283). ‎
+
+### Dopilnuj tego, by twój nick zawierał tylko znaki alfanumeryczne, żeby był łatwy do odczytania i otagowania.
+
+- Użytkownicy z nickiem, którego nie da się pingnąć czy przeczytać w normalny sposób, będą mieli przyznaną inną nawę.
+  - Jeśli musimy obrócić nasz ekran, by przeczytać Twój nick, to znaczy, że jest coś z nim nie tak.
+  - Jeśli musimy wziąć twoje ID Użytkownika, żeby Cię pignąć, to znaczy, że z nickiem jest coś nie tak.
 - Avoid purposely putting characters in the beginning of the name to change your spot in the member list. You'll get those characters removed.
 
 

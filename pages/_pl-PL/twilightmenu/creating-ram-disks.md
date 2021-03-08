@@ -19,7 +19,7 @@ Instrukcje @Dakkon7, zmodyfikowane przez RocketRobz:
 1. W **Disk Size** wpisz `12` jeśli masz DSi, `28` jeśli masz 3DS. Nad **Max 1023 MB**
 1. Odznacz **Utwórz katalog TEMP**, jeśli jest oznaczony
 1. Kliknij **Load/Save**
-1. Kliknij `Start RAMDisk`, powinno ci sie pojawić okienko dla twojego pliku .img
+1. Kliknij `Start RAMDisk`, powinno Ci sie pojawić okienko dla twojego pliku .img
 1. Umieść każdy plik i/lub folder wymagany przez homebrew albo/i plik(i), które chcesz używać
 1. W programie RAMDisk, kliknij `Save Disk Image Now`
 1. Zapisz `romname.img` w folderze o nazwie `ramdisks` w lokalizacji pliku .nds

@@ -30,7 +30,7 @@ TWiLightMenu는 테마에서 커스텀 사운드를 지원합니다. 사용할 �
 최종적으로 *sfx.bin*은 **512000B = 512KB를 넘어서는 안됩니다**. 이것보다 높을 경우, 충돌을 일으키거나 사운드가 끝까지 재생되지 않을 수 있습니다.
 
 ### 부팅 음악
-While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+다른 사운드 효과는 WAV 파일에서 작동하지만, 시작 사운드는 제대로 작동하려면 특정 형식이어야 하며, 그렇지 않으면 시작 사운드가 중지되는 시점과 배경 음악이 시작되는 시점 사이에 차이가 있을 수 있습니다.
 
 startup.wav 파일은 반드시 **16-bit 16kHz** 형식이어야 합니다. 이 형식으로 변환하기 위해 [Audacity](https://www.audacityteam.org/download/)를 사용해볼 수 있습니다. Audacity에 파일이 로딩되었으면, **Project Rate (Hz)**를 **16000**으로 변경하고, **Shift+M**을 누른 다음, **Format**을 **16-bit PCM**으로 변경합니다.
 
@@ -41,18 +41,18 @@ startup.wav 파일은 반드시 **16-bit 16kHz** 형식이어야 합니다. 이 
 
 ## 메뉴 배경음악
 
-Menu BGM needs to be a **16-bit 16kHz Mono** raw PCM file. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+메뉴 배경음악은 **16-bit 16kHz 모노** raw PCM 파일이여야 합니다. 이 형식으로 변환하기 위해 [Audacity](https://www.audacityteam.org/download/)를 사용해볼 수 있습니다. Audacity에 파일이 로딩되었으면, **Project Rate (Hz)**를 **16000**으로 변경하고, **Shift+M**을 누른 다음, **Format**을 **16-bit PCM**으로 변경합니다.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+사용하려는 파일이 스테레오라면, **Tracks > Mix > Mix Stereo down to Mono**를 순서대로 진행하세요.
 
-To export in the correct format, do:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+맞는 포맷으로 추출하기 위해 할 것:
+1. `File` > `Export` > `Export Audio...`를 선택합니다.
+1. `File Type`을 `Other uncompressed files`로 설정합니다.
+1. `Header`를 `RAW (header-less)`로 설정합니다.
+1. `Encoding`을 `Signed 16-bit PCM`로 설정합니다.
+1. 이름을 `bgm.pcm.raw`로 설정하고 `Save`를 누릅니다.
+1. 메타데이터 수정을 위해 `OK`를 누릅니다.
 
-Now you have a `bgm.pcm.raw` file that can be copied to the *sound* subfolder in your theme folder.
+이제 만들어진 `bgm.pcm.raw` 파일을 복사하여 사용자의 테마 폴더 안에 *sound* 하위 폴더를 만든 후 붙여넣으세요.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+sfx.bin 파일과는 다르게, *bgm.pcm.raw* 파일은 용량이 얼마든지 커도 좋습니다.

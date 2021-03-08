@@ -10,29 +10,29 @@ description: Kereskedelmi DS játékokkal kapcsolatos információk
 ### Anti-Piracy
 Az AP (rövidítés az anti-piracy-ra) egy módja annak, hogy a fejlesztők a legális vásárlásokat erőltessék és megelőzzék a kalózkodást. Ez megkerülhető a loaderben és a ROM-ban is egyaránt.
 
-- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
+- Az nds-bootstrap céljaira, betölthető egy `.ips` fájl, annak érdekében, hogy, megkerülje azokat a patcheket. Ez az `.ips` fájl az nds-bootstrap-on belül kerül patchelésre, így a ROM fájlok sértetlenek maradnak. Egy `.ips` fájl csomag automatikusan beágyazott a TWiLight Menu++-ba.
 - A Wood R4 számára ezek a patchek a szoftverbe vannak ágyazva. Nem szükséges a ROM-ot magadnak módosítanod.
 
-In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+Abban az esetben, ha nincs `.ips` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot ROM [nds-scene eszköz](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával
 
 ### Cloneboot
-Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
+A Cloneboot az, amikor egy játék elküldi saját betöltött ARM7 és ARM9 binárisát egy másik konzolra. Ez a DS Download Play-hez használt, az egykártyás több játékos játékokhoz. Nem az összes játék, ami támogatja az egykártyás többjátékos játékot használ cloneboot-ot azonban.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
+Aktuálisan az nds-bootstrap cloneboot patchei töröttek mert az ARM7 és ARM9binárisok patchelésre kerültek, ami az RSA aláírásaikat érvénytelené teszi.
 
-### Save Files
-Nintendo DS cartridges have 4 known save types:
+### Mentés fájlok
+A Nintendo DS cartridge-ek 4 ismert mentés típussal rendelkeznek:
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+Habár ritka, léteznek DS cartridge-k NAND alapú mentéssel: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+Különböző formátumok léteznek loader-től függően, de az nds-bootstrap a nyers `.sav` formátumot használja. Ha más formátumot használsz, akkor itt egy weboldal, amit használhat a konverzióra: http://www.shunyweb.info/convert.php
 
-### Assembly
+### Gépi kód
 Assembly is the native language used for all DS software. Assembly code comes in the form of either ARM or THUMB instructions. THUMB instructions are a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instrcutions over the regular 32-bit instructions that ARM uses. You can find more info on Assembly instructions, as well as a lot more technical information for the DS and DSi, at [gbatek](https://problemkaputt.de/gbatek.htm).
 
 ### Kártya olvasás DMA
@@ -41,14 +41,14 @@ A kártya DMA (rövidítése a Direct Memory Access-nek, közvetlen memória hoz
 A no$gba észre vehető egy játékról, hogy dma-t használ a DMA log bekapcsolásával az ARM9-en. Egy DMA hozzáférés a kártyához az AF000001 értéket használja harmadik paraméternek.
 - Például: `DMA2: 04100010 023C18C0 AF000001`
 
-### Action Replay Cheats
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+### Action Replay csalások
+Az Action Replay csalás kódok olyan csalás kódok, amik lehetővé teszik, hogy alacsony színtű programozható változásokat intézzen a kedvenc játéka(i) memória régiójában. Ezek a változtatások lehetnek egyszerű érték változtatásoktól kezdve extrém fejlett ASM módosításokig, amik megváltoztathatják a velük játszott játék(ok) élményét.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
+A flashcard-ok a csalás kódok előnyeit ki tudják használni csalás adatbázisokkal. A csalás funkció integrált a flashcard-ok kernel-ébe. A következő kernel-ek tudnak csalást használni:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/digitális bázisú megoldások is élvezhetik az előnyeit a csalás-adatbázisoknak; a szoftverek, amik aktuálisan használják őket:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
   - NitroHax lehetővé teszi a csalások használatát valódi játék kártyákkal egy flashcard-ról. A motor betölti a teljes cheats.xml adatbázist a Nintendo DS korlátozott RAM-jába, és próbálja onnan menedzselni őket. Ez létrehoz egy erős korlátot, hogy hány csalással rendelkezhet, mert a NitroHax nem tölt be olyan cheats.xml fájlt, ami 2,4 MB feletti méretű
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
@@ -58,8 +58,8 @@ Homebrew/digital based solutions can also take advantage of the cheat databases,
   - Az nds-bootstrap-ban lévő csalás motor a NitroHax-ban is lévőn alapul. Mivel a csalás fájl csak az engedélyezett csalásokat tartalmazza, az adott címhez, csak az az egy korlát marad, hogy hány csalás engedélyezhető egyszerre, az adatbázis mérete már nincs korlátozva
   - Bootstrap 4 DS (másnéven az nds-bootstrap verzió ami a flashcard-okon használt) nem támogatja a csalásokat, mert nem rendelkezik elég RAM-mal, valamint a Memory Expansion Pack korlátozásai miatt
 
-For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
+A legteljesebb csalás adatbázishoz ajánljuk a DeadSkullzJr által készített [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711)-t.
 
-Cheat codes generally have types A through E, and here is a description of them:
+A csalás kódok jellemzően A-tól E-ig típusúak, és alább a leírásuk:
 
 - Az 0xE kód típus 32-bites kód, ami lehetővé tesz egyszerre több egymás követő címre írást a memóriába. Lényegében olyan, mint az alap 32 bites RAM írási kódtípus (0x0), azzal a különbséggel, hogy az írandó értékek mellett nem szerepelnek címek. Ezzel szemben a 0xE kód típus úgy programozott, hogy automatikusan elágazzon egy indító címről, és utána döntse el a címet ahova írnia kell. Innentől kezdve, már csak meg kell írni, hogy elvégezze a munkát.

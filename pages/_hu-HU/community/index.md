@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: community
-title: Home
-description: Coming Soon™
+title: Kezdőlap
+description: Hamarosan jön™
 ---
 
-You can find information about our community here, such as the rules for our Discord server. We have the following places:
-- Discord: [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord)
+Itt találhat ingormációkat a közösségünkről, mint például a Discord szerver szabályait. A következő helyekkel rendelkezünk:
+- Discord: [DS<sup>(i)</sup> mód Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- Weboldal: [ds-homebrew.com](https://ds-homebrew.com)

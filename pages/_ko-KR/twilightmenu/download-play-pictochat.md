@@ -22,4 +22,4 @@ GodMode9 에서:
 위 절차는 다운로드 플레이 부팅 속도를 높여줍니다.
 
 픽토챗을 3DS에서 실행하려면... (DSi 필요):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+- `pictochat.nds`를 `sd:/_nds/`에서 복사하여 3DS의 SD카드의 동일한 위치에 붙여넣습니다. 반드시 DSi 본체에서 TWiLight Menu++의 DS 클래식 메뉴에 한 번 이상 진입해야합니다.

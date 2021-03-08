@@ -18,16 +18,16 @@ Old / New Nintendo 3DS vagy 2DS konzolt igényel.
 1. Telepítsd a `TWPatch.cia`-t az FBI-jal
    - Használhatod az Universal-Updater-t is a TWPatch telepítéséhez a korábbi két lépés helyett
 1. Térj vissza a home menübe és indítsd el a TWPatch-ot
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scale test (health hazard!)`
-   - The "health hazard!" is because it gave the developer a headache due to its blurriness
-1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
-1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++ settings, switch to the `Misc settings` page, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+1. Tarts nyomva az <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> gombokat és engedélyezd a `Widescreen patch (384x240 16:10)` opciót
+1. (Opcionális!) A kevésbé pixeles széles képernyőhöz engedélyezd a `GPU átméretezés tesztet (egészségügyi veszély!)`
+   - Azért van "egészségügyi veszély!", mert a fejlesztőnek fejfájást okozott a homályossága miatt
+1. Nyomj <kbd>START</kbd> gombot a `TwlBg.cxi` fájl széles képernyővel történő generálásához
+   - Ha felső képernyő nem mutatja, hogy a széles képernyő patch engedélyezett, próbáld újra a 3-es lépéstől
+   - Ha a széles képernyő nem működik, várj az RTCom-activált széles képernyő kiadásáig
+1. Indítsd újra 3DS-ed, miközben nyomva tartod a <kbd>SELECT</kbd> gombot, hogy megnyíljon a Luma3DS konfiguráció
+1. Engedélyezd az `external FIRMs and modules`, opciót, majd nyomd meg a<kbd>START</kbd> gombot a mentéshez és kilépéshez
+1. Nyisd meg a TWiLight Menu++ beállításokat, majd válts az `Egyéb beállítások` oldalra és állítsd be a `Képernyő arány`-t `16:10`-re
+   - Ez játékonként is beállítható egyébként
 
 Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 

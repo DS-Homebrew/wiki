@@ -8,11 +8,11 @@ description: Információk a Wi-Fi használatáról Nintendo DS-en
 ---
 
 - Nintendo DS applikációkból csak WEP és nyílt WiFi használható
-- On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA and WPA2 support
+- A Nintendo DSi bővített/exkluzív alkalmazások esetében rendelkezel a WPA és WPA2 támogatás kiegészítéssel
 
 Hotspotok használhatók, így nem szükséges megváltoztatnod a routered konfigurációját.
 
-### Creating a Hotspot
+### Hotspot létrehozása
 Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS játék kompatibilis hotspot-ot macOS és Linux számítógépekre. Ha Windows-on dolgozol használhatsz egy Linux live bootolást is.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
@@ -38,7 +38,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 1. Create a text file with the name `patch.bat`
 1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
 1. Now drag all the roms you wish to patch on to patch.bat
-1. Done! the patched roms will be the ones ending in (wiimmfi)
+1. Kész! the patched roms will be the ones ending in (wiimmfi)
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 

@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: other
 title: hiyaCFW
-description: Info for hiyaCFW
+description: hiyaCFW infó
 ---
 
 Information for [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), the world's first CFW for DSi.
@@ -13,7 +13,7 @@ With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. The
 
 #### BMP
 - 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 256 x 192 vagy kisebb
 
 #### GIF
 - Simple answer: Most GIFs 256 x 192 or smaller will work

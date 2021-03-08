@@ -1,12 +1,12 @@
 ---
-lang: en-US
-layout: wiki
+lang: ko-KR
+layout: 위키
 section: gbarunner2
-title: Home
-description: Coming Soon™
+title: 홈
+description: 출시 예정
 ---
 
-GBARunner2 is an [open-source](https://github.com/Gericom/GBARunner2) hypervisor that runs GBA games on DS/DSi/3DS in DS mode. Basically, like [Nintendont](https://github.com/FIX94/Nintendont) does for running Gamecube games on Wii.
+GBARunner2는 DS/DSi/3DS에서 DS 모드로 GBA 게임들을 실행시키는 [오픈 소스](https://github.com/Gericom/GBARunner2) 하이퍼바이저입니다. 기본적으로, [Nintendont](https://github.com/FIX94/Nintendont)가 Wii에서 게임큐브 게임들을 구동시키는 것과 같습니다.
 
 Along with what this wiki has to offer, the GBARunner compability lists have a lot of userful infomation:
 - [DS/Flashcart](https://wiki.gbatemp.net/wiki/GBARunner2)

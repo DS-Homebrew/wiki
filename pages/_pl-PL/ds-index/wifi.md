@@ -8,11 +8,11 @@ description: Informacje o korzystaniu z Wi-Fi na Nintendo DS
 ---
 
 - W aplikacjach Nintendo DS można używać tylko WEP i Open WiFi
-- On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA and WPA2 support
+- W rozszerzonych/ekskluzywnych aplikacjach Nintendo DSi, masz dodatkowo wsparcie WPA i WPA2
 
 Da się używać hotspotów, więc nie musisz zmieniać konfiguracji swojego routera.
 
-### Creating a Hotspot
+### Tworzenie Hotspotu
 Istnieją poradniki dotyczące tworzenia hotspotu kompatybilnego z grami DS na komputerach macOS i Linux na GBAtemp. Jeśli korzystasz z Windowsa, możesz użyć Linux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
@@ -28,7 +28,7 @@ Istnieją poradniki dotyczące tworzenia hotspotu kompatybilnego z grami DS na k
 1. Ustaw `1.1.1.1` jako swój drugi DNS
 1. W zależności od gry, będziesz potrzebować spatchowania jej za pomocą NoSSL
 
-### Manually Patching Your DS ROMs
+### Ręczne Patchowanie Twoich ROMów DS
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -38,7 +38,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 1. Create a text file with the name `patch.bat`
 1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
 1. Now drag all the roms you wish to patch on to patch.bat
-1. Done! the patched roms will be the ones ending in (wiimmfi)
+1. Gotowe! the patched roms will be the ones ending in (wiimmfi)
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 

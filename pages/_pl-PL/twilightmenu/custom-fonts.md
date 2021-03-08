@@ -16,7 +16,7 @@ Do TWiLight Menu++ są już dołączone trzy czcionki. Kiedy TWiLight Menu++ dzi
 - Koreański: Identycznie jak Domyślne w DSi Mode, ale w DS Mode ma bardziej kompletny zestaw znaków hangul, kosztem znaków innych języków
 
 ### Struktura katalogu
-Niestandardowe czcionki są wczytywane z `sd:/_nds/TWiLightMenu/extras/fonts/[nazwa czcionki]/[plik czcionki].nftr`, gdzie `[nazwa czcionki]` jest nazwą wybraną przez ciebie a `[nazwa czcionki].ntfr` jest jednym z następujących:
+Niestandardowe czcionki są wczytywane z `sd:/_nds/TWiLightMenu/extras/fonts/[nazwa czcionki]/[plik czcionki].nftr`, gdzie `[nazwa czcionki]` jest nazwą wybraną przez Ciebie a `[nazwa czcionki].ntfr` jest jednym z następujących:
 - `large-ds.nftr`, `large-dsi.nftr` lub `large.nftr`: Większa czcionka używana w tytułach
 - `small-ds.nftr`, `small-dsi.nftr` lub `small.nftr`: Mniejsza czcionka dla reszty tekstu
 

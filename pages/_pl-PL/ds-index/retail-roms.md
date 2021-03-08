@@ -62,4 +62,4 @@ For the most complete cheat database, we recommend using the one made by DeadSku
 
 Cheat codes generally have types A through E, and here is a description of them:
 
-- Kod 0xE jest typem kodu 32-bitowego, który pozwala ci na wielokrotne zapisywanie w wielu kolejnych adresach jednocześnie. Zasadniczo jest on podobny do podstawowego 32-bitowego kodu zapisu RAM (0x0), poza tym, że nie ma adresów wymienionych obok wartości, które chcesz zapisać. Zamiast tego, typ kodu 0xE jest zaprogramowany do automatycznego rozgałęzienia z adresu początkowego, a następie ustalenia adresu do zapisu. Stąd musisz tylko wpisać wartość do zapisu by program odwalił robotę.
+- Kod 0xE jest typem kodu 32-bitowego, który pozwala Ci na wielokrotne zapisywanie w wielu kolejnych adresach jednocześnie. Zasadniczo jest on podobny do podstawowego 32-bitowego kodu zapisu RAM (0x0), poza tym, że nie ma adresów wymienionych obok wartości, które chcesz zapisać. Zamiast tego, typ kodu 0xE jest zaprogramowany do automatycznego rozgałęzienia z adresu początkowego, a następie ustalenia adresu do zapisu. Stąd musisz tylko wpisać wartość do zapisu by program odwalił robotę.

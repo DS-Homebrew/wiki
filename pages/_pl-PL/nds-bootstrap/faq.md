@@ -1,20 +1,20 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: nds-bootstrap
 category: other
-title: FAQ & Troubleshooting
-description: FAQ & Troubleshooting for nds-bootstrap
+title: FAQ & Rozwiązywanie problemów
+description: FAQ & Rozwiązywanie problemów nds-bootstrap
 ---
 
-#### Why do I get a white screen when trying to load a game from SD Card?
-- First, check the [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
-- If the game you’re trying to launch is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+#### Dlaczego dostaję biały ekran podczas uruchamiania gry z karty SD?
+- Najpierw sprawdź [listę kompatybilności nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0), by się upewnić czy twoja gra jest kompatybilna
+- Spróbuj włączyć grę bez żadnych cheatów, ponieważ niektóre nie są na razie kompatybilne z nds-bootstrap, wciśnij <kbd class="l">L</kbd>, by wyłączyć wszystie cheaty
+- Jeśli gra, którą próbujesz uruchomić, to gra DSi Enhanced a następnie upewnij się, że TWiLight Menu++ jest ustawiony na `Tryb DS`
+- Jeśli gra działała wcześniej, usuń foldery `fatTable` i `patchOffsetCache` w `sd:/_nds/nds-bootstrap/`
 
-#### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly. To improve performance, nds-bootstrap also shrinks the game's heap in memory, which breaks some games, though both the forwarders and TWiLight Menu++ have a heap shrink blacklist to fix the non-working games broken by heap shrink.
+#### Dlaczego występują problemy z ładowaniem ROMu, nawet jeśli są one uruchamiane natywnie?
+nds-bootstrap patchuje ROM, by mógł być uruchamiany z karty SD, ponieważ ROMy są ustalone na sztywno by były czytane ze Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly. To improve performance, nds-bootstrap also shrinks the game's heap in memory, which breaks some games, though both the forwarders and TWiLight Menu++ have a heap shrink blacklist to fix the non-working games broken by heap shrink.
 
 #### Why use nds-bootstrap over a regular flashcard?
 - Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges

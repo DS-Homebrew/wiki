@@ -2,7 +2,7 @@
 lang: en-US
 layout: wiki
 section: gbarunner2
-title: FAQ & Troubleshooting
+title: GYIK & hibaelhárítás
 description: FAQs and troubleshooting for GBARunner2
 ---
 

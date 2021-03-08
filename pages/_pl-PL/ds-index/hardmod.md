@@ -16,7 +16,7 @@ Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do ada
 
 By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
    - [Lutownica z końcówką jak u ołówka](https://www.amazon.com/dp/B01N4571Q6)
-   - [Bardzo cienki drut](https://allegro.pl/oferta/drut-ok-30awg-drut-miedziany-ocynowany-10161055095), 28AWG lub mniejszy, najlepiej 30AWG wzwyż
+   - [Bardzo Cienki drut](https://allegro.pl/oferta/drut-ok-30awg-drut-miedziany-ocynowany-10161055095), 28AWG lub mniejszy, najlepiej 30AWG wzwyż
    - Adapter SD na microSD
    - Czytnik kart SD, który może odczytywać czipy eMMC działające w trybie jednego wiersza danych. [Oto przykład (Amazon)](https://www.amazon.com/dp/B006T9B6R2)
    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) i [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jeśli korzystasz z Windowsa
@@ -40,7 +40,7 @@ By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
 - Wsadź adapter kart microSD do komputera
-   - **UWAGA** - WIndows poprosi cię o sformatowanie go: **ABSOLUTNIE NIE** formatuj go - może to spowodować nieodwracalne uszkodzenia
+   - **UWAGA** - WIndows poprosi Cię o sformatowanie go: **ABSOLUTNIE NIE** formatuj go - może to spowodować nieodwracalne uszkodzenia
 
 #### Usuwanie stopki no$gba
 Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DSi. Można to zrobić uruchamiając aplikację HiyaCFW Helper znajdującą się [tutaj](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
@@ -74,22 +74,22 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Dowiedz się, gdzie karta SD jest zamontowana
    - Linux:
       1. Odłącz adapter karty SD
-      1. Run `lbslk` in a terminal
+      1. Uruchom `lbslk` w terminalu
       1. Podłącz adapter karty SD
       1. Uruchom ponownie `lbslk`
       1. Tym razem powinno pojawić się nowe urządzenie
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+         - Może (ale nie musi) się nazywać `/dev/sdb`, zapisz jak się nazywa na *Twoim* terminalu
 
    - macOS:
       1. Odłącz adapter karty SD
-      1. Run `df` in a terminal
+      1. Uruchom `df` w terminalu
       1. Podłącz adapter karty SD
       1. Uruchom ponownie `df`
       1. Na liście powinno się pokazać nowe urządzenie
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+         - Może (ale nie musi) się nazywać `/dev/disk1s1`, zapisz jak się nazywa na *Twoim* terminalu
 
 1. Zrzuć NAND
-   - Run the following command in a terminal:
+   - Uruchom te polecenia w terminalu:
       - `cat {nazwa-urządzenia} > nand0.bin`
       - Zamień `{nazwa-urządzenia}` na lokalizację karty SD
       - N.p. ` cat /dev/sdb > nand0.bin`

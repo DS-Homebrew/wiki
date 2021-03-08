@@ -22,4 +22,4 @@ Másold az `sd:/_nds/` mappába, és nevezd át `dlplay.nds`-nek.
 A fenti lépések megnövelik a DLP boot sebességet.
 
 A Pictochat 3DS-en futtatásához (DSi szükséges):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+- Másold a `pictochat.nds`-t az `sd:/_nds/` útvonalról a DSi SD kártyáján, a 3DS SD kártyájára ugyanarra a helyre. Először be kell lépned a DS Classic menübe a TWiLight Menu++-ban, a DSi-n.

@@ -18,12 +18,12 @@ description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
   - Kuriisu command: `guide dsi`
 
 ### CPU 속도
-The Nintendo DS shipped with a 67MHz processor in 2004. The Nintendo DSi shipped with an 133MHz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67MHz. 몇몇 응용 프로그램들은 그 클럭 속도에만 대응 되었고, 결과적으로 더 높은 클럭 속도에서는 잘 작동하지 못했습니다. 그러나, 대부분의 게임들은 더 높은 클럭 속도로 기존의 퍼포먼스를 능가할 것입니다.
+2004년, 닌텐도 DS는 67MHz 프로세서를 탑재하여 출시되었습니다. 2009년에는, 닌텐도 DSi는 133MHz 프로세서를 탑재하여 출시되었습니다. 닌텐도 DS 라이브러리에 있는 대부분의 게임들은 DSi가 출시되기 전에 만들어졌고, 이 때문에 그 게임에 맞는 유일한 프로세서는 67MHz밖에 없었습니다. 몇몇 응용 프로그램들은 그 클럭 속도에만 대응 되었고, 결과적으로 더 높은 클럭 속도에서는 잘 작동하지 못했습니다. 그러나, 대부분의 게임들은 더 높은 클럭 속도로 기존의 퍼포먼스를 능가할 것입니다.
 
 nds-bootstrap은 TWL Clock Speed를 옵션으로 갖고있는데, 이게 있다고 해서 ROM이 더 높은 클럭 속도에서 잘 작동하도록 조절하지는 않을것입니다. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 
 ### 닌텐도 DSi 본체 메뉴
-The Nintendo DSi System Menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
+닌텐도 DSi 본체의 메뉴는 서명된 32비트 정수를 사용하여 본체의 여유 공간을 결정해줍니다. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
 The ranges that make it overflow is determined by pairs of two. For example, 1-2 GB of free space is allowed while 3-4 isn't. 5-6 GB of free space is allowed while 7-8 isn't.
 

@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: other
-title: Home
-description: Coming Soon™
+title: Kezdőlap
+description: Hamarosan jön™
 ---
 
-This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
+Ez a fejezet információkat tartalmaz más DS-Homebrew projektekről, amik nem elég nagyok ahhoz, hogy kapjanak egy teljes fejezetet a wiki-ben.

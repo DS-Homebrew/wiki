@@ -1,8 +1,8 @@
 ---
 lang: en-US
 layout: wiki
-section: gbarunner2
-title: GBA BIOS info
+section: gBARunner2
+title: GBA BIOS infó
 description: Information on the GBA BIOS and how to dump it
 ---
 

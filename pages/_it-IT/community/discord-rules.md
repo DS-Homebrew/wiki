@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Rules
-description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: Informazioni dell'Hacking DS⁽ⁱ⁾ Mode
+description: Regole su il server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-### Do NOT impersonate, trash talk or otherwise act disrespectful to others and their beliefs.
+### NON impersonare, parlare male o agire in modo irrispettoso verso gli altri e le loro credenze.
 
-- This applies especially to those offering their time for the community. (such as helpers or developers)
-- We will NOT tolerate insensitivity, regardless of whether the member is in the community or not.
-- Respect user privacy; Avoid attempts to communicate with users who aren't comfortable doing so or sharing information about them that they don't want shared.
+- Questo vale soprattutto per coloro che offrono il loro tempo per la community. (come aiutanti o sviluppatori)
+- NON tollereremo insensibilità, indipendentemente dal fatto che il membro sia o meno nella community.
+- Rispettare la privacy dell'utente; Evita di comunicare con gli utenti che non sono a proprio agio o di condividere informazioni su di loro che non vogliono condividere.
 - Do NOT backseat moderate or try to "help" when a moderator is dealing with a situation. You hold no authority, so leave actual rule handling to staff.
      - Reminders are fine, as long as you don't try to enforce them.
 - When knowing who created a piece of art, credit those content creators.

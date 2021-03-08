@@ -10,25 +10,25 @@ description: 시판되는 DS 게임과 관련된 설명
 ### 불법 복제 방지 기술 (Anti-Piracy)
 불법 복제 방지 기술 (영어로 Anti-Piracy, 줄여서 AP) 은 개발자들이 정당한 구매를 장려하고, 불법 복제를 방지하기 위해 사용되어왔습니다. 이는 로더나 ROM 자체에서 우회할 수 있습니다.
 
-- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
+- nds-bootstrap에서는, 위에 이야기한 패치를 우회하기 위해 `.ips`파일을 불러올 수 있습니다. 이러한 `.ips` 파일은 nds-bootstrap 내부에 패치되므로, 롬파일을 온전히 유지할 수 있습니다. `.ips`파일 팩은 자동으로 TWiLight Menu++에 포함됩니다.
 - Wood R4에서는, 이러한 패치가 소프트웨어 자체에 포함되어있습니다. 따라서, 사용자가 롬 파일 자체를 수정할 필요는 없습니다.
 
-In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+롬이나 소프트웨어를 위한 `.ips`파일이 롬파일에 패치되어있지 않은 경우, [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)을 이용해 직접 롬파일을 수정할 수도 있습니다.
 
-### Cloneboot
-Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
+### CloneBoot
+CloneBoot는 게임이 직접 로드한 ARM7과 ARM9 바이너리를 다른 본체에 전송하는 것을 얘기합니다. 이는 단일 카드 멀티플레이를 위해 DS 다운로드 플레이에 사용됩니다. 다만, 단일 카드 멀티플레이를 지원하는 모든 게임이 cloneboot를 통한 것은 아닙니다.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
+현재는 ARM7과 ARM9 바이너리가 RSA 서명을 무효화하도록 패치되어 nds-bootstrap의 cloneboot패치를 쓸 수 없게되었습니다.
 
-### Save Files
-Nintendo DS cartridges have 4 known save types:
+### 세이브 파일
+닌텐도 DS 카트리지는 4가지의 알려진 세이브 타입이 있습니다.
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+드물지만, NAND 기반 세이브 방식의 DS 카트리지들도 있습니다: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
 

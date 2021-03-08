@@ -34,7 +34,7 @@
 	"nds-bootstrap": [
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "기타"
 		}
 	],
 	"gbarunner2": [],
@@ -42,7 +42,7 @@
 	"community": [
 		{
 			"key": "discord",
-			"title": "Discord"
+			"title": "디스코드"
 		}
 	]
 }
