@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-layout: 위키
+layout: wiki
 section: gbarunner2
 title: GBA BIOS 정보
 description: GBA BIOS에 관한 정보와 덤프하는 방법

@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-layout: 위키
+layout: wiki
 section: gbarunner2
 title: 홈
 description: 출시 예정

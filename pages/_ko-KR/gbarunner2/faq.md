@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-layout: 위키
+layout: wiki
 section: gbarunner2
 title: FAQ & 문제 해결하기
 description: GBARunner2에 관한 FAQ와 문제 해결
