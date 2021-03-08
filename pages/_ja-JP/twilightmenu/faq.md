@@ -56,340 +56,26 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 
 #### TWiLight Menu++はどのシステムに対応ですか？
 
-<table spaces-before="0">
-  <tr>
-    <th>
-      形式
-    </th>
-    
-    <th>
-      ローダー
-    </th>
-    
-    <th>
-      拡張子
-    </th>
-    
-    <th>
-      セーブファイル
-    </th>
-  </tr>
-  
-  <tr>
-    <td>
-      ARGV<fnref target="1" />
-    </td>
-    
-    <td>
-      ネイティブ
-    </td>
-    
-    <td>
-      <code>.argv</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Atari 2600
-    </td>
-    
-    <td>
-      <a href="https://github.com/wavemotion-dave/StellaDS" f-id="stellads" fo="15">StellaDS</a>
-    </td>
-    
-    <td>
-      <code>.a26</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Atari 5200
-    </td>
-    
-    <td>
-      <a href="https://github.com/wavemotion-dave/A5200DS" f-id="a5200ds" lbb="2" fo="1">A5200DS</a>
-    </td>
-    
-    <td>
-      <code>.a52</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Atari 7800
-    </td>
-    
-    <td>
-      <a href="https://github.com/wavemotion-dave/A7800DS" f-id="a7800ds" fo="2">A7800DS</a>
-    </td>
-    
-    <td>
-      <code>.a78</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Atari XEGS
-    </td>
-    
-    <td>
-      <a href="https://github.com/wavemotion-dave/XEGS-DS" f-id="xegs-ds" fo="17">XEGS-DS</a>
-    </td>
-    
-    <td>
-      <code>.xex</code>、<wbr><code>.atr</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      DS
-    </td>
-    
-    <td>
-      <a href="https://github.com/DS-Homebrew/nds-bootstrap" f-id="ndsbs" fo="8">nds-bootstrap</a>、<wbr>フラッシュカードのカーネル、<wbr>ネイティブ
-    </td>
-    
-    <td>
-      <code>.nds</code>、<wbr><code>.dsi</code>、<wbr><code>.ids</code>、<wbr><code>.srl</code>、<wbr><code>.app</code>
-    </td>
-    
-    <td>
-      <code>saves/[ROMの名前].sav</code><fnref target="2" />
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      DSiウェア
-    </td>
-    
-    <td>
-      <a href="https://problemkaputt.de/unlaunch.htm" f-id="unlaunch" fo="16">Unlaunch</a>
-    </td>
-    
-    <td>
-      <code>.nds</code>、<wbr><code>.dsi</code>、<wbr><code>.ids</code>、<wbr><code>.srl</code>、<wbr><code>.app</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].pub</code>、<wbr><code>[ROMの名前].prv</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      DSTWOプラグイン
-    </td>
-    
-    <td>
-      <a href="http://eng.supercard.sc" f-id="dstwo" fo="3">DSTWO</a><fnref target="3" />
-    </td>
-    
-    <td>
-      <code>.plg</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      ゲームボーイ（カラー）
-    </td>
-    
-    <td>
-      <a href="https://github.com/Drenn1/GameYob" f-id="gameyob" fo="4">GameYob</a>
-    </td>
-    
-    <td>
-      <code>.gb</code>、<wbr>​<code>.sgb</code>、​<wbr><code>.gbc</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].sav</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      ゲームボーイアドバンス
-    </td>
-    
-    <td>
-      <a href="https://github.com/Gericom/GBARunner2" f-id="gbarunner2" fo="5">GBARunner2</a><fnref target="4" />、<wbr>ネイティブ<fnref target="5" />
-    </td>
-    
-    <td>
-      <code>.agb</code>、<wbr><code>.gba</code>、<wbr><code>.mb</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].sav</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      ゲームギア
-    </td>
-    
-    <td>
-      <a href="https://www.gamebrew.org/wiki/S8DS" f-id="s8ds" fo="13">S8DS</a>
-    </td>
-    
-    <td>
-      <code>.gg</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].gg.sav</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      メガドライブ・Genesis
-    </td>
-    
-    <td>
-      <a href="https://www.gamebrew.org/wiki/JEnesisDS" f-id="jenesis" fo="6">jEnesisDS</a>、<wbr><a href="https://github.com/DS-Homebrew/PicoDriveTWL" f-id="pdtwl" fo="11">PicoDriveTWL</a>
-    </td>
-    
-    <td>
-      <code>.gen</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].srm</code><fnref target="6" />
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      マスターシステム
-    </td>
-    
-    <td>
-      <a href="https://www.gamebrew.org/wiki/S8DS" f-id="s8ds" fo="13">S8DS</a>
-    </td>
-    
-    <td>
-      <code>.sms</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].sms.sav</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      MPEG4ビデオ
-    </td>
-    
-    <td>
-      <a href="https://gbatemp.net/threads/544095" f-id="mpeg4player" fo="7">MPEG4 Player</a>
-    </td>
-    
-    <td>
-      <code>.mp4</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      ファミリーコンピュータ・NES
-    </td>
-    
-    <td>
-      <a href="https://github.com/DS-Homebrew/NesDS" f-id="nesds" fo="9">nesDS</a>
-    </td>
-    
-    <td>
-      <code>.nes</code>、<wbr><code>.fds</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].sav</code>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      PCエンジン・TurboGrafx-16
-    </td>
-    
-    <td>
-      <a href="https://www.gamebrew.org/wiki/NitroGrafx" f-id="nitrografx" fo="10">NitroGrafx</a>
-    </td>
-    
-    <td>
-      <code>.pce</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      RVIDビデオ
-    </td>
-    
-    <td>
-      <a href="https://gbatemp.net/threads/539163" f-id="rvidplayer" fo="12">Rocket Video Player</a>
-    </td>
-    
-    <td>
-      <code>.rvid</code>
-    </td>
-    
-    <td>
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      スーパーファミコン<fnref target="7" />
-    </td>
-    
-    <td>
-      <a href="https://www.gamebrew.org/wiki/SNEmulDS" f-id="snemulds" fo="14">SNEmulDS</a>
-    </td>
-    
-    <td>
-      <code>.smc</code>、<wbr><code>.sfc</code>
-    </td>
-    
-    <td>
-      <code>[ROMの名前].srm</code><fnref target="8" />
-    </td>
-  </tr>
-</table>
+| 形式                   | ローダー                                                 | 拡張子                                                    | セーブファイル                            |
+| -------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------- |
+| ARGV[^1]             | ネイティブ                                                | `.argv`                                                |                                    |
+| Atari 2600           | [StellaDS][stellads]                                 | `.a26`                                                 |                                    |
+| Atari 5200           | [A5200DS][a5200ds]                                   | `.a52`                                                 |                                    |
+| Atari 7800           | [A7800DS][a7800ds]                                   | `.a78`                                                 |                                    |
+| Atari XEGS           | [XEGS-DS][xegs-ds]                                   | `.xex`、`.atr`                                          |                                    |
+| DS                   | [nds-bootstrap][ndsbs]、<wbr>フラッシュカードのカーネル、<wbr>ネイティブ | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `saves/[ROMの名前].sav`               |
+| DSiウェア               | [Unlaunch][unlaunch]                                 | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `[ROMの名前].pub`、<wbr>`[ROMの名前].prv` |
+| DSTWOプラグイン           | [DSTWO][dstwo][^3]                                   | `.plg`                                                 |                                    |
+| ゲームボーイ（カラー）          | [GameYob][gameyob]                                   | `.gb`、<wbr>​`.sgb`、​<wbr>`.gbc`                        | `[ROMの名前].sav`                     |
+| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4]、<wbr>ネイティブ[^5]          | `.agb`、<wbr>`.gba`、<wbr>`.mb`                          | `[ROMの名前].sav`                     |
+| ゲームギア                | [S8DS][s8ds]                                         | `.gg`                                                  | `[ROMの名前].gg.sav`                  |
+| メガドライブ・Genesis       | [jEnesisDS][jenesis]、<wbr>[PicoDriveTWL][pdtwl]      | `.gen`                                                 | `[ROMの名前].srm`                     |
+| マスターシステム             | [S8DS][s8ds]                                         | `.sms`                                                 | `[ROMの名前].sms.sav`                 |
+| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                          | `.mp4`                                                 |                                    |
+| スーパーファミコン            | [nesDS][nesds]                                       | `.nes`、`.fds`                                          | `[ROMの名前].sav`                     |
+| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                             | `.pce`                                                 |                                    |
+| RVIDビデオ              | [Rocket Video Player][rvidplayer]                    | `.rvid`                                                |                                    |
+| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                                 | `.smc`、`.sfc`                                          | `[ROMの名前].srm`                     |
 {:.table}
 
 - Footnotes -
@@ -409,3 +95,21 @@ sudokuhaxのセーブファイルによっては、タッチ画面の入力が�
 [^6]: jEnesisはフラッシュカードから実行している時にのみ保存できますが、PicoDriveTWLはSDカードとフラッシュカードから保存できます
 [^7]: フラッシュカード、3DSの内部のSDカードまたはUnlaunchがインストール済みのDSiを使っている場合にのみ表示されます
 [^8]: フラッシュカードから実行している時にのみ保存できます
+
+[a5200ds]: https://github.com/wavemotion-dave/A5200DS
+[a7800ds]: https://github.com/wavemotion-dave/A7800DS
+[dstwo]: http://eng.supercard.sc
+[gameyob]: https://github.com/Drenn1/GameYob
+[gbarunner2]: https://github.com/Gericom/GBARunner2
+[jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
+[mpeg4player]: https://gbatemp.net/threads/544095
+[ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
+[nesds]: https://github.com/DS-Homebrew/NesDS
+[nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
+[pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
+[rvidplayer]: https://gbatemp.net/threads/539163
+[s8ds]: https://www.gamebrew.org/wiki/S8DS
+[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[stellads]: https://github.com/wavemotion-dave/StellaDS
+[unlaunch]: https://problemkaputt.de/unlaunch.htm
+[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
