@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: community
 title: Home
-description: Coming Soon™
+description: Information about the DS-Homebrew community
 ---
 
 You can find information about our community here, such as the rules for our Discord server. We have the following places:

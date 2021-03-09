@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: ds-index
 category: guides
-title: DS game forwarders (3DS)
+title: DS Game Forwarders (3DS)
 description: How to create CIA forwarders to have your DS games on your 3DS's home menu
 ---
 
@@ -29,8 +29,8 @@ Compatible:
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses <2GB microSD card)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses <2GB microSD card)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses < 2 GB microSD card)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses < 2 GB microSD card)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -56,7 +56,7 @@ Partially compatible:
 Incompatible:
 - CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
 - (i)Edge (Unable to autoboot a .nds ROM)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com)/[www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
@@ -76,24 +76,24 @@ PC:
 - Java 8 Update 251
 - **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
-### Part 1: Getting Started
+### Part 1: Getting started
 {% capture tab-sd-card %}
 1. Download the [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
 1. Extract the contents of the `for SD card root` folder to the root of your 3DS's SD card
 
 After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change the settings:
 - `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
-- `SOUND_FREQ`: If set to 1, sound will play at 48khz, instead of 32khz
+- `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
 {% endcapture%}
 
 {% capture tab-flashcard %}
 1. Download one of these packs:
-   - [Original R4/M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
-   - [Acekard 2(i)/M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
+   - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
+   - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
-   - [Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
+   - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
 1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
@@ -106,11 +106,11 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 <div class="tab-container">
 	<div class="pb-3">
-		<a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD Card</a>
+		<a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD card</a>
 		<a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
 	</div>
 	<div id="tab-sd-card">
-		<noscript><h4>SD Card</h4></noscript>
+		<noscript><h4>SD card</h4></noscript>
 		{{ tab-sd-card | markdownify }}
 	</div>
 	<div id="tab-flashcard">

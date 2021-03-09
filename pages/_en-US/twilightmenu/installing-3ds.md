@@ -49,16 +49,16 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 ### Installing
 <div class="tab-container">
    <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working Camera</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-Working Camera</a>
+      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">Working camera</a>
+      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">Non-working camera</a>
       <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
    </div>
    <div id="tab-working-camera">
-      <noscript><h4>Working Camera</h4></noscript>
+      <noscript><h4>Working camera</h4></noscript>
       {{ tab-working-camera | markdownify }}
    </div>
    <div id="tab-non-working-camera">
-      <noscript><h4>Non-Working Camera</h4></noscript>
+      <noscript><h4>Non-working camera</h4></noscript>
       {{ tab-non-working-camera | markdownify }}
    </div>
    <div id="tab-manual">

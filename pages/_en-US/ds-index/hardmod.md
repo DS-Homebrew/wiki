@@ -63,7 +63,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 1. Open HxD and drag both files into the editor. Go to the top bar, click "Analysis", click "File compare" from the drop down menu, then click "Compare".
 1. Choose to compare both files then click OK when done
    - If it says "The chosen files are identical.", you are good to go to the next section
-   - If it doesn't say that, and both NANDs aren't around 240MB, dump NAND_1/NAND_0 again
+   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
 1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
 1. Flash it with the `Write` button
 1. Unplug the SD card adapter and attempt to turn on the DSi
