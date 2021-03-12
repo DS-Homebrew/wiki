@@ -27,7 +27,7 @@ The Markdown and file sizes sections apply to all languages, though Crowdin take
 ## File sizes
 Because the decimal base units for file sizes are ambiguous which they actually are, using the binary base units is generally preferred unless something is a clean size in the decimal units. (ex. 500,000 bytes = 500 kB, 512,000 bytes = 500 KiB, 294,966 bytes = (about) 288 KiB)
 
-Note: Windows uses binary units but labels them incorrectly, macOS and most Linux distros use the decimal ones.
+Note: Windows uses binary units but labels them incorrectly. macOS uses the decimal units, labeled correctly, and Linux programs usually label them correctly, but you might want to check if labels them with the decimal units.
 
 Binary:
 - `KiB` is 1,024 (2^10) bytes
