@@ -410,6 +410,23 @@ a.footnote::after {
 	content: "]";
 }
 
+// Fixes for alerts of opposite text direction
+.alert-dismissible[dir=ltr] {
+	padding-left: 1rem;
+}
+.alert-dismissible[dir=rtl] {
+	padding-right: 1rem;
+}
+
+.alert-dismissible[dir=ltr] .btn-close {
+	left: unset;
+	right: 0;
+}
+.alert-dismissible[dir=rtl] .btn-close {
+	left: 0;
+	right: unset;
+}
+
 @media only screen and (min-width: 576px) {
 	// Version of .position-absolute that only triggers for sm+
 	.position-absolute-sm {
