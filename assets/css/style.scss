@@ -410,6 +410,11 @@ a.footnote::after {
 	content: "]";
 }
 
+// Alerts
+.small-alert {
+	padding: 0.5rem 1rem;
+}
+
 // Fixes for alerts of opposite text direction
 .alert-dismissible[dir=ltr] {
 	padding-left: 1rem;
