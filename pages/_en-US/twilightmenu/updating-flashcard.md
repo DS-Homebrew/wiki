@@ -16,7 +16,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Copy the `_nds` folder to your flashcard's microSD card root
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
 
-### More steps for the DSi/3DS SD card side
+### More steps for the DSi / 3DS SD card side
 
 If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
