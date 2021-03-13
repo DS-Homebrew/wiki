@@ -5,6 +5,9 @@ section: ds-index
 category: guides
 title: Hardmod
 description: How to hardmod a Nintendo DSi
+tabs:
+  - windows: Windows
+    other: macOS / Linux
 ---
 
 Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...
@@ -53,9 +56,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 - Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
    - Use this file as the NAND image you flash onto the DSi
 
-
-#### Windows instructions (skip for macOS / Linux)
-
+{% capture tab-windows %}
 1. Open Win32DiskImager
 1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
 1. Choose the device that is the DSi and click read
@@ -67,10 +68,11 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
 1. Flash it with the `Write` button
 1. Unplug the SD card adapter and attempt to turn on the DSi
+{% endcapture tab-windows %}
+{% assign tab-windows = tab-windows | split: "////////" %}
 
-#### Linux / macOS instructions (skip if on Windows)
 
-
+{% capture tab-other %}
 1. Work out where the SD card is mounted
    - Linux:
       1. Unplug the SD card adapter
@@ -113,3 +115,9 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 
 At this point you may unplug the SD card adapter and attempt to turn on the DSi.
 If all went well, the DSi should have booted to the state it was when the backup was created!
+{% endcapture tab-other %}
+{% assign tab-other = tab-other | split: "////////" %}
+
+### Flashing the NAND backup
+{% assign tabs = tab-windows | concat: tab-other %}
+{% include tabs.html index=0 tabs=tabs %}
