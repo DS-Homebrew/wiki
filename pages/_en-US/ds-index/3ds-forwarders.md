@@ -88,7 +88,7 @@ After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change
 - `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
 - `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
 {% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "<!-->" %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
 1. Download one of these packs:
@@ -107,7 +107,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 {% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "<!-->" %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
 {% assign tabs = tab-sd-card | concat: tab-flashcard %}
 {% include tabs.html index=0 tabs=tabs %}

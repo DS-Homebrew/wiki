@@ -25,7 +25,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
 {% endcapture %}
-{% assign tab-working-camera = tab-working-camera | split: "<!-->" %}
+{% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
 1. Download the `Universal-Updater.cia` file from the [Universal-Updater release page](https://github.com/Universal-Team/Universal-Updater/releases)
@@ -40,7 +40,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
 {% endcapture %}
-{% assign tab-non-working-camera = tab-non-working-camera | split: "<!-->" %}
+{% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -51,7 +51,7 @@ You will first need to have Custom Firmware on your 3DS, follow [3ds.hacks.guide
 1. Copy the two `.cia` files to your SD card root
 1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
-{% assign tab-manual = tab-manual | split: "<!-->" %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### Installing
 

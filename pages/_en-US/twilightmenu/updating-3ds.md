@@ -20,7 +20,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
 {% endcapture %}
-{% assign tab-universal-updater = tab-universal-updater | split: "<!-->" %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -30,7 +30,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Copy the two `.cia` files to your SD card root
 1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
-{% assign tab-manual = tab-manual | split: "<!-->" %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### Updating
 
