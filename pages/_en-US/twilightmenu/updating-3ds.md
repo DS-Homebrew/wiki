@@ -5,6 +5,9 @@ section: twilightmenu
 category: updating
 title: Updating (3DS)
 description: How to update TWiLight Menu++ on the Nintendo 3DS
+tabs:
+  - universal-updater: Universal-Updater
+    manual: Manual
 ---
 
 If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
@@ -17,6 +20,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
    - This will take a while
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "<!-->" %}
 
 {% capture tab-manual %}
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -26,22 +30,12 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Copy the two `.cia` files to your SD card root
 1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "<!-->" %}
 
 ### Updating
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### More steps for the flashcard side
 

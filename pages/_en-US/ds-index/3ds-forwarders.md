@@ -5,6 +5,9 @@ section: ds-index
 category: guides
 title: DS Game Forwarders (3DS)
 description: How to create CIA forwarders to have your DS games on your 3DS's home menu
+tabs:
+  - tab-sd-card: SD card
+    tab-flashcard: Flashcard
 ---
 
 If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
@@ -85,6 +88,7 @@ After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change
 - `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
 - `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
 {% endcapture%}
+{% assign tab-sd-card = tab-sd-card | split: "<!-->" %}
 
 {% capture tab-flashcard %}
 1. Download one of these packs:
@@ -103,21 +107,10 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 {% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "<!-->" %}
 
-<div class="tab-container">
-	<div class="pb-3">
-		<a class="tab-link btn btn-outline-secondary tab-default" href="#tab-sd-card" onclick="openTab(event, event.currentTarget)" data-tab-name="sd-card">SD card</a>
-		<a class="tab-link btn btn-outline-secondary" href="#tab-flashcard" onclick="openTab(event, event.currentTarget)" data-tab-name="flashcard">Flashcard</a>
-	</div>
-	<div id="tab-sd-card">
-		<noscript><h4>SD card</h4></noscript>
-		{{ tab-sd-card | markdownify }}
-	</div>
-	<div id="tab-flashcard">
-		<noscript><h4>Flashcard</h4></noscript>
-		{{ tab-flashcard | markdownify }}
-	</div>
-</div>
+{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 If you already have TWiLight Menu++, skip to the next section.

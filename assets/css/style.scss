@@ -432,6 +432,39 @@ a.footnote::after {
 	right: unset;
 }
 
+// Tabs
+.tab-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tab-container > .tab {
+	display: none;
+	order: 99;
+	padding-top: 1rem;
+	width: 100%;
+}
+
+input:checked+label+.tab {
+	display: block;
+}
+
+.tab-container > label {
+	margin-right: 0.25rem;
+}
+
+input:checked+label.btn-outline-secondary {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+input:checked+label.btn-outline-secondary:hover, input:checked+label.btn-outline-secondary:active, input:checked+label.btn-outline-secondary:focus {
+	color: #fff;
+	background-color: #5c636a;
+	border-color: #565e64;
+}
+
 @media only screen and (min-width: 576px) {
 	// Version of .position-absolute that only triggers for sm+
 	.position-absolute-sm {
