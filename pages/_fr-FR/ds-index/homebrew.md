@@ -11,9 +11,9 @@ description: Informations sur les homebrews de la Nintendo DS
 
 Le développement de homebrew pour Nintendo DS utilise les outils de devkitPro, comme devkitARM, libnds, et libfat. Cependant, il y a toujours la possiblité d'utiliser des logiciels alternatifs:
 
-- **SD Card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphic Library:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
-- **Entire Toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphics libraries:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Entire toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Flashcards
 
@@ -31,16 +31,16 @@ Une Time Bomb est une date d'expiration sur les noyaux de flashcard que les fabr
 
 - Comme il dépend de l'horloge du système, vous pouvez changer la date pour revenir en arrière. Cela va entrainer des dysfonctionnements dans les jeux qui utilisent votre horloge système, mais cela vous permettra d'utiliser le noyau par défaut.
 - Puisqu'il dépend du noyau et non du firmware, vous pouvez passer à un noyau alternatif. Il y a deux options disponibles :
-  - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Le menu est assez moche et n'affiche que des fichiers `.nds` , mais il a une bien meilleure prise en charge des jeux, le support des cheats et aucune exigence de pack de mémoire
-  - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Ceci est utile si vous souhaitez avoir toutes vos ROMs de différentes consoles dans le même menu, Il y a deux façons de faire tourner des jeux DS avec TWiLight Menu++:
-    - Avec B4DS: Nécessite un Pack d'extension de mémoire pour une compatibilité de jeu étendue et ne prend pas en charge les cheats. Mais il fonctionne sur toutes les flashcards où TWiLight Menu++ fonctionne
-    - Avec YSMenu: Obtient les avantages de compatibilité de YSMenu avec le meilleur menu de TWiLight Menu++, cependant, les cheats ne sont pas prises en charge actuellement
+   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Le menu est assez moche et n'affiche que des fichiers `.nds` , mais il a une bien meilleure prise en charge des jeux, le support des cheats et aucune exigence de pack de mémoire
+   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Ceci est utile si vous souhaitez avoir toutes vos ROMs de différentes consoles dans le même menu, Il y a deux façons de faire tourner des jeux DS avec TWiLight Menu++:
+      - Avec B4DS: Nécessite un Pack d'extension de mémoire pour une compatibilité de jeu étendue et ne prend pas en charge les cheats. Mais il fonctionne sur toutes les flashcards où TWiLight Menu++ fonctionne
+      - Avec YSMenu: Obtient les avantages de compatibilité de YSMenu avec le meilleur menu de TWiLight Menu++, cependant, les cheats ne sont pas prises en charge actuellement
 
 Nous vous recommandons YSMenu, avec TWiLight Menu++ si vous le préférez, en raison de la plus grande compatibilité, et d'aucun besoin pour un pack d'extension de mémoire. Si vous voulez installer YSMenu, DeadSkullzJr a fait un [dépôt Dropbox](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) avec tous les noyaux de démarrage principaux configurés pour votre flashcard. Tout ce que vous devez faire est un glisser-déposer vers la racine de votre carte SD et vous avez terminé. Les instructions pour installer TWiLight Menu++ sont [sur la page d'installation de la flashcard](../twilightmenu/installing-flashcard).
 
 Afin de vérifier si votre flashcard possède une Time Bomb, réglez votre système sur la plus récent date possible et lancez la flashcard.
 
-### Support ARGV
+### ARGV support
 ARGV est un émetteur d'information entre deux applications Nintendo DS homebrew. Il peut être utilisé pour les forwarders ou les menus alternatifs.
 
 - Les homebrew doivent être programmés pour en tirer profit. Par exemple, GBARunner2, NesDS et GameYob ont tous une implémentation ARGV

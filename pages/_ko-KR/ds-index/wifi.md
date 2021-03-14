@@ -12,12 +12,12 @@ description: 닌텐도 DS에서 Wi-Fi를 사용하는 방법에 대한 정보
 
 핫스팟은 사용 가능하므로, 라우터 설정을 바꾸지 않아도 됩니다.
 
-### 핫스팟 만들기
+### Creating a hotspot
 GBAtemp의 macOS와 Linux 컴퓨터 상에 DS 게임 호환 핫스팟을 만드는 방법입니다. 윈도우를 사용중이면, Linux live boot를 이용할 수도 있습니다.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### 닌텐도 DS Wi-Fi 커넥션 복구하기
+### Nintendo DS WFC restoration
 1. 닌텐도 Wi-Fi 커넥션 설정을 실행합니다.
 1. 사용자의 엑세스 포인트에 접속합니다.
 1. 사용할 목적과 서비스에 따라, 기본 설정 DNS를 아래에 적힌 값으로 설정합니다.
@@ -28,7 +28,7 @@ GBAtemp의 macOS와 Linux 컴퓨터 상에 DS 게임 호환 핫스팟을 만드�
 1. 보조 DNS를 `1.1.1.1` 로 설정합니다.
 1. 여기서, 게임에 따라 NoSSL 패치가 필요할 수 있습니다.
 
-### 사용자의 DS 롬에 수동으로 패치하기
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Troubleshooting and further reading
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

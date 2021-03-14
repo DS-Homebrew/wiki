@@ -13,7 +13,7 @@ Nintendo DS Homebrew fejlesztése tipikusan devkitPro eszközöket igényel, min
 
 - **SD kártya könyvtárak:** A [DevkitPro](https://devkitpro.org/) a [libfat](https://github.com/devkitPro/libfat) könyvtárat ajánlja. Helyette mi a [libslim](https://github.com/DS-Homebrew/libslim/) használatát ajánljuk, mert megengedi a különböző partíciók használatát, gyorsabb és nem-blokkoló
 - **Grafikus könyvtár:** Az [easyGL2D](http://rel.phatcode.net/junk.php?id=117)-t ajánljuk, ami együtt érkezik a libnds-sel. Azonban használhatod a [NightFox Lib](https://github.com/knightfox75/nds_nflib)-et is
-- **Entire Toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **Teljes eszköztár:** A [devkitARM](https://devkitpro.org/wiki/Getting_Started) és a [libnds](https://libnds.devkitpro.org/) használatát javasoljuk, mert tartalmazza a DSi kompatibilitást és nagyobb az ökoszisztémája. Azonban ha a cél kizárólag flashcards a Nintendo DS-en, nyugodtan használhatod a [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) eszköztárát
 
 ### Flashcard-ok
 
@@ -31,10 +31,10 @@ Az időbomba egy lejárati dátuma a flashcard kernel-eknek, amit a gyártók ha
 
 - Mivel a rendszerórán alapszik, visszaállíthatod a dátumot. Ez viszont elront minden játékot, ami a rendszerórát használja, de lehetővé teszi az alapértelmezett kernel használatát.
 - Mivel ez a kernel-en alapul, nem a firmware-en, alternatív kernelre is válthatsz. Két opció áll rendelkezésre:
-  - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- A menü igencsak ronda és csak `.nds` fájlt mutat, de jobb játék támogatása és csalás támogatása van, valamint nincs memory pak követelménye
-  - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Ez hasznos ha szeretnéd minden ROM-od különféle konzolról ugyanabban a menüben kezelni; két módja van a DS játékok futtatásának a TWiLight Menu++-ből:
-    - B4DS-sel: Szüksége van Memory Expansion Pak-ra a bővített játék kompatibilitás miatt, és nem támogatja a csalásokat. Azonban működik minden flashcard-dal, amivel TWiLight Menu++ működik
-    - YSMenu-vel: Megkapja a kompatibilitási előnyeit az YSMenu előnyeit, a TWiLight Menu++ jobb menüjével, azonban a csalások nem támogatottak jelenleg
+   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- A menü igencsak ronda és csak `.nds` fájlt mutat, de jobb játék támogatása és csalás támogatása van, valamint nincs memory pak követelménye
+   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Ez hasznos ha szeretnéd minden ROM-od különféle konzolról ugyanabban a menüben kezelni; két módja van a DS játékok futtatásának a TWiLight Menu++-ből:
+      - B4DS-sel: Szüksége van Memory Expansion Pak-ra a bővített játék kompatibilitás miatt, és nem támogatja a csalásokat. Azonban működik minden flashcard-dal, amivel TWiLight Menu++ működik
+      - YSMenu-vel: Megkapja a kompatibilitási előnyeit az YSMenu előnyeit, a TWiLight Menu++ jobb menüjével, azonban a csalások nem támogatottak jelenleg
 
 Azt ajánljuk, hogy az YSMenu-t használja, TWiLight Menu++-szal, ha azt preferálja, a magasabb kompatibilitás miatt, és mert nem szükséges Memory Expansion Pak hozzá. Ha szeretné beállítani az YSMenu-t, DeadSkullzJr készített egy [Dropbox repo-t](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) minden elsődleges boot kernel konfigurációval, a flashcard-jához. Csupán annyit kell tennie, hogy behúzza az SD kártya gyökerébe és kész is. A TWiLight Menu++ telepítésről a [a flashcard telepítés oldalon olvashat](../twilightmenu/installing-flashcard).
 

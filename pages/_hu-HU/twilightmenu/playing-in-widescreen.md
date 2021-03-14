@@ -7,7 +7,7 @@ title: Játék széles képenyőn
 description: A TWiLight Menu++ széles képernyős használata Nintendo 3DS-en
 ---
 
-Old / New Nintendo 3DS vagy 2DS konzolt igényel.
+Requires a Nintendo 3DS or 2DS console.
 {:.alert .alert-info}
 
 ### Előkészítés
@@ -31,7 +31,7 @@ Old / New Nintendo 3DS vagy 2DS konzolt igényel.
 
 Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 
-**MEGJEGYZÉS1**: Minden játék/app a DS(i) módban széles képernyővel fog futni, még azok is amelyek nem kompatibilisek a széles képernyővel. Ennek a javítására, hogy csak a széles képernyő kompatibilis játékok fussanak széles képernyőn, várj az RTCom-aktivált széles képernyő kiadásáig.
+**MEGJEGYZÉS1:** Minden játék/app a DS(i) módban széles képernyővel fog futni, még azok is amelyek nem kompatibilisek a széles képernyővel. Ennek a javítására, hogy csak a széles képernyő kompatibilis játékok fussanak széles képernyőn, várj az RTCom-aktivált széles képernyő kiadásáig.
 
 **MEGJEGYZÉS2:** Ne tartsd nyomva a <kbd>START</kbd> vagy <kbd>SELECT</kbd> gombokat, amikor indítod a TWLMenu++-t, ha nem szeretnéd, hogy a széles képernyő hibásan nézzen ki. Ha nem látod a képernyő arány beállítást, várj az RTCom-aktivált széles képernyő kiadásáig.
 

@@ -5,6 +5,10 @@ section: twilightmenu
 category: updating
 title: עדכון (3DS)
 description: איך לעדכן את TWiLight Menu++ על Nintendo 3DS
+tabs:
+  - 
+    universal-updater: Universal-Updater
+    manual: ידני
 ---
 
 אם אתם מעדכנים מגרסה ישנה יותר מv16.4.0, העבירו את קבצי ה`.sav` של משחקי הDS לתיקיה חדשה בשם `saves`, כאשר התיקייה נמצאת באותו מקום כמו הROMים של משחקי הDS.
@@ -17,6 +21,7 @@ description: איך לעדכן את TWiLight Menu++ על Nintendo 3DS
 1. לחצו על <kbd class="face">A</kbd> או לחצו על אייקון ההורדה בתפריט הצד ובחרו ב`TWiLight Menu++` על מנת להתחיל את ההתקנה
    - פעולה זו תמשך זמן מה
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. הורידו את הגרסה האחרונה של `TWiLightMenu-3DS.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -26,23 +31,12 @@ description: איך לעדכן את TWiLight Menu++ על Nintendo 3DS
 1. העתיקו את שתי קבצי ה`.cia` לכרטיס הSD
 1. במכשיר ה3DS, התקינו את שתי הCIAים באמצעות FBI
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### עדכון
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">ידני</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>ידני</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### שלבים נוספים עבור הפלאשקארד
 

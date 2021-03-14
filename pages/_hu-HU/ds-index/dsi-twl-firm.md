@@ -11,32 +11,32 @@ description: Információk a Nintendo DSi és a Nintendo 3DS TWL_FIRM-jéről
 Habár a legtöbb előny az egyedi firmware a Nintendo DSi és Nintendo 3DS számára nyújtja, lehetővé teszi, hogy felold a konzolod lehetőségeit. Az egyedi firmware telepítése elég könnyű és a legtöbb esetben csak egy (micro)SD kártyára van szükséged hozzá. A legjobb útmutatókkal rendelkezünk, kövesd lépésről lépésre.
 
 - [3DS Hacking Guide](https://3ds.hacks.guide)
-  - Lightning parancs: `mod 3ds`
-  - Kuriisu parancs: `guide 3ds`
+   - Lightning parancs: `mod 3ds`
+   - Kuriisu parancs: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
-  - Lightning parancs: `mod dsi cfw`
-  - Kuriisu parancs: `guide dsi`
+   - Lightning parancs: `mod dsi cfw`
+   - Kuriisu parancs: `guide dsi`
 
 ### CPU sebességek
-A Nintendo DS 67MHz-es processzorral került szállításra 2004-ben. A Nintendo DSi 133MHz-es processzorral jött ki 2009-ben. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem működik jól magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
+A Nintendo DS 67 MHz-es processzorral került szállításra 2004-ben. A Nintendo DSi 133 MHz-es processzorral jött ki 2009-ben. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67 MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem működik jól magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
 
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
-### A Nintendo DSi System Menu
-A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occurred" fekete képernyőbe.
+### Nintendo DSi system menu
+The Nintendo DSi system menu uses a signed 32-bit integer to determine the amount of free space on the device. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occurred" fekete képernyőbe.
 
 A tartományok, amik túlcsordultatják kettes csoportokban jelenkeznek. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
 
-Ez a hiba soha nem fordul elől, ha a System Menu a NAND chipről bootolunk (mivel azok maximum 128 MB méretűek) de egy átirányító rendszer (mint például a hiyaCFW) ezt a hibát indukálhatja. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
+This crash will never occur if the system menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
 
-Az 1.4.0 verzióban az RSA aláírások a a DS Cart fehérlistában nem ellenőrzöttek. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
+In version 1.4.0, RSA signatures in the DS cart whitelist aren't verified. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
 
 ### Nintendo DSi Slot-1 hozzáférés & letiltás
-A Slot-1 hozzáférés blokkol, amikor alkalmazásokat indít a System Menu-ből, kivéve ha az említett alkalmazás a Slot-1 launcher maga vagy a System Settings. Ahhoz, hogy egy normálisan indíthatatlan slot-1 cartridge-t indítsunk, szükség van egy System Settings exploitra vagy egy Unlainch telepítésre. Ezek bármelyike nélkül, nem tud indítani indíthatatlan flashcard-ot és nem tud dump-olni ROM-ot az SD kártyára.
+A Slot-1 hozzáférés blokkolt, amikor alkalmazásokat indít a System Menu-ből, kivéve ha az említett alkalmazás a Slot-1 launcher maga vagy a System Settings. Ahhoz, hogy egy normálisan indíthatatlan slot-1 cartridge-t indítsunk, szükség van egy System Settings exploitra vagy egy Unlainch telepítésre. Ezek bármelyike nélkül, nem tud indítani indíthatatlan flashcard-ot és nem tud dump-olni ROM-ot az SD kártyára.
 
 A flashcard white list RSA aláírásokkal kerül ellenőrzésre kivéve az 1.4.0 firmware verziót. Ez azt jelenti, hogy az emberek white list-elhetik saját kártyájukat
 
-Az 1.4.0 előtt a white list két szekciót tartalmazott. Az 1.4.0-nál bevezetésre került a harmadik szekció, amivel a blokkolhatók olyan flash kártyák, amik az első kettőn túljutottak. A harmadik szekció 8 különböző szekciót olvas fel a rom-ról és ellenőrzi egy hash-sel, hogy a rom módosításra került-e. Azon az ellenőrzés hiánya miatt túlcsordultathatjuk a kivétel vektort/megszakítás címet elég nagy értékkel. A legjobb az egészben, hogy ez ARM7-en fut (másik nevén a biztonsági processzor) így ez lehetővé teszik az első exploit-ot az ARM7 processzor-ra. Mivel ez az SCFG regiszterek kizárása előtt történik, fejlett homebrew alkalmazást is futtathatunk (mint például a Slot-1 dumper-ek & külső slot-1 dumper-ek)
+Az 1.4.0 előtt a white list két szekciót tartalmazott. Az 1.4.0-nál bevezetésre került a harmadik szekció, amivel a blokkolhatók olyan flash kártyák, amik az első kettőn túljutottak. A harmadik szekció 8 különböző szekciót olvas fel a rom-ról és ellenőrzi egy hash-sel, hogy a rom módosításra került-e. Azon az ellenőrzés hiánya miatt túlcsordultathatjuk a kivétel vektort / megszakítás címet elég nagy értékkel. A legjobb az egészben, hogy ez ARM7-en fut (másik nevén a biztonsági processzor) így ez lehetővé teszik az első exploit-ot az ARM7 processzor-ra. Mivel ez az SCFG regiszterek kizárása előtt történik, fejlett homebrew alkalmazást is futtathatunk (mint például a Slot-1 dumper-ek & külső slot-1 dumper-ek)
 
 Sajnos a követelmények elég szűkek. 1.4.0 verziót és módosított ROM-os flashcard-ot igényel. Továbbá, az exploit nem jött ki sosem hivatalosan, mert az Unlaunch-ot még egyszerűbb telepíteni, és kevesebb követelménnyel rendelkezik (csak egy út a homebrew felé) hasonló előnyökkel.
 
@@ -45,8 +45,8 @@ A Nintendo DSi Camera alkalmazás képs fényképek készítésére JPEG-ben és
 
 A `pit.bin` fájl alapján kerül a képek betöltésének sorrendje meghatározásra. Azonban a fejléc méret az offset 0x16-nál nem ellenőrzött, így elég nagy fejléc méret túl tud lépni ezeken a határokon, a buffer felülírását eredményezve aláíratlan kódra ugorva. Ez az, ahogy a Memory Pit működik.
 
-### Nintendo DSi 2. Bootstage
+### Nintendo DSi bootstage 2
 A Nintendo DSi második bootstage tölti be a launcher "title.tmd"-jét a memóriába. Azonban ez nem végez fájlméret ellenőrzést, ami azt jelenti, hogy az első 80k bájt betöltésre kerül a RAM-ba, miközben a többi az egyedi payload lehet. Ez az alapja az Unlaunch exploit-nak.
 
 ### RTCom
-Az RTCom a használata a 3DS RTC-jének, hogy lehetővé tegye, hogy az ARM7 és  ARM11 CPU kommunikáljon egymással, még a TWL_FIRM-ben is. Ez engedélyezi a 3DS szolgáltatások használatát a DS(i) módban. Ebbe bele tartozik a Circle Pad analóg bevitel, a széles képernyő engedélyezés és a gyro támogatás. Jelenleg az egyetlen publikus ds homebrew ami használja az RTCom-ot bizonyos gbarunner2 buildek, amik rendelkeznek a 3DS gyro funkció támgoatásával. Az RTCom engedélyezéséhez használnod kell a [TWPatch](https://gbatemp.net/threads/542694/)-et.
+Az RTCom a használata a 3DS RTC-jének, hogy lehetővé tegye, hogy az ARM7 és  ARM11 CPU kommunikáljon egymással, még a TWL_FIRM-ben is. Ez engedélyezi a 3DS szolgáltatások használatát a DS(i) módban. Ebbe bele tartozik a Circle Pad analóg bevitel, a széles képernyő engedélyezés és a gyro támogatás. Jelenleg az egyetlen publikus ds homebrew ami használja az RTCom-ot bizonyos GBARunner2 buildek, amik rendelkeznek a 3DS gyro funkció támogatásával. Az RTCom engedélyezéséhez használnod kell a [TWPatch](https://gbatemp.net/threads/542694/)-et.

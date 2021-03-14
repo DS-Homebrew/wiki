@@ -16,7 +16,7 @@ Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` D
 1. Másold az `_nds` mappát a flash kártyád microSD kártyájának gyökerébe
 1. Másold az `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe
 
-### További lépések a DSi/3DS SD kártya oldaláról
+### További lépések a DSi / 3DS SD kártya oldaláról
 
 Ha tudsz váltani az SD és flashcard tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
 

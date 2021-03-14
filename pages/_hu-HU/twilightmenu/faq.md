@@ -15,7 +15,7 @@ A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót
 
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
 - Először próbáld meg a konzolodat alvó üzemmódba rakni (pl. lecsukva a konzol tetejét vagy a sleep gomb megnyomásával az O2DS-en), majd felkelteni a konzolt belőle
-- Ha ez nem működik, formázd az SD kártyádat FAT32-re 32KB cluster/foglalási mérettel
+- Ha ez nem működik, formázd az SD kártyádat FAT32-re 32 KB cluster/foglalási mérettel
 - Ha ez sem működik, próbálj egy másik SD kártyát
 
 #### Hogyan javítom azt, ha a TWiLight Menu++ újraindul, vagy Guru Meditation Error hibát ad, amikor egy játékot indítok?

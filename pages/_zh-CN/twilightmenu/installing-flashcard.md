@@ -15,8 +15,8 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 1. 拷贝`roms` 目录到烧录卡存储卡的根目录
 1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
 1. ...
-   - **DS Phat/lite 用户:** 如果使用 `BOOT.NDS` 起到导致白屏卡机，请插入一张DS存储扩展卡(DS Memory Expansion Pak)，然后重试
-   - **DSi/3DS 用户:** 在主机的SD卡上运行 TWLMenu++, 打开 `SCFG access in Slot-1`选项
+   - **DS Phat / Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
       - 这会让你在使用烧录卡使用TWL/VRAM速度更快, 包括加载主机SD卡的速度
 
 ### 使用烧录卡固件运行游戏
@@ -45,5 +45,5 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
    - 如果你的烧录卡没有请跳过本步骤
 1. ...
-   - **DS Phat/DS Lite 用户:** 在DS设置菜单中打开自动运行，这样开机就会自动进入烧录卡
-   - **DSi/3DS 用户:** 在主机SD卡中运行TWLMenu++ 并开启 `Auto-start Slot-1`设置
+   - **DS Phat / DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`

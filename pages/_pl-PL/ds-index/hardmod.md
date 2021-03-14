@@ -5,6 +5,10 @@ section: ds-index
 category: guides
 title: Hardmod
 description: Jak wykonać hardmoda Nintendo DSi
+tabs:
+  - 
+    windows: Windows
+    other: macOS / Linux
 ---
 
 Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do adaptera karty SD w celu podłączenia do komputera. Jest to przydatne by przywrócić kopię zapasową NAND, przeglądać NAND na swoim komputerze itp...
@@ -53,9 +57,7 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 - Po ukończeniu skryptu powinien pojawić się plik z długą nazwą kończącą się na `-no-footer.bin` w folderze otworzonym przez terminal
    - Użyj tego pliku jako obrazu NAND, którego wgrasz na DSi
 
-
-#### Instrukcje dla Windows (pomiń jeśli korzystasz z macOS / Linux)
-
+{% capture tab-windows %}
 1. Otwórz Win32DiskImager
 1. Otwórz ikonę folderu i przejdź do pulpitu. W polu tekstowym wpisz `NAND_0.bin`. Zaznaczając typ, wybierz `Wszystkie pliki  (*.*)`
 1. Wybierz urządzenie, które jest DSi i wciśnij read
@@ -63,14 +65,15 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Otwórz HxD i przeciągnij oba pliki do edytora. W górnym pasku wybierz "Analizy", następnie z "Porównanie danych" wybierz "Porównaj".
 1. Wybierrz to w celu porównaniania obu plików, wciśnij OK po zakończeniu
    - Jeśli wyskoczy "Wybrane pliki są identyczne", możesz przejść dalej
-   - Jeśli to nie wyskoczy i oba pliki nie mają około 240MB, zrzuć je ponownie
+   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
 1. Otwórz Win32DiskImager, wciśnij ikonę folderu i wybierz utworzony wcześniej backup NAND
 1. Sflashuj go używając przycisku `Write`
-1. Odłącz adapter i spróbuj uruchomić konsolę
+1. Unplug the SD card adapter and attempt to turn on the DSi
+{% endcapture tab-windows %}
+{% assign tab-windows = tab-windows | split: "////////" %}
 
-#### Instrukcje dla Linux / macOS (pomiń jeśli korzystasz z Windowsa)
 
-
+{% capture tab-other %}
 1. Dowiedz się, gdzie karta SD jest zamontowana
    - Linux:
       1. Odłącz adapter karty SD
@@ -112,3 +115,9 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
       - Replace `{device-name}` with the mount point of the SD card
 
 At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+{% endcapture tab-other %}
+{% assign tab-other = tab-other | split: "////////" %}
+
+### Flashing the NAND backup
+{% assign tabs = tab-windows | concat: tab-other %}
+{% include tabs.html index=0 tabs=tabs %}

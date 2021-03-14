@@ -5,6 +5,10 @@ section: twilightmenu
 category: updating
 title: 업데이트하기 (3DS)
 description: 닌텐도 3DS에서 TWiLight Menu++를 업데이트하는 방법
+tabs:
+  - 
+    universal-updater: Universal-Updater
+    manual: 수동 업데이트
 ---
 
 v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DS 게임의 `.sav` 파일을 해당 폴더에 넣어주세요.
@@ -17,6 +21,7 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
    - 시간이 조금 걸릴 수 있습니다.
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. `TWiLightMenu-3DS.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.
@@ -26,23 +31,12 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 1. SD 카드 루트에 `.cia` 파일 두 개를 복사합니다.
 1. 3DS 본체의 FBI에서 두 CIA 파일들을 설치합니다.
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### 업데이트하기
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">수동 업데이트</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>수동 업데이트</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### Flashcard를 위한 추가적인 단계
 

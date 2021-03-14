@@ -1,49 +1,51 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: nds-bootstrap
 category: other
-title: FAQ & Troubleshooting
-description: FAQ & Troubleshooting for nds-bootstrap
+title: Preguntas frecuentes y soluciones
+description: Preguntas frecuentes y soluciones para nds-bootstrap
 ---
 
-#### Why do I get a white screen when trying to load a game from SD Card?
-- First, check the [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
-- If the game you’re trying to launch is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+#### Why do I get a white screen when trying to load a game from SD card?
+- Comprueba [la lista de compatibilidad de nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) y asegúrate de que el juego es compatible
+- Prueba a quitar todos los trucos para ese juego, ya que pueden no ser aún compatibles con nds-bootstrap, puedes usar <kbd class="l">L</kbd> para desactivar todos los de un juego
+- Si se trata de un juego DSi Enhanced, asegúrate de que TWiLight Menu++ esta puesto en `DS Mode`
+- Si antes funcionaba, borra las carpetas `fatTable` y `patchOffsetCache` en `sd:/_nds/nds-bootstrap/`
 
-#### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly. To improve performance, nds-bootstrap also shrinks the game's heap in memory, which breaks some games, though both the forwarders and TWiLight Menu++ have a heap shrink blacklist to fix the non-working games broken by heap shrink.
+#### ¿Por qué surgen estos problemas al cargar las ROMs aunque se lancen de forma nativa?
+nds-bootstrap parchea las funciones de la ROM para que funcionen desde una tarjeta SD, ya que las ROMs están pensadas para leerse desde la Slot-1. También hay problemas de tiempo y medidas antipiratería (la mayoría ya eliminadas), y ambas pueden hacer que la ROM no funcione correctamente. Para mejorar el rendimiento, nds-bootstrap comprime la pila del juego en memoria, cosa que rompe algunos juegos, aunque tanto los accesos directos como TWiLight Menu++ tienen una lista negra para evitar que esto ocurra.
 
-#### Why use nds-bootstrap over a regular flashcard?
-- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges
-- You can expand the VRAM memory bus to 32-bit
-- Utilize the DSi's additional CPU speed
-- Enhance your audio with 48 KHz
-- Use DSi mode, allowing for DSi features
-- Using certain cartridges, you are able to use IR in your application
-- nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued
-- The DS Memory Expansion Pak is emulated meaning games that require that accessory will work
+#### ¿Por qué usar nds-bootstrap en vez de una flashcard?
+- Algunas ROMs compatibles se cargan en la RAM, lo que permite tiempos de carga más rápidos incluso que de cartuchos normales
+- Puedes expandir el bus de la memoria VRAM a 32-bit
+- Utiliza la velocidad adicional de CPU de la DSi
+- Enhance your audio with 48 kHz
+- Usa el Modo DSi, permitiendo utilizar funciones de DSi
+- Con ciertos cartuchos puedes usar IR en tu aplicación
+- nds-bootstrap es de código abierto, por lo que los desarrolladores siempre pueden actualizarlo para arreglar errores y añadir más cosas incluso si la empresa cierra
+- Se emula el DS Memory Expansion Pak, por lo que los juegos que lo necesiten funcionarán
 
-#### Donor ROMs
-Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
+#### ROMs Donantes
+La mayoría de los juegos SDK5 se pueden usar como una ROM Donante (se puede hacer a través de TWiLight Menu++). El binario ARM7 de la ROM Donante es copiado por nds-bootstrap y reemplaza el del juego que está intentando lanzar. Esto permite a ciertos juegos SDK5 ejecutarse y guardar.
 
-#### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### ¿Qué es una versión Nightly y dónde la consigo?
+Una build nightly contiene hasta el último cambio hecho por un desarrollador. Pueden ser inestables, pero tienen las correcciones de errores más recientes. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Why do my cheats not work?
-The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
+#### ¿Por qué no funcionan mis trucos?
+La forma en la que los trucos de tipo E están implementados en nds-bootstrap está rota, por lo que funcionarán la mitad de las veces. Tu truco probablemente sea de ese tipo. No es culpa de la base de datos de trucos, sino de nds-bootstrap. Por favor, no pidas que se borren dichos trucos de la base de datos.
 
-#### Is there anything else I should know about cheats?
-You can set heap shrink to `Hi` in settings for slightly better cheat support.<br> For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+#### ¿Algo más que deba saber sobre los trucos?
+You can set heap shrink to `Hi` in settings for slightly better cheat support.
 
-#### nds-bootstrap troubleshooting
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+
+#### Solucionar problemas de nds-bootstrap
 If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
 
-1. Run everything in 67mhz, DS Mode, with 32 KHz of audio, etc. Basically, keep everything to DS settings. Don't try to improve it with DSi stuff
-2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
-3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
+1. Run everything in 67 MHz, DS Mode, with 32 kHz of audio, etc. Básicamente, mantén todo en la configuración de DS. No intentes mejorarla con opciones de DSi
+2. Borra las carpetas `fatTable` y `patchOffsetCache` en `sd:/_nds/nds-bootstrap/`
+3. Probablemente no sea tan grave; pregunta en el [servidor de Discord](https://discord.gg/yD3spjv)
 
 If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case we had one issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one.
 

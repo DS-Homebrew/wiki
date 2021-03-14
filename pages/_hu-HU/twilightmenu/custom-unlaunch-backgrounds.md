@@ -35,7 +35,7 @@ Mivel a GIF palettája VRAM-ba ugyanoda került betöltésre, ahova a szöveg pa
 1. Ha a GIF-ed túl nagy, akkor vagy a [gifsicle](http://www.lcdf.org/gifsicle/) vagy az [ezgif.com](https://ezgif.com/optimize) használatával próbáld meg optimalizálni
    - Ezek az instrukciók az ezgif használatát mutatják be, ami egyszerű, mert ez egy weboldal
 1. Nyisd meg https://ezgif.com/optimize oldalt és töltsd fel a GIF fájlodat
-1. Próbálj ki különböző tömörítési szinteket, hogy megtaláld a legjobbat 15 472 bájt alatt (15.11KiB), ideálisan egy kicsit alatta, mert a GIMP még növelheti kicsit a méretet
+1. Próbálj ki különböző tömörítési szinteket, hogy megtaláld a legjobbat 15 472 bájt alatt (15.11 KiB), ideálisan egy kicsit alatta, mert a GIMP még növelheti kicsit a méretet
 1. Mentsd le az optimalizált GIF-et, majd nyisd meg GIMP-ben
 1. A menüben felül válaszd az `Ablakok` -> `Dokkolható párbeszédablakok` -> `Színtérkép` opciókat
 1. Változtasd meg az aktuális `Előtér színt` #080808-ra és adj hozzá 14 új színt a `+` gombbal

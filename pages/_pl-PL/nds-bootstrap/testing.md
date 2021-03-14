@@ -4,7 +4,7 @@ layout: wiki
 section: nds-bootstrap
 category: other
 title: Compatibility List & Testing Tips
-description: Compatibility List & Testing Tips
+description: Compatibility list and tips for testing games
 ---
 
 ### Compatibility List

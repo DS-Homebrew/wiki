@@ -10,42 +10,42 @@ description: שאלות ותשובות ופתרון בעיות עבור TWiLight
 לשאלות ותשובות נוספות, בקרו ב[דיון בGBAtemp ](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS / 2DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
-TWL_FIRM might've somehow got corrupted. עקבו אחרי המדריך הזה לתקן את הבעיה <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
+#### למה ה3DS/2DS שלי נתקע על מסך שחור, קורס, נכבה וכו' כשאני מפעיל את TWiLight Menu++?
+TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לתקן את הבעיה <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
-#### How do I fix getting a white screen when booting TWiLight Menu++?
+#### איך אני מתקן את הבעיה של מסך לבן כשאני מפעיל את TWiLight Menu++?
 - ראשית, נסו להכינס את המכשיר למצב שינה (סגירת החלק העליון של הקונסולה או לחיצה על כפתור השינה בO2DS), ואז להעיר אותו
-- אם זה לא עוזר, פרמטו את כרטיס הSD לFAT32 עם 32KB cluster/allocation size
+- אם זה לא עוזר, פרמטו את כרטיס הSD לFAT32 עם 32 KB cluster/allocation size
 - אם גם זה לא עוזר, נסו כרטיס SD אחר
 
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 
-#### Why do I get a white screen when trying to load a game from SD Card?
+#### למה אני מקבל מסך לבן כשאני מנסה להפעיל משחק מכרטיס הSD?
 - ראשית, בדקו את [רשימת התאימות של nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) ו-ודאו שהמשחק שלכם נתמך
 - נסו עם כל הצ'יטים מבוטלים למשחק זה, מאחר וחלק מהצ'יטים לא מותאמים לnds-bootstrap כרגע. ניתן להשתמש ב<kbd class="l">L</kbd> לבטל את כל הציטים למשחק מסויים
 - אם המשחק שאתם מנסים להפעיל זה משחק DSi Enhanced, ודאו כי TWiLight Menu++ מוגדר להשתמש ב`DS Mode`
 - אם המשחק עבד בעבר, מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
 
-#### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+#### איך אני משתמש בצ'יטים?
+צריך מאגר ציטים בצורה של קובץ `usrcheat.dat` שנמצא בתיקיה `sd:/_nds/TWiLightMenu/extras/`. המאגר המעודכן ביותר הוא של [DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). לחלופין, ניתן להשתמש ב[r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) על מנת ליצור מאגר בעצמכם.
 
-#### How do I show a custom picture on the top screen of the DSi theme?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+#### איך אני מראה תמונה מותאמת אישית במסך העליון בערכת הנושא של הDSi?
+קובץ `.png` אקראי מהתיקייה `sd:/_nds/TWiLightMenu/dsimenu/photos/` יוצג כל פעם שהתפריט יעלה.
 
 - הגודל המקסימלי של התמונות הוא 208x156
 - אם אתם מקבלים שגיאות, זוהי כנראה בעיה עם גודל התמונה. השתמשו ב[tinypng](https://tinypng.com) להקטין את הגודל
 
-#### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). To get dumps of your retail games:
+#### איך אני משיג משחקים?
+ניתן להוריד משחקי הומברו מ [Universal-DB](https://db.universal-team.net/ds) ומ[GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). על מנת להשיג גיבויים של המשחקים הרשמיים שלכם:
 - על מכשיר DS ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת להשיג את הגיבויים של משחקי הGBA שלכם, ואם יש לכם פלאשקארט לSlot-2, משחקי DS
 - על מכשיר DSi ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת להשיג את הגיבויים של משחקי הDS והDSiWare שלכם
 - על מכשיר 3DS ניתן להשתמש ב[GodMode9](https://github.com/d0k3/GodMode9/releases) על מנת להשיג את הגיבויים של משחקי DS, DSiWare ומשחקי Virtual Console
 
-#### Can I get the save files from my game cards onto my SD card or vice versa?
-Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+#### האם ניתן להעביר את השמירות מקלטות המשחק שלי אל הSD וההפך?
+כן, ניתן להשתמש ב [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על DSi או 3DS, או ב[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) על 3DS.
 
-#### How do I change TWiLight Menu++'s language?
+#### איך אני משנה את השפה שלTWiLight Menu++?
 1. פתחו את ההגדרות של TWiLight Menu++, ניתן לעשות זאת על ידי לחיצה על <kbd>SELECT</kbd> בזמן שTWiLight Menu++ נטען
 1. לחצו על <kbd class="l">L</kbd> או על <kbd class="face">Y</kbd> פעם אחת (על פלאשקארט או 3DS) או פעמיים (על DSi)
 1. שנו את האופציה הראשונה עד שתראו את השפה שתרצו, ואז תצאו מההגדרות
@@ -81,11 +81,11 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 - Footnotes -
 {:footnotes}
 
-#### Why isn't touch input working on sudokuhax?
-Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### למה מסך המגע לא עובד עם sudokuhax?
+תלוי בשמירה של sudokuhax, מסך המגע עשוי לא לעבוד.
 
-#### Can The Biggest Loser boot TWiLight Menu++?
-No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### האם ניתן להשתמש בThe Biggest Loser על מנת להפעיל את TWiLight Menu++?
+לא. מאחר וThe Biggest Loser הוא משחק Slot-1 ולא משחק DSiWare. גישה לSD נחסמת כאשר מריצים משחקי Slot-1.
 
 [^1]: קבצי טקסט המכילים את הדרך לתוכנות הומברו של DS ואת הarguments להרצה, ראו את [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) למידע נוסף
 [^2]: רק עבור רומים רשמיים, להומברו אין קבצי שמירה מסויימים

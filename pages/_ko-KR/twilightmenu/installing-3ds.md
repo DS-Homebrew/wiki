@@ -5,6 +5,11 @@ section: twilightmenu
 category: installing
 title: 설치하기 (3DS)
 description: 닌텐도 3DS에서 TWiLight Menu++를 설치하는 방법
+tabs:
+  - 
+    working-camera: 카메라를 사용하여 설치
+    non-working-camera: 카메라를 사용하지 않고 설치
+    manual: 수동 설치
 ---
 
 설치를 진행하기 전에, [3ds.hacks.guide](https://3ds.hacks.guide)를 따라 사용자의 3DS 본체에 커스텀 펌웨어를 설치해야합니다.
@@ -20,6 +25,7 @@ description: 닌텐도 3DS에서 TWiLight Menu++를 설치하는 방법
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
    - 시간이 조금 걸릴 수 있습니다.
 {% endcapture %}
+{% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
 1. [Universal-Updater 릴리즈 페이지](https://github.com/Universal-Team/Universal-Updater/releases)에서 `Universal-Updater.cia` 파일을 다운로드하세요.
@@ -34,6 +40,7 @@ description: 닌텐도 3DS에서 TWiLight Menu++를 설치하는 방법
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
    - 시간이 조금 걸릴 수 있습니다.
 {% endcapture %}
+{% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. `TWiLightMenu-3DS.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.
@@ -44,25 +51,9 @@ description: 닌텐도 3DS에서 TWiLight Menu++를 설치하는 방법
 1. SD 카드 루트에 `.cia` 파일 두 개를 복사합니다.
 1. 3DS 본체의 FBI에서 두 CIA 파일들을 설치합니다.
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### 설치하기
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">카메라를 사용하여 설치</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">카메라를 사용하지 않고 설치</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">수동 설치</a>
-   </div>
-   <div id="tab-working-camera">
-      <noscript><h4>카메라를 사용하여 설치</h4></noscript>
-      {{ tab-working-camera | markdownify }}
-   </div>
-   <div id="tab-non-working-camera">
-      <noscript><h4>카메라를 사용하지 않고 설치</h4></noscript>
-      {{ tab-non-working-camera | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>수동 설치</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}

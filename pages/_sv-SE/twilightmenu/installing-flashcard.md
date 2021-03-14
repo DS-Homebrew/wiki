@@ -15,8 +15,8 @@ description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 1. Kopiera mappen `roms` till ditt minneskorts microSD-korts rot
 1. Om du redan har sparat data, flytta dina `.sav` filer, som finns i platsen av dina DS ROM, till en ny mapp som heter `saves`, som också går i platsen av dina DS ROM
 1. ...
-   - **DS Phat/lite användare:** Om uppstartningen av `BOOT.NDS` gör att konsollen fryser stilla med en vit skärm, sätt in en DS Memory Expansion Pak och försök igen
-   - **DSi/3DS användare:** Kör TWLMenu++ på konsolens SD-kort och aktivera `SCFG-åtkomst i Slot-1`
+   - **DS Phat / Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
       - Detta kommer att låta dig använda TWL klockfrekvens och/eller VRAM boost på spelen i din minneskort, samt tillgång till konsolens SD-kort
 
 ### För att köra spel med ditt minneskorts firmware
@@ -45,5 +45,5 @@ description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 1. Extrahera det som finns i `Autoboot/(ditt minneskort)` till roten av minneskortets microSD-kort
    - Hoppa över detta om du inte ser ditt minneskort
 1. ...
-   - **DS Phat/DS Lite användare:** Gå till inställningar i DS menyn och aktivera Auto-starta, så att ditt minneskort startar vid uppstart
-   - **DSi/3DS användare:** Kör TWLMenu++ på konsolens SD-kort och aktivera `Auto-starta Slot-1`
+   - **DS Phat / DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`

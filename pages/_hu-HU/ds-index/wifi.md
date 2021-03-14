@@ -28,7 +28,7 @@ Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS játék 
 1. Állítsd be az `1.1.1.1` címet másodlagos DNS-nek
 1. Szükséged lehet NoSSL patchelésre a játékodban, függően a játéktól
 
-### Manually Patching Your DS ROMs
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Troubleshooting and further reading
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

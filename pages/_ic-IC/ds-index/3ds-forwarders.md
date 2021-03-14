@@ -3,8 +3,12 @@ lang: crwdns14944:0crwdne14944:0
 layout: wiki
 section: crwdns14948:0crwdne14948:0
 category: crwdns15692:0crwdne15692:0
-title: crwdns15694:0crwdne15694:0
+title: crwdns19486:0crwdne19486:0
 description: crwdns14954:0crwdne14954:0
+tabs:
+  - 
+    tab-sd-card: crwdns19488:0crwdne19488:0
+    tab-flashcard: crwdns19490:0crwdne19490:0
 ---
 
 crwdns14956:0crwdne14956:0
@@ -29,8 +33,8 @@ crwdns14982:0crwdne14982:0
 - [crwdns14996:0crwdne14996:0](crwdns14994:0crwdne14994:0)
 - crwdns14998:0crwdne14998:0
 - crwdns15000:0crwdne15000:0
-- crwdns15002:0crwdne15002:0
-- crwdns15004:0crwdne15004:0
+- crwdns19494:0crwdne19494:0
+- crwdns19496:0crwdne19496:0
 - [crwdns15008:0crwdne15008:0](crwdns15006:0crwdne15006:0)
 - crwdns15010:0crwdne15010:0
 - crwdns15012:0crwdne15012:0
@@ -56,7 +60,7 @@ crwdns15040:0crwdne15040:0
 crwdns15052:0crwdne15052:0
 - crwdns15054:0crwdne15054:0
 - crwdns15056:0crwdne15056:0
-- crwdns15058:0crwdne15058:0
+- crwdns19498:0crwdne19498:0
 - crwdns15060:0crwdne15060:0
 - crwdns15062:0crwdne15062:0
 - crwdns15064:0crwdne15064:0
@@ -76,67 +80,58 @@ crwdns15074:0crwdne15074:0
 - crwdns15082:0crwdne15082:0
 - crwdns18472:0crwdne18472:0 crwdns18474:0crwdne18474:0
 
-### crwdns15086:0crwdne15086:0
+### crwdns19502:0crwdne19502:0
 crwdns15088:0{% capture tab-sd-card %}crwdne15088:0
 1. crwdns15090:0%20Gcrwdnd15090:0%20Fcrwdnd15090:0%20pcrwdnd15090:0%20crwdnd15090:0%28crwdnd15090:0%20Scrwdnd15090:0%20Ccrwdnd15090:0%29crwdne15090:0
 1. crwdns15092:0crwdne15092:0
 
 crwdns15094:0crwdne15094:0
 - crwdns15096:0crwdne15096:0
-- crwdns15098:0crwdne15098:0
+- crwdns19504:0crwdne19504:0
 crwdns15100:0{% endcapture%}crwdne15100:0
+crwdns19894:0crwdne19894:0
 
-crwdns15102:0{% capture tab-flashcard %}crwdne15102:0
-1. crwdns15104:0crwdne15104:0
-   - [crwdns15108:0crwdne15108:0](crwdns15106:0%20Gcrwdnd15106:0%20Fcrwdnd15106:0%20pcrwdnd15106:0%20crwdnd15106:0%28crwdnd15106:0%20crwdnd15106:0%2Ccrwdnd15106:0%20crwdnd15106:0%20Scrwdnd15106:0%29crwdne15106:0)
-   - [crwdns15112:0crwdne15112:0](crwdns15110:0%20Gcrwdnd15110:0%20Fcrwdnd15110:0%20pcrwdnd15110:0%20crwdnd15110:0%28crwdnd15110:0%20crwdnd15110:0%29crwdne15110:0)
-   - [crwdns15116:0crwdne15116:0](crwdns15114:0%20Gcrwdnd15114:0%20Fcrwdnd15114:0%20pcrwdnd15114:0%20crwdnd15114:0%28crwdnd15114:0%2Ccrwdnd15114:0%20crwdnd15114:0%20Gcrwdnd15114:0%2Ccrwdnd15114:0%20crwdnd15114:0%2Ccrwdnd15114:0%20Scrwdnd15114:0%20crwdnd15114:0%29crwdne15114:0)
-   - [crwdns15120:0crwdne15120:0](crwdns15118:0crwdne15118:0)
-   - [crwdns15124:0crwdne15124:0](crwdns15122:0%20Gcrwdnd15122:0%20Fcrwdnd15122:0%20pcrwdnd15122:0%20crwdnd15122:0%28crwdnd15122:0%2Ccrwdnd15122:0%20crwdnd15122:0%20Gcrwdnd15122:0%20crwdnd15122:0%29crwdne15122:0)
-   - [crwdns15128:0crwdne15128:0](crwdns15126:0%20Gcrwdnd15126:0%20Fcrwdnd15126:0%20pcrwdnd15126:0%20crwdnd15126:0%28crwdnd15126:0%2Ccrwdnd15126:0%20Gcrwdnd15126:0%20Bcrwdnd15126:0%20Ccrwdnd15126:0%2Ccrwdnd15126:0%20crwdnd15126:0%29crwdne15126:0)
-   - [crwdns15132:0crwdne15132:0](crwdns15130:0%20Gcrwdnd15130:0%20Fcrwdnd15130:0%20pcrwdnd15130:0%20crwdnd15130:0%28Scrwdnd15130:0%20crwdnd15130:0%29crwdne15130:0)
+crwdns19896:0{% capture tab-flashcard %}crwdne19896:0
+1. crwdns19898:0crwdne19898:0
+   - [crwdns19902:0crwdne19902:0](crwdns19900:0%20Gcrwdnd19900:0%20Fcrwdnd19900:0%20pcrwdnd19900:0%20crwdnd19900:0%28crwdnd19900:0%20crwdnd19900:0%2Ccrwdnd19900:0%20crwdnd19900:0%20Scrwdnd19900:0%29crwdne19900:0)
+   - [crwdns19906:0crwdne19906:0](crwdns19904:0%20Gcrwdnd19904:0%20Fcrwdnd19904:0%20pcrwdnd19904:0%20crwdnd19904:0%28crwdnd19904:0%20crwdnd19904:0%29crwdne19904:0)
+   - [crwdns19910:0crwdne19910:0](crwdns19908:0%20Gcrwdnd19908:0%20Fcrwdnd19908:0%20pcrwdnd19908:0%20crwdnd19908:0%28crwdnd19908:0%2Ccrwdnd19908:0%20crwdnd19908:0%20Gcrwdnd19908:0%2Ccrwdnd19908:0%20crwdnd19908:0%2Ccrwdnd19908:0%20Scrwdnd19908:0%20crwdnd19908:0%29crwdne19908:0)
+   - [crwdns19914:0crwdne19914:0](crwdns19912:0crwdne19912:0)
+   - [crwdns19918:0crwdne19918:0](crwdns19916:0%20Gcrwdnd19916:0%20Fcrwdnd19916:0%20pcrwdnd19916:0%20crwdnd19916:0%28crwdnd19916:0%2Ccrwdnd19916:0%20crwdnd19916:0%20Gcrwdnd19916:0%20crwdnd19916:0%29crwdne19916:0)
+   - [crwdns19922:0crwdne19922:0](crwdns19920:0%20Gcrwdnd19920:0%20Fcrwdnd19920:0%20pcrwdnd19920:0%20crwdnd19920:0%28crwdnd19920:0%2Ccrwdnd19920:0%20Gcrwdnd19920:0%20Bcrwdnd19920:0%20Ccrwdnd19920:0%2Ccrwdnd19920:0%20crwdnd19920:0%29crwdne19920:0)
+   - [crwdns19926:0crwdne19926:0](crwdns19924:0%20Gcrwdnd19924:0%20Fcrwdnd19924:0%20pcrwdnd19924:0%20crwdnd19924:0%28Scrwdnd19924:0%20crwdnd19924:0%29crwdne19924:0)
 
-1. crwdns15134:0crwdne15134:0
+1. crwdns19928:0crwdne19928:0
 
-crwdns15220:0crwdne15220:0 crwdns15138:0crwdne15138:0
-- crwdns15140:0crwdne15140:0
-- crwdns15142:0crwdne15142:0
-- crwdns15144:0crwdne15144:0
-crwdns15146:0{% endcapture %}crwdne15146:0
+crwdns19930:0crwdne19930:0 crwdns19932:0crwdne19932:0
+- crwdns19934:0crwdne19934:0
+- crwdns19936:0crwdne19936:0
+- crwdns19938:0crwdne19938:0
+crwdns19940:0{% endcapture %}crwdne19940:0
+crwdns19942:0crwdne19942:0
 
-<div class="tab-container">
-    <div class="pb-3">
-        crwdns16296:0crwdne16296:0
-    </div>
-    <div id="tab-sd-card">
-        <noscript><h4>crwdns15150:0crwdne15150:0</h4></noscript>
-        crwdns15152:0{{ tab-sd-card | markdownify }}crwdne15152:0
-    </div>
-    <div id="tab-flashcard">
-        <noscript><h4>crwdns15154:0crwdne15154:0</h4></noscript>
-        crwdns15156:0{{ tab-flashcard | markdownify }}crwdne15156:0
-    </div>
-</div>
+crwdns19944:0crwdne19944:0
+crwdns19946:0{% include tabs.html index=0 tabs=tabs %}crwdne19946:0
 
 ### crwdns15158:0crwdne15158:0
-crwdns15160:0crwdne15160:0
-1. crwdns15162:0crwdne15162:0
-1. crwdns15164:0crwdne15164:0
-1. crwdns15166:0crwdne15166:0
+crwdns19948:0crwdne19948:0
+1. crwdns19950:0crwdne19950:0
+1. crwdns19952:0crwdne19952:0
+1. crwdns19954:0crwdne19954:0
 
 ### crwdns15168:0crwdne15168:0
-1. crwdns15170:0crwdne15170:0
-   - crwdns15172:0crwdne15172:0
-1. crwdns15174:0crwdne15174:0
-   - crwdns15176:0crwdne15176:0
-1. crwdns15178:0crwdne15178:0
-   - crwdns15180:0$USERcrwdne15180:0
-   - crwdns15182:0crwdne15182:0
-1. crwdns15184:0crwdne15184:0
-   - crwdns15186:0crwdne15186:0
-   - crwdns15188:0crwdne15188:0
-1. crwdns15190:0crwdne15190:0
-1. crwdns15192:0crwdne15192:0
-1. crwdns15194:0crwdne15194:0
-1. crwdns15196:0crwdne15196:0
-   - crwdns15198:0crwdne15198:0
+1. crwdns19956:0crwdne19956:0
+   - crwdns19958:0crwdne19958:0
+1. crwdns19960:0crwdne19960:0
+   - crwdns19962:0crwdne19962:0
+1. crwdns19964:0crwdne19964:0
+   - crwdns19966:0$USERcrwdne19966:0
+   - crwdns19968:0crwdne19968:0
+1. crwdns19970:0crwdne19970:0
+   - crwdns19972:0crwdne19972:0
+   - crwdns19974:0crwdne19974:0
+1. crwdns19976:0crwdne19976:0
+1. crwdns19978:0crwdne19978:0
+1. crwdns19980:0crwdne19980:0
+1. crwdns19982:0crwdne19982:0
+   - crwdns19984:0crwdne19984:0

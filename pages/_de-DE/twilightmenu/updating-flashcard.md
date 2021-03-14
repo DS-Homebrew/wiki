@@ -16,7 +16,7 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 1. Kopiere den `_nds` Ordner in dein Sd-Kartenverzeichnis
 1. Kopiere den `BOOT.NDS` Ordner in dein Sd-Kartenverzeichnis
 
-### Weitere Schritte für die DSi/3DS SD-Karten-Seite
+### More steps for the DSi / 3DS SD card side
 
 If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 

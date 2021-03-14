@@ -12,7 +12,7 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
-### Creating a Hotspot
+### יצירת נקודה חמה
 ישנם מדריכים על יצירת נקודות חמות המתאימות למשחקי DS על מחשבי macOS וLinux בGBAtemp. אם אתם בWindows אתם יכולים להשתמש בLinux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
@@ -28,7 +28,7 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 1. הגדירו את `1.1.1.1` בתור הsecondary DNS
 1. ייתכן ותצטרכו להתקין טלאי NoSSL על המשחק שלכם בשלב זה, כתלות במשחק
 
-### Manually Patching Your DS ROMs
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Troubleshooting and further reading
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

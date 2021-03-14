@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS 스킨 제작하기
+title: How to Create DSi / 3DS Skins
 description: TWiLight Menu++의 DSi와 3DS스킨을 커스텀하는 방법
 ---
 

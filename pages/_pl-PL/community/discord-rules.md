@@ -62,8 +62,8 @@ Na przykład:
 ### Dopilnuj tego, by twój nick zawierał tylko znaki alfanumeryczne, żeby był łatwy do odczytania i otagowania.
 
 - Użytkownicy z nickiem, którego nie da się pingnąć czy przeczytać w normalny sposób, będą mieli przyznaną inną nawę.
-  - Jeśli musimy obrócić nasz ekran, by przeczytać Twój nick, to znaczy, że jest coś z nim nie tak.
-  - Jeśli musimy wziąć twoje ID Użytkownika, żeby Cię pignąć, to znaczy, że z nickiem jest coś nie tak.
+   - Jeśli musimy obrócić nasz ekran, by przeczytać Twój nick, to znaczy, że jest coś z nim nie tak.
+   - Jeśli musimy wziąć twoje ID Użytkownika, żeby Cię pignąć, to znaczy, że z nickiem jest coś nie tak.
 - Avoid purposely putting characters in the beginning of the name to change your spot in the member list. You'll get those characters removed.
 
 

@@ -3,17 +3,17 @@ lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
-description: How to use custom splash screens for TWiLight Menu++
+title: Anpassade startskärmar
+description: Hur du använder anpassade startskärmar för TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+Du kan använda anpassade GIF-filer för att ha anpassade startskärmar när du startar TWiLight Menu++. De måste heta `splashtop.gif` och `splashbotten.gif` och vara i `sd:/_nds/TWiLightMenu/extras`, sätt sedan `DSi startskärm` till `Anpassad` i TWiLight Menu++'s inställningar.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1MiB (DSi Mode) or 256KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10MB (DSi Mode) or about 2MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-  - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+De flesta GIF-filer upp till 256x192 bör fungera, med några undantag:
+- GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
+- Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
+- Om båda GIF-filerna är inställda till att loopa för alltid kommer de att visas i 3 sekunder. Så ange antalen loopar till minst en gång för att styra tiden
+- Användarinmatning stöds, så ställ in den och en lång fördröjning på en ram om du vill visa en splash och vänta som standard
+   - Endast GIF-filer som väntar på indata kommer att pausas, så den andra kan fortsätta animera
+- Om du använder lokala färgtabeller måste hela ramen skrivas över eftersom det kommer att ersätta hela skärmens palett, inte bara den aktuella ramen
+- Sammanflätade ramar och textramar fungerar inte

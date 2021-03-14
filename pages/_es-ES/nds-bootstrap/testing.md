@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: nds-bootstrap
 category: other
-title: Compatibility List & Testing Tips
-description: Compatibility List & Testing Tips
+title: Lista de Compatibilidad y Consejos de Testeo
+description: Compatibility list and tips for testing games
 ---
 
-### Compatibility List
-To view tested games, look [here](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `view only` and then `request edit access`.
+### Lista de compatibilidad
+Encontrarás los juegos ya probados [aquí](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Si quieres contribuir, presiona `view only` y luego `request edit access`.
 
-### Tips For Testing Games
-- Look for screen flickering or sound issues
-- If something looks off, run the game along a console not using nds-bootstrap to compare
-- Try as many features in the game as possible
-- Be thorough
+### Consejos para testear juegos
+- Busca parpadeos en la pantalla y problemas de sonido
+- Si algo parece extraño, prueba el juego en una consola sin usar nds-bootstrap para compararlos
+- Prueba todo lo que puedas del juego
+- Busca por todos lados

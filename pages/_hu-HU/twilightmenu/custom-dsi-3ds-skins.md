@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS szkinek létrehozása
+title: How to Create DSi / 3DS Skins
 description: Hogyan készíts egyedi DSi és 3DS szkineket a TWiLight Menu++-hoz
 ---
 

@@ -5,6 +5,10 @@ section: twilightmenu
 category: updating
 title: 更新（3DS）
 description: ニンテンドー3DSでTWiLight Menu++を更新する方法
+tabs:
+  - 
+    universal-updater: Universal-Updater
+    manual: 手動
 ---
 
 v16.4.0より古いバージョンから更新する場合は、DSゲームの`.sav`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDS ROMと同じ場所に置いてください。
@@ -17,6 +21,7 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールする
    - しばらく時間がかかります
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から`TWiLightMenu-3DS.7z`の最新バージョンをダウンロードする
@@ -26,23 +31,12 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 1. 2つの`.cia`ファイルをSDカードのルートにコピーする
 1. 3DSに、FBIと2つのCIAをインストールする
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### 更新
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">手動</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>手動</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### フラッシュカード側の他の手順
 

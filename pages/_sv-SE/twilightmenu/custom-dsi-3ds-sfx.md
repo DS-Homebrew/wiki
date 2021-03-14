@@ -1,58 +1,58 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS skins - Custom SFX
-description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
+title: DSi / 3DS stiler - Anpassade SFX
+description: Hur man använder anpassad bakgrundsmusik och ljudeffekter i DSi och 3DS stilar för TWiLight Menu++
 ---
 
-TWiLightMenu supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/sound/bgm.pcm.raw` respectively. Both files are optional, if one is missing the default music will be used. You should then also set the music option in settings to "Theme".
+TWiLightMenu stöder anpassade ljudfiler i teman. Placera dina ljudfiler i filen `sound` i din temamapp, Till exempel för `white` temat, du skulle placera filerna på `themes/white/sound/sfx.bin` och `themes/sound/bgm.pcm.raw` respektive. Båda filerna är frivilliga, om en saknas kommer standardmusiken att användas. Du bör då också ställa in musikalternativet i inställningarna till "Tema".
 
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Dessa instruktioner förutsätter att du har devkitPro installerat med mmutil. Du kan skaffa devkitPro på [devkitPro-webbplatsen](https://devkitpro.org/wiki/Getting_Started).
 
-## Sound Effect Bank
-The sound effect bank contains sound effects such as the icon select sound, etc.
+## Ljudeffekter
+Ljudeffektbanken innehåller ljudeffekter som spelas när du väljer ikoner, etc.
 
-| File        | Description                                                                            |
-| ----------- | -------------------------------------------------------------------------------------- |
-| startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
-| launch.wav  | Played when launching a game                                                           |
-| select.wav  | Played when moving the select cursor                                                   |
-| wrong.wav   | Played when reaching the end of the page                                               |
-| switch.wav  | Played when switching pages                                                            |
-| stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| bgm.pcm.raw | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
+| Fil         | Beskrivning                                                                              |
+| ----------- | ---------------------------------------------------------------------------------------- |
+| startup.wav | Spelas vid uppstart. Se avsnittet om [Uppstartsljud](#startup-sound) för mer information |
+| back.wav    | Tillbaka                                                                                 |
+| launch.wav  | Spelas när du startar ett spel                                                           |
+| select.wav  | Spelas när du flyttar markören                                                           |
+| wrong.wav   | Spelas när du når slutet av sidan                                                        |
+| switch.wav  | Spelas vid byte av sidor                                                                 |
+| stop.wav    | Spelas på DSi Temat när markören slutar flytta                                           |
+| bgm.pcm.raw | Inte en del av ljudbanken. Se avsnittet om [Meny BGM](#menu-bgm) för mer information     |
 
-You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
+Du kan sedan köra `make` för att skapa ljudeffektbanken. Alla filer som anges ovan, förutom *bgm.pcm.raw* krävs, men du kan göra dem tysta.
 
-Your resulting *sfx.bin* **must be under 512000B = 512KB**. Any larger will result in either crashes or some sounds not playing fully.
+Your resulting *sfx.bin* **must be under 512000B = 512 kB**. Större filer kommer att resultera i antingen kraschar eller några ljud som inte spelar helt.
 
-### Startup sound
-While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+### Uppstartsljud
+Medan de andra ljudeffekterna kommer att fungera med någon WAV-fil, uppstartsljudet måste vara i ett visst format för att fungera korrekt, annars kommer det att finnas en lucka mellan när uppstartsljudet stannar och bakgrundsmusiken börjar.
 
-The startup.wav file must be **16-bit 16kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+The startup.wav file must be **16-bit 16 kHz**. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Om din fil är i Stereo, bör du också gå till **Tracks > Mix > Mix Stereo down to Mono**.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+Du måste ange `PlayStartupJingle=1` i ditt `theme.ini` för att uppstartsjingeln att spela.
 
 
-## Menu BGM
+## Meny BGM
 
-Menu BGM needs to be a **16-bit 16kHz Mono** raw PCM file. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Om din fil är i Stereo, bör du också gå till **Tracks > Mix > Mix Stereo down to Mono**.
 
-To export in the correct format, do:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+För att exportera ljudet till rätt format:
+1. Välj `File` > `Export` > `Export Audio...`
+1. Ställ in `File Type` till `Other uncompressed files`
+1. Ställ in `Header` till `RAW (header-less)`
+1. Ställ in `Encoding` till `Signed 16-bit PCM`
+1. Ställ in utdatanamnet till `bgm.pcm.raw` och klicka `Save`
+1. Klicka på `OK` för att redigera metadata
 
-Now you have a `bgm.pcm.raw` file that can be copied to the *sound* subfolder in your theme folder.
+Nu har du en `bgm.pcm.raw`-fil som kan kopieras till mappen *ljud* i din temamapp.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Till skillnad från sfx.bin, *bgm.pcm.raw* kan vara godtyckligt stor.

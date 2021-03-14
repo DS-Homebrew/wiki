@@ -11,9 +11,9 @@ description: Information om homebrew på Nintendo DS
 
 Utveckling av Nintendo DS Homebrew använder vanligtvis devkitPro-verktyg, såsom devkitARM, libnds och libfat. Det finns dock möjlighet att förgrena sig och använda alternativ programvara:
 
-- **SD Card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphic Library:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
-- **Entire Toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphics libraries:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Entire toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Minneskort
 
@@ -25,22 +25,22 @@ DS-mode minneskort är en slot-1 metod för att köra Nintendo DS applikationer.
 
 Olika SD-kortplatser har olika maskinvara (för det mesta) och kod skriven för ett kort kommer inte nödvändigtvis att fungera för ett annat kort. DLDI (förkortning för Dynamically Linked Device Interface) försöker lösa detta genom att få SD-kortets hanteringskod patchat in externt. Laddare som YSMenu, Wood R4 och TWiLight Menu++ kan automatiskt DLDI patcha ett homebrew, men om du behöver manuellt patcha in den, använd gärna en [DLDI Patcher](https://www.chishm.com/DLDI#tools) beroende på din enhet.
 
-### Tidsinställd bomb
+### Time bomb
 
 En tidsinställd bomb är ett utgångsdatum för minneskort-kärnor som tillverkarna använder för att tvinga användare att köpa ett nytt kort. När din systemklocka går längre än ett visst datum, kommer kärnan att vägra att starta upp förbi utgångsskärmen. Tur så är en flagga inte inställd någonstans och det hanteras i minneskortets firmware, vilket ger oss två lösningar runt problemet:
 
 - Eftersom det förlitar sig på systemets klocka så kan du ställa in datum. Detta kommer att bryta alla spel som använder din systemklocka, men det gör att du kan använda standardkärnan.
 - Eftersom den förlitar sig på kärnan och inte den inbyggda programvaran så kan du byta till en alternativ kärna. Det finns inga tillgängliga val:
-  - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menyn är ganska ful och visar bara `.ds` filer, men det har mycket bättre spelstöd, fuskstöd och kräver inte memory pak
-  - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Detta är användbart om du vill ha alla dina ROM från olika konsoler i samma meny, Det finns två sätt att köra DS spel med TWiLight Menu++:
-    - Med B4DS: Kräver en Memory Expansion Pak för utökad spelkompatibilitet och stöder inte fusk. Men det fungerar på alla minneskort som TWiLight Menu++ har stöd för
-    - Med YSMenu: Hämtar kompatibilitetsfördelarna med YSMenu med den bättre menyn av TWiLight Menu++, men fusk stöds inte för närvarande
+   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menyn är ganska ful och visar bara `.ds` filer, men det har mycket bättre spelstöd, fuskstöd och kräver inte memory pak
+   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Detta är användbart om du vill ha alla dina ROM från olika konsoler i samma meny, Det finns två sätt att köra DS spel med TWiLight Menu++:
+      - Med B4DS: Kräver en Memory Expansion Pak för utökad spelkompatibilitet och stöder inte fusk. Men det fungerar på alla minneskort som TWiLight Menu++ har stöd för
+      - Med YSMenu: Hämtar kompatibilitetsfördelarna med YSMenu med den bättre menyn av TWiLight Menu++, men fusk stöds inte för närvarande
 
 Vi rekommenderar YSMenu, med TWiLight Menu++ om du föredrar det, på grund av den högre kompatibiliteten och brist på behov av ett Memory Expansion Pak. Om du vill konfigurera YSMenu så har DeadSkullzJr gjort en [Dropbox-repo](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) med alla primära startkärnor som är konfigurerade för ditt minneskort. Allt det kräver är att dra och släppa filerna till ditt SD-korts rot och du är klar. Instruktioner för hur du installerar TWiLight Menu++ är [på minneskort installationssidan](../twilightmenu/installing-flashcard).
 
 För att testa om ditt minneskort har en tidsinställd bomb, sätt datumet på ditt system till det senaste möjliga värdet och starta minneskortet.
 
-### ARGV Support
+### ARGV support
 ARGV är en informationssändare mellan två homebrew Nintendo DS-program. Den kan användas för forwarders eller alternativa menyer.
 
 - Homebrew måste programmeras för att dra nytta av det. Till exempel GBARunner2, NesDS och GameYob alla har ARGV implementering

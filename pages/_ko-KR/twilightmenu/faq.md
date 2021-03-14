@@ -15,7 +15,7 @@ TWL_FIRM이 알 수 없는 이유로 망가졌을 수 있습니다. 문제를 �
 
 #### TWiLight Menu++를 부팅할 때 하얀 화면만 떠있는 문제는 어떻게 고칠 수 있나요?
 - 가장 먼저, 본체의 뚜껑을 닫아서 슬립모드로 전환했다가 다시 여세요. (구형 2DS의 경우 슬립모드 스위치를 전환했다가 다시 원래대로 돌리세요.)
-- 이래도 효과가 없으면, 사용중인 SD카드를 파일 시스템은 FAT32, 할당 단위 크기는 32KB로 설정하고 포맷하세요 (용어는 윈도우 파일 탐색기 기준).
+- 이래도 효과가 없으면, 사용중인 SD카드를 파일 시스템은 FAT32, 할당 단위 크기는 32 KB로 설정하고 포맷하세요 (용어는 윈도우 파일 탐색기 기준).
 - 이렇게까지 했는데도 효과가 없으면, 다른 SD카드로 시도해보세요.
 
 #### 게임을 실행할 때 TWiLight Menu++가 재부팅되거나 Guru Meditation Error가 발생하는 현상을 고치는 방법이 뭔가요?
@@ -87,8 +87,8 @@ sudokuhax의 세이브 파일에 따라 터치스크린 입력이 작동하지 �
 #### The Biggest Loser가 TWiLight Menu++를 부팅할 수 있나요?
 안됩니다. The Biggest Loser는 Slot-1 게임이고, DSi웨어 게임이 아니기 때문에, Slot-1 카드가 실행될 때에는 SD 접근이 비활성화됩니다.
 
-[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
-[^2]: Only for retail ROMs, homebrew do not have specific save files
+[^1]: DS homebrew 앱의 경로와 실행 인수를 포함한 자세한 사항은 [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) 텍스트 파일을 참고해주세요.
+[^2]: 시판되는 롬에 한해, 홈브류에 특정 세이브 파일을 저장하지 않습니다.
 [^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
 [^4]: When running in DSi Mode, it can use the DSP for better sound
 [^5]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite

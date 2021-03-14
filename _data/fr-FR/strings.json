@@ -3,6 +3,7 @@
 	"close": "Fermer",
 	"description": "Wikis pour les projets DS-Homebrew",
 	"discord-server": "Serveur Discord (anglais uniquement)",
+	"need-help": "Need help? Join our Discord server: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (English only)",
 	"published-with": "Publié avec <a href=\"https://pages.github.com\">GitHub Pages</a>, afficher <a href=\"https://github.com/$1\">la source</a> sur GitHub.",
 	"select-language": "Sélectionner la langue",
 	"source": "Source",

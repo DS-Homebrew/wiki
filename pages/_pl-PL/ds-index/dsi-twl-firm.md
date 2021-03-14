@@ -7,36 +7,36 @@ title: TWL_FIRM Nintendo DSi / Nintendo 3DS
 description: Informacje o TWL_FIRM Nintendo DSi i Nintendo 3DS
 ---
 
-### Przygotowywanie CFW
-Chociaż większość korzyści z Custom Firmware dotyczy systemów Nintendo DSi i Nintendo 3DS, to umożliwia ono także odblokowanie możliwości konsoli. Instalacja Custom Firmware jest dosyć łatwe, a w większości przypadków potrzebujesz tylko karty (micro)SD. Mamy dla Ciebie najlepsze poradniki z instrukcjami krok po kroku.
+### Setting up CFW
+Chociaż większość korzyści z Custom Firmware dotyczy systemów Nintendo DSi i Nintendo 3DS, to umożliwia ono także odblokowanie możliwości konsoli. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD card. Mamy dla Ciebie najlepsze poradniki z instrukcjami krok po kroku.
 
 - [Poradnik Hakowania 3DS](https://3ds.hacks.guide)
-  - Komenda Lightning: `mod 3ds`
-  - Komenda Kuriisu: `guide 3ds`
+   - Komenda Lightning: `mod 3ds`
+   - Komenda Kuriisu: `guide 3ds`
 - [Poradnik Hakowania DSi](https://dsi.cfw.guide)
-  - Komenda Lightning: `mod dsi cfw`
-  - Komenda Kuriisu: `guide dsi`
+   - Komenda Lightning: `mod dsi cfw`
+   - Komenda Kuriisu: `guide dsi`
 
-### Szybkości CPU
-Nintendo DS było sprzedawane w 2004 z procesorem 67MHz. Nintendo DSi było sprzedawane w 2009 z procesorem 133MHz. Większość gier z biblioteki Nintendo DS wyszło na rynek przed premierą Nintendo DSi. Z tego powodu mogły korzystać one tylko z procesora o prędkośći 67MHz. Niektóre aplikacje wiązały się z tą prędkością i w rezultacie nie działałyby one poprawnie z wyższymi taktowaniami zegara procesora. Większość gier wykorzystywałaby większy potencjał nowego procesora, aby uzyskać wyższą wydajność.
+### CPU speeds
+The Nintendo DS shipped with a 67 MHz processor in 2004. The Nintendo DSi shipped with an 133 MHz processor in 2009. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Niektóre aplikacje wiązały się z tą prędkością i w rezultacie nie działałyby one poprawnie z wyższymi taktowaniami zegara procesora. Większość gier wykorzystywałaby większy potencjał nowego procesora, aby uzyskać wyższą wydajność.
 
 nds-bootstrap ma opcje TWL Clock Speed, ale nie bedzie on próbował dostosować naszego ROM do pracy z większym taktowaniem zegara procesora. To zadanie leży w rękach aplikacji, więc aplikacje nie działające z wyższymi taktowaniami NIE są problemem ze strony nds-bootstrap.
 
-### Menu systemu Nintendo DSi
-Menu systemu Nintendo DSi używa 32-bitowych liczb całkowitych, aby określić dostępne miejsce w pamięci urządzenia. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
+### Nintendo DSi system menu
+The Nintendo DSi system menu uses a signed 32-bit integer to determine the amount of free space on the device. Using a device source that goes above the 32-bit integer limit, this counter is overflowed into a negative number, which crashes into an "An error has occurred" black screen.
 
 Zakresy powodujące jego przepełnienie określa się na podstawie par. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
 
-This crash will never occur if the System Menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
+This crash will never occur if the system menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Fortunately, this bug can easily by fixed by placing dummy files to set the counter at a positive number. hiyaCFW will automatically do this for you in the latest version.
 
-In version 1.4.0, RSA signatures in the DS Cart Whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
+In version 1.4.0, RSA signatures in the DS cart whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
-### Nintendo DSi Slot-1 Access & Blockout
-Slot-1 access is blocked when launching applications from the System Menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
+### Nintendo DSi Slot-1 access & blockout
+Slot-1 access is blocked when launching applications from the system menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
 
 The flashcard white list is checked via RSA signatures are contained via RSA keys on every firmware expect 1.4.0. This means that people can white list their own carts
 
-Before 1.4.0, the white list used to contain only two sections. In 1.4.0, they've introduced a third section which was made to block flashcards that got around the first two. The third section loads up to eight different section of the rom and checks them with a hash to see if the rom has been tampered with. However, due to the forgetfulness of putting any sanity check, we can overflow into the exception vector/interrupt address using a large enough value. Best of all, this runs on ARM7 (aka the security processor) so this makes it the first exploit for the ARM7 processor. Since this happens before the lock out of the SCFG registers, we can run advanced homebrew (such as Slot-1 dumpers & external slot-1 dumpers)
+Before 1.4.0, the white list used to contain only two sections. In 1.4.0, they've introduced a third section which was made to block flashcards that got around the first two. The third section loads up to eight different section of the rom and checks them with a hash to see if the rom has been tampered with. However, due to the forgetfulness of putting any sanity check, we can overflow into the exception vector / interrupt address using a large enough value. Best of all, this runs on ARM7 (aka the security processor) so this makes it the first exploit for the ARM7 processor. Since this happens before the lock out of the SCFG registers, we can run advanced homebrew (such as Slot-1 dumpers & external slot-1 dumpers)
 
 Unfortunately, the requirements are tight. It requires version 1.4.0 and a flashcard with a modified ROM. Also, the exploit never officially came out, due to Unlaunch being much simpler to install and having less requirements (just a way to get into homebrew) with the same advantages.
 
@@ -45,8 +45,8 @@ The Nintendo DSi Camera application has the ability to take pictures in the JPEG
 
 A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 
-### Nintendo DSi Bootstage 2
+### Nintendo DSi bootstage 2
 The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.
 
 ### RTCom
-RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of gbarunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).
+RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of GBARunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).

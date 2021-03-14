@@ -16,7 +16,7 @@ Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie pli
 1. Skopiuj folder `_nds` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 
-### Wiecęj kroków dla kart SD DSi/3DS
+### More steps for the DSi / 3DS SD card side
 
 Jeśli można przełączać zawartość karty SD i karty flashcard w TWLMenu++, a jeśli karta flashcard TWLMenu++ jest w wersji v16.3.0 lub później, wykonaj te kroki.
 

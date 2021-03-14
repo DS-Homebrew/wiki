@@ -1,23 +1,23 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: DS⁽ⁱ⁾ Mode Hacking
+description: Acerca del servidor de Discord de DS⁽ⁱ⁾ Mode Hacking Info
 ---
 
-### Welcome to the <u>DS⁽ⁱ⁾ Mode Hacking</u>!
+### ¡Bienvenido a <u>DS⁽ⁱ⁾ Mode Hacking</u>!
 
-We specialize in all things related to Nintendo DS(i) modding and homebrew. Here are a few examples of what we can help you do in this server:
+Estamos especializados en cualquier cosa relacionada con el modding y homebrew de Nintendo DS(i). Aquí tenéis algunos ejemplos de en qué podemos ayudaros:
 
-- Setting up the best kernel for your flashcart
-- Installing Custom Firmware (CFW) to your Nintendo DSi
-- Helping modify the TWL_FIRM on your Nintendo 3DS (allowing you to use widescreen, changing screen filtering amongst other things)
+- Configurar el mejor kernel para tu flashcard
+- Instalar Custom Firmware (CFW) en tu Nintendo DSi
+- Ayudarte a modificar el TWL_FIRM de tu Nintendo 3DS (permitiéndote usar pantalla completa, distintos filtros de imagen y otras muchas cosas)
 
-We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
+También estamos centrados en otros temas como crear ROM hacks, desarrollar homebrew y charlar en general.
 
-## Discord Channels
+## Canales de Discord
 We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
 
 - [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server

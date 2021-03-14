@@ -15,13 +15,13 @@ TWL_FIRM might've somehow got corrupted. Postępuj zgodnie z tym poradnikiem, ab
 
 #### How do I fix getting a white screen when booting TWiLight Menu++?
 - Najpierw, spróbuj wstawić konsolę w tryb uśpienia (np. poprzez zamknięcie konsoli albo poprzez wciśnięcie przycisku uśpienia na O2DS), a następnie ją "obudź"
-- Jeśli to nie działa, sformatuj kartę SD do FAT32 z 32KB rozmiarem przydziału
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
 - Jeśli to też nie zadziała, spróbuj innej karty SD
 
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 
-#### Why do I get a white screen when trying to load a game from SD Card?
+#### Why do I get a white screen when trying to load a game from SD card?
 - Najpierw, sprawdź [listę kompatybilności nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) i upewnij się że gra jest kompatybna
 - Spróbuj włączyć grę bez włączonych cheatów dla tej gry, ponieważ niektóre cheaty są niekompatybilne z nds_bootstrap. Możesz użyć <kbd class="l">L</kbd> w menu cheatów, by wyłączyć każdego cheata dla danej gry
 - Jeśli gra, którą próbujesz uruchomić, to gra DSi Enchanced, to upewnij się, że TWiLight Menu++ jest ustawione tak, by korzystało z `DS Mode`

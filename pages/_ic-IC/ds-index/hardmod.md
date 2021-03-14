@@ -5,6 +5,10 @@ section: crwdns12632:0crwdne12632:0
 category: crwdns15660:0crwdne15660:0
 title: crwdns15662:0crwdne15662:0
 description: crwdns16438:0crwdne16438:0
+tabs:
+  - 
+    windows: crwdns20028:0crwdne20028:0
+    other: crwdns20030:0crwdne20030:0
 ---
 
 crwdns12638:0crwdne12638:0 crwdns12640:0crwdne12640:0
@@ -53,9 +57,7 @@ crwdns15944:0crwdne15944:0 crwdns15946:0crwdne15946:0
 - crwdns15956:0crwdne15956:0
    - crwdns15958:0crwdne15958:0
 
-
-#### crwdns15960:0crwdne15960:0
-
+crwdns20032:0{% capture tab-windows %}crwdne20032:0
 1. crwdns15962:0crwdne15962:0
 1. crwdns15964:0crwdne15964:0 crwdns16064:0crwdne16064:0 crwdns16066:0crwdne16066:0
 1. crwdns15970:0crwdne15970:0
@@ -63,14 +65,15 @@ crwdns15944:0crwdne15944:0 crwdns15946:0crwdne15946:0
 1. crwdns15974:0crwdne15974:0 crwdns15976:0crwdne15976:0
 1. crwdns15978:0crwdne15978:0
    - crwdns15980:0crwdne15980:0
-   - crwdns15982:0crwdne15982:0
+   - crwdns19748:0crwdne19748:0
 1. crwdns15984:0crwdne15984:0
 1. crwdns15986:0crwdne15986:0
-1. crwdns15988:0crwdne15988:0
+1. crwdns20034:0crwdne20034:0
+crwdns20036:0{% endcapture tab-windows %}crwdne20036:0
+crwdns20038:0crwdne20038:0
 
-#### crwdns15990:0crwdne15990:0
 
-
+crwdns20040:0{% capture tab-other %}crwdne20040:0
 1. crwdns15992:0crwdne15992:0
    - crwdns15994:0crwdne15994:0
       1. crwdns15996:0crwdne15996:0
@@ -111,4 +114,10 @@ crwdns15944:0crwdne15944:0 crwdns15946:0crwdne15946:0
       - crwdns16056:0{existing-nand-backup}crwdne16056:0
       - crwdns16058:0{device-name}crwdne16058:0
 
-crwdns16060:0crwdne16060:0 crwdns16062:0crwdne16062:0
+crwdns20042:0crwdne20042:0 crwdns20044:0crwdne20044:0
+crwdns20046:0{% endcapture tab-other %}crwdne20046:0
+crwdns20048:0crwdne20048:0
+
+### crwdns20050:0crwdne20050:0
+crwdns20052:0crwdne20052:0
+crwdns20054:0{% include tabs.html index=0 tabs=tabs %}crwdne20054:0

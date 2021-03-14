@@ -7,7 +7,7 @@ title: Granie na szerokim ekranie
 description: Jak używać TWiLight Menu++ w trybie szerokiego (panoramicznego) ekranu na Nintendo 3DS
 ---
 
-Requires an Old / New Nintendo 3DS or 2DS console.
+Requires a Nintendo 3DS or 2DS console.
 {:.alert .alert-info}
 
 ### Preparation
@@ -31,7 +31,7 @@ Requires an Old / New Nintendo 3DS or 2DS console.
 
 I to wszystko! Ciesz się swoimi szerokoekranowymi grami na DS!
 
-**NOTKA1**: Każda gra/aplikacja w trybie DS(i) będzie działać w trybie szerokoekranowym, nawet te, które teggo nie wspierają. Żeby to naprawić, musisz poczekać aż wyjdzie tryb szerokoekranowy uruchamiany przez RTCom.
+**NOTE1:** Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. Żeby to naprawić, musisz poczekać aż wyjdzie tryb szerokoekranowy uruchamiany przez RTCom.
 
 **NOTKA2:** Nie przytrzymuj <kbd>START</kbd> bądź <kbd>SELECT</kbd> podczas włączania TWLMenu++, jeśli nie chcesz, żeby szeroki ekran wyglądał dziwnie. Jeśli nie widzisz ustawień proporcji ekranu, poczekaj aż wyjdzie możliwość uruchomienia szerokiego ekranu przez RTCom.
 

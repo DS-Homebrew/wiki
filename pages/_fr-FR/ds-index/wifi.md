@@ -12,12 +12,12 @@ description: Information on using Wi-Fi on the Nintendo DS
 
 Les hotspots sont utilisables, vous n'avez donc pas besoin de modifier la configuration de votre routeur.
 
-### Creating a Hotspot
+### Creating a hotspot
 There are guides for creating a DS game compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows you can use a Linux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Nintendo DS WFC Restoration
+### Nintendo DS WFC restoration
 1. Lancez les paramètres Nintendo WFC
 1. Connectez-vous à votre point d'accès
 1. Définissez la valeur DNS principale en choisissant une des valeurs ci-dessous, selon le service que vous souhaitez utiliser :
@@ -28,7 +28,7 @@ There are guides for creating a DS game compatible hotspot on macOS and Linux co
 1. Définissez `1.1.1.1` comme DNS secondaire
 1. Vous pourriez avoir besoin d'appliquer un patch NoSSL à votre jeu, selon le jeu
 
-### Manually Patching Your DS ROMs
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Troubleshooting and further reading
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

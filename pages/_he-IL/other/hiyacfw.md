@@ -3,12 +3,12 @@ lang: en-US
 layout: wiki
 section: other
 title: hiyaCFW
-description: Info for hiyaCFW
+description: Information about hiyaCFW
 ---
 
 Information for [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), the world's first CFW for DSi.
 
-### Custom Splash Screens
+### Custom splash screens
 With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
 
 #### BMP
@@ -17,7 +17,7 @@ With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. The
 
 #### GIF
 - Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1MB for ideal performance and must be under around 10MB between the two absolute maximum
+- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
 - If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
 - If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
 - Interlaced and plain text frames are ***not*** supported

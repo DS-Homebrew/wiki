@@ -7,7 +7,7 @@ title: Giocare in Widescreen
 description: Come usare TWiLight Menu++ in widescreen sul Nintendo 3DS
 ---
 
-Richiede una console Old/New Nintendo 3DS o 2DS.
+Requires a Nintendo 3DS or 2DS console.
 {:.alert .alert-info}
 
 ### Preparazione
@@ -31,7 +31,7 @@ Richiede una console Old/New Nintendo 3DS o 2DS.
 
 Hai finito! Goditi i tuoi giochi del DS in widescreen!
 
-**NOTA1**: Ogni gioco/app in modalità DS(i) verrà eseguito in widescreen, anche i giochi che non sono compatibili con il widescreen. Per far in modo che soltanto i giochi compatibili con il widescreen si avviino in widescreen, attendere che il widescreen RTCom-activated venga rilasciato.
+**NOTE1:** Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. Per far in modo che soltanto i giochi compatibili con il widescreen si avviino in widescreen, attendere che il widescreen RTCom-activated venga rilasciato.
 
 **NOTA2:** Non tenere premuto <kbd>START</kbd> o <kbd>SELECT</kbd> quando si avvia TWLMenu++, se non vuoi che il widescreen sembri glitchato. Se non vedi l'impostazione delle proporzioni dello schermo, attendi che sia rilasciato il widescreen RTCom-actived.
 

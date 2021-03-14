@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: gbarunner2
 title: GYIK & hibaelhárítás
-description: FAQs and troubleshooting for GBARunner2
+description: GYIK és hibaelhárítás a GBARunner2-höz
 ---
 
-#### How do I create and add custom borders?
+#### Hogyan hozok létre és adok hozzá egyedi kereteket?
 
-You can read and follow [this guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) by FrescoASF.
+Olvasd el [ezt az útmutatót](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing), amit FrescoASF készített.
 
-#### Are cheats supported?
+#### A csalások támogatottak?
 
-Not right now. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
+Most még nem. E helyett Instead, permanensen beinjektálhatod a csalás kódokat a GBA ROM-odba a [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/)-mel.
 
-#### How do I use Nightly GBARunner2 Builds in TWiLight Menu++?
+#### How do I use nightly GBARunner2 builds in TWiLight Menu++?
 
-1. Download the nightly build
-1. Rename it to `GBARunner2_arm7dldi_3ds.nds` (or `GBARunner2_arm7dldi_dsi.nds` if you're on DSi)
-1. Place it in `sd:_nds`
+1. Töltsd le az esti fordítást
+1. Nevezd át `GBARunner2_arm7dldi_3ds.nds` névre (vagy `GBARunner2_arm7dldi_dsi.nds` névre, ha DSi-n vagy)
+1. Rakd az `sd:_nds` könyvtárba
 
-#### How do I use Wifi Link features?
+#### Hogyan használhatom a Wi-Fi Link szolgáltatásokat?
 
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBATemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) ágból, ahhoz, hogy használhasd ezt a szolgáltatást. Részletes információt találsz a buildek telepítéséről a [GBATemp Wiki oldalon](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

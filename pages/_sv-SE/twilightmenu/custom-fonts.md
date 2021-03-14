@@ -1,31 +1,31 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Fonts
-description: How to use custom fonts with TWiLight Menu++
+title: Anpassade typsnitt
+description: Hur du använder dina egna typsnitt med TWiLight Meny++
 ---
 
-TWiLight Menu++ can use custom fonts in NFTR (Nitro FonT Resource) format. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
+TWiLight Menu++ kan använda anpassade typsnitt i formatet NFTR (Nitro FonT Resource). De kommer att användas i inställningar, manualens titlar och i Nintendo DSi, Nintendo 3DS, SEGA Saturnus och Homebrew Launcher teman.
 
-### Included font info
-There are three fonts included with TWiLight Menu++. When TWiLight Menu++ is running in DSi Mode they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. They are as follows:
-- Default: This uses the official DSi font as it's primary font and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
-- Chinese (Simplified): This uses Noto Sans CS as the primary font and has significantly more Chinese (Simplified) characters in DS Mode, at the cost of characters for other languages
-- Korean: This is identical to Default in DSi Mode, but in DS Mode has a more complete set of hangul, at the cost of characters for other languages
+### Inkluderad teckensnittsinfo
+Det finns tre typsnitt som ingår i TWiLight Menu++. När TWiLight Menu++ körs i DSi Läge så innehåller de alla de tecken som ska behövas för alla språk som TWiLight översätts till, men när de körs i DS-läge är de mer begränsade på grund av RAM-begränsningar. Dessa begränsningar är:
+- Standard: Detta använder det officiella DSi-teckensnittet eftersom det är det primära teckensnittet och stöder alla tecken som används i TWiLight Menu++ på alla språk i DS-läge
+- Kinesiska (förenklad): Detta använder Noto Sans CS som det primära teckensnittet och har betydligt fler kinesiska (förenklade) tecken i DS-läge, på bekostnad av tecken för andra språk
+- Koreanska: Detta är identiskt med Standard i DSi Mode, men i DS Mode har det en mer komplett uppsättning hangul, på bekostnad av tecken för andra språk
 
-### Directory structure
-Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` where `[font name]` is whatever name you want and `[font file].nftr` is one of the following:
-- `large-ds.nftr`, `large-dsi.nftr`, or `large.nftr`: The larger font used for titles
-- `small-ds.nftr`, `small-dsi.nftr`, or `small.nftr`: The smaller font used for most other text
+### Mappstruktur
+Anpassade typsnitt laddas från `sd:/_nds/TWiLightMenu/extras/fonts/[typsnittsnamn]/[typsnittsfil].ftr`, där `[typsnittsnamn]` är det namn du vill ha och `[typsnittsfil].ftr` är en av följande:
+- `large-ds.nftr`, `large-dsi.nftr`, eller `large.nftr`: Större teckensnitt som används för titlar
+- `small-ds.nftr`, `small-dsi.nftr`, eller `small.nftr`: Den mindre typsnitt som används för de flesta andra text
 
-The `-ds` and `-dsi` files have higher priority than the normal one and if found will be used when TWiLight Menu++ is running in DS or DSi Mode respectively.
+Filerna `-ds` och `-dsi` har högre prioritet än den vanliga och om de hittas kommer de att användas när TWiLight Menu++ körs i DS eller DSi Mode respektive.
 
-### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
-1. Load an NFTR file in nftr-editor
-1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
-   - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
-1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
-1. Click `Save`, then repeat for the other sizes
+### Att generera anpassade typsnitt
+Du kan göra dina egna typsnitt med ett verktyg som Pk11's [nftr-editor](https://pk11.us/nftr-editor/). För att regenerera ett av TWiLight Menu++'s befintliga typsnitt med det:
+1. Ladda en NFTR-fil i nftr-editor
+1. Skriv in namnen på de typsnitt du vill använda från högsta till lägsta prioritet i textrutan `Input font` kommaseparerad
+   - Du kan se en förhandsvisning av inmatningsformaten i den övre rutan till vänster och den nuvarande NFTR i den nedre rutan
+1. Klicka på `Generate from font`, tryck på `OK` för att regenerera befintliga tecken eller `Avbryt` för att regenerera specialknapptecken (t. ex. &#xE000;)
+1. Klicka på `Save` och upprepa sedan för andra storlekar

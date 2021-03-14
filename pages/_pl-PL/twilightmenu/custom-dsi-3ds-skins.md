@@ -3,7 +3,7 @@ lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: customization
-title: Jak tworzyć skórki DSi / 3DS
+title: How to Create DSi / 3DS Skins
 description: Jak tworzyć własne skórki DSi i 3DS dla TWiLight Menu++
 ---
 

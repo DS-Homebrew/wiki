@@ -5,6 +5,11 @@ section: twilightmenu
 category: installing
 title: התקנה (3DS)
 description: איך להתקין את TWiLight Menu++ על Nintendo 3DS
+tabs:
+  - 
+    working-camera: מצלמה עובדת
+    non-working-camera: מצלמה לא עובדת
+    manual: ידני
 ---
 
 ראשית תצטרכו שמכשיר ה3DS שלכם יהיה פרוץ עם קושחה מותאמת אישית. עקבו אחר [3ds.hacks.guide](https://3ds.hacks.guide) על מנת להתקין את הפריצה
@@ -20,6 +25,7 @@ description: איך להתקין את TWiLight Menu++ על Nintendo 3DS
 1. לחצו על <kbd class="face">A</kbd> או לחצו על אייקון ההורדה בתפריט הצד ובחרו ב`TWiLight Menu++` על מנת להתחיל את ההתקנה
    - פעולה זו תמשך זמן מה
 {% endcapture %}
+{% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
 1. הורידו את הקובץ `Universal-Updater.cia` מ[Universal-Updaterמעמוד הגרסאות של](https://github.com/Universal-Team/Universal-Updater/releases)
@@ -34,6 +40,7 @@ description: איך להתקין את TWiLight Menu++ על Nintendo 3DS
 1. לחצו על <kbd class="face">A</kbd> או לחצו על אייקון ההורדה בתפריט הצד ובחרו ב`TWiLight Menu++` על מנת להתחיל את ההתקנה
    - פעולה זו תמשך זמן מה
 {% endcapture %}
+{% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. הורידו את הגרסה האחרונה של `TWiLightMenu-3DS.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -44,25 +51,9 @@ description: איך להתקין את TWiLight Menu++ על Nintendo 3DS
 1. העתיקו את שתי קבצי ה`.cia` לכרטיס הSD
 1. במכשיר ה3DS, התקינו את שתי הCIAים באמצעות FBI
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### התקנה
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="working-camera">מצלמה עובדת</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-non-working-camera" onclick="openTab(event, event.currentTarget)" data-tab-name="non-working-camera">מצלמת לא עובדת</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">ידני</a>
-   </div>
-   <div id="tab-working-camera">
-      <noscript><h4>מצלמה עובדת</h4></noscript>
-      {{ tab-working-camera | markdownify }}
-   </div>
-   <div id="tab-non-working-camera">
-      <noscript><h4>מצלמה לא עובדת</h4></noscript>
-      {{ tab-non-working-camera | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>ידני</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}

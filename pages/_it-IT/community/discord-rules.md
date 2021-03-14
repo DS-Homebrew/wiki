@@ -62,8 +62,8 @@ Examples include:
 ### Keep names exclusively alphanumeric, to keep them easy to read and tag.
 
 - Users with an (normally) unmentionable or unreadable username/nickname by normal means will be assigned a new nickname.
-  - If we have to flip our displays to read your name, it's an abnormal way.
-  - If we have to get your User ID in order to mention you, it's an abnormal way.
+   - If we have to flip our displays to read your name, it's an abnormal way.
+   - If we have to get your User ID in order to mention you, it's an abnormal way.
 - Avoid purposely putting characters in the beginning of the name to change your spot in the member list. You'll get those characters removed.
 
 

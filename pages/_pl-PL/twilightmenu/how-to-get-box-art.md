@@ -24,7 +24,7 @@ description: Jak dodać okładki gier do TWiLight Menu++
 1. Kliknij `Start`
 1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
-### macOS/Linux
+### macOS / Linux
 1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Wypakuj `.zip`
 1. Open `TwilightBoxart.ini` in the extracted folder in a text editor

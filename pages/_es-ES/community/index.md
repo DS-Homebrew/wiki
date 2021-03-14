@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: community
-title: Home
-description: Coming Soon™
+title: Inicio
+description: Information about the DS-Homebrew community
 ---
 
-You can find information about our community here, such as the rules for our Discord server. We have the following places:
-- Discord: [DS<sup>(i)</sup> Mode Hacking](https://ds-homebrew.com/discord)
+Aquí podrás encontrar información acerca de nuestra comunidad, como las reglas de nuestro servidor de Discord. Estamos por aquí:
+- Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- Página web: [ds-homebrew.com](https://ds-homebrew.com)

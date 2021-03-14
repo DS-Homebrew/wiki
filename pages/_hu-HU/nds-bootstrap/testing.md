@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: nds-bootstrap
 category: other
 title: Kompatibilitási lista & tesztelési tippek
-description: Compatibility List & Testing Tips
+description: Compatibility list and tips for testing games
 ---
 
 ### Kompatibilitási lista
-To view tested games, look [here](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `view only` and then `request edit access`.
+A tesztelt játékok megtekinthetők [itt](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Ha szeretnél közreműködni, nyomj a `view only`-ra majd a `request edit access`-re.
 
 ### Tippek a játékok teszteléséhez
-- Look for screen flickering or sound issues
-- If something looks off, run the game along a console not using nds-bootstrap to compare
-- Try as many features in the game as possible
-- Be thorough
+- Keress képernyő villogást, vagy hang problémákat
+- Ha valami nem oda valónak tűnik, futtasd a játékot egy olyan konzolon, ami nem használ nds-bootstrap-et összehasonlításképp
+- Próbálj ki annyi szolgáltatást a játékban amennyit csak lehet
+- Legyél alapos

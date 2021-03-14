@@ -10,40 +10,40 @@ description: Vanliga frågor och felsökning för TWiLight Menu++
 För fler FAQs, besök [GBAtemp tråden](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS / 2DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
-TWL_FIRM might've somehow got corrupted. Följ denna guide för att åtgärda problemet: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
+#### F: Varför fastnar min 3DS / 2DS på svarta skärmar, kraschar, stängs av osv. när TWiLight Menu++ startas upp?
+S: TWL_FIRM kan på något sätt bli skadad. Följ denna guide för att åtgärda problemet: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
-#### How do I fix getting a white screen when booting TWiLight Menu++?
+#### F: Jag får en vit skärm medan jag startar upp TWiLight Menu++. Hur fixar jag det?
 - Försök först att sätta konsolen i viloläge (t.ex. stänga konsolens lock, eller trycka på sovknappen på O2DS), sedan väcker du upp konsolen
-- Om det inte fungerar, formatera ditt SD-kort till FAT32 med 32KB kluster/allokeringsstorlek
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
 - Om det inte heller fungerar, prova ett annat SD-kort
 
-#### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
-Go into TWLMenu++ Settings, and disable `Update recently played list`.
+#### TWiLight Menu++ startas om eller ger ett Guru Meditation Error när jag startar ett spel. Hur fixar jag detta?
+S: Gå in i TWLMenu++'s inställningar, och inaktivera `Uppdatera 'nyligen spelat' listan`.
 
-#### Why do I get a white screen when trying to load a game from SD Card?
-- First, check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
-- If the game you're trying to launch is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+#### Why do I get a white screen when trying to load a game from SD card?
+- Kontrollera först [kompatibilitetslistan nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) och se till att ditt spel är kompatibelt
+- Prova med alla fusk inaktiverade för det spelet eftersom vissa fusk inte är kompatibla med nds-bootstrap just nu, du kan använda <kbd class="l">L</kbd> för att inaktivera alla fusk för ett spel
+- Om spelet du försöker starta är ett DSi Enhanced spel, se då till att TWiLight Menu++ är inställd till att använda `DS Mode`
+- Om det fungerade tidigare tar du bort `fatTable` och `patchOffsetCache` i `sd:/_nds/nds-bootstrap/`
 
-#### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+#### F: Hur använder jag fusk?
+S: Du måste ha en fusk DB i form av en `usrcheat.dat` fil i mappen `sd:/_nds/TWiLightMenu/extras/`. Den mest uppdaterade fuskdatabasen är [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternativt kan du använda [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) för att skapa din egna fusk DB.
 
-#### How do I show a custom picture on the top screen of the DSi theme?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+#### F: Hur visar jag en anpassad bild på den översta skärmen i DSi temat?
+En slumpmässig `.png` bild i `sd:/_nds/TWiLightMenu/dsimenu/photos/` visas varje gång menyn laddas.
 
-- The images(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
+- Bilderna får inte vara större än 208x156
+- Om du har fel är det sannolikt ett fel med bildstorleken. Använd [tinypng](https://tinypng.com) för att minska storleken
 
-#### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). To get dumps of your retail games:
-- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcard, DS games
-- On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
-- On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
+#### F: Hur får jag spel?
+Du kan ladda ner homebrew-spel från [Universal-DB](https://db.universal-team.net/ds) och [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). För att få dumpar av dina retail spel:
+- På DS kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina GBA-spel och, om du har ett Slot-2 minneskort, DS spel
+- På DSi kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina DS spel och DSiWare
+- På 3DS kan du använda [GodMode9](https://github.com/d0k3/GodMode9/releases) för att dumpa dina DS-spel, DSiWare och Virtual Console-titlar
 
-#### Can I get the save files from my game cards onto my SD card or vice versa?
-Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+#### F: Kan jag få sparfiler från mina spelkort på mitt SD-kort eller tvärtom?
+Ja, du kan använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) på DSi och 3DS eller [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) på 3DS.
 
 #### How do I change TWiLight Menu++'s language?
 1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++

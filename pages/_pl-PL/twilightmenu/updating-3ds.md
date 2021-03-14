@@ -5,6 +5,10 @@ section: twilightmenu
 category: updating
 title: Aktualizacja (3DS)
 description: Jak zaktualizować TWiLight Menu++ na Nintendo 3DS
+tabs:
+  - 
+    universal-updater: Universal-Updater
+    manual: Manual
 ---
 
 Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie plików `.sav` do nowego folderu o nazwie `saves`, który ma się znajdować w tym samym miejscu co gry DS.
@@ -17,37 +21,27 @@ Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie pli
 1. Naciśnij <kbd class="face">A</kbd> lub naciśnij ikonę pobierania na pasku bocznym i wybierz `TWiLight Menu++` aby go zainstalować
    - To trochę zajmie
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Pobierz najnowszą wersję `TWiLightMenu-3DS.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Wypakuj `TWiLightMenu-3DS.7z`
-1. Skopiuj folder `_nds` do katalogu głównego karty SD
-1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty SD
-1. Skopiuj dwa pliki `.cia` do katalogu głównego karty SD
-1. Zainstaluj przerzucone pliki CIA z FBI na swoim 3DSie
+1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extract `TWiLightMenu-3DS.7z`
+1. Copy the `_nds` folder to your SD card root
+1. Copy the `BOOT.NDS` file to your SD card root
+1. Copy the two `.cia` files to your SD card root
+1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### Aktualizacja
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Ręcznie</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>Ręcznie</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### Więcej kroków dla użytkowników karty flashcard
 
-Jeśli można przełączać zawartość karty SD i karty flashcard w TWLMenu++, a jeśli karta flashcard TWLMenu++ jest w wersji v16.3.0 lub później, wykonaj te kroki.
+If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
-1. Przejdź do ustawień TWLMenu++
-1. Wybierz `Update TWiLight Menu++`
-1. Wybierz `Console (micro)SD > Slot-1 microSD`
+1. Go into TWLMenu++ Settings
+1. Select `Update TWiLight Menu++`
+1. Select `Console (micro)SD > Slot-1 microSD`

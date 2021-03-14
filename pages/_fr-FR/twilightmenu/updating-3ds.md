@@ -5,6 +5,10 @@ section: twilightmenu
 category: updating
 title: Mise à jour (3DS)
 description: How to update TWiLight Menu++ on the Nintendo 3DS
+tabs:
+  - 
+    universal-updater: Universal-Updater
+    manual: Manual
 ---
 
 Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS dans un nouveau dossier appelé `saves`, qui se trouvera à la même place que les roms DS.
@@ -17,6 +21,7 @@ Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, 
 1. Appuyez sur <kbd class="face">A</kbd> ou tapez sur l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
    - This will take a while
 {% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
@@ -26,23 +31,12 @@ Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, 
 1. Copy the two `.cia` files to your SD card root
 1. On your 3DS, install the two CIAs with FBI
 {% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
 ### Mise à jour
 
-<div class="tab-container">
-   <div class="pb-3">
-      <a class="tab-link btn btn-outline-secondary tab-default" href="#tab-universal-updater" onclick="openTab(event, event.currentTarget)" data-tab-name="universal-updater">Universal-Updater</a>
-      <a class="tab-link btn btn-outline-secondary" href="#tab-manual" onclick="openTab(event, event.currentTarget)" data-tab-name="manual">Manual</a>
-   </div>
-   <div id="tab-universal-updater">
-      <noscript><h4>Universal-Updater</h4></noscript>
-      {{ tab-universal-updater | markdownify }}
-   </div>
-   <div id="tab-manual">
-      <noscript><h4>Manual</h4></noscript>
-      {{ tab-manual | markdownify }}
-   </div>
-</div>
+{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
 ### Étapes supplémentaire pour les flashcards
 

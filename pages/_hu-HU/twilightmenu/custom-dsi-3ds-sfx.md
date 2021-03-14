@@ -27,12 +27,12 @@ A hang effekt bank olyan hangeffekteket tartalmaz, mint például az ikon válas
 
 Ezt követően futtathatod `make`-et, hogy létrehozd a hang effektusok bankot. Minden fent listázott fájlra szükség van, kivéve a *bgm.pcm.raw*-ot, de némává lehet őket tenni.
 
-Az eredmény *sfx.bin* fájlnak a mérete **512000B = 512KB alatt kell legyen**. Bármi nagyobb összeomláshoz vezethet, vagy néhány hang nem játszódik le teljesen.
+Az eredmény *sfx.bin* fájlnak a mérete **512000 B = 512 KB alatt kell legyen**. Bármi nagyobb összeomláshoz vezethet, vagy néhány hang nem játszódik le teljesen.
 
 ### Indítási hang
 Amíg más hang effektusok működnek bármilyen WAV fájllal, az indítási hangnak egy megadott formátumúnak kell lennie, hogy megfelelően működjön, egyébként szünet lesz az indítási hang vége és a háttérzene kezdete között.
 
-A startup.wav fájl **16-bit 16kHz** minőségű kell legyen. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
+A startup.wav fájl **16-bit 16 kHz** minőségű kell legyen. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
 
 Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a **Sávok > Mix > Mix Stereo down to Mono** menüpontban.
 
@@ -41,7 +41,7 @@ Be kell állítanod a `PlayStartupJingle=1` opciót a saját `theme.ini` fájlod
 
 ## Menü BGM
 
-A Menü BGM-nek **16-bit 16kHz Monó** nyers PCM fájlnak kell lennie. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
+A Menü BGM-nek **16-bit 16 kHz Monó** nyers PCM fájlnak kell lennie. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
 
 Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a **Sávok > Mix > Mix Stereo down to Mono** menüpontban.
 

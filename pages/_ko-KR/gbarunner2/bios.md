@@ -2,20 +2,26 @@
 lang: ko-KR
 layout: wiki
 section: gbarunner2
-title: GBA BIOS 정보
+title: GBA BIOS Info
 description: GBA BIOS에 관한 정보와 덤프하는 방법
 ---
 
-GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필요합니다. (TWiLight Menu++의 최신 빌드와 함께 딸려나오는) GBARunner2의 최신 빌드는 [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios)가 기본으로 내장되어있습니다. 완전한 복사본이 아니기 때문에 공식 BIOS를 덤프하면 호환성이 높아집니다. 아래 방법들중 하나를 통해 공식 GBA BIOS를 덤프할 수 있습니다.
+GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필요합니다. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. 아래 방법들중 하나를 통해 공식 GBA BIOS를 덤프할 수 있습니다.
 
 ### 덤핑 가이드
 
-- [Wii (패밀리 에디션이 아닌)/게임큐브 + 링크 케이블 덤퍼](https://github.com/FIX94/gba-link-cable-dumper)
-- [대부분의 버추얼 콘솔 타이틀을 이용한 3DS](https://glazedbelmont.github.io/gbabiosdump/) (GBA 또는 닌텐도에서 만든 것이 아닌(게임기어) 버추얼 콘솔 타이틀은 안됨)
-- [Flashcard를 이용한 GBA (마이크로/SP)/DS (일반/라이트)](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
+- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/)
 
-BIOS를 덤핑 한 후 이름을 `bios.bin`으로 변경하여야 하며, GBARunner2가 읽을 수 있도록 `sd:/_gba/`에 파일을 위치시켜야 합니다.
+After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
 
 BIOS를 아래 체크섬과 비교하여 제대로 된 덤프인지 식별할 수 있습니다.
 
-**CRC32**: 81977335 **MD5**: a860e8c0b6d573d191e4ec7db1b1e4f6 **SHA1**: 300c20df6731a33952ded8c436f7f186d25d3492 **SHA256**: fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570
+**CRC32:** `81977335`
+
+**MD5:** `a860e8c0b6d573d191e4ec7db1b1e4f6`
+
+**SHA1:** `300c20df6731a33952ded8c436f7f186d25d3492`
+
+**SHA256:** `fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570`

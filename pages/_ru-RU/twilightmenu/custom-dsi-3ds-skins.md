@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to create DSi / 3DS skins
+title: How to Create DSi / 3DS Skins
 description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 

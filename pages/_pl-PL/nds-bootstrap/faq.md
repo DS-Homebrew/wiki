@@ -7,7 +7,7 @@ title: FAQ & Rozwiązywanie problemów
 description: FAQ & Rozwiązywanie problemów nds-bootstrap
 ---
 
-#### Dlaczego dostaję biały ekran podczas uruchamiania gry z karty SD?
+#### Why do I get a white screen when trying to load a game from SD card?
 - Najpierw sprawdź [listę kompatybilności nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0), by się upewnić czy twoja gra jest kompatybilna
 - Spróbuj włączyć grę bez żadnych cheatów, ponieważ niektóre nie są na razie kompatybilne z nds-bootstrap, wciśnij <kbd class="l">L</kbd>, by wyłączyć wszystie cheaty
 - Jeśli gra, którą próbujesz uruchomić, to gra DSi Enhanced a następnie upewnij się, że TWiLight Menu++ jest ustawiony na `Tryb DS`
@@ -20,7 +20,7 @@ nds-bootstrap patchuje ROM, by mógł być uruchamiany z karty SD, ponieważ ROM
 - Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges
 - You can expand the VRAM memory bus to 32-bit
 - Utilize the DSi's additional CPU speed
-- Enhance your audio with 48 KHz
+- Enhance your audio with 48 kHz
 - Use DSi mode, allowing for DSi features
 - Using certain cartridges, you are able to use IR in your application
 - nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued
@@ -30,18 +30,20 @@ nds-bootstrap patchuje ROM, by mógł być uruchamiany z karty SD, ponieważ ROM
 Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
 
 #### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
 #### Is there anything else I should know about cheats?
-You can set heap shrink to `Hi` in settings for slightly better cheat support.<br> For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+You can set heap shrink to `Hi` in settings for slightly better cheat support.
+
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
 #### nds-bootstrap troubleshooting
 If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
 
-1. Run everything in 67mhz, DS Mode, with 32 KHz of audio, etc. Basically, keep everything to DS settings. Don't try to improve it with DSi stuff
+1. Run everything in 67 MHz, DS Mode, with 32 kHz of audio, etc. Basically, keep everything to DS settings. Don't try to improve it with DSi stuff
 2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
 

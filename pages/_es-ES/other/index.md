@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
-section: other
-title: Home
-description: Coming Soon™
+section: otros
+title: Inicio
+description: Information about other DS-Homebrew projects
 ---
 
-This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
+Esta sección contiene información sobre otros proyectos de DS-Homebrew que no son lo suficientemente grandes como para usar una sección completa de la wiki.

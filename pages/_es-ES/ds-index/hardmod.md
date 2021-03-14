@@ -5,6 +5,10 @@ section: ds-index
 category: guides
 title: Hardmod
 description: Cómo hacer hardmod a una Nintendo DSi
+tabs:
+  - 
+    windows: Windows
+    other: macOS / Linux
 ---
 
 El hardmodding consiste en soldar un adaptador de tarjetas SD directamente a la placa base de la DSi para poder leerla en un ordenador. Es bastante útil para restaurar copias de seguridad de la NAND, ver la NAND en tu PC, etc...
@@ -53,9 +57,7 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 - Cuando haya terminado, debería haber un archivo con un nombre largo que acaba en `-no-footer.bin` en la carpeta que tienes el terminal abierto
    - Usa este archivo como la imagen NAND a flashear en la DSi
 
-
-#### Instrucciones de Windows (saltar para macOS / Linux)
-
+{% capture tab-windows %}
 1. Abre Win32DiskImager
 1. Pincha en el icono de la carpeta y busca tu escritorio. En el cuadro de texto, escribe `NAND_0.bin`. Escoge `All types *.*` como extensión
 1. Elige el dispositivo que sea la DSi y pincha leer
@@ -63,33 +65,34 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Abre HxD y arrastra ambos archivos al editor. Ve a la barra superior, pincha "Analysis", pincha "File compare" en el menú desplegable y pincha en "Compare".
 1. Elige comparar los archivos y pincha OK cuando termine
    - Si dice "The chosen files are identical.", ve a la siguiente sección
-   - Si no es el caso, y ambas NANDs no tienen cerca de 240MB, vuelca las NAND_1 y NAND_0 de nuevo
+   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
 1. Abre Win32DiskImager, pincha en el icono de la carpeta y selecciona la copia de la NAND que has creado antes
 1. Flashéala con el botón `Write`
-1. Extrae el adaptador de tarjetas SD y prueba a encender la DSi
+1. Unplug the SD card adapter and attempt to turn on the DSi
+{% endcapture tab-windows %}
+{% assign tab-windows = tab-windows | split: "////////" %}
 
-#### Instrucciones para Linux / macOS (saltar para Windows)
 
-
+{% capture tab-other %}
 1. Busca dónde está montada la tarjeta SD
    - Linux:
       1. Extrae el adaptador de tarjetas SD
-      1. Run `lbslk` in a terminal
+      1. Ejecuta `lbslk` en un terminal
       1. Conecta el adaptador de tarjetas SD
       1. Ejecuta `lbslk` de nuevo
       1. Esta vez debería aparecer un nuevo dispositivo
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+         - Debería llamarse `/dev/sdb`, anota el nombre que tiene en *tu* ordenador
 
    - macOS:
       1. Extrae el adaptador de tarjetas SD
-      1. Run `df` in a terminal
+      1. Ejecuta `df` en un terminal
       1. Conecta el adaptador de tarjetas SD
       1. Ejecuta `df` de nuevo
       1. Debería aparecer un nuevo dispositivo
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+         - Debería llamarse `/dev/disk1s1`, anota el nombre que tiene en *tu* ordenador
 
 1. Vuelca la NAND
-   - Run the following command in a terminal:
+   - Ejecuta el siguiente comando en un terminal:
       - `cat {device-name} > nand0.bin`
       - Reemplaza `{device-name}` con la ubicación de montaje de la SD
       - P. ej. `cat /dev/sdb > nand0.bin`
@@ -111,4 +114,10 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
       - Reemplaza `{existing-nand-backup}` con la ubicación y el nombre de tu copia antigua de la NAND
       - Reemplaza `{device-name}` con el punto de montaje de la tarjeta SD
 
-Ya puedes extraer el adaptador de tarjetas SD y encender la consola. Si todo ha ido bien, la DSi debería encenderse en el mismo estado que cuando hiciste la copia.
+At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+{% endcapture tab-other %}
+{% assign tab-other = tab-other | split: "////////" %}
+
+### Flashing the NAND backup
+{% assign tabs = tab-windows | concat: tab-other %}
+{% include tabs.html index=0 tabs=tabs %}

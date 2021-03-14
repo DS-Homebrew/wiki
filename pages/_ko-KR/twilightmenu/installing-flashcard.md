@@ -15,7 +15,7 @@ description: 닌텐도 DS flashcard에서 TWiLight Menu++를 설치하는 방법
 1. Flashcard의 SD 카드 루트에 `roms` 폴더를 복사합니다.
 1. 세이브 데이터를 이미 갖고있다면, DS ROM의 위치에 있는 `.sav` 파일을 `saves` 폴더에 넣으세요. (DS ROM의 위치에도 있습니다.)
 1. ...
-   - **DS Phat/lite 이용자: **`BOOT.NDS`를 부팅할 때, 하얀 화면이 지속된다면 DS 메모리 확장 팩을 삽입하고 다시 시도해보세요.
+   - **DS Phat / Lite 이용자: **`BOOT.NDS`를 부팅할 때, 하얀 화면이 지속된다면 DS 메모리 확장 팩을 삽입하고 다시 시도해보세요.
    - **DSi/3DS 이용자: **본체의 SD 카드에서 TWLMenu++를 실행하고, `Slot-1에서 SCFG 접근`을 '켬'으로 합니다.
       - 이렇게 하면 본체의 SD카드에 접근할 수 있고, TWL 클럭 속도 또는 VRAM 속도 증폭을 flashcard 게임에서 사용할 수 있도록 합니다.
 
@@ -45,5 +45,5 @@ description: 닌텐도 DS flashcard에서 TWiLight Menu++를 설치하는 방법
 1. `Autoboot/(사용하는 flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
    - 사용중인 Flashcard가 보이지 않는다면 이 과정을 건너뛰세요.
 1. ...
-   - **DS Phat/DS Lite 이용자:** DS 메뉴의 설정에 들어가서 Auto-start를 켜면 부팅할 때 Flashcard가 시작됩니다.
-   - **DSi/3DS 이용자:** TWLMenu++를 본체의 SD 카드에서 실행하고, `Slot-1 자동 시작`을 켭니다.
+   - **DS Phat / DS Lite 이용자:** DS 메뉴의 설정에 들어가서 Auto-start를 켜면 부팅할 때 Flashcard가 시작됩니다.
+   - **DSi / 3DS 이용자:** TWLMenu++를 본체의 SD 카드에서 실행하고, `Slot-1 자동 시작`을 켭니다.

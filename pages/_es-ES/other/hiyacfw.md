@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: other
 title: hiyaCFW
-description: Info for hiyaCFW
+description: Information about hiyaCFW
 ---
 
-Information for [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), the world's first CFW for DSi.
+Información sobre [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), el primer CFW para DSi.
 
-### Custom Splash Screens
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+### Custom splash screens
+Con hiyaCFW puedes usar imágenes personalizadas en formato `.bmp` o `.gif`. Tienen que estar en la carpeta `sd:/hiya` y llamarse `splashtop` para la pantalla superior y `splashbottom` para la inferior con la extensión de archivo apropiada, y asegúrate de que la pantalla de inicio está activada en la configuración. Las imágenes no tienen por qué ser del mismo formato, una puede ser BMP y la otra un GIF, aunque los GIF tienen prioridad sobre los BMPs. Estos son algunos detalles para que las imágenes funcionen:
 
 #### BMP
-- 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 16-bit (RGBA 1555, RGB 1555 o RGB 565)
+- 256 x 192 o menor
 
 #### GIF
-- Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1MB for ideal performance and must be under around 10MB between the two absolute maximum
-- If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
-- If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
-- Interlaced and plain text frames are ***not*** supported
-- Local color tables are supported, but will replace the whole palette, including residual image from previous frames, so images using them will likely have palette problems
+- Respuesta sencilla: la mayoría de GIFS de tamaño 256 x 192 o menor funcionarán
+- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
+- Si ambos son bucles infinitos se mostrarán durante 3 segundos, en caso contrario pararán cuando ambos terminen un ciclo
+- Si un fotograma tiene un input flag parará hasta que se pase el tiempo de espera o se pulse algún botón, dependiendo de cual se haga primero
+- ***No*** están soportados fotogramas entrelazados o de texto
+- Se pueden usar tablas de color propias pero reemplazarán la paleta entera, incluyendo imágenes residuales de fotogramas anteriores, lo que puede causar problemas en las paletas

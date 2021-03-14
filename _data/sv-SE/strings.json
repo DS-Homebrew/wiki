@@ -3,6 +3,7 @@
 	"close": "Stäng",
 	"description": "Wikis för DS-Homebrew projekt",
 	"discord-server": "Discord server (endast engelska)",
+	"need-help": "Need help? Join our Discord server: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (English only)",
 	"published-with": "Publicerat med <a href=\"https://pages.github.com\">GitHub Pages</a>, visa <a href=\"https://github.com/$1\">källan</a> på GitHub.",
 	"select-language": "Välj språk",
 	"source": "Källa",

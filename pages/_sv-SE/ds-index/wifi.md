@@ -12,12 +12,12 @@ description: Information om hur du använder Wi-Fi på Nintendo DS
 
 Hotspots är användbara, så du behöver inte ändra din router-konfiguration.
 
-### Creating a Hotspot
+### Creating a hotspot
 Det finns guider för att skapa ett hotspot kompatibelt med DS spel på macOS och Linux-datorer på GBAtemp. Om du är på Windows kan du använda en Linux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Nintendo DS WFC återställning
+### Nintendo DS WFC restoration
 1. Starta Nintendo WFC inställningar
 1. Anslut till din åtkomstpunkt
 1. Ange ditt primära DNS-värde som ett av värdena nedan, beroende på vilken tjänst du vill använda:
@@ -28,7 +28,7 @@ Det finns guider för att skapa ett hotspot kompatibelt med DS spel på macOS oc
 1. Ställ in `1.1.1.1` som din sekundära DNS
 1. Du kan behöva NoSSL patchad in i ditt spel just nu, beroende på spelet
 
-### Manually Patching Your DS ROMs
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Troubleshooting and further reading
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

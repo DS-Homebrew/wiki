@@ -5,6 +5,10 @@ section: ds-index
 category: guides
 title: Hardmod
 description: A Nintendo DSi hardmod-olása
+tabs:
+  - 
+    windows: Windows
+    other: macOS / Linux
 ---
 
 A Hardmodding az az amikor fizikailag hozzá forrasztasz a egy SD kártya adaptert a Nintendo DSi alaplapjához, hogy olvasható legyen számítógépről. Ez hasznos lehet a NAND mentés visszaállításához, a NAND megtekintéséhez a PC-den, stb...
@@ -53,9 +57,7 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
 - Ha a szkript végzett, akkor létre kell jönni egy fájlnak a hosszú `-no-footer.bin` végződéssel abban a mappában, ahol a terminál megnyitásra került
    - Használd ezt a fájl, mint NAND képfájlt, amit flashelsz a DSi-re
 
-
-#### Windows lépések (ugord át, ha macOS / Linux rendszert használsz)
-
+{% capture tab-windows %}
 1. Nyisd meg a Win32DiskImager-t
 1. Kattints a mappa ikonon és tallózd az asztali géped. A szövegdobozba írd: `NAND_0.bin`. A típus kiválasztásakor válaszd az `All types *.*` opciót
 1. Válaszd ki az eszközt, ami a DSi-hez tartozik és kattins a Read-ra
@@ -63,14 +65,15 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
 1. Nyisd meg a HxD-t és húzd be mindkét fájlt az editorba. Menj a felső sávra, és kattints az "Analysis"-re, majd a "File compare"-re a lenyíló menüben, és kattints a "Compare"-re.
 1. Választ a "compare both files" opciót, majd kattints az OK-ra, ha kész
    - Ha azt mondja, hogy "The chosen files are identical.", akkor jól csináltad, és tovább léphetsz a következő szakaszra
-   - Ha nem mondja ezt, és egyik NAND sem 240MB, akkor dumpold újra NAND_1/NAND_0-t
+   - Ha nem mondja ezt, és egyik NAND sem 240 MB, akkor dumpold újra NAND_1/NAND_0-t
 1. Nyisd meg a Win32DiskImager-t, kattints a mappa ikonra és válaszd ki a meglévő NAND mentésedet, amit korábban csináltál
 1. Flasheld `Write` gombbal
-1. Húzd ki az SD kártya adaptert, és próbáld meg bekapcsolni a DSi-t
+1. Unplug the SD card adapter and attempt to turn on the DSi
+{% endcapture tab-windows %}
+{% assign tab-windows = tab-windows | split: "////////" %}
 
-#### Linux / macOS lépések (ugord át ha Windows-on vagy)
 
-
+{% capture tab-other %}
 1. Derítsük ki, hogyaz SD kártya hova lett felcsatolva
    - Linux:
       1. Húzd ki az SD kártya adaptert
@@ -111,4 +114,10 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
       - Cseréld az `{existing-nand-backup}` részt a helyére és a nevére a NAND mentésednek
       - Cseréld a `{device-name}` részt az SD kártya csatolási pontjára
 
-Ezen a ponton kihúzhatod az SD kártya adapter, és megpróbálhatod bekapcsolni a DSi-t. Ha minden rendben ment a DSi-nek be kell bootolnia abba az állapotba, amin a mentés készült!
+At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+{% endcapture tab-other %}
+{% assign tab-other = tab-other | split: "////////" %}
+
+### Flashing the NAND backup
+{% assign tabs = tab-windows | concat: tab-other %}
+{% include tabs.html index=0 tabs=tabs %}

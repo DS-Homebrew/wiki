@@ -15,13 +15,13 @@ TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <ht
 
 #### How do I fix getting a white screen when booting TWiLight Menu++?
 - First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
-- If that doesn't work, format your SD card to FAT32 with 32KB cluster/allocation size
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
 - If that also doesn't work, try a different SD card
 
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 
-#### Why do I get a white screen when trying to load a game from SD Card?
+#### Why do I get a white screen when trying to load a game from SD card?
 - First, check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) and make sure your game is compatible
 - Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> to disable all cheats for a game
 - If the game you're trying to launch is a DSi Enhanced game, then make sure that TWiLight Menu++ is set to use `DS Mode`

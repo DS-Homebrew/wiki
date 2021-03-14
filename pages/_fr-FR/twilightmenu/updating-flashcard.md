@@ -16,7 +16,7 @@ Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, 
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre flashcard
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre flashcard
 
-### Étapes supplémentaires pour la carte SD DSi/3DS
+### More steps for the DSi / 3DS SD card side
 
 Si vous pouvez basculer entre le contenu de la carte SD et de la carte flashcard dans TWLMenu++, et si le menu TWLMenu++ de la flashcard est sur v16.3.0 ou supérieur, veuillez suivre ces étapes.
 

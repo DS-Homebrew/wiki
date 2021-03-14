@@ -22,4 +22,4 @@ description: כיצד להשיג את הDownload Play של הDS ואת Pictochat
 הצעדים מעלה יגברו את זמן העליה של DLP.
 
 על מנת להריץ את Pictochat על 3DS (דרוש DSi):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+- העתיקו את `pictochat.nds` מ`sd:/_nds/` על כרטיס הSD של הDSi, אל אותה התיקיה בכרטיס הSD של ה3DS שלכם יש לגשת לתפריט הDS הקלאסי בTWiLight Menu++ על הDSi.

@@ -24,7 +24,7 @@ description: Hogyan szerezz be játék box art-ot / játékborítókat a TWiLigh
 1. Kattints a `Start`-ra
 1. Ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
-### macOS/Linux
+### macOS / Linux
 1. Töltsd le a [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases) legfrissebb verzióját
 1. Csomagold ki a `.zip` fájlt
 1. Nyisd meg a `TwilightBoxart.ini` fájlt egy szöveg editorral

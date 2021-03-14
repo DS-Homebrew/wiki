@@ -12,7 +12,7 @@ description: Informazioni sull'utilizzo del Wi-Fi sul Nintendo DS
 
 Gli hotspot sono utilizzabili, quindi non è necessario modificare la configurazione del router.
 
-### Creating a Hotspot
+### Creare un hotspot
 Ci sono guide per la creazione di un hotspot compatibile con un gioco del DS su computer macOS e Linux su GBAtemp. Se sei su Windows puoi usare un avvio dal vivo Linux.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
@@ -28,7 +28,7 @@ Ci sono guide per la creazione di un hotspot compatibile con un gioco del DS su 
 1. Imposta `1.1.1.1` come DNS secondario
 1. Potresti aver bisogno di NoSSL per applicare una patch per il tuo gioco a questo punto, a seconda della sua compatibilità
 
-### Manually Patching Your DS ROMs
+### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and Further Reading
-If you are recieving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Risoluzione dei problemi e ulteriore lettura
+If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
 For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
