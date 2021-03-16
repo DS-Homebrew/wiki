@@ -1,4 +1,7 @@
 # DS-Homebrew wiki
+[![Discord server](https://img.shields.io/discord/283769550611152897?label=Discord%20server)](https://ds-homebrew.com/discord)
+[![Crowdin](https://badges.crowdin.net/ds-homebrew-wiki/localized.svg)](https://crowdin.com/project/ds-homebrew-wiki)
+
 Wikis for DS-Homebrew projects
 
 ## Running locally
