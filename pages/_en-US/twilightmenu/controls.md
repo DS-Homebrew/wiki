@@ -34,9 +34,9 @@ description: Controls for using TWiLight Menu++
       - <kbd class="face">Y</kbd>: Show cheat description
       - <kbd class="l">L</kbd>: Disable all cheats
 
-#### With CFW: DS ROMs (on SD) / carts
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++
-(If using an O3DS, then it does not work on all models)
+#### DS ROMs (using nds-bootstrap)
+- <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> for 1 second: Swap the screens
 
 #### Boot shortcuts
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
