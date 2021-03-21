@@ -1,13 +1,13 @@
-<link rel="canonical" href="{{ page.url | absolute_url | remove: ".html" }}" />
+<link rel="canonical" href="{{ page.url | absolute_url | remove: "index.html" | remove: ".html" }}" />
 <meta name="description" content="{{ page.description | default: site.data[page.collection].strings.description | escape }}" />
-<meta property="og:title" content="{{ page.title | default: site.data[page.collection].strings.title | escape }}" />
+<meta property="og:title" content="{{ page.long_title | default: page.title | default: site.data[page.collection].strings.title | escape }}" />
 <meta property="og:locale" content="{{ page.collection | default: "en_US"}}" />
-<meta property="og:url" content="{{ page.url | absolute_url | remove: ".html" }}" />
+<meta property="og:url" content="{{ page.url | absolute_url | remove: "index.html" | remove: ".html" }}" />
 <meta property="og:site_name" content="{{ site.data[page.collection].strings.title | escape }}" />
 <meta property="og:image" content="{{ page.image | default: site.image }}">
 <meta property="og:description" content="{{ page.description | default: site.data[page.collection].strings.description | escape }}" />
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{ page.title | default: site.data[page.collection].strings.title | escape }}">
+<meta name="twitter:title" content="{{ page.long_title | default: page.title | default: site.data[page.collection].strings.title | escape }}">
 <meta name="twitter:description" content="{{ page.description | default: site.data[page.collection].strings.description | escape }}">
 <meta name="twitter:image" content="{{ page.image | default: site.image }}">
 <meta name="theme-color" content="{{ page.color | default: site.color }}"/>

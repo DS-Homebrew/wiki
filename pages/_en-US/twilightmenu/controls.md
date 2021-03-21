@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Controls
+long_title: TWiLight Menu++ Controls
 description: Controls for using TWiLight Menu++
 ---
 

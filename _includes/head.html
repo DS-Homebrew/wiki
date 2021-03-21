@@ -2,8 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>
-	{% if site.data[page.collection].strings.title != page.title %}
-		{{ page.title }} |
+	{% assign title = page.long_title | default: page.title %}
+	{% if site.data[page.collection].strings.title != title %}
+		{{ title }} |
 	{% endif %}
 	{{ site.data[page.collection].strings.title }}
 </title>

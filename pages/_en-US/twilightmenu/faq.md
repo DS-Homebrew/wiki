@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: FAQ & Troubleshooting
+long_title: TWiLight Menu++ FAQ & Troubleshooting
 description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
