@@ -2,13 +2,13 @@
 lang: en-US
 layout: wiki
 section: twilightmenu
-category: none
-title: Updating (Index)
+category: indexes
+title: Updating
 long_title: Updating TWiLight Menu++
-description: How to install TWiLight Menu++ (index page)
+description: How to update TWiLight Menu++ (index page)
 ---
 
-There are separate guides for updating TWiLight Menu++ depending on if you're using a Nintendo DSi, Nintendo 3DS, or a Nintendo DS flashcard. Please select the page for the one you're using.
+The updating process for TWiLight Menu++ depends on whether you're using a Nintendo DSi, Nintendo 3DS, or a Nintendo DS flashcard. Please select the page for the one you're using.
 
 ### 3DS / 2DS
 If you're using a 3DS or 2DS (from the internal SD card), follow the [3DS instructions](updating-3ds).
