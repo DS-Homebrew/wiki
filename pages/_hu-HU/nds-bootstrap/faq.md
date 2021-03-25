@@ -7,7 +7,7 @@ title: GYIK & hibaelhárítás
 description: GYIK & hibaelhárítás az nds-bootstrap-hez
 ---
 
-#### Why do I get a white screen when trying to load a game from SD card?
+#### Miért kapok fehér képernyőt, ha megpróbálok betölteni egy játékot az SD kártyáról?
 - Először ellenőrizd [az nds-bootstrap kompatibilitás listát ](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) legyél biztos benne, hogy a játékod kompatiblis
 - Próbáld meg az összes csalás kikapcsolásával annál a játéknál, mert néhány csalás nem kompatibilis az nds-bootstrap-pel jelenleg; az <kbd class="l">L</kbd> gombot tudod használni egy játék összes csalásának kikapcsolásához
 - Ha a betölteni kívánt játék egy DSi kibővített játék, akkor ellenőrizd, hogy a TWiLight Menu++ `DS mód`-ra van-e állítva

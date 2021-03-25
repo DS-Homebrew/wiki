@@ -22,14 +22,14 @@ A Nintendo DS 67 MHz-es processzorral került szállításra 2004-ben. A Nintend
 
 Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg igazítani a ROM-ot, hogy működjön magasabb órajellel. Ez az alkalmazáson múlik, és az alkalmazások amik nem működnek magasabb órajellel, NEM jelentik az nds-bootstrap hibáját.
 
-### Nintendo DSi system menu
-The Nintendo DSi system menu uses a signed 32-bit integer to determine the amount of free space on the device. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occurred" fekete képernyőbe.
+### A Nintendo DSi System Menu
+A Nintendo DSi System Menu 32-bit egészen dönti el, hogy mennyi a szabad tárhely az eszközön. Olyan eszköz használata esetén, ami a 32-bit egész korlát felé megy, ez a számláló túlcsordul a negatív tartományba, ami összeomlik egy "An error occurred" fekete képernyőbe.
 
 A tartományok, amik túlcsordultatják kettes csoportokban jelenkeznek. Például, 1-2 GB szabad tárhely engedélyezett, míg 3-4 nem. 5-6 GB szabad tárhely engedélyezett, míg 7-8 nem.
 
-This crash will never occur if the system menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
+Ez a hiba soha nem fordul elől, ha a System Menu a NAND chipről bootolt (mivel azok maximum 128 MB méretűek) de egy átirányító rendszer (mint például a hiyaCFW) ezt a hibát indukálhatja. Szerencsére ez hiba könnyen javítható egy dummy fájllal, hogy beállítsa a számlálót a pozitív számokra. A legutolsó hiyaCFW ezt automatikusan intézi számodra a legfrissebb verzióban.
 
-In version 1.4.0, RSA signatures in the DS cart whitelist aren't verified. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
+Az 1.4.0 verzióban az RSA aláírások a a DS cart fehérlistában nem ellenőrzöttek. Létezik egy exploit a Nintendo DSi flashcard whitelist sérülékenységre, ami lehetővé teszi az ARM9 processzor feletti hozzáférés átvételét. Szüksége van az 1.4.0 verzióra (patchelésre került egy jövőbeni verzióban és nem létezett korábbi verziókban) és egy flashcard-ra módosított ROM-mal.
 
 ### Nintendo DSi Slot-1 hozzáférés & letiltás
 A Slot-1 hozzáférés blokkolt, amikor alkalmazásokat indít a System Menu-ből, kivéve ha az említett alkalmazás a Slot-1 launcher maga vagy a System Settings. Ahhoz, hogy egy normálisan indíthatatlan slot-1 cartridge-t indítsunk, szükség van egy System Settings exploitra vagy egy Unlainch telepítésre. Ezek bármelyike nélkül, nem tud indítani indíthatatlan flashcard-ot és nem tud dump-olni ROM-ot az SD kártyára.
@@ -45,7 +45,7 @@ A Nintendo DSi Camera alkalmazás képs fényképek készítésére JPEG-ben és
 
 A `pit.bin` fájl alapján kerül a képek betöltésének sorrendje meghatározásra. Azonban a fejléc méret az offset 0x16-nál nem ellenőrzött, így elég nagy fejléc méret túl tud lépni ezeken a határokon, a buffer felülírását eredményezve aláíratlan kódra ugorva. Ez az, ahogy a Memory Pit működik.
 
-### Nintendo DSi bootstage 2
+### Nintendo DSi 2. Bootstage
 A Nintendo DSi második bootstage tölti be a launcher "title.tmd"-jét a memóriába. Azonban ez nem végez fájlméret ellenőrzést, ami azt jelenti, hogy az első 80k bájt betöltésre kerül a RAM-ba, miközben a többi az egyedi payload lehet. Ez az alapja az Unlaunch exploit-nak.
 
 ### RTCom

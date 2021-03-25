@@ -20,13 +20,13 @@ description: Reglerna för DS⁽ⁱ⁾ Mode Hacking Discord-servern
 ### Ta INTE ner chattens kvalite.
 
 Exempel:
-- Asking to be spoon-fed information or spoon-feeding others
+- Be om att vara matad information eller mata andra
 - Be om releasedatum för projekt; Det är redo när det är klar
 - Be om att få fråga något; genom att fråga detta så frågade du precis
 - Begär information som är antingen uppenbarlig eller kan hittas med lite forskning på din ände (såsom googlande för länkar istället för att be dem att lämnas till dig)
    - Viktig information kan finnas på [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
    - Kolla in kanaltråden & fästa meddelanden; det innehåller troligtvis det du letar efter.
-- Intentionally elongating your message (for example: sending few words per message leaving it into a "popcorn" situation)
+- Avsiktligt förlängning av ditt meddelande (till exempel: skicka några ord per meddelande och lämna det i en "popcorn"-situation)
 - Upprepa meddelanden, oavsett om det upprepas i samma kanal eller i flera kanaler.
      - Om du är osäker på var du ska posta ditt meddelande, posta det i den som är mest meningsfullt.
      - Om du fortfarande är osäker, fråga i [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).

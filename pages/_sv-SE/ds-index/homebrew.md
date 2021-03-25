@@ -11,9 +11,9 @@ description: Information om homebrew på Nintendo DS
 
 Utveckling av Nintendo DS Homebrew använder vanligtvis devkitPro-verktyg, såsom devkitARM, libnds och libfat. Det finns dock möjlighet att förgrena sig och använda alternativ programvara:
 
-- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphics libraries:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
-- **Entire toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **SD-kortbibliotek:** [DevkitPro](https://devkitpro.org/) rekommenderar [libfat](https://github.com/devkitPro/libfat). Vi rekommenderar att du använder [libslim](https://github.com/DS-Homebrew/libslim/) istället, eftersom det tillåter användning av olika partitioner, snabbare hastigheter osv
+- **Grafikbibliotek:** Vi rekommenderar att du använder [easyGL2D](http://rel.phatcode.net/junk.php?id=117) vilket kommer med libnds automatiskt. Du kan dock använda [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Verktygskedjor:** Vi rekommenderar att du använder [devkitARM](https://devkitpro.org/wiki/Getting_Started) och [libnds](https://libnds.devkitpro.org/)eftersom det inkluderar DSi kompatibilitet och har ett större ekosystem. Men för exklusiv användning av minneskort på en Nintendo DS, tveka inte att använda [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Minneskort
 
@@ -25,7 +25,7 @@ DS-mode minneskort är en slot-1 metod för att köra Nintendo DS applikationer.
 
 Olika SD-kortplatser har olika maskinvara (för det mesta) och kod skriven för ett kort kommer inte nödvändigtvis att fungera för ett annat kort. DLDI (förkortning för Dynamically Linked Device Interface) försöker lösa detta genom att få SD-kortets hanteringskod patchat in externt. Laddare som YSMenu, Wood R4 och TWiLight Menu++ kan automatiskt DLDI patcha ett homebrew, men om du behöver manuellt patcha in den, använd gärna en [DLDI Patcher](https://www.chishm.com/DLDI#tools) beroende på din enhet.
 
-### Time bomb
+### Tidsinställd bomb
 
 En tidsinställd bomb är ett utgångsdatum för minneskort-kärnor som tillverkarna använder för att tvinga användare att köpa ett nytt kort. När din systemklocka går längre än ett visst datum, kommer kärnan att vägra att starta upp förbi utgångsskärmen. Tur så är en flagga inte inställd någonstans och det hanteras i minneskortets firmware, vilket ger oss två lösningar runt problemet:
 
@@ -40,7 +40,7 @@ Vi rekommenderar YSMenu, med TWiLight Menu++ om du föredrar det, på grund av d
 
 För att testa om ditt minneskort har en tidsinställd bomb, sätt datumet på ditt system till det senaste möjliga värdet och starta minneskortet.
 
-### ARGV support
+### ARGV Support
 ARGV är en informationssändare mellan två homebrew Nintendo DS-program. Den kan användas för forwarders eller alternativa menyer.
 
 - Homebrew måste programmeras för att dra nytta av det. Till exempel GBARunner2, NesDS och GameYob alla har ARGV implementering

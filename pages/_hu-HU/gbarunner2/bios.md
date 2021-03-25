@@ -14,7 +14,7 @@ A GBARunner2-nek, hogy betöltse a címeket szüksége van egy GBA BIOS dumpra. 
 - [3DS-sel, a legtöbb Virtual Console címmel](https://glazedbelmont.github.io/gbabiosdump/) (nem lehet GBA vagy nem-Nintendo (Game Gear) Virtual Console cím)
 - [GBA vagy DS Phat / Lite egy GBA Flashcard-dal](https://glazedbelmont.github.io/gbabiosdump/)
 
-After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
+A BIOS dumpolása után át kell azt nevezni `bios.bin`-nek, majd az `sd:/`, `sd:/gba/`, vagy az `sd:/_gba/` könyvtárba kell rakni, hogy a GBARunner2 tudja olvasni.
 
 Ellenőrizheted, hogy a BIOS-od megfelelő dump összehasonlítva a következő ellenőrző összegekkel:
 

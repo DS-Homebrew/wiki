@@ -7,7 +7,7 @@ title: Jugar en pantalla completa
 description: Cómo usar TWiLight Menu++ a pantalla completa en la Nintendo 3DS
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+Necesitas una consola Nintendo 3DS o 2DS.
 {:.alert .alert-info}
 
 ### Preparación
@@ -31,7 +31,7 @@ Requires a Nintendo 3DS or 2DS console.
 
 ¡Hecho! ¡Disfruta de tus juegos de DS a pantalla completa!
 
-**NOTE1:** Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. Para que solo se ejecuten a pantalla completa los juegos compatibles, espera al lanzamiento de RTCom con pantalla completa activada.
+**NOTA 1:** Cualquier juego/aplicación en Modo DS(i) se abrirá a pantalla completa, incluso los juegos que no sean compatibles con ella. Para que solo se ejecuten a pantalla completa los juegos compatibles, espera al lanzamiento de RTCom con pantalla completa activada.
 
 **NOTA 2:** No mantengas pulsado <kbd>START</kbd> o <kbd>SELECT</kbd> cuando lances TWLMenu++ si no quieres que la pantalla aparezca con glitches. Si no ves la opción para cambiar la resolución de la pantalla, espera al lanzamiento de RTCom con pantalla completa activada.
 

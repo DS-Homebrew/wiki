@@ -3,7 +3,7 @@ lang: es-ES
 layout: wiki
 section: community
 title: Inicio
-description: Information about the DS-Homebrew community
+description: Acerca de la comunidad DS-Homebrew
 ---
 
 Aquí podrás encontrar información acerca de nuestra comunidad, como las reglas de nuestro servidor de Discord. Estamos por aquí:

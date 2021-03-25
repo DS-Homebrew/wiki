@@ -3,7 +3,7 @@ lang: it-IT
 layout: wiki
 section: community
 category: discord
-title: Informazioni dell'Hacking DS⁽ⁱ⁾ Mode
+title: Regole DS⁽ⁱ⁾ Mode Hacking
 description: Regole su il server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
@@ -12,31 +12,31 @@ description: Regole su il server Discord DS⁽ⁱ⁾ Mode Hacking
 - Questo vale soprattutto per coloro che offrono il loro tempo per la community. (come aiutanti o sviluppatori)
 - NON tollereremo insensibilità, indipendentemente dal fatto che il membro sia o meno nella community.
 - Rispettare la privacy dell'utente; Evita di comunicare con gli utenti che non sono a proprio agio o di condividere informazioni su di loro che non vogliono condividere.
-- Do NOT backseat moderate or try to "help" when a moderator is dealing with a situation. You hold no authority, so leave actual rule handling to staff.
-     - Reminders are fine, as long as you don't try to enforce them.
-- When knowing who created a piece of art, credit those content creators.
+- NON rallentare o cercare di "aiutare" un moderatore quando sta affrontando una situazione. Non hai alcuna autorità, quindi lascia la gestione effettiva delle regole al personale.
+     - I promemoria vanno bene, purché non provi ad applicarli.
+- Quando si conosce chi ha creato un pezzo d'arte, accredita quei creatori di contenuti.
 
 
-### Do NOT bring the chat quality down.
+### NON abbassare la qualità della chat.
 
-Examples include:
-- Asking to be spoon-fed information or spoon-feeding others
-- Asking for release dates for projects; It's ready when it's ready
-- Asking to ask; by asking to ask, you just asked
-- Requesting information that is either obvious or you could find with a little bit of research on your end (such as googling for links instead of asking for them to be handed to you)
-   - Important information will be held over at [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
-   - Check the channel topic & pinned messages; it most likely contains what you are looking for.
-- Intentionally elongating your message (for example: sending few words per message leaving it into a "popcorn" situation)
-- Repeating messages, whether it is repeated in the same channel or in multiple channels.
-     - If you're unsure where to post your message, post it in the one that makes the most sense.
-     - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
-- Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages. Use [mystbin](https://mystb.in/) for longer messages instead.
+Tra gli esempi figurano:
+- Chiedere di essere imboccati di informazioni o imboccare gli altri
+- Chiedere date di rilascio per i progetti; è pronto quando è pronto
+- Chiedere di chiedere; chiedendo di chiedere, hai appena chiesto
+- Richiedere informazioni che sono o evidenti o si potrebbero trovare con un po 'di ricerca da soli (come ad esempio cercare su google i link invece di chiedere che vi siano inviati a voi)
+   - Le informazioni importanti saranno tenute su [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
+   - Controlla l'argomento del canale & messaggi attaccati; molto probabilmente contengono quello che stai cercando.
+- Allungare intenzionalmente (per esempio: inviare poche parole per messaggio)
+- Ripetere i messaggi, sia nello stesso canale che in più canali.
+     - Se non sei sicuro sul dove pubblicare il tuo messaggio, pubblicalo in quello che ha più senso.
+     - Se non sei ancora sicuro, chiedi in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
+- Pubblicare solo per pubblicare piuttosto che per creare delle conversazioni reali (come lamentarsi che la chat è morta, solo inviando saluti, copypasta, ecc)
+- Invio di messaggi estremamente lunghi. Usa invece [mystbin](https://mystb.in/) per messaggi più lunghi.
 
 
-### Do NOT randomly send Discord server invite links with no context & without explicit staff permission
+### NON inviare in modo casuale link di invito di server Discord senza contesto & senza esplicito permesso personale
 
-- Giving links to other discord servers on request is allowed, but please ask a moderator in Direct Messages before advertising a server without prior context
+- Fornire link ad altri server di discord su richiesta è permesso, ma si prega di chiedere ad un moderatore in privato prima di pubblicizzare un server senza contesto
 - DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules. Mass-DM advertisement (with proof) will land you a ban
 - Breaking this rule will result in your message containing the advertisement being deleted
 - Joining for the purpose of advertising your discord server will land you a ban.

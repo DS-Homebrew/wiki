@@ -16,7 +16,7 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 1. Kopiera mappen `_nds` till ditt minneskorts microSD-korts rot
 1. Kopiera filen `BOOT.NDS` till ditt minneskorts microSD-korts rot
 
-### More steps for the DSi / 3DS SD card side
+### Fler steg för DSi / 3DS SD-kort
 
 Om du kan växla mellan innehållet av SD och minneskort i TWLMenu++, och om minneskortets TWLMenu++ är på v16.3.0 eller senare, följ dessa steg.
 

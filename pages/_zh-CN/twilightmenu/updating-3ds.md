@@ -3,15 +3,15 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (3DS)
+title: 更新(3DS)
 description: How to update TWiLight Menu++ on the Nintendo 3DS
 tabs:
   - 
     universal-updater: Universal-Updater
-    manual: Manual
+    manual: 说明书
 ---
 
-If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+如果从早于 v16.4.0的版本更新，请移动您的DS游戏的 `.sav` 文件到一个新的名为 `saves`的文件夹, `saves` 文件夹和DS roms文件夹在同一个位置。
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
@@ -33,15 +33,15 @@ If updating from a version older than v16.4.0, please move your `.sav` files for
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
-### Updating
+### 更新
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### More steps for the flashcard side
+### 烧录卡片侧的更多步骤
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+如果您可以在TWLMenu++中切换 SD 卡和烧录卡中的内容，并且如果烧录卡TWLMenu++ 在 v16.3.0版本或以上，请遵循这些步骤。
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. 进入TWLMenu++ 设置
+1. 选择 `更新 TWiLight Menu++`
+1. 选择 `Console (micro)SD > Slot-1 microSD`

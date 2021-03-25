@@ -2,19 +2,19 @@
 lang: es-ES
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Info
+title: Información BIOS de GBA
 description: Acerca de la BIOS de GBA y cómo volcarla
 ---
 
-Para que GBARunner2 pueda lanzar juegos, se se necesita una copia de la BIOS de GBA. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. Puedes hacer un volcado de una BIOS de GBA oficial con uno de los siguientes métodos.
+Para que GBARunner2 pueda lanzar juegos, se se necesita una copia de la BIOS de GBA. Las versiones más recientes de GBARunner2 (que vienen con las últimas actualizaciones de TWiLight Menu++) llevan incorporada [la BIOS Open Source de Normatt](https://github.com/Normmatt/gba_bios). Sin embargo, al no ser una copia exacta, usar la BIOS oficial aumenta la compatibilidad. Puedes hacer un volcado de una BIOS de GBA oficial con uno de los siguientes métodos.
 
 ### Guías de Volcado
 
-- [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
-- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (no la Family Edition) / GameCube + Link Cable Dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [3DS con algún título de la Virtual Console](https://glazedbelmont.github.io/gbabiosdump/) (no puede ser de GBA o títulos que no sean de Nintendo (Game Gear))
+- [GBA o DS Phat / Lite con una flashcard de GBA](https://glazedbelmont.github.io/gbabiosdump/)
 
-After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
+Tras volcar la BIOS, debe renombrarse como `bios.bin` y colocarla en la raíz de la tarjeta o en alguna de las carpetas `sd:/gba/` o `sd:/_gba/` para que GBARunner2 pueda leerla.
 
 Puedes verificar el volcado de la BIOS comparándola con los siguientes checksums:
 

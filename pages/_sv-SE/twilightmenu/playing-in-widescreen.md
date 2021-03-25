@@ -7,7 +7,7 @@ title: Att spela i bredbild
 description: Hur du använder TWiLight Meny++ i bredbild på Nintendo 3DS
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+Kräver en Nintendo 3DS eller 2DS konsol.
 {:.alert .alert-info}
 
 ### Förberedelse
@@ -31,7 +31,7 @@ Requires a Nintendo 3DS or 2DS console.
 
 Du är klar! Njut av dina DS spel i bredbild!
 
-**NOTE1:** Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. För att detta ska rättas så att bara bredbild-kompatibla spel kan köras i bredbild, vänta på att RTCom-aktiverad bredbild ska släppas.
+**ANTECKNING 1:** Varje spel/app i DS(i) läge körs i bredbild, även de spel som inte är kompatibla med bredbild. För att detta ska rättas så att bara bredbild-kompatibla spel kan köras i bredbild, vänta på att RTCom-aktiverad bredbild ska släppas.
 
 **ANTECKNING 2:** Håll inte nere <kbd>START</kbd> eller <kbd>SELECT</kbd> när du startar upp TWLMenu++ om du inte vill att bredbild ska se buggad ut. Om du inte ser inställningen för skärmens bildformat så väntar du på att RTCom-aktiverad bredbild ska släppas.
 

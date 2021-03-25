@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: community
-title: Home
-description: Information about the DS-Homebrew community
+title: Beranda
+description: Informasi mengenai perkumpulan (komunitas) DS-Homebrew
 ---
 
-You can find information about our community here, such as the rules for our Discord server. We have the following places:
+Kamu dapat mencari informasi tentang perkumpulan kami di sini, seperti peraturan server Discord kami. Kami ada di tempat-tempat berikut:
 - Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- Situs jejaring: [ds-homebrew.com](https://ds-homebrew.com)

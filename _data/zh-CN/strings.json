@@ -1,14 +1,14 @@
 {
 	"by": "作者：$1",
-	"close": "Close",
+	"close": "关闭",
 	"description": "Wikis for DS-Homebrew projects",
 	"discord-server": "Discord 服务器（仅限英语）",
-	"need-help": "Need help? Join our Discord server: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (English only)",
+	"need-help": "需要帮助？加入我们的Discord服务器： <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (只有英文版)",
 	"published-with": "使用 <a href=\"https://pages.github.com\">GitHub Pages</a> 发布，在 GitHub 上查看 <a href=\"https://github.com/$1\">源码</a> 。",
-	"select-language": "Select language",
-	"source": "Source",
+	"select-language": "选择语言",
+	"source": "源码",
 	"title": "DS-Homebrew Wiki",
-	"toggle-navigation": "Toggle navigation",
-	"translate-here": "Translate here",
-	"translate-on-crowdin": "Translate on Crowdin"
+	"toggle-navigation": "切换导航",
+	"translate-here": "在此翻译",
+	"translate-on-crowdin": "[在 Crowdin 上翻译]"
 }

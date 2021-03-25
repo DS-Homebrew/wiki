@@ -14,7 +14,7 @@ Olvasd el [ezt az útmutatót](https://docs.google.com/document/d/1owjiW-1fHEbok
 
 Most még nem. E helyett Instead, permanensen beinjektálhatod a csalás kódokat a GBA ROM-odba a [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/)-mel.
 
-#### How do I use nightly GBARunner2 builds in TWiLight Menu++?
+#### Hogyan használhatom az esti fordítás GBARunner2 buildeket a TWiLight Menu++-ban?
 
 1. Töltsd le az esti fordítást
 1. Nevezd át `GBARunner2_arm7dldi_3ds.nds` névre (vagy `GBARunner2_arm7dldi_dsi.nds` névre, ha DSi-n vagy)

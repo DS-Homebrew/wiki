@@ -3,21 +3,21 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (Flashcard)
-description: How to install TWiLight Menu++ on a Nintendo DS flashcard
+title: Installering (Flashkort)
+description: Sådan installeres TWiLight Menu++ på et Nintendo DS flashkort
 ---
 
-### Installing
-1. Download the latest version of `TWiLightMenu-Flashcard.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
-1. Copy the `roms` folder to your flashcard's microSD card root
-1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
+### Installation
+1. Download den nyeste version af `TWiLightMenu-Flashcard.7z` fra [udgivelsessiden](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Udpak `TWiLightMenu-Flashcard.7z`
+1. Kopier `_nds` mappen til rodden af dit flashkorts microSD-kort
+1. Kopier `BOOT.NDS` filen til rodden af dit flashkorts microSD-kort
+1. Kopier `roms` mappen til rodden af dit flashkorts microSD-kort
+1. Hvis du allerede har save-data, så flyt din `.sav` filer, som er det samme sted som din DS ROM, til en ny mappe kaldet `saves`, som skal placeres samme sted som dine DS ROMs
 1. ...
-   - **DS Phat / Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as accessing the console's SD card
+   - **DS Phat / Lite brugere:** Hvis du køre `BOOT.NDS` og det medføre en hvid skærm, indsæt en DS Memory Expansion Pak, og prøv igen
+   - **DSi / 3DS brugere:** Kør TWLMenu++ på konsollens SD-kort, og slå `SCFG adgang i Slot-1` til
+      - Dette vil lade dig bruge TWL clock hastighed og/eller VRAM boost på dine flashkort spil, samt adgang til konsollens SD-kort
 
 ### To run games using your flashcard firmware
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card

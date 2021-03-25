@@ -8,16 +8,16 @@ description: Information om hur du använder Wi-Fi på Nintendo DS
 ---
 
 - På Nintendo DS-program kan du bara använda WEP och Open WiFi
-- On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA and WPA2 support
+- På Nintendo DSi förbättrade/exklusiva applikationer så har du tillgång till WPA och WPA2
 
 Hotspots är användbara, så du behöver inte ändra din router-konfiguration.
 
-### Creating a hotspot
+### Att skapa en hotspot
 Det finns guider för att skapa ett hotspot kompatibelt med DS spel på macOS och Linux-datorer på GBAtemp. Om du är på Windows kan du använda en Linux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Nintendo DS WFC restoration
+### Nintendo DS WFC återställning
 1. Starta Nintendo WFC inställningar
 1. Anslut till din åtkomstpunkt
 1. Ange ditt primära DNS-värde som ett av värdena nedan, beroende på vilken tjänst du vill använda:
@@ -42,7 +42,7 @@ Note: Users of GNU/Linux and macOS can follow very similar instructions, but wil
 
 Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
 
-### Troubleshooting and further reading
-If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Felsökning och vidare läsning
+Om du får några fel så kan du ange felkoden i wiimmfi's [troubleshooter](https://wiimmfi.de/error) för att åtgärda det.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+För mer specifik felsökning och information, till exempel hur du ansluter till nätet på emulatorer så kan du läsa denna [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) skriven av medlemmar i [Mario Kart DS Network](https://discord.gg/pa9bea6).

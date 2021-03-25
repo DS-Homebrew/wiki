@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: community
 title: Kezdőlap
-description: Information about the DS-Homebrew community
+description: Információk a DS-Homebrew közösségről
 ---
 
 Itt találhat ingormációkat a közösségünkről, mint például a Discord szerver szabályait. A következő helyekkel rendelkezünk:

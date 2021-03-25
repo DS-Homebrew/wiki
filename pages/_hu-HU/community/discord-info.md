@@ -17,7 +17,7 @@ We specialize in all things related to Nintendo DS(i) modding and homebrew. Here
 
 We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
 
-## Discord Channels
+## Discord csatornák
 We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
 
 - [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server
@@ -46,7 +46,7 @@ For those testing, you must test at least a total of 7 games between GBARunner2 
 
 Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. If we approve, you will gain the Helpers role. You must send at least one message every 4 months to keep it.
 
-### Translators
+### Fordítók
 Wanna translate a project of ours? Give yourself this role so you can stay up to date with the project's translation status. Our translation leader (Evie) will ping when new strings need to be translated.
 
 - TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>

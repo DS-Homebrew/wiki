@@ -1,90 +1,90 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: Info DS⁽ⁱ⁾ Mode Hacking
+description: Informasi mengenai server Discrod DS⁽ⁱ⁾ Mode Hacking
 ---
 
-### Welcome to the <u>DS⁽ⁱ⁾ Mode Hacking</u>!
+### Selamat Datang di <u>DS⁽ⁱ⁾ Mode Hacking</u>!
 
-We specialize in all things related to Nintendo DS(i) modding and homebrew. Here are a few examples of what we can help you do in this server:
+Kami berpakar dalam berbagai hal yang berkaitan dengan modifikasi dan homebrew pada Nintendo DS(i). Berikut beberapa contoh dari apa yang dapat kami bantu di server ini:
 
-- Setting up the best kernel for your flashcart
-- Installing Custom Firmware (CFW) to your Nintendo DSi
-- Helping modify the TWL_FIRM on your Nintendo 3DS (allowing you to use widescreen, changing screen filtering amongst other things)
+- Menyiapkan kernel yang terbaik untuk flashcard-mu
+- Memasang Custom Firmware (CFW) di Nintendo DSi
+- Membantu modifikasi TWL_FIRM di Nintendo 3DS yang kamu punya (agar dapat menggunakan layar lebar, mengubah filter layar dan lain-lainnya)
 
-We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
+Kami juga berfokus terhadap hal lain seperti pembuatan hack ROM, pengembangan (develop) homebrew, dan obrol-obrol biasa.
 
-## Discord Channels
-We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
+## Kanal Discord
+Kami punya beberapa kanal untuk tiap bahasan yang berbeda, jadi pastikan kamu menggunakan kanal yang benar agar yang lain tidak dibanjiri dengan pembahasan yang tidak berhubungan. Kami biasanya membahas yang penting dulu tapi kamu bisa memeriksa ke kanal lain dengan melihat apa bahasan (topik) kanal mereka:
 
-- [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server
-- [#useful-resources][useful-resources] - Need to understand something? Don't know a technical term?  Check here
-- [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Please check the pins, as there might be an explanation there already
-- [#community-meta][community-meta] - This channel is used for talking about the server itself
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed but are still enforced.  Use this to post your memes and stuff
+- [#community-rules][community-rules] - Kanal ini berisi peraturan, isinya menjelaskan patokan (standard) kami tentang cara berkomunikasi di server ini
+- [#useful-resources][useful-resources] - Butuh memahami sesuatu? Tidak tahu istilah-istilah teknis?  Periksa di sini
+- [#nds-modding-help][nds-modding-help] - Ini tempat kamu meminta bantuan tentang apa saja yang berkaitan mengenai Homebrew DS. Mohon periksa dulu di pentul (pins), siapa tahu di sana sudah ada penjelasannya
+- [#community-meta][community-meta] - Kanal ini untuk membincangkan tentang server ini sendiri
+- [#end-of-server][end-of-server] - Ini untuk yang santai, obrolan kurang mutu. Peraturan agak luwes di sini tapi masih diharuskan.  Ke sini saja kalau mengirim meme dan yang lain
 
-We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
+Kami juga ada [#other-nds-homebrew][other-nds-homebrew] untuk homebrew yang tidak ada kanal khusus, [#nds-modding-discussion][nds-modding-discussion] untuk modifikasi (modding) yang tidak berurusan di kanal lain, [#nds-gaming][nds-gaming] untuk tentang DS secara umum, dan [#offtopic][offtopic] untuk bahasan apapun secara umum.
 
-## Roles & User Flairs
-We have several roles you can get on this server, some of them being accessible with just a @Lightning command
+## Peran & Bakat Pengguna
+Kami ada beberapa peran yang bisa didapat di server ini, beberapa dapat diperoleh hanya dengan perintah (command) @Lightning
 
-### Developers
-This role is given to those who have either assisted or led a project for the Nintendo DS scene. While preferable that it'd be open source, it's optional Post the Nintendo DS homebrew application in the channel that works the best (If it doesn't have one, post it in [#other-nds-homebrew][other-nds-homebrew]) and ping a moderator alongside your message.
+### Pengembang (Developer)
+Peran ini diberikan kepada orang yang telah mendampingi atau memimpin proyek untuk scene Nintendo DS. Walaupun lebih baik kalau sumbernya terbuka (open source), tapi tidak harus. Kirim saja aplikasi homebrew Nintendo DS di kanal yang paling sesuai (jika tidak ada, kirim di sini [#other-nds-homebrew][other-nds-homebrew]) dan sentil (ping) juga moderator di samping pesanmu.
 
-Keep in mind that stolen code will not land you the role, and we may deny the request depending on the circumstances
+Mohon diingat kalau memakai kode curian tidak akan membuatmu mendapat peran, dan kami akan menolak tergantung keadaannya
 
-### Artists/Designers
-This role is given to those with an understanding of how art works and have contributed to DS homebrew in a graphical way (for example, a WoodR4 skin or a TWiLight Menu++ subtheme). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
+### Seniman/Perancang
+Peran ini diberikan kepada orang yang punya pemahaman tentang seni gambar dan telah ikut serta pada homebrew DS dalam hal grafis (contohnya, skin WoodR4 atau tema sampingan TWiLight Menu++). Kalau kamu sudah memenuhi persyaratannya, sebut (mention) kami di [#community-meta][community-meta] dengan contoh kerjamu, nanti kami pertimbangkan.
 
-### Helpers
-Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community. As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
+### Penolong (Helper)
+Entah itu orang tepercaya yang kami kirimkan bentukan khusus (special build) untuk dicoba atau seseorang yang biasa menolong di kanal [#nds-modding-help][nds-modding-help], Penolong adalah pengguna (user) yang seharusnya mewakili server sebagai anggota yang bermanfaat di perkumpulan (komunitas). Sebagai tambahan untuk persyaratan kiriman (post) yang harus bermutu tinggi, ada dua cara agar kamu mendapat peran: Pencobaan (Testing) & menolong orang di [#nds-modding-help][nds-modding-help]
 
-For those testing, you must test at least a total of 7 games between GBARunner2 and nds-bootstrap. Check their specific channel topics for links to their compatibility sheet. For those helping, the amount of help you give isn't set in stone. We generally look at how grand your helping is (for example, saying "right click then hit edit" wouldn't help).
+Bagi yang pencobaan, kamu harus mencoba (test) setidaknya 7 permainan antara GBARunner2 dan nds-bootstrap. Periksa bahasan (topik) kanal tertentunya untuk tautan ke lembar kesesuaiannya (compatibility). Bagi yang menolong, banyaknya bantuan yang harus diberikan masih belum pasti. Kami biasanya melihat dari seberapa besar bantuannya (contohnya, mengatakan "tekan kanan terus pilih edit" itu kurang membantu).
 
-Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. If we approve, you will gain the Helpers role. You must send at least one message every 4 months to keep it.
+Ketika sudah memenuhi salah satunya, sebutkan (mention) di [#community-meta][community-meta] dan bilang cara atau metode apa yang kamu pilih. Jika kami setujui, kamu akan mendapat peran Penolong. Kamu harus mengirim setidaknya satu pesan setiap 4 bulan agar perannya dipertahankan.
 
-### Translators
-Wanna translate a project of ours? Give yourself this role so you can stay up to date with the project's translation status. Our translation leader (Evie) will ping when new strings need to be translated.
+### Penerjemah
+Ingin menerjemahkan proyek kami? Coba gunakan peran ini agar kamu mendapat berita terkini mengenai status terjemahan proyek. Ketua penerjemah kami (Evie) akan mengabarkan atau sentil (ping) jika ada kalimat baru yang butuh diterjemahkan.
 
 - TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>
-- dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
-- ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
+- situs jejaring dsi.cfw.guide: <https://crowdin.com/project/dsi-guide>
+- wiki ds-homebrew.com: <https://crowdin.com/project/ds-homebrew-wiki>
 
-This is a toggleable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
+Peran ini dapat dicetik (toggleable), lewat perintah (command) togglerole @Lightning (`!togglerole Translators` di [#end-of-server][end-of-server])
 
-### Game Modders
-This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
+### Pemodifikasi (Modder) Permainan
+Peran ini diberikan bagi yang telah membuat Retasan (Hack) ROM yang lumayan di Nintendo DS, tahu bagaimana cara menambal (patch) berkasnya dan telah mengirim umum ROM hack tersebut di tempat yang tahan lama (seperti GameBanana atau forum modding). Kirim umumkan ROM hack-mu di [#nds-retail-research][nds-retail-research] dan sentil (ping) moderator, nanti kami pertimbangkan retasan ROM-nya.
 
-### Nintendo DS Online Players
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a toggleable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
+### Pemain Daring (Online) Nintendo DS
+Ini peran yg diataskan (hoisted), ditujukan untuk pengguna agar dapat sentil (ping) kalau ada yang ingin main daring permainan Nintendo DS (entah pakai Wimmfi, AltWFC atau layanan lain). Yang sentil besar-besaran (mass ping) akan diblokir. Peran ini dapat dicetik (toggleable), lewat perintah togglerole @Lightning (`!togglerole Nintendo DS Online Players` di [#end-of-server][end-of-server])
 
-### Updates
-You will get pinged in [#announcements][announcements] anytime an update comes out. To access it, type `!togglerole Updates` in [#end-of-server][end-of-server].
+### Perbaruan (Update)
+Kamu akan disentil (pinged) di [#announcements][announcements] setiap kali ada perbaruan keluar. Untuk akses, ketik `!togglerole Updates` di [#end-of-server][end-of-server].
 
-## 🤖 Lightning Commands
-Lightning is a discord bot made by @Frost_ which has useful commands for modding communities, including...
+## 🤖 Perintah (Command) Lightning
+Lightning adalah robot Discord dibuat oleh @Frost_ yang mana mempunyai banyak perintah berguna bagi perkumpulan modifikasi (modding), termasuk...
 
-- `!mod [console] [param2]` - This will allow you to view information on modding consoles, games and so on. param2 could be viewed for more specific information or get a list of homebrew.
-- `!tinydb [search term]` - Lookup 3DS homebrew on TinyDB
-- `!togglerole [role]` - This will toggle the two customizable roles we have: `Updates` and `Nintendo DS Online Players`
+- `!mod [console] [param2]` - Ini membantu kamu melihat informasi tentang memodifikasi konsol, permainan, dan sebagainya. param2 dapat dilihat untuk informasi lebih perinci atau mendapat daftar homebrew.
+- `!tinydb [search term]` - Mencari homebrew 3DS di TinyDB
+- `!togglerole [role]` - Ini akan mencetik dua peran yang dapat diubahsuai (customizable): `Updates` dan `Nintendo DS Online Players`
 
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning-bot.gitlab.io/>
+Ada banyak perintah seru yang dapat kamu ketik juga, tetapi mohon lakukan di server [#end-of-server][end-of-server] saja. Untuk lebih lanjut, coba periksa situsnya: <https://lightning-bot.gitlab.io/>
 
-We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.
+Kami juga menggunakan Lightning untuk tujuan moderasi (mencatat peringatan, mengeluarkan, membisu dan memblokir). Biarkan kotak japri (DM) robot ini terbuka jika saja kami butuh menghubungimu.
 
-## 👑 The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members will be hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
+## 👑 Regu Staf
+Orang-orang ini yang bantu mengurus server. Jika mereka mengatakan sesuatu sudah di penghujung, itu sudah ditentukan. Para anggota di sini akan diataskan (hoisted) di daftar anggota. Sekarang, kami sedang tidak mencari anggota. Jangan meminta-minta jadi anggota regu, nanti malah mengurangi kesempatan akan diterima.
 
 @shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan
 
-## 🚪 Invite Link
-Here are links to our networks.
+## 🚪 Tautan (Link) Undangan
+Berikut tautan ke jaringan (network) kami.
 
-- Discord Server: <https://discord.gg/yD3spjv> (Keep in mind that anything publicly accessible on our server are logged by us and may be logged by others here)
-- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+- Server Discord: <https://discord.gg/yD3spjv> (Mohon diingat kalau apa saja yang dapat diakses secara umum di server kami akan di-log oleh kami dan mungkin dicatat yang lain juga)
+- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (reddit yang lama: [Gelap](https://dm.reddit.com/r/NDSBrew/) --- [Terang](https://old.reddit.com/r/NDSBrew/))
 
 <!-- Discord channel links -->
 [community-rules]: https://discord.com/channels/283769550611152897/718305959914766366

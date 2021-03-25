@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
-section: other
-title: Home
-description: Information about other DS-Homebrew projects
+section: lainnya
+title: Beranda
+description: Informasi mengenai proyek DS-Homebrew lainnya
 ---
 
-This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
+Seksi ini mempunyai informasi tentang proyek DS-Homebrew lainnya yang tidak cukup besar untuk dibuat bagiannya sendiri di wiki.

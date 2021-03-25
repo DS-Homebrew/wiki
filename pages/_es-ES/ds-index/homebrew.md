@@ -11,9 +11,9 @@ description: Acerca del homebrew en la Nintendo DS
 
 A la hora de desarrollar homebrew para Nintendo DS, normalmente se usan las herramientas de devkitPro, como devkitARM, libnds y libfat. Sin embargo, se puede usar software alternativo:
 
-- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). En cambio, nosotros recomendamos [libslim](https://github.com/DS-Homebrew/libslim/), ya que permite el uso de diferentes particiones, mayor velocidad y evitar bloqueos
-- **Graphics libraries:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. Sin embargo, puedes usar [NightFox Lib](https://github.com/knightfox75/nds_nflib)
-- **Entire toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. Sin embargo, si lo que te interesa son las flashcards de Nintendo DS, puedes usar [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **Librerías para la tarjeta SD:** [DevkitPro](https://devkitpro.org/) recomienda [libfat](https://github.com/devkitPro/libfat). En cambio, nosotros recomendamos [libslim](https://github.com/DS-Homebrew/libslim/), ya que permite el uso de diferentes particiones, mayor velocidad y evitar bloqueos
+- **Librerías gráficas:** Recomendamos el uso de [easyGL2D](http://rel.phatcode.net/junk.php?id=117), que viene incluído en libnds. Sin embargo, puedes usar [NightFox Lib](https://github.com/knightfox75/nds_nflib)
+- **Estaciones de trabajo:** Recomendamos [devkitARM](https://devkitpro.org/wiki/Getting_Started) y [libnds](https://libnds.devkitpro.org/), ya que tiene compatibilidad con DSi y un ecosistema más amplio. Sin embargo, si lo que te interesa son las flashcards de Nintendo DS, puedes usar [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
 
 ### Flashcards
 
@@ -27,7 +27,7 @@ Las diversas ranuras para tarjetas SD tienen hardware distinto (la mayoría de l
 
 ### Time bomb
 
-Una time bomb (bomba de tiempo) es una "fecha de caducidad" que los distribuidores meten en el kernel para forzar a los usuarios a comprar una tarjeta nueva. Una vez que el reloj de tu sistema pasa por una fecha concreta, el kernel dejará de arrancar. Por suerte, una flag no se activa en cualquier sitio y esto lo maneja el firmware de la flashcard, así que tenemos dos opciones:
+Una time bomb (bomba de relojería) es una "fecha de caducidad" que los distribuidores meten en el kernel para forzar a los usuarios a comprar una tarjeta nueva. Una vez que el reloj de tu sistema pasa por una fecha concreta, el kernel dejará de arrancar. Por suerte, una flag no se activa en cualquier sitio y esto lo maneja el firmware de la flashcard, así que tenemos dos opciones:
 
 - Como depende del reloj del sistema, puedes simplemente retrasar la fecha. Esto romperá cualquier juego que use el reloj, pero te permitirá usar el kernel de base.
 - Como depende del kernel y no del firmware, puedes cambiar a un kernel alternativo. Hay dos opciones disponibles:
@@ -40,7 +40,7 @@ Personalmente, recomendamos YSMenu (con TWiLight Menu++ si lo prefieres), gracia
 
 Para saber si tu flashcard tiene una time bomb, pon la fecha de la consola al máximo y lanza la flashcard.
 
-### ARGV support
+### Soporte ARGV
 El ARGV es un transmisor de información entre dos aplicaciones homebrew de Nintendo DS. Puede usarse con forwarders o menús alternativos.
 
 - El homebrew tiene que ser programado para poder sacarle provecho. Por ejemplo, GBARunner2, NesDS y GameYob tienen ARGV implementado

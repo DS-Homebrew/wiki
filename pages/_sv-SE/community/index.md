@@ -3,7 +3,7 @@ lang: sv-SE
 layout: wiki
 section: community
 title: Hem
-description: Information about the DS-Homebrew community
+description: Information om andra DS-Homebrew communityn
 ---
 
 Här hittar du information om vår community, till exempel reglerna för vår Discord-server. Vi har följande platser:

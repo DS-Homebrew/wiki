@@ -92,21 +92,21 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/nds-bootstrap.ini`
 {% assign tab-sd-card = tab-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
-1. Download one of these packs:
+1. Töltsd le valamelyikét az alábbi csomagoknak:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
-   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
+   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC frissítés / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
+1. Csomagold ki a `for Slot-1 microSD` mappa tartalmát a flashcard microSD kártyájának gyökerébe, (és ha a mappa létezik) a `for 3DS SD card` mappa tartalmát a 3DS SD kártyájának gyökerébe.
 
-After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
-- `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
-- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
-- `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini` fájlt. Ez nem lehetséges Acekard RPG, R4 DS és R4i Gold RTS esetén.
+- `NTRCLOCK`: Ha `0` van beállítva, vagy <kbd class="face">A</kbd> van nyomva tartva, a DSi boot képernyő jelenik meg a normál DS kezdőképernyő helyett, és TWL órajel sebesség kerül beállításra, így a lag-ok megszűnnek
+- `DISABLEANIMATION`: Ha `1` van beállítva, vagy <kbd class="face">B</kbd> van nyomva tartva, akkor a DS / DSi boot képernyő átugrásra kerül
+- `HEALTHSAFETYMSG`: Ha `1` van beállítva, a boot képernyő "health and safety" üzenete megjelenik az alsó képernyőn, egyébként az alsó képernyő fehér marad "health and safety" üzenet nélkül
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
@@ -114,24 +114,24 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 {% include tabs.html index=0 tabs=tabs %}
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
-If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. In the 7z file, go to `_nds/TWiLightMenu/`
-1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
+1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. A 7z fájlban menj az `_nds/TWiLightMenu/` könyvtárba
+1. Másold az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába az 3DS-ed SD kártyájára
 
 ### 3. rész: Forwarder3-DS
-1. Open `Forwarder3DS.jar`
-   - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
-1. Set your card as the `Target` on the left
-   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
-1. Enable `Automatically set ROM path`
-   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
-   - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
-1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
-   - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
-   - **SD card users:** If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
-1. If you're playing a hack / translation of a DSi-Enhanced game that has it's banner / title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
-1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
-1. Click the floppy disk button to generate the forwarder CIA(s)
-1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-   - If using EmuNAND, install to both SysNAND and EmuNAND
+1. Nyisd meg a `Forwarder3DS.jar`-t
+   - **Windows felhasználók:** ha nem nyílik meg, töltsd le ezt a [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat)-ot, rakd a Forwarder3DS.jar-ral egy könyvtárba, majd futtasd
+1. Állítsd be a kártyád, mint `Target` a bal oldalon
+   - **MEGJEGYZÉS:** Ha nem látod a kártyák listáját, töltsd le [ez a zip fájlt](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), és rakd a `forwarders` mappát ugyanabba a mappába, ahol a Forwarder3DS.jar található, majd nevezd át `.forwarders` névre
+1. Kapcsold be az `Automatically set ROM path` opciót
+   - **Linux felhasználók:** Az automatikus útvonal hibás, mert tartalmazza a teljes útvonalat (pl. `/media/$USER/something/`), kérjük távolítsd el azt a részt
+   - **MacOS felhasználók:** Az automatikus útvonal hibás, mert tartalmazza `/Volumes/(cardname)/` részt az elején, kérjük távolítsd el azt a részt
+1. Kattints a mappára jobb oldalt felül, majd válaszd ki a ROM-okat, amikhez forwareder-t szeretnél, és húzd rá őket az ablakra
+   - **MEGJEGYZÉS:** A ROM-oknak már az SD kártyádon kell lenniük, amikor kiválasztod, és nem mozgathatók a forwarderek újra létrehozása nélkül
+   - **SD kártya felhasználók:** Ha a mentés fájlod ugyanabban a mappában van, mint a ROM, mozgasd egy `saves` mappába, ahol a `saves` mappa, ami mappa ugyanott van, mint ahol a ROM-ok
+1. Ha egy DSi-Enhanced játék hack-et / fordítást játszol és aminek a banner-e és címe szerkesztett, keresd meg a játék bannerját [itt](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kattints jobb gombbal a játékon a Forwarder3-DS-ben, majd kattints az `Import banner`-ra, és válaszd ki a banner-t ami használni szeretnél
+1. Ha homebrew ROM-ot használsz, kattintsd rá, majd töröld a `Game title` mezőt, és írd be a játék címét
+1. Kattints a floppy lemez gombra, hogy létrehozd a forwarder CIA fájl(oka)t
+1. Másold a CIA fál(oka)t a 3DS-ed SD kártyájára, majd telepítsd őket az FBI alkalmazással
+   - Ha EmuNAND használsz, telepítsd a SysNAND-ot és az EmuNAND-ot

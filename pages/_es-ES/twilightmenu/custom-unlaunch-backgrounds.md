@@ -35,7 +35,7 @@ Al cargarse la paleta del GIF en el mismo sitio de la VRAM que la paleta de los 
 1. Si el GIF es demasiado grande, usa [gifsicle](http://www.lcdf.org/gifsicle/) o [ezgif.com](https://ezgif.com/optimize) para optimizarlo
    - Estas instrucciones son para ezgif al ser una página web y más simple
 1. Abre https://ezgif.com/optimize y sube tu GIF
-1. Try different compression levels until you find the best one under 15,472 bytes (15.11 KiB), ideally a bit under as GIMP may increase the size a bit
+1. Prueba distintos niveles de compresión hasta que encuentres el mejor menor de 15,472 bytes (15.11 KiB), preferiblemente un poco más bajo ya que GIMP puede aumentar su tamaño
 1. Guarda el GIF optimizado y ábrelo en GIMP
 1. En la barra superior del menú, selecciona `Windows` -> `Dockable Dialogs` -> `Colormap`
 1. Cambia `Foreground color` a #080808 y añade 14 colores nuevos con el botón `+`

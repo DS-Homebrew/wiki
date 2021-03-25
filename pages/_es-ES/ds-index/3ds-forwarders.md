@@ -3,11 +3,11 @@ lang: es-ES
 layout: wiki
 section: ds-index
 category: guides
-title: DS Game Forwarders (3DS)
+title: Accesos directos a juegos de DS (3DS)
 description: Cómo crear accesos directos CIA para tener tus juegos de DS en el menú principal de 3DS
 tabs:
   - 
-    tab-sd-card: SD card
+    tab-sd-card: Tarjeta SD
     tab-flashcard: Flashcard
 ---
 
@@ -33,8 +33,8 @@ Compatibles:
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses < 2 GB microSD card)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses < 2 GB microSD card)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (usa una microSD de < 2 GB)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (versión original Non-SDHC, usa una microSD de < 2 GB)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -60,7 +60,7 @@ Compatibles parcialmente:
 Incompatibles:
 - CycloDS (i)Evolution (Puede lanzar ROMs directamente, pero funciona de forma distinta que otras flashcards.)
 - (i)Edge (No puede lanzar directamente ROMs .nds)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (no el fordwarder) brickea el cartucho)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
@@ -80,19 +80,19 @@ PC:
 - Java 8 Update 251
 - **Usuarios de Linux:** JavaFX. En sistemas basados en Debian ejecuta [esto](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), o si estás en Arch esto: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
-### Part 1: Getting started
+### Parte 1: Preparación
 {% capture tab-sd-card %}
 1. Descarga el [pack de forwarders de la tarjeta SD](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
 1. Extrae el contenido de la carpeta `for SD card root` en la raíz de la SD de tu 3DS
 
 Tras extraer el pack, puedes editar `sd:/_nds/nds-bootstrap.ini` y cambiar la configuración:
 - `BOOST_CPU`: Puesto a 1, se usa la velocidad de reloj de TWL, por lo que el lag desaparece
-- `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
+- `SOUND_FREQ`: Puesto a 1, el sonido estará a 48 kHz en vez de a 32 kHz
 {% endcapture%}
 {% assign tab-sd-card = tab-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
-1. Download one of these packs:
+1. Descarga uno de estos packs:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
@@ -101,12 +101,12 @@ Tras extraer el pack, puedes editar `sd:/_nds/nds-bootstrap.ini` y cambiar la co
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
+1. Extrae el contenido de la carpeta `for Slot-1 microSD` en la raíz de la tarjeta microSD de tu flashcard, y (si existe la carpeta) el contenido de la carpeta `for 3DS SD card` en la raíz de la SD de tu 3DS.
 
-After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
-- `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
-- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
-- `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+Tras extraer el pack para tu tarjeta, puedes editar `sd:/_nds/nds-bootstrap.ini` y cambiar la configuración. Esto no es posible para Acekard RPG, R4 DS, y R4i Gold RTS.
+- `NTRCLOCK`: Puesto a `0` o manteniendo <kbd class="face">A</kbd>, la pantalla inicial de DSi aparecerá en vez de la de DS y se usará la velocidad de reloj de TWL, por lo que el lag desaparece
+- `DISABLEANIMATION`: Puesto a `1` o manteniendo <kbd class="face">B</kbd>, se salta la pantalla de inicio de DS / DSi
+- `HEALTHSAFETYMSG`: Puesto a `1`, El mensaje sobre Salud y Seguridad de la pantalla de inicio aparecerá en la pantalla inferior, y en caso contrario la pantalla estará en blanco
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
@@ -114,24 +114,24 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Parte 2: Obtener los archivos AP de TWiLight Menu++
-If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. In the 7z file, go to `_nds/TWiLightMenu/`
-1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+Si ya tienes TWiLight Menu++, salta a la siguiente sección.
+1. Descarga la última versión de `TWiLightMenu-3DS.7z` desde la [página de lanzamientos](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. En el archivo 7z, ve a `_nds/TWiLightMenu/`
+1. Copia la carpeta `apfix` a `sd:/_nds/ntr-forwarder/` en la tarjeta SD de la 3DS
 
 ### Parte 3: Forwarder3-DS
-1. Open `Forwarder3DS.jar`
-   - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
-1. Set your card as the `Target` on the left
-   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
-1. Enable `Automatically set ROM path`
-   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
-   - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
-1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
-   - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
-   - **SD card users:** If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
-1. If you're playing a hack / translation of a DSi-Enhanced game that has it's banner / title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
-1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
-1. Click the floppy disk button to generate the forwarder CIA(s)
-1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-   - If using EmuNAND, install to both SysNAND and EmuNAND
+1. Abre `Forwarder3DS.jar`
+   - **Usuarios de Windows:** Si no se abre, descarga [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), guárdalo en la misma carpeta que Forwarder3DS.jar y ejecútalo
+1. Elige tu tarjeta como `Target` en la izquierda
+   - **NOTA:** Si no ves una lista de tarjetas, descarga [este zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip) y pon la carpeta `forwarders` en la misma que Forwarder3DS.jar, después renómbrala a `.forwarders`
+1. Activa `Automatically set ROM path`
+   - **Usuarios de Linux:** La ruta automática es incorrecta ya que incluye toda la ruta (p.ej. `/media/$USER/algo/`), quita esa parte
+   - **Usuarios de macOS:** La ruta automática es incorrecta ya que incluye `/Volumes/(nombre tarjeta)/` al principio, quita esa parte
+1. Pincha la carpeta en la parte superior derecha y selecciona las ROMs de las que quieres crear accesos directos o arrástralas a la ventana
+   - **NOTA:** Las ROMs deben encontrarse en la tarjeta SD cuando las selecciones, y no podrán moverse sin tener que volver a hacer los accesos directos
+   - **Usuarios tarjetas SD:** Si el archivo de guardado se encuentra en la misma carpeta que la ROM, muévela a una nueva llamada `saves` en la misma carpeta que las ROMs
+1. Si estás jugando un hack / traducción de un juego DSi-Enhanced que tiene editado su banner / título, busca su banner [aquí](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), haz click derecho al juego en Forwarder3-DS, pincha `Import banner` y selecciona el banner a usar
+1. Si se trata de una ROM homebrew, pincha en ella, borra el `Game title` y escribe el nombre del juego
+1. Pincha en el botón del disquete para generar los CIAs
+1. Copia los CIAs en la SD de la 3DS e instálalos con FBI
+   - Si estás usando EmuNAND, instálalos en ambas SysNAND y EmuNAND

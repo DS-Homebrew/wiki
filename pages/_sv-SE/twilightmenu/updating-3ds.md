@@ -8,7 +8,7 @@ description: Hur man uppdaterar TWiLight Menu+ + på Nintendo 3DS
 tabs:
   - 
     universal-updater: Universal-Updater
-    manual: Manual
+    manual: Manuell
 ---
 
 Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sav` filer för DS spel till en ny mapp som heter `saves`. Se till att `saves` mappen är på samma plats som DS roms.
@@ -24,12 +24,12 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Ladda ner den senaste versionen av `TWiLightMenu-3DS.7z` från [releases sidan](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Extrahera `TWiLightMenu-3DS.7z`
+1. Kopiera mappen `_nds` till ditt SD-korts rot
+1. Kopiera filen `BOOT.NDS` till din SD-korts rot
+1. Kopiera de två `.cia` filerna till ditt SD-korts rot
+1. På din 3DS, installera de två CIA filerna med FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
@@ -40,8 +40,8 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 
 ### Fler steg för minneskort
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Om du kan växla mellan innehållet av SD och minneskort i TWLMenu++, och om minneskortets TWLMenu++ är på v16.3.0 eller senare, följ dessa steg.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Gå till TWLMenu++ inställningar
+1. Välj `Uppdatera TWiLight Menu++`
+1. Välj `Konsolens (micro)SD > Slot-1 microSD`
