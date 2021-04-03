@@ -7,7 +7,7 @@ title: Játék széles képenyőn
 description: A TWiLight Menu++ széles képernyős használata Nintendo 3DS-en
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+Nintendo 2DS vagy 3DS konzolt igényel.
 {:.alert .alert-info}
 
 ### Előkészítés

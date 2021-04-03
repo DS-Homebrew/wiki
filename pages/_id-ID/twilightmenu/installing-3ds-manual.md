@@ -1,7 +1,7 @@
 ---
-lang: en-US
+lang: id-ID
 layout: redirect
 destination: installing-3ds?tab=manual
-title: Installing (3DS, Manual)
+title: Pemasangan (3DS, Manual)
 ---
 

@@ -83,7 +83,7 @@ PC:
 ### Part 1: Getting started
 {% capture tab-sd-card %}
 1. Scarica il pacchetto [scorciatoia della scheda SD](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Estrae il contenuto della cartella `per la scheda SD` nella directory principale della scheda SD del tuo 3DS
+1. Estrae il contenuto della cartella `for SD card root` nella directory principale della scheda SD del tuo 3DS
 
 Dopo aver estratto il pacchetto, è possibile modificare `sd:/_nds/nds-bootstrap.ini` e modificare le impostazioni:
 - `BOOST_CPU`: Se impostata a 1, viene utilizzata la velocità TWL, quindi non ci dovrebbero essere rallentamenti

@@ -27,12 +27,12 @@ Ljudeffektbanken innehåller ljudeffekter som spelas när du väljer ikoner, etc
 
 Du kan sedan köra `make` för att skapa ljudeffektbanken. Alla filer som anges ovan, förutom *bgm.pcm.raw* krävs, men du kan göra dem tysta.
 
-Your resulting *sfx.bin* **must be under 512000B = 512 kB**. Större filer kommer att resultera i antingen kraschar eller några ljud som inte spelar helt.
+Din resulterande *sfx.bin* **måste vara under 512000B = 512 Kb**. Större filer kommer att resultera i antingen kraschar eller några ljud som inte spelar helt.
 
 ### Uppstartsljud
 Medan de andra ljudeffekterna kommer att fungera med någon WAV-fil, uppstartsljudet måste vara i ett visst format för att fungera korrekt, annars kommer det att finnas en lucka mellan när uppstartsljudet stannar och bakgrundsmusiken börjar.
 
-The startup.wav file must be **16-bit 16 kHz**. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
+Startup.wav filen måste vara **16-bitars 16 kHz**. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
 
 Om din fil är i Stereo, bör du också gå till **Tracks > Mix > Mix Stereo down to Mono**.
 
@@ -41,7 +41,7 @@ Du måste ange `PlayStartupJingle=1` i ditt `theme.ini` för att uppstartsjingel
 
 ## Meny BGM
 
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
+Meny BGM måste vara en **16-bitars 16 kHz Mono** rå PCM-fil. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
 
 Om din fil är i Stereo, bör du också gå till **Tracks > Mix > Mix Stereo down to Mono**.
 

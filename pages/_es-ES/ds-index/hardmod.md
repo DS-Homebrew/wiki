@@ -65,10 +65,10 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Abre HxD y arrastra ambos archivos al editor. Ve a la barra superior, pincha "Analysis", pincha "File compare" en el menú desplegable y pincha en "Compare".
 1. Elige comparar los archivos y pincha OK cuando termine
    - Si dice "The chosen files are identical.", ve a la siguiente sección
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
+   - Si no es el caso, y ambas NANDs no tienen cerca de 240 MB, vuelca las NAND_1 y NAND_0 de nuevo
 1. Abre Win32DiskImager, pincha en el icono de la carpeta y selecciona la copia de la NAND que has creado antes
 1. Flashéala con el botón `Write`
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Extrae el adaptador de tarjetas SD y prueba a encender la DSi
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -114,10 +114,10 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
       - Reemplaza `{existing-nand-backup}` con la ubicación y el nombre de tu copia antigua de la NAND
       - Reemplaza `{device-name}` con el punto de montaje de la tarjeta SD
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+Ya puedes extraer el adaptador de tarjetas SD y encender la consola. Si todo ha ido bien, la DSi debería encenderse en el mismo estado que cuando hiciste la copia.
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### Flashear la copia de la NAND
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

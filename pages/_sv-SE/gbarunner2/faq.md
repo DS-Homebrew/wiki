@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: gbarunner2
 title: FAQ & Felsökning
@@ -14,12 +14,12 @@ Du kan läsa och följa [denna guide](https://docs.google.com/document/d/1owjiW-
 
 Inte just nu. Istället kan du permanent injektera fuskkoder i din GBA ROM med [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
-#### How do I use nightly GBARunner2 builds in TWiLight Menu++?
+#### Hur använder jag nattliga GBARunner2 bygg i TWiLight Menu++?
 
 1. Ladda ner det nattliga bygget
 1. Byt namn till `GBARunner2_arm7dldi_3ds.nds` (eller `GBARunner2_arm7dldi_dsi.nds` om du är på DSi)
 1. Placera den i `sd:_nds`
 
-#### How do I use Wi-Fi link features?
+#### Hur använder jag funktioner för Wi-Fi Link?
 
 Du behöver en version från [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branchen för att använda funktionerna. Du kan hitta detaljerade instruktioner om hur du ställer in byggen på dess [GBATemp Wiki sida](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

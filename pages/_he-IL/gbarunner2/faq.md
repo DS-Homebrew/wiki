@@ -1,25 +1,25 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: gbarunner2
-title: FAQ & Troubleshooting
-description: FAQs and troubleshooting for GBARunner2
+title: שאלות ותשובות & פתרון בעיות
+description: שאלות ותשובות ופתרון בעיות עבור GBARunner2
 ---
 
-#### How do I create and add custom borders?
+#### איך אני יוצר ומוסיף מסגרות מותאמות אישית?
 
-You can read and follow [this guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) by FrescoASF.
+תוכלו לקרוא ולעקוב אחר [המדריך הזה](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) שנכתב על ידי FrescoASF.
 
-#### Are cheats supported?
+#### האם צ'יטים נתמכים?
 
-Not right now. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
+כרגע לא. במקום זאת, ניתן להזריק באופן קבוע ציטים לתוך הROM של המשחק GBA שלכם באמצעות [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
-#### How do I use nightly GBARunner2 builds in TWiLight Menu++?
+#### איך אני משתמש בגרסה הnightly של GBARunner2 בTWiLight Menu++?
 
-1. Download the nightly build
-1. Rename it to `GBARunner2_arm7dldi_3ds.nds` (or `GBARunner2_arm7dldi_dsi.nds` if you're on DSi)
-1. Place it in `sd:_nds`
+1. הורידו את הגרסה הnightly
+1. שנו את שמה ל`GBARunner2_arm7dldi_3ds.nds` (או ל`GBARunner2_arm7dldi_dsi.nds` אם אתם משתמשים בDSi)
+1. שימו אותה ב`sd:_nds`
 
-#### How do I use Wi-Fi link features?
+#### איך אני משתמש באפשרויות של הWi-Fi link?
 
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBATemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+תצטרכו את הגרסה מהבראנץ של [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) בשביל להשתמש באפשרויות אלו. ניתן למצוא הנחיות מפורטות לגבי התקנה הגרסאות האלו ב[ בעמוד של GBATemp Wiki](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

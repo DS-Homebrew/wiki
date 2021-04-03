@@ -24,12 +24,12 @@ Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` D
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Download the latest version of `TWiLightMenu-3DS.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
+1. Másold az `_nds` mappát a microSD kártyád gyökerébe
+1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
+1. Másold a két `.cia` fájlt a microSD kártyád gyökerébe
+1. A 3DS-eden telepítsd a két CIA fájlt az FBI-jal
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
@@ -40,8 +40,8 @@ Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` D
 
 ### További lépések a flashcard oldalán
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Ha tudsz váltani az SD és flashcard tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Menj a TWLMenu++ Beállítások-ba
+1. Válaszd a `TWiLight Menu++ frissítése` opciót
+1. Válaszd a `Konzol (micro)SD > Slot-1 microSD` opciót

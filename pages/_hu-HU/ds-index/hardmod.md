@@ -68,7 +68,7 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
    - Ha nem mondja ezt, és egyik NAND sem 240 MB, akkor dumpold újra NAND_1/NAND_0-t
 1. Nyisd meg a Win32DiskImager-t, kattints a mappa ikonra és válaszd ki a meglévő NAND mentésedet, amit korábban csináltál
 1. Flasheld `Write` gombbal
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Húzd ki az SD kártya adaptert, és próbáld meg bekapcsolni a DSi-t
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -114,10 +114,10 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
       - Cseréld az `{existing-nand-backup}` részt a helyére és a nevére a NAND mentésednek
       - Cseréld a `{device-name}` részt az SD kártya csatolási pontjára
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+Ezen a ponton kihúzhatod az SD kártya adapter, és megpróbálhatod bekapcsolni a DSi-t. Ha minden rendben ment a DSi-nek be kell bootolnia abba az állapotba, amin a mentés készült!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### NAND mentés flashelése
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

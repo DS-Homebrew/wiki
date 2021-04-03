@@ -3,7 +3,7 @@ lang: es-ES
 layout: wiki
 section: otros
 title: Inicio
-description: Information about other DS-Homebrew projects
+description: Acerca de otros proyectos de DS-Homebrew
 ---
 
 Esta sección contiene información sobre otros proyectos de DS-Homebrew que no son lo suficientemente grandes como para usar una sección completa de la wiki.

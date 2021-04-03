@@ -1,131 +1,131 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to Create DSi / 3DS Skins
-description: How to make custom DSi and 3DS skins for TWiLight Menu++
+title: Hur man skapar utseenden för DSi / 3DS
+description: Hur man gör anpassade DSi och 3DS utseenden för TWiLight Menu++
 ---
 
-The easiest way of customizing a theme is by editing the png textures in a theme's `ui`, `battery`, and/or `volume` folders. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+Det enklaste sättet att anpassa ett tema är genom att redigera png texturerna i ett temas `ui`m `battery`, och/eller `volume` mappar. Dessa filer kan vara vilken png som helst med en mindre varning i att endast pixlar som är 100% transparenta kommer att göras transparent, någon annan opacitet kommer att dras som helt ogenomskinlig. Även vilken del som helst som är transparent i en uppsättning (ex. alla batteriikoner) bör vara transparent i alla eftersom transparenta pixlar helt enkelt hoppas över i stället för att återgå till bakgrunden, Så vilken del som helst som är transparent i bara vissa bör ha bakgrundstextur snarare än genomskinlighet. Dessa texturer är tillåtna att variera i storlek, men kan kräva tweaking av temakonfigurationen för att renderas korrekt (se nedan).
 
-Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
+Förändringar i paletterade texturer är mer involverade. Inom temarnas mappar `grit` och `background_grit` kan de olika bildfilerna redigeras. Du kommer också att behöva [devkitPros toolchains](https://devkitpro.org) med GRIT installerat. När du har redigerat dina filer måste du köra
 ```bash
 $ make
 ```
-in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the [advanced theming](#advanced-theming) section below.
+för att sammanställa dina teman till Grit RIFF Format. Detta kommer att sammanställa dina palettade texturer till **.grf**-format i mappen `grf`. Gör inte ändringar i `.grit` filerna förrän du har läst avsnittet [Avancerat tema](#advanced-theming) nedan.
 
-Be aware the paletted textures come with more restrictions than BMP textures, the primary being an absolute maximum of 16 colors per texture. However, some textures may have even tighter default palette restrictions, which can be modified at the risk of running out of palette memory (see below).
+Var medveten att paletterade texturer kommer med fler restriktioner än BMP-texturer, det primära är ett absolut maximum av 16 färger per textur. Dock kan vissa texturer ha ännu hårdare palett begränsningar, som kan modifieras med risk för att få slut på palettminne (se nedan).
 
-The example themes are in the [`romsel_dsimenutheme/resources/dsimenu_theme_examples` folder](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) in TWiLight Menu++'s repository. To download them, [download the repository](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) or clone it with git, then find that folder.
+Exempelteman finns i [`romsel_dsimenutheme/resources/dsimenu_theme_examples` mappen](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) i TWiLight Menu++'s arkiv. För att ladda ner dem, [ladda ner utvecklingskatalogen](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) eller klona den med git, sedan hitta den mappen.
 
-## Theme file descriptions
+## Filbeskrivningar
 
-The `volume` and `battery` textures are self explanatory.
+`volume` och `battery` texturer är självförklarande.
 
-### Background textures (`background_grit` folder)
+### Bakgrundstexturer (`background_grit` mapp)
 
-| Texture            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| bottom             | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble      | The bottom background texture when hovering over an icon                                          |
-| bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
-| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top                | The top background                                                                                |
+| Textur             | Beskrivning                                                                              |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| bottom             | Den nedre bakgrundstexturen när du inte svävar över en ikon                              |
+| bottom_bubble      | Den nedre bakgrundstexturen när du svävar över en ikon                                   |
+| bottom_ds          | För 3DS temat, den nedre bakgrundstexturen när du inte svävar över en ikon på en DS lite |
+| bottom_bubble_ds | För 3DS temat, den nedre bakgrundstexturen när du svävar över en ikon på en DS lite      |
+| top                | Den övre bakgrunden                                                                      |
 
-### Paletted textures (`grit` folder)
+### Paletterade texturer (`grit` mapp)
 
-| Texture       | Description                                                                                     | Palette Restrictions (if less than 16)                          |
-| ------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                   |                                                                 |
-| box           | The box texture, containing both full and empty textures (DSi Theme)                            |                                                                 |
-| box_empty     | The texture displayed for an empty box (3DS Theme)                                              | On the 3DS theme, the transparent color is `#E0DAD9` by default |
-| box_full      | The texture displayed for a box with an icon (3DS Theme)                                        | On the 3DS theme, the transparent color is `#E0DAD9` by default |
-| brace         | The brace texture shown past the first and last icon (DSi Theme)                                | 4 Colors                                                        |
-| bubble        | The bottom bit of the bubble that draws over the start border or icon box                       | 8 Colors                                                        |
-| button_arrow  | The textures for the arrows on either side of bottom scrollbar (DSi Theme)                      |                                                                 |
-| cornerbutton  | The buttons that are displayed on the SELECT menu (DSi Theme) (The name is based on an old use) |                                                                 |
-| cursor        | The border with animation frames that indicate the selected icon (3DS Theme)                    |                                                                 |
-| dialogbox     | The background of the dialog box that slides down                                               |                                                                 |
-| folder        | The icon for folders                                                                            |                                                                 |
-| icon_gb       | The icon for Game Boy games                                                                     |                                                                 |
-| icon_gba      | The icon for GBA games (All themes) and the top icon to launch GBARunner2 (3DS Theme)           | The default transparent color is `#00FF00`                      |
-| icon_gbamode  | The icon for native GBA Mode                                                                    |                                                                 |
-| icon_gg       | The icon for Game Gear games                                                                    |                                                                 |
-| icon_manual   | The icon for the manual                                                                         |                                                                 |
-| icon_md       | The icon for Mega Drive games                                                                   |                                                                 |
-| icon_nes      | The icon for NES games                                                                          |                                                                 |
-| icon_plg      | The icon for DSTWO plugins                                                                      |                                                                 |
-| icon_settings | The icon for Nintendo DSi Settings                                                              |                                                                 |
-| icon_sms      | The icon for Sega Master System games                                                           |                                                                 |
-| icon_snes     | The icon for SNES games                                                                         |                                                                 |
-| icon_unk      | The icon displayed when a game is missing an icon                                               |                                                                 |
-| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                          |                                                                 |
-| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                      |                                                                 |
-| progress      | The progress loading animation with 8 frames                                                    | 9 Colors                                                        |
-| scroll_window | The part of the scrollbar that indicates the icons that are in view                             | 7 Colors                                                        |
-| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)                |                                                                 |
-| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                   |                                                                 |
-| start_text    | The text displayed on the start border (DSi Theme)                                              | 4 Colors                                                        |
-| wirelessicons | The icons displayed to indicate a game has wireless support                                     | 7 Colors                                                        |
+| Textur        | Beskrivning                                                                                 | Palettbegränsningar (om mindre än 16)                      |
+| ------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| bips          | Plupparna som visas på botten av rullningsfältet (DSi Temat)                                |                                                            |
+| box           | Lådtexturen, som innehåller både fullständiga och tomma texturer (DSi Temat)                |                                                            |
+| box_empty     | Texturen som visas för en tom låda (3DS Temat)                                              | På 3DS temat är den transparenta färgen vanligen `#E0DAD9` |
+| box_full      | Texturen som visas för en låda med en ikon (3DS Temat)                                      | På 3DS temat är den transparenta färgen vanligen `#E0DAD9` |
+| brace         | Texturen som visas före den första och sista ikonen (DSi Temat)                             | 4 Färger                                                   |
+| bubble        | Den nedre delen av bubblan som drar över startgränsen eller ikonrutan                       | 8 Färger                                                   |
+| button_arrow  | Strukturerna för pilarna på vardera sida av nedre rullningsfältet (DSi Temat)               |                                                            |
+| cornerbutton  | Knapparna som visas på SELECT menyn (DSi Temat) (Namnet är baserat på en gammal användning) |                                                            |
+| cursor        | Gränsen med animationsramar som indikerar den valda ikonen (3DS Temat)                      |                                                            |
+| dialogbox     | Bakgrunden till dialogrutan som glider ner                                                  |                                                            |
+| folder        | Ikonen för mappar                                                                           |                                                            |
+| icon_gb       | Ikonen för Game Boy spel                                                                    |                                                            |
+| icon_gba      | Ikonen för GBA-spel (Alla teman) och toppikonen för att starta GBARunner2 (3DS Temat)       | Standard transparent färg är `#00FF00`                     |
+| icon_gbamode  | Ikonen för inbyggt GBA-läge                                                                 |                                                            |
+| icon_gg       | Ikonen för Game Gear spel                                                                   |                                                            |
+| icon_manual   | Ikonen för manualen                                                                         |                                                            |
+| icon_md       | Ikonen för Mega Drive-spel                                                                  |                                                            |
+| icon_nes      | Ikonen för NES-spel                                                                         |                                                            |
+| icon_plg      | Ikonen för DSTWO plugin                                                                     |                                                            |
+| icon_settings | Ikonen för Nintendo DSi inställningar                                                       |                                                            |
+| icon_sms      | Ikonen för Sega Master System spel                                                          |                                                            |
+| icon_snes     | Ikonen för SNES-spel                                                                        |                                                            |
+| icon_unk      | Ikonen som visas när ett spel saknar en ikon                                                |                                                            |
+| launch_dot    | Punkterna som visas när ett spel startas (DSi Temat)                                        |                                                            |
+| moving_arrow  | Pilen som visas när ett spel flyttas (DSi Temat)                                            |                                                            |
+| progress      | Laddningsanimationen med 8 frames                                                           | 9 Färger                                                   |
+| scroll_window | Den del av rullningsfältet som visar de ikoner som är i sikte                               | 7 Färger                                                   |
+| small_cart    | Ikonerna som visas längs toppen (3DS Temat) och i SELECT menyn (DSi Temat)                  |                                                            |
+| start_border  | Gränsen med animationer som indikerar den valda ikonen (3DS Temat)                          |                                                            |
+| start_text    | Texten som visas på starten (DSi Temat)                                                     | 4 Färger                                                   |
+| wirelessicons | Ikonerna som visas för att indikera ett spel har trådlöst stöd                              | 7 Färger                                                   |
 
-### UI textures (`ui` folder)
+### UI texturer (`ui` mapp)
 
-| Texture          | Description                                             |
-| ---------------- | ------------------------------------------------------- |
-| date_time_font | The font to display the date and time                   |
-| Lshoulder        | The left shoulder                                       |
-| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
-| Rshoulder        | The right shoulder                                      |
-| Rshoulder_greyed | The right shoulder when there are no pages to the right |
+| Textur           | Beskrivning                                                   |
+| ---------------- | ------------------------------------------------------------- |
+| date_time_font | Teckensnittet för att visa datum och tid                      |
+| Lshoulder        | Den vänstra axeln                                             |
+| Lshoulder_greyed | Den vänstra axeln när det inte finns några sidor till vänster |
+| Rshoulder        | Den högra axeln                                               |
+| Rshoulder_greyed | Den högra axeln när det inte finns några sidor till vänster   |
 
-### Video texture (`video` folder)
+### Video texturer (`video` mapp)
 
-`3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
+`3dsRotatingCubes.rvid` är en Rocket Video-fil. För mer information om att konvertera videor till rvid, läs [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) på Vid2RVID wiki. Om du inte vill ha med det så kan du bara ta bort den.
 
-## Theme configuration
+## Temakonfiguration
 
-You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures.
+Du kan konfigurera olika alternativ för hur temat renderas i `theme.ini` för att rymma större sprites eller texturer.
 
-| Value                    | Description                                                                                                  | Default (3DS) | Default (DSi) |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------- |
-| `StartBorderRenderY`     | The initial Y position of the Start Border                                                                   | 92            | 81            |
-| `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32            | 32            |
-| `StartBorderSpriteH`     | The height of the start border sprite                                                                        | 64            | 80            |
-| `TitleboxRenderY`        | The initial Y position of the title text drawn                                                               | 96            | 85            |
-| `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98            | 80            |
-| `BubbleTipRenderX`       | The X position of the tip of the bubble that is drawn over the start border                                  | 125           | 22            |
-| `BubbleTipSpriteH`       | The height of the bubble tip sprite                                                                          | 7             | 8             |
-| `BubbleTipSpriteW`       | The width of the bubble tip sprite                                                                           | 7             | 11            |
-| `RotatingCubesRenderY`   | The Y position on the top screen to draw the rotating cubes                                                  | 78            | N/A           |
-| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172           |
-| `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
-| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
-| `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
-| `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 16            | 16            |
-| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
-| `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
-| `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0             | 1             |
-| `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        | N/A           | 1             |
-| `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      | N/A           | 1             |
-| `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         | N/A           | 1             |
-| `MovingArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow shown when moving icons                     | N/A           | 1             |
-| `LaunchDotsUserPalette`  | Whether to use the DS Profile color for the palette of the launch dots                                       | N/A           | 1             |
-| `DialogBoxUserPalette`   | Whether to use the DS Profile color for the palette of the dialog box                                        | N/A           | 1             |
+| Värde                    | Beskrivning                                                                                           | Standard (3DS) | Standard (DSi) |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- | -------------- | -------------- |
+| `StartBorderRenderY`     | Den ursprungliga Y-positionen för startgränsen                                                        | 92             | 81             |
+| `StartBorderSpriteW`     | Bredden på startgränsen sprite. Observera att startgränsen textur är exakt hälften av hela gränsen.   | 32             | 32             |
+| `StartBorderSpriteH`     | Höjden på startgränsen sprite                                                                         | 64             | 80             |
+| `TitleboxRenderY`        | Den ursprungliga Y-positionen för titeltexten                                                         | 96             | 85             |
+| `BubbleTipRenderY`       | Y-positionen på spetsen av bubblan som dras över startgränsen                                         | 98             | 80             |
+| `BubbleTipRenderX`       | X-positionen på spetsen av bubblan som dras över startgränsen                                         | 125            | 22             |
+| `BubbleTipSpriteH`       | Höjden på bubbelspetsens sprite                                                                       | 7              | 8              |
+| `BubbleTipSpriteW`       | Bredden på bubbelspetsens sprite                                                                      | 7              | 11             |
+| `RotatingCubesRenderY`   | Y-positionen på den övre skärmen för att rendera roterande kuber                                      | 78             | N/A            |
+| `ShoulderLRenderY`       | Y-positionen på den övre skärmen för att rendera den vänstra axeln                                    | 172            | 172            |
+| `ShoulderLRenderX`       | X-positionen på den övre skärmen för att rendera den vänstra axeln                                    | 0              | 0              |
+| `ShoulderRRenderY`       | Y-positionen på den övre skärmen för att rendera den högra axeln                                      | 172            | 172            |
+| `ShoulderRRenderX`       | X-positionen på den övre skärmen för att rendera den högra axeln                                      | 178            | 178            |
+| `VolumeRenderX`          | X-positionen på den övre skärmen för att rendera volymikonen                                          | 4              | 4              |
+| `VolumeRenderY`          | Y-positionen på den övre skärmen för att rendera volymikonen                                          | 16             | 16             |
+| `BatteryRenderY`         | Y-positionen på den övre skärmen för att rendera batteriikonen                                        | 5              | 5              |
+| `BatteryRenderX`         | X-positionen på den övre skärmen för att rendera batteriikonen                                        | 235            | 235            |
+| `RenderPhoto`            | Bestämmer om du vill visa en bild på den översta skärmen                                              | 0              | 1              |
+| `StartTextUserPalette`   | Bestämmer om du vill använda DS:ens Profilfärg för paletten i starttexten                             | N/A            | 1              |
+| `StartBorderUserPalette` | Bestämmer om du vill använda DS:ens Profilfärg för paletten av startgränsen                           | N/A            | 1              |
+| `ButtonArrowUserPalette` | Bestämmer om du vill använda DS:ens Profilfärg för paletten på pilknapparna längst ner på skärmen     | N/A            | 1              |
+| `MovingArrowUserPalette` | Bestämmer om du vill använda DS:ens Profilfärg för paletten på pilarna som syns när du flyttar ikoner | N/A            | 1              |
+| `LaunchDotsUserPalette`  | Bestämmer om du vill använda DS:ens Profilfärg för paletten för punkterna vid uppstart                | N/A            | 1              |
+| `DialogBoxUserPalette`   | Bestämmer om du vill använda DS:ens Profilfärg för paletten i dialogrutan                             | N/A            | 1              |
 
-## Advanced theming
+## Avancerat tema
 
-Occasionally, you may require more than the default number of colors for some paletted textures. In such cases, you may modify the `.grit` compilation file for the texture to increase the size of the palette.
+Ibland kan du kräva mer än standardantalet färger för vissa palettade texturer. I sådana fall kan du ändra `.grit` kompileringsfilen för att texturen ska öka storleken på paletten.
 
-For example, in `scroll_window.grit`, you may edit `-pn7` and change `7` to `16` for 16 colors. Be aware that if you remove the entire `-pn` line, you may encounter unexpected results.
+Till exempel, i `scroll_window.grit`kan du redigera `-pn7` och ändra `7` till `16` för 16 färger. Var medveten om att om du tar bort hela `-pn` raden, kan du stöta på oväntade resultat.
 
-Also note that the absolute maximum of 16 colors per texture is enforced in code and can not be modified. Even if you increase the number of colors in the palette to above 16, no more than 16 colors worth of palette data will be loaded. With the amount of textures loaded in, there may not be enough palette memory to hold 16 colors worth of palettes for every texture. Keep this in mind when adjusting palette sizes.
+Observera också att den absoluta maximala 16 färger per textur är påtvingad i kod och kan inte ändras. Även om du ökar antalet färger i paletten till över 16, inte mer än 16 färger av palettdata kommer att laddas. Med mängden texturer inladdade så kan det inte finnas tillräckligt med palettminne för att hålla 16 färger i paletten för varje textur. Tänk på detta när du justerar palettstorlekar.
 
-Additionally, paletted textures must have dimensions that are a multiple of 2. Paletted textures sizes can not be changed except for `bubble` and `start_border`, which can have configurable sprite dimensions in `theme.ini`. However, note that doing so may have unexpected consequences.
+Dessutom måste palettade texturer ha dimensioner som är en multipel av 2. Palettade texturers storlek kan inte ändras förutom `bubble` och `start_border`, som kan ha konfigurerbara sprite dimensioner i `theme.ini`. Observera dock att det kan få oväntade konsekvenser.
 
-Paletted textures are not checked for validity. An invalid texture should be rare if created with the provided makefile, but in certain cases a corrupted texture will cause the menu to not load at all.
+Paletterade texturer kontrolleras inte för giltighet. En ogiltig textur bör vara sällsynt om den skapas med den medföljande make-filen, men i vissa fall en skadad textur kommer orsaka att menyn inte laddas in alls.
 
-## Custom background music and sound effects
+## Anpassad bakgrundsmusik och ljudeffekter
 
-The DSi Menu and 3DS themes also support custom music. See [DSi / 3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+DSi Menyn och 3DS teman stöder också anpassad musik. Läs [DSi / 3DS stiler - Anpassade SFX](custom-dsi-3ds-sfx) för mer information.

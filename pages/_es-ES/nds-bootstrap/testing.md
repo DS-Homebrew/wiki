@@ -3,8 +3,8 @@ lang: es-ES
 layout: wiki
 section: nds-bootstrap
 category: other
-title: Lista de Compatibilidad y Consejos de Testeo
-description: Compatibility list and tips for testing games
+title: Lista de Compatibilidad y Consejos durante el Testeo
+description: Lista de compatibilidad y consejos durante el testeo
 ---
 
 ### Lista de compatibilidad

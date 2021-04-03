@@ -6,21 +6,21 @@
 		},
 		{
 			"key": "reference",
-			"title": "Referensi"
+			"title": "Rujukan (Referensi)"
 		}
 	],
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Memasang"
+			"title": "Pemasangan"
 		},
 		{
 			"key": "updating",
-			"title": "Memperbaharui"
+			"title": "Pemerbaruan (Update)"
 		},
 		{
 			"key": "customization",
-			"title": "Kustomisasi"
+			"title": "Pengubahsuaian (Kustomisasi)"
 		},
 		{
 			"key": "other",
@@ -28,13 +28,13 @@
 		},
 		{
 			"key": "uninstalling",
-			"title": "Mencopot Pemasangan"
+			"title": "Pelepasan (Uninstall)"
 		}
 	],
 	"nds-bootstrap": [
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Lainnya"
 		}
 	],
 	"gbarunner2": [],

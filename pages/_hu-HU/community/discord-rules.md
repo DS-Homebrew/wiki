@@ -3,8 +3,8 @@ lang: en-US
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Rules
-description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: DS⁽ⁱ⁾ Mode Hacking szabályok
+description: A DS⁽ⁱ⁾ Mode Hacking Discord server szabályai
 ---
 
 ### Do NOT impersonate, trash talk or otherwise act disrespectful to others and their beliefs.
@@ -54,7 +54,7 @@ Examples include:
 - One account per person at a time (except when approved by a staff member). Be sure to leave this server on your other account before joining with a new one.
 - Punishments apply to the person, not the account. Any subsequent accounts made for the purposes of punishment evasion will result in both accounts being banned. ‎
 
-### Do NOT recommend video guides.
+### NE ajánlj videós útmutatókat.
 
 - Video guides aren't maintained very well (which leads to the videos being outdated and unreliable in the long term) and negligent for the sake of "user accessibility".
 - We have a list of guides in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) you could use instead. ‎

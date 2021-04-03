@@ -15,13 +15,13 @@ Puede que TWL_FIRM esté corrompido. Sigue esta guía para solucionarlo: <https:
 
 #### ¿Qué puedo hacer para arreglar el pantallazo blanco al abrir TWiLight Menu++?
 - Prueba a poner la consola en modo reposo (cerrando la tapa o presionando el botón de sueño en la O2DS) y a despertarla
-- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+- Si no funciona, formatea tu SD en FAT32 con 32 KB de cluster/asignación
 - Si aún no funciona, prueba con otra SD
 
 #### ¿Cómo evito que TWiLight Menu++ se reinice o lanceun Guru Meditation Error cuando cargo un juego?
 Ve a los ajustes de TWLMenu++ y desactiva `Update recently played list`.
 
-#### Why do I get a white screen when trying to load a game from SD card?
+#### ¿Por qué me salta un pantallazo blanco cuando intento cargar un juego de la tarjeta SD?
 - Comprueba [la lista de compatibilidad de nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) y asegúrate de que el juego es compatible
 - Prueba a quitar todos los trucos para ese juego, ya que pueden no ser aún compatibles con nds-bootstrap, puedes usar <kbd class="l">L</kbd> para desactivar todos los de un juego
 - Si se trata de un juego DSi Enhanced, asegúrate de que TWiLight Menu++ esta puesto en `DS Mode`
