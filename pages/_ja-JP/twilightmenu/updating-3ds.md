@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: 更新（3DS）
+long_title: TWiLight Menu++を更新（3DS）
 description: ニンテンドー3DSでTWiLight Menu++を更新する方法
 tabs:
   - 

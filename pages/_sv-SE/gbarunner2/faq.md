@@ -3,6 +3,7 @@ lang: sv-SE
 layout: wiki
 section: gbarunner2
 title: FAQ & Felsökning
+long_title: GBARunner2 FAQ & Felsökning
 description: Vanliga frågor och felsökning för GBARunner2
 ---
 

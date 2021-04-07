@@ -1,47 +1,47 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get Box Art
-description: How to get box art / game covers in TWiLight Menu++
+title: Comment obtenir des couvertures de boîte
+description: Comment obtenir des couvertures de boîtes  / jeu dans TWiLight Menu++
 ---
 
 ### 3DS
-1. Install [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - This will replace the normal TWiLight Menu++ Updater, so use Universal-Updater instead for updating TWiLight Menu++
-1. Select `Extras`, `Boxart`, then press <kbd class="face">X</kbd> to scan the full SD card or <kbd class="face">A</kbd> to select a folder to scan
-1. Choose a box art size
-1. Choose a border style
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Installez le fork de mise à jour [de KirovAir TWiLight Menu++](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
+   - Cela remplacera la mise à jour normale de TWiLight Menu++, donc utilisez Universal-Updater à la place pour mettre à jour TWiLight Menu++
+1. Sélectionnez `Extras`, `Boxart`, puis appuyez sur <kbd class="face">X</kbd> pour scanner la carte SD complète ou <kbd class="face">A</kbd> pour sélectionner un dossier à scanner
+1. Choisissez une taille de pochette
+1. Choisissez un style de bordure
+1. Assurez-vous que la pochette est définie pour être affichée dans les paramètres de TWiLight Menu++
 
 ### Windows
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Téléchargez la dernière version de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. Extraire `TwilightBoxart-Windows-UX.zip` et exécuter `TwilightBoxart.exe`
+1. Cliquez sur `Détecter la SD`
+   - S'il ne trouve pas la carte SD correcte, cliquez sur `Parcourir...` et sélectionnez la bonne carte SD
+1. Changez les options de taille, bordure, etc à votre goût
+1. Cliquez `Démarer`
+1. Assurez-vous que la pochette est définie pour être affichée dans les paramètres de TWiLight Menu++
 
 ### macOS / Linux
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
-1. Type the path to your SD card after `SdRoot=`, then save the file
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI`
-1. Say `Yes` if it shows your SD path correctly
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Téléchargez la dernière version de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. Extraire le `.zip`
+1. Ouvrez `TwilightBoxart.ini` dans le dossier extrait dans un éditeur de texte
+1. Tapez le chemin d'accès à votre carte SD après `SdRoot=`, puis enregistrez le fichier
+   - Sur macOS, ceci est `/Volumes/` puis le nom de votre carte SD
+1. Ouvrez le terminal
+1. Dans le terminal, tapez `cd` puis faites glisser le dossier avec `TwilightBoxart.CLI` sur votre terminal
+1. Exécutez `chmod +x TwilightBoxart.CLI`
+1. Exécutez `./TwilightBoxart.CLI`
+1. Dites `Yes` s'il affiche votre chemin SD correctement
+1. Assurez-vous que la pochette est définie pour être affichée dans les paramètres de TWiLight Menu++
 
-### Manual
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
-1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+### Manuel
+1. Téléchargez un pack de pochettes en png depuis [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Extraire les fichiers .png vers `sd:/_nds/TWiLightMenu/boxart`
+1. Assurez-vous que la pochette est définie pour être affichée dans les paramètres de TWiLight Menu++
 
-**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`. Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`). Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143.
+**Pour ajouter votre propre box art :** Placez-les dans `sd:/_nds/TWiLightMenu/boxart`. Il peut soit avoir le TID du jeu (ex. `ASME.png`), soit le nom du fichier (ex. `SM64DS.nds.png`). Doit être au format `.png` , avec la taille recommandée de 128x115 et un maximum de 208x143.
 
-Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
+Les pochettes individuelles peuvent également être téléchargées à partir de la GameTDB, sous la catégorie **S Covers (png)**.

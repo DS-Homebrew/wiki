@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: הסרת התקנה (3DS)
-description: כיצד להסיר את TWiLight Menu++ מNintendo 3DS
+long_title: Uninstalling TWiLight Menu++ (3DS)
+description: How to uninstall TWiLight Menu++ from a Nintendo 3DS
 ---
 
 ### הסרת התקנה

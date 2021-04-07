@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Mise à jour (DSi)
+long_title: Mettre à jour TWiLight Menu++ (DSi)
 description: Comment mettre à jour TWiLight Menu++ sur la Nintendo DSi
 ---
 
@@ -17,10 +18,10 @@ Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, 
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
 1. **Utilisateurs de hiyaCFW :** Copiez le dossier `title` à la racine de votre carte SD
 
-### Étapes supplémentaire pour les flashcards
+### Étapes supplémentaire pour les linkers
 
-Si vous pouvez basculer entre le contenu de la carte SD et de la carte flashcard dans TWLMenu++, et si le menu TWLMenu++ de la flashcard est sur v16.3.0 ou supérieur, veuillez suivre ces étapes.
+Si vous pouvez basculer entre le contenu de la carte SD et du linker dans TWiLight Menu++, et si le menu TWiLight Menu++ du llinker est sur v16.3.0 ou supérieur, veuillez suivre ces étapes.
 
-1. Allez dans les paramètres TWLMenu++
+1. Allez dans les paramètres TWiLight Menu++
 1. Sélectionnez `Mettre à jour TWiLight Menu++`
 1. Sélectionnez `Console (micro)SD > Slot-1 microSD`

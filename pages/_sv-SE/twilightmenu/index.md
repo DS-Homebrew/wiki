@@ -1,6 +1,5 @@
 ---
 lang: sv-SE
-layout: wiki
 section: twilightmenu
 title: Hem
 description: Guider om hur man använder och anpassar TWiLight Menu++

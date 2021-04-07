@@ -1,6 +1,5 @@
 ---
 lang: ja-JP
-layout: wiki
 section: twilightmenu
 title: ホーム
 description: TWiLight Menu++の使い方とカスタマイズに関するガイド

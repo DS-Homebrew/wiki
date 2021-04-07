@@ -1,26 +1,26 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Info
-description: Information on the GBA BIOS and how to dump it
+title: Info du BIOS GBA
+description: Informations sur le BIOS GBA et comment le copier
 ---
 
-In order for GBARunner2 to load titles, a dump of the GBA BIOS is required. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. You can dump an official GBA BIOS with one of the following methods.
+Pour que GBARunner2 puisse charger des jeux, une copie du BIOS GBA est nécessaire. Les nouvelles versions de GBARunner2 (qui viennent avec la dernière version de TWiLight Menu++) ont [le BIOS Open Source de Normatt](https://github.com/Normmatt/gba_bios) intégrés. Cependant, comme ce n'est pas une copie exacte, l'utilisation d'une copie du BIOS officiel augmente la compatibilité. Vous pouvez copier un BIOS GBA officiel avec l'une des méthodes suivantes.
 
-### Dumping Guides
+### Tutoriels de dumping
 
-- [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
-- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (pas l"édition familiale) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [3DS utilisant la plupart des jeux Console Virtuelle](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (ne peut pas être des titres GBA ou non-Nintendo (Game Gear))
+- [GBA ou DS Phat / Lite avec un linker GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
-After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
+Après la copie du BIOS, il doit être renommé en `bios.bin` et doit ensuite être placé dans `sd:/`, `sd:/gba/`, ou `sd:/_gba/` pour que GBARunner2 le lise.
 
-You can verify that your BIOS is a proper dump by comparing it with the following checksums:
+Vous pouvez vérifier que votre BIOS est une bonne copie en le comparant avec les sommes de contrôle suivantes :
 
-**CRC32:** `81977335`
+**CRC32 :** `81977335`
 
-**MD5:** `a860e8c0b6d573d191e4ec7db1b1e4f6`
+**MD5 :** `a860e8c0b6d573d191e4ec7db1b1e4f6`
 
 **SHA1:** `300c20df6731a33952ded8c436f7f186d25d3492`
 

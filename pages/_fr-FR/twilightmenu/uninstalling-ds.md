@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: Désinstallation (DS & DSi)
-description: Comment désinstaller TWiLight Menu++ de la carte Nintendo DSi ou DS flashcard
+long_title: Désinstallation de TWiLight Menu++ (DS & DSi)
+description: Comment désinstaller TWiLight Menu++ d'une Nintendo DSi ou linker DS
 ---
 
 ### Désinstallation

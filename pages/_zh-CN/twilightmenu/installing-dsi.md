@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: 安装步骤（DSi）
+long_title: Installing TWiLight Menu++ (DSi)
 description: How to install TWiLight Menu++ on the Nintendo DSi
 ---
 

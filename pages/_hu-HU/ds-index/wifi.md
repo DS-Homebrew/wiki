@@ -28,7 +28,7 @@ Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS játék 
 1. Állítsd be az `1.1.1.1` címet másodlagos DNS-nek
 1. Szükséged lehet NoSSL patchelésre a játékodban, függően a játéktól
 
-### Manually patching your DS ROMs
+### A DS ROM-ok kézi patchelése
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono

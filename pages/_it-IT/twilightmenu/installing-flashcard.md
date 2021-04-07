@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installazione (Flashcard)
-description: Come installare TWiLight Menu++ su una flashcard Nintendo DS
+long_title: Installing TWiLight Menu++ (Flashcard)
+description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
 ### Installazione

@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: gbarunner2
 title: FAQ & Troubleshooting
+long_title: GBARunner2 FAQ & Troubleshooting
 description: FAQs and troubleshooting for GBARunner2
 ---
 

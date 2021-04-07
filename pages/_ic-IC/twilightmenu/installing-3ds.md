@@ -4,12 +4,13 @@ layout: wiki
 section: crwdns13978:0crwdne13978:0
 category: crwdns15672:0crwdne15672:0
 title: crwdns15674:0crwdne15674:0
-description: crwdns16370:0crwdne16370:0
+long_title: crwdns20830:0crwdne20830:0
+description: crwdns20832:0crwdne20832:0
 tabs:
   - 
-    working-camera: crwdns19590:0crwdne19590:0
-    non-working-camera: crwdns19592:0crwdne19592:0
-    manual: crwdns19594:0crwdne19594:0
+    working-camera: crwdns20834:0crwdne20834:0
+    non-working-camera: crwdns20836:0crwdne20836:0
+    manual: crwdns20838:0crwdne20838:0
 ---
 
 crwdns15676:0crwdne15676:0

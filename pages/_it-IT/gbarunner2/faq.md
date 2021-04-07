@@ -1,18 +1,19 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: gbarunner2
-title: FAQ & Troubleshooting
-description: FAQs and troubleshooting for GBARunner2
+title: FAQ & Risoluzione dei problemi
+long_title: FAQ GBARunner2 & Risoluzione dei problemi
+description: FAQ e risoluzione dei problemi per GBARunner2
 ---
 
-#### How do I create and add custom borders?
+#### Come faccio a creare e ad aggiungere dei bordi personalizzati?
 
-You can read and follow [this guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) by FrescoASF.
+Puoi leggere e seguire [questa guida](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) di FrescoASF.
 
-#### Are cheats supported?
+#### I trucchi sono supportati?
 
-Not right now. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
+Non è il momento. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
 #### How do I use nightly GBARunner2 builds in TWiLight Menu++?
 

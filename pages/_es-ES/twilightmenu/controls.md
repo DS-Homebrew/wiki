@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Controles
-description: Controles de TWiLight Menu++
+long_title: TWiLight Menu++ Controls
+description: Controls for using TWiLight Menu++
 ---
 
 #### Temas de Nintendo DSi, Nintendo 3DS, SEGA Saturn y Homebrew Launcher
@@ -34,8 +35,30 @@ description: Controles de TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostrar descripción del truco
       - <kbd class="l">L</kbd>: Desactivar todos los trucos
 
-#### Con CFW: ROMs de DS (en SD) / cartuchos
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Abj</kbd> + <kbd class="face">B</kbd> durante 2 segundos: Volver a TWiLight Menu++ (No funciona en todos los modelos de O3DS)
+#### DS ROMs (using nds-bootstrap)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> for 1 second: Swap the screens
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 3 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd> / <kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd> / <kbd>Right</kbd>: Fast scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd> / <kbd>Down</kbd> / <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease value by 1h
+         - <kbd>Left</kbd> / <kbd>Right</kbd>: Increase / Decrease value by 10h
+         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
 
 #### Atajos al arrancar
 Estos comandos pueden hacerse en la pantalla de bienvenida de TWiLight Menu++ / justo después de la de Nintendo DSi.

@@ -1,9 +1,8 @@
 ---
 lang: id-ID
-layout: wiki
 section: twilightmenu
-title: Beranda
-description: Panduan cara menggunakan dan mengubah suai TWiLight Menu++
+title: Home
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # Selamat Datang di wiki TWiLight Menu++!

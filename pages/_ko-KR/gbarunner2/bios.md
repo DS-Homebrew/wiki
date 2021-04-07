@@ -11,8 +11,8 @@ GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필�
 ### 덤핑 가이드
 
 - [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
-- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/)
+- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
+- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
 After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
 

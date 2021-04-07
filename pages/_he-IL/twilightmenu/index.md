@@ -1,9 +1,8 @@
 ---
 lang: he-IL
-layout: wiki
 section: twilightmenu
-title: דף הבית
-description: מדריכים על איך להשתמש ולהתאים אישית את TWiLight Menu++
+title: Home
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # ברוכים הבאים לwiki של TWiLight Menu++!

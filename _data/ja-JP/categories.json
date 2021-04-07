@@ -29,6 +29,10 @@
 		{
 			"key": "uninstalling",
 			"title": "アンインストール"
+		},
+		{
+			"key": "indexes",
+			"title": "インデックス"
 		}
 	],
 	"nds-bootstrap": [

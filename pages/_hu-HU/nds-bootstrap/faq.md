@@ -4,6 +4,7 @@ layout: wiki
 section: nds-bootstrap
 category: other
 title: GYIK & hibaelhárítás
+long_title: nds-bootstrap GYIK & helyreállítás
 description: GYIK & hibaelhárítás az nds-bootstrap-hez
 ---
 

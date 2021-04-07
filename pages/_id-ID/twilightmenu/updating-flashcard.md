@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Updating (Flashcard)
+long_title: Updating TWiLight Menu++ (Flashcard)
 description: How to update TWiLight Menu++ on a Nintendo DS flashcard
 ---
 

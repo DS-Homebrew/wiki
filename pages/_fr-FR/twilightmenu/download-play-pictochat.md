@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Mode Téléchargement / Pictochat dans le menu DS Classic
-description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS Class Menu
+description: Comment accéder au Mode Téléchargement / Pictochat dans le menu DS Classique
 ---
 
 Si vous utilisez une console DSi, vous devriez déjà pouvoir lancer ces applications. Sinon, si vous avez une 3DS, procédez comme ci-dessous.
@@ -22,4 +22,4 @@ Copiez le vers `sd:/_nds/`et renommez le en `dlplay.nds`.
 Les étapes ci-dessus augmenteront la vitesse de démarrage de DLP.
 
 Pour exécuter Pictochat sur 3DS (DSi requis) :
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+- Copiez `pictochat.nds` de `sd:/_nds/` sur la carte SD de DSi au même emplacement sur la carte SD de la 3DS Vous devez d'abord accéder au menu DS Classique dans le menu TWiLight Menu++ sur la DSi.

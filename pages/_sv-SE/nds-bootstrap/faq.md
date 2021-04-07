@@ -4,7 +4,8 @@ layout: wiki
 section: nds-bootstrap
 category: other
 title: FAQ & Felsökning
-description: FAQ & Felsökning för nds-bootstrap
+long_title: nds-bootstrap FAQ & Felsökning
+description: Vanliga frågor & Felsökning för nds-bootstrap
 ---
 
 #### Varför får jag en vit skärm när jag försöker ladda ett spel från SD-kort?

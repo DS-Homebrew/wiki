@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: インストール（3DS）
+long_title: TWiLight Menu++をインストール（3DS）
 description: ニンテンドー3DSにTWiLight Menu++をインストールする方法
 tabs:
   - 

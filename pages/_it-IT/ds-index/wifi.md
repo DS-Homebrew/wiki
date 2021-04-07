@@ -8,7 +8,7 @@ description: Informazioni sull'utilizzo del Wi-Fi sul Nintendo DS
 ---
 
 - Nelle applicazioni Nintendo DS è possibile utilizzare solo WEP e Open WiFi
-- On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA and WPA2 support
+- Nelle applicazioni Nintendo DSi enhanced/esclusive, si dispone del supporto ulteriore WPA e WPA2
 
 Gli hotspot sono utilizzabili, quindi non è necessario modificare la configurazione del router.
 
@@ -28,21 +28,21 @@ Ci sono guide per la creazione di un hotspot compatibile con un gioco del DS su 
 1. Imposta `1.1.1.1` come DNS secondario
 1. Potresti aver bisogno di NoSSL per applicare una patch per il tuo gioco a questo punto, a seconda della sua compatibilità
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### Patchare manualmente le tue ROM del DS
+Segui la guida qui sotto nel caso in cui il tuo ISP blocchi i server DNS personalizzati, altrimenti è *fortemente* consigliato di seguire la guida qui sopra.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
+Nota: Gli utenti di GNU/Linux e macOS possono seguire istruzioni molto simili, ma dovranno usare mono
 
-1. Download [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WFCPatcher is saved and open that folder
-1. Create a text file with the name `patch.bat`
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
-1. Now drag all the roms you wish to patch on to patch.bat
-1. Done! the patched roms will be the ones ending in (wiimmfi)
+1. Scarica [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Copiare la ROM del gioco che si desidera patchare nella stessa cartella in cui WFCPatcher viene salvato e aprire quella cartella
+1. Crea un file di testo con il nome `patch.bat`
+1. Nel file, inserisci `wfcpatcher.exe %1 --domain wiimmfi. e` quindi salva e chiudi (è possibile sostituire wiimmfi.de con un altro URL, se si desidera utilizzare un server diverso)
+1. Ora trascina tutte le Rom che si desiderano patchare su patch.bat
+1. Fatto! le roms patchate saranno quelle che finiscono in (wiimmfi)
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
+Non dimenticare di rimuovere qualsiasi DNS che potresti aver salvato sulle impostazioni Wi-Fi prima di tentare di connetterti con la ROM patchata
 
 ### Risoluzione dei problemi e ulteriore lettura
-If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+Se stai ricevendo degli errori, puoi mettere il loro codice nel [risolutore dei problemi di wimmfi ](https://wiimmfi.de/error) per trovare delle soluzioni per risolverli.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Per una risoluzione dei problemi più specifica e per ulteriori informazioni, come ad esempio come connettersi agli emulatori online, puoi leggere questa [Guida Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) scritta dai membri della [Mario Kart DS Network](https://discord.gg/pa9bea6).

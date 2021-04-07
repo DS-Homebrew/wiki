@@ -1,7 +1,7 @@
 ---
 lang: hu-HU
 layout: default
-title: Kezdőlap
+title: Home
 ---
 
 # Köszöntjük a DS-Homebrew Wiki-ben!

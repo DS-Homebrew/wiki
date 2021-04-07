@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: 更新（フラッシュカード）
+long_title: TWiLight Menu++を更新（フラッシュカード）
 description: ニンテンドーDSフラッシュカードでTWiLight Menu++を更新する方法
 ---
 

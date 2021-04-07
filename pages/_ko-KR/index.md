@@ -1,7 +1,7 @@
 ---
 lang: ko-KR
 layout: default
-title: 홈
+title: Home
 ---
 
 # DS-Homebrew 위키에 오신 것을 환영합니다!

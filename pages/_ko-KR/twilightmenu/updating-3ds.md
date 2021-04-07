@@ -4,11 +4,12 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: 업데이트하기 (3DS)
-description: 닌텐도 3DS에서 TWiLight Menu++를 업데이트하는 방법
+long_title: Updating TWiLight Menu++ (3DS)
+description: How to update TWiLight Menu++ on the Nintendo 3DS
 tabs:
   - 
     universal-updater: Universal-Updater
-    manual: 수동 업데이트
+    manual: Manual
 ---
 
 v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DS 게임의 `.sav` 파일을 해당 폴더에 넣어주세요.

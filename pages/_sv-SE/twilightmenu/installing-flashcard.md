@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installation (Minneskort)
+long_title: Att installera TWiLight Menu++ (Minneskort)
 description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 ---
 

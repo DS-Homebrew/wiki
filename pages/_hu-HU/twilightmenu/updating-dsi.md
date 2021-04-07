@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Frissítés (DSi)
+long_title: A TWiLight Menu++ frissítése (3DS)
 description: Hogyan frissítsd a TWiLight Menu++-t Nintendo DSi-n
 ---
 

@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: 安装说明(烧录卡)
+long_title: 安装 TWiLight Menu++ (烧录卡)
 description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ---
 

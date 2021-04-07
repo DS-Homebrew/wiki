@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Irányítás
+long_title: TWiLight Menu++ irányítás
 description: A TWiLight Menu++ irányítása
 ---
 
@@ -34,8 +35,30 @@ description: A TWiLight Menu++ irányítása
       - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
       - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 
-#### CFW-vel: DS ROM-ok (SD) / kártyákon
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> 2 másodpercig: Visszatérés a TWiLight Menu++-ba (Előfordulhat, hogy nem működik néhány O3DS modellen)
+#### DS ROM-ok (az nds-bootstrap használatával)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> egy másodpercig: Képernyők váltása
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 3 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd> / <kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd> / <kbd>Right</kbd>: Fast scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM szerkesztő
+      - <kbd>Up</kbd> / <kbd>Down</kbd> / <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease value by 1h
+         - <kbd>Left</kbd> / <kbd>Right</kbd>: Increase / Decrease value by 10h
+         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
 
 #### Indítási gyorsbillentyűk
 Ezeket a TWiLight Menu++ kezdőképernyőjén kell nyomni / rögtön a Nintendo DSi keződképernyő után.

@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Actualización (Flashcard)
-description: Cómo actualizar TWiLight Menu++ en una flashcard de Nintendo DS
+long_title: Updating TWiLight Menu++ (Flashcard)
+description: How to update TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
 Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos `.sav` de los juegos de DS a una nueva llamada `saves` en la misma carpeta que las ROMs.

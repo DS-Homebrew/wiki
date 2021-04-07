@@ -4,35 +4,35 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Jouer en plein écran
-description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
+description: Comment utiliser TWiLight Menu++ en mode plein écran sur la Nintendo 3DS
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+Nécessite une console Nintendo 3DS ou 2DS.
 {:.alert .alert-info}
 
-### Preparation
+### Préparation
 - Assurez-vous que le `boot.firm` de Luma est à la racine de la carte SD pour que cela fonctionne
 
-### Installing
-1. Download [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Install `TWPatch.cia` using FBI
-   - You can also use Universal-Updater to install TWPatch instead of the previous two steps
-1. Return to the home menu and launch TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scale test (health hazard!)`
-   - The "health hazard!" is because it gave the developer a headache due to its blurriness
-1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-   - If widescreen still doesn't work, wait for RTCom-activated widescreen to be released
-1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
-1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++ settings, switch to the `Misc settings` page, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+### Installation
+1. Téléchargez [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) et copiez `TWPatch.cia` sur votre carte SD ([thread GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Installez `TWPatch.cia` en utilisant FBI
+   - Vous pouvez également utiliser Universal-Updater pour installer TWPatch au lieu des deux étapes précédentes
+1. Retournez au menu home et lancez TWPatch
+1. Maintenez <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> enfoncé et activez `Widescreen patch (384x240 16:10)`
+1. (Facultatif) Pour un écran large moins pixelisé, activez également `GPU scale test (health hazard !)`
+   - Le "danger pour la santé!" est parce qu'il a donné au développeur un mal de tête en raison de son flou
+1. Appuyez sur <kbd>START</kbd> pour générer un fichier `TwlBg.cxi` en plein écran
+   - Si l'écran en haut de l'écran n'indique pas que le patch large est activé, recommencez à partir de l'étape 3
+   - Si le plein écran ne fonctionne toujours pas, attendez la sortie du plein écran par RTCom
+1. Redémarrez votre 3DS en maintenant <kbd>SELECT</kbd> pour ouvrir la configuration de Luma3DS
+1. Activez `external FIRMs and modules`, puis appuyez sur <kbd>START</kbd> pour enregistrer et quitter
+1. Ouvrez les paramètres TWiLight Menu++, basculez sur la page `Autres paramètres` et réglez `Taille de l'écran` sur `16:10`
+   - Cela peut également être fait par jeu
 
-You're all done! Enjoy your DS games in widescreen!
+Vous avez terminé ! Profitez de vos jeux DS en plein écran !
 
-**NOTE1:** Every game/app in DS(i) mode will run in widescreen, even the games that aren't compatible with widescreen. For this to be fixed so only the widescreen-compatible games run in widescreen, wait for RTCom-activated widescreen to be released.
+**REMARQUE 1 :** Chaque jeu/application en mode DS(i) fonctionnera en écran large, même les jeux qui ne sont pas compatibles avec l'écran large. Pour que cela soit fixé de manière à ce que les jeux compatibles grand écran fonctionnent en grand écran, attendez la sortie du plein écran par RTCom.
 
-**NOTE2:** Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched. If you don't see the screen aspect ratio setting, wait for RTCom-activated widescreen to be released.
+**REMARQUE 2 :** Ne tenez pas <kbd>DÉBUT</kbd> ou <kbd>SELECT</kbd> lors du lancement de TWLMenu++, si vous ne voulez pas que l'écran large apparaisse glitché. Si vous ne voyez pas le réglage des proportions de l'écran, attendez la sortie du plein écran par RTCom.
 
-Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+Tous les jeux ne sont pas compatibles avec le plein écran. [Nous avons créé une liste de jeux compatibles avec le plein écran](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)

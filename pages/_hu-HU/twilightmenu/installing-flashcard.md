@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (Flashcard)
+long_title: A TWiLight Menu++ telepítése (Flashcard)
 description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 ---
 

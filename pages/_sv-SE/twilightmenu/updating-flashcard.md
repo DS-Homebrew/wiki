@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Uppdatering (Minneskort)
+long_title: Uppdatera TWiLight Meny++ (Minneskort)
 description: Hur man uppdaterar TWiLight Menu+ + på Nintendo DS minneskort
 ---
 

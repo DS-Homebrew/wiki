@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Uppdatering (DSi)
+long_title: Uppdatera TWiLight Meny++ (DSi)
 description: Hur man uppdaterar TWiLight Menu+ + på Nintendo DSi
 ---
 

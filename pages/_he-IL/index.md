@@ -1,7 +1,7 @@
 ---
 lang: he-IL
 layout: default
-title: דף הבית
+title: Home
 ---
 
 # ברוכים הבאים לוויקי של DS-Homebrew!
