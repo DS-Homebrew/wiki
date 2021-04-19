@@ -1,27 +1,27 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (DSi)
-long_title: Updating TWiLight Menu++ (DSi)
-description: How to update TWiLight Menu++ on the Nintendo DSi
+title: Memperbarui (DSi)
+long_title: Memperbarui TWiLight Menu++ (DSi)
+description: Bagaimana cara untuk mengupdate TWiLight Menu++ di Nintendo DSi
 ---
 
-If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
+Jika memperbarui dari versi yang lebih lama dari v16.4.0, mohon pindahkan `.sav` anda berkas untuk game DS ke folder baru yang bernama `saves`, dengan `saves` berkas yang bernama sama di tempat game DS.
 {:.alert .alert-info}
 
-### Updating
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Memperbarui
+1. Unduh versi terbaru `TWiLightMenu-DSi.7z` dari [halaman rilis](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Ekstrak `TWiLightMenu-DSi.7z`
+1. Salin berkas `-nds` ke root SD card anda
+1. Salin berkas`BOOT.NDS` ke root SD card anda
+1. **Pengguna HiyaCFW** Salin ke berkas`title` ke root SD card anda
 
-### More steps for the flashcard side
+### Beberapa langkah tambahan pengguna flashcard
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Jika Anda dapat beralih antara konten SD dan flashcard di TWLMenu ++, dan jika flashcard TWLMenu ++ ada di v16.3.0 atau yang lebih baru, ikuti langkah-langkah berikut.
 
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
+1. Pilih ke Pengaturan TWLMenu++
+1. Pilih `Update TWiLight Menu++`
+1. Pilih `Console (micro)SD > Slot-1 microSD`

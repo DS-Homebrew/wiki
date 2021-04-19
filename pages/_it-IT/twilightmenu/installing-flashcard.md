@@ -40,7 +40,7 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
    Installa YSMenu da [qui](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se esistente) e la cartella`TTMenu` nella root della microSD della flashcard
-1. Imposta `Usa nds-bootstrap (B4DS)` a `No`, così verrà utilizzato il firmware della flashcard al posto di nds-bootstrap
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
 
 ### Auto-avvio TWiLight Menu++
 1. Estrai il/i contenuto(i) di `Autoboot/(la tua flashcard)` nella scheda microSD della flashcard

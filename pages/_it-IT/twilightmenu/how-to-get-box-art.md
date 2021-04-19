@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get Box Art
+title: Come Ottenere Box Art
 description: How to get box art / game covers in TWiLight Menu++
 ---
 

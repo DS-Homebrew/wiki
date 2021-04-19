@@ -1,7 +1,7 @@
 ---
 lang: id-ID
 layout: default
-title: Home
+title: Beranda
 ---
 
 # Selamat Datang di Wiki DS-Homebrew!

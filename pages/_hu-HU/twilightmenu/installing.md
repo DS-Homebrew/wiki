@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: indexes

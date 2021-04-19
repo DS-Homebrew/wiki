@@ -20,7 +20,7 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 #### Why use nds-bootstrap over a regular flashcard?
 - Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges
 - You can expand the VRAM memory bus to 32-bit
-- Utilize the DSi's additional CPU speed
+- Mempergunakan kecepatan CPU tambahannya DSi
 - Enhance your audio with 48 kHz
 - Use DSi mode, allowing for DSi features
 - Using certain cartridges, you are able to use IR in your application

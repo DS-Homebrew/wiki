@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS Skins - Custom SFX
+title: DSi / 3DS szkinek - Egyedi hangeffektusok
 description: Hogyan használj egyedi háttérzenét és hang effekteket a DSi és 3DS szkinekben a TWiLight Menu++-ban
 ---
 

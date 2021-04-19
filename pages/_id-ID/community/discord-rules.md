@@ -1,28 +1,28 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Rules
-description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: Peraturan DS⁽ⁱ⁾ Mode Hacking
+description: Peraturan untuk peladen (server) Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-### Do NOT impersonate, trash talk or otherwise act disrespectful to others and their beliefs.
+### JANGAN meniru-niru, berkata kasar atau bertingkah kurang ajar ke orang lain dan kepercayaan mereka.
 
-- This applies especially to those offering their time for the community. (such as helpers or developers)
-- We will NOT tolerate insensitivity, regardless of whether the member is in the community or not.
-- Respect user privacy; Avoid attempts to communicate with users who aren't comfortable doing so or sharing information about them that they don't want shared.
-- Do NOT backseat moderate or try to "help" when a moderator is dealing with a situation. You hold no authority, so leave actual rule handling to staff.
-     - Reminders are fine, as long as you don't try to enforce them.
-- When knowing who created a piece of art, credit those content creators.
+- Ini berlaku terutama bagi yang menghabiskan waktunya di komunitas. (seperti penolong dan pengembang)
+- Kami TIDAK akan mentolerir ketidakpekaan, terlepas dari apakah anggota tersebut ada di komunitas atau tidak.
+- Hormati privasi pengguna; Hindari upaya berkomunikasi dengan pengguna yang tidak nyaman melakukannya atau berbagi informasi tentang mereka yang tak mau mereka sebar.
+- JANGAN mengambil alih moderasi atau mencoba "membantu" saat moderator sedang mengurusi suatu situasi. Kamu tidak berhak, jadi serahkan penanganan sebenarnya kepada staf.
+     - Mengingatkan boleh, selama kamu tidak memaksanya ke mereka.
+- Saat baru tahu siapa yang menciptakan sebuah karya, beri penghargaan (credit) bagi pembuatnya dengan disebut siapa.
 
 
-### Do NOT bring the chat quality down.
+### JANGAN membuat keruh mutu obrolan.
 
-Examples include:
-- Asking to be spoon-fed information or spoon-feeding others
-- Asking for release dates for projects; It's ready when it's ready
-- Asking to ask; by asking to ask, you just asked
+Contohnya seperti:
+- Meminta disuapi informasi saking malasnya atau menyuapi yang lain
+- Menanyakan tanggal keluaran dari proyek; sudah jadinya kalau sudah
+- Menanya agar ditanya; dengan menanya agar ditanya, padahal sudah
 - Requesting information that is either obvious or you could find with a little bit of research on your end (such as googling for links instead of asking for them to be handed to you)
    - Important information will be held over at [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
    - Check the channel topic & pinned messages; it most likely contains what you are looking for.
@@ -127,6 +127,6 @@ Make sure to put spoilers, malware and content intended to shock or scare in spo
 - Joining for the purpose of rule breaking will get you banned.
 - Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them.
 
-If you don't understand any of the rules, feel free to ask.
+Jika kamu masih bingung dengan peraturannya, silakan bertanya.
 
-Last update: August 19th, 2020
+Terakhir diperbarui: 19 Agustus, 2020

@@ -33,7 +33,7 @@ Bomba czasowa to czas wygaśnięcia jądra nagrywarki flashcard, który jest uż
 - Ponieważ funkcja opiera się na jądrze, a nie na oprogramowaniu, możesz przełączyć się na alternatywne jądro. Masz dwie opcje:
    - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menu jest dosyć brzydkie i pokazuje tylko pliki `.nds`, ale ma o wiele lepsze wsparcie gier i cheatów oraz nie wymaga memory paka
    - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Przydatne jeśli chcesz mieć wszystkie ROMy z różnych konsol w jednym menu. Są dwa sposoby na uruchamianie gier DS z TWiLight Menu++:
-      - Z B4DS: Wymaga Memory Expansion Pak dla rozszerzonej kompatybilności gier i nie wspiera cheatów. Ale działa na wszystkich flashcardach, które są wspierane przez TWiLight Menu++
+      - With nds-bootstrap on flashcard: Requires a Memory Expansion Pak for extended game compatibility and does not support cheats. Ale działa na wszystkich flashcardach, które są wspierane przez TWiLight Menu++
       - Z YSMenu: Łączy kompatybilność YSMenu z lepszym menu TWiLight Menu++, ale cheaty nie są wspierane
 
 Rekomendujemy YSMenu(z TWiLight Menu++ jeśli tak preferujesz) ze względu na większość kompatybilność i brak potrzeby Memory Expansion Pak. Jeśli chcesz YSMenu, DeadSkullzJr zrobił [repozytorium Dropbox](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) z każdym głównym jądrem rozruchu, już przygotowanymi dla twojego flashcarda. Jedyne co trzeba zrobić to przenieść do katalogu głównego karty SD. Instrukcje instalacji TWiLight Menu++ są [na stronie instalacji na flashcarda](../twilightmenu/installing-flashcard).

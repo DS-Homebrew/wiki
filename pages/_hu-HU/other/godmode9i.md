@@ -10,8 +10,8 @@ Információk a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i)-ről, egy 
 
 ### GYIK & hibaelhárítás
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). You can hold X while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from unlaunch to be able to mount the NAND.
+#### Hogyan jutok túl a "mounting drive(s)" az induláskor?
+Ez akkor történik ha a GodMode9i-t [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw)-ből indítod. Az X-et nyomva tartva a GodMode9i indulásakor a NAND csatolás átugrásához. Alternatívaként indíthatod a GodMode9i-t közvetlenük az unlaunch-ből, hogy felcsatolhasd a NAND-ot.
 
 #### Miért nem tudok játékokat dumpolni DSi-n?
 Szükséged van az unlaunch telepítésére, hogy képes legyél játékokat dumpolni az SD kártyádra. Az unlaunch telepíttéséhez köveds a [dsi.cfw.guide](https://dsi.cfw.guide/) útmutatóját.

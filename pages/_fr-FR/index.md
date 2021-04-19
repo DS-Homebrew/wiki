@@ -1,7 +1,7 @@
 ---
 lang: fr-FR
 layout: default
-title: Home
+title: Accueil
 ---
 
 # Bienvenue sur le wiki DS-Homebrew !

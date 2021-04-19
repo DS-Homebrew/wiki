@@ -16,8 +16,8 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 1. Skopiuj folder `roms` do katalogu głównego karty microSD nagrywarki
 1. Jeśli już masz dane zapisu, przenieś pliki `.sav`, które są umiejscowione razem z ROMami, do nowego folderu `saves`, który także ma się znaleźć razem z ROMami
 1. ...
-   - **DS Phat / Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
+   - **użytkownicy DS Phat/Lite:** Jeśli uruchamianie `BOOT.NDS` powoduje blokadę na białym ekranie, wsadź DS Memory Expansion Pak i spróbuj ponownie
+   - **Użytkownicy DSi / 3DS:** Uruchom TWLMenu++ na karcie SD konsoli i włącz `SCFG Access in Slot-1`
       - Pozwoli to na użycie szybkości zegara TWL i/lub przyszpieszenie VRAM twoich gier na flashcardzie, a także na dostęp do karty SD konsoli
 
 ### Aby uruchomić gry używając firmware flashcardu
@@ -40,7 +40,7 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
    Zainstaluj YSMenu [stąd](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Upewnij się że masz `YSMenu.nds` (zmień na tą nazwę plik `TTMenu.dat` w przypadku braku) i folder `TTMenu` w katalogu głównym karty microSD nagrywarki
-1. Ustaw `Użyj nds-bootstrap (B4DS)` na `Nie`, żeby był używany firmware flashcarda zamiast nds-bootstrap
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
 
 ### Autobotowanie TWiLight Menu++
 1. Wypakuj zawartość `Autoboot/(Twój nagrywarka)` do katalogu głównego karty microSD nagrywarki

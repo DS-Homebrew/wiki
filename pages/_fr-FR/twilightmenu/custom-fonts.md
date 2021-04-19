@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization

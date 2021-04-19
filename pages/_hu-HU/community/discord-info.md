@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: community
 category: discord
 title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+description: Információk a DS⁽ⁱ⁾ Mode Hacking Discord szerverről
 ---
 
-### Welcome to the <u>DS⁽ⁱ⁾ Mode Hacking</u>!
+### Köszöntünk a <u>DS⁽ⁱ⁾ Mode Hacking</u> szerveren!
 
 We specialize in all things related to Nintendo DS(i) modding and homebrew. Here are a few examples of what we can help you do in this server:
 
@@ -28,18 +28,18 @@ We have plenty of channels for different topics, so make sure you're using the r
 
 We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
 
-## Roles & User Flairs
-We have several roles you can get on this server, some of them being accessible with just a @Lightning command
+## Szerepek & felhasználók
+Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak @Lightning paranccsal érhető el
 
-### Developers
-This role is given to those who have either assisted or led a project for the Nintendo DS scene. While preferable that it'd be open source, it's optional Post the Nintendo DS homebrew application in the channel that works the best (If it doesn't have one, post it in [#other-nds-homebrew][other-nds-homebrew]) and ping a moderator alongside your message.
+### Fejlesztők
+Ezt a szerepet azok kapják meg, akik a Nintendo DS színtéren vagy támogattak vagy vezettek egy projektet. Bár előnyösebb, ha nyílt forráskódú lenne, de opcionális. Posztold a Nintendo DS homebrew alkalmazást a hozzá való csatornán. (Ha nincs még ilyen, akkor posztolj az [#other-nds-homebrew][other-nds-homebrew]-ban), és pingelj egy moderátort az üzenet mellett.
 
-Keep in mind that stolen code will not land you the role, and we may deny the request depending on the circumstances
+Ne feledd, hogy lopott kód nem tesz ebbe a szerepbe, és elutasíthatjuk a kérést különböző okok miatt
 
-### Artists/Designers
+### Művészek/Tervezők
 This role is given to those with an understanding of how art works and have contributed to DS homebrew in a graphical way (for example, a WoodR4 skin or a TWiLight Menu++ subtheme). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
 
-### Helpers
+### Segítők
 Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community. As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
 
 For those testing, you must test at least a total of 7 games between GBARunner2 and nds-bootstrap. Check their specific channel topics for links to their compatibility sheet. For those helping, the amount of help you give isn't set in stone. We generally look at how grand your helping is (for example, saying "right click then hit edit" wouldn't help).
@@ -55,13 +55,13 @@ Wanna translate a project of ours? Give yourself this role so you can stay up to
 
 This is a toggleable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
 
-### Game Modders
+### Játék Modderek
 This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
 
-### Nintendo DS Online Players
+### Nintendo DS Online játékosok
 This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a toggleable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
 
-### Updates
+### Frissítések
 You will get pinged in [#announcements][announcements] anytime an update comes out. To access it, type `!togglerole Updates` in [#end-of-server][end-of-server].
 
 ## 🤖 Lightning Commands
@@ -75,16 +75,16 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 
 We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.
 
-## 👑 The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members will be hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
+## 👑 A Staff Team
+Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.
 
 @shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan
 
-## 🚪 Invite Link
-Here are links to our networks.
+## Meghívó Link
+Ezek a meghívó linkek a hálózatainkba.
 
-- Discord Server: <https://discord.gg/yD3spjv> (Keep in mind that anything publicly accessible on our server are logged by us and may be logged by others here)
-- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+- Discord szerver: <https://discord.gg/yD3spjv> (Tarts észben, hogy bármi ami publikusan elérhető a szerverünkön, loggolva van általunk, és loggolhatják mások is)
+- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (a régi reddit-hez: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
 
 <!-- Discord channel links -->
 [community-rules]: https://discord.com/channels/283769550611152897/718305959914766366

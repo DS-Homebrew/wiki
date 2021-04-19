@@ -40,7 +40,7 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 
    Installez YSMenu [ici](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Assurez-vous d'avoir `YSMenu.nds` (renommez `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` sur la racine de la microSD du linker
-1. Définissez `Utiliser nds-bootstrap (B4DS)` à `No`, donc le logiciel du linker sera utilisé à la place de nds-bootstrap
+1. Définissez `Utiliser nds-bootstrap` à `Non`, donc le micrologiciel de la flashcard sera utilisé à la place de nds-bootstrap
 
 ### Démarrage automatique de TWiLight Menu++
 1. Extraire le contenu de `Autoboot/(your flashcard)` à la racine de la carte microSD du linker

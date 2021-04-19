@@ -41,7 +41,7 @@ Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera af
 - Si vous avez des erreurs, c'est probablement une erreur avec la taille de l'image. Veuillez utiliser [tinypng](https://tinypng.com) pour réduire la taille
 
 #### Comment obtenir des jeux ?
-Vous pouvez télécharger des jeux homebrew depuis [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). Pour obtenir des dumps de vos jeux de détail :
+Vous pouvez télécharger des jeux homebrew depuis [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux de détail :
 - Sur DS, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux GBA et, si vous avez une flashcard Slot-2, des jeux DS
 - Sur DSi vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux DS et DSiWare
 - Sur 3DS, vous pouvez utiliser [GodMode9](https://github.com/d0k3/GodMode9/releases) pour dumper vos jeux DS, DSiWare et Console Virtuelle
