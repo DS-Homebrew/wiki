@@ -1,6 +1,5 @@
 ---
 lang: fr-FR
-layout: wiki
 section: twilightmenu
 title: Menu
 description: Guides pour utiliser et personnaliser TWiLight Menu++

@@ -4,12 +4,13 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installazione (3DS)
-description: Come installare TWiLight Menu++ su Nintendo 3DS
+long_title: Installing TWiLight Menu++ (3DS)
+description: How to install TWiLight Menu++ on the Nintendo 3DS
 tabs:
   - 
-    working-camera: Fotocamera funzionante
-    non-working-camera: Fotocamera non funzionante
-    manual: Manuale
+    working-camera: Working camera
+    non-working-camera: Non-working camera
+    manual: Manual
 ---
 
 Devi avere prima il Custom Firmware sul tuo 3DS, segui [3ds.hacks.guide](https://3ds.hacks.guide) per installarlo

@@ -1,24 +1,25 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installing (DSi)
-description: How to install TWiLight Menu++ on the Nintendo DSi
+title: Pemasangan (DSi)
+long_title: Pemasangan TWiLight Menu++ (DSi)
+description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 ---
 
-If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
+Jika kamu belum ada cara menjalankan homebrew di DSi-mu, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
 
-### Installing
-1. Download the latest `TWiLightMenu-DSi.7z` from [the releases page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. Copy the `roms` folder to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+### Pemasangan (Installing)
+1. Unduh versi terbaru `TWiLightMenu-DSi.7z` dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Ekstrak `TWiLightMenu-DSi.7z`
+1. Salin folder `_nds` ke root kartu SD-mu
+1. Salin berkas `BOOT.NDS` ke root kartu SD-mu
+1. Salin folder `roms` ke root kartu SD-mu
+1. **pengguna hiyaCFW:** Salin folder `title` ke root kartu SD-mu
 
-### Autobooting with Unlaunch
-1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-1. In the Unlaunch menu, go to `OPTIONS`
-1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen
+### Mulai sendiri (Autoboot) dengan Unlaunch
+1. Nyalakan DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
+1. Di menu Unlaunch, masuk ke `OPTIONS`
+1. Atur `NO BUTTON` atau tombol yang kamu pilih ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah

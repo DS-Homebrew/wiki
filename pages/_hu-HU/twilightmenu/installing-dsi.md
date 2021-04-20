@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (DSi)
+long_title: A TWiLight Menu++ telepítése (DSi)
 description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DSi-ra
 ---
 

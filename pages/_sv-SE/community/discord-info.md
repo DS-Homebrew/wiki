@@ -1,90 +1,90 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: community
 category: discord
 title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+description: Information för DS⁽ⁱ⁾ Mode Hacking Discord-servern
 ---
 
-### Welcome to the <u>DS⁽ⁱ⁾ Mode Hacking</u>!
+### Välkommen till <u>DS⁽ⁱ⁾ Mode Hacking</u>!
 
-We specialize in all things related to Nintendo DS(i) modding and homebrew. Here are a few examples of what we can help you do in this server:
+Vi är specialiserade på allt relaterad till Nintendo DS(i) modding och homebrew. Här är några exempel på vad vi kan hjälpa dig att göra i denna server:
 
-- Setting up the best kernel for your flashcart
-- Installing Custom Firmware (CFW) to your Nintendo DSi
-- Helping modify the TWL_FIRM on your Nintendo 3DS (allowing you to use widescreen, changing screen filtering amongst other things)
+- Ställa in den bästa kärnan för ditt minneskort
+- Installera Custom Firmware (CFW) till din Nintendo DSi
+- Hjälper till att modifiera TWL_FIRM på din Nintendo 3DS (så att du kan använda widescreen, ändra skärmfiltrering bland annat)
 
-We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
+Vi fokuserar också på andra saker som att skapa ROM-hacks, utveckla homebrew, och generella chatt.
 
-## Discord Channels
-We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
+## Discord-kanaler
+Vi har gott om kanaler för olika ämnen, så se till att du använder rätt kanal så att de andra inte blir översvämmade av orelaterade konversationer. Vi går igenom de viktiga, men du kan alltid kontrollera vad de andra kanalerna gör genom att titta på deras kanalämne:
 
-- [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server
-- [#useful-resources][useful-resources] - Need to understand something? Don't know a technical term?  Check here
-- [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Please check the pins, as there might be an explanation there already
-- [#community-meta][community-meta] - This channel is used for talking about the server itself
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed but are still enforced.  Use this to post your memes and stuff
+- [#community-rules][community-rules] - Detta är regelkanalen, den beskriver de standarder vi har när vi kommunicerar i denna server
+- [#useful-resources][useful-resources] - Behöver du förstå något? Vet du inte en teknisk term?  Kolla här
+- [#nds-modding-help][nds-modding-help] - Det är här du kan be om hjälp med allt DS Homebrew relaterat. Vänligen kontrollera alla pins, eftersom det kan finnas en förklaring där redan
+- [#community-meta][community-meta] - Denna kanal används för att prata om själva servern
+- [#end-of-server][end-of-server] - Detta är för generell snack. Reglerna är något mer avslappnade men tillämpas fortfarande.  Använd detta för att lägga upp dina memes och saker
 
-We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
+Vi har också [#other-nds-homebrew][other-nds-homebrew] för homebrew som inte har någon dedikerad kanal, [#nds-modding-discussion][nds-modding-discussion] för modding som inte berör andra kanaler, [#nds-gaming][nds-gaming] för allmänna DS grejer, och [#offtopic][offtopic] för alla ämnen i allmänhet.
 
-## Roles & User Flairs
-We have several roles you can get on this server, some of them being accessible with just a @Lightning command
+## Roller & Användarflairs
+Vi har flera roller du kan få på denna server, några av dem är tillgängliga med bara ett @Lightning kommando
 
-### Developers
-This role is given to those who have either assisted or led a project for the Nintendo DS scene. While preferable that it'd be open source, it's optional Post the Nintendo DS homebrew application in the channel that works the best (If it doesn't have one, post it in [#other-nds-homebrew][other-nds-homebrew]) and ping a moderator alongside your message.
+### Utvecklare
+Denna roll ges till dem som antingen har hjälpt eller lett ett projekt för Nintendo DS scenen. Även när vi föredrar att det har öppet källkod så är det inte nödvändigt. Lägg upp programmet Nintendo DS homebrew i kanalen som fungerar bäst (Om den inte har en, posta det i [#other-nds-homebrew][other-nds-homebrew]) och pinga en moderator tillsammans med ditt meddelande.
 
-Keep in mind that stolen code will not land you the role, and we may deny the request depending on the circumstances
+Tänk på att stulen kod inte kommer att landa dig rollen, och vi kan neka begäran beroende på omständigheterna
 
-### Artists/Designers
-This role is given to those with an understanding of how art works and have contributed to DS homebrew in a graphical way (for example, a WoodR4 skin or a TWiLight Menu++ subtheme). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
+### Konstnärer/Designers
+Denna roll ges till dem med en förståelse för hur konst fungerar och har bidragit till DS homebrew på ett grafiskt sätt (till exempel en WoodR4-stil eller ett TWiLight Menu++ undertema). När du har uppfyllt kravet, nämna oss i [#community-meta][community-meta] med exempel på nämnda arbeten och vi kommer att utvärdera det.
 
-### Helpers
-Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community. As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
+### Hjälpare
+Oavsett om det är människor vi anförtror speciella byggen för att testa eller någon som skulle hjälpa till i [#nds-modding-help][nds-modding-help] kanalen, Hjälpare är användare som ska representera servern som hjälpsamma medlemmar i gemenskapen. Som ett komplement till ovanstående genomsnittliga efterkvalitetskrav, det finns två möjliga sätt att få rollen: Testa & hjälpa till i [#nds-modding-help][nds-modding-help]
 
-For those testing, you must test at least a total of 7 games between GBARunner2 and nds-bootstrap. Check their specific channel topics for links to their compatibility sheet. For those helping, the amount of help you give isn't set in stone. We generally look at how grand your helping is (for example, saying "right click then hit edit" wouldn't help).
+För de som testar måste du testa minst 7 spel mellan GBARunner2 och nds-bootstrap. Kolla in deras specifika kanaltrådar för länkar till deras kompatibilitetsblad. För dem som hjälper, mängden hjälp du ger är inte fastställd. Vi tittar i allmänhet på hur stor din hjälp är (till exempel att säga "högerklicka och tryck sedan på redigera" hjälper inte mycket).
 
-Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. If we approve, you will gain the Helpers role. You must send at least one message every 4 months to keep it.
+När du har uppfyllt kravet, nämna oss i [#community-meta][community-meta] med exempel på nämnda arbeten och vi kommer att utvärdera det. Om vi godkänner, kommer du att få rollen Hjälpare. Du måste skicka minst ett meddelande var fjärde månad för att behålla det.
 
-### Translators
-Wanna translate a project of ours? Give yourself this role so you can stay up to date with the project's translation status. Our translation leader (Evie) will ping when new strings need to be translated.
+### Översättare
+Vill du översätta ett av våra projekt? Ge dig själv denna roll så att du kan hålla dig uppdaterad med projektets översättningsstatus. Vår översättningsledare (Evie) kommer att pinga när nya strängar behöver översättas.
 
 - TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>
-- dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
-- ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
+- dsi.cfw.guide hemsida: <https://crowdin.com/project/dsi-guide>
+- ds-homebrew.com wikin: <https://crowdin.com/project/ds-homebrew-wiki>
 
-This is a toggleable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
+Detta är en växlingsbar roll, via @Lightnings togglerole-kommando (`!togglerole Translators` i [#end-of-server][end-of-server])
 
-### Game Modders
-This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
+### Spelmoddare
+Denna roll ges till dem som har gjort en ROM Hack av anständig kvalitet för Nintendo DS, vet hur man korrekt patchar sina filer och har lagt upp sagt ROM hack på en mer permanent plats (såsom GameBanana eller modding forum). Posta din ROM hack i [#nds-retail-research][nds-retail-research] och pinga en moderator och vi kommer att utvärdera ROM hack.
 
-### Nintendo DS Online Players
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a toggleable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
+### Nintendo DS Online Spelare
+Detta är en hissad roll, avsedd för användare att bli pingade när någon vill spela ett Nintendo DS spel online (oavsett om det är Wiimmfi, AltWFC eller andra tjänster). Masspingrar kommer att förbjudas. Detta är en växlingsbar roll, via @Lightnings togglerole-kommando (`!togglerole Nintendo DS Online Players` i [#end-of-server][end-of-server])
 
-### Updates
-You will get pinged in [#announcements][announcements] anytime an update comes out. To access it, type `!togglerole Updates` in [#end-of-server][end-of-server].
+### Uppdateringar
+Du kommer att pingas i [#announcements][announcements] när som helst en uppdatering kommer ut. För att komma åt det, skriv `!togglerole Updates` i [#end-of-server][end-of-server].
 
-## 🤖 Lightning Commands
-Lightning is a discord bot made by @Frost_ which has useful commands for modding communities, including...
+## 🤖 Lightning kommandon
+Lightning är en discord bot gjord av @Frost_ som har användbara kommandon för modding communities, inklusive...
 
-- `!mod [console] [param2]` - This will allow you to view information on modding consoles, games and so on. param2 could be viewed for more specific information or get a list of homebrew.
-- `!tinydb [search term]` - Lookup 3DS homebrew on TinyDB
-- `!togglerole [role]` - This will toggle the two customizable roles we have: `Updates` and `Nintendo DS Online Players`
+- `!mod [console] [param2]` - Detta gör att du kan se information om moddningskonsoler, spel och så vidare. param2 kan ses för mer specifik information eller få en lista över homebrew.
+- `!tinydb [sökterm]` - Leta upp 3DS homebrew på TinyDB
+- `!togglerole [roll]` - Detta kommer att växla de två anpassningsbara roller vi har: `Uppdateringar` och `Nintendo DS Online Players`
 
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning-bot.gitlab.io/>
+Det finns massor av roliga kommandon du kan köra också, men behåll dem till [#end-of-server][end-of-server]. För att lära dig mer, kolla in deras hemsida: <https://lightning-bot.gitlab.io/>
 
-We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.
+Vi använder också Lightning för måttliga ändamål (för att logga varningar, sparkar, dämpningar och bann). Håll denna bots DM box öppen om vi någonsin behöver nå dig.
 
-## 👑 The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members will be hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
+## 👑 Teamet
+Dessa är de personer som underhåller servern. Om de säger att något är slutgiltigt, är det inte upp till debatt. Dessa medlemmar kommer att lyftas i medlemsnoteringen. För närvarande letar vi inte efter nya medlemmar. Be inte att vara en del av laget, eftersom det kommer att minska din chans att bli accepterad.
 
 @shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan
 
-## 🚪 Invite Link
-Here are links to our networks.
+## 🚪Inbjudningslänk
+Här finns länkar till våra nätverk.
 
-- Discord Server: <https://discord.gg/yD3spjv> (Keep in mind that anything publicly accessible on our server are logged by us and may be logged by others here)
-- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+- Discord-server: [https://discord. g/yD3spjv](https://discord.gg/yD3spjv) (Tänk på att allt offentligt tillgängligt på vår server loggas av oss och kan loggas av andra här)
+- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (för gammal reddit: [Mörk](https://dm.reddit.com/r/NDSBrew/) --- [Ljus](https://old.reddit.com/r/NDSBrew/))
 
 <!-- Discord channel links -->
 [community-rules]: https://discord.com/channels/283769550611152897/718305959914766366

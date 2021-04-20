@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Download Play / Pictochat in DS Classic Menu
-description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS Class Menu
+description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS Classic Menu
 ---
 
 If you're using a DSi console, you should already be able to launch those apps. Otherwise, if you have a 3DS, proceed below.

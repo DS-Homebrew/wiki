@@ -1,9 +1,8 @@
 ---
 lang: es-ES
-layout: wiki
 section: twilightmenu
-title: Inicio
-description: Guías de cómo usar y personalizar TWiLight Menu++
+title: Home
+description: Guides on how to use and customize TWiLight Menu++
 ---
 
 # ¡Bienvenido a la wiki de TWiLight Menu++!

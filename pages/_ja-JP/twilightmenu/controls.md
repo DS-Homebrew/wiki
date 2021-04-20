@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: コントロール
+long_title: TWiLight Menu++のコントロール
 description: TWiLight Menu++を使うためのコントロール
 ---
 
@@ -34,8 +35,30 @@ description: TWiLight Menu++を使うためのコントロール
       - <kbd class="face">Y</kbd>：チートの説明を表示する
       - <kbd class="l">L</kbd>：すべてのチートを無効にする
 
-#### CFWあり：DS ROM（SD上）／カートリッジ
-- 2秒ために<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd>：TWiLight Menu++に戻る（古い3DSを使う場合は、すべてのモデルで機能するとは限りません）
+#### DS ROM（nds-bootstrapを使って）
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>上</kbd> + <kbd class="face">X</kbd>を1秒間押して：画面を入れ替え
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">A</kbd>を3秒間押して：`ramDump.bin`として` sd:/_nds/nds-bootstrap`にRAMをダンプする
+- <kbd class="l">L</kbd> + <kbd>下</kbd> + <kbd>SELECT</kbd>：ゲーム内のメニューを開く
+   - RAMビューアー
+      - <kbd>上</kbd>・<kbd>下</kbd>：スクロール
+      - <kbd>左</kbd>・<kbd>右</kbd>：高速のスクロール
+      - <kbd class="face">A</kbd>：RAMエディターに入る
+      - <kbd class="face">B</kbd>：ゲーム内のメニューに戻る
+      - <kbd class="face">Y</kbd>：ジャンプするアドレスを指定
+        - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
+        - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
+        - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
+   - RAMエディター
+      - <kbd>上</kbd>・<kbd>下</kbd>・<kbd>左</kbd>・<kbd>右</kbd>：値を選択
+      - <kbd class="face">A</kbd>：選択される値を変更
+         - <kbd>上</kbd>・<kbd>下</kbd>：値を1hで増やす・減らす
+         - <kbd>左</kbd>・<kbd>右</kbd>：値を10hで増やす・減らす
+         - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：値の変更を終了
+      - <kbd class="face">B</kbd>：RAMビューアーに戻る
+      - <kbd class="face">Y</kbd>：ジャンプするアドレスを指定
+        - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
+        - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
+        - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
 
 #### 起動時のショートカット
 これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。

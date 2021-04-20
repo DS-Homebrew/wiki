@@ -1,11 +1,11 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: nds-bootstrap
-title: Home
-description: Information on how to use nds-bootstrap
+title: Accueil
+description: Informations sur l'utilisation de nds-bootstrap
 ---
 
-# Welcome to the nds-bootstrap Wiki
+# Bienvenue sur le Wiki nds-bootstrap
 
-nds-bootstrap is an open-source application that allows Nintendo DS / DSi ROMs and homebrew to be natively utilized rather than using an emulator. nds-bootstrap works on Nintendo DSi / 3DS SD cards through CFW and on Nintendo DS through flashcards.
+nds-bootstrap est une application open-source qui permet d'utiliser nativement des ROMs Nintendo DS / DSi et des homebrews plutôt que d'utiliser un émulateur. nds-bootstrap fonctionne sur les cartes SD Nintendo DSi / 3DS par le biais du CFW et sur Nintendo DS par le biais de linkers.

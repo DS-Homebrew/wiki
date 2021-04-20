@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: ds-index
 category: guides
@@ -14,110 +14,110 @@ tabs:
 Hardmodding är när du fysiskt lödar moderkortet till en SD-kortsadapter för att läsas på en dator. Detta är användbart för att återställa NAND-säkerhetskopior, visa NAND på din dator, etc...
 
 ### Nintendo DS
-[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Original DS moderkort med touch-points märkta](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
 För att hardmodda en Nintendo DSi / DSi XL (LL) så behöver du:
-   - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
+   - [Blyertspetsad lödkolv](https://www.amazon.com/dp/B01N4571Q6)
    - [Mycket fin koppartråd](https://www.amazon.com/dp/B01MXGNTA4), 28AWG eller mindre, helst 30AWG+
    - SD till microSD-adapter
    - En SD-kortläsare som kan läsa eMMC-chips. [T.ex den här läsaren.](https://www.amazon.com/dp/B006T9B6R2)
    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) och [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) om du använder Windows
    - En giltig NAND-säkerhetskopiering av DSi:n som du hardmoddar
-   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
+   - Att vara bekväm med att lödda till ytor som är så små som 0,5 mm i diameter
 
-#### DSi side A pinouts
-[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
-#### DSi side B pinouts
-[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
-#### DSi XL side B pinouts
-[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+#### DSi sida A pinouts
+[![DSi sida A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+#### DSi sida B pinouts
+[![DSi sida B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+#### DSi XL sida B pinouts
+[![DSi XL sida B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- You will need to solder the points on the motherboard to the microSD card adapter
-   - CMD to pin 2
-   - GND to pins 3 and 6
-   - CLK to pin 5
-   - DAT0 to pin 7
+- Du måste löda punkterna på moderkortet till microSD-kortets adapter
+   - CMD till pin 2
+   - GND till pin 3 och 6
+   - CLK till pin 5
+   - DAT0 till pin 7
 
-#### Soldered microSD adapter example
-[![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
+#### Exempel på löddad microSD-adapter
+[![microSD exempel](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Insert the microSD card adapter into your computer
-   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
+- Sätt in microSD-kortadaptern i datorn
+   - **VARNING** - Windows kommer att be dig formatera den: **FORMATERA INTE** - detta kan orsaka oreparerbara skador
 
-#### Removing the no$gba footer
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done by running the hiyaCFW helper application found [here](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+#### Att ta bort no$gba sidfot
+Du kommer först behöva ta bort NOCASH sidfoten från säkerhetskopian du flashar till din DSi. Detta kan göras genom att köra hiyaCFW hjälpprogram, vilket finns [här](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Download the version for the operating system you are using
-1. Run the script, selecting the NAND backup you wish to flash to your DSi
-1. Switch to NAND mode with the button to the left of the file path
-1. Click `Start` to create the NAND backup without the no$gba footer
+1. Ladda ner versionen för operativsystemet du använder
+1. Kör skriptet genom att välja den säkerhetskopia av NAND som du vill flasha till din DSi
+1. Växla till NAND-läge med knappen till vänster om sökvägen
+1. Klicka på `Start` för att skapa NAND-säkerhetskopian utan no$gba sidfot
 
-- Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
-   - Use this file as the NAND image you flash onto the DSi
+- När skriptet är klart bör det finnas en fil med ett långt namn som slutar i `-no-footer.bin` i mappen där din terminal är öppen
+   - Använd denna fil som NAND bilden du flashar på din DSi
 
 {% capture tab-windows %}
-1. Open Win32DiskImager
-1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
-1. Choose the device that is the DSi and click read
-1. Once it is done, click the folder icon, change the name to `NAND_1.bin` and read again
-1. Open HxD and drag both files into the editor. Go to the top bar, click "Analysis", click "File compare" from the drop down menu, then click "Compare".
-1. Choose to compare both files then click OK when done
-   - If it says "The chosen files are identical.", you are good to go to the next section
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
-1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
-1. Flash it with the `Write` button
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Öppna Win32DiskImager
+1. Klicka på mappikonen och bläddra till skrivbordet. I textrutan, skriv `NAND_0.bin`. När du väljer typ, välj `All types *.*`
+1. Välj den enhet som är din DSi och klicka på read
+1. När den är klar, klicka på mapp-ikonen, ändra namnet till `NAND_1.bin` och läs igen
+1. Öppna HxD och dra båda filerna till redigeraren. Gå till det övre fältet, klicka på "Analysis", klicka på "File compare" från rullgardinsmenyn och klicka sedan på "Compare".
+1. Välj att jämföra båda filerna och klicka sedan på OK när du är klar
+   - Om det står "The chosen files are identical.", du är redå att gå till nästa avsnitt
+   - Om det inte säger det, och båda NAND:erna inte är runt 240 MB, dumpa NAND_1 / NAND_0 igen
+1. Öppna Win32DiskImager, klicka på mappikonen och välj din befintliga NAND-backup som du skapade innan
+1. Flasha den med `Write` -knappen
+1. Koppla ur SD-kortadaptern och försök att sätta på din DSi
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 
 {% capture tab-other %}
-1. Work out where the SD card is mounted
+1. Kontrollera vart SD-kortet är monterat
    - Linux:
-      1. Unplug the SD card adapter
-      1. Run `lbslk` in a terminal
-      1. Plug in the SD card adapter
-      1. Run `lbslk` again
-      1. This time a new device should appear
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+      1. Koppla ur SD-kortadaptern
+      1. Kör `lbslk` i en terminal
+      1. Koppla in SD-kortadaptern
+      1. Kör `lbslk` igen
+      1. Den här gången ska en ny enhet visas
+         - Det kan kallas `/dev/sdb`, se till att du antecknar vad det kallas på *din* dator
 
    - macOS:
-      1. Unplug the SD card adapter
-      1. Run `df` in a terminal
-      1. Plug in the SD card adapter
-      1. Run `df` again
-      1. A new device should appear in the list
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+      1. Koppla ur SD-kortadaptern
+      1. Kör `df` i en terminal
+      1. Koppla in SD-kortadaptern
+      1. Kör `df` igen
+      1. En ny enhet ska visas i listan
+         - Det kan kallas `/dev/disk1s1`, se till att du antecknar vad det kallas på *din* dator
 
-1. Dump the NAND
-   - Run the following command in a terminal:
+1. Dumpa NAND
+   - Kör följande kommando i en terminal:
       - `cat {device-name} > nand0.bin`
-      - Replace `{device-name}` with the SD card mount location
-      - E.g `cat /dev/sdb > nand0.bin`
-      - Then run `cat {device-name} > nand1.bin`
+      - Ersätt `{device-name}` med monteringsplatsen för SD-kortet
+      - t.ex `cat /dev/sdb > nand0.bin`
+      - Kör sedan `cat {device-name} > nand1.bin`
 
 
-1. Compare NAND dumps
-   1. Run the following command:
+1. Jämför NAND-dumpar
+   1. Kör följande kommando:
       - Linux: `md5sum nand0.bin nand1.bin`
       - macOS: `md5 -r nand0.bin nand1.bin`
-   1. Check that the hash generated matches each other
-   1. If not, redump the NAND, adjusting the wiring if necessary
-   1. Keep on redumping the NAND until the hashes are identical
+   1. Kontrollera att hashen matchar varandra
+   1. Om inte, dumpa om NAND, justera ledningarna om nödvändigt
+   1. Fortsätt att dumpa NAND:en tills hasherna är identiska
 
-1. Flash NAND
-   1. Locate the NAND backup you created before on the console
-   1. Run the following command:
+1. Flasha NAND
+   1. Leta reda på den säkerhetskopia av NAND som du skapade tidigare på konsolen
+   1. Kör följande kommando:
       - `cat {existing-nand-backup} > {device-name}`
-      - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
-      - Replace `{device-name}` with the mount point of the SD card
+      - Ersätt `{existing-nand-backup}` med platsen och namnet på din gamla NAND-säkerhetskopia
+      - Ersätt `{device-name}` med monteringspunkten för SD-kortet
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+Här kan du koppla ur SD-kortadaptern och försök att sätta på din DSi. Om allt gick bra skulle din DSi ha startat till det tillstånd det var när säkerhetskopian skapades!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### Flashing av en säkerhetskopia av NAND
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

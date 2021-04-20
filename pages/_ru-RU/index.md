@@ -1,7 +1,7 @@
 ---
 lang: en-US
 layout: default
-title: Главная
+title: Home
 ---
 
 # Добро пожаловать в Вики (Википедию), посвященную хоумбрю Nintendo DS (DS-Homebrew Wiki)!

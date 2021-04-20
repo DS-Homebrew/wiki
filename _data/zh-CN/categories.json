@@ -2,11 +2,11 @@
 	"ds-index": [
 		{
 			"key": "guides",
-			"title": "Guides"
+			"title": "指南"
 		},
 		{
 			"key": "reference",
-			"title": "Reference"
+			"title": "引用"
 		}
 	],
 	"twilightmenu": [
@@ -29,12 +29,16 @@
 		{
 			"key": "uninstalling",
 			"title": "卸载"
+		},
+		{
+			"key": "indexes",
+			"title": "索引"
 		}
 	],
 	"nds-bootstrap": [
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "其它"
 		}
 	],
 	"gbarunner2": [],

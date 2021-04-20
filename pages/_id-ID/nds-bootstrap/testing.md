@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: nds-bootstrap
 category: other
-title: Compatibility List & Testing Tips
-description: Compatibility list and tips for testing games
+title: Daftar Kompabilitas & Tips Pengetasan
+description: Daftar kompatibilitas dan tip untuk pengetesan game
 ---
 
-### Compatibility List
-To view tested games, look [here](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `view only` and then `request edit access`.
+### Daftar Kompabilitas
+Untuk melihat game yang sudah di tes, lihat [disini](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika anda ingin berkontribusi, tekan `view only` lalu `equest edit access`.
 
-### Tips For Testing Games
-- Look for screen flickering or sound issues
-- If something looks off, run the game along a console not using nds-bootstrap to compare
-- Try as many features in the game as possible
-- Be thorough
+### Tips Untuk Pengetesan Game
+- Lihat layar yang berkelip atau gangguan suara
+- Jika ada yang aneh, jalankan game di konsol yang tidak menggunakan nds-bootstrap untuk dibandingkan
+- Copa semua fitur didalam game sebanyak yang bisa dilakukan
+- Berhati-Hatilah

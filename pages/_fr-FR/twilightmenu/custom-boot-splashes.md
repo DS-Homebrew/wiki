@@ -1,19 +1,19 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
-description: How to use custom splash screens for TWiLight Menu++
+title: Écrans de démarage personnalisés
+description: Comment utiliser des écrans de démarrage personnalisés pour TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+Vous pouvez utiliser des fichiers GIF personnalisés pour avoir des écrans de démarrage personnalisés lors du démarrage de TWiLight Menu++. Ils doivent être nommés `splashtop.gif` et `splashbottom. if` et être dans `sd:/_nds/TWiLightMenu/extras`, puis réglez `Ecran de démarage DSi` à `Customisé` dans les paramètres TWiLight Menu++.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-   - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+La plupart des fichiers GIF jusqu'à 256x192 devraient fonctionner, avec quelques exceptions :
+- Les fichiers GIF de plus de 1 Mio (mode DSi) ou 256 Kio (mode DS) peuvent ne pas jouer à pleine vitesse car ils seront décompressés sur le coup
+- Le total des deux GIFs doit être inférieur à environ 10 Mo (mode DSi) ou environ 2 Mo (mode DS)
+- Si les deux GIFs sont configurés pour boucler définitivement alors ils s'afficheront pendant 3 secondes, donc définissez un nombre de boucles sur au moins un pour contrôler le temps
+- Le drapeau d'entrée d'utilisateur est pris en charge, donc définissez-le et un long délai sur une image si vous voulez afficher un splash et attendre comme par défaut
+   - Seul le GIF en attente de saisie sera mis en pause, donc l'autre peut continuer à s'animer
+- Si vous utilisez des tables de couleurs locales, l'ensemble le la image doit être écrasé car il remplacera la palette entière de l'écran, et pas seulement la image actuel
+- Les images de texte et entrelacés ne fonctionneront pas

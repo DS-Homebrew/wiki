@@ -3,7 +3,8 @@ lang: he-IL
 layout: wiki
 section: gbarunner2
 title: שאלות ותשובות & פתרון בעיות
-description: שאלות ותשובות ופתרון בעיות עבור GBARunner2
+long_title: GBARunner2 FAQ & Troubleshooting
+description: FAQs and troubleshooting for GBARunner2
 ---
 
 #### איך אני יוצר ומוסיף מסגרות מותאמות אישית?

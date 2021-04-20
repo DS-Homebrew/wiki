@@ -28,21 +28,21 @@ Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS játék 
 1. Állítsd be az `1.1.1.1` címet másodlagos DNS-nek
 1. Szükséged lehet NoSSL patchelésre a játékodban, függően a játéktól
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### A DS ROM-ok kézi patchelése
+Kövesd az útmutatót, ha az ISP-t blokkolja az egyedi DNS szervereket, egyébként *erősen* ajánlott, hogy a fenti útmutatót kövesd.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
+Megjegyzés: A GNU/Linux és macOS felhasználók hasonló lépéseket kell kövessenek, de mono-t kell használjanak
 
-1. Download [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WFCPatcher is saved and open that folder
-1. Create a text file with the name `patch.bat`
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
-1. Now drag all the roms you wish to patch on to patch.bat
-1. Kész! the patched roms will be the ones ending in (wiimmfi)
+1. Töltsd le a [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)-t
+1. Másold a játék ROM-t amit patchelni a WFCPatcher mappájába és nyisd meg azt a mappát
+1. Hozz létre egy szövegfájlt `patch.bat` néven
+1. A fájlba írd be `wfcpatcher.exe %1 --domain wiimmfi.de` majd mentsd és zárd be (kicserélheted a wiimmfi.de egy másik URL-re, ha másik szervert szeretnél használni)
+1. Most húzd rá az összes romot amit patchelni szeretnél a patch.bat-ra
+1. Kész! A patchelt romok azok, amelyek (wiimmfi) végződéssel rendelkeznek
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
+Ne felejtsd, hogy távolítsd el az összes DNS-t amit mentettél a Wi-FI beállításokban, mielőtt csatlakoznál a patchelt ROM-mal
 
-### Troubleshooting and further reading
-If you are receiving any errors, you can enter the error code in wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Hibaelhárítás és további olvasnivalók
+Ha hibát kapsz, add be a hibakódot a wiimmfi [hibaelhárítójába](https://wiimmfi.de/error), hogy megtudd, hogyan javítható.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Részletesebb hibaelhárításért és további információért, mint például, hogyan csatlakozz online emulátorokkal elolvashatod a [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing)-ot, amit a [Mario Kart DS Network](https://discord.gg/pa9bea6) tagjai készítettek.

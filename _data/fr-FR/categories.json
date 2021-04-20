@@ -29,12 +29,16 @@
 		{
 			"key": "uninstalling",
 			"title": "Désinstallation"
+		},
+		{
+			"key": "indexes",
+			"title": "Indexations"
 		}
 	],
 	"nds-bootstrap": [
 		{
 			"key": "other",
-			"title": "Other"
+			"title": "Autres"
 		}
 	],
 	"gbarunner2": [],

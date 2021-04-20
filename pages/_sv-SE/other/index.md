@@ -1,7 +1,7 @@
 ---
 lang: sv-SE
 layout: wiki
-section: annat
+section: other
 title: Hem
 description: Information om andra DS-Homebrew projekt
 ---

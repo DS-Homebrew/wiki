@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Frissítés (3DS)
+long_title: A TWiLight Menu++ frissítése (3DS)
 description: Hogyan frissítsd a TWiLight Menu++-t Nintendo 3DS-en
 tabs:
   - 

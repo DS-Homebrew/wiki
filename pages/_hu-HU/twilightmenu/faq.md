@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: GYIK & hibaelhárítás
+long_title: TWiLight Menu++ GYIK & hibaelhárítás
 description: TWiLight Menu++ GYIK és hibaelhárítás
 ---
 
@@ -28,7 +29,10 @@ Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista f
 - Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
 
 #### Hogyan használhatom a csalásokat?
-Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa. Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
+Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa.
+- A 3DS-en az az adatbázis elérhető az Universal Updater appban, mint "NDS Cheat Databases." Ez automatikusan telepíti azt a szükséges helyre.
+
+Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 
 #### Hogyan jelenítek meg egy egyedi képet a felső képernyőn a DSi témában?
 Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából kerül megjelenítésre minden alkalommal, amikor a menü betöltésre kerül.
@@ -37,7 +41,7 @@ Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából 
 - Ha hibát tapasztalsz, az leginkább a képméret hiba. Használd a [tinypng](https://tinypng.com)-t a méret csökkentéséhez
 
 #### Hogyan szerezhetek játékokat?
-Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications)-ról tölthetsz le. A kereskedelmi játékaid dumpolásához:
+Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. A kereskedelmi játékaid dumpolásához:
 - DS-en használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a GBA játékaid dumpolásához, illetve ha van Slot-2 flashcard-od, DS játékokra
 - DSi-n használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a DS játékaid és a DSiWare dumpolásához
 - 3DS-n használhatod a [GodMode9](https://github.com/d0k3/GodMode9/releases)-t a DS játékaid, DSiWare és Virtual Console címek dumpolásához
@@ -70,8 +74,8 @@ Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en kereszt�
 | Game Boy Advance          | [GBARunner2][gbarunner2][^4], natív[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                   |
 | Game Gear                 | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                |
 | Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^6]               |
-| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sav`                   |
-| MPEG4 Videó               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                    |
+| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`               |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                    |
 | NES / Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                   |
 | PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                    |
 | RVID Videó                | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                    |

@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Telepítés (3DS)
+long_title: A TWiLight Menu++ telepítése (3DS)
 description: Hogyan telepítsd a TWiLight Menu++-t Nintendo 3DS-re
 tabs:
   - 

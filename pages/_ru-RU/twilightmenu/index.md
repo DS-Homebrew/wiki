@@ -1,8 +1,7 @@
 ---
 lang: en-US
-layout: wiki
 section: twilightmenu
-title: Главная
+title: Home
 description: Guides on how to use and customize TWiLight Menu++
 ---
 

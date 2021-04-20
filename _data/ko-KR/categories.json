@@ -29,6 +29,10 @@
 		{
 			"key": "uninstalling",
 			"title": "제거"
+		},
+		{
+			"key": "indexes",
+			"title": "Indexes"
 		}
 	],
 	"nds-bootstrap": [

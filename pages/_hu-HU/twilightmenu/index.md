@@ -1,6 +1,5 @@
 ---
 lang: hu-HU
-layout: wiki
 section: twilightmenu
 title: Kezdőlap
 description: Útmutató a TWiLight Menu++ használatáról és egyénivé tételéről

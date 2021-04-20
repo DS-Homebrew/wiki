@@ -29,6 +29,10 @@
 		{
 			"key": "uninstalling",
 			"title": "Eltávolítás"
+		},
+		{
+			"key": "indexes",
+			"title": "Indexek"
 		}
 	],
 	"nds-bootstrap": [

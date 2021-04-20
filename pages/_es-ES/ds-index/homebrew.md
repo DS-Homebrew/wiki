@@ -33,7 +33,7 @@ Una time bomb (bomba de relojería) es una "fecha de caducidad" que los distribu
 - Como depende del kernel y no del firmware, puedes cambiar a un kernel alternativo. Hay dos opciones disponibles:
    - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- El menú es algo feo y solo muestra archivos `.nds` pero tiene una mayor compatibilidad con juegos, se pueden usar trucos y no se necesita un memory pak
    - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Es bastante útil si quieres tener las ROMs de consolas distintas en un mismo menú. Hay dos formas de abrir juegos con TWiLight Menu++:
-      - Con B4DS: Necesitas un Memory Expansion Pak para tener mayor compatibilidad con los juegos pero no soporta trucos. Sin embargo, funciona en las mismas flashcards que TWiLight Menu++
+      - With nds-bootstrap on flashcard: Requires a Memory Expansion Pak for extended game compatibility and does not support cheats. Sin embargo, funciona en las mismas flashcards que TWiLight Menu++
       - Con YSMenu: Tienes todos los beneficios de YSMenu junto al menú de TWiLight Menu++, pero los trucos aún no están disponibles
 
 Personalmente, recomendamos YSMenu (con TWiLight Menu++ si lo prefieres), gracias a la alta compatibilidad y no necesitar un Memory Expansion Pak. Si quieres instalar YSMenu, DeadSkullzJr ha creado un [repositorio en Dropbox](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) con todos los kernels primarios ya preparados para tu flashcard. Solo necesitas arrastarlo a la raíz de tu tarjeta SD y habrás terminado. Tienes instrucciones de cómo instalar TWiLight Menu++ [en la página de instalación para flashcards](../twilightmenu/installing-flashcard).

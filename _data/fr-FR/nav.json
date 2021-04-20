@@ -4,7 +4,7 @@
 				"url": "/"
 		},
 		{
-				"title": "Projects",
+				"title": "Projets",
 				"items": [
 						{
 								"title": "TWiLight Menu++",
@@ -19,7 +19,7 @@
 								"url": "/gbarunner2"
 						},
 						{
-								"title": "Other Projects",
+								"title": "Autres projets",
 								"url": "/other"
 						}
 				]
@@ -29,7 +29,7 @@
 				"url": "/ds-index"
 		},
 		{
-				"title": "Community Info",
+				"title": "Informations sur la communauté",
 				"url": "/community"
 		}
 ]

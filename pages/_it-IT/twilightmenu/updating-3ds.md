@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Aggiornamento (3DS)
-description: Come aggiornare TWiLight Menu++ su Nintendo 3DS
+long_title: Updating TWiLight Menu++ (3DS)
+description: How to update TWiLight Menu++ on the Nintendo 3DS
 tabs:
   - 
     universal-updater: Universal-Updater

@@ -101,7 +101,7 @@ Setelah selesai mengekstrak kemasannya, kamu dapat menyunting (edit) `sd:/_nds/n
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Ekstrak isi dari folder `for Slot-1 microSD` di root kartu microSD flashard-mu, dan (jika foldernya ada) isi dari folder `for 3DS SD card` taruh juga di root kartu SD 3DS-mu.<br>*Root atau Akar adalah bagian pangkal buka folder
+1. Ekstrak isi dari folder `for Slot-1 microSD` di root kartu microSD flashcard-mu, dan (jika foldernya ada) isi dari folder `for 3DS SD card` taruh juga di root kartu SD 3DS-mu.<br>*Root atau Akar adalah bagian pangkal awal folder
 
 Setelah selesai mengekstrak kemasan untuk kartunya, kamu dapat menyunting `sd:/_nds/ntr_forwarder.ini` untuk mengubah pengaturan. Ini tidak bisa kalau di Acekard RPG, R4 DS, dan R4i Gold RTS.
 - `NTRCLOCK`: Jika diubah ke `0` atau tombol <kbd class="face">A</kbd> ditahan, layar awal nyala (boot) DSi akan muncul daripada splash DS yang biasa, dan laju waktu (clock speed) TWL akan dipakai, jadi sendatnya hilang

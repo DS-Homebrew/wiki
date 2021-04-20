@@ -29,6 +29,10 @@
 		{
 			"key": "uninstalling",
 			"title": "Pelepasan (Uninstall)"
+		},
+		{
+			"key": "indexes",
+			"title": "Indeks"
 		}
 	],
 	"nds-bootstrap": [

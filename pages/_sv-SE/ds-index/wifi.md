@@ -28,19 +28,19 @@ Det finns guider för att skapa ett hotspot kompatibelt med DS spel på macOS oc
 1. Ställ in `1.1.1.1` som din sekundära DNS
 1. Du kan behöva NoSSL patchad in i ditt spel just nu, beroende på spelet
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### Manuellt patcha dina DS ROM
+Följ guiden nedan om din ISP blockerar anpassade DNS-servrar, annars rekommenderas det *starkt* att följa guiden ovan.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
+Obs: Användare av GNU/Linux och macOS kan följa mycket liknande instruktioner, men måste använda mono
 
-1. Download [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WFCPatcher is saved and open that folder
-1. Create a text file with the name `patch.bat`
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
-1. Now drag all the roms you wish to patch on to patch.bat
-1. Done! the patched roms will be the ones ending in (wiimmfi)
+1. Ladda ner [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Kopiera ROMen av spelet du vill patcha till samma mapp där WFCPatcher sparas och öppna mappen
+1. Skapa en textfil med namnet `patch.bat`
+1. I filen, ange `wfcpatcher.exe %1 --domain wiimmfi.de`, spara och stäng sedan (du kan ersätta wiimmfi.de med en annan URL, om du vill använda en annan server)
+1. Dra nu alla ROMs du vill patcha på till patch.bat
+1. Klart! De patchade ROMen kommer att vara dem som slutar i (wiimmfi)
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM
+Glöm inte att ta bort alla DNS som du kanske har sparat på dina Wi-Fi-inställningar innan du försöker ansluta till den patchade ROMen
 
 ### Felsökning och vidare läsning
 Om du får några fel så kan du ange felkoden i wiimmfi's [troubleshooter](https://wiimmfi.de/error) för att åtgärda det.

@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Irányítás
+long_title: TWiLight Menu++ irányítás
 description: A TWiLight Menu++ irányítása
 ---
 
@@ -34,8 +35,30 @@ description: A TWiLight Menu++ irányítása
       - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
       - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 
-#### CFW-vel: DS ROM-ok (SD) / kártyákon
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> 2 másodpercig: Visszatérés a TWiLight Menu++-ba (Előfordulhat, hogy nem működik néhány O3DS modellen)
+#### DS ROM-ok (az nds-bootstrap használatával)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> egy másodpercig: Képernyők váltása
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> három másodpercig: RAM dumpolása az `sd:/_nds/nds-bootstrap` útvonalra, mint `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd>LE</kbd> + <kbd>SELECT</kbd>: Játékonkénti menü megnyitása
+   - RAM Nézegető
+      - <kbd>Fel</kbd> / <kbd>Le</kbd>: Görgetés
+      - <kbd>Bal</kbd> / <kbd>Jobb</kbd>: Gyorsgörgetés
+      - <kbd class="face">A</kbd>: Belépés a RAM Szerkesztőbe
+      - <kbd class="face">B</kbd>: Vissza a játékonkénti menübe
+      - <kbd class="face">Y</kbd>: Adott memóriacímhez ugrás
+        - <kbd>Fel</kbd> / <kbd>Le</kbd>: Kiválasztott érték növelése / csökkentése
+        - <kbd>Bal</kbd> / <kbd>Jobb</kbd>: Érték választása
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Vissza a RAM Szerkesztőbe / Nézegetőbe a megadott címen
+   - RAM Szerkesztő
+      - <kbd>Fel</kbd> / <kbd>Le</kbd> / <kbd>Bal</kbd> / <kbd>Jobb</kbd>: Érték választása
+      - <kbd class="face">A</kbd>: Kiválasztott érték módosítása
+         - <kbd>Up</kbd> / <kbd>Down</kbd>: Érték növelése / csökkentése 1h-val
+         - <kbd>Bal</kbd> / <kbd>Jobb</kbd>: Érték növelése / csökkentése 10h-val
+         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Érték módosítás befejezése
+      - <kbd class="face">B</kbd>: Vissza a RAM Nézegetőbe
+      - <kbd class="face">Y</kbd>: Adott memóriacímhez ugrás
+        - <kbd>Fel</kbd> / <kbd>Le</kbd>: Kiválasztott érték növelése / csökkentése
+        - <kbd>Bal</kbd> / <kbd>Jobb</kbd>: Érték választása
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Vissza a RAM Szerkesztőbe / Nézegetőbe a megadott címen
 
 #### Indítási gyorsbillentyűk
 Ezeket a TWiLight Menu++ kezdőképernyőjén kell nyomni / rögtön a Nintendo DSi keződképernyő után.

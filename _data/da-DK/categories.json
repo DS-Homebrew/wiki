@@ -29,6 +29,10 @@
 		{
 			"key": "uninstalling",
 			"title": "Afinstallation"
+		},
+		{
+			"key": "indexes",
+			"title": "Indexes"
 		}
 	],
 	"nds-bootstrap": [

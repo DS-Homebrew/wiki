@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: FAQ & Rozwiązywanie problemów
-description: FAQ i rozwiązywanie problemów dla TWilLight Menu++
+long_title: TWiLight Menu++ FAQ & Troubleshooting
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 Dla więcej FAQ, odwiedź [wątek na GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
@@ -28,19 +29,22 @@ Go into TWLMenu++ Settings, and disable `Update recently played list`.
 - Jeśli gra działała wcześniej, usuń foldery `fatTable` i `patchOffsetCache` w `sdL/_nds/nds-bootstrap/`
 
 #### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
+- On the 3DS, this database is available in the Universal Updater app as "NDS Cheat Databases." This will automatically install it to the required location.
+
+Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
 #### How do I show a custom picture on the top screen of the DSi theme?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
 
-- Obrazki nie mogą być większe niż 208x156
-- Jeśli wystąpił jakiś błąd, najczęstszym problemem jest rozmiar obrazka. Użyj [tinypng](https://tinypng.com), aby zmniejszyć rozmiar
+- The images(s) must be no bigger than 208x156
+- If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
 
 #### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). To get dumps of your retail games:
-- Na DSie możesz użyć [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) by tworzyć zrzuty gier GBA i, jeśli masz kartę flashcard Slot-2, gry DS
-- Na DSi możesz użyć [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) by zrzucać swoje gry DS i DSiWare
-- Na 3DS możesz użyć [GodMode9](https://github.com/d0k3/GodMode9/releases), by zrzucać swoje gry DS, DSiWare i tytuły Virtual Console
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
+- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcard, DS games
+- On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
+- On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### Can I get the save files from my game cards onto my SD card or vice versa?
 Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.

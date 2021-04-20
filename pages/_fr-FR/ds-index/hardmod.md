@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: How to hardmod a Nintendo DSi
+description: Comment hardmoder une Nintendo DSi
 tabs:
   - 
     windows: Windows
@@ -14,110 +14,110 @@ tabs:
 Le Hardmodding est quand vous soudez physiquement la carte mère de la Nintendo DSi à un adaptateur de carte SD afin d'être lu sur un ordinateur. Ceci est utile pour restaurer les sauvegardes de la NAND, pour visualiser la NAND sur votre PC, etc...
 
 ### Nintendo DS
-[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Carte mère DS originale avec points tactiles étiquetés](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi / DSi XL (LL) you will need:
-   - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
-   - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
-   - SD to microSD adapter
-   - An SD card reader able to read eMMC chips running in single data-line mode. [Here's a known working one](https://www.amazon.com/dp/B006T9B6R2)
-   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) and [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) if on Windows
-   - A valid NAND backup of the DSi you are hardmodding
-   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
+Pour hardmod une Nintendo DSi / DSi XL (LL) vous aurez besoin de :
+   - [Fer à souder à pointe fine](https://www.amazon.com/dp/B01N4571Q6)
+   - [Fil très fin](https://www.amazon.com/dp/B01MXGNTA4), 28AWG ou plus petit, de préférence 30AWG+
+   - Adaptateur SD vers microSD
+   - Un lecteur de carte SD capable de lire les puces eMMC en mode ligne de données unique. [Voici un qui fonctionne](https://www.amazon.com/dp/B006T9B6R2)
+   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) et [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) si sur Windows
+   - Une sauvegarde NAND valide du DSi que vous êtes hardmodding
+   - Être confortable à souder aux pads aussi petits que 0,5mm de diamètre
 
-#### DSi side A pinouts
-[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
-#### DSi side B pinouts
-[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
-#### DSi XL side B pinouts
-[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+#### Pins DSi côté A
+[![Pins DSi côté A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+#### Pinces DSi côté B
+[![Pins DSi côté B](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+#### Pinces DSi XL côté B
+[![Pins DSi XL côté B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- You will need to solder the points on the motherboard to the microSD card adapter
-   - CMD to pin 2
-   - GND to pins 3 and 6
-   - CLK to pin 5
-   - DAT0 to pin 7
+- Vous devrez souder les points de la carte mère à l'adaptateur de carte microSD
+   - CMD à la broche 2
+   - GND aux broches 3 et 6
+   - CLK à broche 5
+   - DAT0 à la broche 7
 
-#### Soldered microSD adapter example
+#### Exemple d'adaptateur microSD soudé
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Insert the microSD card adapter into your computer
-   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
+- Insérez l'adaptateur de carte microSD dans votre ordinateur
+   - **ATTENTION** - Windows vous demandera de le formater : **NE PAS le formater** - cela pourrait causer des dommages irréparables
 
-#### Removing the no$gba footer
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done by running the hiyaCFW helper application found [here](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+#### Suppression du pied de page no$gba
+Vous devrez d'abord retirer le pied de page NOCASH de la sauvegarde que vous flashez sur la DSi. Cela peut être fait en exécutant l'application d'aide hiyaCFW trouvée [ici](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Download the version for the operating system you are using
-1. Run the script, selecting the NAND backup you wish to flash to your DSi
-1. Switch to NAND mode with the button to the left of the file path
-1. Click `Start` to create the NAND backup without the no$gba footer
+1. Téléchargez la version pour le système d'exploitation que vous utilisez
+1. Exécutez le script, sélectionnez la sauvegarde de la NAND que vous souhaitez installer sur votre DSi
+1. Basculer en mode NAND avec le bouton à gauche du chemin du fichier
+1. Cliquez sur `Start` pour créer la sauvegarde de la NAND sans le pied de page no$gba
 
-- Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
-   - Use this file as the NAND image you flash onto the DSi
+- Une fois le script terminé, il devrait y avoir un fichier avec un nom long se terminant par `-no-footer.bin` dans le dossier où votre terminal est ouvert
+   - Utilisez ce fichier comme image de la NAND que vous installez sur le DSi
 
 {% capture tab-windows %}
-1. Open Win32DiskImager
-1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
-1. Choose the device that is the DSi and click read
-1. Once it is done, click the folder icon, change the name to `NAND_1.bin` and read again
-1. Open HxD and drag both files into the editor. Go to the top bar, click "Analysis", click "File compare" from the drop down menu, then click "Compare".
-1. Choose to compare both files then click OK when done
-   - If it says "The chosen files are identical.", you are good to go to the next section
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
-1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
-1. Flash it with the `Write` button
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Ouvrir Win32DiskImager
+1. Cliquez sur l'icône dossier et naviguez jusqu'à votre bureau. Dans la zone de texte, écrivez `NAND_0.bin`. Lors de la sélection du type, choisissez `Tous les types *.*`
+1. Choisissez l'appareil qui est le DSi et cliquez sur Lire
+1. Une fois cela fait, cliquez sur l'icône du dossier, changez le nom en `NAND_1.bin` et lisez à nouveau
+1. Ouvrez HxD et faites glisser les deux fichiers dans l'éditeur. Allez dans la barre du haut, cliquez sur "Analyse", cliquez sur "Comparaison de fichiers" dans le menu déroulant, puis cliquez sur "Comparer".
+1. Choisissez de comparer les deux fichiers, puis cliquez sur OK lorsque vous avez terminé
+   - Si cela dit "Les fichiers choisis sont identiques", vous pouvez aller à la section suivante
+   - Si ce n'est pas le cas, et que les deux NAND ne sont pas autour de 240 Mo, rechargez NAND_1 / NAND_0 à nouveau
+1. Ouvrez Win32DiskImager, cliquez sur l'icône de dossier et choisissez votre sauvegarde NAND existante que vous avez créée avant
+1. Flasher le avec le bouton `Write`
+1. Débranchez l'adaptateur de carte SD et essayez d'allumer la DSi
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 
 {% capture tab-other %}
-1. Work out where the SD card is mounted
+1. Déterminer où la carte SD est montée
    - Linux:
-      1. Unplug the SD card adapter
-      1. Run `lbslk` in a terminal
-      1. Plug in the SD card adapter
-      1. Run `lbslk` again
-      1. This time a new device should appear
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+      1. Débranchez l'adaptateur de carte SD
+      1. Exécutez `lbslk` dans un terminal
+      1. Branchez l'adaptateur de carte SD
+      1. Exécutez à nouveau `lbslk`
+      1. Cette fois un nouvel appareil devrait apparaître
+         - Il peut s'appeler `/dev/sdb`, assurez-vous de noter ce qu'il est appelé sur *votre ordinateur*
 
    - macOS:
-      1. Unplug the SD card adapter
-      1. Run `df` in a terminal
-      1. Plug in the SD card adapter
-      1. Run `df` again
-      1. A new device should appear in the list
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+      1. Débranchez l'adaptateur de carte SD
+      1. Exécutez `df` dans un terminal
+      1. Branchez l'adaptateur de carte SD
+      1. Exécutez à nouveau `df`
+      1. Un nouvel appareil devrait apparaître dans la liste
+         - Il peut s'appeler `/dev/disk1s1`, assurez-vous de noter ce qu'il est appelé sur *votre* ordinateur
 
-1. Dump the NAND
-   - Run the following command in a terminal:
+1. Dump de la NAND
+   - Exécutez la commande suivante dans un terminal :
       - `cat {device-name} > nand0.bin`
-      - Replace `{device-name}` with the SD card mount location
+      - Remplacer `{device-name}` par l'emplacement de montage de la carte SD
       - E.g `cat /dev/sdb > nand0.bin`
-      - Then run `cat {device-name} > nand1.bin`
+      - Ensuite, exécutez `cat {device-name} > nand1.bin`
 
 
-1. Compare NAND dumps
-   1. Run the following command:
+1. Comparer les dumps NAND
+   1. Exécutez la commande suivante :
       - Linux: `md5sum nand0.bin nand1.bin`
       - macOS: `md5 -r nand0.bin nand1.bin`
-   1. Check that the hash generated matches each other
-   1. If not, redump the NAND, adjusting the wiring if necessary
-   1. Keep on redumping the NAND until the hashes are identical
+   1. Vérifier que le hachage généré correspond à l'autre
+   1. Sinon, réduire la NAND, régler le câblage si nécessaire
+   1. Continuez à réduire la NAND jusqu'à ce que les hachages soient identiques
 
-1. Flash NAND
-   1. Locate the NAND backup you created before on the console
-   1. Run the following command:
-      - `cat {existing-nand-backup} > {device-name}`
-      - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
-      - Replace `{device-name}` with the mount point of the SD card
+1. Flasher la NAND
+   1. Localisez la sauvegarde de la NAND que vous avez créée avant sur la console
+   1. Exécutez la commande suivante :
+      - `chat {existing-nand-backup} > {device-name}`
+      - Remplacez `{existing-nand-backup}` par l'emplacement et le nom de votre ancienne sauvegarde NAND
+      - Remplacer `{device-name}` par le point de montage de la carte SD
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+À ce stade, vous pouvez débrancher l'adaptateur de carte SD et essayer d'allumer la DSi. Si tout s'est bien passé, le DSi aurait dû démarrer à l'état où il était lorsque la sauvegarde a été créée !
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### Flasher la sauvegarde de la NAND
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

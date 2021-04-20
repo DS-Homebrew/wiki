@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: 更新（DSi）
+long_title: TWiLight Menu++を更新（DSi）
 description: ニンテンドーDSiでTWiLight Menu++を更新する方法
 ---
 

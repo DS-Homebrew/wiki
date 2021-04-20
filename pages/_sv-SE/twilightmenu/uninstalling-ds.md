@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: Avinstallering (DS & DSi)
+long_title: Avinstallera TWiLight Menu++ (DS & DSi)
 description: Hur man avinstallerar TWiLight Menu++ på Nintendo DSi och DS minneskort
 ---
 

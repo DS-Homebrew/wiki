@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: customization
-title: סקינים לDSi/3DS - התאמה אישית של SFX
+title: DSi / 3DS Skins - Custom SFX
 description: כיצד להשתמש במוזיקת רקע מותאמת אישית ואפקטי סאונד בסקינים של DSi ו3DS עבור TWiLight Menu++
 ---
 

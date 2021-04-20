@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: FAQ & Felsökning
+long_title: TWiLight Meny++ FAQ & Felsökning
 description: Vanliga frågor och felsökning för TWiLight Menu++
 ---
 
@@ -28,7 +29,10 @@ Gå in i TWLMenu++'s inställningar, och inaktivera `Uppdatera 'nyligen spelat' 
 - Om det fungerade tidigare tar du bort `fatTable` och `patchOffsetCache` i `sd:/_nds/nds-bootstrap/`
 
 #### Hur använder jag fusk?
-Du måste ha en fusk DB i form av en `usrcheat.dat` fil i mappen `sd:/_nds/TWiLightMenu/extras/`. Den mest uppdaterade fuskdatabasen är [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/). Alternativt kan du använda [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) för att skapa din egna fusk DB.
+Du måste ha en fusk DB i form av en `usrcheat.dat` fil i mappen `sd:/_nds/TWiLightMenu/extras/`. Den mest uppdaterade fuskdatabasen är [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
+- På 3DS finns denna databas tillgänglig i appen Universal Updater som "NDS Cheat Databases". Detta kommer automatiskt att installera den till önskad plats.
+
+Alternativt kan du använda [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) för att skapa din egna fusk DB.
 
 #### Hur visar jag en anpassad bild på den översta skärmen i DSi temat?
 En slumpmässig `.png` bild i `sd:/_nds/TWiLightMenu/dsimenu/photos/` visas varje gång menyn laddas.
@@ -37,7 +41,7 @@ En slumpmässig `.png` bild i `sd:/_nds/TWiLightMenu/dsimenu/photos/` visas varj
 - Om du har fel är det sannolikt ett fel med bildstorleken. Använd [tinypng](https://tinypng.com) för att minska storleken
 
 #### Hur får jag spel?
-Du kan ladda ner homebrew-spel från [Universal-DB](https://db.universal-team.net/ds) och [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications). För att få dumpar av dina retail spel:
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). För att få dumpar av dina retail spel:
 - På DS kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina GBA-spel och, om du har ett Slot-2 minneskort, DS spel
 - På DSi kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina DS spel och DSiWare
 - På 3DS kan du använda [GodMode9](https://github.com/d0k3/GodMode9/releases) för att dumpa dina DS-spel, DSiWare och Virtual Console-titlar

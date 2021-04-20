@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: community
 category: discord
@@ -129,4 +129,4 @@ Make sure to put spoilers, malware and content intended to shock or scare in spo
 
 If you don't understand any of the rules, feel free to ask.
 
-Last update: August 19th, 2020
+Utoljára frissítve: 2020 Augusztus 19.

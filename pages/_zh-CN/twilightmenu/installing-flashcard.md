@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: 安装说明(烧录卡)
+long_title: 安装 TWiLight Menu++ (烧录卡)
 description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
@@ -39,7 +40,7 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
    点击 [这里](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)安装YSMenu
       - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`文件) 和 `TTMenu` 目录
-1. 将 `Use nds-bootstrap (B4DS)` 设置为 `No`, 这样烧录卡固件就会取代nds-bootstrap
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
 
 ### 自动启动TWiLight Menu++
 1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录

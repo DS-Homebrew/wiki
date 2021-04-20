@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: 조작법
-description: TWiLight Menu++의 조작법
+long_title: TWiLight Menu++ Controls
+description: Controls for using TWiLight Menu++
 ---
 
 #### 닌텐도 DSi, 닌텐도 3DS, 세가 새턴, 홈브류 런처 테마
@@ -34,8 +35,30 @@ description: TWiLight Menu++의 조작법
       - <kbd class="face">Y</kbd>: 치트 설명 보기
       - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
 
-#### 커스텀 펌웨어: SD에 있는 DS ROM파일 / 카트
-- 2초 동안 <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd>: TWiLight Menu++로 돌아가기 (구형 3DS를 이용중일 때에는, 모든 모델에서 작동하지 않습니다.)
+#### DS ROMs (using nds-bootstrap)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> for 1 second: Swap the screens
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 3 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd> / <kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd> / <kbd>Right</kbd>: Fast scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd> / <kbd>Down</kbd> / <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease value by 1h
+         - <kbd>Left</kbd> / <kbd>Right</kbd>: Increase / Decrease value by 10h
+         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
+        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
 
 #### 부팅 단축키
 아래는 TWiLight Menu++ 시작화면 실행중 또는, DSi 시작화면이 나온 즉시에 사용할 수 있는 단축키입니다.

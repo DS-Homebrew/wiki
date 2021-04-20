@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: 설치하기 (Flashcard)
-description: 닌텐도 DS flashcard에서 TWiLight Menu++를 설치하는 방법
+long_title: Installing TWiLight Menu++ (Flashcard)
+description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ---
 
 ### 설치하기
@@ -39,7 +40,7 @@ description: 닌텐도 DS flashcard에서 TWiLight Menu++를 설치하는 방법
 
    [여기](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)에서 YSMenu를 설치하도록 합니다.
       - flashcard microSD 루트에 `YSMenu.nds`(없으면 `TTMenu.dat`에서 이름을 변경하면 됨.)와 `TTMenu` 폴더가 있는지 확인합니다.
-1. `nds-bootstrap 사용 (B4DS)`를 `비활성화`로 설정해서 nds-bootstrap 대신 Flashcard 펌웨어를 쓰도록 합니다.
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
 
 ### TWiLight Menu++ 자동 부팅하기
 1. `Autoboot/(사용하는 flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.

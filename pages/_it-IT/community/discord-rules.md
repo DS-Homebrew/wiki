@@ -37,96 +37,96 @@ Tra gli esempi figurano:
 ### NON inviare in modo casuale link di invito di server Discord senza contesto & senza esplicito permesso personale
 
 - Fornire link ad altri server di discord su richiesta è permesso, ma si prega di chiedere ad un moderatore in privato prima di pubblicizzare un server senza contesto
-- DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules. Mass-DM advertisement (with proof) will land you a ban
-- Breaking this rule will result in your message containing the advertisement being deleted
-- Joining for the purpose of advertising your discord server will land you a ban.
+- Gli annunci DM non sono consentiti, sia dai Termini di Servizio di Discord che dalle regole del nostro server. Annunci DM continui (con prove) garantiranno un ban
+- Infrangere questa regola comporterà la cancellazione del tuo messaggio contenente la pubblicità
+- Unirsi a questo server discord allo scopo di pubblicizzare il vostro server vi garantirà un ban.
 
 
-### Keep conversations within their respective channels.
+### Mantieni le conversazioni all'interno dei rispettivi canali.
 
-- Even if they are related, sometimes another channel would be more suitable.
-- Sometimes, even an entirely different server is preferable. We don't have the answers to everything.
-   - Different related servers are linked to in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283)
-
-
-### You may not have an alternative account on this server
-
-- One account per person at a time (except when approved by a staff member). Be sure to leave this server on your other account before joining with a new one.
-- Punishments apply to the person, not the account. Any subsequent accounts made for the purposes of punishment evasion will result in both accounts being banned. ‎
-
-### Do NOT recommend video guides.
-
-- Video guides aren't maintained very well (which leads to the videos being outdated and unreliable in the long term) and negligent for the sake of "user accessibility".
-- We have a list of guides in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) you could use instead. ‎
-
-### Keep names exclusively alphanumeric, to keep them easy to read and tag.
-
-- Users with an (normally) unmentionable or unreadable username/nickname by normal means will be assigned a new nickname.
-   - If we have to flip our displays to read your name, it's an abnormal way.
-   - If we have to get your User ID in order to mention you, it's an abnormal way.
-- Avoid purposely putting characters in the beginning of the name to change your spot in the member list. You'll get those characters removed.
+- Anche se sono collegate, a volte un altro canale sarebbe più adatto.
+- A volte, anche un server completamente diverso è preferibile. Non abbiamo le risposte a tutto.
+   - I server correlati diversi sono tenuti su [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283)
 
 
-### Please be courteous when using Direct Messages
+### Non avere un altro account in questo server
 
-- Things that happen in Direct Messages **are** the business of the server since unless the two share another server or they are friends, they wouldn't be able to reach each other.
-- Examples include DM advertising, purposely redirecting users to DMs from normal chat (such as support) to break rules or harassment.
-   - There needs to be evidence of doing so, such as other people reporting it too, implications on the server or anything of the sort. However, when you do your report, cover any links. Do not give the DM advertiser more popularity than they already got by Direct Messaging everyone.
-- Even if your actions aren't malicious, sometimes they could be disturbing.
-   - Please ask before sending a Direct Message to others and respect those not wanting to communicate. ‎
+- Un account a persona per volta (ad eccezione che venga approvato da un membro dello staff). Assicurati di lasciare questo server sul tuo altro account prima di unirti a uno nuovo.
+- Le punizioni si applicano alla persona, non all'account. Qualsiasi account successivo effettuata a fini di evasione della punizione comporterà il ban per entrambi gli account. ‎
 
-### Keep piracy discussion to a minimum
+### NON consigliare guide video.
 
-- Do not link to piracy websites, upload pirated content, or encourage others to pirate
-- For more information on what is piracy or not, we suggest reading this: https://3ds.eiphax.tech/piracy.html (Disclaimer: We are not lawyers)
+- Le guide video non sono mantenute molto bene (cosa che fa sì che i video siano obsoleti e inaffidabili a lungo termine) e negligenti per l'"accessibilità dell'utente".
+- Abbiamo un elenco di guide in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) che puoi usare. ‎
 
+### Mantieni i nomi esclusivamente alfanumerici, per renderli più facili da leggere e da taggare.
 
-### No Adult Content
-
-- Do not post pornography, gore, drugs (unless the topic is about medication) or anything that is not safe for work
-- Any account with a disturbing avatar will get kicked. If you rejoin and still have the avatar, it will receive a ban
-- At the same time, be mature. Members are allowed to cuss and you should be accustomed to that. Just don't throw around cuss words every two seconds; it isn't cool
-- Despite Adult content being banned, users are still required to be thirteen and over in order to participate on this Discord Server
+- Agli utenti con un nome utente/soprannome (normalmente) non menzionabile o illeggibile in modo normale verrà assegnato un nuovo soprannome.
+   - Se dobbiamo capovolgere i nostri schermi per leggere il tuo nome, è un modo non accettabile.
+   - Se abbiamo bisogno di ottenere il tuo ID utente per menzionarti, è un modo non accettabile.
+- Evitare di mettere apposta caratteri all'inizio del nome per cambiare il posto nella lista dei membri. Quei caratteri verranno rimossi.
 
 
-## Controversial content.
+### Sii cortese quando usi i Messaggi Diretti
 
-### Topics that you should minimize
+- Le cose che accadono nei Messaggi Diretti **sono** il business del server visto che a meno che i due non condividano un altro server o sono amici, non sarebbero in grado di raggiungersi a vicenda.
+- Esempi includono la pubblicità DM, reindirizzare volutamente gli utenti a DM dalla normale chat (come il supporto) per violare le regole o per importunarli.
+   - Ci devono essere prove di questi comportamenti, come altre persone che lo segnalano anche, implicazioni sul server o qualsiasi cosa del genere. Tuttavia, quando fai il tuo report, copri qualsiasi collegamento. Non dare all'inserzionista DM più popolarità di quanto hanno già ottenuto dai Messaggi Diretti di tutti.
+- Anche se le tue azioni non sono dannose, a volte potrebbero essere non opportune.
+   - Si prega di chiedere prima di inviare un Messaggio Diretto agli altri e rispettare coloro che non vogliono comunicare. ‎
 
-Please keep these topics in [#offtopic](https://discord.com/channels/283769550611152897/718307887578873856) and keep an open mind when discussing them:
-- Political Debates
-- Religion
-- Spoilers
+### Mantieni la discussione sulla pirateria al minimo
+
+- Non mettere link a siti web di pirateria, caricare contenuti piratati o incoraggiare altri a piratare
+- Per ulteriori informazioni su ciò che è pirateria o no, ti suggeriamo di leggere questo: https://3ds.eiphax.tech/piracy.html (Disclaimer: Non siamo avvocati)
+
+
+### Nessun Contenuto per Adulti
+
+- Non postare pornografia, gore, droghe (a meno che l'argomento sia circa i farmaci) o tutto ciò che non è sicuro per il lavoro
+- Qualsiasi account con un avatar disturbante verrà cacciato. Se ritorni e hai ancora lo stesso avatar, riceverai un ban
+- Allo stesso tempo, sii maturo. I membri sono autorizzati a imprecare e si dovrebbe essere abituati a questo. Basta non gettare in giro parole sconcie ogni due secondi; non è figo
+- Nonostante il divieto di contenuti per adulti, gli utenti devono ancora avere più di tredici anni per partecipare a questo Server Discord
+
+
+## Contenuto controverso.
+
+### Argomenti che dovresti minimizzare
+
+Si prega di mantenere questi argomenti in [#offtopic](https://discord.com/channels/283769550611152897/718307887578873856) e mantenere una mentalità aperta quando si discute:
+- Discussioni Politiche
+- Religione
+- Spoiler
 - Malware
-- Content intended to shock or scare
+- Contenuto destinato a creare shock o spaventare
 
-Make sure to put spoilers, malware and content intended to shock or scare in spoiler tags and properly warn the user outside of said spoiler tags.
+Assicurati di mettere spoiler, malware e contenuti destinati a shockare o spaventare con i tag spoiler e avvertire correttamente l'utente al di fuori di tali tag spoiler.
 
-### Banned Content
+### Contenuto Bannato
 
-- External Drama
-- Server Raids
-- Adult content (read above)
+- Dramma Esterno
+- Incursioni sui Server
+- Contenuto per adulti (leggi sopra)
 
-## 🏓 Notifications/Pings/DMs
+## 🏓 Notifiche/Pings/DMs
 
-- @Lightning will send you a DM if you receive a warning. No need to assume you're in trouble if you got a ping
-- Don't ping a user if it's obvious that they're already there. (Using Discord's quote function is not an excuse. Please remove the ping before sending the message)
+- @Lightning ti invierà un DM se ricevi un avvertimento. No need to assume you're in trouble if you got a ping
+- Don't ping a user if it's obvious that they're already there. (Usare la funzione di citazione di Discord non è una scusa. Please remove the ping before sending the message)
 - Don't repeatedly ping a person to try and get their attention.
-   - When a mention attack occurs, do not ping a staff member; it’s redundant since they are already getting pings from the attack. Also, it confuses the staff on which member to ban.
+   - When a mention attack occurs, do not ping a staff member; it’s redundant since they are already getting pings from the attack. Inoltre, confonde il personale su quale membro bannare.
 - If you get pinged, don't send messages like "why ping" or spam emotes on the message. Check who pinged and reply.
  - If you have a problem with getting pinged, either set up your discord so you don't get ping notifications, deal with it or leave.
  - If you can't find the message with the ping, alert a staff member. We will warn those who ping then instantly delete their messages.
 - Ping only when you want to bring attention to something to someone. Don't ping as a reference.
 
 
-## Consequences
+## Conseguenze
 
-**The consequences of breaking these rules are either warnings, mutes, kicks or bans.** Of course, it depends on a case by case scenario.
-- Joining and immediately breaking the rules will lead your account to getting a mute
-- Joining for the purpose of rule breaking will get you banned.
-- Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them.
+**Le conseguenze della violazione di queste regole sono o essere avvertiti, venir mutati, essere espulsi o essere bannati.** Naturalmente, dipende da uno scenario caso per caso.
+- Unirsi e infrangere immediatamente le regole porterà il tuo account a essere mutato
+- Unirsi allo scopo di rompere le regole ti farà bannare.
+- Cercare di eludere, cercar scappatoie, o rimanere sul limite del rispetto delle regole sarà trattato come infrazione di esse.
 
-If you don't understand any of the rules, feel free to ask.
+Se non capite nessuna delle regole, sentitevi liberi di chiedere.
 
-Last update: August 19th, 2020
+Ultimo aggiornamento: 19 agosto 2020

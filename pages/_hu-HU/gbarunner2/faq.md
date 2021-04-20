@@ -3,6 +3,7 @@ lang: hu-HU
 layout: wiki
 section: gbarunner2
 title: GYIK & hibaelhárítás
+long_title: GBARunner2 GYIK & hibaelhárítás
 description: GYIK és hibaelhárítás a GBARunner2-höz
 ---
 

@@ -4,6 +4,7 @@ layout: wiki
 section: nds-bootstrap
 category: other
 title: GYIK & hibaelhárítás
+long_title: nds-bootstrap GYIK & helyreállítás
 description: GYIK & hibaelhárítás az nds-bootstrap-hez
 ---
 
@@ -14,39 +15,39 @@ description: GYIK & hibaelhárítás az nds-bootstrap-hez
 - Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
 
 #### Miért vannak problémák a ROM betöltéssel, ha natívan futnak?
-Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly. To improve performance, nds-bootstrap also shrinks the game's heap in memory, which breaks some games, though both the forwarders and TWiLight Menu++ have a heap shrink blacklist to fix the non-working games broken by heap shrink.
+Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. Van néhány időzítési és AP intézkedés (amik nagy része már eltávolított), mind a kettő okozhatja, hogy a ROM-ok nem megfelelően működnek. A teljesítmény fokozásához az nds-bootstrap zsugorítja a játék halom méretét a memóriában, ami eltör néhány játékot, habár a forwarderek és a TWiLight Menu++ rendelkezik halom zsugorítás fekete listával, hogy javítsa a halom zsugorítás miatt nem működő játékokat.
 
-#### Why use nds-bootstrap over a regular flashcard?
-- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges
-- You can expand the VRAM memory bus to 32-bit
-- Utilize the DSi's additional CPU speed
-- Enhance your audio with 48 kHz
-- Use DSi mode, allowing for DSi features
-- Using certain cartridges, you are able to use IR in your application
-- nds-bootstrap is open source meaning devs can always update it to fix bugs and other things even if the company gets discontinued
-- The DS Memory Expansion Pak is emulated meaning games that require that accessory will work
+#### Miért használjak nds-bootstrap-et a hagyományos flashcard helyett?
+- Bizonyos kompatibilis ROM-ok betöltésre kerülnek a RAM-ba, gyorsabb betöltési időket lehetővé téve mint a normál cartridge-eké
+- Kibővítheted a VRAM memória buszt 32 bitesre
+- Használhatod a DSi bővebb CPU sebességét
+- Az audiód minőségét javíthatod 48 kHz-re
+- Használható a DSi mód, amivel elérhetők a DSi funkciók
+- Bizonyos cartridge-ek használatakor lehetőséged van az IR használatára az alkalmazásodból
+- Az nds-bootstrap nyílt forrású, így a fejlesztől mindig tudják frissíteni a hibák és egyéb dolgok javítása érdekében, még akkor is, ha a cég megszűnik
+- A DS Memory Expansion Pak emulált, így azok a játékok amiknek szüksége van rá működni fognak
 
 #### Donor ROM
-Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
+A legtöbb SDK5 játék kiválasztható Donor ROM-nak (ami a TWiLight Menu++-on keresztül tehető meg). A Donor ROM ARM7 binárisa másolásra kerül az nds-bootstrap által és kicseréli az ARM7 binárist a játékban, amit indítani próbálsz. Ez lehetővé teszi bizonyos SDK5 játékoknak a betöltését és mentését.
 
-#### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### Mi az esti fordítás (nightly) és hol szerezhetem be?
+Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted [innen](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Why do my cheats not work?
-The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
+#### Miért nem működnek a csalásaim?
+A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben hibás, ami azt jelenti, hogy az esetek felében működnek. A csalás, amit használsz valószínűleg ilyen típusú. Ez nem a csalás adatbázis hibája, hanem inkább az nds-bootstrap-pé. Kérjük ne kérd ezen csalások törlését az adatbázisból.
 
-#### Is there anything else I should know about cheats?
-You can set heap shrink to `Hi` in settings for slightly better cheat support.
+#### Van valami, amit még tudnom kell a csalásokról?
+Beállíthatod a halom zsugorítást `Magas`-ra a beállításokban egy kicsit jobb csalás támogatásért.
 
-For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+További információkért a csalásokról látogass el [ide](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
-#### nds-bootstrap troubleshooting
-If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
+#### nds-bootstrap hibaelhárítás
+Ha problémát tapasztalsz az nds-bootstrap használatakor, itt vannak a lépések, hogyan oldhatod meg azt.
 
-1. Run everything in 67 MHz, DS Mode, with 32 kHz of audio, etc. Basically, keep everything to DS settings. Don't try to improve it with DSi stuff
-2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
-3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
+1. Futtass mindent a 67 MHz-en, DS módban, 32 kHz-es audióval, stb. Alapvetően tarts mindent a DS beállításokon. Ne próbáld jobbá tenni DSi dolgokkal
+2. Töröld a `fatTable` és a `patchOffsetCache` mappákat az `sd:/_nds/nds-bootstrap/` mappában
+3. Valószínűleg nem olyan nagy kérdés; kérdezz a [Discord szerveren](https://discord.gg/yD3spjv)
 
-If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case we had one issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one.
+Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a játék jelentésre került-e már a GitHub-ra. Ellenőrizd a lezárt jegyeket is, arra az esetre, ha valamelyik hibát lezártuk egy másik preferálása miatt. Ha nem tartozik hozzá GitHub hiba, akkor csinálj neki egy újat.
 
-Also, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
+Továbbá ne felejtsd el hozzáadni a [kompatibilitási listához](https://wiki.ds-homebrew.com/nds-bootstrap/testing) a Google Sheets-en.

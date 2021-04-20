@@ -4,6 +4,7 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: インストール（フラッシュカード）
+long_title: TWiLight Menu++をインストール（フラッシュカード）
 description: ニンテンドーDSフラッシュカードにTWiLight Menu++をインストールする方法
 ---
 
@@ -39,7 +40,7 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
 
    [ここ](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)からYSMenuをインストールします
       - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更しました）と`TTMenu`フォルダがあることを確認します
-1. `nds-bootstrapを使用 (B4DS)`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます。
+1. `nds-bootstrapを使用`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます。
 
 ### TWiLight Menu++を自動起動する
 1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します

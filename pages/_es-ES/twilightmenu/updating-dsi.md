@@ -4,7 +4,8 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Actualización (DSi)
-description: Cómo actualizar TWiLight Menu++ en la Nintendo DSi
+long_title: Updating TWiLight Menu++ (DSi)
+description: How to update TWiLight Menu++ on the Nintendo DSi
 ---
 
 Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos `.sav` de los juegos de DS a una nueva llamada `saves` en la misma carpeta que las ROMs.
