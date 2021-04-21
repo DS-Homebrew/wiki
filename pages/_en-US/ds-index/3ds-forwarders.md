@@ -23,24 +23,25 @@ Choose either of the following to add to the HOME menu:
 
 3DS:
 - [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [Universal Updater](https://github.com/Universal-Team/Universal-Updater/releases) to install the [NDSForwarder](https://db.universal-team.net/3ds/ndsforwarder) package
+- [Universal Updater](https://github.com/Universal-Team/Universal-Updater/releases) (the `.cia` file) to install the [NDSForwarder](https://db.universal-team.net/3ds/ndsforwarder) package
 
 ### Part 1: Getting the required files
 1. If you do not already have Universal Updater installed, install it using FBI
-1. Open Universal Updater
+1. Open Universal Updater from your HOME Menu
 1. Install the NDSForwarder package
 1. NDSForwarder and its required files are now set up in its respective locations
 
 ### Part 2: NDSForwarder
 1. Open the Homebrew Launcher using any method to do so
 1. Open `NDS Forwarder Generator`
-1. Navigate to your game's location and press (A)
-1. Confirm you wish to install by selecting (Yes)
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
 {% endcapture %}
 {% assign tab-sd-card = tab-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
+
 ### Requirements
 
 3DS:
