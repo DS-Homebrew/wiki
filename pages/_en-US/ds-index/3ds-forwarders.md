@@ -33,7 +33,7 @@ Choose either of the following to add to the HOME menu:
 
 ### NDSForwarder
 1. Open the Homebrew Launcher using any method to do so
-1. Open `NDS Forwarder Generator"
+1. Open `NDS Forwarder Generator`
 1. Navigate to your game's location and press (A)
 1. Confirm you wish to install by selecting (Yes)
 1. After it is installed, your game will now appear as a title on your HOME menu
