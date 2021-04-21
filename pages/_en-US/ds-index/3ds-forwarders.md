@@ -15,14 +15,11 @@ If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.n
 
 HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
 
+This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+
 Choose either of the following to add to the HOME menu:
 
 {% capture tab-sd-card %}
-
-### Requirements
-
-3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
 
 ### Part 1: Getting the required files
 1. Open FBI and select `Remote Install`, then `Scan QR Code`
@@ -46,9 +43,6 @@ Choose either of the following to add to the HOME menu:
 ### Requirements
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) to install CIA files
-- A supported DS flashcard
 
 {% capture flashcards %}
 The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
@@ -97,7 +91,7 @@ Incompatible:
 {% endcapture %}
 
 <details>
-	<summary>Supported flashcards</summary>
+	<summary>A supported flashcard from this list</summary>
 	<div class="details-content">
 		{{ flashcards | markdownify }}
 	</div>
