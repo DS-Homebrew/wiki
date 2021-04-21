@@ -23,10 +23,11 @@ Choose either of the following to add to the HOME menu:
 
 3DS:
 - [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [Universal Updater](https://github.com/Universal-Team/Universal-Updater/releases) (the `.cia` file) to install the [NDSForwarder](https://db.universal-team.net/3ds/ndsforwarder) package
 
 ### Part 1: Getting the required files
-1. If you do not already have Universal Updater installed, install it using FBI
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
+   ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
 1. Open Universal Updater from your HOME Menu
 1. Install the NDSForwarder package
 1. NDSForwarder and its required files are now set up in its respective locations
