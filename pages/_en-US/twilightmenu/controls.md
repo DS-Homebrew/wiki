@@ -59,7 +59,7 @@ description: Controls for using TWiLight Menu++
         - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
         - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
- - The in-game menu is not accessible in DSi Mode, so attempting to use the button combo  in DSi Mode will instead exit the game.
+ - The in-game menu is not accessible in DSi Mode, so attempting to use the button combo in DSi Mode will instead exit the game.
 
 #### Boot shortcuts
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
