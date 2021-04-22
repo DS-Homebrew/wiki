@@ -40,12 +40,18 @@ blockquote {
 	border-left: 3px solid var(--borders);
 }
 
-code {
+:not(pre) > code, pre {
 	color: var(--code-color);
 	background-color: var(--code-bg);
 	padding: 3px;
 	border-radius: 0.25rem;
 	white-space: nowrap;
+}
+
+pre {
+	padding: 16px;
+	border-radius: 0.5rem;
+	white-space: pre;
 }
 
 // .a is for making other things look like <a>s
