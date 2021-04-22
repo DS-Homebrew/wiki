@@ -10,9 +10,6 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
-If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
-{:.alert .alert-warning}
-
 HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
 
 DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/godmode9-usage#dumping-a-game-cartridge).
@@ -25,6 +22,10 @@ Choose one of the following to add to the HOME menu:
 {% capture tab-sd-card %}
 
 ### Part 1: Getting the required files
+
+If you already have Universal Updater installed on your console, you can skip to step 3.
+{:.alert .alert-info}
+
 1. Open FBI and select `Remote Install`, then `Scan QR Code`
 1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
    ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
@@ -42,6 +43,9 @@ Choose one of the following to add to the HOME menu:
 {% assign tab-sd-card = tab-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
+
+If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+{:.alert .alert-warning}
 
 ### Requirements
 
@@ -104,7 +108,9 @@ PC:
 - A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux users:** JavaFX. 
+    - Debian based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+	- Arch: Run `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
 ### Part 1: Getting started
 1. Download one of these packs:
