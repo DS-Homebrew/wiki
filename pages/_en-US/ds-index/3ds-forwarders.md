@@ -15,9 +15,12 @@ If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.n
 
 HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
 
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/godmode9-usage#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 
-Choose either of the following to add to the HOME menu:
+Choose one of the following to add to the HOME menu:
 
 {% capture tab-sd-card %}
 
@@ -30,8 +33,8 @@ Choose either of the following to add to the HOME menu:
 1. NDSForwarder and its required files are now set up in its respective locations
 
 ### Part 2: NDSForwarder
-1. Open the Homebrew Launcher using any method to do so
-1. Open `NDS Forwarder Generator`
+1. Open the Homebrew Launcher
+1. In the Homebrew Launcher, open `NDS Forwarder Generator`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
 1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
