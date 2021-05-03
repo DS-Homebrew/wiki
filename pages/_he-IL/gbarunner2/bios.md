@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Info
-description: Information on the GBA BIOS and how to dump it
+title: מידע לגבי הBIOS של הGBA
+description: מידע לגבי הBIOS של הGBA וכיצד לחלץ אותו
 ---
 
-In order for GBARunner2 to load titles, a dump of the GBA BIOS is required. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. You can dump an official GBA BIOS with one of the following methods.
+על מנת שGBARunner2 יוכל להפעיל משחקים, נדרש עותק של הBIOS של הGBA. גרסאות חדשות יותר של GBARunner2 (שמגיעות עם הגרסה האחרונה של TWiLight Menu++) כוללות את [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios). אבל מאחר וזה לא העתק מדויק, שימוש בעותק רשמי של הBIOS משפר את התאימות. ניתן לחלץ עותק רשמי של הGBA BIOS באמצעות אחת מהשיטות הבאות.
 
-### Dumping Guides
+### מדריכי חילוץ
 
-- [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)
-- [GBA or DS Phat / Lite with a GBA flashcard](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [Wii (לא גרסת הfamily) / Gamecube + כבל לינק](https://github.com/FIX94/gba-link-cable-dumper)
+- [3DS באמצעות רוב כותרי ה](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) Virtual Console (לא כותרי GBA או כותרים שהם לא של נינטנדו (Game Gear))
+- [GBA או DS שמן / לייט עם פלאשקארד של GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
-After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
+לאחר חילוץ הBIOS, חייב לשנות את שמו ל`bios.bin` ולשים אותו ב`sd:/`, `sd:/gba/` או ב`sd:/_gba/` בשביל שGBARunner2 יוכל לקרוא אותו.
 
-You can verify that your BIOS is a proper dump by comparing it with the following checksums:
+ניתן לוודא שהעותק הוא תקין על ידי השוואה שלו עם הchecksums הבאים:
 
 **CRC32:** `81977335`
 

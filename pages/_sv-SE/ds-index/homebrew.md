@@ -33,7 +33,7 @@ En tidsinställd bomb är ett utgångsdatum för minneskort-kärnor som tillverk
 - Eftersom den förlitar sig på kärnan och inte den inbyggda programvaran så kan du byta till en alternativ kärna. Det finns inga tillgängliga val:
    - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menyn är ganska ful och visar bara `.ds` filer, men det har mycket bättre spelstöd, fuskstöd och kräver inte memory pak
    - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Detta är användbart om du vill ha alla dina ROM från olika konsoler i samma meny, Det finns två sätt att köra DS spel med TWiLight Menu++:
-      - With nds-bootstrap on flashcard: Requires a Memory Expansion Pak for extended game compatibility and does not support cheats. Men det fungerar på alla minneskort som TWiLight Menu++ har stöd för
+      - Med nds-bootstrap på minneskort: Kräver en Memory Expansion Pak för utökad spelkompatibilitet och stöder inte fusk. Men det fungerar på alla minneskort som TWiLight Menu++ har stöd för
       - Med YSMenu: Hämtar kompatibilitetsfördelarna med YSMenu med den bättre menyn av TWiLight Menu++, men fusk stöds inte för närvarande
 
 Vi rekommenderar YSMenu, med TWiLight Menu++ om du föredrar det, på grund av den högre kompatibiliteten och brist på behov av ett Memory Expansion Pak. Om du vill konfigurera YSMenu så har DeadSkullzJr gjort en [Dropbox-repo](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) med alla primära startkärnor som är konfigurerade för ditt minneskort. Allt det kräver är att dra och släppa filerna till ditt SD-korts rot och du är klar. Instruktioner för hur du installerar TWiLight Menu++ är [på minneskort installationssidan](../twilightmenu/installing-flashcard).

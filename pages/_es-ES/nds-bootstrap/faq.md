@@ -4,8 +4,8 @@ layout: wiki
 section: nds-bootstrap
 category: other
 title: Preguntas frecuentes y soluciones
-long_title: nds-bootstrap FAQ & Troubleshooting
-description: FAQ & Troubleshooting for nds-bootstrap
+long_title: Preguntas frecuentes y solución de errores de nds-bootstrap
+description: Preguntas frecuentes y solución de errores de nds-bootstrap
 ---
 
 #### ¿Por qué me salta un pantallazo blanco cuando intento cargar un juego de la tarjeta SD?

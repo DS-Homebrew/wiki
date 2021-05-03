@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: other
-title: Home
-description: Information about other DS-Homebrew projects
+title: דף הבית
+description: מידע לגבי פרויקטי DS-Homebrew אחרים
 ---
 
-This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
+בחלק זה יש מידע על פרויקטי DS-Homebrew אחרים שהם לא גדולים מספיר בשביל לחלק שלם בויקי.

@@ -12,12 +12,12 @@ Jika kamu belum ada cara menjalankan homebrew di DSi-mu, ikuti [dsi.cfw.guide](h
 {:.alert .alert-info}
 
 ### Pemasangan (Installing)
-1. Unduh versi terbaru `TWiLightMenu-DSi.7z` dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Unduh `TWiLightMenu-DSi.7z` yang terbaru dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. Ekstrak `TWiLightMenu-DSi.7z`
 1. Salin folder `_nds` ke root kartu SD-mu
 1. Salin berkas `BOOT.NDS` ke root kartu SD-mu
 1. Salin folder `roms` ke root kartu SD-mu
-1. **pengguna hiyaCFW:** Salin folder `title` ke root kartu SD-mu
+1. **Pengguna hiyaCFW:** Salin folder `title` ke root kartu SD-mu
 
 ### Mulai sendiri (Autoboot) dengan Unlaunch
 1. Nyalakan DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>

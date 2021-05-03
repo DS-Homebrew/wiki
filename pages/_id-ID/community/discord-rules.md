@@ -14,15 +14,15 @@ description: Peraturan untuk peladen (server) Discord DS⁽ⁱ⁾ Mode Hacking
 - Hormati privasi pengguna; Hindari upaya berkomunikasi dengan pengguna yang tidak nyaman melakukannya atau berbagi informasi tentang mereka yang tak mau mereka sebar.
 - JANGAN mengambil alih moderasi atau mencoba "membantu" saat moderator sedang mengurusi suatu situasi. Kamu tidak berhak, jadi serahkan penanganan sebenarnya kepada staf.
      - Mengingatkan boleh, selama kamu tidak memaksanya ke mereka.
-- Saat baru tahu siapa yang menciptakan sebuah karya, beri penghargaan (credit) bagi pembuatnya dengan disebut siapa.
+- Saat sudah tahu siapa yang menciptakan sebuah karya, beri penghargaan (credit) dengan disebut siapa pembuatnya.
 
 
 ### JANGAN membuat keruh mutu obrolan.
 
 Contohnya seperti:
-- Meminta disuapi informasi saking malasnya atau menyuapi yang lain
+- Meminta disuapi informasi saking malasnya atau menyuapi ke yang lain
 - Menanyakan tanggal keluaran dari proyek; sudah jadinya kalau sudah
-- Menanya agar ditanya; dengan menanya agar ditanya, padahal sudah
+- Meminta ditanya; dengan meminta agar ditanya, padahal sudah
 - Requesting information that is either obvious or you could find with a little bit of research on your end (such as googling for links instead of asking for them to be handed to you)
    - Important information will be held over at [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
    - Check the channel topic & pinned messages; it most likely contains what you are looking for.
@@ -31,7 +31,7 @@ Contohnya seperti:
      - If you're unsure where to post your message, post it in the one that makes the most sense.
      - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
 - Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages. Use [mystbin](https://mystb.in/) for longer messages instead.
+- Mengirim pesan yang panjang berlebihan. Gunakan [mystbin](https://mystb.in/) jika ingin mengirim pesan panjang.
 
 
 ### Do NOT randomly send Discord server invite links with no context & without explicit staff permission
@@ -102,11 +102,11 @@ Please keep these topics in [#offtopic](https://discord.com/channels/28376955061
 
 Make sure to put spoilers, malware and content intended to shock or scare in spoiler tags and properly warn the user outside of said spoiler tags.
 
-### Banned Content
+### Konten Dilarang
 
-- External Drama
-- Server Raids
-- Adult content (read above)
+- Keributan (Drama) dari luar
+- Menggeropyok Server
+- Konten dewasa (baca di atas)
 
 ## 🏓 Notifications/Pings/DMs
 

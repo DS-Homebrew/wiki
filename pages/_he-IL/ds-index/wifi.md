@@ -8,7 +8,7 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 ---
 
 - בתוכנות ומשחקים של Nintendo DS, אפשר להשתמש רק בWEP ובWIFI ללא אבטחה
-- On Nintendo DSi enhanced/exclusive applications, you have the addition of WPA and WPA2 support
+- בתוכנות ומשחקים שמורחבים או אקסלוסיבים על Nintendo DSi, נוספת תמיכה של WPA וWPA2
 
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
@@ -28,13 +28,13 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 1. הגדירו את `1.1.1.1` בתור הsecondary DNS
 1. ייתכן ותצטרכו להתקין טלאי NoSSL על המשחק שלכם בשלב זה, כתלות במשחק
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### התקנת הטלאי ידנית לרומים של DS
+עקבו אחרי המדריך הנ"ל אם ספק האינטרנט שלכם חוסם שרתי DNS מותאמים אישית, אחרת זה מומלץ *מאוד* לעקוב אחרי המדריך מעל.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use mono
+הערה: משתמשי GNU/Linux וmacOS יכולים לעקוב אחרי הוראות דומות מאוד, אבל יצטרכו להשתמש בmono
 
-1. Download [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WFCPatcher is saved and open that folder
+1. הורידו את [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. העתיקו את הROM של המשחק שאתם רוצים להתקין עליו את הפאטץ לאותה תיקיה שבה נמצא WFCPatcher ופתחו את תיקיה זו
 1. Create a text file with the name `patch.bat`
 1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save and close (you can replace wiimmfi.de with another URL, if you wish to use a different server)
 1. Now drag all the roms you wish to patch on to patch.bat

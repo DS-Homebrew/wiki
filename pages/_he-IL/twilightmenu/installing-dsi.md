@@ -4,8 +4,8 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: התקנה (DSi)
-long_title: Installing TWiLight Menu++ (DSi)
-description: How to install TWiLight Menu++ on the Nintendo DSi
+long_title: התקנת TWiLight Menu++ (DSi)
+description: איך להתקין את TWiLight Menu++ על Nintendo DSi
 ---
 
 אם עדיין אין לכם דרך להריץ הומברו על הDSi שלכם, עקבו אחר [dsi.cfw.guide](https://dsi.cfw.guide) על מנת להתקין את TWiLight Menu++

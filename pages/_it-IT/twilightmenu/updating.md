@@ -1,28 +1,28 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: indexes
-title: Updating
-long_title: Updating TWiLight Menu++
-description: How to update TWiLight Menu++ (index page)
+title: Aggiornamento
+long_title: Aggiornare TWiLight Menu++
+description: Come aggiornare TWiLight Menu++ (pagina indice)
 ---
 
-The updating process for TWiLight Menu++ depends on whether you're using a Nintendo DSi, Nintendo 3DS, or a Nintendo DS flashcard. Please select the page for the one you're using.
+Il processo di aggiornamento di TWiLight Menu++ dipende da che cosa stai utilizzando, se un Nintendo DSi, un Nintendo 3DS, o una flashcard per Nintendo DS. Seleziona la pagina per quella che stai utilizzando.
 
 ### 3DS / 2DS
-If you're using a 3DS or 2DS (from the internal SD card), follow the [3DS instructions](updating-3ds).
+Se stai usando un 3DS o 2DS (dalla scheda SD interna), segui le istruzioni [3DS](updating-3ds).
 
-[![A Nintendo 3DS](/assets/images/consoles/old3ds.png)](updating-3ds) [![A Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](updating-3ds) [![A Nintendo 2DS](/assets/images/consoles/2ds.png)](updating-3ds)
+[![Un Nintendo 3DS](/assets/images/consoles/old3ds.png)](updating-3ds) [![Un Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](updating-3ds) [![Un Nintendo 2DS](/assets/images/consoles/2ds.png)](updating-3ds)
 
-[![A New Nintendo 3DS](/assets/images/consoles/new3ds.png)](updating-3ds) [![A New Nintendo 3DS XL](/assets/images/consoles/new3dsxl.png)](updating-3ds) [![A New Nintendo 2DS XL](/assets/images/consoles/new2dsxl.png)](updating-3ds)
+[![Un New Nintendo 3DS](/assets/images/consoles/new3ds.png)](updating-3ds) [![Un New Nintendo 3DS XL](/assets/images/consoles/new3dsxl.png)](updating-3ds) [![Un New Nintendo 2DS XL](/assets/images/consoles/new2dsxl.png)](updating-3ds)
 
 ### DSi
-If you're using a DSi (from the internal SD card), follow the [DSi instructions](updating-dsi).
+Se stai usando un DSi (dalla scheda SD interna), segui le [istruzioni DSi](updating-dsi).
 
-[![A Nintendo DSi](/assets/images/consoles/dsi.png)](updating-dsi) [![A Nintendo DSi XL](/assets/images/consoles/dsixl.png)](updating-dsi)
+[![Un Nintendo DSi](/assets/images/consoles/dsi.png)](updating-dsi) [![Un Nintendo DSi XL](/assets/images/consoles/dsixl.png)](updating-dsi)
 
 ### Flashcard
-If you're using a flashcard (regardless of which DS model you're on), follow the [flashcard instructions](updating-flashcard).
+Se stai usando una flashcard (indipendentemente da che modello di DS utilizzi), segui le istruzioni [flashcard](updating-flashcard).
 
-[![An r4isdhc.com flaschard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flaschard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flaschard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![Una flashcard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Una flaschard Acekard2i](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![Una flashcard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

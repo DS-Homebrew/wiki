@@ -4,8 +4,8 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Installazione (Flashcard)
-long_title: Installing TWiLight Menu++ (Flashcard)
-description: How to install TWiLight Menu++ on a Nintendo DS flashcard
+long_title: Installazione TWiLight Menu++ (Flashcard)
+description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 ---
 
 ### Installazione
@@ -16,8 +16,8 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 1. Copia la cartella `roms` nella scheda microSD della tua flashcard
 1. Se hai già dei dati di salvataggio, sposta i tuoi file `.sav` posizionati insieme alle tue ROM del DS, in una nuova cartella chiamata `saves`, che va anche questa nella posizione delle ROM del DS
 1. ...
-   - **DS Phat / Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1`
+   - **Utenti DS Phat / Lite:** Se avviare `BOOT.NDS` causa una schermata bianca, inserire un DS Memory Expansion Pak, e riprovare
+   - **Utenti DSi / 3DS:** Avviate TWLMenu++ sulla scheda SD della console e attivate `l'accesso SCFG nella Slot-1`
       - Questa opzione vi permetterà di utilizzare la velocità TWL e/o l'accelerazione della VRAM ai vostri giochi sulla flashcard, così come l'accesso alla scheda SD della console
 
 ### Per avviare giochi utilizzando il firmware della flashcard
@@ -40,11 +40,11 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
    Installa YSMenu da [qui](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se esistente) e la cartella`TTMenu` nella root della microSD della flashcard
-1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Imposta `Usa nds-bootstrap` a `No`, così verrà utilizzato il firmware della flashcard al posto di nds-bootstrap
 
 ### Auto-avvio TWiLight Menu++
 1. Estrai il/i contenuto(i) di `Autoboot/(la tua flashcard)` nella scheda microSD della flashcard
    - Se non vedi la tua flashcard, salta questo passaggio
 1. ...
-   - **DS Phat / DS Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **Utenti DS Phat / DS Lite:** Andate nelle impostazioni nel menu del DS, e attivate l'avvio automatico, così la tua flashcard inizierà all'avvio
+   - **Utenti DSi / 3DS:** Avviate TWLMenu++ sulla scheda SD della console e attivate `Avvio automatico Slot-1`

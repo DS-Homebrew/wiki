@@ -1,28 +1,28 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: indexes
-title: Installing
-long_title: Installing TWiLight Menu++
-description: How to install TWiLight Menu++ (index page)
+title: Installazione
+long_title: Installazione TWiLight Menu++
+description: Come installare TWiLight Menu++ (pagina indice)
 ---
 
-The installation process for TWiLight Menu++ depends on whether you're using a Nintendo DSi, Nintendo 3DS, or a Nintendo DS flashcard. Please select the page for the one you're using.
+Il processo di installazione di TWiLight Menu++ dipende da che cosa stai utilizzando, se un Nintendo DSi, un Nintendo 3DS, o una flashcard per Nintendo DS. Seleziona la pagina per il dispositivo che stai utilizzando.
 
 ### 3DS / 2DS
-If you're using a 3DS or 2DS (from the internal SD card), follow the [3DS instructions](installing-3ds).
+Se stai usando un 3DS o 2DS (dalla scheda SD interna), segui le istruzioni [3DS](installing-3ds).
 
-[![A Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds) [![A Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](installing-3ds) [![A Nintendo 2DS](/assets/images/consoles/2ds.png)](installing-3ds)
+[![Un Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds) [![Un Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](installing-3ds) [![Un Nintendo 2DS](/assets/images/consoles/2ds.png)](installing-3ds)
 
-[![A New Nintendo 3DS](/assets/images/consoles/new3ds.png)](installing-3ds) [![A New Nintendo 3DS XL](/assets/images/consoles/new3dsxl.png)](installing-3ds) [![A New Nintendo 2DS XL](/assets/images/consoles/new2dsxl.png)](installing-3ds)
+[![Un New Nintendo 3DS](/assets/images/consoles/new3ds.png)](installing-3ds) [![Un New Nintendo 3DS XL](/assets/images/consoles/new3dsxl.png)](installing-3ds) [![Un New Nintendo 2DS XL](/assets/images/consoles/new2dsxl.png)](installing-3ds)
 
 ### DSi
-If you're using a DSi (from the internal SD card), follow the [DSi instructions](installing-dsi).
+Se stai usando un DSi (dalla scheda SD interna), segui le [istruzioni DSi](installing-dsi).
 
-[![A Nintendo DSi](/assets/images/consoles/dsi.png)](installing-dsi) [![A Nintendo DSi XL](/assets/images/consoles/dsixl.png)](installing-dsi)
+[![Un Nintendo DSi](/assets/images/consoles/dsi.png)](installing-dsi) [![Un Nintendo DSi XL](/assets/images/consoles/dsixl.png)](installing-dsi)
 
 ### Flashcard
-If you're using a flashcard (regardless of which DS model you're on), follow the [flashcard instructions](installing-flashcard).
+Se stai usando una flashcard (indipendentemente da che modello di DS utilizzi), segui le istruzioni [flashcard](installing-flashcard).
 
-[![An r4isdhc.com flaschard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flaschard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flaschard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![Una flashcard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Una flaschard Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Una flashcard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

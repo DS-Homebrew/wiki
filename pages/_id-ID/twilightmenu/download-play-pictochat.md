@@ -11,7 +11,7 @@ Jika kamu menggunakan konsol DSi, seharusnya sudah bisa meluncurkan aplikasi ter
 
 Di GodMode9:
 - Tekan <kbd class="r">R</kbd> + <kbd class="face">A</kbd> pada SYSNAND TWLN
-- Pilih `Search for titles` untuk mencari  judul
+- Pilih `Search for titles` untuk mencari judul
 - Pilih `DS Download Play (NTR-HNDA).tmd`
 - Pilih `TMD file options...`
 - Pilih `Dump CXI/NDS file`

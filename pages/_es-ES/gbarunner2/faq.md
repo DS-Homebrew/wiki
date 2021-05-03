@@ -3,8 +3,8 @@ lang: es-ES
 layout: wiki
 section: gbarunner2
 title: Preguntas frecuentes y soluciones
-long_title: GBARunner2 FAQ & Troubleshooting
-description: FAQs and troubleshooting for GBARunner2
+long_title: Preguntas frecuentes y solución de errores de GBARunner2
+description: Preguntas frecuentes y solución de errores de GBARunner2
 ---
 
 #### ¿Cómo puedo crear y añadir marcos personalizados?

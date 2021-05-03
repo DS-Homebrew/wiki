@@ -1,8 +1,8 @@
 ---
 lang: ko-KR
 section: twilightmenu
-title: Home
-description: Guides on how to use and customize TWiLight Menu++
+title: 홈
+description: TWiLight Menu++를 사용하고 커스텀하는 방법에 대한 가이드
 ---
 
 # TWiLight Menu++ 위키에 오신 것을 환영합니다!

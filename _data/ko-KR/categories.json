@@ -6,7 +6,7 @@
 		},
 		{
 			"key": "reference",
-			"title": "레퍼런스"
+			"title": "참조"
 		}
 	],
 	"twilightmenu": [
@@ -32,7 +32,7 @@
 		},
 		{
 			"key": "indexes",
-			"title": "Indexes"
+			"title": "인덱스"
 		}
 	],
 	"nds-bootstrap": [

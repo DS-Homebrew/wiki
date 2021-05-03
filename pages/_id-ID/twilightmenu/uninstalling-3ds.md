@@ -3,12 +3,12 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Pelepasan (3DS)
-long_title: Pelepasan TWiLight Menu++ (3DS)
-description: Cara melepas (uninstall) TWiLight Menu++ dari Nintendo 3DS
+title: Pencopotan (3DS)
+long_title: Pencopotan TWiLight Menu++ (3DS)
+description: Cara mencopot (uninstall) TWiLight Menu++ dari Nintendo 3DS
 ---
 
-### Pelepasan
+### Pencopotan
 1. Buka FBI
 1. Masuk ke `Titles`
 1. Cari dua judul `TWiLight Menu++` yang tulisannya ungu

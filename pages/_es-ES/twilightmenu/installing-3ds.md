@@ -4,12 +4,12 @@ layout: wiki
 section: twilightmenu
 category: installing
 title: Instalación (3DS)
-long_title: Installing TWiLight Menu++ (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+long_title: Instalando TWiLight Menu++ (3DS)
+description: Cómo instalar TWiLight Menu++ en la Nintendo 3DS
 tabs:
   - 
-    working-camera: Working camera
-    non-working-camera: Non-working camera
+    working-camera: Con cámara
+    non-working-camera: Sin cámara
     manual: Manual
 ---
 

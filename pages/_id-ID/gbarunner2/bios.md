@@ -8,7 +8,7 @@ description: Information on the GBA BIOS and how to dump it
 
 In order for GBARunner2 to load titles, a dump of the GBA BIOS is required. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. You can dump an official GBA BIOS with one of the following methods.
 
-### Dumping Guides
+### Panduan Pengimbitan (Dumping)
 
 - [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS using most Virtual Console titles](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (Can't be GBA or non-Nintendo (Game Gear) Virtual Console Titles)

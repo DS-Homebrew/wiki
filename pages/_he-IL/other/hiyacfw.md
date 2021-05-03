@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: other
 title: hiyaCFW
-description: Information about hiyaCFW
+description: מידע על hiyaCFW
 ---
 
-Information for [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), the world's first CFW for DSi.
+מידע לגבי [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), הקושחה המותאמת אישית הראשונה בעולם עבור DSi.
 
-### Custom splash screens
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+### מסך פתיחה מותאם אישית
+עם hiyaCFW ניתן להשתמש במסכי פתיחה מותאמים אישית בפורמטים `.bmp` או `.gif`. הם צריכים להיות בתיקייה `sd:/hiya` והם צריכים ששמות הקבצים יהיו `splashtop` למסך העליות ו`splashbottom` למסך התחתון, עם סיומת הקובץ המתאימה, ולאחר מכן יש לוודא שמסך הפתיחה פעיל בהגדרות. התמונות לא חייבות להיות באותו הפורמט, כך שאחד יכול להיות BMP והשני GIF, כאשר לGIF יש עדיפות על BMP. להלן מספר פרטים על דרישות התמונות על מנת שיעבדו:
 
 #### BMP
 - 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 256x192 או קטן יותר
 
 #### GIF
-- Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
-- If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
-- If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
-- Interlaced and plain text frames are ***not*** supported
-- Local color tables are supported, but will replace the whole palette, including residual image from previous frames, so images using them will likely have palette problems
+- תשובה פשוטה: רוב קבצי הGIF בגודל 256x192 או קטן יותר יעבדו
+- הם יכולים להיות מונפשים, אבל צריכים להיות מתחת ל1MiB בשביל ביצועיים אידאליים וחייבים להיות מתחת ל10MiB ביחד
+- אם שניהם בלולאה אינסופית הם יוצגו למשך 3 שניות, אחרת הם יוצגו עד אשר שניהם יסיימו
+- אם באחד הפריימים דגל הקלט משתמש מוגדר, זה ימתין עד שהדיליי יסתיים או שכפתור כלשהוא ילחץ, הראשון מביניהם
+- פריימים interlaced ופריימים שהם plain text ***לא*** נתמכים
+- טבלאות צבע מקומיות נתמכות, אך הם יחליפו את כל פלטת הצבעים, כולל תמונות שנשארו מפריימים קודמים, כך שתמונות אלו ככל הנראה יסבלו מבעיות מפלטת הצבעים

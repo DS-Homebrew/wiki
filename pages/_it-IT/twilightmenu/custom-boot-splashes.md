@@ -1,18 +1,18 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
-description: How to use custom splash screens for TWiLight Menu++
+title: Immagini d'avvio personalizzate
+description: Come utilizzare schermate di avvio personalizzate per TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+È possibile utilizzare i file GIF personalizzati per avere schermate di avvio personalizzate durante l'avvio di TWiLight Menu++. Devono essere chiamati `splashtop.gif` e `splashbottom.gif` e devono stare in `sd:/_nds/TWiLightMenu/extras`, quindi imposta `Schermata di avvio DSi` a `Personalizzata` nelle impostazioni del menu TWiLight ++.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
+La maggior parte dei file GIF fino a 256x192 dovrebbe funzionare, con alcune eccezioni:
+- I file GIF sopra 1 MiB (Modalità DSi) o 256 KiB (Modalità DS) potrebbero non essere riprodotti a piena velocità in quanto saranno decompressi al volo
+- Tra i due, le GIF devono essere inferiori a circa 10 MB (Modalità DSI) o circa 2 MB (Modalità DS)
+- Se entrambe le GIF sono impostate su loop per sempre, verranno mostrate per 3 secondi, quindi imposta un conteggio del loop su almeno uno per controllare il tempo
 - The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
    - Only the GIF waiting for input will be paused, so the other can continue animating
 - If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame

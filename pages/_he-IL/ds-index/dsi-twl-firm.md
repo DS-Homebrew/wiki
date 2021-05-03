@@ -7,8 +7,8 @@ title: Nintendo DSi / Nintendo 3DS TWL_FIRM
 description: מידע בנושא הNintendo DSi והTWL_FIRM של הNintendo 3DS
 ---
 
-### Setting up CFW
-מאחר ורוב היתרונות של הקושחה המותאמת אישית הם עבור משפחת המערכות של הNintendo DSi והNintendo 3DS, זה מאפשר לכם לפתוח את כל האפשרויות של הקונסלות שלכם. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD card. יש לנו את המדריכים הטובים ביותר בשבילכם, עם הוראות שלב אחר שלב.
+### התקנת קושחה מותאמת אישית CFW
+מאחר ורוב היתרונות של הקושחה המותאמת אישית הם עבור משפחת המערכות של הNintendo DSi והNintendo 3DS, זה מאפשר לכם לפתוח את כל האפשרויות של הקונסלות שלכם. התקנת קושחה מותאמת אישית היא יחסית קלה, וברוב המקרים כל מה שנדרש זה כרטיס (מיקרו) SD. יש לנו את המדריכים הטובים ביותר בשבילכם, עם הוראות שלב אחר שלב.
 
 - [מדריך פריצה 3DS](https://3ds.hacks.guide)
    - פקודת Lightning: `mod 3ds`
@@ -27,26 +27,26 @@ description: מידע בנושא הNintendo DSi והTWL_FIRM של הNintendo 3DS
 
 הטווחים שגורמים לו לזלוג נקבע על ידי זוגות של שתיים. לדוגמה, מקום פנוי בנפח של 1-2 GB מותר, בעוד שנפח של 3-4 GB לא. מקום פנוי בנפח של 5-6 GB מותר, בעוד שנפח של 7-8 GB לא.
 
-This crash will never occur if the system menu is launched from an actual NAND chip (since it maxes out at 128 MB), but a redirection system (such as hiyaCFW) would cause this to trigger. למזלנו, ניתן לתקן את הבאג הזה בקלות על ידי קבצי דמה בשביל להעביר את הסופר למספר חיובי. זה קורה אוטומטית עם hiyaCFW בגרסה העדכנית שלו.
+קריסה זו לא תקרה במידה ותפריט המערכת עולה מרכיב NAND אמיתי (מאחר והנפח המקסימלי שלו הוא 128MB), אבל מערכת הכוונה מחדש (כמו hiyaCFW) יגרום לזה לקרות. למזלנו, ניתן לתקן את הבאג הזה בקלות על ידי קבצי דמה בשביל להעביר את הסופר למספר חיובי. זה קורה אוטומטית עם hiyaCFW בגרסה העדכנית שלו.
 
-In version 1.4.0, RSA signatures in the DS cart whitelist aren't verified. יש פירצה הקשורה לפגיעות ברשימה הלבנה של הפלאשקארדים בNintendo DSi המאפשרת לנו לקבל שליטה על המעבד ARM9. זה דורש מכשיר בגרסה 1.4.0 (פירצה זו נחסמה בגרסות עתידיות, ולא הייתה קיימת בגרסות ישנות יותר) ופלאשקארט עם רום ערוך.
+בגרסה 1.4.0 חתימות RSA ברשימה הלבנה של הקלטות DS לא נבדקות. יש פירצה הקשורה לפגיעות ברשימה הלבנה של הפלאשקארדים בNintendo DSi המאפשרת לנו לקבל שליטה על המעבד ARM9. זה דורש מכשיר בגרסה 1.4.0 (פירצה זו נחסמה בגרסות עתידיות, ולא הייתה קיימת בגרסות ישנות יותר) ופלאשקארט עם רום ערוך.
 
-### Nintendo DSi Slot-1 access & blockout
-Slot-1 access is blocked when launching applications from the system menu, except if said applications is either the Slot-1 launcher itself or System Settings. על מנת להפעיל קלטות slot-1 שלא ניתן להפעיל באופן רגיל, תצטרכו או פירצה בתפריט הגדרות המערכת או להתקין את Unlaunch. ללא אחד מאלה, לא תוכלו להפעיל פלאשקארדים שלא ניתן להפעיל ולא תוכלו לחלץ רומים לכרטיס הSD שלכם.
+### גישה & חסימה לSlot-1 בNintendo DSi
+גישה לSlot-1 נחסמת כאשר מריצים תוכנות מתפריט המערכת, מלבד המקרים בהם התוכנה עצמה היא המפעיל של Slot-1 או תפריט הגדרות המערכת. על מנת להפעיל קלטות slot-1 שלא ניתן להפעיל באופן רגיל, תצטרכו או פירצה בתפריט הגדרות המערכת או להתקין את Unlaunch. ללא אחד מאלה, לא תוכלו להפעיל פלאשקארדים שלא ניתן להפעיל ולא תוכלו לחלץ רומים לכרטיס הSD שלכם.
 
 הרשימה הלבנה של הפלאשקארדים נבדקת על ידי חתימות RSA שמוכלות במפתחות RSA בכל קושחה מלבד 1.4.0. זאת אומרת שאנשים יוכלים להכניס את הקלטות שלהם לרשימה הלבנה
 
-לפני גרסה 1.4.0, הרשימה הלבנה הכילה 2 חלקים. ב1.4.0, הם הוסיפו חלק נוסף שיועד לחסום פלאשקארדים שעקפו את שני החלקים הראשונים. החלק השלישי טוען עד שמונה חלקים שונים של הרום ובודק אותם מול hash בשביל לבדוק אם הרום שונה בצורה כלשהיא. However, due to the forgetfulness of putting any sanity check, we can overflow into the exception vector / interrupt address using a large enough value. החשוב מכל, זה פועל על ARM7 (המכונה גם מעבד האבטחה) ולכן זה הופך את זה לפריצה הראשונה עבור מעבד ARM7. מאחר וזה קורה לפני הנעילה של רישומי הSCFG, ניתן יהיה להריץ הומברו מתקדם (לדוגמת מחלצי Slot-1 & מחלצי slot-1 חיצוניים)
+לפני גרסה 1.4.0, הרשימה הלבנה הכילה 2 חלקים. ב1.4.0, הם הוסיפו חלק נוסף שיועד לחסום פלאשקארדים שעקפו את שני החלקים הראשונים. החלק השלישי טוען עד שמונה חלקים שונים של הרום ובודק אותם מול hash בשביל לבדוק אם הרום שונה בצורה כלשהיא. למרות זאת, כתוצאה מהעובדה ששכחו לשים בדיקות שפיות, אנחנו יכולים לגרום להצפה לכתובת הההפרעה או וקטור החריגים באמצעות ערך גדול מספיק. החשוב מכל, זה פועל על ARM7 (המכונה גם מעבד האבטחה) ולכן זה הופך את זה לפריצה הראשונה עבור מעבד ARM7. מאחר וזה קורה לפני הנעילה של רישומי הSCFG, ניתן יהיה להריץ הומברו מתקדם (לדוגמת מחלצי Slot-1 & מחלצי slot-1 חיצוניים)
 
 לרוע המזל, הדרישות לחוצות. זה דורש גרסה 1.4.0 ופלאשקארד עם רום שעבר שינוי. בנוסף, הפירצה מעולם לא יצאה באופן רשמי, מאחר וUnlaunch פשוט יותר להתקנה ובעל פחות דרישות (נדרשת רק דרך לגשת להומברו) עם אותם היתרונות.
 
 ### המצלמה של Nintendo DSi
-התוכנה Nintendo DSi Camera בעלת יכולת לצלם תמונות בפורמט JPEG ולשמור אתם או לזכרון המערכת או לכרטיס SD. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether its PC taken or PC edited.
+התוכנה Nintendo DSi Camera בעלת יכולת לצלם תמונות בפורמט JPEG ולשמור אתם או לזכרון המערכת או לכרטיס SD. הצורה בה היא נטענת מגבילה אותה לתמונות שנוצרו על ידי DSi בלבד, כתוצאה מהעדר HMAC תקין שמאוחסן בתוך טאג הEXIF המותאם. כל תמונה מותאמת אישית לא קריאה על ידי הDSi, בין אם היא נלקחה מהמחשב או נערכה בו.
 
-A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
+קובץ `pit.bin` משמש למען טעינת התמונות. אבל, גודל הheader בoffset 0x16 לא נבדק, כך שגודל header מספיק גדול יכול לעבור את המגבלות ולגרום לbuffer לכתוב מעבר ולקפוץ לקוד לא חתום. זאת הדרך שבה Memory Pit פועל.
 
 ### Nintendo DSi bootstage 2
-The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.
+שלב העליה השני של הNintendo DSi טוען את ה"title.tmd" של המפעיל לזכרון. אבל, הם לא בודקים את הגודל המקסימלי של הקובץ, כך ש80k הבתים הראשוניים נטענים לRAM והשאר יכולים להיות מטען מותאם אישית. זה הבסיס של פירצת הUnlaunch.
 
 ### RTCom
-RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of GBARunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).
+RTCom הוא השימוש בRTC של ה3DS לאפשר למעבדי הARM7 והARM11 לתקשר אחד עם השני, אפילו בתוך TWL_FIRM. זה מאפשר שימוש בפונקציות של ה3DS בזמן שהוא במצב DS(i). זה כולל את הקלט האנלוגי מהגויסטיק, הפעלה של מסך רחב, ותמיכה בגירוסקופ. כרגע, ההומברו הפומבי היחיד שמשתמש בRTCom הוא בניות מסויומות של GBARunner2 שכוללות תמיכה בגירו של ה3DS. על מנת לאפשר את RTCom, תצטרכו להשתמש ב[TWPatch](https://gbatemp.net/threads/542694/).

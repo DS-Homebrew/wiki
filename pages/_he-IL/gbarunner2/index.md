@@ -6,8 +6,8 @@ title: דף הבית
 description: מידע לגבי שימוש בGBARunner2
 ---
 
-GBARunner2 is an [open-source](https://github.com/Gericom/GBARunner2) hypervisor that runs GBA games on DS / DSi / 3DS in DS mode. Basically, like [Nintendont](https://github.com/FIX94/Nintendont) does for running GameCube games on Wii.
+GBARunner2 הוא היפרויזור ב[קוד פתוח](https://github.com/Gericom/GBARunner2) שמריץ משחקי GBA על DS / DSi / 3DS במצב DS. בפשטות, כמו ש[Nintendont](https://github.com/FIX94/Nintendont) עושה עבור הרצת משחקי GameCube על Wii.
 
-Along with what this wiki has to offer, the GBARunner compatibility lists have a lot of useful information:
-- [DS flashcard](https://wiki.gbatemp.net/wiki/GBARunner2)
+בנוסף על מה שלוויקי הזה יש להציע, לרשימות התאימות של GBARunner יש המון מידע שימושי:
+- [פלאשקארד של DS](https://wiki.gbatemp.net/wiki/GBARunner2)
 - [DSi / 3DS](https://wiki.gbatemp.net/wiki/GBARunner2/DSi_3DS_Compatibility_List)

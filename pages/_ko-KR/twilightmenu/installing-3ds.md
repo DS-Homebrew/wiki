@@ -5,7 +5,7 @@ section: twilightmenu
 category: installing
 title: 설치하기 (3DS)
 long_title: TWiLight Menu++ 설치하기 (3DS)
-description: How to install TWiLight Menu++ on the Nintendo 3DS
+description: 닌텐도 3DS에서 TWiLight Menu++를 설치하는 방법
 tabs:
   - 
     working-camera: 카메라를 사용하여 설치

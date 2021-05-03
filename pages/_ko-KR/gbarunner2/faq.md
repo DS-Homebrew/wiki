@@ -2,9 +2,9 @@
 lang: ko-KR
 layout: wiki
 section: gbarunner2
-title: FAQ & 문제 해결하기
-long_title: GBARunner2 FAQ & Troubleshooting
-description: FAQs and troubleshooting for GBARunner2
+title: 자주 묻는 질문 & 문제 해결하기
+long_title: GBARunner2 자주 묻는 질문 & 문제 해결
+description: GBARunner2에 관해 자주 묻는 질문과 문제 해결
 ---
 
 #### 테두리를 커스텀하는 방법이 뭔가요?

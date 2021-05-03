@@ -13,5 +13,5 @@ Informasi untuk [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), alat pera
 #### Bagaimana cara melewati layar "mounting drive(s)" saat baru buka?
 Ini terjadi jika kamu meluncurkan GodMode9i dari [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). Kamu dapat menahan X ketika meluncurkan GodMode9i agar penyembulan (mounting) NAND dilewati. Cara lainnya, kamu dapat meluncurkan GodMode9i langsung dari unlaunch agar dapat menyembulkan (mount) NAND.
 
-#### Kenapa saya tidak dapat menyimpan (dump) permainan di DSi?
-Kamu harus sudah ada unlaunch agar dapat menyimpan (dump) permainan ke kartu SD. Kamu dapat memasang unlaunch dengan mengikuti [dsi.cfw.guide](https://dsi.cfw.guide/).
+#### Kenapa saya tidak bisa mengimbit (dump) permainan di DSi?
+Kamu harus sudah ada unlaunch agar dapat mengimbit (dump) permainan ke kartu SD. Kamu dapat memasang unlaunch dengan mengikuti [dsi.cfw.guide](https://dsi.cfw.guide/).

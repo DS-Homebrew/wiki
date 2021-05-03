@@ -3,8 +3,8 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to Create DSi / 3DS Skins
-description: TWiLight Menu++의 DSi와 3DS스킨을 커스텀하는 방법
+title: DSi / 3DS 스킨 제작하기
+description: TWiLight Menu++의 DSi와 3DS 스킨을 커스텀하는 방법
 ---
 
 테마를 커스텀하는 가장 쉬운 방법은 테마의 `ui`, `battery` 또는 `volume` 폴더의 PNG 텍스쳐를 수정하는 것입니다. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
@@ -19,16 +19,16 @@ Be aware the paletted textures come with more restrictions than BMP textures, th
 
 The example themes are in the [`romsel_dsimenutheme/resources/dsimenu_theme_examples` folder](https://github.com/DS-Homebrew/TWiLightMenu/tree/master/romsel_dsimenutheme/resources/dsimenu_theme_examples) in TWiLight Menu++'s repository. To download them, [download the repository](https://github.com/DS-Homebrew/TWiLightMenu/archive/master.zip) or clone it with git, then find that folder.
 
-## Theme file descriptions
+## 테마 파일 설명
 
 The `volume` and `battery` textures are self explanatory.
 
-### Background textures (`background_grit` folder)
+### 배경 텍스쳐 (`background_grit` 폴더)
 
-| Texture            | Description                                                                                       |
+| 텍스쳐                | 설명                                                                                                |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
-| bottom             | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble      | The bottom background texture when hovering over an icon                                          |
+| bottom             | 아이콘 위에 커서가 올라가 있을 때의 배경 텍스쳐                                                                       |
+| bottom_bubble      | 아이콘 위에 커서가 올라가 있지 않을 때의 배경 텍스쳐                                                                    |
 | bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
 | bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
 | top                | The top background                                                                                |

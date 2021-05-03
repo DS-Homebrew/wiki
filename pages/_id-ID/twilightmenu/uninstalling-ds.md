@@ -3,12 +3,12 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Pelepasan (DS & DSi)
-long_title: Pelepasan TWiLight Menu++ (DS & DSi)
-description: Cara melepas TWiLight Menu++ dari Nintendo DSi atau flashcard DS
+title: Pencopotan (DS & DSi)
+long_title: Pencopotan TWiLight Menu++ (DS & DSi)
+description: Cara mencopot TWiLight Menu++ dari Nintendo DSi atau flashcard DS
 ---
 
-### Pelepasan (Uninstall)
+### Pencopotan (Uninstall)
 1. Masuk ke kartu SD konsol atau ke kartu SD flashcard
 1. Buka `_nds`
 1. Hapus folder `TWiLightMenu`

@@ -77,7 +77,7 @@ Tidak sesuai (Incompatible):
 Komputer PC:
 - Sistem Pelaksanaan (OS) 64 bit
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
-- Java 8 yang Perbaruan (Update) 251
+- Java 8 Update 251
 - **Pengguna Linux:** JavaFX. Di sistem berdasar Debian jalankan [yang ini](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), atau kalau di Arch jalankan: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
 
 ### Bagian 1: Memulai
@@ -104,7 +104,7 @@ Setelah selesai mengekstrak kemasannya, kamu dapat menyunting (edit) `sd:/_nds/n
 1. Ekstrak isi dari folder `for Slot-1 microSD` di root kartu microSD flashcard-mu, dan (jika foldernya ada) isi dari folder `for 3DS SD card` taruh juga di root kartu SD 3DS-mu.<br>*Root atau Akar adalah bagian pangkal awal folder
 
 Setelah selesai mengekstrak kemasan untuk kartunya, kamu dapat menyunting `sd:/_nds/ntr_forwarder.ini` untuk mengubah pengaturan. Ini tidak bisa kalau di Acekard RPG, R4 DS, dan R4i Gold RTS.
-- `NTRCLOCK`: Jika diubah ke `0` atau tombol <kbd class="face">A</kbd> ditahan, layar awal nyala (boot) DSi akan muncul daripada splash DS yang biasa, dan laju waktu (clock speed) TWL akan dipakai, jadi sendatnya hilang
+- `NTRCLOCK`: Jika diubah ke `0` atau tombol <kbd class="face">A</kbd> ditahan, layar awal nyala (boot) DSi akan muncul daripada splash DS yang biasa, dan laju jam (clock speed) TWL akan dipakai, jadi sendatnya hilang
 - `DISABLEANIMATION`: Jika diubah ke `1` atau tombol <kbd class="face">B</kbd> ditahan, layar awal nyala (boot) DS / DSi dilewati
 - `HEALTHSAFETYMSG`: Jika diubah ke `1`, layar pesan kesehatan dan keselamatan akan muncul di layar bawah, jika tidak nanti layar bawah hanya putih tanpa pesan kesehatan dan keselamatan
 {% endcapture %}
@@ -115,7 +115,7 @@ Setelah selesai mengekstrak kemasan untuk kartunya, kamu dapat menyunting `sd:/_
 
 ### Bagian 2: Mendapatkan berkas AP fix dari TWiLight Menu++
 Jika kamu sudah ada TWiLight Menu++, lewati saja bagian ini.
-1. Unduh `TWiLightMenu-3DS.7z` terbaru (latest) dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Unduh `TWiLightMenu-3DS.7z` yang terbaru (latest) dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. Di dalam berkas 7z, masuk ke folder `_nds/TWiLightMenu/`
 1. Salin folder `apfix` ke `sd:/_nds/ntr-forwarder/` di kartu SD 3DS-mu
 
@@ -123,10 +123,10 @@ Jika kamu sudah ada TWiLight Menu++, lewati saja bagian ini.
 1. Buka berkas `Forwarder3DS.jar`
    - **Pengguna Windows:** Jika tidak mau buka, unduh ini [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), lalu letakkan di folder yang sama dengan Forwarder3DS.jar, dan jalankan
 1. Atur kartunya sebagai `Target` di sebelah kiri
-   - **CATATAN:** Jika kamu tidak melihat daftar target flashcard, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ganti namanya jadi `.forwarders`
+   - **CATATAN:** Jika kamu tidak melihat daftar target flashcard, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ubah namanya jadi `.forwarders`
 1. Nyalakan `Automatically set ROM path`
    - **Pengguna Linux:** Jalur otomatis-nya tidak benar karena ada nama lengkap jalurnya (seperti `/media/$USER/something/`), mohon dihapus yang bagian itu
-   - **Pengguna MacOS:** Jalur otomatis-nya tidak benar karena ada nama `/Volumes/(cardname)/` di awalnya, mohon dihapus yang bagian itu
+   - **Pengguna MacOS:** Jalur otomatis-nya tidak benar karena ada nama `/Volumes/(nama kartu)/` di awalnya, mohon dihapus yang bagian itu
 1. Pencet (klik) folder yang ada di kanan atas dan pilih ROM yang ingin dibuat forwarder atau tinggal seret dan lepas saja ke jendela (window)
    - **CATATAN:** berkas ROM harus sudah ada di kartu SD-mu ketika dipilih, dan tidak dapat dipindah lagi tanpa membuat ulang forwarder-nya
    - **Pengguna kartu SD:** Jika berkas simpanan (save) ada di folder yang sama dengan ROM, pindahkan ke dalam folder `saves`, yang mana folder `saves` di tempat yang sama juga dengan ROM
