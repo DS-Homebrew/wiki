@@ -12,7 +12,7 @@ tabs:
 
 HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
 
-DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/godmode9-usage#dumping-a-game-cartridge).
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
 {:.alert .alert-info}
 
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
