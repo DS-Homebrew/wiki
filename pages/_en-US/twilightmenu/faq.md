@@ -20,6 +20,9 @@ Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
 - If that also doesn't work, try a different SD card
 
+#### Where is the Acekard/Wood UI theme?
+The acekard (also called Wood UI) theme was removed due to its buggy behaviour and causing SD Card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 
