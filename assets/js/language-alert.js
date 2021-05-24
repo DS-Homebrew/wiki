@@ -1,7 +1,6 @@
 ---
 ---
 
-
 if(!sessionStorage.languageAlertDismissed) {
 	// Have liquid insert the language info
 	const languages = [{% for collection in site.collections %}"{{ collection.label }}"{% unless forloop.last %}, {% endunless %}{% endfor %}];
