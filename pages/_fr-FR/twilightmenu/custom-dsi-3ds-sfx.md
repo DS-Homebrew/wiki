@@ -40,19 +40,33 @@ Vous devez définir `PlayStartupJingle=1` dans votre `theme.ini` pour que le jin
 
 
 ## Son de fond du menu
-
-Le son de fond du menu doit être un fichier PCM brut **16 bits 16 kHz Mono** de 16 kHz. Vous pouvez utiliser [Audacity](https://www.audacityteam.org/download/) par exemple pour convertir vers ce format. Une fois que le fichier est chargé sur Audacity, changez la **fréquence de projet (Hz)** à **16000**, puis appuyez sur **Maj+M**, et changez le **Format** en **16 bits PCM**.
-
-Si votre fichier est en stéréo, vous devriez également aller sur **Pistes > Mixer > Mixer Stéréo en Mono**.
-
-Pour exporter dans le format correct :
-1. Sélectionnez `Fichier` > `Exporter` > `Exporter l'audio...`
-1. Définir `Type de fichier` à `Autres fichiers non compressés`
-1. Définir `En-tête` à `RAW (sans en-tête)`
-1. Définir `Encodage` à `PCM 16 bits signés`
-1. Définissez le nom de sortie à `bgm.pcm.raw` et cliquez sur `Enregistrer`
-1. Cliquez sur `OK` pour éditer les métadonnées
-
-Maintenant vous avez un fichier `bgm.pcm.raw` qui peut être copié dans le sous-dossier *sound* de votre thème.
+Le son de fond du menu doit être un fichier PCM brut **16 bits 16 kHz Mono** de 16 kHz. Vous trouverez ci-dessous deux méthodes pour convertir les fichiers audio dans ce format.
 
 Contrairement à sfx.bin, *bgm.pcm.raw* peut être arbitrairement grand.
+
+### ffmpeg
+La façon la plus simple de convertir de la musique dans TWiLight Menu++ est d'exécuter cette commande [ffmpeg](https://ffmpeg.org) dans un terminal :
+
+```bash
+ffmpeg -i [fichier d'entrée] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
+
+Remplacez `[fichier d'entrée]` par le nom du fichier que vous souhaitez convertir. Vous pouvez généralement le faire en faisant simplement glisser le fichier dans la fenêtre du terminal avec le curseur à l'endroit approprié.
+
+### Audacity
+Si vous ne voulez pas utiliser la ligne de commande, vous pouvez également convertir en utilisant [Audacity](https://www.audacityteam.org/download/).
+
+Pour convertir l'audio:
+1. Charger le fichier dans Audacity
+1. Si votre fichier est en stéréo, cliquez sur la musique puis sélectionnez `Tracks` > `Mix` > `Mix Stéréo down to Mono`
+1. Changez le `Project Rate (Hz)` en bas à gauche vers `16000`
+
+Pour exporter dans le format correct :
+1. Select `File` > `Export` > `Export Audio...`
+1. Set `File Type` to `Other uncompressed files`
+1. Set `Header` to `RAW (header-less)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Click `OK` to the metadata editing
+
+Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.

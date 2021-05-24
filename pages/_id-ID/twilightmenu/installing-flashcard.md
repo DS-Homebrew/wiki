@@ -17,8 +17,8 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 1. Jika kamu sudah ada data simpanan, pindahkan dulu berkas `.sav`, yang tadinya bersamaan dengan ROM DS, ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
 1. ...
    - **Pengguna DS Phat (Kodok) / DS Lite:** Jika pemulaian `BOOT.NDS` malah tersangkut di layar putih, pasang DS Memory Expansion Pak, dan coba lagi
-   - **Pengguna DSi / 3DS:** Jalankan TWLMenu++ di kartu SD konsol, dan nyalakan `akses SCFG di Slot-1`
-      - Ini agar dapat memakai laju jam (clock speed) yang TWL dan/atau kebut (boost) VRAM pada permainan di flashcard, sekaligus mengakses isi kartu SD konsol
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+      - This will let you use TWL clock speed and / or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced / DSi-Exclusive / DSiWare games in DSi mode from your flashcard
 
 ### Untuk menjalankan permainan dengan firmware flashcard
 1. Ekstrak isi dari `Flashcart Loader/(flashcard yang dipakai)` ke root kartu microSD flashcard

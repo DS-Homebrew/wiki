@@ -10,14 +10,15 @@ description: כיצד להשיג את הDownload Play של הDS ואת Pictochat
 אם אתם משתמשים במכשיר DSi, אתם אמורים להיות יכולים להריץ את האפליקציות האלו. אחרת, אם יש לכם 3DS, המשיכו עם המדריך.
 
 בGodMode9:
-- סמנו את SYSNAND TWLN ולחצו על <kbd class="r">R</kbd> + <kbd class="face">A</kbd>
-- בחרו ב`Search for titles`
-- בחרו ב`DS Download Play (NTR-HNDA).tmd`
-- בחרו ב`TMD file options...`
-- בחרו ב`Dump CXI/NDS file`
-- בוצע. הקובץ אמור להיות תחת `sdmc:/gm9/out/`, בשם `DS Download Play (NTR-HNDA).nds`
+- Press the Home/Power button
+- Select `Title Manager`, then select `[1:] NAND / TWL`
+- Find and select `DS Download Play (NTR-HDNA)`
+- Select `Open title folder`
+- Select `00000000.tmd`, then select `TMD file options...`
+- Select `Dump CXI/NDS file`
+- Done. The file will be in `0:/gm9/out/`.
 
-העתיקו את הקובץ ל`sd:/_nds/`, ושנו את שמו ל`dlplay.nds`.
+Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
 
 הצעדים מעלה יגברו את זמן העליה של DLP.
 

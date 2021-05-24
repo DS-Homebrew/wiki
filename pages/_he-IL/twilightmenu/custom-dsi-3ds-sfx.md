@@ -40,19 +40,33 @@ TWiLightMenu תומך בקבצי שמע מותאמים אישית בערכות �
 
 
 ## מוזיקת רקע בתפריט
-
-מוזיקת רקע בתפריט צריכה להיות קובץ raw PCM עם ההגדרות **16-bit 16 kHz Mono**. לדוגמה, ניתן להשתמש ב[Audacity](https://www.audacityteam.org/download/) להמרת הקובץ לפורמט הזה. כשהקובץ טעון בAudacity שנו את ה**Project Rate (Hz)** ל**16000**, לחצו על **Shift+M** ושנו את ה**Format** ל**16-bit PCM**.
-
-אם הקובץ שלכם בסטריאו, לכו ל **Tracks > Mix > Mix Stereo down to Mono**.
-
-לייצוא בפורמט הנכון, בצעו:
-1. בחרו ב `File` > `Export` > `Export Audio...`
-1. הגדירו את `File Type` ל`Other uncompressed files`
-1. הגדירו את `Header` ל`RAW (header-less)`
-1. הגדירו את `Encoding` ל`Signed 16-bit PCM`
-1. קבעו את שם המוצא ל`bgm.pcm.raw` ולחצו על `Save`
-1. לחצו על `OK` לעריכת הmetadata
-
-עכשיו יש לכם קובץ `bgm.pcm.raw` שניתן להעתיק לתת התיקייה *sound* בתיקיית ערכת הנושא שלכם.
+מוזיקת רקע בתפריט צריכה להיות קובץ raw PCM עם ההגדרות **16-bit 16 kHz Mono**. Below are two methods for converting audio files into that format.
 
 בניגוד לsfx.bin, גודלו של *bgm.pcm.raw* יכול להיות בכל גודל.
+
+### ffmpeg
+The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
+
+```bash
+ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
+
+Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+
+### Audacity
+If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+
+To convert the audio:
+1. Load the file in Audacity
+1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+
+To export in the correct format:
+1. Select `File` > `Export` > `Export Audio...`
+1. Set `File Type` to `Other uncompressed files`
+1. Set `Header` to `RAW (header-less)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Click `OK` to the metadata editing
+
+Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.

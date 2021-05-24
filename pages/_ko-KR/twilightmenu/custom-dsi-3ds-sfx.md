@@ -40,19 +40,33 @@ startup.wav 파일은 반드시 **16-bit 16 kHz** 형식이어야 합니다. 이
 
 
 ## 메뉴 배경음악
+메뉴 배경음악은 **16-bit 16 kHz 모노** raw PCM 파일이여야 합니다. Below are two methods for converting audio files into that format.
 
-메뉴 배경음악은 **16-bit 16 kHz 모노** raw PCM 파일이여야 합니다. 이 형식으로 변환하기 위해 [Audacity](https://www.audacityteam.org/download/)를 사용해볼 수 있습니다. Audacity에 파일이 로딩되었으면, **Project Rate (Hz)**를 **16000**으로 변경하고, **Shift+M**을 누른 다음, **Format**을 **16-bit PCM**으로 변경합니다.
+Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
 
-사용하려는 파일이 스테레오라면, **Tracks > Mix > Mix Stereo down to Mono**를 순서대로 진행하세요.
+### ffmpeg
+The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
-맞는 포맷으로 추출하기 위해 할 것:
-1. `File` > `Export` > `Export Audio...`를 선택합니다.
-1. `File Type`을 `Other uncompressed files`로 설정합니다.
-1. `Header`를 `RAW (header-less)`로 설정합니다.
-1. `Encoding`을 `Signed 16-bit PCM`로 설정합니다.
-1. 이름을 `bgm.pcm.raw`로 설정하고 `Save`를 누릅니다.
-1. 메타데이터 수정을 위해 `OK`를 누릅니다.
+```bash
+ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
 
-이제 만들어진 `bgm.pcm.raw` 파일을 복사하여 사용자의 테마 폴더 안에 *sound* 하위 폴더를 만든 후 붙여넣으세요.
+Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
 
-sfx.bin 파일과는 다르게, *bgm.pcm.raw* 파일은 용량이 얼마든지 커도 좋습니다.
+### Audacity
+If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+
+To convert the audio:
+1. Load the file in Audacity
+1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+
+To export in the correct format:
+1. Select `File` > `Export` > `Export Audio...`
+1. Set `File Type` to `Other uncompressed files`
+1. Set `Header` to `RAW (header-less)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Click `OK` to the metadata editing
+
+Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.

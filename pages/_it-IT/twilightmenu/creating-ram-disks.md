@@ -17,7 +17,7 @@ Istruzioni di @Dakkon7, modificate da RocketRobz:
 1. Esegui RAMDisk
 1. Clicca su **Visualizza** -> **Avanzate**
 1. Per **Dimensione disco**, digita `12` per DSi, o `28` per 3DS, sopra **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
+1. Deseleziona l'opzione **Crea cartella TEMP**, se è già selezionata
 1. Clicca **Carica/Salva**
 1. Fare clic su `Avvia RAMDisk`, e dovrebbe apparire una nuova finestra per il tuo .img
 1. Posiziona qualsiasi file e/o cartella che l'homebrew necessita, e/o file che vuoi usare

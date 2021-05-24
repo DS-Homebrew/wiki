@@ -9,71 +9,71 @@ description: Információk a DS⁽ⁱ⁾ Mode Hacking Discord szerverről
 
 ### Köszöntünk a <u>DS⁽ⁱ⁾ Mode Hacking</u> szerveren!
 
-We specialize in all things related to Nintendo DS(i) modding and homebrew. Here are a few examples of what we can help you do in this server:
+Specializálódtunk, minden a Nintendo DS(i) moddoláshoz és homebrew-hoz kapcsolódó dologra. Néhány példa arra, hogy miben tudunk segíteni neked ezen a szerveren:
 
-- Setting up the best kernel for your flashcart
-- Installing Custom Firmware (CFW) to your Nintendo DSi
-- Helping modify the TWL_FIRM on your Nintendo 3DS (allowing you to use widescreen, changing screen filtering amongst other things)
+- A legjobb kernel beállítása a flashcardodhoz
+- Egyéni Firmware (CFW) telepítése a Nintendo DSi-dre
+- Segítség a TWL_FIRM módosításában a Nintendo 3DS-eden (ami lehetővé teszi a széles képernyő használatát, a képernyő filteezés módosítását más egyebek mellett)
 
-We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
+Ezen kívül más dolgokra is fókuszálunk, mint a ROM hackek készítése, homebrew fejlesztése és általános csevegés.
 
 ## Discord csatornák
-We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
+Számos csatornánk van, különböző témákra, ezért győződj meg arról, hogy a megfelelő csatornát használod, így mások nem kerülnek elárasztásra számukra érdektelen beszélgetésekkel. Áttekintjük a fontosokat, de mindig meg tudod tekinteni, hogy más csatornák mit csinálnak, a csatorna témájának (topic) megtekintésével:
 
-- [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server
-- [#useful-resources][useful-resources] - Need to understand something? Don't know a technical term?  Check here
-- [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Please check the pins, as there might be an explanation there already
-- [#community-meta][community-meta] - This channel is used for talking about the server itself
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed but are still enforced.  Use this to post your memes and stuff
+- [#community-rules][community-rules] - Ezek szabály csatorna, mely leírja a követendő szabályokat, amikor ezen a szerveren kommunikálunk
+- [#useful-resources][useful-resources] - Meg kellene értened valamit? Nem ismersz egy technikai terminológiát?  Nézd meg itt
+- [#nds-modding-help][nds-modding-help] - Ez az ahol segítséget kérhetsz bármiről am DS Homebrew-val kapcsolatos. Kérjük tekintsd meg a rögzített üzeneteket, mert elképzelhető, hogy már van válasz a kérdésedre
+- [#community-meta][community-meta] - Ez a csatorna arra van, hogy magáról a szerverről beszéljünk
+- [#end-of-server][end-of-server] - Ez az alkalmi, alacsony szintű csevegésre szolgáló hely. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek.  Használd ezt a mémeid és egyéb dolgok postolására
 
-We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
+Van még nekünk az [#other-nds-homebrew][other-nds-homebrew] olyan homebrew-okhoz, amik nem rendelkeznek dedikált csatornával, az [#nds-modding-discussion][nds-modding-discussion] olyan moddoláshoz, ami nem fér bele más csatornákba, az [#nds-gaming][nds-gaming] általános DS dolgokhoz és az [#offtopic][offtopic] bármilyen általános témához.
 
 ## Szerepek & felhasználók
 Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak @Lightning paranccsal érhető el
 
-### Fejlesztők
+### Fejlesztők (Developers)
 Ezt a szerepet azok kapják meg, akik a Nintendo DS színtéren vagy támogattak vagy vezettek egy projektet. Bár előnyösebb, ha nyílt forráskódú lenne, de opcionális. Posztold a Nintendo DS homebrew alkalmazást a hozzá való csatornán. (Ha nincs még ilyen, akkor posztolj az [#other-nds-homebrew][other-nds-homebrew]-ban), és pingelj egy moderátort az üzenet mellett.
 
 Ne feledd, hogy lopott kód nem tesz ebbe a szerepbe, és elutasíthatjuk a kérést különböző okok miatt
 
-### Művészek/Tervezők
-This role is given to those with an understanding of how art works and have contributed to DS homebrew in a graphical way (for example, a WoodR4 skin or a TWiLight Menu++ subtheme). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
+### Művészek/Tervezők (Artists/Designers)
+Ez a szerepkör azoknak kerül kiosztásra, akik tudják, hogyan működik a művészet és hozzájárultak a DS homebrew-okhoz valamilyen grafikai módon (például egy WoodR4 szkin vagy egy TWiLight Menu++ altéma). Ha megfelelsz ennek a követelmények, jelezd nekünk a [#community-meta][community-meta] csatornán példákkal a munkádról és értékelni fogjuk.
 
-### Segítők
-Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community. As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
+### Segítők (Helpers)
+Akár olyan személyek, akiket speciális buildek tesztelésével bízunk meg, akár olyan személyek, akik segítik az [#nds-modding-help][nds-modding-help] csatornát, a Segítők olyan személyek, akik a szervert a közösség építő tagjaiként segítik. A fenti átlag feletti posztolási minőség mellett két lehetséges módja van a szerepkrö megszerzésének: Tesztelés & segítségnyújtás az[#nds-modding-help][nds-modding-help] csatornán
 
-For those testing, you must test at least a total of 7 games between GBARunner2 and nds-bootstrap. Check their specific channel topics for links to their compatibility sheet. For those helping, the amount of help you give isn't set in stone. We generally look at how grand your helping is (for example, saying "right click then hit edit" wouldn't help).
+A teszteléshez legalább 7 gjátékot kell tesztelned a GBARunner2-vel és nds-bootstrap-pel. Tekintsd meg a specifikus csatorna témákat a kompatibilitási lista linkjéért. A segítséghez a segítség mennyisége nincs kőbe vésve. Általában nézzük, mennyire nagy a segítséged (például azt mondani, hogy "jobb klikk és nyomd meg a szerkesztést" nem segítség).
 
-Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. If we approve, you will gain the Helpers role. You must send at least one message every 4 months to keep it.
+Ha valamelyiknek megfelelsz, említsd a [#community-meta][community-meta] csatronán és jelezd, hogy melyik metódust választottad. Ha elfogadjuk, megkapod a Segítők szerepkört. Legalább egy üzenetet kell küldened 4 havonta, hogy megtartsd.
 
 ### Fordítók
-Wanna translate a project of ours? Give yourself this role so you can stay up to date with the project's translation status. Our translation leader (Evie) will ping when new strings need to be translated.
+Szeretnéd fordítani valamelyik projektünket? Add magadnak ezt a szerepkört, így naprakészen leszel a projektek fordítási állapotával. A fordítási vezetőnk (Evie) jelezni fog, ha új szövegek fordítása szükséges.
 
 - TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>
-- dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
+- dsi.cfw.guide weboldal: <https://crowdin.com/project/dsi-guide>
 - ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
 
-This is a toggleable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
+Ez egy kapcsolható szerepkör a @Lightning togglerole parancsával: (`!togglerole Translators` az [#end-of-server][end-of-server] csatornában)
 
-### Játék Modderek
-This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
+### Játék Modderek (Game Modders)
+Ez a szerepkör azoknak kerül kiosztásra, akik készítettek egy ROM Hack-et megfelelő minőségben a Nintendo DS-re, tudják, hogy hogyan kell helyesen patchelni a fájljaikat és megosztottak már ROM hacket több állandó helyen (mint például a GameBanana vagy moddoló fórumok). Posztold a ROM hacked az [#nds-retail-research][nds-retail-research] csatornába és pingelj meg egy moderátort, és értékelni fogjuk a ROM hackedet.
 
-### Nintendo DS Online játékosok
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a toggleable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
+### Nintendo DS Online játékosok (Nintendo DS Online Players)
+Ez egy kiemelt szerep, amelynek célja, hogy a felhasználók pingeljenek, amikor valaki online szeretne Nintendo DS-játékot játszani (legyen szó Wiimmfi, AltWFC vagy más szolgáltatásokról). A tömeg pingelők tiltásra kerülnek. Ez egy kapcsoltható szerepkör a @Lightning togglerole parancsával: (`!togglerole Nintendo DS Online Players` az [#end-of-server][end-of-server] csatornában)
 
 ### Frissítések
-You will get pinged in [#announcements][announcements] anytime an update comes out. To access it, type `!togglerole Updates` in [#end-of-server][end-of-server].
+Pingelésre kerülsz az [#announcements][announcements] csatornában, bármikor amikor egy frissítés jön ki. Hogy ezt elérd, írd be a `!togglerole Updates` parancsot az [#end-of-server][end-of-server] csatornában.
 
-## 🤖 Lightning Commands
-Lightning is a discord bot made by @Frost_ which has useful commands for modding communities, including...
+## 🤖 Lightning parancsok
+A Lightning egy discord bot, amit @Frost_ készített és hasznos parancsokkal rendelkezik a modding közösségnek, beleértve...
 
-- `!mod [console] [param2]` - This will allow you to view information on modding consoles, games and so on. param2 could be viewed for more specific information or get a list of homebrew.
-- `!tinydb [search term]` - Lookup 3DS homebrew on TinyDB
-- `!togglerole [role]` - This will toggle the two customizable roles we have: `Updates` and `Nintendo DS Online Players`
+- `!mod [konzol] [param2]` - Ez lehetővé teszi, hogy megtekintsd a konzol moddolási infációkat, játékokat, és így tovább. A param2 használható konkrétabb információkét, vagy homebrew alkalmazások listájának beszerzéséhez.
+- `!tinydb [keresési kulcsszó]` - A 3DS homebrew-ok keresése a TinyDB-ben
+- `!togglerole [role]` - Ez beállít két kapcsolható szerepkört: `Frissítések (Updates)` és `Nintendo DS Online játékosok (Nintendo DS Online Players)`
 
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning-bot.gitlab.io/>
+Egy csomó mókás parancsa van, amit futtatni lehet még, de kérjük ezeket használd az [#end-of-server][end-of-server] csatornán. Hogy többet tudj meg, látogasd meg weboldalukat: <https://lightning-bot.gitlab.io/>
 
-We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.
+Továbbá használjuk a Lightning-ot moderációs célokra, (hogy loggoljuk a figyelmeztetéseket, kirúgásokat, némításokat és tiltásokat). Tartsd ennek a botnak a közvetlen üzenet ablakát nyitva, ha szükséges, hogy elérjünk téged.
 
 ## 👑 A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.

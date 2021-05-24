@@ -1,8 +1,8 @@
 ---
 lang: pl-PL
 section: twilightmenu
-title: Home
-description: Guides on how to use and customize TWiLight Menu++
+title: Dom
+description: Wskazówki dotyczące używania i dostosowywania TWiLight Menu++
 ---
 
 # Witaj w wiki TWiLight Menu++!

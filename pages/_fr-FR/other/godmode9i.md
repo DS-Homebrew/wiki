@@ -14,4 +14,4 @@ Informations pour [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), un navi
 Cela se produit lorsque vous lancez GodMode9i à partir de [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). Vous pouvez maintenir X tout en lançant GodMode9i pour passer le montage de la NAND. Alternativement, vous pouvez lancer GodMode9i directement depuis Unlaunch pour pouvoir monter la NAND.
 
 #### Pourquoi ne puis-je pas dumper des jeux sur DSi?
-Vous avez besoin de Unlaunch installé pour pouvoir copier des jeux sur votre carte SD. Vous pouvez installer Unlaunch en suivant [dsi.cfw.guide](https://dsi.cfw.guide/).
+You need Unlaunch installed in order to be able to dump games onto your SD card. You can install Unlaunch by following [dsi.cfw.guide](https://dsi.cfw.guide/).

@@ -22,25 +22,25 @@ description: Jak dodać okładki gier do TWiLight Menu++
    - Jeśli nie znajdzie poprawnej karty SD, kliknij `Browse...` i wybierz właściwą kartę
 1. Dostosuj rozmiar, obramowanie itp do Twojego uznania
 1. Kliknij `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Upewnij się, że okładka jest ustawiona na wyświetlanie w ustawieniach TWiLight Menu++
 
 ### macOS / Linux
 1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Wypakuj `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
-1. Type the path to your SD card after `SdRoot=`, then save the file
+1. Otwórz `TwilightBoxart.ini` w wypakowanym folderze w edytorze tekstowym
+1. Wpisz ścieżkę do karty SD po `SdRoot=`, a następnie zapisz plik
    - Na macOS jest to `/Volumes/` a następnie nazwa Twojej karty SD
 1. Otwórz terminal
 1. W terminalu wpisz `cd` i przeciągnij na niego folder z `TwilightBoxart.CLI`
 1. Uruchom `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI`
+1. Uruchom `./TwilightBoxart.CLI`
 1. Wpisz `Yes` jeśli ścieżka do karty SD jest poprawna
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Upewnij się, że okładka jest ustawiona na wyświetlanie w ustawieniach TWiLight Menu++
 
 ### Ręcznie
 1. Pobierz paczkę okładek png z [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Wypakuj pliki .png do `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Upewnij się, że okładka jest ustawiona na wyświetlanie w ustawieniach TWiLight Menu++
 
 **Aby dodać własne okładki:** Umieść je w `sd:/_nds/TWiLightMenu/boxart`. Nazwą okładki może być TID gry (np. `ASME.png`), albo nazwą pliku gry (np. `SM64DS.nds.png`). Musi być w formacie `.png`, o zalecanym rozmiarze 128x115 i maksymalnym rozmiarze 208x143.
 

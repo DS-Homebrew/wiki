@@ -40,10 +40,26 @@ Du måste ange `PlayStartupJingle=1` i ditt `theme.ini` för att uppstartsjingel
 
 
 ## Meny BGM
+Meny BGM måste vara en **16-bitars 16 kHz Mono** rå PCM-fil. Nedan finns två metoder för att konvertera ljudfiler till det formatet.
 
-Meny BGM måste vara en **16-bitars 16 kHz Mono** rå PCM-fil. Du kan använda [Audacity](https://www.audacityteam.org/download/) till exempel för att konvertera till detta format. När filen är laddad i Audacity, ändra **Project Rate (Hz)** till **16000**, tryck sedan på **Shift+M**och ändra **-Format** till **16-bit PCM**.
+Till skillnad från sfx.bin, *bgm.pcm.raw* kan bli godtyckligt stort.
 
-Om din fil är i Stereo, bör du också gå till **Tracks > Mix > Mix Stereo down to Mono**.
+### ffmpeg
+Det enklaste sättet att konvertera musik för användning i TWiLight Menu++ är att köra detta [ffmpeg](https://ffmpeg.org) kommando i en terminal:
+
+```bash
+ffmpeg -i [inmatningsfil] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
+
+Ersätt `[inmatningsfil]` med namnet på filen du vill konvertera. Du kan vanligtvis göra detta genom att helt enkelt dra filen till terminalfönstret med markören på rätt plats.
+
+### Audacity
+Om du inte vill använda kommandoraden så kan du också konvertera med [Audacity](https://www.audacityteam.org/download/).
+
+För att konvertera ljudet:
+1. Ladda filen i Audacity
+1. Om din fil är i stereo, klicka på låten och välj sedan `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Ändra `Project Rate (Hz)` längst ned till vänster till `16000`
 
 För att exportera ljudet till rätt format:
 1. Välj `File` > `Export` > `Export Audio...`
@@ -53,6 +69,4 @@ För att exportera ljudet till rätt format:
 1. Ställ in utdatanamnet till `bgm.pcm.raw` och klicka `Save`
 1. Klicka på `OK` för att redigera metadata
 
-Nu har du en `bgm.pcm.raw`-fil som kan kopieras till mappen *ljud* i din temamapp.
-
-Till skillnad från sfx.bin, *bgm.pcm.raw* kan vara godtyckligt stor.
+Nu har du en `bgm.pcm.raw`-fil som kan kopieras till mappen `ljud` i din temamapp.

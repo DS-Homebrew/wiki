@@ -12,7 +12,7 @@ Para que GBARunner2 pueda lanzar juegos, se se necesita una copia de la BIOS de 
 
 - [Wii (no la Family Edition) / GameCube + Link Cable Dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS para la mayoría de títulos de la Virtual Console](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (no pueden ser de GBA o títulos que no sean de Nintendo (Game Gear))
-- [GBA o DS Phat / Lite con una flashcard de GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [GBA or DS Phat / Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
 Tras volcar la BIOS, debe renombrarse como `bios.bin` y colocarla en la raíz de la tarjeta o en alguna de las carpetas `sd:/gba/` o `sd:/_gba/` para que GBARunner2 pueda leerla.
 

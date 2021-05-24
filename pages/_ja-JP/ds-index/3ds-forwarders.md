@@ -11,15 +11,45 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
+HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
+
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
+This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+
+Choose one of the following to add to the HOME menu:
+
+{% capture tab-sd-card %}
+
+### Part 1: Getting the required files
+
+If you already have Universal Updater installed on your console, you can skip to step 3.
+{:.alert .alert-info}
+
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the NDSForwarder package
+1. NDSForwarder and its required files are now set up in its respective locations
+
+### Part 2: NDSForwarder
+1. Open the Homebrew Launcher
+1. In the Homebrew Launcher, open `NDS Forwarder Generator`
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Confirm you wish to install by selecting `Yes`
+1. After it is installed, your game will now appear as a title on your HOME menu
+{% endcapture %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+
+{% capture tab-flashcard %}
+
 If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
 ### Requirements
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), or any other CFW that patches TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) to install CIA files
-- (Optional) A supported DS flashcard
 
 {% capture flashcards %}
 The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
@@ -68,7 +98,7 @@ Incompatible:
 {% endcapture %}
 
 <details>
-    <summary>Supported flashcards</summary>
+    <summary>A supported flashcard from this list</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
@@ -78,20 +108,11 @@ PC:
 - A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux users:** JavaFX
+   - Debian-based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
-{% capture tab-sd-card %}
-1. Download the [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Extract the contents of the `for SD card root` folder to the root of your 3DS's SD card
-
-After you extract the pack, you can edit `sd:/_nds/nds-bootstrap.ini` and change the settings:
-- `BOOST_CPU`: If set to 1, TWL clock speed is used, so lags begone
-- `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
-{% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
-
-{% capture tab-flashcard %}
 1. Download one of these packs:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
@@ -107,11 +128,6 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
-{% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
-
-{% assign tabs = tab-sd-card | concat: tab-flashcard %}
-{% include tabs.html index=0 tabs=tabs %}
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 If you already have TWiLight Menu++, skip to the next section.
@@ -135,3 +151,8 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Click the floppy disk button to generate the forwarder CIA(s)
 1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
    - If using EmuNAND, install to both SysNAND and EmuNAND
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% include tabs.html index=0 tabs=tabs %}

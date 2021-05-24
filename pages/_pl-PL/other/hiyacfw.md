@@ -1,24 +1,24 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: other
 title: hiyaCFW
-description: Information about hiyaCFW
+description: Informacje na temat hiyaCFW
 ---
 
-Information for [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), the world's first CFW for DSi.
+Informacje o [hiyaCFW](https://github.com/RocketRobz/hiyaCFW), pierwszego na świecie CFW dla DSi.
 
-### Custom splash screens
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+### Niestandardowe ekrany powitalne
+Dzięki hiyaCFW możesz używać niestandardowych splashy w formatach `.bmp` lub `.gif`. Muszą one się znaleźć w folderze `sd:/hiya` i muszą mieć nazwy `splashtop` dla górnego ekranu i `splashbottom` dla dolnego, z odpowiednim rozszerzeniem pliku, a następnie upewnij się, że splash screen jest włączony w konfiguracji. Obrazy nie muszą być w tym samym formacie, więc jeden może być BMP a drugi GIF, GIFy mają pierwszeństwo. Poniżej znajduje się kilka szczegółów dotyczących wymagań, jakie muszą spełniać Twoje zdjęcia, aby działały:
 
 #### BMP
-- 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 16-bitowe (RGBA 1555, RGB 1555, lub RGB 565)
+- 256 x 192 lub mniejsze
 
-#### GIF
-- Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
-- If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
-- If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
-- Interlaced and plain text frames are ***not*** supported
-- Local color tables are supported, but will replace the whole palette, including residual image from previous frames, so images using them will likely have palette problems
+#### GIFy
+- Prosta odpowiedź: większość GIFów 256 x 192 lub mniejszych będzie działać
+- Mogą być animowane, ale powinny pozostać poniżej 1 MiB dla idealnej wydajności i nie mogą warzyć więcej niż 10 MiB
+- Jeśli obie zapętlają się w nieskończoność, to będą pokazywane przez 3 sekundy, w przeciwnym razie będą pokazywane do momentu, aż zostaną zakończone
+- Jeśli ramka ma ustawione wprowadzanie danych przez użytkownika, będzie czekać aż zostanie naciśnięty dowolny przycisk
+- Ramki z przeplotem i zwykłe ramki tekstowe ***nie są*** obsługiwane
+- Lokalne tablice kolorów są obsługiwane, ale zastąpią całą paletę, łącznie z obrazem szczątkowym z poprzednich klatek, więc obrazy używające ich prawdopodobnie będą miały problemy z paletą

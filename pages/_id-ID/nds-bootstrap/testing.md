@@ -14,4 +14,5 @@ Untuk melihat permainan yang teruji, lihat [di sini](https://docs.google.com/spr
 - Cari layar yang berkelip atau ada gangguan suara
 - Jika ada yang aneh, jalankan permainannya bersebelahan dengan konsol yang tidak pakai nds-bootstrap untuk perbandingan
 - Coba semua fitur di permainannya sebanyak mungkin
-- Lebih teliti lagi
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, etc)
+- Be thorough

@@ -14,4 +14,4 @@ description: מידע על GodMode9i
 זה קורה כאשר מריצים את GodMode9i דרך [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). ניתן להחזיק X בזמן שמפעילים את GodMode9i על מנת לדלג לטעינת הNAND. לחלופין, ניתן להפעיל את GodMode9i ישירות מunlaunch על מנת להיות יכולים לטעון את הNAND.
 
 #### למה אני לא יכול לחלץ משחקים על DSi?
-צריך שunlaunch יהיה מותקן על מנת להיות יכולים לחלץ משחקים אל כרטיס הSD שלכם. ניתן להתקין את unlaunch באמצעות ההוראות ב[dsi.cfw.guide](https://dsi.cfw.guide/).
+צריך שUnlaunch יהיה מותקן על מנת להיות יכולים לחלץ משחקים אל כרטיס הSD שלכם. ניתן להתקין את Unlaunch באמצעות ההוראות ב[dsi.cfw.guide](https://dsi.cfw.guide/).

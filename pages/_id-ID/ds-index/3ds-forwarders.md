@@ -11,30 +11,60 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
-Jika kamu ada beberapa persoalan, periksa Soal Sering Ditanya (FAQ) di [Utas GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
+
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
+This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+
+Choose one of the following to add to the HOME menu:
+
+{% capture tab-sd-card %}
+
+### Part 1: Getting the required files
+
+If you already have Universal Updater installed on your console, you can skip to step 3.
+{:.alert .alert-info}
+
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the NDSForwarder package
+1. NDSForwarder and its required files are now set up in its respective locations
+
+### Part 2: NDSForwarder
+1. Open the Homebrew Launcher
+1. In the Homebrew Launcher, open `NDS Forwarder Generator`
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Confirm you wish to install by selecting `Yes`
+1. After it is installed, your game will now appear as a title on your HOME menu
+{% endcapture %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+
+{% capture tab-flashcard %}
+
+If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-### Persyaratan
+### Requirements
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), atau CFW (Custom FirmWare) lainnya yang menambal TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) untuk memasang berkas (file) CIA
-- (Opsional) Ada flashcard DS yang didukung
 
 {% capture flashcards %}
-Flashcard yang disarankan adalah DSTT dan Acekard2i. Jika kamu ingin kesesuaian (compatibility) permainan yang sempurna, gunakan SuperCard DSTWO / DSTWO PLUS. Hanya saja sisi buruknya lebih cepat menguras baterai sistem.
+The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
 
-Jika kamu punya flashcard yang dapat menjalankan NTR Launcher Apache Thunder, silakan memintanya [di utas (thread) GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Jangan lupa disebutkan bentukan (build) apa yang kamu pakai (Normal atau Alt), dan beri tahu `RESETSLOT1` diatur ke `0` atau `1` di `sd:/nds/ntr_launcher.ini`.
+If you have a flashcard that works with Apache Thunder's NTR Launcher, feel free to request it [on the GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Be sure to specify which build you're using (Normal or Alt), and if `RESETSLOT1` is set to `0` or `1` in `sd:/nds/ntr_launcher.ini`.
 
-Sesuai (Compatible):
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (permainan DSi-Enhanced, termasuk permainan NTR terbaru, belum bisa.)
+Compatible:
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced games, including newer NTR games, don't work.)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (memakai kartu microSD < 2 GB)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (versi Original Non-SDHC, memakai kartu microSD < 2 GB)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses < 2 GB microSD card)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses < 2 GB microSD card)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -42,57 +72,48 @@ Sesuai (Compatible):
 - [R4iDSN](http://3ds-flashcard.com/home/28-r4idsn-3ds.html)
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
-- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (versi Normal dan RTS)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (kartu yang ungu mungkin tidak kompatibel)
+- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Normal and RTS versions)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Purple card may be incompatible)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
-- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (versi Normal dan Plus)
+- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normal and Plus versions)
 
-Belum dicoba:
-- R4i3D NEW (Memakai templat dan kemasan R4iDSN)
+Untested:
+- R4i3D NEW (Use R4iDSN template and pack)
 
-Sebagian sesuai:
-- Ace 3DS+ (Kesesuaian permainannya buruk, jadi menyimpan / memuat berkas save nanti akan mogok/crash.)
-- Gateway Blue Card (Kesesuaian permainannya buruk, jadi menyimpan / memuat berkas save nanti akan mogok/crash.)
-- EX4DS (Kesesuaian permainannya buruk, jadi menyimpan / memuat berkas save nanti akan mogok/crash.)
-- R4iLS (Kesesuaian permainannya buruk, jadi menyimpan / memuat berkas save nanti akan mogok/crash.)
-- Kartu dengan [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Kesesuaian permainannya buruk, jadi menyimpan / memuat berkas save nanti akan mogok/crash.)
+Partially compatible:
+- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing.)
+- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing.)
+- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing.)
+- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing.)
+- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing.)
 
-Tidak sesuai (Incompatible):
-- CycloDS (i)Evolution (Bisa autoboot ROM, tapi cara kerjanya beda dari flashcard lain.)
-- (i)Edge (Tak bisa autoboot ROM .nds)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu jika dipasang (bukan yang proses forwarder) membuat hancur kartu)
+Incompatible:
+- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
+- (i)Edge (Unable to autoboot a .nds ROM)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/) / www.r4isdhc.hk) (YSMenu jika dipasang (bukan yang proses forwarder) membuat hancur kartu)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (not the forwarder process) bricks the card)
 {% endcapture %}
 
 <details>
-    <summary>Flashcard yang didukung</summary>
+    <summary>A supported flashcard from this list</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
 </details>
 
-Komputer PC:
-- Sistem Pelaksanaan (OS) 64 bit
+PC:
+- A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Pengguna Linux:** JavaFX. Di sistem berdasar Debian jalankan [yang ini](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), atau kalau di Arch jalankan: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux users:** JavaFX
+   - Debian-based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
-### Bagian 1: Memulai
-{% capture tab-sd-card %}
-1. Unduh (Download) [kemasan forwarder kartu SD](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Ekstrak isi dari folder `for SD card root` di root kartu SD 3DS-mu
-
-Setelah selesai mengekstrak kemasannya, kamu dapat menyunting (edit) `sd:/_nds/nds-bootstrap.ini` dan ubah pengaturannya:
-- `BOOST_CPU`: Jika diubah ke 1, clock speed yang TWL dipakai, jadi sendatnya (lag) hilang
-- `SOUND_FREQ`: Jika diubah ke 1, suaranya menjadi 48kHz, bukan 32kHz
-{% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
-
-{% capture tab-flashcard %}
-1. Unduh salah satu kemasan (pack) berikut:
+### Part 1: Getting started
+1. Download one of these packs:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
@@ -101,37 +122,37 @@ Setelah selesai mengekstrak kemasannya, kamu dapat menyunting (edit) `sd:/_nds/n
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 
-1. Ekstrak isi dari folder `for Slot-1 microSD` di root kartu microSD flashcard-mu, dan (jika foldernya ada) isi dari folder `for 3DS SD card` taruh juga di root kartu SD 3DS-mu.<br>*Root atau Akar adalah bagian pangkal awal folder
+1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
 
-Setelah selesai mengekstrak kemasan untuk kartunya, kamu dapat menyunting `sd:/_nds/ntr_forwarder.ini` untuk mengubah pengaturan. Ini tidak bisa kalau di Acekard RPG, R4 DS, dan R4i Gold RTS.
-- `NTRCLOCK`: Jika diubah ke `0` atau tombol <kbd class="face">A</kbd> ditahan, layar awal nyala (boot) DSi akan muncul daripada splash DS yang biasa, dan laju jam (clock speed) TWL akan dipakai, jadi sendatnya hilang
-- `DISABLEANIMATION`: Jika diubah ke `1` atau tombol <kbd class="face">B</kbd> ditahan, layar awal nyala (boot) DS / DSi dilewati
-- `HEALTHSAFETYMSG`: Jika diubah ke `1`, layar pesan kesehatan dan keselamatan akan muncul di layar bawah, jika tidak nanti layar bawah hanya putih tanpa pesan kesehatan dan keselamatan
+After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
+- `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
+- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
+- `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+
+### Part 2: Getting the AP fix files from TWiLight Menu++
+If you already have TWiLight Menu++, skip to the next section.
+1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. In the 7z file, go to `_nds/TWiLightMenu/`
+1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+
+### Part 3: Forwarder3-DS
+1. Open `Forwarder3DS.jar`
+   - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
+1. Set your card as the `Target` on the left
+   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
+1. Enable `Automatically set ROM path`
+   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
+   - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
+1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
+   - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
+   - **SD card users:** If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
+1. If you're playing a hack / translation of a DSi-Enhanced game that has it's banner / title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
+1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
+1. Click the floppy disk button to generate the forwarder CIA(s)
+1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
+   - If using EmuNAND, install to both SysNAND and EmuNAND
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
 {% assign tabs = tab-sd-card | concat: tab-flashcard %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Bagian 2: Mendapatkan berkas AP fix dari TWiLight Menu++
-Jika kamu sudah ada TWiLight Menu++, lewati saja bagian ini.
-1. Unduh `TWiLightMenu-3DS.7z` yang terbaru (latest) dari [laman keluaran](https://github.com/DS-Homebrew/TWiLightMenu/releases)
-1. Di dalam berkas 7z, masuk ke folder `_nds/TWiLightMenu/`
-1. Salin folder `apfix` ke `sd:/_nds/ntr-forwarder/` di kartu SD 3DS-mu
-
-### Bagian 3: Forwarder3-DS
-1. Buka berkas `Forwarder3DS.jar`
-   - **Pengguna Windows:** Jika tidak mau buka, unduh ini [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), lalu letakkan di folder yang sama dengan Forwarder3DS.jar, dan jalankan
-1. Atur kartunya sebagai `Target` di sebelah kiri
-   - **CATATAN:** Jika kamu tidak melihat daftar target flashcard, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ubah namanya jadi `.forwarders`
-1. Nyalakan `Automatically set ROM path`
-   - **Pengguna Linux:** Jalur otomatis-nya tidak benar karena ada nama lengkap jalurnya (seperti `/media/$USER/something/`), mohon dihapus yang bagian itu
-   - **Pengguna MacOS:** Jalur otomatis-nya tidak benar karena ada nama `/Volumes/(nama kartu)/` di awalnya, mohon dihapus yang bagian itu
-1. Pencet (klik) folder yang ada di kanan atas dan pilih ROM yang ingin dibuat forwarder atau tinggal seret dan lepas saja ke jendela (window)
-   - **CATATAN:** berkas ROM harus sudah ada di kartu SD-mu ketika dipilih, dan tidak dapat dipindah lagi tanpa membuat ulang forwarder-nya
-   - **Pengguna kartu SD:** Jika berkas simpanan (save) ada di folder yang sama dengan ROM, pindahkan ke dalam folder `saves`, yang mana folder `saves` di tempat yang sama juga dengan ROM
-1. Jika kamu memainkan retasan (hack) / terjemahan (translation) dari permainan DSi-Enhanced yang banner / judulnya disunting (edited), cari banner untuk permainannya dari [sini](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), lalu pencet kanan permainan yang di Forwarder3-DS, pencet `Import banner`, dan pencet banner yang ingin dipakai
-1. Jika memakai ROM homebrew, coba dipencet, lalu kosongkan (clear) `Game title` dan ketik judul permainannya
-1. Pencet tombol cakram liuk (floppy disk) untuk menghasilkan berkas CIA forwarder
-1. Salin berkas-berkas CIA ke kartu SD 3DS-mu, lalu pasang (install) menggunakan FBI
-   - Jika memakai EmuNAND, pasangnya di SysNAND dan EmuNAND juga

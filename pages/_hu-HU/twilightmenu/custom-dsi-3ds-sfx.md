@@ -40,19 +40,33 @@ Be kell állítanod a `PlayStartupJingle=1` opciót a saját `theme.ini` fájlod
 
 
 ## Menü BGM
-
-A Menü BGM-nek **16-bit 16 kHz Monó** nyers PCM fájlnak kell lennie. Használhatod például az [Audacity](https://www.audacityteam.org/download/)-t erre a formátumra konvertáláshoz. Amint a fájl betöltött az Audacity-be, változtasd meg a **Project Rate (Hz)**-et **16000**-re, majd nyomd meg a **Shift+M**-et, és változtasd meg a **Formátum**-ot **16-bit PCM**-re.
-
-Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a **Sávok > Mix > Mix Stereo down to Mono** menüpontban.
-
-A megfelelő formátumban exportáláshoz a következőket tedd:
-1. Válaszd a `Fájl` > `Export` > `Hang exportálása...` opciókat
-1. Állítsd a `Fájl típusa` opciót `Egyéb tömörítettlen fájlok`-ra
-1. Állítsd a `Fejléc`-et `RAW (header-less)`-re
-1. Állítsd a `Kódolás`-t to `Signed 16-bit PCM`-re
-1. Állítsd a fájlnevet `bgm.pcm.raw`-ra, majd kattints a `Mentés` gombra
-1. Kattints az `OK`-ra a metaadat szerkesztése ablakban
-
-Most már rendelkezel a `bgm.pcm.raw` fájllal, ami bemásolható a *sound* almappába a témád mappáján belül.
+A Menü BGM-nek **16-bit 16 kHz Monó** nyers PCM fájlnak kell lennie. Alább található két metódus arra, hogy audió fájlokat konvertálhass erre a formátumra.
 
 Az sfx.bin-nel ellentétben, a *bgm.pcm.raw* akármekkora nagy lehet.
+
+### ffmpeg
+A legegyszerűbb módja zene a TWiLight Menu++-hoz zene konvertálásának, ha futtatod ezt az [ffmpeg](https://ffmpeg.org) parancsot egy terminálban:
+
+```bash
+ffmpeg -i [input fájl] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
+
+Cseréld az `[input fájl]` részt a fájl nevére, amit konvertálni szeretnél. Ezt általában megteheted egy terminál ablakban azzal, hogy ráhúzod a fájlt az ablakra, miközben a kurzorral a megfelelő helyen állsz.
+
+### Audacity
+Ha nem szeretnéd a parancssort használni, konvertálhatod [Audacity](https://www.audacityteam.org/download/) alkalmazással is.
+
+Az audió konvertálás lépései:
+1. Töltsd be a fájlt Audacity-be
+1. Ha a fájlod Sztereó, akkor le kell konvertálnod monóra a `Tracks` > `Mix` > `Mix Stereo down to Mono` menüpontban
+1. Cseréld a `Project Rate (Hz)`-et bal oldalt alul `16000`-re
+
+A megfelelő formátumban exportáláshoz a következőket tedd:
+1. Válaszd a `File` > `Export` > `Export Audio...` opciókat
+1. Állítsd a `File Type` opciót `Other uncompressed files`-ra
+1. Állítsd a `Header`-t `RAW (header-less)`-re
+1. Állítsd az `Encoding`-ot to `Signed 16-bit PCM`-re
+1. Állítsd a fájlnevet `bgm.pcm.raw`-ra, majd kattints a `Save` gombra
+1. Kattints az `OK`-ra a metaadat szerkesztése ablakban
+
+Most már rendelkezel a `bgm.pcm.raw` fájllal, ami bemásolható a `sound` almappába a témád mappáján belül.

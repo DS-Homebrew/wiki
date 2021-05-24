@@ -19,77 +19,79 @@ TWL_FIRM kan på något sätt bli skadad. Följ denna guide för att åtgärda p
 - Om det inte fungerar, formatera ditt SD-kort till FAT32 med 32 KB kluster/allokeringsstorlek
 - Om det inte heller fungerar, prova ett annat SD-kort
 
-#### TWiLight Menu++ startas om eller ger ett Guru Meditation Error när jag startar ett spel. Hur fixar jag detta?
-Gå in i TWLMenu++'s inställningar, och inaktivera `Uppdatera 'nyligen spelat' listan`.
+#### Where is the Acekard/Wood UI theme?
+The acekard (also called Wood UI) theme was removed due to its buggy behaviour and causing SD Card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
-#### Varför får jag en vit skärm när jag försöker ladda ett spel från SD-kort?
+#### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
+Go into TWLMenu++ Settings, and disable `Update recently played list`.
+
+#### Why do I get a white screen when trying to load a game from SD card?
 - Kontrollera först [kompatibilitetslistan nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) och se till att ditt spel är kompatibelt
 - Prova med alla fusk inaktiverade för det spelet eftersom vissa fusk inte är kompatibla med nds-bootstrap just nu, du kan använda <kbd class="l">L</kbd> för att inaktivera alla fusk för ett spel
-- Om spelet du försöker starta är ett DSi Enhanced spel, se då till att TWiLight Menu++ är inställd till att använda `DS Mode`
 - Om det fungerade tidigare tar du bort `fatTable` och `patchOffsetCache` i `sd:/_nds/nds-bootstrap/`
 
-#### Hur använder jag fusk?
-Du måste ha en fusk DB i form av en `usrcheat.dat` fil i mappen `sd:/_nds/TWiLightMenu/extras/`. Den mest uppdaterade fuskdatabasen är [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
-- På 3DS finns denna databas tillgänglig i appen Universal Updater som "NDS Cheat Databases". Detta kommer automatiskt att installera den till önskad plats.
+#### How do I use cheats?
+You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
+- På 3DS finns denna databas tillgänglig i appen Universal-Updater som "NDS Cheat Databases." Detta kommer automatiskt att installera den till önskad plats.
 
-Alternativt kan du använda [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) för att skapa din egna fusk DB.
+Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
-#### Hur visar jag en anpassad bild på den översta skärmen i DSi temat?
-En slumpmässig `.png` bild i `sd:/_nds/TWiLightMenu/dsimenu/photos/` visas varje gång menyn laddas.
+#### How do I show a custom picture on the top screen of the DSi theme?
+A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
 
 - Bilderna får inte vara större än 208x156
 - Om du har fel är det sannolikt ett fel med bildstorleken. Använd [tinypng](https://tinypng.com) för att minska storleken
 
-#### Hur får jag spel?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). För att få dumpar av dina retail spel:
+#### How do I get games?
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
 - På DS kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina GBA-spel och, om du har ett Slot-2 minneskort, DS spel
 - På DSi kan du använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) för att dumpa dina DS spel och DSiWare
 - På 3DS kan du använda [GodMode9](https://github.com/d0k3/GodMode9/releases) för att dumpa dina DS-spel, DSiWare och Virtual Console-titlar
 
-#### Kan jag få sparfiler från mina spelkort på mitt SD-kort eller tvärtom?
-Ja, du kan använda [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) på DSi och 3DS eller [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) på 3DS.
+#### Can I get the save files from my game cards onto my SD card or vice versa?
+Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
 
-#### Hur ändrar jag TWiLight Menu++'s språk?
+#### How do I change TWiLight Menu++'s language?
 1. Öppna TWiLight Menu++ inställningar, du kan göra detta genom att hålla ner <kbd>SELECT</kbd> medan du laddar TWiLight Menu++
 1. Tryck <kbd class="l">L</kbd> eller <kbd class="face">Y</kbd> en gång (på minneskort / 3DS) eller två gånger (på DSi)
 1. Ändra det första alternativet tills du ser vilket språk du vill ha, avsluta sedan inställningarna
    - Du kanske också vill ändra de kommande två alternativen eftersom dom kontrollerar språket i DS spel och deras titlar i TWiLight Menu++
 
-#### Är detta en DS(i) emulator?
-Nej, detta är inte en emulator. Menyn och DS spelen (laddade via nds-bootstrap) körs direkt i konsolens DS/DSi läge. De enda konsoler som emuleras är de tidigare konsolerna, men delvis för GBA (efter vissa eller alla delar som grafik körs direkt).
+#### Is this a DS(i) emulator?
+No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
-#### Vilka system stöder TWiLight Menu++?
+#### What systems does TWiLight Menu++ support?
 
-| Format                    | Laddare                                             | Filändelse                             | Sparfil                            |
-| ------------------------- | --------------------------------------------------- | -------------------------------------- | ---------------------------------- |
-| ARGV[^1]                  | Infött                                              | `.argv`                                |                                    |
-| Atari 2600                | [StellaDS][stellads]                                | `.a26`                                 |                                    |
-| Atari 5200                | [A5200DS][a5200ds]                                  | `.a52`                                 |                                    |
-| Atari 7800                | [A7800DS][a7800ds]                                  | `.a78`                                 |                                    |
-| Atari XEGS                | [XEGS-DS][xegs-ds]                                  | `.xex`, `.atr`                         |                                    |
-| DS                        | [nds-bootstrap][ndsbs], minneskortets kärna, infött | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom namn].sav`[^2]         |
-| DSiWare                   | [Unlaunch][unlaunch]                                | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom namn].pub`, `[rom namn].prv` |
-| DSTWO Plugin              | [DSTWO][dstwo][^3]                                  | `.plg`                                 |                                    |
-| Game Boy (Color)          | [GameYob][gameyob]                                  | `.gb`, `.sgb`, `.gbc`                  | `[rom namn].sav`                   |
-| Game Boy Advance          | [GBARunner2][gbarunner2][^4], infött[^5]            | `.agb`, `.gba`, `.mb`                  | `[rom namn].sav`                   |
-| Game Gear                 | [S8DS][s8ds]                                        | `.gg`                                  | `[rom namn].gg.sav`                |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]         | `.gen`                                 | `[rom namn].srm`[^6]               |
-| Master System             | [S8DS][s8ds]                                        | `.sms`                                 | `[rom namn].sms.sav`               |
-| MPEG4 Video               | [MPEG4 Player][mpeg4player]                         | `.mp4`                                 |                                    |
-| NES / Famicom             | [nesDS][nesds]                                      | `.nes`, `.fds`                         | `[rom namn].sav`                   |
-| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                            | `.pce`                                 |                                    |
-| RVID Video                | [Rocket Video Player][rvidplayer]                   | `.rvid`                                |                                    |
-| SNES[^7]                  | [SNEmulDS][snemulds]                                | `.smc`, `.sfc`                         | `[rom namn].srm`[^8]               |
+| Format                    | Loader                                           | Extensions                             | Save file                          |
+| ------------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------- |
+| ARGV[^1]                  | Native                                           | `.argv`                                |                                    |
+| Atari 2600                | [StellaDS][stellads]                             | `.a26`                                 |                                    |
+| Atari 5200                | [A5200DS][a5200ds]                               | `.a52`                                 |                                    |
+| Atari 7800                | [A7800DS][a7800ds]                               | `.a78`                                 |                                    |
+| Atari XEGS                | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                    |
+| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]         |
+| DSiWare                   | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
+| DSTWO Plugin              | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
+| Game Boy (Color)          | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                   |
+| Game Boy Advance          | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
+| Game Gear                 | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]               |
+| Master System             | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`               |
+| MPEG4 Video               | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                    |
+| NES / Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                   |
+| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                    |
+| RVID Video                | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                    |
+| SNES[^7]                  | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]               |
 {:.table}
 
 - Footnotes -
 {:footnotes}
 
-#### Varför fungerar inte touchstyrning på sudokuhax?
-Beroende på sudokuhax's sparfil, kanske fungerar inte touchstyrning.
+#### Why isn't touch input working on sudokuhax?
+Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
-#### Kan The Biggest Loser starta upp TWiLight Meny++?
-Nej. Eftersom The Biggest Loser är ett Slot-1 spel, och inte ett DSiWare-spel, SD-åtkomst inaktiveras när du kör Slot-1 kort.
+#### Can The Biggest Loser boot TWiLight Menu++?
+No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
 
 [^1]: Textfiler som innehåller sökvägen till en DS homebrew-app och argument för att starta den med, läs [nds-hb-menu's README](https://github. com/devkitPro/nds-hb-menu#passing-arguments) för mer info
 [^2]: Endast för retail ROMer, homebrew har inte specifika sparfiler

@@ -12,7 +12,7 @@ description: Controles para usar TWiLight Menu++
 - <kbd>Izq</kbd> / <kbd>Der</kbd>: Seleccionar juego / app
 - <kbd class="face">A</kbd> / <kbd>START</kbd>: Abrir juego / app
 - <kbd class="l">L</kbd> / <kbd class="r">R</kbd> o <kbd>SELECT</kbd> + <kbd>Izq</kbd> / <kbd>Der</kbd>: Cambiar de página
-- (Temas DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Arr</kbd> / <kbd>Abj</kbd> y soltar <kbd>SELECT</kbd>: Cambiar entre la tarjeta SD y la flashcard
+- (DSi / Saturn / HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd> / <kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Ajustes del juego
    - <kbd class="face">X</kbd>: Trucos
       - <kbd class="face">A</kbd>: Activar truco
@@ -21,7 +21,7 @@ description: Controles para usar TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostrar descripción del truco
       - <kbd class="l">L</kbd>: Desactivar todos los trucos
 - <kbd class="face">X</kbd>: Borrar/ocultar juego
-- (Temas DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menú SELECT o Menú Clásico DS (donde se puede acceder al menú del sistema, los ajustes de TWLMenu++ y el Modo GBA)
+- (DSi / Saturn / HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
 
 #### Tema R4
 - <kbd>Arr</kbd> / <kbd>Abj</kbd>: Seleccionar juego / app
@@ -58,11 +58,12 @@ description: Controles para usar TWiLight Menu++
       - <kbd class="face">Y</kbd>: Especificar dirección a la que saltar
         - <kbd>Arr</kbd> / <kbd>Abj</kbd>: Incrementar / Decrementar valor seleccionado
         - <kbd>Izq</kbd> / <kbd>Der</kbd>: Seleccionar valor
-        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Volver al visor/editor de RAM en una dirección concreta
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+ - The in-game menu is not accessible in DSi Mode, so attempting to use the button combo in DSi Mode will instead exit the game.
 
 #### Atajos al arrancar
 Estos comandos pueden hacerse en la pantalla de bienvenida de TWiLight Menu++ / justo después de la de Nintendo DSi.
 
 - <kbd>SELECT</kbd>: Abrir los ajustes
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Restablecer los ajustes de TWiLight Menu++
-- <kbd class="face">B</kbd>: Iniciar la última Rom usada o viceversa, dependiendo de si el inicio automático de la última ROM está activado
+- <kbd class="face">B</kbd>: Boot the last ran ROM

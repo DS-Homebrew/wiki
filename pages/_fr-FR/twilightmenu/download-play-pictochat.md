@@ -10,14 +10,15 @@ description: Comment accéder au Mode Téléchargement / Pictochat dans le menu 
 Si vous utilisez une console DSi, vous devriez déjà pouvoir lancer ces applications. Sinon, si vous avez une 3DS, procédez comme ci-dessous.
 
 Dans GodMode9:
-- Appuyez sur <kbd class="r">R</kbd> + <kbd class="face">A</kbd> sur SYSNAND TWLN
-- Sélectionnez `Search for titles`
-- Sélectionnez `DS Download Play (NTR-HNDA).tmd`
-- Sélectionnez `TMD file options...`
-- Sélectionnez `Dump CXI/NDS file`
-- C'est Fait. Elle devrait être dans `sdmc:/gm9/out/`, sous le nom `DS Download Play (NTR-HNDA).nds`
+- Press the Home/Power button
+- Select `Title Manager`, then select `[1:] NAND / TWL`
+- Find and select `DS Download Play (NTR-HDNA)`
+- Select `Open title folder`
+- Select `00000000.tmd`, then select `TMD file options...`
+- Select `Dump CXI/NDS file`
+- Done. The file will be in `0:/gm9/out/`.
 
-Copiez le vers `sd:/_nds/`et renommez le en `dlplay.nds`.
+Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
 
 Les étapes ci-dessus augmenteront la vitesse de démarrage de DLP.
 

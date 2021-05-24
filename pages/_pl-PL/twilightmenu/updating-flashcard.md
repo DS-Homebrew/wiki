@@ -4,8 +4,8 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Aktualizacja (Flashcard)
-long_title: Updating TWiLight Menu++ (Flashcard)
-description: How to update TWiLight Menu++ on a Nintendo DS flashcard
+long_title: Aktualizowanie TWiLight Menu++ (Flashcard)
+description: Jak zaktualizować TWiLight Menu++ na Flashcardzie Nintendo DS
 ---
 
 Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie plików `.sav` do nowego folderu o nazwie `saves`, który ma się znajdować w tym samym miejscu co gry DS.
@@ -17,7 +17,7 @@ Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie pli
 1. Skopiuj folder `_nds` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 
-### More steps for the DSi / 3DS SD card side
+### Wiecęj kroków dla kart SD DSi/3DS
 
 Jeśli można przełączać zawartość karty SD i karty flashcard w TWLMenu++, a jeśli karta flashcard TWLMenu++ jest w wersji v16.3.0 lub później, wykonaj te kroki.
 

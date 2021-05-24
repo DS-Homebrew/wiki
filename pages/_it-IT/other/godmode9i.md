@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: other
 title: GodMode9i
-description: Information about GodMode9i
+description: Informazioni su GodMode9i
 ---
 
-Information for [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), a full access file browser for the Nintendo DS, Nintendo DSi and the Nintendo 3DS's TWL_FIRM.
+Informazioni per [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), un browser dei file d'accesso completo per il Nintendo DS, Nintendo DSi e il Nintendo 3DS TWL_FIRM.
 
-### FAQ & Troubleshooting
+### FAQ & Risoluzione dei problemi
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). You can hold X while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from unlaunch to be able to mount the NAND.
+#### Come faccio a superare la schermata "unità di montaggio" durante l'avvio?
+Questo accade quando avvii GodMode9i da [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). È possibile tenere premuto X mentre si avvia GodMode9i per saltare il montaggio della NAND. In alternativa, puoi avviare GodMode9i direttamente da Unlaunch per poter montare la NAND.
 
-#### Why can't I dump games on DSi?
-You need unlaunch installed in order to be able to dump games onto your SD card. You can install unlaunch by following [dsi.cfw.guide](https://dsi.cfw.guide/).
+#### Perché non posso fare dump dei giochi su DSi?
+È necessario avere Unlaunch installato per poter eseguire i dump dei giochi sulla scheda SD. È possibile installare Unlaunch seguendo [dsi.cfw.guide](https://dsi.cfw.guide/).

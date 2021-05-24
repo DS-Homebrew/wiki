@@ -14,4 +14,5 @@ A tesztelt játékok megtekinthetők [itt](https://docs.google.com/spreadsheets/
 - Keress képernyő villogást, vagy hang problémákat
 - Ha valami nem oda valónak tűnik, futtasd a játékot egy olyan konzolon, ami nem használ nds-bootstrap-et összehasonlításképp
 - Próbálj ki annyi szolgáltatást a játékban amennyit csak lehet
+- Próbálj meg más beállításokat a játék futtatásához (ARM9 CPU Speed, Card read DMA, stb.)
 - Legyél alapos

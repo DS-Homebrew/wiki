@@ -11,15 +11,45 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
+HOME menü forwarderek olyan ikonok a HOME menüben, amik átirányítanak más szoftverre, ami ami megadott szoftvert futtatja. Ebben az esetben, hozzáadható DS játék SD kártyáról (az nds-bootstrap használatával) vagy kompatiblis flashcard-dal (megfelelő kernelen keresztül) a HOME menühöz a játékokhoz történő egyszerűbb hozzáféréshez.
+
+A DS játékokat a digitális `.nds` formátumba kell dumpolni. A DS kártyáidat dumpolhatod a [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) használatával.
+{:.alert .alert-info}
+
+Ez az oldal feltételezi, hogy modern CFW környezetet futtatsz a [3ds.hacks.guide](https://3ds.hacks.guide) alapján.
+
+Válassz egyet a következőkből a HOME menühöz hozzáadáshoz:
+
+{% capture tab-sd-card %}
+
+### 1. rész: A szükséges fájlok beszerzése
+
+Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
+{:.alert .alert-info}
+
+1. Nyisd meg az FBI-t és válaszd a `Remote Install`, majd a `Scan QR Code` opciót
+1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Nyisd meg az Universal Updater-t a HOME Menüből
+1. Telepítsd az NDSForwarder csomagot
+1. Az NDSForwarder és a szükséges fájljai feltelepülnek a szükséges helyre
+
+### 2. rész: NDSForwarder
+1. Nyisd meg a Homebrew Lancher-t
+1. A Homebrew Launcher-ben nyisd meg az `NDS Forwarder Generator`-t
+1. Navigálj a játék lokációjára és nyomj <kbd class="face">A</kbd> gombot
+1. Hagyd jóvá a telepítést a `Yes` opcióval
+1. Miután telepítetted, a játék megjelenik mint cím a HOME menüdben
+{% endcapture %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+
+{% capture tab-flashcard %}
+
 Ha bármi problémád van, tekintsd meg a FAQ-ot a [GBAtemp üzenetszálon](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
 ### Követelmények
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases)vagy más patcheli a TWL_NAND-ot
-- [FBI](https://github.com/Steveice10/FBI/releases) a CIA fájlok telepítéséhez
-- (opcionális) egy támogatott DS flashcard
 
 {% capture flashcards %}
 A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO / DSTWO PLUS-t. Az egyetlen hátrányuk, hogy a rendszer akkumulátort gyorsabban fogyasztják.
@@ -78,24 +108,15 @@ PC:
 - Egy 64 bites OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux felhasználók:** JavaFX. Debian alapú rendszereken futtasd [ezt](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), vagy ha Arch-on vagy futtasd ezt: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux felhasználók:** JavaFX
+   - Debian alapú rendszereken futtasd [ezt](https://gist.githubusercontent.com/puntillol59/7532b653380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### 1. rész: Kezdeti lépések
-{% capture tab-sd-card %}
-1. Töltsd le az [SD kártya forwarder csomagot](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Csomagold ki a `for SD card root` mappa tartalmát a 3DS SD kártyájának gyökerébe
-
-Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/nds-bootstrap.ini` fájlt:
-- `BOOST_CPU`: Ha 1-re állított, akkor a, TWL órajel sebesség kerül felhasználásra, így a lag-ok megszünnek
-- `SOUND_FREQ`: Ha 1-re állított a hang 48 kHz-el fog lejátszódni 32 kHz helyett
-{% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
-
-{% capture tab-flashcard %}
 1. Töltsd le valamelyikét az alábbi csomagoknak:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
-   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC frissítés / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
+   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
@@ -107,14 +128,9 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
 - `NTRCLOCK`: Ha `0` van beállítva, vagy <kbd class="face">A</kbd> van nyomva tartva, a DSi boot képernyő jelenik meg a normál DS kezdőképernyő helyett, és TWL órajel sebesség kerül beállításra, így a lag-ok megszűnnek
 - `DISABLEANIMATION`: Ha `1` van beállítva, vagy <kbd class="face">B</kbd> van nyomva tartva, akkor a DS / DSi boot képernyő átugrásra kerül
 - `HEALTHSAFETYMSG`: Ha `1` van beállítva, a boot képernyő "health and safety" üzenete megjelenik az alsó képernyőn, egyébként az alsó képernyő fehér marad "health and safety" üzenet nélkül
-{% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
-
-{% assign tabs = tab-sd-card | concat: tab-flashcard %}
-{% include tabs.html index=0 tabs=tabs %}
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
-Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
+Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
 1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. A 7z fájlban menj az `_nds/TWiLightMenu/` könyvtárba
 1. Másold az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába az 3DS-ed SD kártyájára
@@ -135,3 +151,8 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
 1. Kattints a floppy lemez gombra, hogy létrehozd a forwarder CIA fájl(oka)t
 1. Másold a CIA fál(oka)t a 3DS-ed SD kártyájára, majd telepítsd őket az FBI alkalmazással
    - Ha EmuNAND használsz, telepítsd a SysNAND-ot és az EmuNAND-ot
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% include tabs.html index=0 tabs=tabs %}

@@ -12,7 +12,7 @@ description: Contrôles pour utiliser TWiLightMenu++
 - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez un jeu / application
 - <kbd class="face">A</kbd> / <kbd>START</kbd>: Lancer le jeu / application
 - <kbd class="l">L</kbd> / <kbd class="r">R</kbd> ou <kbd>SELECT</kbd> + <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Changer de page
-- Thème (DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Haut</kbd> / <kbd>Bas</kbd> & lâcher <kbd>SELECT</kbd>: Basculer entre la carte SD et le linker
+- (DSi / Saturn / HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd> / <kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Paramètres par jeu
    - <kbd class="face">X</kbd>: Menu des codes de triche
       - <kbd class="face">A</kbd>: Activer/désactiver les codes de triche
@@ -21,7 +21,7 @@ description: Contrôles pour utiliser TWiLightMenu++
       - <kbd class="face">Y</kbd>: Afficher la description du code de triche
       - <kbd class="l">L</kbd>: Désactiver tout les codes de triche
 - <kbd class="face">X</kbd>: Supprimer/cacher le jeu
-- (Thèmes DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menu SELECT ou Menu Classique DS (où le menu système, les paramètres TWiLight Menu++ et le mode GBA peuvent être accédés)
+- (DSi / Saturn / HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
 
 #### Thème R4
 - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Sélectionnez un jeu / application
@@ -58,11 +58,12 @@ description: Contrôles pour utiliser TWiLightMenu++
       - <kbd class="face">Y</kbd>: Spécifiez une adresse à laquelle aller
         - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmenter/Diminuer la valeur sélectionnée
         - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez une valeur
-        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Retourner à la visionneuse / l'éditeur de RAM à l'adresse spécifiée
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+ - The in-game menu is not accessible in DSi Mode, so attempting to use the button combo in DSi Mode will instead exit the game.
 
 #### Raccourcis de démarrage
 Celles-ci devraient être pressées sur le menu TWiLight Menu++ écran de démarrage / juste après l'écran de démarrage Nintendo DSi.
 
 - <kbd>SELECT</kbd>: Ouvrir les paramètres
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Réinitialiser tous les paramètres de TWiLight Menu++
-- <kbd class="face">B</kbd>: Démarrez la dernière ROM exécutée ou vice versa selon si le démarrage automatique de la dernière ROM exécutée est activé
+- <kbd class="face">B</kbd>: Boot the last ran ROM

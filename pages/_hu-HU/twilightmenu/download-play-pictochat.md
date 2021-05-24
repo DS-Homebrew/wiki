@@ -10,14 +10,15 @@ description: Hogyan használj a DS Download Play-t és a Pictochat-et a TWiLight
 Ha DSi konzolt használsz, akkor meg kell tudnod nyitni ezeket az alkalmazásokat. Egyébként, ha 3DS-ed van, kövesd az alábbi lépéseket.
 
 A GodMode9-ben:
-- Nyomj <kbd class="r">R</kbd> + <kbd class="face">A</kbd>-t a SYSNAND TWLN-en
-- Válaszd a `Search for titles` opciót
-- Válaszd a `DS Download Play (NTR-HNDA).tmd` sort
-- Válaszd a `TMD file options...` menüpontot
+- Nyomd meg a Home/Power gombot
+- Válaszd a `Title Manager`-t, majd válaszd az `[1:] NAND / TWL` opciót
+- Keresd meg és válaszd ki a `DS Download Play (NTR-HNDA)` opciót
+- Válaszd az `Open title folder` opciót
+- Válaszd a `00000000.tmd`-t, majd válaszd a `TMD file options...`-t
 - Válaszd a `Dump CXI/NDS file` opciót
-- Kész. Az `sdmc:/gm9/out/` útvonalon kell lennie, mint `DS Download Play (NTR-HNDA).nds`
+- Kész. A fájl az `sd:/gm9i/out` mappában található.
 
-Másold az `sd:/_nds/` mappába, és nevezd át `dlplay.nds`-nek.
+Másold a `DS Download Play (NTR-HDNA).nds`-t az `sd:/_nds/` mappába, és nevezd át `dlplay.nds`-nek.
 
 A fenti lépések megnövelik a DLP boot sebességet.
 

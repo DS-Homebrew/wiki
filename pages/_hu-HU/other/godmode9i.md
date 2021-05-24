@@ -14,4 +14,4 @@ Információk a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i)-ről, egy 
 Ez akkor történik ha a GodMode9i-t [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw)-ből indítod. Az X-et nyomva tartva a GodMode9i indulásakor a NAND csatolás átugrásához. Alternatívaként indíthatod a GodMode9i-t közvetlenük az unlaunch-ből, hogy felcsatolhasd a NAND-ot.
 
 #### Miért nem tudok játékokat dumpolni DSi-n?
-Szükséged van az unlaunch telepítésére, hogy képes legyél játékokat dumpolni az SD kártyádra. Az unlaunch telepíttéséhez köveds a [dsi.cfw.guide](https://dsi.cfw.guide/) útmutatóját.
+Szükséged van az Unlaunch telepítésére, hogy képes legyél játékokat dumpolni az SD kártyádra. Az Unlaunch telepítéséhez kövesd a [dsi.cfw.guide](https://dsi.cfw.guide/) útmutatóját.

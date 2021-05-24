@@ -11,15 +11,45 @@ tabs:
     tab-flashcard: Minneskort
 ---
 
+HOME meny forwarders är ikoner i din HOME meny som tar dig till ett annat program som kör ikonen som angets. I detta fall så kan man lägga till DS-spel från SD-kortet (använder nds-bootstrap) eller från ett kompatibelt minneskort (via respektive kärna) till HOME-menyn för enklare åtkomst till spel.
+
+DS spel måste dumpas till en digital `.nds`-format. Du kan dumpa dina DS spelkort med [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
+Denna sida förutsätter att du kör en modern CFW-miljö från [3ds.hacks.guide](https://3ds.hacks.guide).
+
+Välj ett av följande att lägga till i HOME-menyn:
+
+{% capture tab-sd-card %}
+
+### Del 1: Få de nödvändiga filerna
+
+Om du redan har Universal Updater installerad på din konsol så kan du hoppa över till steg 3.
+{:.alert .alert-info}
+
+1. Öppna FBI och välj `Remote Install`, sedan `Scan QR Code`
+1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Öppna Universal Updater från HOME-menyn
+1. Installera paketet för NDSForwarder
+1. NDSSkotare och dess nödvändiga filer är nu inställda i sina respektive platser
+
+### Del 2: NDSForwarder
+1. Starta Homebrew Launcher
+1. I Homebrew Launcher, öppna `NDS Forwarder Generator`
+1. Navigera till ditt spels plats och tryck press <kbd class="face">A</kbd>
+1. Bekräfta att du vill installera genom att välja `Ja`
+1. När det är installerat så kommer ditt spel nu att visas som en titel på din HOME-meny
+{% endcapture %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+
+{% capture tab-flashcard %}
+
 Om du har några problem, läs FAQ:en på [GBAtemp tråden](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
 ### Krav
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), eller någon annan CFW som patchar TWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) för att installera CIA filer
-- (Valfritt) Ett DS minneskort som stöds
 
 {% capture flashcards %}
 De rekommenderade minneskorten är DSTT och Acekard 2i. Om du vill ha perfekt kompatibilitet, skaffa SuperCard DSTWO / DSTWO PLUS. Den enda nackdelen är att det tömmer ditt systembatteri snabbare.
@@ -68,7 +98,7 @@ Inkompatibel:
 {% endcapture %}
 
 <details>
-    <summary>Minneskort som stöds</summary>
+    <summary>Ett minneskort som stöds från denna lista</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
@@ -78,20 +108,11 @@ PC:
 - Ett 64-bitars operativsystem
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Uppdatering 251
-- **Linux användare:** JavaFX. På Debianbaserade system kör [detta](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), eller om du är på Arch, kör: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux användare:** JavaFX
+   - På Debianbaserade system kör [detta](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Del 1: Komma igång
-{% capture tab-sd-card %}
-1. Ladda ner [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. Extrahera innehållet i `for SD card root` mappen till roten av 3DS:ens SD-kort
-
-När du har packat upp paketet kan du redigera `sd:/_nds/nds-bootstrap.ini` och ändra inställningarna:
-- `BOOST_CPU`: Om satt till 1, TWL klockfrekvens används, så att lagg försvinner
-- `SOUND_FREQ`: Om satt till 1 kommer ljudet att spelas på 48 kHz istället för 32 kHz
-{% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
-
-{% capture tab-flashcard %}
 1. Ladda ner ett av dessa paket:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
@@ -107,11 +128,6 @@ När du har packat upp paketet kan du redigera `sd:/_nds/nds-bootstrap.ini` och 
 - `NTRCLOCK`: Om satt till `0` eller om <kbd class="face">A</kbd> hålls ner, DSi startskärmen kommer att visas i stället för den vanliga DS startskärmen, och TWL klockfrekvens används, så lagg försvinner
 - `DISABLEANIMATION`: Om satt till `1` eller om <kbd class="face">B</kbd> hålls ner så hoppas startskärmen DS / DSi över
 - `HEALTHSAFETYMSG`: Om satt till `1`, startskärmens meddelande om hälsa och säkerhet kommer att visas på nedre skärmen, annars förblir skärmen vit utan meddelandet
-{% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
-
-{% assign tabs = tab-sd-card | concat: tab-flashcard %}
-{% include tabs.html index=0 tabs=tabs %}
 
 ### Del 2: Få AP:s åtgärdsfiler från TWiLight Menu++
 Om du redan har TWiLight Menu++, hoppa till nästa avsnitt.
@@ -135,3 +151,8 @@ Om du redan har TWiLight Menu++, hoppa till nästa avsnitt.
 1. Klicka på diskettknappen för att generera forwarder CIA(s)
 1. Kopiera CIA(erna) till din 3DS SD-kort, sedan installera dem med FBI
    - Om du använder EmuNAND, installera till både SysNAND och EmuNAND
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% include tabs.html index=0 tabs=tabs %}

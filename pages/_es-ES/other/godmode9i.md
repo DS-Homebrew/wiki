@@ -14,4 +14,4 @@ Información sobre [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), un exp
 Esto ocurre cuando lanzas GodMode9i desde [hiyaCFW](https://wiki.ds-homebrew.com/other/hiyacfw). Mantén X mientras inicias GodMode9i para saltarte el montaje de la NAND. También puedes lanzar GodMode9i directamente desde unlaunch para poder montar la NAND.
 
 #### ¿Por qué no puedo volcar juegos en la DSi?
-Necesitas tener instalado unlaunch para poder volcar juegos en la tarjeta SD. Puedes instalar unlaunch siguiendo esta guía: [dsi.cfw.guide](https://dsi.cfw.guide/).
+You need Unlaunch installed in order to be able to dump games onto your SD card. You can install Unlaunch by following [dsi.cfw.guide](https://dsi.cfw.guide/).

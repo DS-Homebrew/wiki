@@ -17,8 +17,8 @@ description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 1. Om du redan har sparat data, flytta dina `.sav` filer, som finns i platsen av dina DS ROM, till en ny mapp som heter `saves`, som också går i platsen av dina DS ROM
 1. ...
    - **DS Phat / Lite användare:** Om uppstartningen av `BOOT.NDS` gör att konsollen fryser stilla med en vit skärm, sätt in en DS Memory Expansion Pak och försök igen
-   - **DSi / 3DS användare:** Kör TWLMenu++ på konsolens SD-kort och aktivera `SCFG-åtkomst i Slot-1`
-      - Detta kommer att låta dig använda TWL klockfrekvens och/eller VRAM boost på spelen i din minneskort, samt tillgång till konsolens SD-kort
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+      - This will let you use TWL clock speed and / or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced / DSi-Exclusive / DSiWare games in DSi mode from your flashcard
 
 ### För att köra spel med ditt minneskorts firmware
 1. Extrahera det som finns i `Flashcart Loader/(ditt minneskort)` till roten av minneskortets microSD-kort
@@ -40,7 +40,7 @@ description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 
    Installera YSMenu från [här](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Kontrollera att du har `YSMenu.nds` (bytt namn från `TTMenu.dat` om det inte finns en) och mappen `TTMenu` på minneskortets microSDs rot
-1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Ställ in `Använd nds-bootstrap` till `Nej`, så att minneskortets firmware kommer att användas istället för nds-bootstrap
 
 ### Automatiskt uppstart av TWiLight Menu++
 1. Extrahera det som finns i `Autoboot/(ditt minneskort)` till roten av minneskortets microSD-kort

@@ -21,7 +21,7 @@ description: TWiLight Menu++を使うためのコントロール
       - <kbd class="face">Y</kbd>：チートの説明を表示する
       - <kbd class="l">L</kbd>：すべてのチートを無効にする
 - <kbd class="face">X</kbd>：ゲームの削除・非表示
-- （DSi・サターン・HBLのテーマ）<kbd>SELECT</kbd>：SELECTメニューまたはDSクラシックメニュー（システムメニュー、TWLMenu++設定、GBAモードにアクセスできます）
+- （DSi・サターン・HBLのテーマ）<kbd>SELECT</kbd>：SELECTメニューまたはDSクラシックメニュー（システムメニュー、TWiLight Menu++の設定、GBAモードにアクセスできます）
 
 #### R4テーマ
 - <kbd>上</kbd>・<kbd>下</kbd>：ゲーム・アプリの選択
@@ -59,10 +59,11 @@ description: TWiLight Menu++を使うためのコントロール
         - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
         - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
         - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
+ - ゲーム内メニューはDSiモードではアクセスできないため、DSiモードでホットキーを使用しようとするとゲームが終了します
 
 #### 起動時のショートカット
 これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。
 
 - <kbd>SELECT</kbd>：設定を開く
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>：すべてのTWiLight Menu++設定をリセットする
-- <kbd class="face">B</kbd>：最後に実行されたROMの自動起動になっているかどうかに応じて、最後に実行されたROMを起動するまたは起動しない。
+- <kbd class="face">B</kbd>：最後に実行したROMを起動する

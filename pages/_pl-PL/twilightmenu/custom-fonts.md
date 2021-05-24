@@ -23,9 +23,9 @@ Niestandardowe czcionki są wczytywane z `sd:/_nds/TWiLightMenu/extras/fonts/[na
 Pliki `-ds` i `-dsi` mają wyższy priorytet niż normalne i jeśli zostaną wykryte, będą użyte, kiedy TWiLight Menu++ działa odpowiednio w DS lub DSi Mode.
 
 ### Generowanie niestandardowych czcionek
-Możesz tworzyć własne czcionki za pomocą takich narzędzi, jak [ntfr-editor](https://pk11.us/nftr-editor/) Pk11. To regenerate one of TWiLight Menu++'s existing fonts using it:
-1. Load an NFTR file in nftr-editor
-1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
-   - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
-1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
-1. Click `Save`, then repeat for the other sizes
+Możesz tworzyć własne czcionki za pomocą takich narzędzi, jak [ntfr-editor](https://pk11.us/nftr-editor/) Pk11. Aby odzyskać jedną z istniejących czcionek TWiLight Menu++:
+1. Załaduj plik NFTR w edytorze nftr-editor
+1. Wpisz nazwy czcionek, które chcesz użyć, od najwyższego do najniższego priorytetu, `Input font` oddzielając je przecinkami
+   - Możesz zobaczyć podgląd czcionek wejściowych w górnej ramce po lewej stronie i aktualny NFTR w dolnej ramce
+1. Kliknij `Generuj z czcionki`, a następnie powiedz `OK`, aby zregenerować istniejące znaki i `Anuluj`, aby zregenerować specjalne znaki przycisków (np. &#xE000;)
+1. Kliknij `Zapisz`, a następnie powtórz dla innych rozmiarów

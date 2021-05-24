@@ -19,13 +19,15 @@ TWL_FIRMは何らかの方法で破損している可能性があります。 �
 - それがうまくいかない場合は、SDカードを32KBクラスタ／割り当てサイズでFAT32にフォーマットしてください
 - それでもうまくいかない場合は、別のSDカードをお試してください
 
+#### Acekard・Wood UIのテーマはどこですか？
+Acekard（Wood UIとも呼ばれる）のテーマは、バグの動作とSDカードの破損の原因で削除されました。 修正をお待ちください。 このテーマの返還の進行状況は、[このPR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109)にあります。
+
 #### ゲームを起動する時に、TWiLight Menu++が再起動したりGuru Meditation Errorを与えたりを修正するにはどうすればいいですか？
 TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を無効にする。
 
 #### SDカードからゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？
 - まず、[nds-bootstrapの互換性リスト](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0)を確認して、ゲームに互換性があることを確認してください
 - いくつかのチートは現時点でnds-bootstrapと互換性がないため、そのゲームのすべてのチートを無効にしましたをお試してください。<kbd class="l">L</kbd>を使って、ゲームのすべてのチートを無効にできます
-- 起動しようとしているゲームがDSi対応ゲーム場合は、TWiLight Menu++は`DS Mode`に設定されていることを確認します。
 - 以前に機能した場合は、`sd:/_nds/nds-bootstrap/`で`fatTable`と`patchOffsetCache`フォルダ削除してください
 
 #### チートはどうのように使いますか？
@@ -60,26 +62,26 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 
 #### TWiLight Menu++はどのシステムに対応ですか？
 
-| 形式                   | ローダー                                                 | 拡張子                                                    | セーブファイル                            |
-| -------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------- |
-| ARGV[^1]             | ネイティブ                                                | `.argv`                                                |                                    |
-| Atari 2600           | [StellaDS][stellads]                                 | `.a26`                                                 |                                    |
-| Atari 5200           | [A5200DS][a5200ds]                                   | `.a52`                                                 |                                    |
-| Atari 7800           | [A7800DS][a7800ds]                                   | `.a78`                                                 |                                    |
-| Atari XEGS           | [XEGS-DS][xegs-ds]                                   | `.xex`、`.atr`                                          |                                    |
-| DS                   | [nds-bootstrap][ndsbs]、<wbr>フラッシュカードのカーネル、<wbr>ネイティブ | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `saves/[ROMの名前].sav`[^2]           |
-| DSiウェア               | [Unlaunch][unlaunch]                                 | `.nds`、<wbr>`.dsi`、<wbr>`.ids`、<wbr>`.srl`、<wbr>`.app` | `[ROMの名前].pub`、<wbr>`[ROMの名前].prv` |
-| DSTWOプラグイン           | [DSTWO][dstwo][^3]                                   | `.plg`                                                 |                                    |
-| ゲームボーイ（カラー）          | [GameYob][gameyob]                                   | `.gb`、<wbr>​`.sgb`、​<wbr>`.gbc`                        | `[ROMの名前].sav`                     |
-| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4]、<wbr>ネイティブ[^5]          | `.agb`、<wbr>`.gba`、<wbr>`.mb`                          | `[ROMの名前].sav`                     |
-| ゲームギア                | [S8DS][s8ds]                                         | `.gg`                                                  | `[ROMの名前].gg.sav`                  |
-| メガドライブ・Genesis       | [jEnesisDS][jenesis]、<wbr>[PicoDriveTWL][pdtwl]      | `.gen`                                                 | `[ROMの名前].srm`[^6]                 |
-| マスターシステム             | [S8DS][s8ds]                                         | `.sms`                                                 | `[ROMの名前].sms.sav`                 |
-| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                          | `.mp4`                                                 |                                    |
-| ファミリーコンピュータ・NES      | [nesDS][nesds]                                       | `.nes`、`.fds`                                          | `[ROMの名前].sav`                     |
-| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                             | `.pce`                                                 |                                    |
-| RVIDビデオ              | [Rocket Video Player][rvidplayer]                    | `.rvid`                                                |                                    |
-| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                                 | `.smc`、`.sfc`                                          | `[ROMの名前].srm`[^8]                 |
+| 形式                   | ローダー                                         | 拡張子                                    | セーブファイル                        |
+| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------ |
+| ARGV[^1]             | ネイティブ                                        | `.argv`                                |                                |
+| Atari 2600           | [StellaDS][stellads]                         | `.a26`                                 |                                |
+| Atari 5200           | [A5200DS][a5200ds]                           | `.a52`                                 |                                |
+| Atari 7800           | [A7800DS][a7800ds]                           | `.a78`                                 |                                |
+| Atari XEGS           | [XEGS-DS][xegs-ds]                           | `.xex`, `.atr`                         |                                |
+| DS                   | [nds-bootstrap][ndsbs]、フラッシュカードのカーネル、ネイティブ   | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].sav`[^2]       |
+| DSiウェア               | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs] | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[ROMの名前].pub`, `[ROMの名前].prv` |
+| DSTWOプラグイン           | [DSTWO][dstwo][^3]                           | `.plg`                                 |                                |
+| ゲームボーイ（カラー）          | [GameYob][gameyob]                           | `.gb`, `.sgb`, `.gbc`                  | `[ROMの名前].sav`                 |
+| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                 |
+| ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`              |
+| メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]             |
+| マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`             |
+| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                  | `.mp4`                                 |                                |
+| ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                 |
+| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                     | `.pce`                                 |                                |
+| RVIDビデオ              | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                |
+| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`[^8]             |
 {:.table}
 
 - Footnotes -

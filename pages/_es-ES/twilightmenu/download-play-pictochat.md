@@ -10,14 +10,15 @@ description: Cómo tener Descarga DS y Pictochat en el Menú Clásico DS de TWiL
 Si estás usando una consola DSi, ya deberías poder usar esas aplicaciones. Si no es el caso y tienes una 3DS, sigue estos pasos.
 
 Dentro de GodMode9:
-- Pulsa <kbd class="r">R</kbd> + <kbd class="face">A</kbd> en SYSNAND TWLN
-- Selecciona `Search for titles`
-- Selecciona `DS Download Play (NTR-HNDA).tmd`
-- Selecciona `TMD file options...`
-- Selecciona `Dump CXI/NDS file`
-- ¡Hecho! Deberías encontrarlo en `sdmc:/gm9/out/`, como `DS Download Play (NTR-HNDA).nds`
+- Press the Home/Power button
+- Select `Title Manager`, then select `[1:] NAND / TWL`
+- Find and select `DS Download Play (NTR-HDNA)`
+- Select `Open title folder`
+- Select `00000000.tmd`, then select `TMD file options...`
+- Select `Dump CXI/NDS file`
+- Done. The file will be in `0:/gm9/out/`.
 
-Cópialo en `sd:/_nds/`, y cámbiale el nombre a `dlplay.nds`.
+Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
 
 Los pasos anteriores aumentarán la velocidad de arranque de DLP.
 

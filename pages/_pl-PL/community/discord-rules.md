@@ -64,69 +64,69 @@ Na przykład:
 - Użytkownicy z nickiem, którego nie da się pingnąć czy przeczytać w normalny sposób, będą mieli przyznaną inną nawę.
    - Jeśli musimy obrócić nasz ekran, by przeczytać Twój nick, to znaczy, że jest coś z nim nie tak.
    - Jeśli musimy wziąć twoje ID Użytkownika, żeby Cię pignąć, to znaczy, że z nickiem jest coś nie tak.
-- Avoid purposely putting characters in the beginning of the name to change your spot in the member list. You'll get those characters removed.
+- Unikaj celowego umieszczania znaków na początku imienia, aby zmienić miejsce na liście członków. Te znaki zostaną usunięte.
 
 
-### Please be courteous when using Direct Messages
+### Prosimy o uprzejmość podczas korzystania z bezpośrednich wiadomości
 
-- Things that happen in Direct Messages **are** the business of the server since unless the two share another server or they are friends, they wouldn't be able to reach each other.
-- Examples include DM advertising, purposely redirecting users to DMs from normal chat (such as support) to break rules or harassment.
-   - There needs to be evidence of doing so, such as other people reporting it too, implications on the server or anything of the sort. However, when you do your report, cover any links. Do not give the DM advertiser more popularity than they already got by Direct Messaging everyone.
-- Even if your actions aren't malicious, sometimes they could be disturbing.
-   - Please ask before sending a Direct Message to others and respect those not wanting to communicate. ‎
+- Sprawy, które zdarzają się w bezpośrednich wiadomościach **są** biznesem serwera, ponieważ jeśli osoby nie współdzielą innego serwera lub nie są przyjaciółmi, nie będą w stanie dotrzeć do siebie.
+- Przykłady to reklama BW, celowe przekierowanie użytkowników do BW z normalnego czatu (np. wsparcia) w celu złamania zasad lub nękania.
+   - Muszą być na to dowody, np. inne osoby zgłaszające to samo, implikacje na serwerze lub inne tego typu rzeczy. Jeśli jednak zdecydujesz się na zgłoszenie, zajrzyj do wszystkich powiązań. Nie pozwól BW reklamodawcy na większą popularność od tej którą już posiada przez BW wszystkich.
+- Nawet jeśli twoje działania nie są złośliwe, czasami mogą być niepokojące.
+   - Proszę, zapytaj zanim wyślesz wiadomość bezpośrednią do innych i szanuj tych, którzy nie chcą rozmawiać. ‎
 
-### Keep piracy discussion to a minimum
+### Dyskusja na temat piractwa na minimalnym poziomie
 
-- Do not link to piracy websites, upload pirated content, or encourage others to pirate
-- For more information on what is piracy or not, we suggest reading this: https://3ds.eiphax.tech/piracy.html (Disclaimer: We are not lawyers)
-
-
-### No Adult Content
-
-- Do not post pornography, gore, drugs (unless the topic is about medication) or anything that is not safe for work
-- Any account with a disturbing avatar will get kicked. If you rejoin and still have the avatar, it will receive a ban
-- At the same time, be mature. Members are allowed to cuss and you should be accustomed to that. Just don't throw around cuss words every two seconds; it isn't cool
-- Despite Adult content being banned, users are still required to be thirteen and over in order to participate on this Discord Server
+- Nie wysyłaj linków do stron z piratami, nie wysyłaj piratów, oraz nie namawiaj innych do piractwa
+- Aby uzyskać więcej informacji na temat piractwa, sugerujemy przeczytanie następujących informacji: https://3ds.eiphax.tech/piracy.html (Ostrzeżenie: nie jesteśmy prawnikami)
 
 
-## Controversial content.
+### Brak zawartości dla dorosłych
 
-### Topics that you should minimize
+- Nie zamieszczaj pornografii, gore, narkotyków (chyba że temat dotyczy leczenia) lub czegokolwiek Nsfw
+- Każde konto z niepokojącym awatarem zostanie wyrzucone. Jeśli dołączysz ponownie i nadal z tym samym awatarem, to otrzymasz ban
+- Jednocześnie bądź dojrzały. Członkom wolno przeklinać i powinieneś być do tego przyzwyczajony. Tylko nie rzucaj przekleństwami co dwie sekundy, to nie jest fajne
+- Pomimo zakazu treści dla dorosłych, użytkownicy nadal muszą mieć ukończone trzynaście lat, aby móc uczestniczyć w tym serwerze Discord
 
-Please keep these topics in [#offtopic](https://discord.com/channels/283769550611152897/718307887578873856) and keep an open mind when discussing them:
-- Political Debates
-- Religion
-- Spoilers
+
+## Kontrowersyjne Treści.
+
+### Tematy, które powinieneś zminimalizować
+
+Proszę zachowaj te tematy w [#offtopic](https://discord.com/channels/283769550611152897/718307887578873856)i zachowaj rozum podczas dyskusji o nich:
+- Debaty polityczne
+- Religia
+- Spojlery
 - Malware
-- Content intended to shock or scare
+- Treści mające na celu zaszokować lub przestraszyć
 
-Make sure to put spoilers, malware and content intended to shock or scare in spoiler tags and properly warn the user outside of said spoiler tags.
+Upewnij się, że umieszczasz złośliwe oprogramowanie i treści mające na celu zaszokować lub przestraszyć w spoilerze i odpowiednio ostrzegać użytkownika poza tymi tagami spoilera.
 
-### Banned Content
+### Zablokowana zawartość
 
-- External Drama
-- Server Raids
-- Adult content (read above)
+- Zewnętrzny Dramat
+- Naloty na serwer
+- Zawartość dla dorosłych (przeczytaj powyżej)
 
-## 🏓 Notifications/Pings/DMs
+## 🏓 Powiadomienia/Pingi/DMs
 
-- @Lightning will send you a DM if you receive a warning. No need to assume you're in trouble if you got a ping
-- Don't ping a user if it's obvious that they're already there. (Using Discord's quote function is not an excuse. Please remove the ping before sending the message)
-- Don't repeatedly ping a person to try and get their attention.
-   - When a mention attack occurs, do not ping a staff member; it’s redundant since they are already getting pings from the attack. Also, it confuses the staff on which member to ban.
-- If you get pinged, don't send messages like "why ping" or spam emotes on the message. Check who pinged and reply.
- - If you have a problem with getting pinged, either set up your discord so you don't get ping notifications, deal with it or leave.
- - If you can't find the message with the ping, alert a staff member. We will warn those who ping then instantly delete their messages.
-- Ping only when you want to bring attention to something to someone. Don't ping as a reference.
+- @Lightning wyśle Ci BW jeśli otrzymasz ostrzeżenie. Nie ma potrzeby zakładać, że masz kłopoty, jeśli otrzymałeś ping
+- Nie pinguj użytkownika, jeśli jest oczywiste, że już tam jest. (Użycie funkcji cytowania Discord nie jest usprawiedliwieniem. Proszę usunąć ping przed wysłaniem wiadomości)
+- Nie pinguj wielokrotnie jednej osoby, aby zwrócić na siebie jej uwagę.
+   - Kiedy atak wzmianek ma miejsce, nie pinguj członka personelu; jest to zbędne, ponieważ oni otrzymują pingi od ataku. Ponadto, dezorientuje to personel co do tego, którego członka zbanować.
+- Jeśli otrzymasz ping, nie wysyłaj wiadomości typu "dlaczego ping" i nie spamuj emotkami w wiadomości. Sprawdź, kto pingował i odpowiedz.
+ - Jeśli masz problem z otrzymywaniem pingów, ustaw swój discord tak, by nie dostawać powiadomień o pingach, zajmij się tym albo odejdź.
+ - Jeśli nie możesz znaleźć wiadomości z pingiem, powiadom członka personelu. Będziemy ostrzegać tych, którzy pingują, a następnie natychmiast usuwają ich wiadomości.
+- Pinguj tylko wtedy, gdy chcesz zwrócić uwagę na coś komuś. Nie pinguj jako odnośnik.
 
 
-## Consequences
+## Konsekwencje
 
-**The consequences of breaking these rules are either warnings, mutes, kicks or bans.** Of course, it depends on a case by case scenario.
-- Joining and immediately breaking the rules will lead your account to getting a mute
-- Joining for the purpose of rule breaking will get you banned.
-- Trying to evade, look for loopholes, or stay borderline within the rules will be treated as breaking them.
+**Konsekwencją złamania tych zasad są ostrzeżenia, muty, kicki lub bany.** Oczywiście zależy to od indywidualnego przypadku.
+- Dołączenie i natychmiastowe złamanie zasad spowoduje, że Twoje konto otrzyma mute
+- Przyłączenie się w celu łamania zasad spowoduje zbanowanie użytkownika.
+- Próby omijania, szukania luk prawnych lub pozostawania na granicy zasad będą traktowane jako ich łamanie.
 
-If you don't understand any of the rules, feel free to ask.
+Jeśli nie rozumiesz którejś z zasad, nie krępuj się pytać.
 
-Last update: August 19th, 2020
+Ostatnia aktualizacja: 19 sierpnia, 2020 r.

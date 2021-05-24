@@ -17,8 +17,8 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
 1. אם כבר יש לכם שמירות, העבירו את קבצי ה`.sav` שלכם, שנמצאים במיקום של הROMים של הDS, לתיקייה חדשה שנקראת `saves`, שנמצאת גם כן במיקום של הROMים של הDS
 1. ...
    - **משתמשי DS Phat / lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
-   - ** משתמשי DSi / 3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `SCFG access in Slot-1`
-      - זה יאפשר לכם להשתמש בTWL clock speed ו/או בVRAM boost על המשחקים בפלאשקארט שלכם, וגם יאפשר לגשת לSD של הקונסולה
+   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+      - This will let you use TWL clock speed and / or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced / DSi-Exclusive / DSiWare games in DSi mode from your flashcard
 
 ### הרצת משחקים באמצעות הקושחה של הפלאשקארט שלכם
 1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט

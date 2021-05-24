@@ -7,42 +7,42 @@ title: Wi-Fi
 description: Cómo usar el Wi-Fi de la Nintendo DS
 ---
 
-- En aplicaciones de Nintendo DS, solo puedes usar Wifis abiertos o con claves WEP
-- En las aplicaciones mejoradas/exclusivas de Nintendo DSi, también hay soporte para WPA y WPA2
+- On Nintendo DS applications, you can only use WEP and Open Wi-Fi security settings
+- On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
 
 Se pueden usar puntos de acceso (hotspots), así no tendrás que cambiar los ajustes de tu router.
 
 ### Crear un punto de acceso
-Hay varias guías para crear puntos de acceso compatibles para un juego de DS con macOS y Linux en GBAtemp. Si estás en Windows puedes lanzar Linux con un Live CD/USB.
+There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows, you can use a Linux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
 ### Restaurar CWF de Nintendo DS
-1. Ve a la configuración del CWF de Nintendo
+1. Launch Nintendo Wi-Fi Connection Setup
 1. Conéctate a tu punto de acceso
 1. Pon uno de los valores listados abajo como DNS primario, dependiendo del servicio que quieras usar:
-   - **Wiimmfi** - `164.132.44.106`
-   - **AltWFC/WFCZwei** - `172.104.88.237` o `104.131.93.87`
-   - **BenFi** - `24.218.177.103`
-   - **Twilit WFC** - `34.66.49.81`
+   - **[Wiimmfi](https://wiimmfi.de)** - `164.132.44.106` or `178.62.43.212`
+   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/)** - `172.104.88.237`
 1. Pon `1.1.1.1` como DNS secundario
 1. Quizá necesites parchear tu juego con NoSSL, dependiendo de cuál sea
 
 ### Parchear manualmente tus ROMs de DS
 Sigue esta guía en caso de que tu proveedor de internet bloquee servidores DNS personalizados, en otro caso se recomienda *encarecidamente* seguir la guía anterior.
 
-Nota: Los usuarios de GNU/Linux y macOS pueden seguir instrucciones muy similares pero tendrán que usar mono
+Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
 
 1. Descarga [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
 1. Copia la ROM del juego que quieres parchear en la misma carpeta en la que se encuentra WFCPatcher y entra en la misma
-1. Crea un fichero de texto con el nombre `patch.bat`
-1. Escribe dentro del archivo `wfcpatcher.exe %1 --domain wiimmfi.de`, guarda los cambios y ciérralo (puedes cambiar wiimmfi.de por otra URL si quieres usar un servidor distinto)
-1. Arrastra las ROMs que quieres parchear a patch.bat
-1. ¡Hecho! Las ROMs parcheadas son las que terminan en (wiimmfi)
+1. Create a text file
+1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
+   - You can replace wiimmfi.de with another URL, if you wish to use a different server
+   - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name
+1. Now drag all the ROMs you wish to patch on to patch.bat
+1. ¡Hecho! the patched ROMs will be the ones ending in (wiimmfi)
 
-No olvides borrar cualquier DNS que hayas guardado previamente en la configuración WiFi antes de intentar conectarte con la ROM parcheada
+Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
 
 ### Solución de problemas y más lectura
-Si salta algún error, puedes introducirlo en el [troubleshooter de wiimmfi](https://wiimmfi.de/error) para encontrar una solución.
+If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
-Para resolver problemas más concretos y obtener más información, como conectarse online a través de un emulador, puedes leer esta [Guía de Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) escrita por miembros de [Mario Kart DS Network](https://discord.gg/pa9bea6).
+For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

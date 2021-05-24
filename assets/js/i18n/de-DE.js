@@ -1,1 +1,0 @@
-export default { 'pageIsInYourLanguage': 'Diese Seite ist in deutscher Sprache verfügbar!' };

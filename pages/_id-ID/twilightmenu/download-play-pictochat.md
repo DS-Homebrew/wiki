@@ -10,14 +10,15 @@ description: Cara mendapatkan DS Download Play dan Pictochat di Menu DS Klasik T
 Jika kamu menggunakan konsol DSi, seharusnya sudah bisa meluncurkan aplikasi tersebut. Sebaliknya, jika menggunakan 3DS, lanjut ke bawah.
 
 Di GodMode9:
-- Tekan <kbd class="r">R</kbd> + <kbd class="face">A</kbd> pada SYSNAND TWLN
-- Pilih `Search for titles` untuk mencari judul
-- Pilih `DS Download Play (NTR-HNDA).tmd`
-- Pilih `TMD file options...`
-- Pilih `Dump CXI/NDS file`
-- Selesai. Berkasnya ada di `sdmc:/gm9/out/`, sebagai ` DS Download Play (NTR-HNDA).nds`
+- Press the Home/Power button
+- Select `Title Manager`, then select `[1:] NAND / TWL`
+- Find and select `DS Download Play (NTR-HDNA)`
+- Select `Open title folder`
+- Select `00000000.tmd`, then select `TMD file options...`
+- Select `Dump CXI/NDS file`
+- Done. The file will be in `0:/gm9/out/`.
 
-Salin ke `sd:/_nds/`, dan namakan jadi `dlplay.nds`.
+Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
 
 Langkah di atas akan meningkatkan kecepatan mulai DLP.
 

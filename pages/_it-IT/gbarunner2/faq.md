@@ -13,14 +13,14 @@ Puoi leggere e seguire [questa guida](https://docs.google.com/document/d/1owjiW-
 
 #### I trucchi sono supportati?
 
-Non è il momento. Instead, you can permanently inject cheat codes into your GBA ROM with [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
+Non è il momento. Invece, è possibile iniettare in modo permanente i codici dei trucchi nella tua ROM del GBA con [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
-#### How do I use nightly GBARunner2 builds in TWiLight Menu++?
+#### Come faccio a usare le build notturne di GBARunner2 in TWiLight Menu++?
 
-1. Download the nightly build
-1. Rename it to `GBARunner2_arm7dldi_3ds.nds` (or `GBARunner2_arm7dldi_dsi.nds` if you're on DSi)
-1. Place it in `sd:_nds`
+1. Scarica la build notturna
+1. Rinominala in `GBARunner2_arm7dldi_3ds.nds` (o `GBARunner2_arm7dldi_dsi.nds` se sei su DSi)
+1. Posizionala in `sd:_nds`
 
-#### How do I use Wi-Fi link features?
+#### Come posso utilizzare le funzioni di collegamento Wi-Fi?
 
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBATemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Avrai bisogno di una build dal ramo [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) per utilizzare le funzionalità. Puoi trovare istruzioni dettagliate su come configurare le build sulla sua pagina [GBATemp Wiki](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

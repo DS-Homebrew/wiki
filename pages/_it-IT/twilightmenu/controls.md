@@ -4,8 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Controlli
-long_title: TWiLight Menu++ Controls
-description: Controls for using TWiLight Menu++
+long_title: Controlli TWiLight Menu++
+description: Controlli per l'utilizzo di TWiLight Menu++
 ---
 
 #### Nintendo DSi, Nintendo 3DS, SEGA Saturn e Homebrew Launcher
@@ -21,48 +21,49 @@ description: Controls for using TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostra descrizione del trucco
       - <kbd class="l">L</kbd>: Disabilita tutti i trucchi
 - <kbd class="face">X</kbd>: Elimina/nascondi gioco
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWLMenu++ Settings, and GBA Mode can be accessed)
+- (Tema DSi / Saturn / HBL) <kbd>SELECT</kbd>: Menù SELECT o menù DS Classic (dove è possibile accedere alle impostazioni di TWiLight Menu++ e alla modalità GBA)
 
-#### R4 theme
-- <kbd>Up</kbd> / <kbd>Down</kbd>: Select a game / app
-- <kbd class="face">A</kbd>: Launch game / app
-- <kbd class="l">L</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
+#### Tema R4
+- <kbd>Su</kbd> / <kbd>Giù</kbd>: Seleziona un gioco / app
+- <kbd class="face">A</kbd>: Avvia gioco / app
+- <kbd class="l">L</kbd>: Passa tra la scheda SD e la flashcard
+- <kbd class="face">Y</kbd>: Impostazioni del gioco
+   - <kbd class="face">X</kbd>: Menù trucchi
+      - <kbd class="face">A</kbd>: Abilita trucco
+      - <kbd class="face">B</kbd>: Esci dal menu trucchi
+      - <kbd class="face">X</kbd>: Salva ed esci dal menu trucchi
+      - <kbd class="face">Y</kbd>: Mostra descrizione del trucco
+      - <kbd class="l">L</kbd>: Disabilita tutti i trucchi
 
-#### DS ROMs (using nds-bootstrap)
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> for 1 second: Swap the screens
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 3 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
-- <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
-   - RAM Viewer
-      - <kbd>Up</kbd> / <kbd>Down</kbd>: Scroll
-      - <kbd>Left</kbd> / <kbd>Right</kbd>: Fast scroll
-      - <kbd class="face">A</kbd>: Enter RAM Editor
-      - <kbd class="face">B</kbd>: Return to in-game menu
-      - <kbd class="face">Y</kbd>: Specify an address to jump to
-        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
-        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-   - RAM Editor
-      - <kbd>Up</kbd> / <kbd>Down</kbd> / <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
-      - <kbd class="face">A</kbd>: Modify selected value
-         - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease value by 1h
-         - <kbd>Left</kbd> / <kbd>Right</kbd>: Increase / Decrease value by 10h
-         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Finish modifying value
-      - <kbd class="face">B</kbd>: Return to RAM Viewer
-      - <kbd class="face">Y</kbd>: Specify an address to jump to
-        - <kbd>Up</kbd> / <kbd>Down</kbd>: Increase / Decrease selected value
-        - <kbd>Left</kbd> / <kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+#### ROM NDS (usando nds-bootstrap)
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> per 1 secondo: Inverti lo schermo superiore ed inferiore
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Giù</kbd> + <kbd class="face">A</kbd> per 3 secondi: Dump della RAM nel percorso `sd:/_nds/nds-bootstrap`, con nome file `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd>Giù</kbd> + <kbd>SELECT</kbd>: Apri il menu in-game
+   - Visualizzatore RAM
+      - <kbd>Su</kbd> / <kbd>Giù</kbd>: Scorri
+      - <kbd>Sinistra</kbd> / <kbd>Destra</kbd>: Scorrimento rapido
+      - <kbd class="face">A</kbd>: Apri editor della RAM
+      - <kbd class="face">B</kbd>: Torna al menu in-game
+      - <kbd class="face">Y</kbd>: Specifica l'indirizzo su cui spostarsi
+        - <kbd>Su</kbd> / <kbd>Giù</kbd>: Aumenta / Diminuisce il valore selezionato
+        - <kbd>Sinistra</kbd> / <kbd>Destra</kbd>: Seleziona un valore
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Ritorna al visualizzatore/editor RAM all'indirizzo specificato
+   - Editor della RAM
+      - <kbd>Su</kbd> / <kbd>Giù</kbd> / <kbd>Sinistra</kbd> / <kbd>Destra</kbd>: Seleziona un valore
+      - <kbd class="face">A</kbd>: Modifica il valore selezionato
+         - <kbd>Su</kbd> / <kbd>Giù</kbd>: Aumenta / Diminuisci il valore di 1h
+         - <kbd>Sinistra</kbd> / <kbd>Destra</kbd>: Aumenta / Diminuisci il valore di 10h
+         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Termina la modifica del valore
+      - <kbd class="face">B</kbd>: Ritorna al visualizzatore RAM
+      - <kbd class="face">Y</kbd>: Specifica l'indirizzo su cui spostarsi
+        - <kbd>Su</kbd> / <kbd>Giù</kbd>: Aumenta / Diminuisce il valore selezionato
+        - <kbd>Sinistra</kbd> / <kbd>Destra</kbd>: Seleziona un valore
+        - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Ritorna al visualizzatore/editor RAM all'indirizzo specificato
+ - Il menu in-game non è accessibile in modalità DSi, quindi usare la combinazione di tasti in questa specifica modalità vi farà invece uscire dal gioco.
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### Shortcut di avvio
+Queste shortcut devono essere inserite sulla splash-screen di TWiLight Menu++ / subito dopo la schermata di avvio Nintendo DSi.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM or vice versa depending on if autobooting the last ran ROM is enabled
+- <kbd>SELECT</kbd>: Apri le impostazioni
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reimposta tutte le impostazioni di TWiLight Menu++
+- <kbd class="face">B</kbd>: Boot the last ran ROM

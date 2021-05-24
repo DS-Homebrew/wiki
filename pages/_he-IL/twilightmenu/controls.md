@@ -21,7 +21,7 @@ description: שליטה ומקשים עבור TWiLight Menu++
       - <kbd class="face">Y</kbd>: צפה בתיאור הצ'יט
       - <kbd class="l">L</kbd>: בטל את כל הצ'יטים
 - <kbd class="face">X</kbd>: מחק/הסתר משחק
-- (ערכות נושא DSi/Saturn/HBL)<kbd>SELECT</kbd>: תפריט הSLECET או תפריט הDS הקלאסי (איפה שניתן לגשת לתפריט המערכת, תפריט הגדרות של TWLMenu++ ומצב GBA)
+- (ערכות נושא DSi/Saturn/HBL)<kbd>SELECT</kbd>: תפריט הSLECET או תפריט הDS הקלאסי (איפה שניתן לגשת לתפריט המערכת, תפריט הגדרות של TWiLight Menu++ ומצב GBA)
 
 #### ערכת נושא R4
 - <kbd>למעלה</kbd> / <kbd>למטה</kbd>: בחר משחק / תוכנה
@@ -59,10 +59,11 @@ description: שליטה ומקשים עבור TWiLight Menu++
         - <kbd>למעלה</kbd> / <kbd>למטה</kbd>: הגדל / הפחת את הערך הנבחר
         - <kbd>שמאל</kbd> / <kbd>ימין </kbd>: בחר ערך
         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: חזור אל צופה/עורך הRAM בכתובת נבחרת
+ - התפריט בזמן משחק לא זמין במצב DSi, ניסיון להשתמש בשילוב הכפתורים במצב DSi יצא מהמשחק במקום.
 
 #### קיצורי דרך בהפעלה
 על כפתרים אלו צריך ללחוץ במהלך תמונת ההפעלה של TWiLight Menu++ / מיד לאחר תמונת ההפעלה של Nintendo DSi.
 
 - <kbd>SELECT</kbd>: פתח הגדרות
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: אפס את כל ההגדרות של TWiLight Menu++
-- <kbd class="face">B</kbd>: הפעל את הרום האחרון שרץ או להפך במידה והגדרה של הפעלה אוטומטית של הרום האחרון שרץ מופעלת
+- <kbd class="face">B</kbd>: Boot the last ran ROM

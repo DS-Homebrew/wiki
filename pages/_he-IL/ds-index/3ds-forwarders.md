@@ -11,23 +11,53 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
-אם אתם נתקלים בבעיות, בדקו את השו"ת ב[בנושא בGBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
+
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
+This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+
+Choose one of the following to add to the HOME menu:
+
+{% capture tab-sd-card %}
+
+### Part 1: Getting the required files
+
+If you already have Universal Updater installed on your console, you can skip to step 3.
+{:.alert .alert-info}
+
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the NDSForwarder package
+1. NDSForwarder and its required files are now set up in its respective locations
+
+### Part 2: NDSForwarder
+1. Open the Homebrew Launcher
+1. In the Homebrew Launcher, open `NDS Forwarder Generator`
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Confirm you wish to install by selecting `Yes`
+1. After it is installed, your game will now appear as a title on your HOME menu
+{% endcapture %}
+{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+
+{% capture tab-flashcard %}
+
+If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-### דרישות
+### Requirements
 
 3DS:
-- [Luma3DS](https://github.com/lumateam/luma3ds/releases), או כל CFW אחר שעושה פאטץ לTWL_NAND
-- [FBI](https://github.com/Steveice10/FBI/releases) להתקנת קבצי CIA
-- (אופציונאלי) פלאשקארט של DS שנתמך
 
 {% capture flashcards %}
-הפלאשקארטים המומלצים הם DSTT וAcekard 2i. אם אתם רוצים תאימות מושלמת למשחקים, השיגו את הSuperCard DSTWO / DSTWO PLUS. החסרון היחיד הוא שהם ירוקנו את הסוללה מהר יותר.
+The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO / DSTWO PLUS. The only downside is that it drains your system battery faster.
 
-אם יש לכם פלאשקארט שעובד עם NTR Launcher של Apache Thunder, תרגישו חופשי לבקש אותו ב[נושא בGBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). וודאו שאתם מציינים באיזה build אתם משתמשים (Normal או Alt), ואם `RESETSLOT1` מוגדר על `0` או על `1` ב`sd:/nds/ntr_launcher.ini`.
+If you have a flashcard that works with Apache Thunder's NTR Launcher, feel free to request it [on the GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Be sure to specify which build you're using (Normal or Alt), and if `RESETSLOT1` is set to `0` or `1` in `sd:/nds/ntr_launcher.ini`.
 
-תואמים:
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (משחקים שהם DSi-Enhanced, כולל משחקי NTR חדשים יותר, לא יעבדו.)
+Compatible:
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced games, including newer NTR games, don't work.)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
@@ -42,56 +72,47 @@ tabs:
 - [R4iDSN](http://3ds-flashcard.com/home/28-r4idsn-3ds.html)
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
-- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (גרסה רגילה וRTS)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (כרטיסים סגולים עלולים לא להיות תואמים)
+- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Normal and RTS versions)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Purple card may be incompatible)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
-- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (גרסה רגילה וPlus)
+- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normal and Plus versions)
 
-לא נבדק:
-- R4i3D NEW (השתמשו בתבנית ובחבילה של R4iDSN)
+Untested:
+- R4i3D NEW (Use R4iDSN template and pack)
 
-נתמכים חלקית:
-- Ace 3DS+ (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
-- Gateway Blue Card (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
-- EX4DS (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
-- R4iLS (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
-- כרטיסים עם [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (התמיכה במשחקים לא טובה, אז שמירה וטעינה גורמים לקריסה)
+Partially compatible:
+- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing.)
+- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing.)
+- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing.)
+- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing.)
+- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing.)
 
-אינו תואם:
-- CycloDS (i)Evolution (יכול להפעיל בטעינה רומים, אבל עובד שונה מפלאשקארדים אחרים)
-- (i)Edge (לא מסוגל להפעיל בטעינה רום .nds)
+Incompatible:
+- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
+- (i)Edge (Unable to autoboot a .nds ROM)
 - R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (לא פעולת המעבירים) גורמים לבריק לקלטת)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (not the forwarder process) bricks the card)
 {% endcapture %}
 
 <details>
-    <summary>פלאשקארדים נתמכים</summary>
+    <summary>A supported flashcard from this list</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
 </details>
 
 PC:
-- מערכת הפעלה 64 ביט
+- A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
-- **Linux users:** JavaFX. On Debian based systems run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh), or if you're on Arch run: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`.
+- **Linux users:** JavaFX
+   - Debian-based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
-{% capture tab-sd-card %}
-1. הורידו את [SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=0)
-1. חלצו את התוכן של התיקיה `for SD card root` לכרטיס הSD של ה3DS שלכם
-
-לאחר שתחלצו את החבילה, תוכלו לערוך את `sd:/_nds/nds-bootstrap.ini` על מנת לשנות את ההגדרות:
-- `BOOST_CPU`: אם מוגדר ל1, מהירות השעון של TWL תהיה בשימוש והלאג יעלם
-- `SOUND_FREQ`: If set to 1, sound will play at 48 kHz, instead of 32 kHz
-{% endcapture%}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
-
-{% capture tab-flashcard %}
 1. Download one of these packs:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
@@ -107,19 +128,14 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
 - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
-{% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
-{% assign tabs = tab-sd-card | concat: tab-flashcard %}
-{% include tabs.html index=0 tabs=tabs %}
-
-### חלק 2: קבלת קבצי תיקון האנטי פיראטיות (AP) מTWiLight Menu++
+### Part 2: Getting the AP fix files from TWiLight Menu++
 If you already have TWiLight Menu++, skip to the next section.
 1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 1. In the 7z file, go to `_nds/TWiLightMenu/`
 1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
 
-### חלק 3: Forwarder3-DS
+### Part 3: Forwarder3-DS
 1. Open `Forwarder3DS.jar`
    - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
 1. Set your card as the `Target` on the left
@@ -135,3 +151,8 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Click the floppy disk button to generate the forwarder CIA(s)
 1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
    - If using EmuNAND, install to both SysNAND and EmuNAND
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% include tabs.html index=0 tabs=tabs %}

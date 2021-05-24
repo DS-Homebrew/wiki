@@ -14,4 +14,5 @@ Pour voir les jeux testés, regardez [ici](https://docs.google.com/spreadsheets/
 - Rechercher des problèmes de scintillement de l'écran ou de son
 - Si quelque chose semble étrange, exécutez le jeu en même temps sur une console n'utilisant pas nds-bootstrap pour comparer
 - Essayez autant de fonctionnalités que possible dans le jeu
-- Soyez exhaustif
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, etc)
+- Be thorough

@@ -40,19 +40,33 @@ Debes poner `PlayStartupJingle=1` en tu `theme.ini` para que suene.
 
 
 ## Música del menú
+La música del menú debe ser un archivo PCM de **16-bit 16 kHz Mono**. Below are two methods for converting audio files into that format.
 
-La música del menú debe ser un archivo PCM de **16-bit 16 kHz Mono**. Puedes usar [Audacity](https://www.audacityteam.org/download/) para convertirlo a este formato. Una vez que hayas cargado el archivo en Audacity, cambia el **Project Rate (Hz)** a **16000**, después pulsa **Shift+M**, y cambia **Format** a **16-bit PCM**.
+Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
 
-Si tu archivo es estéreo, debes ir a **Tracks > Mix > Mix Stereo down to Mono**.
+### ffmpeg
+The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
-Para exportarlo en el formato correcto:
-1. Selecciona `File` > `Export` > `Export Audio...`
-1. Pon `File Type` en `Other uncompressed files`
-1. Pon `Header` en `RAW (header-less)`
-1. Pon `Encoding` en `Signed 16-bit PCM`
-1. Pon como nombre `bgm.pcm.raw` y pincha en `Save`
-1. Pincha `OK` en la edición de metadatos
+```bash
+ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
 
-Ya tienes tu archivo `bgm.pcm.raw` que puedes copiar en la subcarpeta *sound* de tu tema.
+Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
 
-Al contrario de sfx.bin, *bgm.pcm.raw* puede ser muy grande.
+### Audacity
+If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+
+To convert the audio:
+1. Load the file in Audacity
+1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+
+To export in the correct format:
+1. Select `File` > `Export` > `Export Audio...`
+1. Set `File Type` to `Other uncompressed files`
+1. Set `Header` to `RAW (header-less)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Click `OK` to the metadata editing
+
+Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.

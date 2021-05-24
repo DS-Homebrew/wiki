@@ -59,7 +59,7 @@ Ta rola jest do przyznania sobie własnoręcznie poprzez komendę togglerole @Li
 Ta rola jest przyznawana osobom, które zrobiły romhacka przyzwoitej jakości na Nintendo DS, wiedzą jak poprawnie patchować pliki i wrzuciły owego romhacka w bardziej stałe miejsce (np. Gamebanana albo fora modingowe). Wrzuć swój romhack do [#nds-retail-research][nds-retail-research] oraz pingnij moderatora, a my go sprawdzimy.
 
 ### Nintendo DS Online Players
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Za masowe pingi będzie ban. Tą rolę musisz przyznać sobie własnoręcznie poprzez komendę togglerole @Lightning (`!togglerole Nintendo DS Online Players` w [#end-of-server][end-of-server])
+To jest rola, przeznaczona dla użytkowników do pingowania, gdy ktoś chce grać w grę Nintendo DS online (czy to Wiimmfi, AltWFC czy inne serwisy). Za masowe pingi będzie ban. Tą rolę musisz przyznać sobie własnoręcznie poprzez komendę togglerole @Lightning (`!togglerole Nintendo DS Online Players` w [#end-of-server][end-of-server])
 
 ### Updates
 Będziesz pingnięty w [#announcements][announcements] za każdym razem, kiedy wyjdzie aktualizacja. By ją dostać wpisz `!togglerole Updates` in [#end-of-server][end-of-server].
@@ -75,7 +75,7 @@ Jest również mnóstwo zabawnych komend, którymi możesz się pobawić w [#end
 
 Używamy Lightning również do moderacji (rejestrowanie ostrzeżeń, kicków, wyciszeń i banów). Nie blokuj tego bota byśmy mogli do Ciebie napisać w razie potrzeby.
 
-## 👑 The Staff Team
+## 👑 Zespół Pracowników
 To są ludzie utrzymujący serwer. Ich słowo jest słowem ostatecznym, nie do podważenia. Ci członkowie będą najwyżej listy członków. Obecnie nie szukamy nikogo nowego. Nie proś o bycie częścią zespołu, ponieważ zmniejszy to Twoją szansę na przyjęcie.
 
 @shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan

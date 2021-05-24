@@ -17,9 +17,9 @@ Se aggiorni da una versione più vecchia della v16.4.0, si prega di spostare i t
 1. Copia la cartella `_nds` nella scheda microSD della tua flashcard
 1. Copia il file `BOOT.NDS` nella scheda microSD della tua flashcard
 
-### More steps for the DSi / 3DS SD card side
+### Passi aggiuntivi lato SD del DSi/3DS
 
-Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è su v16.3. 0 o successive, segui questi passaggi.
+Se è possibile usare il contenuto della scheda SD e della flashcard in TWLMenu++ e se TWLMenu++ sulla flashcard è in versione 16.3.0 o successiva, segui questi passaggi.
 
 1. Vai nelle impostazioni di TWLMenu++
 1. Seleziona `Aggiorna TWiLight Menu++`

@@ -1,1 +1,0 @@
-export default { 'pageIsInYourLanguage': '当前页面有中文版本！' };

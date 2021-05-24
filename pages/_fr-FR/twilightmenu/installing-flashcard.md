@@ -17,8 +17,8 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav` qui sont à l'emplacement de votre ROM DS, dans un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROM DS
 1. ...
    - **Utilisateurs d'une DS Phat/lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un pack d'extension de mémoire et réessayez
-   - **Utilisateurs d'une DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console et activez `accès au SCFG par le Slot-1`
-      - Cela vous permettra d'utiliser la vitesse du cpu TWL et/ou VRAM boost sur vos jeux sur le linker ainsi que d'accéder à la carte SD de la console
+   - **Utilisateurs DSi / 3DS:** ExécutezTWLMenu++ sur la carte DS de la console, et activez `L'accès SCFG Slot-1` et définissez `Slot-1: Mode Touch` sur `Mode DSi`
+      - Ceci vous permet d'utiliser la vitesse TWL click et / ou le boost VRAM sur vos jeux flashcarts ainsi qu'à la carte SD de la console, et exécute les jeux Optimisés-DSi / Exclusifs-DSi / DSiWare en mode DSi depuis votre flashcard
 
 ### Pour exécuter des jeux en utilisant le logiciel de votre linker
 1. Extraire ce qui est dans `Flashcart Loader/(your flashcard)` à la racine de la carte microSD

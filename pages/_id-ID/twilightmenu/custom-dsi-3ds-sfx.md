@@ -40,12 +40,28 @@ You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to
 
 
 ## Menu BGM
+Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
 
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+### ffmpeg
+The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
-To export in the correct format, do:
+```bash
+ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+```
+
+Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+
+### Audacity
+If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+
+To convert the audio:
+1. Load the file in Audacity
+1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+
+To export in the correct format:
 1. Select `File` > `Export` > `Export Audio...`
 1. Set `File Type` to `Other uncompressed files`
 1. Set `Header` to `RAW (header-less)`
@@ -53,6 +69,4 @@ To export in the correct format, do:
 1. Set the output name to `bgm.pcm.raw` and click `Save`
 1. Click `OK` to the metadata editing
 
-Now you have a `bgm.pcm.raw` file that can be copied to the *sound* subfolder in your theme folder.
-
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.

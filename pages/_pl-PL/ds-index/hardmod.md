@@ -14,7 +14,7 @@ tabs:
 Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do adaptera karty SD w celu podłączenia do komputera. Jest to przydatne by przywrócić kopię zapasową NAND, przeglądać NAND na swoim komputerze itp...
 
 ### Nintendo DS
-[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Oryginalna płyta główna DS z zaznaczonymi punktami dotykowymi](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
@@ -28,11 +28,11 @@ By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
    - Czucia się komfortowo lutując pola o średnicy nawet 0,5 mm
 
 #### Pinout DSi - strona A
-[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+[![Pinout DSi - strona A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
 #### Pinout DSi - strona B
-[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+[![Pinout DSi - strona B](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
 #### Pinout DSi XL - strona B
-[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+[![Pinout DSi XL - strona B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - Będziesz musiał przylutować punkty z płyty głównej do adaptera kart microSD
    - CMD do pinu 2
@@ -65,10 +65,10 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Otwórz HxD i przeciągnij oba pliki do edytora. W górnym pasku wybierz "Analizy", następnie z "Porównanie danych" wybierz "Porównaj".
 1. Wybierrz to w celu porównaniania obu plików, wciśnij OK po zakończeniu
    - Jeśli wyskoczy "Wybrane pliki są identyczne", możesz przejść dalej
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1 / NAND_0 again
+   - Jeśli tak nie jest, a obie pamięci NAND nie mają około 240 MB, zrzuć NAND_1 / NAND_0 ponownie
 1. Otwórz Win32DiskImager, wciśnij ikonę folderu i wybierz utworzony wcześniej backup NAND
 1. Sflashuj go używając przycisku `Write`
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Odłącz adapter karty SD i spróbuj uruchomić konsolę
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -111,13 +111,13 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
    1. Zlokalizuj backup NAND używając terminala
    1. Uruchom następujące polecenie:
       - `cat {backup-nand} > {nazwa-urządzenia}`
-      - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
-      - Replace `{device-name}` with the mount point of the SD card
+      - Zastąp `{existing-nand-backup}` lokalizacją i nazwą starej kopii zapasowej pamięci NAND
+      - Zastąp `{device-name}` z punktem montowania karty SD
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+W tym momencie można odłączyć adapter karty SD i spróbować włączyć DSi. Jeśli wszystko poszło dobrze, DSi powinien uruchomić się w stanie, w jakim znajdował się w momencie tworzenia kopii zapasowej!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### Wgrywanie kopii zapasowej NAND
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

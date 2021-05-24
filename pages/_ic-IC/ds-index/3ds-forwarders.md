@@ -11,127 +11,148 @@ tabs:
     tab-flashcard: crwdns19490:0crwdne19490:0
 ---
 
-crwdns14956:0crwdne14956:0
-crwdns14958:0{:.alert .alert-warning}crwdne14958:0
+crwdns21474:0crwdne21474:0 crwdns21476:0crwdne21476:0
 
-### crwdns14960:0crwdne14960:0
+crwdns21478:0crwdne21478:0 crwdns21480:0crwdne21480:0
+crwdns21482:0{:.alert .alert-info}crwdne21482:0
 
-crwdns14962:0crwdne14962:0
-- crwdns14964:0crwdne14964:0
-- crwdns14966:0crwdne14966:0
-- crwdns14968:0crwdne14968:0
+crwdns21484:0crwdne21484:0
 
-crwdns14970:0{% capture flashcards %}crwdne14970:0
-crwdns14972:0crwdne14972:0 crwdns14974:0crwdne14974:0 crwdns14976:0crwdne14976:0
+crwdns21486:0crwdne21486:0
 
-crwdns14978:0crwdne14978:0 crwdns14980:0crwdne14980:0
+crwdns21488:0{% capture tab-sd-card %}crwdne21488:0
 
-crwdns14982:0crwdne14982:0
-- crwdns14984:0crwdne14984:0
-- [crwdns14988:0crwdne14988:0](crwdns14986:0crwdne14986:0)
-- [crwdns14992:0crwdne14992:0](crwdns14990:0crwdne14990:0)
-- [crwdns14996:0crwdne14996:0](crwdns14994:0crwdne14994:0)
-- crwdns14998:0crwdne14998:0
-- crwdns15000:0crwdne15000:0
-- crwdns19494:0crwdne19494:0
-- crwdns19496:0crwdne19496:0
-- [crwdns15008:0crwdne15008:0](crwdns15006:0crwdne15006:0)
-- crwdns15010:0crwdne15010:0
-- crwdns15012:0crwdne15012:0
-- crwdns15014:0crwdne15014:0
-- [crwdns15018:0crwdne15018:0](crwdns15016:0crwdne15016:0)
-- [crwdns15022:0crwdne15022:0](crwdns15020:0crwdne15020:0)
-- crwdns15024:0crwdne15024:0
-- crwdns15026:0crwdne15026:0
-- crwdns15028:0crwdne15028:0
-- [crwdns15032:0crwdne15032:0](crwdns15030:0crwdne15030:0)
-- crwdns15034:0crwdne15034:0
+### crwdns21490:0crwdne21490:0
 
-crwdns15036:0crwdne15036:0
-- crwdns15038:0crwdne15038:0
+crwdns21492:0crwdne21492:0
+crwdns21494:0{:.alert .alert-info}crwdne21494:0
 
-crwdns15040:0crwdne15040:0
-- crwdns15042:0crwdne15042:0
-- crwdns15044:0crwdne15044:0
-- crwdns15046:0crwdne15046:0
-- crwdns15048:0crwdne15048:0
-- crwdns15050:0crwdne15050:0
+1. crwdns21496:0crwdne21496:0
+1. crwdns21502:0crwdne21502:0<br> ![crwdns21500:0crwdne21500:0](crwdns21498:0crwdne21498:0)
+1. crwdns21504:0crwdne21504:0
+1. crwdns21506:0crwdne21506:0
+1. crwdns21508:0crwdne21508:0
 
-crwdns15052:0crwdne15052:0
-- crwdns15054:0crwdne15054:0
-- crwdns15056:0crwdne15056:0
-- crwdns19498:0crwdne19498:0
-- crwdns15060:0crwdne15060:0
-- crwdns15062:0crwdne15062:0
-- crwdns15064:0crwdne15064:0
-- crwdns15066:0crwdne15066:0
-crwdns15068:0{% endcapture %}crwdne15068:0
+### crwdns21510:0crwdne21510:0
+1. crwdns21512:0crwdne21512:0
+1. crwdns21514:0crwdne21514:0
+1. crwdns21516:0crwdne21516:0
+1. crwdns21518:0crwdne21518:0
+1. crwdns21520:0crwdne21520:0
+crwdns21522:0{% endcapture %}crwdne21522:0
+crwdns21524:0crwdne21524:0
+
+crwdns21526:0{% capture tab-flashcard %}crwdne21526:0
+
+crwdns21528:0crwdne21528:0
+crwdns21530:0{:.alert .alert-warning}crwdne21530:0
+
+### crwdns21532:0crwdne21532:0
+
+crwdns21534:0crwdne21534:0
+
+crwdns21536:0{% capture flashcards %}crwdne21536:0
+crwdns21538:0crwdne21538:0 crwdns21540:0crwdne21540:0 crwdns21542:0crwdne21542:0
+
+crwdns21544:0crwdne21544:0 crwdns21546:0crwdne21546:0
+
+crwdns21548:0crwdne21548:0
+- crwdns21550:0crwdne21550:0
+- [crwdns21554:0crwdne21554:0](crwdns21552:0crwdne21552:0)
+- [crwdns21558:0crwdne21558:0](crwdns21556:0crwdne21556:0)
+- [crwdns21562:0crwdne21562:0](crwdns21560:0crwdne21560:0)
+- crwdns21564:0crwdne21564:0
+- crwdns21566:0crwdne21566:0
+- crwdns21568:0crwdne21568:0
+- crwdns21570:0crwdne21570:0
+- [crwdns21574:0crwdne21574:0](crwdns21572:0crwdne21572:0)
+- crwdns21576:0crwdne21576:0
+- crwdns21578:0crwdne21578:0
+- crwdns21580:0crwdne21580:0
+- [crwdns21584:0crwdne21584:0](crwdns21582:0crwdne21582:0)
+- [crwdns21588:0crwdne21588:0](crwdns21586:0crwdne21586:0)
+- crwdns21590:0crwdne21590:0
+- crwdns21592:0crwdne21592:0
+- crwdns21594:0crwdne21594:0
+- [crwdns21598:0crwdne21598:0](crwdns21596:0crwdne21596:0)
+- crwdns21600:0crwdne21600:0
+
+crwdns21602:0crwdne21602:0
+- crwdns21604:0crwdne21604:0
+
+crwdns21606:0crwdne21606:0
+- crwdns21608:0crwdne21608:0
+- crwdns21610:0crwdne21610:0
+- crwdns21612:0crwdne21612:0
+- crwdns21614:0crwdne21614:0
+- crwdns21616:0crwdne21616:0
+
+crwdns21618:0crwdne21618:0
+- crwdns21620:0crwdne21620:0
+- crwdns21622:0crwdne21622:0
+- crwdns21624:0crwdne21624:0
+- crwdns21626:0crwdne21626:0
+- crwdns21628:0crwdne21628:0
+- crwdns21630:0crwdne21630:0
+- crwdns21632:0crwdne21632:0
+crwdns21634:0{% endcapture %}crwdne21634:0
 
 <details>
-    <summary>crwdns15070:0crwdne15070:0</summary>
+    <summary>crwdns21636:0crwdne21636:0</summary>
     <div class="details-content">
-        crwdns15072:0{{ flashcards | markdownify }}crwdne15072:0
+        crwdns21638:0{{ flashcards | markdownify }}crwdne21638:0
     </div>
 </details>
 
-crwdns15074:0crwdne15074:0
-- crwdns15076:0crwdne15076:0
-- [crwdns15080:0crwdne15080:0](crwdns15078:0crwdne15078:0)
-- crwdns15082:0crwdne15082:0
-- crwdns18472:0crwdne18472:0 crwdns18474:0crwdne18474:0
+crwdns21640:0crwdne21640:0
+- crwdns21642:0crwdne21642:0
+- [crwdns21646:0crwdne21646:0](crwdns21644:0crwdne21644:0)
+- crwdns21648:0crwdne21648:0
+- crwdns21650:0crwdne21650:0
+   - crwdns21652:0crwdne21652:0
+   - crwdns21654:0crwdne21654:0
 
-### crwdns19502:0crwdne19502:0
-crwdns15088:0{% capture tab-sd-card %}crwdne15088:0
-1. crwdns15090:0%20Gcrwdnd15090:0%20Fcrwdnd15090:0%20pcrwdnd15090:0%20crwdnd15090:0%28crwdnd15090:0%20Scrwdnd15090:0%20Ccrwdnd15090:0%29crwdne15090:0
-1. crwdns15092:0crwdne15092:0
+### crwdns21656:0crwdne21656:0
+1. crwdns21658:0crwdne21658:0
+   - [crwdns21662:0crwdne21662:0](crwdns21660:0%20Gcrwdnd21660:0%20Fcrwdnd21660:0%20pcrwdnd21660:0%20crwdnd21660:0%28crwdnd21660:0%20crwdnd21660:0%2Ccrwdnd21660:0%20crwdnd21660:0%20Scrwdnd21660:0%29crwdne21660:0)
+   - [crwdns21666:0crwdne21666:0](crwdns21664:0%20Gcrwdnd21664:0%20Fcrwdnd21664:0%20pcrwdnd21664:0%20crwdnd21664:0%28crwdnd21664:0%20crwdnd21664:0%29crwdne21664:0)
+   - [crwdns21670:0crwdne21670:0](crwdns21668:0%20Gcrwdnd21668:0%20Fcrwdnd21668:0%20pcrwdnd21668:0%20crwdnd21668:0%28crwdnd21668:0%2Ccrwdnd21668:0%20crwdnd21668:0%20Gcrwdnd21668:0%2Ccrwdnd21668:0%20crwdnd21668:0%2Ccrwdnd21668:0%20Scrwdnd21668:0%20crwdnd21668:0%29crwdne21668:0)
+   - [crwdns21674:0crwdne21674:0](crwdns21672:0crwdne21672:0)
+   - [crwdns21678:0crwdne21678:0](crwdns21676:0%20Gcrwdnd21676:0%20Fcrwdnd21676:0%20pcrwdnd21676:0%20crwdnd21676:0%28crwdnd21676:0%2Ccrwdnd21676:0%20crwdnd21676:0%20Gcrwdnd21676:0%20crwdnd21676:0%29crwdne21676:0)
+   - [crwdns21682:0crwdne21682:0](crwdns21680:0%20Gcrwdnd21680:0%20Fcrwdnd21680:0%20pcrwdnd21680:0%20crwdnd21680:0%28crwdnd21680:0%2Ccrwdnd21680:0%20Gcrwdnd21680:0%20Bcrwdnd21680:0%20Ccrwdnd21680:0%2Ccrwdnd21680:0%20crwdnd21680:0%29crwdne21680:0)
+   - [crwdns21686:0crwdne21686:0](crwdns21684:0%20Gcrwdnd21684:0%20Fcrwdnd21684:0%20pcrwdnd21684:0%20crwdnd21684:0%28Scrwdnd21684:0%20crwdnd21684:0%29crwdne21684:0)
 
-crwdns15094:0crwdne15094:0
-- crwdns15096:0crwdne15096:0
-- crwdns19504:0crwdne19504:0
-crwdns15100:0{% endcapture%}crwdne15100:0
-crwdns19894:0crwdne19894:0
+1. crwdns21688:0crwdne21688:0
 
-crwdns19896:0{% capture tab-flashcard %}crwdne19896:0
-1. crwdns19898:0crwdne19898:0
-   - [crwdns19902:0crwdne19902:0](crwdns19900:0%20Gcrwdnd19900:0%20Fcrwdnd19900:0%20pcrwdnd19900:0%20crwdnd19900:0%28crwdnd19900:0%20crwdnd19900:0%2Ccrwdnd19900:0%20crwdnd19900:0%20Scrwdnd19900:0%29crwdne19900:0)
-   - [crwdns19906:0crwdne19906:0](crwdns19904:0%20Gcrwdnd19904:0%20Fcrwdnd19904:0%20pcrwdnd19904:0%20crwdnd19904:0%28crwdnd19904:0%20crwdnd19904:0%29crwdne19904:0)
-   - [crwdns19910:0crwdne19910:0](crwdns19908:0%20Gcrwdnd19908:0%20Fcrwdnd19908:0%20pcrwdnd19908:0%20crwdnd19908:0%28crwdnd19908:0%2Ccrwdnd19908:0%20crwdnd19908:0%20Gcrwdnd19908:0%2Ccrwdnd19908:0%20crwdnd19908:0%2Ccrwdnd19908:0%20Scrwdnd19908:0%20crwdnd19908:0%29crwdne19908:0)
-   - [crwdns19914:0crwdne19914:0](crwdns19912:0crwdne19912:0)
-   - [crwdns19918:0crwdne19918:0](crwdns19916:0%20Gcrwdnd19916:0%20Fcrwdnd19916:0%20pcrwdnd19916:0%20crwdnd19916:0%28crwdnd19916:0%2Ccrwdnd19916:0%20crwdnd19916:0%20Gcrwdnd19916:0%20crwdnd19916:0%29crwdne19916:0)
-   - [crwdns19922:0crwdne19922:0](crwdns19920:0%20Gcrwdnd19920:0%20Fcrwdnd19920:0%20pcrwdnd19920:0%20crwdnd19920:0%28crwdnd19920:0%2Ccrwdnd19920:0%20Gcrwdnd19920:0%20Bcrwdnd19920:0%20Ccrwdnd19920:0%2Ccrwdnd19920:0%20crwdnd19920:0%29crwdne19920:0)
-   - [crwdns19926:0crwdne19926:0](crwdns19924:0%20Gcrwdnd19924:0%20Fcrwdnd19924:0%20pcrwdnd19924:0%20crwdnd19924:0%28Scrwdnd19924:0%20crwdnd19924:0%29crwdne19924:0)
+crwdns21690:0crwdne21690:0 crwdns21692:0crwdne21692:0
+- crwdns21694:0crwdne21694:0
+- crwdns21696:0crwdne21696:0
+- crwdns21698:0crwdne21698:0
 
-1. crwdns19928:0crwdne19928:0
+### crwdns21700:0crwdne21700:0
+crwdns21702:0crwdne21702:0
+1. crwdns21704:0crwdne21704:0
+1. crwdns21706:0crwdne21706:0
+1. crwdns21708:0crwdne21708:0
 
-crwdns19930:0crwdne19930:0 crwdns19932:0crwdne19932:0
-- crwdns19934:0crwdne19934:0
-- crwdns19936:0crwdne19936:0
-- crwdns19938:0crwdne19938:0
-crwdns19940:0{% endcapture %}crwdne19940:0
-crwdns19942:0crwdne19942:0
+### crwdns21710:0crwdne21710:0
+1. crwdns21712:0crwdne21712:0
+   - crwdns21714:0crwdne21714:0
+1. crwdns21716:0crwdne21716:0
+   - crwdns21718:0crwdne21718:0
+1. crwdns21720:0crwdne21720:0
+   - crwdns21722:0$USERcrwdne21722:0
+   - crwdns21724:0crwdne21724:0
+1. crwdns21726:0crwdne21726:0
+   - crwdns21728:0crwdne21728:0
+   - crwdns21730:0crwdne21730:0
+1. crwdns21732:0crwdne21732:0
+1. crwdns21734:0crwdne21734:0
+1. crwdns21736:0crwdne21736:0
+1. crwdns21738:0crwdne21738:0
+   - crwdns21740:0crwdne21740:0
+crwdns21742:0{% endcapture %}crwdne21742:0
+crwdns21744:0crwdne21744:0
 
-crwdns19944:0crwdne19944:0
-crwdns19946:0{% include tabs.html index=0 tabs=tabs %}crwdne19946:0
-
-### crwdns15158:0crwdne15158:0
-crwdns19948:0crwdne19948:0
-1. crwdns19950:0crwdne19950:0
-1. crwdns19952:0crwdne19952:0
-1. crwdns19954:0crwdne19954:0
-
-### crwdns15168:0crwdne15168:0
-1. crwdns19956:0crwdne19956:0
-   - crwdns19958:0crwdne19958:0
-1. crwdns19960:0crwdne19960:0
-   - crwdns19962:0crwdne19962:0
-1. crwdns19964:0crwdne19964:0
-   - crwdns19966:0$USERcrwdne19966:0
-   - crwdns19968:0crwdne19968:0
-1. crwdns19970:0crwdne19970:0
-   - crwdns19972:0crwdne19972:0
-   - crwdns19974:0crwdne19974:0
-1. crwdns19976:0crwdne19976:0
-1. crwdns19978:0crwdne19978:0
-1. crwdns19980:0crwdne19980:0
-1. crwdns19982:0crwdne19982:0
-   - crwdns19984:0crwdne19984:0
+crwdns21746:0crwdne21746:0
+crwdns21748:0{% include tabs.html index=0 tabs=tabs %}crwdne21748:0

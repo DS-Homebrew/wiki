@@ -10,14 +10,15 @@ description: Hur får man DS Download Play och Pictochat i TWiLight Menu++'s DS 
 Om du använder en DSi-konsol bör du redan kunna starta dessa appar. Annars, om du har en 3DS, fortsätt nedan.
 
 I GodMode9:
-- Tryck <kbd class="r">R</kbd> + <kbd class="face">A</kbd> på SYSNAND TWLN
-- Välj `Sök efter titlar`
-- Välj `DS Download Play (NTR-HNDA).tmd`
-- Välj `TMD-filalternativ...`
-- Välj `Dumpa CXI/NDS fil`
-- Klart. Det bör vara under `sdmc:/gm9/out/`, som `DS Download Play (NTR-HNDA).nds`
+- Tryck på Hem/Strömknappen
+- Välj `Title Manager`och välj `[1:] NAND / TWL`
+- Välj `DS Download Play (NTR-HNDA)`
+- Välj `Open title folder`
+- Välj `00000000.tmd`och välj `TMD file options...`
+- Välj `Dump CXI/NDS file`
+- Klart. Filen kommer att finnas i `0:/gm9/out/`.
 
-Kopiera till `sd:/_nds/`, och byt namn till `dlplay.nds`.
+Kopiera `DS Download Play (NTR-HDNA).nds` till `0:/_nds/`och byt namn på den till `dlplay.nds`.
 
 De ovannämnda stegen kommer att öka DLP uppstartshastighet.
 
