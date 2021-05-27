@@ -54,6 +54,10 @@ pre {
 	white-space: pre;
 }
 
+a > code {
+	color: inherit!important;
+}
+
 // .a is for making other things look like <a>s
 a, .a {
 	text-decoration: none;

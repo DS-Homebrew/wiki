@@ -131,7 +131,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. In the 7z file, go to `_nds/TWiLightMenu/`
 1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
 
