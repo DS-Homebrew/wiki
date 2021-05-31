@@ -34,6 +34,7 @@ if(!sessionStorage.languageAlertDismissed) {
 				// Create link to make in the preferred language
 				let a = document.createElement("a");
 				a.href = `${languageID == "en-US" ? "" : ("/" + languageID)}${window.location.pathname.replace(/[a-z][a-z]-[A-Z][A-Z]\//, "")}`;
+				a.accessKey = "l";
 				languageAlert.prepend(a);
 
 				// Set text from language file if it exists

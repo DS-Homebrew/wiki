@@ -12,7 +12,7 @@
 					{% if item.url %}
 						<li class="nav-item">
 							{% assign section = "/" | append: page.section %}
-							<a class="nav-link {% if item.url == section %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ item.url }}">{{ item.title }}</a>
+							<a class="nav-link {% if item.url == section %} active {% endif %}" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ item.url }}" accesskey="h">{{ item.title }}</a>
 						</li>
 					{% endif %}
 					{% if item.items %}
@@ -28,7 +28,7 @@
 					{% endif %}
 				{% endfor %}
 				<li class="nav-item">
-					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}">{{ site.data[page.collection].strings.source}}</a>
+					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}" accesskey="s">{{ site.data[page.collection].strings.source}}</a>
 				</li>
 			</ul>
 			<div class="btn-group position-absolute-sm end-0 me-1 dropdown">
@@ -50,8 +50,8 @@
 						{% endunless %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
-					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url | remove: ".html" }}{% endif %}{% endfor %}">{{ site.data[page.collection].strings.translate-here }}</a></li>
-					<li><a class="dropdown-item" href="https://{% if site.data.crowdin-languages contains page.collection %}{{ site.data.crowdin-languages[page.collection] }}.{% endif %}crowdin.com/project/ds-homebrew-wiki">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
+					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url | remove: ".html" }}{% endif %}{% endfor %}" accesskey="t">{{ site.data[page.collection].strings.translate-here }}</a></li>
+					<li><a class="dropdown-item" href="https://{% if site.data.crowdin-languages contains page.collection %}{{ site.data.crowdin-languages[page.collection] }}.{% endif %}crowdin.com/project/ds-homebrew-wiki" accesskey="c">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
 				</ul>
 			</div>
 		</div>
