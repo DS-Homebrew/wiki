@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: community
 title: Home
+long_title: Community
 description: Information about the DS-Homebrew community
 ---
 
