@@ -44,13 +44,13 @@ Decimal:
 
 ## English
 - Page titles are in title case, everything else should be normal
-- Slashes should have spaces around them ("this / that")
 - For lists of 3 or more things, the serial comma (oxford comma) should be used ("this, that, and those")
-- Items in a bullet / numbered list should not have periods
+- Items in a bullet/numbered list should not have periods
    - For multiple sentences in a single bullet item, all but the last sentence should have periods. Try to avoid this though, you can probably either use a subitem, shorten the phrase, or shouldn't be using a bullet list
 - Units should be separated from their number by a space ("8 GiB", "67 MHz")
 - Plain quotes and apostrophes should be used, Jekyll will convert them to the fancy ones (`"This thing"`, not `“This thing”`)
 - Unless otherwise specified, American English spellings and spelling rules should be used
+- When referring to other things on the wiki you should use like "the troubleshooting page", not "our troubleshooting page"
 
 ### Specific spellings
 - "SD card" is not a proper noun, don't capitalize "card"
