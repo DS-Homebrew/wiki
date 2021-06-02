@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: other
 title: How to Get Box Art
-description: How to get box art / game covers in TWiLight Menu++
+description: How to get box art/game covers in TWiLight Menu++
 ---
 
 ### Windows
@@ -16,7 +16,7 @@ description: How to get box art / game covers in TWiLight Menu++
 1. Click `Start`
 1. Make sure box art is set to be shown in TWiLight Menu++ settings
 
-### macOS / Linux
+### macOS/Linux
 1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Extract the `.zip`
 1. Open `TwilightBoxart.ini` in the extracted folder in a text editor

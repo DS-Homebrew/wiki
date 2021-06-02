@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to Create DSi / 3DS Skins
+title: How to Create DSi/3DS Skins
 description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 
@@ -128,4 +128,4 @@ Paletted textures are not checked for validity. An invalid texture should be rar
 
 ## Custom background music and sound effects
 
-The DSi Menu and 3DS themes also support custom music. See [DSi / 3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+The DSi Menu and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

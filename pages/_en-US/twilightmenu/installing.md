@@ -10,7 +10,7 @@ description: How to install TWiLight Menu++ (index page)
 
 The installation process for TWiLight Menu++ depends on whether you're using a Nintendo DSi, Nintendo 3DS, or a Nintendo DS flashcard. Please select the page for the one you're using.
 
-### 3DS / 2DS
+### 3DS/2DS
 If you're using a 3DS or 2DS (from the internal SD card), follow the [3DS instructions](installing-3ds).
 
 [![A Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds)

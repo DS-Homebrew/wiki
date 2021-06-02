@@ -16,7 +16,7 @@ description: FAQ & Troubleshooting for nds-bootstrap
 #### nds-bootstrap troubleshooting
 If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
 
-1. Run the game with different settings, including changing the ARM9 CPU Speed, DS / DSi Mode, sound quality, Card Read DMA, etc
+1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
 2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
 

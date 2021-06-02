@@ -49,6 +49,7 @@ Decimal:
    - For multiple sentences in a single bullet item, all but the last sentence should have periods. Try to avoid this though, you can probably either use a subitem, shorten the phrase, or shouldn't be using a bullet list
 - Units should be separated from their number by a space ("8 GiB", "67 MHz")
 - Plain quotes and apostrophes should be used, Jekyll will convert them to the fancy ones (`"This thing"`, not `“This thing”`)
+- When separating two single words slashes should not have a space ("Nintendo DS Phat/Lite"), when separating two phrases they should have spaces ("On the TWiLight Menu++ splash / right after the Nintendo DSi splash")
 - Unless otherwise specified, American English spellings and spelling rules should be used
 - When referring to other things on the wiki you should use like "the troubleshooting page", not "our troubleshooting page"
 
