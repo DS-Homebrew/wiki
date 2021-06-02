@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: hiyacfw
 title: Forwarders
+category: other
 description: How to use nds-bootstrap forwarders with hiyaCFW
 ---
 

@@ -3,6 +3,7 @@ lang: en-US
 layout: wiki
 section: hiyacfw
 title: Troubleshooting
+category: other
 description: Troubleshooting information for hiyaCFW
 ---
 

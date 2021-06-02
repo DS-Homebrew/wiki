@@ -2,7 +2,6 @@
 lang: en-US
 layout: wiki
 section: nds-bootstrap
-category: other
 title: FAQ & Troubleshooting
 long_title: nds-bootstrap FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap

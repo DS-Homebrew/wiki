@@ -2,8 +2,7 @@
 lang: en-US
 layout: wiki
 section: hiyacfw
-title: Home
-long_title: hiyaCFW
+title: hiyaCFW
 description: Information on how to install and use hiyaCFW
 ---
 
