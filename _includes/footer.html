@@ -16,11 +16,11 @@
 				</p>
 			</div>
 			<div class="col-sm-2">
-				<label for="themeSelector" class="text-light">Color scheme:</label>
+				<label for="themeSelector" class="text-light">{{ site.data[page.collection].strings.color-scheme }}</label>
 				<select id="themeSelector" class="form-select form-select-dark text-light" onchange="setTheme(value)">
-					<option value="default">Default</option>
-					<option value="dark">Dark</option>
-					<option value="light">Light</option>
+					<option value="default">{{ site.data[page.collection].strings.default }}</option>
+					<option value="dark">{{ site.data[page.collection].strings.dark }}</option>
+					<option value="light">{{ site.data[page.collection].strings.light }}</option>
 				</select>
 			</div>
 		</div>
