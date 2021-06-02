@@ -7,7 +7,7 @@ description: How to use nds-bootstrap forwarders with hiyaCFW
 ---
 
 ### Requirements
-- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](/installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
+- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
 - The latest release of [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### Instructions
