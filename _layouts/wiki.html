@@ -17,22 +17,22 @@ layout: compress
 				<div class="row mt-3">
 					<div class="col-md-3">
 						<div class="rounded-3 sidebar-container mb-3 p-3">
-							<!-- get category list -->
+							{% comment %} Get category list {% endcomment %}
 							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
 							<ul class="list-unstyled">
-								<!-- First do the index -->
+								{% comment %} First do the index {% endcomment %}
 								{% for item in items %}
 									{% if item.url contains "index.html" %}
 										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: "index.html" }}">{{ item.title }}</a></li>
 									{% endif %}
 								{% endfor %}
-								<!-- Then the pages not in categories -->
+								{% comment %} Then the pages not in categories {% endcomment %}
 								{% for item in items %}
 									{% unless item.url contains "index.html" or item.category %}
 										<li class="li-bullet {% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>
 									{% endunless %}
 								{% endfor %}
-								<!-- Finally, the other pages -->
+								{% comment %} Finally, the other pages {% endcomment %}
 								{% for cat in site.data[page.collection].categories[page.section] %}
 									<li>
 										<details {% if page.category == cat.key or page.category.first and page.category contains cat %}open{% endif %}>
