@@ -393,7 +393,7 @@ kbd.face {
 	margin-bottom: 0;
 }
 
-.sidebar-container li {
+.sidebar-container li:not(:last-of-type) {
 	padding-bottom: 0.25rem;
 }
 
