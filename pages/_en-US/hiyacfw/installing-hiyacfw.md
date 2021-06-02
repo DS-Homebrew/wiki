@@ -22,10 +22,12 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 
 ### Part 1 - Preparing your PC for installing hiyaCFW
 {% capture tab-windows %}
+The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+{: .alert .alert-info}
+
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
    - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-   - If you can't download it because it's a "virus", check for an allow button or use a different browser, it's not actually a virus
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
