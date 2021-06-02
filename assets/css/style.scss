@@ -480,6 +480,12 @@ input:checked+label.btn-outline-secondary:hover, input:checked+label.btn-outline
 	border-color: #565e64;
 }
 
+// Select
+.form-select-dark {
+	background-color: #444;
+	border: 1px solid #333;
+}
+
 @media only screen and (min-width: 576px) {
 	// Version of .position-absolute that only triggers for sm+
 	.position-absolute-sm {
