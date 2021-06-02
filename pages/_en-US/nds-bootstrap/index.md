@@ -2,8 +2,7 @@
 lang: en-US
 layout: wiki
 section: nds-bootstrap
-title: Home
-long_title: nds-bootstrap
+title: nds-bootstrap
 description: Information on how to use nds-bootstrap
 ---
 

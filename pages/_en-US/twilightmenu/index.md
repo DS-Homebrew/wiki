@@ -1,8 +1,7 @@
 ---
 lang: en-US
 section: twilightmenu
-title: Home
-long_title: TWiLight Menu++
+title: TWiLight Menu++
 description: Guides on how to use and customize TWiLight Menu++
 ---
 

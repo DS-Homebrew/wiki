@@ -2,8 +2,7 @@
 lang: en-US
 layout: wiki
 section: gbarunner2
-title: Home
-long_title: GBARunner2
+title: GBARunner2
 description: Information on how to use GBARunner2
 ---
 
