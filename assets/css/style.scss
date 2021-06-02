@@ -397,7 +397,7 @@ kbd.face {
 	margin-bottom: 0;
 }
 
-.sidebar-container li {
+.sidebar-container li:not(:last-of-type) {
 	padding-bottom: 0.25rem;
 }
 
@@ -482,6 +482,12 @@ input:checked+label.btn-outline-secondary:hover, input:checked+label.btn-outline
 	color: #fff;
 	background-color: #5c636a;
 	border-color: #565e64;
+}
+
+// Select
+.form-select-dark {
+	background-color: #444;
+	border: 1px solid #333;
 }
 
 @media only screen and (min-width: 576px) {
