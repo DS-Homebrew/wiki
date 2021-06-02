@@ -57,7 +57,6 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
   - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
   - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
   - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Uncheck the "Install latest TWiLight Menu++ on custom firmware" box
 1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
