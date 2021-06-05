@@ -3,7 +3,7 @@ lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play / Pictochat w DS Classic Menu
+title: Download Play/Pictochat in DS Classic Menu
 description: Jak uzyskać dostęp do funkcji DS Download Play i Pictochat w klasycznym menu DS TWiLight Menu++
 ---
 

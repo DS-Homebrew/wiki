@@ -3,7 +3,7 @@ lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: other
-title: DSクラシックメニューでのダウンロードプレイ／ピクトチャット
+title: DSクラシックメニューでのダウンロードプレイ・ピクトチャット
 description: TWilight Menu++のDS ClassicメニューでDSダウンロードプレイとPictochatを起動する方法
 ---
 

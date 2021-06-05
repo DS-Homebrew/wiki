@@ -4,16 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: איך להשיג תמונות קופסה
-description: איך להשיג תמונות קופסה / עטיפות משחק בTWiLight Menu++
+description: איך להשיג תמונות קופסה/עטיפות משחק בTWiLight Menu++
 ---
-
-### 3DS
-1. התקינו את [KirovAir's TWiLight Menu++ Updater fork](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - זה יחליף את הTWiLight Menu++ Updater הרגיל, אז השתמשו בUniversal-Updater במקום על מנת לעדכן את TWiLight Menu++
-1. בחרו ב`Extras`, ב`Boxart` ואז לחצו על <kbd class="face">X</kbd> על מנת לסרוק את כל כרטיס הSD או על <kbd class="face">A</kbd> על מנת לבחור תיקיה לסריקה
-1. בחר את גודל תמונות הקופסה
-1. בחרו את סגנון הגבול
-1. וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
 ### Windows
 1. הורידו את הגרסה האחרונה של [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
@@ -24,7 +16,7 @@ description: איך להשיג תמונות קופסה / עטיפות משחק �
 1. לחצו על `Start`
 1. וודאו שבהגדרות של TWiLight Menu++ הbox art מוגדר להצגה
 
-### macOS / Linux
+### macOS/Linux
 1. הורידו את הגרסה האחרונה של [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. חלצו את ה`.zip`
 1. פתחו את `TwilightBoxart.ini` שנמצא בתיקיה שחילצתם באמצעות עורך טקסט

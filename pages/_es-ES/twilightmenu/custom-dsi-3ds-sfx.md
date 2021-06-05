@@ -3,7 +3,7 @@ lang: es-ES
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skins de DSi / 3DS - SFX personalizados
+title: DSi/3DS Skins - Custom SFX
 description: Cómo usar música de fondo y efectos de sonido personalizados en las skins de DSi y 3DS de TWiLight Menu++
 ---
 
@@ -40,33 +40,33 @@ Debes poner `PlayStartupJingle=1` en tu `theme.ini` para que suene.
 
 
 ## Música del menú
-La música del menú debe ser un archivo PCM de **16-bit 16 kHz Mono**. Below are two methods for converting audio files into that format.
+La música del menú debe ser un archivo PCM de **16-bit 16 kHz Mono**. Debajo dejamos dos métodos para convertir archivos de audio en ese formato.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Al contrario de sfx.bin, *bgm.pcm.raw* puede ser muy grande.
 
 ### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
+La forma más sencilla de convertir música para usarla en TWiLight Menu++ es lanzar el comando [ffmpeg](https://ffmpeg.org) en una consola de comandos:
 
 ```bash
 ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
 ```
 
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Reemplaza `[input file]` por el nombre del archivo que quieres convertir. También puedes hacer esto arrastrando el archivo a la consola de comandos teniendo el cursor en el sitio correcto.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+Si no quieres usar la consola de comandos, puedes convertir el archivo usando [Audacity](https://www.audacityteam.org/download/).
 
-To convert the audio:
-1. Load the file in Audacity
-1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+Para convertir el audio:
+1. Abre el archivo con Audacity
+1. Si tu archivo es estéreo, pincha en la canción y selecciona `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Cambia el `Project Rate (Hz)` en la parte inferior izquierda a `16000`
 
-To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+Para exportarlo en el formato correcto:
+1. Selecciona `File` > `Export` > `Export Audio...`
+1. Pon `File Type` a `Other uncompressed files`
+1. Pon `Header` a `RAW (header-less)`
+1. Pon `Encoding` en `Signed 16-bit PCM`
+1. Pon como nombre `bgm.pcm.raw` y pincha en `Save`
+1. Pincha `OK` en la edición de metadatos
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Ya tienes tu archivo `bgm.pcm.raw` que puedes copiar a la subcarpeta `sound` de tu tema.

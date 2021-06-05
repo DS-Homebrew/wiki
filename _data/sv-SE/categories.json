@@ -35,13 +35,14 @@
 			"title": "Index"
 		}
 	],
-	"nds-bootstrap": [
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
 		{
 			"key": "other",
-			"title": "Annat"
+			"title": "Other"
 		}
 	],
-	"gbarunner2": [],
 	"other": [],
 	"community": [
 		{

@@ -2,9 +2,8 @@
 lang: fr-FR
 layout: wiki
 section: nds-bootstrap
-category: other
-title: Liste de compatibilité & Conseils de test
-description: Liste de compatibilité et conseils pour tester les jeux
+title: Compatibility List & Testing Tips
+description: Compatibility list and tips for testing games
 ---
 
 ### Liste de compatibilité

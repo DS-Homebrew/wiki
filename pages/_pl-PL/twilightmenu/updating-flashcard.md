@@ -12,12 +12,12 @@ Jeśli aktualizujesz z wersji starszej niż v16.4.0, prosimy o przeniesienie pli
 {:.alert .alert-info}
 
 ### Aktualizacja
-1. Pobierz najnowszą wersję `TWiLightMenu-Flashcard.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Wypakuj `TWiLightMenu-Flashcard.7z`
 1. Skopiuj folder `_nds` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 
-### Wiecęj kroków dla kart SD DSi/3DS
+### More steps for the DSi/3DS SD card side
 
 Jeśli można przełączać zawartość karty SD i karty flashcard w TWLMenu++, a jeśli karta flashcard TWLMenu++ jest w wersji v16.3.0 lub później, wykonaj te kroki.
 

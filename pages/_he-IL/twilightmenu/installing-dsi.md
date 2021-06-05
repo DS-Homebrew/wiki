@@ -12,7 +12,7 @@ description: איך להתקין את TWiLight Menu++ על Nintendo DSi
 {:.alert .alert-info}
 
 ### התקנה
-1. הורידו את הגרסה האחרונה של `TWiLightMenu-DSi.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. הורידו את הגרסה האחרונה של [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. חלצו את `TWiLightMenu-DSi.7z`
 1. העתיקו את התיקייה `_nds` לכרטיס הSD
 1. העתיקו את `BOOT.NDS` לכרטיס הSD

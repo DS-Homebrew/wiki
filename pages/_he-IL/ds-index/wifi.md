@@ -7,18 +7,18 @@ title: Wi-Fi
 description: מידע על שימוש בWi-FI על הנינטנדו DS
 ---
 
-- On Nintendo DS applications, you can only use WEP and Open Wi-Fi security settings
+- בתוכנות ומשחקים של Nintendo DS, אפשר להשתמש רק בהגדרות אבטחה של WEP ובWIFI ללא אבטחה
 - On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
 
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
 ### יצירת נקודה חמה
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows, you can use a Linux live boot.
+ישנם מדריכים על יצירת נקודות חמות המתאימות למשחקי DS על מחשבי macOS וLinux בGBAtemp. אם אתם בWindows אתם יכולים להשתמש בLinux live boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
 ### שחזור Nintendo DS WFC
-1. Launch Nintendo Wi-Fi Connection Setup
+1. הפעילו את הNintendo Wi-Fi Connection Setup
 1. התחברו לנקודת הגישה שלכם
 1. הגדירו את הPrimary DNS שלכם לאחד הערכים הבאים, בהתאם לשירות בו תרצו להשתמש:
    - **[Wiimmfi](https://wiimmfi.de)** - `164.132.44.106` or `178.62.43.212`
@@ -29,11 +29,11 @@ There are guides for creating a DS-compatible hotspot on macOS and Linux compute
 ### התקנת הטלאי ידנית לרומים של DS
 עקבו אחרי המדריך הנ"ל אם ספק האינטרנט שלכם חוסם שרתי DNS מותאמים אישית, אחרת זה מומלץ *מאוד* לעקוב אחרי המדריך מעל.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+הערה: משתמשי GNU/Linux וmacOS יכולים לעקוב אחרי הוראות דומות מאוד, אבל יצטרכו להשתמש בMono
 
 1. הורידו את [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
 1. העתיקו את הROM של המשחק שאתם רוצים להתקין עליו את הפאטץ לאותה תיקיה שבה נמצא WFCPatcher ופתחו את תיקיה זו
-1. Create a text file
+1. צרו קובץ טקסט
 1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
    - You can replace wiimmfi.de with another URL, if you wish to use a different server
    - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name

@@ -9,16 +9,16 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
 ---
 
 ### התקנה
-1. הורידו את הגרסה האחרונה של `TWiLightMenu-Flashcard.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. הורידו את הגרסה האחרונה של [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. חלצו את `TWiLightMenu-Flashcard.7z`
 1. העתיקו את התיקייה `_nds` לכרטיס המיקרו SD
 1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
 1. העתיקו את התיקייה `roms` לכרטיס המיקרו SD
 1. אם כבר יש לכם שמירות, העבירו את קבצי ה`.sav` שלכם, שנמצאים במיקום של הROMים של הDS, לתיקייה חדשה שנקראת `saves`, שנמצאת גם כן במיקום של הROMים של הDS
 1. ...
-   - **משתמשי DS Phat / lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
-   - **DSi / 3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
-      - This will let you use TWL clock speed and / or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced / DSi-Exclusive / DSiWare games in DSi mode from your flashcard
+   - **משתמשי DS Phat/Lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
+   - **משתמשי DSi/3DS:** הרציו את TWLMenu++ מכרטיס הSD, הפעילו את `SCFG access in Slot-1` והגדירו את `Slot-1: Touch Mode` ל`DSi Mode`
+      - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
 
 ### הרצת משחקים באמצעות הקושחה של הפלאשקארט שלכם
 1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
@@ -46,5 +46,5 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
 1. חלצו את התוכן של `Autoboot/(הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
    - דלגו על שלב זה, אם אתם לא רואים את הפלאשקארט שלכם
 1. ...
-   - **משתמשי DS Phat / DS Lite:** לכו להגדרות בתפריט הDS שלכם, והפעילו את auto-start, כך שהפלאשקארט שלכם יעלה בהדלקת המכשיר
-   - ** משתמשי DSi / 3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `Auto-start Slot-1`
+   - **משתמשי DS Phat/DS Lite:** לכו להגדרות בתפריט הDS שלכם, והפעילו את auto-start, כך שהפלאשקארט שלכם יעלה בהדלקת המכשיר
+   - ** משתמשי DSi/3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `Auto-start Slot-1`

@@ -52,7 +52,7 @@ Ha bármi problémád van, tekintsd meg a FAQ-ot a [GBAtemp üzenetszálon](http
 3DS:
 
 {% capture flashcards %}
-A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO / DSTWO PLUS-t. Az egyetlen hátrányuk, hogy a rendszer akkumulátort gyorsabban fogyasztják.
+A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO/DSTWO PLUS-t. Az egyetlen hátrányuk, hogy a rendszer akkumulátort gyorsabban fogyasztják.
 
 Ha olyan flashcard-od van, ami működik az Apache Thunder-nek az NTR Launcher-ével, kérd azt [a GBAtemp vitaszálon](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Legyél biztos abban, melyik build-et használod (Normal vagy Alt), és hogy a `RESETSLOT1` `0`-ra vagy `1`-re van-e állítva a `sd:/nds/ntr_launcher.ini` fájlban.
 
@@ -126,12 +126,12 @@ PC:
 
 Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini` fájlt. Ez nem lehetséges Acekard RPG, R4 DS és R4i Gold RTS esetén.
 - `NTRCLOCK`: Ha `0` van beállítva, vagy <kbd class="face">A</kbd> van nyomva tartva, a DSi boot képernyő jelenik meg a normál DS kezdőképernyő helyett, és TWL órajel sebesség kerül beállításra, így a lag-ok megszűnnek
-- `DISABLEANIMATION`: Ha `1` van beállítva, vagy <kbd class="face">B</kbd> van nyomva tartva, akkor a DS / DSi boot képernyő átugrásra kerül
+- `DISABLEANIMATION`: Ha `1` van beállítva, vagy <kbd class="face">B</kbd> van nyomva tartva, akkor a DS/DSi boot képernyő átugrásra kerül
 - `HEALTHSAFETYMSG`: Ha `1` van beállítva, a boot képernyő "health and safety" üzenete megjelenik az alsó képernyőn, egyébként az alsó képernyő fehér marad "health and safety" üzenet nélkül
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
 Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
-1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
 1. A 7z fájlban menj az `_nds/TWiLightMenu/` könyvtárba
 1. Másold az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába az 3DS-ed SD kártyájára
 
@@ -146,8 +146,8 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
 1. Kattints a mappára jobb oldalt felül, majd válaszd ki a ROM-okat, amikhez forwareder-t szeretnél, és húzd rá őket az ablakra
    - **MEGJEGYZÉS:** A ROM-oknak már az SD kártyádon kell lenniük, amikor kiválasztod, és nem mozgathatók a forwarderek újra létrehozása nélkül
    - **SD kártya felhasználók:** Ha a mentés fájlod ugyanabban a mappában van, mint a ROM, mozgasd egy `saves` mappába, ahol a `saves` mappa, ami mappa ugyanott van, mint ahol a ROM-ok
-1. Ha egy DSi-Enhanced játék hack-et / fordítást játszol és aminek a banner-e és címe szerkesztett, keresd meg a játék bannerját [itt](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kattints jobb gombbal a játékon a Forwarder3-DS-ben, majd kattints az `Import banner`-ra, és válaszd ki a banner-t ami használni szeretnél
-1. Ha homebrew ROM-ot használsz, kattintsd rá, majd töröld a `Game title` mezőt, és írd be a játék címét
+1. Ha egy DSi-Enhanced játék hack-et/fordítást játszol és aminek a banner-e/címe szerkesztett, keresd meg a játék bannerját [itt](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kattints jobb gombbal a játékon a Forwarder3-DS-ben, majd kattints az `Import banner`-ra, és válaszd ki a banner-t ami használni szeretnél
+1. Ha homebrew ROM-ot használsz, kattints rá, majd töröld a `Game title` mezőt, és írd be a játék címét
 1. Kattints a floppy lemez gombra, hogy létrehozd a forwarder CIA fájl(oka)t
 1. Másold a CIA fál(oka)t a 3DS-ed SD kártyájára, majd telepítsd őket az FBI alkalmazással
    - Ha EmuNAND használsz, telepítsd a SysNAND-ot és az EmuNAND-ot

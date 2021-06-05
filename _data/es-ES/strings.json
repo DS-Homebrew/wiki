@@ -1,8 +1,12 @@
 {
 	"by": "Por: $1",
 	"close": "Cerrar",
+	"color-scheme": "Color scheme:",
+	"dark": "Dark",
+	"default": "Default",
 	"description": "Wikis para proyectos de DS-Homebrew",
 	"discord-server": "Servidor de Discord (solo en inglés)",
+	"light": "Light",
 	"need-help": "¿Necesitas ayuda? Únete a nuestro servidor de Discord: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (Solo en inglés)",
 	"published-with": "Publicado con <a href=\"https://pages.github.com\">GitHub Pages</a>, puedes ver <a href=\"https://github.com/$1\">el código fuente</a> en GitHub.",
 	"select-language": "Selección de idioma",

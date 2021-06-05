@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS 스킨 - 커스텀 사운드 효과
+title: DSi/3DS Skins - Custom SFX
 description: TWiLight Menu++용 DSi와 3DS 스킨의 커스텀 배경음악과 사운드 효과를 사용하는 방법
 ---
 

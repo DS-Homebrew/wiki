@@ -12,7 +12,7 @@ Si estás actualizando desde una versión anterior a v16.4.0, mueve los archivos
 {:.alert .alert-info}
 
 ### Actualización
-1. Descarga la última versión de `TWiLightMenu-DSi.7z` desde la [página de lanzamientos](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Descarga [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) de la versión más reciente
 1. Extrae `TWiLightMenu-DSi.7z`
 1. Copia la carpeta `_nds` en la raíz de tu tarjeta SD
 1. Copia el archivo `BOOT.NDS` en la raíz de tu tarjeta SD

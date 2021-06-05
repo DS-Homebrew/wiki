@@ -12,7 +12,7 @@ v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS �
 {:.alert .alert-info}
 
 ### 업데이트하기
-1. `TWiLightMenu-DSi.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.
+1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. `TWiLightMenu-DSi.7z`를 압축 해제합니다.
 1. SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.

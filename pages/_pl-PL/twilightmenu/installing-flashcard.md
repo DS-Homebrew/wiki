@@ -9,16 +9,16 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
 ---
 
 ### Instalacja
-1. Pobierz najnowszą wersję `TWiLightMenu-Flashcard.7z` ze [strony wydań](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Wypakuj `TWiLightMenu-Flashcard.7z`
 1. Skopiuj folder `_nds` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj folder `roms` do katalogu głównego karty microSD nagrywarki
 1. Jeśli już masz dane zapisu, przenieś pliki `.sav`, które są umiejscowione razem z ROMami, do nowego folderu `saves`, który także ma się znaleźć razem z ROMami
 1. ...
-   - **użytkownicy DS Phat/Lite:** Jeśli uruchamianie `BOOT.NDS` powoduje blokadę na białym ekranie, wsadź DS Memory Expansion Pak i spróbuj ponownie
-   - **Użytkownicy DSi/3DS:**Uruchom TWLMenu++ na karcie SD konsoli, i włącz `Dostęp do SCFG w slot-1` i ustaw `Slot-1: Tryb dotyku` na `Tryb DSi`
-      - Pozwoli to na użycie prędkości zegara TWL i / lub VRAM na twoich grach w flashcard jak również dostęp do karty SD konsoli, i na uruchomienie gier DSi-Enhanced / DSi-Exclusive / DSiWare w trybie DSi z flashcard
+   - **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced/DSi-Exclusive/DSiWare games in DSi mode from your flashcard
 
 ### Aby uruchomić gry używając firmware flashcardu
 1. Wypakuj to co jest `Flashcart Loader/(Twój flashcard)` do katalogu głównego karty microSD nagrywarki
@@ -46,5 +46,5 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
 1. Wypakuj zawartość `Autoboot/(Twój nagrywarka)` do katalogu głównego karty microSD nagrywarki
    - Pomiń ten krok, jeśli nie widzisz swojej nagrywarki
 1. ...
-   - **Użytkownicy DS Phat/DS Lite:** Przejdź do ustawień w menu DS, i włącz auto-start, żeby flashcard uruchamiał się przy starcie
-   - **Użytkownicy DSi / 3DS:** Uruchom TWLMenu++ na karcie SD konsoli i włącz `Auto-start slot-1`
+   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`

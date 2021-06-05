@@ -8,7 +8,7 @@ description: Cómo hacer hardmod a una Nintendo DSi
 tabs:
   - 
     windows: Windows
-    other: macOS / Linux
+    other: macOS/Linux
 ---
 
 El hardmodding consiste en soldar un adaptador de tarjetas SD directamente a la placa base de la DSi para poder leerla en un ordenador. Es bastante útil para restaurar copias de seguridad de la NAND, ver la NAND en tu PC, etc...
@@ -18,7 +18,7 @@ El hardmodding consiste en soldar un adaptador de tarjetas SD directamente a la 
 
 ### Nintendo DSi
 
-Para hacer hardmod en una Nintendo DSi / DSi XL (LL) necesitas:
+To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - [Un soldador con punta de lápiz](https://www.amazon.com/dp/B01N4571Q6)
    - [Hilo muy fino](https://www.amazon.com/dp/B01MXGNTA4), 28AWG o más pequeño, preferiblemente 30AWG+
    - Adaptador SD a microSD
@@ -65,7 +65,7 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Abre HxD y arrastra ambos archivos al editor. Ve a la barra superior, pincha "Analysis", pincha "File compare" en el menú desplegable y pincha en "Compare".
 1. Elige comparar los archivos y pincha OK cuando termine
    - Si dice "The chosen files are identical.", ve a la siguiente sección
-   - Si no es el caso, y ambas NANDs no tienen cerca de 240 MB, vuelca las NAND_1 y NAND_0 de nuevo
+   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
 1. Abre Win32DiskImager, pincha en el icono de la carpeta y selecciona la copia de la NAND que has creado antes
 1. Flashéala con el botón `Write`
 1. Extrae el adaptador de tarjetas SD y prueba a encender la DSi

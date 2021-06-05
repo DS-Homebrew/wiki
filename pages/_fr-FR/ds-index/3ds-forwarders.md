@@ -62,7 +62,7 @@ Si vous rencontrez un problème, consultez la FAQ sur le [site GBAtemp](https://
 3DS :
 
 {% capture flashcards %}
-Les linkers recommandés sont le DSTT et le Acekard 2i. Si vous souhaitez une compatibilité parfaite avec tous les jeux, choisissez une SuperCard DSTWO / DSTWO PLUS. En contrepartie, votre batterie se videra plus rapidement.
+Les linkers recommandés sont le DSTT et le Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. En contrepartie, votre batterie se videra plus rapidement.
 
 Si vous possédez un linker fonctionnant avec le NTR Launcher de Apache Thunder, n'hésitez pas à vous rendre sur [cette page](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Assurez-vous de préciser quelle version vous utilisez (Normal ou Alt), et si `RESETSLOT1` est défini sur `0` ou `1` dans le fichier `sd:/nds/ntr_launcher.ini`.
 
@@ -136,12 +136,12 @@ PC :
 
 After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
 - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
-- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS / DSi boot screen is skipped
+- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
 - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest `TWiLightMenu-3DS.7z` from the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. In the 7z file, go to `_nds/TWiLightMenu/`
 1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
 
@@ -156,7 +156,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
    - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
    - **SD card users:** If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
-1. If you're playing a hack / translation of a DSi-Enhanced game that has it's banner / title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
+1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
 1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
 1. Click the floppy disk button to generate the forwarder CIA(s)
 1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI

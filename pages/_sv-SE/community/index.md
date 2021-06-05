@@ -2,7 +2,7 @@
 lang: sv-SE
 layout: wiki
 section: community
-title: Hem
+title: Community
 description: Information om andra DS-Homebrew communityn
 ---
 

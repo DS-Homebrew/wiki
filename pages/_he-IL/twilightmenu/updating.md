@@ -10,7 +10,7 @@ description: כיצד לעדכן את TWiLight Menu++ (דף אינדקס)
 
 תהליך העדכון עבור TWiLight Menu++ משתנה כתלות בהאם אתם משתמשים בNintendo DSi, Nintendo 3DS או בפלאשקארד של Nintendo DS. בחרו את העמוד הנכון למכשיר שאתם משתמשים בו.
 
-### 3DS / 2DS
+### 3DS/2DS
 אם אתם משתמשים ב3DS או ב2DS (מכרטיס הSD הפנימי), עקבו אחרי [ההוראות עבור 3DS](updating-3ds).
 
 [![Nintendo 3DS](/assets/images/consoles/old3ds.png)](updating-3ds) [![Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](updating-3ds) [![Nintendo 2DS](/assets/images/consoles/2ds.png)](updating-3ds)

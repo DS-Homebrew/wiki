@@ -35,13 +35,14 @@
 			"title": "אינדקסים"
 		}
 	],
-	"nds-bootstrap": [
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
 		{
 			"key": "other",
 			"title": "אחר"
 		}
 	],
-	"gbarunner2": [],
 	"other": [],
 	"community": [
 		{

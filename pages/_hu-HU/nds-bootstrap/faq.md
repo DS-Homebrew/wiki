@@ -2,7 +2,6 @@
 lang: hu-HU
 layout: wiki
 section: nds-bootstrap
-category: other
 title: GYIK & hibaelhárítás
 long_title: nds-bootstrap GYIK & helyreállítás
 description: GYIK & hibaelhárítás az nds-bootstrap-hez
@@ -16,7 +15,7 @@ description: GYIK & hibaelhárítás az nds-bootstrap-hez
 #### nds-bootstrap hibaelhárítás
 Ha problémát tapasztalsz az nds-bootstrap használatakor, itt vannak a lépések, hogyan oldhatod meg azt.
 
-1. Futtasd a játékokat más beállításokkal beleértve az ARM9 CPU sebességet, DS / DSi módot, hang minőséget, Card Read DMA-t, stb.
+1. Futtasd a játékokat más beállításokkal beleértve az ARM9 CPU sebességet, DS/DSi módot, hang minőséget, Card Read DMA-t, stb.
 2. Töröld a `fatTable` és a `patchOffsetCache` mappákat az `sd:/_nds/nds-bootstrap/` mappában
 3. Valószínűleg nem olyan nagy kérdés; kérdezz a [Discord szerveren](https://discord.gg/yD3spjv)
 

@@ -48,7 +48,7 @@ A flashcard-ok a csalás kódok előnyeit ki tudják használni csalás adatbáz
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew / digitális bázisú megoldások is élvezhetik az előnyeit a csalás-adatbázisoknak; a szoftverek, amik aktuálisan használják őket:
+Homebrew/digitális bázisú megoldások is élvezhetik az előnyeit a csalás-adatbázisoknak; a szoftverek, amik aktuálisan használják őket:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax lehetővé teszi a csalások használatát valódi játék kártyákkal egy flashcard-ról. A motor betölti a teljes cheats.xml adatbázist a Nintendo DS korlátozott RAM-jába, és próbálja onnan menedzselni őket. Ez létrehoz egy erős korlátot, hogy hány csalással rendelkezhet, mert a NitroHax nem tölt be olyan cheats.xml fájlt, ami 2,4 MB feletti méretű
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)

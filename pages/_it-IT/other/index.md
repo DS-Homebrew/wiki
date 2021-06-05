@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: other
-title: Home
-description: Information about other DS-Homebrew projects
+title: Other Projects
+description: Informazioni su altri progetti DS-Homebrew
 ---
 
-This section has information on other DS-Homebrew projects that aren't big enough to need a full section of the wiki.
+Questa sezione contiene informazioni su altri progetti DS-Homebrew che non sono abbastanza grandi da richiedere una sezione completa della wiki.

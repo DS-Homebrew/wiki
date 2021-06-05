@@ -48,7 +48,7 @@ Las flashcards pueden utilizar estos códigos usando bases de datos de trucos. E
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-El homebrew y aplicaciones digitales también pueden aprovechar estas bases de datos, el software actual puede usar las siguientes:
+Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax permite usar trucos en cartuchos oficiales a través de una flashcard. El motor carga la base de datos entera en la RAM de la Nintendo DS y trabaja desde ahí. Esto supone un límite bastante grande en la cantidad de trucos que puedes tener, ya que NitroHax no cargará más del archivo a partir de los 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([fork usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` o `usrcheat.dat`)

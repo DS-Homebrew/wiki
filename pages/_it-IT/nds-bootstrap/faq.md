@@ -2,10 +2,9 @@
 lang: it-IT
 layout: wiki
 section: nds-bootstrap
-category: other
-title: FAQ & Risoluzione dei problemi
-long_title: nds-bootstrap FAQ & Risoluzione dei problemi
-description: FAQ & Risoluzione dei problemi per nds-bootstrap
+title: FAQ & Troubleshooting
+long_title: nds-bootstrap FAQ & Troubleshooting
+description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
 #### Perché ottengo una schermata bianca quando si tenta di caricare un gioco dalla scheda SD?
@@ -16,7 +15,7 @@ description: FAQ & Risoluzione dei problemi per nds-bootstrap
 #### Risoluzione dei problemi nds-bootstrap
 Se si hanno dei problemi con l'utilizzo dell'ultima versione di nds-bootstrap, ecco come si potrebbe risolvere il problema.
 
-1. Esegui il gioco con diverse impostazioni, tra cui la modifica della velocità della CPU ARM9, modalità DS / DSi, qualità del suono, lettura scheda DMA, ecc
+1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
 2. Elimina le cartelle `fatTable` e `patchOffsetCache` in `sd:/_nds/nds-bootstrap/`
 3. Probabilmente non è un problema così grande; chiedi nel [server Discord](https://discord.gg/yD3spjv)
 

@@ -10,7 +10,7 @@ description: Hogyan frissítsd a TWiLight Menu++-t (index oldal)
 
 A TWiLight Menu++ telepítése függ attól, hogy Nintendo DSi-t, Nintendo 3DS-t vagy a Nintendo DS flashcard-ot használsz. Kérjük válaszd azt amit használsz.
 
-### 3DS / 2DS
+### 3DS/2DS
 Ha 3DS-t vagy 2DS-t használsz (a belső flash kártyáról), kövesd a [3DS lépéseket](installing-3ds).
 
 [![Egy Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds) [![Egy Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](installing-3ds) [![Egy Nintendo 2DS](/assets/images/consoles/2ds.png)](installing-3ds)

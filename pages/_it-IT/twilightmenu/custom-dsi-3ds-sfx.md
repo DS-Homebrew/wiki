@@ -3,7 +3,7 @@ lang: it-IT
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skin DSi / 3DS - Sfx Personalizzati
+title: DSi/3DS Skins - Custom SFX
 description: Come utilizzare musica di sottofondo ed effetti sonori personalizzati nelle skin DSi e 3DS per TWiLight Menu++
 ---
 

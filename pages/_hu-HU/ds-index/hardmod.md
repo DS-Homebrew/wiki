@@ -8,7 +8,7 @@ description: A Nintendo DSi hardmod-olása
 tabs:
   - 
     windows: Windows
-    other: macOS / Linux
+    other: macOS/Linux
 ---
 
 A Hardmodding az az amikor fizikailag hozzá forrasztasz a egy SD kártya adaptert a Nintendo DSi alaplapjához, hogy olvasható legyen számítógépről. Ez hasznos lehet a NAND mentés visszaállításához, a NAND megtekintéséhez a PC-den, stb...
@@ -18,7 +18,7 @@ A Hardmodding az az amikor fizikailag hozzá forrasztasz a egy SD kártya adapte
 
 ### Nintendo DSi
 
-A Nintendo DSi / DSi XL (LL) hardmod-hoz a következőre lesz szükséged:
+A Nintendo DSi/DSi XL (LL) hardmod-hoz a következőre lesz szükséged:
    - [Ceruza hegyű forrasztó](https://www.amazon.com/dp/B01N4571Q6)
    - [Nagyon vékony drót](https://www.amazon.com/dp/B01MXGNTA4), 28AWG vagy kisebb, preferált a 30AWG+
    - SD->microSD adapter
@@ -65,7 +65,7 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
 1. Nyisd meg a HxD-t és húzd be mindkét fájlt az editorba. Menj a felső sávra, és kattints az "Analysis"-re, majd a "File compare"-re a lenyíló menüben, és kattints a "Compare"-re.
 1. Választ a "compare both files" opciót, majd kattints az OK-ra, ha kész
    - Ha azt mondja, hogy "The chosen files are identical.", akkor jól csináltad, és tovább léphetsz a következő szakaszra
-   - Ha nem mondja ezt, és egyik NAND sem 240 MB, akkor dumpold újra NAND_1/NAND_0-t
+   - Ha nem mondja ezt, és egyik NAND sem 240MB körüli, akkor dumpold újra NAND_1/NAND_0-t
 1. Nyisd meg a Win32DiskImager-t, kattints a mappa ikonra és válaszd ki a meglévő NAND mentésedet, amit korábban csináltál
 1. Flasheld `Write` gombbal
 1. Húzd ki az SD kártya adaptert, és próbáld meg bekapcsolni a DSi-t

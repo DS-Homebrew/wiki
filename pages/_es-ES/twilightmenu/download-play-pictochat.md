@@ -3,22 +3,22 @@ lang: es-ES
 layout: wiki
 section: twilightmenu
 category: other
-title: Descarga DS / Pictochat en el Menú Clásico DS
+title: Download Play/Pictochat in DS Classic Menu
 description: Cómo tener Descarga DS y Pictochat en el Menú Clásico DS de TWiLight Menu++
 ---
 
 Si estás usando una consola DSi, ya deberías poder usar esas aplicaciones. Si no es el caso y tienes una 3DS, sigue estos pasos.
 
 Dentro de GodMode9:
-- Press the Home/Power button
-- Select `Title Manager`, then select `[1:] NAND / TWL`
-- Find and select `DS Download Play (NTR-HDNA)`
-- Select `Open title folder`
-- Select `00000000.tmd`, then select `TMD file options...`
-- Select `Dump CXI/NDS file`
-- Done. The file will be in `0:/gm9/out/`.
+- Pulsa el botón Home o de encendido
+- Selecciona `Title Manager` y luego `[1:] NAND / TWL`
+- Busca y selecciona `DS Download Play (NTR-HDNA)`
+- Selecciona `Open title folder`
+- Selecciona `00000000.tmd` y luego `TMD file options...`
+- Selecciona `Dump CXI/NDS file`
+- Hecho. El archivo estará en `0:/gm9/out/`.
 
-Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
+Copia `DS Download Play (NTR-HDNA).nds` a `0:/_nds/` y renómbralo como `dlplay.nds`.
 
 Los pasos anteriores aumentarán la velocidad de arranque de DLP.
 

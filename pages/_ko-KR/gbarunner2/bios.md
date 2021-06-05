@@ -12,7 +12,7 @@ GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필�
 
 - [Wii (패밀리 에디션 아님)/게임큐브 + 링크 케이블 덤퍼](https://github.com/FIX94/gba-link-cable-dumper)
 - [대부분의 버추얼 콘솔 타이틀을 이용한 3DS](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (GBA 또는 닌텐도에서 만든 것이 아닌(게임 기어) 버추얼 콘솔 타이틀은 안됨)
-- [GBA or DS Phat / Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
 BIOS를 덤핑 한 후 이름을 `bios.bin`으로 변경하여야 하며, GBARunner2가 읽을 수 있도록 `sd:/`, `sd:/gba/`, 또는 `sd:/_gba/`에 파일을 위치시켜야 합니다.
 

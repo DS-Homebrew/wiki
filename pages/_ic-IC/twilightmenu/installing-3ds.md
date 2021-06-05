@@ -1,6 +1,6 @@
 ---
 lang: crwdns13974:0crwdne13974:0
-layout: wiki
+layout: crwdns13976:0crwdne13976:0
 section: crwdns13978:0crwdne13978:0
 category: crwdns15672:0crwdne15672:0
 title: crwdns15674:0crwdne15674:0
@@ -29,7 +29,7 @@ crwdns19834:0{% endcapture %}crwdne19834:0
 crwdns19836:0crwdne19836:0
 
 crwdns19838:0{% capture tab-non-working-camera %}crwdne19838:0
-1. crwdns19840:0crwdne19840:0
+1. crwdns22320:0crwdne22320:0
 1. crwdns19842:0crwdne19842:0
 1. crwdns19844:0crwdne19844:0
 1. crwdns19846:0crwdne19846:0
@@ -44,7 +44,7 @@ crwdns19866:0{% endcapture %}crwdne19866:0
 crwdns19868:0crwdne19868:0
 
 crwdns19870:0{% capture tab-manual %}crwdne19870:0
-1. crwdns19872:0crwdne19872:0
+1. crwdns22322:0crwdne22322:0
 1. crwdns19874:0crwdne19874:0
 1. crwdns19876:0crwdne19876:0
 1. crwdns19878:0crwdne19878:0

@@ -2,7 +2,7 @@
 lang: fr-FR
 layout: wiki
 section: other
-title: Accueil
+title: Other Projects
 description: Informations sur d'autres projets DS-Homebrew
 ---
 

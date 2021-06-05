@@ -7,13 +7,13 @@ title: רומים רשמיים
 description: Information related to retail DS games
 ---
 
-### Anti-piracy
+### Anti-Piracy (נוגד פיראטיות)
 הAP (קיצור של anti-piracy) היא שיטה שהייתה בשימוש על ידי מפתחים למנוע פיראטיות ולאכוף רכישות של משחקים מקוריים. ניתן לעקוף את שיטה זו באמצעות התוכנה שטוענת את המשחק או דרך הROM עצמו.
 
-- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
+- עבור השימושים של nds-bootstrap, אפשר לטעון קובץ `.Ips` על מנת לעקוף את שיטה זו. קובץ `.ips` זה יותקן באמצעות nds-bootstrap, כך שאפשר להשאיר את הROMים ללא שינוי. חבילת קבצי `.ips` כלולה עם TWiLight Menu++.
 - לשימושים של Wood R4, טלאים אלו כלולים עם התוכנה עצמה. לא תצטרכו לשנות את הROM עצמו.
 
-In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+במקרה בו אין קובץ `.ips` לROM שלכם או שהתוכנה לא עקפה את הAP, אפשר לנסות לשנות את הROM עצמו באמצעות [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### Cloneboot
 Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
@@ -48,7 +48,7 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew / digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)

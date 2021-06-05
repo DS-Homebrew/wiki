@@ -12,10 +12,10 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 {:.alert .alert-info}
 
 ### 更新
-1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から`TWiLightMenu-Flashcard.7z`の最新バージョンをダウンロードする
-1. `TWiLightMenu-Flashcard.7z`を抽出する
-1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピーする
-1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピーする
+1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
+1. `TWiLightMenu-Flashcard.7z`を抽出
+1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピー
+1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピー
 
 ### DSi・3DSのSDカードの他の手順
 

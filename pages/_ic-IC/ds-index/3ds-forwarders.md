@@ -1,6 +1,6 @@
 ---
 lang: crwdns14944:0crwdne14944:0
-layout: wiki
+layout: crwdns14946:0crwdne14946:0
 section: crwdns14948:0crwdne14948:0
 category: crwdns15692:0crwdne15692:0
 title: crwdns19486:0crwdne19486:0
@@ -52,7 +52,7 @@ crwdns21530:0{:.alert .alert-warning}crwdne21530:0
 crwdns21534:0crwdne21534:0
 
 crwdns21536:0{% capture flashcards %}crwdne21536:0
-crwdns21538:0crwdne21538:0 crwdns21540:0crwdne21540:0 crwdns21542:0crwdne21542:0
+crwdns21538:0crwdne21538:0 crwdns22442:0crwdne22442:0 crwdns21542:0crwdne21542:0
 
 crwdns21544:0crwdne21544:0 crwdns21546:0crwdne21546:0
 
@@ -126,12 +126,12 @@ crwdns21640:0crwdne21640:0
 
 crwdns21690:0crwdne21690:0 crwdns21692:0crwdne21692:0
 - crwdns21694:0crwdne21694:0
-- crwdns21696:0crwdne21696:0
+- crwdns22444:0crwdne22444:0
 - crwdns21698:0crwdne21698:0
 
 ### crwdns21700:0crwdne21700:0
 crwdns21702:0crwdne21702:0
-1. crwdns21704:0crwdne21704:0
+1. crwdns22382:0crwdne22382:0
 1. crwdns21706:0crwdne21706:0
 1. crwdns21708:0crwdne21708:0
 
@@ -146,7 +146,7 @@ crwdns21702:0crwdne21702:0
 1. crwdns21726:0crwdne21726:0
    - crwdns21728:0crwdne21728:0
    - crwdns21730:0crwdne21730:0
-1. crwdns21732:0crwdne21732:0
+1. crwdns22446:0crwdne22446:0
 1. crwdns21734:0crwdne21734:0
 1. crwdns21736:0crwdne21736:0
 1. crwdns21738:0crwdne21738:0

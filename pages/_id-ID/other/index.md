@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: other
-title: Beranda
+title: Other Projects
 description: Informasi mengenai proyek DS-Homebrew lainnya
 ---
 

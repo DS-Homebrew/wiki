@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi / 3DS szkinek létrehozása
+title: DSi/3DS szkinek létrehozása
 description: Hogyan készíts egyedi DSi és 3DS szkineket a TWiLight Menu++-hoz
 ---
 
@@ -128,4 +128,4 @@ A palettás textúrák nem kerülnek ellenőrzésre érvényesség szempontjáb�
 
 ## Egyedi háttér zene és hangok
 
-A DSi Menü és a 3DS témák támogatják továbbá az egyedi zenét. Lásd a [DSi / 3DS szkinek - Egyedi hangeffektusok](custom-dsi-3ds-sfx) fejezetet a részletekért.
+A DSi Menü és a 3DS témák támogatják továbbá az egyedi zenét. Lásd a [DSi/3DS szkinek - Egyedi hangeffektusok](custom-dsi-3ds-sfx) fejezetet a részletekért.

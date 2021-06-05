@@ -29,7 +29,7 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. Töltsd le a `Universal-Updater.cia` fájlt a [Universal-Updater kiadás (Release) oldalról](https://github.com/Universal-Team/Universal-Updater/releases)
+1. Töltsd le a legutolsó [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia) verziót
 1. Helyezd a `Universal-Updater.cia` fájlt valahova az SD kártyádon
 1. Indítsd el az FBI-t a Nintendo 3DS-eden
 1. Az FBI-ban, navigálj a helyre, ahova a `Universal-Updater.cia` fájlt raktad
@@ -44,7 +44,7 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. Töltsd le a `TWiLightMenu-3DS.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
 1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe

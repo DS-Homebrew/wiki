@@ -2,7 +2,7 @@
 lang: fr-FR
 layout: wiki
 section: community
-title: Accueil
+title: Community
 description: Informations sur la communauté DS-Homebrew
 ---
 

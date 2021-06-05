@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: Comment créer des thèmes DSi / 3DS
+title: How to Create DSi/3DS Skins
 description: Comment créer des skins DSi et 3DS personnalisés pour le TWiLight Menu++
 ---
 
@@ -128,4 +128,4 @@ Les textures palettées ne sont pas vérifiées pour la validité. Une texture n
 
 ## Musique d'arrière-plan personnalisée et effets sonores
 
-Les thèmes du menu DSi et de la 3DS prennent également en charge la musique personnalisée. Voir [skins DSi / 3DS - Effets sonores personnalisés](custom-dsi-3ds-sfx) pour plus de détails.
+Les thèmes du menu DSi et de la 3DS prennent également en charge la musique personnalisée. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

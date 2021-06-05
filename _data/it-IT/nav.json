@@ -19,6 +19,10 @@
 								"url": "/gbarunner2"
 						},
 						{
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						},
+						{
 								"title": "Altri Progetti",
 								"url": "/other"
 						}
@@ -29,7 +33,7 @@
 				"url": "/ds-index"
 		},
 		{
-				"title": "Informazioni Community",
+				"title": "Informazioni sulla Community",
 				"url": "/community"
 		}
 ]

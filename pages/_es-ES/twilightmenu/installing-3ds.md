@@ -29,7 +29,7 @@ Primero necesitas tener un Custom Firmware en la 3DS, consulta [3ds.hacks.guide]
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. Descarga el archivo `Universal-Updater.cia` desde la [página de lanzamientos de Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases)
+1. Descarga [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia) de la versión más reciente
 1. Coloca el archivo `Universal-Updater.cia` en cualquier sitio de tu tarjeta SD
 1. Abre FBI en la Nintendo 3DS
 1. En FBI, localiza el archivo `Universal-Updater.cia`
@@ -44,7 +44,7 @@ Primero necesitas tener un Custom Firmware en la 3DS, consulta [3ds.hacks.guide]
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. Descarga la última versión de `TWiLightMenu-3DS.7z` desde la [página de lanzamientos](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Descarga [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) de la versión más reciente
 1. Extrae `TWiLightMenu-3DS.7z`
 1. Copia la carpeta `_nds` en la raíz de tu tarjeta SD
 1. Copia el archivo `BOOT.NDS` en la raíz de tu tarjeta SD

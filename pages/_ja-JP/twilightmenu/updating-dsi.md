@@ -12,7 +12,7 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 {:.alert .alert-info}
 
 ### 更新
-1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から最新の`TWiLightMenu-DSi.7z`をダウンロードする
+1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロードする
 1. `TWiLightMenu-DSi.7z`を抽出する
 1. `_nds`フォルダをSDカードのルートにコピーする
 1. `BOOT.NDS`ファイルをSDカードのルートにコピーする

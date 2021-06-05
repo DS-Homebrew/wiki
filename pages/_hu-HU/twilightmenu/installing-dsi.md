@@ -12,7 +12,7 @@ Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw
 {:.alert .alert-info}
 
 ### Telepítés
-1. Töltsd le a `TWiLightMenu-DSi.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
 1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe

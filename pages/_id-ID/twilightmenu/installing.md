@@ -10,7 +10,7 @@ description: Cara memasang TWiLight Menu++ (laman indeks)
 
 Proses pemasangan TWiLightMenu++ tergantung jika kamu menggunakan Nintendo DSi, Nintendo 3DS, atau flashcard Nintendo DS. Mohon pilih laman untuk konsol yang kamu gunakan.
 
-### 3DS / 2DS
+### 3DS/2DS
 Jika kamu menggunakan 3DS atau 2DS (dari kartu SD internal), ikuti [arahan untuk 3DS](installing-3ds).
 
 [![Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds) [![Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](installing-3ds) [![Nintendo 2DS](/assets/images/consoles/2ds.png)](installing-3ds)

@@ -10,7 +10,7 @@ description: Comment installer TWiLight Menu++ (index)
 
 Le processus de mise à jour de TWiLight Menu++ dépend de la cible, soit une Nintendo DSi, soit une Nintendo 3DS ou soit un linker. Merci de sélectionner la page de la cible que vous utilisez.
 
-### 3DS / 2DS
+### 3DS/2DS
 Si vous utilisez une 3DS ou une 2DS (depuis la carte SD interne), suivez les [instructions 3DS](updating-3ds).
 
 [![Une Nintendo 3DS](/assets/images/consoles/old3ds.png)](updating-3ds) [![Une Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](updating-3ds) [![Une Nintendo 2DS](/assets/images/consoles/2ds.png)](updating-3ds)

@@ -12,7 +12,7 @@ Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` D
 {:.alert .alert-info}
 
 ### Frissítés
-1. Töltsd le a `TWiLightMenu-DSi.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
 1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe

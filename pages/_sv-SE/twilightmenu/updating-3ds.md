@@ -25,7 +25,7 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Ladda ner den senaste versionen av `TWiLightMenu-3DS.7z` från [releases sidan](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Extrahera `TWiLightMenu-3DS.7z`
 1. Kopiera mappen `_nds` till ditt SD-korts rot
 1. Kopiera filen `BOOT.NDS` till din SD-korts rot

@@ -19,7 +19,11 @@
 								"url": "/gbarunner2"
 						},
 						{
-								"title": "Inne Projekty",
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						},
+						{
+								"title": "Other Projects",
 								"url": "/other"
 						}
 				]

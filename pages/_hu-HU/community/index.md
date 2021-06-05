@@ -2,7 +2,7 @@
 lang: hu-HU
 layout: wiki
 section: community
-title: Kezdőlap
+title: Közösség
 description: Információk a DS-Homebrew közösségről
 ---
 

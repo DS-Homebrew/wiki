@@ -12,12 +12,12 @@ Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` D
 {:.alert .alert-info}
 
 ### Frissítés
-1. Töltsd le a `TWiLightMenu-Flashcard.7z` legfrissebb verzióját [a kiadások (Releases) oldalról](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót
 1. Csomagold ki `TWiLightMenu-Flashcard.7z` fájlt
 1. Másold az `_nds` mappát a flash kártyád microSD kártyájának gyökerébe
 1. Másold az `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe
 
-### További lépések a DSi / 3DS SD kártya oldaláról
+### További lépések a DSi/3DS SD kártya oldaláról
 
 Ha tudsz váltani az SD és flashcard tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
 

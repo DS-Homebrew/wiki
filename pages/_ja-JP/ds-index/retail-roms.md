@@ -48,7 +48,7 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew / digital based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)

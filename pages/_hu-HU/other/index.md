@@ -2,7 +2,7 @@
 lang: hu-HU
 layout: wiki
 section: other
-title: Kezdőlap
+title: Egyéb projektek
 description: Információk más DS-Homebrew proojektekről
 ---
 

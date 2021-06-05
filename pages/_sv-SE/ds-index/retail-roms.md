@@ -48,7 +48,7 @@ Minneskort kan dra nytta av fuskkoder genom att använda fuskdatabaser. Funktion
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew / digitala lösningar kan också dra nytta av fuskdatabaserna, programvarorna som är tillgänglig kan använda följande:
+Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax tillåter dig använda fusk med riktiga spelkort från ett minneskort. Motorn som används här laddar hela cheats.xml-databasen in i Nintendo DS:ens begränsade RAM-minne och försöker hantera saker därifrån. Detta innebär att det finns en allvarlig gräns för hur många fusk du kan ha, eftersom NitroHax inte kommer att ladda en cheats.xml fil över 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` eller `usrcheat.dat`)

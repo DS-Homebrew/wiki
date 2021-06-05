@@ -3,7 +3,7 @@ lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skórki DSi / 3DS - Własne SFX
+title: DSi/3DS Skins - Custom SFX
 description: Jak używać niestandardowych efektów muzycznych i dźwiękowych w tle DSi i 3DS dla TWiLight Menu++
 ---
 

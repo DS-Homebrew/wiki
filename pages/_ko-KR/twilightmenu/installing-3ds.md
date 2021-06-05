@@ -29,7 +29,7 @@ tabs:
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. [Universal-Updater 릴리즈 페이지](https://github.com/Universal-Team/Universal-Updater/releases)에서 `Universal-Updater.cia` 파일을 다운로드하세요.
+1. Download the latest [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia)
 1. SD카드의 아무데나 `Universal-Updater.cia` 파일을 놓으세요.
 1. 닌텐도 3DS에서 FBI를 실행하세요.
 1. FBI에서 `Universal-Updater.cia`파일을 붙여넣은 폴더를 찾으세요.
@@ -44,7 +44,7 @@ tabs:
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. `TWiLightMenu-3DS.7z`의 최신버전을 [깃허브 페이지](https://github.com/DS-Homebrew/TWiLightMenu/releases)에서 다운로드하세요.
+1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. `TWiLightMenu-3DS.7z`를 압축 해제합니다.
 1. SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.

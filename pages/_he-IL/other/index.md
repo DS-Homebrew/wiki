@@ -2,7 +2,7 @@
 lang: he-IL
 layout: wiki
 section: other
-title: דף הבית
+title: פרוייקטים אחרים
 description: מידע לגבי פרויקטי DS-Homebrew אחרים
 ---
 

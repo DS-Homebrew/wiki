@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: community
-title: Beranda
+title: Community
 description: Informasi mengenai perkumpulan (komunitas) DS-Homebrew
 ---
 

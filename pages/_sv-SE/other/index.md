@@ -2,7 +2,7 @@
 lang: sv-SE
 layout: wiki
 section: other
-title: Hem
+title: Other Projects
 description: Information om andra DS-Homebrew projekt
 ---
 

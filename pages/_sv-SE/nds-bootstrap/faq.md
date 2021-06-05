@@ -2,10 +2,9 @@
 lang: sv-SE
 layout: wiki
 section: nds-bootstrap
-category: other
-title: FAQ & Felsökning
-long_title: nds-bootstrap FAQ & Felsökning
-description: Vanliga frågor & Felsökning för nds-bootstrap
+title: FAQ & Troubleshooting
+long_title: nds-bootstrap FAQ & Troubleshooting
+description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
 #### Varför får jag en vit skärm när jag försöker ladda ett spel från SD-kort?
@@ -16,7 +15,7 @@ description: Vanliga frågor & Felsökning för nds-bootstrap
 #### nds-bootstrap troubleshooting
 If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
 
-1. Kör spelet med olika inställningar, inklusive ändring av ARM9's CPU Hastighet, DS / DSi Läge, ljudkvalitet, Kort DMA, etc
+1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
 2. Om det fungerade tidigare tar du bort `fatTable` och `patchOffsetCache` i `sd:/_nds/nds-bootstrap/`
 3. Det är förmodligen inte så stort av ett problem; fråga i [Discord-servern](https://discord.gg/yD3spjv)
 

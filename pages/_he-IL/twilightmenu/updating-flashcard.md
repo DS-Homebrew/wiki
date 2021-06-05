@@ -12,12 +12,12 @@ description: איך לעדכן את TWiLight Menu++ על פלאשקארד של N
 {:.alert .alert-info}
 
 ### עדכון
-1. הורידו את הגרסה האחרונה של `TWiLightMenu-Flashcard.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. הורידו את הגרסה האחרונה של [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. חלצו את `TWiLightMenu-Flashcard.7z`
 1. העתיקו את התיקייה `_nds` לכרטיס המיקרו SD
 1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
 
-### שלבים נוספים עבור הSD של DSi / 3DS
+### שלבים נוספים עבור הSD של DSi/3DS
 
 אם אתם יכולים להחליף את הקבצים שעל הSD של המכשיר ובין הקבצים על הפלאשקארד באמצעות TWLMenu++, וגם גרסאת TWLMenu++ על הפלאשקארד היא v16.3.0 או גבוהה יותר, עקבו אחרי השלבים האלו.
 

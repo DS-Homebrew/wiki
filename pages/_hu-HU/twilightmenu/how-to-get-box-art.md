@@ -4,16 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Box-art beszerzése
-description: Hogyan szerezz be játék box art-ot / játékborítókat a TWiLight Menu++-ban
+description: Hogyan szerezz be játék box art-ot/játékborítókat a TWiLight Menu++-ban
 ---
-
-### 3DS
-1. Telepítsd [KirovAir TWiLight Menu++ Updater fork-ját](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - Ez lecseréli a hagyomános TWiLight Menu++ Updater-t, így használd az Universal-Updater-t majd e helyett a TWiLight Menu++ frissítésére
-1. Válaszd az `Extras`, `Boxart` opciókat, majd nyomd meg az <kbd class="face">X</kbd> gombot a teljes SD kártya végig nézéséhez, vagy az <kbd class="face">A</kbd> gombot, hogy kiválaszthasd a végig nézendő mappát
-1. Válaszd ki a box-art méretét
-1. Válassz egy keret stílust
-1. Ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
 ### Windows
 1. Töltsd le a [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases) legfrissebb verzióját
@@ -24,7 +16,7 @@ description: Hogyan szerezz be játék box art-ot / játékborítókat a TWiLigh
 1. Kattints a `Start`-ra
 1. Ellenőrizd, hogy a box-art megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 
-### macOS / Linux
+### macOS/Linux
 1. Töltsd le a [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases) legfrissebb verzióját
 1. Csomagold ki a `.zip` fájlt
 1. Nyisd meg a `TwilightBoxart.ini` fájlt egy szöveg editorral

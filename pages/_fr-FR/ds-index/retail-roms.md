@@ -48,7 +48,7 @@ Les linkers peuvent tirer parti des codes de triches en utilisant des bases de d
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Les solutions Homebrew/digital peuvent également tirer parti des bases de données de codes de triches, ces logiciels actuellement disponibles peuvent les utiliser:
+Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax vous permet d'utiliser des codes de triche avec des cartes de jeu réelles à partir d'un linker. Le moteur utilisé ici charge toute la base de données cheats.xml dans la RAM limitée de la Nintendo DS et essaye de gérer les choses à partir de là. Cela impose une limite sérieuse sur le nombre de cheats que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml au-delà de 2.4 Mo
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` ou `usrcheat.dat`)

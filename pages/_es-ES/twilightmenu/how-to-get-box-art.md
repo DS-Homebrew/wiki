@@ -4,16 +4,8 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Cómo obtener las carátulas
-description: Cómo obtener las carátulas / cubiertas de los juegos en TWiLight Menu++
+description: How to get box art/game covers in TWiLight Menu++
 ---
-
-### 3DS
-1. Instala [el fork del TWiLight Menu++ Updater de KirovAir](https://github.com/KirovAir/TWiLightMenu-Updater/releases)
-   - Este reemplazará al TWiLight Menu++ Updater normal, por lo que deberás usar Universal-Updater para actualizar TWiLight Menu++ en su lugar
-1. Selecciona `Extras`, `Boxart`, pulsa <kbd class="face">X</kbd> para escanear toda la tarjeta SD o <kbd class="face">A</kbd> para elegir en qué carpeta buscar
-1. Escoge un tamaño de carátula
-1. Escoge un estilo de borde
-1. Comprueba que se pueden mostrar las carátulas en los ajustes de TWiLight Menu++
 
 ### Windows
 1. Descarga la última versión de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
@@ -24,7 +16,7 @@ description: Cómo obtener las carátulas / cubiertas de los juegos en TWiLight 
 1. Pincha en `Start`
 1. Comprueba que se pueden mostrar las carátulas en los ajustes de TWiLight Menu++
 
-### macOS / Linux
+### macOS/Linux
 1. Descarga la última versión de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Extrae el `.zip`
 1. Abre `TwilightBoxart.ini` en la carpeta extraída con un editor de texto

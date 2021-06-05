@@ -2,7 +2,6 @@
 lang: hu-HU
 layout: wiki
 section: nds-bootstrap
-category: other
 title: Kompatibilitási lista & tesztelési tippek
 description: Kompatibilitási lista és tippek a játékok teszteléséhez
 ---

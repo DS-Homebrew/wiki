@@ -3,7 +3,7 @@ lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: customization
-title: Jak tworzyć skórki DSi / 3DS
+title: How to Create DSi/3DS Skins
 description: Jak tworzyć własne skórki DSi i 3DS dla TWiLight Menu++
 ---
 
@@ -128,4 +128,4 @@ Tekstury paletyzowane nie są sprawdzane pod kątem ważności. Nieprawidłowa t
 
 ## Własne efekty muzyczne i dźwiękowe w tle
 
-Menu DSi i motywy 3DS również obsługują własną muzykę. Zobacz [SkórkiDSi / 3DS - Własne SFX](custom-dsi-3ds-sfx) po więcej szczegółów.
+Menu DSi i motywy 3DS również obsługują własną muzykę. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

@@ -7,14 +7,6 @@ title: ボックスアートを取得する方法
 description: TWiLight Menu++でボックスアート・ゲームカバーを取得する方法
 ---
 
-### 3DS
-1. [KirovAirのTWiLight Menu++ Updaterフォーク](https://github.com/KirovAir/TWiLightMenu-Updater/releases)をインストールします
-   - これは通常のTWiLight Menu++ Updaterを置き換えられますので、代わりにUniversal-Updaterを使ってTWiLight Menu++を更新してください
-1. `Extras`、`Boxart`を選択して<kbd class="face">X</kbd>を押してSD全体をスキャンしか、<kbd class="face">A</kbd>でスキャンするフォルダを選択します
-1. ボックスアートのサイズを選択します
-1. 外枠のスタイルを選択します
-1. TWiLight Menu++設定でボックスアートが表示されていることを確認してください
-
 ### Windows
 1. [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)の最新バージョンをダウンロードします
 1. `TwilightBoxart-Windows-UX.zip`を抽出し、`TwilightBoxart.exe`を実行します

@@ -35,13 +35,14 @@
 			"title": "Indeks"
 		}
 	],
-	"nds-bootstrap": [
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
 		{
 			"key": "other",
-			"title": "Lainnya"
+			"title": "Other"
 		}
 	],
-	"gbarunner2": [],
 	"other": [],
 	"community": [
 		{

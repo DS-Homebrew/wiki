@@ -11,7 +11,7 @@ description: TWiLight Menu++ GYIK és hibaelhárítás
 További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Miért történik, hogy a 3DS / 2DS eszközöm, fekete képernyőn ragad, összeomlik, kikapcsol, stb. amikor elindítom a TWiLight Menu++-t?
+#### Miért történik, hogy a 3DS/2DS eszközöm, fekete képernyőn ragad, összeomlik, kikapcsol, stb. amikor elindítom a TWiLight Menu++-t?
 A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót a hiba javításához: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
@@ -53,7 +53,7 @@ Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/
 
 #### Hogyan állítom be a TWiLight Menu++-ban a nyelvet?
 1. Nyisd meg a TWiLight Menu++ beállításokat, ezt a <kbd>SELECT</kbd> gomb nyomvatartásával tudod megtenni, a TWiLight Menu++ betöltésekor
-1. Nyomj <kbd class="l">L</kbd> vagy <kbd class="face">Y</kbd> gombot egyszer (flashcard-on / 3DS-en) vagy kétszer (DSi-n)
+1. Nyomj <kbd class="l">L</kbd> vagy <kbd class="face">Y</kbd> gombot egyszer (flashcard-on/3DS-en) vagy kétszer (DSi-n)
 1. Módosítsd az első opciót, amíg nem látod a nyelvet, amit szeretnél, majd lépj ki a beállításokból
    - Elképzelhető, hogy módosítanád a következő két opciót, ami a DS játékok és címeik nyelvét befolyásolja a a TWiLight Menu++-ben
 

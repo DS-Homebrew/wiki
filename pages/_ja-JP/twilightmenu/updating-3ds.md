@@ -18,19 +18,19 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 {% capture tab-universal-updater %}
 1. Universal-Updaterを開く
    - お持ちでない場合は、[インストール](installing-3ds)手順に従ってください
-1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます。
-1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールする
+1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます
+1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールします
    - しばらく時間がかかります
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から`TWiLightMenu-3DS.7z`の最新バージョンをダウンロードする
-1. `TWiLightMenu-3DS.7z`を抽出する
-1. `_nds`フォルダをSDカードのルートにコピーする
-1. `BOOT.NDS`ファイルをSDカードのルートにコピーする
-1. 2つの`.cia`ファイルをSDカードのルートにコピーする
-1. 3DSに、FBIと2つのCIAをインストールする
+1. 最新の[`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)をダウンロード
+1. `TWiLightMenu-3DS.7z`を抽出
+1. `_nds`フォルダをSDカードのルートにコピー
+1. `BOOT.NDS`ファイルをSDカードのルートにコピー
+1. 2つの`.cia`ファイルをSDカードのルートにコピー
+1. 3DSで、FBIを使って2つのCIAをインストール
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
@@ -44,5 +44,5 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 TWLMenu++でSDとフラッシュカードの内容を切り替えることができ、フラッシュカードのTWLMenu++はv16.3.0以降である場合は、以下の手順に従ってください。
 
 1. TWLMenu++の設定に行く
-1. `TWiLight Menu++を更新します`を選択します
-1. `本体の(micro)SD > Slot-1のmicroSD`を選択します
+1. `TWiLight Menu++を更新します`を選択
+1. `本体の(micro)SD > Slot-1のmicroSD`を選択

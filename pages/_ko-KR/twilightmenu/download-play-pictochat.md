@@ -3,7 +3,7 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: other
-title: DS 클래식 메뉴의 다운로드 플레이 / 픽토챗
+title: Download Play/Pictochat in DS Classic Menu
 description: TWiLight Menu++의 DS 클래식 메뉴에서 DS 다운로드 플레이와 픽토챗을 받는 방법
 ---
 

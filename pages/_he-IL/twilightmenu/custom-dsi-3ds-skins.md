@@ -3,7 +3,7 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: customization
-title: איך להכין סקינים לDSi / 3DS
+title: איך להכין סקינים לDSi/3DS
 description: כיצד להתאים אישית סקינים של DSi ו3DS עבור TWiLight Menu++
 ---
 

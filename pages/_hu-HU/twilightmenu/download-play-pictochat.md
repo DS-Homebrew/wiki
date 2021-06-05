@@ -3,7 +3,7 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play / Pictochat a DS Classic Menu-ben
+title: Download Play/Pictochat a DS Classic Menu-ben
 description: Hogyan használj a DS Download Play-t és a Pictochat-et a TWiLight Menu++ DS Classic menüjében
 ---
 

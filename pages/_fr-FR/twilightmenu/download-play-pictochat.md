@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: other
-title: Mode Téléchargement / Pictochat dans le menu DS Classic
+title: Download Play/Pictochat in DS Classic Menu
 description: Comment accéder au Mode Téléchargement / Pictochat dans le menu DS Classique
 ---
 

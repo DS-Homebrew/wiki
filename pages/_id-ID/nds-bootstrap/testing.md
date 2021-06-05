@@ -2,9 +2,8 @@
 lang: id-ID
 layout: wiki
 section: nds-bootstrap
-category: other
-title: Daftar Kesesuaian (Compatibility) & Tips Pengujian (Testing)
-description: Daftar kesesuaian dan tips untuk menguji permainan
+title: Compatibility List & Testing Tips
+description: Compatibility list and tips for testing games
 ---
 
 ### Daftar Kesesuaian (Compatibility)

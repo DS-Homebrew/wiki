@@ -3,22 +3,22 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play / Pictochat בתפריט הDS הקלאסי
+title: Download Play/Pictochat בתפריט הDS הקלאסי
 description: כיצד להשיג את הDownload Play של הDS ואת Pictochat בתפריט הקלאסי של TWiLight Menu++
 ---
 
 אם אתם משתמשים במכשיר DSi, אתם אמורים להיות יכולים להריץ את האפליקציות האלו. אחרת, אם יש לכם 3DS, המשיכו עם המדריך.
 
 בGodMode9:
-- Press the Home/Power button
-- Select `Title Manager`, then select `[1:] NAND / TWL`
-- Find and select `DS Download Play (NTR-HDNA)`
-- Select `Open title folder`
-- Select `00000000.tmd`, then select `TMD file options...`
-- Select `Dump CXI/NDS file`
-- Done. The file will be in `0:/gm9/out/`.
+- לחצו על כפתור הבית\הפעלה
+- בחרו ב `Title Manager` ולאחר מכן בחרו ב`[1:] NAND / TWL`
+- מצאו ובחרו ב`DS Download Play (NTR-HDNA)`
+- בחרו ב`Open title folder`
+- בחרו ב`00000000.tmd` ולאחר מכן `TMD file options...`
+- בחרו ב`Dump CXI/NDS file`
+- בוצע. הקובץ ימצא ב`0:/gm9/out/`.
 
-Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
+העתיקו את `DS Download Play (NTR-HDNA).nds` אל `0:/_nds/` ושנו את שמו אל `dlplay.nds`.
 
 הצעדים מעלה יגברו את זמן העליה של DLP.
 

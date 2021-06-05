@@ -2,10 +2,9 @@
 lang: fr-FR
 layout: wiki
 section: nds-bootstrap
-category: other
-title: FAQ & Dépannage
-long_title: FAQ nds-bootstrap & Dépannage
-description: FAQ & Dépannage pour nds-bootstrap
+title: FAQ & Troubleshooting
+long_title: nds-bootstrap FAQ & Troubleshooting
+description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
 #### Pourquoi est-ce que je reçois un écran blanc en essayant de charger un jeu à partir de la carte SD ?
@@ -16,7 +15,7 @@ description: FAQ & Dépannage pour nds-bootstrap
 #### nds-bootstrap troubleshooting
 If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
 
-1. Run the game with different settings, including changing the ARM9 CPU Speed, DS / DSi Mode, sound quality, Card Read DMA, etc
+1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
 2. Supprimez les dossiers `fatTable` et `patchOffsetCache` dans `sd:/_nds/nds-bootstrap/`
 3. Ce n'est probablement pas un si gros problème ; demandez sur le serveur [Discord](https://discord.gg/yD3spjv)
 

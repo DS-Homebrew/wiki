@@ -35,13 +35,14 @@
 			"title": "인덱스"
 		}
 	],
-	"nds-bootstrap": [
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
 		{
 			"key": "other",
-			"title": "기타"
+			"title": "Other"
 		}
 	],
-	"gbarunner2": [],
 	"other": [],
 	"community": [
 		{

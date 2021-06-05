@@ -29,7 +29,7 @@ tabs:
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. הורידו את הקובץ `Universal-Updater.cia` מ[Universal-Updaterמעמוד הגרסאות של](https://github.com/Universal-Team/Universal-Updater/releases)
+1. הורידו את הגרסה האחרונה של [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia)
 1. שימו את הקובץ `Universal-Updater.cia` על כרטיס הSD שלכם
 1. פתחו את FBI ב3DS שלכם
 1. בFBI, לכו למקום שבו העתקתם את הקובץ `Universal-Updater.cia`
@@ -44,7 +44,7 @@ tabs:
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. הורידו את הגרסה האחרונה של `TWiLightMenu-3DS.7z` מ[עמוד הreleases](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. הורידו את הגרסה האחרונה של [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. חלצו את `TWiLightMenu-3DS.7z`
 1. העתיקו את התיקייה `_nds` לכרטיס הSD
 1. העתיקו את `BOOT.NDS` לכרטיס הSD

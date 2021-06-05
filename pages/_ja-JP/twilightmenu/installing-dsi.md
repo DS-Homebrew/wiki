@@ -12,14 +12,14 @@ DSiに自作ソフトを実行する方法がない場合は、[dsi.cfw.guide](h
 {:.alert .alert-info}
 
 ### インストール
-1. [リリースページ](https://github.com/DS-Homebrew/TWiLightMenu/releases)から最新の`TWiLightMenu-DSi.7z`をダウンロードする
-1. `TWiLightMenu-DSi.7z`を抽出する
-1. `_nds`フォルダをSDカードのルートにコピーする
-1. `BOOT.NDS`ファイルをSDカードのルートにコピーする
-1. `roms`フォルダをSDカードのルートにコピーする
-1. **hiyaCFWユーザー：**`title`フォルダをSDカードのルートにコピーする
+1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロード
+1. `TWiLightMenu-DSi.7z`を抽出
+1. `_nds`フォルダをSDカードのルートにコピー
+1. `BOOT.NDS`ファイルをSDカードのルートにコピー
+1. `roms`フォルダをSDカードのルートにコピー
+1. **hiyaCFWユーザー：**`title`フォルダをSDカードのルートにコピー
 
 ### Unlaunchで自動起動
-1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiをオンにする
-1. Unlaunchメニューで`OPTIONS`に移動します
-1. `NO BUTTON`または選択されるボタンを下部画面に「`BOOT.NDS`」を表示された`TWiLight Menu++`に設定します
+1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源をオンにする
+1. Unlaunchメニューで、`OPTIONS`に移動
+1. `NO BUTTON`（ボタンなし）または選択されるボタンを下部画面に「`BOOT.NDS`」を表示された`TWiLight Menu++`に設定

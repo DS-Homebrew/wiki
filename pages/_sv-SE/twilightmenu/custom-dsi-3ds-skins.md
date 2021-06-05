@@ -3,7 +3,7 @@ lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: customization
-title: Hur man skapar utseenden för DSi / 3DS
+title: How to Create DSi/3DS Skins
 description: Hur man gör anpassade DSi och 3DS utseenden för TWiLight Menu++
 ---
 
@@ -128,4 +128,4 @@ Paletterade texturer kontrolleras inte för giltighet. En ogiltig textur bör va
 
 ## Anpassad bakgrundsmusik och ljudeffekter
 
-DSi Menyn och 3DS teman stöder också anpassad musik. Läs [DSi / 3DS stiler - Anpassade SFX](custom-dsi-3ds-sfx) för mer information.
+DSi Menyn och 3DS teman stöder också anpassad musik. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

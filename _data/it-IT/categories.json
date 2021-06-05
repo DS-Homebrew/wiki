@@ -35,13 +35,14 @@
 			"title": "Indici"
 		}
 	],
-	"nds-bootstrap": [
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
 		{
 			"key": "other",
 			"title": "Altro"
 		}
 	],
-	"gbarunner2": [],
 	"other": [],
 	"community": [
 		{

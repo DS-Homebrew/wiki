@@ -11,7 +11,7 @@ description: TWiLight Menu++のよくある質問とトラブルシューティ�
 もっとよくある質問ため、[GBAtempスレッド](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)にアクセスしてください。
 {:.alert .alert-info}
 
-#### TWiLight Menu++を起動する時に、3DS／2DSが黒い画面で動かなく、クラッシュする、電源を切るなどのはなぜですか？
+#### TWiLight Menu++を起動する時に、3DS/2DSが黒い画面で動かなく、クラッシュする、電源を切るなどのはなぜですか？
 TWL_FIRMは何らかの方法で破損している可能性があります。 このガイドに従って問題を解決してください：[ https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide](https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide)
 
 #### TWiLight Menu++を起動する時に、白い画面が表示されるを修正するにはどうすればいいですか？

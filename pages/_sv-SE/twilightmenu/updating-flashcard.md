@@ -12,12 +12,12 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 {:.alert .alert-info}
 
 ### Uppdatering
-1. Ladda ner den senaste versionen av `TWiLightMenu-Flashcard.7z` från [releases sidan](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Extrahera `TWiLightMenu-Flashcard.7z`
 1. Kopiera mappen `_nds` till ditt minneskorts microSD-korts rot
 1. Kopiera filen `BOOT.NDS` till ditt minneskorts microSD-korts rot
 
-### Fler steg för DSi / 3DS SD-kort
+### More steps for the DSi/3DS SD card side
 
 Om du kan växla mellan innehållet av SD och minneskort i TWLMenu++, och om minneskortets TWLMenu++ är på v16.3.0 eller senare, följ dessa steg.
 

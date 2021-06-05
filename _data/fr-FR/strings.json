@@ -1,8 +1,12 @@
 {
 	"by": "Par : $1",
 	"close": "Fermer",
+	"color-scheme": "Color scheme:",
+	"dark": "Dark",
+	"default": "Default",
 	"description": "Wikis pour les projets DS-Homebrew",
 	"discord-server": "Serveur Discord (anglais uniquement)",
+	"light": "Light",
 	"need-help": "Besoin d'aide ? Rejoignez notre serveur Discord : <a href=\"https://ds-homebrew.com/discord\">DS(i) Mode piratage !</a> (en anglais seulement)",
 	"published-with": "Publié avec <a href=\"https://pages.github.com\">GitHub Pages</a>, afficher <a href=\"https://github.com/$1\">la source</a> sur GitHub.",
 	"select-language": "Sélectionner la langue",

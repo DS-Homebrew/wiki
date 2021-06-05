@@ -3,7 +3,7 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play / Pictochat di Menu DS Klasik
+title: Download Play/Pictochat in DS Classic Menu
 description: Cara mendapatkan DS Download Play dan Pictochat di Menu DS Klasik TWiLight Menu++
 ---
 

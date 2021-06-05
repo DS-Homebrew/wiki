@@ -8,7 +8,7 @@ description: Hur man hardmoddar en Nintendo DSi
 tabs:
   - 
     windows: Windows
-    other: macOS / Linux
+    other: macOS/Linux
 ---
 
 Hardmodding är när du fysiskt lödar moderkortet till en SD-kortsadapter för att läsas på en dator. Detta är användbart för att återställa NAND-säkerhetskopior, visa NAND på din dator, etc...
@@ -18,7 +18,7 @@ Hardmodding är när du fysiskt lödar moderkortet till en SD-kortsadapter för 
 
 ### Nintendo DSi
 
-För att hardmodda en Nintendo DSi / DSi XL (LL) så behöver du:
+To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - [Blyertspetsad lödkolv](https://www.amazon.com/dp/B01N4571Q6)
    - [Mycket fin koppartråd](https://www.amazon.com/dp/B01MXGNTA4), 28AWG eller mindre, helst 30AWG+
    - SD till microSD-adapter
@@ -65,7 +65,7 @@ Du kommer först behöva ta bort NOCASH sidfoten från säkerhetskopian du flash
 1. Öppna HxD och dra båda filerna till redigeraren. Gå till det övre fältet, klicka på "Analysis", klicka på "File compare" från rullgardinsmenyn och klicka sedan på "Compare".
 1. Välj att jämföra båda filerna och klicka sedan på OK när du är klar
    - Om det står "The chosen files are identical.", du är redå att gå till nästa avsnitt
-   - Om det inte säger det, och båda NAND:erna inte är runt 240 MB, dumpa NAND_1 / NAND_0 igen
+   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
 1. Öppna Win32DiskImager, klicka på mappikonen och välj din befintliga NAND-backup som du skapade innan
 1. Flasha den med `Write` -knappen
 1. Koppla ur SD-kortadaptern och försök att sätta på din DSi
