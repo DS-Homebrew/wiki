@@ -1,32 +1,32 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: hiyacfw
-title: Troubleshooting
+title: トラブルシューティング
 category: other
-description: Troubleshooting information for hiyaCFW
+description: hiyaCFWのトラブルシューティング情報
 ---
 
 ## #-2435-8325
-If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing-hiyacfw).
+ニンテンドーDSiが起動時にこのフォーマット（#が数字である）でエラーが表示された場合は、つまりブートステージ2はSDNANDに何か問題があると考えているということです。 これは通常に、[hiyaCFWを再インストールする](installing-hiyacfw)ことによって修正されます。
 
-## "An error has occurred"
-When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
+## 「エラーが発生しました」
+ニンテンドーDSiメニューが問題を検出すると、通常にこの一般的なエラーメッセージが表示されます、原因のいくつかは：
 
-#### The free space bug
-The Nintendo DSi Menu has a bug when checking the free space on large storage devices. While this can't occur on the actual NAND (since the chip is only 256 MiB), it can happen when using an SD card.
+#### 空き容量のバグ
+大容量ストレージデバイスの空き容量を確認する時に、ニンテンドーDSiメニューにバグがあります。 これは実物のNANDでは発生しませんが（チップはわずか256 MiBなので）、SDカードを使用している時に発生する可能性があります。
 
-What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
+何が動作する・しないは、一つ置きの2つのギガバイトの範囲に依存します。 例えば、0〜2GiBの空き容量は動作しますが、2〜4GiBは動作しません。 同じことは、SDカードの容量になるまで、4〜6GiB対6〜8GiBなどに当てはまります。
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+最新のhiyaCFWバージョンでは、これを回避するにはダミーファイルを作成できるため、必ず最新のバージョンの[hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)をダウンロードし、`hiya.dsi`を「for SDNANDSD card」からSDカードのルートにコピーしてください。
 
-#### Over 39 titles
-The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
+#### 40タイトル以上
+ニンテンドーDSiメニューには39タイトルの制限があります。 それ以上のものがある場合は、 `sd:/title`のフォルダからいくつかを削除しますか、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使ってアンインストールしてください。
 
-#### Too much space used by DSiWare
-There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+#### DSiWareの使用する容量が多すぎます
+`00030004`フォルダには、DSiWare用の200ブロック（25MB）の制限もあります。 これは、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用してシステムアプリとしてインストールすることで回避できます。
 
-#### Invalid title
-There are several things you need to take into account when adding titles to hiyaCFW:
-- Game card dumps cannot be run without being using a [forwarder](forwarders)
-- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+#### 無効なタイトル
+hiyaCFWにタイトルを追加する時に考慮する必要があることがいくつかあります：
+- [フォワーダー](forwarders)を使用せずにゲームカードのダンプを実行することができません
+- 自作ソフトは、ニンテンドーDSiメニューから動作するには最新のツールを使用して正しく構築する必要があります。

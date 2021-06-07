@@ -6,7 +6,7 @@ title: hiyaCFW
 description: hiyaCFWのインストールと使用方法に関する情報
 ---
 
-[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) は、SDカードから本体のNAND（内部ストレージ）を実行できるカスタムファームウェアです。
+[hiyaCFW](https://github.com/RocketRobz/hiyaCFW)は、SDカードから本体のNAND（内部ストレージ）を実行できるカスタムファームウェアです。
 
 これにより、ブリックするの危険性なしニンテンドーDSiメニューに独自のアプリをインストールすることができます。これらのアプリはSDカードにインストールされるため、問題を簡単に解決できます。
 

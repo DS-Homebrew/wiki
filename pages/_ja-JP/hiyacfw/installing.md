@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: hiyacfw
-title: Installing
-long_title: Installing hiyaCFW
-description: How to install hiyaCFW on the Nintendo DSi
+title: インストール
+long_title: HiyaCFWのインストール
+description: ニンテンドーDSiにhiyaCFWをインストールする方法
 tabs:
   - 
     windows: Windows
@@ -12,69 +12,69 @@ tabs:
     other: Linux
 ---
 
-Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
+hiyaCFWをインストールした後に本体を更新しませんでください。 そうすると、hiyaCFWのSDパッチを削除されます。
 {: .alert .alert-danger}
 
-### Requirements
-- A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device using dumpTool
-   - If you don't have one, follow the [Dumping NAND](https://dsi.cfw.guide/dumping-nand) guide on dsi.cfw.guide
-- A Windows, macOS, or Linux device
+### 必要条件
+- [Unlaunchがインストールされる](https://dsi.cfw.guide/installing-unlaunch)ニンテンドーDSi
+- dumpToolを使ってデバイスから作成したNANDバックアップ
+   - お持ちでない場合は、dsi.cfw.guideの[NANDのダンプ](https://dsi.cfw.guide/dumping-nand)ガイドに従ってください
+- Windows、macOSまたはLinuxのデバイス
 
-### Part 1: Preparing your PC for installing hiyaCFW
+### その1：hiyaCFWをインストールするためのPCの準備
 {% capture tab-windows %}
-The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+hiyaCFWヘルパーは、Windows Defenderと他のアンチウイルスソフトで誤検知を引き起こすことが知られています。ダウンロードや実行に問題がある場合は一時的にそのプログラムを無効にしてください。
 {: .alert .alert-info}
 
-1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
-   - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. [7-Zip](https://sevenzip.osdn.jp)の最新バージョンをダウンロードしてインストールします
+   - これはWinRARのような他のアーカイブ解凍ツールでは動作しません。hiyaCFWヘルパーは7-Zip自体に依存し、一般なアーカイブ解凍ツールではない
+1. 最新のWindows版[hiyaCFWヘルパー](https://github.com/mondul/HiyaCFW-Helper/releases)をダウンロード
+1. hiyaCFWヘルパーのアーカイブをパソコン上の任意の場所に解凍
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Download the latest macOS version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. 最新のmacOS版[hiyaCFWヘルパー](https://github.com/mondul/HiyaCFW-Helper/releases)をダウンロード
+1. hiyaCFWヘルパーのアーカイブをパソコン上の任意の場所に解凍
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
-1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Install tkinter with the following command for your distro if you don't already have it:
-   - Debian-based: `sudo apt-get install python3-tk`
+1. まだインストールされていない場合は、Python 3をパッケージマネージャを使ってインストールしてください
+1. 最新のPython版[hiyaCFWヘルパー](https://github.com/mondul/HiyaCFW-Helper/releases)をダウンロード
+1. hiyaCFWヘルパーのアーカイブをパソコン上の任意の場所に解凍
+1. まだ持っていません場合は、ディストリビューションための以下のコマンドを使ってtkinterをインストール：
+   - Debianベース：`sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
 {% assign tabs = tab-windows | concat: tab-macos | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Part 2: Adding hiyaCFW files to your SD card
-![Screenshot of the hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+### その2：hiyaCFWのファイルをSDカードに追加
+![hiyaCFWヘルパーのスクリーンショット](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-1. Launch the hiyaCFW Helper
-  - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
-  - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
-  - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says `Done!`, close out of the hiyaCFW Helper
-1. Close the terminal window
+1. hiyaCFWヘルパーを開く
+  - **Windows：** hiyaCFWヘルパーのアーカイブから解凍された`HiyaCFW_Helper.exe`ファイルを起動します（アンチウイルスを一時的に無効にする必要があるかもしれません）
+  - **macOS：**hiyaCFWヘルパーのアーカイブから解凍された`HiyaCFW_Helper`ファイルを右クリックし、`開く`を選択します
+  - **Linux：**hiyaCFWヘルパーのアーカイブから解凍された`HiyaCFW_Helper.py`を起動します
+1. 「NAND file with No$GBA footer」ボックス内の`...`ボタンをクリック
+1. NANDバックアップに移動し、 `Open` をクリック
+1. `Start`をクリック
+1. 新しいポップアップウィンドウで、SDカードのルートに移動し、`OK`をクリック
+   - これは数分かかることがあります
+1. アプリが`Done!`を表示される時に、hiyaCFWヘルパーを閉じる
+1. ターミナルウィンドウを閉じる
 
-### Part 3: Configuring Unlaunch and hiyaCFW
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
-1. Navigate to `OPTIONS`, then `NO BUTTON`
-1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
-   - This will make the system launch hiyaCFW automatically
-1. Save your settings and restart your console
-1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-1. Change the settings to your liking, then press <kbd>START</kbd> to continue
+### その3：Unlaunchとhiyacfwの設定
+1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままニンテンドーDSi本体の電源をオンにする
+   - これはUnlaunchのファイルメニューを開かれます
+1. `OPTIONS`に移動し、`NO BUTTON`
+1. `hiyaCFW`を選択し、<kbd class="face">A</kbd>を押します
+   - これは、本体を自動的にhiyaCFWに起動します
+1. 設定を保存（`SAVE & EXIT`）して本体を再起動します
+1. hiyaCFWの設定をアクセスには、ニンテンドーDSi本体の電源をオンにしながら<kbd>SELECT</kbd>を長押ししてください
+1. 設定を好みに合わせて変更し、<kbd>START</kbd>を押して続けます
 
-If it shows `An error has occurred`, please see the [troubleshooting](troubleshooting#an-error-has-occurred) page.
+`エラーが発生しました`が表示される場合は、[トラブルシューティング](troubleshooting#エラーが発生しました)ページを参照してください。
 {: .alert .alert-warning}
