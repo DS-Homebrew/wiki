@@ -62,6 +62,11 @@ a > code {
 	color: inherit!important;
 }
 
+div.language-bash pre.highlight code::before {
+	content: "$ ";
+	color: var(--code-light);
+}
+
 // .a is for making other things look like <a>s
 a, .a {
 	text-decoration: none;
