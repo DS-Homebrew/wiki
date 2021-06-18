@@ -19,6 +19,6 @@ if(urlFaq) {
 	faq = Array.from(document.getElementById("faq-container").children).filter(r => r.children[0].id == `faq-${urlFaq}`)[0];
 	if(faq) {
 		faq.children[0].click();
-		faq.children[2].scrollIntoView();
+		faq.children[1].scrollIntoView();
 	}
 }
