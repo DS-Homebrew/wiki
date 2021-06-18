@@ -1,0 +1,31 @@
+---
+layout: wiki
+---
+
+{% assign faqs = content | markdownify | split: "<h4 " %}
+
+{% unless faqs[0] contains "</h4>" %}
+	{{ faqs[0] }}
+{% endunless %}
+
+<div class="accordion accordion-flush" id="faq-container">
+	{% assign faqs = faqs | where_exp: "faq", "faq contains '</h4>'" %}
+	{% for faq in faqs %}
+		{% assign id = faq | split: "</h4>" | first | split: ">" | first | replace: "id=", "" | replace: '"', "" %}
+		<div class="accordian-item">
+			<input id="faq-{{ id }}" class="d-none" name="faqs" type="radio">
+			<label for="faq-{{ id }}" onclick="setFaq('{{ id }}')">
+				<h2 class="accordion-header accordion-button collapsed flex-fill">
+					{{ faq | split: "</h4>" | first | split: ">" | last }}
+				</h2>
+			</label>
+			<div class="faq accordion-collapse show">
+				<div class="accordion-body">
+					{{ faq | split: "</h4>" | last }}
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+
+<script src="/assets/js/faq.js"></script>

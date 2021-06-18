@@ -1,6 +1,6 @@
 ---
 lang: en-US
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: FAQ & Troubleshooting

@@ -55,7 +55,11 @@ layout: compress
 					<div class="col-md-9">
 						<h1 class="mb-1">{{ page.long_title | default: page.title }}</h1>
 						<hr class="mt-0">
-						{% include anchor-headings.html html=content anchorBody="<small>#</small>" anchorClass="header-anchor" %}
+						{% if page.layout == "faq" %}
+							{{ content }}
+						{% else %}
+							{% include anchor-headings.html html=content anchorBody="<small>#</small>" anchorClass="header-anchor" %}
+						{% endif %}
 						<div class="alert alert-secondary small-alert" role="alert">
 							{{ site.data[page.collection].strings.need-help }}
 						</div>

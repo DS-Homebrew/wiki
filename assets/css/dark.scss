@@ -15,12 +15,15 @@
 	--a-color: #58a6ff;
 	--small-color: gray;
 	--carousel-caption-bg: #333b;
-	--table-alt-bg: #2a2a2a;
+	--table-alt-bg: #303030;
 	--kbd-bg: #666;
 	--kbd-border: #444;
 	--alert-secondary-bg: #444;
 	--alert-secondary-border: #2f2f2f;
 	--details-bg: #3f3f3f;
+	--active-accordian-bg-color: #393939;
+	--active-accordian-header-color: #222;
+	--active-accordian-header-bg-color: #4477ac;
 
 	// Cards
 	--card-background: #444;
@@ -39,4 +42,15 @@
 	--light: #3f3f3f;
 	--light-border: #292929;
 	--light-placeholder: #999;
+}
+
+// Override FAQ accordian chevron color
+#faq-container input + label > h2::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ddd'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+#faq-container input:checked + label > h2::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23222'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	color: red;
+	transform: rotate(-180deg);
 }
