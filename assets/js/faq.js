@@ -1,7 +1,16 @@
 function setFaq(tab) {
-	let url = new URL(window.location);
-	url.searchParams.set("faq", tab);
-	history.pushState({}, "", url);
+	if(document.getElementById(`faq-${tab}`).checked) {
+		let url = new URL(window.location);
+		url.searchParams.delete("faq");
+		history.pushState({}, "", url);
+		// TODO: This is dumb, try do it better
+		window.setTimeout(() => document.getElementById(`faq-${tab}`).checked = false, 100);
+	} else {
+		let url = new URL(window.location);
+		url.searchParams.set("faq", tab);
+		history.pushState({}, "", url);
+	}
+
 }
 
 // Try get FAQ from URL
