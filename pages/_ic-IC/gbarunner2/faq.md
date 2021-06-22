@@ -1,6 +1,6 @@
 ---
 lang: crwdns18332:0crwdne18332:0
-layout: wiki
+layout: faq
 section: crwdns18336:0crwdne18336:0
 title: crwdns18338:0crwdne18338:0
 long_title: crwdns20810:0crwdne20810:0
