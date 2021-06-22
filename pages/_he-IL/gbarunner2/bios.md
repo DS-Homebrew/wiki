@@ -10,7 +10,7 @@ description: מידע לגבי הBIOS של הGBA וכיצד לחלץ אותו
 
 ### מדריכי חילוץ
 
-- [Wii (לא גרסת הfamily&rlm;) / Gamecube + כבל לינק](https://github.com/FIX94/gba-link-cable-dumper)
+- [Wii (לא גרסת הfamily)/Gamecube + כבל לינק](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS באמצעות רוב כותרי ה](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) Virtual Console (לא כותרי GBA או כותרים שהם לא של נינטנדו (Game Gear))
 - [GBA או DS שמן/לייט עם פלאשקארד של GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 

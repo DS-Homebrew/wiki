@@ -1,6 +1,6 @@
 ---
 lang: es-ES
-layout: wiki
+layout: faq
 section: gbarunner2
 title: Preguntas frecuentes y soluciones
 long_title: Preguntas frecuentes y solución de errores de GBARunner2

@@ -1,6 +1,6 @@
 ---
 lang: fr-FR
-layout: wiki
+layout: faq
 section: nds-bootstrap
 title: FAQ & Troubleshooting
 long_title: nds-bootstrap FAQ & Troubleshooting

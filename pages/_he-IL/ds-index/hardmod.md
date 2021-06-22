@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: Hardmod
-description: How to hardmod a Nintendo DSi
+description: איך לעשות hardmod לNintendo DSi
 tabs:
   - 
     windows: Windows
@@ -14,37 +14,37 @@ tabs:
 המושג Hardmod מתייחס למצב שבו מלחימים ללוח האם של הDSi מתאם לכרטיס SD, על מנת שהוא יוכל להקרא באמצעות מחשב. זה יעיל לשחזור גיבויי NAND, צפייה בNAND על המחשב ועוד...
 
 ### Nintendo DS
-[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![לוח אם של DS מקורי עם נקודות מגע עם תוויות](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi/DSi XL (LL) you will need:
-   - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
-   - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
-   - SD to microSD adapter
-   - An SD card reader able to read eMMC chips running in single data-line mode. [Here's a known working one](https://www.amazon.com/dp/B006T9B6R2)
-   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) and [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) if on Windows
-   - A valid NAND backup of the DSi you are hardmodding
-   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
+בשביל לעשות hardmod לNintendo DSi/DSi XL (LL) תצטרכו:
+   - [מלחם עם ראש עיפרון](https://www.amazon.com/dp/B01N4571Q6)
+   - [חוטים דקים מאוד](https://www.amazon.com/dp/B01MXGNTA4), 28AWG או קטן יותר, עדיפות ל30AWG+
+   - מתאם SD לmicroSD
+   - קורא כרטיסי SD המסוגל לקרוא ציפים מסוג eMMC הרצים במצב data-line בודד. [זה אחד שידוע כמתאים](https://www.amazon.com/dp/B006T9B6R2)
+   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) ו[HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) אם על Windows
+   - גיבוי NAND תקין של הDSi שאתם עושים לו hardmod
+   - נוחות בהלחמה לפדים קטנים, עד ל0.5 מ"מ בקוטר
 
-#### DSi side A pinouts
-[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
-#### DSi side B pinouts
-[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
-#### DSi XL side B pinouts
-[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+#### פינאווט צד A של DSi
+[![פינאווט צד A של DSi](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+#### פינאווט צד B של DSi
+[![פינאווט צד B של DSi](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+#### פינאווט צד B של DSi XL
+[![פינאווט צד B של DSi XL](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- You will need to solder the points on the motherboard to the microSD card adapter
-   - CMD to pin 2
-   - GND to pins 3 and 6
-   - CLK to pin 5
-   - DAT0 to pin 7
+- תצטרכו להלחים את הנקודות על לוח האם אל מתאם הmicroSD
+   - CMD לפין 2
+   - GND לפין 3 ו6
+   - CLK לפין 5
+   - DAT0 לפין 7
 
-#### Soldered microSD adapter example
+#### דוגמה למתאם microSD מולחם
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Insert the microSD card adapter into your computer
-   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
+- הכניסו את מתאם כרטיס הmicroSD אל המחשב
+   - **אזהרה** - Windows יבקש ממכם לפרמט אותו: **אל** תפרמטו אותו - זה עשוי ליצור נזק שלא ניתן לתיקון
 
 #### Removing the no$gba footer
 You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done by running the hiyaCFW helper application found [here](https://github.com/mondul/HiyaCFW-Helper/releases/latest).

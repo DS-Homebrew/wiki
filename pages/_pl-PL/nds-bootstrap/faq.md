@@ -1,10 +1,10 @@
 ---
 lang: pl-PL
-layout: wiki
+layout: faq
 section: nds-bootstrap
-title: FAQ & Troubleshooting
-long_title: nds-bootstrap FAQ & Troubleshooting
-description: FAQ & Troubleshooting for nds-bootstrap
+title: FAQ i Troubleshooting
+long_title: nds-bootstrap FAQ i Rozwiązywanie problemów
+description: FAQ i Rozwiązywanie problemów nds-bootstrap
 ---
 
 #### Dlaczego przy próbie załadowania gry z karty SD pojawia się biały ekran?
@@ -15,7 +15,7 @@ description: FAQ & Troubleshooting for nds-bootstrap
 #### nds-bootstrap troubleshooting
 Jeśli masz problemy z korzystaniem z najnowszej wersji nds-bootstrap, oto jak możesz je rozwiązać.
 
-1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
+1. Uruchom grę z różnymi ustawieniami, w tym zmieniając prędkość procesora ARM9, tryb DS/DSi, jakość dźwięku, DMA odczytu karty itp.
 2. Usuń foldery `fatTable` i `patchOffsetCache` w `sd:/_nds/nds-bootstrap/`
 3. To prawdopodobnie nie jest aż tak duży problem; zapytaj na [serwerze Discord](https://discord.gg/yD3spjv)
 
@@ -27,7 +27,7 @@ Upewnij się również, że dodałeś go do [listy kompatybilności](https://wik
 To jest [znany problem](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) z cloneboota. Proszę czekaj na poprawkę.
 
 #### Dlaczego problemy z ładowaniem ROMów się pojawiają, mimo że są one uruchamiane natywnie?
-nds-bootstrap patchuje funkcje ROMu do uruchamiania z karty SD, jako że ROMy są zakodowane do odczytu z Pola-1. Istnieją również problemy z timingiem i środkami AP (które w większości zostały już usunięte), z których oba spowodowałyby, że ROM-y nie działałyby prawidłowo. Aby poprawić wydajność, nds-bootstrap zmniejsza stertę w pamięci gry, co przerywa niektóre gry, ale zarówno forwardery, jak i TWiLight Menu++ naprawiają niedziałające gry zepsute przez heap shrink.
+nds-bootstrap patchuje funkcje ROMu do uruchamiania z karty SD, jako że ROMy są zakodowane do odczytu z Pola-1. Istnieją również problemy z timingiem i środkami AP (które w większości zostały już usunięte), z których oba spowodowałyby, że ROM-y nie działałyby prawidłowo.
 
 #### Dlaczego warto korzystać z nds-bootstrap zamiast zwykłego flashcard?
 - Niektóre kompatybilne ROM-y są ładowane do pamięci RAM, dzięki czemu czas ładowania jest szybszy niż w przypadku zwykłych kartridży

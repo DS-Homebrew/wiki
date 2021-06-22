@@ -1,6 +1,6 @@
 ---
 lang: sv-SE
-layout: wiki
+layout: faq
 section: gbarunner2
 title: FAQ & Felsökning
 long_title: GBARunner2 FAQ & Felsökning

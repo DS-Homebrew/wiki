@@ -4,35 +4,35 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Jak Dodać Okładki Gier
-description: How to get box art/game covers in TWiLight Menu++
+description: Jak zdobyć okładki pudełek/ gier w TWiLight Menu++
 ---
 
 ### Windows
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. Wypakuj `TwilightBoxart-Windows-UX.zip` i uruchom `TwilightBoxart.exe`
+1. Kliknij `Wykryj SD`
+   - Jeśli nie znajdzie poprawnej karty SD, kliknij `Przeglądaj...` i wybierz właściwą kartę
+1. Zmień rozmiar, obramowanie itp jak ci się żywnie podoba
+1. Kliknij `Start`
+1. Upewnij się, że w ustawieniach TWiLight Menu++ jest ustawiona opcja wyświetlania okładek
 
 ### macOS/Linux
 1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
-1. Type the path to your SD card after `SdRoot=`, then save the file
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI`
-1. Say `Yes` if it shows your SD path correctly
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Wypakuj `.zip`
+1. Otwórz `TwilightBoxart.ini` w wypakowanym folderze w edytorze tekstowym
+1. Wpisz ścieżkę do swojej karty SD po `SdRoot=`, a następnie zapisz plik
+   - Na macOS jest to `/Volumes/` a następnie nazwa twojej karty SD
+1. Otwórz terminal
+1. W terminalu wpisz `cd`, a następnie przeciągnij folder z `TwilightBoxart.CLI` na swój terminal
+1. Uruchom `chmod +x TwilightBoxart.CLI`
+1. Uruchom `./TwilightBoxart.CLI`
+1. Powiedz `Tak`, jeśli pokazuje ścieżkę SD poprawnie
+1. Upewnij się, że w ustawieniach TWiLight Menu++ jest ustawiona opcja wyświetlania okładek
 
-### Manual
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
-1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+### Ręcznie
+1. Pobierz paczkę png box art z [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Wypakuj pliki .png do `sd:/_nds/TWiLightMenu/boxart`
+1. Upewnij się, że w ustawieniach Menu++ TWiLight jest ustawiona opcja wyświetlania okładek
 
 **Aby dodać własne okładki:** Umieść je w `sd:/_nds/TWiLightMenu/boxart`. Nazwą okładki może być TID gry (np. `ASME.png`), albo nazwą pliku gry (np. `SM64DS.nds.png`). Musi być w formacie `.png`, o zalecanym rozmiarze 128x115 i maksymalnym rozmiarze 208x143.
 

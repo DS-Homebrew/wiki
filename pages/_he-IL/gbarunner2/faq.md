@@ -1,6 +1,6 @@
 ---
 lang: he-IL
-layout: wiki
+layout: faq
 section: gbarunner2
 title: שאלות ותשובות & פתרון בעיות
 long_title: שאלות ותשובות & פתרון בעיות עבור GBARunner2

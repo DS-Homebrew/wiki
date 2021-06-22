@@ -11,7 +11,7 @@ A legegyszerűbb módja egy téma egyediesítésének, ha szerkesztjük a png te
 
 A palettás textúrák változásai jobban érintettek. A `grit` és a `background_grit` könyvtáraiban a témának, a különböző kép fájlok szerkeszthetők. Továbbá szükséged lesz a [devkitPro eszköztárára](https://devkitpro.org) telepített GRIT-tel. Ha végeztél a fájljaid szerkesztésével futtatnod kell a
 ```bash
-$ make
+make
 ```
 parancsot, hogy lefordítsd a témádat Grit RIFF formátumra. Ez lefordítja a palettás textúrákat **.grf** formátumra, a `grf` mappába. Ne módosítsd a `.grit` fájlokat addig, amíg nem olvastad a [Fejlett témázás](#advanced-theming) fejezetet lentebb.
 

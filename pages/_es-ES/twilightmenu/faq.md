@@ -1,6 +1,6 @@
 ---
 lang: es-ES
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: Preguntas frecuentes y soluciones

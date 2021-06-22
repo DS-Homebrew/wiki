@@ -1,6 +1,6 @@
 ---
 lang: ja-JP
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: よくある質問とトラブルシューティング

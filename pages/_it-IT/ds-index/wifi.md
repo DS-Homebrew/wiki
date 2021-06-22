@@ -17,7 +17,7 @@ Ci sono guide per la creazione di un hotspot compatibile con DS su computer macO
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-### Restauro Nintendo DS WFC
+### Restauro WFC Nintendo DS
 1. Avvia configurazione Nintendo Wi-Fi Connection
 1. Connettiti al tuo punto di accesso
 1. Imposta il tuo valore DNS primario come uno dei valori sottostanti, a seconda del servizio che vuoi utilizzare:

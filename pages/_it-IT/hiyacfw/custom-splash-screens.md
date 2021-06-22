@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: hiyacfw
-title: Custom Splash Screens
+title: Schermate d'avvio personalizzate
 category: other
-description: How to use custom splash screens with hiyaCFW
+description: Come utilizzare schermate di avvio personalizzate con hiyaCFW
 ---
 
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+Con hiyaCFW puoi usare le schermate d'avvio personalizzate nei formati `.bmp` o `.gif`. Devono andare nella cartella `sd:/hiya` e devono essere chiamati `splashtop` per lo schermo superiore e `splashbottom` per quello inferiore, con l'estensione del file appropriata, poi assicurati che la schermata d'avvio sia abilitata nella configurazione. Le immagini non hanno bisogno di essere nello stesso formato, quindi una può essere BMP e l'altra GIF, le GIF hanno la priorità su i file BMP. Di seguito sono riportati alcuni dettagli sui requisiti per il funzionamento delle immagini:
 
 ### BMP
-- 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 16 bit (RGBA 1555, RGB 1555 o RGB 565)
+- 256 x 192 o più piccole
 
 ### GIF
-- Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
-- If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
-- If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
-- Interlaced and plain text frames are ***not*** supported
-- Local color tables are supported, but will replace the whole palette, including residual image from previous frames, so images using them will likely have palette problems
+- Risposta semplice: la maggior parte delle GIF 256 x 192 o più piccole funzionerà
+- Possono essere animate, ma dovrebbero rimanere sotto 1 MiB per prestazioni ideali e devono essere sotto circa 10 MiB tra i due massimi assoluti
+- Se entrambe vanno in loop all'infinito, saranno mostrate per 3 secondi, altrimenti saranno mostrate fino a quando entrambe non saranno completate
+- Se un frame ha impostato il flag di input dell'utente, attenderà che il ritardo si esaurisca o che venga premuto qualsiasi pulsante, a seconda di quale sia il primo
+- I quadri di testo semplici e interlacciati non ***sono*** supportati
+- Le tabelle di colore locali sono supportate, ma sostituiranno l'intera palette, inclusa l'immagine residua dai frame precedenti, quindi le immagini che li usano avranno probabilmente problemi di palette

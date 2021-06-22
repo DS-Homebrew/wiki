@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: reference
 title: רומים רשמיים
-description: Information related to retail DS games
+description: מידע לגבי משחקי DS רשמיים
 ---
 
 ### Anti-Piracy (נוגד פיראטיות)
@@ -16,24 +16,24 @@ description: Information related to retail DS games
 במקרה בו אין קובץ `.ips` לROM שלכם או שהתוכנה לא עקפה את הAP, אפשר לנסות לשנות את הROM עצמו באמצעות [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
 ### Cloneboot
-Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
+Cloneboot זה כאשר משחק שולח את הבינארים של ARM7 וARM9 שלו למכשיר אחר. זה בשימוש בDS Download עבור משחקים בעלי מולטפלייר עם קלטת אחת. אך לא כל המשחקים שיש להם מולטפלייר עם קלטת אחת משתמשים בcloneboot.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
+כרגע, הפאטצים עבור cloneboot בnds-bootstrap שבורים מאחר והבינארים עבור ARM7 וARM9 עברו פאטץ, דבר המוביל לכך שחתימות הRSA לא תקינות.
 
-### Save files
-Nintendo DS cartridges have 4 known save types:
+### קבצי שמירה
+לקלטות של Nintendo DS יש 4 סוגי שמירה ידועים:
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+הם נדירים אומנם, אך ישנם קלטות DS עם שמירות מבוססות NAND: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+ישנם פורמטים שונים בשימוש בהתאם לאופן הטעינה, אבל nds-bootstrap משתמש בפורמט הגולמי `.sav`. אם אתם משתמשים בפורמט אחר, הנה אתר שנותן לכם להמיר אותו: http://www.shunyweb.info/convert.php
 
 ### Assembly
-Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses. You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
+שפת אסמבלי זאת כל שפת תכנות ברמה נמוכה עם חיבור חזק בין ההוראות בשפה להוראות של המעבד. בDS, קוד אסמבלי מגיע בצורה של הוראות ARM או הוראות THUMB, כאשר הוראות THUMB הם תת קבוצה של הוראות ARM. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses. You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
 
 ### Card read DMA
 Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.

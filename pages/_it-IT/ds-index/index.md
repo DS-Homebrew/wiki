@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: ds-index
 title: Indice Modding Nintendo DS

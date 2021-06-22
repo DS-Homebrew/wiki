@@ -48,7 +48,7 @@ Flashcards mogą korzystać z kodów cheatów poprzez użycie baz danych cheató
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/cyfrowe rozwiązania mogą również korzystać z baz danych cheatów, obecnie dostępne oprogramowanie może korzystać z następujących elementów:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax pozwala na używanie cheatów z prawdziwymi kartami gier z flashcard. Silnik użyty tutaj ładuje całą bazę danych cheats.xml do ograniczonej pamięci RAM Nintendo DS i próbuje zarządzać wszystkim stamtąd. To nakłada poważne ograniczenie na ilość cheatów, które możesz mieć, ponieważ NitroHax nie załaduje pliku cheats.xml większego niż 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([fork usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` bądź `usrcheat.dat`)
@@ -56,7 +56,6 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
    - TWiLight Menu++ odczytuje `usrcheat.dat` i wysyła włączone wartości cheatów do innego pliku, który odbiera nds-bootstrap
    - Silnik cheatów użyty w nds-bootstrap jest oparty na tym z NitroHax. Jednakże, z powodu pliku cheatów zawierającego tylko cheaty dla danego tytułu, istnieje limit ilości cheatów, które mogą być aktywowane, a nie limit wielkości bazy danych
-   - Bootstrap 4 DS (wersja nds-bootstrap używana na flashcardach) nie obsługuje cheatów, z powodu niewystarczającej ilości pamięci RAM i ograniczeń Memory Expansion Pack
 
 Aby uzyskać najkompletniejszą bazę cheatów, zalecamy skorzystanie z bazy stworzonej przez DeadSkullzJr zatytułowanej [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 

@@ -1,30 +1,30 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: hiyacfw
-title: Forwarders
+title: Forwardery
 category: other
-description: How to use nds-bootstrap forwarders with hiyaCFW
+description: Jak używać forwarderów nds-bootstrap z hiyaCFW
 ---
 
-### Requirements
-- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
-- The latest release of [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
+### Wymagania
+- Nintendo DSi z zainstalowanym [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing) i [TWiLight Menu++](/twilightmenu/installing-dsi)
+- Najnowsza wersja [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
-### Instructions
-1. Extract *the contents of* `MakeForwarder.zip` to the root of your SD card
-1. Launch TWiLight Menu++
-1. Launch the Nintendo DS ROM you want to create a forwarder for
-1. Once the ROM boots, turn off your console
-   - If it does not work, please follow the nds-bootstrap troubleshooting guide
-1. Launch hiyaCFW
-1. Once in the Nintendo DSi Menu, unwrap and launch "Forwarder Maker"
-1. Set your target bootstrap depending on what your application is:
-   - **Retail ROM:** `sd:/_nds/nds-bootstrap-release.nds`
+### Instrukcje
+1. Wyodrębnij *zawartość* `MakeForwarder.zip` do katalogu głównego karty SD
+1. Uruchom TWiLight Menu++
+1. Uruchom ROM Nintendo DS, dla którego chcesz utworzyć forwarder
+1. Gdy ROM się uruchomi, wyłącz konsolę
+   - Jeśli to nie zadziała, postępuj zgodnie z przewodnikiem rozwiązywania problemów z nds-bootstrap
+1. Uruchom hiyaCFW
+1. Po wejściu do menu Nintendo DSi, rozpakuj i uruchom "Forwarder Maker"
+1. Ustaw swój docelowy bootstrap w zależności od tego, czym jest twoja aplikacja:
+   - **ROM Retail:** `sd:/_nds/nds-bootstrap-release.nds`
    - **Homebrew:** `sd:/_nds/nds-bootstrap-hb-release.nds`
-1. Select `create forwarder` and navigate to the location of your ROM
+1. Wybierz `utwórz forwarder` i przejdź do lokalizacji ROMu
 
-Repeat step 7 and 8 until you have created all desired forwarders.
-- You do not need to reset the target bootstrap if using the same type of ROM
+Powtarzaj kroki 7 i 8 aż do utworzenia wszystkich żądanych forwarderów.
+- Nie trzeba resetować docelowego bootstrapu, jeśli używa się tego samego typu ROM
 
-Once you've installed forwarders for all of your ROMs, reboot the system and launch hiyaCFW. They should now appear in gift boxes.
+Po zainstalowaniu forwarderów dla wszystkich twoich ROM uruchom ponownie system i uruchom hiyaCFW. Powinny pojawić się teraz jako prezenty.

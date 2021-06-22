@@ -10,7 +10,7 @@ Pour que GBARunner2 puisse charger des jeux, une copie du BIOS GBA est nécessai
 
 ### Tutoriels de dumping
 
-- [Wii (pas l"édition familiale) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [Wii (not family edition)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS utilisant la plupart des jeux Console Virtuelle](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (ne peut pas être des titres GBA ou non-Nintendo (Game Gear))
 - [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 

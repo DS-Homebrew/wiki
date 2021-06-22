@@ -10,7 +10,7 @@ För att GBARunner2 ska kunna ladda titlar krävs en dump av GBA BIOS. Nyare ver
 
 ### Dumping guider
 
-- [Wii (inte family edition) / GameCube + länkkabel dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [Wii (not family edition)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS med de flesta Virtual Console titlarna](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (Kan inte vara GBA eller icke-Nintendo (Game Gear) Virtual Console titlar)
 - [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 

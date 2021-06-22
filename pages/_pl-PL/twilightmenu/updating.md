@@ -10,7 +10,7 @@ description: Jak zaktualizować TWiLight Menu++ (strona indeksu)
 
 Proces aktualizacji TWiLight Menu++ zależy od tego, czy korzystasz z Nintendo DSi, Nintendo 3DS, czy z flashcard Nintendo DS. Wybierz stronę dla konsoli z której korzystasz.
 
-### 3DS/2DS
+### 3DS / 2DS
 Jeśli korzystasz z 3DS lub 2DS (z wewnętrznej karty SD), postępuj zgodnie z instrukcjami [3DS](updating-3ds).
 
 [![Nintendo 3DS](/assets/images/consoles/old3ds.png)](updating-3ds) [![Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](updating-3ds) [![Nintendo 2DS](/assets/images/consoles/2ds.png)](updating-3ds)

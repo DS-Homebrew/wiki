@@ -52,7 +52,7 @@ Jeśli masz jakieś problemy, sprawdź FAQ na [GBAtemp thread](https://gbatemp.n
 3DS:
 
 {% capture flashcards %}
-Zalecane flashcarty to DSTT i Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. Jedynym minusem jest szybsze rozładowywanie baterii systemowej.
+Zalecane flashcarty to DSTT i Acekard 2i. Jeśli zależy Ci na doskonałej kompatybilności z grami, kup SuperCard DSTWO / DSTWO PLUS. Jedynym minusem jest szybsze rozładowywanie baterii systemowej.
 
 Jeśli masz flashcard, kompatybilny z Apache Thunder's NTR Launcher, nie krępuj się poprosić o niego [na GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Pamiętaj, aby określić, z której wersji korzystaszu(Normal czy Alt) i czy `RESETSLOT1` jest ustawiony na `0` czy `1` w `sd:/nds/ntr_launcher.ini`.
 
@@ -126,12 +126,12 @@ PC:
 
 Po wyodrębnieniu pakietu dla swojej karty, możesz edytować `sd:/_nds/ntr_forwarder.ini`, aby zmienić ustawienia. Nie jest to możliwe dla Acekard RPG, R4 DS, i R4i Gold RTS.
 - `NTRCLOCK`: Jeśli ustawiony na `0` lub gdy przycisk <kbd class="face">A</kbd> jest przytrzymane, pojawi się ekran startowy DSi zamiast normalnego splashu DS, i prędkość zegara TWL jest używana, więc lagi precz
-- `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
+- `ROZBIERANIEANIMACJI`: W przypadku ustawienia `1` lub przytrzymania <kbd class="face">B</kbd> ekran startowy DS/DSi jest pomijany
 - `HEALTHSAFETYMSG`: Jeśli ustawiony na `1`, wiadomość o zdrowiu i bezpieczeństwie ekranu startowego pojawi się na dolnym ekranie, w przeciwnym razie dolny ekran pozostaje biały bez wiadomości o zdrowiu i bezpieczeństwie
 
 ### Część 2: Pobieranie plików poprawek AP z TWiLight Menu++
 Jeśli masz już TWiLight Menu++, przejdź do następnej części.
-1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Pobierz najnowszy [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. W pliku 7z, przejdź do `_nds/TWiLightMenu/`
 1. Skopiuj folder `apfix` do `sd:/_nds/ntr-forwarder/` na karte SD twojego 3DS
 
@@ -146,7 +146,7 @@ Jeśli masz już TWiLight Menu++, przejdź do następnej części.
 1. Kliknij na folder w prawym górnym rogu i wybierz ROM-y, dla których chcesz zrobić forwardery lub przeciągnij je na okno
    - **UWAGA:** ROMy muszą znaleźć się na karcie SD podczas ich wybierania, i nie mogą być przeniesione bez odtworzenia forwarderów
    - **Użytkownicy kart SD:** Jeśli twój plik zapisu znajduje się w tym samym folderze co ROM, przenieś go do folderu o nazwie `saves`, przy czym folder `saves` powinien znajdować się w tym samym miejscu co ROM
-1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
+1. Jeśli grasz w hack/przetłumaczenie gry DSi-Enhanced, której banner/tytuł został edytowany, znajdź banner dla tej gry [tutaj](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kliknij prawym przyciskiem myszy na grę w Forwarder3-DS, kliknij `Import banner` i kliknij na banner, który chcesz użyć
 1. Jeśli używasz homebrew ROM, kliknij na niego, a następnie wyczyść `Tytuł gry` i wpisz nowy tytuł gry
 1. Kliknij przycisk dyskietki, aby wygenerować CIA dla forwardera
 1. Skopiuj CIA na kartę SD Twojego 3DS-a, a następnie zainstaluj je za pomocą FBI

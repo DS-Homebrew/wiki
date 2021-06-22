@@ -1,6 +1,6 @@
 ---
 lang: hu-HU
-layout: wiki
+layout: faq
 section: nds-bootstrap
 title: GYIK & hibaelhárítás
 long_title: nds-bootstrap GYIK & helyreállítás
@@ -27,7 +27,7 @@ Továbbá ne felejtsd el hozzáadni a [kompatibilitási listához](https://wiki.
 Ez egy [ismert hibája](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) a cloneboot-nak. Kérjük várj a javítására.
 
 #### Miért vannak problémák a ROM betöltéssel, ha natívan futnak?
-Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. Van néhány időzítési és AP intézkedés (amik nagy része már eltávolított), mind a kettő okozhatja, hogy a ROM-ok nem megfelelően működnek. A teljesítmény fokozásához az nds-bootstrap zsugorítja a játék halom méretét a memóriában, ami eltör néhány játékot, habár a forwarderek és a TWiLight Menu++ rendelkezik halom zsugorítás fekete listával, hogy javítsa a halom zsugorítás miatt nem működő játékokat.
+Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. Van néhány időzítési és AP intézkedés (amik nagy része már eltávolított), mind a kettő okozhatja, hogy a ROM-ok nem megfelelően működnek.
 
 #### Miért használjak nds-bootstrap-et a hagyományos flashcard helyett?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a RAM-ba, gyorsabb betöltési időket lehetővé téve mint a normál cartridge-eké

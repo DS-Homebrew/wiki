@@ -8,7 +8,7 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 ---
 
 - בתוכנות ומשחקים של Nintendo DS, אפשר להשתמש רק בהגדרות אבטחה של WEP ובWIFI ללא אבטחה
-- On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
+- באפליקציות Nintendo DSi-Enhanced או אקסלוסיביות שרצו במצב DSi, יש לכם את האופציות הנוספות של אבטחת WPA וWPA2
 
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
@@ -34,15 +34,15 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 1. הורידו את [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
 1. העתיקו את הROM של המשחק שאתם רוצים להתקין עליו את הפאטץ לאותה תיקיה שבה נמצא WFCPatcher ופתחו את תיקיה זו
 1. צרו קובץ טקסט
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
-   - You can replace wiimmfi.de with another URL, if you wish to use a different server
-   - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name
-1. Now drag all the ROMs you wish to patch on to patch.bat
-1. Done! the patched ROMs will be the ones ending in (wiimmfi)
+1. בקובץ, כתבו `wfcpatcher.exe %1 --domain wiimmfi.de` ושמרו את הקובץ עם השם `patch.bat`, ואז סגרו את החלון
+   - אתם יכולים להחליף את wiimmfi.de עם URL אחר, אם אתם רוצים להשתמש בשרת אחר
+   - אם הקובץ עדיין נראה כמו קובץ טקסט, [אפשרו סיומות לשמות קבצים ](https://dsi.cfw.guide/file-extensions-%28windows%29) ומחקו את `.txt` משם הקובץ
+1. עכשיו גררו את כל הרומים שאתם רוצים לעשות להם פאטץ על patch.bat
+1. זהו! הרומים עם הפאטץ יהיו אלו שהשם שלהם נגמר ב(wiimmfi)
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
+אל תשכחו למחוק DNSים שאולי הגדרתם בהגדרות Wi-Fi שלכם לפני שאתם מנסים להתחבר עם הרום שעבר פאטץ.
 
-### Troubleshooting and further reading
-If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### פתרון בעיות וקריאה נוספת
+אם אתם מקבלים שגיאות כלשהן, אתם יכולים להכניס אותם ב[פותר בעיות](https://wiimmfi.de/error) של Wiimmfi לדרכים לפתרון.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+לפתרון בעיות מסויימות יותר ולמידע נוסף, לדוגמת איך להתחבר לרשת עם אימולטורים או על שימוש בNintendo Wi-Fi USB Connector, תוכלו לקרוא את [מדריך של Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) שנכתב על ידי משתמשים של [Mario Kart DS Network](https://discord.gg/pa9bea6).

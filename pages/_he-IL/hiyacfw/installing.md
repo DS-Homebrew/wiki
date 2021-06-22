@@ -3,8 +3,8 @@ lang: he-IL
 layout: wiki
 section: hiyacfw
 title: התקנה
-long_title: Installing hiyaCFW
-description: How to install hiyaCFW on the Nintendo DSi
+long_title: התקנת hiyaCFW
+description: איך להתקין את hiyaCFW על Nintendo DSi
 tabs:
   - 
     windows: Windows
@@ -12,69 +12,69 @@ tabs:
     other: Linux
 ---
 
-Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
+אל תעדכנו את המכשיר לאחר התקנת hiyaCFW. זה יסיר את כל הפאטצים של הSD מhiyaCFW.
 {: .alert .alert-danger}
 
 ### דרישות
-- A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device using dumpTool
-   - If you don't have one, follow the [Dumping NAND](https://dsi.cfw.guide/dumping-nand) guide on dsi.cfw.guide
-- A Windows, macOS, or Linux device
+- מכשיר Nintendo DSi עם [Unlaunch מותקן](https://dsi.cfw.guide/installing-unlaunch)
+- גיבוי NAND מהמכשיר שלכם שנוצר באמצעות dumpTool
+   - אם אין לכם, עקבו אחר [חילוץ NAND](https://dsi.cfw.guide/dumping-nand)
+- מכשיר עם Windows, macOS או Linux
 
-### Part 1: Preparing your PC for installing hiyaCFW
+### שלב 1: הכנת המחשב שלכם להתקנת hiyaCFW
 {% capture tab-windows %}
-The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+הhiyaCFW Helper ידוע שגורם לWindows Defender ולתוכנות אנטי וירוס אחרות לתת התראה חיובית שגויה. בבקשה תכבו באופן זמן את התוכנות האלה במידה ויש לכם בעיה להוריד או להריץ אותה.
 {: .alert .alert-info}
 
-1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
-   - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. הורידו & התקינו את הגרסה האחרונה של [7-Zip](https://www.7-zip.org/download.html)
+   - זה לא יעבוד עם אף תוכנת חילוץ אחרת, לדוגמת WinRAR, מאחר וhiyaCFW helper תלוי ב7-Zip עצמו ולא בתוכנת חילוץ כללית
+1. הורידו את הגרסה האחרונה לWindows של [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. חלצו את hiyaCFW Helper למיקום כלשהוא על המחשב שלכם
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Download the latest macOS version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. הורידו את הגרסה האחרונה לmacOS של [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. חלצו את hiyaCFW Helper למיקום כלשהוא על המחשב שלכם
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
-1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Install tkinter with the following command for your distro if you don't already have it:
-   - Debian-based: `sudo apt-get install python3-tk`
+1. התקינו Python 3 באמצעות מנהל החבילות אם הוא לא מותקן כבר
+1. הורידו את הגרסת Pyhon של [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. חלצו את hiyaCFW Helper למיקום כלשהוא על המחשב שלכם
+1. התקינו את tkinter באמצעות הפקודה הבאה בהתאם לגרסה שלכם אם אין לכם את זה עדיין:
+   - מבוסס Debian: `sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
 {% assign tabs = tab-windows | concat: tab-macos | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Part 2: Adding hiyaCFW files to your SD card
-![Screenshot of the hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+### חלק 2: הוספת קבצי hiyaCFW לכרטיס הSD שלכם
+![צילום מסך של hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-1. Launch the hiyaCFW Helper
-  - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
-  - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
-  - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says `Done!`, close out of the hiyaCFW Helper
-1. Close the terminal window
+1. הפעילו את hiyaCFW Helper
+  - **Windows:** הפעילו את הקובץ `HiyaCFW_Helper.exe` שחולץ מהקובץ המכווץ hiyaCFW Helper (ייתכן שתצטרכו לכבות באופן זמני את האנטי וירוס שלכם)
+  - **macOS:** לחצו על המקש הימני בעכבר על הקובץ `HiyaCFW_Helper` שחולץ מהקובץ המכווץ hiyaCFW Helper ובחרו ב`Open`
+  - **Linux:** הפעילו את `HiyaCFW_Helper.py` שחולץ מהקובץ המכווץ hiyaCFW Helper
+1. לחצו על הכפתור `...` בתיבה "NAND file with No$GBA footer"
+1. נווטו לגיבוי הNAND שלכם, ולחצו על `Open`
+1. לחצו על `Start`
+1. בחלון החדש שיפתח, נווטו לכרטיס הSD שלכם, ולחצו על `OK`.
+   - זה עשוי להימשך כמה דקות
+1. כאשר האפליקציה אומרת `Done!`, סגרו את hiyaCFW Helper
+1. סגרו את חלון הטרמינל
 
-### Part 3: Configuring Unlaunch and hiyaCFW
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
-1. Navigate to `OPTIONS`, then `NO BUTTON`
-1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
-   - This will make the system launch hiyaCFW automatically
-1. Save your settings and restart your console
-1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-1. Change the settings to your liking, then press <kbd>START</kbd> to continue
+### חלק 3: הגדרת Unlaunch וhiyaCFW
+1. הדליקו את הNintendo DSi שלכם בזמן שאתם מחזיקים את <kbd class="face">A</kbd> ואת <kbd class="face">B</kbd>
+   - זה אמור להביא אתכם לתפריט הקבצים של Unlaunch
+1. נווטו ל`OPTIONS` ואז ל`NO BUTTON`
+1. בחרו ב`hiyaCFW` ולחצו על <kbd class="face">A</kbd>
+   - זה יגרום למערכת להפעיל את hiyaCFW באופן אוטומטי
+1. שמרו את ההגדרות ואתחלו את המכשיר
+1. החזיקו <kbd>SELECT</kbd> בזמן שאתם מדליקים את הNintendo DSi שלכם בשביל לגשת להגדרות של hiyaCFW
+1. שנו את ההגדרות לפי רצונכם, ולחצו על <kbd>START</kbd> בשביל להמשיך
 
-If it shows `An error has occurred`, please see the [troubleshooting](troubleshooting#an-error-has-occurred) page.
+אם זה מראה `An error has occurred`, בבקשה עקבו אחרי העמוד [פתרון בעיות](troubleshooting#an-error-has-occurred).
 {: .alert .alert-warning}

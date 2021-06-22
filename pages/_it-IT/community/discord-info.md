@@ -3,7 +3,7 @@ lang: it-IT
 layout: wiki
 section: community
 category: discord
-title: Informazioni Hacking DS⁽ⁱ⁾ Mode
+title: Informazioni DS⁽ⁱ⁾ Mode Hacking
 description: Informazioni su il server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 

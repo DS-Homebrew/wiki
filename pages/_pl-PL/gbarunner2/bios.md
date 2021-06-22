@@ -6,13 +6,13 @@ title: GBA BIOS Info
 description: Informacje o GBA BIOS i jak go zrzucić
 ---
 
-Aby GBARunner2 mógł załadować tytuły, konieczny jest zrzut GBA BIOS. Nowsze wersje GBARunner2 (z najnowszym wydaniem TWiLight Menu++) mają wbudowany [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios). Jednakże, ponieważ nie jest to dokładna kopia, użycie zrzutu oficjalnego BIOS-u zwiększa kompatybilność. Możesz zrzucić oficjalny BIOS GBA za pomocą jednej z poniższych metod.
+Aby GBARunner2 mógł załadować tytuły, konieczny jest zrzut BIOS GBA. Nowsze wersje GBARunner2 (z najnowszym wydaniem TWiLight Menu++) mają wbudowany [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios). Jednakże, ponieważ nie jest to dokładna kopia, użycie zrzutu oficjalnego BIOS-u zwiększa kompatybilność. Możesz zrzucić oficjalny BIOS GBA za pomocą jednej z poniższych metod.
 
 ### Wskazówki dotyczące Dumpu
 
-- [Wii (not family edition) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS wykorzystujący większość tytułów Wirtualnej Konsoli](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (nie mogą być to gry gba lub tytuły Wirtualnej Konsoli nie wydanych przez Nintendo)
-- [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [Wii (not family edition)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [3DS wykorzystujący większość tytułów Wirtualnej Konsoli](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (nie mogą być to gry GBA lub tytuły Virtual Console niewydane przez Nintendo (Game Gear))
+- [GBA lub DS Phat / Lite z flashcartem GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 
 Po zrzuceniu BIOS-u należy zmienić jego nazwę na `bios.bin`, a następnie umieścić go w `sd:/`, `sd:/gba/` lub `sd:/_gba/`, aby GBARunner2 mógł go odczytać.
 

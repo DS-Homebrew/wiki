@@ -11,7 +11,7 @@ Informacje o [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), przeglądark
 ### FAQ & Troubleshooting
 
 #### Jak ominąć ekran "montowanie dysku(ów)" podczas uruchamiania systemu?
-This happens when you launch GodMode9i from [hiyaCFW](/hiyacfw). Możesz przytrzymać X podczas uruchamiania GodMode9i, aby pominąć montowanie NAND. Alternatywnie, można uruchomić GodMode9i bezpośrednio z unlaunch, aby móc zamontować NAND.
+Dzieje się tak, gdy uruchamiasz GodMode9i z [hiyaCFW](/hiyacfw). Możesz przytrzymać X podczas uruchamiania GodMode9i, aby pominąć montowanie NAND. Alternatywnie, można uruchomić GodMode9i bezpośrednio z unlaunch, aby móc zamontować NAND.
 
 #### Dlaczego nie mogę zrzucić gier na DSi?
 Musisz mieć zainstalowany Unlaunch, by móc zrzucać gry na kartę SD. Możesz zainstalować Unlaunch podążając za [dsi.cfw.guide](https://dsi.cfw.guide/).

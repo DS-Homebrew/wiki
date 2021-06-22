@@ -4,7 +4,7 @@ layout: wiki
 section: hiyacfw
 title: Telepítés
 long_title: A hiyaCFW telepítése
-description: How to install hiyaCFW on the Nintendo DSi
+description: Hogyan telepítsd a hiyaCFW-t Nintendo DSi-ra
 tabs:
   - 
     windows: Windows
@@ -18,16 +18,16 @@ Ne frissítsd a rendszert a hiyaCFW telepítése után. Az eltávolítja a hiyaC
 ### Követelmények
 - Egy Nintendo DSi telepített [Unlaunch](https://dsi.cfw.guide/installing-unlaunch)-csel
 - Egy a dumpTool-lal készült NAND mentés az eszközödről
-   - If you don't have one, follow the [Dumping NAND](https://dsi.cfw.guide/dumping-nand) guide on dsi.cfw.guide
+   - Ha még nem rendelkezel vele, kövesd a [NAND dumpolása](https://dsi.cfw.guide/dumping-nand) lépéseket a dsi.cfw.guide oldalon
 - Egy Windows, macOS vagy Linux eszköz
 
 ### I. rész - A PC-d előkészítése a hiyaCFW telepítéséhez
 {% capture tab-windows %}
-The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+A hiyaCFW Helper fals pozitív a Windows Defender és más antivírus programokban, így kérjük átmenetileg kapcsold ki ezeket, ha problémád van a letöltésével vagy a futtatásával.
 {: .alert .alert-info}
 
 1. Töltsd le & telepítsd a [7-Zip](https://www.7-zip.org/download.html) legutolsó verzióját
-   - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
+   - Ez nem fog működni más kicsomagoló eszközzel, mint például a WinRAR, mert a hiyaCFW helper a 7-Zip-en alapul, és nem egy általános tömörítőn
 1. Töltsd le az [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) legfrissebb Windows kiadását
 1. Csomagold ki a hiyaCFW Helper archívot bárhova a számítógépeden
 {% endcapture %}
@@ -43,8 +43,8 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 1. Telepítsd a Python 3-at a csomagkezelőddel, ha még nincs telepítve
 1. Töltsd le az [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) legfrissebb Python verzióját
 1. Csomagold ki a hiyaCFW Helper archívot bárhova a számítógépeden
-1. Install tkinter with the following command for your distro if you don't already have it:
-   - Debian-based: `sudo apt-get install python3-tk`
+1. Telepítsd a tkinter-t a következő paranccsal a disztibúciódra, ha még nem lenne telepítve:
+   - Debian-alapon: `sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 

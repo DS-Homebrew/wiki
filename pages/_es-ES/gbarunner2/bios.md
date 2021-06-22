@@ -10,7 +10,7 @@ Para que GBARunner2 pueda lanzar juegos, se se necesita una copia de la BIOS de 
 
 ### Guías de Volcado
 
-- [Wii (no la Family Edition) / GameCube + Link Cable Dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [Wii (not family edition)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS para la mayoría de títulos de la Virtual Console](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (no pueden ser de GBA o títulos que no sean de Nintendo (Game Gear))
 - [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 

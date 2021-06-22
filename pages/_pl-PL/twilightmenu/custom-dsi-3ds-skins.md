@@ -3,7 +3,7 @@ lang: pl_PL
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to Create DSi/3DS Skins
+title: Jak tworzyć skórki DSi/3DS
 description: Jak tworzyć własne skórki DSi i 3DS dla TWiLight Menu++
 ---
 
@@ -11,7 +11,7 @@ Najprostszym sposobem dostosowania motywu jest edycja tekstur png w folderach `u
 
 Zmiany w teksturach paletowych są bardziej skomplikowane. W folderach motywu `grit` i `background_grit` można edytować różne pliki graficzne. Będziesz również potrzebował [devkitPro's toolchains](https://devkitpro.org) z zainstalowanym GRIT. Po zakończeniu edycji plików, należy je uruchomić
 ```bash
-$ make
+make
 ```
 w celu kompresji motywów do formatu Grit RIFF. Spowoduje to skompresowanie twoich paletowych tekstur do formatu **.grf** w folderze `grf`. Nie wprowadzaj zmian w plikach `.grit` dopóki nie przeczytasz [zaawansowanego motywu](#advanced-theming) (rozdział poniżej).
 
@@ -128,4 +128,4 @@ Tekstury paletyzowane nie są sprawdzane pod kątem ważności. Nieprawidłowa t
 
 ## Własne efekty muzyczne i dźwiękowe w tle
 
-Menu DSi i motywy 3DS również obsługują własną muzykę. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+Menu DSi i motywy 3DS również obsługują własną muzykę. Zobacz [SkórkiDSi/3DS - Custom SFX](custom-dsi-3ds-sfx) po więcej szczegółów.

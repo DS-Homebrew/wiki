@@ -3,11 +3,11 @@ lang: he-IL
 layout: wiki
 section: hiyacfw
 title: hiyaCFW
-description: Information on how to install and use hiyaCFW
+description: מידע לגבי התקנה ושימוש בhiyaCFW
 ---
 
-[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) is a custom firmware that will allow you to run your system NAND (internal storage) off of your SD card.
+[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) היא קושחה מותאמת אישית המאפשר לכם להריץ את NAND המערכת (האחסון הפנימי) מכרטיס הSD שלכם.
 
-This allows you to install your own apps to the Nintendo DSi Menu without risk of bricking, as they’re installed to the SD card so problems can fixed easily.
+זה מאפשר לכם להתקין את האפליקציות שלכם לתפריט הNintendo DSi ללא חשש של בריקים, מאחר והם מותקנים לכרטיס הSD כך שניתן לפתור בעיות בקלות.
 
-It also allows easy installation of homebrew applications to the DSi Menu and displaying a custom splash screen on boot.
+זה מאפשר גם התקנה של אפליקציות הומברו לתפריט הDSi ולהציג מסך פתיחה מותאם אישית בעליית המכשיר.

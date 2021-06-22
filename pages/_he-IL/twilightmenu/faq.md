@@ -1,6 +1,6 @@
 ---
 lang: he-IL
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: שאלות ותשובות & פתרון בעיות

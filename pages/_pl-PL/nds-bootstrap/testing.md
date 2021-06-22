@@ -2,8 +2,8 @@
 lang: pl-PL
 layout: wiki
 section: nds-bootstrap
-title: Compatibility List & Testing Tips
-description: Compatibility list and tips for testing games
+title: Lista kompatybilności i Porady dotyczące testowania
+description: Lista kompatybilności i wskazówki dotyczące testowania gier
 ---
 
 ### Lista kompatybilności

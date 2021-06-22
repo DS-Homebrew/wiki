@@ -11,7 +11,7 @@ Det enklaste sättet att anpassa ett tema är genom att redigera png texturerna 
 
 Förändringar i paletterade texturer är mer involverade. Inom temarnas mappar `grit` och `background_grit` kan de olika bildfilerna redigeras. Du kommer också att behöva [devkitPros toolchains](https://devkitpro.org) med GRIT installerat. När du har redigerat dina filer måste du köra
 ```bash
-$ make
+make
 ```
 för att sammanställa dina teman till Grit RIFF Format. Detta kommer att sammanställa dina palettade texturer till **.grf**-format i mappen `grf`. Gör inte ändringar i `.grit` filerna förrän du har läst avsnittet [Avancerat tema](#advanced-theming) nedan.
 

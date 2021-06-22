@@ -1,32 +1,32 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: wiki
 section: hiyacfw
 title: Troubleshooting
 category: other
-description: Troubleshooting information for hiyaCFW
+description: Informacje o rozwiązywaniu problemów dla hiyaCFW
 ---
 
 ## #-2435-8325
-If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing-hiyacfw).
+Jeśli twoje Nintendo DSi pokazuje błąd w tym formacie podczas uruchamiania, z # będącym liczbą, oznacza to, że bootstage 2 myśli, że coś jest nie tak z SDNAND. Usterka ta zazwyczaj znika przy [reinstalacji hiyaCFW](installing-hiyacfw).
 
-## "An error has occurred"
-When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
+## "Wystąpił błąd"
+Kiedy Menu Nintendo DSi wykrywa problem to zazwyczaj pokazuje ten komunikat o błędzie, przyczynami mogą być:
 
-#### The free space bug
-The Nintendo DSi Menu has a bug when checking the free space on large storage devices. While this can't occur on the actual NAND (since the chip is only 256 MiB), it can happen when using an SD card.
+#### Błąd wolnego miejsca
+Menu Nintendo DSi posiada błąd podczas sprawdzania wolnego miejsca na dużych urządzeniach pamięci. Chociaż nie występuje to na aktualnym NAND (ponieważ chip nigdy nie może przekraczać 128 MB), może się to zdarzyć przy użyciu karty SD.
 
-What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
+Co działa i co nie przy każdym oddziale 2GB. Na przykład posiadanie 0-2 Gb wolnej pamięci działa, ale 2-4 Gb już nie. To samo dotyczy 4-6 GiB i 6-8 GiB, aż do osiągnięcia rozmiaru karty SD.
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+Najnowsza wersja hiyaCFW może tworzyć puste pliki aby obejść ten problem, więc upewnij się że pobrałeś najnowszą wersję [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) i skopiuj `hiya.dsi` z "for SDNAND SD card" do katalogu głównego karty SD.
 
-#### Over 39 titles
-The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
+#### Ponad 39 tytułów
+Menu Nintendo DSi ma limit 39 tytułów. Jeśli masz więcej niż 39 usuń niektóre z folderów w `sd:/title` lub użyj [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) aby je odinstalować.
 
-#### Too much space used by DSiWare
-There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+#### Zbyt dużo miejsca używanego przez DSiWare
+Istnieje również limit 200 bloków (25MB) dla DSiWare w folderze `00030004`. Można to obejść instalując je jako aplikacje systemowe za pomocą [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
 
-#### Invalid title
-There are several things you need to take into account when adding titles to hiyaCFW:
-- Game card dumps cannot be run without being using a [forwarder](forwarders)
-- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+#### Nieprawidłowy tytuł
+Istnieje kilka rzeczy, które musisz wziąć pod uwagę podczas dodawania tytułów do hiyaCFW:
+- Nie można uruchomić zrzutów kart do gry bez użycia [forwarderów](forwarders)
+- Homebrew muszą być zbudowane poprawnie przy użyciu nowoczesnych narzędzi do pracy z Nintendo DSi Menu

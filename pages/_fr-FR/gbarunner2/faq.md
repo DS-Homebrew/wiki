@@ -1,6 +1,6 @@
 ---
 lang: fr-FR
-layout: wiki
+layout: faq
 section: gbarunner2
 title: FAQ & Dépannage
 long_title: FAQ GBARunner2 & Dépannage

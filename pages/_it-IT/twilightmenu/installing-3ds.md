@@ -29,7 +29,7 @@ Devi avere prima il Custom Firmware sul tuo 3DS, segui [3ds.hacks.guide](https:/
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. Download the latest [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia)
+1. Scarica l'ultima versione di [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia)
 1. Posiziona il file `Universal-Updater.cia` ovunque sulla tua scheda SD
 1. Avvia FBI sul tuo Nintendo 3DS
 1. In FBI, naviga fino al posto dove hai piazzato il file `Universal-Updater.cia`

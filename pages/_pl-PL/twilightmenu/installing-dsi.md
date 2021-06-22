@@ -12,7 +12,7 @@ Jeśli nie masz jeszcze możliwości uruchomienia homebrew na swoim DSi, kliknij
 {:.alert .alert-info}
 
 ### Instalacja
-1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. Pobierz najnowszą wersje [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Wypakuj `TWiLightMenu-DSi.7z`
 1. Skopiuj folder `_nds` do katalogu głównego karty SD
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty SD

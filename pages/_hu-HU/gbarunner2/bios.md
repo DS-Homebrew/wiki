@@ -10,7 +10,7 @@ A GBARunner2-nek, hogy betöltse a címeket szüksége van egy GBA BIOS dumpra. 
 
 ### Dumpolási útmutatók
 
-- [Wii (nem családi verzió) / GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+- [Wii (nem családi verzió)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 - [3DS-sel, a legtöbb Virtual Console címmel](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (nem lehet GBA vagy nem-Nintendo (Game Gear) Virtual Console cím)
 - [GBA vagy DS Phat/Lite egy GBA Flashcard-dal](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
 

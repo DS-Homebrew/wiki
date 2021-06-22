@@ -9,16 +9,16 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 ---
 
 ### Installation
-1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+1. Téléchargez le dernier [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Extrayez `TWiLightMenu-Flashcard.7z`
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
 1. Copiez le dossier `roms` à la racine de la carte microSD de votre linker
 1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav` qui sont à l'emplacement de votre ROM DS, dans un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROM DS
 1. ...
-   - **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, insert a DS Memory Expansion Pak, and try again
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
-      - This will let you use TWL clock speed and/or VRAM boost on your flashcard games, as well as both accessing the console's SD card, and running DSi-Enhanced/DSi-Exclusive/DSiWare games in DSi mode from your flashcard
+   - **Utilisateurs d'une DS Phat/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un pack d'extension de mémoire et réessayez
+   - **Utilisateurs DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, et activez `L'accès SCFG Slot-1` et définissez `Slot-1: Mode Touch` sur `Mode DSI`
+      - Ceci vous permet d'utiliser la vitesse TWL click et/ou le boost VRAM sur vos jeux flashcarts ainsi qu'à la carte SD de la console, et exécute les jeux Optimisés-DSi/Exclusifs-DSi/DSiWare en mode DSi depuis votre linker
 
 ### Pour exécuter des jeux en utilisant le logiciel de votre linker
 1. Extraire ce qui est dans `Flashcart Loader/(your flashcard)` à la racine de la carte microSD
@@ -46,5 +46,5 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Extraire le contenu de `Autoboot/(your flashcard)` à la racine de la carte microSD du linker
    - Passez cela, si vous ne voyez pas votre linker
 1. ...
-   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **Utilisateurs de DS Phat/Lite :** Allez dans les paramètres du menu DS, et activez le démarrage automatique, pour que votre linker se lance au démarrage
+   - **Utilisateurs d'une DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console et activez `Auto-start Slot-1`

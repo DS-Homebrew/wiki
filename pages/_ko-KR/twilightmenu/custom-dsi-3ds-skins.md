@@ -11,7 +11,7 @@ description: TWiLight Menu++의 DSi와 3DS 스킨을 커스텀하는 방법
 
 Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
 ```bash
-$ make
+make
 ```
 in order to compile your themes into Grit RIFF Format. This will compile your paletted textures into **.grf** format in the `grf` folder. Do not make changes to the `.grit` files until you have read the [advanced theming](#advanced-theming) section below.
 

@@ -127,20 +127,20 @@ PC:
 Dopo aver estratto il pacchetto per la tua Sd, puoi modificare `sd:/_nds/ntr_forwarder.ini` per cambiare le impostazioni. Questo non è possibile per le flashcard Acekard RPG, R4 DS e R4i Gold RTS.
 - `NTRCLOCK`: Se impostato a `0` o <kbd class="face">A</kbd> viene premuto, la schermata di avvio DSi apparirà al posto di quella normale del DS e viene utilizzata la velocità dell'orologio TWL, quindi dovrebbero esserci meno rallentamenti
 - `DISABLEANIMATION`: Se impostato a `1` o <kbd class="face">B</kbd> è premuto, la schermata di avvio DS/DSi è saltata
-- `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+- `HEALTHSAFETYMSG`: Se impostato a `1`, il messaggio di salute e sicurezza apparirà sullo schermo inferiore, altrimenti lo schermo inferiore rimane bianco senza alcun messaggio di salute e sicurezza
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
-If you already have TWiLight Menu++, skip to the next section.
-1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-1. In the 7z file, go to `_nds/TWiLightMenu/`
-1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+### Passo 2: Ottenere i file di fix AP per TWiLight Menu++
+Se hai già TWiLight Menu++, vai al passo successivo.
+1. Scarica la versione piè recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Nel file 7z, vai a `_nds/TWiLightMenu/`
+1. Copia la cartella `apfix` in `sd:/_nds/ntr-forwarder/` sulla scheda SD del tuo 3DS
 
-### Part 3: Forwarder3-DS
-1. Open `Forwarder3DS.jar`
-   - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
-1. Set your card as the `Target` on the left
-   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
-1. Enable `Automatically set ROM path`
+### Passo 3: Forwarder3-DS
+1. Apri `Forwarder3DS.jar`
+   - **Utenti Windows:** Se non si apre, scarica questo [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), posizionalo nella stessa cartella di Forwarder3DS.jar, ed eseguilo
+1. Imposta la tua carta come `Target` a sinistra
+   - **NOTA:** Se non vedi un elenco di carte, scarica [questo zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), e metti la cartella `forwarders` nella stessa cartella di Forwarder3DS.jar, poi rinominalo `.forwarders`
+1. Abilita `Automatically set ROM path`
    - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
    - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
 1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window

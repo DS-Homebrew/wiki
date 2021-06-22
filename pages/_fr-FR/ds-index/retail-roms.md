@@ -48,7 +48,7 @@ Les linkers peuvent tirer parti des codes de triches en utilisant des bases de d
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Les solutions Homebrew/digitales peuvent également tirer parti des bases de données de triche, le logiciel actuellement disponible peut utiliser les éléments suivants :
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
    - NitroHax vous permet d'utiliser des codes de triche avec des cartes de jeu réelles à partir d'un linker. Le moteur utilisé ici charge toute la base de données cheats.xml dans la RAM limitée de la Nintendo DS et essaye de gérer les choses à partir de là. Cela impose une limite sérieuse sur le nombre de cheats que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml au-delà de 2.4 Mo
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` ou `usrcheat.dat`)
@@ -56,7 +56,6 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
    - TWiLight Menu++ lit le `usrcheat.dat` et envoie les valeurs de triche activées à un autre fichier, que nds-bootstrap récupère
    - Le moteur de triche utilisé dans nds-bootstrap est basé sur celui utilisé dans NitroHax. Cependant, en raison du fichier de triche ne contenant que des triches activées pour ce titre spécifique, il n'y a qu'une limite au nombre de triches pouvant être activées, et non une limite à la taille de la base de données
-   - Bootstrap 4 DS (la version nds-bootstrap utilisée sur les linkers) ne supporte pas les codes de triche, en raison du manque de mémoire vive et des limitations du Pack d'extension de mémoire
 
 Pour la base de données de cheats la plus complète, nous vous recommandons d'utiliser celle de DeadSkullzJr intitulée [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 

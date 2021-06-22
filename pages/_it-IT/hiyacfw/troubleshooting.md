@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: hiyacfw
-title: Troubleshooting
+title: Risoluzione dei problemi
 category: other
-description: Troubleshooting information for hiyaCFW
+description: Risoluzione dei problemi per hiyaCFW
 ---
 
 ## #-2435-8325

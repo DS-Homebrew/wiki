@@ -1,6 +1,6 @@
 ---
 lang: fr-FR
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: FAQ & Dépannage

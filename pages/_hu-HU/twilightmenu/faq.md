@@ -1,6 +1,6 @@
 ---
 lang: hu-HU
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: GYIK & hibaelhárítás

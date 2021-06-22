@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: How to Create DSi/3DS Skins
+title: Comment Créer des Skins DSi/3DS
 description: Comment créer des skins DSi et 3DS personnalisés pour le TWiLight Menu++
 ---
 
@@ -11,7 +11,7 @@ La façon la plus simple de personnaliser un thème est de modifier les textures
 
 Les modifications apportées aux textures palettées sont plus importantes. Dans les dossiers `grille` et `background_grit` d'un thème, les divers fichiers d'image peuvent être modifiés. Vous aurez également besoin de [toolchains de devkitPro](https://devkitpro.org) avec GRIT installé. Une fois que vous avez terminé l'édition de vos fichiers, vous devez exécuter
 ```bash
-$ make
+make
 ```
 afin de compiler vos thèmes au format Grit RIFF. Cela compilera vos textures palettées au format **.grf** dans le dossier `grf`. N'apportez pas de modifications aux fichiers `.grit` tant que vous n'avez pas lu la section [thème avancé](#advanced-theming) ci-dessous.
 
@@ -128,4 +128,4 @@ Les textures palettées ne sont pas vérifiées pour la validité. Une texture n
 
 ## Musique d'arrière-plan personnalisée et effets sonores
 
-Les thèmes du menu DSi et de la 3DS prennent également en charge la musique personnalisée. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+Les thèmes du menu DSi et de la 3DS prennent également en charge la musique personnalisée. Consultez [Skins DSi/3DS - SFX Customisé](custom-dsi-3ds-sfx) pour plus de détails.

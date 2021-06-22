@@ -1,6 +1,6 @@
 ---
 lang: pl-PL
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: FAQ & Rozwiązywanie problemów
@@ -11,7 +11,7 @@ description: FAQs i troubleshooting dla TWiLight Menu++
 Dla więcej FAQ, odwiedź [wątek na GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS/2DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
+#### Dlaczego po uruchomieniu TWiLight Menu++ mój 3DS/2DS utknął na czarnym ekranie, ulega awarii, wyłącza się itp.?
 TWL_FIRM może być uszkodzony. Postępuj zgodnie z tym poradnikiem, aby naprawić problem: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Jak rozwiązać problem białego ekranu podczas uruchamiania TWiLight Menu++?
@@ -53,7 +53,7 @@ Tak, możesz użyć [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/release
 
 #### Jak zmienić język TWiLight Menu++?
 1. Otwórz ustawienia TWiLight Menu++, możesz to zrobić poprzez przytrzymanie <kbd>SELECT</kbd> kiedy TWiLight Menu++ się uruchamia
-1. Press <kbd class="l">L</kbd> or <kbd class="face">Y</kbd> once (on flashcard/3DS) or twice (on DSi)
+1. Naciśnij <kbd class="l">L</kbd> lub <kbd class="face">Y</kbd> raz (na karcie flash/3DS) lub dwa razy (na DSi)
 1. Zmieniaj pierwszą opcję, dopóki nie zobaczysz wybranego języka, następnie opuść ustawienia
    - Możesz chcieć też zmienić dwie następne opcje, ponieważ odpowiadają one za język gier DS i ich tytuły w TWiLight Menu++
 
@@ -62,26 +62,26 @@ Nie, to nie jest emulator. Menu i gry DS (ładowane przez nds-bootstrap) są uru
 
 #### Jakie systemy obsługuje TWiLight Menu++?
 
-| Format                  | Loader                                            | Rozszerzenia                           | Plik zapisu                            |
-| ----------------------- | ------------------------------------------------- | -------------------------------------- | -------------------------------------- |
-| ARGV[^1]                | Native                                            | `.argv`                                |                                        |
-| Atari 2600              | [StellaDS][stellads]                              | `.a26`                                 |                                        |
-| Atari 5200              | [A5200DS][a5200ds]                                | `.a52`                                 |                                        |
-| Atari 7800              | [A7800DS][a7800ds]                                | `.a78`                                 |                                        |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                                | `.xex`, `.atr`                         |                                        |
-| DS                      | [nds-bootstrap][ndsbs], kernel flashcard, natywny | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nazwa romu].sav`[^2]           |
-| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]      | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[nazwa romu].pub`, `[nazwa romu].prv` |
-| DSTWO Plugin            | [DSTWO][dstwo][^3]                                | `.plg`                                 |                                        |
-| Game Boy (Color)        | [GameYob][gameyob]                                | `.gb`, `.sgb`, `.gbc`                  | `[nazwa romu].sav`                     |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], natywny[^5]         | `.agb`, `.gba`, `.mb`                  | `[nazwa romu].sav`                     |
-| Game Gear               | [S8DS][s8ds]                                      | `.gg`                                  | `[nazwa romu].gg.sav`                  |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]       | `.gen`                                 | `[nazwa romu].srm`[^6]                 |
-| Master System           | [S8DS][s8ds]                                      | `.sms`                                 | `[nazwa romu].sms.sav`                 |
-| Film MPEG4              | [MPEG4 Player][mpeg4player]                       | `.mp4`                                 |                                        |
-| NES/Famicom             | [nesDS][nesds]                                    | `.nes`, `.fds`                         | `[nazwa romu].sav`                     |
-| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                          | `.pce`                                 |                                        |
-| Film RVID               | [Rocket Video Player][rvidplayer]                 | `.rvid`                                |                                        |
-| SNES[^7]                | [SNEmulDS][snemulds]                              | `.smc`, `.sfc`                         | `[nazwa romu].srm`[^8]                 |
+| Format                    | Loader                                            | Rozszerzenia                           | Plik zapisu                            |
+| ------------------------- | ------------------------------------------------- | -------------------------------------- | -------------------------------------- |
+| ARGV[^1]                  | Native                                            | `.argv`                                |                                        |
+| Atari 2600                | [StellaDS][stellads]                              | `.a26`                                 |                                        |
+| Atari 5200                | [A5200DS][a5200ds]                                | `.a52`                                 |                                        |
+| Atari 7800                | [A7800DS][a7800ds]                                | `.a78`                                 |                                        |
+| Atari XEGS                | [XEGS-DS][xegs-ds]                                | `.xex`, `.atr`                         |                                        |
+| DS                        | [nds-bootstrap][ndsbs], kernel flashcard, natywny | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nazwa romu].sav`[^2]           |
+| DSiWare                   | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]      | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[nazwa romu].pub`, `[nazwa romu].prv` |
+| DSTWO Plugin              | [DSTWO][dstwo][^3]                                | `.plg`                                 |                                        |
+| Game Boy (Color)          | [GameYob][gameyob]                                | `.gb`, `.sgb`, `.gbc`                  | `[nazwa romu].sav`                     |
+| Game Boy Advance          | [GBARunner2][gbarunner2][^4], natywny[^5]         | `.agb`, `.gba`, `.mb`                  | `[nazwa romu].sav`                     |
+| Game Gear                 | [S8DS][s8ds]                                      | `.gg`                                  | `[nazwa romu].gg.sav`                  |
+| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]       | `.gen`                                 | `[nazwa romu].srm`[^6]                 |
+| Master System             | [S8DS][s8ds]                                      | `.sms`                                 | `[nazwa romu].sms.sav`                 |
+| Film MPEG4                | [MPEG4 Player][mpeg4player]                       | `.mp4`                                 |                                        |
+| NES/Famicom               | [nesDS][nesds]                                    | `.nes`, `.fds`                         | `[nazwa romu].sav`                     |
+| Silnik PC / TurboGrafx-16 | [NitroGrafx][nitrografx]                          | `.pce`                                 |                                        |
+| Film RVID                 | [Rocket Video Player][rvidplayer]                 | `.rvid`                                |                                        |
+| SNES[^7]                  | [SNEmulDS][snemulds]                              | `.smc`, `.sfc`                         | `[nazwa romu].srm`[^8]                 |
 {:.table}
 
 - Footnotes -

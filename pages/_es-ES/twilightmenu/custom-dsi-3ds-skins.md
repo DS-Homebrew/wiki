@@ -11,7 +11,7 @@ La forma más sencilla de personalizar un tema es editar las texturas png de las
 
 Cambiar texturas con paletas llevan más trabajo. En las carpetas `grit` y `background_grit` de un tema, las imágenes pueden editarse. También necesitarás [cadenas de montaje de devkitPro's](https://devkitpro.org) con GRIT instalado. Una vez que hayas terminado de editar los archivos, debes ejecutar
 ```bash
-$ make
+make
 ```
 para poder compilar los temas en Grit RIFF Format. Esto compilarán tus texturas con paletas en un formato **.grf** en la carpeta `grf`. No modifiques los archivos `.grit` hasta que hayas leído la sección [Temas avanzados](#advanced-theming) más abajo.
 

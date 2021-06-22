@@ -1,6 +1,6 @@
 ---
 lang: hu-HU
-layout: wiki
+layout: faq
 section: gbarunner2
 title: GYIK & hibaelhárítás
 long_title: GBARunner2 GYIK & hibaelhárítás

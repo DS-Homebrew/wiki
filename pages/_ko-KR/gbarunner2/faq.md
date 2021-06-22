@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-layout: wiki
+layout: faq
 section: gbarunner2
 title: 자주 묻는 질문 & 문제 해결하기
 long_title: GBARunner2 자주 묻는 질문 & 문제 해결

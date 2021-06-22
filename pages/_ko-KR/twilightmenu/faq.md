@@ -1,6 +1,6 @@
 ---
 lang: ko-KR
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: 자주 묻는 질문 & 문제 해결

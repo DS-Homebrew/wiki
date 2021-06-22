@@ -1,6 +1,6 @@
 ---
 lang: sv-SE
-layout: wiki
+layout: faq
 section: twilightmenu
 category: other
 title: FAQ & Felsökning

@@ -18,7 +18,7 @@ Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do ada
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi/DSi XL (LL) you will need:
+By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
    - [Lutownica z końcówką jak u ołówka](https://www.amazon.com/dp/B01N4571Q6)
    - [Bardzo Cienki drut](https://allegro.pl/oferta/drut-ok-30awg-drut-miedziany-ocynowany-10161055095), 28AWG lub mniejszy, najlepiej 30AWG wzwyż
    - Adapter SD na microSD
@@ -65,7 +65,7 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Otwórz HxD i przeciągnij oba pliki do edytora. W górnym pasku wybierz "Analizy", następnie z "Porównanie danych" wybierz "Porównaj".
 1. Wybierrz to w celu porównaniania obu plików, wciśnij OK po zakończeniu
    - Jeśli wyskoczy "Wybrane pliki są identyczne", możesz przejść dalej
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
+   - Jeśli tak nie jest, a obie pamięci NAND nie mają około 240 MB, zrzuć NAND_1/NAND_0 ponownie
 1. Otwórz Win32DiskImager, wciśnij ikonę folderu i wybierz utworzony wcześniej backup NAND
 1. Sflashuj go używając przycisku `Write`
 1. Odłącz adapter karty SD i spróbuj uruchomić konsolę

@@ -4,20 +4,20 @@ layout: wiki
 section: ds-index
 category: reference
 title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
+description: Informazioni sul Nintendo DSi e sul TWL_FIRM del Nintendo 3DS
 ---
 
-### Setting up CFW
-Mentre la maggior parte dei vantaggi del Custom Firmware sono per il Nintendo DSi e la famiglia dei sistemi del Nintendo 3DS, ti permette di sbloccare tuttto il potenziale della tua console. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD card. Abbiamo le migliori guide da seguire, con istruzioni passo per passo.
+### Configurare il CFW
+Mentre la maggior parte dei vantaggi del Custom Firmware sono per il Nintendo DSi e la famiglia dei sistemi del Nintendo 3DS, il CFW ti permette di sbloccare tutto il potenziale della tua console. Installare il Custom Firmware è abbastanza facile, e nella maggior parte dei casi, tutto ciò di cui hai bisogno è una scheda (micro)SD. Abbiamo le migliori guide da seguire, con istruzioni passo per passo.
 
 - [Guida all'Hacking del 3DS](https://3ds.hacks.guide)
    - Comando Lightning: `mod 3ds`
-   - Comando Kuriisu: `guida 3ds`
+   - Comando Kuriisu: `guide 3ds`
 - [Guida all'Hacking del DSi](https://dsi.cfw.guide)
    - Comando Lightning: `mod dsi cfw`
    - Comando Kuriisu: `guide dsi`
 
-### CPU speeds
+### Velocità della CPU
 Il Nintendo DS era composto da un processore a 67MHz nel 2004. Il Nintendo DSi era composto da un processore a 133MHz nel 2009. La maggior parte dei giochi del parco titoli del Nintendo DS sono stati fatti prima che il Nintendo DSi uscì, e pertanto l'unico processore a loro disposizione era a 67MHz. Alcune applicazioni si sono legate a quella velocità e di conseguenza, non funzionerebbero bene con una maggiore velocità. La maggior parte dei giochi, tuttavia, supererebbe l'originale con una maggiore velocità.
 
 nds-bootstrap ha TWL Clock Speed come opzione, ma non cercherà di regolare le ROM per farle funzionare a velocità maggiore. Questo è colpa dell'applicazione in sé, e perciò le applicazioni che non funzionano ad una velocità più alta NON è un bug di nds-bootstrap.
@@ -40,8 +40,8 @@ Before 1.4.0, the white list used to contain only two sections. In 1.4.0, they'v
 
 Unfortunately, the requirements are tight. It requires version 1.4.0 and a flashcard with a modified ROM. Also, the exploit never officially came out, due to Unlaunch being much simpler to install and having less requirements (just a way to get into homebrew) with the same advantages.
 
-### Nintendo DSi Camera
-The Nintendo DSi Camera application has the ability to take pictures in the JPEG and save them to either the System Memory or the SD card. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether its PC taken or PC edited.
+### Fotocamera Nintendo DSi
+L'applicazione Fotocamera Nintendo DSi ha la possibilità di scattare foto in formato JPEG e salvarle sia nella memoria di sistema che nella scheda SD. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether its PC taken or PC edited.
 
 A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 
