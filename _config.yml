@@ -6,6 +6,9 @@ image       : "https://avatars1.githubusercontent.com/u/46971470?s=200&v=4"
 
 collections_dir: pages
 
+sass:
+  sass_dir: _sass
+
 defaults:
   - scope:
       path: ""

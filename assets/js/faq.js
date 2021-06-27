@@ -1,24 +1,34 @@
-function setFaq(tab) {
-	if(document.getElementById(`faq-${tab}`).checked) {
-		let url = new URL(window.location);
-		url.searchParams.delete("faq");
-		history.pushState({}, "", url);
-		// TODO: This is dumb, try do it better
-		window.setTimeout(() => document.getElementById(`faq-${tab}`).checked = false, 100);
-	} else {
-		let url = new URL(window.location);
-		url.searchParams.set("faq", tab);
-		history.pushState({}, "", url);
+function setFaq(faq) {
+	const otherFaqs = document.querySelectorAll("#faq-container > .accordian-item:not(#faq-" + faq + ")");
+	for(i = 0; i < otherFaqs.length; i++) {
+		otherFaqs[i].open = false;
 	}
 
+	var url = window.location.href;
+	if(document.getElementById("faq-" + faq).open) { // Remove FAQ param from URL if was open
+		url = url.replace(/([?&])faq=.*?(\&|#|$)/, function(m, m1, m2) { return (m1 == "?" && m2 == "&") ? "?" : ""; });
+	} else if(url.match(/[?&]faq=/)) { // Already has a FAQ param
+		url = url.replace(/([?&]faq=)(.*?)(?=\&|#|$)/, "$1" + faq);
+	} else if(url.match(/\?/)) { // Already has other search params
+		url = url.replace(/[?&].*?(?=#|$)/, "$&&faq=" + faq);
+	} else { // No search params
+		url = url.replace(/(?=#|$)/, "?faq=" + faq);
+	}
+
+	if(url != window.location.href) // Don't update if not changed
+		history.pushState({}, "", encodeURI(url));
 }
 
 // Try get FAQ from URL
-let urlFaq = new URL(window.location).searchParams.get("faq");
-if(urlFaq) {
-	faq = Array.from(document.getElementById("faq-container").children).filter(r => r.children[0].id == `faq-${urlFaq}`)[0];
-	if(faq) {
-		faq.children[0].click();
-		faq.children[1].scrollIntoView();
+const urlFaq = decodeURI(window.location.href).match(/[?&]faq=(.*?)(?=\&|#|$)/);
+if(urlFaq && urlFaq.length > 1) {
+	const faqs = document.getElementById("faq-container").children;
+	for(i = 0; i < faqs.length; i++) {
+		const faq = faqs[i];
+		if(faq.id == "faq-" + urlFaq[1]) {
+			faq.open = true;
+			faq.scrollIntoView();
+			break;
+		}
 	}
 }
