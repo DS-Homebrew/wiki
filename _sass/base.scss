@@ -195,9 +195,16 @@ div .btn-primary:hover {
 }
 
 // Fixes for navbar on older browsers
-.navbar-toggler {
+html[dir=ltr] .navbar-toggler {
 	position: absolute;
 	right: 0.75rem;
+	top: 0.5rem;
+}
+
+html[dir=rtl] .navbar-toggler {
+	position: absolute;
+	left: 0.75rem;
+	top: 0.5rem;
 }
 
 .navbar {
@@ -575,9 +582,14 @@ a.footnote::after {
 				display: none;
 			}
 
-			&::after {
+			html[dir=ltr] &::after {
 				position: absolute;
 				right: 1rem;
+			}
+
+			html[dir=rtl] &::after {
+				position: absolute;
+				left: 1rem;
 			}
 		}
 	
@@ -670,8 +682,13 @@ a.footnote::after {
 		}
 	}
 
-	.lang-select-dropdown, .navbar-toggler {
+	html[dir=ltr] .lang-select-dropdown, .navbar-toggler {
 		position: absolute;
 		right: 0.75rem;
+	}
+
+	html[dir=rtl] .lang-select-dropdown, .navbar-toggler {
+		position: absolute;
+		left: 0.75rem;
 	}
 }

@@ -1,8 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 	<div class="container-fluid maxwidth">
-		<span class="navbar-brand">
-			<a class="navbar-brand mb-0 h1" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ site.data[page.collection].nav[0].url }}" accesskey="h">{{ site.data[page.collection].strings.title }}</a>
-		</span>
+		<a class="navbar-brand" href="{% unless page.collection == "en-US" %}/{{ page.collection }}{% endunless %}{{ site.data[page.collection].nav[0].url }}" accesskey="h">{{ site.data[page.collection].strings.title }}</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ site.data[page.collection].strings.toggle-navigation }}">
 			<span class="navbar-toggler-icon"></span>
 		</button>
