@@ -578,18 +578,28 @@ a.footnote::after {
 		> summary.accordion-button {
 			color: $header-color;
 
+			// Padding for chevron
+			html[dir=ltr] & {
+				padding-right: 40px;
+			}
+			html[dir=rtl] & {
+				padding-left: 40px;
+			}
+
 			&::-webkit-details-marker {
 				display: none;
 			}
 
-			html[dir=ltr] &::after {
+			&::after {
 				position: absolute;
-				right: 1rem;
-			}
+				top: 35%;
 
-			html[dir=rtl] &::after {
-				position: absolute;
-				left: 1rem;
+				html[dir=ltr] & {
+					right: 1rem;
+				}
+				html[dir=rtl] & {
+					left: 1rem;
+				}
 			}
 		}
 	
