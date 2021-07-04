@@ -11,13 +11,9 @@ sass:
 
 defaults:
   - scope:
-      path: ""
+      path: "*.md"
     values:
       layout: wiki
-  - scope:
-      path: assets/js
-    values:
-      layout: null
 
 collections:
   en-US:

@@ -1,0 +1,15 @@
+---
+---
+
+User-agent: *
+Disallow: /ic-IC/
+{% for collection in site.collections %}
+	{%- unless collection.label == "ic-IC" -%}
+		{%- for item in collection.docs -%}
+
+{% unless item.lang == collection.label %}Disallow: {{ item.url }}
+{% endunless %}
+
+		{%- endfor -%}
+	{%- endunless -%}
+{%- endfor -%}
