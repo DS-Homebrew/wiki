@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: uninstalling
 title: הסרת התקנה (DS & DSi)
-long_title: הסרת TWiLight Menu++ (DS & DSi)
+long_title: הסרת TWiLight Menu++ (DS & DSi)&lrm;
 description: כיצד להסיר את TWiLight Menu++ מNintendo DSi או פלאשקארט של DS
 ---
 

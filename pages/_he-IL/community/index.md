@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: community
-title: Community
-description: Information about the DS-Homebrew community
+title: קהילה
+description: מידע לגבי קהילת DS-Homebrew
 ---
 
-You can find information about our community here, such as the rules for our Discord server. We have the following places:
+כאן תוכלו למצוא מידע לגבי הקהילה שלנו, לדוגמת החוקים לשרת הDiscord שלנו. יש לנו את המיקומים הבאים:
 - Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- אתר: [ds-homebrew.com](https://ds-homebrew.com)

@@ -14,7 +14,7 @@ description: 닌텐도 3DS에서 와이드스크린으로 TWiLight Menu++를 이
 - `boot.firm`이 SD의 루트에 저장되어있는지 확인합니다.
 
 ### 설치하기
-1. [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)를 다운로드 한 후, `TWPatch.cia`를 사용자의 SD카드로 복사합니다. ([GBATemp 스레드](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. `TWPatch.cia`를 FBI를 이용해서 설치합니다.
    - TWPatch 대신에 Universal-Updater를 사용하면 위의 두 단계를 거치지 않아도 좋습니다.
 1. 홈 메뉴로 돌아가서 TWPatch를 실행합니다.

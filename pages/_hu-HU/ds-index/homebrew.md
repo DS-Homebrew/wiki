@@ -27,18 +27,20 @@ Különböző SD kártya slot-ok különböző hardverrel rendelkeznek (az esete
 
 ### Időbomba
 
-Az időbomba egy lejárati dátuma a flashcard kernel-eknek, amit a gyártók használnak arra, hogy kényszerítsék a felhasználókat új kártya vásárlására. Amint a rendszeróra túl megy ezen a bizonyos dátumon, a kernel visszautasítja a bootolást, a lejárati képernyőnél tovább. Szerencsére flag nem kerül sehova beállításra, és a flashcard firmware által kezelt, két lehetőséget adva nekünk a megkerülésre:
+Néhány flashcard kernelbe egy lejárati idő kódolt (amit többnyire időbombának hívnak) a fejlesztője által, hogy rávegyék a felhasználót a legfrissebb változat vásárlására. A funkció működése a következő:
 
-- Mivel a rendszerórán alapszik, visszaállíthatod a dátumot. Ez viszont elront minden játékot, ami a rendszerórát használja, de lehetővé teszi az alapértelmezett kernel használatát.
-- Mivel ez a kernel-en alapul, nem a firmware-en, alternatív kernelre is válthatsz. Két opció áll rendelkezésre:
-   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- A menü igencsak ronda és csak `.nds` fájlt mutat, de jobb játék támogatása és csalás támogatása van, valamint nincs memory pak követelménye
-   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Ez hasznos ha szeretnéd minden ROM-od különféle konzolról ugyanabban a menüben kezelni; két módja van a DS játékok futtatásának a TWiLight Menu++-ből:
-      - nds-bootstrap-pel flashcard-on: Szüksége van Memory Expansion Pak-ra a bővített játék kompatibilitás miatt, és nem támogatja a csalásokat. Azonban működik minden flashcard-dal, amivel TWiLight Menu++ működik
-      - YSMenu-vel: Megkapja a kompatibilitási előnyeit az YSMenu előnyeit, a TWiLight Menu++ jobb menüjével, azonban a csalások nem támogatottak jelenleg
+1. A flashcard bebootol és betölti a kernel fájlt az SD kártyáról, a nélkül, hogy ellenőrizné, hogy a kernel az e amit a fejlesztő vár
+1. Minden alkalommal, amikor a kernel fájl betöltésre kerül az SD kártyáról, ellenőrzi, hogy a rendszer dátum egy adott időpont után van-e
 
-Azt ajánljuk, hogy az YSMenu-t használja, TWiLight Menu++-szal, ha azt preferálja, a magasabb kompatibilitás miatt, és mert nem szükséges Memory Expansion Pak hozzá. Ha szeretné beállítani az YSMenu-t, DeadSkullzJr készített egy [Dropbox repo-t](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) minden elsődleges boot kernel konfigurációval, a flashcard-jához. Csupán annyit kell tennie, hogy behúzza az SD kártya gyökerébe és kész is. A TWiLight Menu++ telepítésről a [a flashcard telepítés oldalon olvashat](../twilightmenu/installing-flashcard).
+Ha a második teszt pozitív, akkor a kernel nem fog bootolni. Ez tesztelhető a dátum legutolsó elfogadható időpontra állításával. Azonban a biztonság gyenge, és az eredmény nem cache-elt, ami azt jelenti, hogy lehetőség van megkerülni:
 
-Annak érdekében, hogy teszteld hogy a flashcard-od tartalmaz-e időbombát, állítsd be a lehető legkésőbbi dátumot, amit lehet és indítsd el a flashcard-ot.
+Ha azt a kernelt szeretnéd használni, amit a flashcard gyártó adott, a rendszer óra visszaállítható az eszköz System Settings alkalmazásában. Tartsd észben, hogy ez azon játékoknál, amik a rendszer időtől függenek problémát okoz (mint például Animal Crossing: Wild World).
+
+Azonban a kernelek, amik ezekkel a kártyákkal érkeznek, alapvetően problémásak, és javasolt a cseréjük. Hálás dolog, hogy harmadik fél fejlesztők készítettek olyan alternatívákat, amit használhatsz:
+
+- [YSmenu - menu + játék betöltő](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) - Habár nem rendelkezik egy egyediesíthető mindent egyben menü előnyeivel, a játéktöltőnek sokkal jobb a kompatibilitása és rendelkezik támogatással az action-replay csalásokhoz
+- [TWiLight Menu++ nds-bootstrap-pal](/twilightmenu/installing-flashcard) - Rendelkezik egyediesíthető mindent egyben menüvel, és támogatja a csalásokat, de a B4DS módban (a mód amiben használt, amikor nem rendelkezik DSi képességekkel) gyenge kompatibilitással bír és néhány játéknak szüksége van a Memory Expansion Pak-re
+- [TWiLight Menu++ YSmenu-vel](/twilightmenu/installing-flashcard) - Egyediesíthető mindent egyben menü, magas kompatibilitással, de csalás támogatás nélkül
 
 ### ARGV támogatás
 Az ARGV egy információ átvivő két homebrew Nintendo DS applikáció között. Használhatók forwardereknek, vagy alternatív menükhöz.

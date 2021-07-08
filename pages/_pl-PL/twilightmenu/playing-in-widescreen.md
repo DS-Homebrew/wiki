@@ -14,7 +14,7 @@ Wymaga konsoli Nintendo 3DS lub 2DS.
 - Upewnij się, że masz `boot.firm` Luma3DS w katalogu głównym karty SD
 
 ### Instalowanie
-1. Pobierz [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)i skopiuj `TWPatch.cia` na kartę SD ([ wątek GBATemp](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia))
+1. Pobierz [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) i skopiuj `TWPatch.cia` na kartę SD ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Zainstaluj `TWPatch.cia` przy użyciu FBI
    - Możesz również użyć programu Universal-Updater do zainstalowania TWPatch zamiast dwóch poprzednich kroków
 1. Wróć do menu głównego i uruchom program TWPatch

@@ -14,7 +14,7 @@ Nintendo 2DS vagy 3DS konzolt igényel.
 - Ellenőrizd, hogy a Luma `boot.firm` -je megtalálható-e az SD kártya gyökerében, ahhoz, hogy ez működjön
 
 ### Telepítés
-1. Töltsd le a [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)-et és másold a `TWPatch.cia`-t az SD kártyádra ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Töltsd le a [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)-et és másold a `TWPatch.cia`-t az SD kártyádra ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Telepítsd a `TWPatch.cia`-t az FBI-jal
    - Használhatod az Universal-Updater-t is a TWPatch telepítéséhez a korábbi két lépés helyett
 1. Térj vissza a home menübe és indítsd el a TWPatch-ot

@@ -56,7 +56,6 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
    - TWiLight Menu++ läser `usrcheat.dat` och skickar de aktiverade fuskvärdena till en annan fil, som nds-bootstrap plockar upp
    - Fuskmotorn som används i nds-bootstrap är baserad på den som används i NitroHax. Men på grund av fuskfilen som innehåller endast aktiverade fusk för den specifika titeln, finns det bara en gräns för hur många fusk som kan aktiveras, inte en gräns för databasens storlek
-   - Bootstrap 4 DS (den nds-bootstrap versionen som används på minneskort) stöder inte fusk, på grund av att det inte finns tillräckligt med RAM, och begränsningarna i Memory Expansion Pack
 
 För den mest kompletta fuskdatabasen rekommenderar vi att du använder den som gjorts av DeadSkullzJr med titeln [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 

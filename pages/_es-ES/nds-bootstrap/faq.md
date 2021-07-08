@@ -27,7 +27,7 @@ Junto a esto, asegúrate de añadirlo en la [lista de compatibilidad](https://wi
 Este es un [problema conocido](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) con cloneboot. Esperad a que lo arreglemos.
 
 #### ¿Por qué surgen estos problemas al cargar las ROMs aunque se lancen de forma nativa?
-nds-bootstrap parchea las funciones de la ROM para que funcionen desde una tarjeta SD, ya que las ROMs están pensadas para leerse desde la Slot-1. También hay problemas de tiempo y medidas antipiratería (la mayoría ya eliminadas), y ambas pueden hacer que la ROM no funcione correctamente. Para mejorar el rendimiento, nds-bootstrap comprime la pila del juego en memoria, cosa que rompe algunos juegos, aunque tanto los accesos directos como TWiLight Menu++ tienen una lista negra para evitar que esto ocurra.
+nds-bootstrap parchea las funciones de la ROM para que funcionen desde una tarjeta SD, ya que las ROMs están pensadas para leerse desde la Slot-1. También hay problemas de tiempo y medidas antipiratería (la mayoría ya eliminadas), y ambas pueden hacer que la ROM no funcione correctamente.
 
 #### ¿Por qué usar nds-bootstrap en vez de una flashcard?
 - Algunas ROMs compatibles se cargan en la RAM, lo que permite tiempos de carga más rápidos incluso que de cartuchos normales

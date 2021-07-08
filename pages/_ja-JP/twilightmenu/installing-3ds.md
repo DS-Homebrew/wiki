@@ -13,7 +13,7 @@ tabs:
     manual: 手動
 ---
 
-3DSにカスタムファームウェアが必要です。インストールには[3ds.hacks.guide](https://3ds.hacks.guide)に従ってください
+3DSにカスタムファームウェアが必要です。インストールには[3ds.hacks.guide](https://3ds.hacks.guide)に従ってください。
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}

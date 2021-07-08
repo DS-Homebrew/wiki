@@ -57,7 +57,7 @@ TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לת�
 1. שנו את האופציה הראשונה עד שתראו את השפה שתרצו, ואז תצאו מההגדרות
    - ייתכן ותרצו לשנות את שתי האופציות הבאות, מאחר והן שולטות בשפה של משחקי DS ובשמות של המשחקים בTWiLight Menu++
 
-#### האם זה אימולטור של DS(i)?
+#### האם זה אימולטור של DS(i)&lrm;?
 לא, זה לא אימולטור. התפריט ומשחקי הDS (שנטענים דרך nds-bootstrap) רצים באופן טבעי במצב הDS/DSi של הקונסולה. הקונסולות היחידות שרצות באימולציה הן קונסולות ישנות, כשבGBA זה באופן חלקי (מאחר וחלק או כל החלקים של המשחק לדוגמת גרפיקה רצים באופן טבעי).
 
 #### באילו מערכות TWiLight Menu++ תומך?
@@ -72,7 +72,7 @@ TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לת�
 | DS                      | [nds-bootstrap][ndsbs], ליבת פלאשקארטים, מובנה | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[שם הרום].sav`[^2]        |
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]   | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[שם הרום].pub`, `[שם הרום].prv` |
 | פלאגין של DSTWO         | [DSTWO][dstwo][^3]                             | `.plg`                                 |                                  |
-| Game Boy (Color)        | [GameYob][gameyob]                             | `.gb`, `.sgb`, `.gbc`                  | `[שם הרום].sav`                  |
+| Game Boy (Color)&lrm;   | [GameYob][gameyob]                             | `.gb`, `.sgb`, `.gbc`                  | `[שם הרום].sav`                  |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], מובנה[^5]        | `.agb`, `.gba`, `.mb`                  | `[שם הרום].sav`                  |
 | Game Gear               | [S8DS][s8ds]                                   | `.gg`                                  | `[שם הרום].gg.sav`               |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]    | `.gen`                                 | `[שם הרום].srm`[^6]              |

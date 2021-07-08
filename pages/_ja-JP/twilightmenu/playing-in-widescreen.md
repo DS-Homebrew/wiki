@@ -14,7 +14,7 @@ description: ニンテンドー3DSでTWiLight Menu++をワイドスクリーン�
 - Lumaの`boot.firm`がSDルート上にあることを確認してください
 
 ### インストール
-1. [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia)をダウンロードし、`TWPatch.cia`をSDカードにコピーします（[GBAtempスレッド](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/)）
+1. [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)をダウンロードし、`TWPatch.cia`をSDカードにコピーします（[GBAtempスレッド](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/)）
 1. FBIを使って、`TWPatch.cia`をインストールします
    - また、前の2つの手順ではなく、Universal-Updaterを使ってTWPatchをインストールすることもできます
 1. ホームメニューに戻り、TWPatchを起動します

@@ -27,21 +27,23 @@ Inne sloty na karty SD mają (najczęściej) inny hardware, a kod napisany dla j
 
 ### Bomba Czasowa
 
-Bomba czasowa to czas wygaśnięcia jądra nagrywarki flashcard, który jest używany przez producentów w celu zmuszenia użytkowników do kupienia nowego egzemplarza. Gdy twój zegar systemowy przekroczy określoną datę, jądrą odmówi uruchomienia i powiadomi Cię o wygaśnięciu. Na szczęście flaga nie jest nigdzie ustawiona, tylko obsługiwana jest przez oprogramowanie flashcarda, co pozwala nam na dwa obejścia:
+W niektórych kernelach kart flash, arbitralna data wygaśnięcia (bardziej znana jako bomba zegarowa) jest zakodowana przez twórców kernela jako sposób na nakłonienie konsumentów do zakupu ich najnowszego produktu. Procedura ta jest następująca:
 
-- Ponieważ funkcja opiera się na czasie systemowym, możesz ustawić wcześniejszą datę. Spowoduje to popsucie każdej gry używającej czasu systemowego, ale pozwoli Ci na używanie domyślnego jądra.
-- Ponieważ funkcja opiera się na jądrze, a nie na oprogramowaniu, możesz przełączyć się na alternatywne jądro. Masz dwie opcje:
-   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menu jest dosyć brzydkie i pokazuje tylko pliki `.nds`, ale ma o wiele lepsze wsparcie gier i cheatów oraz nie wymaga memory paka
-   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Przydatne jeśli chcesz mieć wszystkie ROMy z różnych konsol w jednym menu. Są dwa sposoby na uruchamianie gier DS z TWiLight Menu++:
-      - Z nds-bootstrap na flaschard: Wymaga Memory Expansion Pak dla rozszerzonej kompatybilności z grami i nie obsługuje cheatów. Ale działa na wszystkich flashcardach, które są wspierane przez TWiLight Menu++
-      - Z YSMenu: Łączy kompatybilność YSMenu z lepszym menu TWiLight Menu++, ale cheaty nie są wspierane
+1. Karta Flash jest uruchamiana i ładuje plik kernela z karty SD bez sprawdzenia, czy jest on sprawdzony przez deweloperów
+1. Przy każdym załadowaniu pliku kernela z karty SD sprawdza, czy data w systemie jest wcześniejsza od określonej daty
 
-Rekomendujemy YSMenu(z TWiLight Menu++ jeśli tak preferujesz) ze względu na większość kompatybilność i brak potrzeby Memory Expansion Pak. Jeśli chcesz YSMenu, DeadSkullzJr zrobił [repozytorium Dropbox](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) z każdym głównym jądrem rozruchu, już przygotowanymi dla twojego flashcarda. Jedyne co trzeba zrobić to przenieść do katalogu głównego karty SD. Instrukcje instalacji TWiLight Menu++ są [na stronie instalacji na flashcarda](../twilightmenu/installing-flashcard).
+Jeśli drugi test wypadnie pozytywnie, jądro odmówi uruchomienia systemu. Można to sprawdzić ustawiając datę na najnowszą możliwą wartość. Jednak zabezpieczenia są słabe, a wyniki nie są buforowane, co oznacza, że istnieją sposoby na obejście tego problemu:
 
-Aby sprawdzić, czy twoja nagrywarka ma bombę czasową, ustaw datę twojego systemu na najnowszą możliwą i uruchom ją.
+Jeśli chcesz używać domyślnego kernelu, który został dodany przez producentów kart flash, zegar systemowy może być ustawiony z powrotem w Ustawieniach systemowych urządzenia. Pamiętaj jednak, że może to zepsuć każdą grę, która opiera się na zegarze systemowym (np. Animal Crossing: Wild World).
+
+Jednak kernele, które są dostarczane z tymi kartami są fundamentalnie wadliwe i lepiej jest je całkowicie wymienić. Na szczęście programiści z innych firm stworzyli alternatywne rozwiązania, z których możesz skorzystać:
+
+- [YSmenu - menu + game loader](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) - Chociaż nie ma zalet konfigurowalnego menu all-in-one, game loader ma znacznie lepszą kompatybilność z cheatami action-replay
+- [TWiLight Menu++ z nds-bootstrap](/twilightmenu/installing-flashcard) - ma konfigurowalne menu all-in-one i obsługuje cheaty, ale jego tryb B4DS (tryb używany, gdy nie ma możliwości DSi) ma słabą kompatybilność, niektóre gry nawet wymagają Memory Expansion Pak
+- [TWiLight Menu++ z YSmenu](/twilightmenu/installing-flashcard) - konfigurowalne menu all-in-one z wysoką kompatybilnością, ale brakuje wsparcia dla cheatów
 
 ### Wsparcie ARGV
-ARGV to nadajnik informacji pomiędzy dwoma aplikacjami homebrew na Nintendo DS. Ta funkcja może być używana przez forwardery czy alternatywne menu.
+ARGV jest przekaźnikiem informacji pomiędzy dwoma aplikacjami homebrew Nintendo DS. Może być używany w przypadku forwarderów lub alternatywnego menu.
 
 - Homebrew musi być odpowiednio zaprogramowane, by z tego skorzystać. Na przykład GBARunner2, NesDS i GameYob mają implementację ARGV
 - Potrzebny jest również sposób na ustawienie zmiennych ARGV. TWiLight Menu++ i HBMenu pozwalają na ustawienie argumentów ARGV

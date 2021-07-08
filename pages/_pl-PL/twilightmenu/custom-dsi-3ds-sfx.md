@@ -7,7 +7,7 @@ title: Skórki DSi/3DS - Własne SFX
 description: Jak używać niestandardowych efektów muzycznych i dźwiękowych w tle DSi i 3DS dla TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Oba pliki są opcjonalne, jeśli jakiejś zabraknie, domyślna muzyka będzie użyta. Powinieneś następnie też ustawić muzykę w opcjach na "Motyw".
+TWiLight Menu++ obsługuje niestandardowe pliki dźwiękowe w motywach. Umieść pliki dźwiękowe w podkatalogu `sound` w folderze motywu, na przykład dla motywu `white` umieścisz pliki odpowiednio w `themes/white/sound/sfx.bin` i `themes/white/sound/bgm.pcm.raw`. Oba pliki są opcjonalne, jeśli jakiejś zabraknie, domyślna muzyka będzie użyta. Powinieneś następnie też ustawić muzykę w opcjach na "Motyw".
 
 Te instrukcje zakładają, że devkitPro jest zainstalowany razem z mmutil. Możesz pobrać devkitPro na [stronie devkitPro](https://devkitpro.org/wiki/Getting_Started).
 

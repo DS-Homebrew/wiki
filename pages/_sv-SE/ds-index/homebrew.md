@@ -27,21 +27,23 @@ Olika SD-kortplatser har olika maskinvara (för det mesta) och kod skriven för 
 
 ### Tidsinställd bomb
 
-En tidsinställd bomb är ett utgångsdatum för minneskort-kärnor som tillverkarna använder för att tvinga användare att köpa ett nytt kort. När din systemklocka går längre än ett visst datum, kommer kärnan att vägra att starta upp förbi utgångsskärmen. Tur så är en flagga inte inställd någonstans och det hanteras i minneskortets firmware, vilket ger oss två lösningar runt problemet:
+In some flashcard kernels, an arbitrary expiration date (more commonly known as a time bomb) is coded in by the kernel developers as a way to get consumers to buy their latest product. The procedure for how this works is the following:
 
-- Eftersom det förlitar sig på systemets klocka så kan du ställa in datum. Detta kommer att bryta alla spel som använder din systemklocka, men det gör att du kan använda standardkärnan.
-- Eftersom den förlitar sig på kärnan och inte den inbyggda programvaran så kan du byta till en alternativ kärna. Det finns inga tillgängliga val:
-   - [YSmenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) -- Menyn är ganska ful och visar bara `.ds` filer, men det har mycket bättre spelstöd, fuskstöd och kräver inte memory pak
-   - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) -- Detta är användbart om du vill ha alla dina ROM från olika konsoler i samma meny, Det finns två sätt att köra DS spel med TWiLight Menu++:
-      - Med nds-bootstrap på minneskort: Kräver en Memory Expansion Pak för utökad spelkompatibilitet och stöder inte fusk. Men det fungerar på alla minneskort som TWiLight Menu++ har stöd för
-      - Med YSMenu: Hämtar kompatibilitetsfördelarna med YSMenu med den bättre menyn av TWiLight Menu++, men fusk stöds inte för närvarande
+1. The flashcard is booted into and loads up the kernel file from the SD card without checking if it's the kernel intended by the developers
+1. Each time the kernel file from the SD card is loaded, it checks if the system date is past a certain date
 
-Vi rekommenderar YSMenu, med TWiLight Menu++ om du föredrar det, på grund av den högre kompatibiliteten och brist på behov av ett Memory Expansion Pak. Om du vill konfigurera YSMenu så har DeadSkullzJr gjort en [Dropbox-repo](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) med alla primära startkärnor som är konfigurerade för ditt minneskort. Allt det kräver är att dra och släppa filerna till ditt SD-korts rot och du är klar. Instruktioner för hur du installerar TWiLight Menu++ är [på minneskort installationssidan](../twilightmenu/installing-flashcard).
+If the second test comes out positive, the kernel will refuse to boot. This can be tested by setting your date to the latest value possible. However, the security is weak and the results aren't cached, meaning that there are ways to work around it:
 
-För att testa om ditt minneskort har en tidsinställd bomb, sätt datumet på ditt system till det senaste möjliga värdet och starta minneskortet.
+If you want to use the default kernel that the flashcard manufacturers intended, the system clock can be set back in the device's System Settings application. Keep in mind, though, that this may break any game that relies on the system clock (such as Animal Crossing: Wild World).
+
+However, the kernels that come with these cards are fundamentally flawed and it is preferable to outright replace them. Thankfully, 3rd party developers have made alternatives you can use:
+
+- [YSmenu - menu + game loader](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) - Although it does not have the advantage of a customizable all-in-one menu, the game loader has far better compatibility with support for action-replay cheats
+- [TWiLight Menu++ with nds-bootstrap](/twilightmenu/installing-flashcard) - Has a customizable all-in-one menu and supports cheats, but its B4DS mode (the mode used when it doesn't have the DSi's capabilities) has weak compatibility, some games even requiring the Memory Expansion Pak
+- [TWiLight Menu++ with YSmenu](/twilightmenu/installing-flashcard) - Customizable all-in-one menu with high compatibility, but lacks cheat support
 
 ### ARGV Support
-ARGV är en informationssändare mellan två homebrew Nintendo DS-program. Den kan användas för forwarders eller alternativa menyer.
+ARGV is an information transmitter between two homebrew Nintendo DS applications. It can be used for forwarders or alternative menus.
 
 - Homebrew måste programmeras för att dra nytta av det. Till exempel GBARunner2, NesDS och GameYob alla har ARGV implementering
 - Det måste också finnas ett sätt att ställa in ARGV-variablerna. TWiLight Menu++ och HBMenu gör det möjligt att ställa in argument från ARGV

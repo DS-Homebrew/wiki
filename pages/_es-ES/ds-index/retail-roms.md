@@ -56,7 +56,6 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
    - TWiLight Menu++ lee el archivo `usrcheat.dat` y manda los valores de los trucos activados a otro archivo que lee nds-bootstrap
    - El motor usado por nds-bootstrap está basado en el de NitroHax. Sin embargo, debido a que el archivo solo contiene los trucos activados para ese juego en concreto, hay un límite de trucos que se pueden activar, no del tamaño de la base de datos
-   - Bootstrap 4 DS (la versión de nds-bootstrap que se usa en flashcards) no tiene soporte para trucos, debido a no tener suficiente RAM y las limitaciones del Memory Expansion Pack
 
 Para tener la base de datos más completa recomendamos usar la de DeadSkullzJr, titulada [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 

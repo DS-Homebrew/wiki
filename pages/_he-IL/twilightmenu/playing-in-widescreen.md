@@ -14,7 +14,7 @@ description: איך להשתמש בTWiLight Menu++ במסך רחב על Nintendo
 - וודאו שהקובץ`boot.firm` של Luma נמצא בשורש הSD שלכם
 
 ### התקנה
-1. הורידו את [TWPatch](https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia) והעתיקו את `TWPatch.cia` לכרטיס הSD שלכם ([דיון בGBATemp ](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. הורידו את [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) והעתיקו את `TWPatch.cia` לכרטיס הSD שלכם ([דיון בGBATemp ](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. התקינו את `TWPatch.cia` באמצעות FBI
    - ניתן גם להשתמש בUniversal-Updater על מנת להתקין את TWPatch במקום 2 הצעדים הקודמים
 1. חזרו לתפריט הבית והפעילו את TWPatch

@@ -33,13 +33,13 @@ Cloneboot זה כאשר משחק שולח את הבינארים של ARM7 וARM9
 ישנם פורמטים שונים בשימוש בהתאם לאופן הטעינה, אבל nds-bootstrap משתמש בפורמט הגולמי `.sav`. אם אתם משתמשים בפורמט אחר, הנה אתר שנותן לכם להמיר אותו: http://www.shunyweb.info/convert.php
 
 ### Assembly
-שפת אסמבלי זאת כל שפת תכנות ברמה נמוכה עם חיבור חזק בין ההוראות בשפה להוראות של המעבד. בDS, קוד אסמבלי מגיע בצורה של הוראות ARM או הוראות THUMB, כאשר הוראות THUMB הם תת קבוצה של הוראות ARM. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses. You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
+שפת אסמבלי זאת כל שפת תכנות ברמה נמוכה עם חיבור חזק בין ההוראות בשפה להוראות של המעבד. בDS, קוד אסמבלי מגיע בצורה של הוראות ARM או הוראות THUMB, כאשר הוראות THUMB הם תת קבוצה של הוראות ARM. THUMB שימושי על מנת לשמור רוחב פס, מאחר והוא משתמש בהוראות 16-ביט בניגוד להוראות 32-ביט שבשימוש על ידי ARM. תוכלו למצוא מידע נוסף על הוראות אסמבלי, בנוסף על מידע טכני נוסף על הDS והDsi, ב[GBATEK](https://problemkaputt.de/gbatek.htm).
 
-### Card read DMA
-Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+### DMA לקריאה מכרטיס
+DMA כרטיס (קיצור לDirect Memory Access) היא דרך יותר יעילה לקרוא מידע מקלטת מאשר על ידי תוכנה. כאשר אין מידע זמין, קוד יכול עדיין לפעול. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
 
 You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+- לדוגמה: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Action Replay cheats
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
@@ -56,7 +56,6 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
    - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
    - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
-   - Bootstrap 4 DS (the nds-bootstrap version used on flashcards) does not support cheats, due to not having enough RAM and the limitations of the Memory Expansion Pack
 
 For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
