@@ -26,3 +26,6 @@ The above steps will increase DLP boot speed.
 To run Pictochat on 3DS (DSi required):
 - Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card
 You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+
+To run both on flashcard:
+- Copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` into the `_nds` folder on the flashcard's SD card.
