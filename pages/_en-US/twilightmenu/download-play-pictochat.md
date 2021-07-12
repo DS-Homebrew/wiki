@@ -8,7 +8,8 @@ description: How to get DS Download Play and Pictochat in TWiLight Menu++'s DS C
 ---
 
 If you're using a DSi console, you should already be able to launch those apps.
-Otherwise, if you have a 3DS, proceed below.
+Getting dumps of them for your flashcard or 3DS require accessing the DS Classic Menu.
+Otherwise, if you have a 3DS with no existing dump(s), proceed below.
 
 In GodMode9:
 - Press the Home/Power button
@@ -24,8 +25,7 @@ Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.n
 The above steps will increase DLP boot speed.
 
 To run Pictochat on 3DS (DSi required):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card
-You must first access the DS Classic Menu in TWiLight Menu++ on the DSi.
+- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS' SD card.
 
 To run both on flashcard:
-- Copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` into the `_nds` folder on the flashcard's SD card.
+- Copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` on the DSi or 3DS SD card to the same location on the flashcard's SD card.
