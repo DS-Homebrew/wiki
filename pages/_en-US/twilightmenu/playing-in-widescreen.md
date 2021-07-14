@@ -23,7 +23,7 @@ Requires a Nintendo 3DS or 2DS console.
 1. Press <kbd class="face">B</kbd> to exit the patch menu
 1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
    - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/`, and rename the file to `Widescreen.cxi`
+1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
 1. Open TWiLight Menu++ settings, switch to the `Games/Apps settings` page, and set `Screen Aspect Ratio` to `16:10`
