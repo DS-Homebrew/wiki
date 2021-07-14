@@ -15,6 +15,9 @@ tabs:
 Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sav` filer för DS spel till en ny mapp som heter `saves`. Se till att `saves` mappen är på samma plats som DS roms.
 {:.alert .alert-info}
 
+If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare roms.
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Öppna Universal-Updater
    - Om du inte har det, följ [dessa installations instruktioner](installing-3ds)
@@ -41,7 +44,7 @@ Om du uppdaterar från en version äldre än v16.4.0, vänligen flytta dina `.sa
 
 ### Fler steg för minneskort
 
-Om du kan växla mellan innehållet av SD och minneskort i TWLMenu++, och om minneskortets TWLMenu++ är på v16.3.0 eller senare, följ dessa steg.
+If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
 1. Gå till TWLMenu++ inställningar
 1. Välj `Uppdatera TWiLight Menu++`

@@ -15,6 +15,9 @@ tabs:
 If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS roms.
 {:.alert .alert-info}
 
+If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare roms.
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Open Universal-Updater
    - If you don't have it, follow the [installing](installing-3ds) instructions

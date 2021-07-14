@@ -15,6 +15,9 @@ tabs:
 Ha régebbi verzióról frissítesz, mint a v16.4.0, kérjük mozgasd a `.sav` DS játék fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DS romok.
 {:.alert .alert-info}
 
+Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` és/vagy `.prv` DSiWare fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DSiWare romok.
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Nyisd meg az Universal-Updater-t
    - Ha még nem rendelkezel vele, kövesd a [telepítési](installing-3ds) lépéseket

@@ -15,6 +15,9 @@ tabs:
 Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS dans un nouveau dossier appelé `saves`, qui se trouvera à la même place que les roms DS.
 {:.alert .alert-info}
 
+If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare roms.
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Ouvrez Universal-Updater
    - Si vous ne l'avez pas, suivez les instructions d'[installation](installing-3ds)
@@ -41,7 +44,7 @@ Si vous faites une mise à jour à partir d'une version antérieure à v16.4.0, 
 
 ### Étapes supplémentaire pour les linkers
 
-Si vous pouvez basculer entre le contenu de la carte SD et du linker dans TWLMenu++, et si le menu TWLMenu++ du linjer est sur v16.3.0 ou supérieur, veuillez suivre ces étapes.
+If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
 1. Allez dans les paramètres TWiLight Menu++
 1. Sélectionnez `Mettre à jour TWiLight Menu++`

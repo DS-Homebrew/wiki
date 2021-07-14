@@ -10,8 +10,13 @@ Informasi untuk [GodMode9i](https://github.com/DS-Homebrew/GodMode9i), alat pera
 
 ### Soal Sering Ditanya (FAQ) & Pengusutan masalah
 
-#### Bagaimana cara melewati layar "mounting drive(s)" saat baru buka?
-This happens when you launch GodMode9i from [hiyaCFW](/hiyacfw). Kamu dapat menahan X ketika meluncurkan GodMode9i agar penyembulan (mounting) NAND dilewati. Cara lainnya, kamu dapat meluncurkan GodMode9i langsung dari unlaunch agar dapat menyembulkan (mount) NAND.
+#### How do I dump games?
+Follow [this guide](https://dsi.cfw.guide/dumping-game-cards) from the [dsi.cfw.guide](https://dsi.cfw.guide/) website.
 
 #### Kenapa saya tidak bisa mengimbit (dump) permainan di DSi?
 You need Unlaunch installed in order to be able to dump games onto your SD card. You can install Unlaunch by following [dsi.cfw.guide](https://dsi.cfw.guide/).
+
+#### How do I get past the "mounting drive(s)" screen while starting it up?
+This happens when you launch GodMode9i from [hiyaCFW](/hiyacfw). You can hold X while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from unlaunch to be able to mount the NAND.
+
+

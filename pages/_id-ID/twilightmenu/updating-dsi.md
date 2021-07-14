@@ -11,6 +11,9 @@ description: Bagaimana cara memperbarui TWiLight Menu++ pada Nintendo DSi
 Jika memperbarui dari versi yang lebih lama dari v16.4.0, mohon pindahkan dulu berkas `.sav` permainan DS-nya ke folder baru bernama `saves`, yang mana folder `saves` di tempat yang sama dengan rom DS.
 {:.alert .alert-info}
 
+If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare roms.
+{:.alert .alert-info}
+
 ### Pemerbaruan (Update)
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Ekstrak `TWiLightMenu-DSi.7z`
@@ -20,7 +23,7 @@ Jika memperbarui dari versi yang lebih lama dari v16.4.0, mohon pindahkan dulu b
 
 ### Langkah tambahan untuk yang flashcard
 
-Jika kamu dapat beralih tempat dari isi kartu SD dan flashcard di TWLMenu++, dan jika TWLMenu++ flashcard ada di v16.3.0 atau setelahnya, ikuti langkah-langkah berikut.
+If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
 1. Masuk ke pengaturan TWLMenu++
 1. Pilih `Update TWiLight Menu++`

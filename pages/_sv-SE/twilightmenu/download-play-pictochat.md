@@ -3,24 +3,27 @@ lang: sv-SE
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play/Pictochat in DS Classic Menu
-description: Hur får man DS Download Play och Pictochat i TWiLight Menu++'s DS Classic Menu
+title: Download Play/PictoChat in the DS Classic Menu
+description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS Classic Menu
 ---
 
-Om du använder en DSi-konsol bör du redan kunna starta dessa appar. Annars, om du har en 3DS, fortsätt nedan.
+Om du använder en DSi-konsol bör du redan kunna starta dessa appar. Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu. Otherwise, if you have a 3DS with no existing dump(s), proceed below.
 
 I GodMode9:
-- Tryck på Hem/Strömknappen
+- Press the HOME/Power button
 - Välj `Title Manager`och välj `[1:] NAND / TWL`
 - Välj `DS Download Play (NTR-HNDA)`
 - Välj `Open title folder`
 - Välj `00000000.tmd`och välj `TMD file options...`
 - Välj `Dump CXI/NDS file`
-- Klart. Filen kommer att finnas i `0:/gm9/out/`.
+- Klart. The file will be in `0:/gm9/out/`
 
 Kopiera `DS Download Play (NTR-HDNA).nds` till `0:/_nds/`och byt namn på den till `dlplay.nds`.
 
 De ovannämnda stegen kommer att öka DLP uppstartshastighet.
 
-För att köra Pictochat på 3DS (DSi krävs):
-- Kopiera `pictochat.ds` från `sd:/_nds/` på DSi:ets SD-kort till samma plats på ditt 3DS SD-kort. Du måste först komma åt DS Classic Menu i TWiLight Menu++ på DSi.
+To run PictoChat on 3DS (DSi required):
+- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS's SD card
+
+To run both on flashcard:
+- Copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` on the DSi or 3DS SD card to the same location on the flashcard's SD card

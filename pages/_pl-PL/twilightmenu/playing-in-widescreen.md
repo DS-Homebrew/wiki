@@ -18,21 +18,20 @@ Wymaga konsoli Nintendo 3DS lub 2DS.
 1. Zainstaluj `TWPatch.cia` przy użyciu FBI
    - Możesz również użyć programu Universal-Updater do zainstalowania TWPatch zamiast dwóch poprzednich kroków
 1. Wróć do menu głównego i uruchom program TWPatch
-1. Przytrzymaj <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> i włącz `Widescreen patch (384x240 16:10)`
-1. (opcjonalne!) Aby uzyskać mniej panoramiczny ekran, włącz także` test skali GPU (zagrożenie dla zdrowia!)`
-   - "Niebezpieczeństwo dla zdrowia!" wynika z tego, że deweloper miał ból głowy z powodu rozmycia obrazu
-1. Wciśnij <kbd>START</kbd> aby wygenerować plik `TwlBg.cxi` z widescreenem
-   - Jeśli górny ekran nie wskazuje, że Widescreen jest włączony, zacznij ponownie od kroku 3
-   - Jeśli widescreen nadal nie działa, poczekaj aż RTCom-activated widescreen zostanie wypuszczony
-1. Zrestartuj swojego 3DS'a trzymając <kbd>SELECT</kbd> aby otworzyć konfigurację Luma3DS
-1. Włącz `zewnętrzne FIRM-y i moduły` a następnie naciśnij <kbd>START</kbd>aby zapisać i wyjść
-1. Otwórz ustawienia TWiLight Menu++, przełącz się na `Misc settings` i ustaw `Screen Aspect Ratio` na `16:10`
-   - Można to zrobić dla każdej gry
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
+1. Press <kbd class="face">B</kbd> to exit the patch menu
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
+1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/`, and rename the file to `Widescreen.cxi`
+1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
+1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
+1. Open TWiLight Menu++ settings, switch to the `Games/Apps settings` page, and set `Screen Aspect Ratio` to `16:10`
+   - This can be done per-game as well
 
 I to wszystko! Ciesz się swoimi szerokoekranowymi grami na DS!
 
-**NOTE1:** Każda gra/aplikacja w trybie DS(i) będzie działać w trybie panoramicznym, nawet te gry, które nie są kompatybilne z ekranem panoramicznym. Żeby to naprawić, musisz poczekać aż wyjdzie tryb szerokoekranowy uruchamiany przez RTCom.
-
-**NOTKA2:** Nie przytrzymuj <kbd>START</kbd> bądź <kbd>SELECT</kbd> podczas włączania TWLMenu++, jeśli nie chcesz, żeby szeroki ekran wyglądał dziwnie. Jeśli nie widzisz ustawień proporcji ekranu, poczekaj aż wyjdzie możliwość uruchomienia szerokiego ekranu przez RTCom.
-
-Nie każda gra działa w szerokim ekranie. [Natomiast stworzyliśmy listę z działającymi grami](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+**NOTES:**
+1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
+1. Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++

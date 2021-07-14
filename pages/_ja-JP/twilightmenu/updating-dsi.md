@@ -11,6 +11,9 @@ description: ニンテンドーDSiでTWiLight Menu++を更新する方法
 v16.4.0より古いバージョンから更新する場合は、DSゲームの`.sav`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDS ROMと同じ場所に置いてください。
 {:.alert .alert-info}
 
+v21.0.0より古いバージョンから更新する場合は、DSiウェアタイトルの`.pub`および/または`.prv`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDSウェアROMと同じ場所に置いてください。
+{:.alert .alert-info}
+
 ### 更新
 1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロードする
 1. `TWiLightMenu-DSi.7z`を抽出する

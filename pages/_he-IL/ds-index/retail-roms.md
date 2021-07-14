@@ -36,29 +36,29 @@ Cloneboot זה כאשר משחק שולח את הבינארים של ARM7 וARM9
 שפת אסמבלי זאת כל שפת תכנות ברמה נמוכה עם חיבור חזק בין ההוראות בשפה להוראות של המעבד. בDS, קוד אסמבלי מגיע בצורה של הוראות ARM או הוראות THUMB, כאשר הוראות THUMB הם תת קבוצה של הוראות ARM. THUMB שימושי על מנת לשמור רוחב פס, מאחר והוא משתמש בהוראות 16-ביט בניגוד להוראות 32-ביט שבשימוש על ידי ARM. תוכלו למצוא מידע נוסף על הוראות אסמבלי, בנוסף על מידע טכני נוסף על הDS והDsi, ב[GBATEK](https://problemkaputt.de/gbatek.htm).
 
 ### DMA לקריאה מכרטיס
-DMA כרטיס (קיצור לDirect Memory Access) היא דרך יותר יעילה לקרוא מידע מקלטת מאשר על ידי תוכנה. כאשר אין מידע זמין, קוד יכול עדיין לפעול. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+DMA כרטיס (קיצור לDirect Memory Access) היא דרך יותר יעילה לקרוא מידע מקלטת מאשר על ידי תוכנה. כאשר אין מידע זמין, קוד יכול עדיין לפעול. בקריאת מידע מהקלטת בתוכנה, משיכת הרגיסטר לבדיקה אם יש מידע חדש מבזבזת זמן. זוהי הדרך המועדפת לגשת למידע.
 
-You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
+ניתן לזהות אם משחק משתמש בdma באמצעות no$gba על ידי הפעלת הDMA log בARM9. גישת DMA לקלטת משתמשת בAF000001 כפרמטר השלישי.
 - לדוגמה: `DMA2: 04100010 023C18C0 AF000001`
 
-### Action Replay cheats
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+### צ'יטים של Action Replay
+צ'יטים של Action Replay הם קודים המאפשרים לכם לעשות שינויים מתכוננים ברמה נמוכה באזור הזכרון של המשחקים המועדפים עליכם. שינויים אלו נעים משינוי ערכים פשוטים לשינויי ASM מסובכים במיוחד, כאשר שניהם יכולים לשנות את חווית המשחק שאתם משחק לחלוטין.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
+פלאשקרדים יכולים לנצל צ'יטים על ידי מאגרי צ'יטים. הפונקציות של הצ'יטים מובנות בתוך הקרנל של הפלאשקארד. הקרנלים הבאים יכולים להשתמש בצ'יטים:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+הומברו\פתרונות דיגיטליים יכולים גם לנצל את מאגר הצ'יטים, התוכנה שזמינה כרגע יכולה להשתמש באחד מהבאים:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+   - NitroHax נותן לכם להשתמש בצ'יטים עם קלטות משחק אמיתיות מפלאשקארד. המנוע שבשימש כאן טוען את כל המאגר cheats.xml אל הRAM המוגבל של Nintendo DS ומנסה לנהל דברים משם. דבר זה יוצא מגבלה משמעותית על כמות הצ'יטים שתוכלו שיהיה לכם, מאחר וNitroHax לא יטעון קבצי cheats.xml גדולים מ2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
+   - NitroHax3DS היא גרסה של NitroHax שרצה מהכרטיס SD של המערכת בDSi או ב3DS. הגרסה המקורית משתמשת בcheats.xml עם אותה מגבלה של 2.4 MB כמו של NitroHax המקורי, אבל יש גם גרסה שטוענת צ'יטים ממאגר usrcheat.dat ללא מגבלת גודל
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-   - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+   - TWiLight Menu++ קורא את `usrcheat.dat` ושולח את הערכים של הצ'יטים המאופשרים לקובץ אחר, שאותו nds-bootstrap קורא
+   - מנוע הצ'יטים שבשימוש בnds-bootstrap מבוסס על זה שבNitroHax. מאחר וקובץ הצ'יטים כולל רק את הצ'יטים שהופעלו עבור הכותר המסויים הזה, יש מגבלה לכמות הצ'יטים שניתן להפעיל, לא מגבלה על גודל המאגר
 
-For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
+עבור המאגר השלם ביותר, אנחנו ממליצים להשתמש באחד שנוצר על ידי DeadSkullzJr בשם [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
-Cheat codes generally have types A through E, and here is a description of them:
+לצ'יטים יש בדרך כלל סוגים, A עד E, תיאורם:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
+- צ'יט מסוג 0xE הוא צ'יט 32-ביט שמאפשר מספר שכתובים במספר כתובות צמודות בבת אחת. עקרונית, זה כמו הצ'יט הבסיסי (0x0) שהוא כתיבה בראם ב32-ביט, כשההבדל הוא שאין לו את רשימת הכתובות ליד הערכים שהוא רוצה לכתוב. במקום זאת, הצ'יט מסוג 0xE מתוכנן כך שבאופן אוטומטי הוא ימשיך מכתובת התחלתית וממנה יסיק את שאר הכתובות לכתוב אליהן. משם, כל מה שצריך הוא לציין את הכתובת שרוצים לכתוב על מנת שהעבודה תתבצע.

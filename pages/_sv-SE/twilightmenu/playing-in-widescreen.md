@@ -18,21 +18,20 @@ Kräver en Nintendo 3DS eller 2DS konsol.
 1. Installera `TWPatch.cia` med FBI
    - Du kan också använda Universal-Updater för att installera TWPatch annars
 1. Återgå till hemmenyn och starta TWPatch
-1. Håll ner <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> och aktivera `Widescreen patch (384x240 16:10)`
-1. (Valfritt!) För en mindre pixelerad bredbild, aktivera också `GPU scale test (hälsorisk!)`
-   - Hälsorisken beror på att det gav utvecklaren en huvudvärk på grund av dess suddighet
-1. Tryck <kbd>X</kbd> + <kbd>START</kbd> för att generera en `TwlBg.cxi` fil med bredbild
-   - Om den översta skärmen inte indikerar att bred patchen är aktiverad, starta om från steg 3 igen
-   - Om bredbild fortfarande inte fungerar, vänta tills RTCom-aktiverad bredbild släpps
-1. Starta om din 3DS medan du håller <kbd>SELECT</kbd> för att öppna inställningarna för Luma3DS
-1. Aktivera `external FIRMs and modules`, tryck <kbd>START</kbd> för att spara och avsluta
-1. Öppna TWiLight Menu++ inställningar, växla till `Övriga inställningar` och ställ in `Skärmens bildformat` till `16:10`
-   - Detta kan också göras i spelens spelspecifika inställningar
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
+1. Press <kbd class="face">B</kbd> to exit the patch menu
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
+1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/`, and rename the file to `Widescreen.cxi`
+1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
+1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
+1. Open TWiLight Menu++ settings, switch to the `Games/Apps settings` page, and set `Screen Aspect Ratio` to `16:10`
+   - This can be done per-game as well
 
 Du är klar! Njut av dina DS spel i bredbild!
 
-**ANTECKNING 1:** Varje spel/app i DS(i) läge körs i bredbild, även de spel som inte är kompatibla med bredbild. För att detta ska rättas så att bara bredbild-kompatibla spel kan köras i bredbild, vänta på att RTCom-aktiverad bredbild ska släppas.
-
-**ANTECKNING 2:** Håll inte nere <kbd>START</kbd> eller <kbd>SELECT</kbd> när du startar upp TWLMenu++ om du inte vill att bredbild ska se buggad ut. Om du inte ser inställningen för skärmens bildformat så väntar du på att RTCom-aktiverad bredbild ska släppas.
-
-Inte alla spel är kompatibla i bredbild. [Vi har skapat en lista över spel med bredbild](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+**NOTES:**
+1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
+1. Not every game is widescreen compatible. [We have created a list of games with widescreen](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++
