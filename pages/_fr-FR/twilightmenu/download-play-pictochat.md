@@ -3,27 +3,27 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play/PictoChat in the DS Classic Menu
-description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS Classic Menu
+title: Télécharger Play/PictoChat dans le menu DS Classic
+description: Comment obtenir DS Download Play et PictoChat dans TWiLight Menu++ dand le Menu Classique DS
 ---
 
-Si vous utilisez une console DSi, vous devriez déjà pouvoir lancer ces applications. Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu. Otherwise, if you have a 3DS with no existing dump(s), proceed below.
+Si vous utilisez une console DSi, vous devriez déjà pouvoir lancer ces applications. Pour obtenir les dumps pour votre flashcard ou 3DS, vous devez accéder au Menu Classique DS. Sinon, si vous avez une 3DS sans dump existant, procédez ci-dessous.
 
 Dans GodMode9:
-- Press the HOME/Power button
-- Select `Title Manager`, then select `[1:] NAND / TWL`
-- Find and select `DS Download Play (NTR-HDNA)`
-- Select `Open title folder`
-- Select `00000000.tmd`, then select `TMD file options...`
-- Select `Dump CXI/NDS file`
-- Done. The file will be in `0:/gm9/out/`
+- Appuyez sur le bouton HOME/Power
+- Sélectionnez `Title Manager`, puis sélectionnez `[1:] NAND / TWL`
+- Trouvez et sélectionnez `DS Download Play (NTR-HDNA)`
+- Sélectionnez `Option title folder`
+- Sélectionnez `00000000.tmd`, puis sélectionnez `TMD file options...`
+- Sélectionnez `Dump CXI/NDS file`
+- Terminée. Le fichier sera dans `0:/gm9/out/`
 
-Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`.
+Copiez `DS Download Play (NTR-HDNA).nds` sur `0:/_nds/`, et renommez-le en `dlplay.nds`.
 
 Les étapes ci-dessus augmenteront la vitesse de démarrage de DLP.
 
-To run PictoChat on 3DS (DSi required):
-- Copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS's SD card
+Pour exécuter PictoChat sur 3DS (DSi requis) :
+- Copiez `pictochat.nds` vers `sd:/_nds/` sur la carte SD de la Dsi vers le même emplacement sur la carte SD de la 3DS
 
-To run both on flashcard:
-- Copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` on the DSi or 3DS SD card to the same location on the flashcard's SD card
+Pour exécuter deux flashcard:
+- Copiez à la fois `pictochat.nds` et `dlplay.nds` vers `sd:/_nds/` sur la carte SD DSi ou 3DS vers le même emplacement sur la carte SD de la flashcard

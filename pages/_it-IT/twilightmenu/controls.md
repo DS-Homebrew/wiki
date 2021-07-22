@@ -9,10 +9,10 @@ description: Controlli per l'utilizzo di TWiLight Menu++
 ---
 
 #### Nintendo DSi, Nintendo 3DS, SEGA Saturn e Homebrew Launcher
-- <kbd>Left</kbd>/<kbd>Right</kbd>: Select a game/app
-- <kbd class="face">A</kbd>/<kbd>START</kbd>: Launch game/app
-- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Switch pages
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
+- <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Seleziona gioco/app
+- <kbd class="face">A</kbd>/<kbd>START</kbd>: Avvia gioco/app
+- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd>SELECT</kbd> + <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Cambia pagina
+- (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Sù</kbd>/<kbd>Giù</kbd> & rilascia <kbd>SELECT</kbd>: Passa tra scheda SD e la flashcard
 - <kbd class="face">Y</kbd>: Impostazioni per gioco
    - <kbd class="face">X</kbd>: Menù trucchi
       - <kbd class="face">A</kbd>: Abilita trucco
@@ -21,13 +21,13 @@ description: Controlli per l'utilizzo di TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostra descrizione del trucco
       - <kbd class="l">L</kbd>: Disabilita tutti i trucchi
 - <kbd class="face">X</kbd>: Elimina/nascondi gioco
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
+- (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menù SELECT o menù DS Classic (dove è possibile accedere alle impostazioni di TWiLight Menu++ e alla modalità GBA)
 
 #### Tema R4
-- <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app
-- <kbd class="face">A</kbd>: Launch game/app
+- <kbd>Su</kbd>/<kbd>Giù</kbd>: Seleziona un gioco/app
+- <kbd class="face">A</kbd>: Avvia gioco/app
 - <kbd class="l">L</kbd>: Passa tra la scheda SD e la flashcard
-- <kbd class="face">Y</kbd>: Impostazioni del gioco
+- <kbd class="face">Y</kbd>: Impostazioni per Gioco
    - <kbd class="face">X</kbd>: Menù trucchi
       - <kbd class="face">A</kbd>: Abilita trucco
       - <kbd class="face">B</kbd>: Esci dal menu trucchi
@@ -35,39 +35,39 @@ description: Controlli per l'utilizzo di TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostra descrizione del trucco
       - <kbd class="l">L</kbd>: Disabilita tutti i trucchi
 
-#### ROM DS(i) (usando nds-bootstrap)
-Queste non si applicano ai DSiWare.
+#### ROM DS(i) (utilizzando nds-bootstrap)
+Non si applicano ai DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Su</kbd> + <kbd class="face">X</kbd> per 1 secondo: Inverti lo schermo superiore ed inferiore
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Giù</kbd> + <kbd class="face">A</kbd> per 3 secondi: Dump della RAM nel percorso `sd:/_nds/nds-bootstrap`, con nome file `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Giù</kbd> + <kbd class="face">B</kbd> per 2 secondi: Ritorna a TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Giù</kbd> + <kbd>SELECT</kbd>: Apri il menu in-game
    - Visualizzatore RAM
-      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
-      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd>Sù</kbd>/<kbd>Giù</kbd>: Scorri
+      - <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Scorrimento rapido
       - <kbd class="face">A</kbd>: Apri editor della RAM
-      - <kbd class="face">B</kbd>: Torna al menu in-game
+      - <kbd class="face">B</kbd>: Torna al menu in-gioco
       - <kbd class="face">Y</kbd>: Specifica l'indirizzo su cui spostarsi
-        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
-        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-   - RAM Editor
-      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-      - <kbd class="face">A</kbd>: Modify selected value
-         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
-         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
-      - <kbd class="face">B</kbd>: Return to RAM Viewer
-      - <kbd class="face">Y</kbd>: Specify an address to jump to
-        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
-        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- The in-game menu is not accessible in DSi Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will instead exit the game
-- Only the screen swap button combo will work in B4DS mode, the others will not work
-- Returning to TWiLight Menu++ may not work on some O3DS models
+        - <kbd>Sù</kbd>/<kbd>Giù</kbd>: Aumenta/Diminuisce il valore selezionato
+        - <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Seleziona un valore
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Ritorna al visualizzatore/editor della RAM all'indirizzo specificato
+   - Editor della RAM
+      - <kbd>Sù</kbd>/<kbd>Giù</kbd>/<kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Seleziona un valore
+      - <kbd class="face">A</kbd>: Modifica il valore selezionato
+         - <kbd>Sù</kbd>/<kbd>Giù</kbd>: Aumenta/Diminuisci il valore di 1h
+         - <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Aumenta/Diminuisci il valore di 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Termina la modifica del valore
+      - <kbd class="face">B</kbd>: Ritorna al visualizzatore della RAM
+      - <kbd class="face">Y</kbd>: Specifica l'indirizzo su cui spostarsi
+        - <kbd>Sù</kbd>/<kbd>Giù</kbd>: Aumenta/Diminuisce il valore selezionato
+        - <kbd>Sinistra</kbd>/<kbd>Destra</kbd>: Seleziona un valore
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Ritorna al visualizzatore/editor della RAM all'indirizzo specificato
+- Il menu in-gioco non è accessibile ai giochi DSi Enhanced/Esclusivi in modalità DSi, quindi utilizzare la combinazione di tasti in questa specifica modalità vi farà uscire dal gioco
+- Solo la combinazione per invertire gli schermi funzionerà in modalità B4DS, le altre non funzioneranno
+- Ritornare in TWiLight Menu++ potrebbe non funzionare in alcuni modelli O3DS
 
-#### Shortcut di avvio
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### Scorciatoie d'avvio
+Queste scorciatoie devono essere premute nella schermata d'avvio di TWiLight Menu++ / subito dopo quella del Nintendo DSi.
 
 - <kbd>SELECT</kbd>: Apri le impostazioni
 - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reimposta tutte le impostazioni di TWiLight Menu++
-- <kbd class="face">B</kbd>: Boot the last ran ROM
+- <kbd class="face">B</kbd>: Avvia l'ultima ROM eseguita

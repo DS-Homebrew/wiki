@@ -3,11 +3,11 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi/3DS Skins - Custom SFX
+title: Skins DSi/3DS - Effets personnalisés
 description: Comment utiliser une musique de fond et des effets sonores personnalisés dans les skins DSi et 3DS pour TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Les deux fichiers sont optionnels, si il en manque un, la musique par défaut sera utilisée. Vous devriez alors aussi définir l'option musique dans les paramètres sur "Thème".
+TWiLight Menu++ prend en charge les fichiers de son personnalisés dans les thèmes. Placez vos fichiers sonores sous le sous-répertoire `sound` dans le dossier de votre thème, par exemple pour le thème `blanc` , vous placeriez les fichiers dans `themes/white/sound/sfx.bin dans` et `thèmes / blanc/son/bgm.pcm.raw` respectivement. Les deux fichiers sont optionnels, si il en manque un, la musique par défaut sera utilisée. Vous devriez alors aussi définir l'option musique dans les paramètres sur "Thème".
 
 Ces instructions supposent que vous avez devkitPro installé avec mmutil. Vous pouvez obtenir devkitPro sur le site web [devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
@@ -62,11 +62,11 @@ Pour convertir l'audio:
 1. Changez le `Project Rate (Hz)` en bas à gauche vers `16000`
 
 Pour exporter dans le format correct :
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+1. Sélectionnez `File` > `Export` > `Export Audio...`
+1. Définir `File Type` sur `Other uncompressed files`
+1. Définir `Header` sur `RAW (header-less)`
+1. Définir `Encoding` sur `Signed 16-bit PCM`
+1. Définissez le nom de sortie à `bgm.pcm.raw` et cliquez sur `Save`
+1. Cliquez sur `OK` pour éditer les métadonnées
 
 Maintenant vous avez un fichier `bgm.pcm.raw` qui peut être copié dans le sous-dossier `sound` de votre thème.

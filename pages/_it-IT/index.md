@@ -4,7 +4,7 @@ layout: default
 title: Home
 ---
 
-# Benvenuto sulla DS-Homebrew Wiki!
+# Benvenuto nella DS-Homebrew Wiki!
 
 In questo sito potrai trovare delle wiki per TWiLight Menu++ e altri progetti DS-Homebrew. Clicca su una di queste sezioni in alto, e una lista di pagina apparirà sulla sinistra.
 

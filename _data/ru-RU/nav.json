@@ -1,0 +1,39 @@
+[
+		{
+				"title": "Главная",
+				"url": "/"
+		},
+		{
+				"title": "Проекты",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						},
+						{
+								"title": "Другие проекты",
+								"url": "/other"
+						}
+				]
+		},
+		{
+				"title": "Индекс DS",
+				"url": "/ds-index"
+		},
+		{
+				"title": "Информация о сообществе",
+				"url": "/community"
+		}
+]

@@ -34,4 +34,4 @@ Vous avez terminé ! Profitez de vos jeux DS en plein écran !
 **NOTES :**
 1. Ne maintenez pas <kbd>START</kbd> ou <kbd>SELECT</kbd> lors du lancement de TWLMenu++, si vous ne voulez pas que le plein écran apparaisse buggé
 1. Tous les jeux ne sont pas compatibles avec le plein écran. [Nous avons créé une liste de jeux compatibles avec le plein écran](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++
+1. Si vous êtes coincé en mode plein écran dans tous les TWL_FIRM (y compris l'interface TWLMenu++ GUI) après avoir suivi ce guide et lancé un jeu compatible avec le plein écran, [désinstallez](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) et [réinstallez](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++

@@ -1,0 +1,53 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "Гайды"
+		},
+		{
+			"key": "reference",
+			"title": "Справка"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "Установка"
+		},
+		{
+			"key": "updating",
+			"title": "Обновление"
+		},
+		{
+			"key": "customization",
+			"title": "Кастомизация"
+		},
+		{
+			"key": "other",
+			"title": "Другое"
+		},
+		{
+			"key": "uninstalling",
+			"title": "Удаление"
+		},
+		{
+			"key": "indexes",
+			"title": "Карта"
+		}
+	],
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [
+		{
+			"key": "other",
+			"title": "Другое"
+		}
+	],
+	"other": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
+	]
+}

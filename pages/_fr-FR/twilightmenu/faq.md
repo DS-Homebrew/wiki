@@ -91,7 +91,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
 #### Can The Biggest Loser boot TWiLight Menu++?
-No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+Non. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
 
 [^1]: Les fichiers texte contenant le chemin vers une application homebrew DS et des arguments pour le lancer avec, voir le README de [nds-hb-menu](https://github.com/devkitPro/nds-hb-menu#passing-arguments) pour plus d'infos
 [^2]: Seulement pour les ROMs commericales, les homebrews n'ont pas de fichiers de sauvegarde spécifiques

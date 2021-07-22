@@ -1,0 +1,39 @@
+[
+		{
+				"title": "主页",
+				"url": "/"
+		},
+		{
+				"title": "项目",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						},
+						{
+								"title": "其它项目",
+								"url": "/other"
+						}
+				]
+		},
+		{
+				"title": "DS Index",
+				"url": "/ds-index"
+		},
+		{
+				"title": "社区信息",
+				"url": "/community"
+		}
+]
