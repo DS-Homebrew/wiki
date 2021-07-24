@@ -78,7 +78,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
-| MPEG4 Video             | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                                |
+| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | RVID Video              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
@@ -91,7 +91,6 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
-[mpeg4player]: https://gbatemp.net/threads/544095
 [ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
 [nesds]: https://github.com/DS-Homebrew/NesDS
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
