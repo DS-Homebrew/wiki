@@ -13,5 +13,5 @@ To view tested games, look [here](https://docs.google.com/spreadsheets/d/1LRTkXO
 - Look for screen flickering or sound issues
 - If something looks off, run the game along a console not using nds-bootstrap to compare
 - Try as many features in the game as possible
-- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Asych card read, etc)
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - Be thorough
