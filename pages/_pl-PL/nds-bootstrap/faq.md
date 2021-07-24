@@ -23,13 +23,10 @@ Jeśli usłyszysz, że jest to problem z nds-bootstrap, sprawdź czy gra nie zos
 
 Upewnij się również, że dodałeś go do [listy kompatybilności](https://wiki.ds-homebrew.com/nds-bootstrap/testing) w Arkuszach Google.
 
-#### Dlaczego Multiplayer nie działa?
-To jest [znany problem](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) z cloneboota. Proszę czekaj na poprawkę.
+#### Why are there issues with ROM loading, even though they're run natively?
+nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
 
-#### Dlaczego problemy z ładowaniem ROMów się pojawiają, mimo że są one uruchamiane natywnie?
-nds-bootstrap patchuje funkcje ROMu do uruchamiania z karty SD, jako że ROMy są zakodowane do odczytu z Pola-1. Istnieją również problemy z timingiem i środkami AP (które w większości zostały już usunięte), z których oba spowodowałyby, że ROM-y nie działałyby prawidłowo.
-
-#### Dlaczego warto korzystać z nds-bootstrap zamiast zwykłego flashcard?
+#### Why use nds-bootstrap over a regular flashcard?
 - Niektóre kompatybilne ROM-y są ładowane do pamięci RAM, dzięki czemu czas ładowania jest szybszy niż w przypadku zwykłych kartridży
 - Pamięć VRAM można rozszerzyć do 32-bitów
 - Wykorzystanie dodatkowej prędkości procesora DSi, pozwala doświadczenia lepszej wydajność w niektórych grach
@@ -40,14 +37,14 @@ nds-bootstrap patchuje funkcje ROMu do uruchamiania z karty SD, jako że ROMy s�
 - DS Memory Expansion Pak jest emulowany, co oznacza, że gry wymagające tego akcesorium będą działać
 - Zamień górny i dolny ekran w kompatybilnych grach, aby uzyskać bardziej komfortową rozgrywkę, lub na systemach z uszkodzonym lub usuniętym ekranem
 
-#### ROMy Donor
-Większość gier SDK5 można wybrać jako ROM Donor (można to zrobić za pomocą TWiLight Menu++). Plik binarny ARM7 donor jest kopiowany przez nds-bootstrap i zastępuje plik binarny ARM7 dla gry, którą próbuje uruchomić. Pozwala to na uruchamianie i zapisywanie niektórych gier SDK5.
+#### Donor ROMs
+Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
 
-#### Czym jest nightly i gdzie mogę to otrzymać?
-Wersja nightly jest budowana dla najnowszego zarządzenia. Wersje Nightly mogą być niestabilne, ale mają dodane najnowsze poprawki błędów. Możesz uzyskać wersje nightly dla nds-bootstrap [tutaj](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### What is a nightly and where do I get it?
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Dlaczego moje cheaty nie działają?
-Sposób w jaki cheaty typu E są zaimplementowane w nds-bootstrap jest zepsuty, co oznacza, że będą działać tylko w połowie przypadków. Twój cheat prawdopodobnie używa tego typu. To nie jest wina bazy danych cheatów, ale raczej wina nds-bootstrap. Proszę nie żądać usunięcia tych cheatów z DB.
+#### Why do my cheats not work?
+The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-Jeśli chcesz dowiedzieć się więcej o cheatach, zobacz [tutaj](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

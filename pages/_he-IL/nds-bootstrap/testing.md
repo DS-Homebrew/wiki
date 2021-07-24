@@ -13,5 +13,5 @@ description: רשימת תאימות ועצות לבדיקת משחקים
 - חפשו הבהובי מסך או בעיות קול
 - אם משהו נראה לא תקין, הריצו את המשחק באמצעות קונסולה שלא משתמשת בnds-bootstrap על מנת להשוות
 - נסו כמה שיותר אפשרויות במשחק
-- נסו הגדרות שונות להרצת המשחק (ARM9 CPU Speed, Card read DMA, וכו')
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - תהיו יסודיים

@@ -23,7 +23,7 @@ description: ニンテンドー3DSでTWiLight Menu++をワイドスクリーン�
 1. <kbd class="face">B</kbd>を押してパッチメニューを終了します
 1. <kbd>START</kbd>を押して、ワイドスクリーン付きの`TwlBg.cxi`ファイルを生成します
    - 上画面はワイドパッチが有効であることを示していない場合は、手順3から再度開始します
-1. `TwlBg.cxi`を`sd:/luma/sysmodules/`から`sd:/_nds/TWiLightMenu/TwlBg/`に移動し、ファイル名を`Widescreen.cxi`に変更します
+1. `TwlBg.cxi`を`sd:/luma/sysmodules/`から`sd:/_nds/TWiLightMenu/TwlBg/`（`TwlBg`フォルダが既存しない場合は、それを作成します）に移動し、ファイル名を`Widescreen.cxi`に変更します
 1. <kbd>SELECT</kbd>を押したまま3DSを再起動し、Luma3DSの設定を開きます
 1. `external FIRMs and modules`を有効にして、<kbd>START</kbd>を押して保存して終了します
 1. TWiLight Menu++設定を開き、`ゲームとアプリ設定`ページに切り替え、`画面アスペクト比`を`16:10`に設定します
@@ -34,4 +34,4 @@ description: ニンテンドー3DSでTWiLight Menu++をワイドスクリーン�
 **注:**
 1. ワイドスクリーンがグリッチに見えないようにするには、TWLMenu++を起動する時に<kbd>START</kbd>または<kbd>SELECT</kbd>を長押ししない
 1. すべてのゲームがワイドスクリーン対応ではありません。 [ワイドスクリーン付きゲームのリストを作成しました](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. このガイドに従ってワイドスクリーン対応のゲームを起動した後、TWL_FIRM（TWLMenu++のGUIを含む）のすべてでワイドスクリーンモードでなってしまう場合は、TWiLight Menu++を[アンインストールして](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds)[再インストールします](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds)
+1. このガイドに従ってワイドスクリーン対応のゲームを起動した後、TWL_FIRM（TWLMenu++のGUIを含む）のすべてでワイドスクリーンモードでなってしまう場合は、 `sd:/luma/sysmodules/`に`TwlBg.cxi`を削除して、TWiLight Menu++を[アンインストールして](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds)[再インストールして](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds)、以上のガイドに再従います

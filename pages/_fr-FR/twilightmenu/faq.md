@@ -62,26 +62,26 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 
 #### What systems does TWiLight Menu++ support?
 
-| Format                  | Loader                                           | Extensions                             | Save file                          |
-| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------- |
-| ARGV[^1]                | Native                                           | `.argv`                                |                                    |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                    |
-| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                    |
-| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                    |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                    |
-| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]         |
-| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[rom name].pub`, `[rom name].prv` |
-| DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                    |
-| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                   |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                   |
-| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]               |
-| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`               |
-| MPEG4 Video             | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                    |
-| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                   |
-| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                    |
-| RVID Video              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                    |
-| SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]               |
+| Format                  | Loader                                           | Extensions                             | Save file                                      |
+| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
+| ARGV[^1]                | Native                                           | `.argv`                                |                                                |
+| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
+| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
+| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
+| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
+| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
+| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
+| DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
+| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
+| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
+| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
+| MPEG4 Video             | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                                |
+| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
+| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
+| RVID Video              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
+| SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                           |
 {:.table}
 
 - Footnotes -
@@ -94,7 +94,7 @@ Depending on the save file of sudokuhax, the touch screen inputs may not work.
 Non. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
 
 [^1]: Les fichiers texte contenant le chemin vers une application homebrew DS et des arguments pour le lancer avec, voir le README de [nds-hb-menu](https://github.com/devkitPro/nds-hb-menu#passing-arguments) pour plus d'infos
-[^2]: Seulement pour les ROMs commericales, les homebrews n'ont pas de fichiers de sauvegarde spécifiques
+[^2]: Only for retail ROMs, homebrew do not have specific save files
 [^3]: Fonctionne uniquement à partir d'une flashcard SuperCard DSTWO car elle a une puissance de traitement supplémentaire et de la RAM à l'intérieur de la cartouche
 [^4]: Lorsque vous exécutez en mode DSi , il peut utiliser le DSP pour un meilleur son
 [^5]: Nécessite une flashcard Slot-2 et fonctionne donc uniquement sur DS Phat et DS Lite

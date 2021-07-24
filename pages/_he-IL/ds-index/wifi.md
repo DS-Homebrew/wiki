@@ -29,10 +29,11 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 ### התקנת הטלאי ידנית לרומים של DS
 עקבו אחרי המדריך הנ"ל אם ספק האינטרנט שלכם חוסם שרתי DNS מותאמים אישית, אחרת זה מומלץ *מאוד* לעקוב אחרי המדריך מעל.
 
-הערה: משתמשי GNU/Linux וmacOS יכולים לעקוב אחרי הוראות דומות מאוד, אבל יצטרכו להשתמש בMono
+- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- WfcPatcher currently doesn't support DSiWare
 
-1. הורידו את [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. העתיקו את הROM של המשחק שאתם רוצים להתקין עליו את הפאטץ לאותה תיקיה שבה נמצא WFCPatcher ופתחו את תיקיה זו
+1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
 1. צרו קובץ טקסט
 1. בקובץ, כתבו `wfcpatcher.exe %1 --domain wiimmfi.de` ושמרו את הקובץ עם השם `patch.bat`, ואז סגרו את החלון
    - אתם יכולים להחליף את wiimmfi.de עם URL אחר, אם אתם רוצים להשתמש בשרת אחר
@@ -40,9 +41,9 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 1. עכשיו גררו את כל הרומים שאתם רוצים לעשות להם פאטץ על patch.bat
 1. זהו! הרומים עם הפאטץ יהיו אלו שהשם שלהם נגמר ב(wiimmfi)
 
-אל תשכחו למחוק DNSים שאולי הגדרתם בהגדרות Wi-Fi שלכם לפני שאתם מנסים להתחבר עם הרום שעבר פאטץ.
+Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
 
 ### פתרון בעיות וקריאה נוספת
-אם אתם מקבלים שגיאות כלשהן, אתם יכולים להכניס אותם ב[פותר בעיות](https://wiimmfi.de/error) של Wiimmfi לדרכים לפתרון.
+If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
-לפתרון בעיות מסויימות יותר ולמידע נוסף, לדוגמת איך להתחבר לרשת עם אימולטורים או על שימוש בNintendo Wi-Fi USB Connector, תוכלו לקרוא את [מדריך של Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) שנכתב על ידי משתמשים של [Mario Kart DS Network](https://discord.gg/pa9bea6).
+For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

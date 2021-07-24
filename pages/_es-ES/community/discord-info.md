@@ -20,7 +20,7 @@ También estamos centrados en otros temas como crear ROM hacks, desarrollar home
 ## Canales de Discord
 We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations. We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
 
-- [#community-rules][community-rules] - This is the rules channel, it describes the standards we have when communicating in this server
+- [#info-and-rules][info-and-rules] - This is the rules channel, it describes the standards we have when communicating in this server.
 - [#useful-resources][useful-resources] - Need to understand something? Don't know a technical term?  Check here
 - [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Please check the pins, as there might be an explanation there already
 - [#community-meta][community-meta] - This channel is used for talking about the server itself
@@ -53,23 +53,22 @@ Wanna translate a project of ours? Give yourself this role so you can stay up to
 - dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
 - ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
 
-This is a toggleable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
+This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
 
 ### Game Modders
 This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
 
 ### Nintendo DS Online Players
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a toggleable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
+This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned. This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
 
 ### Updates
-You will get pinged in [#announcements][announcements] anytime an update comes out. To access it, type `!togglerole Updates` in [#end-of-server][end-of-server].
+You will get pinged in [#announcements][announcements] anytime an update comes out. To get this role, type `!togglerole Updates` in [#end-of-server][end-of-server].
 
 ## 🤖 Lightning Commands
-Lightning is a discord bot made by @Frost_ which has useful commands for modding communities, including...
+Lightning is a discord bot made by [LightSage](https://gitlab.com/LightSage) which has useful commands for modding communities, including...
 
 - `!mod [console] [param2]` - This will allow you to view information on modding consoles, games and so on. param2 could be viewed for more specific information or get a list of homebrew.
-- `!tinydb [search term]` - Lookup 3DS homebrew on TinyDB
-- `!togglerole [role]` - This will toggle the two customizable roles we have: `Updates` and `Nintendo DS Online Players`
+- `!togglerole <role>` - This will allow you to toggle a self-assignable role. If you need to view the current list of self-assignable roles, run `!togglerole list`.
 
 There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning-bot.gitlab.io/>
 
@@ -84,10 +83,11 @@ These are the people who maintain the server. If they say something is final, it
 Here are links to our networks.
 
 - Discord Server: <https://discord.gg/yD3spjv> (Keep in mind that anything publicly accessible on our server are logged by us and may be logged by others here)
+- GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
 - Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
 
 <!-- Discord channel links -->
-[community-rules]: https://discord.com/channels/283769550611152897/718305959914766366
+[info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
 [useful-resources]: https://discord.com/channels/283769550611152897/638041441079263283
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537

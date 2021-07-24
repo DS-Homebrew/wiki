@@ -23,4 +23,4 @@ Inte just nu. Istället kan du permanent injektera fuskkoder i din GBA ROM med [
 
 #### Hur använder jag funktioner för Wi-Fi Link?
 
-Du behöver en version från [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branchen för att använda funktionerna. Du kan hitta detaljerade instruktioner om hur du ställer in byggen på dess [GBATemp Wiki sida](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Du behöver en version från [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branchen för att använda funktionerna. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

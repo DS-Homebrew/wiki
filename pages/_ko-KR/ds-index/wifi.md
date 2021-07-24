@@ -29,10 +29,11 @@ There are guides for creating a DS-compatible hotspot on macOS and Linux compute
 ### Manually patching your DS ROMs
 Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
-Note: Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- WfcPatcher currently doesn't support DSiWare
 
-1. Download [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WFCPatcher is saved and open that folder
+1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
 1. Create a text file
 1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
    - You can replace wiimmfi.de with another URL, if you wish to use a different server

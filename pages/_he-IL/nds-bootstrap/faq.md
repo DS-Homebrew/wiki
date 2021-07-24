@@ -23,13 +23,10 @@ description: שאלות ותשובות & פתרון בעיות עבור nds-boot
 
 בנוסף, וודאו שאתם מוסיפים את זה אל [רשימת התאימות](https://wiki.ds-homebrew.com/nds-bootstrap/testing) בGoogle Sheets.
 
-#### למה מולטיפלייר לא עובד?
-זוהי [בעיה ידועה](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) עם cloneboot. אנו המתינו לתיקון.
+#### Why are there issues with ROM loading, even though they're run natively?
+nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
 
-#### למה יש בעיות עם הרצת ROMים, למרות שהם רצים באופן טבעי?
-nds-bootstrap עושה פאטצים לפונקציות של הרום על מנת לרוץ מSD, מאחר והרומים מקודדים לקרוא מSlot-1. ישנם גם בעיות תזמון והגבלות AP (נוגד פיראטיות) (שרובם כבר הוסרו), שניהם עשויים לגרום לרומים לא לעבוד כראוי.
-
-#### למה להשתמש בnds-bootstrap במקום בפלאשקארד רגיל?
+#### Why use nds-bootstrap over a regular flashcard?
 - רומים מתאימים נטענים ישירות לRAM, דבר המאפשר זמני טעינה מהירים אפילו יותר מקלטות רגילות
 - ניתן להגדיל את הVRAM memory bus ל32-bit
 - ניצול של המהירות שעון הנוספת של הDSi, המאפשר לביצועים טובים יותר בחלק מהמשחקים
@@ -40,14 +37,14 @@ nds-bootstrap עושה פאטצים לפונקציות של הרום על מנת
 - קיימת אימלוציה של הDS Memory Expansion Pak, כך שמשחקים שדורשים את התוסף הזה יעבדו
 - החליפו את המסך העליון והתחתון במשחקים נתמכים בשביל משחקיות נוחה יותר, או במכשירים בהם מסך נשבר או הוסר
 
-#### רומים תורמים
-רוב משחקי הSDK5 יכולים לשמש כרום תורם (ניתן לבצע דרך TWiLight Menu++). המידע הבינארי של ARM7 מהרום התורם מעותק על ידי nds-bootstrap ומחליף את המידע הבינארי של ARM7 של המשחק שהוא מנסה להפעיל. זה מאפשר לחלק מהמשחקים כולל משחקי SDK5 להיות מופעלים ולשמור.
+#### Donor ROMs
+Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
 
-#### מה זה nightly ואיפה אני משיג את זה?
-Nightly הוא הbuild לcommit האחרון. buildים של nightly עשויים להיות לא יציבים, אבל כוללים את התיקוני באגים האחרונים. ניתן להשיג buildים של nightly עבור nds-bootstrap [כאן](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### What is a nightly and where do I get it?
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### למה הציטים שלי לא עובדים?
-הצורה שבה ציטים מסוג E מוטמעים בnds-bootstrap שבורה, כלומר הם יעבדו רק חצי מהזמן. הציטים שלכם כנראה משתמשים בסוג זה. זו לא אשמת מאגר המידע של הציטים, אלה בעיה בnds-bootstrap. בבקשה אל תבקשו שהציטים האלה ימחקו מהמאגר.
+#### Why do my cheats not work?
+The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-למידה נוסף על ציטים, ראו [כאן](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

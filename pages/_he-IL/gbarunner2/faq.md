@@ -23,4 +23,4 @@ description: שאלות ותשובות ופתרון בעיות עבור GBARunne
 
 #### איך אני משתמש באפשרויות של הWi-Fi link?
 
-תצטרכו את הגרסה מהבראנץ של [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) בשביל להשתמש באפשרויות אלו. ניתן למצוא הנחיות מפורטות לגבי התקנה הגרסאות האלו ב[ בעמוד של GBATemp Wiki](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+תצטרכו את הגרסה מהבראנץ של [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) בשביל להשתמש באפשרויות אלו. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

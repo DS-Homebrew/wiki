@@ -13,5 +13,5 @@ Encontrarás los juegos ya probados [aquí](https://docs.google.com/spreadsheets
 - Busca parpadeos en la pantalla y problemas de sonido
 - Si algo parece extraño, prueba el juego en una consola sin usar nds-bootstrap para compararlos
 - Prueba todo lo que puedas del juego
-- Prueba varias configuraciones para el juego (ARM9 CPU Speed, Card read DMA, etc)
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - Busca por todos lados

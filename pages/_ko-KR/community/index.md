@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: community
-title: Community
-description: Information about the DS-Homebrew community
+title: 커뮤니티
+description: DS-Homebrew 커뮤니티에 대한 정보
 ---
 
 You can find information about our community here, such as the rules for our Discord server. We have the following places:

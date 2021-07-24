@@ -13,5 +13,5 @@ För att se en lista testade spel, se [här](https://docs.google.com/spreadsheet
 - Leta efter skärmflimmer eller ljudproblem
 - Om något ser konstigt ut, kör spelet längs en konsol som inte använder nds-bootstrap för att jämföra
 - Prova så många funktioner i spelet som möjligt
-- Prova olika inställningar för att köra spelet (ARM9 CPU hastighet, Kort DMA, etc)
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - Var noggrann

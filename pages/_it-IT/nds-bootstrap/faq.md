@@ -23,13 +23,10 @@ Se il server dice che si tratta di un problema di nds-bootstrap, controlla se il
 
 Inoltre, assicurati di aggiungerlo alla [lista di compatibilità](https://wiki.ds-homebrew.com/nds-bootstrap/testing) su Google Sheets.
 
-#### Perché il multigiocatore non funziona?
-Questo è un [problema conosciuto](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) con cloneboot. Si prega di aspettare che venga corretto.
+#### Why are there issues with ROM loading, even though they're run natively?
+nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
 
-#### Perché ci sono problemi con il caricamento delle ROM, anche se sono eseguite nativamente?
-nds-bootstrap applica delle patch alle funzioni ROM da eseguire da una scheda SD, visto che le ROM sono codificate per essere lette dalla Slot-1. Vi sono anche problemi di tempistica e misure AP (di cui molte già eliminate), che causerebbero entrambe un funzionamento inadeguato delle ROM.
-
-#### Perché usare nds-bootstrap piuttosto di una normale flashcard?
+#### Why use nds-bootstrap over a regular flashcard?
 - Alcune ROM compatibili sono caricate nella RAM, consentendo tempi di caricamento più rapidi rispetto alle normali cartucce
 - È possibile espandere il bus di memoria VRAM a 32-bit
 - È possibile utilizzare la velocità della CPU aggiuntiva del DSi, consentendo prestazioni migliori in alcuni giochi
@@ -40,14 +37,14 @@ nds-bootstrap applica delle patch alle funzioni ROM da eseguire da una scheda SD
 - Il DS Memory Expansion Pak è emulato, questo significa che i giochi che lo richiedono funzioneranno
 - Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
 
-#### ROM donatrici
-La maggior parte dei giochi SDK5 possono essere selezionati come ROM donatrici (che può essere fatto tramite TWiLight Menu++). Il binario ARM7 della ROM donatrice viene copiato da nds-bootstrap e sostituisce il binario ARM7 per il gioco che sta cercando di eseguire. Questo permette ad alcuni giochi SDK5 di avviarsi e salvarsi.
+#### Donor ROMs
+Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
 
-#### Che cosa è una versione notturna e dove la posso ottenere?
-Una versione notturna è compilata per l'ultima commit. Le versioni notturne possono essere instabili, ma in esse sono incluse le correzioni di bug più recenti. Puoi ottenere le versioni notturne di nds-bootstrap [qui](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### What is a nightly and where do I get it?
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Perché i miei trucchi non funzionano?
-Il modo in cui i trucchi E-type sono implementati in nds-bootstrap non funziona molto bene, e perciò funzionano la metà delle volte. Il tuo trucco probabilmente utilizza quel tipo. Non è un difetto del database dei trucchi, ma piuttosto un difetto di nds-bootstrap. Si prega di non richiedere la cancellazione di questi trucchi dal database.
+#### Why do my cheats not work?
+The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-Per maggiori informazioni sui trucchi, guarda [qui](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

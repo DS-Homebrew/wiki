@@ -62,26 +62,26 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 
 #### TWiLight Menu++はどのシステムに対応ですか？
 
-| 形式                   | ローダー                                         | 拡張子                                    | セーブファイル                        |
-| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------ |
-| ARGV[^1]             | ネイティブ                                        | `.argv`                                |                                |
-| Atari 2600           | [StellaDS][stellads]                         | `.a26`                                 |                                |
-| Atari 5200           | [A5200DS][a5200ds]                           | `.a52`                                 |                                |
-| Atari 7800           | [A7800DS][a7800ds]                           | `.a78`                                 |                                |
-| Atari XEGS           | [XEGS-DS][xegs-ds]                           | `.xex`, `.atr`                         |                                |
-| DS                   | [nds-bootstrap][ndsbs]、フラッシュカードのカーネル、ネイティブ   | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].sav`[^2]       |
-| DSiウェア               | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs] | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `[ROMの名前].pub`, `[ROMの名前].prv` |
-| DSTWOプラグイン           | [DSTWO][dstwo][^3]                           | `.plg`                                 |                                |
-| ゲームボーイ（カラー）          | [GameYob][gameyob]                           | `.gb`, `.sgb`, `.gbc`                  | `[ROMの名前].sav`                 |
-| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                 |
-| ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`              |
-| メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]             |
-| マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`             |
-| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                  | `.mp4`                                 |                                |
-| ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                 |
-| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                     | `.pce`                                 |                                |
-| RVIDビデオ              | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                |
-| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`[^8]             |
+| 形式                   | ローダー                                         | 拡張子                                    | セーブファイル                                    |
+| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------------------ |
+| ARGV[^1]             | ネイティブ                                        | `.argv`                                |                                            |
+| Atari 2600           | [StellaDS][stellads]                         | `.a26`                                 |                                            |
+| Atari 5200           | [A5200DS][a5200ds]                           | `.a52`                                 |                                            |
+| Atari 7800           | [A7800DS][a7800ds]                           | `.a78`                                 |                                            |
+| Atari XEGS           | [XEGS-DS][xegs-ds]                           | `.xex`, `.atr`                         |                                            |
+| DS                   | [nds-bootstrap][ndsbs], フラッシュカードのカーネル, ネイティブ | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].sav`[^2]                   |
+| DSiウェア               | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs] | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].pub`, `saves/[ROMの名前].prv` |
+| DSTWOプラグイン           | [DSTWO][dstwo][^3]                           | `.plg`                                 |                                            |
+| ゲームボーイ（カラー）          | [GameYob][gameyob]                           | `.gb`, `.sgb`, `.gbc`                  | `[ROMの名前].sav`                             |
+| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                             |
+| ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`                          |
+| メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]                         |
+| マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`                         |
+| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                  | `.mp4`                                 |                                            |
+| ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                             |
+| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                     | `.pce`                                 |                                            |
+| RVIDビデオ              | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                            |
+| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`[^8]                         |
 {:.table}
 
 - Footnotes -

@@ -22,31 +22,27 @@ Nintendo DS zostało dostarczone z procesorem 67 MHz w 2004 roku. Nintendo DSi d
 
 nds-bootstrap ma opcje TWL Clock Speed, ale nie bedzie on próbował dostosować naszego ROM do pracy z większym taktowaniem zegara procesora. To zadanie leży w rękach aplikacji, więc aplikacje nie działające z wyższymi taktowaniami NIE są problemem ze strony nds-bootstrap.
 
-### Menu systemowe Nintendo DSi
-Menu systemu Nintendo DSi używa podpisanej 32-bitowej liczby całkowitej do określenia ilości wolnego miejsca na urządzeniu. Przy użyciu źródła urządzenia, które przekracza limit 32-bitowej liczby całkowitej, licznik ten jest przepełniony do liczby ujemnej, co powoduje wyświetlenie czarnego ekranu "Wystąpił błąd".
+### Nintendo DSi Menu
+In version 1.4.0, RSA signatures in the DS cart whitelist aren't verified. There is an exploit regarding a vulnerability in the Nintendo DSi flashcard whitelist that allows you to take access over the ARM9 processor, It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
-Zakresy powodujące jego przepełnienie określa się na podstawie par. Na przykład 1-2 GB wolnego miejsca jest dozwolone gdy 3-4 nie jest. 5-6GB wolnego miejsca jest dozwolone, a 7-8 znowu nie.
-
-Ta awaria nigdy nie wystąpi, jeśli menu systemowe jest uruchamiane z rzeczywistego układu NAND (ponieważ jego maksymalna pojemność to 128 MB), ale system przekierowania (taki jak hiyaCFW) spowodowałby jej wystąpienie. Na szczęście, ten błąd można łatwo naprawić poprzez umieszczenie plików zastępczych, które ustawią licznik na liczbę dodatnią. hiyaCFW automatycznie zrobi to za Ciebie w najnowszej wersji.
-
-W wersji 1.4.0 podpisy RSA na karcie DS whitelist nie są weryfikowane. Istnieje exploit polegający na podatności na zagrożenia NDSi flashcard whitelist, która pozwala na przejęcie kontroli nad procesorem ARM9. Wymaga wersji 1.4.0 (została załatana w kolejnych wersjach i nie istniała w poprzednich) oraz flashcarta ze zmodyfikowanym ROMem.
+There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see the [hiyaCFW troubleshooting page](/hiyacfw/troubleshooting#the-free-space-bug).
 
 ### Dostęp do Pola-1 Nintendo DSi & zablokowany
-Dostęp do Pola-1 jest zablokowany podczas uruchamiania aplikacji z menu systemowego, z wyjątkiem sytuacji, gdy tą aplikacją jest launcher Pola-1 lub Ustawienia systemowe. Aby uruchomić normalnie nieodtwarzalne kartridże z pola-1, musisz albo wykonać exploit w ustawieniach systemowych, albo zainstalować Unlaunch. Bez żadnego z nich nie można uruchomić nieuruchamialnych flashcards i nie można zrzucić ROM-ów na kartę SD.
+Slot-1 access is blocked when launching applications from the system menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
 
-White list flashcarda jest sprawdzany za pomocą podpisów RSA, które są zawarte w kluczach RSA na każdej wersji urządzenia, z wyjątkiem 1.4.0. Oznacza to, że ludzie mogą wpisywać na white list swoje własne karty
+The flashcard white list is checked via RSA signatures are contained via RSA keys on every firmware expect 1.4.0. This means that people can white list their own carts
 
-Przed 1.4.0, white list zawierał tylko dwie sekcje. W 1.4.0, wprowadzono trzecią sekcję, która została stworzona by blokować flashcardy, które omijały pierwsze dwie. Trzecia sekcja ładuje do ośmiu różnych sekcji romu i sprawdza je za pomocą hasha, aby sprawdzić, czy rom nie został naruszony. Jednakże, z powodu zapomnienia o umieszczeniu jakiejkolwiek kontroli poprawności, możemy przepełnić wektor wyjątków / adres przerwania używając wystarczająco dużej wartości. Co najlepsze, działa to na ARM7 (aka procesor bezpieczeństwa), co czyni go pierwszym exploitem dla procesora ARM7. Ponieważ dzieje się to przed zablokowaniem rejestrów SCFG, możemy uruchomić zaawansowane homebrew (takie jak dumpery Pola-1 & external slot-1 dumpers)
+Before 1.4.0, the white list used to contain only two sections. In 1.4.0, they've introduced a third section which was made to block flashcards that got around the first two. The third section loads up to eight different section of the rom and checks them with a hash to see if the rom has been tampered with. However, due to the forgetfulness of putting any sanity check, we can overflow into the exception vector / interrupt address using a large enough value. Best of all, this runs on ARM7 (aka the security processor) so this makes it the first exploit for the ARM7 processor. Since this happens before the lock out of the SCFG registers, we can run advanced homebrew (such as Slot-1 dumpers & external slot-1 dumpers)
 
-Niestety, wymagania są spore. Wymaga wersji 1.4.0 i flashcarda z zmodyfikowanym ROMem. Ponadto, exploit nigdy nie pojawił się oficjalnie, ponieważ Unlaunch był znacznie prostszy w instalacji i miał mniejsze wymagania (sposób na dostanie się do homebrew) z tymi samymi korzyściami.
+Unfortunately, the requirements are tight. It requires version 1.4.0 and a flashcard with a modified ROM. Also, the exploit never officially came out, due to Unlaunch being much simpler to install and having less requirements (just a way to get into homebrew) with the same advantages.
 
 ### Kamera Nintendo DSi
-Aplikacja Nintendo DSi Camera ma możliwość robienia zdjęć w formacie JPEG i zapisywania ich w pamięci systemowej lub na karcie SD. Sposób, w jaki jest ładowany ogranicza go do tylko DSi wykonane obrazy, ze względu na brak odpowiedniego HMAC przechowywane wewnątrz niestandardowego tagu EXIF. Żadnych niestandardowych obrazów nie da się odczytać na DSi, niezależnie od tego, czy zostały zrobione na komputerze, czy edytowane.
+The Nintendo DSi Camera application has the ability to take pictures in the JPEG and save them to either the System Memory or the SD card. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether its PC taken or PC edited.
 
-Do ładowania obrazów używany jest plik `pit.bin`. Jednak rozmiar nagłówka w offsecie 0x16 jest niezaznaczony, więc wystarczająco duża wartość rozmiaru nagłówka może przekroczyć granice i spowodować nadpisanie bufora i przeskok do niepodpisanego kodu. Oto jak zasilany jest Memory Pit.
+A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 
 ### Nintendo DSi bootstage 2
-Drugi etap bootowania Nintendo DSi ładuje do pamięci launchera plik "title.tmd". Jednakże, nie określają one limitu rozmiaru pliku, co oznacza, że pierwsze 80k bajtów jest ładowane do pamięci RAM, podczas gdy reszta może być niestandardowym ładunkiem. Na tym opiera się exploit Unlaunch.
+The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.
 
 ### RTCom
-RTCom to wykorzystanie RTC 3DS do umożliwienia komunikacji między procesorami ARM7 i ARM11, nawet w trybie TWL_FIRM. Dzięki temu funkcje 3DSa mogą być używane w trybie DS(i). Obejmuje to analogowe wejście circle pada, włączenie szerokiego ekranu i wsparcie dla żyroskopu. Obecnie jedynym publicznym ds homebrew, które korzysta z RTCom są niektóre wersje GBARunner2, które mają wsparcie dla funkcji żyroskopowej 3DS. Aby włączyć RTCom, będziesz musiał użyć [TWPatch](https://gbatemp.net/threads/542694/).
+RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public ds homebrew that make use of RTCom is certain builds of GBARunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).

@@ -29,10 +29,11 @@ Hay varias guías para crear puntos de acceso compatibles para la DS con macOS y
 ### Parchear manualmente tus ROMs de DS
 Sigue esta guía en caso de que tu proveedor de internet bloquee servidores DNS personalizados, en otro caso se recomienda *encarecidamente* seguir la guía anterior.
 
-Nota: Los usuarios de GNU/Linux y macOS pueden seguir instrucciones muy similares pero tendrán que usar Mono
+- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- WfcPatcher currently doesn't support DSiWare
 
-1. Descarga [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copia la ROM del juego que quieres parchear en la misma carpeta en la que se encuentra WFCPatcher y entra en la misma
+1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
 1. Crea un archivo de texto
 1. En el archivo, añade `wfcpatcher.exe %1 --domain wiimmfi.de`, guárdalo con el nombre `patch.bat` y cierra la ventana
    - Puedes reemplazar wiimmfi.de por otro enlace si quieres usar otro servidor
@@ -40,9 +41,9 @@ Nota: Los usuarios de GNU/Linux y macOS pueden seguir instrucciones muy similare
 1. Arrastra las ROMs que quieres parchear a patch.bat
 1. ¡Hecho! Las ROMs parcheadas son las que terminan en (wiimmfi)
 
-No olvides borrar cualquier DNS que hayas guardado previamente en la configuración Wi-Fi antes de intentar conectarte con la ROM parcheada.
+Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
 
 ### Solución de problemas y más lectura
-Si salta algún error, puedes introducirlo en el [troubleshooter de Wiimmfi](https://wiimmfi.de/error) para encontrar una solución.
+If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
-Para resolver problemas más concretos y obtener más información, como conectarse online a través de un emulador o usar el conector USB Wi-Fi de Nintendo, puedes leer esta [Guía de Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) escrita por miembros de [Mario Kart DS Network](https://discord.gg/pa9bea6).
+For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

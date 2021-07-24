@@ -13,5 +13,5 @@ Per visualizzare i giochi testati, guarda [qui](https://docs.google.com/spreadsh
 - Cerca eventuali sfarfalli dello schermo o problemi sonori
 - Se qualcosa sembra strana, esegui il gioco su una console che non usa nds-bootstrap per confrontare
 - Prova il maggior numero possibile di funzioni nel gioco
-- Prova diverse impostazioni per l'esecuzione del gioco (Velocità CPU ARM9, Lettura scheda DMA, etc)
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - Sii accurato

@@ -23,4 +23,4 @@ Non è il momento. Invece, è possibile iniettare in modo permanente i codici de
 
 #### Come posso utilizzare le funzioni di collegamento Wi-Fi?
 
-Avrai bisogno di una build dal ramo [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) per utilizzare le funzionalità. Puoi trovare istruzioni dettagliate su come configurare le build sulla sua pagina [GBATemp Wiki](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Avrai bisogno di una build dal ramo [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) per utilizzare le funzionalità. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

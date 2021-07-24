@@ -12,10 +12,10 @@ tabs:
     manual: crwdns20950:0crwdne20950:0
 ---
 
-crwdns15858:0crwdne15858:0
+crwdns24183:0crwdne24183:0
 crwdns15860:0{:.alert .alert-info}crwdne15860:0
 
-crwdns24038:0crwdne24038:0
+crwdns24185:0crwdne24185:0
 crwdns24040:0{:.alert .alert-info}crwdne24040:0
 
 crwdns24042:0{% capture tab-universal-updater %}crwdne24042:0

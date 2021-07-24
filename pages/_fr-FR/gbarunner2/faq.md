@@ -23,4 +23,4 @@ Pas maintenant. Au lieu de cela, vous pouvez injecter des codes de triche en per
 
 #### Comment utiliser les fonctionnalités de connexion Wi-Fi ?
 
-Vous aurez besoin d'une version de la branche [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) pour utiliser les fonctionnalités. Vous pouvez trouver des instructions détaillées sur la façon de configurer les builds sur sa page [Wiki GBATemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Vous aurez besoin d'une version de la branche [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) pour utiliser les fonctionnalités. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

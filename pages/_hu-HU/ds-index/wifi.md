@@ -29,10 +29,11 @@ Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS-kompatib
 ### A DS ROM-ok kézi patchelése
 Kövesd az útmutatót, ha az ISP-t blokkolja az egyedi DNS szervereket, egyébként *erősen* ajánlott, hogy a fenti útmutatót kövesd.
 
-Megjegyzés: A GNU/Linux és macOS felhasználók hasonló lépéseket kell kövessenek, de Mono-t kell használjanak
+- A GNU/Linux és macOS felhasználók hasonló lépéseket kell kövessenek, de Mono-t kell használjanak
+- A WfcPatcher jelenleg nem támogatja a DSiWare-eket
 
-1. Töltsd le a [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)-t
-1. Másold a játék ROM-t amit patchelni a WFCPatcher mappájába és nyisd meg azt a mappát
+1. Töltsd le a [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)-t
+1. Másold a játék ROM-t amit patchelni a WfcPatcher mappájába és nyisd meg azt a mappát
 1. Hozz létre egy szövegfájlt
 1. A fájlba írd be `wfcpatcher.exe %1 --domain wiimmfi.de` majd mentsd le `patch.bat` néven és zárd be az ablakot
    - Kicserélheted a wiimmfi.de címet egy másik URL-lel, ha más szervert szeretnél használni

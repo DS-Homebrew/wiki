@@ -20,31 +20,31 @@ Skupiamy się również na innych rzeczach, takich jak tworzenie romhacków, hom
 ## Kanały Discord
 Mamy wiele kanałów na przeróżne tematy, pamiętaj, by rozmawiać w odpowiednim czacie, by reszta nie została zalana niezwiązanymi rozmowami. Opowiemy Ci teraz o tych najważniejszych kanałach, zawsze możesz sprawdzić do czego należą inne kanały patrząc na ich temat:
 
-- [#community-rules][community-rules] - To jest kanał od zasad, definiuje on standardy podstawy komunikacji na serwerze
-- [#useful-resources][useful-resources] - Próbujesz coś zrozumieć? Nie znasz prawidłowej nazwy?  Zajrzyj tutaj
-- [#nds-modding-help][nds-modding-help] - Tutaj możesz poprosić o pomoc o cokolwiek związanego z DS Homebrew. Sprawdź przypięte wiadomości, ponieważ mogą tam być odpowiedzi na częste pytania
-- [#community-meta][community-meta] - Ten kanał jest używany do gadania o serwerze
-- [#end-of-server][end-of-server] - Ten kanał jest na zwykłe, codzienne rozmówki. Zasady nadal są przestrzegane, ale mniej, niż w innych kanałach.  Możesz na nim wrzucać memy, czy coś
+- [#info-and-rules][info-and-rules] - This is the rules channel, it describes the standards we have when communicating in this server.
+- [#useful-resources][useful-resources] - Need to understand something? Nie znasz prawidłowej nazwy?  Zajrzyj tutaj
+- [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Sprawdź przypięte wiadomości, ponieważ mogą tam być odpowiedzi na częste pytania
+- [#community-meta][community-meta] - This channel is used for talking about the server itself
+- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Zasady nadal są przestrzegane, ale mniej, niż w innych kanałach.  Możesz na nim wrzucać memy, czy coś
 
-Mamy również [#other-nds-homebrew][other-nds-homebrew] dla homebrew bez dedykowanego kanału, [#nds-modding-discussion][nds-modding-discussion] dla modowania, do którego nie nadają się inne kanały, [#nds-gaming][nds-gaming] dla ogólnych rzeczy dotyczących DSa oraz [#offtopic][offtopic] do rozmów na dowolny temat.
+We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
 
 ## Informacje o rolach
 Mamy kilka ról do wyboru, niektóre z nich są dostępne za pomocą komendy @Lightning
 
 ### Developers
-Ta rola jest przyznawana osobom, które pomagały przy albo prowadziły projekt na scenie Nintendo DS. Najlepiej jakby projekt był open source, ale jest to opcjonalne Wrzuć aplikację homebrew Nintendo DS na odpowiednim kanale (jeśli takowy nie istnieje, wrzuć ją do [#other-nds-homebrew][other-nds-homebrew]) i pingnij przy okazji moderatora.
+Ta rola jest przyznawana osobom, które pomagały przy albo prowadziły projekt na scenie Nintendo DS. While preferable that it'd be open source, it's optional Post the Nintendo DS homebrew application in the channel that works the best (If it doesn't have one, post it in [#other-nds-homebrew][other-nds-homebrew]) and ping a moderator alongside your message.
 
 Pamiętaj, że skradziony kod nie da Ci dostępu do roli, możemy odrzucić o nią żądanie w zależności od sytuacji
 
 ### Artists/Designers
-Ta rola jest przyznawana osobom, które wiedzą jak działa rysowanie i przyczynili się do homebrew DS w sposób graficzny (np. skórka WoodR4 bądź podmotyw TWiLight Menu++). Kiedy spełnisz wymóg, pingnij nas w [#community-meta][community-meta] z przykładami twej pracy, a je sprawdzimy.
+Ta rola jest przyznawana osobom, które wiedzą jak działa rysowanie i przyczynili się do homebrew DS w sposób graficzny (np. skórka WoodR4 bądź podmotyw TWiLight Menu++). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
 
 ### Helpers
-Niezależnie od tego, czy to osoby, którym powierzamy specjalne wersje aplikacji do testowania, czy to ktoś pomagający w [#nds-modding-help][nds-modding-help], rola Helpers to użytkownicy, którzy reprezentują serwer jako pomocni członkowie społeczności. Oprócz wymogu wysokiej jakości wiadomości, są dwa możliwe sposoby na otrzymanie tej roli: testowanie oraz pomaganie w [#nds-modding-help][nds-modding-help]
+Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community. As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
 
 Dla tych testujących - musicie przetestować łącznie 7 gier na GBARunner2 i nds-bootstrap. Sprawdź tematy odpowiednich kanałów dla odpowiedniej listy kompatybilności. Dla tych pomagających - ilość Twojej pomocy nie jest dokładnie zdefiniowana. Patrzymy ogólnie jak pomocna jest twoja pomoc (np. pisanie czegoś w stylu "prawy a nastepnie edytuj" nie pomoże).
 
-Kiedy spełnisz jedno z tych dwóch wymagań, pingnij w [#community-meta][community-meta] i powiedz jaką metodę wybrałeś. Jeśli zaakceptujemy Twoje podanie, dostaniesz rolę. Musisz wysłać co najmniej jedną wiadomość co 4 miesiące, by ją zatrzymać.
+Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. Jeśli zaakceptujemy Twoje podanie, dostaniesz rolę. Musisz wysłać co najmniej jedną wiadomość co 4 miesiące, by ją zatrzymać.
 
 ### Translators
 Chcesz przetłumaczyć jeden z naszych projektów? Weź sobię tę rolę, by być na bieżąco ze statusem tłumaczenia projektu. Nasz lider tłumaczeń (Evie) pingnie, kiedy trzeba będzie coś nowego przetłumaczyć.
@@ -53,25 +53,24 @@ Chcesz przetłumaczyć jeden z naszych projektów? Weź sobię tę rolę, by by�
 - dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
 - ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
 
-Ta rola jest do przyznania sobie własnoręcznie poprzez komendę togglerole @Lightning (`!togglerole Translators` w [#end-of-server][end-of-server])
+This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
 
 ### Game Modders
-Ta rola jest przyznawana osobom, które zrobiły romhacka przyzwoitej jakości na Nintendo DS, wiedzą jak poprawnie patchować pliki i wrzuciły owego romhacka w bardziej stałe miejsce (np. Gamebanana albo fora modingowe). Wrzuć swój romhack do [#nds-retail-research][nds-retail-research] oraz pingnij moderatora, a my go sprawdzimy.
+Ta rola jest przyznawana osobom, które zrobiły romhacka przyzwoitej jakości na Nintendo DS, wiedzą jak poprawnie patchować pliki i wrzuciły owego romhacka w bardziej stałe miejsce (np. Gamebanana albo fora modingowe). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
 
 ### Nintendo DS Online Players
-To jest rola, przeznaczona dla użytkowników do pingowania, gdy ktoś chce grać w grę Nintendo DS online (czy to Wiimmfi, AltWFC czy inne serwisy). Za masowe pingi będzie ban. Tą rolę musisz przyznać sobie własnoręcznie poprzez komendę togglerole @Lightning (`!togglerole Nintendo DS Online Players` w [#end-of-server][end-of-server])
+To jest rola, przeznaczona dla użytkowników do pingowania, gdy ktoś chce grać w grę Nintendo DS online (czy to Wiimmfi, AltWFC czy inne serwisy). Za masowe pingi będzie ban. This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
 
 ### Updates
-Będziesz pingnięty w [#announcements][announcements] za każdym razem, kiedy wyjdzie aktualizacja. By ją dostać wpisz `!togglerole Updates` in [#end-of-server][end-of-server].
+You will get pinged in [#announcements][announcements] anytime an update comes out. To get this role, type `!togglerole Updates` in [#end-of-server][end-of-server].
 
 ## 🤖 Komendy Lightning
-Lightning jest botem discord stworzonym przez @Frost_, które ma pomocne komendy dla społeczności modingowych, na przykład...
+Lightning is a discord bot made by [LightSage](https://gitlab.com/LightSage) which has useful commands for modding communities, including...
 
 - `!mod [console] [param2]` - To pozwoli Ci na sprawdzenie informacji o modowaniu danej konsoli, gry itp. param2 jest użyty w celu sprawdzenia bardziej dokładnych informacji bądź uzyskania listy homebrew.
-- `!tinydb [szukany termin]` - Wyszukaj homebrew 3DS na TinyDB
-- `!togglerole [rola]` - Dzięki niej możesz włączyć lub wyłączyć dwie z naszych ról: `Updates` i `Nintendo DS Online Players`
+- `!togglerole <role>` - This will allow you to toggle a self-assignable role. If you need to view the current list of self-assignable roles, run `!togglerole list`.
 
-Jest również mnóstwo zabawnych komend, którymi możesz się pobawić w [#end-of-server][end-of-server]. By się dowiedzieć, obczaj tą stronę: <https://lightning-bot.gitlab.io/>
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. By się dowiedzieć, obczaj tą stronę: <https://lightning-bot.gitlab.io/>
 
 Używamy Lightning również do moderacji (rejestrowanie ostrzeżeń, kicków, wyciszeń i banów). Nie blokuj tego bota byśmy mogli do Ciebie napisać w razie potrzeby.
 
@@ -84,10 +83,11 @@ To są ludzie utrzymujący serwer. Ich słowo jest słowem ostatecznym, nie do p
 Oto linki do naszych sieci.
 
 - Serwer Discord: <https://discord.gg/yD3spjv> (pamiętaj, że cokolwiek co jest tam publicznie dostępne jest przez nas rejestrowane)
-- Subreddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (Stary motyw reddita: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+- GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
+- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
 
 <!-- Discord channel links -->
-[community-rules]: https://discord.com/channels/283769550611152897/718305959914766366
+[info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
 [useful-resources]: https://discord.com/channels/283769550611152897/638041441079263283
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537

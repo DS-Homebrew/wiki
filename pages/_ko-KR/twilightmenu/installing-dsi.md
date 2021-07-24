@@ -12,7 +12,7 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 {:.alert .alert-info}
 
 ### 설치하기
-1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
 1. `TWiLightMenu-DSi.7z`를 압축 해제합니다.
 1. SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.

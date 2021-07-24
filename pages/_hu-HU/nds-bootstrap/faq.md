@@ -23,9 +23,6 @@ Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a já
 
 Továbbá ne felejtsd el hozzáadni a [kompatibilitási listához](https://wiki.ds-homebrew.com/nds-bootstrap/testing) a Google Sheets-en.
 
-#### Miért nem működik a többjátékos lehetőség?
-Ez egy [ismert hibája](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) a cloneboot-nak. Kérjük várj a javítására.
-
 #### Miért vannak problémák a ROM betöltéssel, ha natívan futnak?
 Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. Van néhány időzítési és AP intézkedés (amik nagy része már eltávolított), mind a kettő okozhatja, hogy a ROM-ok nem megfelelően működnek.
 
@@ -40,7 +37,7 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - A DS Memory Expansion Pak emulált, így azok a játékok amiknek szüksége van rá működni fognak
 - Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
 
-#### Donor ROM
+#### Donor ROM-ok
 A legtöbb SDK5 játék kiválasztható Donor ROM-nak (ami a TWiLight Menu++-on keresztül tehető meg). A Donor ROM ARM7 binárisa másolásra kerül az nds-bootstrap által és kicseréli az ARM7 binárist a játékban, amit indítani próbálsz. Ez lehetővé teszi bizonyos SDK5 játékoknak a betöltését és mentését.
 
 #### Mi az esti fordítás (nightly) és hol szerezhetem be?

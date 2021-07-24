@@ -23,4 +23,4 @@ Not right now. Instead, you can permanently inject cheat codes into your GBA ROM
 
 #### How do I use Wi-Fi link features?
 
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBATemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

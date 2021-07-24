@@ -23,4 +23,4 @@ FrescoASF가 작성한 [이 가이드](https://docs.google.com/document/d/1owjiW
 
 #### 와이파이 링크 기능을 사용하는 방법이 뭔가요?
 
-해당 기능을 사용하기 위해서는, [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) 에서 빌드를 받아올 필요가 있습니다. [GBATemp 위키 페이지](https://wiki.gbatemp.net/wiki/GBARunner2/Link)에서 빌드를 설정하는 방법에 대한 자세한 설명을 찾아보실 수 있습니다.
+해당 기능을 사용하기 위해서는, [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) 에서 빌드를 받아올 필요가 있습니다. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

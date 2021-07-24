@@ -11,18 +11,18 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 업데이트�
 v16.4.0보다 낮은 버전에서 업데이트 한다면, `saves`폴더를 DS 롬 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DS 게임의 `.sav` 파일을 해당 폴더에 넣어주세요.
 {:.alert .alert-info}
 
-If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare roms.
+v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또는 `.prv`폴더를 DSi웨어 타이틀 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DSi웨어 롬의 `.sav` 파일을 해당 폴더에 넣어주세요.
 {:.alert .alert-info}
 
 ### 업데이트하기
-1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
 1. `TWiLightMenu-Flashcard.7z`를 압축 해제합니다.
 1. Flashcard의 SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. Flashcard의 SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
 
-### More steps for the DSi/3DS SD card side
+### DSi/3DS SD 카드를 위한 추가적인 단계
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따르도록 합니다.
 
 1. TWLMenu++ 설정으로 진입합니다.
 1. `TWiLight Menu++ 업데이트`를 선택합니다.

@@ -13,5 +13,5 @@ Aby zobaczyć przetestowane gry, spójrz [tutaj](https://docs.google.com/spreads
 - Uważaj na migotania ekranu lub problemów z dźwiękiem
 - Jeśli coś wygląda podejrzanie, uruchom grę na konsoli, która nie używa nds-bootstrap, aby porównać
 - Wypróbuj jak najwięcej funkcji w grze
-- Wypróbuj różne ustawienia dla uruchomienia gry (prędkość procesora ARM9, DMA odczytu karty, itp.)
+- Try different settings for running the game (ARM9 CPU Speed, Card read DMA, Async card read, etc)
 - Bądź dokładny

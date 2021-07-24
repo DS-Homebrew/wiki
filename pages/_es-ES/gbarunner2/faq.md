@@ -23,4 +23,4 @@ Aún no. En cambio, puedes inyectar trucos en tu ROM de GBA de forma permanente 
 
 #### ¿Cómo uso las funciones Wifi Link?
 
-Necesitarás la versión [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) para utilizar dichas funciones. Encontrarás instrucciones más detalladas de como prepararlas en la [Wiki de GBATemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Necesitarás la versión [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) para utilizar dichas funciones. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).

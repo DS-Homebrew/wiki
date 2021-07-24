@@ -29,10 +29,11 @@ Det finns guider för att skapa ett hotspot kompatibelt med DS på macOS och Lin
 ### Manuellt patcha dina DS ROM
 Följ guiden nedan om din ISP blockerar anpassade DNS-servrar, annars rekommenderas det *starkt* att följa guiden ovan.
 
-Obs: Användare av GNU/Linux och macOS kan följa mycket liknande instruktioner, men måste använda Mono
+- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- WfcPatcher currently doesn't support DSiWare
 
-1. Ladda ner [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Kopiera ROMen av spelet du vill patcha till samma mapp där WFCPatcher sparas och öppna mappen
+1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
 1. Skapa en textfil
 1. I filen, ange `wfcpatcher.exe %1 --domain wiimmfi.de`, spara sedan textfilen med namnet `patch.bat` och stäng fönstret
    - Du kan ersätta wiimmfi.de med en annan URL, om du vill använda en annan server
@@ -40,9 +41,9 @@ Obs: Användare av GNU/Linux och macOS kan följa mycket liknande instruktioner,
 1. Dra nu alla ROMs du vill patcha på till patch.bat
 1. Klart! De patchade ROMen kommer att vara dem som slutar i (wiimmfi)
 
-Glöm inte att ta bort alla DNS som du kanske har sparat på dina Wi-Fi-inställningar innan du försöker ansluta till den patchade ROMen.
+Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
 
 ### Felsökning och vidare läsning
-Om du får några fel så kan du ange felkoden i Wiimmfi's [troubleshooter](https://wiimmfi.de/error) för att åtgärda det.
+If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
 
-För mer specifik felsökning och information, till exempel hur du ansluter till nätet på emulatorer, eller hur du använder en Nintendo Wi-Fi USB Connector, så kan du läsa denna [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) skriven av medlemmar i [Mario Kart DS Network](https://discord.gg/pa9bea6).
+For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).

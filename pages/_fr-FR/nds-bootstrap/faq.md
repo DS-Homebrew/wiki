@@ -23,9 +23,6 @@ If the server says it's an nds-bootstrap issue, check if the game hasn't been re
 
 Also, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
 
-#### Why doesn't multiplayer work?
-This is a [known issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/553) with cloneboot. Please wait for a fix.
-
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
 
