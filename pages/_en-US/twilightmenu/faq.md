@@ -81,7 +81,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 | Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
-| RVID Video              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
+| Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
 | SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                           |
 {:.table}
 
