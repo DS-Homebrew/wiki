@@ -73,7 +73,7 @@ Game Modders - Given to those that have made ROM hacks, cheats, or any other typ
 If you have broken the rules, you may receive these roles from a mod
 
 No Community - Removes access for all the channels under the Community category
-No Help - Removes access from #nds-modding-help[nds-modding-help]
+No Help - Removes access from [#nds-modding-help][nds-modding-help]
 No Reaction - Disables reaction perms for all channels
 Muted - Disables the ability to send messages.
 
