@@ -113,8 +113,7 @@ Server Maintainers: NightScript#5597, Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, De
 [nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
 [nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
-[nds-dev-discussion]:
-https://discord.com/channels/283769550611152897/835273459339624499
+[nds-dev-discussion]: https://discord.com/channels/283769550611152897/835273459339624499
 
 [nds-bootstrap]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu]: https://discord.com/channels/283769550611152897/489307733074640926
