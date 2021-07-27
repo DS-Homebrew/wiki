@@ -56,39 +56,39 @@ We have several roles you can get on this server, some of them being accessible 
 ### Moderator Roles
 These roles are given to people that are well trusted, they have the ability to ban, kick, mute, and give other roles to users.
 
-Da Master - The Owner role, has all possible perms
-Admin - Has all possible perms, usually gets final say between the Server Maintainers
-Server Maintainers - Help enforce the server rules and manage the server. If there is an issue contact them first before going higher up.
+- Da Master - The Owner role, has all possible perms
+- Admin - Has all possible perms, usually gets final say between the Server Maintainers
+- Server Maintainers - Help enforce the server rules and manage the server. If there is an issue contact them first before going higher up.
 
 ### User Flair Roles
 These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
 
-Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion. 
-Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to  compatibility reporting.
-Artist/Designers - Given to those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
-Composers - Given to those that have made music for DS(i) homebrew or ROM hacks. 
-Game Modders - Given to those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games. 
+- Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion. 
+- Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to  compatibility reporting.
+- Artist/Designers - Given to those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
+- Composers - Given to those that have made music for DS(i) homebrew or ROM hacks. 
+- Game Modders - Given to those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games. 
 
 ### Punishment Roles
 If you have broken the rules, you may receive these roles from a mod
 
-No Community - Removes access for all the channels under the Community category
-No Help - Removes access from [#nds-modding-help][nds-modding-help]
-No Reaction - Disables reaction perms for all channels
-Muted - Disables the ability to send messages.
+- No Community - Removes access for all the channels under the Community category
+- No Help - Removes access from [#nds-modding-help][nds-modding-help]
+- No Reaction - Disables reaction perms for all channels
+- Muted - Disables the ability to send messages.
 
 ### Other
 These roles are only given for very specific purposes by Moderators. 
 
-Bots - Used to mark the Discord bots we have in this server. 
-Special Thanks - People that have contributed to our community in a major way. 
+- Bots - Used to mark the Discord bots we have in this server. 
+- Special Thanks - People that have contributed to our community in a major way. 
 
 ### Self-Assignable Roles
 These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server
 
-Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
-Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
-Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects 
+- Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
+- Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
+- Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects 
 
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing.
