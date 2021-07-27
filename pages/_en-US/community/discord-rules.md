@@ -7,7 +7,8 @@ title: DS⁽ⁱ⁾ Mode Hacking Rules
 description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
 ---
 
-This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](DS⁽ⁱ⁾ Mode Hacking Rules | DS-Homebrew Wiki) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
+This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](DS⁽ⁱ⁾ Mode Hacking Rules \| DS-Homebrew Wiki
+) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
 
 ### 1. Do not act disrespectfully towards others and their beliefs
 
