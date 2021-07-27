@@ -7,92 +7,97 @@ title: DS⁽ⁱ⁾ Mode Hacking Info
 description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
 ---
 
-### Welcome to the <u>DS⁽ⁱ⁾ Mode Hacking</u>!
-
-We specialize in all things related to Nintendo DS(i) modding and homebrew.
-Here are a few examples of what we can help you do in this server:
-
-- Setting up the best kernel for your flashcart
-- Installing Custom Firmware (CFW) to your Nintendo DSi
-- Helping modify the TWL_FIRM on your Nintendo 3DS (allowing you to use widescreen, changing screen filtering amongst other things)
-
-We also focus on other things such as creating ROM hacks, developing homebrew, and general chatter.
+This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. We also focus on other things such as creating ROM hacks, playing DS games, and `TWL_FIRM` modding on 3DS.
 
 ## Discord Channels
-We have plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations.
-We'll go over the important ones but you can always check what the other channels do by looking at their channel topic:
+There are plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations.
 
-- [#info-and-rules][info-and-rules] - This is the rules channel, it describes the standards we have when communicating in this server.
-- [#useful-resources][useful-resources] - Need to understand something? Don't know a technical term?  Check here
-- [#nds-modding-help][nds-modding-help] - This is where you can ask for assistance with anything DS Homebrew related. Please check the pins, as there might be an explanation there already
-- [#community-meta][community-meta] - This channel is used for talking about the server itself
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed but are still enforced.  Use this to post your memes and stuff
+Always remember to check the channel topic and pins before talking in a channel.
+{:.alert .alert-info}
 
-We also have [#other-nds-homebrew][other-nds-homebrew] for homebrew that don't have a dedicated channel, [#nds-modding-discussion][nds-modding-discussion] for modding that doesn't concern other channels, [#nds-gaming][nds-gaming] for general DS stuff, and [#offtopic][offtopic] for any topic in general.
+**Important**
+- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](https://wiki.ds-homebrew.com/community/discord-rules) on the wiki.
+- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord Server such as other servers or this wiki.
+- [#member-logs][member-logs] - Shows user joins and server boosts.    
+
+**Server Hub**
+- [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server.
+- [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories.
+- [#github-builds][github-builds] - Feed of all of our projects' nightly builds.
+- [#community-meta][community-meta] - This channel is for giving feedback about our community, including this Discord server, our subreddit, and GitHub organization.
+
+**Nintendo DS⁽ⁱ⁾ Modding**
+- [#nds-modding-help][nds-modding-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM. 
+- [#nds-modding-discussion][nds-modding-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
+- [#nds-retail-research][nds-retail-research] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities.
+- [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew.
+
+**Main DS⁽ⁱ⁾ Homebrew Projects**
+- [#nds-bootstrap][nds-bootstrap] - This channel is for discussion of the development of nds-bootstrap, for help use #nds-modding-help
+- [#twilight-menu][twilight-menu] - This channel is for discussion of the development of TWiLight Menu++, for help use #nds-modding-help.
+- [#gbarunner2][gbarunner2] - This channel is for discussion of the development of GBARunner2, for help use #nds-modding-help.
+- [#websites-development][websites-development] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [ds-homebrew sites](https://ds-homebrew.com/) go here.
+
+**Secondary DS⁽ⁱ⁾ Homebrew Projects**
+- [#godmode9i][godmode9i] - This channel is for discussion of the development of godmode9i, for help use #nds-modding-help.
+- [#nds-forwarders][nds-forwarders] - Discuss DS game forwarders for the DSi & 3DS HOME Menu.
+- [#emulators-on-nds][emulators-on-nds] - This is talking about emulators on the Nintendo DS(i). Discussion for Nintendo DS(i) emulators should go in #nds-modding-discussion.
+- [#other-nds-homebrew][other-nds-homebrew] - Talk about Nintendo DS(i) homebrew and get support that isn't covered by other channels.
+
+**Community**
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server.
+- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play.
+- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM.
+- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed but are still enforced. Use this to post your memes, bot commands, and other things that don't facilitate discussion
 
 ## Roles & User Flairs
 We have several roles you can get on this server, some of them being accessible with just a @Lightning command
 
-### Developers
-This role is given to those who have either assisted or led a project for the Nintendo DS scene. While preferable that it'd be open source, it's optional
-Post the Nintendo DS homebrew application in the channel that works the best (If it doesn't have one, post it in [#other-nds-homebrew][other-nds-homebrew]) and ping a moderator alongside your message.
+### Moderator Roles
+These roles are given to people that are well trusted, they have the ability to ban, kick, mute, and give other roles to users.
 
-Keep in mind that stolen code will not land you the role, and we may deny the request depending on the circumstances
+Da Master - The Owner role, has all possible perms
+Admin - Has all possible perms, usually gets final say between the Server Maintainers
+Server Maintainers - Help enforce the server rules and manage the server. If there is an issue contact them first before going higher up.
 
-### Artists/Designers
-This role is given to those with an understanding of how art works and have contributed to DS homebrew in a graphical way (for example, a WoodR4 skin or a TWiLight Menu++ subtheme). Once you've fulfilled the requirement, mention us in [#community-meta][community-meta] with examples of said work and we will evaluate it.
+### User Flair Roles
+These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
 
-### Helpers
-Whether it's people we confide special builds to test or someone who would be helping out in the [#nds-modding-help][nds-modding-help] channel, Helpers are users that are supposed to represent the server as helpful members of the community.
-As an addition to the above average post quality requirement, there are two possible ways you can get the role: Testing & helping those in [#nds-modding-help][nds-modding-help]
+Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion. 
+Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to  compatibility reporting.
+Artist/Designers - Given to those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
+Composers - Given to those that have made music for DS(i) homebrew or ROM hacks. 
+Game Modders - Given to those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games. 
 
-For those testing, you must test at least a total of 7 games between GBARunner2 and nds-bootstrap. Check their specific channel topics for links to their compatibility sheet.
-For those helping, the amount of help you give isn't set in stone. We generally look at how grand your helping is (for example, saying "right click then hit edit" wouldn't help).
+### Punishment Roles
+If you have broken the rules, you may receive these roles from a mod
 
-Once you've fulfilled either, mention it in [#community-meta][community-meta] and say which method you chose. If we approve, you will gain the Helpers role. You must send at least one message every 4 months to keep it.
 
-### Translators
-Wanna translate a project of ours? Give yourself this role so you can stay up to date with the project's translation status. Our translation leader (Evie) will ping when new strings need to be translated.
+No Community - Removes access for all the channels under the Community category
+No Help - Removes access from #nds-modding-help[nds-modding-help]
+No Reaction - Disables reaction perms for all channels
+Muted - Disables the ability to send messages.
 
-- TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>
-- dsi.cfw.guide website: <https://crowdin.com/project/dsi-guide>
-- ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
+### Other
+These roles are only given for very specific purposes by Moderators. 
 
-This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Translators` in [#end-of-server][end-of-server])
+Bots - Used to mark the Discord bots we have in this server. 
+Special Thanks - People that have contributed to our community in a major way. 
 
-### Game Modders
-This role is given to those who have made a ROM Hack of decent quality for the Nintendo DS, know how to properly patch their files and have posted said ROM hack at a more permanent place (such as GameBanana or modding forums). Post your ROM hack in [#nds-retail-research][nds-retail-research] and ping a moderator and we will evaluate the ROM hack.
+### Self-Assignable Roles
+These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server
 
-### Nintendo DS Online Players
-This is a hoisted role, meant for users to get pinged when someone wants to play a Nintendo DS game online (whether it's Wiimmfi, AltWFC or other services). Mass pingers will be banned.
-This is a self-assignable role, via @Lightning's togglerole command (`!togglerole Nintendo DS Online Players` in [#end-of-server][end-of-server])
+Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
+Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
+Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects 
 
-### Updates
-You will get pinged in [#announcements][announcements] anytime an update comes out. To get this role, type `!togglerole Updates` in [#end-of-server][end-of-server].
-
-## 🤖 Lightning Commands
-Lightning is a discord bot made by [LightSage](https://gitlab.com/LightSage) which has useful commands for modding communities, including...
-
-- `!mod [console] [param2]` - This will allow you to view information on modding consoles, games and so on. param2 could be viewed for more specific information or get a list of homebrew.
-- `!togglerole <role>` - This will allow you to toggle a self-assignable role. If you need to view the current list of self-assignable roles, run `!togglerole list`.
-
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server].
-To learn more, check out their website: <https://lightning-bot.gitlab.io/>
-
-We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.
-
-## 👑 The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members will be hoisted in the member listing.
+## The Staff Team
+These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing.
 Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
 
-@shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan
-
-## 🚪 Invite Link
-Here are links to our networks.
-
-- Discord Server: <https://discord.gg/yD3spjv> (Keep in mind that anything publicly accessible on our server are logged by us and may be logged by others here)
-- GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (for old reddit: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+Owner: shutterbug2000#8835
+Administrators: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Server Maintainers: NightScript#5597, Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -107,6 +112,8 @@ Here are links to our networks.
 [nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
 [nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
+[nds-dev-discussion]:
+https://discord.com/channels/283769550611152897/835273459339624499
 
 [nds-bootstrap]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu]: https://discord.com/channels/283769550611152897/489307733074640926
