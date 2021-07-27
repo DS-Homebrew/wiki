@@ -124,7 +124,7 @@ https://discord.com/channels/283769550611152897/835273459339624499
 [emulators-on-nds]: https://discord.com/channels/283769550611152897/702400281966673951
 [other-nds-homebrew]: https://discord.com/channels/283769550611152897/536968881500061712
 
-[offtopic]: https://discord.com/channels/283769550611152897/286686210225864725
+[off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
