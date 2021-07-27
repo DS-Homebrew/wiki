@@ -95,7 +95,9 @@ These are the people who maintain the server. If they say something is final, it
 Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
 
 Owner: shutterbug2000#8835
+
 Administrators: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
+
 Server Maintainers: NightScript#5597, Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
 
 <!-- Discord channel links -->
