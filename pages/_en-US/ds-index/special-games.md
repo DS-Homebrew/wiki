@@ -43,6 +43,7 @@ Supports WiFi (WPA 1/2 included):
 - Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
 - Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea
 - Nintendogs: Lab and Friends: SDK2 -> SDK5 (as DSiWare)
+- Phineas and Ferb: SDK4 -> SDK5 (as a DSi-Enhanced title)
 - Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
 - Pokémon Dash: SDK2 -> SDK3 in Korea
 - Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
@@ -87,7 +88,7 @@ Total: 39, some may be missing
 - Popstars
 - Rio
 - Scripps Spelling Bee
-- Sonic Classic Collection (not working from SD)
+- Sonic Classic Collection
 - Women's Murder Club: Games of Passion
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
