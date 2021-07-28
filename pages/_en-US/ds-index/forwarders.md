@@ -11,7 +11,7 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
-HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
+Forwarders are icons on your HOME menu or hiyaCFW DSi Menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu or hiyaCFW for easier access to games.
 
 DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
 {:.alert .alert-info}
