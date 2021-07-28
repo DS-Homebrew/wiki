@@ -63,7 +63,8 @@ These roles are given to people that are well trusted, they have the ability to 
 These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
 
 - Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion. 
-- Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to  compatibility reporting.
+- Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to compatibility reporting.
+   - Helpers have no moderator perms, please ping a mod if a situation needs one
 - Artist/Designers - Given to those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
 - Composers - Given to those that have made music for DS(i) homebrew or ROM hacks. 
 - Game Modders - Given to those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games. 
