@@ -54,7 +54,7 @@ The are just recommended emulators that are present in TWiLight Menu++. There ar
 
 #### jEnesisDS, SNEmulDS, neoDS
 - In order for jEnesisDS, neoDS and SNEmulDS to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap.
-    - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS.
+    - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](/twilightmenu/creating-ram-disks) on how to do so.
     - The reason why we use RAM disks is because these emulators' ARM7 hooks don't work properly.
 
 
