@@ -9,7 +9,7 @@ description: Emulators for the DS
 
 There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators bundled into TWiLight Menu++. 
 
-## List of Supported Systems by TWiLight Menu++
+### List of Supported Systems by TWiLight Menu++
 
 | Format                  | Loader                                           | Extensions                             | Save file                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
@@ -44,13 +44,13 @@ There are many emulators present for the DS and DSi. This page provides a compre
 
 The are just recommended emulators that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
-## Other emulators for the DS:
+### Other Emulators for the DS:
 
 | Format                  | Loader                                           | Extensions                             | Save file                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | Neo Geo                 | [neoDS][neods]                                   | `.neo`                                 | (unknown)                                      |
 
-## Some notes on specific emulators:
+### Some Notes on Specific Emulators:
 
 #### jEnesisDS, SNEmulDS, neoDS
 - In order for jEnesisDS, neoDS and SNEmulDS to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap.
