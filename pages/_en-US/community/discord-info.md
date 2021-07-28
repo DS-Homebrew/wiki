@@ -40,7 +40,6 @@ Always remember to check the channel topic and pins before talking in a channel.
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects**
 - [#godmode9i][godmode9i] - This channel is for discussion of the development of godmode9i, for help use #nds-modding-help.
-- [#nds-forwarders][nds-forwarders] - Discuss DS game forwarders for the DSi & 3DS HOME Menu.
 - [#emulators-on-nds][emulators-on-nds] - This is talking about emulators on the Nintendo DS(i). Discussion for Nintendo DS(i) emulators should go in #nds-modding-discussion.
 - [#other-nds-homebrew][other-nds-homebrew] - Talk about Nintendo DS(i) homebrew and get support that isn't covered by other channels.
 
@@ -121,7 +120,6 @@ Server Maintainers: NightScript#5597, Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, De
 [websites-development]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
-[nds-forwarders]: https://discord.com/channels/283769550611152897/627282845446176768
 [emulators-on-nds]: https://discord.com/channels/283769550611152897/702400281966673951
 [other-nds-homebrew]: https://discord.com/channels/283769550611152897/536968881500061712
 
