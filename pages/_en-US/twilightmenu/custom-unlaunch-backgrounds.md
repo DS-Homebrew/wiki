@@ -7,6 +7,9 @@ title: Custom Unlaunch Backgrounds
 description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
 ---
 
+You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+{:.alert .alert-info}
+
 Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
 - Only the first frame will be shown, no animated backgrounds
 - The file must be less than or equal to 15,472 bytes
@@ -39,10 +42,10 @@ As the GIF's palette is loaded to the same area of VRAM as the text palettes it 
 1. Save the optimized GIF and open it in GIMP
 1. In the menu bar at the top, select `Windows` -> `Dockable Dialogs` -> `Colormap`
 1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
-    - If your image doesn't have at least 133 colors you will also need to add filler colors to arrange the text colors in the correct spots
+    - If your image doesn't have at least 133 colors you will need to keep adding colors until the last is index 146
 1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br>
-    ![Palette with correct text colors](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br>
+    ![Palette with correct text colors](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
 1. Use the color picker to make your new colors match those in the above image
 1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
 1. In the next popup, make sure `GIF comment` is off and click `Export`
