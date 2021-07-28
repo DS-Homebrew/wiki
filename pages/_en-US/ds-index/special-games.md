@@ -214,8 +214,8 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Sonic Advance 2
    - Sonic Advance 3
    - Sonic Battle
-- The Sims 2
-   - The Sims 2
+- The Sims 2 (DS)
+   - The Sims 2 (GBA)
 - WarioWare: Touched!
    -WarioWare: Twisted!
 - Yoshi Touch & Go
