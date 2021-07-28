@@ -61,6 +61,10 @@ Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 
 #### Is this a DS(i) emulator?
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
+#### What systems does TWiLight Menu++ support?
+
+See [List of Systems Supported by TWiLight Menu++](/ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+
 #### Why isn't touch input working on sudokuhax?
 Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
