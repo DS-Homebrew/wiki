@@ -12,7 +12,15 @@
 					</a>
 					<br>
 					
-					{{ site.data[page.collection].strings.published-with | replace: "$1", site.repo }}
+					{% assign source = site.repo | append: "/blob/main/pages" %}
+					{% if page.collection == "en-US" %}
+						{% assign source = source | append: "/_en-US" | append: page.url | replace: ".html", ".md" %}
+					{% else %}
+						{% assign url = page.url | remove_first: "/" %}
+						{% assign source = source | append: "/_" | append: url | replace: ".html", ".md" %}
+					{% endif %}
+					{% assign source = source |  %}
+					{{ site.data[page.collection].strings.published-with | replace: "$1", source }}
 				</p>
 			</div>
 			<div class="col-sm-2">
