@@ -47,3 +47,22 @@ ARGV is an information transmitter between two homebrew Nintendo DS applications
 
 - The homebrew needs to be programmed in order to take advantage of it. For example, GBARunner2, NesDS, and GameYob all have ARGV implementation
 - There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments
+
+### Exploits
+Below is a list of all types of exploits for the DSi.
+
+#### NTR/NDS Mode Exploits:
+These are ARM9 exploits that takes over a NDS mode cartridge. These type of exploits are very limited since there's no SD or NAND access. They can be used to run a small payload. These exploits are almost useless.
+
+#### DSi Enhanced Exploits:
+These are ARM9 exploits that take over a enhanced DSi mode cartridge. Unfortunately they don't have SD or NAND access, so you cannot use the SD card or downgrade. They can be used to gather console information and maybe find other vulnerabilities. These exploits can also be used for dslink, which can load homebrew apps in DSi-Mode via internet connections.
+
+#### DSiWare Exploits:
+These are ARM9 exploits that take over a DSiWare title. They run in the same context that Enhanced games do, but with the addition of SD and NAND access. This exploits are valuable since can be used to downgrade the console firmware to older versions. However this doesn't allow any cartridge access.
+
+#### ARM7 Exploits:
+These exploits take over the ARM7 processor. In the DSi these processor handles critical operations and cryptography operations, among other things. These exploits are extremely rare and there's no concrete targets. The DSi menu (The Launcher) is known to run in the ARM7 context. At the moment there's only one exploit known, RocketLauncher.
+
+#### Bootcode Exploits:
+These exploits gain full SCFG_EXT access rights immediately after power-up (before even starting the launcher). These exploits are significantly rare and concrete targets can be the launcher's `title.tmd`. At the moment, Unlaunch is the only known exploit for this type of exploit.
+
