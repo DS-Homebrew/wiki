@@ -11,9 +11,9 @@ description: Information about homebrew on the Nintendo DS
 
 Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 
-- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). We recommend using [libslim](https://github.com/DS-Homebrew/libslim/) instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphics libraries:** We recommend using [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds. However, you can use [NightFox Lib](https://github.com/knightfox75/nds_nflib)
-- **Entire toolchains:** We recommend using [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/), as it includes DSi compatibility and has a larger ecosystem. However, if your target is exclusively flashcards on a Nintendo DS, feel free to use [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds)
+- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). [libslim](https://github.com/DS-Homebrew/libslim/) is recommended instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended. However, [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead.
+- **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem. However, [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development.
 
 To get started, [this GBATemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. For more technical information on the DS(i), see [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
