@@ -7,6 +7,11 @@ category: other
 description: How to use nds-bootstrap forwarders with hiyaCFW
 ---
 
+DSi menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the DSi menu for easier access to games.
+
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge).
+{:.alert .alert-info}
+
 ### Requirements
 - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
 - The latest release of [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
