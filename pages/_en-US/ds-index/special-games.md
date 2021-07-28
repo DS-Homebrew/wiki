@@ -48,7 +48,7 @@ Supports WiFi (WPA 1/2 included):
 - Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
 - Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
-- WarioWare Touched: SDK2 -> SDK5 (as DSiWare)
+- WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
 ### DSi-Enhanced games that don't use overlays
 Total: 39, some may be missing
@@ -270,12 +270,10 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
 - Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
 - Jam with the Band -> Live Channel
+- My Word Coach -> My Word Coach (Wii)
 - Pokemon Diamond/Pearl -> My Pokemon Ranch
 - Pokemon Platinum -> My Pokemon Ranch (Japan Only)
-- My Word Coach -> My Word Coach (Wii)
-- Personal Trainer: Walking -> Mii Channel
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
+- Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
-
-
-
+- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
