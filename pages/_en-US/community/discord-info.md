@@ -24,6 +24,7 @@ Always remember to check the channel topic and pins before talking in a channel.
 - [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server.
 - [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories.
 - [#github-builds][github-builds] - Feed of all of our projects' nightly builds.
+- [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
 - [#community-meta][community-meta] - This channel is for giving feedback about our community, including this Discord server, our subreddit, and GitHub organization.
 
 **Nintendo DS⁽ⁱ⁾ Modding**
@@ -109,6 +110,7 @@ Server Maintainers: NightScript#5597, Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, De
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537
 [github-updates]: https://discord.com/channels/283769550611152897/450065134191116290
 [github-builds]: https://discord.com/channels/283769550611152897/540764336134815766
+[subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
 [nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
