@@ -65,9 +65,7 @@ These roles can only be given by moderators and indicate that these users are kn
 - Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion. 
 - Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to compatibility reporting.
    - Helpers have no moderator perms, please ping a mod if a situation needs one
-- Artist/Designers - Given to those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
-- Composers - Given to those that have made music for DS(i) homebrew or ROM hacks. 
-- Game Modders - Given to those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games. 
+- Nitro Boosters - Given to those that have given Server Boosts
 
 ### Punishment Roles
 If you have broken the rules, you may receive these roles from a mod
@@ -88,6 +86,9 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 
 - Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
 - Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
+- Artist/Designers - For those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew.
+- Composers - For those that have made music for DS(i) homebrew or ROM hacks. 
+- Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games.
 - Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects 
 
 ## The Staff Team
