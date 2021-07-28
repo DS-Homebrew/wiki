@@ -1,18 +1,19 @@
 ---
 lang: en-US
 layout: wiki
-section: hiyacfw
-title: Forwarders
-category: other
-description: How to use nds-bootstrap forwarders with hiyaCFW
+section: ds-index
+category: guides
+title: DS Game Forwarders
+description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
 tabs:
-  - tab-sd-card: SD card
+  - tab-3ds-sd-card: 3DS SD card
+    tab-dsi-sd-card: DSi SD card
     tab-flashcard: Flashcard
 ---
 
-hiyaCFW forwarders are icons on your hiyaCFW DSi menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to hiyaCFW for easier access to games.
+HOME menu forwarders are icons on your HOME menu that redirect to another software that runs the icon as listed. In this case, one can add DS games from the SD card (utilizing nds-bootstrap) or from a compatible flashcard (via its respective kernel) to the HOME menu for easier access to games.
 
-DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9i](https://dsi.cfw.guide/dumping-game-cards).
+DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
 {:.alert .alert-info}
 
 If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
@@ -20,11 +21,37 @@ If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.n
 
 Choose one of the following to add to the HOME menu:
 
-{% capture tab-sd-card %}
+{% capture tab-3ds-sd-card %}
+
+This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+{:.alert .alert-warning}
+
+### Part 1: Getting the required files
+
+If you already have Universal Updater installed on your console, you can skip to step 3.
+{:.alert .alert-info}
+
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
+   ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the NDSForwarder package
+1. NDSForwarder and its required files are now set up in its respective locations
+
+### Part 2: NDSForwarder
+1. Open the Homebrew Launcher
+1. In the Homebrew Launcher, open `NDS Forwarder Generator`
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Confirm you wish to install by selecting `Yes`
+1. After it is installed, your game will now appear as a title on your HOME menu
+{% endcapture %}
+{% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
+
+{% capture tab-dsi-sd-card %}
 
 ### Requirements
 
-- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
+- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
 - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
 - A 64-bit OS
 - The latest release of [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
@@ -44,7 +71,10 @@ After you extract the pack for your card, you can edit "sd:/_nds/nds-bootstrap.i
 - REGION: If set to -2, the DSiWare game's region will be used instead of the system's.
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
+
 If you already have TWiLight Menu++, skip to the next section.
+{:.alert .alert-info}
+
 1. Download the latest [TWiLight Menu++ version](https://github.com/DS-Homebrew/TWiLightMenu/releases). Only get the `TWiLightMenu-DSi.7z` file.
 1. In the 7z file, go to "_nds", "TWiLightMenu", and "extras".
 1. Drag the "apfix.pck" file to "sd:/_nds/ntr-forwarder/".
@@ -72,14 +102,17 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Install the forwarder NDS file using TMFH
 
 {% endcapture %}
-{% assign tab-sd-card = tab-sd-card | split: "////////" %}
+{% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
 
 ### Requirements
 
-- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch), [hiyaCFW](installing), and [TWiLight Menu++](/twilightmenu/installing-dsi) installed
-- The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
+- **DSi users:** 
+    - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
+    - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
+- **3DS users:** 
+    - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}
 The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. The only downside is that it drains your system battery faster.
@@ -134,23 +167,22 @@ Incompatible:
 	</div>
 </details>
 
-- A 64-bit OS
-- The latest release of [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
+- A 64 bit OS
+- [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - Java 8 Update 251
 - **Linux users:** JavaFX
-    - Debian-based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
-    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
+   - Debian-based: Run [this](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
 1. Download one of these packs:
-   - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
-   - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
-   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
-   - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
-   - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
-   - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
-   - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
-
+    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
+    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
+    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
+    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
+    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
+    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
+    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
     - What will be in each pack for loading ROMs:
         - Original R4/M3 Simply - WoodR4 & YSMenu
@@ -182,17 +214,20 @@ If you already have TWiLight Menu++, skip to the next section.
    - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
 1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
 1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
-1. Click the floppy drive button to generate the forwarders
-1. Copy the NDS file made by the application to your DSi SD Card
+1. Click the floppy disk button to generate the forwarders
 
-### Part 4: Installing to the hiyaCFW DSi Menu
-1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
-1. Reinsert your SD card into your DSi
-1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
-1. Install the forwarder NDS file using TMFH
+### Part 4: Installing the forwarder
 
+- If using a 3DS family console:
+    1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
+        - If using EmuNAND, install to both SysNAND and EmuNAND
+- If using a DSi:
+    1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
+    1. Reinsert your SD card into your DSi
+    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
+    1. Install the forwarder NDS file using TMFH
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
-{% assign tabs = tab-sd-card | concat: tab-flashcard %}
+{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard %}
 {% include tabs.html index=0 tabs=tabs %}
