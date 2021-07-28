@@ -18,8 +18,6 @@ In case there isn't a `.ips` file for your ROM or your software didn't patch you
 ### Cloneboot
 Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
 
-Currently, nds-bootstrap's cloneboot patches is broken due to the ARM7 and ARM9 binaries being patched, which makes the RSA signatures invalid.
-
 ### Save files
 Nintendo DS cartridges have 4 known save types:
 
@@ -65,3 +63,82 @@ Cheat codes generally have types 0 through F, and here is an (unfinished) descri
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
 It is known that cheat codes of this type usually do not work with nds-bootstrap currently.
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready.
+
+### Demonstration and Distribution Titles:
+
+Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version would be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, on the back of the title's cartridge a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+
+Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
+
+Example ID:
+`DIS-NTR-NTRJ-JPN`
+`DIS` - Distribution
+
+### Title Labels
+Looking at the bottom of the title label shows the title ID along with other bits of information, for this situation we will use the following ID as an example:
+
+NTR-NTRJ-XXX
+
+XXX represents the following:
+
+AUS - Australia
+CHN - China
+DEN - Denmark
+EUR - Europe (Miltilingual)
+EUU - Europe (Dutch or Italian Only)
+FRA - France
+GER - Germany
+HOL - Netherlands
+ITA - Italian
+JPN - Japan
+KOR - Korea
+NOE - Europe (German Only)
+NOR - Norway
+RUS - Russia
+SPA - Spain
+UKV - United Kingdom
+USA - United States
+
+
+The last letter of the title ID itself represents the language of the title, we will use the last example as the title ID:
+
+NTR-NTRX-JPN
+
+X represents the following:
+
+A - World (doesn't count knowing only one thing used it)
+C - Chinese (Simplified)
+D - German
+E - American English
+F - French
+G - Greek
+H - Dutch
+I - Italian
+J - Japanese
+K - Korean
+M - Swedish
+N - Norwegian
+O - English (DSi Enhanced)
+P - European Multilingual
+Q - Danish
+R - Russian
+S - Spanish
+T - English (DSi Enhanced)
+U - Australian English
+V - British English
+W - Other languages (Varies)
+X - Other languages (Varies)
+Y - Other languages (Varies)
+Z - Other languages (Varies)
+
+
+In terms of the system identifiers:
+NTR - Nintendo DS
+TWL - Nintendo DSi
+
+NTR - Nitro
+TWL - Twilight
+
+
+DSi Enhanced:
+Games with the "DSi Enhanced" functionality are present on some NTR based titles, it just means that the titles can take advantage of the DSi system in some way.
