@@ -96,7 +96,7 @@ Examples of what breaks this rule include:
 
 ## Consequences
 
-The consequences of breaking these rules are a warning, mute, kick and/or ban. Of course, the specifics will be handled on a case by case basis.
+The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
 - Most users end up having 4 warnings before they are banned
    - These warnings include using the actual !warn command, getting muted, and also verbal warnings 
 - Joining for the purpose of rule breaking will get you banned
@@ -107,4 +107,4 @@ The consequences of breaking these rules are a warning, mute, kick and/or ban. O
 - However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
 
 
-Last updated: 2021-07-27
+Last updated: 2021-07-28
