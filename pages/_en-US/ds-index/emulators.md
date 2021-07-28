@@ -42,6 +42,9 @@ There are many emulators present for the DS and DSi. This page provides a compre
 [^7]: Only shown when using a flashcard, 3DS's internal SD card, or DSi with Unlaunch installed
 [^8]: Can only save when running from a flashcard
 
+- Footnotes -
+{:footnotes}
+
 The are just recommended emulators that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### Other Emulators for the DS:
