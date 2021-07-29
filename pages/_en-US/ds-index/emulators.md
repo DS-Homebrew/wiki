@@ -55,10 +55,35 @@ The are just recommended emulators that are present in TWiLight Menu++. There ar
 
 ### Some Notes on Specific Emulators:
 
-#### jEnesisDS, SNEmulDS, neoDS
-- In order for jEnesisDS, neoDS and SNEmulDS to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap.
+#### RAM Disks
+- In order for **jEnesisDS, neoDS and SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap.
     - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](/twilightmenu/creating-ram-disks) on how to do so.
     - The reason why we use RAM disks is because these emulators' ARM7 hooks don't work properly.
+
+#### Comparison between PicoDriveTWL and jEnesisDS
+
+- **PicoDriveTWL**
+    + Was made for DSi
+    + Does not require nds-bootstrap RAM Disks
+        + Saving is allowed on DSi SD cards
+        + Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
+    + Supports arguments
+    - Limit is 2.5 MB on a **Flashcart**.
+        + Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
+    - No sound emulation
+    - Framerate is extremely choppy
+
+- **jEnesisDS**
+    - DS Mode
+        - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
+        - Saving is unavailable for DSi SD cards
+    - Takes a while to load
+    - No argument support
+    + Limit is 3 MB on all platforms (due to roms loading in RAM)
+        - No DS Memory Pak or DSi Extended Memory support.
+        + There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down.
+    + Sound Emulation
+    + Framerate is smooth
 
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
