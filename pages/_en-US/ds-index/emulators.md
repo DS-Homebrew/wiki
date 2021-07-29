@@ -3,8 +3,8 @@ lang: en-US
 layout: wiki
 section: ds-index
 category: reference
-title: DS Emulators
-description: Emulators for the DS
+title: Emulators on the DS
+description: A reference on Emulators on the DS
 ---
 
 There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators bundled into TWiLight Menu++. 
