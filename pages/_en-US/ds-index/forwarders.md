@@ -62,22 +62,22 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Part 1: Getting started
 1. Download the [Forwarder pack for DSi SD Card](https://www.dropbox.com/s/t0qi1754i9o4388/DS%20Game%20Forwarder%20pack%20%28DSi%20SD%20Card%29.7z?dl=0)
-1. Extract the contents of the `for SD card root` folder to the root of your DSi's SD card, and (if the folder exists)
+1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card, and (if the folder exists)
 
 After you extract the pack for your card, you can edit "sd:/_nds/nds-bootstrap.ini" and change one of the settings.
-- BOOST_CPU: If set to 1, TWL clock speed is used, so lags begone.
-- SOUND_FREQ: If set to 1, sound will play at 48khz, instead of 32khz.
-- LANGUAGE: If set to -1, the system language will be used.
-- REGION: If set to -2, the DSiWare game's region will be used instead of the system's.
+- BOOST_CPU: If set to 1, TWL clock speed is used, so lags begone
+- SOUND_FREQ: If set to 1, sound will play at 48khz, instead of 32khz
+- LANGUAGE: If set to -1, the system language will be used
+- REGION: If set to -2, the DSiWare game's region will be used instead of the system's
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
-1. Download the latest [TWiLight Menu++ version](https://github.com/DS-Homebrew/TWiLightMenu/releases). Only get the `TWiLightMenu-DSi.7z` file.
-1. In the 7z file, go to "_nds", "TWiLightMenu", and "extras".
-1. Drag the "apfix.pck" file to "sd:/_nds/ntr-forwarder/".
+1. Download the latest [TWiLight Menu++ version](https://github.com/DS-Homebrew/TWiLightMenu/releases). Only get the `TWiLightMenu-DSi.7z` file
+1. In the 7z file, go to "_nds", "TWiLightMenu", and "extras"
+1. Drag the "apfix.pck" file to "sd:/_nds/ntr-forwarder/"
 
 ### Part 3: Forwarder3-DS
 1. Open `Forwarder3DS.jar`
@@ -93,7 +93,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
 1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
 1. Click the floppy drive button to generate the forwarder
-1. Copy the NDS file made by the application to your DSi SD Card
+1. Copy the NDS file made by the application to your DSi SD card
 
 ### Part 4: Installing to the hiyaCFW DSi Menu
 1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
@@ -144,14 +144,14 @@ Untested:
 - R4i3D NEW (Use R4iDSN template and pack)
 
 Partially compatible:
-- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing.)
-- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing.)
-- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing.)
+- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing)
+- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing)
+- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing)
+- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing)
+- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing)
 
 Incompatible:
-- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards.)
+- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards)
 - (i)Edge (Unable to autoboot a .nds ROM)
 - R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
 - R4i3D (2012)
@@ -183,12 +183,12 @@ Incompatible:
     - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
     - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
     - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card.
+1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card
     - What will be in each pack for loading ROMs:
         - Original R4/M3 Simply - WoodR4 & YSMenu
         - DSTT/R4i Gold/R4i-SDHC/R4 SDHC Dual-Core/R4 SDHC Upgrade/SC DSONE, Acekard 2(i)/M3DS Real/R4i-SDHC 1.4.x - YSMenu
         - Acekard RPG, Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
-    - After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS.
+    - After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS
         - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
         - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
         - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
