@@ -7,7 +7,7 @@ title: Emulators on the DS
 description: A reference on Emulators on the DS
 ---
 
-There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators bundled into TWiLight Menu++. 
+There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into TWiLight Menu++. 
 
 ### List of Supported Systems by TWiLight Menu++
 
@@ -35,9 +35,9 @@ There are many emulators present for the DS and DSi. This page provides a compre
 
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
 [^2]: Only for retail ROMs, homebrew do not have specific save files
-[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
+[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the flashcard
 [^4]: When running in DSi Mode, it can use the DSP for better sound
-[^5]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
+[^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
 [^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
 [^7]: Only shown when using a flashcard, 3DS's internal SD card, or DSi with Unlaunch installed
 [^8]: Can only save when running from a flashcard
@@ -45,7 +45,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 - Footnotes -
 {:footnotes}
 
-The are just recommended emulators that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
+These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### Other Emulators for the DS:
 
@@ -56,9 +56,9 @@ The are just recommended emulators that are present in TWiLight Menu++. There ar
 ### Some Notes on Specific Emulators:
 
 #### RAM Disks
-- In order for **jEnesisDS, neoDS and SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap.
-    - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](/twilightmenu/creating-ram-disks) on how to do so.
-    - The reason why we use RAM disks is because these emulators' ARM7 hooks don't work properly.
+- In order for **jEnesisDS, neoDS and SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+    - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](/twilightmenu/creating-ram-disks) on how to do so
+    - The reason why we use RAM disks is because these emulators' ARM7 hooks don't work properly
 
 #### Comparison between PicoDriveTWL and jEnesisDS
 
@@ -68,7 +68,7 @@ The are just recommended emulators that are present in TWiLight Menu++. There ar
         + Saving is allowed on DSi SD cards
         + Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
     + Supports arguments
-    - Limit is 2.5 MB on a **Flashcart**.
+    - Limit is 2.5 MB on a **Flashcard**
         + Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
     - No sound emulation
     - Framerate is extremely choppy
@@ -80,7 +80,7 @@ The are just recommended emulators that are present in TWiLight Menu++. There ar
     - Takes a while to load
     - No argument support
     + Limit is 3 MB on all platforms (due to roms loading in RAM)
-        - No DS Memory Pak or DSi Extended Memory support.
+        - No DS Memory Pak or DSi Extended Memory support
         + There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down.
     + Sound Emulation
     + Framerate is smooth
