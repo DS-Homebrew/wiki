@@ -49,5 +49,5 @@ You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Bu
 The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time.
 Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

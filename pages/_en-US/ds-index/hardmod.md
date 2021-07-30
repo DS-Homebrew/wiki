@@ -46,7 +46,7 @@ To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
 
 #### Removing the no$gba footer
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done by running the hiyaCFW helper application found [here](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Download the version for the operating system you are using
 1. Run the script, selecting the NAND backup you wish to flash to your DSi
