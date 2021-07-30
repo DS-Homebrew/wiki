@@ -79,106 +79,65 @@ Example ID:
 ### Title Labels
 Looking at the bottom of the title label shows the title ID along with other bits of information, for this situation we will use the following ID as an example:
 
-NTR-NTRJ-XXX
+- NTR-NTRJ-**XXX**
 
-XXX represents the following:
+**XXX** represents the following:
 
-AUS - Australia
-
-CHN - China
-
-DEN - Denmark
-
-EUR - Europe (Miltilingual)
-
-EUU - Europe (Dutch or Italian Only)
-
-FRA - France
-
-GER - Germany
-
-HOL - Netherlands
-
-ITA - Italian
-
-JPN - Japan
-
-KOR - Korea
-
-NOE - Europe (German Only)
-
-NOR - Norway
-
-RUS - Russia
-
-SPA - Spain
-
-UKV - United Kingdom
-
-USA - United States
-
+- AUS - Australia
+- CHN - China
+- DEN - Denmark
+- EUR - Europe (Miltilingual)
+- EUU - Europe (Dutch or Italian Only)
+- FRA - France
+- GER - Germany
+- HOL - Netherlands -ITA - Italian
+- JPN - Japan 
+- KOR - Korea
+- NOE - Europe (German Only)
+- NOR - Norway
+- RUS - Russia
+- SPA - Spain
+- UKV - United Kingdom
+- USA - United States
 
 The last letter of the title ID itself represents the language of the title, we will use the last example as the title ID:
 
-NTR-NTRX-JPN
+- NTR-NTR**X**-JPN
 
-X represents the following:
+**X** represents the following:
 
-A - World (doesn't count knowing only one thing used it)
-
-C - Chinese (Simplified)
-
-D - German
-
-E - American English
-
-F - French
-
-G - Greek
-
-H - Dutch
-
-I - Italian
-
-J - Japanese
-
-K - Korean
-
-M - Swedish
-
-N - Norwegian
-
-O - English (DSi Enhanced)
-
-P - European Multilingual
-
-Q - Danish
-
-R - Russian
-
-S - Spanish
-
-T - English (DSi Enhanced)
-
-U - Australian English
-
-V - British English
-
-W - Other languages (Varies)
-
-X - Other languages (Varies)
-
-Y - Other languages (Varies)
-
-Z - Other languages (Varies)
+- A - World (doesn't count knowing only one thing used it)
+- C - Chinese (Simplified)
+- D - German
+- E - American English
+- F - French
+- G - Greek
+- H - Dutch
+- I - Italian
+- J - Japanese
+- K - Korean
+- M - Swedish
+- N - Norwegian
+- O - English (DSi Enhanced)
+- P - European Multilingual
+- Q - Danish
+- R - Russian
+- S - Spanish
+- T - English (DSi Enhanced)
+- U - Australian English
+- V - British English
+- W - Other languages (Varies)
+- X - Other languages (Varies)
+- Y - Other languages (Varies)
+- Z - Other languages (Varies)
 
 
 In terms of the system identifiers:
 
-NTR - Nitro - Nintendo DS
-
-TWL - Twilight - Nintendo DSi
+- NTR - Nitro - Nintendo DS
+- TWL - Twilight - Nintendo DSi
 
 
 DSi Enhanced:
+
 Games with the "DSi Enhanced" functionality are present on some NTR based titles, it just means that the titles can take advantage of the DSi system in some way.
