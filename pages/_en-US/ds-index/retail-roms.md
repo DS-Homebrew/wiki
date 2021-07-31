@@ -26,7 +26,7 @@ Nintendo DS cartridges have 4 known save types:
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS game cards with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers.
+Though rare, there are DS Game Cards with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers.
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
 
@@ -49,7 +49,7 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 
 Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+   - NitroHax lets you use cheats with real Game Cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
    - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
