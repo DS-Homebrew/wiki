@@ -23,7 +23,7 @@ The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi sh
 nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work properly with the higher clock speed. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
 
 ### Nintendo DSi Menu
-In version 1.4.0, RSA signatures in the DS game card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
+In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
 There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see the [hiyaCFW troubleshooting page](/hiyacfw/troubleshooting#the-free-space-bug).
 
