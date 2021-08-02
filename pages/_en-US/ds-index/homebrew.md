@@ -11,15 +11,15 @@ description: Information about homebrew on the Nintendo DS
 
 Developing Nintendo DS Homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 
-- **SD card libraries:** [DevkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). [libslim](https://github.com/DS-Homebrew/libslim/) is recommended instead, as it allows usage of different partitions, quicker speeds, and non-blocking
-- **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended. However, [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead.
-- **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem. However, [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development.
+- **SD card libraries:** [devkitPro](https://devkitpro.org/) recommends [libfat](https://github.com/devkitPro/libfat). [libslim](https://github.com/DS-Homebrew/libslim/) is recommended instead, as it allows usage of different partitions, quicker speeds, and non-blocking
+- **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended. However, [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead
+- **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem. However, [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development
 
-To get started, [this GBATemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. For more technical information on the DS(i), see [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
+To get started, [this GBAtemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. For more technical information on the DS(i), see [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
 ### Flashcards
 
-DS mode flashcards are a slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, the ability to be used without modding your system and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
+DS mode flashcards are a Slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, the ability to be used without modding your system and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
 
 [There is a **work in progress** flashcard index](https://nightyoshi370.github.io/mm-github-pages-starter/), which has kernels, firmware, reviews and purchase links.
 
@@ -49,22 +49,3 @@ ARGV is an information transmitter between two homebrew Nintendo DS applications
 
 - The homebrew needs to be programmed in order to take advantage of it. For example, GBARunner2, NesDS, and GameYob all have ARGV implementation
 - There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments
-
-### Exploits
-Below is a list of all types of exploits for the DSi.
-
-#### NTR/NDS Mode Exploits
-These are ARM9 exploits that takes over a NDS mode cartridge. These type of exploits are very limited since there's no SD or NAND access. They can be used to run a small payload. These exploits are almost useless.
-
-#### DSi Enhanced Exploits
-These are ARM9 exploits that take over a enhanced DSi mode cartridge. Unfortunately they don't have SD or NAND access, so you cannot use the SD card or downgrade. They can be used to gather console information and maybe find other vulnerabilities. These exploits can also be used for dslink, which can load homebrew apps in DSi-Mode via internet connections.
-
-#### DSiWare Exploits
-These are ARM9 exploits that take over a DSiWare title. They run in the same context that Enhanced games do, but with the addition of SD and NAND access. This exploits are valuable since can be used to downgrade the console firmware to older versions. However this doesn't allow any cartridge access.
-
-#### ARM7 Exploits
-These exploits take over the ARM7 processor. In the DSi these processor handles critical operations and cryptography operations, among other things. These exploits are extremely rare and there's no concrete targets. The DSi menu (The Launcher) is known to run in the ARM7 context. At the moment there's only one exploit known, RocketLauncher.
-
-#### Bootcode Exploits
-These exploits gain full SCFG_EXT access rights immediately after power-up (before even starting the launcher). These exploits are significantly rare and concrete targets can be the launcher's `title.tmd`. At the moment, Unlaunch is the only known exploit for this type of exploit.
-

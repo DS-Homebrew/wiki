@@ -58,3 +58,5 @@ Decimal:
 - "Wi-Fi" should be spelled as such, not "Wifi" or "WiFi"
 - "Flashcart" should be used for Slot-2 (GBA) flashcarts
 - "Flashcard" should be used for Slot-1 (DS) flashcards
+- "Cartridge" should be be used for standard GBA cartridges
+- "Game Card" should be capitalized

@@ -9,58 +9,58 @@ description: DS(i) Games that have special properties
 
 ### List of DS games available as DSiWare
 - Advance Wars: Days of Ruin/Dark Conflict
-     - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari".
-     - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0).
+     - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+     - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Art Academy
-     - Split into First & Second Semesters.
+     - Split into First & Second Semesters
 - Bejeweled Twist
-     - Some features removed.
+     - Some features removed
 - Bomberman 2
-     - Multiplayer feature turned into a standalone title called "Bomberman Blitz".
+     - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-     - Download Play feature removed.
-     - Icon is animated.
+     - Download Play feature removed
+     - Icon is animated
 - Brain Challenge
-     - New features related to the DSi camera are added.
-     - Versus mode is removed.
-     - Many files are compressed for the game to fit within the DSiWare size limit.
-     - Icon is animated.
+     - New features related to the DSi camera are added
+     - Versus mode is removed
+     - Many files are compressed for the game to fit within the DSiWare size limit
+     - Icon is animated
 - Electroplankton
-     - Each mode are turned into DSiWare.
+     - Each mode are turned into DSiWare
 - Elite Forces: Unit 77
-     - Multiplayer added.
+     - Multiplayer added
 - Master of Illusion/Magic Made Fun
-     - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe).
+     - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
-     - DSiWare version called "Need for Speed: Nitro-X".
-     - Download Play feature and various music are removed.
-     - New police cars available.
+     - DSiWare version called "Need for Speed: Nitro-X"
+     - Download Play feature and various music are removed
+     - New police cars available
 - Nintendogs: Lab & Friends
-     - DSiWare version exclusive to China.
+     - DSiWare version exclusive to China
 - Phantasy Star 0
-     - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan.
-     - Icon is animated.
+     - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+     - Icon is animated
 - Planet Puzzle League
-     - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe).
-     - Multiplayer removed.
+     - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+     - Multiplayer removed
 - Plants vs. Zombies
-     - Download Play feature, some achievements, and music video are removed.
-     - Includes exclusive minigame.
-     - Icon is animated.
+     - Download Play feature, some achievements, and music video are removed
+     - Includes exclusive minigame
+     - Icon is animated
 - Tetris Party Deluxe
-     - DSiWare version called "Tetris Party Live".
-     - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed.
-     - Icon is animated.
+     - DSiWare version called "Tetris Party Live"
+     - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+     - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-     - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe).
-     - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far less courses than the retail game.
-          - The game engine is improved.
-          - Challenge mode replaces Championship Tour of the retail game.
+     - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+     - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+          - The game engine is improved
+          - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-     - Slot-2 features removed.
+     - Slot-2 features removed
 - Zuma's Revenge!
-     - Multiplayer removed.
-     - Icon is animated.
+     - Multiplayer removed
+     - Icon is animated
 
 Supports WiFi (WPA 1/2 included):
 - Bomberman Blitz

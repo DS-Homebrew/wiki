@@ -10,8 +10,8 @@ description: Information related to retail DS games
 ### Anti-piracy
 AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
 
-- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++.
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself.
+- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++
+- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself
 
 In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
 
@@ -26,9 +26,9 @@ Nintendo DS cartridges have 4 known save types:
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Cartridges with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers
+Though rare, there are DS Game Cards with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers.
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php
+There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
 
 ### Assembly
 Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses. 
@@ -37,7 +37,7 @@ You can find more information on assembly instructions, as well as a lot more te
 ### Card read DMA
 Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
 
-You can spot a game that uses dma via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
+You can spot a game that uses DMA via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - For example: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Action Replay cheats
@@ -49,7 +49,7 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 
 Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real game cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
+   - NitroHax lets you use cheats with real Game Cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
    - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
@@ -60,9 +60,9 @@ For the most complete cheat database, we recommend using the one made by DeadSku
 
 Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job.
-It is known that cheat codes of this type usually do not work with nds-bootstrap currently.
-- DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready.
+- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job
+  - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
+- DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
 ### Demonstration and Distribution Titles:
 
@@ -72,73 +72,72 @@ Distribution titles are a slightly different situation in most cases, however de
 
 Example ID:
 `DIS-NTR-NTRJ-JPN`
+
 `DIS` - Distribution
+
 
 ### Title Labels
 Looking at the bottom of the title label shows the title ID along with other bits of information, for this situation we will use the following ID as an example:
 
-NTR-NTRJ-XXX
+- NTR-NTRJ-**XXX**
 
-XXX represents the following:
+**XXX** represents the following:
 
-AUS - Australia
-CHN - China
-DEN - Denmark
-EUR - Europe (Miltilingual)
-EUU - Europe (Dutch or Italian Only)
-FRA - France
-GER - Germany
-HOL - Netherlands
-ITA - Italian
-JPN - Japan
-KOR - Korea
-NOE - Europe (German Only)
-NOR - Norway
-RUS - Russia
-SPA - Spain
-UKV - United Kingdom
-USA - United States
-
+- AUS - Australia
+- CHN - China
+- DEN - Denmark
+- EUR - Europe (Miltilingual)
+- EUU - Europe (Dutch or Italian Only)
+- FRA - France
+- GER - Germany
+- HOL - Netherlands -ITA - Italian
+- JPN - Japan 
+- KOR - Korea
+- NOE - Europe (German Only)
+- NOR - Norway
+- RUS - Russia
+- SPA - Spain
+- UKV - United Kingdom
+- USA - United States
 
 The last letter of the title ID itself represents the language of the title, we will use the last example as the title ID:
 
-NTR-NTRX-JPN
+- NTR-NTR**X**-JPN
 
-X represents the following:
+**X** represents the following:
 
-A - World (doesn't count knowing only one thing used it)
-C - Chinese (Simplified)
-D - German
-E - American English
-F - French
-G - Greek
-H - Dutch
-I - Italian
-J - Japanese
-K - Korean
-M - Swedish
-N - Norwegian
-O - English (DSi Enhanced)
-P - European Multilingual
-Q - Danish
-R - Russian
-S - Spanish
-T - English (DSi Enhanced)
-U - Australian English
-V - British English
-W - Other languages (Varies)
-X - Other languages (Varies)
-Y - Other languages (Varies)
-Z - Other languages (Varies)
+- A - World (doesn't count knowing only one thing used it)
+- C - Chinese (Simplified)
+- D - German
+- E - American English
+- F - French
+- G - Greek
+- H - Dutch
+- I - Italian
+- J - Japanese
+- K - Korean
+- M - Swedish
+- N - Norwegian
+- O - English (DSi Enhanced)
+- P - European Multilingual
+- Q - Danish
+- R - Russian
+- S - Spanish
+- T - English (DSi Enhanced)
+- U - Australian English
+- V - British English
+- W - Other languages (Varies)
+- X - Other languages (Varies)
+- Y - Other languages (Varies)
+- Z - Other languages (Varies)
 
 
 In terms of the system identifiers:
-NTR - Nintendo DS
-TWL - Nintendo DSi
 
-NTR - Nitro
-TWL - Twilight
+- NTR - Nitro - Nintendo DS
+- TWL - Twilight - Nintendo DSi
 
 
 DSi Enhanced:
+
 Games with the "DSi Enhanced" functionality are present on some NTR based titles, it just means that the titles can take advantage of the DSi system in some way.
