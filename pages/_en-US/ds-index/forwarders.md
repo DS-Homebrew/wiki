@@ -51,20 +51,20 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Requirements
 
-- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
-- The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
+- A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](../hiyacfw/installing) installed
+- The latest release of [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases)
 - A 64-bit OS
 - The latest release of [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
-- Java 8 Update 251
+- [Java 8](https://www.java.com/en/download/)
 - **Linux users:** JavaFX
-    - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
-    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
+   - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
 1. Download the [Forwarder pack for DSi SD Card](https://www.dropbox.com/s/t0qi1754i9o4388/DS%20Game%20Forwarder%20pack%20%28DSi%20SD%20Card%29.7z?dl=0)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card, and (if the folder exists)
 
-After you extract the pack for your card, you can edit "sd:/_nds/nds-bootstrap.ini" and change one of the settings.
+After you extract the pack for your card, you can edit `sd:/_nds/nds-bootstrap.ini` and change one of the settings.
 - BOOST_CPU: If set to 1, TWL clock speed is used, so lags begone
 - SOUND_FREQ: If set to 1, sound will play at 48khz, instead of 32khz
 - LANGUAGE: If set to -1, the system language will be used
@@ -75,9 +75,9 @@ After you extract the pack for your card, you can edit "sd:/_nds/nds-bootstrap.i
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
-1. Download the latest [TWiLight Menu++ version](https://github.com/DS-Homebrew/TWiLightMenu/releases). Only get the `TWiLightMenu-DSi.7z` file
-1. In the 7z file, go to "_nds", "TWiLightMenu", and "extras"
-1. Drag the "apfix.pck" file to "sd:/_nds/ntr-forwarder/"
+1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
+1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: Forwarder3-DS
 1. Open `Forwarder3DS.jar`
@@ -109,10 +109,10 @@ If you already have TWiLight Menu++, skip to the next section.
 ### Requirements
 
 - **DSi users:** 
-    - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
-    - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
+   - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
+   - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
 - **3DS users:** 
-    - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
+   - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}
 The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. The only downside is that it drains your system battery faster.
@@ -169,29 +169,29 @@ Incompatible:
 
 - A 64 bit OS
 - [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
-- Java 8 Update 251
+- [Java 8](https://www.java.com/en/download/)
 - **Linux users:** JavaFX
    - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
 1. Download one of these packs:
-    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
-    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
-    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
-    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
-    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
-    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
-    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
+   - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
+   - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
+   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
+   - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
+   - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
+   - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
+   - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
 1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card
-    - What will be in each pack for loading ROMs:
-        - Original R4/M3 Simply - WoodR4 & YSMenu
-        - DSTT/R4i Gold/R4i-SDHC/R4 SDHC Dual-Core/R4 SDHC Upgrade/SC DSONE, Acekard 2(i)/M3DS Real/R4i-SDHC 1.4.x - YSMenu
-        - Acekard RPG, Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
-    - After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS
-        - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
-        - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
-        - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
+   - What will be in each pack for loading ROMs:
+      - Original R4/M3 Simply - WoodR4 & YSMenu
+      - DSTT/R4i Gold/R4i-SDHC/R4 SDHC Dual-Core/R4 SDHC Upgrade/SC DSONE, Acekard 2(i)/M3DS Real/R4i-SDHC 1.4.x - YSMenu
+      - Acekard RPG, Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
+   - After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.ini` to change the settings. This isn't possible for Acekard RPG, R4 DS, and R4i Gold RTS
+      - `NTRCLOCK`: If set to `0` or <kbd class="face">A</kbd> is held, the DSi boot screen will appear instead of the normal DS splash, and TWL clock speed is used, so lags begone
+      - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
+      - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
@@ -199,8 +199,8 @@ If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-1. In the 7z file, go to `_nds/TWiLightMenu/`
-1. Copy the `apfix` folder to `sd:/_nds/ntr-forwarder/` on your 3DS's SD card
+1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
+1. Drag the `apfix.pck` file to `fat:/_nds/ntr-forwarder/`
 
 ### Part 3: Forwarder3-DS
 1. Open `Forwarder3DS.jar`
@@ -219,13 +219,13 @@ If you already have TWiLight Menu++, skip to the next section.
 ### Part 4: Installing the forwarder
 
 - If using a 3DS family console:
-    1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-        - If using EmuNAND, install to both SysNAND and EmuNAND
+   1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
+      - If using EmuNAND, install to both SysNAND and EmuNAND
 - If using a DSi:
-    1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
-    1. Reinsert your SD card into your DSi
-    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
-    1. Install the forwarder NDS file using TMFH
+   1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
+   1. Reinsert your SD card into your DSi
+   1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
+   1. Install the forwarder NDS file using TMFH
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
 
