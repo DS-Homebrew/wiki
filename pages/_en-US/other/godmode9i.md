@@ -21,5 +21,5 @@ To dump game cartridges, select the drive in the drives list and follow the on-s
 ### Troubleshooting
 
 #### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](/hiyacfw). You can hold X while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+This happens when you launch GodMode9i from [hiyaCFW](/hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
 
