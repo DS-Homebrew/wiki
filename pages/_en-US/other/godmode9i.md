@@ -12,7 +12,7 @@ description: Information about GodMode9i
 
 To dump game cartridges, select the drive in the drives list and follow the on-screen prompts.
 - On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2/Game Boy Advance cartridges if running from Slot-1 flashcard, or Slot-1/Nintendo DS cartridges if GodMode9i is running from a Slot-2 flashcard
-- On the Nintendo DSi family of systems, Unlaunch is needed for access to Slot-1
+- On the Nintendo DSi family of systems, Unlaunch is required for access to Slot-1
    - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
 - On the Nintendo 3DS family of systems, launch GodMode9i from a CFW-environment
    - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + B9S
