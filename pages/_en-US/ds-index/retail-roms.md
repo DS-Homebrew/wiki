@@ -8,12 +8,12 @@ description: Information related to retail DS games
 ---
 
 ### Anti-piracy
-AP (short for anti-piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
 
-- For nds-bootstrap's purposes, you can load an `.ips` file in order to circumvent said patches. This `.ips` file will be patched inside nds-bootstrap, so you can keep the ROM files intact. A pack of `.ips` files are automatically included with TWiLight Menu++
-- For Wood R4 purposes, these patches are included in the software itself. You will not need to modify the ROM itself
+- For nds-bootstrap, it can load an `.ips` file in order to circumvent said patches. This `.ips` file will be applied by nds-bootstrap in RAM so you can keep the ROM files intact. A pack of `.ips` files is included with TWiLight Menu++
+- For Wood R4, these patches are included in the software itself, you will not need to modify the ROM itself
 
-In case there isn't a `.ips` file for your ROM or your software didn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)
+If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### Cloneboot
 Cloneboot is when a game sends it's own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Though, not all games that have single-card multiplayer uses cloneboot.
@@ -26,18 +26,17 @@ Nintendo DS cartridges have 4 known save types:
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Though rare, there are DS Game Cards with NAND based saves: WarioWare DIY & Jam with the Band (USA)/Daigasso Band Brothers.
-
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you use a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
+There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have saves in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
 
 ### Assembly
-Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses. 
+Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses.
+
 You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
 
 ### Card read DMA
-Card DMA (stands for Direct Memory Access) is a more efficient way to read cartridge data than by software. When there isn't any data available, code can still execute. In software cartridge data reads, polling the register to see if there is new data wastes times. It is the preferred way of accessing data.
+DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred code can still execute, so it is the preferred way of accessing data.
 
-You can spot a game that uses DMA via no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
+You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - For example: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Action Replay cheats
@@ -56,7 +55,7 @@ Homebrew/digital-based solutions can also take advantage of the cheat databases,
    - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
    - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
 
-For the most complete cheat database, we recommend using the one made by DeadSkullzJr titled [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
+For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
 
 Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
 
@@ -65,8 +64,7 @@ Cheat codes generally have types 0 through F, and here is an (unfinished) descri
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
 ### Demonstration and Distribution Titles:
-
-Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version would be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, on the back of the title's cartridge a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, on the back of the title's cartridge a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
 
 Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
 
@@ -77,7 +75,7 @@ Example ID:
 
 
 ### Title Labels
-Looking at the bottom of the title label shows the title ID along with other bits of information, for this situation we will use the following ID as an example:
+Looking at the bottom of the title label shows the title ID along with other bits of information, for this example the following ID will be used:
 
 - NTR-NTRJ-**XXX**
 
@@ -86,12 +84,13 @@ Looking at the bottom of the title label shows the title ID along with other bit
 - AUS - Australia
 - CHN - China
 - DEN - Denmark
-- EUR - Europe (Miltilingual)
+- EUR - Europe (Multilingual)
 - EUU - Europe (Dutch or Italian Only)
 - FRA - France
 - GER - Germany
-- HOL - Netherlands -ITA - Italian
-- JPN - Japan 
+- HOL - Netherlands
+- ITA - Italian
+- JPN - Japan
 - KOR - Korea
 - NOE - Europe (German Only)
 - NOR - Norway
@@ -100,13 +99,13 @@ Looking at the bottom of the title label shows the title ID along with other bit
 - UKV - United Kingdom
 - USA - United States
 
-The last letter of the title ID itself represents the language of the title, we will use the last example as the title ID:
+The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
 
 - NTR-NTR**X**-JPN
 
 **X** represents the following:
 
-- A - World (doesn't count knowing only one thing used it)
+- A - World (doesn't count as only one thing used it)
 - C - Chinese (Simplified)
 - D - German
 - E - American English
@@ -131,13 +130,11 @@ The last letter of the title ID itself represents the language of the title, we 
 - Y - Other languages (Varies)
 - Z - Other languages (Varies)
 
-
 In terms of the system identifiers:
 
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi
 
+### DSi Enhanced:
 
-DSi Enhanced:
-
-Games with the "DSi Enhanced" functionality are present on some NTR based titles, it just means that the titles can take advantage of the DSi system in some way.
+Games with "DSi Enhanced" functionality are games that take advantage of some aspect of the DSi's hardware while still remaining compatible with the DS Phat/Lite. These games are marked as `TWL` but still say "Nintendo DS" instead of "Nintendo DSi" on the label.

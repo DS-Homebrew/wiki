@@ -43,7 +43,7 @@ Examples of what breaks this rule include:
 - For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
 - Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
 
-### 5. Keep conversations within their respective channels.
+### 5. Keep conversations within their respective channels
 
 - Even if they are related, sometimes another channel would be more suitable
    - Check the channel topics for where to ask questions or have discussion
@@ -82,7 +82,7 @@ Examples of what breaks this rule include:
 - Any account with a disturbing avatar will be kicked, if you rejoin and still have the avatar, you will be banned
 - Despite adult content being banned, users are still required to be thirteen and over in order to participate on this Discord server as per the Discord TOS
 
-### 11. Do not talk about or do actions pertaining to breaking other Discord TOS 
+### 11. Do not talk about or do actions pertaining to breaking other Discord TOS
 - [Link to Terms of Service](https://discord.com/terms)
 - [Link to community guidelines](https://discord.com/guidelines)
 - Trying to do anything that is not explicitly mentioned in our rules but is still against Discord TOS will land you a ban (e.g. raids, malware, phishing)
@@ -97,7 +97,7 @@ Examples of what breaks this rule include:
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
 - Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings 
+   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
 - Joining for the purpose of rule breaking will get you banned
 
 ## Reporting

@@ -63,7 +63,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 
 #### What systems does TWiLight Menu++ support?
 
-See [List of Systems Supported by TWiLight Menu++](/ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Why isn't touch input working on sudokuhax?
 Depending on the save file of sudokuhax, the touch screen inputs may not work.

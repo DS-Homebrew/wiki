@@ -23,6 +23,7 @@ The Markdown and file sizes sections apply to all languages, though Crowdin take
 - When something with a colon is bold or italic, the colon should be included (`**Thing:**`)
 - Indentation should be either 3 spaces (2 is weird with number lists)
    - HTML indentation should be tabs, but in a markdown file either's fine
+- Always use relative links to other pages so that it stays on the same translation
 
 ## File sizes
 Because the decimal base units for file sizes are ambiguous which they actually are, using the binary base units is generally preferred unless something is a clean size in the decimal units. (ex. 500,000 bytes = 500 kB, 512,000 bytes = 500 KiB, 294,966 bytes = (about) 288 KiB)
@@ -51,7 +52,7 @@ Decimal:
 - Plain quotes and apostrophes should be used, Jekyll will convert them to the fancy ones (`"This thing"`, not `“This thing”`)
 - When separating two single words slashes should not have a space ("Nintendo DS Phat/Lite"), when separating two phrases they should have spaces ("On the TWiLight Menu++ splash / right after the Nintendo DSi splash")
 - Unless otherwise specified, American English spellings and spelling rules should be used
-- When referring to other things on the wiki you should use like "the troubleshooting page", not "our troubleshooting page"
+- Avoid using pronouns for the wiki (ex. "the troubleshooting page", not "our troubleshooting page". "it is recommended", not "we recommend")
 
 ### Specific spellings
 - "SD card" is not a proper noun, don't capitalize "card"

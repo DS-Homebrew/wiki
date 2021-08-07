@@ -7,62 +7,62 @@ title: Special Games
 description: DS(i) Games that have special properties
 ---
 
-### List of DS games available as DSiWare
+### DS games available as DSiWare
 - Advance Wars: Days of Ruin/Dark Conflict
-     - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
-     - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Art Academy
-     - Split into First & Second Semesters
+   - Split into First & Second Semesters
 - Bejeweled Twist
-     - Some features removed
+   - Some features removed
 - Bomberman 2
-     - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
+   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-     - Download Play feature removed
-     - Icon is animated
+   - Download Play feature removed
+   - Icon is animated
 - Brain Challenge
-     - New features related to the DSi camera are added
-     - Versus mode is removed
-     - Many files are compressed for the game to fit within the DSiWare size limit
-     - Icon is animated
+   - New features related to the DSi camera are added
+   - Versus mode is removed
+   - Many files are compressed for the game to fit within the DSiWare size limit
+   - Icon is animated
 - Electroplankton
-     - Each mode are turned into DSiWare
+   - Each mode are turned into DSiWare
 - Elite Forces: Unit 77
-     - Multiplayer added
+   - Multiplayer added
 - Master of Illusion/Magic Made Fun
-     - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
-     - DSiWare version called "Need for Speed: Nitro-X"
-     - Download Play feature and various music are removed
-     - New police cars available
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
 - Nintendogs: Lab & Friends
-     - DSiWare version exclusive to China
+   - DSiWare version exclusive to China
 - Phantasy Star 0
-     - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
-     - Icon is animated
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
 - Planet Puzzle League
-     - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
-     - Multiplayer removed
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
 - Plants vs. Zombies
-     - Download Play feature, some achievements, and music video are removed
-     - Includes exclusive minigame
-     - Icon is animated
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
 - Tetris Party Deluxe
-     - DSiWare version called "Tetris Party Live"
-     - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-     - Icon is animated
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-     - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
-     - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
-          - The game engine is improved
-          - Challenge mode replaces Championship Tour of the retail game
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-     - Slot-2 features removed
+   - Slot-2 features removed
 - Zuma's Revenge!
-     - Multiplayer removed
-     - Icon is animated
+   - Multiplayer removed
+   - Icon is animated
 
-Supports WiFi (WPA 1/2 included):
+Supports Wi-Fi (WPA 1/2 included):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Tetris Party Live
@@ -126,38 +126,38 @@ Total: 39, some may be missing
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
 ### Games that can connect with GBA titles
-Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives. 
+Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
 
-- Advance Wars: Dual Strike 
-    - Advance Wars
-    - Advance Wars 2: Black Hole Rising
-- Bleach DS 
-    - Bleach Advance: Kurenai ni Somaru Soul Society
-- Castlevania Dawn of Sorrow 
-    - Castlevania Aria of Sorrow 
+- Advance Wars: Dual Strike
+   - Advance Wars
+   - Advance Wars 2: Black Hole Rising
+- Bleach DS
+   - Bleach Advance: Kurenai ni Somaru Soul Society
+- Castlevania Dawn of Sorrow
+   - Castlevania Aria of Sorrow
    - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
-- Daigasso! Band Brothers 
-    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
-- Eyeshield 21: MAX Devil Power 
-    - Eyeshield 21: Devilbats Devildays
-- Feel the Magic: XY/XX 
-    - ChuChu Rocket
-    - Puyo Pop
-    - Sonic Advance
-    - Sonic Advance 2
-    - Sonic Advance 3
-    - Sonic Battle
-    - Sonic Pinball Party
-    - Space Channel 5: Ulala's Cosmic Attack
-- Final Fantasy Tactics A2: Grimoire of the Rift 
-    - Final Fantasy Tactics Advance
-- Frogger: Helmet Chaos 
-    - Frogger's Journey: The Forgotten Relic
-    - Frogger's Adventures: Temple of the Frog
-    - Frogger's Adventures 2: The Lost Wand
-- Fullmetal Alchemist: Dual Sympathy 
-    - Hagane no Renkinjutsushi: Omoide no Sonata
-    - Hagane no Renkinjutsushi: Meisou no Rondo
+- Daigasso! Band Brothers
+   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Eyeshield 21: MAX Devil Power
+   - Eyeshield 21: Devilbats Devildays
+- Feel the Magic: XY/XX
+   - ChuChu Rocket
+   - Puyo Pop
+   - Sonic Advance
+   - Sonic Advance 2
+   - Sonic Advance 3
+   - Sonic Battle
+   - Sonic Pinball Party
+   - Space Channel 5: Ulala's Cosmic Attack
+- Final Fantasy Tactics A2: Grimoire of the Rift
+   - Final Fantasy Tactics Advance
+- Frogger: Helmet Chaos
+   - Frogger's Journey: The Forgotten Relic
+   - Frogger's Adventures: Temple of the Frog
+   - Frogger's Adventures 2: The Lost Wand
+- Fullmetal Alchemist: Dual Sympathy
+   - Hagane no Renkinjutsushi: Omoide no Sonata
+   - Hagane no Renkinjutsushi: Meisou no Rondo
 - Ganbare Goemon: Toukai Douchuu
    - Ganbare Goemon 1+2: Yuki-hime to Magginisu
 - Harvest Moon DS
@@ -212,7 +212,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver 
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
@@ -295,10 +295,10 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Motion Pack
    - Tony Hawk’s Motion
 
-### Games with Wii connectivity 
+### Games with Wii connectivity
 - Animal Crossing: Wild World -> Animal Crossing: City Folk
 - Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii) 
+- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
 - Castlevania: Order of Ecclesia -> Castlevania Judgement
 - Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
 - Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)

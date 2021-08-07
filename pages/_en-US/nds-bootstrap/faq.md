@@ -13,19 +13,19 @@ description: FAQ & Troubleshooting for nds-bootstrap
 - If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 
 #### nds-bootstrap troubleshooting
-If you get issues with using the latest version of nds-bootstrap, here's how you could troubleshoot it.
+If you get issues with using the latest version of nds-bootstrap, here's how you can troubleshoot it.
 
 1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
 2. Delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 3. It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv)
 
-If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case we had one issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one.
+If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case there has already been an issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one.
 
 Also, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1.
-There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
+There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
 #### Why use nds-bootstrap over a regular flashcard?
 - Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal cartridges

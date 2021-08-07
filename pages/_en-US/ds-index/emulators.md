@@ -7,9 +7,9 @@ title: Emulators on the DS
 description: A reference on Emulators on the DS
 ---
 
-There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into TWiLight Menu++. 
+There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into TWiLight Menu++.
 
-### List of Supported Systems by TWiLight Menu++
+### List of systems supported by TWiLight Menu++
 
 | Format                  | Loader                                           | Extensions                             | Save file                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
@@ -47,45 +47,44 @@ There are many emulators present for the DS and DSi. This page provides a compre
 
 These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
-### Other Emulators for the DS:
+### Other emulators for the DS
 
 | Format                  | Loader                                           | Extensions                             | Save file                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | Neo Geo                 | [neoDS][neods]                                   | `.neo`                                 | (unknown)                                      |
 
-### Some Notes on Specific Emulators:
+## Notes on specific emulators
+### RAM Disks
+- In order for **jEnesisDS**, **neoDS** and **SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+   - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
+   - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
 
-#### RAM Disks
-- In order for **jEnesisDS, neoDS and SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-    - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](/twilightmenu/creating-ram-disks) on how to do so
-    - The reason why we use RAM disks is because these emulators' ARM7 hooks don't work properly
-
-#### Comparison between PicoDriveTWL and jEnesisDS
-
+### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
-    + Was made for DSi
-    + Does not require nds-bootstrap RAM Disks
-        + Saving is allowed on DSi SD cards
-        + Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
-    + Supports arguments
-    - Limit is 2.5 MB on a **Flashcard**
-        + Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
-    - No sound emulation
-    - Framerate is extremely choppy
+   - Was made for DSi
+   - Does not require nds-bootstrap RAM Disks
+      - Saving is supported on DSi SD cards
+      - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
+   - Supports arguments
+   - Limit is 2.5 MB on a **Flashcard**
+      - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
+   - No sound emulation
+   - Framerate is extremely choppy
 
 - **jEnesisDS**
-    - DS Mode
-        - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
-        - Saving is unavailable for DSi SD cards
-    - Takes a while to load
-    - No argument support
-    + Limit is 3 MB on all platforms (due to roms loading in RAM)
-        - No DS Memory Pak or DSi Extended Memory support
-        + There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down.
-    + Sound Emulation
-    + Framerate is smooth
+   - DS Mode
+      - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
+      - Saving is unavailable for DSi SD cards
+   - Takes a while to load
+   - No argument support
+   - Limit is 3 MB on all platforms (due to roms loading in RAM)
+      - No DS Memory Pak or DSi Extended Memory support
+      - There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down
+   - Sound Emulation
+   - Framerate is smooth
 
 
+<!-- Links for tables -->
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
 [dstwo]: http://eng.supercard.sc
