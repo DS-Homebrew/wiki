@@ -29,7 +29,7 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 ### התקנת הטלאי ידנית לרומים של DS
 עקבו אחרי המדריך הנ"ל אם ספק האינטרנט שלכם חוסם שרתי DNS מותאמים אישית, אחרת זה מומלץ *מאוד* לעקוב אחרי המדריך מעל.
 
-- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
+- משתמשי GNU/Linux וmacOS יכולים לעקוב אחרי הוראות דומות מאוד, אבל יצטרכו להשתמש בMono
 - WfcPatcher currently doesn't support DSiWare
 
 1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)

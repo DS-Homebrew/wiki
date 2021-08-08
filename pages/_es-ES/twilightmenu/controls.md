@@ -9,10 +9,10 @@ description: Controles para usar TWiLight Menu++
 ---
 
 #### Temas de Nintendo DSi, Nintendo 3DS, SEGA Saturn y Homebrew Launcher
-- <kbd>Left</kbd>/<kbd>Right</kbd>: Select a game/app
-- <kbd class="face">A</kbd>/<kbd>START</kbd>: Launch game/app
-- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Switch pages
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
+- <kbd>Izquierda</kbd>/<kbd>Derecha</kbd>: Seleccionar juego o aplicación.
+- <kbd class="face">A</kbd>/<kbd>START</kbd>: Iniciar juego o aplicación
+- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Cambiar páginas
+- (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Arriba</kbd>/<kbd>Abajo</kbd> y luego soltar <kbd>SELECT</kbd>: Cambiar entre contenidos de la tarjeta SD y la flashcard
 - <kbd class="face">Y</kbd>: Ajustes del juego
    - <kbd class="face">X</kbd>: Trucos
       - <kbd class="face">A</kbd>: Activar truco
@@ -21,7 +21,7 @@ description: Controles para usar TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostrar descripción del truco
       - <kbd class="l">L</kbd>: Desactivar todos los trucos
 - <kbd class="face">X</kbd>: Borrar/ocultar juego
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
+- (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menú SELECT, o Menú Clásico de DS (donde se pueden acceder al menú del sistema, la configuración de TWiLight Menu++ y el modo GBA)
 
 #### Tema R4
 - <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app

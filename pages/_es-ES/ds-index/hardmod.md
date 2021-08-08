@@ -18,7 +18,7 @@ El hardmodding consiste en soldar un adaptador de tarjetas SD directamente a la 
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi/DSi XL (LL) you will need:
+Para modificar por hardware una consola Nintendo DSi/DSi XL (LL), necesitarás:
    - [Un soldador con punta de lápiz](https://www.amazon.com/dp/B01N4571Q6)
    - [Hilo muy fino](https://www.amazon.com/dp/B01MXGNTA4), 28AWG o más pequeño, preferiblemente 30AWG+
    - Adaptador SD a microSD

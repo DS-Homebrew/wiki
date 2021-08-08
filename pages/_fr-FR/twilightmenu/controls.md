@@ -41,7 +41,7 @@ Celles-ci ne s'appliquent pas à DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> pendant 3 secondes : Copier la RAM vers `sd:/_nds/nds-bootstrap`, comme `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Bas</kbd> + <kbd class="face">B</kbd> pendant 2 secondes : Retour dans TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Bas</kbd> + <kbd>SELECT</kbd>: Ouvrir le menu en jeu
-   - RAM Viewer
+   - Visionneuse de RAM
       - <kbd>Up</kbd>/<kbd>Down</kbd>: Défilement
       - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Défilement rapide
       - <kbd class="face">A</kbd>: Entrer dans l'éditeur de RAM
@@ -49,7 +49,7 @@ Celles-ci ne s'appliquent pas à DSiWare.
       - <kbd class="face">Y</kbd>: Spécifiez une adresse à laquelle aller
         - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmenter/Diminuer la valeur sélectionnée
         - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez une valeur
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Retourner à la RAM Viewer/Editor à l'adresse spécifiée
    - Éditeur de RAM
       - <kbd>Haut</kbd> / <kbd>Bas</kbd> / <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionner une valeur
       - <kbd class="face">A</kbd>: Modifier la valeur sélectionnée
