@@ -7,7 +7,7 @@ description: Kompatibilitási lista és tippek a játékok teszteléséhez
 ---
 
 ### Kompatibilitási lista
-A tesztelt játékok megtekinthetők [itt](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Ha szeretnél közreműködni, nyomj a `view only`-ra majd a `request edit access`-re.
+A tesztelt játékok megtekintéséhez nyisd meg a [kompatibilitás listát](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Ha szeretnél közreműködni, nyomj a `View only`-ra majd a `Request edit access`-re.
 
 ### Tippek a játékok teszteléséhez
 - Keress képernyő villogást, vagy hang problémákat

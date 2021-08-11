@@ -18,7 +18,7 @@ Le Hardmodding est quand vous soudez physiquement la carte mère de la Nintendo 
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi/DSi XL (LL) you will need:
+Pour hardmod une Nintendo DSi/DSi XL (LL), vous aurez besoin de :
    - [Fer à souder à pointe fine](https://www.amazon.com/dp/B01N4571Q6)
    - [Fil très fin](https://www.amazon.com/dp/B01MXGNTA4), 28AWG ou plus petit, de préférence 30AWG+
    - Adaptateur SD vers microSD
@@ -47,7 +47,7 @@ To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - **ATTENTION** - Windows vous demandera de le formater : **NE PAS le formater** - cela pourrait causer des dommages irréparables
 
 #### Suppression du pied de page no$gba
-Vous devrez d'abord retirer le pied de page NOCASH de la sauvegarde que vous flashez sur la DSi. Cela peut être fait en exécutant l'application d'aide hiyaCFW trouvée [ici](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+Vous devrez d'abord retirer le pied de page NOCASH de la sauvegarde que vous flashez sur la DSi. Cela peut être fait en utilisant le [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Téléchargez la version pour le système d'exploitation que vous utilisez
 1. Exécutez le script, sélectionnez la sauvegarde de la NAND que vous souhaitez installer sur votre DSi
@@ -65,7 +65,7 @@ Vous devrez d'abord retirer le pied de page NOCASH de la sauvegarde que vous fla
 1. Ouvrez HxD et faites glisser les deux fichiers dans l'éditeur. Allez dans la barre du haut, cliquez sur "Analyse", cliquez sur "Comparaison de fichiers" dans le menu déroulant, puis cliquez sur "Comparer".
 1. Choisissez de comparer les deux fichiers, puis cliquez sur OK lorsque vous avez terminé
    - Si cela dit "Les fichiers choisis sont identiques", vous pouvez aller à la section suivante
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
+   - Si ce n'est pas le cas, et que les deux NAND ne sont pas autour de 240 Mo, refaite un dump de NAND_1/NAND_0 à nouveau
 1. Ouvrez Win32DiskImager, cliquez sur l'icône de dossier et choisissez votre sauvegarde NAND existante que vous avez créée avant
 1. Flasher le avec le bouton `Write`
 1. Débranchez l'adaptateur de carte SD et essayez d'allumer la DSi

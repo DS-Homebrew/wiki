@@ -62,60 +62,10 @@ No, questo non è un emulatore. Il menu e i giochi DS (caricati tramite nds-boot
 
 #### Quali sistemi supporta TWiLight Menu++?
 
-| Formato                 | Caricatore                                       | Estensioni                             | File di salvataggio                            |
-| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
-| ARGV[^1]                | Native                                           | `.argv`                                |                                                |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
-| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
-| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
-| DS                      | [nds-bootstrap][ndsbs], kernel flashcard, nativo | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nome della rom].sav`[^2]               |
-| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
-| DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
-| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[nome della rom].sav`                         |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], nativo[^5]         | `.agb`, `.gba`, `.mb`                  | `[nome della rom].sav`                         |
-| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[nome della rom].gg.sav`                      |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[nome della rom].srm`[^6]                     |
-| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[nome della rom].sms.sav`                     |
-| Video MPEG4             | [MPEG4 Player][mpeg4player]                      | `.mp4`                                 |                                                |
-| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[nome della rom].sav`                         |
-| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
-| Video RVID              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
-| SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[nome della rom].srm`[^8]                     |
-{:.table}
-
-- Footnotes -
-{:footnotes}
+See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Perché l'input touch non funziona su sudokuhax?
-A seconda del file di salvataggio di sudokuhax, gli input sul touch screen potrebbero non funzionare.
+Depending on the save file of sudokuhax, the touch screen inputs may not work.
 
 #### Può The Biggest Loser avviare TWiLight Menu++?
-No. Poiché The Biggest Loser è un gioco Slot-1, e non un gioco DSiWare, l'accesso alla SD è disabilitato quando si eseguono schede Slot-1.
-
-[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
-[^2]: Only for retail ROMs, homebrew do not have specific save files
-[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the cartridge
-[^4]: When running in DSi Mode, it can use the DSP for better sound
-[^5]: Requires a Slot-2 flashcard and thus only works on DS Phat and DS Lite
-[^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^7]: Only shown when using a flashcard, 3DS's internal SD card, or DSi with Unlaunch installed
-[^8]: Can only save when running from a flashcard
-
-[a5200ds]: https://github.com/wavemotion-dave/A5200DS
-[a7800ds]: https://github.com/wavemotion-dave/A7800DS
-[dstwo]: http://eng.supercard.sc
-[gameyob]: https://github.com/Drenn1/GameYob
-[gbarunner2]: https://github.com/Gericom/GBARunner2
-[jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
-[mpeg4player]: https://gbatemp.net/threads/544095
-[ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nesds]: https://github.com/DS-Homebrew/NesDS
-[nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
-[pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
-[rvidplayer]: https://gbatemp.net/threads/539163
-[s8ds]: https://www.gamebrew.org/wiki/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
-[stellads]: https://github.com/wavemotion-dave/StellaDS
-[unlaunch]: https://problemkaputt.de/unlaunch.htm
-[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
+No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.

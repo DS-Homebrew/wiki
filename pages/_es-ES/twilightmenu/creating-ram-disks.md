@@ -10,7 +10,7 @@ description: Cómo crear discos RAM para usar homebrew antiguo con TWiLight Menu
 No necesitas seguir esto si estás usando una flashcard.
 {:.alert .alert-info}
 
-Para hacer un disco RAM, descarga [esto](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (pincha en `Download Software`), y sigue las instrucciones a continuación.
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instrucciones por @Dakkon7, modificadas por RocketRobz:
 

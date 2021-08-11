@@ -10,7 +10,7 @@ description: How to create RAM disks for using old DS homebrew with TWiLight Men
 You do not need to follow this if you're using a flashcard.
 {:.alert .alert-info}
 
-To make a RAM disk, download [this](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) tool (click `Download Software`), and follow the instructions below.
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instructions by @Dakkon7, modified by RocketRobz:
 

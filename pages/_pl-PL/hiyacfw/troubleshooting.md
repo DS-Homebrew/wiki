@@ -7,10 +7,10 @@ category: other
 description: Informacje o rozwiązywaniu problemów dla hiyaCFW
 ---
 
-## #-2435-8325
+### #-2435-8325
 Jeśli twoje Nintendo DSi pokazuje błąd w tym formacie podczas uruchamiania, z # będącym liczbą, oznacza to, że bootstage 2 myśli, że coś jest nie tak z SDNAND. Usterka ta zazwyczaj znika przy [reinstalacji hiyaCFW](installing-hiyacfw).
 
-## "Wystąpił błąd"
+### "An error has occurred"
 Kiedy Menu Nintendo DSi wykrywa problem to zazwyczaj pokazuje ten komunikat o błędzie, przyczynami mogą być:
 
 #### Błąd wolnego miejsca

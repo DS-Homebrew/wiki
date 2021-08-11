@@ -7,7 +7,10 @@ title: Fondos de Unlaunch personalizados
 description: Cómo hacer fondos para Unlaunch personalizados e instalarlos con TWiLight Menu++
 ---
 
-Con TWiLight Menu++ puedes parchear el instalador de Unlaunch para tener una imagen de fondo personalizada. Tiene que ser un GIF de 256x192, con algunas restricciones:
+You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+{:.alert .alert-info}
+
+Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
 - Solo se puede mostrar el primer frame, no fondos animados
 - El archivo debe tener un tamaño máximo de 15,472 bytes
 - GIFs con más de 31 colores necesitan paletas especiales para evitar romper el texto
@@ -21,7 +24,7 @@ Con TWiLight Menu++ puedes parchear el instalador de Unlaunch para tener una ima
 1. Selecciona `Install Now`
 
 ### Usar GIFs con más de 31 colores
-Al cargarse la paleta del GIF en el mismo sitio de la VRAM que la paleta de los textos la sobreescribirá si es muy grande, pero se puede ajustar para incluir la paleta de los textos en la del propio GIF. Usando esto con otros colores también te permitirá tener distintos colores para los textos, si es lo que quieres. Estas instrucciones son para [GIMP](https://gimp.org), pero cualquier editor de imágenes capaz de reorganizar la paleta de una imagen también servirá.
+As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
 1. Abre la imagen en GIMP y asegúrate que es de 256x192 píxeles
 1. En la barra superior del menú, selecciona `Image` -> `Mode` -> `Indexed...`
 1. Selecciona `Generate optimum palette` y pon como colores máximos cualquier cantidad hasta 226
@@ -39,9 +42,9 @@ Al cargarse la paleta del GIF en el mismo sitio de la VRAM que la paleta de los 
 1. Guarda el GIF optimizado y ábrelo en GIMP
 1. En la barra superior del menú, selecciona `Windows` -> `Dockable Dialogs` -> `Colormap`
 1. Cambia `Foreground color` a #080808 y añade 14 colores nuevos con el botón `+`
-    - Si la imagen no tiene como mínimo 133 tendrás que añadir colores de relleno para poner los colores de los textos en sus posiciones correctas
+    - If your image doesn't have at least 133 colors you will need to keep adding colors until the last is index 146
 1. Haz click derecho en Colormap y selecciona `Rearrange Colormap...`
-1. Organiza los nuevos colores para que cuadren con estos: (la segunda y tercera columna a partir del índice 49)<br> ![Paleta con los colores correctos de los textos](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br> ![Paleta con los colores correctos de los textos](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
 1. Usa el selector de colores para hacer que los nuevos cuadren con los de la imagen de arriba
 1. En la barra superior del menú, selecciona `File` -> `Export As...`, dale un nombre con extensión `.gif`, y pincha `Export`
 1. En la siguiente ventana, comprueba que `GIF comment` está desactivado y pincha en `Export`

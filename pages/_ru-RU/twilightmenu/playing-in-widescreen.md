@@ -33,5 +33,5 @@ description: Как использовать TWiLight Menu++ в широкоэк
 
 **ПРИМЕЧАНИЕ:**
 1. Не удерживайте <kbd>START</kbd> или <kbd>SELECT</kbd> при запуске TWLMenu++, иначе изображение заглючит
-1. Не каждая игра совместима с широкоформатным патчем. [Мы создали список игр с поддержкой широкоформатного режима](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Не каждая игра совместима с широкоформатным патчем. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. Если полноэкранный режим "застрял" везде в TWL_FIRM (включая пользовательский интерфейс TWLMenu++) после следования данному руководству и запуска совместимой с патчем игры, удалите `TwlBg.cxi` в `sd:/luma/sysmodules/`, также [удалите](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) и [переустановите](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++. После повторите гайд выше

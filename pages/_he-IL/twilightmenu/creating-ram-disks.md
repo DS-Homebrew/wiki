@@ -10,7 +10,7 @@ description: כיצד ליצור RAM disks על מנת להשתמש בהומבר
 אתם לא צריכים לעקוב אחרי מדריך זה אם אתם משתמשים בפלאשקארט.
 {:.alert .alert-info}
 
-על מנת ליצור RAM Disk, הורידו את הכלי ה[זה](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (לחצו על `Download Software`) ועקבו אחר ההוראות מטה.
+על מנת ליצור RAM Disk, הורידו את [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (לחצו על `Download Software`) ועקבו אחר ההוראות מטה.
 
 ההוראות נכתבו על ידי @Dakkon7, ונערכו על ידי RocketRobz:
 

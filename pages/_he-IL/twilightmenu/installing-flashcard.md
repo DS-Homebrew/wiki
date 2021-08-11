@@ -38,7 +38,7 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - R4xDS
    - DSTT(i)
 
-   התקינו את YSMenu מ[כאן](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   התקינו את [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - וודאו שיש לכם את `YSMenu.nds` (עבר שינוי שם מ`TTMenu.dat` אם אין את הקובץ) ואת התיקייה `TTMenu` בכרטיס המיקרו SD של הפלאשקארט
 1. הגדירו את `Use nds-bootstrap` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
 

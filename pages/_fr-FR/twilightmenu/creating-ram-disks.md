@@ -10,11 +10,11 @@ description: Comment créer des disques en RAM pour utiliser les anciens homebre
 Vous n'avez pas besoin de suivre cela si vous utilisez un linker.
 {:.alert .alert-info}
 
-Pour créer un disque de RAM, téléchargez [cet outil](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (cliquez sur `Download Software`), et suivez les instructions ci-dessous.
+Pour créer un disque RAM, téléchargez [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (cliquez sur `Download Software`), et suivez les instructions ci-dessous.
 
-Instructions par @Dakkon7, modifié par RocketRobz:
+Instructions par @Dakkon7, modifiées par RocketRobz :
 
-1. Run RAMDisk
+1. Lancez RAMDisk
 1. Cliquez sur **View** -> **Advanced**
 1. Pour **Disk Size**, tapez `12` pour DSi, ou `28` pour 3DS, au-dessus de **Max 1023 Mo**
 1. Dé-marquer **Create TEMP Directory**, s'il est déjà marqué

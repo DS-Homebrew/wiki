@@ -10,7 +10,7 @@ description: TWiLight Menu++가 설치된 오래된 버전의 DS Homebrew를 이
 Flashcard를 사용중이라면 하지 않아도 됩니다.
 {:.alert .alert-info}
 
-RAM 디스크를 만들기 위해, [이 도구](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)를 받아주세요.(`Download Software`를 클릭하세요.)
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 설명: @Dakkon7, 수정: RocketRobz:
 

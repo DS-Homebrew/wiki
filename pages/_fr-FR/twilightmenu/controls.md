@@ -56,11 +56,11 @@ Celles-ci ne s'appliquent pas à DSiWare.
          - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmentez / Diminuez la valeur de 1h
          - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Augmenter / Diminuer la valeur de 10h
          - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Terminer la modification de la valeur
-      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">B</kbd>: Retourner à la visionneuse de RAM
       - <kbd class="face">Y</kbd>: Spécifiez une adresse à laquelle aller
         - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmenter/Diminuer la valeur sélectionnée
         - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez une valeur
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Retourner à la visionneuse ou l'éditeur de RAM à l'adresse spécifiée
 - Le menu en jeu n'est pas accessible dans les jeux DSi Enhanced/Exclusive en mode DSi, donc essayer d'utiliser le combo de boutons dans ces parties va à la place quitter le jeu
 - Seul le combo de boutons d'échange d'écran fonctionnera en mode B4DS, les autres ne fonctionneront pas
 - Retourner sur TWiLight Menu++ peut ne pas fonctionner sur certains modèles O3DS

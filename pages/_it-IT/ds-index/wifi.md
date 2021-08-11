@@ -30,9 +30,9 @@ Ci sono guide per la creazione di un hotspot compatibile con DS su computer macO
 Segui la guida qui sotto nel caso in cui il tuo ISP blocchi i server DNS personalizzati, altrimenti è *fortemente* consigliato di seguire la guida qui sopra.
 
 - Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
-- WfcPatcher currently doesn't support DSiWare
+- WfcPatcher attualmente non supporta i DSiWare
 
-1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Scarica [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
 1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
 1. Crea un file di testo
 1. Nel file, inserisci `wfcpatcher.exe %1 --domain wiimmfi.de` e salva il file di testo con il nome `patch.bat` e chiudi la finestra

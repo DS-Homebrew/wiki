@@ -6,7 +6,7 @@ title: GBARunner2
 description: Informacje na temat korzystania z GBARunner2
 ---
 
-GBARunner2 to hipernadzorca [otwartego źródła](https://github.com/Gericom/GBARunner2), który uruchamia gry GBA na DS/DSi/3DS w trybie DS. Zasadniczo, tak jak [Nintendont](https://github.com/FIX94/Nintendont) uruchamia gry GameCube na Wii.
+GBARunner2 to hipernadzorca [otwartego źródła](https://github.com/Gericom/GBARunner2), który uruchamia gry GBA na DS/DSi/3DS w trybie DS. It runs similar to [Nintendont](https://github.com/FIX94/Nintendont) does for running GameCube games on Wii.
 
 Oprócz tego, co oferuje ta wiki, listy kompatybilności GBARunnera zawierają wiele przydatnych informacji:
 - [Flashcard DS](https://wiki.gbatemp.net/wiki/GBARunner2)

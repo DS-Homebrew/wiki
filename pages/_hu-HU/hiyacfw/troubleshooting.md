@@ -7,10 +7,10 @@ category: other
 description: Hibaelhárítási információ a hiyaCFW-hez
 ---
 
-## #-2435-8325
+### #-2435-8325
 Ha a Nintendo DSi bootoláskor egy ilyen formátumú hibát mutat a # helyén egy számmal, akkor az az jelenti, hogy a második boot fázisban valami probléma van az SDNAND-oddal. Ezt általában javítja a [hiyaCFW újratelepítése](installing-hiyacfw).
 
-## "An error has occurred"
+### "An error has occurred"
 Ha a Nintendo DSi Menü porblémát észlel általában azt az általános hibaüzenetet adja, aminek az okai lehetnek:
 
 #### Szabad hely hiba

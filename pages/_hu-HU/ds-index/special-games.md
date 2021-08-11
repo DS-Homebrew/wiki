@@ -1,0 +1,311 @@
+---
+lang: hu-HU
+layout: wiki
+section: ds-index
+category: reference
+title: Különleges játékok
+description: Különleges tulajdonságokkal rendelkező DS(i) játékok
+---
+
+### DS játékok, amik elérhetők DSiWare-ként
+- Advance Wars: Days of Ruin/Dark Conflict
+   - A DSiWare verzió a Japan régió számára exkluzív, mint "Famicom Wars DS: Ushinawareta Hikari"
+   - Egy patch ami a japán fájlokat kicseréli az angol verziókkal elérhető [itt](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Art Academy
+   - Felbontásra került Első & Második szemeszterre
+- Bejeweled Twist
+   - Néhány funkció eltávolítva
+- Bomberman 2
+   - A többjátékos funkció külön címként jelent meg "Bomberman Blitz" néven
+- Bookworm
+   - Download Play funkció eltávolítva
+   - Az ikon animált
+- Brain Challenge
+   - Új a DSi kamerához kapcsolódó funkciók kerültek hozzáadásra
+   - A Versus mód eltávolítva
+   - Sok fájl tömörítésre került, hogy a játék beférjen a DSiWare méret korlátba
+   - Az ikon animált
+- Electroplankton
+   - Minden mód DSiWare-é vált
+- Elite Forces: Unit 77
+   - Többjátékos mód hozzáadva
+- Master of Illusion/Magic Made Fun
+   - A DSiWare verzió neve "Master of Illusion Express" (USA), vagy "A Little Bit of... Magic Made Fun" (Europe)
+- Need for Speed: Nitro
+   - A DSiWare verzió neve "Need for Speed: Nitro-X"
+   - Download Play funkció és néhány zene eltávolítva
+   - Új rendőrautók érhetők el
+- Nintendogs: Lab & Friends
+   - A DSiWare verzió China régió számára exkluzív
+- Phantasy Star 0
+   - Egy demo(?) verziója az eredeti játéknak "Phantasy Star 0 Mini" néven a Japan régió számára exluzív
+   - Az ikon animált
+- Planet Puzzle League
+   - A DSiWare verzió neve "Puzzle League Express" (USA), vagy "A Little Bit of... Puzzle League" (Europe)
+   - A többjátékos mód eltávolítva
+- Plants vs. Zombies
+   - A Download Play funkció, néhány trófea és zene videó eltávolítva
+   - Exkluzív minijátékot tartalmaz
+   - Az ikon animált
+- Tetris Party Deluxe
+   - A DSiWare verzió neve "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode játékmódok eltávolítva
+   - Az ikon animált
+- True Swing Golf/Nintendo Touch Golf
+   - A DSiWare verzió neve "True Swing Golf Express" (USA), vagy "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - A játék DSiWare verziója nem tartalmaz Wi-Fi funkciükat, mint például a Local/Download Play vagy a játékbani PictoChat funkció. Továbbá kevesebb pályát tartalmaz, mint a dobozos verzió
+      - A játékmotor feljavított
+      - A Challenge mód van dobozos játék Championship Tour módja helyett
+- WarioWare: Touched!
+   - Slot-2 funkciók eltávolítva
+- Zuma's Revenge!
+   - A többjátékos mód eltávolítva
+   - Az ikon animált
+
+Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
+- Bomberman Blitz
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Tetris Party Live
+
+### Játékok, amik SDK upgrade-et kaptak
+- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
+- Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
+- Giana Sisters DS: SDK4 -> SDK5 in USA
+- Inazuma Eleven: SDK4 -> SDK5 in Europe
+- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
+- Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea
+- Nintendogs: Lab and Friends: SDK2 -> SDK5 (as DSiWare)
+- Phineas and Ferb: SDK4 -> SDK5 in Europe (as a DSi-Enhanced title)
+- Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
+- Pokémon Dash: SDK2 -> SDK3 in Korea
+- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
+- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
+- Sonic Rush Adventure: SDK3 -> SDK4 in Korea
+- WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
+
+### DSi-Enhanced játékok, amik nem használnak overlay-eket
+Összesen: 39, néhány még hiányozhat
+- 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
+- Are You Smarter than a 5th Grader: Back to School
+- Assassin's Creed II: Discovery
+- Bejeweled Twist
+- The Biggest Loser
+- Bratz Fashion Boutique
+- de Blob 2
+- Dolphin Island: Underwater Adventures
+- Fancy Nancy: Tea Party Time!
+- Grease: The Official Video Game
+- iCarly
+- Imagine: Animal Doctor Care Center
+- Imagine: Babyz Fashion
+- Imagine: Champion Rider
+- Imagine: Fashion Designer - World Tour
+- Imagine: Fashion Stylist/Fashion Paradise
+- Imagine: Gymnast
+- Imagine: Journalist
+- Imagine: Reporter
+- Imagine: Rescue Vet
+- Imagine: Resort Owner/Dream Resort
+- Jam Sessions 2
+- Just Sing!
+- Just Sing! Vol. 2
+- Just Sing! Vol. 3
+- Kung Fu Panda 2
+- The Last Airbender
+- Monster High: Ghoul Spirit
+- Penguins of Madagascar
+- Penguins of Madagascar: Dr. Blowhole Returns Again!
+- Petz: Dolphinz Encounter
+- Pictionary
+- Popstars
+- Rio
+- Scripps Spelling Bee
+- Sonic Classic Collection
+- Women's Murder Club: Games of Passion
+- You Don't Know Jack
+- Zhu Zhu Pets 2: Featuring The Wild Bunch
+
+### Játékok, amik csatlakozni tudnak GBA címekhez
+Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehetséges alternatívát.
+
+- Advance Wars: Dual Strike
+   - Advance Wars
+   - Advance Wars 2: Black Hole Rising
+- Bleach DS
+   - Bleach Advance: Kurenai ni Somaru Soul Society
+- Castlevania Dawn of Sorrow
+   - Castlevania Aria of Sorrow
+   - Használj [csalásokat](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) bizonyos tárgyak megszerzéséhez
+- Daigasso! Band Brothers
+   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Eyeshield 21: MAX Devil Power
+   - Eyeshield 21: Devilbats Devildays
+- Feel the Magic: XY/XX
+   - ChuChu Rocket
+   - Puyo Pop
+   - Sonic Advance
+   - Sonic Advance 2
+   - Sonic Advance 3
+   - Sonic Battle
+   - Sonic Pinball Party
+   - Space Channel 5: Ulala's Cosmic Attack
+- Final Fantasy Tactics A2: Grimoire of the Rift
+   - Final Fantasy Tactics Advance
+- Frogger: Helmet Chaos
+   - Frogger's Journey: The Forgotten Relic
+   - Frogger's Adventures: Temple of the Frog
+   - Frogger's Adventures 2: The Lost Wand
+- Fullmetal Alchemist: Dual Sympathy
+   - Hagane no Renkinjutsushi: Omoide no Sonata
+   - Hagane no Renkinjutsushi: Meisou no Rondo
+- Ganbare Goemon: Toukai Douchuu
+   - Ganbare Goemon 1+2: Yuki-hime to Magginisu
+- Harvest Moon DS
+   - Harvest Moon: Friends of Mineral Town
+   - Harvest Moon: More Friends of Mineral Town
+- Kim Possible: Kimmunicator
+   - Disney's Kim Possible: Revenge of Monkey Fist
+   - Disney's Kim Possible 2: Drakken's Demise
+   - Disney's Kim Possible 3: Team Possible
+- Kirby: Canvas Curse
+   - Kirby: Nightmare in Dream Land
+   - Kirby and the Amazing Mirror
+- Knights in the Nightmare
+   - Yggdra Union: We'll Never Fight Alone
+- Lunar Knights
+   - Boktai: The Sun is in Your Hand
+   - Boktai 2: Solar Boy Django
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+- Madden NFL 06
+   - Madden NFL 06
+   - Madden NFL 2005
+- MegaMan Battle Network 5: Double Team DS
+   - Mega Man Battle Network
+   - MegaMan Battle Network 2
+   - MegaMan Battle Network 3 White/Blue
+   - MegaMan Battle Network 4 Red Sun/Blue Moon
+   - Rockman EXE 4.5 Real Operation (Japan only)
+   - MegaMan Battle Network 5 Team ProtoMan/Colonel
+   - Boktai: The Sun is in Your Hand
+   - Boktai 2: Solar Boy Django
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+- Mega Man Star Force Pegasus/Leo/Dragon
+   - Mega Man Battle Network
+   - Mega Man Battle Network 2
+   - Mega Man Battle Network 3 White/Blue
+   - Mega Man Battle Chip Challenge
+   - Mega Man Battle Network 4 Red Sun/Blue Moon
+   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Mega Man Battle Network 5 Team ProtoMan/Colonel
+   - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
+- Mega Man ZX
+   - Mega Man Zero 3
+   - Mega Man Zero 4
+   - Használd ezt a [Slot-2 Patch-et](https://www.romhacking.net/hacks/4649/) az Area N tartalmának eléréséhez
+- Phoenix Wright: Ace Attorney
+   - Gyakuten Saiban
+- Phoenix Wright: Justice for All
+   - Gyakuten Saiban 2
+- Phoenix Wright: Trials and Tribulations
+   - Gyakuten Saiban 3
+- Pokémon Dash
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+   - (Használd a [pkmn-chest](https://universal-team.net/projects/pkmn-chest) vagy [PKSM](https://flagbrew.org/projects/PKSM) programokat Pokémon átviteléhez vagy hozzáadásához)
+- Pokémon Mystery Dungeon: Blue Rescue Team
+   - Pokémon Mystery Dungeon: Red Rescue Team
+- Shrek Super Slam
+   - Shrek Super Slam
+- Spider-Man 2
+   - Spider-Man: Mysterio's Menace
+- Super Robot Wars W
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
+   - Super Robot Taisen: Original Generation
+   - Super Robot Taisen: Original Generation 2
+   - Dai-2-Ji Super Robot Taisen Famicom Mini
+- Super Robot Wars K
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
+   - Super Robot Taisen: Original Generation
+   - Super Robot Taisen: Original Generation 2
+   - Dai-2-Ji Super Robot Taisen Famicom Mini
+- The Rub Rabbits
+   - ChuChu Rocket
+   - Puyo Pop
+   - Sonic Advance
+   - Sonic Advance 2
+   - Sonic Advance 3
+   - Sonic Battle
+- The Sims 2 (DS)
+   - The Sims 2 (GBA)
+- WarioWare: Touched! -WarioWare: Twisted!
+- Yoshi Touch & Go
+   - Yoshi's Island: Super Mario Advance 3
+- Yu-Gi-Oh! Nightmare Troubadour
+   - Yu-Gi-Oh! GX Duel Academy
+
+### Játékok, amik GBA kiegészítőket (Pak) használnak
+- Memory Expansion Pak
+   - Nintendo DS Browser
+- Rumble Pak
+   - Clubhouse Games
+   - Custom Robo Arena
+   - Diddy Kong Racing DS
+   - Elite Beat Agents
+   - Ferrari Challenge
+   - GRID
+   - Hotel Dusk: Room 215
+   - Iron Man
+   - Juiced 2: Hot Import Nights
+   - Last Window: The Secret of Cape West
+   - Legend of Spyro: A New Beginning
+   - Magnetica
+   - Mahjong Fight Club DS - Wi-Fi Taiou
+   - Mario & Luigi: Partners in Time
+   - Metroid Prime Pinball
+   - Metroid Prime: Hunters
+   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae!
+   - Need for Speed Nitro
+   - Orcs and Elves
+   - Picross DS
+   - Power Pro Kun Pocket 9
+   - Power Pro Kun Pocket 10
+   - Puyo Puyo! 15th Anniversary
+   - Race Driver: Create and Race
+   - Sega Superstars Tennis
+   - Sonic & SEGA All Stars Racing
+   - Space Invaders Extreme
+   - Star Fox Command
+   - Star Trek: Tactical Assault
+   - Super Princess Peach
+   - Tomb Raider: Underworld
+   - Wario: Master of Disguise
+   - WWE SmackDown vs. Raw 2008
+- Motion Pack
+   - Tony Hawk’s Motion
+
+### Játékok Wii kapcsolódással
+- Animal Crossing: Wild World -> Animal Crossing: City Folk
+- Band Hero -> Guitar Hero
+- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia -> Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
+- Jam with the Band -> Live Channel
+- My Word Coach -> My Word Coach (Wii)
+- Pokemon Diamond/Pearl -> My Pokemon Ranch
+- Pokemon Platinum -> My Pokemon Ranch (Japan Only)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
+- Personal Trainer: Walking -> Mii Channel
+- Ultimate Band -> Ultimate Band (Wii)
+- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase

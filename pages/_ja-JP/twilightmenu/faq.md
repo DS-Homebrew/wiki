@@ -62,60 +62,10 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 
 #### TWiLight Menu++はどのシステムに対応ですか？
 
-| 形式                   | ローダー                                         | 拡張子                                    | セーブファイル                                    |
-| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------------------ |
-| ARGV[^1]             | ネイティブ                                        | `.argv`                                |                                            |
-| Atari 2600           | [StellaDS][stellads]                         | `.a26`                                 |                                            |
-| Atari 5200           | [A5200DS][a5200ds]                           | `.a52`                                 |                                            |
-| Atari 7800           | [A7800DS][a7800ds]                           | `.a78`                                 |                                            |
-| Atari XEGS           | [XEGS-DS][xegs-ds]                           | `.xex`, `.atr`                         |                                            |
-| DS                   | [nds-bootstrap][ndsbs], フラッシュカードのカーネル, ネイティブ | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].sav`[^2]                   |
-| DSiウェア               | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs] | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].pub`, `saves/[ROMの名前].prv` |
-| DSTWOプラグイン           | [DSTWO][dstwo][^3]                           | `.plg`                                 |                                            |
-| ゲームボーイ（カラー）          | [GameYob][gameyob]                           | `.gb`, `.sgb`, `.gbc`                  | `[ROMの名前].sav`                             |
-| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                             |
-| ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`                          |
-| メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]                         |
-| マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`                         |
-| MPEG4ビデオ             | [MPEG4 Player][mpeg4player]                  | `.mp4`                                 |                                            |
-| ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                             |
-| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                     | `.pce`                                 |                                            |
-| RVIDビデオ              | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                            |
-| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`[^8]                         |
-{:.table}
-
-- Footnotes -
-{:footnotes}
+[TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
 #### sudokuhaxからタッチ入力がうまくいかないのはなぜですか？
 sudokuhaxのセーブファイルによっては、タッチ画面の入力が動作しない場合があります。
 
 #### The Biggest LoserはTWiLight Menu++を起動できますか？
 いいえ。 The Biggest LoserはSlot-1ゲームです、DSiウェアではない、Slot-1カードを実行する時にSDアクセスが無効になります。
-
-[^1]: DSの自作アプリへのパスとそれを起動する引数を含むテキストファイルです。詳細については、[nds-hb-menuのREADME](https://github.com/devkitPro/nds-hb-menu#passing-arguments)を参照してください
-[^2]: 小売ROMのみ、自作ソフトには特定のセーブファイルがありません
-[^3]: 追加の処理能力とRAMがカートリッジ内にあるため、SuperCard DSTWOフラッシュカードでのみ機能します
-[^4]: DSiモードで実行している場合は、DSPを使って良いサウンドを得ることができます
-[^5]: Slot-2フラッシュカードが必要なのでオリジナルのDSとDS Liteでのみ機能します
-[^6]: jEnesisはフラッシュカードから実行している時にのみ保存できますが、PicoDriveTWLはSDカードとフラッシュカードから保存できます
-[^7]: フラッシュカード、3DSの内部のSDカードまたはUnlaunchがインストール済みのDSiを使っている場合にのみ表示されます
-[^8]: フラッシュカードから実行している時にのみ保存できます
-
-[a5200ds]: https://github.com/wavemotion-dave/A5200DS
-[a7800ds]: https://github.com/wavemotion-dave/A7800DS
-[dstwo]: http://eng.supercard.sc
-[gameyob]: https://github.com/Drenn1/GameYob
-[gbarunner2]: https://github.com/Gericom/GBARunner2
-[jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
-[mpeg4player]: https://gbatemp.net/threads/544095
-[ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nesds]: https://github.com/DS-Homebrew/NesDS
-[nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
-[pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
-[rvidplayer]: https://gbatemp.net/threads/539163
-[s8ds]: https://www.gamebrew.org/wiki/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
-[stellads]: https://github.com/wavemotion-dave/StellaDS
-[unlaunch]: https://problemkaputt.de/unlaunch.htm
-[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

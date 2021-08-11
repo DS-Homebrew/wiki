@@ -5,6 +5,8 @@ title: TWiLight Menu++
 description: Wskazówki dotyczące używania i dostosowywania TWiLight Menu++
 ---
 
-[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) jest otwartym źródłem oraz ulepszeniem/ zamiennikiem, i frontendem dla nds-bootstrap, DSi, 3DS, i kart flash.
+![TWiLight Menu++ logo](https://github.com/DS-Homebrew/TWiLightMenu/raw/master/logo.png)
 
-By się dowiedzieć jak to zainstalować, kliknij na stronę w pasku bocznym odpowiadającą Twojej konsoli w sekcji "Instalacja".
+[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) is an open-source menu to launch a variety of different applications, making it perfect for a replacement menu. With themes, skins, folders and other features, this is the all-in-one menu for the Nintendo DS and Nintendo 3DS family of systems.
+
+For info on how to install, click on the page in the sidebar for your console in the Installing section.

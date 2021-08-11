@@ -7,97 +7,126 @@ title: DS⁽ⁱ⁾ Mode Hacking Info
 description: Információk a DS⁽ⁱ⁾ Mode Hacking Discord szerverről
 ---
 
-### Köszöntünk a <u>DS⁽ⁱ⁾ Mode Hacking</u> szerveren!
-
-Specializálódtunk, minden a Nintendo DS(i) moddoláshoz és homebrew-hoz kapcsolódó dologra. Néhány példa arra, hogy miben tudunk segíteni neked ezen a szerveren:
-
-- A legjobb kernel beállítása a flashcardodhoz
-- Egyéni Firmware (CFW) telepítése a Nintendo DSi-dre
-- Segítség a TWL_FIRM módosításában a Nintendo 3DS-eden (ami lehetővé teszi a széles képernyő használatát, a képernyő filteezés módosítását más egyebek mellett)
-
-Ezen kívül más dolgokra is fókuszálunk, mint a ROM hackek készítése, homebrew fejlesztése és általános csevegés.
+This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. We also focus on other things such as creating ROM hacks, playing DS games, and TWL_FIRM modding on 3DS.
 
 ## Discord csatornák
-Számos csatornánk van, különböző témákra, ezért győződj meg arról, hogy a megfelelő csatornát használod, így mások nem kerülnek elárasztásra számukra érdektelen beszélgetésekkel. Áttekintjük a fontosokat, de mindig meg tudod tekinteni, hogy más csatornák mit csinálnak, a csatorna témájának (topic) megtekintésével:
+Számos csatorna van, különböző témákra, ezért győződj meg arról, hogy a megfelelő csatornát használod, így mások nem kerülnek elárasztásra számukra érdektelen beszélgetésekkel.
 
-- [#info-and-rules][info-and-rules] - Ezek szabály csatorna, mely leírja a követendő szabályokat, amikor ezen a szerveren kommunikálunk.
-- [#useful-resources][useful-resources] - Meg kellene értened valamit? Nem ismersz egy technikai terminológiát?  Nézd meg itt
-- [#nds-modding-help][nds-modding-help] - Ez az ahol segítséget kérhetsz bármiről am DS Homebrew-val kapcsolatos. Kérjük tekintsd meg a rögzített üzeneteket, mert elképzelhető, hogy már van válasz a kérdésedre
-- [#community-meta][community-meta] - Ez a csatorna arra van, hogy magáról a szerverről beszéljünk
-- [#end-of-server][end-of-server] - Ez az alkalmi, alacsony szintű csevegésre szolgáló hely. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek.  Használd ezt a mémeid és egyéb dolgok postolására
+Mindig ellenőrizd a csatorna témáját és a rögzített tartalmat, mielőtt beszélsz a csatornán.
+{:.alert .alert-info}
 
-Továbbá van még az [#other-nds-homebrew][other-nds-homebrew], olyan homebrew számára, aminek nincs dedikált csatornája, az [#nds-modding-discussion][nds-modding-discussion], olyan moddoláshoz, ami nem fér bele más csatornába, az [#nds-gaming][nds-gaming] általános DS dolgokra és az [#offtopic][offtopic] bármilyen általános témára.
+**Fontos**
+- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](https://wiki.ds-homebrew.com/community/discord-rules) on the wiki
+- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server such as other servers or this wiki
+- [#member-logs][member-logs] - Shows user joins and server boosts
+
+**Szerver Hub**
+- [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server
+- [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories
+- [#github-builds][github-builds] - Feed of all of our projects' nightly builds
+- [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
+- [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
+
+**Nintendo DS⁽ⁱ⁾ Modding**
+- [#nds-modding-help][nds-modding-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
+- [#nds-modding-discussion][nds-modding-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
+- [#nds-retail-research][nds-retail-research] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities
+- [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
+
+**Fő DS⁽ⁱ⁾ Homebrew Projektek**
+- [#nds-bootstrap][nds-bootstrap] - This channel is for discussion of the development of nds-bootstrap, for help use #nds-modding-help
+- [#twilight-menu][twilight-menu] - This channel is for discussion of the development of TWiLight Menu++, for help use #nds-modding-help
+- [#gbarunner2][gbarunner2] - This channel is for discussion of the development of GBARunner2, for help use #nds-modding-help
+- [#websites-development][websites-development] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [ds-homebrew sites](https://ds-homebrew.com/) go here
+
+**Másodlagos DS⁽ⁱ⁾ Homebrew Projektek**
+- [#godmode9i][godmode9i] - This channel is for discussion of the development of godmode9i, for help use #nds-modding-help
+- [#emulators-on-nds][emulators-on-nds] - This is for talking about emulators on the Nintendo DS(i). Discussion for Nintendo DS(i) emulators should go in #nds-modding-discussion
+- [#other-nds-homebrew][other-nds-homebrew] - Talk about Nintendo DS(i) homebrew and get support that isn't covered by other channels
+
+**Közösség**
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
+- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play
+- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
+- [#end-of-server][end-of-server] - Ez az alkalmi, alacsony szintű csevegésre szolgáló hely. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
 
 ## Szerepek & felhasználók
-Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak @Lightning paranccsal érhető el
+Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak Lightning bot paranccsal érhető el.
 
-### Fejlesztők (Developers)
-Ezt a szerepet azok kapják meg, akik a Nintendo DS színtéren vagy támogattak vagy vezettek egy projektet. Bár előnyösebb, ha nyílt forráskódú lenne, de opcionális. Posztold a Nintendo DS homebrew alkalmazást a hozzá való csatornán. (Ha nincs még ilyen, akkor posztolj az [#other-nds-homebrew][other-nds-homebrew]-ban), és pingelj egy moderátort az üzenet mellett.
+### Moderátor szerepkörök
+These roles are given to people that are well trusted, they have the ability to ban, kick, mute, and give other roles to users.
 
-Ne feledd, hogy lopott kód nem tesz ebbe a szerepbe, és elutasíthatjuk a kérést különböző okok miatt
+- Da Master - The Owner role, has all possible perms
+- Admin - Has all possible perms, usually gets final say between the Server Maintainers
+- Server Maintainers - Help enforce the server rules and manage the server. If there is an issue contact them first before going higher up
 
-### Művészek/Tervezők (Artists/Designers)
-Ez a szerepkör azoknak kerül kiosztásra, akik tudják, hogyan működik a művészet és hozzájárultak a DS homebrew-okhoz valamilyen grafikai módon (például egy WoodR4 szkin vagy egy TWiLight Menu++ altéma). Ha megfelelsz ennek a követelmények, jelezd nekünk a [#community-meta][community-meta] csatornán példákkal a munkádról és értékelni fogjuk.
+### User Flair Roles
+These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
 
-### Segítők (Helpers)
-Akár olyan személyek, akiket speciális buildek tesztelésével bízunk meg, akár olyan személyek, akik segítik az [#nds-modding-help][nds-modding-help] csatornát, a Segítők olyan személyek, akik a szervert a közösség építő tagjaiként segítik. A fenti átlag feletti posztolási minőség mellett két lehetséges módja van a szerepkrö megszerzésének: Tesztelés & segítségnyújtás az[#nds-modding-help][nds-modding-help] csatornán
+- Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion
+- Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to compatibility reporting
+   - Helpers have no moderator perms, please ping a mod if a situation needs one
+- Nitro Boosters - Given to those that have given Server Boosts
 
-A teszteléshez legalább 7 gjátékot kell tesztelned a GBARunner2-vel és nds-bootstrap-pel. Tekintsd meg a specifikus csatorna témákat a kompatibilitási lista linkjéért. A segítséghez a segítség mennyisége nincs kőbe vésve. Általában nézzük, mennyire nagy a segítséged (például azt mondani, hogy "jobb klikk és nyomd meg a szerkesztést" nem segítség).
+### Büntető szerepkörök
+Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátortól.
 
-Ha valamelyiknek megfelelsz, említsd a [#community-meta][community-meta] csatronán és jelezd, hogy melyik metódust választottad. Ha elfogadjuk, megkapod a Segítők szerepkört. Legalább egy üzenetet kell küldened 4 havonta, hogy megtartsd.
+- No Community - Eltávolítja a hozzáférést a Community kategória csatornáihoz
+- No Help - Eltávolítja a hozzáférést a [#nds-modding-help][nds-modding-help] csatornához
+- No Reaction - Letiltja a reagálási jogot minden csatornára
+- Muted - Letiltja az üzenet küldési lehetőséget
 
-### Fordítók
-Szeretnéd fordítani valamelyik projektünket? Add magadnak ezt a szerepkört, így naprakészen leszel a projektek fordítási állapotával. A fordítási vezetőnk (Evie) jelezni fog, ha új szövegek fordítása szükséges.
+### Egyéb
+These roles are only given for very specific purposes by Moderators.
 
-- TWiLight Menu++: <https://crowdin.com/project/TwilightMenu>
-- dsi.cfw.guide weboldal: <https://crowdin.com/project/dsi-guide>
-- ds-homebrew.com wiki: <https://crowdin.com/project/ds-homebrew-wiki>
+- Bots - Used to mark the Discord bots we have in this server
+- Special Thanks - People that have contributed to our community in a major way
 
-Ez egy magadnak állítható szerepkör a @Lightning togglerole parancsával: (`!togglerole Translators` az [#end-of-server][end-of-server] csatornában)
+### Önállóan kiosztható szerepkörök
+These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
 
-### Játék Modderek (Game Modders)
-Ez a szerepkör azoknak kerül kiosztásra, akik készítettek egy ROM Hack-et megfelelő minőségben a Nintendo DS-re, tudják, hogy hogyan kell helyesen patchelni a fájljaikat és megosztottak már ROM hacket több állandó helyen (mint például a GameBanana vagy moddoló fórumok). Posztold a ROM hacked az [#nds-retail-research][nds-retail-research] csatornába és pingelj meg egy moderátort, és értékelni fogjuk a ROM hackedet.
+- Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
+- Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
+- Artist/Designers - For those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew
+- Composers - For those that have made music for DS(i) homebrew or ROM hacks
+- Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
+- Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects
 
-### Nintendo DS Online játékosok (Nintendo DS Online Players)
-Ez egy kiemelt szerep, amelynek célja, hogy a felhasználók pingeljenek, amikor valaki online szeretne Nintendo DS-játékot játszani (legyen szó Wiimmfi, AltWFC vagy más szolgáltatásokról). A tömeg pingelők tiltásra kerülnek. Ez egy magadnak állítható szerepkör a @Lightning togglerole parancsával: (`!togglerole Nintendo DS Online Players` az [#end-of-server][end-of-server] csatornában)
-
-### Frissítések
-Pingelésre kerülsz az [#announcements][announcements] csatornában, bármikor amikor egy frissítés jön ki. Hogy megkapd ezt a szerepkört, írd be a `!togglerole Updates` parancsot az [#end-of-server][end-of-server] csatornában.
-
-## 🤖 Lightning parancsok
-A Lightning egy discord bot, amit [LightSage](https://gitlab.com/LightSage) készített és hasznos parancsokkal rendelkezik a modding közösségnek, beleértve...
-
-- `!mod [konzol] [param2]` - Ez lehetővé teszi, hogy megtekintsd a konzol moddolási információkat, játékokat, és így tovább. A param2 használható konkrétabb információkért, vagy homebrew alkalmazások listájának beszerzéséhez.
-- `!togglerole <role>` - Ez lehetővé teszi, hogy beállítsd a magad által konfigurálható szerepköröket. Ha szükséged van az aktuális listájára a magad által állítható szerepköröknek, futtasd a `!togglerole list` parancsot.
-
-Egy csomó mókás parancs van még, amit futtatni lehet még, de kérjük ezeket használd az [#end-of-server][end-of-server] csatornán. Hogy többet tudj meg, látogasd meg weboldalukat: <https://lightning-bot.gitlab.io/>
-
-Továbbá használjuk a Lightning-ot moderációs célokra, (hogy loggoljuk a figyelmeztetéseket, kirúgásokat, némításokat és tiltásokat). Tartsd ennek a botnak a közvetlen üzenet ablakát nyitva, ha szükséges, hogy elérjünk téged.
-
-## 👑 A Staff Team
+## A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.
 
-@shutterbug2000, @RocketRobz (TWL-Z8RT-USA), @Gericom, @ahezard, @Apache Thunder, @NightScript, @dubbz82, @Stack3r, @Frost_, @Kaisaan
+Tulajdonos: shutterbug2000#8835
 
-## Meghívó Link
-Ezek a meghívó linkek a hálózatainkba.
+Adminisztrátorok: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
-- Discord szerver: <https://discord.gg/yD3spjv> (Tarts észben, hogy bármi ami publikusan elérhető a szerverünkön, loggolva van általunk, és loggolhatják mások is)
-- GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Sub-Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew) (a régi reddit-hez: [Dark](https://dm.reddit.com/r/NDSBrew/) --- [Light](https://old.reddit.com/r/NDSBrew/))
+Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
 [useful-resources]: https://discord.com/channels/283769550611152897/638041441079263283
+[member-logs]: https://discord.com/channels/283769550611152897/677714673663082529
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537
+[github-updates]: https://discord.com/channels/283769550611152897/450065134191116290
+[github-builds]: https://discord.com/channels/283769550611152897/540764336134815766
+[subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
 [nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
 [nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
+[nds-dev-discussion]: https://discord.com/channels/283769550611152897/835273459339624499
+
+[nds-bootstrap]: https://discord.com/channels/283769550611152897/283769550611152897
+[twilight-menu]: https://discord.com/channels/283769550611152897/489307733074640926
+[gbarunner2]: https://discord.com/channels/283769550611152897/620310871800807466
+[websites-development]: https://discord.com/channels/283769550611152897/744649302567157800
+
+[godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
+[emulators-on-nds]: https://discord.com/channels/283769550611152897/702400281966673951
 [other-nds-homebrew]: https://discord.com/channels/283769550611152897/536968881500061712
 
-[offtopic]: https://discord.com/channels/283769550611152897/286686210225864725
+[off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
+[other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

@@ -7,7 +7,7 @@ description: Lista kompatybilności i wskazówki dotyczące testowania gier
 ---
 
 ### Lista kompatybilności
-Aby zobaczyć przetestowane gry, spójrz [tutaj](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jeśli chcesz wnieść swój wkład, naciśnij `view only`, a następnie `request edit access`.
+To view tested games, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`.
 
 ### Porady dotyczące testowania gier
 - Uważaj na migotania ekranu lub problemów z dźwiękiem

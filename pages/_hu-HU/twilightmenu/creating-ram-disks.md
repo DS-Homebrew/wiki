@@ -10,7 +10,7 @@ description: Hogyan hozz létre RAM lemezeket a TWiLight Menu++-szal, régi DS h
 Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.
 {:.alert .alert-info}
 
-A RAM disk létrehozásához töltsd le [ezt](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) az eszközt (kattints a `Download Software`-re), és kövesd a további lépéseket.
+A RAM disk létrehozásához töltsd le [Dataram RAMDisk-et](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (kattints a `Download Software`-re), és kövesd az alábbi lépéseket.
 
 A lépések @Dakkon7-tól, módosította RocketRobz:
 

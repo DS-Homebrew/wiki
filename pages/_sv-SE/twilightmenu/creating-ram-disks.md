@@ -10,7 +10,7 @@ description: Hur man skapar RAM-diskar för att använda gamla DS homebrew med T
 Du behöver inte följa detta om du använder ett minneskort.
 {:.alert .alert-info}
 
-För att göra en RAM-disk, ladda ner [detta](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) verktyg (klicka `Download Software`), och följ instruktionerna nedan.
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instruktioner av @Dakkon7, ändrad av RocketRobz:
 

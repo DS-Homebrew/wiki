@@ -7,126 +7,103 @@ title: DS⁽ⁱ⁾ Mode Hacking Regler
 description: Reglerna för DS⁽ⁱ⁾ Mode Hacking Discord-servern
 ---
 
-### Du ska INTE imitera, kränka eller annars agera respektlöst mot andra och deras tro.
+This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](/community/discord-rules) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
 
-- Detta gäller särskilt för dem som erbjuder sin tid för communityn. (såsom hjälpare eller utvecklare)
-- Vi kommer INTE att tolerera okänslighet, oavsett om medlemmen är i communityn eller inte.
-- Respektera användarintegritet; Undvik försök att kommunicera med användare som inte är bekväma att göra det eller att dela information om dem som de inte vill ha delade.
-- Du bör inte "backseat moderera" eller försök att "hjälpa" när en moderator hanterar en situation. Du har ingen auktoritet, så lämna faktiskt regelhantering till personalen.
-     - Påminnelser är bra, så länge du inte försöker genomdriva dem.
-- När du vet vem som skapade ett konstverk, ära dessa innehållsskapare.
+### 1. Do not act disrespectfully towards others and their beliefs
 
+- This applies to everyone regardless of their role or level of activity in this server, even if they aren’t on the server
+- Do not backseat moderate or try to "help" when a moderator is already dealing with a situation
+- Reminders of the rules are fine, as long as you remain respectful
+- Credit the creator(s) when sending something if you know who created it
 
-### Ta INTE ner chattens kvalite.
+### 2. Do not bring the chat quality down
 
-Exempel:
+Examples of what breaks this rule include:
 - Be om att vara matad information eller mata andra
-- Be om releasedatum för projekt; Det är redo när det är klar
-- Be om att få fråga något; genom att fråga detta så frågade du precis
-- Begär information som är antingen uppenbarlig eller kan hittas med lite forskning på din ände (såsom googlande för länkar istället för att be dem att lämnas till dig)
-   - Viktig information kan finnas på [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283).
-   - Kolla in kanaltråden & fästa meddelanden; det innehåller troligtvis det du letar efter.
-- Avsiktligt förlängning av ditt meddelande (till exempel: skicka några ord per meddelande och lämna det i en "popcorn"-situation)
-- Upprepa meddelanden, oavsett om det upprepas i samma kanal eller i flera kanaler.
-     - Om du är osäker på var du ska posta ditt meddelande, posta det i den som är mest meningsfullt.
-     - Om du fortfarande är osäker, fråga i [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919).
+- Asking for release dates for projects; it's ready when it's ready
+- Asking if you can ask a question; just ask your question directly
+- Requesting information that is either obvious or you could find with a little bit of research on your end
+   - Important information can be found in  [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
+- Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
+- Repeating messages, whether it is repeated in the same channel or in multiple channels
+ - If you're unsure where to post your message check the channel topics and ask in the most fitting one
+   - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
 - Posta för sakens skull i stället för att föra med sig faktiska konversationer (till exempel att klaga på att chatten är död, bara skicka ut hälsningar, copypastas, etc.)
-- Skicka extremt långa meddelanden. Använd [mystbin](https://mystb.in/) för längre meddelanden istället.
+- Sending extremely long messages, use [mystbin](https://mystb.in/) for longer messages instead
+
+### 3. Do not self-promote with no context or without explicit staff permission
+
+- Giving links to other Discord servers on request is allowed, but please ask a moderator in a DM before advertising a server without prior context
+- DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules, mass DM advertisement (with proof) will land you a ban
+- Joining for the purpose of advertising your discord server will land you a ban and your advertisements will be deleted
+
+### 4. Avoid piracy discussion
+
+- Do not link/mention piracy websites/tools, upload pirated content, or encourage others to pirate
+- For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
+- Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
+
+### 5. Keep conversations within their respective channels
+
+- Even if they are related, sometimes another channel would be more suitable
+   - Check the channel topics for where to ask questions or have discussion
+- Sometimes, even an entirely different server is preferable, we don't have the answers to everything
+   - There are some related servers in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and the pins of other channels
+
+### 6. Keep all conversations in English
+
+- We are not able to easily moderate content in other languages
+- We suggest using [DeepL](https://www.deepl.com/translator) for translation
+- Moderators may allow others to speak in foreign languages in case translation fails and there are trusted people that know your language and are able to help
+
+### 7. You may not have an alternative account on this server without staff permission
+
+- One account per person at a time (except when approved by a staff member), be sure to leave this server on your other account before joining with a new one
+- Punishments apply to the person, not the account, any subsequent accounts made for the purposes of punishment evasion will result in both accounts being banned
+
+### 8. Keep names/nicknames exclusively alphanumeric and do not hoist
+
+- Users with a nickname/username that is not easily readable for an English speaker or mentionable with an English (US) keyboard will be assigned a new nickname
+- Avoid purposely putting characters in the beginning of the name to change your spot in the member list, those characters will be removed
+
+### 9. Do not send unsolicited DMs to other users
+
+- Please ask before sending a Direct Message to others and respect those not wanting to communicate
+   - Even if your actions aren't malicious, they could be disturbing or otherwise unwanted
+- Things that happen in Direct Messages **are** the business of the server since unless you both share another server or are friends, you wouldn't be able to reach each other
+- Examples of what not to do include DM advertising, purposely redirecting users to DMs from normal chat (such as support) to break rules, and harassment
 
 
-### Skicka INTE slumpmässigt ut inbjudningslänkar till Discord-servern utan kontext & utan uttrycklig tillstånd från all personal
+### 10. Do not bring external drama, NSFW, or illegal content into the server
 
-- Att ge länkar till andra discord-servrar på begäran är tillåtet, men fråga en moderator i direktmeddelanden innan du annonserar en server utan föregående sammanhang
-- DM-annonser är inte tillåtna, både enligt Discords användarvillkor och våra serverregler. Mass DM-annonsering (med bevis) kommer leda till att du blir bannad
-- Brytningen av regeln kommer att resultera i att ditt meddelande som innehåller annonsen tas bort
-- Att gå med i syfte att annonsera din discord server kommer att leda till att du blir bannad.
+- If you are banned in other servers, avoid talking about it here
+   - We can not help you get unbanned from other servers, that is the decision of the staff members there
+- Do not post anything that is not considered safe for work (e.g. sexual content, extreme violence, drugs)
+- Any account with a disturbing avatar will be kicked, if you rejoin and still have the avatar, you will be banned
+- Despite adult content being banned, users are still required to be thirteen and over in order to participate on this Discord server as per the Discord TOS
 
+### 11. Do not talk about or do actions pertaining to breaking other Discord TOS
+- [Link to Terms of Service](https://discord.com/terms)
+- [Link to community guidelines](https://discord.com/guidelines)
+- Trying to do anything that is not explicitly mentioned in our rules but is still against Discord TOS will land you a ban (e.g. raids, malware, phishing)
 
-### Håll konversationer inom dess respektive kanaler.
+### 12. Do not try to evade the rules as this will be treated as breaking them
 
-- Även om de är relaterade, ibland skulle en annan kanal vara mer lämplig.
-- Ibland är även en helt annan server bättre. Vi har inte svaren på allt.
-   - Olika relaterade servrar är länkade till i [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283)
+- If you don't understand any of the rules, feel free to ask for further clarification
+- Breaking the rules and then claiming that you “didn’t know” will still make you guilty of breaking them
+- Trying to get around the rules by speaking in vague terms also counts as breaking them
 
+## Consequences
 
-### Du bör inte ha ett alternativt konto på servern
+The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
+- Most users end up having 4 warnings before they are banned
+   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
+- Joining for the purpose of rule breaking will get you banned
 
-- Ett konto per person i taget (förutom när det godkänts av en personalmedlem). Var noga med att lämna den här servern på ditt andra konto innan du kommer in med ett nytt konto.
-- Straffen gäller personen, inte kontot. Eventuella efterföljande konton som görs för att undvika bestraffning kommer att resultera i att båda kontona blir bannade. ‎
-
-### Rekommenderar INTE videoguider.
-
-- Videoguider underhålls inte särskilt bra (vilket leder till att videorna är föråldrade och opålitliga på lång sikt) och oaktsam för "användartillgänglighet".
-- Vi har en lista över guider i [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) som du kan använda istället. ‎
-
-### Ha enbart alfanumeriska namn, för att dom är lätta att läsa och tagga.
-
-- Användare med ett (vanligt) oomnämnbart eller oläsbart användarnamn/smeknamn på normalt sätt kommer att tilldelas ett nytt smeknamn.
-   - Om vi måste vända våra skärmar för att läsa ditt namn så är det ett ovanligt användarnamn.
-   - Om vi måste få ditt användar-ID för att nämna dig är det ett ovanligt användarnamn.
-- Undvik att avsiktligt sätta tecken i början av namnet för att ändra din plats i medlemslistan. Dessa tecken blir borttagna.
-
-
-### Var artig när du använder direktmeddelanden
-
-- Det som händer i direkta meddelanden **är** serverns ansvar också, eftersom om inte de två delar en annan server eller är vänner så skulle dem inte kunna nå varandra.
-- Exempel är DM-reklam, att avsiktligt omdirigera användare till DMs från normal chatt (såsom stöd) för att bryta mot regler, eller för att trakassera.
-   - Det måste finnas bevis för att göra så, såsom andra människor som rapporterar det också, implikationer på servern eller något av det slag. Men när du gör din rapport, täck alla länkar. Ge inte DM-annonsören mer popularitet än de redan fått av att skicka meddelanden till alla.
-- Även om dina handlingar inte är skadliga, ibland kan de vara störande.
-   - Fråga innan du skickar ett direktmeddelande till andra och respektera dem som inte vill kommunicera. ‎
-
-### Håll piratdiskussion till ett minimum
-
-- Länka inte till piratkopiering webbplatser, ladda inte upp piratkopierat innehåll, och/eller uppmuntra inte andra att piratkopiera
-- För mer information om vad som är piratkopiering eller inte, föreslår vi att du läser detta: https://3ds.eiphax.tech/piracy.html (Notis: Vi är inte advokater)
+## Reporting
+- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
+- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
+- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
 
 
-### Inget vuxeninnehåll
-
-- Posta inte pornografi, gore, droger (om inte ämnet handlar om medicinering) eller något som inte är SFW
-- Alla konton med en stötande avatar kommer att kickas. Om du kommer tillbaks in och fortfarande har avataren så kommer du bannas
-- Samtidigt ska du vara mogen. Alla har rätt att svära här och det bör ni vara vana vid. Bara kasta inte runt svorord varannan sekund, det är inte coolt
-- Trots att vuxeninnehållet är förbjudet måste användarna fortfarande vara tretton år och äldre för att delta på denna Discord-server
-
-
-## Kontroversiellt innehåll.
-
-### Ämnen som du bör minimera
-
-Behåll dessa ämnen i [#offtopic](https://discord.com/channels/283769550611152897/718307887578873856) och ha ett öppet sinne när du diskuterar dem:
-- Politik
-- Religion
-- Spoilers
-- Skadlig kod/programvara (malware)
-- Innehåll avsett att chocka eller skrämma
-
-Se till att sätta spoilers, malware och innehåll avsedda att chocka eller skrämma i spoiler taggar och korrekt varna användaren utanför nämnda spoiler taggar.
-
-### Bannlyst innehåll
-
-- Extern Drama
-- Server Raidar
-- Vuxeninnehåll (läs ovan)
-
-## 🏓 Meddelanden/Pings/DMs
-
-- @Lightning kommer att skicka dig en DM om du får en varning. Dö bör inte anta att du har problem om du fick en ping
-- Pinga inte en användare om det är uppenbart att de redan är där. (Att använda Discords kvotfunktion är inte en ursäkt. Ta bort pingen innan du skickar meddelandet)
-- Pinga inte en person gång på gång för att få deras uppmärksamhet.
-   - När en mention attack inträffar, pinga inte en personalmedlem; det är överflödigt eftersom de redan får pings från attacken. Det blandar också ihop dom medlemmar som ska bannas.
-- Om du blir pingad, skicka inte meddelanden som "why ping" eller spam-emojin. Kontrollera vem som pingade och svara.
- - Om du har problem med att bli pingad, antingen ställ in din discord så att du inte får ping meddelanden, hantera det eller lämna.
- - Om du inte hittar meddelandet med pinget, meddela en personalmedlem. Vi kommer att varna dem som pingade och omedelbart ta bort sina meddelanden.
-- Ping bara när du vill uppmärksamma något för någon. Pinga inte som referens.
-
-
-## Konsekvenser
-
-**Konsekvenserna av att bryta mot dessa regler är antingen varningar, dämpningar, kicks eller bans.** Naturligtvis beror det från fall till fall.
-- Att gå med och omedelbart bryta mot reglerna kommer att leda ditt konto dämpas
-- Att gå med i syfte att bryta regler kommer att få dig bannad.
-- Att försöka kringgå, leta efter kryphål, eller stanna vid gränsen inom reglerna kommer att behandlas som att du brytit dem.
-
-Om du inte förstår någon av reglerna, tveka inte att fråga.
-
-Senast uppdaterad: 19 augusti 2020
+Last updated: 2021-07-28

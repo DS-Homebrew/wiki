@@ -2,12 +2,12 @@
 lang: en-US
 layout: wiki
 section: hiyacfw
-title: Custom Splash Screens
+title: Écrans de démarrage personnalisés
 category: other
-description: How to use custom splash screens with hiyaCFW
+description: Comment utiliser des écrans de démarrage personnalisés avec hiyaCFW
 ---
 
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+Avec hiyaCFW, vous pouvez utiliser des écrans personnalisés dans les formats `.bmp` ou `.gif`. Ils doivent aller dans le dossier `sd:/hiya` et doivent être nommés `splashtop` pour l'écran supérieur et `splashbottom` pour le bas, avec l'extension de fichier appropriée, puis assurez-vous que l'écran de démarrage est activé dans la configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
 
 ### BMP
 - 16-bit (RGBA 1555, RGB 1555, or RGB 565)

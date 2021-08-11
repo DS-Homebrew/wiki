@@ -38,7 +38,7 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - R4xDS
    - DSTT(i)
 
-   点击 [这里](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)安装YSMenu
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`文件) 和 `TTMenu` 目录
 1. 将 `Use nds-bootstrap` 设置为 `No`，这样烧录卡固件就会取代nds-bootstrap
 

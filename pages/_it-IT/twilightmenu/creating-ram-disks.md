@@ -10,7 +10,7 @@ description: Come creare RAM disk per l'utilizzo di homebrew DS vecchi con TWiLi
 Non è necessario seguirlo se si utilizza una flashcard.
 {:.alert .alert-info}
 
-Per creare un RAM disk, scarica [questo](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) strumento (clicca `Scarica Software`), e segui le istruzioni qui sotto.
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Istruzioni di @Dakkon7, modificate da RocketRobz:
 

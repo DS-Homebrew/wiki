@@ -13,18 +13,18 @@ description: שאלות ותשובות & פתרון בעיות עבור nds-boot
 - אם המשחק עבד בעבר, מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
 
 #### פתרון בעיות עבור nds-bootstrap
-אם אתם נתקלים בבעיות במהלך שימוש בגרסה האחרונה של nds-bootstrap, כך תוכלו לפתור אותן.
+If you get issues with using the latest version of nds-bootstrap, here's how you can troubleshoot it.
 
 1. הריצו את המשחק עם הגדרות שונות, כולל שינוי ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA וכו'
 2. מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
 3. רוב הסיכויים שזוהי לא בעיה רצינית; שאלו ב[שרת הDiscord](https://discord.gg/yD3spjv)
 
-אם השרת אומר שזאת בעיה של nds-bootstrap, בדקו אם המשחק לא דווח כבר בGitHub. בדקו גם את הבעיות הסגורות במקרה שסגרנו בעיה כתוצאה מעדיפות לבעיה אחרת. אם אין אף בעיה בGitHub שמשוייכת למשחק, יצרו חדשה.
+אם השרת אומר שזאת בעיה של nds-bootstrap, בדקו אם המשחק לא דווח כבר בGitHub. Check the closed issues too in case there has already been an issue closed in preference a different one. אם אין אף בעיה בGitHub שמשוייכת למשחק, יצרו חדשה.
 
 בנוסף, וודאו שאתם מוסיפים את זה אל [רשימת התאימות](https://wiki.ds-homebrew.com/nds-bootstrap/testing) בGoogle Sheets.
 
 #### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
+nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
 #### Why use nds-bootstrap over a regular flashcard?
 - רומים מתאימים נטענים ישירות לRAM, דבר המאפשר זמני טעינה מהירים אפילו יותר מקלטות רגילות
@@ -46,5 +46,5 @@ A nightly build is build for the latest commit. Nightly builds may be unstable, 
 #### Why do my cheats not work?
 The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

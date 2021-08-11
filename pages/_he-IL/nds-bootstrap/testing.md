@@ -7,7 +7,7 @@ description: רשימת תאימות ועצות לבדיקת משחקים
 ---
 
 ### רשימת תאימות
-לצפיה במשחקים שנבדקו, הסתכלו [כאן](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). אם תרצו לתרום, לחצו על `view only` ולאחר מכן על `request edit access`.
+To view tested games, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`.
 
 ### עצות לבדיקת משחקים
 - חפשו הבהובי מסך או בעיות קול

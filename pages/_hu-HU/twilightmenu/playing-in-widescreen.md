@@ -33,5 +33,5 @@ Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 
 **MEGJEGYZÉSEK:**
 1. Ne tartsd nyomva a <kbd>START</kbd> vagy <kbd>SELECT</kbd> gombokat, amikor indítod a TWLMenu++-t, ha nem szeretnéd, hogy a széles képernyő hibásan nézzen ki
-1. Nem minden játék széles képernyő kompatibilis. [Készítettünk egy listát a széles képernyőt támogató játékokról](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Nem minden játék széles képernyő kompatibilis. [Itt található a széles képernyőt támogató játékok listája](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. Ha a széles képernyős módban ragadtál minden TWL_FIRM-ben (beleértve TWLMenu++ GUI-t) ezen útmutató követése után és egy széles képernyő kompatibilis játékot futtatva, töröld a `TwlBg.cxi`-t a `sd:/luma/sysmodules/` mappából és [távolítsd el](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) majd [telepítsd újra](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) a TWiLight Menu++-t, és kövesd újra a fenti lépéseket

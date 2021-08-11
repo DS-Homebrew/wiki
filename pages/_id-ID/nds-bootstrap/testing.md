@@ -7,7 +7,7 @@ description: Compatibility list and tips for testing games
 ---
 
 ### Daftar Kesesuaian (Compatibility)
-Untuk melihat permainan yang teruji, lihat [di sini](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika kamu ingin ikut serta (kontribusi), tekan `view only` kemudian `request edit access`.
+To view tested games, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`.
 
 ### Tips untuk menguji permainan
 - Cari layar yang berkelip atau ada gangguan suara

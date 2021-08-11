@@ -38,7 +38,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - R4xDS
    - DSTT(i)
 
-   Telepítsd az YSMenu-t [innen](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap` opciót `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 

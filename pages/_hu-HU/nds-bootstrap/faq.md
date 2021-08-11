@@ -13,13 +13,13 @@ description: GYIK & hibaelhárítás az nds-bootstrap-hez
 - Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
 
 #### nds-bootstrap hibaelhárítás
-Ha problémát tapasztalsz az nds-bootstrap használatakor, itt vannak a lépések, hogyan oldhatod meg azt.
+Ha problémát tapasztalsz az nds-bootstrap legutolsó verziójának használatakor, itt vannak a lépések, hogyan oldhatod meg azt.
 
 1. Futtasd a játékokat más beállításokkal beleértve az ARM9 CPU sebességet, DS/DSi módot, hang minőséget, Card Read DMA-t, stb.
 2. Töröld a `fatTable` és a `patchOffsetCache` mappákat az `sd:/_nds/nds-bootstrap/` mappában
 3. Valószínűleg nem olyan nagy kérdés; kérdezz a [Discord szerveren](https://discord.gg/yD3spjv)
 
-Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a játék jelentésre került-e már a GitHub-ra. Ellenőrizd a lezárt jegyeket is, arra az esetre, ha valamelyik hibát lezártuk egy másik preferálása miatt. Ha nem tartozik hozzá GitHub hiba, akkor csinálj neki egy újat.
+Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a játék jelentésre került-e már a GitHub-ra. Ellenőrizd a lezárt jegyeket is, arra az esetre, ha valamelyik hiba lezárásra került egy másik preferálása miatt. Ha nem tartozik hozzá GitHub hiba, akkor csinálj neki egy újat.
 
 Továbbá ne felejtsd el hozzáadni a [kompatibilitási listához](https://wiki.ds-homebrew.com/nds-bootstrap/testing) a Google Sheets-en.
 
@@ -46,5 +46,5 @@ Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti ford�
 #### Miért nem működnek a csalásaim?
 A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben hibás, ami azt jelenti, hogy az esetek felében működnek. A csalás, amit használsz valószínűleg ilyen típusú. Ez nem a csalás adatbázis hibája, hanem inkább az nds-bootstrap-pé. Kérjük ne kérd ezen csalások törlését az adatbázisból.
 
-További információkért a csalásokról látogass el [ide](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+További információkért a csalásokról látogass el [Action Replay csalás fejezethez a Kereskedelmi ROM-ok oldalon](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

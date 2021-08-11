@@ -38,7 +38,7 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - R4xDS
    - DSTT(i)
 
-   [ここ](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)からYSMenuをインストール
+   [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします
       - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更）と`TTMenu`フォルダがあることを確認します
 1. `nds-bootstrapを使用`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます
 

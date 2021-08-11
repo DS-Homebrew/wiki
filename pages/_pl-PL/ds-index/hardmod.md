@@ -47,7 +47,7 @@ By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
    - **UWAGA** - WIndows poprosi Cię o sformatowanie go: **ABSOLUTNIE NIE** formatuj go - może to spowodować nieodwracalne uszkodzenia
 
 #### Usuwanie stopki no$gba
-Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DSi. Można to zrobić uruchamiając aplikację HiyaCFW Helper znajdującą się [tutaj](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Zainstaluj wersję na system używany przez Ciebie
 1. Uruchom skrypt, wybierając kopię zapasową NAND, którą chcesz flashnąć swojego DSi

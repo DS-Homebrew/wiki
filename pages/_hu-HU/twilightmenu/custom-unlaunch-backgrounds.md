@@ -7,6 +7,9 @@ title: Testreszabott Unlaunch hátterek
 description: Hogyan készíts egyedi Unlaunch hátteret és telepítsd TWiLight Menu++ használatával
 ---
 
+Előre elkészített Unlaunch háttereket találhatsz a [TWiLight Menu++ szkin oldalon](https://skins.ds-homebrew.com/unlaunch/).
+{:.alert .alert-info}
+
 A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egyedi háttérképpel rendelkezzen. Ez egy 256 x 192 GIF fájl kell legyen, a néhány korlátozással:
 - Csak az első képkocka kerül bemutatásra, nincs animált háttér
 - A fájlnak 15,472 bájtosnak, vagy annál kisebbnek kell lennie
@@ -39,9 +42,9 @@ Mivel a GIF palettája VRAM-ba ugyanoda került betöltésre, ahova a szöveg pa
 1. Mentsd le az optimalizált GIF-et, majd nyisd meg GIMP-ben
 1. A menüben felül válaszd az `Ablakok` -> `Dokkolható párbeszédablakok` -> `Színtérkép` opciókat
 1. Változtasd meg az aktuális `Előtér színt` #080808-ra és adj hozzá 14 új színt a `+` gombbal
-    - Ha képed nem tartalmaz legalább 133 színt, akkor szükséged lesz kitöltő színekre, hogy a szöveg színeket a megfelelő helyre rakhasd
+    - Ha képed nem tartalmaz legalább 133 színt, akkor hozzá kell adnod színeket addig, amíg az utolsó index nem lesz 146
 1. Kattints jobb gombbal a Színtérképre és válaszd a `Színtérkép újrarendezése...` opciót
-1. Rendezd el az új színeket, hogy ehhez igazodjanak: (A 2. és 3. oszlop a 49-es indexnél kezdődik)<br> ![Paletta, helyes szöveg színekkel](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Rendezd el az új színeket úgy, hogy igazodjanak a pirossal keretezettekhez: (A 2. és 3. oszlop a 4. sorban kezdődik)<br> ![Paletta, helyes szöveg színekkel](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
 1. Használd a pipettát, hogy az új színeid egyezzenek az alábbi képen lévőkkel
 1. A menüben felül válaszd az `Fájl` ->`Exportálás másként...` opciót, majd adj neki nevet a `.gif` kiterjesztéssel és kattints az `Exportálás` gombra
 1. A következő előugró ablakban ellenőrizd, hogy a `GIF-megjegyzés` kikapcsolt és kattints az `Exportálás` gombra

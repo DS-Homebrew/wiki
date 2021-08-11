@@ -47,7 +47,7 @@ To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - **VARNING** - Windows kommer att be dig formatera den: **FORMATERA INTE** - detta kan orsaka oreparerbara skador
 
 #### Att ta bort no$gba sidfot
-Du kommer först behöva ta bort NOCASH sidfoten från säkerhetskopian du flashar till din DSi. Detta kan göras genom att köra hiyaCFW hjälpprogram, vilket finns [här](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+Du kommer först behöva ta bort NOCASH sidfoten från säkerhetskopian du flashar till din DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Ladda ner versionen för operativsystemet du använder
 1. Kör skriptet genom att välja den säkerhetskopia av NAND som du vill flasha till din DSi

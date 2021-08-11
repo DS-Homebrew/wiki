@@ -10,7 +10,7 @@ description: Jak tworzyć dyski RAM do używania starych homebrew DS używając 
 Nie musisz za tym podążać, jeśli używasz nagrywarki flashard.
 {:.alert .alert-info}
 
-Aby utworzyć dysk RAM, pobierz [to narzędzie](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (kliknij `Download Software`) i postępuj zgodnie z poniższymi instrukcjami.
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instrukcje @Dakkon7, zmodyfikowane przez RocketRobz:
 

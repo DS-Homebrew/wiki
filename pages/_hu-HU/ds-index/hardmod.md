@@ -47,7 +47,7 @@ A Nintendo DSi/DSi XL (LL) hardmod-hoz a következőre lesz szükséged:
    - **FIGYELEM** - a Windows szertné majd formázni: **NE FORMÁZD**, mert visszafordíthatatlan károkat okozhat
 
 #### A no$gba lábléc eltávolítása
-Először el kell távolítanod a NOCASH láblécet a mentésről, amit flashelni fogsz a DSi-re. Ezt a a hiyaCFW helper alkalmazással lehet megtenni, ami [itt](https://github.com/mondul/HiyaCFW-Helper/releases/latest) található.
+Először el kell távolítanod a NOCASH láblécet a mentésről, amit flashelni fogsz a DSi-re. Ez megtehető a [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest)-rel.
 
 1. Töltsd le az operációs rendszerednek megfelelő verziót
 1. Futtasd a scriptet, kiválasztva a NAND mentést, amit majd flashelni szeretnél a DSi-be

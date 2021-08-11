@@ -62,60 +62,10 @@ Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en kereszt�
 
 #### Milyen rendszereket támogat a TWiLight Menu++?
 
-| Formátum                  | Betöltő                                         | Kiterjesztések                         | Mentés fájl                                    |
-| ------------------------- | ----------------------------------------------- | -------------------------------------- | ---------------------------------------------- |
-| ARGV[^1]                  | Native                                          | `.argv`                                |                                                |
-| Atari 2600                | [StellaDS][stellads]                            | `.a26`                                 |                                                |
-| Atari 5200                | [A5200DS][a5200ds]                              | `.a52`                                 |                                                |
-| Atari 7800                | [A7800DS][a7800ds]                              | `.a78`                                 |                                                |
-| Atari XEGS                | [XEGS-DS][xegs-ds]                              | `.xex`, `.atr`                         |                                                |
-| DS                        | [nds-bootstrap][ndsbs], flashcard kernel, natív | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`[^2]                     |
-| DSiWare                   | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]    | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].pub`, `saves/[rom neve].prv` |
-| DSTWO bővítmény           | [DSTWO][dstwo][^3]                              | `.plg`                                 |                                                |
-| Game Boy (Color)          | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                               |
-| Game Boy Advance          | [GBARunner2][gbarunner2][^4], natív[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                               |
-| Game Gear                 | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                            |
-| Genesis / Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^6]                           |
-| Master System             | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                           |
-| MPEG4 Video               | [MPEG4 Player][mpeg4player]                     | `.mp4`                                 |                                                |
-| NES / Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                               |
-| PC Engine / TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                |
-| RVID Videó                | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                |
-| SNES[^7]                  | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`[^8]                           |
-{:.table}
-
-- Footnotes -
-{:footnotes}
+Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Miért nem működik az érintő képernyő a sudokuhax-szal?
 A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfordulhat, hogy nem működik.
 
 #### Tud-e a The Biggest Loser bebootolni TWiLight Menu++-vel?
 Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
-
-[^1]: Szöveg fájlokról, amik egy DS homebrew app útvonalát és argumentumait tartalmazzák az indításhoz, lásd az [nds-hb-menu README-jét](https://github.com/devkitPro/nds-hb-menu#passing-arguments) a további információkért
-[^2]: Csak kereskedelmi ROM-okhoz, a homebrew-ok nem rendelkeznek kifejezett mentés fájlokkal
-[^3]: Csak egy SuperCard DSTWO flashcard-ról indítva működik, mert az rendelkezik a szükséges további feldolgozási kapacitással és RAM-mal a cartridge-en belül
-[^4]: Ha DSi módban fut, használni tudja a DSP-t a jobb hanghoz
-[^5]: Egy Slot-2 flashcard-ot igényel, így csak DS Phat-on és DS Lite-on működik
-[^6]: A jEnesis csak akkor tud menteni, ha flashcard-ról fut, de a PicoDriveTWL tud menteni SD kártyáról és flashcard-ról futtatás esetén is
-[^7]: Csak flashcard használatakor, 3DS belső SD használatakor, vagy DSi esetében telepített Unlaunch esetén jelenik meg
-[^8]: Csak akkor tud menteni, ha flashcard-ról fut
-
-[a5200ds]: https://github.com/wavemotion-dave/A5200DS
-[a7800ds]: https://github.com/wavemotion-dave/A7800DS
-[dstwo]: http://eng.supercard.sc
-[gameyob]: https://github.com/Drenn1/GameYob
-[gbarunner2]: https://github.com/Gericom/GBARunner2
-[jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
-[mpeg4player]: https://gbatemp.net/threads/544095
-[ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
-[nesds]: https://github.com/DS-Homebrew/NesDS
-[nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
-[pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
-[rvidplayer]: https://gbatemp.net/threads/539163
-[s8ds]: https://www.gamebrew.org/wiki/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
-[stellads]: https://github.com/wavemotion-dave/StellaDS
-[unlaunch]: https://problemkaputt.de/unlaunch.htm
-[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

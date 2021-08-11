@@ -13,18 +13,18 @@ description: FAQ i Rozwiązywanie problemów nds-bootstrap
 - Jeśli działało to wcześniej, usuń foldery `fatTable` i `patchOffsetCache` w `sd:/_nds/nds-bootstrap/`
 
 #### nds-bootstrap troubleshooting
-Jeśli masz problemy z korzystaniem z najnowszej wersji nds-bootstrap, oto jak możesz je rozwiązać.
+If you get issues with using the latest version of nds-bootstrap, here's how you can troubleshoot it.
 
 1. Uruchom grę z różnymi ustawieniami, w tym zmieniając prędkość procesora ARM9, tryb DS/DSi, jakość dźwięku, DMA odczytu karty itp.
 2. Usuń foldery `fatTable` i `patchOffsetCache` w `sd:/_nds/nds-bootstrap/`
 3. To prawdopodobnie nie jest aż tak duży problem; zapytaj na [serwerze Discord](https://discord.gg/yD3spjv)
 
-Jeśli usłyszysz, że jest to problem z nds-bootstrap, sprawdź czy gra nie została już zgłoszona na GitHubie. Sprawdź również zamknięte sprawy, na wypadek gdybyśmy mieli jedną zamkniętą sprawę w preferencji innej. Jeśli nie ma do niego przypisanego żadnego problemu na GitHubie, utwórz nowy.
+Jeśli usłyszysz, że jest to problem z nds-bootstrap, sprawdź czy gra nie została już zgłoszona na GitHubie. Check the closed issues too in case there has already been an issue closed in preference a different one. Jeśli nie ma do niego przypisanego żadnego problemu na GitHubie, utwórz nowy.
 
 Upewnij się również, że dodałeś go do [listy kompatybilności](https://wiki.ds-homebrew.com/nds-bootstrap/testing) w Arkuszach Google.
 
 #### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which would cause the ROMs to not work properly.
+nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
 #### Why use nds-bootstrap over a regular flashcard?
 - Niektóre kompatybilne ROM-y są ładowane do pamięci RAM, dzięki czemu czas ładowania jest szybszy niż w przypadku zwykłych kartridży
@@ -46,5 +46,5 @@ A nightly build is build for the latest commit. Nightly builds may be unstable, 
 #### Why do my cheats not work?
 The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
-For more info on cheats, look [here](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 

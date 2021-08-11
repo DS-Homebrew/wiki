@@ -38,7 +38,7 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
    - R4xDS
    - DSTT(i)
 
-   [여기](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)에서 YSMenu를 설치하도록 합니다.
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - flashcard microSD 루트에 `YSMenu.nds`(없으면 `TTMenu.dat`에서 이름을 변경하면 됨.)와 `TTMenu` 폴더가 있는지 확인합니다.
 1. `nds-bootstrap 사용`을 `비활성화`로 설정해서 nds-bootstrap 대신 Flashcard 펌웨어를 쓰도록 합니다.
 

@@ -47,7 +47,7 @@ tabs:
    - **אזהרה** - Windows יבקש ממכם לפרמט אותו: **אל** תפרמטו אותו - זה עשוי ליצור נזק שלא ניתן לתיקון
 
 #### הסרת הfooter של no$gba
-ראשית תצטרכו למחוק את הכותרת התחתנוה NOCASH מהגיבוי שאתם צורבים לDSi. ניתן לבצע את זה על ידי הרצת התוכנה hiyaCFW helper הנמצאת [כאן](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+ראשית תצטרכו למחוק את הכותרת התחתנוה NOCASH מהגיבוי שאתם צורבים לDSi. ניתן לבצע זאת באמצעות ה[hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. הורידו את הגרסה המתאימה למערכת ההפעלה שבה אתם משתמשים
 1. הריצו את הסקריפט, בחרו את גיבוי הNAND שתרצו לצרוב לDSi שלכם

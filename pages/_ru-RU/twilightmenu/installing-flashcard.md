@@ -38,7 +38,7 @@ description: Как установить TWiLight Menu++ на флеш-карт�
    - R4xDS
    - DSTT(i)
 
-   Установите YSMenu [отсюда](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Убедитесь, что у вас есть `YSMenu.nds` (переименуйте из `TTMenu.dat`, если его нет) и папка `TTMenu` в корне microSD карты вашего флеш-картриджа
 1. Установите `Исп. nds-bootstrap` на `Нет`, чтобы использовалась прошивка вашего флеш-картриджа вместо nds-bootstrap
 

@@ -7,7 +7,10 @@ title: Unlaunch 배경화면 변경하기
 description: Unlaunch 배경화면을 만들고 TWiLight Menu++를 이용하여 설치하는 방법
 ---
 
-TWiLight Menu++를 사용하면, Unlaunch 인스톨러를 패치해서 커스텀 배경화면을 넣을 수 있습니다. 이미지는 256x192 GIF이여야 되며, 몇 가지의 제한이 있습니다.
+You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+{:.alert .alert-info}
+
+Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
 - 1번째 프레임만이 보일 것이며, 배경은 움직이지 말아야 합니다.
 - 파일은 15472바이트 이하여야 합니다.
 - 31 컬러 이상의 GIF는 글씨가 깨짐을 방지하기 위하여 팔레트를 직접 만들어야 합니다.
@@ -21,7 +24,7 @@ TWiLight Menu++를 사용하면, Unlaunch 인스톨러를 패치해서 커스텀
 1. `Install Now`를 눌러 주세요.
 
 ### 31 컬러 이상의 GIF 사용하기
-GIF의 팔레트가 글씨 팔레트와 같은 곳의 VRAM에 로드되기 때문에, 팔레트가 원래보다 커지면 글씨 팔레트를 떺어써 버립니다. 하지만, GIF 팔레트에 글씨 팔레트를 같이 넣어줌으로써 이것이 해결이 됩니다. 다른 색으로 이 짓을 하면 텍스트 색도 바꿀 수 있습니다. 만약 원하신다면, 같이 해주세요. 이 설명은 [GIMP](https://gimp.org)를 쓰지만, 이미지의 팔레트를 바꿀 수 있는 이미지 에디터면 아무거나 사용하셔도 무방합니다.
+As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
 1. GIMP에서 이미지를 여시고 256x192인걸 다시 한 번 확인해 주세요.
 1. In the menu bar at the top, select `Image` -> `Mode` -> `Indexed...`
 1. Select `Generate optimum palette` and set the maximum colors to anything up to 226 colors
@@ -39,9 +42,9 @@ GIF의 팔레트가 글씨 팔레트와 같은 곳의 VRAM에 로드되기 때�
 1. Save the optimized GIF and open it in GIMP
 1. In the menu bar at the top, select `Windows` -> `Dockable Dialogs` -> `Colormap`
 1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
-    - If your image doesn't have at least 133 colors you will also need to add filler colors to arrange the text colors in the correct spots
+    - If your image doesn't have at least 133 colors you will need to keep adding colors until the last is index 146
 1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match these: (The 2nd and 3rd columns starting at index 49)<br> ![맞는 텍스트 색이 들어가 있는 팔레트](https://cdn.discordapp.com/attachments/614278143527878658/770777177904906240/unlaunch-palette.png)
+1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br> ![맞는 텍스트 색이 들어가 있는 팔레트](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
 1. Use the color picker to make your new colors match those in the above image
 1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
 1. In the next popup, make sure `GIF comment` is off and click `Export`
