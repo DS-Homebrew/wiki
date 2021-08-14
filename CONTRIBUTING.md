@@ -61,3 +61,4 @@ Decimal:
 - "Flashcard" should be used for Slot-1 (DS) flashcards
 - "Cartridge" should be be used for standard GBA cartridges
 - "Game Card" should be capitalized
+- "3DS" should be used when referring to the family of systems that includes the 2DS
