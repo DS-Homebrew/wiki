@@ -43,7 +43,7 @@ These do not apply to DSiWare.
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
    - <kbd class="l">L</kbd>: Advance by one frame
    - Screenshot
-      - <kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
       - <kbd class="face">A</kbd>: Save screenshot
    - RAM Viewer
       - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
