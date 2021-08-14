@@ -67,7 +67,7 @@ These do not apply to DSiWare.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will instead exit the game
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - Only the screen swap button combo will work in B4DS mode, the others will not work
 - Returning to TWiLight Menu++ may not work on some O3DS models
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
