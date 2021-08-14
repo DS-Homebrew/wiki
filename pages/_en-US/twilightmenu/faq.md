@@ -11,7 +11,7 @@ description: FAQs and troubleshooting for TWiLight Menu++
 For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS/2DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
+#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
 TWL_FIRM might've somehow got corrupted.
 Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
@@ -47,7 +47,7 @@ You can download homebrew games from [Universal-DB](https://db.universal-team.ne
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
-#### Can I get the save files from my game cards onto my SD card or vice versa?
+#### Can I get the save files from my Game Cards onto my SD card or vice versa?
 Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
 
 #### How do I change TWiLight Menu++'s language?
@@ -60,7 +60,6 @@ Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
 #### What systems does TWiLight Menu++ support?
-
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Why isn't touch input working on sudokuhax?
