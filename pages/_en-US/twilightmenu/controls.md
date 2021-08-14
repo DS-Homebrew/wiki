@@ -45,6 +45,7 @@ These do not apply to DSiWare.
    - Screenshot
       - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
       - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
    - RAM Viewer
       - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
       - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
