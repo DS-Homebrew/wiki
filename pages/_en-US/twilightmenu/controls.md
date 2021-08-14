@@ -42,6 +42,9 @@ These do not apply to DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
    - <kbd class="l">L</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
    - RAM Viewer
       - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
       - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
@@ -68,6 +71,7 @@ These do not apply to DSiWare.
 - Only the screen swap button combo will work in B4DS mode, the others will not work
 - Returning to TWiLight Menu++ may not work on some O3DS models
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### Boot shortcuts
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
