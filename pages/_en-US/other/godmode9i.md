@@ -17,7 +17,7 @@ To dump games, select the drive in the drives list and follow the on-screen prom
 - On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
    - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
 
-### Troubleshooting and FAQ
+## Troubleshooting and FAQ
 
 #### How do I get past the "mounting drive(s)" screen while starting it up?
 This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
