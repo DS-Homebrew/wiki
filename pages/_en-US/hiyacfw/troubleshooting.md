@@ -22,7 +22,7 @@ The Nintendo DSi Menu has a bug when checking the free space on large storage de
 
 What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/DS-Homebrew/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
 
 ##### Over 39 titles
 The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
