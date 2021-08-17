@@ -32,5 +32,5 @@ There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder.
 
 ##### Invalid title
 There are several things you need to take into account when adding titles to hiyaCFW:
-- Game card dumps cannot be run without being using a [forwarder](forwarders)
+- Game card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
 - Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
