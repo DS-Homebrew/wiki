@@ -11,10 +11,10 @@ description: FAQ & Troubleshooting for hiyaCFW
 #### How do I install apps to hiyaCFW's SDNAND?
 You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install any apps to the SDNAND.
 
-#### #-2435-8325
+#### Why do I get the #-2435-8325 error code?
 If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing).
 
-#### "An error has occurred"
+#### Why do I get "An error has occurred" message when booting hiyaCFW?
 When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
 
 ##### The free space bug
