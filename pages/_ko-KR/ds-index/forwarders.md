@@ -33,7 +33,7 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 {:.alert .alert-info}
 
 1. FBI를 열고 `Remote Install`을 선택, 그 후에 `Scan QR Code`를 선택해 주세요.
-1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치해 주세요.<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치해 주세요.<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. FBI를 끝내고, HOME Menu에서부터 Universal-Updater를 열어 주세요.
 1. NDSForwarder를 검색, 설치해 주세요.
 1. NDSForwarder의 준비가 완료되었습니다.

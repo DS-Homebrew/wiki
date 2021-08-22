@@ -18,7 +18,7 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 
 {% capture tab-working-camera %}
 1. Nyisd meg az FBI-t és válaszd a `Remote Install`, majd a `Scan QR Code` opciót
-1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Zárd be az FBI-t és indítsd el a Universal-Updater-t
    - Ha nem jelenik meg a a home menüben, indítsd újra a 3DS-ed
 1. Keresd meg a TWiLight Menu++-t az appok között; kereshetsz az oldalsáv harmadik fülén is, ha problémát okoz megtalálni

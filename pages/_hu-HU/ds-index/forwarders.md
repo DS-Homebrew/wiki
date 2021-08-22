@@ -33,7 +33,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 {:.alert .alert-info}
 
 1. Nyisd meg az FBI-t és válaszd a `Remote Install`, majd a `Scan QR Code` opciót
-1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Nyisd meg az Universal Updater-t a HOME Menüből
 1. Telepítsd az NDSForwarder csomagot
 1. Az NDSForwarder és a szükséges fájljai feltelepülnek a szükséges helyre

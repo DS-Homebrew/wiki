@@ -18,7 +18,7 @@ Upewnij się, że masz zainstalowane Custom Firmware, jeśli nie, to zainstaluj 
 
 {% capture tab-working-camera %}
 1. Otwórz FBI i wybierz `Remote Install`, a następnie `Scan QR Code`
-1. Zeskanuj ten kod QR, by zainstalować najnowszą wersję [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Kod QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Zeskanuj ten kod QR, by zainstalować najnowszą wersję [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Kod QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Zamknij FBI i uruchom Universal-Updater
    - Jeśli nie pokaże się na twoim ekranie głównym, zrestartuj konsolę
 1. Znajdź menu TWiLight ++ w siatce aplikacji, możesz wyszukać za pomocą trzeciej karty na pasku bocznym, jeśli masz problem ze znalezieniem

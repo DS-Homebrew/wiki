@@ -43,7 +43,7 @@ Les jeux de DS doivent être dumpés au format `.nds<code>. You can dump your DS
 <ol start="1">
 <li>Ouvrez FBI, allez dans <code>Remote Install<code>, puis sélectionnez <code>Scan QR Code<code></li>
 <li><p spaces-before="0">Scannez ce QR code pour installer la dernière version de <a href="https://github.com/Universal-Team/Universal-Updater">Universal Updater</a><br>
-<img src="https://db.universal-team.net/assets/images/qr/universal-updater.cia.png" alt="Universal-Updater QR code" /></p></li>
+<img src="https://db.universal-team.net/assets/images/qr/universal-updater-cia.png" alt="Universal-Updater QR code" /></p></li>
 <li><p spaces-before="0">Ouvrez Universal Updater depuis le menu Home</p></li>
 <li>Installez le pack NDSForwarder</li>
 <li>NDSForwarder et ses fichiers requis sont maintenant installés dans leurs emplacements respectifs</li>

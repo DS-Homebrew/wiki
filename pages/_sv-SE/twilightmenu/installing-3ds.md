@@ -18,7 +18,7 @@ Du måste först ha Custom Firmware på din 3DS, följ [3ds.hacks.guide](https:/
 
 {% capture tab-working-camera %}
 1. Öppna FBI och välj `Remote Install`, sedan `Scan QR Code`
-1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Stäng FBI och starta Universal-Updater
    - Om det inte dyker upp på hemmenyn, starta om din 3DS
 1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen

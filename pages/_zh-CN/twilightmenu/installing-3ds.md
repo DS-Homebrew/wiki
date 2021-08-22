@@ -18,7 +18,7 @@ tabs:
 
 {% capture tab-working-camera %}
 1. 启动 FBI 并选择 `Remote Install(远程安装)`，再选择 `Scan QR Code(扫描二维码)`
-1. 扫描这个二维码来安装最新版本的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater 二维码](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. 扫描这个二维码来安装最新版本的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater 二维码](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. 退出 FBI 并启动 Universal-Updater
    - 如果它没有出现在主菜单上，重启你的 3DS
 1. 在应用列表中找到 TWiLight Menu++，如果找不到它，可以使用侧边栏上的第 3 个按钮进行搜索

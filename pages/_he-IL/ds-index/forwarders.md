@@ -33,7 +33,7 @@ If you already have Universal Updater installed on your console, you can skip to
 {:.alert .alert-info}
 
 1. פתחו את FBI ובחרו `Remote Install`, לאחר מכן בחרו then `Scan QR Code`
-1. סרקו את קוד הQR הזה על מנת להתקין את הגרסה האחרונה של [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![קוד QR של Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater.cia.png)
+1. סרקו את קוד הQR הזה על מנת להתקין את הגרסה האחרונה של [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![קוד QR של Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. פתחו את Universal Updater מתפריט הבית שלכם
 1. התקן את חבילת NDSForwarder
 1. NDSForwarder והקבצים הנדרשים עבורו מוגדרים במקומות הייעודים שלהם
