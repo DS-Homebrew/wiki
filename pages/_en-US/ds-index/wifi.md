@@ -13,9 +13,10 @@ description: Information on using Wi-Fi on the Nintendo DS
 Hotspots are usable, so you don't need to change your router configuration.
 
 ### Creating a hotspot
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows, you can use a Linux live boot if you are using Windows 10.
+There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. You can also use a Linux live boot if you are using Windows 10.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### Nintendo DS WFC restoration
 1. Launch Nintendo Wi-Fi Connection Setup
