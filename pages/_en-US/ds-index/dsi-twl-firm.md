@@ -13,11 +13,11 @@ While most of the benefits of Custom Firmware are for the Nintendo DSi and the N
 - [3DS Hacking Guide](https://3ds.hacks.guide)
    - Lightning command: `mod 3ds`
    - TWLHelper command: `guide 3ds`
-   - Kuriisu command: `guide 3ds`
+   - Kurisu command: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
    - Lightning command: `mod dsi`
    - TWLHelper command: `guide dsi`
-   - Kuriisu command: `guide dsi`
+   - Kurisu command: `guide dsi`
 
 ### CPU speeds
 The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with an 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
