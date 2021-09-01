@@ -311,8 +311,18 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
-### Cartridges with special hardware
+### Other (Carts that have features that don't fall into an above category) 
 Learn with Pokemon: Typing Adventures 
  -Cartridge has special bluetooth chip for connecting to the keyboard
 Pokemon HG/SS
- -Cartridge Has IR port for connecting to the PokeWalker.
+ -Cartridge Has IR port for connecting to the PokeWalker
+ ElecktroPlankton
+  -Cartridge has no save RAM
+ DS Download station
+  -Series of cartridges used to distribue demo games
+ Sonic Classics Collection
+  -Genesis emulation structure has been converted into an emulator used in TWiLight Menu++
+ Nitro Development Cart
+  - Has extra ram for development of games for the Nintendo DSi
+  
+ 
