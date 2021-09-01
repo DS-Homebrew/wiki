@@ -310,3 +310,9 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+
+### Cartridges with special hardware
+Learn with Pokemon: Typing Adventures 
+ -Cartridge has special bluetooth chip for connecting to the keyboard
+Pokemon HG/SS
+ -Cartridge Has IR port for connecting to the PokeWalker.
