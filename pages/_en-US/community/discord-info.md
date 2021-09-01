@@ -102,7 +102,7 @@ Administrators: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
 Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
 
-Helpers: SNBeast#9332, AllieAP910#4148, Frost#6943, #Lillie#7712, Triangle#2011, Toaasty#2479
+Helpers: SNBeast#9332, AllieAP910#4148, Frost#6943, #Lillie#7712, Triangle#2011
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
