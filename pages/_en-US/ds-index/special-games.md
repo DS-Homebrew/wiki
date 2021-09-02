@@ -38,7 +38,7 @@ description: DS(i) Games that have special properties
 - Nintendogs: Lab & Friends
    - DSiWare version exclusive to China
 - Phantasy Star 0
-   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - A demo version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
    - Icon is animated
 - Planet Puzzle League
    - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
