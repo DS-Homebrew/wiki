@@ -19,53 +19,53 @@ TWL_FIRM aurait pu d'une manière ou d'une autre être corrompu. Suivez ce guide
 - Si cela ne fonctionne pas, formatez votre carte SD en FAT32 avec une taille d'unitée d'allocation de 32 Ko
 - Si cela ne fonctionne pas non plus, essayez une autre carte SD
 
-#### Where is the Acekard/Wood UI theme?
-The acekard (also called Wood UI) theme was removed due to its buggy behaviour and causing SD Card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+#### Où est le thème Acekard/Wood UI ?
+Le thème acekard (aussi appelé Wood UI) a été supprimé en raison de son comportement bogué et de la corruption de la carte SD. Veuillez patienter pour un fix. La progression pour le retour de ce thème peut être trouvé sur [cette requête](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
-#### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
-Go into TWLMenu++ Settings, and disable `Update recently played list`.
+#### Comment puis-je réparer le redémarrage de TWiLight Menu++ ou donner une erreur Guru Meditation lors du lancement d'un jeu?
+Allez dans les paramètres TWLMenu++ et désactivez `Mise à jour des jeux joués récemment`.
 
-#### Why do I get a white screen when trying to load a game from SD card?
+#### Pourquoi est-ce que j'ai un écran blanc en essayant de charger un jeu à partir de la carte SD ?
 - Tout d'abord, vérifiez [la liste de compatibilité nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) et assurez-vous que votre jeu est compatible
 - Essayez avec tout les codes de triche désactivées pour ce jeu car certains codes ne sont pas compatibles avec nds-bootstrap pour le moment, vous pouvez utiliser <kbd class="l">L</kbd> pour désactiver tous les triches pour un jeu
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+- Si cela fonctionnait avant, supprimez les dossiers `fatTable` et `patchOffsetCache` dans `sd:/_nds/nds-bootstrap/`
 
-#### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS Cheat Databases." Cela l'installera automatiquement à l'emplacement requis.
+#### Comment utiliser des cheats ?
+Vous devez avoir une base de données de cheats sous la forme d'un fichier `usrcheat.dat` dans le dossier `sd:/_nds/TWiLightMenu/extras/`. La base de données de cheats la plus récente est celle de [DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
+- Sur la 3DS, cette base de données est disponible dans l'application Universal Updater en tant que "NDS Cheat Databases." Cela l'installera automatiquement à l'emplacement requis.
 
-Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+Vous pouvez aussi utiliser [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) pour créer votre propre base de données de cheats.
 
-#### How do I show a custom picture on the top screen of the DSi theme?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+#### Comment afficher une image personnalisée sur l'écran supérieur de mon thème DSi ?
+Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera affichée chaque fois que le menu est chargé.
 
 - L'image(s) ne doit pas être plus grande que 208x156
 - Si vous avez des erreurs, c'est probablement une erreur avec la taille de l'image. Veuillez utiliser [tinypng](https://tinypng.com) pour réduire la taille
 
-#### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
+#### Comment avoir des jeux ?
+Vous pouvez télécharger des jeux homebrew sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour avoir vos dumps de vos jeux physiques :
 - Sur DS, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux GBA et, si vous avez une flashcard Slot-2, des jeux DS
 - Sur DSi vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux DS et DSiWare
 - Sur 3DS, vous pouvez utiliser [GodMode9](https://github.com/d0k3/GodMode9/releases) pour dumper vos jeux DS, DSiWare et Console Virtuelle
 
-#### Can I get the save files from my game cards onto my SD card or vice versa?
-Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+#### Puis-je avoir les fichiers de sauvegarde de mes cartouches sur ma carte SD et vice versa?
+Oui, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) sur DSi et 3DS ou [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) sur 3DS.
 
-#### How do I change TWiLight Menu++'s language?
+#### Comment changer la langue de TWiLight Menu++ ?
 1. Ouvrez les paramètres TWiLight Menu++, vous pouvez le faire en maintenant <kbd>SELECT</kbd> tout en chargeant TWiLight Menu++
-1. Press <kbd class="l">L</kbd> or <kbd class="face">Y</kbd> once (on flashcard/3DS) or twice (on DSi)
+1. Appuyez sur <kbd class="l">L</kbd> ou <kbd class="face">Y</kbd> une fois (sur une flashcard/3DS) ou deux fois (sur une DSi)
 1. Modifiez la première option jusqu'à ce que vous voyez la langue que vous voulez, puis quittez les paramètres
    - Vous pouvez également modifier les deux prochaines options car elles contrôlent la langue des jeux DS et leurs titres dans TWiLight Menu++
 
-#### Is this a DS(i) emulator?
-No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
+#### Est-ce un émulateur DS(i) ?
+Non, ce n'est pas un émulateur. Le menu et les jeux DS (chargés via nds-bootstrap) sont exécutés nativement en mode DS/DSi de la console. Les seules consoles émulées sont les anciennes consoles, mais en partie pour GBA (comme certaines ou toutes les parties comme les graphiques sont exécutées nativement).
 
-#### What systems does TWiLight Menu++ support?
+#### Quels sont les systèmes supportés par TWiLight Menu++ ?
 
-See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+Voir [Liste des systèmes supportés par TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Why isn't touch input working on sudokuhax?
-Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### Pourquoi les entrées de l'écran tactile ne fonctionne pas sur le sudokuhax?
+Selon le fichier de sauvegarde de sudokuhax, les entrées de l'écran tactile peuvent ne pas fonctionner.
 
-#### Can The Biggest Loser boot TWiLight Menu++?
-No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### The Biggest Loser peut-il démarrer TWiLight Menu++ ?
+Non. Comme The Biggest Loser est un jeu Slot-1, et non un jeu DSiWare, l'accès SD est désactivé lorsque vous utilisez des cartes Slot-1.

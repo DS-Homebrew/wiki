@@ -7,7 +7,7 @@ title: DS⁽ⁱ⁾ Mode Hacking Info
 description: Információk a DS⁽ⁱ⁾ Mode Hacking Discord szerverről
 ---
 
-This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. We also focus on other things such as creating ROM hacks, playing DS games, and TWL_FIRM modding on 3DS.
+This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. Ezen kívül más dolgokra is fókuszálunk, mint a ROM hackek készítése, DS játékok játszása és TWL_FIRM moddolás a 3DS-en.
 
 ## Discord csatornák
 Számos csatorna van, különböző témákra, ezért győződj meg arról, hogy a megfelelő csatornát használod, így mások nem kerülnek elárasztásra számukra érdektelen beszélgetésekkel.
@@ -54,11 +54,11 @@ Mindig ellenőrizd a csatorna témáját és a rögzített tartalmat, mielőtt b
 Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak Lightning bot paranccsal érhető el.
 
 ### Moderátor szerepkörök
-These roles are given to people that are well trusted, they have the ability to ban, kick, mute, and give other roles to users.
+Ezek a szerepkörök megbízhat személyeknek kerülnek kiosztásra, és rendelkeznek a kirúgás, tiltás, némítás jogokkal és tudnak különböző jogokat adni a felhasználóknak.
 
-- Da Master - The Owner role, has all possible perms
-- Admin - Has all possible perms, usually gets final say between the Server Maintainers
-- Server Maintainers - Help enforce the server rules and manage the server. If there is an issue contact them first before going higher up
+- Da Master - A tulajdonos (Owner) szerepkör, rendelkezik minden joggal
+- Admin - Rendelkezik minden joggal, többnyire övé a végső döntés a Server Maintainers-ek között
+- Server Maintainers - Segítenek betartatni a a szerver szabályokat és menedzselik a szervert. Ha probléma van, először őket keresd, mielőtt feljebb lépnél
 
 ### User Flair Roles
 These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
@@ -77,20 +77,20 @@ Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátort�
 - Muted - Letiltja az üzenet küldési lehetőséget
 
 ### Egyéb
-These roles are only given for very specific purposes by Moderators.
+Ezeket a szerepköröket kifejezett célokra osztják a Moderátorok.
 
-- Bots - Used to mark the Discord bots we have in this server
-- Special Thanks - People that have contributed to our community in a major way
+- Bots- a Discord botok jelzésére vannak ezen a szerveren
+- Special Thanks - Személyek, akik különösen hozzá járultak a közösséghez
 
 ### Önállóan kiosztható szerepkörök
-These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
+Ezek a szerepköröket a [Lightning bot](https://lightning-bot.gitlab.io/) adja a !togglerole parancs hatására. Ha szeretnéd tudni, milyen parancsok vannak még, használd a !help parancsot. A parancsokat az #end-of-server csatornán használd.
 
-- Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
-- Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
-- Artist/Designers - For those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew
-- Composers - For those that have made music for DS(i) homebrew or ROM hacks
-- Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
-- Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects
+- Updates - Kapj frissítési értesítőket az új DS(i) homebrew-okról az #announcements csatornán
+- Nintendo DS Online Players - Bárki tudja pingelni ezt a szerepkört az #nds-gaming csatornán, ha embereket keres, akik szeretnének online DS játékkal játszani
+- Artist/Designers - Azok számára, akik jó kiemelkedő minőségű TWiLight Menu++ szkineket, Unlaunch háttereket vagy grafikát más DS(i) homebrew-hoz készítettek
+- Composers - Azok számára, akik zenét készítettek DS(i) homebrew-hoz és ROM hackekhez
+- Game Modders - Azok számára, akik ROM hackeket, csalásokat vagy egyéb módosításokat készítettek DS(i) játékokhoz
+- Translators - Bárki számára, aki szeretne értesítést kapni, ahhoz, hogy különböző DS Homebrew projekteket fordítson
 
 ## A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.
