@@ -340,3 +340,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Came packaged with a slot 2 camera
 - My Weightloss trainer 
    - Bundled with a slot 2 pedometer
+- Beyblade Series
+   - Bundled with an adapter for connecting to a Beypointer
+- Nintendo DS Tv tuner
+   - Analog tv tuner for the DS 
