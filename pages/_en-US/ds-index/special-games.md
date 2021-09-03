@@ -338,7 +338,5 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - A slot 2 MP3 player 
 -Face Training
    - Came packaged with a slot 2 camera
- -Beyblade: Metal Fusion/ Metal Masters
-   - Has an adapter for connecting a Beypointer
 - My Weightloss trainer 
    - Bundled with a slot 2 pedometer
