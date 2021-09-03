@@ -324,5 +324,21 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Genesis emulation structure has been converted into an emulator used in TWiLight Menu++
 - Nitro Development Cart
    - Has extra ram for development of games for the Nintendo DSi
-  
- 
+- Personal Trainer: Walking
+   - Has twin IR based pedometer
+- Slide Adventure MAGKID
+   - Comes packaged with a mouse like slot 2 peripheral
+- Daigasso! Band Brothers
+   - Had a slot 2 cartridge that unlocked more songs
+- Arkanoid
+   - Came bundled with a slot 2 paddle controller
+-  Astroarts Hoshizora Navi 
+   - Has elongated cartridge with built in "compass" orientation sensor
+- Play-Yan 
+   - A slot 2 MP3 player 
+-Face Training
+   - Came packaged with a slot 2 camera
+-Beyblade: Metal Fusion/ Metal Masters
+   - Has an adapter for connecting a Beypointer
+- My Weightloss trainer 
+   - Bundled with a slot 2 pedometer
