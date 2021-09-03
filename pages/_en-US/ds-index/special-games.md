@@ -336,7 +336,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Has elongated cartridge with built in "compass" orientation sensor
 - Play-Yan 
    - A slot 2 MP3 player 
--Face Training
+- Face Training
    - Came packaged with a slot 2 camera
 - My Weightloss trainer 
    - Bundled with a slot 2 pedometer
