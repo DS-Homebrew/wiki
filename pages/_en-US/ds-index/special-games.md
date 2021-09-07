@@ -343,4 +343,4 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Beyblade Series
    - Bundled with an adapter for connecting to a Beypointer
 - Nintendo DS Tv tuner
-   - Analog tv tuner for the DS 
+   - Digital Tuner for connecting to 1seg, which is a brodcast system for Japanese mobile devices
