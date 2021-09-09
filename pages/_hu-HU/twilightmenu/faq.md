@@ -11,7 +11,7 @@ description: TWiLight Menu++ GYIK és hibaelhárítás
 További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Miért történik, hogy a 3DS/2DS eszközöm, fekete képernyőn ragad, összeomlik, kikapcsol, stb. amikor elindítom a TWiLight Menu++-t?
+#### Miért történik, hogy a 3DS eszközöm, fekete képernyőn ragad, összeomlik, kikapcsol, stb. amikor elindítom a TWiLight Menu++-t?
 A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót a hiba javításához: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
@@ -20,15 +20,13 @@ A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót
 - Ha ez sem működik, próbálj egy másik SD kártyát
 
 #### Hol van az Acekard/Wood UI téma?
-Az acekard (másként Wood UI) téma eltávolításra került a hibás működése miatt és mert SD kártya hibát eredményez. Kérjük várj a javítására. A téma visszatérésének menetrendje megtalálható ebben a [PR cikkben](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+Az Acekard (másként Wood UI) téma eltávolításra került a hibás működése miatt és mert SD kártya hibát eredményez. Kérjük várj a javítására. A téma visszatérésének menetrendje megtalálható ebben a [PR cikkben](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
 #### Hogyan javítom azt, ha a TWiLight Menu++ újraindul, vagy Guru Meditation Error hibát ad, amikor egy játékot indítok?
 Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista frissítés` opciót.
 
-#### Miért kapok fehér képernyőt, ha megpróbálok betölteni egy játékot az SD kártyáról?
-- Először ellenőrizd [az nds-bootstrap kompatibilitás listát ](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) legyél biztos benne, hogy a játékod kompatiblis
-- Próbáld meg az összes csalás kikapcsolásával annál a játéknál, mert néhány csalás nem kompatibilis az nds-bootstrap-pel jelenleg; az <kbd class="l">L</kbd> gombot tudod használni egy játék összes csalásának kikapcsolásához
-- Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
+#### Miért kapok fehér képernyőt, ha megpróbálok betölteni egy DS játékot az SD kártyáról?
+Tekintsd meg a [Miért kapok fehér képernyőt, ha megpróbálok betölteni egy játékot az SD kártyáról?](../nds-bootstrap/faq?faq=why-do-i-get-a-white-screen-when-trying-to-load-a-game-from-sd-card) problémát az nds-bootstrap GYIK oldalon.
 
 #### Hogyan használhatom a csalásokat?
 Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa.
@@ -37,18 +35,18 @@ Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az
 Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 
 #### Hogyan jelenítek meg egy egyedi képet a felső képernyőn a DSi témában?
-Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából kerül megjelenítésre minden alkalommal, amikor a menü betöltésre kerül.
+Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából kerül megjelenítésre minden alkalommal, amikor a menü betöltésre kerül. Ha nincsennek használható képek, akkor az nds-bootstrap által készített képernyőképek kerülnek felhasználásra.
 
 - A kép(ek) felbontása nem lehet nagyobb, mint 208x156
 - Ha hibát tapasztalsz, az leginkább a képméret hiba. Használd a [tinypng](https://tinypng.com)-t a méret csökkentéséhez
 
 #### Hogyan szerezhetek játékokat?
 Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. A kereskedelmi játékaid dumpolásához:
-- DS-en használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a GBA játékaid dumpolásához, illetve ha van Slot-2 flashcard-od, DS játékokra
+- DS-en használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a GBA játékaid dumpolásához, illetve ha van Slot-2 flashcart-od, DS játékokra. Ha csak Slot-1 flashcard-od van és szeretnél dumpolni egy DS játékot, használhatod a [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/)-t, amihez szükség van egy Wi-Fi kompatibilis DS-re és egy FTP kliensre egy független eszközön a ROM fogadásához
 - DSi-n használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a DS játékaid és a DSiWare dumpolásához
 - 3DS-n használhatod a [GodMode9](https://github.com/d0k3/GodMode9/releases)-t a DS játékaid, DSiWare és Virtual Console címek dumpolásához
 
-#### A cardridge-ekből a mentéseimet ki tudom rakni az SD kártyámra és visszafelé?
+#### A játék kártyákból a mentéseimet ki tudom rakni az SD kártyámra és visszafelé?
 Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t DSi-n és 3DS-en vagy a [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)-ot 3DS-en.
 
 #### Hogyan állítom be a TWiLight Menu++-ban a nyelvet?
@@ -61,7 +59,6 @@ Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/
 Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en keresztül betöltve) natívan futnak a konzol DS/DSi módjában. Csak a korábbi idők konzoljai kerülnek emulálásra, illetve részben a GBA (mivel egy része vagy az összes, mint például a grafika natívan fut).
 
 #### Milyen rendszereket támogat a TWiLight Menu++?
-
 Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Miért nem működik az érintő képernyő a sudokuhax-szal?

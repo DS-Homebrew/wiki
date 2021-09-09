@@ -13,9 +13,10 @@ description: Információk a Wi-Fi használatáról Nintendo DS-en
 Hotspotok használhatók, így nem szükséges megváltoztatnod a routered konfigurációját.
 
 ### Hotspot létrehozása
-Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS-kompatibilis hotspot-ot macOS és Linux számítógépekre. Ha Windows-on dolgozol használhatsz egy Linux live bootolást is.
+Találhatók útmutatók a GBATemp-en arról, hogyan hozz létre egy DS-kompatibilis hotspot-ot macOS és Linux számítógépekre. Ha Windows 10-et használsz, használhatod a Linux Live Boot-ot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### Nintendo DS WFC helyreállítás
 1. Indítsd el a Nintendo Wi-Fi Connection Setup-ot

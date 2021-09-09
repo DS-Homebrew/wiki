@@ -10,7 +10,7 @@ description: Hogyan készíts egyedi Unlaunch hátteret és telepítsd TWiLight 
 Előre elkészített Unlaunch háttereket találhatsz a [TWiLight Menu++ szkin oldalon](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egyedi háttérképpel rendelkezzen. Ez egy 256 x 192 GIF fájl kell legyen, a néhány korlátozással:
+A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egyedi háttérképpel és szöveg szín palettával rendelkezzen. Ez egy 256 x 192 GIF fájl kell legyen, a néhány korlátozással:
 - Csak az első képkocka kerül bemutatásra, nincs animált háttér
 - A fájlnak 15,472 bájtosnak, vagy annál kisebbnek kell lennie
 - A 31 színnél többel rendelkező GIF-ek esetén speciálisan készült paletta szükséges, hogy megelőzze a szöveg összetörését

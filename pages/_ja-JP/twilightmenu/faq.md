@@ -11,7 +11,7 @@ description: TWiLight Menu++のよくある質問とトラブルシューティ�
 もっとよくある質問ため、[GBAtempスレッド](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)にアクセスしてください。
 {:.alert .alert-info}
 
-#### TWiLight Menu++を起動する時に、3DS/2DSが黒い画面で動かなく、クラッシュする、電源を切るなどのはなぜですか？
+#### TWiLight Menu++を起動する時に、3DSが黒い画面で動かなく、クラッシュする、電源を切るなどのはなぜですか？
 TWL_FIRMは何らかの方法で破損している可能性があります。 このガイドに従って問題を解決してください：[ https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide](https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide)
 
 #### TWiLight Menu++を起動する時に、白い画面が表示されるを修正するにはどうすればいいですか？
@@ -25,10 +25,8 @@ Acekard（Wood UIとも呼ばれる）のテーマは、バグの動作とSDカ�
 #### ゲームを起動する時に、TWiLight Menu++が再起動したりGuru Meditation Errorを与えたりを修正するにはどうすればいいですか？
 TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を無効にする。
 
-#### SDカードからゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？
-- まず、[nds-bootstrapの互換性リスト](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0)を確認して、ゲームに互換性があることを確認してください
-- いくつかのチートは現時点でnds-bootstrapと互換性がないため、そのゲームのすべてのチートを無効にしましたをお試してください。<kbd class="l">L</kbd>を使って、ゲームのすべてのチートを無効にできます
-- 以前に機能した場合は、`sd:/_nds/nds-bootstrap/`で`fatTable`と`patchOffsetCache`フォルダ削除してください
+#### SDカードからDSゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？
+nds-bootstrapのよくある質問ページに、[SDカードからゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？](../nds-bootstrap/faq?faq=why-do-i-get-a-white-screen-when-trying-to-load-a-game-from-sd-card)を参照してください。
 
 #### チートはどうのように使いますか？
 `sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 最新のチートデータベースは、[DeadSkullzJrのデータベース](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/)です。
@@ -37,14 +35,14 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 あるいは、[r4cce](http://hp.vector.co.jp/authors/VA013928/soft.html)を使って独自のチートデータベースを作成できます。
 
 #### DSiテーマの上画面にカスタム画像を表示するにはどうすればいいですか？
-`sd:/_nds/TWiLightMenu/dsimenu/photos/`内のランダムな`.png`画像はメニューが読み込まれるたびに表示されます。
+`sd:/_nds/TWiLightMenu/dsimenu/photos/`内のランダムな`.png`画像はメニューが読み込まれるたびに表示されます。 該当する画像がない場合は、代わりにnds-bootstrapで撮影されたスクリーンショットが使用されます。
 
 - 画像は208x156以下である必要があります
 - エラーがある場合は、画像サイズのエラーの可能性が最も高いです。 サイズを小さくするには、[tinypng](https://tinypng.com)を使ってください
 
 #### ゲームを入手するにはどうすればよいですか？
 [Universal-DB](https://db.universal-team.net/ds)と[GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)から自作ゲームをダウンロードできます。 小売ゲームのダンプを取得するには：
-- DSでは、[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使ってGBAゲームをダンプでき、Slot-1フラッシュカートを持っている場合はDSゲームをダンプできます
+- DSでは、[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使ってGBAゲームをダンプでき、Slot-2フラッシュカートを持っている場合はDSゲームをダンプできます。 Slot-1フラッシュカードのみを持っていてDSゲームをダンプしたい場合は、 [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/)を使用できます。DSと互換性のあるWi-Fi接続とROMを受信する別のデバイスのFTPクライアントが必要です。
 - DSiでは、[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使ってDSゲームとDSiウェアをダンプできます
 - 3DSでは、[GodMode9](https://github.com/d0k3/GodMode9/releases)を使ってDSゲーム、DSiウェア、バーチァルコンソールのゲームをダンプできます
 
@@ -61,7 +59,6 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 いいえ、これはエミュレータではありません。 メニューとDSゲーム（nds-bootstrapを介して読み取り）は、本体のDS・DSiモードでネイティブに実行されます。 唯一のエミュレートされる本体は、過去の本体です。しかし、GBAは部分的です（グラフィクスのようないくつかの部分はネイティブに実行されている）
 
 #### TWiLight Menu++はどのシステムに対応ですか？
-
 [TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
 #### sudokuhaxからタッチ入力がうまくいかないのはなぜですか？

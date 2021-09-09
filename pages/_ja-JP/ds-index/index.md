@@ -1,9 +1,9 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: ds-index
-title: Nintendo DS Modding Index
-description: An explanation of all things DS modding
+title: ニンテンドーDSの改造インデックス
+description: DS改造のすべての説明
 ---
 
-Welcome to the Nintendo DS modding resources section. This will attempt to explain most things related to Nintendo DS modding as well as be a basic introduction to the NTR firmware of the Nintendo DS, the TWL firmware of the Nintendo DSi, and TWL_FIRM of the Nintendo 3DS.
+ニンテンドーDSの改造リソースセクションへようこそ。 これは、ニンテンドーDSの改造に関するほとんどのことを説明するとともに、ニンテンドーDSのNTRファームウェア、ニンテンドーDSiのTWLファームウェア、ニンテンドー3DSのTWL_FIRMの基本的な紹介になります。

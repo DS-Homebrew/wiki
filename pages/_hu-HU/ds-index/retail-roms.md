@@ -13,7 +13,7 @@ Az AP (Anti-Piracy) egy módja annak, hogy a fejlesztők a legális vásárláso
 - Az nds-bootstrap számára betölthető egy `.ips` fájl, annak érdekében, hogy, megkerüld az említett patcheket. Ez az `.ips` fájl az nds-bootstrap-on belül a RAM-ban kerül felhasználásra, így a ROM fájlok sértetlenek maradnak. Egy `.ips` fájl csomag automatikusan beágyazott a TWiLight Menu++-ba
 - A Wood R4-hez ezek a patchek beágyazottak a szoftverbe, így nem szükséges a ROM-ok módosítása
 
-Abban az esetben, ha nincs `.ips` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot az [nds-scene eszköz](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával.
+Abban az esetben, ha nincs `.ips` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot az [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával.
 
 ### Cloneboot
 A Cloneboot az, amikor egy játék elküldi saját betöltött ARM7 és ARM9 binárisát egy másik konzolra. Ez a DS Download Play-hez használt, az egykártyás több játékos játékokhoz. Nem az összes játék, ami támogatja az egykártyás többjátékos játékot használ cloneboot-ot azonban.

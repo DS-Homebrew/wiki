@@ -10,7 +10,7 @@ description: Comment créer des arrière-plans d'Unlaunch personnalisés et les 
 Vous pouvez trouver des fonds pour Unlaunch prémâchés sur le [site TWiLight Menu++ skins](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-En utilisant TWiLight Menu++, vous pouvez patcher l'installateur d'Unlaunch pour avoir une image d'arrière-plan personnalisée. Cela doit être un GIF de 256 x 192, avec quelques restrictions :
+Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. Cela doit être un GIF de 256 x 192, avec quelques restrictions :
 - Seule la première image sera montrée, pas d'arrière-plan animé
 - Le fichier doit être inférieur ou égal à 15 472 octets
 - Les GIF avec plus de 31 couleurs nécessitent des palettes spécialement conçues pour éviter de casser le texte

@@ -41,29 +41,38 @@ description: 如何操作TWiLight Menu++
 - 按住<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> 3秒: Dump RAM到 `sd:/_nds/nds-bootstrap` ，作为 `ramDump.bin`
 - 按住<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd> 两秒: 返回至TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>下</kbd> + <kbd>SELECT</kbd>: 打开游戏内菜单
-   - RAM 查看器
-      - <kbd>上</kbd>/<kbd>下</kbd>: 滚动
-      - <kbd>左</kbd>/<kbd>右</kbd>: 快速滚动
-      - <kbd class="face">A</kbd>: 进入RAM编辑器
-      - <kbd class="face">B</kbd>: 返回游戏内菜单
-      - <kbd class="face">Y</kbd>: 指定要跳转到的地址
-        - <kbd>上</kbd>/<kbd>下</kbd>: 增加/减少选定的值
-        - <kbd>左</kbd>/<kbd>右</kbd>: 选择值
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 返回到指定地址的 RAM 查看器/编辑器
-   - RAM 编辑器
-      - <kbd>上</kbd>/<kbd>下</kbd>/<kbd>左</kbd>/<kbd>右</kbd>: 选择一个值
-      - <kbd class="face">A</kbd>: 修改选中的值
-         - <kbd>上</kbd>/<kbd>下</kbd>: 增加/减少选定的值一个十六进制数
-         - <kbd>左</kbd>/<kbd>右</kbd>: 增加/减少选定的值十个十六进制数
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 完成值的修改
-      - <kbd class="face">B</kbd>: 返回RAM查看器
-      - <kbd class="face">Y</kbd>: 指定要跳转到的地址
-        - <kbd>上</kbd>/<kbd>下</kbd>: 增加/减少选定的值
-        - <kbd>左</kbd>/<kbd>右</kbd>: 选择值
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 返回到指定地址的 RAM 查看器/编辑器
-- The in-game menu is not accessible in DSi Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will instead exit the game
+   - <kbd class="r">R</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
+      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
+         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - 只有屏幕交换按钮组合才能在 B4DS 模式中工作，其他模式将无法工作
 - 返回 TWiLight 菜单+ 可能无法在一些老3DS上工作
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### 启动快捷方式
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.

@@ -13,7 +13,7 @@ tabs:
     manual: Manual
 ---
 
-Primero necesitas tener un Custom Firmware en la 3DS, consulta [3ds.hacks.guide](https://3ds.hacks.guide) para instalarlo
+You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}

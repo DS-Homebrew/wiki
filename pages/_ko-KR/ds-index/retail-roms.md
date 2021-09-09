@@ -13,7 +13,7 @@ description: 시판되는 DS 게임과 관련된 설명
 - nds-bootstrap에서는, `.ips` 파일을 불러와서, AP를 우회하는 패치를 적용할 수 있습니다. 이 `ips` 파일은 nds-bootstrap에 의하여 RAM에서 패치를 하므로, ROM 파일들은 그대로 남길 수 있습니다. `.ips` 파일 팩은 TWiLight Menu++에 포함되어 있습니다.
 - Wood R4에서는, 이 패치들이 소프트웨어 자체에 포함되어 있어, 특별한 행동을 할 필요는 없습니다.
 
-만약 당신의 ROM을 위한 `.ips` 파일이 없다거나, 당신의 소프트웨어가 ROM 패치를 안 하는 경우, 직접 ROM을 [nds-scene tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/)을 이용해서 수정해 볼 수도 있습니다.
+If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### CloneBoot
 CloneBoot는 게임이 직접 로드한 ARM7과 ARM9 바이너리를 다른 본체에 전송하는 것을 얘기합니다. 이는 단일 카드 멀티플레이를 위해 DS 다운로드 플레이에 사용됩니다. 다만, 단일 카드 멀티플레이를 지원하는 모든 게임이 cloneboot를 통한 것은 아닙니다.

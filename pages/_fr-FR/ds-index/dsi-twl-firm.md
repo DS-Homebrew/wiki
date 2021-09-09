@@ -13,11 +13,11 @@ Comme la plupart des avantages du Custom Firmware sont pour la Nintendo DSi et l
 - [Guide de Hacking 3DS](https://3ds.hacks.guide)
    - Commande Lightning : `mod 3ds`
    - Commande TWLHelper : `guide 3ds`
-   - Commande Kuriisu : `guide 3ds`
+   - Kurisu command: `guide 3ds`
 - [Guide de Hacking DSi](https://dsi.cfw.guide)
    - Commande Lightning : `mod dsi`
    - Commande TWLHelper : `guide dsi`
-   - Commande Kuriisu : `guide dsi`
+   - Kurisu command: `guide dsi`
 
 ### Vitesse du CPU
 La Nintendo DS était livrée avec un processeur 67 MHz en 2004, et la Nintendo DSi avec un processeur 133 MHz cinq ans plus tard. La plupart des jeux sur Nintendo DS ont été faits avant la sortie de la Nintendo DSi et en tant que tel, le seul processeur disponible était celui de 67 MHz. Certaines applications sont faites pour cette vitesse et, par conséquent, ne fonctionnent pas bien avec une vitesse plus élevée. La plupart des jeux, cependant, vont surpasser leur performance originale avec une vitesse plus élevée.
@@ -27,7 +27,7 @@ nds-bootstrap a une option TWL Clock Speed, mais il n'essaiera pas d'ajuster la 
 ### Menu Nintendo DSi
 Dans la version 1.4.0, les signatures RSA dans la liste blanche des Cartouches DS ne sont pas vérifiées. C'est une vulnérabilité qui peut être exploitée et qui vous permet d'accéder au processeur ARM9. Elle nécessite la version 1.4.0 (l'exploit a été corrigé dans les versions futures et n'existait pas dans les versions précédentes) et une flashcard avec une ROM modifiée.
 
-Il y a aussi un problème connu dans la façon dont le menu Nintendo DSi calcule l'espace libre qui peut causer une erreur lors de l'utilisation du menu qui ne vient pas de la NAND d'origine, Pour plus d'informations, consultez la [page de dépannage hiyaCFW](../hiyacfw/troubleshooting#the-free-space-bug).
+There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
 
 ### Accès Nintendo DSi Slot-1 & blocage
 L'accès Slot-1 est bloqué lors du lancement d'applications à partir du menu système, sauf si lesdites applications sont soit le lanceur Slot-1 lui-même, soit les paramètres du système. Afin de lancer normalement les cartouches slot-1 non lançables, vous devrez soit faire un exploit des paramètres système, soit installer Unlaunch. Sans l'un ou l'autre, vous ne pouvez pas lancer de flashcards non lançables et vous ne pouvez pas dumper de ROMs sur votre carte SD.

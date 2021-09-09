@@ -35,3 +35,4 @@ description: ニンテンドー3DSでTWiLight Menu++をワイドスクリーン�
 1. ワイドスクリーンがグリッチに見えないようにするには、TWLMenu++を起動する時に<kbd>START</kbd>または<kbd>SELECT</kbd>を長押ししない
 1. すべてのゲームがワイドスクリーン対応ではありません。 [ワイドスクリーン付きゲームのリストはここにある](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. このガイドに従ってワイドスクリーン対応のゲームを起動した後、TWL_FIRM（TWLMenu++のGUIを含む）のすべてでワイドスクリーンモードでなってしまう場合は、 `sd:/luma/sysmodules/`に`TwlBg.cxi`を削除して、TWiLight Menu++を[アンインストールして](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds)[再インストールして](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds)、以上のガイドに再従います
+1. ほとんどのワイドスクリーンパッチは、3D要素のみをワイドスクリーン用に調整する、2D要素（メニューなど）は引き延ばされますのみです

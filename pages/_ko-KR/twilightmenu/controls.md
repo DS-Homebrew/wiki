@@ -41,29 +41,38 @@ description: TWiLight Menu++의 조작법
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>아래</kbd> + <kbd class="face">A</kbd> 3초 동안 누름: RAM을 덤프하여 `sd:/_nds/nds-bootstrap`에 `ramDump.bin`파일로 저장
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>아래</kbd> + <kbd class="face">B</kbd> 2초 동안 누름: TWiLight Menu++로 돌아가기
 - <kbd class="l">L</kbd> + <kbd>아래</kbd> + <kbd>SELECT</kbd>: 게임 내 메뉴 열기
-   - RAM 뷰어
-      - <kbd>위</kbd>/<kbd>아래</kbd>: 스크롤
-      - <kbd>왼쪽</kbd>/<kbd>오른쪽</kbd>: 빠르게 스크롤
-      - <kbd class="face">A</kbd>: RAM 에디터 진입
-      - <kbd class="face">B</kbd>: 게임 내 메뉴로 돌아가기
-      - <kbd class="face">Y</kbd>: 이동할 주소 지정
-        - <kbd>위</kbd>/<kbd>아래</kbd>: 선택된 값을 올림/낮춤
-        - <kbd>왼쪽</kbd>/<kbd>오른쪽</kbd>: 값 선택
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 지정된 주소의 RAM 뷰어/에디터로 돌아가기
-   - RAM 에디터
-      - <kbd>위</kbd>/<kbd>아래</kbd>/<kbd>왼쪽</kbd>/<kbd>오른쪽</kbd>: 값 선택
-      - <kbd class="face">A</kbd>: 선택한 값 수정
-         - <kbd>위</kbd>/<kbd>아래</kbd>: 선택된 값을 1h만큼 올림/낮춤
-         - <kbd>위</kbd>/<kbd>아래</kbd>: 선택된 값을 10h만큼 올림/낮춤
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 값 수정 마치기
-      - <kbd class="face">B</kbd>: RAM 뷰어로 돌아가기
-      - <kbd class="face">Y</kbd>: 이동할 주소 지정
-        - <kbd>위</kbd>/<kbd>아래</kbd>: 선택된 값을 올림/낮춤
-        - <kbd>왼쪽</kbd>/<kbd>오른쪽</kbd>: 값 선택
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: 지정된 주소의 RAM 뷰어/에디터로 돌아가기
-- The in-game menu is not accessible in DSi Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will instead exit the game
+   - <kbd class="r">R</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
+      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
+         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - Only the screen swap button combo will work in B4DS mode, the others will not work
 - Returning to TWiLight Menu++ may not work on some O3DS models
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### 부팅 단축키
 아래는 TWiLight Menu++ 시작화면 실행중 또는, DSi 시작화면이 나온 즉시에 사용할 수 있는 단축키입니다.

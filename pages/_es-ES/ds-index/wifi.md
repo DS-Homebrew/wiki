@@ -13,9 +13,10 @@ description: Cómo usar el Wi-Fi de la Nintendo DS
 Se pueden usar puntos de acceso (hotspots), así no tendrás que cambiar los ajustes de tu router.
 
 ### Crear un punto de acceso
-Hay varias guías para crear puntos de acceso compatibles para la DS con macOS y Linux en GBAtemp. Si usas Windows puedes lanzar Linux desde un CD/USB.
+Hay varias guías para crear puntos de acceso compatibles para la DS con macOS y Linux en GBAtemp. If you are using Windows 10, you can use a Linux Live Boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### Restaurar CWF de Nintendo DS
 1. Abre la Configuración Wi-Fi de Nintendo

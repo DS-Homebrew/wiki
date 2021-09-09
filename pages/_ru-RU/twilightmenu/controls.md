@@ -41,29 +41,38 @@ description: Управление TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Вниз</kbd> + <kbd class="face">A</kbd> на 3 секунды: Дамп ОЗУ в `sd:/_nds/nds-bootstrap` под названием `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Вниз</kbd> + <kbd class="face">B</kbd> на 2 секунды: Вернуться в TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Вниз</kbd> + <kbd>SELECT</kbd>: Открыть внутриигровое меню
-   - Просмотр ОЗУ
-      - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>: Прокрутка
-      - <kbd>Влево</kbd>/<kbd>Вправо</kbd>: Быстрая прокрутка
-      - <kbd class="face">A</kbd>: Открыть редкатор ОЗУ
-      - <kbd class="face">B</kbd>: Вернуться в внутриигровое меню
-      - <kbd class="face">Y</kbd>: Указать адрес для перехода
-        - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>: Увеличить/уменьшить выбранное значение
-        - <kbd>Влево</kbd>/<kbd>Вправо</kbd>: Выбор значения
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Вернуться к просмотр/редактору ОЗУ по указанному адресу
-   - Редактор ОЗУ
-      - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>/<kbd>Влево</kbd>/<kbd>Вправо</kbd>: Выбор значения
-      - <kbd class="face">A</kbd>: Изменить выбранное значение
-         - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>: Увеличить/уменьшить значение на 1h
-         - <kbd>Влево</kbd>/<kbd>Вправо</kbd>: Увеличить/уменьшить значение на 10h
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Закончить редактирование значения
-      - <kbd class="face">B</kbd>: Вернуться к Просмотр ОЗУ
-      - <kbd class="face">Y</kbd>: Указать адрес для перехода
-        - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>: Увеличить/уменьшить выбранное значение
-        - <kbd>Влево</kbd>/<kbd>Вправо</kbd>: Выбор значения
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Вернуться к просмотр/редактору ОЗУ по указанному адресу
-- Внутриигровое меню недоступно в играх DSi Enhanced/Exclusive запущенных в DSi Mode, так что использование комбинации кнопок для его вызова приведёт к выходу из игры
+   - <kbd class="r">R</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
+      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
+         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - Комбинация кнопок для переключения экранов работает только в режиме B4DS
 - Возврат в TWiLight Menu++ может не работать на некоторых моделях O3DS
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### Шорткаты во время запуска TWiLight Menu++
 Они должны быть нажаты на заставке TWiLight Menu++, сразу после заставки Nintendo DSi.

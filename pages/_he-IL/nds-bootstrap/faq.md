@@ -9,33 +9,27 @@ description: שאלות ותשובות & פתרון בעיות עבור nds-boot
 
 #### למה אני מקבל מסך לבן כשאני מנסה להפעיל משחק מכרטיס הSD?
 - ראשית, בדקו את [רשימת התאימות של nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) ו-ודאו שהמשחק שלכם נתמך
-- נסו עם כל הצ'יטים מבוטלים למשחק זה, מאחר וחלק מהצ'יטים לא מותאמים לnds-bootstrap כרגע. ניתן להשתמש ב<kbd class="l">L</kbd> לבטל את כל הציטים למשחק מסויים
+- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> in the TWiLight Menu++ cheats menu to disable all cheats for a game
 - אם המשחק עבד בעבר, מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
+- Run the game with different settings, including changing the ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
+- It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv) If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues). Check the closed issues too in case there has already been an issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one
 
-#### פתרון בעיות עבור nds-bootstrap
-If you get issues with using the latest version of nds-bootstrap, here's how you can troubleshoot it.
-
-1. הריצו את המשחק עם הגדרות שונות, כולל שינוי ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA וכו'
-2. מחקו את התיקיה `fatTable` ואת התיקיה `patchOffsetCache` מתוך `sd:/_nds/nds-bootstrap/`
-3. רוב הסיכויים שזוהי לא בעיה רצינית; שאלו ב[שרת הDiscord](https://discord.gg/yD3spjv)
-
-אם השרת אומר שזאת בעיה של nds-bootstrap, בדקו אם המשחק לא דווח כבר בGitHub. Check the closed issues too in case there has already been an issue closed in preference a different one. אם אין אף בעיה בGitHub שמשוייכת למשחק, יצרו חדשה.
-
-בנוסף, וודאו שאתם מוסיפים את זה אל [רשימת התאימות](https://wiki.ds-homebrew.com/nds-bootstrap/testing) בGoogle Sheets.
+If no solution has been found at this point, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
 #### Why use nds-bootstrap over a regular flashcard?
-- רומים מתאימים נטענים ישירות לRAM, דבר המאפשר זמני טעינה מהירים אפילו יותר מקלטות רגילות
+- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal Game Cards
 - ניתן להגדיל את הVRAM memory bus ל32-bit
 - ניצול של המהירות שעון הנוספת של הDSi, המאפשר לביצועים טובים יותר בחלק מהמשחקים
 - שפרו את הצלילים במשחק עם 48 kHz
 - השתמשו במצב DSi, המאפשר פונקציות של DSi
-- באמצעות קלטות מסויימות, ניתן להשתמש בIR באפלקיציה שלכם
+- Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap הוא תוכנת קוד פתוח, כלומר מפתחים יוכלו תמיד לעדכן אותו לשיפור באגים ודברים נוספים, אפילו אם הפרויקט הופסק
 - קיימת אימלוציה של הDS Memory Expansion Pak, כך שמשחקים שדורשים את התוסף הזה יעבדו
 - החליפו את המסך העליון והתחתון במשחקים נתמכים בשביל משחקיות נוחה יותר, או במכשירים בהם מסך נשבר או הוסר
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### Donor ROMs
 Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.

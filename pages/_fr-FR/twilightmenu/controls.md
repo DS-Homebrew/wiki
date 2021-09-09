@@ -41,29 +41,38 @@ Celles-ci ne s'appliquent pas à DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> pendant 3 secondes : Copier la RAM vers `sd:/_nds/nds-bootstrap`, comme `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Bas</kbd> + <kbd class="face">B</kbd> pendant 2 secondes : Retour dans TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Bas</kbd> + <kbd>SELECT</kbd>: Ouvrir le menu en jeu
-   - Visionneuse de RAM
-      - <kbd>Up</kbd>/<kbd>Down</kbd>: Défilement
-      - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Défilement rapide
-      - <kbd class="face">A</kbd>: Entrer dans l'éditeur de RAM
-      - <kbd class="face">B</kbd>: Retour dans le menu en jeu
-      - <kbd class="face">Y</kbd>: Spécifiez une adresse à laquelle aller
-        - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmenter/Diminuer la valeur sélectionnée
-        - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez une valeur
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Retourner à la RAM Viewer/Editor à l'adresse spécifiée
-   - Éditeur de RAM
-      - <kbd>Haut</kbd> / <kbd>Bas</kbd> / <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionner une valeur
-      - <kbd class="face">A</kbd>: Modifier la valeur sélectionnée
-         - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmentez / Diminuez la valeur de 1h
-         - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Augmenter / Diminuer la valeur de 10h
-         - <kbd class="face">A</kbd> / <kbd class="face">B</kbd>: Terminer la modification de la valeur
-      - <kbd class="face">B</kbd>: Retourner à la visionneuse de RAM
-      - <kbd class="face">Y</kbd>: Spécifiez une adresse à laquelle aller
-        - <kbd>Haut</kbd> / <kbd>Bas</kbd>: Augmenter/Diminuer la valeur sélectionnée
-        - <kbd>Gauche</kbd> / <kbd>Droite</kbd>: Sélectionnez une valeur
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Retourner à la visionneuse ou l'éditeur de RAM à l'adresse spécifiée
-- Le menu en jeu n'est pas accessible dans les jeux DSi Enhanced/Exclusive en mode DSi, donc essayer d'utiliser le combo de boutons dans ces parties va à la place quitter le jeu
+   - <kbd class="r">R</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
+      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
+         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - Seul le combo de boutons d'échange d'écran fonctionnera en mode B4DS, les autres ne fonctionneront pas
 - Retourner sur TWiLight Menu++ peut ne pas fonctionner sur certains modèles O3DS
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### Raccourcis de démarrage
 Celles-ci devraient être pressées sur le menu TWiLight Menu++ écran de démarrage / à droite après l'écran de démarrage Nintendo DSi.

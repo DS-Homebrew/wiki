@@ -13,11 +13,11 @@ While most of the benefits of Custom Firmware are for the Nintendo DSi and the N
 - [Guía de Hackeo de 3DS](https://3ds.hacks.guide)
    - Comando de Lightning: `mod 3ds`
    - TWLHelper command: `guide 3ds`
-   - Kuriisu command: `guide 3ds`
+   - Kurisu command: `guide 3ds`
 - [Guía de Hackeo de DSi](https://dsi.cfw.guide)
    - Lightning command: `mod dsi`
    - TWLHelper command: `guide dsi`
-   - Kuriisu command: `guide dsi`
+   - Kurisu command: `guide dsi`
 
 ### Frecuencias de CPU
 The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with an 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
@@ -27,7 +27,7 @@ nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust th
 ### Nintendo DSi Menu
 In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
-There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see the [hiyaCFW troubleshooting page](../hiyacfw/troubleshooting#the-free-space-bug).
+There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
 
 ### Acceso y bloqueo del Slot-1 de Nintendo DSi
 Slot-1 access is blocked when launching applications from the system menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable Slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.

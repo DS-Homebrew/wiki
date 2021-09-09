@@ -13,9 +13,10 @@ description: Informacje o korzystaniu z Wi-Fi na Nintendo DS
 Da się używać hotspotów, więc nie musisz zmieniać konfiguracji swojego routera.
 
 ### Tworzenie hotspotu
-Na stronie GBAtemp znajdują się poradniki dotyczące tworzenia hotspotów kompatybilnych z DS na komputerach z systemami macOS i Linux. Jeśli korzystasz systemu Windows, możesz użyć linuksowego live boot.
+Na stronie GBAtemp znajdują się poradniki dotyczące tworzenia hotspotów kompatybilnych z DS na komputerach z systemami macOS i Linux. If you are using Windows 10, you can use a Linux Live Boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### Przywracanie Nintendo DS WFC
 1. Uruchom Nintendo Wi-Fi Connection Setup
