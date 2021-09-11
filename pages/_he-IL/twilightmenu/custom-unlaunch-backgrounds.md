@@ -10,7 +10,7 @@ description: כיצד ליצור רקעים מותאמים אישית עבור U
 תוכלו למצוא רקעים מוכן עבור Unlaunch ב[ אתר הסקינים של TWiLight Menu++](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-באמצעות TWiLight Menu++ ניתן לעשות פאטץ להתקנה של Unlaunch על מנת לקבל תמונת רקע מותאמת אישית. היא חייבת להיות GIF בגודל 256x192, עם מספר מגבלות:
+Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. היא חייבת להיות GIF בגודל 256x192, עם מספר מגבלות:
 - רק הפריים הראשון יוצג, ללא רקעים מונפשים
 - גודל הקובץ חייב להיות קטן או שווה ל15,472 בתים
 - קבצי GIF עם יותר מ31 צבעים דורשים פלטת צבעים מיוחדת על מנת להמנע מלהרוס את הטקסט

@@ -9,33 +9,27 @@ description: FAQ & Troubleshooting for nds-bootstrap
 
 #### Pourquoi est-ce que je reçois un écran blanc en essayant de charger un jeu à partir de la carte SD ?
 - Tout d'abord, vérifiez la [liste de compatibilité nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) et assurez-vous que votre jeu est compatible
-- Essayez avec tout les codes de triche désactivées pour ce jeu car certains codes ne sont pas compatibles avec nds-bootstrap pour le moment, vous pouvez utiliser <kbd class="l">L</kbd> pour désactiver tous les triches pour un jeu
+- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> in the TWiLight Menu++ cheats menu to disable all cheats for a game
 - If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+- Run the game with different settings, including changing the ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
+- It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv) If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues). Check the closed issues too in case there has already been an issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one
 
-#### nds-bootstrap troubleshooting
-If you get issues with using the latest version of nds-bootstrap, here's how you can troubleshoot it.
-
-1. Run the game with different settings, including changing the ARM9 CPU Speed, DS/DSi Mode, sound quality, Card Read DMA, etc
-2. Supprimez les dossiers `fatTable` et `patchOffsetCache` dans `sd:/_nds/nds-bootstrap/`
-3. Ce n'est probablement pas un si gros problème ; demandez sur le serveur [Discord](https://discord.gg/yD3spjv)
-
-If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub. Check the closed issues too in case there has already been an issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one.
-
-Also, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
+If no solution has been found at this point, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
 #### Why use nds-bootstrap over a regular flashcard?
-- Certaines ROMs compatibles sont chargées en RAM, permettant ainsi des temps de chargement plus rapides que même les cartouches normales
+- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal Game Cards
 - Vous pouvez étendre la bus mémoire VRAM à 32 bits
 - Utilize the DSi's additional CPU speed, allowing for better performance in some games
 - Améliorez votre son avec 48 kHz
 - Utiliser le mode DSi pour les fonctionnalités de DSi
-- En utilisant certaines cartouches, vous pouvez utiliser l'IR dans votre application
+- Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### Donor ROMs
 Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.

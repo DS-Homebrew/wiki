@@ -41,29 +41,38 @@ description: שליטה ומקשים עבור TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>למטה</kbd> + <kbd class="face">A</kbd> למשך 3 שניות: חלץ את הRAM אל `sd:/_nds/nds-bootstrap`, בתור `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>למטה</kbd> + <kbd class="face">B</kbd> למשך 2 שניות: חזרה לTWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>למטה</kbd> + <kbd>SELECT</kbd>: פתח את התפריט בזמן משחק
-   - צופה RAM
-      - <kbd>למעלה</kbd>/<kbd>למטה</kbd>: גלילה
-      - <kbd>שמאלה</kbd>/<kbd>ימינה</kbd>: גלילה מהירה
-      - <kbd class="face">A</kbd>: הכנס אל עורך הRAM
-      - <kbd class="face">B</kbd>: צא מהתפריט בזמן משחק
-      - <kbd class="face">Y</kbd>: ציין כתובת לקפוץ אליה
-        - <kbd>למעלה</kbd>/<kbd>למטה</kbd>: הגדל/הפחת את הערך הנבחר
-        - <kbd>שמאל</kbd>/<kbd>ימין </kbd>: בחר ערך
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: חזור אל צופה/עורך הRAM בכתובת נבחרת
-   - עורך הRAM
-      - <kbd>למעלה</kbd>/<kbd>למטה</kbd>/<kbd>שמאלה</kbd>/<kbd>ימינה</kbd>: בחר ערך
-      - <kbd class="face">A</kbd>: שנה ערך נבחר
-         - <kbd>למעלה</kbd>/<kbd>למטה</kbd>: הגדל/הפחת את הערך הנבחר ב1h
-         - <kbd>שמאלה</kbd>/<kbd>ימינה</kbd>: הגדל/הפחת את הערך הנבחר ב1h
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: סיים לשנות ערך
-      - <kbd class="face">B</kbd>: חזור אל צופה הRAM
-      - <kbd class="face">Y</kbd>: ציין כתובת לקפוץ אליה
-        - <kbd>למעלה</kbd>/<kbd>למטה</kbd>: הגדל/הפחת את הערך הנבחר
-        - <kbd>שמאל</kbd>/<kbd>ימין </kbd>: בחר ערך
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: חזור אל צופה/עורך הRAM בכתובת נבחרת
-- התפריט בתוך משחק לא נגיש במשחקי DSi Enhanced/Exclusive הרצים במצב DSi, ניסיון להשתמש בשילוב הכפתורים במשחקים אלו יגרום ליציאה מהמשחק
+   - <kbd class="r">R</kbd>: Advance by one frame
+   - Screenshot
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
+      - <kbd class="face">A</kbd>: Save screenshot
+      - <kbd class="face">B</kbd>: Return to in-game menu
+   - RAM Viewer
+      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
+      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
+      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
+      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
+      - <kbd class="face">A</kbd>: Enter RAM Editor
+      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+   - RAM Editor
+      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+      - <kbd class="face">A</kbd>: Modify selected value
+         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
+         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
+         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
+      - <kbd class="face">B</kbd>: Return to RAM Viewer
+      - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
 - שילוב המקשים להחלפת המשחקים יעבוד במצב B4DS, האחרים לא יעבדו
 - חזרה לTWiLight Menu++ עשויה לא לעבוד על חלק מדגמי הO3DS
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 
 #### קיצורי דרך בהפעלה
 על כפתרים אלו צריך ללחוץ במהלך תמונת ההפעלה של TWiLight Menu++ / מיד לאחר תמונת ההפעלה של Nintendo DSi.

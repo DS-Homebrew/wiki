@@ -13,12 +13,12 @@ tabs:
     manual: crwdns20838:0crwdne20838:0
 ---
 
-crwdns15676:0crwdne15676:0
+crwdns26559:0crwdne26559:0
 crwdns15678:0{:.alert .alert-info}crwdne15678:0
 
 crwdns16372:0{% capture tab-working-camera %}crwdne16372:0
 1. crwdns14788:0crwdne14788:0
-1. crwdns14794:0crwdne14794:0<br> ![crwdns14792:0crwdne14792:0](crwdns14790:0crwdne14790:0)
+1. crwdns14794:0crwdne14794:0<br> ![crwdns14792:0crwdne14792:0](crwdns26561:0crwdne26561:0)
 1. crwdns14796:0crwdne14796:0
    - crwdns14798:0crwdne14798:0
 1. crwdns14800:0crwdne14800:0

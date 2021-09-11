@@ -11,7 +11,7 @@ description: FAQ и устранение неполадок для TWiLight Menu
 Больше FAQ вы можете найти в [теме на GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Почему моя 3DS/2DS зависает с чёрным экраном, вылетает, выключается, и т.д. когда я запускаю TWiLight Menu++?
+#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
 Возможно TWL_FIRM повреждён. Следуйте этой инструкции чтобы исправить проблему: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Как мне исправить проблему зависания на белом экране при запуске TWiLight Menu++?
@@ -20,15 +20,13 @@ description: FAQ и устранение неполадок для TWiLight Menu
 - Если и это не сработает, попробуйте другую SD карту
 
 #### Где тема Acekard/Wood UI?
-Тема acekard (также называемая Wood UI) была удалена из-за ошибок, вызвавших повреждение SD-карты. Ожидайте исправления. Прогресс по возвращению этой темы можно найти в [этом PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Ожидайте исправления. Прогресс по возвращению этой темы можно найти в [этом PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 
-#### Почему приставка зависает на белом экране когда я пытаюсь запустить игру с SD карты?
-- Для начала, проверьте [список совместимости nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) и убедитесь что ваша игра совместима
-- Попробуйте запустить игру с полностью отключёнными читами, т.к. не все читы совместимы с nds-bootstrap на данный момент. Вы можете использовать <kbd class="l">L</kbd> чтобы отключить все читы для игры
-- Если игра изначально работала, удалите папки `fatTable` и `patchOffsetCache` в `sd:/_nds/nds-bootstrap/`
+#### Why do I get a white screen when trying to load a DS game from SD card?
+See [Why do I get a white screen when trying to load a game from SD card?](../nds-bootstrap/faq?faq=why-do-i-get-a-white-screen-when-trying-to-load-a-game-from-sd-card) on the nds-bootstrap FAQ page.
 
 #### Как использовать читы?
 You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
@@ -37,18 +35,18 @@ You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nd
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
 #### How do I show a custom picture on the top screen of the DSi theme?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded.
+A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - The images(s) must be no bigger than 208x156
 - If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
 
 #### How do I get games?
 You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
-- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcard, DS games
+- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
-#### Can I get the save files from my game cards onto my SD card or vice versa?
+#### Can I get the save files from my Game Cards onto my SD card or vice versa?
 Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
 
 #### How do I change TWiLight Menu++'s language?
@@ -61,7 +59,6 @@ Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
 #### What systems does TWiLight Menu++ support?
-
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Why isn't touch input working on sudokuhax?

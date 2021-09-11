@@ -14,7 +14,7 @@ description: 如何在 Nintendo 3DS 中让 TWiLight Menu++ 使用宽屏
 - 请确保 Luma 的 `boot.firm` 位于 SD 卡的根目录，这样才能正常工作
 
 ### 安装
-1. 下载 [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) 然后复制`TWPatch.cia` 到SD卡中 ([GBATemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. 使用 FBI 安装 `TWPatch.cia`
    - 您也可以使用 Universal-Updater 来安装 TWPatch，以替代前两步
 1. 返回主菜单并启动 TWPatch
@@ -35,3 +35,4 @@ description: 如何在 Nintendo 3DS 中让 TWiLight Menu++ 使用宽屏
 1. 启动TWLMenu++时不要按住 <kbd>START</kbd> 或 <kbd>SELECT</kbd> 不然宽屏会看起来很奇怪！
 1. 并非每个游戏都可以使用宽屏补丁。 [我们创建了一个宽屏兼容游戏的列表](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. 如果在遵循指南，启动宽屏游戏后，所有 TWL_FIRM (包括 TWLMenu++ GUI) 都卡在宽屏, 删除位于 `sd:/luma/sysmodules/`的 `TwlBg.cxi` 然后 [卸载](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) 并且 [重装](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, 然后重做教程
+1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched

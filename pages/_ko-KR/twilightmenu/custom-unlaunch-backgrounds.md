@@ -10,7 +10,7 @@ description: Unlaunch 배경화면을 만들고 TWiLight Menu++를 이용하여 
 You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image. This needs to be a 256 x 192 GIF, with a few restrictions:
+Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. This needs to be a 256 x 192 GIF, with a few restrictions:
 - 1번째 프레임만이 보일 것이며, 배경은 움직이지 말아야 합니다.
 - 파일은 15472바이트 이하여야 합니다.
 - 31 컬러 이상의 GIF는 글씨가 깨짐을 방지하기 위하여 팔레트를 직접 만들어야 합니다.

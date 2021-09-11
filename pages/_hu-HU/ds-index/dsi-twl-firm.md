@@ -13,11 +13,11 @@ Habár a legtöbb előny az egyedi firmware a Nintendo DSi és Nintendo 3DS csal
 - [3DS Hacking Guide](https://3ds.hacks.guide)
    - Lightning parancs: `mod 3ds`
    - TWLHelper parancs: `guide 3ds`
-   - Kuriisu parancs: `guide 3ds`
+   - Kurisu parancs: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
    - Lightning parancs: `mod dsi`
    - TWLHelper parancs: `guide dsi`
-   - Kuriisu parancs: `guide dsi`
+   - Kurisu parancs: `guide dsi`
 
 ### CPU sebességek
 A Nintendo DS egy 67 MHz-es processzorral került szállításra 2004-ben, a Nintendo DSi shipped pedig egy 133 MHz processzorral öt év múlva. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67 MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és ennek eredményeként nem fog jól működni magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.
@@ -27,7 +27,7 @@ Az nds-bootstrap rendelkezik a TWL Clock Speed opcióval, de nem próbálja meg 
 ### Nintendo DSi Menu
 Az 1.4.0 verzióban az RSA aláírások a a DS Game Card fehérlistában nem ellenőrzöttek. Ez a sérülékenység támadható, és lehetővé teszi a hozzáférés átvételét az ARM9 processzor felett. 1.4.0 verzióra van szüksége (a későbbi verziókban javításra került és nem létezett a korábbi verziókban) és egy flashcard-ra egy módosított ROM-mal.
 
-Továbbá találhatü egy ismert hiba a Nintendo DSi Menu-ben arról, hogyan számolja a szabad területet, ami hibát okozhat, ha a menüt nem az eredeti NAND-ról használják, további információért látogasd meg a [hiyaCFW hibaelhárítás oldalt](../hiyacfw/troubleshooting#the-free-space-bug).
+Továbbá található egy ismert hiba a Nintendo DSi Menu-ben arról, hogyan számolja a szabad területet, ami hibát okozhat, ha a menüt nem az eredeti NAND-ról használják, további információért látogasd meg a [hiyaCFW GYIK & hibaelhárítás](../hiyacfw/faq#the-free-space-bug) oldalt.
 
 ### Nintendo DSi Slot-1 hozzáférés & letiltás
 A Slot-1 hozzáférés blokkolt, amikor alkalmazásokat indít a System Menu-ből, kivéve ha az említett alkalmazás a Slot-1 launcher maga vagy a System Settings. Ahhoz, hogy egy normálisan indíthatatlan Slot-1 cartridge-t indíts, szükséged van egy System Settings exploitra vagy egy Unlainch telepítésre. Ezek bármelyike nélkül, nem tudsz indítani indíthatatlan flashcard-ot és nem tudsz dump-olni ROM-ot az SD kártyádra.

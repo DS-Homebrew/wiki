@@ -13,9 +13,10 @@ description: מידע על שימוש בWi-FI על הנינטנדו DS
 ניתן להשתמש בנקודות גישה/נקודות חמות, כך שלא צריך לשנות את ההגדרות של הראוטר שלכם.
 
 ### יצירת נקודה חמה
-ישנם מדריכים על יצירת נקודות חמות המתאימות למשחקי DS על מחשבי macOS וLinux בGBAtemp. אם אתם בWindows אתם יכולים להשתמש בLinux live boot.
+ישנם מדריכים על יצירת נקודות חמות המתאימות למשחקי DS על מחשבי macOS וLinux בGBAtemp. If you are using Windows 10, you can use a Linux Live Boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### שחזור Nintendo DS WFC
 1. הפעילו את הNintendo Wi-Fi Connection Setup

@@ -34,7 +34,7 @@ Ha azt a kernelt szeretnéd használni, amit a flashcard gyártó adott, a rends
 
 Azonban a kernelek, amik ezekkel a kártyákkal érkeznek, alapvetően problémásak, és javasolt a cseréjük. Hálás dolog, hogy harmadik fél fejlesztők készítettek olyan alternatívákat, amit használhatsz:
 
-- [YSmenu - menu + játék betöltő](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) - Habár nem rendelkezik egy egyediesíthető mindent egyben menü előnyeivel, a játéktöltőnek sokkal jobb a kompatibilitása és rendelkezik támogatással az action-replay csalásokhoz
+- [YSmenu - menu + játék betöltő](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) - Habár nem rendelkezik egy egyediesíthető mindent egyben menü előnyeivel, a játéktöltőnek sokkal jobb a kompatibilitása és rendelkezik támogatással az action-replay csalásokhoz
 - [TWiLight Menu++ nds-bootstrap-pal](../twilightmenu/installing-flashcard) - Rendelkezik egyediesíthető mindent egyben menüvel, és támogatja a csalásokat, de a B4DS módban (a mód amiben használt, amikor nem rendelkezik DSi képességekkel) gyenge kompatibilitással bír és néhány játéknak szüksége van a Memory Expansion Pak-re
 - [TWiLight Menu++ YSmenu-vel](../twilightmenu/installing-flashcard) - Egyediesíthető mindent egyben menü, magas kompatibilitással, de csalás támogatás nélkül
 

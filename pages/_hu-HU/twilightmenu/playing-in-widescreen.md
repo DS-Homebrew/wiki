@@ -14,7 +14,7 @@ Nintendo 2DS vagy 3DS konzolt igényel.
 - Ellenőrizd, hogy a Luma `boot.firm` -je megtalálható-e az SD kártya gyökerében, ahhoz, hogy ez működjön
 
 ### Telepítés
-1. Töltsd le a [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)-et és másold a `TWPatch.cia`-t az SD kártyádra ([GBATemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Töltsd le a [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)-et és másold a `TWPatch.cia`-t az SD kártyádra ([GBAtemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Telepítsd a `TWPatch.cia`-t az FBI-jal
    - Használhatod az Universal-Updater-t is a TWPatch telepítéséhez a korábbi két lépés helyett
 1. Térj vissza a home menübe és indítsd el a TWPatch-ot
@@ -35,3 +35,4 @@ Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 1. Ne tartsd nyomva a <kbd>START</kbd> vagy <kbd>SELECT</kbd> gombokat, amikor indítod a TWLMenu++-t, ha nem szeretnéd, hogy a széles képernyő hibásan nézzen ki
 1. Nem minden játék széles képernyő kompatibilis. [Itt található a széles képernyőt támogató játékok listája](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. Ha a széles képernyős módban ragadtál minden TWL_FIRM-ben (beleértve TWLMenu++ GUI-t) ezen útmutató követése után és egy széles képernyő kompatibilis játékot futtatva, töröld a `TwlBg.cxi`-t a `sd:/luma/sysmodules/` mappából és [távolítsd el](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) majd [telepítsd újra](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) a TWiLight Menu++-t, és kövesd újra a fenti lépéseket
+1. A legtöbb széles képernyős játék csak a 3D elemeket igazítja széles képernyőre, a 2D elemek (mint például a menük) csak nyújtásra kerülnek

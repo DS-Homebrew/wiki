@@ -13,9 +13,10 @@ description: 닌텐도 DS에서 Wi-Fi를 사용하는 방법에 대한 정보
 핫스팟은 사용 가능하므로, 라우터 설정을 바꾸지 않아도 됩니다.
 
 ### Creating a hotspot
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. If you're on Windows, you can use a Linux live boot.
+There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp. If you are using Windows 10, you can use a Linux Live Boot.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
+- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
 
 ### Nintendo DS WFC restoration
 1. Launch Nintendo Wi-Fi Connection Setup

@@ -34,7 +34,7 @@ Jeśli chcesz używać domyślnego kernelu, który został dodany przez producen
 
 Jednak kernele, które są dostarczane z tymi kartami są fundamentalnie wadliwe i lepiej jest je całkowicie wymienić. Na szczęście programiści z innych firm stworzyli alternatywne rozwiązania, z których możesz skorzystać:
 
-- [YSmenu - menu + game loader](https://www.dropbox.com/sh/egadrhxj8gimu5t/AACv2KqWmeXEHkxoYRluobxha?dl=0) - Chociaż nie ma zalet konfigurowalnego menu all-in-one, game loader ma znacznie lepszą kompatybilność z cheatami action-replay
+- [YSmenu - menu + game loader](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) - Although it does not have the advantage of a customizable all-in-one menu, the game loader has far better compatibility with support for action-replay cheats
 - [TWiLight Menu++ with nds-bootstrap](../twilightmenu/installing-flashcard) - Has a customizable all-in-one menu and supports cheats, but its B4DS mode (the mode used when it doesn't have the DSi's capabilities) has weak compatibility, some games even requiring the Memory Expansion Pak
 - [TWiLight Menu++ with YSmenu](../twilightmenu/installing-flashcard) - Customizable all-in-one menu with high compatibility, but lacks cheat support
 
