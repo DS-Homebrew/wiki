@@ -23,7 +23,7 @@ Windows cannot create a compatible hotspot, so Windows users will need to boot i
 #### Other methods
 If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
 - [Nintendo Wi-Fi USB Connector](https://gbatemp.net/threads/575631/)
-  - While this can still be used, it is not recommended because it requires Windows XP or Windows 7
+  - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
   - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
 - Changing router settings to be DS-compatible
   - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
@@ -31,7 +31,7 @@ If you cannot create a DS-compatible hotspot using the above methods, you may be
 - Wi-Fi extenders
 
 #### Settings
-If you are setting up a network to be DS-compatible, it must meet the following specifications.
+If you are setting up a network to be DS-compatible, it must meet the following specifications:
 - WEP or Open (none) security
 - 2.4 GHz wireless frequency
 - 802.11b wireless mode
