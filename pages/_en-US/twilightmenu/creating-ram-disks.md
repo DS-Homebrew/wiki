@@ -7,6 +7,8 @@ title: Creating RAM Disks
 description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
 ---
 
+Some DS homebrew are incapable of properly accessing the SD card filesystem. Because of this, it may be necessary to load a standalone filesystem into the RAM containing the necessary files for your homebrew in order for it to work.
+
 The software used here requires the Windows operating system.
 {:.alert .alert-info}
 
