@@ -62,3 +62,5 @@ Decimal:
 - "Cartridge" should be be used for standard GBA cartridges
 - "Game Card" should be capitalized
 - "3DS" should be used when referring to the family of systems that includes the 2DS
+- "DS-Homebrew" (our GitHub organization) should always be written with the hyphen and capital DS and H in homebrew
+   - "DS homebrew" (homebrew on the DS) shouldn't have a hyphen and should follow normal capitalization rules for the H in homebrew
