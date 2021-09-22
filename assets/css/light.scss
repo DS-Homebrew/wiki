@@ -26,7 +26,7 @@ $active-accordian-header-color: #0c63e4;
 $active-accordian-header-bg-color: #e7f1ff;
 
 // Cards
-$card-background: var(--main-bg);
+$card-background: --main-bg;
 $card-edges-background: rgba(0,0,0,.03);
 
 // Modal
