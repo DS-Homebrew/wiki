@@ -8,7 +8,7 @@ description: מידע לגבי הומברו על הנינטנדו DS
 ---
 
 ### פיתוח
-פיתוח הומברו עבור הNintendo DS לרוב נעשה באמצעות כלים של devkitPro, כמו devkitARM, libnds וlibfat. אך קיימת אפשרות להשתמש בתוכנות חלופיות:
+Developing Nintendo DS homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. אך קיימת אפשרות להשתמש בתוכנות חלופיות:
 
 - **SD card libraries:** [libfat](https://github.com/devkitPro/libfat) is included in libnds and generally recommended, [libslim](https://github.com/DS-Homebrew/libslim/) can sometimes work better but is unstable at times
 - **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended, however [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead

@@ -38,7 +38,7 @@ description: Contrôles pour utiliser TWiLight Menu++
 #### ROMs DS (avec nds-bootstrap)
 Celles-ci ne s'appliquent pas à DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Haut</kbd> + <kbd class="face">X</kbd> pendant 1 seconde : Inverser les écrans
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> pendant 3 secondes : Copier la RAM vers `sd:/_nds/nds-bootstrap`, comme `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Bas</kbd> + <kbd class="face">B</kbd> pendant 2 secondes : Retour dans TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Bas</kbd> + <kbd>SELECT</kbd>: Ouvrir le menu en jeu
    - <kbd class="r">R</kbd> : Avancer d’une frame
@@ -68,11 +68,10 @@ Celles-ci ne s'appliquent pas à DSiWare.
         - <kbd>Haut</kbd>/<kbd>Bas</kbd> : Augmenter/diminuer la valeur sélectionnée
         - <kbd>Gauche</kbd>/<kbd>Droite</kbd> : Sélectionner une valeur
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd> : Retourner à la visionneuse/l'éditeur de RAM à l'adresse spécifiée
-- Le menu du jeu n'est pas accessible dans les jeux DSi-Enhanced/Exclusive fonctionnant en mode DSi ; toute tentative d'utilisation de la combinaison de boutons dans ces jeux ne donnera rien
-- Seul la combinaison de boutons de permutation d'écran fonctionnera en mode B4DS, les autres ne fonctionneront pas
-- Retourner sur TWiLight Menu++ peut ne pas fonctionner sur certains modèles O3DS
-- La combinaison de boutons pour ouvrir le menu en jeu peut être modifiée dans les paramètres de TWiLight Menu++
-- Les captures d'écran sont enregistrées dans `sd:/_nds/nds-bootstrap/screenshots.tar`. Ce fichier peut être ouvert à l'aide d'un visualiseur d'archives tel que [7-Zip](https://www.7-zip.org/)
+- Returning to TWiLight Menu++ may not work on some O3DS models
+- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
+- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
+- Dumping RAM and taking screenshots are currently not possible in B4DS mode
 
 #### Raccourcis de démarrage
 Celles-ci devraient être pressées sur le menu TWiLight Menu++ écran de démarrage / à droite après l'écran de démarrage Nintendo DSi.

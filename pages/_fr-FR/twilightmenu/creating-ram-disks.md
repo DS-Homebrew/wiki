@@ -7,12 +7,17 @@ title: Création de disques de RAM
 description: Comment créer des disques en RAM pour utiliser les anciens homebrew DS avec TWiLight Menu++
 ---
 
-Vous n'avez pas besoin de suivre cela si vous utilisez un linker.
+Some DS homebrew are incapable of properly accessing the SD card filesystem. Because of this, it may be necessary to load a standalone filesystem into the RAM containing the necessary files for your homebrew in order for it to work.
+
+The software used here requires the Windows operating system.
 {:.alert .alert-info}
 
-Pour créer un disque RAM, téléchargez [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (cliquez sur `Download Software`), et suivez les instructions ci-dessous.
+You do not need to follow this if you're using a flashcard.
+{:.alert .alert-info}
 
-Instructions par @Dakkon7, modifiées par RocketRobz :
+To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
+
+Instructions by Dakkon7, modified by Rocket Robz:
 
 1. Lancez RAMDisk
 1. Cliquez sur **View** -> **Advanced**
@@ -22,8 +27,11 @@ Instructions par @Dakkon7, modifiées par RocketRobz :
 1. Cliquez sur `Start RAMDisk`, et une nouvelle fenêtre pour votre .img devrait apparaître
 1. Placez n'importe quel fichier et/ou dossier que le homebrew attend là-bas, et/ou le(s) fichier(s) que vous voulez utiliser
 1. Dans le programme RAMDisk, cliquez sur `Save Disk Image Now`
-1. Enregistrer `romname.img` dans un dossier appelé `ramdisks` à l'emplacement du fichier .nds
+1. Save `romname.img` to the `ramdisks` folder in the .nds file location. If it does not exist already, create it
 1. Cliquez sur `Stop RAMDisk` lorsque vous avez terminé
-1. Dans TWiLight Menu++, ouvrez les paramètres par jeu pour votre homebrew
+1. In TWiLight Menu++, open the per-game settings for your homebrew
 1. Mettez le disque de RAM au disque 0
 1. Lancez votre homebrew, et il devrait lire votre disque RAM
+
+If you wish to use the other RAM disk slots for a single homebrew application, use the `.img1` extension for RAM disk slot 1, and so on.
+{:.alert .alert-info}

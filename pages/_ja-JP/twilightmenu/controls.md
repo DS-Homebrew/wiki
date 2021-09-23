@@ -38,7 +38,7 @@ description: TWiLight Menu++を使うためのコントロール
 #### DS(i) ROM（nds-bootstrapを使って）
 これらはDSiウェアには適用されません。
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>上</kbd> + <kbd class="face">X</kbd>を1秒間押して：画面を入れ替え
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">A</kbd>を3秒間押して：`ramDump.bin`として` sd:/_nds/nds-bootstrap`にRAMをダンプする
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">A</kbd>を2秒間押して：`ramDump.bin`として` sd:/_nds/nds-bootstrap`にRAMをダンプする
 - 2秒ために<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd>：TWiLight Menu++に戻る
 - <kbd class="l">L</kbd> + <kbd>下</kbd> + <kbd>SELECT</kbd>：ゲーム内のメニューを開く
    - <kbd class="r">R</kbd>：1フレーム分進む
@@ -68,11 +68,10 @@ description: TWiLight Menu++を使うためのコントロール
         - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
         - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
         - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
-- ゲーム内のメニューはDSi対応・専用のゲームではアクセスできませんため、そのゲームにホットキーを使おうとしても何もしません
-- B4DSモードで画面入れ替えのみが動作します、他のボタンコンボは動作しません
 - TWiLight Menu++に戻ると、一部の古い3DSモデルでは動作しない可能性があります
 - ゲーム内メニューを開くボタンの組み合わせは、TWiLight Menu++の設定で変更できます
 - スクリーンショットは`sd:/_nds/nds-bootstrap/screenshots.tar`に保存されます。 このファイルは、[7-Zip](https://sevenzip.osdn.jp)などのアーカイブビューアを使用して開くことができます
+- B4DSモードでは、RAMのダンプとスクリーショットの撮影ができません
 
 #### 起動時のショートカット
 これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。

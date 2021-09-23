@@ -25,3 +25,5 @@ BIOS를 아래 체크섬과 비교하여 제대로 된 덤프인지 식별할 �
 **SHA1:** `300c20df6731a33952ded8c436f7f186d25d3492`
 
 **SHA256:** `fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570`
+
+If you don't know how to obtain a file checksum, you can use an [online checksum calculator](https://emn178.github.io/online-tools/crc32_checksum.html).

@@ -7,12 +7,17 @@ title: RAM 디스크 생성하기
 description: TWiLight Menu++가 설치된 오래된 버전의 DS Homebrew를 이용해 RAM 디스크를 만드는 방법
 ---
 
-Flashcard를 사용중이라면 하지 않아도 됩니다.
+Some DS homebrew are incapable of properly accessing the SD card filesystem. Because of this, it may be necessary to load a standalone filesystem into the RAM containing the necessary files for your homebrew in order for it to work.
+
+The software used here requires the Windows operating system.
+{:.alert .alert-info}
+
+You do not need to follow this if you're using a flashcard.
 {:.alert .alert-info}
 
 To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
-설명: @Dakkon7, 수정: RocketRobz:
+Instructions by Dakkon7, modified by Rocket Robz:
 
 1. RAMDisk를 실행합니다.
 1. **View** -> **Advanced** 순으로 클릭합니다.
@@ -22,8 +27,11 @@ To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/product
 1. `Start RAMDisk`를 클릭하면, 사용자의 .img파일을 위한 새로운 창이 뜰 것입니다.
 1. Homebrew가 원하는 파일이나 폴더 그리고, 사용자가 쓸 파일을 넣습니다.
 1. RAMDisk 프로그램에서, `Save Disk Image Now`를 클릭합니다.
-1. .nds 파일 위치 안에 있는 `ramdisks`폴더에 `romname.img`를 저장합니다.
+1. Save `romname.img` to the `ramdisks` folder in the .nds file location. If it does not exist already, create it
 1. 작업이 다 끝났으면, `Stop RAMDisk`를 클릭합니다.
-1. TWiLight Menu++에서, 게임 별 설정을 엽니다.
+1. In TWiLight Menu++, open the per-game settings for your homebrew
 1. RAM 디스크를 0으로 설정합니다.
 1. 홈브류를 실행하면, 사용자의 RAM 디스크를 읽을것입니다.
+
+If you wish to use the other RAM disk slots for a single homebrew application, use the `.img1` extension for RAM disk slot 1, and so on.
+{:.alert .alert-info}

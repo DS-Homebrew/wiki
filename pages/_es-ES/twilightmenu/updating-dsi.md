@@ -23,7 +23,7 @@ Si estás intentando actualizar desde una versión anterior a la 21.0.0, por fav
 
 ### Más pasos desde la flashcard
 
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
+Si puedes cambiar entre los contenidos de la SD y la flashcard en TWLMenu++ y el TWLMenu++ de la flashcard está en la versión v16.3.0 o superior, sigue estos pasos.
 
 1. Ve a los ajustes de TWLMenu++
 1. Selecciona `Update TWiLight Menu++`

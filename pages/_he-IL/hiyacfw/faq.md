@@ -8,8 +8,9 @@ category: other
 description: FAQ & Troubleshooting for hiyaCFW
 ---
 
-#### How do I install apps to hiyaCFW's SDNAND?
-You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install any apps to the SDNAND.
+#### How do I install apps or DSiWare to hiyaCFW's SDNAND?
+You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
+- If you would like to install Game Card dumps, you should use a [forwarder](../ds-index/forwarders)
 
 #### Why do I get the #-2435-8325 error code?
 If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing).
@@ -32,5 +33,5 @@ There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder.
 
 ##### Invalid title
 There are several things you need to take into account when adding titles to hiyaCFW:
-- Game card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
-- הומברו צריך להבנות בצורה נכונה באמצעות כלים מודרניים על מנת שירוץ דרך תפריט הNintendo DSi
+- Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
+- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu

@@ -38,7 +38,7 @@ description: Controlli per l'utilizzo di TWiLight Menu++
 #### ROM DS(i) (utilizzando nds-bootstrap)
 Non si applicano ai DSiWare.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Su</kbd> + <kbd class="face">X</kbd> per 1 secondo: Inverti lo schermo superiore ed inferiore
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Giù</kbd> + <kbd class="face">A</kbd> per 3 secondi: Dump della RAM nel percorso `sd:/_nds/nds-bootstrap`, con nome file `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Giù</kbd> + <kbd class="face">B</kbd> per 2 secondi: Ritorna a TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>Giù</kbd> + <kbd>SELECT</kbd>: Apri il menu in-game
    - <kbd class="r">R</kbd>: Advance by one frame
@@ -68,11 +68,10 @@ Non si applicano ai DSiWare.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
-- Solo la combinazione per invertire gli schermi funzionerà in modalità B4DS, le altre non funzioneranno
-- Ritornare in TWiLight Menu++ potrebbe non funzionare in alcuni modelli O3DS
+- Returning to TWiLight Menu++ may not work on some O3DS models
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
 - Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
+- Dumping RAM and taking screenshots are currently not possible in B4DS mode
 
 #### Scorciatoie d'avvio
 Queste scorciatoie devono essere premute nella schermata d'avvio di TWiLight Menu++ / subito dopo quella del Nintendo DSi.

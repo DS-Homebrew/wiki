@@ -8,7 +8,7 @@ description: Informacje o Homebrew na Nintendo DS
 ---
 
 ### Tworzenie
-Zwykle do tworzenia Homebrew na Nintendo DS używa się narzędzi devkitPro, takich jak devkitARM, libnds czy libfat. Jednakże można pójść własną drogą i używać alternatywnych programów:
+Developing Nintendo DS homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. Jednakże można pójść własną drogą i używać alternatywnych programów:
 
 - **SD card libraries:** [libfat](https://github.com/devkitPro/libfat) is included in libnds and generally recommended, [libslim](https://github.com/DS-Homebrew/libslim/) can sometimes work better but is unstable at times
 - **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended, however [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead

@@ -8,8 +8,9 @@ category: other
 description: hiyaCFWためのよくある質問とトラブルシューティング
 ---
 
-#### hiyaCFWのSDNANDにアプリをインストールするにはどうすればいいですか？
-SDNANDにアプリをインストールするには、 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) を使用する必要があります。
+#### hiyaCFWのSDNANDにアプリまたはDSiウェアをインストールするにはどうすればいいですか？
+SDNANDにアプリをインストールするには、 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用する必要がありますが、古いDS自作ソフトには互換性がないかもしれません。
+- ゲームカードのダンプをインストールしたい場合は、[フォワーダー](../ds-index/forwarders)を使用する必要があります
 
 #### #-2435-8325エラーコードを取得するのはなぜですか？
 ニンテンドーDSiが起動時にこのフォーマット（#が数字である）でエラーが表示された場合は、つまりブートステージ2はSDNANDに何か問題があると考えているということです。 これは通常に、[hiyaCFWを再インストールする](installing)ことによって修正されます。

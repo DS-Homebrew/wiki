@@ -13,22 +13,41 @@ description: Cómo usar el Wi-Fi de la Nintendo DS
 Se pueden usar puntos de acceso (hotspots), así no tendrás que cambiar los ajustes de tu router.
 
 ### Crear un punto de acceso
-Hay varias guías para crear puntos de acceso compatibles para la DS con macOS y Linux en GBAtemp. If you are using Windows 10, you can use a Linux Live Boot.
+There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
-- [Windows](https://gbatemp.net/questions/how-can-i-put-a-live-os-on-a-dual-boot-with-windows.5319)
+
+An Android mobile hotspot set to Open (none) security would also work.
+
+Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
+#### Other methods
+If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
+- [Nintendo Wi-Fi USB Connector](https://gbatemp.net/threads/575631/)
+  - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
+  - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
+- Changing router settings to be DS-compatible
+  - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
+  - Not all routers support guest networks or turning security off
+- Wi-Fi extenders
+
+#### Settings
+If you are setting up a network to be DS-compatible, it must meet the following specifications:
+- WEP or Open (none) security
+- 2.4 GHz wireless frequency
+- 802.11b wireless mode
+  - This may be listed as "Legacy mode" or something similar
 
 ### Restaurar CWF de Nintendo DS
 1. Abre la Configuración Wi-Fi de Nintendo
 1. Conéctate a tu punto de acceso
 1. Pon uno de los valores listados abajo como DNS primario, dependiendo del servicio que quieras usar:
    - **[Wiimmfi](https://wiimmfi.de)** - `164.132.44.106` o `178.62.43.212`
-   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/)** - `172.104.88.237`
+   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
 1. Pon `1.1.1.1` como DNS secundario
 1. Quizá necesites parchear tu juego con NoSSL, dependiendo de cuál sea
 
 ### Parchear manualmente tus ROMs de DS
-Sigue esta guía en caso de que tu proveedor de internet bloquee servidores DNS personalizados, en otro caso se recomienda *encarecidamente* seguir la guía anterior.
+Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
 
 - Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
 - WfcPatcher currently doesn't support DSiWare

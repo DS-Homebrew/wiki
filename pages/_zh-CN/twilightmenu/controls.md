@@ -38,7 +38,7 @@ description: 如何操作TWiLight Menu++
 #### DS(i) ROMs (使用 nds-bootstrap)
 这些不适用于DSiWare。
 - 按住<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>up</kbd> + <kbd class="face">X</kbd> 一秒: 交换上下屏
-- 按住<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> 3秒: Dump RAM到 `sd:/_nds/nds-bootstrap` ，作为 `ramDump.bin`
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
 - 按住<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd> 两秒: 返回至TWiLight Menu++
 - <kbd class="l">L</kbd> + <kbd>下</kbd> + <kbd>SELECT</kbd>: 打开游戏内菜单
    - <kbd class="r">R</kbd>: Advance by one frame
@@ -68,11 +68,10 @@ description: 如何操作TWiLight Menu++
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- The in-game menu is not accessible in DSi-Enhanced/Exclusive games running in DSi Mode, so attempting to use the button combo in those games will do nothing
-- 只有屏幕交换按钮组合才能在 B4DS 模式中工作，其他模式将无法工作
-- 返回 TWiLight 菜单+ 可能无法在一些老3DS上工作
+- Returning to TWiLight Menu++ may not work on some O3DS models
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
 - Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
+- Dumping RAM and taking screenshots are currently not possible in B4DS mode
 
 #### 启动快捷方式
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.

@@ -8,8 +8,9 @@ category: other
 description: GYIK & hibaelhárítás a hiyaCFW-hez
 ---
 
-#### Hogyan telepítek alkalmazásokat a hiyaCFW SDNAND-jára?
-Szükséged van a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) telepítésére, hogy telepíthess bármilyen alkalmazást az SDNAND-ra.
+#### How do I install apps or DSiWare to hiyaCFW's SDNAND?
+You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
+- If you would like to install Game Card dumps, you should use a [forwarder](../ds-index/forwarders)
 
 #### Miért kapom a #-2435-8325 hiba kódot?
 Ha a Nintendo DSi bootoláskor egy ilyen formátumú hibát mutat a # helyén egy számmal, akkor az az jelenti, hogy a második boot fázisban valami probléma van az SDNAND-oddal. Ezt általában javítja a [hiyaCFW újratelepítése](installing).
@@ -32,5 +33,5 @@ Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma me
 
 ##### Érvénytelen cím
 Van néhány további dolog, amit figyelembe kell venned, amikor címeket adsz hozzá a hiyaCFW-hez:
-- A játékkártya dumpok nem futtathatók [forwarder](../ds-index/forwarders) használata nélkül
-- A homebrew-okat úgy kell fordítani modern eszközök használatával, hogy működjenek a Nintendo DSi Menüből
+- Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
+- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu

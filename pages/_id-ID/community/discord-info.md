@@ -90,7 +90,7 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Artist/Designers - For those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew
 - Composers - For those that have made music for DS(i) homebrew or ROM hacks
 - Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
-- Translators - Anyone that wants to be notified for contributing to translations of various DS Homebrew projects
+- Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
 
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.

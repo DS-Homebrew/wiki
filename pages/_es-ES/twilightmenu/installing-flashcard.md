@@ -17,7 +17,7 @@ description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
 1. Si ya tienes archivos de guardado, mueve los archivos `.sav`, que se encuentran en la misma carpeta que tus ROMs de DS, a una nueva llamada `saves` también en la carpeta de las ROMs
 1. ...
    - **Usuarios de DS Phat/Lite:** Si al iniciar `BOOT.NDS` la consola crashea con una pantalla blanca, inserta un DS Memory Expansion Pak y prueba de nuevo
-   - **Usuarios de DSi/3DS:** Abre TWLMenu++ desde la SD de la consola, activa `SCFG access in Slot-1` y pon `Slot-1: Touch Mode` a `DSi Mode`
+   - **Usuarios de DSi/3DS:** Abre TWLMenu++ desde la SD de la consola, activa `Acceso a SCFG en Slot-1` y configura la opción `Slot-1: Configuración Táctil` a `Modo DSi`
       - Esto permitirá usar la velocidad de reloj TWL y/o acelerar la VRAM en los juegos de la flashcard, así como acceder a la SD de la consola y lanzar juegos DSi-Enhanced/DSi-Exclusive/DSiWare en Modo DSi desde la flashcard
 
 ### Iniciar los juegos con el firmware de la flashcard
@@ -38,7 +38,7 @@ description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
    - R4xDS
    - DSTT(i)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Instala [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Comprueba que tienes `YSMenu.nds` (renombrado de `TTMenu.dat` si no existe) y la carpeta `TTMenu` en la raíz de la microSD de tu flashcard
 1. Pon `Use nds-bootstrap` a `No` para usar el firmware de la flashcard en vez de nds-bootstrap
 
