@@ -90,7 +90,7 @@ Ezek a szerepköröket a [Lightning bot](https://lightning-bot.gitlab.io/) adja 
 - Artist/Designers - Azok számára, akik jó kiemelkedő minőségű TWiLight Menu++ szkineket, Unlaunch háttereket vagy grafikát más DS(i) homebrew-hoz készítettek
 - Composers - Azok számára, akik zenét készítettek DS(i) homebrew-hoz és ROM hackekhez
 - Game Modders - Azok számára, akik ROM hackeket, csalásokat vagy egyéb módosításokat készítettek DS(i) játékokhoz
-- Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
+- Translators - Bárki számára, aki szeretne értesítést kapni, ahhoz, hogy különböző DS-Homebrew projekteket fordítson
 
 ## A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.

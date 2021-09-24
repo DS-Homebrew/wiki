@@ -42,17 +42,17 @@ A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben h
 
 További információkért a csalásokról látogass el [Action Replay csalás fejezethez a Kereskedelmi ROM-ok oldalon](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
-#### How do I take screenshots?
-You can take screenshots of the main screen from the in-game menu. By default the in-game menu is opened by pressing <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>, then select `Screenshot...`, change the VRAM bank if needed, and press <kbd class="face">A</kbd> to save the screenshot.
+#### Hogyan készíthetek képernyőképeket?
+Képernyőképeket készíthetsz a játékbani menü fő képernyőjéről. Alapértelmezés szerint a jáékon belüli menü a az <kbd class="l">L</kbd> + <kbd>Le</kbd> + <kbd>SELECT</kbd> gombokra nyílik, ezután válasz a then select `Képernyőkép...` menüpontot, majd módosítsd a VRAM bank-ot, ha szükséges és nyomj <kbd class="face">A</kbd> gombot a képernyőkép mentéséhez.
 
-To view your screenshots on your PC you will need to extract `sd:/_nds/nds-bootstrap/screenshots.tar`, inside will be all of your screenshots in BMP format. There will also be additional empty BMP files to pad the TAR file out to 50, these can simply be ignored or deleted.
+A PC-den megtekintéséhez a képernyőképeknek ki kell csomagolnod az `sd:/_nds/nds-bootstrap/screenshots.tar` fájlt, amiben találhatók a képernyőképek, BMP formátumban. További üres BMP fájlok is lesznek, hogy a TAR fájl 50-re feltöltéséhez fel, ezeket egyszerűen figyelmen kívül lehet hagyni vagy törölni.
 
-nds-bootstrap can only fit 50 screenshots in the `screenshots.tar`, so once you're getting close you should extract them and delete the TAR, nds-bootstrap will then generate a new TAR next time you load a game.
+Az nds-bootstrap csak 50 képernyőképet tud rakni a `screenshots.tar` fájlba, így ha már közel jársz hozzá, akkor érdemes kinyerni azokat és törölni a TAR fájlt. Az nds-bootstrap ezután egy új TAR fájlt fog generálni, amikor legközelebb betöltesz egy játékot.
 
-#### What is the main screen and why can only it have screenshots?
-The "main" screen is whichever screen is being drawn using the main engine, which can be either physical screen. Typically it's the screen where the main gameplay is happening and if one screen has 3D that's always the main screen. It'll always be the top screen when in the in-game menu.
+#### Mi az a fő képernyő és miért csak arról készíthető képernyőkép?
+A "fő" képernyő az a képernyő, amelyet a fő motorral rajzolnak, ami lehet bármelyik fizikai képernyő. Általában ez az a képernyő, ahol a fő játékmenet zajlik, és ha egy képernyő 3D-s, akkor az mindig a fő képernyő. Ez mindig a felső képernyő, ha a játékbani menüben vagy.
 
-The reason screenshots can only be taken of the main screen is a hardware limitation of the Nintendo DS, it doesn't have a framebuffer but it does have a display capture feature which allows main engine's output to be captured. This is most often used by games to render 3D to both screens but can also be used to take screenshots.
+Az ok, amiért csak a fő képernyőről lehet képernyőképeket készíteni, a Nintendo DS hardveres korlátozása: nincs framebuffer, de van egy kép rögzítő funkciója, amely lehetővé teszi a fő engine kimeneteinek rögzítését. Ezt leggyakrabban a játékok használják a 3D megjelenítésére mindkét képernyőn, de képernyőképek készítésére is használható.
 
-#### What is the "VRAM bank" I'm asked to select when taking a screenshot?
-When taking a screenshot using nds-bootstrap it needs to use the DS's display capture feature to capture a frame from the main engine, however this display capture can only write to VRAM and requires one of the first four banks. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
+#### Mi az a "VRAM bank" amit megkérdez, amikor képernyőképet készítek?
+Amikor képernyőképet készítünk az nds-bootstrap segítségével, annak a DS képernyő rögzítő funkcióját kell használnia a fő enginge-ből, hogy rögzítsen egy képet, azonban ez a képernyő rögzítő csak VRAM-ba tud írni és az első négy bank egyikét igényli. Az nds-bootstrap megpróbál kiválasztani egy olyan bankot, amelyet nem használ a fő engine, így általában egyszerűen figyelmen kívül hagyhatod ezt, azonban bizonyos esetekben mind a négy lehetséges VRAM bankot használja a fő engine, így nem lehet tökéletes képernyőképet készíteni, és ki kell választanod azt a bankot, amelyik a legjobban néz ki.

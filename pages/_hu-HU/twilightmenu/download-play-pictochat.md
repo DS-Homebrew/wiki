@@ -7,20 +7,20 @@ title: Download Play/PictoChat a DS Classic Menu-ben
 description: Hogyan használj a DS Download Play-t és a PictoChat-et a TWiLight Menu++ DS Classic menüjében
 ---
 
-Ha DSi konzolt használsz, akkor meg kell tudnod nyitni ezeket az alkalmazásokat. Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu on a DSi. Egyébként, ha 3DS-ed van, létező dumpok nélkül, kövesd az alábbi lépéseket.
+Ha DSi konzolt használsz, akkor meg kell tudnod nyitni ezeket az alkalmazásokat. A dumpok beszerzésa a flashkártyádhoz vagy 3DS-hez igényli a hozzáférést a DS Classic menühöz egy DSi-n. Egyébként, ha 3DS-ed van, létező dumpok nélkül, kövesd az alábbi lépéseket.
 
 A GodMode9-ben:
-1. Press the HOME/Power button
-1. Select `Title Manager`, then select `[1:] NAND / TWL`
-1. Find and select `DS Download Play (NTR-HDNA)`
-1. Select `Open title folder`
-1. Select `00000000.tmd`, then select `TMD file options...`
-1. Select `Dump CXI/NDS file`
-   - The file will be in `0:/gm9/out/`
-1. Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`
+1. Nyomd meg a HOME/Power gombot
+1. Válaszd a `Title Manager`-t, majd válaszd az `[1:] NAND / TWL` opciót
+1. Keresd meg és válaszd ki a `DS Download Play (NTR-HNDA)` opciót
+1. Válaszd az `Open title folder` opciót
+1. Válaszd a `00000000.tmd`-t, majd válaszd a `TMD file options...`-t
+1. Válaszd a `Dump CXI/NDS file` opciót
+   - A fájl az `sd:/gm9/out` mappában található
+1. Másold a `DS Download Play (NTR-HDNA).nds`-t az `sd:/_nds/` mappába, és nevezd át `dlplay.nds`-nek
 
-The above steps will increase DLP boot speed.
+A fenti lépések megnövelik a DLP boot sebességet.
 
-To run PictoChat on 3DS (DSi required), copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS's SD card.
+A PictoChat futtatásához 3DS-en (DSi szükséges) másold a `pictochat.nds`-t az `sd:/_nds/` útvonalról a DSi SD kártyáján, a 3DS SD kártyájára ugyanarra a helyre.
 
-To run both on flashcard, copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` on the DSi or 3DS SD card to the same location on the flashcard's SD card.
+Hogy mindkettőt flashcard-ról futtathasd, másold a `pictochat.nds`-t és a `dlplay.nds`-t az `sd:/_nds/` útvonalról a DSi vagy a 3DS SD kártyájáról a flashcard SD kártyájára ugyanarra a helyre.

@@ -26,4 +26,4 @@ Ellenőrizheted, hogy a BIOS-od megfelelő dump összehasonlítva a következő 
 
 **SHA256:** `fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570`
 
-If you don't know how to obtain a file checksum, you can use an [online checksum calculator](https://emn178.github.io/online-tools/crc32_checksum.html).
+Ha nem tudod, hogyan kaphatod meg egy fájl ellenőrző összegét, használj egy [online ellenőrzőösszeg-kalkulátort](https://emn178.github.io/online-tools/crc32_checksum.html).
