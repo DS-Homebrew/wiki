@@ -60,3 +60,7 @@ The reason screenshots can only be taken of the main screen is a hardware limita
 
 #### What is the "VRAM bank" I'm asked to select when taking a screenshot?
 When taking a screenshot using nds-bootstrap it needs to use the DS's display capture feature to capture a frame from the main engine, however this display capture can only write to VRAM and requires one of the first four banks. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
+
+#### Can I play games online using nds-bootstrap?
+Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
+- If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
