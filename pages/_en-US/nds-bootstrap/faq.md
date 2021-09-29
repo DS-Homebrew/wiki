@@ -34,7 +34,9 @@ There are also timing issues and AP measures (which most are already removed), b
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### Donor ROMs
-Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
+Most games can be selected as a Donor ROM (which can be done via TWiLight Menu++), and both the game to launch and the donor must contain the same SDK version. In nds-bootstrap, the Donor ROM's ARM7 binary (and ARM7i binary, if available) is loaded in place of the one normally used for the game that it is trying to run. This allows certain games to boot and save.
+- **DSiWarehax:** As both DSi-Enhanced games and DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, the DSi-Enhanced game will be able to run within the MBK settings set by the DSiWare title the exploit is used on.
+- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around.
 
 #### What is a nightly and where do I get it?
 A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added.
