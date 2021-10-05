@@ -5,8 +5,8 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.collection | default: "en-US" }}" dir="{% if site.data.rtl contains page.collection %}rtl{% else %}ltr{% endif %}">
 <head>
-	<meta http-equiv="refresh" content="0; URL={{ page.destination }}">
-
 	{% include head.html %}
+
+	<meta http-equiv="refresh" content="0; URL={{ page.destination }}">
 </head>
 </html>
