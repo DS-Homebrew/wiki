@@ -61,7 +61,7 @@ If you already have Universal Updater installed on your console, you can skip to
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Part 1: Getting started
-1. Download the [Forwarder pack for DSi SD Card](https://www.dropbox.com/s/t0qi1754i9o4388/DS%20Game%20Forwarder%20pack%20%28DSi%20SD%20Card%29.7z?dl=0)
+1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card, and (if the folder exists)
 
 After you extract the pack for your card, you can edit `sd:/_nds/nds-bootstrap.ini` and change the following settings.

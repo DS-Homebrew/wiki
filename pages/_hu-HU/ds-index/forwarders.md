@@ -61,7 +61,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### 1. rész: Kezdeti lépések
-1. Töltsd le a [Forwarder pack-ot DSi SD kártyára](https://www.dropbox.com/s/t0qi1754i9o4388/DS%20Game%20Forwarder%20pack%20%28DSi%20SD%20Card%29.7z?dl=0)
+1. Töltsd le a [Forwarder pack-ot DSi SD kártyára](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Csomagold ki a `for SD card root` mappa tartalmát a DSi SD kártyájának gyökerébe és (ha a mappa létezik)
 
 Miután kicsomagoltad a csomagot a kártyádra, szerkesztheted az `sd:/_nds/bootstrap.ini` fájlt és módosítsa a következő beállításokat.
