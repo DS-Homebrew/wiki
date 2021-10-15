@@ -62,8 +62,10 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 #### What systems does TWiLight Menu++ support?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Why isn't touch input working on sudokuhax?
-Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### How do I get IR working properly?
+You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively.
+After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
+- Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
 
 #### Can The Biggest Loser boot TWiLight Menu++?
 No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
