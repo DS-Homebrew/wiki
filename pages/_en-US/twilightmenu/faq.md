@@ -66,6 +66,7 @@ See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of
 You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively.
 After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
 - Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
+- If you don't want to downgrade, then IR should work on the latest TWLMenu++ and nds-bootstrap versions, with *Pokemon Black & White Versions 1 & 2*.
 
 #### Can The Biggest Loser boot TWiLight Menu++?
 No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
