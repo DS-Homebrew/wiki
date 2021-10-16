@@ -18,7 +18,7 @@ if(!sessionStorage.languageAlertDismissed) {
 	if(document.documentElement.lang == "ic-IC") {
 		languageID = "ic-IC";
 	// If the current language isn't in the browser's allowed languages, show the popup for the first language that has a page
-	} else if(!window.navigator.languages.find(function(lang) { return document.documentElement.lang.toLowerCase().includes(lang.toLowerCase()); })) {
+	} else if(!window.navigator.languages.find(lang => document.documentElement.lang.toLowerCase().includes(lang.toLowerCase()))) {
 		for(let windowLang of window.navigator.languages) {
 			let lang = languages.find(lang => lang.substr(0, 2) == windowLang.substr(0, 2));
 			if(lang) {
@@ -49,11 +49,9 @@ if(!sessionStorage.languageAlertDismissed) {
 				const langAlertLink = document.getElementById("language-alert-link");
 
 				// Set text from language file if it exists
-				import(`./i18n/${languageID}.js`).then(function(obj) {
+				import(`./i18n/${languageID}.js`).then(obj => {
 					langAlertLink.innerHTML = obj.default.pageIsInYourLanguage;
-				}).catch(function() {
-					langAlertLink.innerHTML = "This page is available in your language!";
-				});
+				}).catch(() => langAlertLink.innerHTML = "This page is available in your language!");
 
 				updateLanguageAlert();
 				break;
