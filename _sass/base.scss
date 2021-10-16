@@ -544,16 +544,30 @@ a.footnote::after {
 		border-bottom-width: 0;
 		padding: 0.5rem 1rem;
 		transition: 150ms ease;
+
+		@media screen and (min-width: 576px) {
+			&:not(:first-of-type) {
+				border-left-width: 0px;
+			}
+
+			&:first-of-type {
+				border-top-left-radius: 0.25rem;
+			}
+
+			&:last-of-type {
+				border-top-right-radius: 0.25rem;
+			}
+		}
+
+		@media screen and (max-width: 575px) {
+			width: 100%;
+	
+			&:first-of-type {
+				border-radius: 0.25rem 0.25rem 0 0;
+			}
+		}
 	}
-	.tab-link:not(:first-of-type) {
-		border-left-width: 0px;
-	}
-	.tab-link:first-of-type {
-		border-top-left-radius: 0.25rem;
-	}
-	.tab-link:last-of-type {
-		border-top-right-radius: 0.25rem;
-	}
+
 
 	.tab {
 		display: none;
@@ -563,6 +577,10 @@ a.footnote::after {
 		width: 100%;
 		border: 1px solid $borders;
 		border-radius: 0 0.25rem 0.25rem 0.25rem;
+		
+		@media screen and (max-width: 575px) {
+			border-radius: 0 0 0.25rem 0.25rem;
+		}
 	}
 
 	input:checked + .tab-link + .tab {
