@@ -31,8 +31,20 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 - Intercambia ambas pantallas en juegos compatibles para una mejor experiencia de juego o en consolas con una pantalla rota o quitada
 - Take screenshots and edit values in the RAM using the in-game menu
 
-#### Donor ROMs
-Most SDK5 games can be selected as a Donor ROM (which can be done via TWiLight Menu++). The Donor ROM's ARM7 binary is copied by nds-bootstrap and replaces the ARM7 binary for the game that it is trying to run. This allows certain and SDK5 games to boot and save.
+#### What is a Donor ROM?
+In nds-bootstrap, when a game doesn't boot or save, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary. Most games can be set as a Donor ROM (which can be done via **TW**i**L**ight Menu++), and both the game to launch and the donor must contain the same SDK version.
+- **Flashcards in DS mode:** Games containing ARM7 binaries compiled in THUMB will require a Donor ROM containing an ARM7 binary compiled in ARM, in order for the game to boot and/or save.
+- **DSi/3DS on SD Card + Flashcards with unlocked SCFG:** Only a few games require a Donor ROM to boot. Known ones that require it are
+     - Eigo ga Nigate na Otona no DS Training: Eigo Zuke
+     - Anpanman to Touch de Waku Waku Training
+     - Professor Layton and the Last Specter/Spectre's Call (Japanese version)
+     - Barbie and the Three Musketeers
+     - Mimi's Party Fun
+- **DSiWarehax:** As both DSi-Enhanced games and DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on.
+- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around.
+
+#### Why can't I set a Donor ROM?
+If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
 #### What is a nightly and where do I get it?
 A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
@@ -56,3 +68,7 @@ The reason screenshots can only be taken of the main screen is a hardware limita
 
 #### What is the "VRAM bank" I'm asked to select when taking a screenshot?
 When taking a screenshot using nds-bootstrap it needs to use the DS's display capture feature to capture a frame from the main engine, however this display capture can only write to VRAM and requires one of the first four banks. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
+
+#### Can I play games online using nds-bootstrap?
+Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
+- If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections

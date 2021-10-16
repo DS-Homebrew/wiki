@@ -11,5 +11,5 @@ Az [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) egy open-source
 Továbbá van egy alprojektje, ahol futtatni tudja a régi flashcard-ra készült homebrew alkalmazásokat egy Nintendo DSi/3DS SD kártyájáról.
 
 - [Kompatibilitási lista](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=sharing)
-  - A szerkesztéshez hozzáféréshez nyomd meg a "Request edit access" gombot
+  - Szerkesztési hozzáférésért nyomj a `View only`-ra majd a `Request edit access`-re.
 - [Crowdin](https://crowdin.com/project/nds-bootstrap)

@@ -20,3 +20,6 @@ Pas maintenant. Au lieu de cela, vous pouvez injecter des codes de triche en per
 
 #### Comment utiliser les fonctionnalités de connexion Wi-Fi ?
 Vous aurez besoin d'une version de la branche [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) pour utiliser les fonctionnalités. Vous pouvez trouver des instructions détaillées sur la façon de configurer les builds sur sa page [Wiki GBAtemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+
+#### Why isn't RTC (Real Time Clock) supported in a ROM hack?
+RTC is supported on a per-game basis. You will have to change the ROM's game code to that of the original game so that GBARunner2 will recognize it.

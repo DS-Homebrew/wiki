@@ -7,6 +7,6 @@ description: TWiLight Menu++の使い方とカスタマイズに関するガイ�
 
 ![TWiLight Menu++のロゴ](https://github.com/DS-Homebrew/TWiLightMenu/raw/master/logo.png)
 
-[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu)は、様々なアプリケーションを起動するオープンソースのメニューであり、交換メニューに最適です。 テーマ、スキン、フォルダなどの機能を備えた、ニンテンドーDSやニンテンドー3DSファミリーのためのオールインワンメニューです。
+[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu)は、様々なアプリケーションを起動できるオープンソースのメニューです。 テーマ、スキン、フォルダなどの機能を備えた、ニンテンドーDSやニンテンドー3DSファミリーのための完璧なオールインワンメニューです。
 
-インストール方法については、サイドバーの「インストール」セクションで本体のページをクリックしてください。
+TWiLight Menu++のインストール方法については、サイドバーの「インストール」タブをクリックして、お使いのゲーム機のガイドを選択してください。

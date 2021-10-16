@@ -35,44 +35,6 @@ description: TWiLight Menu++を使うためのコントロール
       - <kbd class="face">Y</kbd>：チートの説明を表示する
       - <kbd class="l">L</kbd>：すべてのチートを無効にする
 
-#### DS(i) ROM（nds-bootstrapを使って）
-これらはDSiウェアには適用されません。
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>上</kbd> + <kbd class="face">X</kbd>を1秒間押して：画面を入れ替え
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">A</kbd>を2秒間押して：`ramDump.bin`として` sd:/_nds/nds-bootstrap`にRAMをダンプする
-- 2秒ために<kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>下</kbd> + <kbd class="face">B</kbd>：TWiLight Menu++に戻る
-- <kbd class="l">L</kbd> + <kbd>下</kbd> + <kbd>SELECT</kbd>：ゲーム内のメニューを開く
-   - <kbd class="r">R</kbd>：1フレーム分進む
-   - スクリーンショット
-      - <kbd>上</kbd>・<kbd>下</kbd>・<kbd>左</kbd>・<kbd>右</kbd>：VRAMバンクを変更
-      - <kbd class="face">A</kbd>：スクリーンショットを保存
-      - <kbd class="face">B</kbd>：ゲーム内のメニューに戻る
-   - RAMビューアー
-      - <kbd>上</kbd>・<kbd>下</kbd>：スクロール
-      - <kbd>左</kbd>・<kbd>右</kbd>：高速のスクロール
-      - <kbd class="r">R</kbd> + <kbd>下</kbd>・<kbd>上</kbd>：より高速のスクロール
-      - <kbd class="r">R</kbd> + <kbd>左</kbd>・<kbd>右</kbd>：最高速のスクロール
-      - <kbd class="face">A</kbd>：RAMエディターに入る
-      - <kbd class="face">B</kbd>：ゲーム内のメニューに戻る
-      - <kbd class="face">Y</kbd>：ジャンプするアドレスを指定
-        - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
-        - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
-        - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
-   - RAMエディター
-      - <kbd>上</kbd>・<kbd>下</kbd>・<kbd>左</kbd>・<kbd>右</kbd>：値を選択
-      - <kbd class="face">A</kbd>：選択される値を変更
-         - <kbd>上</kbd>・<kbd>下</kbd>：値を1hで増やす・減らす
-         - <kbd>左</kbd>・<kbd>右</kbd>：値を10hで増やす・減らす
-         - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：値の変更を終了
-      - <kbd class="face">B</kbd>：RAMビューアーに戻る
-      - <kbd class="face">Y</kbd>：ジャンプするアドレスを指定
-        - <kbd>上</kbd>・<kbd>下</kbd>：選択される値を増やす・減らす
-        - <kbd>左</kbd>・<kbd>右</kbd>：値を選択
-        - <kbd class="face">A</kbd>・<kbd class="face">B</kbd>：RAMビューアー・エディターを指定されたアドレスに戻る
-- TWiLight Menu++に戻ると、一部の古い3DSモデルでは動作しない可能性があります
-- ゲーム内メニューを開くボタンの組み合わせは、TWiLight Menu++の設定で変更できます
-- スクリーンショットは`sd:/_nds/nds-bootstrap/screenshots.tar`に保存されます。 このファイルは、[7-Zip](https://sevenzip.osdn.jp)などのアーカイブビューアを使用して開くことができます
-- B4DSモードでは、RAMのダンプとスクリーショットの撮影ができません
-
 #### 起動時のショートカット
 これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。
 

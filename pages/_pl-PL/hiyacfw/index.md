@@ -12,4 +12,4 @@ Alongside the safety benefit, it provides the ability to...
 - Safely install apps to the Nintendo DSi Menu with 100% DSiWare compatibility
 - Keep settings separate from the one found in the internal NAND
 
-However, unless you specifically want to use the official Nintendo DSi Menu it is recommended to simply use [TWiLight Menu++](../twilightmenu/) instead as the official menu has many disadvantages such as being more difficult to install games to and slowing down significantly on large SD cards.
+However, unless you specifically want to use the official Nintendo DSi Menu, it is recommended to simply use [TWiLight Menu++](../twilightmenu/) instead as the official menu has many disadvantages, such as being more difficult to install games to and slowing down significantly on large SD cards.

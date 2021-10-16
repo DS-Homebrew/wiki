@@ -17,8 +17,7 @@ Ne frissítsd a rendszert a hiyaCFW telepítése után. Az eltávolítja a hiyaC
 
 ### Követelmények
 - Egy Nintendo DSi telepített [Unlaunch](https://dsi.cfw.guide/installing-unlaunch)-csel
-- Egy a dumpTool-lal készült NAND mentés az eszközödről
-   - Ha még nem rendelkezel vele, kövesd a [NAND dumpolása](https://dsi.cfw.guide/dumping-nand) lépéseket a dsi.cfw.guide oldalon
+- Egy NAND mentés az eszközödről ami a [dumpTool használatával](https://dsi.cfw.guide/dumping-nand) készült
 - Egy Windows, macOS vagy Linux eszköz
 
 ### I. rész - A PC-d előkészítése a hiyaCFW telepítéséhez

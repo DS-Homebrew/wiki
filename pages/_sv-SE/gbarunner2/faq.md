@@ -20,3 +20,6 @@ Inte just nu. Istället kan du permanent injektera fuskkoder i din GBA ROM med [
 
 #### Hur använder jag funktioner för Wi-Fi Link?
 Du behöver en version från [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branchen för att använda funktionerna. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+
+#### Why isn't RTC (Real Time Clock) supported in a ROM hack?
+RTC is supported on a per-game basis. You will have to change the ROM's game code to that of the original game so that GBARunner2 will recognize it.

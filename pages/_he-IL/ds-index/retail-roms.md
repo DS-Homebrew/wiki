@@ -16,7 +16,7 @@ AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases 
 If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### Cloneboot
-Cloneboot זה כאשר משחק שולח את הבינארים של ARM7 וARM9 שלו למכשיר אחר. זה בשימוש בDS Download עבור משחקים בעלי מולטפלייר עם קלטת אחת. אך לא כל המשחקים שיש להם מולטפלייר עם קלטת אחת משתמשים בcloneboot.
+Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. זה בשימוש בDS Download עבור משחקים בעלי מולטפלייר עם קלטת אחת. Not all games that have single-card multiplayer use cloneboot, however.
 
 ### קבצי שמירה
 Nintendo DS cartridges have 4 known save types:
@@ -26,7 +26,7 @@ Nintendo DS cartridges have 4 known save types:
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have saves in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
+There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have a save in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
 
 ### Assembly
 Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses.
@@ -34,7 +34,7 @@ Assembly language is any low-level programming language with a strong connection
 You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
 
 ### DMA לקריאה מכרטיס
-DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred code can still execute, so it is the preferred way of accessing data.
+DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred, code can still execute, so it is the preferred way of accessing data.
 
 You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - לדוגמה: `DMA2: 04100010 023C18C0 AF000001`
@@ -64,7 +64,7 @@ Cheat codes generally have types 0 through F, and here is an (unfinished) descri
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
 ### Demonstration and Distribution Titles:
-Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, on the back of the title's cartridge a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, and on the back of the title's cartridge, a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
 
 Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
 

@@ -66,3 +66,12 @@ A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfo
 
 #### Tud-e a The Biggest Loser bebootolni TWiLight Menu++-vel?
 Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
+
+#### Miért nem találom/látom a játékaimat?
+Több oka lehet, hogy nem találod őket.
+- Ha az `_nds` mappába raktad a játékaid, nem fogod megtalálni őket, mert az a mappa láthatatlan a TWiLight Menu++ számára. Kérjük mozgasd őket bármilyen más helyre az SD kártyán
+- Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd> /<kbd>Jobb</kbd> gombokat az oldalak lapozásához
+- Ha a játék mappád láthatatlan, be kell kapcsolnod a láthatatlan fájlok megjelenítését a TWiLight Menu++'s GUI beállításai között
+- Ha a játék típus be lett állítva láthatatlanra az Emuláció/HB beállításokban, nem fog megjelenni a menükben. Módosítsd ezeket a beállításokat, hogy megjelenjenek
+- Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
+- Ha a játékod nem a [támogatott kiterjesztést](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével

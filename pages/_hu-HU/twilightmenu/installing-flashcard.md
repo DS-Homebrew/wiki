@@ -37,6 +37,9 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - M3 DS Real
+   - M3i Zero (nem GMP-Z003 modell)
+   - DSONE SDHC & DSONEi
 
    Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében

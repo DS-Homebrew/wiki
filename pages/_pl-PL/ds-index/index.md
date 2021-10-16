@@ -6,4 +6,4 @@ title: Indeks Modowania Nintendo DS
 description: Wyjaśnienie wszystkich rzeczy dotyczących modowania DSa
 ---
 
-Witamy w sekcji zasobów na temat modowania Nintendo DS. Będzie to próba wyjaśnienia większości rzeczy związanych z modowaniem Nintendo DS, jak również podstawowe wprowadzenie do oprogramowania NTR dla Nintendo DS, oprogramowania TWL DSi Nintendo oraz TWL_FIRM dla Nintendo 3DS.
+Witamy w sekcji zasobów na temat modowania Nintendo DS. This will attempt to explain most things related to Nintendo DS modding, as well as be a basic introduction to the NTR firmware of the Nintendo DS, the TWL firmware of the Nintendo DSi, and TWL_FIRM of the Nintendo 3DS.

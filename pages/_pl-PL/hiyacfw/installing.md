@@ -17,8 +17,7 @@ Nie aktualizuj systemu po zainstalowaniu hiyaCFW. W ten sposób usuniesz poprawk
 
 ### Wymagania
 - Nintendo DSi z [zainstalowanym Unlaunch](https://dsi.cfw.guide/installing-unlaunch)
-- Kopia zapasowa pamięci NAND pobrana z urządzenia przy użyciu narzędzia dumpTool
-   - Jeśli go nie masz, postępuj zgodnie z Podręcznikiem [dumpowania NAND](https://dsi.cfw.guide/dumping-nand) na stronie dsi.cfw.guide
+- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
 - Urządzenie Windows, macOS lub Linux
 
 ### Część 1: Przygotowanie komputera do instalacji hiyaCFW

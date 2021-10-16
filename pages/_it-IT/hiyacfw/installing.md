@@ -17,8 +17,7 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 
 ### Requirements
 - A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device using dumpTool
-   - If you don't have one, follow the [Dumping NAND](https://dsi.cfw.guide/dumping-nand) guide on dsi.cfw.guide
+- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
 - A Windows, macOS, or Linux device
 
 ### Part 1: Preparing your PC for installing hiyaCFW

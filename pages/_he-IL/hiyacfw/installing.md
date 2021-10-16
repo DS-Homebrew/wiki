@@ -17,8 +17,7 @@ tabs:
 
 ### דרישות
 - מכשיר Nintendo DSi עם [Unlaunch מותקן](https://dsi.cfw.guide/installing-unlaunch)
-- גיבוי NAND מהמכשיר שלכם שנוצר באמצעות dumpTool
-   - אם אין לכם, עקבו אחר [חילוץ NAND](https://dsi.cfw.guide/dumping-nand)
+- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
 - מכשיר עם Windows, macOS או Linux
 
 ### שלב 1: הכנת המחשב שלכם להתקנת hiyaCFW

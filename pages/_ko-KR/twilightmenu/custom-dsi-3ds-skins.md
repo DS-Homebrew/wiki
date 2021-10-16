@@ -7,7 +7,7 @@ title: How to Create DSi/3DS Skins
 description: TWiLight Menu++의 DSi와 3DS 스킨을 커스텀하는 방법
 ---
 
-테마를 커스텀하는 가장 쉬운 방법은 테마의 `ui`, `battery` 또는 `volume` 폴더의 PNG 텍스쳐를 수정하는 것입니다. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
+테마를 커스텀하는 가장 쉬운 방법은 테마의 `ui`, `battery` 또는 `volume` 폴더의 PNG 텍스쳐를 수정하는 것입니다. These files can be any png with one minor caveat in that only pixels that are 100% transparent will be rendered transparently, and any other opacity will be drawn as fully opaque. Also, any part that is transparent in one of a set (ex. all the battery icons) should be transparent in all since transparent pixels are simply skipped rather than reverted to the background, so any part that is transparent in only some should have the background texture rather than transparency. These textures are allowed to vary in size, but may require tweaking of the theme configuration to render correctly (see below).
 
 Changes to paletted textures are more involved. Within the `grit` and `background_grit` folders of a theme, the various image files may be edited. You will also require [devkitPro's toolchains](https://devkitpro.org) with GRIT installed. Once you have finished editing your files, you must run
 ```bash

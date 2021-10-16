@@ -22,7 +22,7 @@ An Android mobile hotspot set to Open (none) security would also work.
 Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
 #### Other methods
 If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
-- [Nintendo Wi-Fi USB Connector](https://gbatemp.net/threads/575631/)
+- Nintendo Wi-Fi USB Connector
   - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
   - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
 - Changing router settings to be DS-compatible

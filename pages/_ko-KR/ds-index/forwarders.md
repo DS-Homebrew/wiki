@@ -12,7 +12,7 @@ tabs:
     tab-flashcard: 플래시 카드
 ---
 
-포워더 (Forwarder)는 다른 소프트웨어로 기기를 연결하는, HOME 메뉴나 hiyaCFW DSi 메뉴에 있는 아이콘입니다. 이번 경우에서는, HOME 메뉴나 hiyaCFW에서 게임을 보다 쉽게 로드하기 위해, SD 카드에서 (nds-bootstrap을 통해서) DS 게임을 불러오거나, 호환 가능 플래시 카드를 실행시킬 수 있게 아이콘을 추가할 수 있습니다.
+Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS 카트리지들은 3DS에서는 [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge)을 통해, DSi에서는 [GodMode9i](https://dsi.cfw.guide/dumping-game-cards)를 통해서 덤핑할 수 있습니다.
 {:.alert .alert-info}

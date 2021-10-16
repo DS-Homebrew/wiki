@@ -22,7 +22,7 @@ Olyan Android mobil hotspot is használható, amely Nyílt (nincs) biztonságra 
 A Windows nem tud kompatibilis hotspotot létrehozni, ezért a Windows-felhasználóknak Linuxot kell indítaniuk, hogy létrehozhassanak egyet.
 #### Egyéb metódusok
 Ha nem tudsz létrehozni egy DS-kompatibilis hotspot-ot a fenti metódusokkal, lehet, hogy létre tudod hozni egy másikkal.
-- [Nintendo Wi-Fi USB Connector](https://gbatemp.net/threads/575631/)
+- Nintendo Wi-Fi USB Connector
   - Bár ez továbbra is használható, nem ajánlott, mivel a Windows XP vagy Vista 32 bites verziója szükséges hozzá
   - A Nintendo Wi-Fi USB Connector beállításhoz olvasd el a 3. fejezetét a [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing)-nak, amit a [Mario Kart DS Network](https://discord.gg/pa9bea6) tagjai írtak
 - A router beállításainak módosítása DS-kompatibilisre

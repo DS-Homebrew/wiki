@@ -29,7 +29,7 @@ A legutolsó hiyaCFW verzió létre tud hozni dummy fájlokat, a probléma megke
 A Nintendo DSi Menü-nek 39 cím a korlátja. Ha ennél több van, törölj néhányat az `sd:/title` mappából vagy használd a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)-t az eltávolításukhoz.
 
 ##### Túl sok területet használ a DSiWare
-Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a rendszer alkalmazások [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)-en keresztüli telepítésével.
+Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a DSiWare alkalmazások rendszer alkalmazásként telepítésével a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) használatával.
 
 ##### Érvénytelen cím
 Van néhány további dolog, amit figyelembe kell venned, amikor címeket adsz hozzá a hiyaCFW-hez:

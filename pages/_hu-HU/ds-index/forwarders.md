@@ -12,7 +12,7 @@ tabs:
     tab-flashcard: Flashcard
 ---
 
-A forwarderek olyan ikonok a HOME menüben vagy a hiyaCFW DSi Menu-ben, amik átirányítanak más szoftverre, ami ami megadott szoftvert futtatja. Ebben az esetben, hozzáadható DS játék SD kártyáról (az nds-bootstrap használatával) vagy kompatiblis flashcard-dal (megfelelő kernelen keresztül) a HOME menühöz vagy a hiyaCFW-hez a játékokhoz történő egyszerűbb hozzáféréshez.
+A forwarderek a játékok parancsikonjai, amelyeket a főmenübe vagy a hiyaCFW menübe telepíthetsz. Betölthetsz DS játékot SD kártyáról (az nds-bootstrap használatával) vagy kompatibilis flashcard-ról (a megfelelő kernel-lel) a forwarderek használatával, abból a menüből, amit választottál. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 A DS játékokat a digitális `.nds` formátumba kell dumpolni. A DS kártyáidat dumpolhatod a [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) használatával 3DS-en vagy a [GodMode9i](https://dsi.cfw.guide/dumping-game-cards)-vel DSi-n.
 {:.alert .alert-info}
@@ -61,7 +61,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### 1. rész: Kezdeti lépések
-1. Töltsd le a [Forwarder pack-ot DSi SD kártyára](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
+1. Töltsd le a [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)-ot
 1. Csomagold ki a `for SD card root` mappa tartalmát a DSi SD kártyájának gyökerébe és (ha a mappa létezik)
 
 Miután kicsomagoltad a csomagot a kártyádra, szerkesztheted az `sd:/_nds/bootstrap.ini` fájlt és módosítsa a következő beállításokat.

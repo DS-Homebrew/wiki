@@ -37,9 +37,12 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - M3 DS Real
+   - M3i Zero (non-GMP-Z003 model)
+   - DSONE SDHC & DSONEi
 
-   התקינו את [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - וודאו שיש לכם את `YSMenu.nds` (עבר שינוי שם מ`TTMenu.dat` אם אין את הקובץ) ואת התיקייה `TTMenu` בכרטיס המיקרו SD של הפלאשקארט
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. הגדירו את `Use nds-bootstrap` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
 
 ### הפעלה אוטומטית של TWiLight Menu++

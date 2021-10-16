@@ -8,7 +8,7 @@ description: מידע בנושא הNintendo DSi והTWL_FIRM של הNintendo 3DS
 ---
 
 ### התקנת קושחה מותאמת אישית CFW
-While most of the benefits of Custom Firmware are for the Nintendo DSi and the Nintendo 3DS families of systems, it allows you to unlock your consoles possibilities. התקנת קושחה מותאמת אישית היא יחסית קלה, וברוב המקרים כל מה שנדרש זה כרטיס (מיקרו) SD. Here are the best of guides for you to follow, with step-by-step instructions:
+The main benefit of modding your DSi and 3DS families of systems is that you can unlock more possibilities with your consoles. התקנת קושחה מותאמת אישית היא יחסית קלה, וברוב המקרים כל מה שנדרש זה כרטיס (מיקרו) SD. Here are the best of guides for you to follow, with step-by-step instructions:
 
 - [מדריך פריצה 3DS](https://3ds.hacks.guide)
    - פקודת Lightning: `mod 3ds`
@@ -20,7 +20,7 @@ While most of the benefits of Custom Firmware are for the Nintendo DSi and the N
    - Kurisu command: `guide dsi`
 
 ### מהירויות מעבד
-The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with an 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
+The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with a 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, they will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
 
 nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work properly with the higher clock speed. ההתאמה תלויה בתוכנה עצמה, ותוכנות שלא עובדות עם מהירות השעון הגבוהה יותר לא נובעות מבאג בצד של nds-bootstrap.
 
@@ -30,14 +30,14 @@ In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. 
 There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
 
 ### גישה & חסימה לSlot-1 בNintendo DSi
-Slot-1 access is blocked when launching applications from the system menu, except if said applications is either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable Slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
+Slot-1 access is blocked when launching applications from the system menu, except if said applications are either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable Slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.
 
 Before 1.4.0, the whitelist contained only two sections. In 1.4.0, they introduced a third section, which was made to block flashcards that got around the first two. The third section loads up to eight different sections of the ROM and checks them with a hash to see if the ROM has been tampered with. However, due to lacking any sanity check, this can be overflowed into the exception vector/interrupt address using a large enough value. החשוב מכל, זה פועל על ARM7 (המכונה גם מעבד האבטחה) ולכן זה הופך את זה לפריצה הראשונה עבור מעבד ARM7. Since this happens before the lock out of the SCFG registers, advanced homebrew (such as Slot-1 dumpers) can be run.
 
 Unfortunately, the requirements are tight. It requires version 1.4.0 and a flashcard with a modified ROM. The exploit never officially came out, due to Unlaunch being much simpler to install and having fewer requirements (just a way to get into homebrew) with the same advantages.
 
 ### המצלמה של Nintendo DSi
-The Nintendo DSi Camera application has the ability to take pictures in the JPEG and save them to either the System Memory or the SD card. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether it's PC taken or PC edited, unless properly saved.
+The Nintendo DSi Camera application has the ability to take pictures in the JPEG format and save them to either the System Memory or the SD card. The way it's loaded restricts it to only DSi made images, due to lacking the proper HMAC stored inside a custom EXIF tag. Any custom images are not readable on the DSi, whether they're PC taken or PC edited, unless properly saved.
 
 A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 

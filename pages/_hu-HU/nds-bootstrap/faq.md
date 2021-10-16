@@ -31,8 +31,20 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
 - Képernyőképe készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
-#### Donor ROM
-A legtöbb SDK5 játék kiválasztható Donor ROM-nak (ami a TWiLight Menu++-on keresztül tehető meg). A Donor ROM ARM7 binárisa másolásra kerül az nds-bootstrap által és kicseréli az ARM7 binárist a játékban, amit indítani próbálsz. Ez lehetővé teszi bizonyos SDK5 játékoknak a betöltését és mentését.
+#### Mi az a Donor ROM?
+Az nds-bootstrap-ben, amikor egy játék nem bootol vagy nem ment, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett. A legtöbb játék beállítható Donor ROM-nak (ami a **TW**i**L**ight Menu++-szal tehető meg) és mind a játéknak amit indítani szeretnél, mind a donornak ugyanazt az SDK verziót kell tartalmaznia.
+- **Flashcards DS módban:** A THUMB-ban fordított ARM7 binárisokat tartalmazó játékokhoz egy ARM-ban fordított ARM7 binárisokat tartalmazó Donor ROM-ra van szükség, hogy a játék elindulhasson és/vagy menthessen.
+- **DSi/3DS SD-kártyán + Flashcardok feloldott SCFG-vel:** Csak néhány játékhoz van szükség Donor ROM-ra a bootoláshoz. Azok amelyekről ismert, hogy kell nekik
+     - Eigo ga Nigate na Otona no DS Training: Eigo Zuke
+     - Anpanman to Touch de Waku Waku Training
+     - Professor Layton and the Last Specter/Spectre's Call (japán verzió)
+     - Barbie and the Three Musketeers
+     - Mimi's Party Fun
+- **DSiWarehax:** Mivel a DSi-Enhanced játékok és a DSi-Exkluzív/DSiWare játékok eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják.
+- **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva.
+
+#### Miért nem tudok beállítani Donor ROM-ot?
+Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keresett ROM nem mutatja meg a lehetőséget, hogy donor ROM-nak állítsd be (feltéve, hogy lefelé görgetsz), akkor keress egy másik ROM-ot, amelyet donornak állíthatsz be.
 
 #### Mi az esti fordítás (nightly) és hol szerezhetem be?
 Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted [innen](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
@@ -56,3 +68,7 @@ Az ok, amiért csak a fő képernyőről lehet képernyőképeket készíteni, a
 
 #### Mi az a "VRAM bank" amit megkérdez, amikor képernyőképet készítek?
 Amikor képernyőképet készítünk az nds-bootstrap segítségével, annak a DS képernyő rögzítő funkcióját kell használnia a fő enginge-ből, hogy rögzítsen egy képet, azonban ez a képernyő rögzítő csak VRAM-ba tud írni és az első négy bank egyikét igényli. Az nds-bootstrap megpróbál kiválasztani egy olyan bankot, amelyet nem használ a fő engine, így általában egyszerűen figyelmen kívül hagyhatod ezt, azonban bizonyos esetekben mind a négy lehetséges VRAM bankot használja a fő engine, így nem lehet tökéletes képernyőképet készíteni, és ki kell választanod azt a bankot, amelyik a legjobban néz ki.
+
+#### Tudok online játszani játékokat az nds-bootstrap használatával?
+Az nds-bootstrappal való online játék ugyanúgy fog működni, mint a valódi játékkártyákkal. Az alternatív online szolgáltatáshoz való csatlakozással kapcsolatos információkat a [Wi-Fi](../ds-index/wifi) oldalon találsz.
+- Ha DSi-Enhanced játékkal játszol DS módban, akkor csak nem biztonságos vagy WEP hálózati kapcsolatra van lehetőséged

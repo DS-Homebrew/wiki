@@ -20,3 +20,6 @@ Most még nem. E helyett Instead, permanensen beinjektálhatod a csalás kódoka
 
 #### Hogyan használhatom a Wi-Fi Link szolgáltatásokat?
 Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) ágból, ahhoz, hogy használhasd ezt a szolgáltatást. Részletes információt találsz a buildek telepítéséről a [GBAtemp Wiki oldalon](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+
+#### Miért nem támogatott az RTC (Real Time Clock) egy ROM hackben?
+Az RTC játékonként támogatott. A ROM játékkódját meg kell változtatnod az eredeti játék kódjára, hogy a GBARunner2 felismerje azt.

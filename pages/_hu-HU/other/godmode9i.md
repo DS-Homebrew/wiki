@@ -27,3 +27,10 @@ A fájlok szerkesztése a DSi NAND-on nem biztonságos és könnyen brickeléshe
 
 #### Miért nem tudom megnézni az NDS fájl információt néhány DSiWare esetén?
 Néhány DSiWare, főleg azok, amik a `0003000f` mappában találhatók, rendszer adatot tartalmaznak és nem rendelkeznek érvényes banner-rel.
+
+#### Az NDS vagy a DSi verziót javasolt használnom? Mi a különbség?
+Ezek funkcionálisan ugyanazok, de sajátos céljuk van.
+- Ha GodMode9i-t használsz flashcard-dal használd az NDS verziót
+- Ha a GodMode9i-t telepítesz hiyaCFW SDNAND-odra, használd a DSi verziót
+- Ha a GodMode9i-t TWiLight Menu++-szal indítod, mindkét verzió ugyanúgy működik
+- Ha a GodMode9i-t telepítesz 3DS HOME Menübe, használd a CIA verziót

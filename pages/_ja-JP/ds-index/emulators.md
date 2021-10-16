@@ -25,6 +25,7 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 | ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                             |
 | ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`                          |
 | メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]                         |
+| インテレビジョン             | [Nintellivision][nintellivision]             | `.int`                                 |                                            |
 | マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`                         |
 | Fast Video           | 近日公開                                         | `.fv`                                  |                                            |
 | ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                             |
@@ -102,3 +103,4 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
+[nintellivision]: https://github.com/wavemotion-dave/NINTV-DS

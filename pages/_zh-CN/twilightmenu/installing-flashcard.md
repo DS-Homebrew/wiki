@@ -37,9 +37,12 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - M3 DS Real
+   - M3i Zero (non-GMP-Z003 model)
+   - DSONE SDHC & DSONEi
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`文件) 和 `TTMenu` 目录
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. 将 `Use nds-bootstrap` 设置为 `No`，这样烧录卡固件就会取代nds-bootstrap
 
 ### 自动启动TWiLight Menu++

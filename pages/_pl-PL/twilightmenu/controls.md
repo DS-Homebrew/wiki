@@ -35,47 +35,9 @@ description: Sterowanie korzystania z TWiLight Menu++
       - <kbd class="face">Y</kbd>: Pokaż opis cheatu
       - <kbd class="l">L</kbd>: Wyłącz wszystkie cheaty
 
-#### ROMy DS(i) (przy użyciu nds-bootstrap)
-Nie dotyczy to DSiWare.
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Góra</kbd> + <kbd class="face">X</kbd> na 1 sekundę: Zamień ekrany
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Dół</kbd> + <kbd class="face">B</kbd> przez 2 sekundy: Powrót do menu TWiLight ++
-- <kbd class="l">L</kbd> + <kbd>Dół</kbd> + <kbd>SELECT</kbd>: Otwórz in-game menu
-   - <kbd class="r">R</kbd>: Advance by one frame
-   - Screenshot
-      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
-      - <kbd class="face">A</kbd>: Save screenshot
-      - <kbd class="face">B</kbd>: Return to in-game menu
-   - RAM Viewer
-      - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
-      - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
-      - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
-      - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
-      - <kbd class="face">A</kbd>: Enter RAM Editor
-      - <kbd class="face">B</kbd>: Return to in-game menu
-      - <kbd class="face">Y</kbd>: Specify an address to jump to
-        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
-        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-   - RAM Editor
-      - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-      - <kbd class="face">A</kbd>: Modify selected value
-         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h
-         - <kbd>Left</kbd>/<kbd>Right</kbd>: Increase/Decrease value by 10h
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Finish modifying value
-      - <kbd class="face">B</kbd>: Return to RAM Viewer
-      - <kbd class="face">Y</kbd>: Specify an address to jump to
-        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
-        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- Returning to TWiLight Menu++ may not work on some O3DS models
-- The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
-- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
-- Dumping RAM and taking screenshots are currently not possible in B4DS mode
+#### Boot shortcuts
+These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
 
-#### Skróty startowe
-Należy je nacisnąć na ekranie startowym TWiLight Menu++ / zaraz po ekranie startowym Nintendo DSi.
-
-- <kbd>SELECT</kbd>: Otwórz ustawienia
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Resetuj wszystkie ustawienia TWiLight Menu++
-- <kbd class="face">B</kbd>: Uruchom w ostatnio grany ROM
+- <kbd>SELECT</kbd>: Open settings
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
+- <kbd class="face">B</kbd>: Boot the last ran ROM

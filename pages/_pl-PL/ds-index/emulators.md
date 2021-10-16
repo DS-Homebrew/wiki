@@ -25,6 +25,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
+| Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
 | Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
@@ -102,3 +103,4 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
+[nintellivision]: https://github.com/wavemotion-dave/NINTV-DS

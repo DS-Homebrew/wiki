@@ -25,6 +25,7 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], natív[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                               |
 | Game Gear               | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                            |
 | Genesis / Mega Drive    | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^6]                           |
+| Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                           |
 | Fast Video              | Hamarosan                                       | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                               |
@@ -102,3 +103,4 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
+[nintellivision]: https://github.com/wavemotion-dave/NINTV-DS

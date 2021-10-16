@@ -29,7 +29,7 @@ SDNANDにアプリをインストールするには、 [TMFH](https://github.com
 ニンテンドーDSiメニューには39タイトルの制限があります。 それ以上のものがある場合は、 `sd:/title`のフォルダからいくつかを削除しますか、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使ってアンインストールしてください。
 
 ##### DSiWareの使用する容量が多すぎます
-`00030004`フォルダには、DSiWare用の200ブロック（25MB）の制限もあります。 これは、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用してシステムアプリとしてインストールすることで回避できます。
+`00030004`フォルダには、DSiWare用の200ブロック（25MB）の制限もあります。 これは、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用してDSiウェアをシステムアプリとしてインストールすることで回避できます。
 
 ##### 無効なタイトル
 hiyaCFWにタイトルを追加する時に考慮する必要があることがいくつかあります：

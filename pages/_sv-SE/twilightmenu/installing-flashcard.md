@@ -37,9 +37,12 @@ description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - M3 DS Real
+   - M3i Zero (non-GMP-Z003 model)
+   - DSONE SDHC & DSONEi
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
-      - Kontrollera att du har `YSMenu.nds` (bytt namn från `TTMenu.dat` om det inte finns en) och mappen `TTMenu` på minneskortets microSDs rot
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Ställ in `Använd nds-bootstrap` till `Nej`, så att minneskortets firmware kommer att användas istället för nds-bootstrap
 
 ### Automatiskt uppstart av TWiLight Menu++

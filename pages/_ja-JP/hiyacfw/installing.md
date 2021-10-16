@@ -17,8 +17,7 @@ hiyaCFWをインストールした後に本体を更新しませんでくださ�
 
 ### 必要条件
 - [Unlaunchがインストールされる](https://dsi.cfw.guide/installing-unlaunch)ニンテンドーDSi
-- dumpToolを使ってデバイスから作成したNANDバックアップ
-   - お持ちでない場合は、dsi.cfw.guideの[NANDのダンプ](https://dsi.cfw.guide/dumping-nand)ガイドに従ってください
+- [dumpToolを使って](https://dsi.cfw.guide/dumping-nand)デバイスから取られたNANDバックアップ
 - Windows、macOSまたはLinuxのデバイス
 
 ### その1：hiyaCFWをインストールするためのPCの準備

@@ -16,7 +16,7 @@ Az AP (Anti-Piracy) egy módja annak, hogy a fejlesztők a legális vásárláso
 Abban az esetben, ha nincs `.ips` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot az [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával.
 
 ### Cloneboot
-A Cloneboot az, amikor egy játék elküldi saját betöltött ARM7 és ARM9 binárisát egy másik konzolra. Ez a DS Download Play-hez használt, az egykártyás több játékos játékokhoz. Nem az összes játék, ami támogatja az egykártyás többjátékos játékot használ cloneboot-ot azonban.
+A Cloneboot az, amikor egy játék elküldi saját betöltött ARM7 és ARM9 binárisát egy másik konzolra. Ez a DS Download Play-hez használt, az egykártyás több játékos játékokhoz. Azonban mem az összes játék, ami támogatja az egy-kártyás többjátékos játékot használ cloneboot-ot.
 
 ### Mentés fájlok
 A Nintendo DS cartridge-ek 4 ismert mentés típussal rendelkeznek:
@@ -26,7 +26,7 @@ A Nintendo DS cartridge-ek 4 ismert mentés típussal rendelkeznek:
 - FRAM - Ferroelectric Random-Access Memory
 - NAND - NOT-AND
 
-Különböző formátumok léteznek loader-től függően, de az nds-bootstrap a nyers `.sav` formátumot használja. Ha más formátumú mentéseid vannak, akkor itt egy weboldal, amit használhatsz a konverzióra: http://www.shunyweb.info/convert.php.
+Különböző formátumok léteznek loader-től függően, de az nds-bootstrap a nyers `.sav` formátumot használja. Ha más formátumú mentésed van, akkor itt egy weboldal, amit használhatsz a konverzióra: http://www.shunyweb.info/convert.php.
 
 ### Gépi kód
 Az assembly nyelv egy alacsony szintű programozási nyelv, erős kapcsolattal a nyelv parancsai és a processzor parancsai között. A DS-en az assembly kód lehet ARM és THUMB utasítás, a THUMB utasítások az ARM utasítások egy részhalmaza. A THUMB hasznos a memória sávszélesség spóroláshoz, mert 16 bites parancsokat használ a 32 bites ARM parancsok helyett.
@@ -34,7 +34,7 @@ Az assembly nyelv egy alacsony szintű programozási nyelv, erős kapcsolattal a
 További információkat találhatsz a gépi kódú utasításokról és sok más technikai információt a DS-ről és a DSi-ről a [GBATEK](https://problemkaputt.de/gbatek.htm) oldalán.
 
 ### Kártya olvasás DMA
-A kártya DMA (Direct Memory Access, közvetlen memória hozzáférés) egy sokkal hatékonyabb olvasási módja a cartridge adatnak, mint a CPU által. Amíg az adat átvitel alatt van a kód tovább futhat, így ez a preferált módja az adathozzáférésnek.
+A kártya DMA (Direct Memory Access, közvetlen memória hozzáférés) egy sokkal hatékonyabb olvasási módja a cartridge adatnak, mint a CPU által. Amíg az adat átvitel alatt van, a kód tovább futhat, így ez a preferált módja az adathozzáférésnek.
 
 A no$gba-ban észre vehető egy játékról, hogy DMA-t használ a DMA log bekapcsolásával az ARM9-en. Egy DMA hozzáférés a kártyához az AF000001 értéket használja harmadik paraméternek.
 - Például: `DMA2: 04100010 023C18C0 AF000001`
@@ -64,7 +64,7 @@ A csalás kódok jellemzően 0-tól F-ig típusúak, és alább egy (befejezettl
 - DeadSkullzJr dolgozik egy sokkal részletesebb csalás kód leírás listával, amit ez a fejezet linkelni fog, ha elkészül
 
 ### Demonstrációs és terjesztési címek:
-A demonstrációs (Demo) címek eltérnek a dobozos verziójuktól különböző módokon. Nyilvánvaló jelzése egy címnek, hogy demo, ami csak bemutatja, hogy fog kinézni a kereskedelmi verzió, gyakorlatilag egy bepillantás abba, mi várható a jövőben, amikor a teljes kiadás megjelenik. A Nintendo DS termékvonal esetében ezek a címek "Not for Resale" jelzést kaptak a cím címkéken és minden demo eltérő cím ID-val rendelkezik a kereskedelmi verziótól a cartridge hátoldalán egy "Not for Resale" matrica is megtalálható. Ezek a címek többnyire kioszk demók promóciós helyeken a boltokban.
+A demonstrációs (Demo) címek eltérnek a dobozos verziójuktól különböző módokon. Nyilvánvaló jelzése egy címnek, hogy demo, ami csak bemutatja, hogy fog kinézni a kereskedelmi verzió, gyakorlatilag egy bepillantás abba, mi várható a jövőben, amikor a teljes kiadás megjelenik. A Nintendo DS termékvonal esetében ezek a címek "Not for Resale" jelzést kaptak a cím címkéken és minden demo eltérő cím ID-val rendelkezik a kereskedelmi verziótól és a cartridge hátoldalán egy "Not for Resale" matrica is megtalálható. Ezek a címek többnyire kioszk demók promóciós helyeken a boltokban.
 
 A terjesztési címek az esetek többségében más szituáció, habár a demók bele férnek a terjesztési címek közé néhány cím esetén. A legtöbb esetben a terjesztési címek kereskedelmi verziói a címeknek, amelyek kiállításra szolgálnak vagy valamilyen promócionális csomagolásból származnak. Ugyanúgy láthatod a "Not for Resale" címkét ezeken a címeken, mint a demonstrációs címeken. Ezek néha kioszkokban használtak, hogy lehetővé tegyék más játékosoknak, hogy kipróbálják a címeket. Habár tudjuk, hogy gyakorlatilag megegyeznek a kereskedelmi verzióval az esetek többségében, külön azonosítóval rendelkeznek a cím ID-n a címkén.
 
