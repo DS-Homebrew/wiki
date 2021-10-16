@@ -14,8 +14,10 @@ function setTab(tab) {
 		url = url.replace(/(?=#|$)/, "?tab=" + tab);
 	}
 
-	if(url != window.location.href) // Don't update if not changed
+	if(url != window.location.href) { // Don't update if not changed
 		history.pushState({}, "", encodeURI(url));
+		if(typeof updateLanguageAlert != "undefined") updateLanguageAlert(); // Language alert requires modern JS
+	}
 }
 
 function findTab(tabGroup, tabName) {

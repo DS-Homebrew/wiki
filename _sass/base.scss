@@ -541,8 +541,8 @@ a.footnote::after {
 
 	.tab-link {
 		border: 1px solid $borders;
+		border-bottom-width: 0;
 		padding: 0.5rem 1rem;
-		margin-bottom: -1px;
 		transition: 150ms ease;
 	}
 	.tab-link:not(:first-of-type) {
