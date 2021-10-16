@@ -1,7 +1,8 @@
 <div class="tab-container">
+	<!-- <div class="tab-container-border"></div> -->
 	{% for tab in page.tabs[include.index] %}
 		<input id="tab-{{ tab[0] }}" class="d-none" name="tabs" type="radio" {% if forloop.first %}checked{% endif %}>
-		<label for="tab-{{ tab[0] }}" class="tab-link btn btn-outline-secondary" onclick="setTab('{{ tab[0] }}')">{{ tab[1] }}</label>
+		<label for="tab-{{ tab[0] }}" class="tab-link" onclick="setTab('{{ tab[0] }}')">{{ tab[1] }}</label>
 		<div class="tab">{{ include.tabs[forloop.index0] | markdownify }}</div>
 	{% endfor %}
 </div>
