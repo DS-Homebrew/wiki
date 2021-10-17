@@ -546,22 +546,38 @@ a.footnote::after {
 		transition: 150ms ease;
 
 		@media screen and (min-width: 576px) {
-			&:not(:first-of-type) {
-				border-left-width: 0px;
+			html[dir=ltr] & {
+				&:not(:first-of-type) {
+					border-left-width: 0px;
+				}
+
+				&:first-of-type {
+					border-top-left-radius: 0.25rem;
+				}
+
+				&:last-of-type {
+					border-top-right-radius: 0.25rem;
+				}
 			}
 
-			&:first-of-type {
-				border-top-left-radius: 0.25rem;
-			}
+			html[dir=rtl] & {
+				&:not(:first-of-type) {
+					border-right-width: 0px;
+				}
 
-			&:last-of-type {
-				border-top-right-radius: 0.25rem;
+				&:first-of-type {
+					border-top-right-radius: 0.25rem;
+				}
+
+				&:last-of-type {
+					border-top-left-radius: 0.25rem;
+				}
 			}
 		}
 
 		@media screen and (max-width: 575px) {
 			width: 100%;
-	
+
 			&:first-of-type {
 				border-radius: 0.25rem 0.25rem 0 0;
 			}
@@ -576,8 +592,16 @@ a.footnote::after {
 		margin-bottom: 1rem;
 		width: 100%;
 		border: 1px solid $borders;
-		border-radius: 0 0.25rem 0.25rem 0.25rem;
-		
+
+		@media screen and (min-width: 576px) {
+			border-radius: 0 0.25rem 0.25rem 0.25rem;
+
+			html[dir=rtl] & {
+				border-radius: 0.25rem 0 0.25rem 0.25rem;
+			}
+		}
+
+
 		@media screen and (max-width: 575px) {
 			border-radius: 0 0 0.25rem 0.25rem;
 		}
