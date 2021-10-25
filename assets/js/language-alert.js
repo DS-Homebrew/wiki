@@ -31,7 +31,7 @@ if(!sessionStorage.languageAlertDismissed) {
 	// If a language was found, show the popup
 	if(languageID) {
 		for(let language of document.getElementById("language-dropdown").children) {
-			if(language.children[0].dataset.languageId == languageID) {
+			if(language.children[0].lang == languageID) {
 				// Unhide language alert and set text direction
 				const languageAlert = document.getElementById("language-alert");
 				languageAlert.classList.remove("d-none");
