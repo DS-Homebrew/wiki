@@ -3,14 +3,14 @@ lang: es-ES
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play/PictoChat in the DS Classic Menu
-description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS Classic Menu
+title: Descarga DS/PictoChat en el Menú Clásico DS
+description: Cómo obtener Descarga DS y PictoChat en el Menú Clásico DS de TWiLight Menu++
 ---
 
 Si estás usando una consola DSi, ya deberías poder usar esas aplicaciones. Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu on a DSi. Otherwise, if you have a 3DS with no existing dump(s), proceed below.
 
 Dentro de GodMode9:
-1. Press the HOME/Power button
+1. Presiona el botón HOME/Power
 1. Select `Title Manager`, then select `[1:] NAND / TWL`
 1. Find and select `DS Download Play (NTR-HDNA)`
 1. Select `Open title folder`

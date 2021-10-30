@@ -11,7 +11,7 @@ description: Preguntas frecuentes y solución de errores de TWiLight Menu++
 Si tienes más preguntas, visita el [hilo de GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
+#### ¿Por qué mi 3DS se atora en pantallas negras, se apaga, etc al iniciar TWiLight Menu++?
 Puede que TWL_FIRM esté corrompido. Sigue esta guía para solucionarlo: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### ¿Qué puedo hacer para arreglar el pantallazo blanco al abrir TWiLight Menu++?
@@ -61,8 +61,10 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 #### ¿Qué sistemas soporta TWiLight Menu++?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### ¿Por qué no funciona la pantalla táctil con sudokuhax?
-Depending on the save file of sudokuhax, the touch screen inputs may not work.
+#### How do I get IR working properly?
+You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively. After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
+- Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
+- If you don't want to downgrade, then IR should work on the latest TWLMenu++ and nds-bootstrap versions, with *Pokemon Black & White Versions 1 & 2*.
 
 #### ¿The Biggest Loser es capaz de lanzar TWiLight Menu++?
 No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.

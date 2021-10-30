@@ -35,9 +35,9 @@ description: Controlli per l'utilizzo di TWiLight Menu++
       - <kbd class="face">Y</kbd>: Mostra descrizione del trucco
       - <kbd class="l">L</kbd>: Disabilita tutti i trucchi
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### Scorciatoie d'avvio
+Queste scorciatoie devono essere premute sullo splash screem di TWiLight Menu++/ subito dopo lo splash screen del Nintendo DSi.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM
+- <kbd>SELECT</kbd>: Apri le impostazioni
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Resetta tutte le impostazioni di TWiLight Menu++
+- <kbd class="face">B</kbd>: Avvia l'ultima ROM eseguita

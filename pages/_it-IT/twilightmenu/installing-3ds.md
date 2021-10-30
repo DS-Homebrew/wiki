@@ -13,7 +13,7 @@ tabs:
     manual: Manuale
 ---
 
-You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+Prima di tutto avrai bisogno di un Custom Firmware installato sul tuo 3DS, segui [3ds.hacks.guide](https://3ds.hacks.guide) per installarlo
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}
@@ -44,7 +44,7 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Scarica la versione piè recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Estrai `TWiLightMenu-3DS.7z`
 1. Copia la cartella `_nds` nella root della tua scheda SD
 1. Copia il file `BOOT.NDS` nella root della tua scheda SD

@@ -61,8 +61,10 @@ nds-bootstrapのよくある質問ページに、[SDカードからゲームを�
 #### TWiLight Menu++はどのシステムに対応ですか？
 [TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
-#### sudokuhaxからタッチ入力がうまくいかないのはなぜですか？
-sudokuhaxのセーブファイルによっては、タッチ画面の入力が動作しない場合があります。
+#### How do I get IR working properly?
+You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively. After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
+- Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
+- If you don't want to downgrade, then IR should work on the latest TWLMenu++ and nds-bootstrap versions, with *Pokemon Black & White Versions 1 & 2*.
 
 #### The Biggest LoserはTWiLight Menu++を起動できますか？
 いいえ。 The Biggest LoserはSlot-1ゲームです、DSiウェアではない、Slot-1カードを実行する時にSDアクセスが無効になります。

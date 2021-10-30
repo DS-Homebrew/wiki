@@ -7,30 +7,30 @@ title: Informazioni DS⁽ⁱ⁾ Mode Hacking
 description: Informazioni su il server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. We also focus on other things such as creating ROM hacks, playing DS games, and TWL_FIRM modding on 3DS.
+Questo è un server discord dedicato a tutto ciò che riguarda il modding e l'homebrew del Nintendo DS(i), dall'aiutarti a configurare la tua flashcard allo sviluppo di homebrew. Ci concentriamo anche su altre cose come la creazione di ROM hack, giocare a giochi per DS e modding TWL_FIRM su 3DS.
 
 ## Canali Discord
-There are plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations.
+Abbiamo molti canali per diversi argomenti, quidni assicurati di star usando il canale giusto in modo tale che gli altri non vengano riempiti di conversazioni fuori tema.
 
-Always remember to check the channel topic and pins before talking in a channel.
+Ricordati sempre di controllare l'argomento del canale e i messaggi attaccati prima di parlare in un canale.
 {:.alert .alert-info}
 
-**Important**
-- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](https://wiki.ds-homebrew.com/community/discord-rules) on the wiki
-- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server such as other servers or this wiki
-- [#member-logs][member-logs] - Shows user joins and server boosts
+**Importante**
+- [#info-and-rules][info-and-rules] - Questo contiene delle informazioni sulle regole e sul server. Per maggiori informazioni sulle regole, vedi [la pagina delle regole](https://wiki.ds-homebrew.com/community/discord-rules) sulla wiki
+- [#useful-resources][useful-resources] - Link a risorse utili che si trovano fuori dal server Discord come altri server o questa wiki
+- [#member-logs][member-logs] - Mostra gli utenti che entrano e i potenziamenti al server
 
-**Server Hub**
-- [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server
-- [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories
-- [#github-builds][github-builds] - Feed of all of our projects' nightly builds
-- [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
-- [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
+**Hub del server**
+- [#announcements][announcements] - Informazioni su aggiornamenti a homebrew e annunci generali relativi al server
+- [#github-updates][github-updates] - Feed di tutti i contributi e discussioni nelle repository GitHub dei nostri progetti
+- [#github-builds][github-builds] - Feed per le build nightly di tutti i nostri progetti
+- [#subreddit-feed][subreddit-feed] - Aggiornamenti sui nuovi post dal nostro [Subreddit](https://reddit.com/r/NDSBrew)
+- [#community-meta][community-meta] - Per dare feedback sulla nostra community, incluso questo server Discord, il nostro subreddit e l'organizzazione GitHub
 
-**Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-modding-help][nds-modding-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
-- [#nds-modding-discussion][nds-modding-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
-- [#nds-retail-research][nds-retail-research] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities
+**Modding Nintendo DS⁽ⁱ⁾**
+- [#nds-modding-help][nds-modding-help] - Hai un problema con qualcosa che riguarda il Nintendo DS(i)? Hai bisogno di fare una domanda generale? Sentiti libero di farlo qui, fornendo tutte le informazioni che puoi dare (messagi di errore, la tua console, metodi provati, log, e così via). Per il modding 3DS vai su #other-console-modding a meno che non abbia a che fare con TWL_FIRM
+- [#nds-modding-discussion][nds-modding-discussion] - Un posto per discutere di flashcard, AP, patch e su conoscenze generali e ricerca sul DS. Anche se questo canale copre TWL_FIRM su 3DS, per favore tieni le discussioni sulla modalità 3DS in #other-console-modding
+- [#nds-retail-research][nds-retail-research] - Parla di ROM hack, mod e cheat per i titoli Nintendo DS(i). Controlla i messaggi attaccati per una list di community dedicate
 - [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
 
 **Main DS⁽ⁱ⁾ Homebrew Projects**

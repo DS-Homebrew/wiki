@@ -13,7 +13,7 @@ tabs:
     manual: ידני
 ---
 
-You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+ראשית תצטרכו שמכשיר ה3DS שלכם יהיה פרוץ עם קושחה מותאמת אישית. עקבו אחר [3ds.hacks.guide](https://3ds.hacks.guide) על מנת להתקין את הפריצה
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}

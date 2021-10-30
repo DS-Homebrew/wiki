@@ -33,13 +33,8 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 
 #### Mi az a Donor ROM?
 Az nds-bootstrap-ben, amikor egy játék nem bootol vagy nem ment, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett. A legtöbb játék beállítható Donor ROM-nak (ami a **TW**i**L**ight Menu++-szal tehető meg) és mind a játéknak amit indítani szeretnél, mind a donornak ugyanazt az SDK verziót kell tartalmaznia.
-- **Flashcards DS módban:** A THUMB-ban fordított ARM7 binárisokat tartalmazó játékokhoz egy ARM-ban fordított ARM7 binárisokat tartalmazó Donor ROM-ra van szükség, hogy a játék elindulhasson és/vagy menthessen.
-- **DSi/3DS SD-kártyán + Flashcardok feloldott SCFG-vel:** Csak néhány játékhoz van szükség Donor ROM-ra a bootoláshoz. Azok amelyekről ismert, hogy kell nekik
-     - Eigo ga Nigate na Otona no DS Training: Eigo Zuke
-     - Anpanman to Touch de Waku Waku Training
-     - Professor Layton and the Last Specter/Spectre's Call (japán verzió)
-     - Barbie and the Three Musketeers
-     - Mimi's Party Fun
+- **Flashcards DS módban:** A THUMB-bal fordított ARM7 binárisokat tartalmazó játékokhoz egy ARM kódban fordított ARM7 binárisokat tartalmazó Donor ROM-ra van szükség, hogy a játék elindulhasson és/vagy menthessen.
+- **DSi/3DS SD kártyán + Flashcard-ok feloldott SCFG-vel:**A DSi-Enhanced játékok amik olyan ARM7/ARM7i binárist tartalmaznak, ami THUMB kóddal lett fordítva olyan TWL-típusú Donor ROM-ot igényelnek, ami tartalmazza egy ARM7/ARM7i binarárist, ami ARM kódban lett fordítva, ahhoz, hogy a játék bebootoljon DSi módban.
 - **DSiWarehax:** Mivel a DSi-Enhanced játékok és a DSi-Exkluzív/DSiWare játékok eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják.
 - **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva.
 

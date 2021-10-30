@@ -61,8 +61,10 @@ Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en kereszt�
 #### Milyen rendszereket támogat a TWiLight Menu++?
 Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Miért nem működik az érintő képernyő a sudokuhax-szal?
-A sudokuhax mentés fájljától függően az érintő képernyő bevitel előfordulhat, hogy nem működik.
+#### Hogyan tehetem az IR-t megfelelően működővé?
+Mind a TWiLight Menu-t, mind az nds-bootstrap-t le kell downgrade-elned v12.2.1-re, illetve v0.30.1-re. Ezt követően győződj meg arról, hogy a `Slot-1 microSD hozzáférés` ki van kapcsolva és a `SELECT gomb` a TWLMenu++ beállításokban a `SELECT Menu` beállításra van állítva.
+- Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy elindíts DSi-Enhanced játékokat DSi módban és DSi-Exklúzív és DSiWare játékokat.
+- Ha nem akarsz downgrade-elni, akkor az IR-nek a legújabb TWLMenu++ és nds-bootstrap verziókon működnie kell, a *Pokemon Black & White Versions 1 & 2* játékokkal.
 
 #### Tud-e a The Biggest Loser bebootolni TWiLight Menu++-vel?
 Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.

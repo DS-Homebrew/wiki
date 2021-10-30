@@ -9,7 +9,7 @@ description: Controles para usar TWiLight Menu++
 ---
 
 #### Temas de Nintendo DSi, Nintendo 3DS, SEGA Saturn y Homebrew Launcher
-- <kbd>Izquierda</kbd>/<kbd>Derecha</kbd>: Seleccionar juego o aplicación.
+- <kbd>Izquierda</kbd>/<kbd>Derecha</kbd>: Seleccionar juego o aplicación
 - <kbd class="face">A</kbd>/<kbd>START</kbd>: Iniciar juego o aplicación
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Cambiar páginas
 - (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Arriba</kbd>/<kbd>Abajo</kbd> y luego soltar <kbd>SELECT</kbd>: Cambiar entre contenidos de la tarjeta SD y la flashcard

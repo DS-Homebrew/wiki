@@ -35,9 +35,9 @@ description: שליטה ומקשים עבור TWiLight Menu++
       - <kbd class="face">Y</kbd>: צפה בתיאור הצ'יט
       - <kbd class="l">L</kbd>: בטל את כל הצ'יטים
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### קיצורי דרך בהפעלה
+על כפתרים אלו צריך ללחוץ במהלך תמונת ההפעלה של TWiLight Menu++ / מיד לאחר תמונת ההפעלה של Nintendo DSi.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM
+- <kbd>SELECT</kbd>: פתח הגדרות
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: אפס את כל ההגדרות של TWiLight Menu++
+- <kbd class="face">B</kbd>: הרץ את הROM שרץ אחרון

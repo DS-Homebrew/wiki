@@ -6,31 +6,31 @@ title: GodMode9i
 description: Informations sur GodMode9i
 ---
 
-[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) is an open source file browser for the Nintendo DS ecosystem, taking inspiration from GodMode9 for the Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
+[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) est un navigateur de fichiers open source pour la Nintendo DS, s'inspirant de GodMode9 pour la Nintendo 3DS. GodMode9i a plusieurs fonctions, comme de dump des jeux, gérer les fichiers de la carte SD, de parcourir les fichiers de NitroFS, de calculer le hachage SHA1 des fichiers, de modifier les fichiers binaires avec un éditeur hexadécimal, et plus encore.
 
-## Dumping functionality
+## Dump de jeu
 
-To dump games, select the drive in the drives list and follow the on-screen prompts.
-- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
-- On the Nintendo DSi family of systems, Unlaunch is required for dumping Slot-1 games to the SD card
-   - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
-- On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
-   - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+Pour dump les jeux, sélectionnez la carte de jeu dans la liste et suivez les instructions à l'écran.
+- Sur la Nintendo DS et la Nintendo DS Lite, GodMode9i peut dump les cartouches Slot-2 s'il est lancé depuis une carte flash Slot-1, ou les cartes de jeu Slot-1 si GodMode9i est lancé depuis une carte flash Slot-2
+- Sur la famille de consoles Nintendo DSi, Unlaunch est nécessaire pour dump les jeux du Slot-1 vers la carte SD
+   - Des instructions sur l'installation de Unlaunch sont disponibles sur [dsi.cfw.guide](https://dsi.cfw.guide/)
+- Sur la famille des consoles Nintendo 3DS, un CFW moderne est nécessaire pour lancer GodMode9i
+   - Des instructions sur l'installation de Luma3DS + boot9strap sont disponibles sur [3ds.hacks.guide](https://3ds.hacks.guide/)
 
-## Troubleshooting and FAQ
+## Dépannage et FAQ
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+#### Comment passer l'écran "mounting drive(s)" lors du démarrage ?
+Cela se produit lorsque vous lancez GodMode9i à partir de [hiyaCFW](../hiyacfw). Vous pouvez maintenir <kbd class="face">X</kbd> pendant le lancement de GodMode9i pour sauter le montage de la NAND. Alternativement, vous pouvez lancer GodMode9i directement depuis Unlaunch pour pouvoir monter la NAND.
 
-#### Why can't I add, remove, or edit files on the NAND?
-Editing files on the DSi NAND is not safe and can easily lead to a brick, so GodMode9i intentionally lacks this capability.
+#### Pourquoi ne puis-je pas ajouter, supprimer ou modifier des fichiers sur la NAND ?
+Editer des fichiers sur la NAND DSi n'est pas sûr et peut facilement conduire à un brick, donc GodMode9i a intentionnellement désactivé cette fonction.
 
-#### Why can't I view NDS file info for some DSiWare?
-Some DSiWare, specifically those located in the `0003000f` folder, contain system data and do not have a valid banner.
+#### Pourquoi ne puis-je pas voir les informations NDS pour certains DSiWare ?
+Certains DSiWare, notamment ceux situés dans le dossier `0003000f` , contiennent des données système et n'ont pas de bannière valide.
 
-#### Should I use the NDS version or the DSi version? What's the difference?
-These are functionally the same, but they have specific purposes.
-- If you are using GodMode9i with a flashcard, use the NDS version
-- If you are installing GodMode9i to your hiyaCFW SDNAND, use the DSi version
-- If you are starting GodMode9i via TWiLight Menu++, both versions will work identically
-- If you are installing GodMode9i to your 3DS HOME Menu, use the CIA version
+#### Dois-je utiliser la version NDS ou la version DSi ? Quelle est la différence ?
+Les versions sont fonctionnellement identiques, mais ont des objectifs spécifiques.
+- Si vous utilisez GodMode9i avec une flashcard, utilisez la version NDS
+- Si vous installez GodMode9i sur votre SDNAND hiyaCFW, utilisez la version DSi
+- Si vous démarrez GodMode9i via TWiLight Menu++, les deux versions fonctionneront de manière identique
+- Si vous installez GodMode9i dans le menu HOME de la 3DS, utilisez la version CIA

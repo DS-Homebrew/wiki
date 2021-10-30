@@ -6,7 +6,7 @@ title: GodMode9i
 description: Informazioni su GodMode9i
 ---
 
-[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) is an open source file browser for the Nintendo DS ecosystem, taking inspiration from GodMode9 for the Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
+[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) è un file browser open source per l'ecosistema Nintendo DS, che prende ispirazione da GodMode9 per Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
 
 ## Dumping functionality
 
