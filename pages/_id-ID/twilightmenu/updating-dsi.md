@@ -5,7 +5,7 @@ section: twilightmenu
 category: updating
 title: Memperbarui (DSi)
 long_title: Memperbarui TWiLight Menu++ (DSi)
-description: Bagaimana cara memperbarui TWiLight Menu++ pada Nintendo DSi
+description: Cara memperbarui TWiLight Menu++ pada Nintendo DSi
 ---
 
 If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.

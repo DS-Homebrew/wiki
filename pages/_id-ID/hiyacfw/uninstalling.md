@@ -2,14 +2,14 @@
 lang: en-US
 layout: wiki
 section: hiyacfw
-title: Uninstalling
-long_title: Uninstalling hiyaCFW
-description: How to uninstall hiyaCFW from Nintendo DSi
+title: Pencopotan (Uninstall)
+long_title: Pencopotan hiyaCFW
+description: Cara mencopot hiyaCFW dari Nintendo DSi
 ---
 
 hiyaCFW is only present on the SD card and has no presence on your NAND. Before proceeding, be sure to backup any save data from your SDNAND that you wish to keep. You can learn how to do that by following Section III of the [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) guide.
 
-### Uninstalling
+### Pencopotan (Uninstall)
 1. Delete `hiya.dsi` from the SD card root
 1. Delete the `hiya` folder
 1. Delete the `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket`, and `tmp` folders

@@ -8,7 +8,7 @@ long_title: Pemasangan TWiLight Menu++ (DSi)
 description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 ---
 
-Jika kamu belum ada cara menjalankan homebrew di DSi-mu, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
+Jika Anda belum punya cara menjalankan homebrew di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
 
 ### Pemasangan (Installing)

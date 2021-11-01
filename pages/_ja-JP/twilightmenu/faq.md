@@ -61,19 +61,19 @@ nds-bootstrapのよくある質問ページに、[SDカードからゲームを�
 #### TWiLight Menu++はどのシステムに対応ですか？
 [TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
-#### How do I get IR working properly?
-You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively. After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
-- Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
-- If you don't want to downgrade, then IR should work on the latest TWLMenu++ and nds-bootstrap versions, with *Pokemon Black & White Versions 1 & 2*.
+#### 赤外線を正常に動作させるにはどうすればいいですか？
+TWiLight Menu++とnds-bootstrapの両方をそれぞれv12.2.1とv0.30.1にダウングレードします必要があります。 その後に、TWLMenu++設定には`Slot-1のmicroSDアクセス`がオフになって、`SELECTボタン`が`SELECTメニュー`に設定されるを確認してください。
+- DSi対応ゲームをDSiモードで実行したり、DSi専用ゲームとDSiウェアを実行したりすることができなくなりますのでご注意ください
+- ダウングレードしたくない場合は、最新のTWLMenu++とnds-bootstrapバージョンで『ポケットモンスターブラック・ホワイト１と２』に赤外線が動作させるはずです
 
 #### The Biggest LoserはTWiLight Menu++を起動できますか？
 いいえ。 The Biggest LoserはSlot-1ゲームです、DSiウェアではない、Slot-1カードを実行する時にSDアクセスが無効になります。
 
-#### Why can't I find/see my games?
-There are a multiple reasons you may be unable to find them.
-- If you placed your games in the `_nds` folder, you are unable to access it because it is permanently invisible in TWiLight Menu++. Please move them to any other location on the SD card
-- If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
-- If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
-- If the game type is set to be hidden in Emulation/HB settings, it won't appear on menus. Change these settings so that they will be displayed
-- If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
-- If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+#### ゲームを見つける・見ることができないのはなぜですか？
+見つからないことができない複数の理由があります。
+- ゲームを`_nds`フォルダに配置した場合、TWiLight Menu++では永久に見えないためアクセスできません。 SDカード上の任意な他の場所に移動してください
+- フォルダ内に39個以上のアイテムがあり、メニュー上のスロットがすべて取られている場合は、ゲームは次のページにある可能性があります。 <kbd class="l">L</kbd>・<kbd class="r">R</kbd>または<kbd>SELECT</kbd>+<kbd>左</kbd>・<kbd>右</kbd>を使ってページを切り替える
+- ゲームやフォルダが隠されている場合は、TWiLight Menu++のGUI設定から「隠しファイルの表示」をオンにする必要があります
+- エミュレーション/HB設定でゲームタイプを非表示に設定すると、メニューには表示されません。 これらの設定を変更して表示します
+- ゲームがアーカイブ（`ZIP`、`RAR`、`7Z`など）にある場合は、TWiLight Menu++では使用できません。 アーカイブからゲームを解凍して使用します
+- ゲームが[対応されている拡張子](../ds-index/emulators#list-of-systems-supported-by-twilight-menu)のにずれかを使わない場合は、ファイルの名前を変更して拡張子を変更する必要があります

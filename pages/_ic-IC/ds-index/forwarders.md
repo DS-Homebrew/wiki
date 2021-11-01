@@ -12,7 +12,7 @@ tabs:
     tab-flashcard: crwdns25087:0crwdne25087:0
 ---
 
-crwdns25089:0crwdne25089:0 crwdns25091:0crwdne25091:0
+crwdns27169:0crwdne27169:0 crwdns27171:0crwdne27171:0 <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 crwdns21478:0crwdne21478:0 crwdns25093:0crwdne25093:0
 crwdns21482:0{:.alert .alert-info}crwdne21482:0
@@ -61,7 +61,7 @@ crwdns25113:0{% capture tab-dsi-sd-card %}crwdne25113:0
    - crwdns25131:0crwdne25131:0
 
 ### crwdns21656:0crwdne21656:0
-1. crwdns25133:0%20Gcrwdnd25133:0%20Fcrwdnd25133:0%20pcrwdnd25133:0%20crwdnd25133:0%28crwdnd25133:0%20Scrwdnd25133:0%20Ccrwdnd25133:0%29crwdne25133:0
+1. crwdns27173:0crwdne27173:0
 1. crwdns25135:0crwdne25135:0
 
 crwdns25137:0crwdne25137:0

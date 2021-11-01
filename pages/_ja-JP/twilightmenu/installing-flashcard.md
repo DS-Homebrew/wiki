@@ -21,6 +21,10 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
       - これにより、フラッシュカードのゲームでTWLクロック速度やVRAMブーストを使用できますほか、本体のSDカードにアクセスしたり、フラッシュカードからDSi対応・DSi専用・DSiウェアのゲームをDSiモードで実行したりできます
 
 ### フラッシュカードのファームウェアを使用してゲームを実行するには
+
+すべてのフラッシュカードがこの方法でゲームを実行するがサポートしているわけではないことにご注意してください。 以下の手順があなたのフラッシュカードに通用されない場合は、このセクションをスキップできます。
+{:.alert .alert-warning}
+
 1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します
    - そうしたら場合は、手順3に進みます。 そうでない場合は、以下の手順に従ってください
 
@@ -41,7 +45,7 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - M3i Zero (GMP-Z003以外のモデル)
    - DSONE SDHCとDSONEi
 
-   [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします
+   [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
       - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更）と`TTMenu`フォルダがあることを確認します
 1. `nds-bootstrapを使用`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます
 

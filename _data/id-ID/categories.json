@@ -6,7 +6,7 @@
 		},
 		{
 			"key": "reference",
-			"title": "Rujukan (Referensi)"
+			"title": "Rujukan"
 		}
 	],
 	"twilightmenu": [
@@ -16,7 +16,7 @@
 		},
 		{
 			"key": "updating",
-			"title": "Pemerbaruan (Updating)"
+			"title": "Pemerbaruan"
 		},
 		{
 			"key": "customization",
