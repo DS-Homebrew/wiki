@@ -37,19 +37,21 @@
 					</svg>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-sm-end hover-content" id="language-dropdown">
-					{% assign ref = page.url | split: page.collection | last %}
 					{% for collection in site.collections %}
 						{% unless collection.label == "ic-IC" %}
-							{% for item in site[collection.label] %}
-								{% assign itemRef = item.url | split: item.lang | last %}
-								{% if itemRef == ref %}
-									<li><a class="dropdown-item{% if item.lang == page.collection %} active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
-								{% endif %}
-							{% endfor %}
+							{% assign path = page.path | replace: page.collection, collection.label %}
+							{% assign item = site[collection.label] | where: "path", path | first %}
+							{% if item %}
+								<li><a class="dropdown-item {% if item.lang == page.collection %}active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
+							{% endif %}
 						{% endunless %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
-					<li><a class="dropdown-item" href="{% for item in site.ic-IC %}{% assign itemRef = item.url | split: item.collection | last %}{% if itemRef == ref %}{{ item.url | remove: ".html" }}{% endif %}{% endfor %}" accesskey="t">{{ site.data[page.collection].strings.translate-here }}</a></li>
+					{% assign path = page.path | replace: page.collection, "ic-IC" %}
+					{% assign item = site.ic-IC | where: "path", path | first %}
+					{% if item %}
+						<li><a class="dropdown-item" href="{{ item.url | remove: "index.html" | remove: ".html" }}" accesskey="t">{{ site.data[page.collection].strings.translate-here }}</a></li>
+					{% endif %}
 					<li><a class="dropdown-item" href="https://{% if site.data.crowdin-languages contains page.collection %}{{ site.data.crowdin-languages[page.collection] }}.{% endif %}crowdin.com/project/ds-homebrew-wiki" accesskey="c">{{ site.data[page.collection].strings.translate-on-crowdin }}</a></li>
 				</ul>
 			</div>

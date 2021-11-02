@@ -20,12 +20,11 @@ layout: compress
 							{% comment %} Get category list {% endcomment %}
 							{% assign items = site[page.collection] | where: "section", page.section | sort_natural: "title" %}
 							{% comment %} First do the index {% endcomment %}
-							{% for item in items %}
-								{% if item.url contains "index.html" %}
-									<a class="{% if page.title == item.title %}fw-bold{% endif %}" href="{{ item.url | remove: "index.html" }}">{{ item.title }}</a>
-									<hr class="mt-2 mb-2">
-								{% endif %}
-							{% endfor %}
+							{% assign item = items | where_exp: "item", "item.url contains 'index.html'" | first %}
+							{% if item %}
+								<a class="{% if page.title == item.title %}fw-bold{% endif %}" href="{{ item.url | remove: "index.html" }}">{{ item.title }}</a>
+								<hr class="mt-2 mb-2">
+							{% endif %}
 							<ul class="list-unstyled">
 								{% comment %} Then the pages not in categories {% endcomment %}
 								{% for item in items %}
@@ -36,13 +35,11 @@ layout: compress
 								{% comment %} Finally, the other pages {% endcomment %}
 								{% for cat in site.data[page.collection].categories[page.section] %}
 									<li>
-										<details {% if page.category == cat.key or page.category.first and page.category contains cat %}open{% endif %}>
+										<details {% if page.category == cat.key %}open{% endif %}>
 											<summary>{{ cat.title }}</summary>
 											<ul>
-												{% for item in items %}
-													{% unless item.category == cat.key or item.category.first and item.category contains cat.key %}
-														{% continue %}
-													{% endunless %}
+												{% assign filtered = items | where: "category", cat.key %}
+												{% for item in filtered %}
 													<li class="{% if page.title == item.title %}fw-bold{% endif %}"><a href="{{ item.url | remove: ".html" }}">{{ item.title }}</a></li>
 												{% endfor %}
 											</ul>
