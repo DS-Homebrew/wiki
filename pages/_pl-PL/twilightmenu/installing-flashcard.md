@@ -21,6 +21,10 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
       - Pozwoli to na wykorzystanie prędkości zegara TWL i/lub zwiększenia pamięci VRAM w grach z karty flash, a także na dostęp do karty SD konsoli i uruchamianie gier DSi-Enhanced/DSi-Exclusive/DSiWare w trybie DSi z karty flash
 
 ### Aby uruchomić gry używając firmware flashcardu
+
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
+
 1. Wypakuj to co jest `Flashcart Loader/(Twój flashcard)` do katalogu głównego karty microSD nagrywarki
    - Jeśli to już zrobiłeś, przejdź do kroku 3. Jeśli nie, wykonaj kroki poniżej listy flashcardów
 
@@ -41,7 +45,7 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
    - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Ustaw `Użyj nds-bootstrap` na `Nie`, żeby oprogramowanie flashcard było używane zamiast nds-bootstrap
 

@@ -1,26 +1,26 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: updating
-title: Updating (Flashcard)
-long_title: Updating TWiLight Menu++ (Flashcard)
-description: How to update TWiLight Menu++ on a Nintendo DS flashcard
+title: Pemerbaruan (Flashcard)
+long_title: Pemerbaruan TWiLight Menu++ (Flashcard)
+description: Cara memperbarui TWiLight Menu++ pada flashcard Nintendo DS
 ---
 
-If updating from a version older than v16.4.0, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
+Jika memperbarui dari versi yang lebih tua dari v16.4.0, mohon pindahkan dulu berkas `.sav` permainan DS ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DS.
 {:.alert .alert-info}
 
-If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare ROMs.
+Jika memperbarui dari versi yang lebih tua dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
-### Updating
+### Pemerbaruan (Updating)
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Extract `TWiLightMenu-Flashcard.7z`
 1. Copy the `_nds` folder to your flashcard's microSD card root
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
 
-### More steps for the DSi/3DS SD card side
+### Langkah tambahan untuk di kartu SD DSi/3DS
 
 If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 

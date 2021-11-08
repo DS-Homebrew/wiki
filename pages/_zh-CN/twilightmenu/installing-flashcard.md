@@ -21,6 +21,10 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
       - 这将使您能够在您的烧录卡游戏上使用 TWL 时钟速度和/或 VRAM 提升，并能够访问主机的 SD 卡，以及从您的烧录卡中运行 DSi 增强/DSi 独占/DSiWare 游戏。
 
 ### 使用烧录卡固件运行游戏
+
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
+
 1. 将 `Flashcart Loader/(你的烧录卡)`内的文件移到烧录卡的存储卡根目录下
    - 如果已完成，请看步骤3。 如果没有，请使用如下烧录卡的用户按照步骤继续操作
 
@@ -41,7 +45,7 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. 将 `Use nds-bootstrap` 设置为 `No`，这样烧录卡固件就会取代nds-bootstrap
 

@@ -21,6 +21,10 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
       - 이렇게 하면 플래시 카드 게임에서 TWL 클락 속도나 VRAM 부스트를 사용할 수 있을 뿐 아니라 본체의 SD 카드에 액세스하거나 플래시 카드에서 DSi 전용, DSi 웨어 게임을 DSi 모드로 실행할 수도 있습니다.
 
 ### 사용하고 있는 Flashcard 펌웨어를 이용해 게임을 실행하려면...
+
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
+
 1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
    - 이렇게 했다면, 3번째로 건너뜁니다. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
 
@@ -41,7 +45,7 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
    - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. `nds-bootstrap 사용`을 `비활성화`로 설정해서 nds-bootstrap 대신 Flashcard 펌웨어를 쓰도록 합니다.
 

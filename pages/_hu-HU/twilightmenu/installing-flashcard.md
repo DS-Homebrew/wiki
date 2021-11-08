@@ -21,6 +21,10 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
       - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához, és a futtatását DSi-Enhanced/DSi-Exclusive/DSiWare játékoknak DSi módban a flashcard-odról
 
 ### Játékok futtatása a flashcard firmware használatával
+
+Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon futtatását. Ha az alábbi lépések nem vonatkoznak a flashcard-odra, átugorhatod ezt a szakaszt.
+{:.alert .alert-warning}
+
 1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
    - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
@@ -41,7 +45,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - M3i Zero (nem GMP-Z003 modell)
    - DSONE SDHC & DSONEi
 
-   Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap` opciót `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 

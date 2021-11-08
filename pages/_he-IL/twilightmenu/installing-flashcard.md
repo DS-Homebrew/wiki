@@ -21,6 +21,10 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
       - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
 
 ### הרצת משחקים באמצעות הקושחה של הפלאשקארט שלכם
+
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
+
 1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
    - לאחר שזה בוצע, המשיכו לשלב 3. במידה ולא, עקבו אחר ההוראות מתחת לרשימת הפלאשקארטים הבאה
 
@@ -41,7 +45,7 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - M3i Zero (לא דגם GMP-Z003)
    - DSONE SDHC & DSONEi
 
-   התקינו את [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - וודאו שיש לכם את `YSMenu.nds` (עבר שינוי שם מ`TTMenu.dat` אם אין את הקובץ) ואת התיקייה `TTMenu` בכרטיס המיקרו SD של הפלאשקארט
 1. הגדירו את `Use nds-bootstrap` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
 

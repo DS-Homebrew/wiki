@@ -21,6 +21,10 @@ description: Как установить TWiLight Menu++ на флеш-карт�
       - Это позволит вам использовать тактовая частоту TWL и/или ускорение VRAM в играх на вашем флеш-картридже, так же как и доступ к SD-карте консоли, и запуску DSi-Enhanced/DSi-Exclusive/DSiWare игр в режиме DSi с флеш-картриджа
 
 ### Для запуска игр используя прошивку вашего флеш-картриджа
+
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
+
 1. Извлеките всё, что есть в `Flashcart Loader/(ваш флеш-картридж)` в корень карты microSD флеш-картриджа
    - Если вы это сделали, перейдите к шагу 3. Если нет, выполните шаги, указанные ниже списка флеш-картриджей
 
@@ -41,7 +45,7 @@ description: Как установить TWiLight Menu++ на флеш-карт�
    - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Установите `Исп. nds-bootstrap` на `Нет`, чтобы использовалась прошивка вашего флеш-картриджа вместо nds-bootstrap
 

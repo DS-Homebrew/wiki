@@ -2,11 +2,11 @@
 lang: id-ID
 section: twilightmenu
 title: TWiLight Menu++
-description: Panduan cara memakai dan mengubah suai (customize) TWiLight Menu++
+description: Panduan cara menggunakan dan mengubah suai (customize) TWiLight Menu++
 ---
 
-![TWiLight Menu++ logo](https://github.com/DS-Homebrew/TWiLightMenu/raw/master/logo.png)
+![Logo TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/raw/master/logo.png)
 
-[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) is an open-source menu that is able to launch a variety of applications. With themes, skins, folders and other features, this is a perfect all-in-one replacement menu for the Nintendo DS and 3DS family of systems.
+[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu) adalah menu sumber terbuka yang mampu menjalankan beragam aplikasi. Dengan tema, skin, folder, dan kecirian (fitur) lain, menjadikannya menu pengganti serba ada yang sempurna untuk keluarga deret sistem Nintendo DS dan 3DS.
 
-For info on how to install TWiLight Menu++, click on the "Installing" tab in the sidebar and select the guide for your console.
+Untuk info cara memasang TWiLight Menu++, pencet tab "Pemasangan" di papan sisi dan pilih panduan untuk konsol Anda.

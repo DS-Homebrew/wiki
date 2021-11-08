@@ -13,7 +13,7 @@ tabs:
     manual: 수동 설치
 ---
 
-You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+설치를 진행하기 전에, 사용자의 3DS 본체에 커스텀 펌웨어가 있어야 합니다. [3ds.hacks.guide](https://3ds.hacks.guide)를 따라서 설치해 주세요.
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}

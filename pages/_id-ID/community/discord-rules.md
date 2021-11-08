@@ -106,4 +106,4 @@ The consequences of breaking these rules are a warning, mute, kick or ban. Of co
 - However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
 
 
-Last updated: 2021-07-28
+Terakhir diperbarui: 2021-07-28

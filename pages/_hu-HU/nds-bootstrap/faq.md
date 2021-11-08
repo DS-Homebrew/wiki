@@ -32,11 +32,13 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - Képernyőképe készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
 #### Mi az a Donor ROM?
-Az nds-bootstrap-ben, amikor egy játék nem bootol vagy nem ment, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett. A legtöbb játék beállítható Donor ROM-nak (ami a **TW**i**L**ight Menu++-szal tehető meg) és mind a játéknak amit indítani szeretnél, mind a donornak ugyanazt az SDK verziót kell tartalmaznia.
-- **Flashcards DS módban:** A THUMB-bal fordított ARM7 binárisokat tartalmazó játékokhoz egy ARM kódban fordított ARM7 binárisokat tartalmazó Donor ROM-ra van szükség, hogy a játék elindulhasson és/vagy menthessen.
-- **DSi/3DS SD kártyán + Flashcard-ok feloldott SCFG-vel:**A DSi-Enhanced játékok amik olyan ARM7/ARM7i binárist tartalmaznak, ami THUMB kóddal lett fordítva olyan TWL-típusú Donor ROM-ot igényelnek, ami tartalmazza egy ARM7/ARM7i binarárist, ami ARM kódban lett fordítva, ahhoz, hogy a játék bebootoljon DSi módban.
+Az nds-bootstrap-ben, amikor egy játék nem bootol, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett. A legtöbb játék beállítható Donor ROM-nak (ami a **TW**i**L**ight Menu++-szal tehető meg) és mind a játéknak amit indítani szeretnél, mind a donornak ugyanazt az SDK verziót kell tartalmaznia.
+- **Flashcard-ok DS módban:** A néhány támogatott DSi-Exklúzív cím DSi-Enhanced ROM készletet igényel, mint Donor ROM.
 - **DSiWarehax:** Mivel a DSi-Enhanced játékok és a DSi-Exkluzív/DSiWare játékok eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják.
 - **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva.
+
+#### Mi a legjobb Donor ROM?
+Nincs *legjobb*, amit használni kellene, bár előnyösebb, ha egy 0-nál magasabb alverziót tartalmazó SDK5 ROM-ot állítunk be. Azonban ha DSiWarehax felhasználó vagy és nincs létező DSiWare ROM-od, dumpolhatod a *Nintendo DSi Sound*-et (SDK5.0) a GodMode9**i** használatával, és beállíthatpd a DSi Sound-ot, mint Donor ROM. Ha azonban 3DS konzolod van, akkor célszerű a DS WiFi Settings ROM-ot (SDK5.5) a GodMode9 segítségével dumpolni, és helyette a DS WiFi Settings-t Donor ROM-ként beállítani, mivel így a DSiWare-ben 9 másodperc várakozás nélkül aktiválható az alvó üzemmód.
 
 #### Miért nem tudok beállítani Donor ROM-ot?
 Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keresett ROM nem mutatja meg a lehetőséget, hogy donor ROM-nak állítsd be (feltéve, hogy lefelé görgetsz), akkor keress egy másik ROM-ot, amelyet donornak állíthatsz be.
@@ -50,7 +52,7 @@ A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben h
 További információkért a csalásokról látogass el [Action Replay csalás fejezethez a Kereskedelmi ROM-ok oldalon](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
 #### Hogyan készíthetek képernyőképeket?
-Képernyőképeket készíthetsz a játékbani menü fő képernyőjéről. Alapértelmezés szerint a jáékon belüli menü a az <kbd class="l">L</kbd> + <kbd>Le</kbd> + <kbd>SELECT</kbd> gombokra nyílik, ezután válasz a then select `Képernyőkép...` menüpontot, majd módosítsd a VRAM bank-ot, ha szükséges és nyomj <kbd class="face">A</kbd> gombot a képernyőkép mentéséhez.
+Képernyőképeket készíthetsz a játékbani menü fő képernyőjéről. Alapértelmezés szerint a játékon belüli menü a az <kbd class="l">L</kbd> + <kbd>Le</kbd> + <kbd>SELECT</kbd> gombokra nyílik, ezután válasz a then select `Képernyőkép...` menüpontot, majd módosítsd a VRAM bank-ot, ha szükséges és nyomj <kbd class="face">A</kbd> gombot a képernyőkép mentéséhez.
 
 A PC-den megtekintéséhez a képernyőképeknek ki kell csomagolnod az `sd:/_nds/nds-bootstrap/screenshots.tar` fájlt, amiben találhatók a képernyőképek, BMP formátumban. További üres BMP fájlok is lesznek, hogy a TAR fájl 50-re feltöltéséhez fel, ezeket egyszerűen figyelmen kívül lehet hagyni vagy törölni.
 

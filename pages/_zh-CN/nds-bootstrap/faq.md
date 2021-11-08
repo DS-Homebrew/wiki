@@ -32,11 +32,13 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### What is a Donor ROM?
-In nds-bootstrap, when a game doesn't boot or save, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary. Most games can be set as a Donor ROM (which can be done via **TW**i**L**ight Menu++), and both the game to launch and the donor must contain the same SDK version.
-- **Flashcards in DS mode:** Games containing ARM7 binaries compiled with THUMB code will require a Donor ROM containing an ARM7 binary compiled with ARM code, in order for the game to boot and/or save.
-- **DSi/3DS on SD Card + Flashcards with unlocked SCFG:** DSi-Enhanced games containing ARM7/ARM7i binaries compiled with THUMB code will require any TWL-type Donor ROM containing an ARM7/ARM7i binary compiled with ARM code, in order for the game to boot in DSi mode.
+In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary. Most games can be set as a Donor ROM (which can be done via **TW**i**L**ight Menu++), and both the game to launch and the donor must contain the same SDK version.
+- **Flashcards in DS mode:** The few supported DSi-Exclusive titles will require a DSi-Enhanced ROM set as a Donor ROM.
 - **DSiWarehax:** As both DSi-Enhanced games and DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on.
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around.
+
+#### What's the best Donor ROM?
+There's no *best* one to use, though it's preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you're a DSiWarehax user, and have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM. If you own a 3DS console though, it is preferrable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
 
 #### Why can't I set a Donor ROM?
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
