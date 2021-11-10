@@ -2,9 +2,9 @@
 lang: en-US
 layout: faq
 section: nds-bootstrap
-title: FAQ & Troubleshooting
-long_title: nds-bootstrap FAQ & Troubleshooting
-description: FAQ & Troubleshooting for nds-bootstrap
+title: FAQ
+long_title: nds-bootstrap FAQ
+description: FAQ for nds-bootstrap
 ---
 
 #### Why do I get a white screen when trying to load a game from SD card?
