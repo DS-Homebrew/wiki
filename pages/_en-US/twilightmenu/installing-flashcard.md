@@ -29,9 +29,8 @@ Please note that not all flashcards support running games in this fashion. If th
    - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:
-   - R4i-SDHC
-   - r4isdhc.com cards
-   - r4isdhc.hk cards
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
