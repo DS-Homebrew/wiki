@@ -19,7 +19,7 @@ description: FAQ & Troubleshooting for nds-bootstrap
 - If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues) 
     - Check the closed issues too in case there has already been an issue closed in preference a different one. 
     - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-- If no solution has been found at this point, make sure you add it to the compatibility list.
+- If no solution has been found at this point, make sure you update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1.
