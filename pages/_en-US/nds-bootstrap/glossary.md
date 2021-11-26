@@ -24,6 +24,9 @@ Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mh
 ### VRAM Mode
 Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but may cause issues. Games ran in DSi Mode can only be set at DSi VRAM Mode.
 
+### Card Read DMA
+Enables the uses of Card Read Direct Memory Access. Having this setting on can speed up games but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
+
 ### SWI Halt Hook
 Changes whether Software Interrupt (SWI) Halts are Hooked or not. Having it set to On can speed up loads, but might cause issues. 
 
