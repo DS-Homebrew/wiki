@@ -46,7 +46,7 @@ If you are using TWiLightMenu++ then you are already using this feature in the G
 
 This branch might help if trying to run ROMs that are a bit larger on the DS, but there is a limit due to the limited amount of RAM present in the DS. This is basically the Pokémon Emerald branch for the DS.
 
-Void Star made a fork of GBARunner2 that combines this ROM3M branch with some other neat features, and this is the build that comes with TWiLightMenu++ if you are using a DS.
+Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that combines this ROM3M branch with some other neat features, and this is the build that comes with TWiLightMenu++ if you are using a DS.
 
 ## DSi- and 3DS-Specific Builds
 
