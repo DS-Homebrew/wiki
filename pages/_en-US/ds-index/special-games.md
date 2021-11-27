@@ -310,3 +310,25 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+
+### Other (Special Games that do not fall into an above category)
+- Learn with Pokemon: Typing Adventures
+   - Cartridge has special bluetooth chip for connecting to the keyboard
+- Pokemon Heartgold/Soulsilver
+   - Cartridge has IR port for connecting to pokewalker perihperal
+- ElectroPlankton
+   - Cartridge has no save RAM
+- DS Download Station
+   - Series of cartridges used to distribute demo games
+- Sonic Classics Collection
+   - Genesis emulation structure has been converted into an emulator
+- Nitro Development Cart
+   - Has extra RAM for developing games for the DSi
+- Personal Trainer: Walking
+   - Has twin IR based pedometers
+- Slide Adventure MAG KID
+   - Comes with a Slot-2 Optical Mouse
+- Daigasso! Band Brothers
+   - Has a Slot-2 cart that added more songs
+- Arkanoid
+   - Came bundled with a Slot-2 Paddle Controller
