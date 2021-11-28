@@ -73,3 +73,13 @@ There are a multiple reasons you may be unable to find them.
 - If the game type is set to be hidden in Emulation/HB settings, it won't appear on menus. Change these settings so that they will be displayed
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
 - If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+
+#### How do I access TWiLight Menu++ settings?
+The way to access the TWiLight Menu++ settings varies between your configuration.
+- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
+- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
+- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+
+You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
