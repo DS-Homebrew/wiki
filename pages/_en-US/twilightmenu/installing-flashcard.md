@@ -26,7 +26,7 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you done so, continue to step 3. If not, follow the steps below the flashcard list below
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:
    - R4i-SDHC (r4i-sdhc.com)
