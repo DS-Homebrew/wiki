@@ -16,3 +16,6 @@ To dump games, select the drive in the drives list and follow the on-screen prom
    - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
 - On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
    - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+
+### Restoring saves
+GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.
