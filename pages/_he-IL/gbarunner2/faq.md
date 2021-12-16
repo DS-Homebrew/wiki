@@ -18,8 +18,11 @@ description: שאלות ותשובות ופתרון בעיות עבור GBARunne
 1. שנו את שמה ל`GBARunner2_arm7dldi_3ds.nds` (או ל`GBARunner2_arm7dldi_dsi.nds` אם אתם משתמשים בDSi)
 1. שימו אותה ב`sd:_nds`
 
+### Which build of GBARunner2 should I use?
+Usually, the builds that are included with TWiLight Menu++ is enough. For more information on the various builds of GBARunner, see the [Builds wiki page](https://wiki.ds-homebrew.com/gbarunner2/builds).
+
 #### איך אני משתמש באפשרויות של הWi-Fi link?
-תצטרכו את הגרסה מהבראנץ של [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) בשביל להשתמש באפשרויות אלו. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Why isn't RTC (Real Time Clock) supported in a ROM hack?
 RTC is supported on a per-game basis. You will have to change the ROM's game code to that of the original game so that GBARunner2 will recognize it.

@@ -26,7 +26,7 @@ Az Acekard (másként Wood UI) téma eltávolításra került a hibás működé
 Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista frissítés` opciót.
 
 #### Miért kapok fehér képernyőt, ha megpróbálok betölteni egy DS játékot az SD kártyáról?
-Tekintsd meg a [Miért kapok fehér képernyőt, ha megpróbálok betölteni egy játékot az SD kártyáról?](../nds-bootstrap/faq?faq=why-do-i-get-a-white-screen-when-trying-to-load-a-game-from-sd-card) problémát az nds-bootstrap GYIK oldalon.
+See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
 
 #### Hogyan használhatom a csalásokat?
 Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa.
@@ -61,13 +61,8 @@ Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en kereszt�
 #### Milyen rendszereket támogat a TWiLight Menu++?
 Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Hogyan tehetem az IR-t megfelelően működővé?
-Mind a TWiLight Menu-t, mind az nds-bootstrap-t le kell downgrade-elned v12.2.1-re, illetve v0.30.1-re. Ezt követően győződj meg arról, hogy a `Slot-1 microSD hozzáférés` ki van kapcsolva és a `SELECT gomb` a TWLMenu++ beállításokban a `SELECT Menu` beállításra van állítva.
-- Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy elindíts DSi-Enhanced játékokat DSi módban és DSi-Exklúzív és DSiWare játékokat.
-- Ha nem akarsz downgrade-elni, akkor az IR-nek a legújabb TWLMenu++ és nds-bootstrap verziókon működnie kell, a *Pokemon Black & White Versions 1 & 2* játékokkal.
-
-#### Tud-e a The Biggest Loser bebootolni TWiLight Menu++-vel?
-Nem. A The Biggest Loser egy Slot-1 játék és nem egy DSiWare játék; az SD hozzáférés tiltott, ha Slot-1 kártyát futtatunk.
+#### A Slot-1 játékok exploitjai be tudják tölteni TWiLight Menu++-t?
+Nem. Mivel ezek nem DSiWare címek, az SD-hozzáférés le van tiltva, a Slot-1 kártyák futtatásakor.
 
 #### Miért nem találom/látom a játékaimat?
 Több oka lehet, hogy nem találod őket.
@@ -77,3 +72,13 @@ Több oka lehet, hogy nem találod őket.
 - Ha a játék típus be lett állítva láthatatlanra az Emuláció/HB beállításokban, nem fog megjelenni a menükben. Módosítsd ezeket a beállításokat, hogy megjelenjenek
 - Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
 - Ha a játékod nem a [támogatott kiterjesztést](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
+
+#### How do I access TWiLight Menu++ settings?
+The way to access the TWiLight Menu++ settings varies between your configuration.
+- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
+- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
+- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+
+You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.

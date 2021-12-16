@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
-   - 이렇게 했다면, 3번째로 건너뜁니다. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
+   - If you have done so, continue to step 3. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
 
 1. 아래 Flashcard 이용자:
-   - R4i-SDHC
-   - r4isdhc.com 카드
-   - r4isdhc.hk 카드
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

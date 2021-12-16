@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Извлеките всё, что есть в `Flashcart Loader/(ваш флеш-картридж)` в корень карты microSD флеш-картриджа
-   - Если вы это сделали, перейдите к шагу 3. Если нет, выполните шаги, указанные ниже списка флеш-картриджей
+   - If you have done so, continue to step 3. Если нет, выполните шаги, указанные ниже списка флеш-картриджей
 
 1. Для этих флеш-картриджей:
-   - R4i-SDHC
-   - карты r4isdhc.com
-   - карты r4isdhc.hkcom
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

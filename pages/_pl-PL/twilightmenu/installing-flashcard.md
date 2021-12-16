@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Wypakuj to co jest `Flashcart Loader/(Twój flashcard)` do katalogu głównego karty microSD nagrywarki
-   - Jeśli to już zrobiłeś, przejdź do kroku 3. Jeśli nie, wykonaj kroki poniżej listy flashcardów
+   - If you have done so, continue to step 3. Jeśli nie, wykonaj kroki poniżej listy flashcardów
 
 1. Dla tych flashcardów:
-   - R4i-SDHC
-   - nagrywarki r4isdhc.com
-   - nagrywarki r4isdhc.hk
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

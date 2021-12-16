@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
-   - לאחר שזה בוצע, המשיכו לשלב 3. במידה ולא, עקבו אחר ההוראות מתחת לרשימת הפלאשקארטים הבאה
+   - If you have done so, continue to step 3. במידה ולא, עקבו אחר ההוראות מתחת לרשימת הפלאשקארטים הבאה
 
 1. לפלאשקראטים הבאים:
-   - R4i-SDHC
-   - כרטיסי r4isdhc.com
-   - כרטיסי r4isdhc.hk
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -42,11 +41,11 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (לא דגם GMP-Z003)
+   - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - וודאו שיש לכם את `YSMenu.nds` (עבר שינוי שם מ`TTMenu.dat` אם אין את הקובץ) ואת התיקייה `TTMenu` בכרטיס המיקרו SD של הפלאשקארט
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. הגדירו את `Use nds-bootstrap` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
 
 ### הפעלה אוטומטית של TWiLight Menu++

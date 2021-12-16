@@ -10,9 +10,8 @@ Affinché GBARunner2 possa caricare i titoli, è necessario un dump del BIOS GBA
 
 ### Guide al Dumping
 
-- [Wii (not family edition)/GameCube + link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS che utilizza la maggior parte dei titoli Virtual Console](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (Non possono essere titoli Virtual Console GBA o non-Nintendo (Game Gear)
-- [GBA or DS Phat/Lite with a GBA flashcart](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [GBA/DS/DS Lite with GBA flashcart or 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (not Family edition)/GameCube, GBA, and link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 Dopo il dump del BIOS, deve essere rinominato in `bios.in` e dovrebbe essere posizionato in `sd:/`, `sd:/gba/`, o `sd:/_gba/` per farlo leggere a GBARunner2.
 

@@ -1,1 +1,1 @@
-export default { 'pageIsInYourLanguage': 'Cette page est disponible en Français!' };
+export default { 'pageIsInYourLanguage': 'Cette page est disponible en français !' };

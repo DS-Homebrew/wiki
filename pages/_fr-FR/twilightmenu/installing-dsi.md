@@ -5,10 +5,10 @@ section: twilightmenu
 category: installing
 title: Installation (DSi)
 long_title: Installation de TWiLight Menu++ (DSi)
-description: Comment installer TWiLight Menu++ sur votre Nintendo DSi
+description: Comment installer TWiLight Menu++ sur la Nintendo DSi
 ---
 
-Si vous ne pouvez pas encore exécuter des homebrew sur votre DSi, suivez [dsi.cfw.guide](https://dsi.cfw.guide) pour installer TWiLight Menu++
+Si vous n'avez pas déjà un moyen d'exécuter des homebrews sur votre DSi, suivez [dsi.cfw.guide](https://dsi.cfw.guide) pour installer TWiLight Menu++
 {:.alert .alert-info}
 
 ### Installation
@@ -21,5 +21,5 @@ Si vous ne pouvez pas encore exécuter des homebrew sur votre DSi, suivez [dsi.c
 
 ### Démarrage automatique avec Unlaunch
 1. Allumez votre DSi en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
-1. Dans le menu de Unlaunch, allez à `OPTIONS`
+1. Dans le menu d'Unlaunch, allez à `OPTIONS`
 1. Définissez `NO BUTTON` ou un bouton de votre choix sur l'entrée `TWiLight Menu++` qui dit `BOOT.NDS` sur l'écran du bas

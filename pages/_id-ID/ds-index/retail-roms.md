@@ -15,15 +15,15 @@ AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases 
 
 If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
-### Cloneboot
+### Cloneboot (klona awal nyala)
 Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Not all games that have single-card multiplayer use cloneboot, however.
 
-### Save files
-Nintendo DS cartridges have 4 known save types:
+### Berkas-berkas simpanan (save)
+Cartridge Nintendo DS dikenali punya 4 jenis simpanan (save):
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory
+- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca yang Bisa Ditata Olah Dihapus Secara Elektris)
 - FLASH
-- FRAM - Ferroelectric Random-Access Memory
+- FRAM - Ferroelectric Random-Access Memory (Memori Akses Acak Feroelektrik)
 - NAND - NOT-AND
 
 There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have a save in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
@@ -78,58 +78,58 @@ Looking at the bottom of the title label shows the title ID along with other bit
 
 - NTR-NTRJ-**XXX**
 
-**XXX** represents the following:
+**XXX** mewakili berikut:
 
 - AUS - Australia
-- CHN - China
+- CHN - Tiongkok
 - DEN - Denmark
-- EUR - Europe (Multilingual)
-- EUU - Europe (Dutch or Italian Only)
-- FRA - France
-- GER - Germany
-- HOL - Netherlands
-- ITA - Italian
-- JPN - Japan
+- EUR - Eropa (Beragam Bahasa)
+- EUU - Eropa (Hanya Bahasa Belanda atau Italia)
+- FRA - Prancis
+- GER - Jerman
+- HOL - Belanda
+- ITA - Italia
+- JPN - Jepang
 - KOR - Korea
-- NOE - Europe (German Only)
-- NOR - Norway
-- RUS - Russia
-- SPA - Spain
-- UKV - United Kingdom
-- USA - United States
+- NOE - Eropa (Hanya Jerman)
+- NOR - Norwegia
+- RUS - Rusia
+- SPA - Spanyol
+- UKV - Inggris Raya
+- USA - Amerika Serikat
 
 The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
 
 - NTR-NTR**X**-JPN
 
-**X** represents the following:
+**X** mewakili berikut:
 
-- A - World (doesn't count as only one thing used it)
-- C - Chinese (Simplified)
-- D - German
-- E - American English
-- F - French
-- G - Greek
-- H - Dutch
-- I - Italian
-- J - Japanese
-- K - Korean
-- M - Swedish
-- N - Norwegian
-- O - English (DSi Enhanced)
-- P - European Multilingual
-- Q - Danish
-- R - Russian
-- S - Spanish
-- T - English (DSi Enhanced)
-- U - Australian English
-- V - British English
-- W - Other languages (Varies)
-- X - Other languages (Varies)
-- Y - Other languages (Varies)
-- Z - Other languages (Varies)
+- A - Sedunia (tidak terhitung hanya satu saja yang memakai)
+- C - Bahasa Cina (Sederhana)
+- D - Bahasa Jerman
+- E - Bahasa Inggris Amerika
+- F - Bahasa Prancis
+- G - Bahasa Yunani
+- H - Bahasa Belanda
+- I - Bahasa Italia
+- J - Bahasa Jepang
+- K - Bahasa Korea
+- M - Bahasa Swedia
+- N - Bahasa Norwegia
+- O - Bahasa Inggris (DSi Enhanced)
+- P - Beragam Bahasa Eropa
+- Q - Bahasa Denmark
+- R - Bahasa Rusia
+- S - Bahasa Spanyol
+- T - Bahasa Inggris (DSi Enhanced)
+- U - Bahasa Inggris Australia
+- V - Bahasa Inggris Britania
+- W - Bahasa lain (Bermacam)
+- X - Bahasa lain (Bermacam)
+- Y - Bahasa lain (Bermacam)
+- Z - Bahasa lain (Bermacam)
 
-In terms of the system identifiers:
+Untuk mengidentifikasi sistem:
 
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi

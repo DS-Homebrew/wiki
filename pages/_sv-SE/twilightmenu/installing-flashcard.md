@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Extrahera det som finns i `Flashcart Loader/(ditt minneskort)` till roten av minneskortets microSD-kort
-   - Om du gjort det, fortsätt att steg 3. Om du inte gjort det, följ stegen under listan av minneskort nedan
+   - If you have done so, continue to step 3. Om du inte gjort det, följ stegen under listan av minneskort nedan
 
 1. För dessa minneskort:
-   - R4i-SDHC
-   - r4isdhc.com kort
-   - r4isdhc.hk kort
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

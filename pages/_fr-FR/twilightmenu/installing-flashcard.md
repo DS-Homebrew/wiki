@@ -3,8 +3,8 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: installing
-title: Installation (Linker)
-long_title: Installation de TWiLight Menu++ (Linker)
+title: Installation (linker)
+long_title: Installation de TWiLight Menu++ (linker)
 description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 ---
 
@@ -14,24 +14,23 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
 1. Copiez le dossier `roms` à la racine de la carte microSD de votre linker
-1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav` qui sont à l'emplacement de votre ROM DS, dans un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROM DS
+1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav` , qui se trouvent dans l'emplacement de vos ROMs DS, vers un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROMs DS
 1. ...
-   - **Utilisateurs d'une DS Phat/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un pack d'extension de mémoire et réessayez
-   - **Utilisateurs DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, et activez `L'accès SCFG Slot-1` et définissez `Slot-1: Mode Touch` sur `Mode DSI`
+   - **Utilisateurs d'une DS Tank/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un DS Memory Expansion Pak et réessayez
+   - **Utilisateurs d'une DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, activez `Accès au SCFG par le Slot-1` et définissez `Slot-1: Mode tactile` sur `Mode DSi`
       - Ceci vous permet d'utiliser la vitesse TWL click et/ou le boost VRAM sur vos jeux flashcarts ainsi qu'à la carte SD de la console, et exécute les jeux Optimisés-DSi/Exclusifs-DSi/DSiWare en mode DSi depuis votre linker
 
 ### Pour exécuter des jeux en utilisant le logiciel de votre linker
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+Notez, si-il vous plait, que tout les linkers ne supportent pas des jeux dans ce mode. Si les étapes ci-dessous ne s'appliquent pas à votre flashcart, vous pouvez sauter cette section.
 {:.alert .alert-warning}
 
 1. Extrayez ce qui est dans `Flashcart Loader/(votre linker)` à la racine de la carte microSD
-   - Si vous l'avez fait, passez à l'étape 3. Dans le cas contraire, suivez les étapes en dessous de la liste de flashcard ci-dessous
+   - If you have done so, continue to step 3. Dans le cas contraire, suivez les étapes en dessous de la liste de flashcard ci-dessous
 
 1. Pour ces linkers :
-   - R4i-SDHC
-   - Cartes r4isdhc.com
-   - Cartes r4isdhc.hk
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -42,11 +41,11 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (pas le modèle GMP-Z003)
+   - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Assurez-vous d'avoir `YSMenu.nds` (renommez `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` sur la racine de la microSD de la flashcard
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Définissez `Utiliser nds-bootstrap` à `Non`, donc le micrologiciel de la flashcard sera utilisé à la place de nds-bootstrap
 
 ### Démarrage automatique de TWiLight Menu++

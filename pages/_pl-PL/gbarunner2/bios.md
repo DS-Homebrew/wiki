@@ -10,9 +10,8 @@ Aby GBARunner2 mógł załadować tytuły, konieczny jest zrzut BIOS GBA. Nowsze
 
 ### Wskazówki dotyczące Dumpu
 
-- [Wii (nie w edycji rodzinnej)/GameCube + odłącznik kabla](https://github.com/FIX94/gba-link-cable-dumper)
-- [3DS wykorzystujący większość tytułów Wirtualnej Konsoli](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds) (nie mogą być to gry GBA lub tytuły Virtual Console niewydane przez Nintendo (Game Gear))
-- [GBA lub DS Phat / Lite z flashcartem GBA](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [GBA/DS/DS Lite with GBA flashcart or 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (not Family edition)/GameCube, GBA, and link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 Po zrzuceniu BIOS-u należy zmienić jego nazwę na `bios.bin`, a następnie umieścić go w `sd:/`, `sd:/gba/` lub `sd:/_gba/`, aby GBARunner2 mógł go odczytać.
 

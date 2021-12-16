@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
 title: Homebrew
-description: Information about homebrew on the Nintendo DS
+description: Informasi tentang homebrew di Nintendo DS
 ---
 
-### Development
+### Pengembangan (Development)
 Developing Nintendo DS homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
 
 - **SD card libraries:** [libfat](https://github.com/devkitPro/libfat) is included in libnds and generally recommended, [libslim](https://github.com/DS-Homebrew/libslim/) can sometimes work better but is unstable at times
 - **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended, however [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead
 - **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem, however [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development
 
-To get started, [this GBAtemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. For more technical information on the DS(i), see [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
+To get started, [this GBAtemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. Untuk informasi lebih teknis di DS(i), silakan ke [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
-### Flashcards
+### Flashcard
 DS mode flashcards are a Slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, have the ability to be used without modding your system, and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
 
 ### DLDI
@@ -38,8 +38,8 @@ However, the kernels that come with these cards are fundamentally flawed and it 
 - [TWiLight Menu++ with nds-bootstrap](../twilightmenu/installing-flashcard) - Has a customizable all-in-one menu and supports cheats, but its B4DS mode (the mode used when it doesn't have the DSi's capabilities) has weak compatibility, some games even requiring the Memory Expansion Pak
 - [TWiLight Menu++ with YSmenu](../twilightmenu/installing-flashcard) - Customizable all-in-one menu with high compatibility, but lacks cheat support
 
-### ARGV support
-ARGV is an information transmitter between two homebrew Nintendo DS applications. It can be used for forwarders or alternative menus.
+### Dukungan ARGV
+ARGV adalah pemancar (transmitter) informasi antara dua aplikasi homebrew Nintendo DS. Dapat digunakan sebagai forwarder atau menu alternatif.
 
-- The homebrew needs to be programmed in order to take advantage of it. For example, GBARunner2, NesDS, and GameYob all have ARGV support
+- Homebrew perlu ditata olah (programmed) agar dapat memanfaatkannya. Contohnya: GBARunner2, NesDS, dan GameYob semua punya dukungan ARGV
 - There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments

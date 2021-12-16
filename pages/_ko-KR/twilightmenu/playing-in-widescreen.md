@@ -26,8 +26,7 @@ description: 닌텐도 3DS에서 와이드스크린으로 TWiLight Menu++를 이
 1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++ settings, switch to the `Games/Apps settings` page, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
 
 모든 작업이 끝났습니다! DS 게임을 와이드스크린으로 즐기세요!
 

@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. 将 `Flashcart Loader/(你的烧录卡)`内的文件移到烧录卡的存储卡根目录下
-   - 如果已完成，请看步骤3。 如果没有，请使用如下烧录卡的用户按照步骤继续操作
+   - If you have done so, continue to step 3. 如果没有，请使用如下烧录卡的用户按照步骤继续操作
 
 1. 如下烧录卡
-   - R4i-SDHC
-   - r4isdhc.com 卡
-   - r4isdhc.hk 卡
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

@@ -14,20 +14,19 @@ Nécessite une console Nintendo 3DS ou 2DS.
 - Assurez-vous que le `boot.firm` de Luma est à la racine de la carte SD pour que cela fonctionne
 
 ### Installation
-1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Téléchargez[TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)et copiez`TWPatch.cia`dans votre carte SD ([fils GBAtemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Installez `TWPatch.cia` en utilisant FBI
    - Vous pouvez également utiliser Universal-Updater pour installer TWPatch au lieu des deux étapes précédentes
 1. Retournez au menu home et lancez TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
-1. Press <kbd class="face">B</kbd> to exit the patch menu
-1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
+1. Maintenez <kbd class="face">Y</kbd>+<kbd class="face">B</kbd> pour ouvrir le menu du patch et activer `Widescreen patch (384x240 16:10)`
+1. (Optionnel !) Pour un écran large moins pixelisé, activez aussi`GPU scaling(blurry, no filters)`
+1. Appuyez sur <kbd class="face">B</kbd> pour quitter le menu du patch
+1. Appuyez sur <kbd>START</kbd> pour générer un fichier `TwlBg.cxi` avec écran large
+   - Si l'écran du haut n'indique pas que le patch large est activé, recommencez depuis l'étape 3
+1. Déplacez `TwlBg.cxi` de `sd:/luma/sysmodules/` dans `sd:/_nds/TWiLightMenu/TwlBg/` (créez le dossier `TwlBg`, si il n'existe pas), et renommez le fichier en `Widescreen.cxi`
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++ settings, switch to the `Games/Apps settings` page, and set `Screen Aspect Ratio` to `16:10`
-   - This can be done per-game as well
+1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
 
 Vous avez terminé ! Profitez de vos jeux DS en plein écran !
 

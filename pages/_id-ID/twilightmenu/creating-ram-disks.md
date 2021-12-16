@@ -26,7 +26,7 @@ Instructions by Dakkon7, modified by Rocket Robz:
 1. Click **Load/Save**
 1. Click `Start RAMDisk`, and a new window for your .img should appear
 1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
+1. Pada tata olah (program) RAMDisk, pencet `Save Disk Image Now`
 1. Save `romname.img` to the `ramdisks` folder in the .nds file location. If it does not exist already, create it
 1. Click `Stop RAMDisk` when you're done
 1. In TWiLight Menu++, open the per-game settings for your homebrew

@@ -7,14 +7,19 @@ long_title: nds-bootstrap FAQ & Risoluzione dei problemi
 description: FAQ & Risoluzione dei problemi per nds-bootstrap
 ---
 
-#### Perché ottengo una schermata bianca quando si tenta di caricare un gioco dalla scheda SD?
-- Innanzitutto, controlla [la lista di compatibilità di nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) e assicurati che il tuo gioco sia compatibile
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, you can use <kbd class="l">L</kbd> in the TWiLight Menu++ cheats menu to disable all cheats for a game
-- Se precedentemente funzionava, elimina le cartelle `fatTable` e `patchOffsetCache` in `sd:/_nds/nds-bootstrap/`
-- Run the game with different settings, including changing the ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
-- It's probably not that big of an issue; ask in the [Discord server](https://discord.gg/yD3spjv) If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues). Check the closed issues too in case there has already been an issue closed in preference a different one. If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-
-If no solution has been found at this point, make sure you add it to the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing) on Google Sheets.
+#### I'm having issues with my ROM(s), what should I do?
+- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
+- Check the [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest nds-bootstrap
+- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on TWiLight Menu++ will disable all cheats for it
+- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
+- Run the game with different settings, this includes ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
+    - Using TWiLight Menu++, change all the per-game settings to `Default`
+    - If there is a specific per-game setting that causes your issue, please report this to the [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
+- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
+- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on Github
+    - Check the closed issues too in case there has already been an issue closed in preference a different one.
+    - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
+- If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
@@ -38,7 +43,7 @@ In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around.
 
 #### What's the best Donor ROM?
-There's no *best* one to use, though it's preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you're a DSiWarehax user, and have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM. If you own a 3DS console though, it is preferrable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
+There's no *best* one to use, though it's preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you're a DSiWarehax user, and have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM. If you own a 3DS console though, it is preferable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
 
 #### Why can't I set a Donor ROM?
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
@@ -69,3 +74,10 @@ When taking a screenshot using nds-bootstrap it needs to use the DS's display ca
 #### Can I play games online using nds-bootstrap?
 Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
+
+#### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
+No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+- If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [TWiLight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
+
+#### Can I speed up games using nds-bootstrap?
+While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.

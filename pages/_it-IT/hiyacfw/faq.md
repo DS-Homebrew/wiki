@@ -2,36 +2,36 @@
 lang: it-IT
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
-long_title: hiyaCFW FAQ & Troubleshooting
+title: Domande frequenti e risoluzione dei problemi
+long_title: Domande frequenti su hiyaCFW e risoluzione dei problemi
 category: other
-description: FAQ & Troubleshooting for hiyaCFW
+description: Domande frequenti su hiyaCFW e risoluzione dei problemi
 ---
 
-#### How do I install apps or DSiWare to hiyaCFW's SDNAND?
-You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
-- If you would like to install Game Card dumps, you should use a [forwarder](../ds-index/forwarders)
+#### Come posso installare applicazioni o DSiWare sulla SDNAND di hiyaCFW?
+Bisogna usare [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) per installare le applicazioni sulla SDNAND, ma i vecchi homebrew DS potrebbero non essere compatibili.
+- Se vuoi installare i dump delle schede di gioco, dovresti usare un [forwarder](../ds-index/forwarders)
 
-#### Why do I get the #-2435-8325 error code?
-If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing).
+#### Perché ricevo il codice di errore #-2435-8325?
+Se il tuo Nintendo DSi mostra un errore in questo formato durante l'avvio, con # che è un numero, significa che il bootstage 2 pensa che ci sia qualcosa che non va nella SDNAND. Solitamente, questo si risolve [reinstallando hiyaCFW](installing).
 
-#### Why do I get "An error has occurred" message when booting hiyaCFW?
-When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
+#### Perché ricevo il messaggio "Si è verificato un errore" quando avvio hiyaCFW?
+Quando il menu del Nintendo DSi rileva un problema, di solito mostra questo generico messaggio di errore. Alcune delle cause sono:
 
-##### The free space bug
-The Nintendo DSi Menu has a bug when checking the free space on large storage devices. While this can't occur on the actual NAND (since the chip is only 256 MiB), it can happen when using an SD card.
+##### Il bug dello spazio libero
+Il menu del Nintendo DSi ha un bug quando controlla lo spazio libero su dispositivi di archiviazione di grandi dimensioni. Mentre questo non può accadere nella NAND effettiva (dato che il chip è di soli 256 MiB), può succedere utilizzando una scheda SD.
 
-What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
+Lo spazio libero funziona a gruppi alterni di due gibibyte. Per esempio, avere tra 0 e 2 GiB di spazio libero funziona, ma tra 2 e 4 GiB no. Lo stesso vale per 4-6 GiB contro 6-8 GiB, fino ad arrivare alla dimensione della scheda SD.
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+L'ultima versione di hiyaCFW può creare dei file fittizi per aggirare questo problema, quindi assicurati di scaricare l'ultima versione di [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) e copia `hiya.dsi` dalla cartella "for SDNAND SD card" alla root della scheda SD.
 
-##### Over 39 titles
-The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
+##### Più di 39 titoli
+Il menu del Nintendo DSi ha un limite di 39 titoli. Se ne hai di più, cancellane alcuni dalle cartelle in `sd:/title` o usa [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) per disinstallarli.
 
-##### Too much space used by DSiWare
-There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing DSiWare as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+##### Troppo spazio utilizzato da DSiWare
+C'è anche un limite di 200 blocchi (25MB) per DSiWare nella cartella `00030004`. Questo limite può essere raggirato installando le app DSiware come app di sistema utilizzando [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
 
-##### Invalid title
-There are several things you need to take into account when adding titles to hiyaCFW:
-- Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
-- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+##### Titolo non valido
+Ci sono diverse cose da tenere in considerazione quando si aggiungono titoli a hiyaCFW:
+- I dump delle schede di gioco non possono essere eseguiti senza utilizzare un [forwarder](../ds-index/forwarders)
+- Gli homebrew devono essere costruiti correttamente usando strumenti moderni per funzionare dal menu del Nintendo DSi

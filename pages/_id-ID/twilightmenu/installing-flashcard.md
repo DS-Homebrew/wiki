@@ -26,12 +26,11 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
 {:.alert .alert-warning}
 
 1. Ekstrak isi dari `Autoboot/(flashcard Anda)` ke root kartu microSD flashcard
-   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang di bawah daftar flashcard ini
+   - If you have done so, continue to step 3. Jika belum, ikuti langkah yang di bawah daftar flashcard ini
 
 1. Untuk flashcard berikut:
-   - R4i-SDHC
-   - Kartu r4isdhc.com
-   - Kartu r4isdhc.hk
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -42,11 +41,11 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (model tanpa GMP-Z003)
+   - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Pasang [YSMenu-nya RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Pastikan Anda sudah ada `YSMenu.nds` (diganti nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` di root kartu microSD flashcard
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Ubah `Gunakan nds-bootstrap` ke `Tak`, agar yang digunakan bukan nds-bootstrap tetapi firmware flashcard
 
 ### Memulai sendiri (Autobooting) TWiLight Menu++

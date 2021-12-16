@@ -26,7 +26,7 @@ TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לת�
 פתחו את ההגדרות של TWLMenu++, ובטלו את `Update recently played list`.
 
 #### למה אני מקבל מסך לבן כשאני מנסה להפעיל משחק DS מכרטיס הSD?
-See [Why do I get a white screen when trying to load a game from SD card?](../nds-bootstrap/faq?faq=why-do-i-get-a-white-screen-when-trying-to-load-a-game-from-sd-card) on the nds-bootstrap FAQ page.
+See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
 
 #### איך אני משתמש בצ'יטים?
 צריך מאגר ציטים בצורה של קובץ `usrcheat.dat` שנמצא בתיקיה `sd:/_nds/TWiLightMenu/extras/`. המאגר המעודכן ביותר הוא של [DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
@@ -61,13 +61,8 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 #### באילו מערכות TWiLight Menu++ תומך?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### How do I get IR working properly?
-You need to downgrade both TWiLight Menu++ and nds-bootstrap to v12.2.1 and v0.30.1, respectively. After doing so, make sure both `Slot-1 microSD access` is turned off, and `SELECT button` is set to `SELECT Menu` in TWLMenu++ Settings.
-- Please note that you'll lose the ability to launch DSi-Enhanced games in DSi mode, as well as launching DSi-Exclusives and DSiWare.
-- If you don't want to downgrade, then IR should work on the latest TWLMenu++ and nds-bootstrap versions, with *Pokemon Black & White Versions 1 & 2*.
-
-#### האם ניתן להשתמש בThe Biggest Loser על מנת להפעיל את TWiLight Menu++?
-No. As The Biggest Loser is a Slot-1 game, and not a DSiWare game, SD access is disabled when running Slot-1 cards.
+#### Can exploits of Slot-1 games boot TWiLight Menu++?
+No. As they're not DSiWare titles, SD access is disabled when running Slot-1 cards.
 
 #### Why can't I find/see my games?
 There are a multiple reasons you may be unable to find them.
@@ -77,3 +72,13 @@ There are a multiple reasons you may be unable to find them.
 - If the game type is set to be hidden in Emulation/HB settings, it won't appear on menus. Change these settings so that they will be displayed
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
 - If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+
+#### How do I access TWiLight Menu++ settings?
+The way to access the TWiLight Menu++ settings varies between your configuration.
+- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
+- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
+- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+
+You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.

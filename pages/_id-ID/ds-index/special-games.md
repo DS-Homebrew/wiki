@@ -18,7 +18,7 @@ description: DS(i) Games that have special properties
 - Bomberman 2
    - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-   - Download Play feature removed
+   - Fitur Download Play dilepas
    - Icon is animated
 - Brain Challenge
    - New features related to the DSi camera are added
@@ -57,7 +57,7 @@ description: DS(i) Games that have special properties
       - The game engine is improved
       - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Slot-2 features removed
+   - Fitur Slot-2 dilepas
 - Zuma's Revenge!
    - Multiplayer removed
    - Icon is animated
@@ -309,3 +309,25 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+
+### Other (Special Games that do not fall into an above category)
+- Learn with Pokemon: Typing Adventures
+   - Cartridge has special bluetooth chip for connecting to the keyboard
+- Pokemon Heartgold/Soulsilver
+   - Cartridge has IR port for connecting to pokewalker perihperal
+- ElectroPlankton
+   - Cartridge has no save RAM
+- DS Download Station
+   - Series of cartridges used to distribute demo games
+- Sonic Classics Collection
+   - Genesis emulation structure has been converted into an emulator
+- Nitro Development Cart
+   - Has extra RAM for developing games for the DSi
+- Personal Trainer: Walking
+   - Has twin IR based pedometers
+- Slide Adventure MAG KID
+   - Comes with a Slot-2 Optical Mouse
+- Daigasso! Band Brothers
+   - Has a Slot-2 cart that added more songs
+- Arkanoid
+   - Came bundled with a Slot-2 Paddle Controller

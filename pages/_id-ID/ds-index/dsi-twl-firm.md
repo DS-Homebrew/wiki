@@ -41,7 +41,7 @@ The Nintendo DSi Camera application has the ability to take pictures in the JPEG
 
 A `pit.bin` file is used in order to load images. However, the header size at offset 0x16 is unchecked, so a big enough header size value can exceed boundaries and cause the buffer to overwrite and jump to unsigned code. This is how Memory Pit is powered.
 
-### Nintendo DSi bootstage 2
+### Nintendo DSi bootstage 2 (tahap awal nyala kedua)
 The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.
 
 ### RTCom

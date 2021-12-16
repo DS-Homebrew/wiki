@@ -35,7 +35,7 @@ description: Controls for using TWiLight Menu++
       - <kbd class="face">Y</kbd>: Show cheat description
       - <kbd class="l">L</kbd>: Disable all cheats
 
-#### Boot shortcuts
+#### Pintasan awal nyala (boot)
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
 
 - <kbd>SELECT</kbd>: Open settings

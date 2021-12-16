@@ -1,18 +1,18 @@
 {
 	"by": "Par : $1",
 	"close": "Fermer",
-	"color-scheme": "Jeu de couleurs :",
+	"color-scheme": "Schéma de couleurs :",
 	"dark": "Sombre",
 	"default": "Défaut",
 	"description": "Wikis pour les projets DS-Homebrew",
 	"discord-server": "Serveur Discord (anglais uniquement)",
 	"light": "Clair",
-	"need-help": "Besoin d'aide ? Rejoignez notre serveur Discord : <a href=\"https://ds-homebrew.com/discord\">DS(i) Mode piratage !</a> (en anglais seulement)",
-	"published-with": "Publié avec <a href=\"https://pages.github.com\">GitHub Pages</a>, afficher <a href=\"https://github.com/$1\">la source</a> sur GitHub.",
+	"need-help": "Besoin d'aide ? Rejoignez notre serveur Discord : <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (en anglais seulement)",
+	"published-with": "Publié avec <a href=\"https://pages.github.com\">GitHub Pages</a>, voir la <a href=\"https://github.com/$1\">la source</a> sur GitHub.",
 	"select-language": "Sélectionner la langue",
 	"source": "Source",
 	"title": "Wiki DS-Homebrew",
-	"toggle-navigation": "Changer de mode de navigation",
+	"toggle-navigation": "Basculer à la navigation",
 	"translate-here": "Traduire ici",
 	"translate-on-crowdin": "Traduire sur Crowdin"
 }

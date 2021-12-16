@@ -97,7 +97,7 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
-[s8ds]: https://www.gamebrew.org/wiki/S8DS
+[s8ds]: https://github.com/FluBBaOfWard/S8DS
 [snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm

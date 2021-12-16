@@ -10,9 +10,8 @@ GBARunner2がタイトルを実行するためには、GBA BIOS必要があり�
 
 ### ダンプガイド
 
-- [Wii(Familyエディション以外)/ゲームキューブ+リンクケーブルダンパー](https://github.com/FIX94/gba-link-cable-dumper)
-- [ほとんどのバーチャルコンソールタイトルを使用する3DS](https://glazedbelmont.github.io/gbabiosdump/#virtual-console-title-from-a-3ds)（GBAまたはニンテンドー以外（ゲームギア）のバーチャルコンソールタイトルは使用できません）
-- [GBAまたはDS Phat・LiteとGBAフラッシュカートリッジ](https://glazedbelmont.github.io/gbabiosdump/#gameboy-advance-sp-micro-ds-ds-lite)
+- [GBA/DS/DS Lite with GBA flashcart or 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [Wii (not Family edition)/GameCube, GBA, and link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 GBARunner2がそれを読むため、BIOSをダンプした後に`bios.bin`に名前を変更する必要があり、`sd:/`、`sd:/gba/`または`sd:/_gba/`に配置してください。
 

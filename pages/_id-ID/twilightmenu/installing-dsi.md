@@ -22,4 +22,4 @@ Jika Anda belum punya cara menjalankan homebrew di DSi, ikuti [dsi.cfw.guide](ht
 ### Mulai sendiri (Autoboot) dengan Unlaunch
 1. Hidupkan Nintendo DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
 1. Pada menu Unlaunch, masuk ke `OPTIONS`
-1. Atur `NO BUTTON` atau tombol yang kamu pilih ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah
+1. Ubah `NO BUTTON` atau tombol pilihan Anda ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah

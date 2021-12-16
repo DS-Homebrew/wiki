@@ -26,12 +26,11 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
 {:.alert .alert-warning}
 
 1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します
-   - そうしたら場合は、手順3に進みます。 そうでない場合は、以下の手順に従ってください
+   - If you have done so, continue to step 3. そうでない場合は、以下の手順に従ってください
 
 1. 以下のフラッシュカードため：
-   - R4i-SDHC
-   - r4isdhc.comのカード
-   - r4isdhc.hkのカード
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -42,11 +41,11 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (GMP-Z003以外のモデル)
-   - DSONE SDHCとDSONEi
+   - M3i Zero (non-GMP-Z003 model)
+   - DSONE SDHC & DSONEi
 
-   [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
-      - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更）と`TTMenu`フォルダがあることを確認します
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. `nds-bootstrapを使用`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます
 
 ### TWiLight Menu++を自動起動する

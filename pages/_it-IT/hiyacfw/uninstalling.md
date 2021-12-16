@@ -1,26 +1,26 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: hiyacfw
-title: Uninstalling
-long_title: Uninstalling hiyaCFW
-description: How to uninstall hiyaCFW from Nintendo DSi
+title: Disinstallazione
+long_title: Disinstallazione di hiyaCFW
+description: Come disinstallare hiyaCFW da Nintendo DSi
 ---
 
-hiyaCFW is only present on the SD card and has no presence on your NAND. Before proceeding, be sure to backup any save data from your SDNAND that you wish to keep. You can learn how to do that by following Section III of the [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) guide.
+hiyaCFW è presente solo sulla scheda SD e non è presente sulla tua NAND. Prima di procedere, assicurati di eseguire il backup dei dati di salvataggio che desideri mantenere dalla tua SDNAND. Puoi imparare come seguendo la Sezione III della guida [Backup DSiWare](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) su [dsi.cfw.guide](https://dsi.cfw.guide).
 
-### Uninstalling
-1. Delete `hiya.dsi` from the SD card root
-1. Delete the `hiya` folder
-1. Delete the `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket`, and `tmp` folders
+### Disinstallazione
+1. Elimina `hiya.dsi` dalla root della scheda SD
+1. Elimina la cartella `hiya`
+1. Elimina le cartelle `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket` e `tmp`
 
-### Changing Unlaunch settings
+### Modifica delle impostazioni di Unlaunch
 
-If you had set Unlaunch to autoboot hiyaCFW, you may want to change these settings now that you no longer use it.
+Se avevi impostato Unlaunch per l'avvio automatico di hiyaCFW, potresti voler cambiare queste impostazioni ora che non lo usi più.
 
-1. Insert your SD card into your Nintendo DSi and start the console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This will open the Unlaunch Filemenu
-1. Go to `OPTIONS`, and set `NO BUTTON` to your desired application
-   - If you wish to autoboot the system NAND, set it to the application named `Launcher`
-   - If you wish to autoboot TWiLight Menu++, choose the file named `BOOT.NDS`
-1. Choose `SAVE & EXIT`
+1. Inserisci la scheda SD nel tuo Nintendo DSi e avvia la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
+   - Questo aprirà il menu di Unlaunch
+1. Vai a `OPTIONS`, e imposta `NO BUTTON` all'applicazione desiderata
+   - Se vuoi avviare automaticamente la NAND di sistema, impostalo sull'applicazione chiamata `Launcher`
+   - Se vuoi avviare automaticamente TWiLight Menu, scegli il file chiamato `BOOT.NDS`
+1. Scegli `SAVE & EXIT`

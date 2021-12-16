@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Estrai ciò che c'è in `Flashcart Loader/(la tua flashcard)` nella scheda microSD della flashcard
-   - Se lo avete fatto, passate al terzo passo. In caso contrario, seguire i passaggi sotto la lista delle flashcard qui sotto
+   - If you have done so, continue to step 3. In caso contrario, seguire i passaggi sotto la lista delle flashcard qui sotto
 
 1. Per queste flashcard:
-   - R4i-SDHC
-   - r4isdhc.com cards
-   - r4isdhc.hk cards
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -42,11 +41,11 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (modello non-GMP-Z003)
+   - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Assicurati di avere `YSMenu.nds` (rinominato da `TTMenu.dat` se non c'è) e la cartella `TTMenu` nel root della mircoSD della flashcard
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Imposta `Usa nds-bootstrap` a `No`, così verrà utilizzato il firmware della flashcard al posto di nds-bootstrap
 
 ### Auto-avvio TWiLight Menu++

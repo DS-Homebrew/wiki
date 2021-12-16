@@ -26,12 +26,11 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Extrae el contenido de `Flashcart Loader/(tu flashcard)` en la raíz de la microSD de tu flashcard
-   - Si ya lo has hecho, ve al paso 3. Si no, sigue los pasos debajo de la lista de flashcards
+   - If you have done so, continue to step 3. Si no, sigue los pasos debajo de la lista de flashcards
 
 1. Para estas flashcards:
-   - R4i-SDHC
-   - Cartuchos de r4isdhc.com
-   - Cartuchos de r4isdhc.hk
+   - R4i-SDHC (r4i-sdhc.com)
+   - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

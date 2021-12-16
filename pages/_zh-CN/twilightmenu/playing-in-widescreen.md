@@ -26,8 +26,7 @@ description: 如何在 Nintendo 3DS 中让 TWiLight Menu++ 使用宽屏
 1. 将 `TwlBg.cxi` 从 `sd:/luma/sysmodules/` 移动到 `sd:/_nds/TWiLightMenu/TwlBg/` (如果不存在名为 `TwlBg` 的文件夹的话，创建一个), 然后重命名为 `Widescreen.cxi`
 1. 重启 3DS，并按住 <kbd>SELECT</kbd> 以打开 Luma3DS 的配置菜单
 1. 启用 `external FIRMs and modules`，然后按 <kbd>START</kbd> 保存并退出
-1. 打开 TWiLight Menu++ 设置，切换到 `游戏设置` 页面，并将 `屏幕宽高比` 设置为 `16:10`
-   - 也可以单独对某个游戏设置
+1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
 
 已经完成了！ 在宽屏幕中享受您的 DS 游戏吧！
 

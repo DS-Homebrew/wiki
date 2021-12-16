@@ -41,5 +41,5 @@ These do not apply to DSiWare.
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
 - Returning to loader may not work on some O3DS models, and does not work in B4DS mode
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
-- Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
+- Tangkapan layar disimpan di `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
 - Dumping RAM and taking screenshots are currently not possible in B4DS mode

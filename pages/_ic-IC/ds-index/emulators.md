@@ -92,8 +92,8 @@ crwdns24653:0crwdne24653:0 crwdns24655:0crwdne24655:0
 [nesds]: crwdns27219:0crwdne27219:0
 [nitrografx]: crwdns27229:0crwdne27229:0
 [rvidplayer]: crwdns27237:0crwdne27237:0
-[s8ds]: crwdns24579:0crwdne24579:0
-[s8ds]: crwdns27203:0crwdne27203:0
+[s8ds]: crwdns27583:0crwdne27583:0
+[s8ds]: crwdns27585:0crwdne27585:0
 [snemulds]: crwdns27245:0crwdne27245:0
 [stellads]: crwdns24507:0crwdne24507:0
 [xegs-ds]: crwdns24531:0crwdne24531:0
