@@ -42,7 +42,9 @@
 							{% assign path = page.path | replace: page.collection, collection.label %}
 							{% assign item = site[collection.label] | where: "path", path | first %}
 							{% if item %}
-								<li><a class="dropdown-item {% if item.lang == page.collection %}active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
+								{% if item.lang != "en-US" or item.collection == "en-US" %}
+									<li><a class="dropdown-item {% if item.lang == page.collection %}active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
+								{% endif %}
 							{% endif %}
 						{% endunless %}
 					{% endfor %}
