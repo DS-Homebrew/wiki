@@ -43,7 +43,7 @@ Példák, hogy mik szegik meg ezt a szabályt:
 - További információkért arról, hogy mi kalózkodás és mi nem javasoljuk ezt olvasni valónak: [eip kalózkodás definíciós oldala](https://3ds.eiphax.tech/piracy.html) (Jogi nyilatkozat: Nem vagyunk ügyvédek)
 - A Discord szolgáltatási feltételei az amerikai törvényeket követik, és mint ilyen, a kalózkodás amerikai definíciójának hatálya alá tartozik, függetlenül attól, hogy a felhasználó az USA-ban él-e vagy sem
 
-### 5. Tarts a beszélgetéseket a hozzájuk tartozó csatornán
+### 5. Tartsd a beszélgetéseket a hozzájuk tartozó csatornán
 
 - Még akkor is, ha kapcsolódik, néha egy másik csatorna sokkal megfelelőbb
    - Nézd meg a csatorna témáját hogy megtudd, hol kérdezz vagy beszélgess
@@ -74,7 +74,7 @@ Példák, hogy mik szegik meg ezt a szabályt:
 - Példák arra, hogy mit ne csinálj: direkt üzenet reklámozás, szándékosan átirányítani közvetlen üzenetre felhasználókat a normál beszélgetésből (mint támogatás miatt) a szabályok megszegésére vagy zaklatásra
 
 
-### 10. Ne hozzon külső drámát, NSFW vagy illegális tartalmat a szerverre
+### 10. Ne hozz külső drámát, NSFW vagy illegális tartalmat a szerverre
 
 - Ha bannolva vagy másik szervereken, kerüld az erről beszédet
    - Nem tudunk segíteni más szervereken unbannolásban, ez a stáb döntése itt

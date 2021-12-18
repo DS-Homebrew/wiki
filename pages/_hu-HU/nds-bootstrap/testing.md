@@ -3,15 +3,15 @@ lang: hu-HU
 layout: wiki
 section: nds-bootstrap
 title: Kompatibilitási lista & tesztelési tippek
-description: Compatibility list and tips for testing ROMs
+description: Kompatibilitási lista és tippek a ROM-ok teszteléséhez
 ---
 
 ### Kompatibilitási lista
-To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Ha szeretnél közreműködni, nyomj a `View only`-ra majd a `Request edit access`-re. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
+A tesztelt ROM-ok megtekintéséhez nyisd meg a [kompatibilitás listát](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Ha szeretnél közreműködni, nyomj a `View only`-ra majd a `Request edit access`-re. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
 
 To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
 
-### Tips For Testing ROMs
+### Tippek a ROM-ok teszteléséhez
 - In general, look through the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) and [glossary](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) to make sure that you understand how to troubleshoot issues
 
 #### If testing for a specific reported bug

@@ -26,7 +26,7 @@ Nintendo 2DS vagy 3DS konzolt igényel.
 1. Mozgasd a `TwlBg.cxi` fájlt az `sd:/luma/sysmodules/` mappából a `sd:/_nds/TWiLightMenu/TwlBg/` mappába (hozd létre a `TwlBg` mappát, ha nem létezik) és nevezd át `Widescreen.cxi` névre
 1. Indítsd újra 3DS-ed, miközben nyomva tartod a <kbd>SELECT</kbd> gombot, hogy megnyíljon a Luma3DS konfiguráció
 1. Engedélyezd az `external FIRMs and modules`, opciót, majd nyomd meg a<kbd>START</kbd> gombot a mentéshez és kilépéshez
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+1. Nyisd meg a TWiLight Menu++-t, nyomd meg a <kbd class="face">Y</kbd> gombot a kívánt játékon, hogy megjelenjenek a játékonkénti beállítások, és állítsd be a `Képernyő képarány`-t `16:10` értékre
 
 Mindennel elkészültél! Élvezd a DS játékokat széles képernyőn!
 

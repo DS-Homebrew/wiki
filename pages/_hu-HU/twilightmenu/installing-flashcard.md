@@ -26,7 +26,7 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 {:.alert .alert-warning}
 
 1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
-   - If you have done so, continue to step 3. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
+   - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
 1. Ezekhez a flashcard-okhoz:
    - R4i-SDHC (r4i-sdhc.com)
@@ -41,11 +41,11 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
+   - M3i Zero (nem GMP-Z003 modell)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
+   Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap` opciót `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 
 ### TWiLight Menu++ automatikus bootolása

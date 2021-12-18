@@ -11,27 +11,27 @@ Necesitas una consola Nintendo 3DS o 2DS.
 {:.alert .alert-info}
 
 ### Preparación
-- Comprueba que el `boot.firm` de Luma se encuentra en la raíz de la SD para que esto funcione
+- Comprueba que el archivo `boot.firm` de Luma se encuentra en la raíz de la SD para que esto funcione
 
 ### Instalación
-1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
+1. Descarga [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) y copia `TWPatch.cia` a tu tarjeta SD ([Hilo de GBATemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
 1. Instala `TWPatch.cia` usando FBI
    - También puedes usar Universal-Updater para instalar TWPatch y saltarte los dos pasos anteriores
 1. Vuelve al menú de inicio y abre TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
-1. Press <kbd class="face">B</kbd> to exit the patch menu
-1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
-1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
-1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+1. Manten presionados <kbd class="face">Y</kbd> y <kbd class="face">B</kbd> para abrir el menu de parches y habilita el parche de `"Pantalla ancha" (resolucion de 384x240 16:10)`
+1. (Opcional!) Para obtener una pantalla panoramica menos pixeleada, tambien habilita `GPU scaling (borroso y sin filtros)`
+1. Presiona <kbd class="face">B</kbd> para salir de el menu de parches
+1. Presiona <kbd>START</kbd> para generar un archivo `TwlBg.cxi` con pantalla panoramica
+   - Si la pantalla de arriba no indica que el parche está habilitado, vuelve a comenzar desde el paso 3
+1. Mueve `TwlBg.cxi` desde `sd:luma/sysmodules/` a `sd:/_nds/TWiLightMenu/TwlBg/` (crea la carpeta `TwlBg` si no existe), y renombra el archivo a `Widescreen.cxi`
+1. Reinicia tu 3DS manteniendo pulsado <kbd>SELECT</kbd> para abrir la configuración de Luma3DS
+1. Habilita `external FIRMs and modules`, entonces presiona <kbd>START</kbd> para guardar y salir
+1. Abre el menu de TWiLight Menu++, presiona <kbd class="face">Y</kbd> en el juego que desees para que aparezca la configuracion por juego, y establece `Screen Aspect Ratio` a `16:10`
 
 ¡Hecho! ¡Disfruta de tus juegos de DS a pantalla completa!
 
-**NOTES:**
-1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
-1. Not every game is widescreen compatible. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`, and [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide
-1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched
+**NOTAS:**
+1. No mantengas presionado <kbd>START</kbd> ni <kbd>SELECT</kbd> cuando inicies TWLMenu++, si no quieres que la pantalla panoramica parezca glitcheada
+1. No todos los juegos son compatibles con la pantalla panoramica. [Aqui hay una lista de juegos que soportan la pantalla panoramica](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Si te quedas atascado en el modo de pantalla panoramica en todo TWL_FIRM (incluyendo la gui de TWLMenu++) despues de seguir esta guia y iniciar un juego compatible con la pantalla panoramica, borra `TwlBg.cxi` que esta en `sd:/luma/sysmodules/`, y [desinstala](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) y [re-instala](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, y vuelve a seguir la guia que esta arriba
+1. La mayoría de los parches de pantalla panoramica sólo ajustarán los elementos 3D para la pantalla panoramica, los elementos 2D (como los menús) sólo se estirarán

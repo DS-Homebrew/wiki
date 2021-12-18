@@ -2,22 +2,22 @@
 lang: en-US
 layout: wiki
 section: gbarunner2
-title: GBARunner2 Builds
-description: Information on the various GBARunner2 Builds and their uses
+title: GBARunner2 build-ek
+description: A GBARunner különböző build-jeivel kapcsolatos további információk és használatuk
 ---
 
 
-There are a number of different GBARunner2 releases or "builds" which one can use. They come from different branches and forks of GBARunner2 and have different features targeting either different GBA games or some different functions. **For most users** using the build that comes with TWiLightMenu++ is enough.
+Számos különböző GBARunner2 kiadás vagy "build" létezik, amelyeket használhatunk. A GBARunner2 különböző ágaiból és elágazásaiból származnak, és különböző funkciókkal rendelkeznek, amelyek vagy különböző GBA játékokat, vagy különböző funkciókat céloznak meg. **A legtöbb felhasználó számára** a TWiLightMenu++-hoz mellékelt build használata megfelelő.
 
 ## DS vs DSi vs 3DS Builds
 
-GBARunner2 has had builds made that makes use of the extra hardware found inside the DSi and 3DS. Naturally, these DSi- and 3DS-specific builds will not work on a DS. However, they also will not work if you are running GBARunner2 from a flashcard on any of the systems, DSi and 3DS included. The details about this will not be covered here.
+A GBARunner2 olyan buildeket készített, amelyek kihasználják a DSi és a 3DS extra hardverét. Természetesen ezek a DSi- és 3DS-specifikus buildek nem működnek DS-en. Azonban akkor sem fognak működni, ha a GBARunner2-t flashcard-ról futtatod bármelyik rendszeren, beleértve a DSi-t és a 3DS-t is. Ennek részleteivel itt nem foglalkozunk.
 
-This means that you can use builds for the DS on both DSi and 3DS, but not vice-versa.
+Ez azt jelenti, hogy a DS-hez készült buildeket a DSi-n és a 3DS-en is használhatod, de fordítva nem.
 
-## Shared Builds Between the DS, DSi and 3DS
+## Megosztott buildek a DS, DSi és 3DS között
 
-These are the builds that are present for all three lines of systems.
+Ezek azok a build-ek amik mindhárom rendszeren jelen vannak.
 
 ### Master
 
@@ -27,7 +27,7 @@ The Master builds or "main" builds are the proper releases of GBARunner2. This s
 
 The Wi-Fi-Link branch adds the possibility to link up two systems wirelessly. Note that this does not go over the Internet, and this will never be possible. Currently your mileage will vary, and the only sure-fire game that will be able to keep a stable connection is Advance Guardian Heroes, and that is provided that you follow very specific instructions. Needless to say, consider this branch in its current state a novelty and a proof of concept, and not something to actually use. A few other games are able to connect, but they are very dependent on external factors like interference from other Wi-Fi signals, among many other things.
 
-## DS-Specific Builds
+## DS-specifikus build-ek
 
 ### ARM7DLDI vs ARM9DLDI
 
@@ -45,32 +45,32 @@ This branch might help if trying to run ROMs that are a bit larger on the DS, bu
 
 Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that combines this ROM3M branch with some other neat features, and this is the build that comes with TWiLightMenu++ if you are using a DS.
 
-## DSi- and 3DS-Specific Builds
+## DSi- és 3DS-specifikus build-ek
 
-The DSi and 3DS can generally run the same builds, but due to the difference in amount of RAM between the DSi and 3DS the compatibility for games can differ. This generally means that the DSi might have trouble running larger ROMs that the 3DS can run fine.
+A DSi és a 3DS általában ugyanazokat a build-eket tudja futtatni, de a DSi és a 3DS közötti RAM mennyiség különbség miatt a játékok kompatibilitása eltérő lehet. Ez általában azt jelenti, hogy a DSi-nek ez gondot okozhat a nagyobb ROM-ok futtatásában, amelyeket a 3DS jól tud futtatni.
 
-The 3DS also has an accelerometer chip for gyro controls built-in, and this can be used in a 3DS-specific build.
+A 3DS-be továbbá egy gyorsulásmérő chip is be van építve a giroszkópos vezérléshez, és ez egy 3DS-specifikus build-ben használható.
 
 ### DSP
 
-The DSP builds make use of an extra processor present in both DSi and 3DS. This helps to produce a lot better sound and give better performance. There are some regressions like a couple of ROMs that do not work in this branch.
+A DSP build-ek a DSi-ben és a 3DS-ben is megtalálható extra processzort használják. Ez sokkal jobb hangzást és jobb teljesítményt eredményez. Van néhány probléma, mint például néhány ROM, amely nem működik ezzel az ággal.
 
 ### Hybrid Hicode
 
-The Hybrid Hicode branch deals with ROMs that are large and have problems running on the Master branch. This is a very useful branch for the DSi since this mostly solves the issue with having less RAM than the 3DS.
+A Hybrid Hicode ág olyan nagyméretű ROM-okkal foglalkozik, amelyeknek problémái vannak a Master ágon való futással. Ez egy nagyon hasznos ág a DSi számára, mivel ez nagyrészt megoldja azt a problémát, hogy kevesebb RAM-mal rendelkezik, mint a 3DS.
 
-### 3DS-Specific: Gyro
+### 3DS-specifikus: Gyro
 
-This branch makes use of the internal accelerometer in the 3DS so that GBA games that had this functionality can be played properly. There are several steps needed to take to make it work. Note that since there are different accelerometer chips between 3DS systems, this will not work on all 3DSes because all chips do not have code supporting them.
+Ez az ág a 3DS belső gyorsulásmérőjét használja ki, így az ezzel a funkcióval rendelkező GBA játékok megfelelően játszhatók. Számos lépést kell megtenni ahhoz, hogy ez működjön. Ne feledd, hogy mivel a 3DS rendszerek különböző gyorsulásmérő chipekkel szereltek, ez nem fog működni minden 3DS-en, mivel nem minden chiphez van kód, ami támogatja őket.
 
-There is no consistency in what type of 3DS has what chip, at least as far as anyone knows.
+Nincs konzisztencia abban, hogy melyik 3DS milyen chipet tartalmaz, legalábbis amennyire eddig ez ismert.
 
-## Finding the Build Info
+## A build információk megtalálása
 
-GBARunner2 has an menu you can open by touching the touch screen and pressing the right shoulder button. Within this you can find the about menu which tells you what build you are on. However, the builds that come with TWiLightMenu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
+A GBARunner2 rendelkezik egy menüvel, amelyet az érintőképernyő megérintésével és a jobb vállgomb megnyomásával nyithatsz meg. Ezen belül találod az About menüt, amelyből megtudhatod, hogy milyen build-et használsz. Azonban a TWiLightMenu++-szal együtt érkező build-ek nem adnak meg build verziót, mert mások által készített ágakon alapulnak. Ez azt jelenti, hogy ha az About page üresnek tűnik a build esetében, akkor valószínűleg ezek valamelyikét használod.
 
-This tells you if you are using an ARM7DLDI or ARM9DLDI build
+Ez megmondja, hogy ARM7DLDI vagy ARM9DLDI buildet használsz-e
 
-Knowing what build to use is useful when checking the official compatibility list in case you are having issues with running a game.
+Hasznos tudni, hogy milyen buildet kell használni, a hivatalos kompatibilitási lista ellenőrzésével, abban az esetben ha problémák merülnek fel egy játék futtatásával kapcsolatosan.
 
-The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.
+A kiadási azonosító (release ID) megtekinthető a GBARunner2 github repository-jában, ahol az utolsó hét alfanumerikus karakter a verziót jelenti. Például az aktuális legutolsó Master kiadás a "v20200812-131430_6e4ce45", és a "6e4ce45" jelöli a verziót.

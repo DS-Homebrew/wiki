@@ -17,5 +17,5 @@ A játékok dumpolásához válaszd ki a meghajtót a meghajtó listában és k�
 - A Nintendo 3DS rendszer családban egy modern CFW környezet szükséges a GodMode9i indításához
    - Kövesd a [hacks.guide](https://3ds.hacks.guide/) útmutató lépéseit a Luma3DS + boot9strap telepítéséről
 
-### Restoring saves
-GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.
+### Mentések visszaállítása
+A GodMode9i a DS játék kártyák/GBA cartridge-ek mentési fájljait is vissza tudja állítani. Ehhez válaszd ki a `.sav` fájlt az SD kártyán, miközben a játék kártya/cartridge be van helyezve, és válaszd a `Restore save` lehetőséget.

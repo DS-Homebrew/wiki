@@ -310,24 +310,24 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
-### Other (Special Games that do not fall into an above category)
+### Egyéb (speciális játékok amelyen nem esnek egyik fenti kategóriába sem)
 - Learn with Pokemon: Typing Adventures
-   - Cartridge has special bluetooth chip for connecting to the keyboard
+   - A cartridge speciális bluetooth chippel rendelkezik a billentyűzethez való csatlakozáshoz
 - Pokemon Heartgold/Soulsilver
-   - Cartridge has IR port for connecting to pokewalker perihperal
+   - A cartridge IR-porttal rendelkezik a pokewalker perifériához való csatlakozáshoz
 - ElectroPlankton
-   - Cartridge has no save RAM
+   - A cartridge-nek nincs mentés RAM-ja
 - DS Download Station
-   - Series of cartridges used to distribute demo games
+   - Demó játékok terjesztésére használt kazetták sorozata
 - Sonic Classics Collection
-   - Genesis emulation structure has been converted into an emulator
+   - A Genesis emulációs struktúrát emulátorrá lett átalakítva
 - Nitro Development Cart
-   - Has extra RAM for developing games for the DSi
+   - Extra RAM memóriával rendelkezik a DSi számára fejlesztett játékokhoz
 - Personal Trainer: Walking
-   - Has twin IR based pedometers
+   - Iker IR-alapú lépésszámlálóval rendelkezik
 - Slide Adventure MAG KID
-   - Comes with a Slot-2 Optical Mouse
+   - Slot-2 optikai egeret tartalmaz
 - Daigasso! Band Brothers
-   - Has a Slot-2 cart that added more songs
+   - Van egy Slot-2 cartridge-je, amely további dalokat adott hozzá
 - Arkanoid
-   - Came bundled with a Slot-2 Paddle Controller
+   - Egy Slot-2 Paddle Controllerrel együtt érkezett

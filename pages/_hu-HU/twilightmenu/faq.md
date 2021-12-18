@@ -26,7 +26,7 @@ Az Acekard (másként Wood UI) téma eltávolításra került a hibás működé
 Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista frissítés` opciót.
 
 #### Miért kapok fehér képernyőt, ha megpróbálok betölteni egy DS játékot az SD kártyáról?
-See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
+Lásd a [Problémáim vannak a ROM(ok)-mal, mit tegyek?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) fejezetet az nds-bootstrap GYIK oldalon.
 
 #### Hogyan használhatom a csalásokat?
 Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa.
@@ -73,12 +73,12 @@ Több oka lehet, hogy nem találod őket.
 - Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
 - Ha a játékod nem a [támogatott kiterjesztést](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
 
-#### How do I access TWiLight Menu++ settings?
-The way to access the TWiLight Menu++ settings varies between your configuration.
-- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
-- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
-- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+#### Hogyan érem el a TWiLight Menu++ beállításait?
+A TWiLight Menu++ beállításainak elérési módja a konfigurációtól függő.
+- **DS Classic Menu:** Éríntsd meg a DS ikont a az alsó képernyő alján
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher témák: a SELECT Menu használatával:** Nyomd meg a <kbd>SELECT</kbd> gombot, majd indítsd el a Beállítások Applet-et (használd a D-PAD-et az opciók kijelöléséhez)
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher témák nem használják a SELECT Menu-t:** A <kbd>SELECT</kbd> megnyomása a DS Classic Menu-be visz
+- **Nintendo 3DS téma:** Érintsd meg a csavarkulcs ikont az alsó képernyőn
+- **R4 Eredeti téma:** Nyomd meg a <kbd>START</kbd> gombot (ha a fájlböngészőben vagy), majd nyomd meg a <kbd>SELECT</kbd> gombot
 
-You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+Továbbá nyomva tarthatod a <kbd>SELECT</kbd> gombot a TWiLight Menu++ indításakor, ami közvetlenül a beállításokhoz visz.

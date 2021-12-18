@@ -22,11 +22,11 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 
 ### 사용하고 있는 Flashcard 펌웨어를 이용해 게임을 실행하려면...
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+모든 Flashcard가 이 방식으로 게임을 실행하는 것을 지원하지는 않는다는 걸 알아 주세요. 만약 아래 절차가 당신의 Flashcard에 맞지 않는다면, 이 부분을 건너뛰셔도 됩니다,
 {:.alert .alert-warning}
 
 1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
-   - If you have done so, continue to step 3. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
+   - 이렇게 했다면, 3번으로 건너뛰셔도 됩니다. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
 
 1. 아래 Flashcard 이용자:
    - R4i-SDHC (r4i-sdhc.com)
@@ -41,11 +41,11 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
+   - M3i Zero (GMP-Z003가 아닌 모델)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
+   [RetroGameFan의 YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)를 설치해 주세요.
+      - Flashcard의 microSD카드 루트에 `YSMenu.nds` (`TTMenu.dat`에서 이름을 변경해도 됨)과 `TTMenu`가 있는 것을 확인해 주세요.
 1. `nds-bootstrap 사용`을 `비활성화`로 설정해서 nds-bootstrap 대신 Flashcard 펌웨어를 쓰도록 합니다.
 
 ### TWiLight Menu++ 자동 부팅하기

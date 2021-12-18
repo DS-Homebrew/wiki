@@ -35,9 +35,9 @@ description: TWiLight Menu++의 조작법
       - <kbd class="face">Y</kbd>: 치트 설명 보기
       - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### 부팅 단축키
+아래는 TWiLight Menu++ 시작화면 실행중 또는, DSi 시작화면이 나온 즉시에 사용할 수 있는 단축키입니다.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM
+- <kbd>SELECT</kbd>: 설정 열기
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: TWiLight Menu++ 설정 초기화
+- <kbd class="face">B</kbd>: 마지막으로 실행한 롬 부팅

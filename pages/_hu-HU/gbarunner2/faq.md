@@ -18,11 +18,11 @@ Most még nem. E helyett Instead, permanensen beinjektálhatod a csalás kódoka
 1. Nevezd át `GBARunner2_arm7dldi_3ds.nds` névre (vagy `GBARunner2_arm7dldi_dsi.nds` névre, ha DSi-n vagy)
 1. Rakd az `sd:_nds` könyvtárba
 
-### Which build of GBARunner2 should I use?
-Usually, the builds that are included with TWiLight Menu++ is enough. For more information on the various builds of GBARunner, see the [Builds wiki page](https://wiki.ds-homebrew.com/gbarunner2/builds).
+### Melyik GBARunner2 buildet használjam?
+Töbnyire a TWiLight Menu++-ba ágyazott build megfelelő. A GBARunner különböző buildjeivel kapcsolatos további információkért lásd a [Builds wiki oldalt](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
 #### Hogyan használhatom a Wi-Fi Link szolgáltatásokat?
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) ágból, ahhoz, hogy használhasd ezt a szolgáltatást. Részletes információt találsz a buildek telepítéséről a [GBAtemp Wiki oldalon](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Miért nem támogatott az RTC (Real Time Clock) egy ROM hackben?
-RTC is supported on a per-game basis. You will have to change the ROM's game code to that of the original game so that GBARunner2 will recognize it.
+Az RTC játékonként támogatott. A ROM játékkódját meg kell változtatnod az eredeti játék kódjára, hogy a GBARunner2 felismerje azt.

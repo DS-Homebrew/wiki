@@ -1,36 +1,36 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
-long_title: GodMode9i FAQ & Troubleshooting
-description: FAQ & Troubleshooting for GodMode9i
+title: GYIK & hibaelhárítás
+long_title: GodMode9i GYIK & hibaelhárítás
+description: GYIK & hibaelhárítás a GodMode9i-hez
 ---
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+#### Hogyan jutok túl a "mounting drive(s)" képernyőn az induláskor?
+Ez akkor történik ha a GodMode9i-t [hiyaCFW](../hiyacfw)-ből indítod. Az <kbd class="face">X</kbd>-et nyomva tartva a GodMode9i indulásakor a NAND csatolás átugorható. Alternatívaként indíthatod a GodMode9i-t közvetlenül az Unlaunch-ből, hogy felcsatolhasd a NAND-ot.
 
-#### Why can't I add, remove, or edit files on the NAND?
-Editing files on the DSi NAND is not safe and can easily lead to a brick, so GodMode9i intentionally lacks this capability.
+#### Miért nem tudok hozzáadni, eltávolítani vagy szerkeszteni fájlokat a NAND-on?
+A fájlok szerkesztése a DSi NAND-on nem biztonságos és könnyen brickeléshez vezethet, így a GodMode9i szándékosan nem tartalmazza ezt a lehetőséget.
 
-#### Why can't I view NDS file info for some DSiWare?
-Some DSiWare, specifically those located in the `0003000f` folder, contain system data and do not have a valid banner.
+#### Miért nem tudom megnézni az NDS fájl információt néhány DSiWare esetén?
+Néhány DSiWare, főleg azok, amik a `0003000f` mappában találhatók, rendszer adatot tartalmaznak és nem rendelkeznek érvényes banner-rel.
 
-#### Should I use the NDS version or the DSi version? What's the difference?
-These are functionally the same, but they have specific purposes.
-- If you are using GodMode9i with a flashcard, use the NDS version
-- If you are installing GodMode9i to your hiyaCFW SDNAND, use the DSi version
-- If you are starting GodMode9i via TWiLight Menu++, both versions will work identically
-- If you are installing GodMode9i to your 3DS HOME Menu, use the CIA version
+#### Az NDS vagy a DSi verziót javasolt használnom? Mi a különbség?
+Ezek funkcionálisan ugyanazok, de sajátos céljuk van.
+- Ha GodMode9i-t használsz flashcard-dal használd az NDS verziót
+- Ha a GodMode9i-t telepítesz hiyaCFW SDNAND-odra, használd a DSi verziót
+- Ha a GodMode9i-t TWiLight Menu++-szal indítod, mindkét verzió ugyanúgy működik
+- Ha a GodMode9i-t telepítesz 3DS HOME Menübe, használd a CIA verziót
 
-#### How do I change the language?
-You can change GodMode9i's language by pressing <kbd>START</kbd>, selecting the last option in that menu, and choosing the language you want to use.
+#### Hogyan módosítom a nyelvet?
+A GodMode9i nyelvét a <kbd>START</kbd>gomb megnyomásával, az adott menü utolsó opciójának kiválasztásával és a kívánt nyelv kiválasztásával változtathatod meg.
 
-Note that this will only work if GodMode9i is being run from TWiLight Menu++ or there is a copy of `GodMode9i.nds`/`GodMode9i.dsi` in the root of your SD card.
+Ne feledd, hogy ez csak akkor fog működni, ha a GodMode9i a TWiLight Menu++-ból fut, vagy ha van egy másolata a `GodMode9i.nds`/`GodMode9i.dsi` állománynak az SD kártya gyökerében.
 
-You can also manually enter a path to any translation file on your SD card in the config file, `sd:/gm9i/config.ini`, with the `LANGUAGE_INI_PATH` entry.
+Manuálisan is megadhatod az SD-kártyán lévő bármely fordítási fájl elérési útvonalát a konfigurációs fájlban, `sd:/gm9i/config.ini`, a `LANGUAGE_INI_PATH` bejegyzéssel.
 
-#### How do I change the font?
-You can change GodMode9i's font by selecting a `.frf` font file and choosing `Load font`. To set a different font as the default either place it at `sd:/gm9i/font.frf` or edit the config file (`sd:/gm9i/config.ini`) to set the `FONT_PATH` to where your font file is.
+#### Hogyan módosítom a betűkészletet?
+A GodMode9i betűtípusát úgy változtathatod meg, hogy kiválasztasz egy `.frf` betűtípus fájlt, majd a `Betűtípus betöltése`lehetőséget. Egy másik betűtípus alapértelmezettként való beállításához vagy helyezd el a `sd:/gm9i/font.frf` helyen, vagy szerkeszd a config fájlt (`sd:/gm9i/config.ini`), hogy a `FONT_PATH` oda mutasson, ahol a betűtípus fájl található.
 
 You can find a few pre-converted fonts in the [resources folder](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) of the GitHub repository and you can convert your own from a PBM image and TXT file containing the Unicode mappings using GodMode9's [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) script.
