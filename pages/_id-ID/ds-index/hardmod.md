@@ -1,55 +1,55 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: Hardmod
-description: How to hardmod a Nintendo DSi
+title: Modifikasi Keras (Hardmod)
+description: Cara meng-hardmod Nintendo DSi
 tabs:
   - 
     windows: Windows
     other: macOS/Linux
 ---
 
-Hardmodding is when you physically solder the motherboard of the Nintendo DSi to an SD card adapter in order to be read on a computer. This is useful for restoring NAND backups, viewing NAND on your PC, etc...
+Memodifikasi keras (Hardmod) adalah ketika Anda mematri lunak fisik papan induk konsol Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
-[![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Papan induk DS Original dengan titik sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-To hardmod a Nintendo DSi/DSi XL (LL) you will need:
+Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
    - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
-   - SD to microSD adapter
-   - An SD card reader able to read eMMC chips running in single data-line mode. [Here's a known working one](https://www.amazon.com/dp/B006T9B6R2)
-   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) and [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) if on Windows
+   - Adaptor SD ke microSD
+   - Pembaca (reader) kartu SD yang mampu membaca cip eMMC berjalan di mode single data-line. [Ini yang dikenal bisa](https://www.amazon.com/dp/B006T9B6R2)
+   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) dan [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jika di Windows
    - A valid NAND backup of the DSi you are hardmodding
    - To be comfortable soldering to pads that are as small as 0.5mm in diameter
 
-#### DSi side A pinouts
+#### Pin-out DSi sisi A
 [![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
-#### DSi side B pinouts
+#### Pin-out DSi sisi B
 [![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
-#### DSi XL side B pinouts
+#### Pin-out DSi XL sisi B
 [![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- You will need to solder the points on the motherboard to the microSD card adapter
-   - CMD to pin 2
-   - GND to pins 3 and 6
-   - CLK to pin 5
-   - DAT0 to pin 7
+- Anda perlu mematri titik (point) pada papan induk ke adapter kartu microSD
+   - CMD ke pin 2
+   - GND ke pin 3 dan 6
+   - CLK ke pin 5
+   - DAT0 ke pin 7
 
-#### Soldered microSD adapter example
+#### Contoh adaptor microSD terpatri lunak
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Insert the microSD card adapter into your computer
-   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
+- Sisipkan adaptor kartu microSD ke komputer Anda
+   - **PERINGATAN** - Jika Windows meminta memformat: **JANGAN diformat** - bisa terjadi kerusakan tak bisa diperbaiki
 
-#### Removing the no$gba footer
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+#### Membuang footer no$gba
+You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. Caranya bisa dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Download the version for the operating system you are using
+1. Unduh versi aplikasi untuk sistem operasi yang Anda gunakan
 1. Run the script, selecting the NAND backup you wish to flash to your DSi
 1. Switch to NAND mode with the button to the left of the file path
 1. Click `Start` to create the NAND backup without the no$gba footer
@@ -58,7 +58,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
    - Use this file as the NAND image you flash onto the DSi
 
 {% capture tab-windows %}
-1. Open Win32DiskImager
+1. Buka Win32DiskImager
 1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
 1. Choose the device that is the DSi and click read
 1. Once it is done, click the folder icon, change the name to `NAND_1.bin` and read again
@@ -68,7 +68,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
    - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
 1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
 1. Flash it with the `Write` button
-1. Unplug the SD card adapter and attempt to turn on the DSi
+1. Cabut adaptor kartu SD dan coba hidupkan konsol DSi
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -109,7 +109,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 
 1. Flash NAND
    1. Locate the NAND backup you created before on the console
-   1. Run the following command:
+   1. Jalankan perintah berikut:
       - `cat {existing-nand-backup} > {device-name}`
       - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
       - Replace `{device-name}` with the mount point of the SD card

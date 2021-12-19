@@ -22,7 +22,7 @@ These are the builds that are present for all three lines of systems.
 ### Master
 
 The Master builds or "main" builds are the proper releases of GBARunner2. This should generally be the most stable build. 
-All other branches than this one are considered expmerimental and not stable enough to be included into the Master. 
+All other branches than this one are considered experimental and not stable enough to be included into the Master. 
 The Master builds are divided into different builds for the DS, DSi and 3DS. They each have the name of the corresponding system appended at the end of the filename.
 
 ### Wi-Fi-Link

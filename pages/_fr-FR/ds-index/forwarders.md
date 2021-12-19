@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: ds-index
 category: guides
-title: DS Game Forwarders
+title: Forwarders de jeu DS
 description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
 tabs:
   - 
@@ -14,34 +14,25 @@ tabs:
 
 Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
-Les jeux de DS doivent être dumpés au format `.nds<code>. You can dump your DS cartridges using <a href="https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge">GodMode9</a> on 3DS, or <a href="https://dsi.cfw.guide/dumping-game-cards">GodMode9i</a> on DSi.
-</p>
+Les jeux de DS doivent être dumpés au format `.nds`. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
+{:.alert .alert-info}
 
-<p spaces-before="0">{:.alert .alert-info}</p>
+Si vous rencontrez un problème, consultez la FAQ sur le [site GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+{:.alert .alert-warning}
 
-<p spaces-before="0">If you have any issues, check the FAQs on the <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/">GBAtemp thread</a>.
-</p>
+Choisissez l'un des éléments suivant à ajouter au menu Home :
 
-<p spaces-before="0">{:.alert .alert-warning}</p>
+{% capture tab-3ds-sd-card %}
 
-<p spaces-before="0">Choose one of the following to add to the HOME menu:</p>
+Cette page considère que vous possédez un CFW tel que celui utilisé dans le [guide](https://3ds.hacks.guide).
+{:.alert .alert-warning}
 
-<p spaces-before="0">{% capture tab-3ds-sd-card %}</p>
+### Étape 1: Récupérer les fichiers nécessaires
 
-<p spaces-before="0">This page assumes you are running a modern CFW environment from <a href="https://3ds.hacks.guide">3ds.hacks.guide</a>.
-</p>
+Si vous avez déjà Universal Updater installé sur votre console, vous pouvez passer à l'étape 3.
+{:.alert .alert-info}
 
-<p spaces-before="0">{:.alert .alert-warning}</p>
-
-<h3 spaces-before="0">Étape 1: Récupérer les fichiers nécessaires</h3>
-
-<p spaces-before="0">If you already have Universal Updater installed on your console, you can skip to step 3.
-</p>
-
-<p spaces-before="0">{:.alert .alert-info}</p>
-
-<ol start="1">
-<li>Ouvrez FBI, allez dans <code>Remote Install<code>, puis sélectionnez <code>Scan QR Code<code></li>
+1. Ouvrez FBI, allez dans `Remote Install<code>, puis sélectionnez <code>Scan QR Code<code></li>
 <li><p spaces-before="0">Scannez ce QR code pour installer la dernière version de <a href="https://github.com/Universal-Team/Universal-Updater">Universal Updater</a><br>
 <img src="https://db.universal-team.net/assets/images/qr/universal-updater-cia.png" alt="Universal-Updater QR code" /></p></li>
 <li><p spaces-before="0">Ouvrez Universal Updater depuis le menu Home</p></li>
@@ -55,11 +46,10 @@ Les jeux de DS doivent être dumpés au format `.nds<code>. You can dump your DS
 <li>Lancez l'Homebrew Launcher</li>
 <li>Dans l'Homebrew Launcher, ouvrez <code>NDS Forwarder Generator<code></li>
 <li>Naviguez à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd></li>
-<li>Confirmez l'installation en choisissant <code>Yes`</li>
-1
-Une fois installé, votre jeu apparaîtra sous forme d'icône sur le menu Home
+<li>Confirmez l'installation en choisissant <code>Yes`
+1. Une fois installé, votre jeu apparaîtra sous forme d'icône sur le menu Home
 {% endcapture %}
-{% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}</ol>
+{% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
 {% capture tab-dsi-sd-card %}
 

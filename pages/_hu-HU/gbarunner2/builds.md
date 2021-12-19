@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: hu-HU
 layout: wiki
 section: gbarunner2
 title: GBARunner2 build-ek
@@ -21,29 +21,29 @@ Ezek azok a build-ek amik mindhárom rendszeren jelen vannak.
 
 ### Master
 
-The Master builds or "main" builds are the proper releases of GBARunner2. This should generally be the most stable build. All other branches than this one are considered expmerimental and not stable enough to be included into the Master. The Master builds are divided into different builds for the DS, DSi and 3DS. They each have the name of the corresponding system appended at the end of the filename.
+A Master buildek vagy "fő" buildek a GBARunner2 megfelelő kiadásai. Általában ez a legstabilabb build. Az összes többi ág ezen kívül kísérleti ágnak és nem elég stabilnak tekintett ahhoz, hogy bekerüljön a Master-be. A Master buildek a DS, a DSi és a 3DS számára készült különböző build-ekre oszlanak. Mindegyiknek a fájlneve végére hozzá lett illesztve a hozzá tartozó rendszer neve.
 
 ### Wi-Fi-Link
 
-The Wi-Fi-Link branch adds the possibility to link up two systems wirelessly. Note that this does not go over the Internet, and this will never be possible. Currently your mileage will vary, and the only sure-fire game that will be able to keep a stable connection is Advance Guardian Heroes, and that is provided that you follow very specific instructions. Needless to say, consider this branch in its current state a novelty and a proof of concept, and not something to actually use. A few other games are able to connect, but they are very dependent on external factors like interference from other Wi-Fi signals, among many other things.
+A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsolását. Fontos megjegyezni, hogy nem az Interneten keresztül és az nem is lesz soha lehetséges. A jelenlegi előrehaladás változó és az egyetlen biztosan stabil kapcsolatot tartani tudó az Advance Guardian Heroes és az is csak akkor, ha követed a nagyon speciális utasításokat. Mondani sem kell, hogy ezt az ág jelenlegi állapotában újdonságnak tekinthető és egy koncepció, nem olyannak, amit ténylegesen használni kell. Néhány más játék képes csatlakozni, de ezek nagyon függenek a külső tényezőktől, például más Wi-Fi jelek interferenciájától, sok más dolog mellett.
 
 ## DS-specifikus build-ek
 
 ### ARM7DLDI vs ARM9DLDI
 
-**Normally use the ARM9DLDI**, and if that does not work then try the ARM7DLDI. Some flashcards need either the ARM7DLDI or the ARM9DLDI, and some might work with both. There is no list of which flashcards work with which builds, but if you are running into issues getting GBARunner2 to run then you might want to try the other one.
+**Általában az ARM9DLDI-t használd**, és ha ez nem működik, akkor az ARM7DLDI-vel próbálkozz. Néhány flashcard-hoz vagy az ARM7DLDI vagy az ARM9DLDI szükséges, néhány pedig mindkettővel működhet. Nincs lista arról, hogy melyik flashcard melyik build-del működik, de ha problémáid vannak a GBARunner2 futtatásával, akkor érdemes a másikat kipróbálni.
 
-There are no feature or performance differences between the two so there is no use in testing both to see if a game runs better or has less issues on the other.
+A kettő között nincsenek funkció- vagy teljesítménybeli különbségek, így nincs értelme mindkettőt tesztelni, hogy kiderüljön, egy játék jobban fut-e vagy kevesebb problémája van-e a másikon.
 
-See further down to find out what build you are currently using.
+Lásd lejjebb az információkat, hogy megtudhasd, milyen buildet használsz jelenleg.
 
 ### ROM3M
 
-If you are using TWiLightMenu++ then you are already using this feature in the GBARunner2 build that comes with it.
+Ha TWiLightMenu++-t használod, akkor már használod ezt a szolgáltatást azzal a GBARunner2 build-del, ami vele érkezik.
 
-This branch might help if trying to run ROMs that are a bit larger on the DS, but there is a limit due to the limited amount of RAM present in the DS. This is basically the Pokémon Emerald branch for the DS.
+Ez az ág segíthet, ha olyan ROM-okat próbálsz futtatni a DS-en, amik nagyobbak, de van egy korlát a DS található korlátozott mennyiségű RAM miatt. Ez lényegében a Pokémon Emerald ág a DS-re.
 
-Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that combines this ROM3M branch with some other neat features, and this is the build that comes with TWiLightMenu++ if you are using a DS.
+Void Star készített egy [a GBARunner2 ágat](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases), amely egyesíti ezt a ROM3M ágat néhány más hasznos funkcióval, és ez az a build, amelyet a TWiLightMenu++ tartalmaz, ha DS-t használsz.
 
 ## DSi- és 3DS-specifikus build-ek
 

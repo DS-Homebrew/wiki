@@ -7,37 +7,37 @@ description: Fogalomjegyzék az nds-bootstrap-hez
 ---
 
 ## Beállítások
-These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
+Ezek a TWiLight Menu++ játékonkénti beállításai között találhatók. Néhány opciót az nds-bootstrap játékon belüli menüjében is meg lehet változtatni
 
 ### SDK ver
-The version of the Software Development Kit (SDK) that was used to compile the ROM. ROMs that require Donor ROMs must have the same SDK version as the Donor ROM.
+A szoftverfejlesztő készlet (SDK) verziója, amelyet a ROM lefordításához használtak. A donor ROM-okat igénylő ROM-oknak ugyanazzal az SDK-verzióval kell rendelkezniük, mint a donor ROM-nak.
 
 ### Mentés szám
-The save file for the game will have the `.savX` file extension where X is the given save number if the save number is not 0. This allows for up to 10 save files for the same ROM.
+A játék mentési fájljának a `.savX` fájlkiterjesztés lesz, ahol X az adott mentési szám, ha a mentési szám nem 0. Ez akár 10 mentési fájlt is lehetővé tesz ugyanahhoz a ROM-hoz.
 
-### Run in
-The Mode which the ROM should be run. This affects the ARM9 CPU Speed and VRAM Mode options. Setting to DSi Mode for ROMs that do not support will likely have no effect.
+### Futtatás mód
+A mód amiben a ROM-nak futnia kell. Ez az ARM9 CPU sebesség és a VRAM mód beállításait érinti. A DSi Mode beállítása olyan ROM-ok esetében, amelyek nem támogatják az, valószínűleg hatás nélküli.
 
 ### ARM9 CPU sebesség
-Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mhz (NTR) by default. This can be changed to 133 Mhz (TWL) to reduce slowdowns, but may also cause issues. ROMs ran in DSi Mode can only be set at 133 Mhz (TWL).
+Módosítja az ARM9 CPU futási sebességét. A DS módban futtatott ROM-ok alapértelmezés szerint 67 Mhz-et (NTR) használnak. Ez 133 Mhz-re (TWL) módosítható a lassulások csökkentése érdekében, de ez is okozhat problémákat. A DSi módban futtatott ROM-ok csak 133 Mhz-re (TWL) állíthatók be.
 
 ### VRAM mód
-Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. ROMs ran in DSi Mode can only be set at DSi VRAM Mode.
+Módosítja a rendszer Video Random Access Memory (VRAM) üzemmódját. A DS módban futtatott ROM-ok alapértelmezés szerint a DS VRAM módot használják. Ez megváltoztatható DSi VRAM módra, de ez nem csinál semmit, és vizuális problémákat okozhat. A DSi módban futtatott ROM-ok csak DSi VRAM módra állíthatók be.
 
 ### Kártya olvasás DMA
-Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on can speed up ROMs but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
+Engedélyezi a közvetlen memória-hozzáférés (DMA) használatát a kártya olvasáshoz. Ennek a beállításnak a bekapcsolása felgyorsíthatja a ROM-okat, de problémákat okozhat. További technikai információk a [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma) oldalon találhatók.
 
 ### SWI Halt-ra csatlakozás
-Changes whether Halt Software Interrupts (SWI) are Hooked or not. Having it set to On can speed up loading times, but might cause issues. Keeping it Off may reduce slowdowns as well.
+Megváltoztatja, hogy a Halt Software Interrupts (SWI) csatlakoztatva vannak-e vagy sem. Ha bekapcsolva van, az felgyorsíthatja a betöltési időt, de problémákat okozhat. A kikapcsolt állapotban tartás a lassulásokat is csökkentheti.
 
-### Ex. ROM space in RAM
-If a game is small enough, it can be loaded into the system's RAM to speed up loading times. Turning this option on will increase the size limit for ROMs, but might break some.
+### ROM  bővítés RAM-ban
+Ha egy játék elég kicsi, akkor a betöltési idő felgyorsítása érdekében a rendszer RAM memóriájába tölthető. Az opciót bekapcsolása, megnöveli a ROM-ok méretkorlátot, de néhány hibás lehet.
 
 ### Közvetlen boot
-Appears only for homebrew ROMs. Setting this to On will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
+Csak a homebrew ROM-ok esetében jelenik meg. Ha ezt a beállítást bekapcsolt nem használja az nds-bootstrap-et a ROM indításakor. Ez olyan homebrew ROM-ok esetében hasznos, amelyeknek nincs szükségük az nds-bootstrap-re, vagy nem működnek vele.
 
 ### Bootstrap
-Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
+Módosíthatod, hogy a ROM az nds-bootstrap Kiadás (Release) vagy Esti fordítás (Nightly) build-jével fusson-e. Az Esti (Nightly) buildek-kel kapcsolatos információk a [nds-bootstrap GYIK](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it) oldalon találhatók
 
 ### Képernyő arány
 3DS esetén a képernyő képaránya 4:3 (alapértelmezett a DS/DSi esetében) helyett 16:10-re változtatható. Csak akkor működik, ha a [széles képernyő engedélyezett](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).

@@ -15,7 +15,7 @@ Jika memperbarui dari versi yang lebih tua dari v21.0.0, mohon pindahkan dulu be
 {:.alert .alert-info}
 
 ### Pemerbaruan (Updating)
-1. Unduh (download) [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) versi terbaru
+1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) versi terbaru
 1. Ekstrak `TWiLightMenu-DSi.7z`
 1. Salin folder `_nds` ke root kartu SD
 1. Salin berkas `BOOT.NDS` ke root kartu SD

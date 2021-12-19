@@ -1,27 +1,27 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: gbarunner2
-title: GBARunner2 Builds
-description: Information on the various GBARunner2 Builds and their uses
+title: Binaan (Build) GBARunner2
+description: Informasi tentang beragam Build GBARunner2 dan kegunaannya
 ---
 
 
-There are a number of different GBARunner2 releases or "builds" which one can use. They come from different branches and forks of GBARunner2 and have different features targeting either different GBA games or some different functions. **For most users** using the build that comes with TWiLightMenu++ is enough.
+Ada sejumlah lepasan (release) atau "build" GBARunner2 berbeda yang dapat digunakan. Asalnya dari cabang (branch) dan fork GBARunner2 yang juga mempunyai fitur berbeda baik untuk permainan GBA lain atau beberapa kegunaan lain. **Bagi kebanyakan pengguna**, menggunakan build yang disertakan di TWiLightMenu++ sudah cukup.
 
-## DS vs DSi vs 3DS Builds
+## Build DS vs DSi vs 3DS
 
 GBARunner2 has had builds made that makes use of the extra hardware found inside the DSi and 3DS. Naturally, these DSi- and 3DS-specific builds will not work on a DS. However, they also will not work if you are running GBARunner2 from a flashcard on any of the systems, DSi and 3DS included. The details about this will not be covered here.
 
-This means that you can use builds for the DS on both DSi and 3DS, but not vice-versa.
+Ini artinya Anda dapat menggunakan build untuk DS di konsol DSi dan 3DS, tapi tidak sebaliknya.
 
-## Shared Builds Between the DS, DSi and 3DS
+## Build yang sebagi antara DS, DSi dan 3DS
 
-These are the builds that are present for all three lines of systems.
+Berikut adalah build yang terdapat pada ketiga deret sistem.
 
 ### Master
 
-The Master builds or "main" builds are the proper releases of GBARunner2. This should generally be the most stable build. All other branches than this one are considered expmerimental and not stable enough to be included into the Master. The Master builds are divided into different builds for the DS, DSi and 3DS. They each have the name of the corresponding system appended at the end of the filename.
+The Master builds or "main" builds are the proper releases of GBARunner2. This should generally be the most stable build. Semua cabang selain yang ini dianggap dicoba-coba dan tidak cukup stabil untuk dimasukkan ke bentuk Master. The Master builds are divided into different builds for the DS, DSi and 3DS. They each have the name of the corresponding system appended at the end of the filename.
 
 ### Wi-Fi-Link
 
@@ -65,12 +65,12 @@ This branch makes use of the internal accelerometer in the 3DS so that GBA games
 
 There is no consistency in what type of 3DS has what chip, at least as far as anyone knows.
 
-## Finding the Build Info
+## Memeriksa Info Build
 
-GBARunner2 has an menu you can open by touching the touch screen and pressing the right shoulder button. Within this you can find the about menu which tells you what build you are on. However, the builds that come with TWiLightMenu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
+GBARunner2 mempunyai menu yang dapat dibuka dengan menyentuh layar bawah dan menekan tombol R. Dengan ini Anda dapat mencari menu About yang menjelaskan ada di build berapa. Namun, build yang disertakan di TWiLightMenu++ tidak menulis versi build karena sudah didasarkan pada fork dari orang lain. Ini artinya jika di halaman About hanya kosong saja tentang build, kemungkinan Anda menggunakan yang sudah disertakan.
 
-This tells you if you are using an ARM7DLDI or ARM9DLDI build
+Ini agar tahu jika yang digunakan build ARM7DLDI atau ARM9DLDI
 
-Knowing what build to use is useful when checking the official compatibility list in case you are having issues with running a game.
+Mengetahui build yang digunakan dapat berguna ketika memeriksa daftar kesesuaian (compatibility list) resmi jika saja mengalami isu menjalankan permainan.
 
-The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.
+Bilangan ID lepasan (release) dapat dilihat pada laman release repository github GBARunner2, tulisan versinya terdiri dari tujuh alfanumerik. Contohnya, lepasan Master terbaru saat ini "v20200812-131430_6e4ce45" dan "6e4ce45" yang mewakili bilangan versinya.

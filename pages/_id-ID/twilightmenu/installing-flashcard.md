@@ -9,7 +9,7 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 ---
 
 ### Pemasangan (Installing)
-1. Unduh (download) [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) versi terbaru
+1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) versi terbaru
 1. Ekstrak `TWiLightMenu-Flashcard.7z`
 1. Salin folder `_nds` ke root kartu microSD flashcard
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard
@@ -44,7 +44,7 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - M3i Zero (non-GMP-Z003 model)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Pasang [YSMenu-nya RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Ubah `Gunakan nds-bootstrap` ke `Tak`, agar yang digunakan bukan nds-bootstrap tetapi firmware flashcard
 
