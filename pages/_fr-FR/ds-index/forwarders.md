@@ -32,21 +32,17 @@ Cette page considère que vous possédez un CFW tel que celui utilisé dans le [
 Si vous avez déjà Universal Updater installé sur votre console, vous pouvez passer à l'étape 3.
 {:.alert .alert-info}
 
-1. Ouvrez FBI, allez dans `Remote Install<code>, puis sélectionnez <code>Scan QR Code<code></li>
-<li><p spaces-before="0">Scannez ce QR code pour installer la dernière version de <a href="https://github.com/Universal-Team/Universal-Updater">Universal Updater</a><br>
-<img src="https://db.universal-team.net/assets/images/qr/universal-updater-cia.png" alt="Universal-Updater QR code" /></p></li>
-<li><p spaces-before="0">Ouvrez Universal Updater depuis le menu Home</p></li>
-<li>Installez le pack NDSForwarder</li>
-<li>NDSForwarder et ses fichiers requis sont maintenant installés dans leurs emplacements respectifs</li>
-</ol>
+1. Ouvrez FBI, allez dans `Remote Install`, puis sélectionnez `Scan QR Code`
+1. Scannez ce QR code pour installer la dernière version de [Universal Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Ouvrez Universal Updater depuis le menu Home
+1. Installez le pack NDSForwarder
+1. NDSForwarder et ses fichiers requis sont maintenant installés dans leurs emplacements respectifs
 
-<h3 spaces-before="0">Étape 2 : NDSForwarder</h3>
-
-<ol start="1">
-<li>Lancez l'Homebrew Launcher</li>
-<li>Dans l'Homebrew Launcher, ouvrez <code>NDS Forwarder Generator<code></li>
-<li>Naviguez à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd></li>
-<li>Confirmez l'installation en choisissant <code>Yes`
+### Étape 2 : NDSForwarder
+1. Lancez l'Homebrew Launcher
+1. Dans l'Homebrew Launcher, ouvrez `NDS Forwarder Generator`
+1. Naviguez à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd>
+1. Confirmez l'installation en choisissant `Yes`
 1. Une fois installé, votre jeu apparaîtra sous forme d'icône sur le menu Home
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
