@@ -74,6 +74,7 @@ If you have broken the rules, you may receive these roles from a mod.
 - No Community - Removes access for all the channels under the Community category
 - No Help - Removes access from [#nds-modding-help][nds-modding-help]
 - No Reaction - Disables reaction perms for all channels
+- No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
 
 ### Other
@@ -100,7 +101,7 @@ Owner: shutterbug2000#8835
 
 Administrators: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
-Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
+Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
