@@ -23,7 +23,7 @@ Examples of what breaks this rule include:
 - Asking for release dates for projects; it's ready when it's ready
 - Asking if you can ask a question; just ask your question directly
 - Requesting information that is either obvious or you could find with a little bit of research on your end
-   - Important information can be found in  [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
+   - Important information can be found in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
 - Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
 - Repeating messages, whether it is repeated in the same channel or in multiple channels
  - If you're unsure where to post your message check the channel topics and ask in the most fitting one
