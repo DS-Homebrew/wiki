@@ -42,7 +42,10 @@ blockquote {
 	background-color: $code-bg;
 	padding: 3px;
 	border-radius: 0.25rem;
-	white-space: nowrap;
+	
+	&:not(.wrap) {
+		white-space: nowrap;
+	}
 }
 
 pre {
