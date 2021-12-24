@@ -13,24 +13,24 @@ description: Informations sur l'utilisation de la connexion Wi-Fi sur la Nintend
 Les hotspots sont utilisables, vous n'avez donc pas besoin de modifier la configuration de votre routeur.
 
 ### Créez un point d'accès wi-fi
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp.
+Il y a des guides pour créer un hotspot compatible avec les jeux DS sur les ordinateurs macOS et Linux sur GBAtemp.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-An Android mobile hotspot set to Open (none) security would also work.
+Un hotspot mobile Android réglé sur la sécurité Ouvert (aucune) peut également fonctionner.
 
-Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
-#### Other methods
-If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
-- Nintendo Wi-Fi USB Connector
-  - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
-  - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
-- Changing router settings to be DS-compatible
-  - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
-  - Not all routers support guest networks or turning security off
-- Wi-Fi extenders
+Windows ne pouvant pas créer de hotspot compatible, les utilisateurs de Windows devront démarrer sous Linux pour en créer un.
+#### Autres méthodes
+Si vous ne parvenez pas à créer un hotspot compatible avec le DS à l'aide des méthodes ci-dessus, vous pouvez peut-être utiliser une autre méthode.
+- Connecteur USB Wi-Fi Nintendo
+  - Bien que cette méthode puisse être utilisée, elle n'est pas recommandée car elle nécessite une version 32 bits de Windows XP ou Vista
+  - Pour information, pour configurer le connecteur Nintendo Wi-Fi USB, lisez la section 3 de ce [Guide Wimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) écrit par les membres de [MarioKart DS Network](https://discord.gg/pa9bea6)
+- Modification des paramètres du routeur pour qu'il soit compatible avec la DS
+  - Ce n'est pas recommandé car cela ouvre votre réseau aux intrus, même si vous utilisez la sécurité WEP. Cela peut également causer des problèmes aux autres utilisateurs de votre réseau. Si vous choisissez de le faire, il est recommandé d'utiliser un routeur secondaire ou un réseau invité, si possible
+  - Tous les routeurs ne prennent pas en charge les réseaux d'invités ou la désactivation de la sécurité
+- Extensions Wi-Fi
 
-#### Settings
+#### Paramètres
 If you are setting up a network to be DS-compatible, it must meet the following specifications:
 - WEP or Open (none) security
 - 2.4 GHz wireless frequency

@@ -29,7 +29,9 @@ Példák, hogy mik szegik meg ezt a szabályt:
  - Ha nem tudod hova küld az üzenetedet, ellenőrizd a csatorna témákat és posztold abba, ami a leghozzávalóbb
    - Ha még mindig nem tudod, kérdezz a [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919) csatornán
 - Posztolni azért, hogy posztol, a helyett, hogy valódi párbeszéd történne (például panaszkodni, hogy a chat halott, csak üdvözléseket kiküldeni, kopipésztek, stb.)
-- Extrém hosszú üzeneteket küldeni, használd a [mystbin](https://mystb.in/)-t hosszabb üzenetekre helyette
+- Extrém hosszú üzeneteket küldeni, használj olyan eszközöket, mint a [mystbin](https://mystb.in/)-t hosszabb üzenetekre helyette
+
+- Egy moderátor belátása szerint a viták leállíthatók
 
 ### 3. Ne önreklámozz kontextus nélkül vagy kifejezett staff engedély nélkül
 
@@ -40,8 +42,12 @@ Példák, hogy mik szegik meg ezt a szabályt:
 ### 4. Kerüld a kalózkodásról beszélgetést
 
 - Ne linkelj/említs kalóz weboldalakat/eszközöket, tölts fel kalózkodott tartalmat, vagy bíztass másokat a kalózkodásra
+- Nem nyújtunk segítséget kalózkodásban, és nem nyújtunk támogatást kalóz tartalmakhoz vagy kiszivárgott címekhez
 - További információkért arról, hogy mi kalózkodás és mi nem javasoljuk ezt olvasni valónak: [eip kalózkodás definíciós oldala](https://3ds.eiphax.tech/piracy.html) (Jogi nyilatkozat: Nem vagyunk ügyvédek)
 - A Discord szolgáltatási feltételei az amerikai törvényeket követik, és mint ilyen, a kalózkodás amerikai definíciójának hatálya alá tartozik, függetlenül attól, hogy a felhasználó az USA-ban él-e vagy sem
+- A kiszivárgásokkal kapcsolatos nyilvánosan ismert információkat megvitathatod, amíg nem osztasz meg a buildeket, fájlokat vagy forráskódot
+- Ne linkelj SDK eszközöket, vagy bármit, ami megszeg egy titoktartási megállapodást
+   - Ez magába foglalja a kiszivárgott SDK programokkal készített ROM-ok küldését is
 
 ### 5. Tartsd a beszélgetéseket a hozzájuk tartozó csatornán
 
@@ -83,6 +89,7 @@ Példák, hogy mik szegik meg ezt a szabályt:
 - Habár a felnőtt tartalom tilott, a felhasználóknak továbbra is 13 év felettieknek kell lenniük, hogy részt vehessenek a Discord szerveren, ahogy a Discor TOS-ban szerepel
 
 ### 11. Ne beszélj más Discord TOS-ok megszegéséről, és ne tegyél ilyen lépéseket
+
 - [Link a Felhasználási feltételek-re](https://discord.com/terms)
 - [Link a közösségi irányelvekre](https://discord.com/guidelines)
 - Ha bármi olyat próbálsz tenni, ami nincs kifejezetten a szabályainkban, de mégis a Discord TOS ellen van, az tiltást von maga után (pl. raidek, malware, adathalászat)
@@ -101,9 +108,10 @@ Ezen szabályok megsértésnek következményei lehetnek: figyelmeztetés, ném�
 - A szabálysértés céljával történő csatlakozás kitiltásodhoz vezet
 
 ## Jelentés
+
 - Ha valaki megszegi a szabályokat, és egy moderátor még nem foglalkozik az üggyel, kérjük, pingelj meg egy online moderátort
 - Ha egy incidens DM-ezésre kerül, bizonyíték kell róla, például, hogy mások is jelentsék, a hatása a szerverre vagy valami hasonló
 - Azonban ha jelented, takard ki a linkeket; ne add meg a közvetlen üzenet reklámozónak a lehetőséget, hogy nagyobb nyilvánosságot kapjon annál, mint amit a közvetlen üzenetével mindenkinek elért
 
 
-Utolsó frissítés: 2021-07-28
+Utolsó frissítés: 2021-12-20

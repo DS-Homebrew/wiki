@@ -314,7 +314,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Learn with Pokemon: Typing Adventures
    - Cartridge has special bluetooth chip for connecting to the keyboard
 - Pokemon Heartgold/Soulsilver
-   - Cartridge has IR port for connecting to pokewalker perihperal
+   - Cartridge has IR port for connecting to pokewalker peripheral
 - ElectroPlankton
    - Cartridge has no save RAM
 - DS Download Station

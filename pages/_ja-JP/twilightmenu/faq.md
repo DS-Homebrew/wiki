@@ -26,7 +26,7 @@ Acekard（Wood UIとも呼ばれる）のテーマは、バグの動作とSDカ�
 TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を無効にする。
 
 #### SDカードからDSゲームを読み込みようとすると、白い画面が表示されるのはなぜですか？
-See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
+nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do)を参照してください。
 
 #### チートはどうのように使いますか？
 `sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 最新のチートデータベースは、[DeadSkullzJrのデータベース](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/)です。
@@ -61,24 +61,24 @@ See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq
 #### TWiLight Menu++はどのシステムに対応ですか？
 [TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
-#### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. As they're not DSiWare titles, SD access is disabled when running Slot-1 cards.
+#### Slot-1ゲームのエクスプロイトでTWiLight Menu++を起動できますか？
+いいえ。 DSiウェアではないため、Slot-1カードを使用する場合はSDアクセスができません。
 
-#### Why can't I find/see my games?
-There are a multiple reasons you may be unable to find them.
-- If you placed your games in the `_nds` folder, you are unable to access it because it is permanently invisible in TWiLight Menu++. Please move them to any other location on the SD card
-- If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
-- If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
-- If the game type is set to be hidden in Emulation/HB settings, it won't appear on menus. Change these settings so that they will be displayed
-- If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
-- If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+#### ゲームを見つける・見ることができないのはなぜですか？
+見つからないことができない複数の理由があります。
+- ゲームを`_nds`フォルダに配置した場合、TWiLight Menu++では永久に見えないためアクセスできません。 SDカード上の任意な他の場所に移動してください
+- フォルダ内に39個以上のアイテムがあり、メニュー上のスロットがすべて取られている場合は、ゲームは次のページにある可能性があります。 <kbd class="l">L</kbd>・<kbd class="r">R</kbd>または<kbd>SELECT</kbd>+<kbd>左</kbd>・<kbd>右</kbd>を使ってページを切り替える
+- ゲームやフォルダが隠されている場合は、TWiLight Menu++のGUI設定から「隠しファイルの表示」をオンにする必要があります
+- エミュレーション/HB設定でゲームタイプを非表示に設定すると、メニューには表示されません。 これらの設定を変更して表示します
+- ゲームがアーカイブ（`ZIP`、`RAR`、`7Z`など）にある場合は、TWiLight Menu++では使用できません。 アーカイブからゲームを解凍して使用します
+- ゲームが[対応されている拡張子](../ds-index/emulators#list-of-systems-supported-by-twilight-menu)のにずれかを使わない場合は、ファイルの名前を変更して拡張子を変更する必要があります
 
-#### How do I access TWiLight Menu++ settings?
-The way to access the TWiLight Menu++ settings varies between your configuration.
-- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
-- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
-- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+#### TWiLight Menu++設定にアクセスするにはどうすればいいですか？
+TWiLight Menu++設定にアクセスする方法は、設定によって異なります。
+- **DSクラシックメニュー：**下画面の下のDSアイコンをタップします
+- **ニンテンドーDSi/セガサターン/Homebrew Launcherのテーマ：SELECTメニューを使う：**<kbd>SELECT</kbd>を押して設定アプレットを起動します（D-PADを使ってオプションをハイライトします）
+- **SELECTメニューを使わないニンテンドーDSi/セガサターン/Homebrew Launcherのテーマ：**<kbd>SELECT</kbd>を押してDSクラシックメニューになります
+- **ニンテンドー3DSのテーマ：**下画面の左上のスパナのアイコンをタップします
+- **R4オリジナルテーマ：**<kbd>START</kbd>（ファイルブラウザにいている）を押し、<kbd>SELECT</kbd>を押します
 
-You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+また、TWiLight Menu++を起動する時に<kbd>SELECT</kbd>を押して、設定に直接アクセスすることができます。

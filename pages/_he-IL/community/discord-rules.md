@@ -23,13 +23,15 @@ Examples of what breaks this rule include:
 - Asking for release dates for projects; it's ready when it's ready
 - Asking if you can ask a question; just ask your question directly
 - Requesting information that is either obvious or you could find with a little bit of research on your end
-   - Important information can be found in  [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
+   - Important information can be found in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
 - Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
 - Repeating messages, whether it is repeated in the same channel or in multiple channels
  - If you're unsure where to post your message check the channel topics and ask in the most fitting one
    - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
 - Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages, use [mystbin](https://mystb.in/) for longer messages instead
+- Sending extremely long messages, use a tool such as [mystbin](https://mystb.in/) for longer messages instead
+
+- At a moderator's discretion, discussions may be stopped
 
 ### 3. Do not self-promote with no context or without explicit staff permission
 
@@ -40,8 +42,12 @@ Examples of what breaks this rule include:
 ### 4. Avoid piracy discussion
 
 - Do not link/mention piracy websites/tools, upload pirated content, or encourage others to pirate
+- We will not assist with piracy or provide support for any pirated content or leaked titles
 - For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
 - Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
+- You may discuss publicly-known information about the leaks as long as no builds, files or source code is shared
+- Do not link to SDK tools, or anything that breaks a Non-Disclosure Agreement
+   - This includes sending ROMs that were built with leaked SDK programs
 
 ### 5. Keep conversations within their respective channels
 
@@ -83,6 +89,7 @@ Examples of what breaks this rule include:
 - Despite adult content being banned, users are still required to be thirteen and over in order to participate on this Discord server as per the Discord TOS
 
 ### 11. Do not talk about or do actions pertaining to breaking other Discord TOS
+
 - [Link to Terms of Service](https://discord.com/terms)
 - [Link to community guidelines](https://discord.com/guidelines)
 - Trying to do anything that is not explicitly mentioned in our rules but is still against Discord TOS will land you a ban (e.g. raids, malware, phishing)
@@ -101,9 +108,10 @@ The consequences of breaking these rules are a warning, mute, kick or ban. Of co
 - Joining for the purpose of rule breaking will get you banned
 
 ## Reporting
+
 - If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
 - If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
 - However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
 
 
-Last updated: 2021-07-28
+Last updated: 2021-12-20

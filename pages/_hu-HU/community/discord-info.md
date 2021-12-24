@@ -74,7 +74,8 @@ Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátort�
 - No Community - Eltávolítja a hozzáférést a Community kategória csatornáihoz
 - No Help - Eltávolítja a hozzáférést a [#nds-modding-help][nds-modding-help] csatornához
 - No Reaction - Letiltja a reagálási jogot minden csatornára
-- Muted - Letiltja az üzenet küldési lehetőséget
+- No VC - Eltávolítja a hozzáférést a hang csatornához
+- Muted - Letiltja az üzenetek küldésének lehetőségét
 
 ### Egyéb
 Ezeket a szerepköröket kifejezett célokra osztják a Moderátorok.
@@ -99,7 +100,7 @@ Tulajdonos: shutterbug2000#8835
 
 Adminisztrátorok: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
-Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, DeadSkullzJr#3908, lifehackerhansol#4546
+Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

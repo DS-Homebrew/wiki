@@ -74,7 +74,8 @@ crwdns25023:0crwdne25023:0
 - crwdns25025:0crwdne25025:0
 - crwdns25027:0crwdne25027:0
 - crwdns25029:0crwdne25029:0
-- crwdns25031:0crwdne25031:0
+- crwdns28567:0crwdne28567:0
+- crwdns28569:0crwdne28569:0
 
 ### crwdns25033:0crwdne25033:0
 crwdns25035:0crwdne25035:0
@@ -99,6 +100,6 @@ crwdns25073:0crwdne25073:0
 
 crwdns25075:0crwdne25075:0
 
-crwdns25077:0crwdne25077:0
+crwdns28571:0crwdne28571:0
 
 <!-- Discord channel links -->

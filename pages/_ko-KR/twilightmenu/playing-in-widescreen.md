@@ -23,15 +23,15 @@ description: 닌텐도 3DS에서 와이드스크린으로 TWiLight Menu++를 이
 1. <kbd class="face">B</kbd>를 눌러서 패치 메뉴를 나가 주세요.
 1. `TwlBg.cxi` 파일을 생성하기 위해 <kbd>START</kbd> 버튼을 눌러주세요.
    - 상단 화면에 와이드 패치가 활성화되었음을 표시하지 않으면 3단계부터 다시 시작하세요.
-1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
-1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
-1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+1. `TwlBg.cxi`를 `sd:/luma/sysmodules`에서 `sd:/_nds/TWiLightMenu/TwlBg` (만약 폴더가 없을 시에는 `TwlBg` 폴더를 생성)로 옮기고, `Widescreen.cxi`로 이름을 바꿔주세요.
+1. 3DS 본체의 전원을 완전히 끄고, Luma3DS 설정에 진입하기 위해 <kbd>SELECT</kbd> 버튼을 누른채로 전원을 켜 주세요.
+1. `external FIRMs and modules`를 활성화하고, 저장하고 나가기 위해 <kbd>START</kbd> 버튼을 눌러 주세요.
+1. TWiLight Menu++를 열고, 원하는 게임에서 <kbd class="face">Y</kbd>를 눌러서 게임별 설정을 열고, `화면 비율`을 `16:10`으로 설정하세요.
 
 모든 작업이 끝났습니다! DS 게임을 와이드스크린으로 즐기세요!
 
-**NOTES:**
-1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
-1. Not every game is widescreen compatible. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`, and [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide
-1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched
+**주의:**
+1. 와이드스크린이 이상하게 보이기 싫으시다면, TWLMenu++가 실행될 때 <kbd>START</kbd> 또는 <kbd>SELECT</kbd> 버튼을 누르지 마세요.
+1. 모든 게임이 와이드스크린과 호환되지는 않습니다. [와이드 스크린 호환 게임 목록은 여기서 보실 수 있습니다.](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. 만약 이 가이드를 따르고, 와이드스크린 호환 게임을 열고 나서 TWL_FIRM 전체에서 와이드스크린이 적용되고 있다면 (TWLMenu++ GUI 포함), `sd:/luma/sysmodules/` 내의 `TwlBg.cxi`를 지우고, TWiLight Menu++를 [제거](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) 및 [재설치](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds)하고 나서 위 가이드를 다시 따라 주시기 바랍니다.
+1. 많은 와이드스크린 패치들은 3D 요소만을 와이드스크린을 위해서 조정할 것이고, 2D 요소 (메뉴 등)은 그냥 늘리기만 할 것입니다.
