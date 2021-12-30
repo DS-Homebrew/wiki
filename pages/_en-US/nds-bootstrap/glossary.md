@@ -10,7 +10,7 @@ description: Glossary for nds-bootstrap
 These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
 
 ### SDK ver
-The version of the Software Development Kit (SDK) that was used to compile the ROM. ROMs that require Donor ROMs must have the same SDK version as the Donor ROM.
+The version of the Software Development Kit (SDK) that was used to compile the ROM.
 
 ### Save Number
 The save file for the game will have the `.savX` file extension where X is the given save number if the save number is not 0. This allows for up to 10 save files for the same ROM.
