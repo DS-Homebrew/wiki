@@ -327,9 +327,28 @@ html[dir=rtl] {
 	border-color: $light-border;
 }
 .form-control, .form-control:focus, .form-control::placeholder {
-	color: $light-placeholder;
+	color: $main-color;
 	background-color: $light;
 	border-color: $light-border;
+}
+.form-control:disabled {
+	background-color: $light-disabled;
+}
+
+.input-group-text, .form-control::-webkit-file-upload-button {
+	background-color: $alert-secondary-bg;
+	color: $main-color;
+}
+.form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+	background-color: $alert-secondary-border;
+}
+// Safari is dumb and doesn't let the Firefox one be with the others
+.form-control::file-selector-button {
+	background-color: $alert-secondary-bg;
+	color: $main-color;
+}
+.form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+	background-color: $alert-secondary-border;
 }
 
 // Cards
