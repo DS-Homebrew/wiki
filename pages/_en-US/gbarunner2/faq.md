@@ -32,7 +32,7 @@ You can change the game code using the following:
    <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])">
 1. <label for="file-input" class="form-label">Enter desired title ID:</label>
    <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled>
-3. <label for="file-input" class="form-label">Save updated file:</label>
+1. <label for="file-input" class="form-label">Save updated file:</label>
    <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled>
 
 <script src="/assets/js/change-gba-tid.js"></script>
