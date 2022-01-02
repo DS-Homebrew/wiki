@@ -27,7 +27,7 @@ You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2
 #### Why isn't RTC (Real Time Clock) supported in a ROM hack?
 RTC is supported on a per-game basis. You will have to change the ROM's title ID to that of a game that supports RTC so that GBARunner2 will recognize it.
 
-You can change the game code using the following:
+You can change the title ID using the following:
 1. <label for="file-input" class="form-label">Select GBA ROM file:</label>
    <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])">
 1. <label for="file-input" class="form-label">Enter desired title ID:</label>
