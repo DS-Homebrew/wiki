@@ -29,8 +29,8 @@ TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לת�
 See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
 
 #### איך אני משתמש בצ'יטים?
-צריך מאגר ציטים בצורה של קובץ `usrcheat.dat` שנמצא בתיקיה `sd:/_nds/TWiLightMenu/extras/`. המאגר המעודכן ביותר הוא של [DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/).
-- על 3DS, מאגר זה זמין דרך אפליקצית הUniversal-Updater כ"NDS Cheat Databases." זה יתקין אותו באופן אוטומטי למקום הנכון.
+צריך מאגר ציטים בצורה של קובץ `usrcheat.dat` שנמצא בתיקיה `sd:/_nds/TWiLightMenu/extras/`. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
+- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". זה יתקין אותו באופן אוטומטי למקום הנכון.
 
 לחלופין, ניתן להשתמש ב[r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) על מנת ליצור מאגר בעצמכם.
 

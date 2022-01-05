@@ -18,7 +18,7 @@ Most még nem. E helyett Instead, permanensen beinjektálhatod a csalás kódoka
 1. Nevezd át `GBARunner2_arm7dldi_3ds.nds` névre (vagy `GBARunner2_arm7dldi_dsi.nds` névre, ha DSi-n vagy)
 1. Rakd az `sd:_nds` könyvtárba
 
-### Melyik GBARunner2 buildet használjam?
+#### Melyik GBARunner2 buildet használjam?
 Töbnyire a TWiLight Menu++-ba ágyazott build megfelelő. A GBARunner különböző buildjeivel kapcsolatos további információkért lásd a [Builds wiki oldalt](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
 #### Hogyan használhatom a Wi-Fi Link szolgáltatásokat?
@@ -26,3 +26,10 @@ Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2
 
 #### Miért nem támogatott az RTC (Real Time Clock) egy ROM hackben?
 Az RTC játékonként támogatott. A ROM játékkódját meg kell változtatnod az eredeti játék kódjára, hogy a GBARunner2 felismerje azt.
+
+You can change the title ID using the following:
+1. <label for="file-input" class="form-label">Select GBA ROM file:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
+1. <label for="file-input" class="form-label">Enter desired title ID:</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
+1. <label for="file-input" class="form-label">Save updated file:</label> <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled />
+
+<script src="/assets/js/change-gba-tid.js"></script>

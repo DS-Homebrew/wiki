@@ -3,24 +3,24 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: other
-title: Download Play/PictoChat in the DS Classic Menu
-description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS Classic Menu
+title: DS 클래식 메뉴에서의 다운로드 플레이/픽토챗
+description: TWiLight Menu++의 DS 클래식 메뉴에서 DS 다운로드 플레이와 픽토챗을 실행하는 방법
 ---
 
-DSi 본체를 이용중이라면, 별도의 과정 없이 이 응용프로그램들을 이용할 수 있습니다. Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu on a DSi. Otherwise, if you have a 3DS with no existing dump(s), proceed below.
+DSi 콘솔을 사용하고 있다면, 별도의 과정 없이 이 프로그램들을 이용할 수 있을 것입니다. 플래시카드나 3DS를 위해 덤프를 구하려면, DSi에서 DS 클래식 메뉴를 들어갈 수 있어야 합니다. 만약, 덤프가 없고 3DS를 갖고 있다면, 아래의 절차를 따라 주세요.
 
-GodMode9 에서:
-1. Press the HOME/Power button
-1. Select `Title Manager`, then select `[1:] NAND / TWL`
-1. Find and select `DS Download Play (NTR-HDNA)`
-1. Select `Open title folder`
-1. Select `00000000.tmd`, then select `TMD file options...`
-1. Select `Dump CXI/NDS file`
-   - The file will be in `0:/gm9/out/`
-1. Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`
+GodMode9에서:
+1. HOME/Power 버튼을 눌러 주세요.
+1. `Title Manager`를 선택하고, `[1:] NAND / TWL`를 선택해 주세요.
+1. `DS Download Play (NTR-HDNA)`를 선택해 주세요.
+1. `Open title folder`를 선택해 주세요.
+1. `00000000.tmd`를 선택하고, `TMD file options...`를 선택해 주세요.
+1. `Dump CXI/NDS file`을 선택해 주세요.
+   - `0:/gm9/out/`에 nds 파일이 있을 것입니다.
+1. `DS Download Play (NTR-HDMA).nds`를 `0:/_nds/`로 복사하고 `dlplay.nds`로 이름을 바꿔 주세요.
 
-The above steps will increase DLP boot speed.
+위 절차는 다운로드 플레이 부팅 속도를 높여줍니다.
 
-To run PictoChat on 3DS (DSi required), copy `pictochat.nds` from `sd:/_nds/` on the DSi's SD card to the same location on the 3DS's SD card.
+3DS에서 픽토챗을 사용하려면 (DSi 필요), DSi의 SD 카드 내 `sd:/_nds/pictochat.nds`를 3DS의 SD 카드 안의 같은 위치로 복사해 주세요.
 
-To run both on flashcard, copy both `pictochat.nds` and `dlplay.nds` from `sd:/_nds/` on the DSi or 3DS SD card to the same location on the flashcard's SD card.
+플래시카드에서 두 앱을 실행하려면, DSi나 3DS의 SD 카드 내 `sd:/_nds/`에서 `pictochat.nds`와 `dlplay.nds`를 플래시카드의 SD 카드의 같은 위치에 복사해 주세요.

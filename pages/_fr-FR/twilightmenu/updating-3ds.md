@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: updating
 title: Mise à jour (3DS)
-long_title: Mettre à jour TWiLight Menu++ (3DS)
+long_title: Mise à jour de TWiLight Menu++ (3DS)
 description: Comment mettre à jour TWiLight Menu++ sur la Nintendo 3DS
 tabs:
   - 
@@ -21,8 +21,8 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 {% capture tab-universal-updater %}
 1. Ouvrez Universal-Updater
    - Si vous ne l'avez pas, suivez les instructions d'[installation](installing-3ds)
-1. Trouvez TWiLight Menu++ dans la grille d'applications, vous pouvez rechercher avec le 3ème onglet sur la barre latérale si vous avez du mal à le trouver
-1. Appuyez sur <kbd class="face">A</kbd> ou tapez sur l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
+1. Trouvez TWiLight Menu++ dans la grille des applications, vous pouvez effectuer une recherche avec le troisième onglet de la barre latérale si vous avez des difficultés à le trouver
+1. Appuyez sur <kbd class="face">A</kbd> ou touchez l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
    - Cela peux prendre un certain temps
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
@@ -47,5 +47,5 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 Si vous pouvez passer du contenu de la carte SD à celui du linker dans TWLMenu++, et si le TWLMenu++ du linker est sur v16.3.0 ou plus, veuillez suivre ces étapes.
 
 1. Allez dans les paramètres de TWLMenu++
-1. Sélectionnez `Mettre à jour TWiLight Menu++`
-1. Sélectionnez `Console (micro)SD > Slot-1 microSD`
+1. Sélectionnez `Mettre à jour TWLMenu++`
+1. Sélectionnez `(micro)SD console > microSD Slot-1`

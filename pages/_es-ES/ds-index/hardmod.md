@@ -47,7 +47,7 @@ Para modificar por hardware una consola Nintendo DSi/DSi XL (LL), necesitarás:
    - **CUIDADO** - Windows preguntará si quieres formatearlo: **NO LO HAGAS** - puede causar daños irreversibles
 
 #### Quitar el footer de no$gba
-Primero tienes que quitar el footer de NOCASH de la copia de seguridad que estás flasheando en la DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+Primero tienes que quitar el footer de NOCASH de la copia de seguridad que estás flasheando en la DSi. Esto se puede hacer utilizando [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Descarga la versión correspondiente a tu sistema operativo
 1. Ejecuta el script seleccionando la copia de la NAND que quieres flashear en la DSi
@@ -65,7 +65,7 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Abre HxD y arrastra ambos archivos al editor. Ve a la barra superior, pincha "Analysis", pincha "File compare" en el menú desplegable y pincha en "Compare".
 1. Elige comparar los archivos y pincha OK cuando termine
    - Si dice "The chosen files are identical.", ve a la siguiente sección
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
+   - Si no lo dice, y ambas NANDs no tienen alrededor de 240 MB, vuelca NAND_1/NAND_0 nuevamente
 1. Abre Win32DiskImager, pincha en el icono de la carpeta y selecciona la copia de la NAND que has creado antes
 1. Flashéala con el botón `Write`
 1. Extrae el adaptador de tarjetas SD y prueba a encender la DSi

@@ -1,36 +1,36 @@
 ---
-lang: en-US
+lang: es-ES
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
-long_title: GodMode9i FAQ & Troubleshooting
-description: FAQ & Troubleshooting for GodMode9i
+title: FAQ y solución de problemas
+long_title: 'GodMode9i: preguntas más frecuentes y solución de problemas'
+description: Preguntas más frecuentes y solución de problemas para GodMode9i
 ---
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+#### ¿Cómo paso la pantalla "mounting drive(s)" al iniciar?
+Esto ocurre cuando abres GodMode9i desde [hiyaCFW](../hiyacfw). Puedes presionar <kbd class="face">X</kbd> mientras ejecutas GodMode9i para omitir el montado de la NAND. Otra opción, es lanzar GodMode9i directamente desde Unlaunch para poder montar la NAND.
 
-#### Why can't I add, remove, or edit files on the NAND?
-Editing files on the DSi NAND is not safe and can easily lead to a brick, so GodMode9i intentionally lacks this capability.
+#### ¿Por qué no puedo agregar, quitar o editar archivos de la NAND?
+Editar archivos en la NAND de la DSi no es seguro y puede llevar fácilmente a un brickeo, por lo que GodMode9i intencionalmente carece de esta opción.
 
-#### Why can't I view NDS file info for some DSiWare?
-Some DSiWare, specifically those located in the `0003000f` folder, contain system data and do not have a valid banner.
+#### ¿Por qué no puedo ver info del archivo NDS en algunos DSiWare?
+Ciertos archivos DSiWare, específicamente aquellos ubicados en la carpeta `0003000f`, contienen información del sistema y por lo tanto no tienen un banner válido.
 
-#### Should I use the NDS version or the DSi version? What's the difference?
-These are functionally the same, but they have specific purposes.
-- If you are using GodMode9i with a flashcard, use the NDS version
-- If you are installing GodMode9i to your hiyaCFW SDNAND, use the DSi version
-- If you are starting GodMode9i via TWiLight Menu++, both versions will work identically
-- If you are installing GodMode9i to your 3DS HOME Menu, use the CIA version
+#### ¿Debería utilizar la versión NDS o la versión DSi? ¿Cuál es la diferencia?
+Ambas versiones son funcionalmente idénticas, pero cada una tiene sus usos específicos.
+- Si estás usando GodMode9i en una flashcard, utiliza la versión NDS
+- Si estás instalando GodMode9i a tu SDNAND de hiyaCFW, utiliza la versión DSi
+- Si estás iniciando GodMode9i desde TWiLight Menu++, ambas versiones funcionarán igual
+- Si estás instalando GodMode9i al Menú HOME de tu 3DS, utiliza la versión CIA
 
-#### How do I change the language?
-You can change GodMode9i's language by pressing <kbd>START</kbd>, selecting the last option in that menu, and choosing the language you want to use.
+#### ¿Cómo cambio el idioma?
+Puedes cambiar el idioma de GodMode9i presionando <kbd>START</kbd>, seleccionando la última opción en el menú, y eligiendo el idioma que deseas usar.
 
-Note that this will only work if GodMode9i is being run from TWiLight Menu++ or there is a copy of `GodMode9i.nds`/`GodMode9i.dsi` in the root of your SD card.
+Tenga en cuenta que esto sólo funcionará si GodMode9i es ejecutado desde TWiLight Menu++ o si hay una copia de `GodMode9i.nds`/`GodMode9i.dsi` en la raíz de la tarjeta SD.
 
-You can also manually enter a path to any translation file on your SD card in the config file, `sd:/gm9i/config.ini`, with the `LANGUAGE_INI_PATH` entry.
+También puede ingresar manualmente una ruta a cualquier archivo de idioma en su tarjeta SD en el archivo de configuración, `sd:/gm9i/config.ini`, en la línea `LANGUAGE_INI_PATH`.
 
-#### How do I change the font?
-You can change GodMode9i's font by selecting a `.frf` font file and choosing `Load font`. To set a different font as the default either place it at `sd:/gm9i/font.frf` or edit the config file (`sd:/gm9i/config.ini`) to set the `FONT_PATH` to where your font file is.
+#### ¿Cómo cambio la fuente?
+Puedes cambiar la fuente de GodMode9i seleccionando un archivo de fuente `.frf` y eligiendo `Cargar fuente de letra`. Para establecer una fuente diferente como predeterminada puedes colocarla en `sd:/gm9i/font.frf` o editar el archivo de configuración (`sd:/gm9i/config.ini`) para indicar a `FONT_PATH` dónde está su archivo de fuente.
 
-You can find a few pre-converted fonts in the [resources folder](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) of the GitHub repository and you can convert your own from a PBM image and TXT file containing the Unicode mappings using GodMode9's [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) script.
+Puedes encontrar algunas fuentes pre-convertidas en la [carpeta resources](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) del repositorio de GitHub y puedes convertir fuentes propias desde imágenes PBM y archivos TXT que contengan el mapeo Unicode utilizando el script [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) de GodMode9i.

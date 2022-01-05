@@ -29,8 +29,8 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do)を参照してください。
 
 #### チートはどうのように使いますか？
-`sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 最新のチートデータベースは、[DeadSkullzJrのデータベース](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/)です。
-- 3DSでは、このデータベースはUniversal-Updaterアプリに「NDS Cheat Databases」として利用てきます。 これにより自動的に必要な場所にインストールされます。
+`sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
+- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". これにより自動的に必要な場所にインストールされます。
 
 あるいは、[r4cce](http://hp.vector.co.jp/authors/VA013928/soft.html)を使って独自のチートデータベースを作成できます。
 

@@ -29,8 +29,8 @@ Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista f
 Lásd a [Problémáim vannak a ROM(ok)-mal, mit tegyek?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) fejezetet az nds-bootstrap GYIK oldalon.
 
 #### Hogyan használhatom a csalásokat?
-Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr ](https://gbatemp.net/threads/deadskullzjrs-flashcart-cheat-databases.488711/) adatbázisa.
-- A 3DS-en az az adatbázis elérhető az Universal Updater appban, mint "NDS Cheat Databases." Ez automatikusan telepíti azt a szükséges helyre.
+Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
+- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". Ez automatikusan telepíti azt a szükséges helyre.
 
 Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 

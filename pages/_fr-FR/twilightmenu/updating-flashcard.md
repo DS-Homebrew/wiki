@@ -3,9 +3,9 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: updating
-title: Mise à jour (Linker)
-long_title: Mettre à jour TWiLight Menu++ (Linker)
-description: Comment mettre à jour TWiLight Menu++ sur un linker
+title: Mise à jour (linker)
+long_title: Mise à jour de TWiLight Menu++ (linker)
+description: Comment mettre à jour TWiLight Menu++ sur un linker Nintendo DS
 ---
 
 Si vous effectuez une mise à jour à partir d'une version antérieure à la v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS vers un nouveau dossier appelé `saves`, le dossier `saves` se trouvant au même endroit que les ROMs DS.
@@ -20,10 +20,10 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
 
-### Plus d'étapes pour la carte SD DSi/3DS
+### Étapes supplémentaires pour la carte SD DSi/3DS
 
 Si vous pouvez passer du contenu de la carte SD à celui du linker dans TWLMenu++, et si le TWLMenu++ du linker est sur v16.3.0 ou plus, veuillez suivre ces étapes.
 
 1. Allez dans les paramètres de TWLMenu++
-1. Sélectionnez `Mettre à jour TWiLight Menu++`
-1. Sélectionnez `microSD Slot-1 > Console (micro)SD`
+1. Sélectionnez `Mettre à jour TWLMenu++`
+1. Sélectionnez `microSD Slot-1 > (micro)SD console`

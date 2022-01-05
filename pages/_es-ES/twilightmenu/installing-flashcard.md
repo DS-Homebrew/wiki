@@ -22,11 +22,11 @@ description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
 
 ### Iniciar los juegos con el firmware de la flashcard
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+Ten en cuenta que no todas las flashcards soportan correr juegos de esta forma. Si los siguientes pasos no aplican a tu flashcard, puedes omitir esta sección.
 {:.alert .alert-warning}
 
 1. Extrae el contenido de `Flashcart Loader/(tu flashcard)` en la raíz de la microSD de tu flashcard
-   - If you have done so, continue to step 3. Si no, sigue los pasos debajo de la lista de flashcards
+   - Si lo has hecho, continúa con el paso 3. Si no, sigue los pasos debajo de la lista de flashcards
 
 1. Para estas flashcards:
    - R4i-SDHC (r4i-sdhc.com)
@@ -41,11 +41,11 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4xDS
    - DSTT(i)
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
+   - M3i Zero (excepto modelo GMP-Z003)
    - DSONE SDHC & DSONEi
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
+   Instala [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Asegúrate que tienes `YSMenu.nds` (renombrado de `TTMenu.dat` si no hay uno) y la carpeta `TTMenu` en la raíz de la microSD de la flashcard
 1. Pon `Use nds-bootstrap` a `No` para usar el firmware de la flashcard en vez de nds-bootstrap
 
 ### Iniciar automáticamente TWiLight Menu++

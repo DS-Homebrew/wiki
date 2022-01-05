@@ -3,8 +3,8 @@ lang: es-ES
 layout: wiki
 section: twilightmenu
 category: other
-title: Cómo obtener las carátulas
-description: How to get box art/game covers in TWiLight Menu++
+title: Cómo obtener carátulas
+description: Cómo obtener carátulas para TWiLight Menu++
 ---
 
 ### Windows
