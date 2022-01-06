@@ -16,7 +16,7 @@ TWL_FIRM might've somehow got corrupted.
 Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### How do I fix getting a white screen when booting TWiLight Menu++?
-- First, try putting the console in sleep mode (e.g. closing the console's lid, or pressing the sleep button on the O2DS), then wake up the console from it
+- Reboot the console
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
 - If that also doesn't work, try a different SD card
 
