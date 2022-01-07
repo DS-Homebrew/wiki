@@ -93,13 +93,16 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 <!-- Links for tables -->
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
+[colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
 [ndsbs]: https://github.com/DS-Homebrew/nds-bootstrap
 [nesds]: https://github.com/DS-Homebrew/NesDS
+[ngpds]: https://github.com/FluBBaOfWard/NGPDS
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
+[nitroswan]: https://github.com/FluBBaOfWard/NitroSwan
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
