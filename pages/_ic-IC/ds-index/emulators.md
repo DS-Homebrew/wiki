@@ -18,20 +18,25 @@ crwdns24485:0crwdne24485:0 crwdns24487:0crwdne24487:0
 | crwdns24513:0crwdne24513:0 | [crwdns24517:0crwdne24517:0][a5200ds]        | `crwdns24519:0crwdne24519:0` |                              |
 | crwdns24521:0crwdne24521:0 | [crwdns24525:0crwdne24525:0][a7800ds]        | `crwdns24527:0crwdne24527:0` |                              |
 | crwdns24529:0crwdne24529:0 | [crwdns24533:0crwdne24533:0][xegs-ds]        | crwdns24535:0crwdne24535:0   |                              |
-| crwdns24537:0crwdne24537:0 | crwdns24539:0crwdne24539:0                   | crwdns24541:0crwdne24541:0   | crwdns24543:0crwdne24543:0   |
-| crwdns24545:0crwdne24545:0 | crwdns24547:0crwdne24547:0                   | crwdns24549:0crwdne24549:0   | crwdns24551:0crwdne24551:0   |
-| crwdns24553:0crwdne24553:0 | crwdns24555:0crwdne24555:0                   | `crwdns24557:0crwdne24557:0` |                              |
-| crwdns24559:0crwdne24559:0 | [crwdns24563:0crwdne24563:0][gameyob]        | crwdns24565:0crwdne24565:0   | `crwdns24567:0crwdne24567:0` |
-| crwdns24569:0crwdne24569:0 | crwdns24571:0crwdne24571:0                   | crwdns24573:0crwdne24573:0   | `crwdns24575:0crwdne24575:0` |
-| crwdns24577:0crwdne24577:0 | [crwdns24581:0crwdne24581:0][s8ds]           | `crwdns24583:0crwdne24583:0` | `crwdns24585:0crwdne24585:0` |
-| crwdns24587:0crwdne24587:0 | crwdns24589:0crwdne24589:0                   | `crwdns24591:0crwdne24591:0` | crwdns24593:0crwdne24593:0   |
-| crwdns27193:0crwdne27193:0 | [crwdns27197:0crwdne27197:0][nintellivision] | `crwdns27199:0crwdne27199:0` |                              |
-| crwdns27201:0crwdne27201:0 | [crwdns27205:0crwdne27205:0][s8ds]           | `crwdns27207:0crwdne27207:0` | `crwdns27209:0crwdne27209:0` |
-| crwdns27211:0crwdne27211:0 | crwdns27213:0crwdne27213:0                   | `crwdns27215:0crwdne27215:0` |                              |
-| crwdns27217:0crwdne27217:0 | [crwdns27221:0crwdne27221:0][nesds]          | crwdns27223:0crwdne27223:0   | `crwdns27225:0crwdne27225:0` |
-| crwdns27227:0crwdne27227:0 | [crwdns27231:0crwdne27231:0][nitrografx]     | `crwdns27233:0crwdne27233:0` |                              |
-| crwdns27235:0crwdne27235:0 | [crwdns27239:0crwdne27239:0][rvidplayer]     | `crwdns27241:0crwdne27241:0` |                              |
-| crwdns27243:0crwdne27243:0 | [crwdns27247:0crwdne27247:0][snemulds]       | crwdns27249:0crwdne27249:0   | crwdns27251:0crwdne27251:0   |
+| crwdns28741:0crwdne28741:0 | crwdns28897:0crwdne28897:0                   | `crwdns28745:0crwdne28745:0` |                              |
+| crwdns28747:0crwdne28747:0 | crwdns28899:0crwdne28899:0                   | crwdns24549:0crwdne24549:0   | crwdns28751:0crwdne28751:0   |
+| crwdns28753:0crwdne28753:0 | crwdns28901:0crwdne28901:0                   | crwdns28757:0crwdne28757:0   | crwdns28759:0crwdne28759:0   |
+| crwdns28761:0crwdne28761:0 | crwdns28903:0crwdne28903:0                   | `crwdns28765:0crwdne28765:0` |                              |
+| crwdns28767:0crwdne28767:0 | [crwdns28771:0crwdne28771:0][gameyob]        | crwdns28773:0crwdne28773:0   | `crwdns24575:0crwdne24575:0` |
+| crwdns28775:0crwdne28775:0 | crwdns28905:0crwdne28905:0                   | crwdns28779:0crwdne28779:0   | `crwdns28781:0crwdne28781:0` |
+| crwdns28783:0crwdne28783:0 | [crwdns28787:0crwdne28787:0][s8ds]           | `crwdns28789:0crwdne28789:0` | `crwdns28791:0crwdne28791:0` |
+| crwdns28793:0crwdne28793:0 | crwdns28907:0crwdne28907:0                   | `crwdns28797:0crwdne28797:0` | crwdns28799:0crwdne28799:0   |
+| crwdns28801:0crwdne28801:0 | [crwdns28805:0crwdne28805:0][nintellivision] | `crwdns28807:0crwdne28807:0` |                              |
+| crwdns28809:0crwdne28809:0 | [crwdns28813:0crwdne28813:0][s8ds]           | `crwdns28815:0crwdne28815:0` | `crwdns28817:0crwdne28817:0` |
+| crwdns28819:0crwdne28819:0 | [crwdns28911:0crwdne28911:0][ngpds]          | crwdns28823:0crwdne28823:0   | `crwdns28825:0crwdne28825:0` |
+| crwdns28827:0crwdne28827:0 | crwdns28829:0crwdne28829:0                   | `crwdns28831:0crwdne28831:0` |                              |
+| crwdns28833:0crwdne28833:0 | [crwdns28837:0crwdne28837:0][nesds]          | crwdns28839:0crwdne28839:0   | `crwdns28841:0crwdne28841:0` |
+| crwdns28843:0crwdne28843:0 | [crwdns28847:0crwdne28847:0][nitrografx]     | `crwdns28849:0crwdne28849:0` |                              |
+| crwdns28851:0crwdne28851:0 | [crwdns28855:0crwdne28855:0][rvidplayer]     | `crwdns28857:0crwdne28857:0` |                              |
+| crwdns28859:0crwdne28859:0 | crwdns28913:0crwdne28913:0                   | `crwdns28863:0crwdne28863:0` |                              |
+| crwdns28865:0crwdne28865:0 | [crwdns28917:0crwdne28917:0][colecods]       | `crwdns28869:0crwdne28869:0` |                              |
+| crwdns28871:0crwdne28871:0 | [crwdns28875:0crwdne28875:0][snemulds]       | crwdns28877:0crwdne28877:0   | crwdns28879:0crwdne28879:0   |
+| crwdns28881:0crwdne28881:0 | [crwdns28921:0crwdne28921:0][nitroswan]      | crwdns28885:0crwdne28885:0   | crwdns28887:0crwdne28887:0   |
 crwdns24647:0{:.table}crwdne24647:0
 
 - crwdns24649:0crwdne24649:0
@@ -88,14 +93,17 @@ crwdns24653:0crwdne24653:0 crwdns24655:0crwdne24655:0
 
 [a5200ds]: crwdns24515:0crwdne24515:0
 [a7800ds]: crwdns24523:0crwdne24523:0
-[gameyob]: crwdns24561:0crwdne24561:0
-[nesds]: crwdns27219:0crwdne27219:0
-[nitrografx]: crwdns27229:0crwdne27229:0
-[rvidplayer]: crwdns27237:0crwdne27237:0
-[s8ds]: crwdns27583:0crwdne27583:0
-[s8ds]: crwdns27585:0crwdne27585:0
-[snemulds]: crwdns27245:0crwdne27245:0
+[colecods]: crwdns28915:0crwdne28915:0
+[gameyob]: crwdns28769:0crwdne28769:0
+[nesds]: crwdns28835:0crwdne28835:0
+[ngpds]: crwdns28909:0crwdne28909:0
+[nitrografx]: crwdns28845:0crwdne28845:0
+[nitroswan]: crwdns28919:0crwdne28919:0
+[rvidplayer]: crwdns28853:0crwdne28853:0
+[s8ds]: crwdns28785:0crwdne28785:0
+[s8ds]: crwdns28811:0crwdne28811:0
+[snemulds]: crwdns28873:0crwdne28873:0
 [stellads]: crwdns24507:0crwdne24507:0
 [xegs-ds]: crwdns24531:0crwdne24531:0
 [neods]: crwdns24669:0crwdne24669:0
-[nintellivision]: crwdns27195:0crwdne27195:0
+[nintellivision]: crwdns28803:0crwdne28803:0

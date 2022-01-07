@@ -15,7 +15,7 @@ Dla więcej FAQ, odwiedź [wątek na GBAtemp](https://gbatemp.net/threads/ds-i-3
 TWL_FIRM może być uszkodzony. Postępuj zgodnie z tym poradnikiem, aby naprawić problem: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Jak rozwiązać problem białego ekranu podczas uruchamiania TWiLight Menu++?
-- Najpierw, spróbuj wstawić konsolę w tryb uśpienia (np. poprzez zamknięcie konsoli albo poprzez wciśnięcie przycisku uśpienia na O2DS), a następnie ją "obudź"
+- Reboot the console
 - Jeśli to nie zadziała, sformatuj kartę SD do formatu FAT32 z rozmiarem klastra/alokacji 32 KB
 - Jeśli to też nie zadziała, spróbuj innej karty SD
 

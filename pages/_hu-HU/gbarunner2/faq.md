@@ -25,11 +25,11 @@ Töbnyire a TWiLight Menu++-ba ágyazott build megfelelő. A GBARunner különb�
 Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) ágból, ahhoz, hogy használhasd ezt a szolgáltatást. Részletes információt találsz a buildek telepítéséről a [GBAtemp Wiki oldalon](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Miért nem támogatott az RTC (Real Time Clock) egy ROM hackben?
-Az RTC játékonként támogatott. A ROM játékkódját meg kell változtatnod az eredeti játék kódjára, hogy a GBARunner2 felismerje azt.
+Az RTC játékonként támogatott. A ROM cím ID-ját meg kell változtatnod egy olyan játék kódjára, ami támogatja az RTC-t, hogy a GBARunner2 felismerje azt.
 
-You can change the title ID using the following:
-1. <label for="file-input" class="form-label">Select GBA ROM file:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
-1. <label for="file-input" class="form-label">Enter desired title ID:</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
-1. <label for="file-input" class="form-label">Save updated file:</label> <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled />
+A cím ID- a következő módon módosíthatod:
+1. <label for="file-input" class="form-label">Válaszd ki a GBA ROM fájlt:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
+1. <label for="file-input" class="form-label">Add meg a kívánt cím ID-t:</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
+1. <label for="file-input" class="form-label">Mentsd a módosított fájlt:</label> <input id="save" class="btn btn-secondary" type="button" value="Mentés" onclick="save()" disabled />
 
 <script src="/assets/js/change-gba-tid.js"></script>

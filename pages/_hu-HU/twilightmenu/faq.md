@@ -15,7 +15,7 @@ További GYIK-ért látogassa meg a [GBAtemp üzenetszálat](https://gbatemp.net
 A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót a hiba javításához: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
-- Először próbáld meg a konzolodat alvó üzemmódba rakni (pl. lecsukva a konzol tetejét vagy a sleep gomb megnyomásával az O2DS-en), majd felkelteni a konzolt belőle
+- Indítsd újra a konzolt
 - Ha ez nem működik, formázd az SD kártyádat FAT32-re 32 KB cluster/foglalási mérettel
 - Ha ez sem működik, próbálj egy másik SD kártyát
 
@@ -29,8 +29,8 @@ Menj a TWLMenu++ beállításaiba és kapcsold ki a `Utoljára játszott lista f
 Lásd a [Problémáim vannak a ROM(ok)-mal, mit tegyek?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) fejezetet az nds-bootstrap GYIK oldalon.
 
 #### Hogyan használhatom a csalásokat?
-Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". Ez automatikusan telepíti azt a szükséges helyre.
+Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/) adatbázisa.
+- A 3DS-en az az adatbázis elérhető az Universal Updater appban, mint "NDS(i) Cheat Databases". Ez automatikusan telepíti azt a szükséges helyre.
 
 Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 

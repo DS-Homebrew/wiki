@@ -2,16 +2,16 @@
 lang: fr-FR
 layout: wiki
 section: gbarunner2
-title: Info du BIOS GBA
-description: Informations sur le BIOS GBA et comment le copier
+title: Infos du BIOS GBA
+description: Informations sur le BIOS GBA et comment le dumper
 ---
 
-Pour que GBARunner2 puisse charger des titres, un dump du BIOS GBA est nécessaire. Les versions plus récentes de GBARunner2 (inclues avec la dernière version de TWiLight Menu++) ont [le BIOS Open Source de Normatt](https://github.com/Normmatt/gba_bios) intégré. Cependant, comme il ne s'agit pas d'une copie exacte, l'utilisation d'un dump du BIOS officiel augmente la compatibilité. Vous pouvez dumper un BIOS GBA officiel avec l'une des méthodes suivantes.
+Pour que GBARunner2 puisse charger des titres, un dump du BIOS GBA est nécessaire. Les versions plus récentes de GBARunner2 (inclues avec la dernière version de TWiLight Menu++) ont le [BIOS Open Source de Normatt](https://github.com/Normmatt/gba_bios) intégré. Cependant, comme il ne s'agit pas d'une copie exacte, l'utilisation d'un dump du BIOS officiel augmente la compatibilité. Vous pouvez dumper un BIOS GBA officiel avec l'une des méthodes suivantes.
 
 ### Tutoriels de dumping
 
 - [Une GBA/DS/DS Lite avec un linker GBA ou une 3DS](https://glazedbelmont.github.io/gbabiosdump/)
-   - It is **not** possible to dump the GBA BIOS on a DSi
+   - Il n'est **pas** possible de dumper le BIOS GBA sur une DSi
 - [Une Wii (pas la Family Edition)/GameCube, GBA, et GBA Link Cable Dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 Après avoir dumpé le BIOS, il doit être renommé en `bios.bin` et doit ensuite être placé dans `sd:/`, `sd:/gba/`, ou `sd:/_gba/` pour que GBARunner2 puisse le lire.

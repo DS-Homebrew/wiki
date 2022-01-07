@@ -15,7 +15,7 @@ Per ulteriori FAQ, visita il thread [GBAtemp](https://gbatemp.net/threads/ds-i-3
 TWL_FIRM potrebbe in qualche modo essere danneggiato. Segui questa guida per risolvere il problema: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Come faccio a risolvere il problema di ottenere uno schermo bianco quando avvio TWiLight Menu++?
-- Innanzitutto, prova a mettere la console in modalità riposo (es. chiudendo il coperchio della console, o premendo il pulsante sospensione sull'O2DS), poi risveglia la console da esso
+- Reboot the console
 - Se ciò non funziona, formatta la scheda SD in FAT32 con 32 KB cluster/ memoria d'allocazione
 - Se anche questo non funziona, prova una scheda SD diversa
 

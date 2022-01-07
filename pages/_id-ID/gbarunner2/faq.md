@@ -21,10 +21,10 @@ Not right now. Instead, you can permanently inject cheat codes into your GBA ROM
 #### Which build of GBARunner2 should I use?
 Usually, the builds that are included with TWiLight Menu++ is enough. For more information on the various builds of GBARunner, see the [Builds wiki page](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
-#### How do I use Wi-Fi link features?
+#### Bagaimana cara menggunakan fitur Wi-Fi link?
 You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
-#### Why isn't RTC (Real Time Clock) supported in a ROM hack?
+#### Kenapa RTC (Real Time Clock) tidak didukung pada ROM hack?
 RTC is supported on a per-game basis. You will have to change the ROM's title ID to that of a game that supports RTC so that GBARunner2 will recognize it.
 
 You can change the title ID using the following:

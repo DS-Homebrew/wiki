@@ -15,7 +15,7 @@ description: TWiLight Menu++のよくある質問とトラブルシューティ�
 TWL_FIRMは何らかの方法で破損している可能性があります。 このガイドに従って問題を解決してください：[ https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide](https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide)
 
 #### TWiLight Menu++を起動する時に、白い画面が表示されるを修正するにはどうすればいいですか？
-- まず、本体をスリープモードにしてから（例：本体の蓋を閉じるか、古い2DSのスリープバタンを押す）、本体をスリープモードから復帰します
+- 本体を再起動
 - それがうまくいかない場合は、SDカードを32KBクラスタ／割り当てサイズでFAT32にフォーマットしてください
 - それでもうまくいかない場合は、別のSDカードをお試してください
 
@@ -29,8 +29,8 @@ TWLMenu++設定に移動し、`最近プレイしたリストを更新する`を
 nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do)を参照してください。
 
 #### チートはどうのように使いますか？
-`sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". これにより自動的に必要な場所にインストールされます。
+`sd:/_nds/TWiLightMenu/extras/`フォルダ内に`usrcheat.dat`ファイルの形式でチートデータベースが必要です。 最新のチートデータベースは、[DeadSkullzJr'sのNDS(i)チートデータベース](https://gbatemp.net/threads/488711/)。
+- 3DSでは、このデータベースはUniversal-Updaterアプリに「NDS(i) Cheat Databases」として利用てきます。 これにより自動的に必要な場所にインストールされます。
 
 あるいは、[r4cce](http://hp.vector.co.jp/authors/VA013928/soft.html)を使って独自のチートデータベースを作成できます。
 

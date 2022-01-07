@@ -15,7 +15,7 @@ För fler FAQs, besök [GBAtemp tråden](https://gbatemp.net/threads/ds-i-3ds-tw
 TWL_FIRM kan på något sätt bli skadad. Följ denna guide för att åtgärda problemet: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Jag får en vit skärm medan jag startar upp TWiLight Menu++. Hur fixar jag det?
-- Försök först att sätta konsolen i viloläge (t.ex. stänga konsolens lock, eller trycka på sovknappen på O2DS), sedan väcker du upp konsolen
+- Reboot the console
 - Om det inte fungerar, formatera ditt SD-kort till FAT32 med 32 KB kluster/allokeringsstorlek
 - Om det inte heller fungerar, prova ett annat SD-kort
 

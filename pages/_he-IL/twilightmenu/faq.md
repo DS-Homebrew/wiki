@@ -15,7 +15,7 @@ description: שאלות ותשובות ופתרון בעיות עבור TWiLight
 TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לתקן את הבעיה <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### איך אני מתקן את הבעיה של מסך לבן כשאני מפעיל את TWiLight Menu++?
-- ראשית, נסו להכינס את המכשיר למצב שינה (סגירת החלק העליון של הקונסולה או לחיצה על כפתור השינה בO2DS), ואז להעיר אותו
+- Reboot the console
 - אם זה לא עוזר, פרמטו את כרטיס הSD לFAT32 עם 32 KB cluster/allocation size
 - אם גם זה לא עוזר, נסו כרטיס SD אחר
 

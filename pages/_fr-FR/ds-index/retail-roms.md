@@ -3,8 +3,8 @@ lang: fr-FR
 layout: wiki
 section: ds-index
 category: reference
-title: ROMs originales
-description: Informations relatives aux ROMs DS commerciales
+title: ROMs commerciales
+description: Informations relatives aux jeux DS commerciaux
 ---
 
 ### Anti-piratage
@@ -39,7 +39,7 @@ DMA (Direct Memory Access) is a more efficient way to read data than using the C
 You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
 - Par exemple : `DMA2 : 04100010 023C18C0 AF000001`
 
-### Code de triche d'Action Replay
+### Codes de triche Action Replay
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
 Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
@@ -64,9 +64,9 @@ Cheat codes generally have types 0 through F, and here is an (unfinished) descri
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
 ### Demonstration and Distribution Titles:
-Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, and on the back of the title's cartridge, a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+Les titres de démonstration (démo) diffèrent de leurs homologues commerciaux de diverses manières. L'indicateur évident est que le titre en question est une démo de ce que sera la version commerciale, c'est essentiellement un aperçu de ce qui est à venir lorsque la version commerciale complète sera disponible. Dans le cas de la gamme Nintendo DS, ces titres sont souvent marqués du message « Not for Resale » ou « Interdit à la vente » sur les étiquettes des titres, chaque démo porte également un title ID différent de celui de ses homologues commerciaux, et un autocollant « Not for Resale » est également présent au dos de la cartouche du titre. These titles are usually just kiosk demos in promotional places in stores and what not.
 
-Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
+Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Dans la plupart des cas, les titres de distribution ne sont que des versions commerciales du/des titre(s), destinées à seulement être exposées ou provenant d'un emballage promotionnel quelconque. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. Cependant, sachant que ces produits sont essentiellement les mêmes que leurs homologues commerciaux dans la plupart des cas, ils ont tendance à avoir un identifiant supplémentaire dans le title ID sur l'étiquette.
 
 Example ID: `DIS-NTR-NTRJ-JPN`
 

@@ -3,115 +3,115 @@ lang: fr-FR
 layout: wiki
 section: community
 category: discord
-title: Règles sur DS(i) Mode Hacking
-description: Les règles sur le serveur Discord DS(i) Mode Hacking
+title: Règles de DS⁽ⁱ⁾ Mode Hacking
+description: Les règles du serveur Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](/community/discord-rules) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
+Cette page fournit plus de détails sur les règles décrites dans le salon [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) du serveur Discord. Si vous avez d'autres questions, posez-les dans [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Notez que la version anglaise des règles [](/community/discord-rules) est la version canonique et que toute divergence éventuelle dans les traductions n'affectera pas leur application.
 
-### 1. Do not act disrespectfully towards others and their beliefs
+### 1. N'agissez pas de manière irrespectueuse envers les autres et leurs croyances
 
-- This applies to everyone regardless of their role or level of activity in this server, even if they aren’t on the server
-- Do not backseat moderate or try to "help" when a moderator is already dealing with a situation
-- Reminders of the rules are fine, as long as you remain respectful
-- Credit the creator(s) when sending something if you know who created it
+- Cela s'applique à tout le monde, quel que soit leur rôle ou leur niveau d'activité sur ce serveur, même s'ils ne sont pas sur le serveur
+- N'essayez pas de faire de l'assistanat ou d'apporter votre aide lorsqu'un modérateur est déjà en train de gérer une situation
+- Les rappels des règles sont acceptés, tant que vous restez respectueux
+- Lorsque vous envoyez quelque chose, indiquez le nom du/des créateur(s) si vous savez qui l'a créé
 
-### 2. Do not bring the chat quality down
+### 2. Ne baissez pas la qualité du chat
 
-Examples of what breaks this rule include:
-- Demander à obtenir toutes les informations sans effort ou donner ces informations au autres sans efforts
-- Asking for release dates for projects; it's ready when it's ready
-- Asking if you can ask a question; just ask your question directly
-- Requesting information that is either obvious or you could find with a little bit of research on your end
-   - Important information can be found in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
-- Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
-- Repeating messages, whether it is repeated in the same channel or in multiple channels
- - If you're unsure where to post your message check the channel topics and ask in the most fitting one
-   - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
-- Publier pour le plaisir de poster plutôt que d’apporter des bonnes conversations (comme se plaindre que le chat est mort, envoyer uniquement de salutations, copypastas, etc)
-- Sending extremely long messages, use a tool such as [mystbin](https://mystb.in/) for longer messages instead
+Voici quelques exemples de ce qui ne respecte pas cette règle :
+- Demander à obtenir des informations sans effort ou donner ces informations au autres sans efforts
+- Demander des dates de sortie pour les projets ; c'est prêt quand c'est prêt
+- Demander si l'on peut poser une question ; il suffit de poser directement sa question
+- Demander des informations qui sont évidentes ou que vous pourriez trouver avec un peu de recherche de votre côté
+   - Les informations importantes se trouvent dans [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) et dans les messages épinglés de tous les salons
+- Prendre un espace excessif dans le chat (par exemple, envoyer une petite quantité de mots dans plusieurs messages au lieu de tout garder dans un seul message)
+- La répétition des messages, qu'ils soient répétés dans le même salon ou dans plusieurs salons
+ - Si vous ne savez pas où poster votre message, consultez les sujets des salons et posez votre question dans celui qui convient le mieux
+   - Si vous n'êtes toujours pas sûr, demandez dans [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
+- Poster pour le plaisir de poster plutôt que d'apporter de véritables conversations (comme se plaindre que le chat est mort, envoyer uniquement des salutations, des copypastas, etc.)
+- Pour l'envoi de messages extrêmement longs, utilisez plutôt un outil tel que [mystbin](https://mystb.in/) pour les longs messages
 
-- At a moderator's discretion, discussions may be stopped
+- À la discrétion d'un modérateur, les discussions peuvent être interrompues
 
-### 3. Do not self-promote with no context or without explicit staff permission
+### 3. Ne faites pas d'autopromotion sans contexte ou sans l'autorisation explicite du personnel
 
-- Giving links to other Discord servers on request is allowed, but please ask a moderator in a DM before advertising a server without prior context
-- DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules, mass DM advertisement (with proof) will land you a ban
-- Joining for the purpose of advertising your discord server will land you a ban and your advertisements will be deleted
+- Donner des liens vers d'autres serveurs Discord sur demande est autorisé, mais veuillez demander à un modérateur dans un MP avant de faire de la publicité pour un serveur sans contexte préalable
+- Les annonces en MP ne sont pas autorisées, à la fois par les conditions de service de Discord et par les règles de notre serveur. Les annonces en MP en masse (avec preuve) vous vaudront un bannissement
+- Rejoindre dans le but de faire de la publicité pour votre serveur Discord vous vaudra un bannissement, et vos annonces seront supprimées
 
-### 4. Avoid piracy discussion
+### 4. Évitez les discussions sur le piratage
 
-- Do not link/mention piracy websites/tools, upload pirated content, or encourage others to pirate
-- We will not assist with piracy or provide support for any pirated content or leaked titles
-- For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
-- Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
-- You may discuss publicly-known information about the leaks as long as no builds, files or source code is shared
-- Do not link to SDK tools, or anything that breaks a Non-Disclosure Agreement
-   - This includes sending ROMs that were built with leaked SDK programs
+- Ne créez pas de liens vers des sites ou des outils de piratage, ne téléchargez pas de contenu piraté et n'encouragez pas les autres à pirater
+- Nous n'aiderons pas au piratage et ne fournirons pas de soutien pour tout contenu piraté ou titres leakés
+- Pour plus d'informations sur ce qu'est le piratage ou non, nous vous suggérons de lire la [page de définition du piratage de eip](https://3ds.eiphax.tech/piracy.html) (Avertissement : nous ne sommes pas des avocats)
+- Les conditions d'utilisation de Discord suivent la loi américaine et, en tant que telles, sont soumises à la définition américaine du piratage, que l'utilisateur vive aux États-Unis ou non
+- Vous pouvez discuter d'informations connues du public concernant les leaks, à condition de ne pas partager de builds, de fichiers ou de code source
+- Ne créez pas de liens vers des outils SDK ou vers tout ce qui ne respecte pas un accord de non-divulgation
+   - Cela inclut l'envoi de ROMs qui ont été construites avec des programmes SDK leakés
 
-### 5. Keep conversations within their respective channels
+### 5. Maintenez les conversations dans leurs salons respectifs
 
-- Even if they are related, sometimes another channel would be more suitable
-   - Check the channel topics for where to ask questions or have discussion
-- Sometimes, even an entirely different server is preferable, we don't have the answers to everything
-   - There are some related servers in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and the pins of other channels
+- Même s'ils sont liés, il arrive qu'un autre salon soit plus approprié
+   - Consultez les sujets des salons pour savoir où poser des questions ou discuter
+- Parfois, même un serveur entièrement différent est préférable, nous n'avons pas les réponses à tout
+   - Il y a quelques serveurs liés dans [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) et les messages épinglés d'autres salons
 
-### 6. Keep all conversations in English
+### 6. Gardez toutes les conversations en anglais
 
-- We are not able to easily moderate content in other languages
-- We suggest using [DeepL](https://www.deepl.com/translator) for translation
-- Moderators may allow others to speak in foreign languages in case translation fails and there are trusted people that know your language and are able to help
+- Nous ne sommes pas en mesure de modérer facilement le contenu dans d'autres langues
+- Nous suggérons d'utiliser [DeepL](https://www.deepl.com/translator) pour la traduction
+- Les modérateurs peuvent autoriser d'autres personnes à s'exprimer dans des langues étrangères en cas d'échec de la traduction et s'il existe des personnes de confiance qui connaissent votre langue et sont en mesure de vous aider
 
-### 7. You may not have an alternative account on this server without staff permission
+### 7. Vous ne pouvez pas avoir un autre compte sur ce serveur sans la permission du personnel
 
-- One account per person at a time (except when approved by a staff member), be sure to leave this server on your other account before joining with a new one
-- Punishments apply to the person, not the account, any subsequent accounts made for the purposes of punishment evasion will result in both accounts being banned
+- Un seul compte par personne à la fois (sauf si approuvé par un membre du personnel), assurez-vous de quitter ce serveur sur votre autre compte avant de le rejoindre avec un nouveau
+- Les punitions s'appliquent à la personne, pas au compte, tout compte ultérieur créé dans le but d'échapper à la punition entraînera l'interdiction des deux comptes
 
-### 8. Keep names/nicknames exclusively alphanumeric and do not hoist
+### 8. Conservez les noms/surnoms exclusivement en alphanumérique et ne les mettez pas en valeur
 
-- Users with a nickname/username that is not easily readable for an English speaker or mentionable with an English (US) keyboard will be assigned a new nickname
-- Avoid purposely putting characters in the beginning of the name to change your spot in the member list, those characters will be removed
+- Les utilisateurs dont le surnom/nom d'utilisateur n'est pas facilement lisible pour un anglophone ou mentionnable avec un clavier anglais (US) se verront attribuer un nouveau surnom
+- Évitez de mettre volontairement des caractères au début du nom pour changer votre place dans la liste des membres, ces caractères seront supprimés
 
-### 9. Do not send unsolicited DMs to other users
+### 9. N'envoyez pas de MP non sollicités à d'autres utilisateurs
 
-- Please ask before sending a Direct Message to others and respect those not wanting to communicate
-   - Even if your actions aren't malicious, they could be disturbing or otherwise unwanted
-- Things that happen in Direct Messages **are** the business of the server since unless you both share another server or are friends, you wouldn't be able to reach each other
-- Examples of what not to do include DM advertising, purposely redirecting users to DMs from normal chat (such as support) to break rules, and harassment
-
-
-### 10. Do not bring external drama, NSFW, or illegal content into the server
-
-- If you are banned in other servers, avoid talking about it here
-   - We can not help you get unbanned from other servers, that is the decision of the staff members there
-- Do not post anything that is not considered safe for work (e.g. sexual content, extreme violence, drugs)
-- Any account with a disturbing avatar will be kicked, if you rejoin and still have the avatar, you will be banned
-- Despite adult content being banned, users are still required to be thirteen and over in order to participate on this Discord server as per the Discord TOS
-
-### 11. Do not talk about or do actions pertaining to breaking other Discord TOS
-
-- [Link to Terms of Service](https://discord.com/terms)
-- [Link to community guidelines](https://discord.com/guidelines)
-- Trying to do anything that is not explicitly mentioned in our rules but is still against Discord TOS will land you a ban (e.g. raids, malware, phishing)
-
-### 12. Do not try to evade the rules as this will be treated as breaking them
-
-- If you don't understand any of the rules, feel free to ask for further clarification
-- Breaking the rules and then claiming that you “didn’t know” will still make you guilty of breaking them
-- Trying to get around the rules by speaking in vague terms also counts as breaking them
-
-## Consequences
-
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
-
-## Reporting
-
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Veuillez demander avant d'envoyer un message privé à d'autres personnes et respectez ceux qui ne veulent pas communiquer
+   - Même si vos actions ne sont pas malveillantes, elles peuvent être dérangeantes ou indésirables
+- Les choses qui se passent dans les messages privés **sont** l'affaire du serveur puisque, à moins que vous ne partagiez tous deux un autre serveur ou que vous soyez amis, vous ne pourriez pas vous joindre l'un à l'autre
+- Parmi les exemples de ce qu'il ne faut pas faire, citons la publicité en MP, la redirection délibérée des utilisateurs vers les MP à partir d'un chat normal (tel que le support) pour enfreindre les règles, et le harcèlement
 
 
-Last updated: 2021-12-20
+### 10. N'apportez pas de contenu dramatique externe, NSFW ou illégal sur le serveur
+
+- Si vous êtes banni sur d'autres serveurs, évitez d'en parler ici
+   - Nous ne pouvons pas vous aider à vous débannir d'autres serveurs, c'est la décision des membres du staff de là-bas
+- Ne publiez rien qui ne soit pas considéré comme sûr pour le travail (par exemple, contenu sexuel, violence extrême, drogues)
+- Tout compte avec un avatar dérangeant sera expulsé, si vous vous réinscrivez et avez toujours l'avatar, vous serez banni
+- Bien que les contenus pour adultes soient interdits, les utilisateurs doivent avoir au moins treize ans pour participer à ce serveur Discord, conformément aux conditions d'utilisation de Discord
+
+### 11. Ne parlez pas ou ne faites pas d'actions relatives à la violation d'autres conditions d'utilisation de Discord
+
+- [Lien vers les conditions d'utilisation](https://discord.com/terms)
+- [Lien vers la charte d'utilisation de la communauté](https://discord.com/guidelines)
+- Tenter de faire quelque chose qui n'est pas explicitement mentionné dans nos règles mais qui est tout de même contraire aux conditions d'utilisation de Discord vous vaudra un bannissement (raids, logiciels malveillants, hameçonnage par exemple)
+
+### 12. N'essayez pas de contourner les règles car cela sera considéré comme une violation de celles-ci
+
+- Si vous ne comprenez pas l'une des règles, n'hésitez pas à demander des précisions
+- Enfreindre les règles et prétendre ensuite que vous « ne saviez pas » vous rendra toujours coupable de les avoir enfreintes
+- Essayer de contourner les règles en parlant en termes vagues est également considéré comme une violation des règles
+
+## Conséquences
+
+Les conséquences d'une infraction à ces règles sont un avertissement, une mise en sourdine, une expulser ou un bannissement. Bien entendu, les conséquences spécifiques seront traitées au cas par cas.
+- La plupart des utilisateurs finissent par recevoir 4 avertissements avant d'être bannis
+   - Ces avertissements comprennent l'utilisation de la commande !warn, la mise en sourdine et les avertissements verbaux
+- Si vous vous inscrivez dans le but d'enfreindre les règles, vous serez banni
+
+## Rapport
+
+- Si quelqu'un enfreint les règles et qu'un modérateur ne s'occupe pas déjà du cas, veuillez envoyer un message à un modérateur en ligne
+- Si l'incident s'est déroulé dans les MP, il doit y avoir des preuves, comme d'autres personnes qui l'ont signalé aussi, des implications sur le serveur, ou quelque chose de ce genre
+- Toutefois, lorsque vous établissez votre rapport, couvrez tous les liens ; ne donnez pas à l'annonceur en MP plus de visibilité qu'il n'en a déjà obtenu par le biais des messages privés envoyés à tout le monde
+
+
+Dernière mise à jour : 20/12/2021

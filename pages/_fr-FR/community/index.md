@@ -6,8 +6,8 @@ title: Communauté
 description: Informations sur la communauté DS-Homebrew
 ---
 
-Vous pouvez trouver des informations sur notre communauté ici, comme les règles pour notre serveur Discord. Nous avons les liens suivants :
-- Discord: [DS(i) Mode Hacking](https://ds-homebrew.com/discord)
+Vous pouvez trouver ici des informations sur notre communauté, comme les règles de notre serveur Discord. Nous disposons des lieux suivants :
+- Discord : [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit : [r/NDSBrew](https://reddit.com/r/NDSBrew)
-- GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Site web: [ds-homebrew.com](https://ds-homebrew.com)
+- GitHub : [DS-Homebrew](https://github.com/DS-Homebrew)
+- Site Web : [ds-homebrew.com](https://ds-homebrew.com)

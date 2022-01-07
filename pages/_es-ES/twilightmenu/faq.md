@@ -15,7 +15,7 @@ Si tienes más preguntas, visita el [hilo de GBAtemp](https://gbatemp.net/thread
 Puede que TWL_FIRM esté corrompido. Sigue esta guía para solucionarlo: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### ¿Qué puedo hacer para arreglar el pantallazo blanco al abrir TWiLight Menu++?
-- Prueba a poner la consola en modo reposo (cerrando la tapa o presionando el botón de sueño en la O2DS) y a despertarla
+- Reboot the console
 - Si no funciona, formatea tu SD en FAT32 con 32 KB de cluster/asignación
 - Si aún no funciona, prueba con otra SD
 

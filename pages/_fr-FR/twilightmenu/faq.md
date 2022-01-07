@@ -15,7 +15,7 @@ Pour plus de FAQs, veuillez visiter le [fil GBAtemp](https://gbatemp.net/threads
 TWL_FIRM a pu être corrompu d'une manière ou d'une autre. Suivez ce guide pour résoudre le problème : <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Comment puis-je corriger l'obtention un écran blanc lors du démarrage de TWiLight Menu++ ?
-- Tout d'abord, essayez de mettre la console en mode veille (par exemple, en fermant le couvercle de la console ou en appuyant sur le bouton de veille de l'O2DS), puis réveillez la console à partir de ce mode
+- Redémarrez la console
 - Si cela ne fonctionne pas, formatez votre carte SD en FAT32 avec une taille de cluster/d'allocation de 32 Ko
 - Si cela ne fonctionne pas non plus, essayez une autre carte SD
 
@@ -29,8 +29,8 @@ Allez dans les paramètres TWLMenu++ et désactivez `Màj des jeux joués récem
 Consultez [J'ai des problèmes avec ma/mes ROM(s), que dois-je faire ?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) sur la page de la FAQ de nds-bootstrap.
 
 #### Comment utiliser des codes de triche ?
-Vous avez besoin d'une base de données de codes de triche sous la forme d'un fichier `usrcheat.dat` dans le dossier `sd:/_nds/TWiLightMenu/extras/`. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". Cela l'installera automatiquement à l'emplacement requis.
+Vous avez besoin d'une base de données de codes de triche sous la forme d'un fichier `usrcheat.dat` dans le dossier `sd:/_nds/TWiLightMenu/extras/`. La base de données de codes de triche la plus mise à jour est la [base de données de codes de triche NDS(i) de DeadSkullzJr](https://gbatemp.net/threads/488711/).
+- Sur la 3DS, cette base de données est disponible dans l'application Universal-Updater sous le nom « NDS(i) Cheat Databases ». Cela l'installera automatiquement à l'emplacement requis.
 
 Vous pouvez également utiliser [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) pour créer votre propre base de données de codes de triche.
 
@@ -41,7 +41,7 @@ Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera af
 - Si vous obtenez des erreurs, il s'agit probablement d'une erreur dans la taille de l'image. Veuillez utiliser [tinypng](https://tinypng.com) pour réduire la taille
 
 #### Comment obtenir des jeux ?
-Vous pouvez télécharger des jeux homebrews sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux vendus au détail :
+Vous pouvez télécharger des jeux homebrews sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux commerciaux :
 - Sur DS, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux GBA et, si vous avez un linker Slot-2, vos jeux DS. Si vous ne disposez que d'un linker Slot-1 et que vous souhaitez dumper un jeu DS, vous pouvez utiliser [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), qui nécessite une connexion Wi-Fi compatible avec la DS, ainsi qu'un client FTP sur un appareil séparé pour recevoir la ROM
 - Sur DSi, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux DS et DSiWare
 - Sur 3DS, vous pouvez utiliser [GodMode9](https://github.com/d0k3/GodMode9/releases) pour vider vos jeux DS, DSiWare et titres de la console virtuelle

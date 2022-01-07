@@ -12,7 +12,7 @@ tabs:
     manual: Ручная установка
 ---
 
-Если обновляетесь с версии ниже чем v16.4.0, пожалуйста, переместите ваши `.sav` файлы для DS игр в новую папку `saves`, она должна быть в той же папке что и ваши DS образы.
+If updating from a version older than v6.8.3, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
 {:.alert .alert-info}
 
 Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare игр в новую папку `saves`, она должна быть в той же папке что и ваши DSiWare образы.

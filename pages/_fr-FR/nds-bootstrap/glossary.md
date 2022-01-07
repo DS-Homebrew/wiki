@@ -1,43 +1,43 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: nds-bootstrap
-title: Glossary
-description: Glossary for nds-bootstrap
+title: Glossaire
+description: Glossaire pour nds-bootstrap
 ---
 
-## Settings
-These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
+## Paramètres
+Vous pouvez les trouver dans les paramètres par jeu de TWiLight Menu++. Certaines de ces options peuvent également être modifiées dans le menu en jeu de nds-bootstrap
 
-### SDK ver
-The version of the Software Development Kit (SDK) that was used to compile the ROM.
+### Ver. SDK
+La version du Software Development Kit (SDK) qui a été utilisée pour compiler la ROM.
 
-### Save Number
-The save file for the game will have the `.savX` file extension where X is the given save number if the save number is not 0. This allows for up to 10 save files for the same ROM.
+### Numéro de sauvegarde
+Le fichier de sauvegarde d'un jeu aura l'extension `.savX` où X est le numéro de sauvegarde donné si le numéro de sauvegarde n'est pas 0. Cela permet d'avoir jusqu'à 10 fichiers de sauvegarde pour la même ROM.
 
-### Run in
-The Mode which the ROM should be run. This affects the ARM9 CPU Speed and VRAM Mode options. Setting to DSi Mode for ROMs that do not support will likely have no effect.
+### Lancer en
+Le mode dans lequel la ROM doit être exécutée. Cela affecte les options de vitesse du CPU ARM9 et du mode VRAM. Le réglage sur le mode DSi pour les ROMs qui ne le supportent pas n'aura probablement aucun effet.
 
-### ARM9 CPU Speed
-Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mhz (NTR) by default. This can be changed to 133 Mhz (TWL) to reduce slowdowns, but may also cause issues. ROMs ran in DSi Mode can only be set at 133 Mhz (TWL).
+### Vitesse CPU ARM9
+Modifie la vitesse à laquelle le CPU ARM9 fonctionne. Les ROMs exécutées en mode DS utiliseront 67 MHz (NTR) par défaut. Elle peut être changée en 133 MHz (TWL) pour réduire les ralentissements, mais peut aussi causer des problèmes. Les ROMs exécutées en mode DSi ne peuvent être réglées qu'à 133 MHz (TWL).
 
-### VRAM Mode
-Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. ROMs ran in DSi Mode can only be set at DSi VRAM Mode.
+### Mode VRAM
+Change le mode de la mémoire vive vidéo (de l'anglais Video Random Access Memory, abrégé VRAM) du système. Les ROMs exécutées en mode DS utiliseront le mode VRAM DS par défaut. Il est possible de le changer en mode VRAM DSi, mais cela ne fait rien et peut causer des problèmes visuels. Les ROMs exécutées en mode DSi ne peuvent être réglées qu'en mode VRAM DSi.
 
-### Card Read DMA
-Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on can speed up ROMs but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
+### Lecture DMA carte
+Permet d'utiliser l'accès direct à la mémoire (de l'anglais Direct Memory Access, abrégé DMA) pour la lecture des cartes. L'activation de ce paramètre peut accélérer les ROMs mais peut causer des problèmes. Des informations plus techniques peuvent être trouvées sur l'[index DS](https://wiki.ds-homebrew.com/fr-FR/ds-index/retail-roms#lecture-dma-de-la-carte).
 
-### SWI Halt Hook
-Changes whether Halt Software Interrupts (SWI) are Hooked or not. Having it set to On can speed up loading times, but might cause issues. Keeping it Off may reduce slowdowns as well.
+### Empêcher arrêts SWI
+Modifie si les arrêts d'interruptions logicielles (de l'anglais Software Interrupts, abrégé SWI) sont empêchées ou non. Le définir sur « Activé » peut accélérer les temps de chargement, mais aussi causer des problèmes. Le laisser sur « Désactivé » peut également réduire les ralentissements.
 
-### Ex. ROM space in RAM
-If a game is small enough, it can be loaded into the system's RAM to speed up loading times. Turning this option on will increase the size limit for ROMs, but might break some.
+### Étnd. espc. ROM dans RAM
+Si un jeu est suffisamment petit, il peut être chargé dans la RAM du système pour accélérer les temps de chargement. L'activation de cette option augmente la limite de taille des ROMs, mais peut en casser certaines.
 
-### Direct Boot
-Appears only for homebrew ROMs. Setting this to On will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
+### Démarrage direct
+Apparaît seulement pour les ROMs homebrews. En mettant cette option sur « Activé », nds-bootstrap ne sera pas utilisé lors du lancement de la ROM. Ceci est utile pour les ROMs homebrews qui n'ont pas besoin ou ne fonctionnent pas avec nds-bootstrap.
 
 ### Bootstrap
-Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
+Changez si vous voulez exécuter la ROM avec la version Stable ou Nightly de nds-bootstrap. Des informations sur les builds Nightly peuvent être trouvées sur la [FAQ de nds-bootstrap](https://wiki.ds-homebrew.com/fr-FR/nds-bootstrap/faq?faq=quest-ce-quun-nightly-et-ou-puis-je-lobtenir)
 
-### Screen Aspect Ratio
-If on 3DS, the Screen Aspect Ratio can be changed from 4:3 (Default on DS/DSi) to 16:10. Only works if [widescreen is enabled](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).
+### Ratio de l'écran
+Sur la 3DS, le rapport d'aspect de l'écran peut être modifié de 4:3 (par défaut sur la DS/DSi) à 16:10. Ne fonctionne que si le [plein écran est activé](https://wiki.ds-homebrew.com/fr-FR/twilightmenu/playing-in-widescreen).

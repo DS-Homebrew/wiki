@@ -15,7 +15,7 @@ description: TWiLight Menu++를 위한 자주 묻는 질문 / 문제 해결
 TWL_FIRM이 알 수 없는 이유로 망가졌을 수 있습니다. 문제를 해결하기 위해 다음 가이드를 따르세요: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### TWiLight Menu++를 부팅할 때 하얀 화면만 떠있는 문제는 어떻게 고칠 수 있나요?
-- 가장 먼저, 본체의 뚜껑을 닫아서 슬립모드로 전환했다가 다시 여세요. (구형 2DS의 경우 슬립모드 스위치를 전환했다가 다시 원래대로 돌리세요.)
+- Reboot the console
 - 이래도 효과가 없으면, 사용중인 SD카드를 파일 시스템은 FAT32, 할당 단위 크기는 32 KB로 설정하고 포맷하세요 (용어는 윈도우 파일 탐색기 기준).
 - 이렇게까지 했는데도 효과가 없으면, 다른 SD카드로 시도해보세요.
 

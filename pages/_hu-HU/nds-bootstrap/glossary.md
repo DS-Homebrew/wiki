@@ -10,7 +10,7 @@ description: Fogalomjegyzék az nds-bootstrap-hez
 Ezek a TWiLight Menu++ játékonkénti beállításai között találhatók. Néhány opciót az nds-bootstrap játékon belüli menüjében is meg lehet változtatni
 
 ### SDK ver
-The version of the Software Development Kit (SDK) that was used to compile the ROM.
+A szoftverfejlesztő készlet (SDK) verziója, amelyet a ROM lefordításához használtak.
 
 ### Mentés szám
 A játék mentési fájljának a `.savX` fájlkiterjesztés lesz, ahol X az adott mentési szám, ha a mentési szám nem 0. Ez akár 10 mentési fájlt is lehetővé tesz ugyanahhoz a ROM-hoz.

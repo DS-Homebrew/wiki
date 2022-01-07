@@ -12,7 +12,7 @@ tabs:
     manual: Manuellement
 ---
 
-Si vous effectuez une mise à jour à partir d'une version antérieure à la v16.4.0, veuillez déplacer vos fichiers `.sav` pour les jeux DS vers un nouveau dossier appelé `saves`, le dossier `saves` se trouvant au même endroit que les ROMs DS.
+Si vous effectuez une mise à jour à partir d'une version antérieure à la v6.8.3, veuillez déplacer vos fichiers `.sav` pour les jeux DS vers un nouveau dossier appelé `saves`, le dossier `saves` se trouvant au même endroit que les ROMs DS.
 {:.alert .alert-info}
 
 Si vous effectuez une mise à jour à partir d'une version antérieure à la v21.0.0, veuillez déplacer vos fichiers `.pub` et/ou `.prv` pour les titres DSiWare vers un nouveau dossier appelé `saves`, le dossier `saves` se trouvant au même endroit que les ROMs DSiWare.

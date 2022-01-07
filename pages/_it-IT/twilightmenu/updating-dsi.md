@@ -8,7 +8,7 @@ long_title: Aggiornamento TWiLight Menu++ (DSi)
 description: Come aggiornare TWiLight Menu++ su Nintendo DSi
 ---
 
-Se stai aggiornando da una versione più vecchia di v16.4.0, sposta i tuoi file `.sav` per i titoli del DS in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM del DS.
+If updating from a version older than v6.8.3, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
 {:.alert .alert-info}
 
 Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM DSiWare.

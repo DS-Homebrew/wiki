@@ -37,16 +37,16 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - Képernyőképe készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
 #### Mi az a Donor ROM?
-In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
-A Donor ROM can be set using **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM.
-- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják.
+Az nds-bootstrap-ben, amikor egy játék nem bootol, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett.     
+A Donor ROM beállítható a **TW**i**L**ight Menu++-szal.
+- **Flashcard-ok DS módban:** A néhány támogatott DSi-Exklúzív/DSiWare cím DSi-Enhanced ROM készletet igényel, mint Donor ROM.
+- **DSiWarehax:** Mivel a DSi-Enhanced játékok és a (legtöbb) DSi-Exkluzív/DSiWare játék eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják.
 - **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva.
 
-#### What is the best Donor ROM?
-There is no *best* one to use.     
-If you're a DSiWarehax user, it is preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM.     
-If you own a 3DS console though, it is preferable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
+#### Mi a legjobb Donor ROM?
+Nincs *legjobb*, amit használni lehetne.     
+Ha DSiWarehax felhasználó vagy, akkor előnyös, ha egy 0-nál magasabb alverziót tartalmazó SDK5 ROM-ot állítasz be. Ha azonban nincs DSiWare ROM-od, dumpolhatod a ROM-ját a *Nintendo DSi Sound*-nak (SDK5.0) a GodMode9**i** használatával és beállíthatod a DSi Sound-ot mint egy Donor ROM-ot.     
+Ha 3DS konzolod van, akkor célszerű a DS WiFi Settings ROM-ot (SDK5.5) a GodMode9 segítségével dumpolni, és helyette a DS WiFi Settings-t Donor ROM-ként beállítani, mivel így a DSiWare-ben 9 másodperc várakozás nélkül aktiválható az alvó üzemmód.
 
 #### Miért nem tudok beállítani Donor ROM-ot?
 Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keresett ROM nem mutatja meg a lehetőséget, hogy donor ROM-nak állítsd be (feltéve, hogy lefelé görgetsz), akkor keress egy másik ROM-ot, amelyet donornak állíthatsz be.
