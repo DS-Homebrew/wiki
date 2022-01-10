@@ -42,7 +42,7 @@ Please note that not all flashcards support running games in this fashion. If th
    - DSTT(i)
    - M3 DS Real
    - M3i Zero (non-GMP-Z003 model)
-   - DSONE SDHC & DSONEi
+   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
