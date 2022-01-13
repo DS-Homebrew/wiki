@@ -11,32 +11,32 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 
 ### A TWiLight Menu++ által támogatott emulátorok listája
 
-| Formátum                | Betöltő                                          | Kiterjesztések                         | Mentés fájl                                    |
-| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
-| ARGV[^1]                | Natív                                            | `.argv`                                |                                                |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
-| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
-| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
-| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]               | `.col`                                 |                                                |
-| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, natív  | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`[^2]                     |
-| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].pub`, `saves/[rom neve].prv` |
-| DSTWO bővítmény         | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
-| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                               |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], natív[^5]          | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                               |
-| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom neve].gg.sav`                            |
-| Genesis / Mega Drive    | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom neve].srm`[^6]                           |
-| Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
-| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom neve].sms.sav`                           |
-| Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom neve].ngp.fla`               |
-| Fast Video              | Hamarosan                                        | `.fv`                                  |                                                |
-| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom neve].sav`                               |
-| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
-| Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
-| SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
-| Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
-| SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom neve].srm`[^8]                           |
-| WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
+| Formátum                | Betöltő                                         | Kiterjesztések                         | Mentés fájl                                    |
+| ----------------------- | ----------------------------------------------- | -------------------------------------- | ---------------------------------------------- |
+| ARGV[^1]                | Natív                                           | `.argv`                                |                                                |
+| Atari 2600              | [StellaDS][stellads]                            | `.a26`                                 |                                                |
+| Atari 5200              | [A5200DS][a5200ds]                              | `.a52`                                 |                                                |
+| Atari 7800              | [A7800DS][a7800ds]                              | `.a78`                                 |                                                |
+| Atari XEGS              | [XEGS-DS][xegs-ds]                              | `.xex`, `.atr`                         |                                                |
+| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]              | `.col`                                 |                                                |
+| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, natív | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].sav`[^2]                     |
+| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]    | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom neve].pub`, `saves/[rom neve].prv` |
+| DSTWO bővítmény         | [DSTWO][dstwo][^3]                              | `.plg`                                 |                                                |
+| Game Boy (Color)        | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                               |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], natív[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                               |
+| Game Gear               | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                            |
+| Genesis / Mega Drive    | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^6]                           |
+| Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                |
+| Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                           |
+| Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                  | `.ngp`, `.ngc`                         | `/data/ngpds/[rom neve].ngp.fla`               |
+| Fast Video              | Hamarosan                                       | `.fv`                                  |                                                |
+| NES/Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                               |
+| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                |
+| Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                |
+| SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]              | `.sg`                                  |                                                |
+| Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                |
+| SNES[^7]                | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`[^8]                           |
+| WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                            |
 {:.table}
 
 - Footnotes -

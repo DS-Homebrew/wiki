@@ -27,10 +27,10 @@ Change le mode de la mémoire vive vidéo (de l'anglais Video Random Access Memo
 ### Lecture DMA carte
 Permet d'utiliser l'accès direct à la mémoire (de l'anglais Direct Memory Access, abrégé DMA) pour la lecture des cartes. L'activation de ce paramètre peut accélérer les ROMs mais peut causer des problèmes. Des informations plus techniques peuvent être trouvées sur l'[index DS](https://wiki.ds-homebrew.com/fr-FR/ds-index/retail-roms#lecture-dma-de-la-carte).
 
-### Empêcher arrêts SWI
-Modifie si les arrêts d'interruptions logicielles (de l'anglais Software Interrupts, abrégé SWI) sont empêchées ou non. Le définir sur « Activé » peut accélérer les temps de chargement, mais aussi causer des problèmes. Le laisser sur « Désactivé » peut également réduire les ralentissements.
+### Hook d'arrêt SWI
+Modifie si les arrêts d'interruptions logicielles (de l'anglais Software Interrupts, abrégé SWI) sont hookés ou non. Le définir sur « Activé » peut accélérer les temps de chargement, mais aussi causer des problèmes. Le laisser sur « Désactivé » peut également réduire les ralentissements.
 
-### Étnd. espc. ROM dans RAM
+### Étnd. ROM dans RAM
 Si un jeu est suffisamment petit, il peut être chargé dans la RAM du système pour accélérer les temps de chargement. L'activation de cette option augmente la limite de taille des ROMs, mais peut en casser certaines.
 
 ### Démarrage direct

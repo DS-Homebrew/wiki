@@ -67,10 +67,10 @@ No existe información consistente sobre qué chip lleva cada tipo de 3DS, hasta
 
 ## Encontrar información de la versión
 
-GBARunner2 has an menu you can open by touching the touch screen and pressing the right shoulder button. Within this you can find the about menu which tells you what build you are on. However, the builds that come with TWiLightMenu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
+GBARunner2 tiene un menú, el cual puedes abrir tocando la pantalla táctil y presionando el botón R. Dentro de este, puedes encontrar el menú "About" que indica cuál versión estás utilizando. Sin embargo, las versiones que vienen en TWiLight Menu++ no indican el número de versión debido a que están basadas en forks de otras personas. Esto significa que si el menú "About" muestra el campo "Build" vacío, muy probablemente estés utilizando alguna de estas versiones.
 
-This tells you if you are using an ARM7DLDI or ARM9DLDI build
+Esto también te indica si estás utilizando la versión ARM7DLDI o la ARM9DLDI
 
-Knowing what build to use is useful when checking the official compatibility list in case you are having issues with running a game.
+Es útil saber qué versión utilizar cuando revisas la lista oficial de compatiblidad, en caso de que estés teniendo problemas corriendo algún juego.
 
-The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.
+El ID de la versión puede encontrarse en la página "releases" del repositorio GitHub de GBARunner2, dónde los últimos siete símbolos alfanuméricos representan la versión. Por ejemplo, la última versión "Master" se llama "v20200812-131430_6e4ce45", y "6e4ce45" es utilizado para representar su versión.

@@ -31,6 +31,6 @@ Pour voir les ROMs avec des problèmes connus, consultez la [page des problèmes
 - Veillez également à retirer de la feuille de la file d'attente des tests (Testing Queue) les jeux qui ont été testés
 
 #### Si le test consiste à mettre à jour les listes noires
-- Ne modifiez que les options de la liste noire, à savoir : la vitesse du CPU à 133 MHz (TWL), la lecture DMA de la carte, la lecture asynchrone de la carte et les empêchements d'arrêts SWI
+- Ne modifiez que les options de la liste noire, à savoir : la vitesse du CPU à 133 MHz (TWL), la lecture du DMA de la carte, la lecture asynchrone de la carte et le hook d'arrêt SWI
 - Pour activer les options de liste noire dans les paramètres par jeu, allez dans `sd:/_nds/TWiLightMenu/settings.ini` et définissez `IGNORE_BLACKLISTS` à `1`
 - Si vous rencontrez des problèmes en activant ces paramètres, veuillez les signaler sur la page des problèmes de GitHub 

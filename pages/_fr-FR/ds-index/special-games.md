@@ -1,73 +1,73 @@
 ---
-lang: en-US
+lang: fr-FR
 layout: wiki
 section: ds-index
 category: reference
-title: Special Games
-description: DS(i) Games that have special properties
+title: Jeux spéciaux
+description: Jeux DS(i) qui ont des propriétés spéciales
 ---
 
-### DS games available as DSiWare
+### Jeux DS disponibles sous forme de DSiWare
 - Advance Wars: Days of Ruin/Dark Conflict
-   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
-   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - Version DSiWare exclusive au Japon, sous le nom de « Famicom Wars DS: Ushinawareta Hikari »
+   - Un patch qui change les fichiers japonais en versions anglaises américaines est disponible [ici](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Art Academy
-   - Split into First & Second Semesters
+   - Divisé en Premier et Second Semestres
 - Bejeweled Twist
-   - Some features removed
+   - Certaines fonctionnalités ont été supprimées
 - Bomberman 2
-   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
+   - La fonction multijoueur est devenue un titre autonome appelé « Bomberman Blitz »
 - Bookworm
-   - Download Play feature removed
-   - Icon is animated
+   - Suppression de la fonction Téléchargement DS
+   - L'icône est animée
 - Brain Challenge
-   - New features related to the DSi camera are added
-   - Versus mode is removed
-   - Many files are compressed for the game to fit within the DSiWare size limit
-   - Icon is animated
+   - De nouvelles fonctionnalités liées à l'appareil photo DSi sont ajoutées
+   - Le mode Versus est supprimé
+   - De nombreux fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
+   - L'icône est animée
 - Electroplankton
-   - Each mode are turned into DSiWare
+   - Chaque mode est transformé en DSiWare
 - Elite Forces: Unit 77
-   - Multiplayer added
+   - Ajout du multijoueur
 - Master of Illusion/Magic Made Fun
-   - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Version DSiWare anglaise nommée « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
 - Need for Speed: Nitro
-   - DSiWare version called "Need for Speed: Nitro-X"
-   - Download Play feature and various music are removed
-   - New police cars available
+   - Version DSiWare nommée « Need for Speed: Nitro-X »
+   - La fonction Téléchargement DS et diverses musiques sont supprimées
+   - Nouvelles voitures de police disponibles
 - Nintendogs: Lab & Friends
-   - DSiWare version exclusive to China
+   - Version DSiWare exclusive à la Chine
 - Phantasy Star 0
-   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
-   - Icon is animated
+   - Une version démo (?) du jeu original, nommée « Phantasy Star 0 Mini », est exclusive au Japon
+   - L'icône est animée
 - Planet Puzzle League
-   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
-   - Multiplayer removed
+   - Version DSiWare anglaise appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
+   - Multijoueur supprimé
 - Plants vs. Zombies
-   - Download Play feature, some achievements, and music video are removed
-   - Includes exclusive minigame
-   - Icon is animated
+   - Le Téléchargement DS, certains succès et la vidéo musicale ont été supprimés
+   - Comprend un mini-jeu exclusif
+   - L'icône est animée
 - Tetris Party Deluxe
-   - DSiWare version called "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-   - Icon is animated
+   - Version DSiWare nommée « Tetris Party Live »
+   - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
+   - L'icône est animée
 - True Swing Golf/Nintendo Touch Golf
-   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
-      - The game engine is improved
-      - Challenge mode replaces Championship Tour of the retail game
+   - Version DSiWare anglaise nommée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
+   - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
+      - Le moteur du jeu est amélioré
+      - Le mode challenge remplace le mode championnat du jeu commercial
 - WarioWare: Touched!
-   - Slot-2 features removed
+   - Fonctionnalités Slot-2 retirées
 - Zuma's Revenge!
-   - Multiplayer removed
-   - Icon is animated
+   - Multijoueur supprimé
+   - L'icône est animée
 
-Supports Wi-Fi (WPA 1/2 included):
+Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Tetris Party Live
 
-### Games that got SDK upgrades
+### Jeux qui ont reçu des mises à jour du SDK
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
@@ -83,8 +83,8 @@ Supports Wi-Fi (WPA 1/2 included):
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### DSi-Enhanced games that don't use overlays
-Total: 39, some may be missing
+### Jeux optimisés DSi qui n'utilisent pas de superpositions
+Total : 39, certains peuvent être manquants
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
 - Assassin's Creed II: Discovery
@@ -125,8 +125,8 @@ Total: 39, some may be missing
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Games that can connect with GBA titles
-Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
+### Jeux qui peuvent se connecter avec des titres GBA
+Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-dessous quelques alternatives possibles.
 
 - Advance Wars: Dual Strike
    - Advance Wars
@@ -135,7 +135,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Bleach Advance: Kurenai ni Somaru Soul Society
 - Castlevania Dawn of Sorrow
    - Castlevania Aria of Sorrow
-   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
+   - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
 - Daigasso! Band Brothers
    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power
@@ -201,7 +201,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
+   - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -216,7 +216,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
-   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
+   - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
 - Pokémon Mystery Dungeon: Blue Rescue Team
    - Pokémon Mystery Dungeon: Red Rescue Team
 - Shrek Super Slam
@@ -254,7 +254,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Games that use GBA Option Paks
+### Jeux qui utilisent des cartouches d'option GBA
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Rumble Pak
@@ -294,7 +294,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Motion Pack
    - Tony Hawk’s Motion
 
-### Games with Wii connectivity
+### Jeux avec connectivité Wii
 - Animal Crossing: Wild World -> Animal Crossing: City Folk
 - Band Hero -> Guitar Hero
 - Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
@@ -310,24 +310,24 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
-### Other (Special Games that do not fall into an above category)
+### Autres (jeux spéciaux qui n'entrent pas dans l'une des catégories ci-dessus)
 - Learn with Pokemon: Typing Adventures
-   - Cartridge has special bluetooth chip for connecting to the keyboard
+   - La carte est équipée d'une puce Bluetooth spéciale pour se connecter au clavier
 - Pokemon Heartgold/Soulsilver
-   - Cartridge has IR port for connecting to pokewalker peripheral
+   - La carte a un port IR pour se connecter au périphérique Pokéwalker
 - ElectroPlankton
-   - Cartridge has no save RAM
+   - La carte n'a pas de RAM de sauvegarde
 - DS Download Station
-   - Series of cartridges used to distribute demo games
+   - Série de cartes utilisées pour distribuer des jeux de démonstration
 - Sonic Classics Collection
-   - Genesis emulation structure has been converted into an emulator
+   - La structure d'émulation de la Mega Drive a été convertie en émulateur
 - Nitro Development Cart
-   - Has extra RAM for developing games for the DSi
+   - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
 - Personal Trainer: Walking
-   - Has twin IR based pedometers
+   - Possède deux podomètres infrarouges
 - Slide Adventure MAG KID
-   - Comes with a Slot-2 Optical Mouse
+   - Accompagné d'une souris optique Slot-2
 - Daigasso! Band Brothers
-   - Has a Slot-2 cart that added more songs
+   - Possède une cartouche Slot-2 qui a ajouté plus de chansons
 - Arkanoid
-   - Came bundled with a Slot-2 Paddle Controller
+   - Accompagné d'une manette de jeu Slot-2

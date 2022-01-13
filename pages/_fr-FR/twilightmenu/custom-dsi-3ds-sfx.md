@@ -27,12 +27,12 @@ La banque d'effets sonores contient des effets sonores tels que le son de sélec
 
 Vous pouvez ensuite exécuter `make` pour créer la banque d'effets sonores. Tous les fichiers énumérés ci-dessus, à l'exception de *bgm.pcm.raw* sont requis, mais vous pouvez les rendre silencieux.
 
-Votre *sfx.bin* résultant **doit être inférieur à 512000 octets = 512 Ko**. Toute valeur supérieure entraînera des plantages ou la perte de certains sons.
+Votre *sfx.bin* résultant **doit être inférieur à 512000 octets = 512 ko**. Toute valeur supérieure entraînera des plantages ou la perte de certains sons.
 
 ### Son de démarrage
 Alors que les autres effets sonores fonctionnent avec n'importe quel fichier WAV, le son de démarrage doit être dans un format spécifique pour fonctionner correctement, sinon il y aura un décalage entre l'arrêt du son de démarrage et le début de la musique de fond.
 
-Le fichier startup.wav doit être **16 bits 16 KHz**. Vous pouvez utiliser [Audacity](https://www.audacityteam.org/download/) par exemple pour convertir vers ce format. Une fois le fichier chargé dans Audacity, changer le **Taux du projet (Hz)** en **16000**, puis appuyez sur **Maj + M**, et modifiez le **Format** en **16 bits PCM**.
+Le fichier startup.wav doit être **16 bits 16 kHz**. Vous pouvez utiliser [Audacity](https://www.audacityteam.org/download/) par exemple pour convertir vers ce format. Une fois le fichier chargé dans Audacity, changer le **Taux du projet (Hz)** en **16000**, puis appuyez sur **Maj + M**, et modifiez le **Format** en **16 bits PCM**.
 
 Si votre fichier est en stéréo, vous devez aussi aller dans **Pistes > Mix > Mix stéréo vers mono**.
 
@@ -40,7 +40,7 @@ Vous devez définir `PlayStartupJingle=1` dans votre `theme.ini` pour que le jin
 
 
 ## Son de fond du menu
-Le menu BGM doit être un fichier PCM brut **16 bits 16 KHz mono**. Vous trouverez ci-dessous deux méthodes pour convertir des fichiers audio dans ce format.
+Le menu BGM doit être un fichier PCM brut **16 bits 16 kHz mono**. Vous trouverez ci-dessous deux méthodes pour convertir des fichiers audio dans ce format.
 
 Contrairement à sfx.bin, *bgm.pcm.raw* peut être arbitrairement grand.
 

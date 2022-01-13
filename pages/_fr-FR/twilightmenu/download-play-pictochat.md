@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: other
-title: Téléchargement DS/PictoChat dans le Menu DS Classic
+title: Téléchargement DS/PictoChat dans le menu DS Classic
 description: Comment obtenir Téléchargement DS et PictoChat dans le menu DS Classic de TWiLight Menu++
 ---
 

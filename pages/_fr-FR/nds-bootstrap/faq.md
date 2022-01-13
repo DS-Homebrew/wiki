@@ -12,7 +12,7 @@ description: FAQ et dépannage pour nds-bootstrap
 - Vérifiez [la liste de compatibilité de nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) pour savoir s'il s'agit d'un problème connu sur la dernière version de nds-bootstrap
 - Essayez avec tous les codes de triche désactivés pour ce jeu car certains ne sont pas compatibles avec nds-bootstrap pour le moment ; en appuyant sur <kbd class="l">L</kbd> dans le menu des codes de triche du jeu sur TWiLight Menu++, vous désactiverez tous les codes de triche pour ce jeu
 - Si cela fonctionnait auparavant, supprimez les dossiers `fatTable` et `patchOffsetCache` dans `sd:/_nds/nds-bootstrap/`
-- Lancez le jeu avec différents paramètres, notamment la vitesse du processeur ARM9, la lecture asynchrone de la carte, le mode DS/DSi, la qualité du son, la DMA de la carte, etc.
+- Lancez le jeu avec différents paramètres, notamment la vitesse du processeur ARM9, la lecture asynchrone de la carte, le mode DS/DSi, la qualité du son, la lecture du DMA de la carte, etc.
     - En utilisant TWiLight Menu++, changez tous les paramètres par jeu en `Défaut`
     - Si un paramètre spécifique par jeu est à l'origine de votre problème, veuillez le signaler au [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
 - Si vous avez suivi toutes les étapes ci-dessus, demandez dans le [serveur Discord](https://discord.gg/yD3spjv)
