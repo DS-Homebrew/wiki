@@ -60,7 +60,7 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Reinsert your SD card into your console
 1. Power on your console
 1. Launch FBI
-1. Navigate to `SD -> <your .cia file>`, select it, then select `Install and delete`
+1. Navigate to `SD` -> `[your .cia file]`, select it, then select `Install and delete`
 1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
 {% endcapture %}
