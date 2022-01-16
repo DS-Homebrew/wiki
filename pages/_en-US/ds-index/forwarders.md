@@ -35,13 +35,31 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
    ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Open Universal Updater from your HOME Menu
-1. Install the NDSForwarder package
-1. NDSForwarder and its required files are now set up in its respective locations
+1. Install the YANBF package
+1. YANBF and its required files are now set up in its respective locations
 
-### Part 2: NDSForwarder
-1. Open the Homebrew Launcher
-1. In the Homebrew Launcher, open `NDS Forwarder Generator`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
+### Part 2: Generating forwarder titles
+1. Power off your console
+1. Insert your SD card into your computer
+1. Install [Python 3](https://python.org/downloads) for your computer
+1. Go to [YANBF releases page](https://github.com/lifehackerhansol/YANBF/releases) and download the respective `.zip` file for your computer's OS
+1. Extract the `.zip` file you downloaded
+1. Open a terminal (or Command Prompt), then `cd` to the `generator` folder
+1. .
+    - Windows users: run `pip install -r requirements.txt`
+    - Others: run `pip3 install -r requirements.txt`
+1. For macOS users:
+    1. Open the YANBF GUI `.dmg` file
+    1. Copy your app to the `generator` folder
+1. Double click on the GUI application to open the generator
+1. Drag and drop the ROM **on your SD card** to the app
+1. Click on the Download icon
+1. Your forwarder `.cia` will be generated to a newly created `output` folder
+1. Copy the `.cia` file to your SD card
+1. Reinsert your SD card into your console
+1. Power on your console
+1. Launch FBI
+1. Navigate to `SD -> <your .cia file>`, select it, then select `Install and delete`
 1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
 {% endcapture %}
