@@ -46,14 +46,13 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Extract the `.zip` file you downloaded
 1. Open a terminal (or Command Prompt), then `cd` to the `generator` folder
 1. .
-    - Windows users: run `pip install -r requirements.txt`
+    - Windows users: run `py -3 -m pip install -r requirements.txt`
     - Others: run `pip3 install -r requirements.txt`
 1. For macOS users:
     1. Open the YANBF GUI `.dmg` file
     1. Copy the app to your Applications folder
-1. Open the GUI application
-1. Set the `Generator Directory` on the right to the `generator` folder
-1. Drag and drop the ROM **from your SD card** to the app
+1. Double click on the GUI application to open the generator
+1. Drag and drop the ROM **on your SD card** to the app
 1. Click on the Download icon
 1. Your forwarder `.cia` will be generated to a newly created `output` folder
 1. Copy the `.cia` file to your SD card
