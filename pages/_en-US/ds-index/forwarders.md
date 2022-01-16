@@ -41,7 +41,7 @@ If you already have Universal Updater installed on your console, you can skip to
 ### Part 2: Generating forwarder titles
 1. Power off your console
 1. Insert your SD card into your computer
-1. Install [Python 3](https://python.org/downloads) for your computer
+1. Install [Python 3.6+](https://python.org/downloads) for your computer
 1. Go to [YANBF releases page](https://github.com/lifehackerhansol/YANBF/releases) and download the respective `.zip` file for your computer's OS
 1. Extract the `.zip` file you downloaded
 1. Open a terminal (or Command Prompt), then `cd` to the `generator` folder
