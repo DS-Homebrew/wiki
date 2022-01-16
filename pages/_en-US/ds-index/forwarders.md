@@ -53,7 +53,7 @@ If you already have Universal Updater installed on your console, you can skip to
     1. Copy the app to your Applications folder
 1. Open the GUI application
 1. Set the `Generator Directory` on the right to the `generator` folder
-1. Drag and drop the ROM **on your SD card** to the app
+1. Drag and drop the ROM **from your SD card** to the app
 1. Click on the Download icon
 1. Your forwarder `.cia` will be generated to a newly created `output` folder
 1. Copy the `.cia` file to your SD card
