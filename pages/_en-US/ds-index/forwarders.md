@@ -80,7 +80,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
-1. Press (A) on `Install`
+1. Press <kbd class="face">A</kbd> on `Install`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
 1. After it is installed, your game will now appear as a title on your hiyaCFW DSi menu
 
