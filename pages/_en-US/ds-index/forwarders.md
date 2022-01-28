@@ -82,7 +82,7 @@ If you already have TWiLight Menu++, skip to the next section.
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
 1. Press <kbd class="face">A</kbd> on `Install`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
-1. After it is installed, your game will now appear as a title on your hiyaCFW DSi menu
+1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
 
 {% endcapture %}
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
