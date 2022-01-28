@@ -52,7 +52,7 @@ If you already have Universal Updater installed on your console, you can skip to
 ### Requirements
 
 - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](../hiyacfw/installing) installed
-- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases)
+- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.dsi)
 
 ### Part 1: Getting started
 1. Copy `NDSForwarder.dsi` to your SD card root
