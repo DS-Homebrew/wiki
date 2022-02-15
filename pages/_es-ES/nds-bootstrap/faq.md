@@ -2,35 +2,35 @@
 lang: es-ES
 layout: faq
 section: nds-bootstrap
-title: FAQ & Troubleshooting
+title: FAQ y solución de problemas
 long_title: nds-bootstrap FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
-#### I'm having issues with my ROM(s), what should I do?
+#### Tengo problemas con mi(s) ROM(s), ¿qué debo hacer?
 - Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
-- Check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest nds-bootstrap
+- Compruebe [la lista de compatibilidad de nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) para ver si se trata de un problema conocido en la última versión de nds-bootstrap
 - Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on TWiLight Menu++ will disable all cheats for it
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
-- Run the game with different settings, this includes ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
-    - Using TWiLight Menu++, change all the per-game settings to `Default`
+- Si antes funcionaba, borra las carpetas `fatTable` y `patchOffsetCache` en `sd:/_nds/nds-bootstrap/`
+- Ejecuta el juego usando configuraciones distintas, como cambiar la velocidad de la CPU ARM9, el Modo DS/DSi, la calidad del sonido, lectura DMA, etc
+    - Usando TWiLight Menu++, cambie todos los ajustes individuales por juego a `Por defecto`
     - If there is a specific per-game setting that causes your issue, please report this to the [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
-- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
+- Si has seguido todos los pasos anteriores, pregunta en el [servidor de Discord](https://discord.gg/yD3spjv)
 - If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on Github
     - Check the closed issues too in case there has already been an issue closed in preference a different one.
     - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-- If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
+- Si no se ha encontrado ninguna solución hasta el momento, por favor, actualice la [lista de compatibilidad](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
 #### Why are there issues with ROM loading, even though they're run natively?
 nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
 
-#### Why use nds-bootstrap over a regular flashcard?
+#### ¿Por qué usar nds-bootstrap en vez de un flashcard?
 - Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal Game Cards
 - Puedes expandir el bus de la memoria VRAM a 32-bit
 - Usa la velocidad de CPU adicional de la DSi, que permite mejor rendimiento en algunos juegos
 - Mejora tu audio a 48 kHz
 - Usa el Modo DSi, permitiendo utilizar funciones de DSi
-- Using certain Game Cards, you are able to use IR in your application
+- Utilizando ciertas tarjetas de juego, puede utilizar IR en su aplicación
 - nds-bootstrap es de código abierto, por lo que los desarrolladores siempre pueden actualizarlo para arreglar errores y añadir más cosas incluso si se abandona el proyecto
 - Se emula el DS Memory Expansion Pak, por lo que los juegos que lo necesiten funcionarán
 - Intercambia ambas pantallas en juegos compatibles para una mejor experiencia de juego o en consolas con una pantalla rota o quitada
@@ -51,15 +51,15 @@ If you own a 3DS console though, it is preferable to dump the DS WiFi Settings R
 #### Why can't I set a Donor ROM?
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
-#### What is a nightly and where do I get it?
+#### ¿Qué es una versión Nightly y dónde la consigo?
 A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Why do my cheats not work?
+#### ¿Por qué no funcionan mis trucos?
 The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
 
 For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
-#### How do I take screenshots?
+#### ¿Cómo hago capturas de pantalla?
 You can take screenshots of the main screen from the in-game menu. By default the in-game menu is opened by pressing <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>, then select `Screenshot...`, change the VRAM bank if needed, and press <kbd class="face">A</kbd> to save the screenshot.
 
 To view your screenshots on your PC you will need to extract `sd:/_nds/nds-bootstrap/screenshots.tar`, inside will be all of your screenshots in BMP format. There will also be additional empty BMP files to pad the TAR file out to 50, these can simply be ignored or deleted.
@@ -74,13 +74,13 @@ The reason screenshots can only be taken of the main screen is a hardware limita
 #### What is the "VRAM bank" I'm asked to select when taking a screenshot?
 When taking a screenshot using nds-bootstrap it needs to use the DS's display capture feature to capture a frame from the main engine, however this display capture can only write to VRAM and requires one of the first four banks. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
 
-#### Can I play games online using nds-bootstrap?
-Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
-- If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
+#### ¿Puedo jugar en línea con nds-bootstrap?
+Jugar en línea con nds-bootstrap funcionará exactamente como lo hace con cartuchos de juegos reales. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
+- Si estás jugando a un juego DSi-Enhanced en modo DS, estás restringido a conexiones de red sin clave o WEP
 
-#### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+#### ¿Puede dañar mi consola configurar un juego para que utilice una velocidad de CPU de 133 MHz (TWL)?
+No. Aunque no todos los juegos pueden funcionar correctamente bajo esta configuración, el DSi y la 3DS fueron diseñados para poder alcanzar esta velocidad de CPU.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [TWiLight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
-#### Can I speed up games using nds-bootstrap?
-While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
+#### ¿Puedo acelerar los juegos usando nds-bootstrap?
+Aunque la velocidad de la CPU de TWL puede reducir el lag, nds-bootstrap no puede ejecutar juegos a velocidades más rápidas que las previstas.

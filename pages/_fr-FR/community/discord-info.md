@@ -94,7 +94,7 @@ Ces rôles sont donnés par le [bot Lightning](https://lightning-bot.gitlab.io/)
 - Translators - Toute personne souhaitant être informée des contributions aux traductions de divers projets DS-Homebrew
 
 ## Le staff
-Ce sont les personnes qui gèrent le serveur. S'ils disent que quelque chose est définitif, il n'y a pas de débat possible. Ces membres sont en haut de la liste des membres. Actuellement, nous ne recherchons pas de nouveaux membres pour rejoindre le staff. Ne demandez pas à faire partie de l'équipe, car cela diminuerait vos chances d'être accepté.
+Ce sont les personnes qui gèrent le serveur. Si elles disent que quelque chose est définitif, il n'y a pas de débat possible. Ces membres sont en haut de la liste des membres. Actuellement, nous ne recherchons pas de nouveaux membres pour rejoindre le staff. Ne demandez pas à faire partie de l'équipe, car cela diminuerait vos chances d'être accepté.
 
 Propriétaire : shutterbug2000#8835
 

@@ -16,9 +16,9 @@ Always remember to check the channel topic and pins before talking in a channel.
 {:.alert .alert-info}
 
 **Important**
-- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](https://wiki.ds-homebrew.com/community/discord-rules) on the wiki
-- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server such as other servers or this wiki
-- [#member-logs][member-logs] - Shows user joins and server boosts
+- [#info-and-rules][info-and-rules] - Proporciona una breve información sobre las reglas e información del servidor. Para obtener información más detallada sobre las reglas, consulte [la página de reglas](https://wiki.ds-homebrew.com/community/discord-rules) en la wiki
+- [#useful-resources][useful-resources] - Enlaces a recursos útiles que están fuera del servidor de Discord como otros servidores o esta wiki
+- [#member-logs][member-logs] - Muestra los usuarios que se han unido y las mejoras del servidor
 
 **Server Hub**
 - [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server

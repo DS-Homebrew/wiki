@@ -7,49 +7,49 @@ title: DS Game Forwarders
 description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
 tabs:
   - 
-    tab-3ds-sd-card: 3DS SD card
-    tab-dsi-sd-card: DSi SD card
+    tab-3ds-sd-card: Tarjeta SD de 3DS
+    tab-dsi-sd-card: Tarjeta SD de DSi
     tab-flashcard: Flashcard
 ---
 
 Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
-DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
+Los juegos de DS deben ser extraídos a un formato digital `.nds`. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
 {:.alert .alert-info}
 
-If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+Si tienes algún problema, echa un vistazo al [hilo de GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-Choose one of the following to add to the HOME menu:
+Elija una de las siguientes opciones para añadir al menú HOME:
 
 {% capture tab-3ds-sd-card %}
 
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### Parte 1: Obtener los archivos necesarios
 
-If you already have Universal Updater installed on your console, you can skip to step 3.
+Si ya tienes instalado Universal Updater en tu consola, puedes saltar al paso 3.
 {:.alert .alert-info}
 
-1. Open FBI and select `Remote Install`, then `Scan QR Code`
-1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
-1. Open Universal Updater from your HOME Menu
-1. Install the NDSForwarder package
-1. NDSForwarder and its required files are now set up in its respective locations
+1. Abre FBI y selecciona `Remote Install`, después `Scan QR Code`
+1. Escanea el código QR para instalar la última versión de [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Abre Universal Updater desde su menú HOME
+1. Instale el paquete NDSForwarder
+1. NDSForwarder y sus archivos requeridos ahora están configurados en sus respectivas ubicaciones
 
-### Part 2: NDSForwarder
-1. Open the Homebrew Launcher
-1. In the Homebrew Launcher, open `NDS Forwarder Generator`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
-1. Confirm you wish to install by selecting `Yes`
-1. After it is installed, your game will now appear as a title on your HOME menu
+### Parte 2: NDSForwarder
+1. Abre el Homebrew Launcher
+1. En el Homebrew Launcher, abre `NDS Forwarder Generator`
+1. Vaya a la ubicación de su juego y presione <kbd class="face">A</kbd>
+1. Confirme que desea instalarlo seleccionando `Sí`
+1. Después de que esté instalado, tu juego aparecerá ahora como un título en tu menú HOME
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
 {% capture tab-dsi-sd-card %}
 
-### Requirements
+### Requisitos
 
 - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](../hiyacfw/installing) installed
 - The latest release of [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases)

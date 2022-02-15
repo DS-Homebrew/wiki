@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: community
-title: Community
-description: Information about the DS-Homebrew community
+title: コミュニティ
+description: DS-Homebrewコミュニティに関する情報
 ---
 
-You can find information about our community here, such as the rules for our Discord server. We have the following places:
+ここでは、Discordサーバーのルールなど、コミュニティに関する情報を見ることができます。 次のような場所があります。
 - Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- ウェブサイト: [ds-homebrew.com](https://ds-homebrew.com)

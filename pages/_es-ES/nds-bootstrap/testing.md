@@ -2,7 +2,7 @@
 lang: es-ES
 layout: wiki
 section: nds-bootstrap
-title: Compatibility List & Testing Tips
+title: Lista de Compatibilidad y Consejos de Testeo
 description: Compatibility list and tips for testing ROMs
 ---
 
@@ -11,7 +11,7 @@ To view tested ROMs, check the [compatibility list](https://docs.google.com/spre
 
 To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
 
-### Tips For Testing ROMs
+### Consejos para testear juegos
 - In general, look through the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) and [glossary](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) to make sure that you understand how to troubleshoot issues
 
 #### If testing for a specific reported bug
