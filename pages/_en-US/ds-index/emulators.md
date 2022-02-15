@@ -35,7 +35,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
-| SNES[^7]                | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                           |
+| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
 {:.table}
 
@@ -45,8 +45,6 @@ There are many emulators present for the DS and DSi. This page provides a compre
 [^4]: When running in DSi Mode, it can use the DSP for better sound
 [^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
 [^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^7]: Only shown when using a flashcard, 3DS's internal SD card, or DSi with Unlaunch installed
-[^8]: Can only save when running from a flashcard
 
 - Footnotes -
 {:footnotes}
@@ -61,8 +59,8 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ## Notes on specific emulators
 ### RAM Disks
-- In order for **jEnesisDS**, **neoDS** and **SNEmulDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-   - RAM disk makers exist for jEnesisDS & SNEmulDS and are built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
+- In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+   - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
    - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
 
 ### Comparison between PicoDriveTWL and jEnesisDS
@@ -106,7 +104,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
