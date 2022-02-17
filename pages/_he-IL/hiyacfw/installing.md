@@ -75,5 +75,5 @@ tabs:
 1. החזיקו <kbd>SELECT</kbd> בזמן שאתם מדליקים את הNintendo DSi שלכם בשביל לגשת להגדרות של hiyaCFW
 1. שנו את ההגדרות לפי רצונכם, ולחצו על <kbd>START</kbd> בשביל להמשיך
 
-אם זה מראה `An error has occurred`, בבקשה עקבו אחרי העמוד [פתרון בעיות](troubleshooting#an-error-has-occurred).
+If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
 {: .alert .alert-warning}

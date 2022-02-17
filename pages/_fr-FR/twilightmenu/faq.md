@@ -51,9 +51,8 @@ Oui, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/r
 
 #### Comment changer la langue de TWiLight Menu++ ?
 1. Ouvrez les paramètres de TWiLight Menu++, vous pouvez le faire en maintenant <kbd>SELECT</kbd> tout en chargeant TWiLight Menu++
-1. Appuyez sur <kbd class="l">L</kbd> ou <kbd class="face">Y</kbd> une fois (sur linker/3DS) ou deux fois (sur DSi)
 1. Modifiez la première option jusqu'à ce que la langue souhaitée apparaisse, puis quittez les paramètres
-   - Vous pouvez également modifier les deux options suivantes, car elles contrôlent la langue des jeux DS et de leurs titres dans TWiLight Menu++
+   - Vous pouvez également modifier les trois premières options de la page des paramètres de nds-bootstrap, car elles contrôlent la langue et la région des jeux DS et leurs titres dans TWiLight Menu++
 
 #### Est-ce un émulateur DS(i) ?
 Non, ce n'est pas un émulateur. Le menu et les jeux DS (chargés via nds-bootstrap) sont exécutés nativement dans le mode DS/DSi de la console. Les seules consoles émulées sont les anciennes consoles, mais partiellement pour la GBA (car certaines ou toutes les parties comme les graphiques sont exécutées de manière native).
@@ -69,9 +68,8 @@ Il y a de multiples raisons pour lesquelles vous ne parvenez pas à les trouver.
 - Si vous avez placé vos jeux dans le dossier `_nds` , vous ne pouvez pas y accéder car il est invisible en permanence dans TWiLight Menu++. Veuillez les déplacer vers un autre emplacement sur la carte SD
 - Si vous avez plus de 39 éléments dans un dossier et que tous les emplacements du menu sont occupés, vos jeux peuvent se trouver sur la page suivante. Utilisez <kbd class="l">L</kbd>/<kbd class="r">R</kbd> ou <kbd>SELECT</kbd> + <kbd>Gauche</kbd>/<kbd>Droite</kbd> pour changer de page
 - Si votre jeu ou votre dossier est caché, vous devrez peut-être afficher les fichiers cachés via les paramètres de l'interface graphique de TWiLight Menu++
-- Si le type de jeu est configuré pour être caché dans les paramètres d'émulation/HB, il n'apparaîtra pas dans les menus. Modifiez ces paramètres pour qu'ils soient affichés
 - Si votre jeu est dans une archive (`zip`, `rar`, `7z`, etc), il ne pourra pas être utilisé par TWiLight Menu++. Extrayez le jeu de l'archive pour l'utiliser
-- Si votre jeu n'utilise pas l'une des [extensions supportées](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), vous devrez peut-être modifier l'extension en renommant le fichier
+- Si votre jeu n'utilise pas l'une des extensions [supportées](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), vous devrez peut-être changer l'extension en renommant le fichier
 
 #### Comment accéder aux paramètres de TWiLight Menu++ ?
 La manière d'accéder aux paramètres de TWiLight Menu++ varie selon votre configuration.

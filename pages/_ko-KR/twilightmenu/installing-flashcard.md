@@ -40,12 +40,15 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
    - M3 DS Real
-   - M3i Zero (GMP-Z003가 아닌 모델)
-   - DSONE SDHC & DSONEi
+   - M3i Zero (non-GMP-Z003 model)
+   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
+   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
+   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
-   [RetroGameFan의 YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)를 설치해 주세요.
-      - Flashcard의 microSD카드 루트에 `YSMenu.nds` (`TTMenu.dat`에서 이름을 변경해도 됨)과 `TTMenu`가 있는 것을 확인해 주세요.
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. `nds-bootstrap 사용`을 `비활성화`로 설정해서 nds-bootstrap 대신 Flashcard 펌웨어를 쓰도록 합니다.
 
 ### TWiLight Menu++ 자동 부팅하기

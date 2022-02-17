@@ -40,12 +40,15 @@ Ten en cuenta que no todas las flashcards soportan correr juegos de esta forma. 
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
    - M3 DS Real
-   - M3i Zero (excepto modelo GMP-Z003)
-   - DSONE SDHC & DSONEi
+   - M3i Zero (non-GMP-Z003 model)
+   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
+   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
+   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
-   Instala [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Asegúrate que tienes `YSMenu.nds` (renombrado de `TTMenu.dat` si no hay uno) y la carpeta `TTMenu` en la raíz de la microSD de la flashcard
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
 1. Pon `Use nds-bootstrap` a `No` para usar el firmware de la flashcard en vez de nds-bootstrap
 
 ### Iniciar automáticamente TWiLight Menu++

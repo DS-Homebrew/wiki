@@ -40,9 +40,12 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHCとDSONEi（非SDHCモデルは**サポートされていません**)
    - M3 DS Real
-   - M3i Zero (GMP-Z003以外のモデル)
-   - DSONE SDHC & DSONEi
+   - M3i Zero (非GMP-Z003のモデル)
+   - iTouchDSとiTouch2（M3Real_M3iZeroのYSMenuファイルを使用）
+   - R4(i)RTS (r4rts.com)（M3Real_M3iZeroのYSMenuファイルを使用）
+   - R4 SDHC RTS（黒いカートリッジ）（4isdhc.com）（M3Real_M3iZeroのYSMenuファイルを使用）
 
    [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
       - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更）と`TTMenu`フォルダがあることを確認します

@@ -52,17 +52,13 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 ### Követelmények
 
 - Egy Nintendo DSi telepített [Unlaunch,](https://dsi.cfw.guide/installing-unlaunch) és [hiyaCFW](../hiyacfw/installing) alkalmazásokkal
-- A [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases) legutolsó kiadása
-- Egy 64 bites OS
-- A [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0) legutolsó kiadása
-- [Java 8](https://www.java.com/en/download/)
-- **Linux felhasználók:** JavaFX
-   - Debian alapú rendszereken futtasd [ezt a scriptet](https://gist.githubusercontent.com/puntillol59/7532b653380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
-   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
+- A [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.dsi) legutolsó kiadása
 
 ### 1. rész: Kezdeti lépések
+1. Másold az `NDSForwarder.dsi` fájlt az SD kártyád gyökerébe
+   - Ez opcionálisan telepíthető a hiyaCFW-be közvetlenül a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip) használatával
 1. Töltsd le a [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)-ot
-1. Csomagold ki a `for SD card root` mappa tartalmát a DSi SD kártyájának gyökerébe és (ha a mappa létezik)
+1. Csomagold ki a `for SD Card root` mappa tartalmát a DSi SD kártyájának gyökerébe
 
 Miután kicsomagoltad a csomagot a kártyádra, szerkesztheted az `sd:/_nds/bootstrap.ini` fájlt és módosítsa a következő beállításokat.
 - BOOST_CPU: Ha 1-re állított, akkor a, TWL órajel sebesség kerül felhasználásra, így a lag-ok megszünnek
@@ -76,30 +72,17 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
-1. A 7z fájlban menj az `_nds/TWiLightMenu/extras` könyvtárba
+1. A `7z` fájlban menj az `_nds/TWiLightMenu/extras` könyvtárba
 1. Húzd az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába a 3DS-ed SD kártyájára
 
-### 3. rész: Forwarder3-DS
-1. Nyisd meg a `Forwarder3DS.jar`-t
-   - **Windows felhasználók:** ha nem nyílik meg, töltsd le ezt a [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat)-ot, rakd a Forwarder3DS.jar-ral egy könyvtárba, majd futtasd
-1. Állítsd be a kártyád, mint `Target` a bal oldalon
-   - **MEGJEGYZÉS:** Ha nem látod a kártyák listáját, töltsd le [ez a zip fájlt](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), és rakd a `forwarders` mappát ugyanabba a mappába, ahol a Forwarder3DS.jar található, majd nevezd át `.forwarders` névre
-1. Kapcsold be az `Automatically set ROM path` opciót
-   - **Linux felhasználók:** Az automatikus útvonal hibás, mert tartalmazza a teljes útvonalat (pl. `/media/$USER/something/`), kérjük távolítsd el azt a részt
-   - **MacOS felhasználók:** Az automatikus útvonal hibás, mert tartalmazza `/Volumes/(cardname)/` részt az elején, kérjük távolítsd el azt a részt
-1. Kattints a mappára jobb oldalt felül, majd válaszd ki a ROM-okat, amikhez forwareder-t szeretnél, és húzd rá őket az ablakra
-   - **MEGJEGYZÉS:** A ROM-oknak már az SD kártyádon kell lenniük, amikor kiválasztod, és nem mozgathatók a forwarderek újra létrehozása nélkül
-   - Ha a mentés fájlod ugyanabban a mappában van, mint a ROM, mozgasd egy `saves` mappába, ahol a `saves` mappa, ami mappa ugyanott van, mint ahol a ROM-ok
-1. Ha egy DSi-Enhanced játék hack-et/fordítást játszol és aminek a bannere/címe szerkesztett, keresd meg a játék bannerját [itt](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kattints jobb gombbal a játékon a Forwarder3-DS-ben, majd kattints az `Import banner`-ra, és válaszd ki a banner-t ami használni szeretnél
-1. Ha homebrew ROM-ot használsz, kattints rá, majd töröld a `Game title` mezőt, és írd be a játék címét
-1. Kattints a floppy lemez ikonra, hogy legeneráld a forwardert
-1. Másold az NDS fájlt amit az alkalmazás létre hozott a DSi SD kártyára
-
-### 4. rész: A hiyaCFW DSi Menu telepítése
-1. Másold át a `tmfh.nds` fájlt a TMFH `.zip` fájlból az SD kártyád gyökerébe
-1. Helyezd vissza az SD kártyát a DSi-dbe
-1. Indítsd el a `tmfh.nds`-t az Unlaunch-ből vagy a TWiLight Menu++-on keresztül
-1. Telepítsd a forwarder NDS fájlt a TMFH használatával
+### 3. rész: NDSForwarder-DSi
+1. Tedd vissza az SD kártyád a készülékedbe
+1. Tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, majd kapcsold be az eszközöd az Unlaunch-e bootoláshoz
+1. Indítsd el az `NDSForwarder.dsi`-t
+   - Ha a `nitroFSInit() fail` üzenetet kapod, próbáld meg a TWiLight Menu++ használatát az inításhoz vagy rakd az `NDSForwarder.dsi`-t az SD kártyád gyökerébe
+1. Nyomj <kbd class="face">A</kbd> gombot az `Install`-on
+1. Navigálj a játék lokációjára és nyomj <kbd class="face">A</kbd> gombot
+1. Miután telepítetted, a játék megjelenik, mint cím a hiyaCFW DSi Menüdben
 
 {% endcapture %}
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
@@ -178,7 +161,7 @@ Inkompatibilis:
 1. Töltsd le valamelyikét az alábbi csomagoknak:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
-   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC frissítés / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
+   - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
    - [Acekard RPG](https://drive.google.com/file/d/0B2_1xHkEp2_6OHVuZEJwU1BKbEU/view?usp=sharing)
    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
@@ -201,7 +184,7 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
 
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
 1. A 7z fájlban menj az `_nds/TWiLightMenu/extras` könyvtárba
-1. Húzd az `apfix` mappát az `fat:/_nds/ntr-forwarder/` mappába a 3DS-ed SD kártyájára
+1. Húzd az `apfix.pck` fájlt az `fat:/_nds/ntr-forwarder/` mappába
 
 ### 3. rész: Forwarder3-DS
 1. Nyisd meg a `Forwarder3DS.jar`-t
@@ -211,7 +194,7 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
 1. Kapcsold be az `Automatically set ROM path` opciót
    - **Linux felhasználók:** Az automatikus útvonal hibás, mert tartalmazza a teljes útvonalat (pl. `/media/$USER/something/`), kérjük távolítsd el azt a részt
    - **MacOS felhasználók:** Az automatikus útvonal hibás, mert tartalmazza `/Volumes/(cardname)/` részt az elején, kérjük távolítsd el azt a részt
-1. Kattints a mappára jobb oldalt felül, majd válaszd ki a ROM-okat, amikhez forwareder-t szeretnél, és húzd rá őket az ablakra
+1. Kattints a mappára jobb oldalt felül, majd válaszd ki a ROM-okat, amikhez forwarder-t szeretnél, és húzd rá őket az ablakra
    - **MEGJEGYZÉS:** A ROM-oknak már az SD kártyádon kell lenniük, amikor kiválasztod, és nem mozgathatók a forwarderek újra létrehozása nélkül
 1. Ha egy DSi-Enhanced játék hack-et/fordítást játszol és aminek a bannere/címe szerkesztett, keresd meg a játék bannerját [itt](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), kattints jobb gombbal a játékon a Forwarder3-DS-ben, majd kattints az `Import banner`-ra, és válaszd ki a banner-t ami használni szeretnél
 1. Ha homebrew ROM-ot használsz, kattintsd rá, majd töröld a `Game title` mezőt, és írd be a játék címét

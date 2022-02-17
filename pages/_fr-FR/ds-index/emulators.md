@@ -35,7 +35,7 @@ Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une e
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                          |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]              | `.sg`                                  |                                                          |
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                          |
-| SNES[^7]                | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[nom de la ROM].srm`[^8]                                |
+| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom name].srm`                                         |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                                      |
 {:.table}
 
@@ -52,8 +52,8 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 
 ## Notes sur les émulateurs spécifiques
 ### Disques RAM
-- Pour que **jEnesisDS**, **neoDS** et **SNEmulDS** fonctionnent sur la carte SD de la DSi, vous aurez besoin d'utiliser un disque RAM avec nds-bootstrap
-   - Les créateurs de disques RAM existent pour jEnesisDS et SNEmulDS, et sont intégrés dans TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
+- In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+   - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
    - La raison pour laquelle les disques RAM sont utilisés est que les hooks ARM7 de ces émulateurs ne fonctionnent pas correctement
 
 ### Comparaison entre PicoDriveTWL et jEnesisDS
@@ -88,8 +88,6 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 [^4]: Lorsqu'il fonctionne en mode DSi, il peut utiliser le DSP pour un meilleur son
 [^5]: Requiert un linker Slot-2 et ne fonctionne donc que sur DS Tank et DS Lite
 [^6]: jEnesis ne peut sauvegarder que lorsqu'il fonctionne à partir d'un linker, mais PicoDriveTWL peut sauvegarder à partir d'une SD et d'un linker
-[^7]: Affiché uniquement lors de l'utilisation d'un linker, de la carte SD interne de la 3DS ou de la DSi avec Unlaunch installé
-[^8]: Peut seulement sauvegarder quand il est exécuté à partir d'un linker
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -106,7 +104,7 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

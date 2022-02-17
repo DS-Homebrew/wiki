@@ -35,7 +35,7 @@ Hay diferentes emuladores disponibles para DS y DSi. Esta página ofrece una exp
 | Rocket Video            | [Rocket Video Player][rvidplayer]                      | `.rvid`                                |                                                                |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]                     | `.sg`                                  |                                                                |
 | Sord M5                 | [ColecoDS][colecods]                                   | `.m5`                                  |                                                                |
-| SNES[^7]                | [SNEmulDS][snemulds]                                   | `.smc`, `.sfc`                         | `[nombre de la ROM].srm`[^8]                                   |
+| SNES                    | [SNEmulDS][snemulds]                                   | `.smc`, `.sfc`                         | `[rom name].srm`                                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                                 | `.ws`, `.wsc`                          | ???                                                            |
 {:.table}
 
@@ -52,8 +52,8 @@ Estos son los emuladores recomendados y lanzadores que están presentes en TWiLi
 
 ## Observaciones sobre emuladores específicos
 ### Discos RAM
-- Para que **jEnesisDS**, **neoDS** y **SNEmulDS** funcionen en la tarjeta SD de una DSi, tendrás que utilizar un disco RAM con nds-bootstrap.
-   - Existen creadores de discos RAM para jEnesisDS y SNEmulDS, y están incluidos dentro de TWiLight Menu++. Necesitarás crear tu propio disco RAM para neoDS. Consulte [Crear discos RAM](../twilightmenu/creating-ram-disks) para más ayuda.
+- In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+   - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. Necesitarás crear tu propio disco RAM para neoDS. Consulte [Crear discos RAM](../twilightmenu/creating-ram-disks) para más ayuda.
    - Se utilizan discos RAM debido a que los interceptores ARM7 (hooks) de estos emuladores no funcionan correctamente.
 
 ### Comparación entre PicoDriveTWL y jEnesisDS
@@ -88,8 +88,6 @@ Estos son los emuladores recomendados y lanzadores que están presentes en TWiLi
 [^4]: Cuando corre en modo DSi, puede utilizar el DSP para un mejor sonido
 [^5]: Necesita una flashcart Slot-2, por lo tanto sólo funciona en consolas DS y DS Lite
 [^6]: jEnesisDS sólo puede guardar cuando corre en una flashcard, pero PicoDriveTWL puede guardar en la SD y la flashcard
-[^7]: Sólo se muestra mientras se utiliza una flashcard, la tarjeta SD de una 3DS, o una DSi con Unlaunch instalado
-[^8]: Sólo puede guardar mientras corre en una flashcard
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -106,7 +104,7 @@ Estos son los emuladores recomendados y lanzadores que están presentes en TWiLi
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

@@ -34,3 +34,23 @@ Vous pouvez également entrer manuellement un chemin d'accès à tout fichier de
 Vous pouvez changer la police de GodMode9i en sélectionnant un fichier de police `.frf` et en choisissant `Charger la police`. Pour définir une police différente en tant que police par défaut, placez-la à `sd:/gm9i/font.frf` ou modifiez le fichier de configuration (`sd:/gm9i/config.ini`) pour définir le `FONT_PATH` à l'endroit où se trouve votre fichier de police.
 
 Vous pouvez trouver quelques polices préconverties dans le [dossier resources](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) du dépôt GitHub et vous pouvez convertir les vôtres à partir d'une image PBM et d'un fichier TXT contenant les mappages Unicode en utilisant le script [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) de GodMode9.
+
+#### How do I dump DS Saves using GBA save data?
+GodMode9i is able to use the save data of GBA cartridges to dump the saves of most DS Game Cards. ROM files and save files over 1 MiB cannot be dumped this way as the files are impractically large. This can also be done using Haxxstation instead of a DS flashcard if you have another way to dump the GBA save files, they can then be recombined and decompressed on a computer.
+
+1. Load GodMode9i on your flashcard
+1. Backup your GBA saves!!
+   - Any save data that hasn't been backed up will be lost
+   - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
+1. On the drive menu, press <kbd class="r">R</kbd> + <kbd class="face">B</kbd> to unmount the flashcard
+1. Eject the flashcard, insert a DS Game Card and GBA cartridge
+1. Select `NDS GAMECARD` then `Save`
+1. When asked, press <kbd class="face">A</kbd> to write the data to the GBA cart
+   - Swap to different GBA cartridges and repeat until the whole save is copied
+1. Reboot your DS with your Slot-1 flashcard back in and reopen GodMode9i
+1. Insert the first GBA cartridge you used and select `GBA GAMECART`
+1. Choose `DS Save`
+1. Swap through all the carts you dumped onto
+1. Your DS save will now be in `fat:/gm9i/out`, you can now restore your backed up GBA save files to their original cartridges
+
+If you want to write the save file back onto the Game Card, simply select the `.sav` file and choose `Restore save (Slot-1)`, then swap out your flashcard for the DS Game Card when prompted.

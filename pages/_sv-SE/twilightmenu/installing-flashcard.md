@@ -40,9 +40,12 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
    - M3 DS Real
    - M3i Zero (non-GMP-Z003 model)
-   - DSONE SDHC & DSONEi
+   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
+   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
+   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root

@@ -75,5 +75,5 @@ Program hiyaCFW Helper jest znany z tego, że powoduje fałszywe wyniki w Window
 1. Przytrzymaj <kbd>SELECT</kbd> podczas włączania swojej konsoli Nintendo DSi, aby zdobyć dostęp do ustawień hiyaCFW
 1. Zmień ustawienia jak ci się żywnie podoba, a następnie naciśnij <kbd>START</kbd> aby kontynuować
 
-Jeśli wyświetli się `Wystąpił błąd`, zobacz stronę [troubleshooting](troubleshooting#an-error-has-occurred).
+If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
 {: .alert .alert-warning}

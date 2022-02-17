@@ -35,7 +35,7 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]              | `.sg`                                  |                                                |
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                |
-| SNES[^7]                | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`[^8]                           |
+| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                            |
 {:.table}
 
@@ -52,8 +52,8 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 
 ## Megjegyzések bizonyos emulátorokhoz
 ### RAM Disk-ek
-- A **jEnesisDS**, **neoDS** és az **SNEmulDS** működéséhez DSi SD kártyáról RAM disket kell használni az nds-bootstrap-hez
-   - RAM disk készítők léteznek a jEnesisDS & SNEmulDS emulátorokhoz és beépítettek a TWiLight Menu++-ba. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
+- A **jEnesisDS** vagy **neoDS** működéséhez DSi SD kártyáról RAM disket kell használnod az nds-bootstrap-pel
+   - RAM disk készítő a jEnesisDS beépített a TWiLight Menu++-ba. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
    - Az ok, amiért a RAM disk-ek használtak, az, hogy ezen emulátorok ARM7 hook-jai nem működnek megfelelően
 
 ### A PicoDriveTWL és a jEnesisDS összehasonlítása
@@ -88,8 +88,6 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [^4]: Ha DSi módban fut, használni tudja a DSP-t a jobb hanghoz
 [^5]: Egy Slot-2 flashcard-ot igényel, így csak DS Phat-on és DS Lite-on működik
 [^6]: A jEnesis csak akkor tud menteni, ha flashcard-ról fut, de a PicoDriveTWL tud menteni SD kártyáról és flashcard-ról futtatás esetén is
-[^7]: Csak flashcard használatakor, 3DS belső SD használatakor, vagy DSi esetében telepített Unlaunch esetén jelenik meg
-[^8]: Csak akkor tud menteni, ha flashcard-ról fut
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -106,7 +104,7 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

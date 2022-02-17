@@ -12,6 +12,7 @@ A [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) egy open source fájl b
 
 A játékok dumpolásához válaszd ki a meghajtót a meghajtó listában és kövesd a képernyőn megjelenő utasításokat.
 - A Nintendo DS és Nintendo DS Lite konzolon a GodMode9i tud dumpolni Slot-2 cartridge-eket, ha Slot-1 flashcard-ról fut, vagy Slot-1 játék kártyákat, ha a GodMode9i egy Slot-2 flashcard-ról fut
+   - A mentési fájlok dumpolhatók GBA cartridge-k használatával is, tekintsd meg a [GYIK](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data)-ot további információkért
 - A Nintendo DSi rendszer családban Unlaunch szükséges a Slot-1 játékok SD kártyára dumpolásához
    - Kövesd a [dsi.cfw.guide](https://dsi.cfw.guide/) útmutató lépéseit az Unlaunch telepítéséről
 - A Nintendo 3DS rendszer családban egy modern CFW környezet szükséges a GodMode9i indításához

@@ -52,17 +52,13 @@ If you already have Universal Updater installed on your console, you can skip to
 ### Krav
 
 - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](../hiyacfw/installing) installed
-- The latest release of [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases)
-- A 64-bit OS
-- The latest release of [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
-- [Java 8](https://www.java.com/en/download/)
-- **Linux users:** JavaFX
-   - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
-   - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
+- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.dsi)
 
 ### Del 1: Komma igång
+1. Copy `NDSForwarder.dsi` to your SD card root
+   - This can optionally be installed to hiyaCFW directly using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
 1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
-1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card, and (if the folder exists)
+1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
 After you extract the pack for your card, you can edit `sd:/_nds/nds-bootstrap.ini` and change the following settings.
 - BOOST_CPU: If set to 1, TWL clock speed is used, so lags begone
@@ -76,30 +72,17 @@ If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
+1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
-### Del 3: Forwarder3-DS
-1. Öppna `Forwarder3DS.jar`
-   - **Windows-användare:** Om den inte öppnas kan du ladda ner [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), placera den i samma mapp som Forwarder3DS.jar, och köra den
-1. Ställ in ditt kort som `Target` till vänster
-   - **OBS:** Om du inte ser en lista av kort, ladda ner [denna zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), och lägg `forwarders` mappen i samma mapp som Forwarder3DS. ar, sedan byta namn på den till `.forwarders`
-1. Aktivera `Automatically set ROM path`
-   - **Linux-användare:** Den automatiska sökvägen är felaktig eftersom den innehåller hela sökvägen (e. . `/media/$USER/någonting/`), ta bort den delen
-   - **MacOS användare:** Den automatiska sökvägen är felaktig eftersom den innehåller `/Volumes/(kortnamn)/` i början, ta bort den delen
-1. Klicka på mappen längst upp till höger och välj de ROM du vill göra forwarders för eller dra och släpp dem i fönstret
-   - **OBS:** ROMs måste redan vara på ditt SD-kort när du väljer dem, och kan inte flyttas utan att återskapa forwarderna
-   - If your save file is in the same folder as the ROM, move it to a folder called `saves`, with the `saves` folder being in the same place as the ROMs
-1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
-1. Om du använder en homebrew ROM, klicka på den, rensa sedan `Game title` och skriv in spelets titel
-1. Click the floppy drive button to generate the forwarder
-1. Copy the NDS file made by the application to your DSi SD card
-
-### Part 4: Installing to the hiyaCFW DSi Menu
-1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
-1. Reinsert your SD card into your DSi
-1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
-1. Install the forwarder NDS file using TMFH
+### Part 3: NDSForwarder-DSi
+1. Reinsert your SD card into your device
+1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
+1. Launch `NDSForwarder.dsi`
+   - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
+1. Press <kbd class="face">A</kbd> on `Install`
+1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
 
 {% endcapture %}
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}

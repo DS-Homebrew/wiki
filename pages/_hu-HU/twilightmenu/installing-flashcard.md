@@ -40,11 +40,14 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHC & DSONEi (nem-SDHC modellek ***nem*** támogatottak)
    - M3 DS Real
    - M3i Zero (nem GMP-Z003 modell)
-   - DSONE SDHC & DSONEi
+   - iTouchDS és iTouch2 (használd az M3Real_M3iZero YSMenu fájlokat)
+   - R4(i)RTS (r4rts.com) (használd az M3Real_M3iZero YSMenu fájlokat)
+   - R4 SDHC RTS (feketecartridge) (r4isdhc.com) (használd az M3Real_M3iZero YSMenu fájlokat)
 
-   Telepítsd a [RetroGameFan YSMenu-jét](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap` opciót `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
 

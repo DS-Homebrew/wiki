@@ -75,5 +75,5 @@ A hiyaCFW Helper fals pozitív a Windows Defender és más antivírus programokb
 1. Tarts nyomva a <kbd>SELECT</kbd>-et a Nintendo DSi konzoldo bekapcsolásakor, hogy a hiyaCFW beállításokhoz juss
 1. Változtasd meg a beállításokat ahogy neked tetszik, majd nyomj <kbd>START</kbd> gombot a folytatáshoz
 
-Ha a `An Error Has Occurred` hibaüzenetet mutatja, tekintsd meg a [hibaelhárítás](troubleshooting#an-error-has-occurred) oldalt.
+Ha a `An Error Has Occurred` hibaüzenetet mutatja, tekintsd meg a [GYIK](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) oldalt.
 {: .alert .alert-warning}

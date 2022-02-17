@@ -11,7 +11,8 @@ description: Acerca de GodMode9i
 ## Función de dumpeo
 
 Para dumpear juegos, seleccione la unidad en la lista de unidades y siga las indicaciones en pantalla.
-- En Nintendo DS y Nintendo DS Lite, GodMode9i puede dumpear cartuchos Slot-2 si corre en una flashcart Slot-1, y tarjetas Slot-1 si corre en una flashcart Slot-2
+- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
+   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
 - En la familia de sistemas Nintendo DSi, se requiere Unlaunch para dumpear juegos Slot-1 a la tarjeta SD
    - Sigue [dsi.cfw.guide](https://dsi.cfw.guide/) para instrucciones sobre cómo instalar Unlaunch
 - En la familia de sistemas Nintendo 3DS, se requiere un entorno moderno de CFW para abrir GodMode9i

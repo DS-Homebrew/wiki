@@ -35,7 +35,7 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 | Rocket Video         | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                            |
 | SG-1000              | [S8DS][s8ds], [ColecoDS][colecods]           | `.sg`                                  |                                            |
 | SORD M5              | [ColecoDS][colecods]                         | `.m5`                                  |                                            |
-| スーパーファミコン[^7]        | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`[^8]                         |
+| スーパーファミコン            | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`                             |
 | ワンダースワン（カラー）         | [NitroSwan][nitroswan]                       | `.ws`, `.wsc`                          | ???                                        |
 {:.table}
 
@@ -52,8 +52,8 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 
 ## 特定のエミュレータに関する注意
 ### RAMディスク
-- DSiのSDカードで**jEnesisDS**、**neoDS**および**SNEmulDS**を機能するには、nds-bootstrapでRAMディスクを使用する必要があります
-   - jEnesisDSとSNEmulDS用のRAMディスク作成器はTWiLight Menu++に組み込まれています。 neoDS用に独自のRAMディスクを作成する必要があります。 その方法については、[RAMディスクを作成](../twilightmenu/creating-ram-disks)を参照してください
+- DSiのSDカードで**jEnesisDS**または**neoDS**を機能するには、nds-bootstrapでRAMディスクを使用する必要があります
+   - jEnesisDS用のRAMディスクメーカーは、TWiLight Menu++に組み込まれています neoDS用に独自のRAMディスクを作成する必要があります。 その方法については、[RAMディスクを作成](../twilightmenu/creating-ram-disks)を参照してください
    - RAMディスクが使用されている理由は、これらのエミュレータのARM7フックが正しく動作しないためです
 
 ### PicoDriveTWLとjEnesisDSの比較
@@ -88,8 +88,6 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 [^4]: DSiモードで実行している場合は、DSPを使って良いサウンドを得ることができます
 [^5]: Slot-2フラッシュカートが必要なのでオリジナルのDSとDS Liteでのみ機能します
 [^6]: jEnesisはフラッシュカードから実行している時にのみ保存できますが、PicoDriveTWLはSDカードとフラッシュカードから保存できます
-[^7]: フラッシュカード、3DSの内部のSDカードまたはUnlaunchがインストール済みのDSiを使っている場合にのみ表示されます
-[^8]: フラッシュカードから実行している時にのみ保存できます
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -106,7 +104,7 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
+[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS

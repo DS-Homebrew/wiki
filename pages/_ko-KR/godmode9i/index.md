@@ -11,7 +11,8 @@ description: GodMode9i에 관한 정보
 ## 덤핑 기능
 
 게임을 덤핑하려면, 드라이브 리스트 중의 드라이브를 선택하여 화면의 절차를 따르세요.
-- 닌텐도 DS와 닌텐도 DS Lite에서는, GodMode9i는 Slot-1 플래시카드에서 실행되고 있다면 Slot-2 게임, Slot-2 플래시카드에서 실행되고 있다면 Slot-1 게임을 덤핑할 수 있습니다.
+- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
+   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
 - 닌텐도 DSi 시리즈에서는, Slot-1 게임을 SD 카드로 덤핑하려면 Unlaunch가 필요합니다.
    - Unlaunch를 설치하려면 [dsi.cfw.guide](https://dsi.cfw.guide/)를 따르세요.
 - 닌텐도 3DS 시리즈에서는 GodMode9i를 실행하려면 최신 CFW 환경이 필요합니다.

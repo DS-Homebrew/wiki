@@ -75,5 +75,5 @@ hiyaCFWヘルパーは、Windows Defenderと他のアンチウイルスソフト
 1. hiyaCFWの設定をアクセスには、ニンテンドーDSi本体の電源をオンにしながら<kbd>SELECT</kbd>を長押ししてください
 1. 設定を好みに合わせて変更し、<kbd>START</kbd>を押して続けます
 
-`エラーが発生しました`が表示される場合は、[トラブルシューティング](troubleshooting#エラーが発生しました)ページを参照してください。
+`エラーが発生しました`が表示される場合は、[よくある質問](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw)ページを参照してください。
 {: .alert .alert-warning}

@@ -40,12 +40,15 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
+   - DSONE SDHC et DSONEi (les modèles non-SDHC ne sont ***pas*** supportés)
    - M3 DS Real
    - M3i Zero (modèle non GMP-Z003)
-   - DSONE SDHC & DSONEi
+   - iTouchDS et iTouch2 (utilisez les fichiers M3Real_M3iZero de YSMenu)
+   - R4(i)RTS (r4rts.com) (utilise les fichiers M3Real_M3iZero de YSMenu)
+   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
-   Installez le [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y en a pas) et le dossier `TTMenu` à la racine de la carte microSD du linker
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
 1. Définissez `Utiliser nds-bootstrap` à `Non` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap
 
 ### Démarrage automatique de TWiLight Menu++
