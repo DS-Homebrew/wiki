@@ -76,9 +76,9 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 1. Work out where the SD card is mounted
    - Linux:
       1. Unplug the SD card adapter
-      1. Run `lbslk` in a terminal
+      1. Run `lsblk` in a terminal
       1. Plug in the SD card adapter
-      1. Run `lbslk` again
+      1. Run `lsblk` again
       1. This time a new device should appear
          - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
