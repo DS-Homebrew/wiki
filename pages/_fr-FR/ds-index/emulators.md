@@ -35,7 +35,7 @@ Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une e
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                          |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]              | `.sg`                                  |                                                          |
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                          |
-| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom name].srm`                                         |
+| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[nom de la ROM].srm`                                    |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                                      |
 {:.table}
 
@@ -52,8 +52,8 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 
 ## Notes sur les émulateurs spécifiques
 ### Disques RAM
-- In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-   - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
+- Pour que **jEnesisDS** ou **neoDS** fonctionne sur la carte SD de la DSi, vous devrez utiliser un disque RAM avec nds-bootstrap
+   - Un générateur de disque RAM pour jEnesisDS est intégré à TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
    - La raison pour laquelle les disques RAM sont utilisés est que les hooks ARM7 de ces émulateurs ne fonctionnent pas correctement
 
 ### Comparaison entre PicoDriveTWL et jEnesisDS

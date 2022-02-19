@@ -79,17 +79,17 @@ Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
 1. Réinsérez votre carte SD dans votre console
 1. Maintenez <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, puis allumez votre console pour démarrer sur Unlaunch
 1. Lancez `NDSForwarder.dsi`
-   - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
-1. Press <kbd class="face">A</kbd> on `Install`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
-1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
+   - Si vous obtenez un message `nitroFSInit() fail`, essayez d'utiliser TWiLight Menu++ pour le lancer, ou placez `NDSForwarder.dsi` à la racine de votre carte SD
+1. Appuyez sur <kbd class="face">A</kbd> sur `Install`
+1. Naviguez jusqu'à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd>
+1. Après son installation, votre jeu apparaîtra comme un titre dans votre menu DSi hiyaCFW
 
 {% endcapture %}
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
 
-### Requirements
+### Pré-requis
 
 - **Utilisateurs de DSi :**
    - Une Nintendo DSi avec [Unlaunch](https://dsi.cfw.guide/fr_FR/installing-unlaunch) et [hiyaCFW](installing) installés
@@ -157,8 +157,8 @@ Incompatibles :
    - Basé sur Debian : Exécutez [ce script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
    - Arch : `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
-### Part 1: Getting started
-1. Download one of these packs:
+### Partie 1 : Pour commencer
+1. Téléchargez l'un de ces packs :
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)
@@ -166,41 +166,41 @@ Incompatibles :
    - [R4iDSN / R4i Gold RTS / R4i Gold 3DS Plus](https://www.dropbox.com/s/j8nquh073k9y0h7/DS%20Game%20Forwarder%20pack%20%28R4iDSN%2C%20R4i%20Gold%20RTS%29.7z?dl=0)
    - [Ace 3DS+ / Gateway Blue Card / R4iLS / R4iTT](https://www.dropbox.com/s/fd7dzhn8burcq02/DS%20Game%20Forwarder%20pack%20%28Ace3DS%2C%20GW%20Blue%20Card%2C%20R4iTT%29.7z?dl=0)
    - [SC DSTWO](https://www.dropbox.com/s/pyyg0vq8b0nmhqd/DS%20Game%20Forwarder%20pack%20%28SC%20DSTWO%29.7z?dl=0)
-1. Extract the contents of the `for Slot-1 microSD` folder to the root of your flashcard's microSD card, and (if the folder exists) the contents of the `for 3DS SD card` folder to the root of your 3DS's SD card
-   - What will be in each pack for loading ROMs:
-      - Original R4/M3 Simply - WoodR4 & YSMenu
+1. Extrayez le contenu du dossier `for Slot-1 microSD` à la racine de la carte microSD de votre linker, et (si le dossier existe) le contenu du dossier `for 3DS SD card` à la racine de la carte SD de votre 3DS
+   - Ce qui sera dans chaque pack pour le chargement des ROMs :
+      - Original R4/M3 Simply - WoodR4 et YSMenu
       - DSTT/R4i Gold/R4i-SDHC/R4 SDHC Dual-Core/R4 SDHC Upgrade/SC DSONE, Acekard 2(i)/M3DS Real/R4i-SDHC 1.4.x - YSMenu
-      - Acekard RPG, Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
+      - Acekard RPG, Ace 3DS+/Carte Gateway bleue/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
 
 Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/ntr_forwarder.ini` pour changer les paramètres suivants. Ce n'est pas possible pour Acekard RPG, R4 DS et R4i Gold RTS.
    - `NTRCLOCK` : Si réglé sur `0` ou que <kbd class="face">A</kbd> est maintenu, l'écran de démarrage DSi apparaîtra à la place du démarrage normal de la DS et la vitesse de l'horloge TWL est utilisée, supprimant ainsi les ralentissements
    - `DISABLEANIMATION` : Si réglé sur `1` ou que <kbd class="face">B</kbd> est maintenu, l'écran de démarrage de la DS/DSi est ignoré
    - `HEALTHSAFETYMSG` : Si réglé sur `1`, le message de santé et de sécurité de l'écran de démarrage apparaîtra sur l'écran inférieur, sinon l'écran inférieur reste blanc et sans message de santé et de sécurité
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
+### Partie 2 : Obtenir les fichiers de correction AP à partir de TWiLight Menu++
 
 Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
 {:.alert .alert-info}
 
-1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
-1. Drag the `apfix.pck` file to `fat:/_nds/ntr-forwarder/`
+1. Téléchargez le dernier [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Dans le fichier 7z, allez dans le dossier `_nds/TWiLightMenu/extras`
+1. Faites glisser le fichier `apfix.pck` vers `fat:/_nds/ntr-forwarder/`
 
-### Part 3: Forwarder3-DS
-1. Open `Forwarder3DS.jar`
-   - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
-1. Set your card as the `Target` on the left
-   - **NOTE:** If you don't see a list of cards, download [this zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), and put the `forwarders` folder in the same folder as Forwarder3DS.jar, then rename it to `.forwarders`
-1. Enable `Automatically set ROM path`
-   - **Linux users:** The automatic path is incorrect since it includes the entire path (e.g. `/media/$USER/something/`), please remove that part
-   - **MacOS users:** The automatic path is incorrect since it includes `/Volumes/(cardname)/` at the start, please remove that part
-1. Click the folder in the top right and select the ROMs you want to make forwarders for or drag and drop them onto the window
-   - **NOTE:** The ROMs must already be on your SD card when selecting them, and can't be moved without recreating the forwarders
-1. If you're playing a hack/translation of a DSi-Enhanced game that has it's banner/title edited, find the banner for the game from [here](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), right click on the game in Forwarder3-DS, click `Import banner`, and click on the banner to use
-1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
-1. Click the floppy disk button to generate the forwarders
+### Partie 3 : Forwarder3-DS
+1. Ouvrez `Forwarder3DS.jar`
+   - **Utilisateurs de Windows :** S'il ne s'ouvre pas, téléchargez ce [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), placez-le dans le même dossier que Forwarder3DS.jar et exécutez-le
+1. Définissez votre carte en tant que `Target` à gauche
+   - **NOTE :** Si vous ne voyez pas de liste de cartes, téléchargez [ce zip](https://github.com/Olmectron/olmectron.github.io/archive/master.zip) et placez le dossier `forwarders` dans le même dossier que Forwarder3DS.jar, puis renommez-le en `.forwarders`
+1. Activez `Automatically set ROM path`
+   - **Utilisateurs de Linux :** Le chemin automatique est incorrect car il inclut le chemin entier (par exemple `/media/$USER/something/`), veuillez supprimer cette partie
+   - **Utilisateurs de macOS :** Le chemin automatique est incorrect car il inclut `/Volumes/(nom de la carte)/` au début, veuillez supprimer cette partie
+1. Cliquez sur le dossier en haut à droite et sélectionnez les ROMs pour lesquelles vous souhaitez créer des forwarders ou faites-les glisser-déposer dans la fenêtre
+   - **NOTE :** Les ROMs doivent déjà être sur votre carte SD lors de leur sélection, et ne peuvent être déplacées sans recréer les forwarders
+1. Si vous jouez à un hack/une traduction d'un jeu optimisé DSi dont la bannière/le titre titre été modifié•e, trouvez la bannière du jeu [ici](https://www.dropbox.com/sh/igr47pr0q5bh4p5/AAA9Dy8VOGfBLUA6KdLDSDW-a?dl=0), faites un clic droit sur le jeu dans Forwarder3-DS, cliquez sur `Import banner` et cliquez sur la bannière à utiliser
+1. Si vous utilisez une ROM homebrew, cliquez dessus, puis effacez le `Game title` et tapez le titre du jeu
+1. Cliquez sur le bouton de la disquette pour générer les forwarders
 
-### Part 4: Installing the forwarder
+### Partie 4 : Installer le forwarder
 
 - Si vous utilisez une console de la famille 3DS :
    1. Copiez le(s) CIA(s) sur la carte SD de votre 3DS, puis installez-les en utilisant FBI

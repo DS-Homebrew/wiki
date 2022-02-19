@@ -27,10 +27,7 @@ Módosítja a rendszer Video Random Access Memory (VRAM) üzemmódját. A DS mó
 ### Kártya olvasás DMA
 Engedélyezi a közvetlen memória-hozzáférés (DMA) használatát a kártya olvasáshoz. Ennek a beállításnak a bekapcsolása felgyorsíthatja a ROM-okat, de problémákat okozhat. További technikai információk a [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma) oldalon találhatók.
 
-### SWI Halt-ra csatlakozás
-Megváltoztatja, hogy a Halt Software Interrupts (SWI) csatlakoztatva vannak-e vagy sem. Ha bekapcsolva van, az felgyorsíthatja a betöltési időt, de problémákat okozhat. A kikapcsolt állapotban tartás a lassulásokat is csökkentheti.
-
-### ROM  bővítés RAM-ban
+### ROM terület a RAM-ban
 Ha egy játék elég kicsi, akkor a betöltési idő felgyorsítása érdekében a rendszer RAM memóriájába tölthető. Az opciót bekapcsolása, megnöveli a ROM-ok méretkorlátot, de néhány hibás lehet.
 
 ### Közvetlen boot

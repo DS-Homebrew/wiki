@@ -3,14 +3,16 @@ lang: en-US
 layout: wiki
 section: nds-bootstrap
 title: Controls
-long_title: nds-bootstrap controls
+long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---
 
-These do not apply to DSiWare.
+These do not apply to homebrew.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Up</kbd> + <kbd class="face">X</kbd> for 1 second: Swap the screens
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to loader
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> for 2 seconds: Reset game
+  - Many games support simply pressing this button combination by default, but this will force reset it
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
    - <kbd class="r">R</kbd>: Advance by one frame
    - Screenshot
@@ -39,7 +41,7 @@ These do not apply to DSiWare.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- Returning to loader may not work on some O3DS models, and does not work in B4DS mode
+- Returning to loader may not work on some O3DS models, and does not work in B4DS mode or when used as a button combination in DSiWare
 - The button combination for opening the in-game menu can be changed in the TWiLight Menu++ settings
 - Screenshots are saved to `sd:/_nds/nds-bootstrap/screenshots.tar`. This file can be opened using an archive viewer such as [7-Zip](https://www.7-zip.org/)
-- Dumping RAM and taking screenshots are currently not possible in B4DS mode
+- Taking screenshots is currently not possible in B4DS mode

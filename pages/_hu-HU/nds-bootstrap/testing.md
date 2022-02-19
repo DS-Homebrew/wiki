@@ -31,6 +31,6 @@ Az ismert problémákkal rendelkező ROM-ok megtekintéséhez nézd meg az [issu
 - Ne felejtsd el eltávolítani a tesztelt játékokat a tesztelési várólistáról (Testing Queue)
 
 #### Ha a feketelisták frissítése miatt tesztelsz
-- Csak a feketelistán szereplő opciókat változtasd meg, ezek a következők: 133 MHz (TWL) CPU sebesség, Kártya olvasás DMA, Aszink kártya olvasás és SWI Halt kapcsolódás
+- Csak a feketelistán szereplő opciókat változtasd meg, ezek a következők: 133 MHz (TWL) CPU sebesség, Kártya olvasás DMA és Aszink kártya olvasás
 - A feketelistás opciók engedélyezéséhez a játékonkénti beállításokban menj a `sd:/_nds/TWiLightMenu/settings.ini` fájlba, és állítsd az `IGNORE_BLACKLISTS` opciót `1`értékre
 - Ha bármilyen probléma merül fel ezen beállítások bekapcsolása során, kérjük, jelentsd a Github issues oldalon 

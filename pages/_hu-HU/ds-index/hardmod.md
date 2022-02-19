@@ -77,9 +77,9 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
 1. Derítsük ki, hogyaz SD kártya hova lett felcsatolva
    - Linux:
       1. Húzd ki az SD kártya adaptert
-      1. Futtasd a `lbslk` parancsot a terminálban
+      1. Futtasd a `lsblk` parancsot a terminálban
       1. Dugd be az SD kártya adaptert
-      1. Futtasd a `lbslk` parancsot újra
+      1. Futtasd a `lsblk` parancsot újra
       1. Ez alkalommal egy új eszköznek kell megjelennie
          - Lehet, hogy `/dev/sdb`-nek hívják, jegyezd fel, hogyan hívják a *te* számítógépeden
 

@@ -77,9 +77,9 @@ Du kommer först behöva ta bort NOCASH sidfoten från säkerhetskopian du flash
 1. Kontrollera vart SD-kortet är monterat
    - Linux:
       1. Koppla ur SD-kortadaptern
-      1. Kör `lbslk` i en terminal
+      1. Run `lsblk` in a terminal
       1. Koppla in SD-kortadaptern
-      1. Kör `lbslk` igen
+      1. Run `lsblk` again
       1. Den här gången ska en ny enhet visas
          - Det kan kallas `/dev/sdb`, se till att du antecknar vad det kallas på *din* dator
 

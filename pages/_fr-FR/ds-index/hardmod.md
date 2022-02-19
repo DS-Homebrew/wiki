@@ -77,9 +77,9 @@ Vous devez d'abord supprimer le pied de page NOCASH de la sauvegarde que vous tr
 1. Déterminez où la carte SD est montée
    - Linux :
       1. Débranchez l'adaptateur de carte SD
-      1. Exécutez `lbslk` dans un terminal
+      1. Exécutez `lsblk` dans un terminal
       1. Branchez l'adaptateur de carte SD
-      1. Exécutez à nouveau `lbslk`
+      1. Exécutez à nouveau `lsblk`
       1. Cette fois, un nouvel appareil devrait apparaître
          - Il peut s'appeler `/dev/sdb`, assurez-vous de noter comment il s'appelle sur *votre* ordinateur
 

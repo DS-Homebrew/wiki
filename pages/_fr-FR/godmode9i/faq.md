@@ -35,22 +35,22 @@ Vous pouvez changer la police de GodMode9i en sélectionnant un fichier de polic
 
 Vous pouvez trouver quelques polices préconverties dans le [dossier resources](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) du dépôt GitHub et vous pouvez convertir les vôtres à partir d'une image PBM et d'un fichier TXT contenant les mappages Unicode en utilisant le script [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) de GodMode9.
 
-#### How do I dump DS Saves using GBA save data?
-GodMode9i is able to use the save data of GBA cartridges to dump the saves of most DS Game Cards. ROM files and save files over 1 MiB cannot be dumped this way as the files are impractically large. This can also be done using Haxxstation instead of a DS flashcard if you have another way to dump the GBA save files, they can then be recombined and decompressed on a computer.
+#### Comment dumper les sauvegardes DS en utilisant les données de sauvegarde GBA ?
+GodMode9i est capable d'utiliser les données de sauvegarde des cartouches GBA pour vider les sauvegardes de la plupart des cartes de jeu DS. Les ROMs et les fichiers de sauvegarde de plus de 1 Mio ne peuvent pas être vidés de cette façon car les fichiers sont trop volumineux. Vous pouvez également utiliser Haxxstation au lieu d'un linker DS si vous avez un autre moyen de récupérer les fichiers de sauvegarde GBA, qui pourront ensuite être recombinés et décompressés sur un ordinateur.
 
-1. Load GodMode9i on your flashcard
-1. Backup your GBA saves!!
-   - Any save data that hasn't been backed up will be lost
-   - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
-1. On the drive menu, press <kbd class="r">R</kbd> + <kbd class="face">B</kbd> to unmount the flashcard
-1. Eject the flashcard, insert a DS Game Card and GBA cartridge
-1. Select `NDS GAMECARD` then `Save`
-1. When asked, press <kbd class="face">A</kbd> to write the data to the GBA cart
-   - Swap to different GBA cartridges and repeat until the whole save is copied
-1. Reboot your DS with your Slot-1 flashcard back in and reopen GodMode9i
-1. Insert the first GBA cartridge you used and select `GBA GAMECART`
-1. Choose `DS Save`
-1. Swap through all the carts you dumped onto
-1. Your DS save will now be in `fat:/gm9i/out`, you can now restore your backed up GBA save files to their original cartridges
+1. Lancez GodMode9i sur votre linker
+1. Faites plusieurs copies de vos sauvegardes GBA !!
+   - Toutes les données de sauvegardes qui n'ont pas été conservées ailleurs seront perdues
+   - Vérifiez les fichiers et trouvez les plus gros, l'utilisation de cartouches de 512 octets ne sera pas d'une grande aide alors que des sauvegardes de 64 ou 128 kio feront tenir la plupart des sauvegardes DS dans 1 ou 2 cartouches
+1. Dans le menu du lecteur, appuyez sur <kbd class="r">R</kbd> + <kbd class="face">B</kbd> pour démonter le linker
+1. Éjectez le linker, insérez une carte de jeu DS et une cartouche GBA
+1. Sélectionnez `CARTE DS` puis `Savegarde`
+1. Lorsque cela est demandé, appuyez sur <kbd class="face">A</kbd> pour écrire les données sur la cartouche GBA
+   - Passez à des cartouches GBA différentes et répétez jusqu'à ce que toute la sauvegarde soit copiée
+1. Redémarrez votre DS avec votre linker Slot-1 et rouvrez GodMode9i
+1. Insérez la première cartouche GBA que vous avez utilisée et sélectionnez `CARTOUCHE GBA`
+1. Choisissez `Sauvegarde DS`
+1. Passez toutes les cartouches sur lesquelles vous avez dumpé
+1. Votre sauvegarde DS sera maintenant dans `fat:/gm9i/out`, vous pouvez désormais restaurer vos fichiers de sauvegarde GBA préalablement conservés ailleurs sur leurs cartouches d'origine
 
-If you want to write the save file back onto the Game Card, simply select the `.sav` file and choose `Restore save (Slot-1)`, then swap out your flashcard for the DS Game Card when prompted.
+Si vous voulez réécrire le fichier de sauvegarde sur la carte de jeu, il suffit de sélectionner le fichier `.sav` et de choisir `Restaurer la sauvegarde (Slot-1)`, puis d'échanger votre linker contre la carte de jeu DS lorsque vous y êtes invité.

@@ -27,17 +27,14 @@ Cambia la modalità della Video Random Access Memory (VRAM) del sistema. Le ROM 
 ### Lettura scheda DMA
 Abilita l'uso del Direct Memory Access (DMA) per la lettura della scheda. Attivare questa impostazione può accelerare le ROM ma può causare problemi. Maggiori informazioni tecniche sono disponibili sul [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
-### SWI Halt Hook
-Cambia se gli Halt Software Interrupts (SWI) sono agganciati o no. Attivare questa opzione può velocizzare i tempi di caricamento, ma potrebbe causare problemi. Mantenerla disattivata potrebbe anche ridurre i rallentamenti.
-
 ### Ex. ROM space in RAM
-Se un gioco è abbastanza piccolo, può essere caricato nella RAM del sistema per accelerare i tempi di caricamento. Attivare questa opzione aumenterà il limite di dimensione delle ROM, ma potrebbe causare incompatibilità con alcune.
+If a game is small enough, it can be loaded into the system's RAM to speed up loading times. Turning this option on will increase the size limit for ROMs, but might break some.
 
-### Avvio Diretto
-Appare solo per le ROM homebrew. Attivare questa opzione farà sì che nds-bootstrap non venga utilizzato per avviare la ROM. Questo è utile per le ROM homebrew che non hanno bisogno o non funzionano con nds-bootstrap.
+### Direct Boot
+Appears only for homebrew ROMs. Setting this to On will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
 
 ### Bootstrap
-Cambia se eseguire la ROM con la build Release o Nightly di nds-bootstrap. Informazioni sulle build Nightly possono essere trovate nella [pagina delle domande frequenti di nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
+Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
 
-### Proporzioni schermo
-Se su 3DS, il rapporto di aspetto dello schermo può essere cambiato da 4:3 (predefinito su DS/DSi) a 16:10. Funziona solo se [la patch widescreen è abilitata](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).
+### Screen Aspect Ratio
+If on 3DS, the Screen Aspect Ratio can be changed from 4:3 (Default on DS/DSi) to 16:10. Only works if [widescreen is enabled](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).

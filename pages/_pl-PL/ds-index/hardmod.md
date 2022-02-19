@@ -77,9 +77,9 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Dowiedz się, gdzie karta SD jest zamontowana
    - Linux:
       1. Odłącz adapter karty SD
-      1. Uruchom `lbslk` w terminalu
+      1. Run `lsblk` in a terminal
       1. Podłącz adapter karty SD
-      1. Uruchom ponownie `lbslk`
+      1. Run `lsblk` again
       1. Tym razem powinno pojawić się nowe urządzenie
          - Może (ale nie musi) się nazywać `/dev/sdb`, zapisz jak się nazywa na *Twoim* terminalu
 

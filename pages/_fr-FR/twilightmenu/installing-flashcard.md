@@ -44,10 +44,10 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
    - M3 DS Real
    - M3i Zero (modèle non GMP-Z003)
    - iTouchDS et iTouch2 (utilisez les fichiers M3Real_M3iZero de YSMenu)
-   - R4(i)RTS (r4rts.com) (utilise les fichiers M3Real_M3iZero de YSMenu)
-   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
+   - R4(i)RTS (r4rts.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
+   - R4 SDHC RTS (cartouche noire) (r4isdhc.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Installez le [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
 1. Définissez `Utiliser nds-bootstrap` à `Non` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap
 

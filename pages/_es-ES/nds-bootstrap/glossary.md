@@ -27,9 +27,6 @@ Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ra
 ### Lectura DMA
 Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on can speed up ROMs but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
-### SWI Halt Hook
-Changes whether Halt Software Interrupts (SWI) are Hooked or not. Having it set to On can speed up loading times, but might cause issues. Keeping it Off may reduce slowdowns as well.
-
 ### Ex. ROM space in RAM
 If a game is small enough, it can be loaded into the system's RAM to speed up loading times. Turning this option on will increase the size limit for ROMs, but might break some.
 

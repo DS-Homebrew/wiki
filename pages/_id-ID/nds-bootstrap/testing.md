@@ -31,6 +31,6 @@ To view ROMs with known issues, check the [issues page](https://github.com/DS-Ho
 - Also make sure to remove games that have been tested off of the Testing Queue sheet
 
 #### If testing to update blacklists
-- Change only the blacklisted options, these being: 133 MHz (TWL) CPU Speed, Card Read DMA, Asynch Card Read, and SWI Halt Hook
+- Change only the blacklisted options, these being: 133 MHz (TWL) CPU Speed, Card Read DMA, and Asynch Card Read
 - To enable blacklisted options in the per-game settings, go to `sd:/_nds/TWiLightMenu/settings.ini` and set `IGNORE_BLACKLISTS` to `1`
 - If there are any issues caused when turning on these settings, please report them on the Github issues page 
