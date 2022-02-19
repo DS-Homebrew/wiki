@@ -17,9 +17,9 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 ### Updating
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Extract `TWiLightMenu-DSi.7z`
-1. Copy the `_nds` folder to your SD card root
-1. Copy the `BOOT.NDS` file to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
+1. **hiyaCFW users:** Copy the `title` folder to your SD card root, replacing any existing files
 
 ### More steps for the flashcard side
 
