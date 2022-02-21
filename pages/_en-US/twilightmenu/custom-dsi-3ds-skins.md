@@ -182,7 +182,7 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 ## Part 3: Adding to TWiLight Menu++
 Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
 
-## Part 3: Sharing your skin
+## Part 4: Sharing your skin
 Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
 
 ## Custom background music and sound effects
