@@ -42,10 +42,15 @@ blockquote {
 	background-color: $code-bg;
 	padding: 3px;
 	border-radius: 0.25rem;
-	
+
 	&:not(.wrap) {
 		white-space: nowrap;
+
+		@media screen and (max-width: 576px) {
+			white-space: normal;
+		}
 	}
+
 }
 
 pre {
