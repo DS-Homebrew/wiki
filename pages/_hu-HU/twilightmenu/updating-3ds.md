@@ -30,9 +30,10 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 {% capture tab-manual %}
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
 1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
-1. Másold az `_nds` mappát a microSD kártyád gyökerébe
-1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
-1. Másold a két `.cia` fájlt a microSD kártyád gyökerébe
+1. Másold az `_nds` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
+   - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
+1. Másold az `BOOT.NDS` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
+1. Másold a két `.cia` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
 1. A 3DS-eden telepítsd a két CIA fájlt az FBI-jal
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

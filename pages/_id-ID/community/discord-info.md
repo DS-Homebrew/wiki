@@ -94,7 +94,7 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
 
 ## The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
+These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Jangan minta-minta menjadi anggota regu, nanti malah mengurangi kesempatan akan diterima.
 
 Owner: shutterbug2000#8835
 

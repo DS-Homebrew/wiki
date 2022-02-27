@@ -71,6 +71,7 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
+- Hotel Dusk: Room 215: SDK3 -> SDK4 in Korea
 - Inazuma Eleven: SDK4 -> SDK5 in Europe
 - Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
 - Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea

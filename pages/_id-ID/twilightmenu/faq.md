@@ -47,7 +47,7 @@ You can download homebrew games from [Universal-DB](https://db.universal-team.ne
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi and 3DS or [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS.
+Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### How do I change TWiLight Menu++'s language?
 1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
@@ -55,17 +55,16 @@ Yes, you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 
    - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
 
 #### Is this a DS(i) emulator?
-No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
+No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. Konsol yang diemulasikan hanya konsol terdahulu, tapi cuma sebagian untuk GBA (karena beberapa atau semua bagian seperti grafik dijalankan asli mesin).
 
 #### What systems does TWiLight Menu++ support?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Bisakah eksploit permainan Slot-1 mengawal nyala (boot) TWiLight Menu++?
-Tidak. Karena bukan judul DSiWare, maka akses kartu SD dilumpuhkan ketika menjalankan kartu Slot-1.
+Tidak. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### Kenapa permainan saya susah dicari/dilihat?
-Ada beberapa alasan kenapa ROM Anda tidak dapat dicari.
-- If you placed your games in the `_nds` folder, you are unable to access it because it is permanently invisible in TWiLight Menu++. Please move them to any other location on the SD card
+There are a multiple reasons you may be unable to find them. -The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
 - If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
 - If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it

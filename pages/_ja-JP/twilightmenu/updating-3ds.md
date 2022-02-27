@@ -30,9 +30,10 @@ v21.0.0より古いバージョンから更新する場合は、DSiウェアタ�
 {% capture tab-manual %}
 1. 最新の[`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)をダウンロード
 1. `TWiLightMenu-3DS.7z`を抽出
-1. `_nds`フォルダをSDカードのルートにコピー
-1. `BOOT.NDS`ファイルをSDカードのルートにコピー
-1. 2つの`.cia`ファイルをSDカードのルートにコピー
+1. `_nds`フォルダをSDカードのルートにコピーし、既存のファイルを置き換えます
+   - macOSを使用している場合、**コピー**して`結合`しますを確認し、`置き換える`しないでください。
+1. `BOOT.NDS`ファイルをSDカードのルートにコピーし、既存のファイルを置き換えます
+1. 2つの`.cia`ファイルをSDカードのルートにコピーし、既存のファイルを置き換えます
 1. 3DSで、FBIを使って2つのCIAをインストール
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

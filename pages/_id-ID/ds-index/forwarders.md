@@ -27,7 +27,7 @@ Choose one of the following to add to the HOME menu:
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### Bagian 1: Mendapatkan berkas yang dibutuhkan
 
 If you already have Universal Updater installed on your console, you can skip to step 3.
 {:.alert .alert-info}
@@ -38,7 +38,7 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Install the NDSForwarder package
 1. NDSForwarder and its required files are now set up in its respective locations
 
-### Part 2: NDSForwarder
+### Bagian 2: NDSForwarder
 1. Open the Homebrew Launcher
 1. In the Homebrew Launcher, open `NDS Forwarder Generator`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
@@ -54,7 +54,7 @@ If you already have Universal Updater installed on your console, you can skip to
 - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](../hiyacfw/installing) installed
 - The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.dsi)
 
-### Part 1: Getting started
+### Bagian 1: Memulai
 1. Copy `NDSForwarder.dsi` to your SD card root
    - This can optionally be installed to hiyaCFW directly using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
 1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
@@ -66,7 +66,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/nds-bootstrap.i
 - LANGUAGE: If set to -1, the system language will be used
 - REGION: If set to -2, the DSiWare game's region will be used instead of the system's
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
+### Bagian 2: Mendapatkan berkas AP fix dari TWiLight Menu++
 
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
@@ -75,7 +75,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
-### Part 3: NDSForwarder-DSi
+### Bagian 3: NDSForwarder-DSi
 1. Reinsert your SD card into your device
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
@@ -126,7 +126,7 @@ Compatible:
 Untested:
 - R4i3D NEW (Use R4iDSN template and pack)
 
-Partially compatible:
+Sesuai sebagian:
 - Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing)
 - Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing)
 - EX4DS (Game compatibility is bad, so saving/loading save file results in crashing)

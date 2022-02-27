@@ -48,7 +48,7 @@ description: DS(i) Games that have special properties
    - Includes exclusive minigame
    - Icon is animated
 - Tetris Party Deluxe
-   - DSiWare version called "Tetris Party Live"
+   - Versi DSiWare bernama "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
    - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
@@ -71,6 +71,7 @@ Supports Wi-Fi (WPA 1/2 included):
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
+- Hotel Dusk: Room 215: SDK3 -> SDK4 in Korea
 - Inazuma Eleven: SDK4 -> SDK5 in Europe
 - Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
 - Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea

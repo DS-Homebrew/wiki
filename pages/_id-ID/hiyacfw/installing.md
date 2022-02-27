@@ -20,7 +20,7 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 - A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
 - A Windows, macOS, or Linux device
 
-### Part 1: Preparing your PC for installing hiyaCFW
+### Bagian 1: Mempersiapkan komputer untuk memasang hiyaCFW
 {% capture tab-windows %}
 The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
 {: .alert .alert-info}
@@ -50,7 +50,7 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 {% assign tabs = tab-windows | concat: tab-macos | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Part 2: Adding hiyaCFW files to your SD card
+### Bagian 2: Menambahkan berkas hiyaCFW ke kartu SD
 ![Screenshot of the hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Launch the hiyaCFW Helper
@@ -65,7 +65,7 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 1. When the application says `Done!`, close out of the hiyaCFW Helper
 1. Close the terminal window
 
-### Part 3: Configuring Unlaunch and hiyaCFW
+### Bagian 3: Menyetelkan Unlaunch dan hiyaCFW
 1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should take you to Unlaunch's file menu
 1. Navigate to `OPTIONS`, then `NO BUTTON`

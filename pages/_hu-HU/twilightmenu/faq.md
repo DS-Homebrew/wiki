@@ -47,7 +47,7 @@ Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből é
 - 3DS-n használhatod a [GodMode9](https://github.com/d0k3/GodMode9/releases)-t a DS játékaid, DSiWare és Virtual Console címek dumpolásához
 
 #### A játék kártyákból a mentéseimet ki tudom rakni az SD kártyámra és visszafelé?
-Igen, használhatod erre a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t DSi-n és 3DS-en vagy a [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)-ot 3DS-en.
+Igen. Használhatod erre a [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)-ot 3DS-en vagy a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) DSi-n / 3DS-en.
 
 #### Hogyan állítom be a TWiLight Menu++-ban a nyelvet?
 1. Nyisd meg a TWiLight Menu++ beállításokat, ezt a <kbd>SELECT</kbd> gomb nyomvatartásával tudod megtenni, a TWiLight Menu++ betöltésekor
@@ -61,15 +61,14 @@ Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en kereszt�
 Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### A Slot-1 játékok exploitjai be tudják tölteni TWiLight Menu++-t?
-Nem. Mivel ezek nem DSiWare címek, az SD-hozzáférés le van tiltva, a Slot-1 kártyák futtatásakor.
+Nem. Az SD kártyához hozzáférés csak a DSiWare alkalmazások számára biztosított, így a Slot-1 játékok nem tudják elindítani (vagy egyáltalán elérni) a TWiLight Menu++-t.
 
 #### Miért nem találom/látom a játékaimat?
-Több oka lehet, hogy nem találod őket.
-- Ha az `_nds` mappába raktad a játékaid, nem fogod megtalálni őket, mert az a mappa láthatatlan a TWiLight Menu++ számára. Kérjük mozgasd őket bármilyen más helyre az SD kártyán
-- Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd> /<kbd>Jobb</kbd> gombokat az oldalak lapozásához
+Több oka lehet, hogy nem találod őket. Az `_nds` mappa, amely az SD kártya gyökerében található, nem a TWiLight Menu++ segítségével elérhető alkalmazások számára készült, mivel a mappa a funkcionalitáson alapuló fájloknak (skinek, konfiguráció, képek, emulátorok stb.) fenntartott. Ha ide raktad a címeid, kérjük, helyezd át őket egy másik helyre.
+- Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd>/<kbd>Jobb</kbd> gombokat az oldalak lapozásához
 - Ha a játék mappád láthatatlan, be kell kapcsolnod a láthatatlan fájlok megjelenítését a TWiLight Menu++'s GUI beállításai között
 - Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
-- Ha a játékod nem a [támogatott kiterjesztést](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
+- Ha a játékod nem a [támogatott kiterjesztéseket](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
 
 #### Hogyan érem el a TWiLight Menu++ beállításait?
 A TWiLight Menu++ beállításainak elérési módja a konfigurációtól függő.

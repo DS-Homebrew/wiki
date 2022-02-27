@@ -17,9 +17,11 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 ### Frissítés
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
 1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt
-1. Másold az `_nds` mappát a microSD kártyád gyökerébe
-1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
-1. **hiyaCFW falhasználók:** Másold a `title` mappát az SD kártyád gyökerébe
+1. Másold az `_nds` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
+   - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
+1. Másold az `BOOT.NDS` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
+1. **hiyaCFW felhasználók:** Másold a `title` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
+   - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
 
 ### További lépések a flashcard oldalán
 

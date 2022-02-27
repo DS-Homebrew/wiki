@@ -23,7 +23,7 @@ The sound effect bank contains sound effects such as the icon select sound, etc.
 | wrong.wav   | Played when reaching the end of the page                                               |
 | switch.wav  | Played when switching pages                                                            |
 | stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| bgm.pcm.raw | Not part of the soundbank. See the section on [Menu BGM](#menu-bgm) for more details   |
+| bgm.pcm.raw | Bukan bagian dari soundbank. See the section on [Menu BGM](#menu-bgm) for more details |
 
 You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
 

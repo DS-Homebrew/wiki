@@ -17,9 +17,11 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 ### Mise à jour
 1. Téléchargez le dernier [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Extrayez `TWiLightMenu-DSi.7z`
-1. Copiez le dossier `_nds` à la racine de votre carte SD
-1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
-1. **Utilisateurs de hiyaCFW :** Copiez le dossier `title` à la racine de votre carte SD
+1. Copiez le dossier `_nds` à la racine de votre carte SD, en remplaçant tous les fichiers existants
+   - Si vous utilisez macOS, assurez-vous de **copier** et `Unir`, ne pas `Remplacer`
+1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD, en remplaçant tous les fichiers existants
+1. **Utilisateurs de hiyaCFW :** Copiez le dossier `title` à la racine de votre carte SD, en remplaçant tous les fichiers existants
+   - Si vous utilisez macOS, assurez-vous de **copier** et `Unir`, ne pas `Remplacer`
 
 ### Étapes supplémentaire pour les linkers
 

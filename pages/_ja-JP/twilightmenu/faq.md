@@ -47,7 +47,7 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 - 3DSでは、[GodMode9](https://github.com/d0k3/GodMode9/releases)を使ってDSゲーム、DSiウェア、バーチァルコンソールのゲームをダンプできます
 
 #### ゲームカードからSDカードにセーブファイルを取得するまたは逆にことはできますか？
-はい、DSiと3DSで[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)、3DSで[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)を使えます
+はい。 3DSでは[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)、DSi・3DSでは[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使用できます。
 
 #### TWiLight Menu++の言語を変更するにはどうしたらよいですか？
 1. TWiLight Menu++設定を開きます。これを行うには、TWiLight Menu++を読み込んでいる間に<kbd>SELECT</kbd>を押し続けます
@@ -61,11 +61,11 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 [TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
 
 #### Slot-1ゲームのエクスプロイトでTWiLight Menu++を起動できますか？
-いいえ。 DSiウェアではないため、Slot-1カードを使用する場合はSDアクセスができません。
+いいえ。 SDカードへのアクセスはDSiウェアアプリにのみ許可されるため、Slot-1ゲームではTWiLight Menu++を起動できない（アクセスすらできない）。
 
 #### ゲームを見つける・見ることができないのはなぜですか？
 見つからないことができない複数の理由があります。
-- ゲームを`_nds`フォルダに配置した場合、TWiLight Menu++では永久に見えないためアクセスできません。 SDカード上の任意な他の場所に移動してください
+- SDカードのルートにある`_nds`フォルダは、TWiLight Menu++のファイル（スキン、設定、画像、エミュレータなど）を保存するため、TWiLight TWiLight++からアクセスするアプリケーション向けではありません。 ここにタイトルを配置した場合は、他の場所に移動してください。
 - フォルダ内に39個以上のアイテムがあり、メニュー上のスロットがすべて取られている場合は、ゲームは次のページにある可能性があります。 <kbd class="l">L</kbd>・<kbd class="r">R</kbd>または<kbd>SELECT</kbd>+<kbd>左</kbd>・<kbd>右</kbd>を使ってページを切り替える
 - ゲームやフォルダが隠されている場合は、TWiLight Menu++のGUI設定から「隠しファイルの表示」をオンにする必要があります
 - ゲームがアーカイブ（`ZIP`、`RAR`、`7Z`など）にある場合は、TWiLight Menu++では使用できません。 アーカイブからゲームを解凍して使用します

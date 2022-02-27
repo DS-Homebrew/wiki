@@ -47,7 +47,7 @@ Puedes descargar juegos homebrew desde [Universal-DB](https://db.universal-team.
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### ¿Puedo transferir las partidas guardadas de mis cartuchos a la SD o viceversa?
-Sí, puedes usar [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) en la DSi y 3DS o [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) en la 3DS.
+Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### ¿Cómo cambio el idioma de TWiLight Menu++?
 1. Abre los ajustes de TWiLight Menu++ manteniendo <kbd>SELECT</kbd> mientras se está abriendo
@@ -61,11 +61,10 @@ No, esto no es un emulador. The menu and DS games (loaded via nds-bootstrap) are
 Vea [Lista de Sistemas Compatibles con TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. As they're not DSiWare titles, SD access is disabled when running Slot-1 cards.
+No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### ¿Por qué no puedo encontrar/ver mis juegos?
-Hay múltiples razones por las que puede ser incapaz de encontrarlos.
-- Si ha colocado sus juegos en la carpeta `_nds`, no podrá acceder a ella porque está invisible permanentemente en TWiLight Menu++. Por favor, muévelos a cualquier otra ubicación de la tarjeta SD
+There are a multiple reasons you may be unable to find them. -The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
 - If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
 - If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
