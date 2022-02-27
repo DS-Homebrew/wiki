@@ -37,4 +37,4 @@ Apparaît seulement pour les ROMs homebrews. En mettant cette option sur « Oui
 Changez si vous voulez exécuter la ROM avec la version Stable ou Nightly de nds-bootstrap. Des informations sur les builds Nightly peuvent être trouvées sur la [FAQ de nds-bootstrap](https://wiki.ds-homebrew.com/fr-FR/nds-bootstrap/faq?faq=quest-ce-quun-nightly-et-ou-puis-je-lobtenir)
 
 ### Ratio de l'écran
-Sur la 3DS, le rapport d'aspect de l'écran peut être modifié de 4:3 (par défaut sur la DS/DSi) à 16:10. Ne fonctionne que si le [plein écran est activé](https://wiki.ds-homebrew.com/fr-FR/twilightmenu/playing-in-widescreen).
+Sur la 3DS, le rapport d'aspect de l'écran peut être modifié de 4/3 (par défaut sur la DS/DSi) à 16/10. Ne fonctionne que si le [plein écran est activé](https://wiki.ds-homebrew.com/fr-FR/twilightmenu/playing-in-widescreen).

@@ -26,7 +26,7 @@ Nécessite une console Nintendo 3DS ou 2DS.
 1. Déplacez `TwlBg.cxi` de `sd:/luma/sysmodules/` à `sd :/_nds/TWiLightMenu/TwlBg/` (créez `le dossier TwlBg` s'il n'existe pas), et renommez le fichier en `Widescreen.cxi`
 1. Redémarrez votre 3DS tout en maintenant <kbd>SELECT</kbd> pour ouvrir la configuration de Luma3DS
 1. Activez `External FIRMs and modules`, puis appuyez sur <kbd>START</kbd> pour sauvegarder et quitter
-1. Ouvrez TWiLight Menu++, appuyez sur <kbd class="face">Y</kbd> sur le jeu de votre choix pour faire apparaître les paramètres par jeu, et réglez le `Ratio de l'écran` à `16:10`
+1. Ouvrez TWiLight Menu++, appuyez sur <kbd class="face">Y</kbd> sur le jeu de votre choix pour faire apparaître les paramètres par jeu, et réglez le `Ratio de l'écran` à `16/10`
 
 Vous avez terminé ! Profitez de vos jeux DS en plein écran !
 
