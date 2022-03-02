@@ -99,7 +99,7 @@ Currently, we are not looking for staff members. Do not ask to be a part of the 
 
 Owner: shutterbug2000#8835
 
-Administrators: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrators: RocketRobz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
 Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
 
