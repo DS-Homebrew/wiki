@@ -64,11 +64,12 @@ Consultez [Liste des systèmes pris en charge par TWiLight Menu++](../ds-index/e
 Non. L'accès à la carte SD n'est accordé qu'aux applications DSiWare, les jeux Slot-1 ne peuvent donc pas lancer (ou même accéder) à TWiLight Menu++.
 
 #### Pourquoi ne puis-je pas trouver/voir mes jeux ?
-Il y a de multiples raisons pour lesquelles vous ne parvenez pas à les trouver. -Le dossier `_nds` qui se trouve à la racine de la carte SD n'est pas destiné aux applications auxquelles on accéderait via TWiLight Menu++, car il est réservé aux fichiers basés sur les fonctionnalités (skins, configuration, images, émulateurs et autres). Si vous avez placé vos titres ici, veuillez les déplacer vers un autre emplacement.
+Il y a de multiples raisons pour lesquelles vous ne parvenez pas à les trouver.
+- Le dossier `_nds` qui se trouve à la racine de la carte SD n'est pas destiné aux applications auxquelles on accéderait via TWiLight Menu++, car il est réservé aux fichiers basés sur les fonctionnalités (skins, configuration, images, émulateurs et autres). Si vous avez placé vos titres ici, veuillez les déplacer vers un autre emplacement.
 - Si vous avez plus de 39 éléments dans un dossier et que tous les emplacements du menu sont occupés, vos jeux peuvent se trouver sur la page suivante. Utilisez <kbd class="l">L</kbd>/<kbd class="r">R</kbd> ou <kbd>SELECT</kbd> + <kbd>Gauche</kbd>/<kbd>Droite</kbd> pour changer de page
 - Si votre jeu ou votre dossier est caché, vous devrez peut-être afficher les fichiers cachés via les paramètres de l'interface graphique de TWiLight Menu++
 - Si votre jeu est dans une archive (`zip`, `rar`, `7z`, etc), il ne pourra pas être utilisé par TWiLight Menu++. Extrayez le jeu de l'archive pour l'utiliser
-- Si votre jeu n'utilise pas l'une des [extensions supportées](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), vous devrez peut-être changer l'extension en renommant le fichier
+- Si votre jeu n'utilise pas l'une des extensions [supportées](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), vous devrez peut-être changer l'extension en renommant le fichier
 
 #### Comment accéder aux paramètres de TWiLight Menu++ ?
 La manière d'accéder aux paramètres de TWiLight Menu++ varie selon votre configuration.

@@ -64,7 +64,8 @@ See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of
 Tidak. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### Kenapa permainan saya susah dicari/dilihat?
-There are a multiple reasons you may be unable to find them. -The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
+There are a multiple reasons you may be unable to find them.
+- The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
 - If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
 - If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it

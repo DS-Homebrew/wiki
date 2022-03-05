@@ -98,7 +98,7 @@ Ce sont les personnes qui gèrent le serveur. Si elles disent que quelque chose 
 
 Propriétaire : shutterbug2000#8835
 
-Administrateurs : RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrateurs : RocketRobz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
 Gestionnaires du serveur : Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
 

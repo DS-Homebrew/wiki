@@ -64,11 +64,12 @@ Tekintsd meg [TWiLight Menu++ által támogatott rendszerek listáját](../ds-in
 Nem. Az SD kártyához hozzáférés csak a DSiWare alkalmazások számára biztosított, így a Slot-1 játékok nem tudják elindítani (vagy egyáltalán elérni) a TWiLight Menu++-t.
 
 #### Miért nem találom/látom a játékaimat?
-Több oka lehet, hogy nem találod őket. Az `_nds` mappa, amely az SD kártya gyökerében található, nem a TWiLight Menu++ segítségével elérhető alkalmazások számára készült, mivel a mappa a funkcionalitáson alapuló fájloknak (skinek, konfiguráció, képek, emulátorok stb.) fenntartott. Ha ide raktad a címeid, kérjük, helyezd át őket egy másik helyre.
-- Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd>/<kbd>Jobb</kbd> gombokat az oldalak lapozásához
+Több oka lehet, hogy nem találod őket.
+- Az `_nds` mappa, amely az SD kártya gyökerében található, nem a TWiLight Menu++ segítségével elérhető alkalmazások számára készült, mivel a mappa a funkcionalitáson alapuló fájloknak (skinek, konfiguráció, képek, emulátorok stb.) fenntartott. Ha ide raktad a címeid, kérjük, helyezd át őket egy másik helyre.
+- Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd> /<kbd>Jobb</kbd> gombokat az oldalak lapozásához
 - Ha a játék mappád láthatatlan, be kell kapcsolnod a láthatatlan fájlok megjelenítését a TWiLight Menu++'s GUI beállításai között
 - Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
-- Ha a játékod nem a [támogatott kiterjesztéseket](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
+- Ha a játékod nem a [támogatott kiterjesztést](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) használja, szükséges lehet, hogy módosítsd a kiterjesztést a fájl átnevezésével
 
 #### Hogyan érem el a TWiLight Menu++ beállításait?
 A TWiLight Menu++ beállításainak elérési módja a konfigurációtól függő.

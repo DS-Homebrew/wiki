@@ -9,8 +9,8 @@ description: How to use custom fonts with TWiLight Menu++
 
 TWiLight Menu++ può utilizzare Stili Di Testo personalizzati in formato NFTR (Nitro FonT Resource). Vengono applicati nelle Impostazioni, nel manuale, e nei temi del Nintendo DSi, Nintendo 3DS, SEGA Saturn, e Homebrew Launcher.
 
-### Informazioni sui Stili di testo
-Ci sono tre stili di testo inclusi in TWiLight Menu++. Quando si è in modalità DSi tutti i caratteri per tutte le lingue in cui è tradotto TWiLight Menu++ sono disponibili, ma quando si è in modalità DS sono limitati a causa delle limitazioni della RAM. I stili di testo di base sono i seguenti:
+### Informazioni sugli Stili di testo
+Ci sono tre stili di testo inclusi in TWiLight Menu++. Quando si è in modalità DSi tutti i caratteri per tutte le lingue in cui è tradotto TWiLight Menu++ sono disponibili, ma quando si è in modalità DS sono limitati a causa delle limitazioni della RAM. Gli stili di testo di base sono i seguenti:
 - Predefinito: Utilizza lo stile di testo ufficiale DSi come stile principale e supporta tutti i caratteri in modalità DS
 - Cinese (Semplificato): Usa Noto Sans CS come stile principale e ha più caratteri cinesi (semplificati) in modalità DS, al costo di altri caratteri di altre lingue
 - Coreano: E' identico a quello Predefinito in modalità DSi, ma in modalità DS ha un set più completo di hangul, al costo di altri caratteri di altre lingue

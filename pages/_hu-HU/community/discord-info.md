@@ -98,7 +98,7 @@ Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami v
 
 Tulajdonos: shutterbug2000#8835
 
-Adminisztrátorok: RocketRobz#4931, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrators: RocketRobz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
 Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
 

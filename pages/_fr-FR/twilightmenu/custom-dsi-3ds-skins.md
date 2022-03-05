@@ -127,7 +127,7 @@ Il doit s'agir de fichiers PNG. N'importe quel fichier peut être utilisé, mais
 ### Texture vidéo (dossier `video`)
 Utilisé uniquement pour le thème 3DS, `3dsRotatingCubes.rvid` est un fichier Rocket Video. Pour plus d'informations sur la conversion de vidéos en rvid, lisez [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) sur le wiki de Vid2RVID. Si vous ne voulez pas qu'il soit affiché, vous pouvez simplement le supprimer.
 
-### Textures du volume (`volume` dossier)
+### Textures du volume (dossier `volume`)
 Il doit s'agir de fichiers PNG. N'importe quel fichier peut être utilisé, mais seuls les fichiers 100 % transparents sont acceptés. Tout pixel transparent dans une texture doit l'être dans toutes les autres afin qu'il soit correctement écrasé lors d'un changement.
 
 | Texture | Description                              |

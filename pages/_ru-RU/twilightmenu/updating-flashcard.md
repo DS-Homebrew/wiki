@@ -17,8 +17,9 @@ description: Как обновить TWiLight Menu++ на флеш-картри�
 ### Обновление
 1. Скачайте последнюю версию [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Разархивируйте `TWiLightMenu-Flashcard.7z`
-1. Скопируйте папку `_nds` в корень вашей microSD карты, которая будет вставлена в флеш-картридж
-1. Скопируйте файл `BOOT.NDS` в корень вашей microSD карты, которая будет вставлена в флеш-картридж
+1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
 
 ### Дополнительные шаги для пользователей DSi/3DS SD карт
 
