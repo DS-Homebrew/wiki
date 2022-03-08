@@ -35,21 +35,10 @@
 			"title": "Indexes"
 		}
 	],
-	"nds-bootstrap": [
-
-	],
-	"gbarunner2": [
-
-	],
-	"hiyacfw": [
-		{
-			"key": "other",
-			"title": "Other"
-		}
-	],
-	"godmode9i": [
-
-	],
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [],
+	"godmode9i": [],
 	"community": [
 		{
 			"key": "discord",
