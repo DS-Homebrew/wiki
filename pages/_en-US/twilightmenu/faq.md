@@ -17,6 +17,7 @@ Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi
 #### How do I fix getting a white screen when booting TWiLight Menu++?
 - Reboot the console
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - If that also doesn't work, try a different SD card
 
 #### Where is the Acekard/Wood UI theme?
@@ -33,6 +34,8 @@ You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nd
 - On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". This will automatically install it to the required location.
 
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> on the game to open per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
 
 #### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
