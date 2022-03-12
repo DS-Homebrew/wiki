@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: hiyacfw
-title: Installing
-long_title: Installing hiyaCFW
-description: How to install hiyaCFW on the Nintendo DSi
+title: Pemasangan (Installing)
+long_title: Memasang hiyaCFW
+description: Cara memasang hiyaCFW pada Nintendo DSi
 tabs:
   - 
     windows: Windows
@@ -12,13 +12,13 @@ tabs:
     other: Linux
 ---
 
-Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
+JANGAN perbarui sistem (system update) setelah memasang hiyaCFW. Nanti tambalan hiyaCFW pada kartu SD akan lepas.
 {: .alert .alert-danger}
 
-### Requirements
-- A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
-- A Windows, macOS, or Linux device
+### Persyaratan
+- Nintendo DSi yang sudah [terpasang Unlaunch](https://dsi.cfw.guide/installing-unlaunch)
+- Cadangan NAND yang diambil dari konsol [menggunakan dumpTool](https://dsi.cfw.guide/dumping-nand)
+- Perangkat Windows, macOS, atau Linux
 
 ### Bagian 1: Mempersiapkan komputer untuk memasang hiyaCFW
 {% capture tab-windows %}
@@ -51,7 +51,7 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Bagian 2: Menambahkan berkas hiyaCFW ke kartu SD
-![Screenshot of the hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+![Tangkapan Layar hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Launch the hiyaCFW Helper
   - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
@@ -75,5 +75,5 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
 1. Change the settings to your liking, then press <kbd>START</kbd> to continue
 
-If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
+Jika muncul tulisan `Terjadi kegalatan`, mohon rujuk laman [soal sering ditanya](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
 {: .alert .alert-warning}

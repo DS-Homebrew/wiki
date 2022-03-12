@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Cara Membuat Skin DSi/3DS
-description: How to make custom DSi and 3DS skins for TWiLight Menu++
+description: Cara membuat skin DSi dan 3DS ubah suai untuk TWiLight Menu++
 ---
 
 To make a TWiLight Menu++ skin you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide as it's capable of everything needed.
@@ -22,7 +22,7 @@ You can now open whichever image you want to edit in GIMP and continue to the se
 ### Background textures (`background` folder)
 These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 
-| Texture            | Description                                                                                       |
+| Tekstur            | Keterangan                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
 | bottom             | The bottom background texture when not hovering over an icon                                      |
 | bottom_bubble      | The bottom background texture when hovering over an icon                                          |
@@ -33,7 +33,7 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 ### Battery textures (`battery` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one icon should be transparent in all of them so that it's properly overwritten on change.
 
-| Texture            | Description                                                                 |
+| Tekstur            | Keterangan                                                                  |
 | ------------------ | --------------------------------------------------------------------------- |
 | battery0           | Flashes with `battery1` when the battery is very low                        |
 | battery1           | 0-4 digunakan di mode DSi                                                   |
@@ -63,7 +63,7 @@ If there are fewer than 16 colors in your final colormap press the `+` button at
 
 When exporting it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
 
-| Texture       | Description                                                                                     |
+| Tekstur       | Keterangan                                                                                      |
 | ------------- | ----------------------------------------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                   |
 | box           | The box texture, containing both full and empty textures (DSi Theme)                            |
@@ -76,14 +76,14 @@ When exporting it's recommended to check the `Do not write color space informati
 | cursor        | The border with animation frames that indicate the selected icon (3DS Theme)                    |
 | dialogbox     | The background of the dialog box that slides down                                               |
 | folder        | The icon for folders                                                                            |
-| icon_a26      | The icon for Atari 2600 games                                                                   |
-| icon_gb       | The icon for Game Boy games                                                                     |
+| icon_a26      | Ikon untuk permainan Atari 2600                                                                 |
+| icon_gb       | Ikon untuk permainan Game Boy                                                                   |
 | icon_gba      | The icon for GBA games (all themes) and the top icon to launch GBARunner2 (3DS Theme)           |
-| icon_gbamode  | The icon for native GBA Mode                                                                    |
-| icon_gg       | The icon for Game Gear games                                                                    |
+| icon_gbamode  | Ikon untuk mode GBA asli mesin (native)                                                         |
+| icon_gg       | Ikon untuk permainan Game Gear                                                                  |
 | icon_int      | The icon for Intellivision games                                                                |
 | icon_m5       | The icon for Sord M5 games                                                                      |
-| icon_manual   | The icon for the manual                                                                         |
+| icon_manual   | Ikon untuk manual panduan                                                                       |
 | icon_md       | The icon for Mega Drive games                                                                   |
 | icon_nes      | The icon for NES games                                                                          |
 | icon_ngp      | The icon for Neo Geo Pocket games                                                               |
@@ -104,19 +104,19 @@ When exporting it's recommended to check the `Do not write color space informati
 | start_text    | The text displayed on the start border (DSi Theme)                                              |
 | wirelessicons | The icons displayed to indicate a game has wireless support                                     |
 
-### DS Classic Menu textures (`quickmenu` folder)
-These must be PNG files.
+### Tekstur Menu DS Klasik (folder `quickmenu`)
+Yang ini harus berkas PNG.
 
-| Texture    | Description                                         |
-| ---------- | --------------------------------------------------- |
-| bottombg   | Background for the bottom screen                    |
-| phat_topbg | Background for the top screen on DS Phat            |
-| topbg      | Background for the top screen on any other DS model |
+| Tekstur    | Keterangan                                            |
+| ---------- | ----------------------------------------------------- |
+| bottombg   | Latar belakang untuk layar bawah                      |
+| phat_topbg | Latar belakang untuk layar atas pada DS Phat / Kodok  |
+| topbg      | Latar belakang untuk layar atas pada model DS apa pun |
 
 ### UI textures (`ui` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all related textures so that it's properly overwritten on change.
 
-| Texture          | Description                                             |
+| Tekstur          | Keterangan                                              |
 | ---------------- | ------------------------------------------------------- |
 | date_time_font | The font to display the date and time                   |
 | Lshoulder        | The left shoulder                                       |
@@ -130,54 +130,54 @@ Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For
 ### Volume textures (`volume` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them so that it's properly overwritten on change.
 
-| Texture | Description                      |
-| ------- | -------------------------------- |
-| volume0 | Volume is only shown in DSi mode |
-| volume1 | 0 is muted, 4 is full volume     |
-| volume2 |                                  |
-| volume3 |                                  |
-| volume4 |                                  |
+| Tekstur | Keterangan                            |
+| ------- | ------------------------------------- |
+| volume0 | Volume hanya muncul di mode DSi       |
+| volume1 | 0 yang suara mati, 4 yang suara penuh |
+| volume2 |                                       |
+| volume3 |                                       |
+| volume4 |                                       |
 
-## Theme configuration (`theme.ini` file)
+## Penyetelan tema (berkas `theme.ini`)
 You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures. For true/false options `0` is false and `1` is true. Options with a blank default value for a theme are unused for that theme.
 
-| Value                    | Description                                                                                                  | Default (3DS) | Default (DSi) |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------- |
-| `StartBorderRenderY`     | The initial Y position of the Start Border                                                                   | 92            | 81            |
-| `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32            | 32            |
-| `StartBorderSpriteH`     | The height of the start border sprite                                                                        | 64            | 80            |
-| `StartTextRenderY`       | The initial Y position of the Start tex                                                                      | 143           | 143           |
-| `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98            | 80            |
-| `BubbleTipRenderX`       | The X position of the tip of the bubble that is drawn over the start border                                  | 125           | 122           |
-| `BubbleTipSpriteW`       | The width of the bubble tip sprite                                                                           | 7             | 11            |
-| `BubbleTipSpriteH`       | The height of the bubble tip sprite                                                                          | 7             | 8             |
-| `TitleboxRenderY`        | The initial Y position of the title text box                                                                 | 96            | 85            |
-| `TitleboxTextY`          | The initial Y position of the title text                                                                     | 55            | 30            |
-| `TitleboxTextW`          | The maximum width of the title text                                                                          | 200           | 240           |
-| `MacroTitleboxTextY`     | The initial Y position of the title text in macro mode                                                       |               | 40            |
-| `MacroTitleboxTextW`     | The maximum width of the title text in macro mode                                                            |               | 224           |
-| `TitleboxTextLarge`      | Whether to use the large font for the title text                                                             | 0             | 1             |
-| `TitleboxMaxLines`       | The maximum lines of text to show of the title                                                               | 3             | 4             |
-| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
-| `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 5             | 5             |
-| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172           |
-| `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
-| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
-| `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
-| `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
-| `FontPalette1`           | The transparent color of the font, unused for default fonts                                                  | 0x0000        | 0x0000        |
-| `FontPalette2`           | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                   | 0xDEF7        | 0xDEF7        |
-| `FontPalette3`           |                                                                                                              | 0xC631        | 0xC631        |
-| `FontPalette4`           |                                                                                                              | 0xA108        | 0xA108        |
-| `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        |               | 1             |
-| `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      |               | 1             |
-| `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         |               | 1             |
-| `MovingArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow shown when moving icons                     |               | 1             |
-| `LaunchDotsUserPalette`  | Whether to use the DS Profile color for the palette of the launch dots                                       |               | 1             |
-| `DialogBoxUserPalette`   | Whether to use the DS Profile color for the palette of the dialog box                                        |               | 1             |
-| `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0             | 1             |
-| `RotatingCubesRenderY`   | The Y position on the top screen to draw the rotating cubes                                                  | 78            |               |
+| Nilai (Value)            | Keterangan                                                                                                   | Bawaan (3DS) | Bawaan (DSi) |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------ | ------------ |
+| `StartBorderRenderY`     | Posisi awalan Y dari tepian kotak penunjuk permainan                                                         | 92           | 81           |
+| `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32           | 32           |
+| `StartBorderSpriteH`     | The height of the start border sprite                                                                        | 64           | 80           |
+| `StartTextRenderY`       | Posisi awalan Y dari teks "Start"                                                                            | 143          | 143          |
+| `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98           | 80           |
+| `BubbleTipRenderX`       | The X position of the tip of the bubble that is drawn over the start border                                  | 125          | 122          |
+| `BubbleTipSpriteW`       | The width of the bubble tip sprite                                                                           | 7            | 11           |
+| `BubbleTipSpriteH`       | The height of the bubble tip sprite                                                                          | 7            | 8            |
+| `TitleboxRenderY`        | The initial Y position of the title text box                                                                 | 96           | 85           |
+| `TitleboxTextY`          | The initial Y position of the title text                                                                     | 55           | 30           |
+| `TitleboxTextW`          | The maximum width of the title text                                                                          | 200          | 240          |
+| `MacroTitleboxTextY`     | The initial Y position of the title text in macro mode                                                       |              | 40           |
+| `MacroTitleboxTextW`     | The maximum width of the title text in macro mode                                                            |              | 224          |
+| `TitleboxTextLarge`      | Whether to use the large font for the title text                                                             | 0            | 1            |
+| `TitleboxMaxLines`       | The maximum lines of text to show of the title                                                               | 3            | 4            |
+| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4            | 4            |
+| `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 5            | 5            |
+| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172          | 172          |
+| `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0            | 0            |
+| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172          | 172          |
+| `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178          | 178          |
+| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5            | 5            |
+| `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235          | 235          |
+| `FontPalette1`           | The transparent color of the font, unused for default fonts                                                  | 0x0000       | 0x0000       |
+| `FontPalette2`           | Warna pada font, gunakan [situs ini](http://www.conradshome.com/html2bgr15/) untuk mengonversi               | 0xDEF7       | 0xDEF7       |
+| `FontPalette3`           |                                                                                                              | 0xC631       | 0xC631       |
+| `FontPalette4`           |                                                                                                              | 0xA108       | 0xA108       |
+| `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        |              | 1            |
+| `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      |              | 1            |
+| `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         |              | 1            |
+| `MovingArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow shown when moving icons                     |              | 1            |
+| `LaunchDotsUserPalette`  | Whether to use the DS Profile color for the palette of the launch dots                                       |              | 1            |
+| `DialogBoxUserPalette`   | Whether to use the DS Profile color for the palette of the dialog box                                        |              | 1            |
+| `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0            | 1            |
+| `RotatingCubesRenderY`   | The Y position on the top screen to draw the rotating cubes                                                  | 78           |              |
 
 ## Bagian 3: Menambahkan ke TWiLight Menu++
 Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
@@ -185,5 +185,5 @@ Once you've edited some graphics and would like to test your skin, simply copy y
 ## Bagian 4: Membagikan skin
 Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
 
-## Custom background music and sound effects
+## Musik latar belakang dan efek suara ubah suai (custom)
 The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

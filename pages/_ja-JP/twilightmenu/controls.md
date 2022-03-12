@@ -12,7 +12,7 @@ description: TWiLight Menu++を使うためのコントロール
 - <kbd>左</kbd>・<kbd>右</kbd>：ゲーム・アプリの選択
 - <kbd class="face">A</kbd>・<kbd>START</kbd>：ゲーム・アプリを起動する
 - <kbd class="l">L</kbd>・<kbd class="r">R</kbd>または<kbd>SELECT</kbd>+<kbd>左</kbd>・<kbd>右</kbd>：ページを切り替える
-- （DSi・サターン・HBLのテーマ）<kbd>SELECT</kbd>+<kbd>上</kbd>・<kbd>下</kbd>してから、<kbd>SELECT</kbd>を離します
+- （DSi・サターン・HBLのテーマ）<kbd>SELECT</kbd>+<kbd>上</kbd>・<kbd>下</kbd>してから、<kbd>SELECT</kbd>を離します：SDカードとフラッシュカードを切り替える
 - <kbd class="face">Y</kbd>：ゲームごとの設定
    - <kbd class="face">X</kbd>：チートメニュー
       - <kbd class="face">A</kbd>：チートを切り替える

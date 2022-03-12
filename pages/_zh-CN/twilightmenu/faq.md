@@ -11,28 +11,28 @@ description: TWiLight Menu++ 的常见问题和故障处理
 若要获取更多常见问题解答，请访问 [GBAtemp 的帖子](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)。
 {:.alert .alert-info}
 
-#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
-TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
+#### 为什么我的3DS在启动 TWiLight Menu++ 时，会出现黑屏、崩溃、断电等等的情况？
+TWL_FIRM可能以某种方式被破坏了。 按照这个指南来解决这个问题：<https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
-#### How do I fix getting a white screen when booting TWiLight Menu++?
-- Reboot the console
-- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
-- If that also doesn't work, try a different SD card
+#### 如何解决启动 TWiLight Menu++ 时出现白屏的问题？
+- 重新启动主机
+- 如果这不起作用，将你的SD卡格式化为FAT32，分配单元大小为32KB。
+- 如果这也不奏效，尝试换一张SD卡
 
-#### Where is the Acekard/Wood UI theme?
-The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+#### Acekard/Wood UI主题在哪里？
+由于Acekard（也叫Wood UI）主题的BUG，会导致SD卡损坏，因此主题被删除。 请等待之后的版本修复。 这个主题的回归进度可以在[这个PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109)中找到。
 
-#### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
-Go into TWLMenu++ Settings, and disable `Update recently played list`.
+#### 如何解决 TWiLight Menu++ 在启动游戏时重新启动或出现 Guru Meditation Error 的问题？
+进入 TWLMenu++ 设置，禁用 `更新最近游戏列表`。
 
-#### Why do I get a white screen when trying to load a DS game from SD card?
-See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
+#### 为什么在从SD卡里载入DS游戏的时候白屏了？
+在 nds-bootstrap 常见问题页面查看:[我的 ROM 有问题，我该怎么办？](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do)
 
-#### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". This will automatically install it to the required location.
+#### 如何使用金手指？
+你需要在 `sd:/_nds/TWiLightMenu/extras/` 文件夹中有一个 `usrcheat.dat` 文件格式的金手指数据库。 最新的金手指数据库可在此处下载: [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/)
+- 在3DS上，这个数据库可以在Universal-Updater应用程序中安装 "NDS(i) Cheat Databases"软件包来获得。 这个软件包将自动将其安装到所需位置。
 
-Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+另外，你还可以使用 [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) 来创建你自己的金手指数据库。
 
 #### How do I show a custom picture on the top screen of the DSi theme?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.

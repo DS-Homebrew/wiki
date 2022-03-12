@@ -12,11 +12,11 @@
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "Pemasangan (Installing)"
+			"title": "Pemasangan"
 		},
 		{
 			"key": "updating",
-			"title": "Pemerbaruan"
+			"title": "Pembaruan"
 		},
 		{
 			"key": "customization",
@@ -28,7 +28,7 @@
 		},
 		{
 			"key": "uninstalling",
-			"title": "Pencopotan (Uninstalling)"
+			"title": "Pencopotan"
 		},
 		{
 			"key": "indexes",

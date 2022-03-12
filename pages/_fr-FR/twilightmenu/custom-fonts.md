@@ -13,7 +13,7 @@ TWiLight Menu++ peut utiliser des polices personnalisées au format NFTR (Nitro 
 Trois polices sont incluses avec TWiLight Menu++. Lorsque TWiLight Menu++ fonctionne en mode DSi, elles contiennent tous les caractères nécessaires pour toutes les langues dans lesquelles TWiLight est traduit, mais lorsqu'il fonctionnent en mode DS, elles sont plus limitées en raison de la limitation de la RAM. Elles sont les suivantes :
 - Par défaut : cette police utilise la police officielle de la DSi comme police principale et prend en charge tous les caractères utilisés dans TWiLight Menu++ lui-même dans toutes les langues en mode DS
 - Chinois (simplifié) : cette police utilise Noto Sans CS comme police principale et comporte beaucoup plus de caractères chinois (simplifiés) en mode DS, au détriment des caractères des autres langues
-- Coréen : cette police est identique à Default en mode DSi, mais en mode DS, il dispose d'un ensemble plus complet de hangul, au détriment des caractères des autres langues
+- Coréen : cette police est identique à Default en mode DSi, mais en mode DS, il dispose d'un ensemble plus complet de hangeul, au détriment des caractères des autres langues
 
 ### Structure du répertoire
 Les polices personnalisées sont chargées à partir de `sd:/_nds/TWiLightMenu/extras/fonts/[nom de la police]/[fichier de police].nftr` où `[nom de la police]` est le nom que vous voulez et `[fichier de police].nftr` est l'un des suivants :

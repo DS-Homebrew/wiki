@@ -70,7 +70,7 @@ Exportáláskor ajánlott bejelölni a `Ne írjon színtérinformációt` jelöl
 | box_empty     | Üres doboz textúra (3DS téma)                                                                 |
 | box_full      | Doboz ikonnal textúra (3DS téma)                                                              |
 | brace         | A kapocs textúra ami az első és utolsó ikon után jelenik meg (DSi téma)                       |
-| bubble        | Az alsó darabja a buboréknak, ami az induló keret vagy az ikon doboz felé rajzolt             |
+| bubble        | Az alsó darabja a buboréknak, ami az Start ikon keret vagy az ikon doboz felé rajzolt         |
 | button_arrow  | A nyilak textúrái mindkét oldalán az alsó gördítő sávnak (DSi téma)                           |
 | cornerbutton  | A gombok, amik megjelennek a SELECT menüben (DSi téma) (A név egy régi felhasználáson alapul) |
 | cursor        | A keret animáció kockák, amik a kiválasztott ikont jelzik (3DS téma)                          |
@@ -141,43 +141,43 @@ Ezeknek PNG fájloknak kell lenniük, bármilyen fájl működni fog, azonban cs
 ## Téma konfiguráció (`theme.ini` fájl)
 Különböző opciókat konfigurálhatsz arról, hogy hogyan kerüljön rajzolásra a téma a `theme.ini` fájlban, hogy nagyobb sprite-okat és texturákat használhass. Az igaz/hamis opciók esetében `0` a hamis és `1` az igaz. Az üres alapértelmezett értékkel rendelkező beállítások egy téma esetében nem használatosak az adott témában.
 
-| Érték                    | Leírás                                                                                                              | Alapértelmezés (3DS) | Alapértelmezés (DSi) |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------- |
-| `StartBorderRenderY`     | A kezdeti Y pozíciója a keret indítónak                                                                             | 92                   | 81                   |
-| `StartBorderSpriteW`     | A keretindító sprite szélessége. Fontos megjegyezni, hogy a keret indító textúra pontosan a fele a teljes keretnek. | 32                   | 32                   |
-| `StartBorderSpriteH`     | A keret indító sprite magassága                                                                                     | 64                   | 80                   |
-| `StartTextRenderY`       | The initial Y position of the Start text                                                                            | 143                  | 143                  |
-| `BubbleTipRenderY`       | Az Y pozíciója a buborékcsúcsnak, ami a kezdő keret felé rajzolt                                                    | 98                   | 80                   |
-| `BubbleTipRenderX`       | Az X pozíciója a buborékcsúcsnak, ami a kezdő keret felé rajzolt                                                    | 125                  | 122                  |
-| `BubbleTipSpriteW`       | A buborékcsúcs sprite szélessége                                                                                    | 7                    | 11                   |
-| `BubbleTipSpriteH`       | A buborékcsúcs sprite magassága                                                                                     | 7                    | 8                    |
-| `TitleboxRenderY`        | A kezdeti Y pozíciója a cím szövegdobozának                                                                         | 96                   | 85                   |
-| `TitleboxTextY`          | A kezdeti Y pozíciója a cím szövegnek                                                                               | 55                   | 30                   |
-| `TitleboxTextW`          | A maximum szélessége a cím szövegnek                                                                                | 200                  | 240                  |
-| `MacroTitleboxTextY`     | A kezdeti Y pozíciója a cím szövegnek makro módban                                                                  |                      | 40                   |
-| `MacroTitleboxTextW`     | A maximum szélessége a cím szövegnek makró módban                                                                   |                      | 224                  |
-| `TitleboxTextLarge`      | Használja-e a nagy betűtípust a cím szöveghez                                                                       | 0                    | 1                    |
-| `TitleboxMaxLines`       | A maximum sorok száma a cím megjelenítésekor                                                                        | 3                    | 4                    |
-| `VolumeRenderX`          | Az X pozíciója a hangerő ikonnak a felső képernyőn                                                                  | 4                    | 4                    |
-| `VolumeRenderY`          | Az Y pozíciója a hangerő ikonnak a felső képernyőn                                                                  | 5                    | 5                    |
-| `ShoulderLRenderY`       | Az Y pozíciója bal vállnak a felső képernyőn                                                                        | 172                  | 172                  |
-| `ShoulderLRenderX`       | Az X pozíciója bal vállnak a felső képernyőn                                                                        | 0                    | 0                    |
-| `ShoulderRRenderY`       | Az Y pozíciója jobb vállnak a felső képernyőn                                                                       | 172                  | 172                  |
-| `ShoulderRRenderX`       | Az X pozíciója jobb vállnak a felső képernyőn                                                                       | 178                  | 178                  |
-| `BatteryRenderY`         | Az Y pozíciója az elem ikonnak a felső képernyőn                                                                    | 5                    | 5                    |
-| `BatteryRenderX`         | Az X pozíciója az elem ikonnak a felső képernyőn                                                                    | 235                  | 235                  |
-| `FontPalette1`           | A betűtípus átlátszó színe, alapértelmezett betűtípusok esetében nem használt                                       | 0x0000               | 0x0000               |
-| `FontPalette2`           | A betűtípus színei, használd [ezt az oldalt](http://www.conradshome.com/html2bgr15/) a konvertáláshoz               | 0xDEF7               | 0xDEF7               |
-| `FontPalette3`           |                                                                                                                     | 0xC631               | 0xC631               |
-| `FontPalette4`           |                                                                                                                     | 0xA108               | 0xA108               |
-| `StartTextUserPalette`   | Használja-e a DS profil színt a kezdő szöveg palettájához                                                           |                      | 1                    |
-| `StartBorderUserPalette` | Használja-e a DS profil színt a kezdő keret palettájához                                                            |                      | 1                    |
-| `ButtonArrowUserPalette` | Használja-e a DS profil színt a nyíl gombok palettájához, amik a képernyő alján kerülnek megjelenítésre             |                      | 1                    |
-| `MovingArrowUserPalette` | Használja-e a DS profil színt a nyilak palettájához, amik ikonok mozgatásakor kerülnek megjelenítésre               |                      | 1                    |
-| `LaunchDotsUserPalette`  | Használja-e a DS profil színt az indítási pontok palettájához                                                       |                      | 1                    |
-| `DialogBoxUserPalette`   | Használja-e a DS profil színt a párbeszéd ablak palettájához                                                        |                      | 1                    |
-| `RenderPhoto`            | Kerüljön vagy ne kerüljön fénykép rajzolásra a felső képernyőn                                                      | 0                    | 1                    |
-| `RotatingCubesRenderY`   | A forgó kockák rajzolásának Y pozíciója a felső képernyőn                                                           | 78                   |                      |
+| Érték                    | Leírás                                                                                                                       | Alapértelmezés (3DS) | Alapértelmezés (DSi) |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------- |
+| `StartBorderRenderY`     | A kezdeti Y pozíciója a Start ikon keretnek                                                                                  | 92                   | 81                   |
+| `StartBorderSpriteW`     | A Start ikon keret sprite szélessége. Fontos megjegyezni, hogy a Start ikon keret textúra pontosan a fele a teljes keretnek. | 32                   | 32                   |
+| `StartBorderSpriteH`     | A Start ikon keret sprite magassága                                                                                          | 64                   | 80                   |
+| `StartTextRenderY`       | A kezdeti Y pozíciója a Start ikon szövegnek                                                                                 | 143                  | 143                  |
+| `BubbleTipRenderY`       | Az Y pozíciója a buborékcsúcsnak, ami a kezdő keret felé rajzolt                                                             | 98                   | 80                   |
+| `BubbleTipRenderX`       | Az X pozíciója a buborékcsúcsnak, ami a kezdő keret felé rajzolt                                                             | 125                  | 122                  |
+| `BubbleTipSpriteW`       | A buborékcsúcs sprite szélessége                                                                                             | 7                    | 11                   |
+| `BubbleTipSpriteH`       | A buborékcsúcs sprite magassága                                                                                              | 7                    | 8                    |
+| `TitleboxRenderY`        | A kezdeti Y pozíciója a cím szövegdobozának                                                                                  | 96                   | 85                   |
+| `TitleboxTextY`          | A kezdeti Y pozíciója a cím szövegnek                                                                                        | 55                   | 30                   |
+| `TitleboxTextW`          | A maximum szélessége a cím szövegnek                                                                                         | 200                  | 240                  |
+| `MacroTitleboxTextY`     | A kezdeti Y pozíciója a cím szövegnek makro módban                                                                           |                      | 40                   |
+| `MacroTitleboxTextW`     | A maximum szélessége a cím szövegnek makró módban                                                                            |                      | 224                  |
+| `TitleboxTextLarge`      | Használja-e a nagy betűtípust a cím szöveghez                                                                                | 0                    | 1                    |
+| `TitleboxMaxLines`       | A maximum sorok száma a cím megjelenítésekor                                                                                 | 3                    | 4                    |
+| `VolumeRenderX`          | Az X pozíciója a hangerő ikonnak a felső képernyőn                                                                           | 4                    | 4                    |
+| `VolumeRenderY`          | Az Y pozíciója a hangerő ikonnak a felső képernyőn                                                                           | 5                    | 5                    |
+| `ShoulderLRenderY`       | Az Y pozíciója bal vállnak a felső képernyőn                                                                                 | 172                  | 172                  |
+| `ShoulderLRenderX`       | Az X pozíciója bal vállnak a felső képernyőn                                                                                 | 0                    | 0                    |
+| `ShoulderRRenderY`       | Az Y pozíciója jobb vállnak a felső képernyőn                                                                                | 172                  | 172                  |
+| `ShoulderRRenderX`       | Az X pozíciója jobb vállnak a felső képernyőn                                                                                | 178                  | 178                  |
+| `BatteryRenderY`         | Az Y pozíciója az elem ikonnak a felső képernyőn                                                                             | 5                    | 5                    |
+| `BatteryRenderX`         | Az X pozíciója az elem ikonnak a felső képernyőn                                                                             | 235                  | 235                  |
+| `FontPalette1`           | A betűtípus átlátszó színe, alapértelmezett betűtípusok esetében nem használt                                                | 0x0000               | 0x0000               |
+| `FontPalette2`           | A betűtípus színei, használd [ezt az oldalt](http://www.conradshome.com/html2bgr15/) a konvertáláshoz                        | 0xDEF7               | 0xDEF7               |
+| `FontPalette3`           |                                                                                                                              | 0xC631               | 0xC631               |
+| `FontPalette4`           |                                                                                                                              | 0xA108               | 0xA108               |
+| `StartTextUserPalette`   | Használja-e a DS profil színt a kezdő szöveg palettájához                                                                    |                      | 1                    |
+| `StartBorderUserPalette` | Használja-e a DS profil színt a kezdő keret palettájához                                                                     |                      | 1                    |
+| `ButtonArrowUserPalette` | Használja-e a DS profil színt a nyíl gombok palettájához, amik a képernyő alján kerülnek megjelenítésre                      |                      | 1                    |
+| `MovingArrowUserPalette` | Használja-e a DS profil színt a nyilak palettájához, amik ikonok mozgatásakor kerülnek megjelenítésre                        |                      | 1                    |
+| `LaunchDotsUserPalette`  | Használja-e a DS profil színt az indítási pontok palettájához                                                                |                      | 1                    |
+| `DialogBoxUserPalette`   | Használja-e a DS profil színt a párbeszéd ablak palettájához                                                                 |                      | 1                    |
+| `RenderPhoto`            | Kerüljön vagy ne kerüljön fénykép rajzolásra a felső képernyőn                                                               | 0                    | 1                    |
+| `RotatingCubesRenderY`   | A forgó kockák rajzolásának Y pozíciója a felső képernyőn                                                                    | 78                   |                      |
 
 ## 3. rész: Hozzáadás a TWiLight Menu++-hoz
 Ha szerkesztettél néhány grafikát és szeretnéd tesztelni a szkinjeidet, csak másold a szkin foldert (a mappát, ami a `background`, `battery`, és egyéb mappákat tartalmazza) az `sd:/_nds/TWiLightMenu/3dsmenu/themes/` vagy az `sd:/_nds/TWiLightMenu/dsimenu/themes/` mappába attól függően, hogy 3DS-hez vagy a DSi-hez tartoznak.

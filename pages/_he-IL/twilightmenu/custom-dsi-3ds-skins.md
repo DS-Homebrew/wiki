@@ -146,7 +146,7 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `StartBorderRenderY`     | The initial Y position of the Start Border                                                                   | 92            | 81            |
 | `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32            | 32            |
 | `StartBorderSpriteH`     | The height of the start border sprite                                                                        | 64            | 80            |
-| `StartTextRenderY`       | The initial Y position of the Start tex                                                                      | 143           | 143           |
+| `StartTextRenderY`       | The initial Y position of the Start text                                                                     | 143           | 143           |
 | `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98            | 80            |
 | `BubbleTipRenderX`       | The X position of the tip of the bubble that is drawn over the start border                                  | 125           | 122           |
 | `BubbleTipSpriteW`       | The width of the bubble tip sprite                                                                           | 7             | 11            |

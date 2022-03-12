@@ -16,7 +16,7 @@ TWL_FIRM a pu être corrompu d'une manière ou d'une autre. Suivez ce guide pour
 
 #### Comment puis-je corriger l'obtention un écran blanc lors du démarrage de TWiLight Menu++ ?
 - Redémarrez la console
-- Si cela ne fonctionne pas, formatez votre carte SD en FAT32 avec une taille de cluster/d'allocation de 32 ko
+- Si cela ne fonctionne pas, formatez votre carte SD en FAT32 avec une taille de cluster/d'allocation de 32 Ko
 - Si cela ne fonctionne pas non plus, essayez une autre carte SD
 
 #### Où est le thème Acekard/Wood UI ?

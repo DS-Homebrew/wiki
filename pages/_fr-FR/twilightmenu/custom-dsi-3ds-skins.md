@@ -139,14 +139,14 @@ Il doit s'agir de fichiers PNG. N'importe quel fichier peut être utilisé, mais
 | volume4 |                                          |
 
 ## Configuration du thème (fichier `theme.ini`)
-Vous pouvez configurer diverses options sur la façon dont le thème est affiché dans le fichier `theme.ini` pour tenir compte de sprites ou de textures plus grands. Pour les options vrai/faux, `0` est faux et `1` est vrai. Les options dont la valeur par défaut est vide pour un thème sont inutilisées pour ce thème.
+Vous pouvez configurer diverses options sur la façon dont le thème est affiché dans le fichier `theme.ini` pour tenir compte de plus grands sprites ou de plus grandes textures. Pour les options vrai/faux, `0` est faux et `1` est vrai. Les options dont la valeur par défaut est vide pour un thème sont inutilisées pour ce thème.
 
 | Valeur                   | Description                                                                                                                                                | Par défaut (3DS) | Par défaut (DSi) |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---------------- |
 | `StartBorderRenderY`     | La position Y initiale de la bordure de démarrage                                                                                                          | 92               | 81               |
 | `StartBorderSpriteW`     | La largeur du sprite de la bordure de démarrage. Notez que la texture de la bordure de démarrage correspond exactement à la moitié de la bordure complète. | 32               | 32               |
 | `StartBorderSpriteH`     | La hauteur du sprite de la bordure de démarrage                                                                                                            | 64               | 80               |
-| `StartTextRenderY`       | La position Y initiale de la texture de démarrage                                                                                                          | 143              | 143              |
+| `StartTextRenderY`       | La position Y initiale du texte de démarrage                                                                                                               | 143              | 143              |
 | `BubbleTipRenderY`       | La position Y de l'extrémité de la bulle qui est affichée au-dessus de la bordure de démarrage                                                             | 98               | 80               |
 | `BubbleTipRenderX`       | La position X de l'extrémité de la bulle qui est affichée au-dessus de la bordure de démarrage                                                             | 125              | 122              |
 | `BubbleTipSpriteW`       | La largeur du sprite de l'extrémité de la bulle                                                                                                            | 7                | 11               |

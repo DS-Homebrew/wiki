@@ -3,15 +3,15 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: indexes
-title: Pemasangan (Installing)
+title: Pemasangan
 long_title: Pemasangan TWiLight Menu++
 description: Cara memasang TWiLight Menu++ (halaman indeks)
 ---
 
-Proses pemasangan TWiLight Menu++ tergantung pada apa yang Anda gunakan: Nintendo DSi, Nintendo 3DS, atau flashcard Nintendo DS. Silakan pilih halaman untuk konsol yang Anda gunakan.
+Proses pemasangan TWiLight Menu++ tergantung pada apa yang kamu gunakan: Nintendo DSi, Nintendo 3DS, atau flashcard Nintendo DS. Silahkan pilih halaman untuk konsol yang Anda gunakan.
 
 ### 3DS/2DS
-Jika Anda menggunakan 3DS atau 2DS (dari kartu SD internal), ikuti [arahan untuk 3DS](installing-3ds).
+Jika kamu menggunakan 3DS atau 2DS (dari kartu SD internal), ikuti [arahan untuk 3DS](installing-3ds).
 
 [![Nintendo 3DS](/assets/images/consoles/old3ds.png)](installing-3ds) [![Nintendo 3DS XL](/assets/images/consoles/old3dsxl.png)](installing-3ds) [![Nintendo 2DS](/assets/images/consoles/2ds.png)](installing-3ds)
 
