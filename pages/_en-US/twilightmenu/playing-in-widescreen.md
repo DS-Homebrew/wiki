@@ -7,17 +7,17 @@ title: Playing in Widescreen
 description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+This section requires a 3DS family console, running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-### Preparation
-- Make sure Luma's `boot.firm` is on the SD root for this to work
-
 ### Installing
-1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Install `TWPatch.cia` using FBI
-   - You can also use Universal-Updater to install TWPatch instead of the previous two steps
-1. Return to the home menu and launch TWPatch
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
+   ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the TWPatch package
+   - If your console is unable to access the Internet, you can download [TWPatch.cia](https://db.universal-team.net/assets/files/TWPatch.cia) directly, then install it with FBI
+1. Return to the HOME menu and launch TWPatch
 1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
 1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
 1. Press <kbd class="face">B</kbd> to exit the patch menu
