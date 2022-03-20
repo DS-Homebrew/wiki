@@ -37,18 +37,18 @@
 					</svg>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-sm-end hover-content" id="language-dropdown">
-					{% for collection in site.collections %}
-						{% unless collection.label == "ic-IC" %}
-							{% assign path = page.path | replace: page.collection, collection.label %}
-							{% assign item = site[collection.label] | where: "path", path | first %}
-							{% if item %}
-								{% if item.lang != "en-US" or item.collection == "en-US" %}
-									<li><a class="dropdown-item {% if item.lang == page.collection %}active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ site.data.lang-names[item.lang] }}</a></li>
-								{% endif %}
-							{% endif %}
-						{% endunless %}
+					{% assign langs = site.data.lang-names | sort %}
+					{% for lang in langs %}
+						{% assign collection = site.collections | where_exp: "c", "c.label == lang[1]" | first %}
+						{% assign path = page.path | replace: page.collection, collection.label %}
+						{% assign item = site[collection.label] | where: "path", path | first %}
+						{% if item and item.lang != "en-US" or item.collection == "en-US" %}
+							<li><a class="dropdown-item {% if item.lang == page.collection %}active{% endif %}" lang="{{ item.lang }}" href="{{ item.url | remove: "index.html" | remove: ".html" }}" dir="{% if site.data.rtl contains item.collection %}rtl{%else%}ltr{% endif %}">{{ lang[0] }}</a></li>
+						{% endif %}
 					{% endfor %}
+
 					<li><hr class="dropdown-divider"></li>
+
 					{% assign path = page.path | replace: page.collection, "ic-IC" %}
 					{% assign item = site.ic-IC | where: "path", path | first %}
 					{% if item %}
