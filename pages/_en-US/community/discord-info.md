@@ -23,7 +23,6 @@ Always remember to check the channel topic and pins before talking in a channel.
 **Server Hub**
 - [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server
 - [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories
-- [#github-builds][github-builds] - Feed of all of our projects' nightly builds
 - [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
 - [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
 
