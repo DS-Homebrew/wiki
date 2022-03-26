@@ -35,7 +35,7 @@ You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nd
 
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
-Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> on TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
 
 #### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
