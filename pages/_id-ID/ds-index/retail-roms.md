@@ -104,7 +104,7 @@ The last letter of the title ID itself represents the language of the title. Usi
 
 **X** mewakili berikut:
 
-- A - Sedunia (tidak terhitung hanya satu saja yang memakai)
+- A - Sedunia (bukan berarti hanya satu yang menggunakan)
 - C - Bahasa Cina (Sederhana)
 - D - Bahasa Jerman
 - E - Bahasa Inggris Amerika

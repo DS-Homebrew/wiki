@@ -8,25 +8,25 @@ long_title: Pemasangan TWiLight Menu++ (Flashcard)
 description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 ---
 
-### Pemasangan (Installing)
-1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) versi terbaru
+### Pemasangan
+1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terbaru
 1. Ekstrak `TWiLightMenu-Flashcard.7z`
 1. Salin folder `_nds` ke root kartu microSD flashcard
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard
 1. Salin folder `roms` ke root kartu microSD flashcard
 1. Jika sudah ada data simpanan (save), sebelumnya pindahkan dulu berkas `.sav`, yang tadinya bersama ROM DS, ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
 1. ...
-   - **Pengguna DS Phat(kodok) / Lite:** Jika mengawal nyala `BOOT.NDS` malah tersangkut di layar putih, sisipkan DS Memory Expansion Pak, lalu coba lagi
+   - **Pengguna DS Phat(kodok) / Lite:** Jika menyalaawalkan `BOOT.NDS` malah tersangkut di layar putih, sisipkan DS Memory Expansion Pak, lalu coba lagi
    - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, dan nyalakan `Akses SCFG di Slot-1` lalu ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
       - Ini agar laju jam (clock speed) TWL dan/atau kebut VRAM dapat digunakan permainan di flashcard, sekaligus mengakses kartu memori SD konsol, dan menjalankan ROM DSi-Enhanced/DSi-Exclusive/DSiWare dalam mode DSi di flashcard
 
 ### Menjalankan permainan dengan firmware flashcard
 
-Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. Jika langkah di bawah tidak berlaku pada flashcard Anda, langkaui bagian ini.
+Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. Jika langkah di bawah tidak berlaku untuk flashcard-mu, lewati bagian ini.
 {:.alert .alert-warning}
 
-1. Ekstrak isi dari `Autoboot/(flashcard Anda)` ke root kartu microSD flashcard
-   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang di bawah daftar flashcard ini
+1. Ekstrak apa yang ada di `Flashcart Loader/(flashcard Anda)` ke root kartu microSD flashcard
+   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang ada di bawah daftar flashcard
 
 1. Untuk flashcard berikut:
    - R4i-SDHC (r4i-sdhc.com)
@@ -40,7 +40,7 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (model tanpa SDHC sudah ***not*** didukung)
+   - DSONE SDHC & DSONEi (model tanpa SDHC sudah ***tidak*** didukung)
    - M3 DS Real
    - M3i Zero (model tanpa GMP-Z003)
    - iTouchDS and iTouch2 (gunakan berkas YSMenu M3Real_M3iZero)
@@ -53,7 +53,7 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
 
 ### Memulai sendiri (Autobooting) TWiLight Menu++
 1. Ekstrak isi dari `Autoboot/(flashcard Anda)` ke root kartu microSD flashcard
-   - Lewati, jika tidak ada untuk flashcard Anda
+   - Lewati jika tidak ada untuk flashcard-mu
 1. ...
    - **Pengguna DS Phat(kodok) / Lite:** Masuk ke pengaturan di menu DS resmi, dan nyalakan auto-start agar flashcard langsung mulai sendiri
    - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, dan nyalakan `Langsung mulai Slot-1`

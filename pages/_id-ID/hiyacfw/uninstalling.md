@@ -1,26 +1,26 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: hiyacfw
-title: Pencopotan (Uninstall)
+title: Pencopotan
 long_title: Pencopotan hiyaCFW
 description: Cara mencopot hiyaCFW dari Nintendo DSi
 ---
 
-hiyaCFW is only present on the SD card and has no presence on your NAND. Before proceeding, be sure to backup any save data from your SDNAND that you wish to keep. You can learn how to do that by following Section III of the [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) guide.
+hiyaCFW hanya ada di kartu SD card dan tidak boleh ada di NAND. Sebelum melanjutkan, pastikan kamu sudah mencadangkan data simpanan (save) dari SDNAND yang ingin disimpan. Caranya bisa dengan mengikuti Bagian III dari panduan [Pencadangan DSiWare](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) [dsi.cfw.guide](https://dsi.cfw.guide).
 
-### Pencopotan (Uninstall)
-1. Delete `hiya.dsi` from the SD card root
-1. Delete the `hiya` folder
-1. Delete the `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket`, and `tmp` folders
+### Pencopotan
+1. Hapus `hiya.dsi` dari root kartu SD
+1. Hapus folder `hiya`
+1. Hapus folder `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket`, dan juga `tmp`
 
-### Changing Unlaunch settings
+### Mengubah pengaturan Unlaunch
 
-If you had set Unlaunch to autoboot hiyaCFW, you may want to change these settings now that you no longer use it.
+Jika kamu telah mengatur Unlaunch untuk memulai langsung (autoboot) hiyaCFW, lebih baik diubah lagi jika sudah tidak digunakan.
 
-1. Insert your SD card into your Nintendo DSi and start the console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This will open the Unlaunch Filemenu
-1. Go to `OPTIONS`, and set `NO BUTTON` to your desired application
-   - If you wish to autoboot the system NAND, set it to the application named `Launcher`
-   - If you wish to autoboot TWiLight Menu++, choose the file named `BOOT.NDS`
-1. Choose `SAVE & EXIT`
+1. Sisipkan kartu SD ke Nintendo DSi dan hidupkan konsol sambil menekan <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
+   - Ini akan membuka Filemenu di Unlaunch
+1. Masuk ke `OPTIONS`, dan ubah `NO BUTTON` ke aplikasi yang diinginkan
+   - Jika kamu ingin mulai langsung ke system NAND, ubah ke aplikasi bernama `Launcher`
+   - Jika kamu ingin mulai langsung ke TWiLight Menu++, pilih berkas bernama `BOOT.NDS`
+1. Lalu pilih `SAVE & EXIT`

@@ -8,7 +8,7 @@ long_title: Pencopotan TWiLight Menu++ (3DS)
 description: Cara mencopot TWiLight Menu++ dari Nintendo 3DS
 ---
 
-### Pencopotan (Uninstall)
+### Pencopotan
 1. Buka FBI
 1. Masuk ke `Titles`
 1. Cari dua judul `TWiLight Menu++` yang tulisannya ungu

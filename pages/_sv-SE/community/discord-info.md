@@ -15,7 +15,7 @@ There are plenty of channels for different topics, so make sure you're using the
 Always remember to check the channel topic and pins before talking in a channel.
 {:.alert .alert-info}
 
-**Important**
+**Viktigt**
 - [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](https://wiki.ds-homebrew.com/community/discord-rules) on the wiki
 - [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server such as other servers or this wiki
 - [#member-logs][member-logs] - Shows user joins and server boosts
@@ -53,7 +53,7 @@ Always remember to check the channel topic and pins before talking in a channel.
 ## Roller & Användarflairs
 We have several roles you can get on this server, some of them being accessible with just a Lightning bot command.
 
-### Moderator Roles
+### Moderatorroller
 These roles are given to people that are well trusted, they have the ability to ban, kick, mute, and give other roles to users.
 
 - Da Master - The Owner role, has all possible perms
@@ -77,7 +77,7 @@ If you have broken the rules, you may receive these roles from a mod.
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
 
-### Other
+### Annat
 These roles are only given for very specific purposes by Moderators.
 
 - Bots - Used to mark the Discord bots we have in this server

@@ -7,7 +7,7 @@ description: Compatibility list and tips for testing ROMs
 ---
 
 ### Daftar Kesesuaian (Compatibility)
-To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika Anda ingin menyumbangsih (contribute), tekan `view only` kemudian `request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
+To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika kamu ingin ikut andil, tekan `view only` kemudian `request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
 
 To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
 

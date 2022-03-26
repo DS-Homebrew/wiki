@@ -2,7 +2,7 @@
 lang: en-US
 layout: wiki
 section: nds-bootstrap
-title: Controls
+title: Kontroller
 long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---
@@ -15,7 +15,7 @@ These do not apply to homebrew.
   - Many games support simply pressing this button combination by default, but this will force reset it
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
    - <kbd class="r">R</kbd>: Advance by one frame
-   - Screenshot
+   - Skärmdump
       - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
       - <kbd class="face">A</kbd>: Save screenshot
       - <kbd class="face">B</kbd>: Return to in-game menu
@@ -30,7 +30,7 @@ These do not apply to homebrew.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-   - RAM Editor
+   - RAM-redigerare
       - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
       - <kbd class="face">A</kbd>: Modify selected value
          - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease value by 1h

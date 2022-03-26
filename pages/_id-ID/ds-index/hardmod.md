@@ -11,7 +11,7 @@ tabs:
     other: macOS/Linux
 ---
 
-Memodifikasi keras (Hardmod) adalah ketika Anda mematri lunak fisik papan induk konsol Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
+Memodifikasi keras (Hardmod) adalah ketika kamu mensolder fisik papan induk konsol Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
 [![Papan induk DS Original dengan titik sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
@@ -21,7 +21,7 @@ Memodifikasi keras (Hardmod) adalah ketika Anda mematri lunak fisik papan induk 
 Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
    - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
-   - Adaptor SD ke microSD
+   - Adaptor kartu SD ke microSD
    - Pembaca (reader) kartu SD yang mampu membaca cip eMMC berjalan di mode single data-line. [Ini yang dikenal bisa](https://www.amazon.com/dp/B006T9B6R2)
    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) dan [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jika di Windows
    - A valid NAND backup of the DSi you are hardmodding
@@ -34,22 +34,22 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
 #### Pin-out DSi XL sisi B
 [![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- Anda perlu mematri titik (point) pada papan induk ke adapter kartu microSD
+- Kamu perlu mensolder titik (point) pada papan induk ke adaptor kartu microSD
    - CMD ke pin 2
    - GND ke pin 3 dan 6
    - CLK ke pin 5
    - DAT0 ke pin 7
 
-#### Contoh adaptor microSD terpatri lunak
+#### Contoh adaptor microSD tersolder
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Sisipkan adaptor kartu microSD ke komputer Anda
+- Sisipkan adaptor kartu microSD ke komputermu
    - **PERINGATAN** - Jika Windows meminta memformat: **JANGAN diformat** - bisa terjadi kerusakan tak bisa diperbaiki
 
 #### Membuang footer no$gba
 You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. Caranya bisa dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Unduh versi aplikasi untuk sistem operasi yang Anda gunakan
+1. Unduh versi aplikasi untuk sistem operasi yang kamu gunakan
 1. Run the script, selecting the NAND backup you wish to flash to your DSi
 1. Switch to NAND mode with the button to the left of the file path
 1. Click `Start` to create the NAND backup without the no$gba footer
@@ -76,17 +76,17 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 {% capture tab-other %}
 1. Work out where the SD card is mounted
    - Linux:
-      1. Unplug the SD card adapter
+      1. Cabut adaptor kartu SD
       1. Run `lsblk` in a terminal
-      1. Plug in the SD card adapter
+      1. Colok adaptor kartu SD
       1. Run `lsblk` again
       1. This time a new device should appear
          - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
-      1. Unplug the SD card adapter
+      1. Cabut adaptor kartu SD
       1. Run `df` in a terminal
-      1. Plug in the SD card adapter
+      1. Colok adaptor kartu SD
       1. Run `df` again
       1. A new device should appear in the list
          - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
@@ -114,7 +114,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
       - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
       - Replace `{device-name}` with the mount point of the SD card
 
-At this point you may unplug the SD card adapter and attempt to turn on the DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+Sesudah itu, kamu boleh mencabut adaptor kartu SD dan menyalakan konsol DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 

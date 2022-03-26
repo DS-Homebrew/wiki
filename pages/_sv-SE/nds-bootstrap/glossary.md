@@ -2,11 +2,11 @@
 lang: en-US
 layout: wiki
 section: nds-bootstrap
-title: Glossary
+title: Ordlista
 description: Glossary for nds-bootstrap
 ---
 
-## Settings
+## Inställningar
 These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
 
 ### SDK ver
@@ -21,7 +21,7 @@ The Mode which the ROM should be run. This affects the ARM9 CPU Speed and VRAM M
 ### ARM9 CPU Speed
 Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mhz (NTR) by default. This can be changed to 133 Mhz (TWL) to reduce slowdowns, but may also cause issues. ROMs ran in DSi Mode can only be set at 133 Mhz (TWL).
 
-### VRAM Mode
+### VRAM-läge
 Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. ROMs ran in DSi Mode can only be set at DSi VRAM Mode.
 
 ### Card Read DMA

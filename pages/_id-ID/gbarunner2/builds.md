@@ -67,7 +67,7 @@ There is no consistency in what type of 3DS has what chip, at least as far as an
 
 ## Memeriksa Info Build
 
-GBARunner2 mempunyai menu yang dapat dibuka dengan menyentuh layar bawah dan menekan tombol R. Dengan ini Anda dapat mencari menu About yang menjelaskan ada di build berapa. Namun, build yang disertakan di TWiLightMenu++ tidak menulis versi build karena sudah didasarkan pada fork dari orang lain. Ini artinya jika di halaman About hanya kosong saja tentang build, kemungkinan Anda menggunakan yang sudah disertakan.
+GBARunner2 mempunyai menu yang dapat dibuka dengan menyentuh layar bawah dan menekan tombol R. Dengan ini Anda dapat mencari menu About yang menjelaskan ada di build berapa. Namun, build yang disertakan di TWiLightMenu++ tidak menulis versi build karena sudah didasarkan pada fork dari orang lain. Ini artinya jika di halaman About hanya kosong saja tentang build, kemungkinan kamu menggunakan yang sudah disertakan.
 
 Ini agar tahu jika yang digunakan build ARM7DLDI atau ARM9DLDI
 

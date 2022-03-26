@@ -7,7 +7,7 @@ long_title: GBARunner2 FAQ & Troubleshooting
 description: FAQs and troubleshooting for GBARunner2
 ---
 
-#### How do I create and add custom borders?
+#### Bagaimana cara membuat dan menambahkan tepian khusus?
 You can read and follow [this guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) by FrescoASF.
 
 #### Are cheats supported?

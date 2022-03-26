@@ -11,7 +11,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 
 ### List of systems supported by TWiLight Menu++
 
-| Format                  | Loader                                           | Extensions                             | Save file                                      |
+| Format                  | Loader                                           | Extensions                             | Spara fil                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                |
 | Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
@@ -29,7 +29,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`               |
-| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
+| Fast Video              | Kommer snart                                     | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
@@ -46,12 +46,12 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Other emulators for the DS
 
-| Format  | Loader         | Extensions | Save file |
+| Format  | Loader         | Extensions | Spara fil |
 | ------- | -------------- | ---------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
+| Neo Geo | [neoDS][neods] | `.neo`     | (okänd)   |
 
 ## Notes on specific emulators
-### RAM Disks
+### RAM-diskar
 - In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
    - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
    - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
@@ -65,11 +65,11 @@ These are just recommended emulators and loaders that are present in TWiLight Me
    - Supports arguments
    - Limit is 2.5 MB on a **Flashcard**
       - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
-   - No sound emulation
+   - Ingen ljudemulering
    - Framerate is extremely choppy
 
 - **jEnesisDS**
-   - DS Mode
+   - DS-läge
       - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
       - Saving is unavailable for DSi SD cards
    - Takes a while to load
@@ -77,7 +77,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
    - Limit is 3 MB on all platforms (due to roms loading in RAM)
       - No DS Memory Pak or DSi Extended Memory support
       - There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down
-   - Sound Emulation
+   - Ljudemulering
    - Framerate is smooth
 
 

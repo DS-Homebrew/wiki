@@ -22,7 +22,7 @@ description: How to get box art/game covers in TWiLight Menu++
 1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
 1. Type the path to your SD card after `SdRoot=`, then save the file
    - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
+1. Öppna terminalen
 1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
 1. Run `chmod +x TwilightBoxart.CLI`
 1. Run `./TwilightBoxart.CLI`

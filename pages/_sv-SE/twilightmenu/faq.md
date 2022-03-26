@@ -15,7 +15,7 @@ För fler FAQs, besök [GBAtemp tråden](https://gbatemp.net/threads/ds-i-3ds-tw
 TWL_FIRM kan på något sätt bli skadad. Följ denna guide för att åtgärda problemet: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### Jag får en vit skärm medan jag startar upp TWiLight Menu++. Hur fixar jag det?
-- Reboot the console
+- Starta om konsolen
 - Om det inte fungerar, formatera ditt SD-kort till FAT32 med 32 KB kluster/allokeringsstorlek
 - Om det inte heller fungerar, prova ett annat SD-kort
 
@@ -28,7 +28,7 @@ Go into TWLMenu++ Settings, and disable `Update recently played list`.
 #### Why do I get a white screen when trying to load a DS game from SD card?
 See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
 
-#### How do I use cheats?
+#### Hur använder jag fusk?
 You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
 - On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". This will automatically install it to the required location.
 
@@ -40,14 +40,14 @@ A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown e
 - The images(s) must be no bigger than 208x156
 - If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
 
-#### How do I get games?
+#### Hur får jag tag på spel?
 You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
 - On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+Ja. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### How do I change TWiLight Menu++'s language?
 1. Öppna TWiLight Menu++ inställningar, du kan göra detta genom att hålla ner <kbd>SELECT</kbd> medan du laddar TWiLight Menu++
@@ -61,7 +61,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
+Nej. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### Why can't I find/see my games?
 There are a multiple reasons you may be unable to find them.

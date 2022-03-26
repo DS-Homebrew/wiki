@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: hiyacfw
 title: Installing
-long_title: Installing hiyaCFW
+long_title: 安装 hiyaCFW
 description: How to install hiyaCFW on the Nintendo DSi
 tabs:
   - 
@@ -12,15 +12,15 @@ tabs:
     other: Linux
 ---
 
-Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
+安装 hiyaCFW 后不要进行系统更新。 这将会移除 hiyaCFW 的SD卡补丁。
 {: .alert .alert-danger}
 
-### Requirements
-- A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
-- A Windows, macOS, or Linux device
+### 安装要求
+- 一个安装了 [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) 的任天堂DSi
+- 使用 [dumpTool](https://dsi.cfw.guide/dumping-nand) 从你的设备上获取的NAND备份
+- 一台Windows、macOS 或 Linux 设备
 
-### Part 1: Preparing your PC for installing hiyaCFW
+### 第一部分：准备您的电脑以安装 hiyaCFW
 {% capture tab-windows %}
 The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
 {: .alert .alert-info}
@@ -50,10 +50,10 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 {% assign tabs = tab-windows | concat: tab-macos | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Part 2: Adding hiyaCFW files to your SD card
-![Screenshot of the hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+### 第二部分：将hiyaCFW文件复制到你的SD卡上
+![HiyaCFW Helper 的截图](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-1. Launch the hiyaCFW Helper
+1. 启动 hiyaCFW Helper
   - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
   - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
   - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive

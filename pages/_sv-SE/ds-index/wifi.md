@@ -20,7 +20,7 @@ There are guides for creating a DS-compatible hotspot on macOS and Linux compute
 An Android mobile hotspot set to Open (none) security would also work.
 
 Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
-#### Other methods
+#### Andra metoder
 If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
 - Nintendo Wi-Fi USB Connector
   - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
@@ -30,7 +30,7 @@ If you cannot create a DS-compatible hotspot using the above methods, you may be
   - Not all routers support guest networks or turning security off
 - Wi-Fi extenders
 
-#### Settings
+#### Inställningar
 If you are setting up a network to be DS-compatible, it must meet the following specifications:
 - WEP or Open (none) security
 - 2.4 GHz wireless frequency

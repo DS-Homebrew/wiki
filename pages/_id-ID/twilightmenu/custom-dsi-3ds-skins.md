@@ -46,9 +46,9 @@ These must be PNG files, any file will work however only 100% transparency will 
 | battery4purple     |                                                                             |
 | batterycharge      |                                                                             |
 | batterychargeblink | Flashes with `batterycharge` while charging                                 |
-| batteryfull        | Gunakan ketika di mode DS pada DSi/3DS                                      |
-| batteryfullDS      | Gunakan ketika di DS Phat/DS Lite                                           |
-| batterylow         | Gunakan ketika di mode DS                                                   |
+| batteryfull        | Digunakan saat di mode DS pada DSi/3DS                                      |
+| batteryfullDS      | Digunakan saat di DS Phat/DS Lite                                           |
+| batterylow         | Digunakan saat di mode DS                                                   |
 
 ### Paletted textures (`grf` folder)
 These must be 4 BPP (16 color) BMP files files.

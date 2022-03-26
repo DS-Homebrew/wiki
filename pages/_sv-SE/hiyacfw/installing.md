@@ -2,8 +2,8 @@
 lang: en-US
 layout: wiki
 section: hiyacfw
-title: Installing
-long_title: Installing hiyaCFW
+title: Installerar
+long_title: Installerar hiyaCFW
 description: How to install hiyaCFW on the Nintendo DSi
 tabs:
   - 
@@ -15,7 +15,7 @@ tabs:
 Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
 {: .alert .alert-danger}
 
-### Requirements
+### Krav
 - A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
 - A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
 - A Windows, macOS, or Linux device

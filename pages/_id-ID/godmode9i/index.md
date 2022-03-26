@@ -6,17 +6,17 @@ title: GodMode9i
 description: Informasi tentang GodMode9i
 ---
 
-[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) is an open source file browser for the Nintendo DS ecosystem, taking inspiration from GodMode9 for the Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
+[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) adalah peramban berkas sumber terbuka untuk ekosistem Nintendo DS, terinspirasi dari GodMode9 untuk Nintendo 3DS. GodMode9i memiliki kemampuan menimbun (dump) permainan, mengelola kartu SD, meramban NitroFS, memperhitung hash SHA1 berkas, menyunting berkas biner dengan penyunting hex, dan lainnya.
 
-## Dumping functionality
+## Kebergunaan penimbunan (dumping)
 
-To dump games, select the drive in the drives list and follow the on-screen prompts.
-- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
-   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
-- On the Nintendo DSi family of systems, Unlaunch is required for dumping Slot-1 games to the SD card
-   - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
-- On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
-   - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+Untuk menimbun permainan, pilih kandar (drive) di daftar kandar dan ikuti perintah di layar.
+- Untuk di Nintendo DS dan Nintendo DS Lite, GodMode9i dapat menimbun kartrid Slot-2 jika dijalankan dari flashcard Slot-1, atau kartu permainan Slot-1 jika GodMode9i dijalankan dari flashcart Slot-2
+   - Berkas simpanan (save) juga dapat ditimbun menggunakan kartrid kaset GBA, lihat [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) untuk informasi lanjut
+- Untuk di keluarga sistem Nintendo DSi, Unlaunch diperlukan untuk menimbun permainan Slot-1 ke kartu SD
+   - Ikuti [dsi.cfw.guide](https://dsi.cfw.guide/) untuk arahan cara memasang Unlaunch
+- Untuk di keluarga sistem Nintendo 3DS, CFW yang termutakhir seperti Luma3DS diperlukan untuk meluncurkan GodMode9i
+   - Ikuti [3ds.hacks.guide](https://3ds.hacks.guide/) untuk arahan cara memasang Luma3DS + boot9strap
 
-### Restoring saves
-GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.
+### Memulihkan simpanan (save)
+GodMode9i juga dapat memulihkan berkas simpanan ke Kartu Permainan DS/kaset GBA. Caranya dengan memilih berkas `.sav` pada kartu SD selagi kartu permainan/kaset disisipkan, lalu pilih `Restore save`.

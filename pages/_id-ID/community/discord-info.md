@@ -22,7 +22,7 @@ Always remember to check the channel topic and pins before talking in a channel.
 
 **Server Hub**
 - [#announcements][announcements] - Information on new updates to homebrew and also general announcements related to the server
-- [#github-updates][github-updates] - Feed of all contributions to and discussions in our projects' GitHub repositories
+- [#github-updates][github-updates] - Umpan berita untuk semua keikutandilan (contribution) dan pembahasan pada repositori GitHub proyek kami
 - [#github-builds][github-builds] - Feed of all of our projects' nightly builds
 - [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
 - [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
@@ -63,8 +63,8 @@ These roles are given to people that are well trusted, they have the ability to 
 ### User Flair Roles
 These roles can only be given by moderators and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
 
-- Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev-discussion
-- Helpers - This role is given to those that actively provide meaningful assistance in #nds-modding-help or have contributed to compatibility reporting
+- Developers (pengembang) - Peran ini diberikan bagi yang telah memberi kontribusi kode pada scene Nintendo DS If you have any projects for the role, show them in #nds-dev-discussion
+- Helpers (penolong) - Peran ini diberikan bagi yang secara aktif memberikan bantuan berarti di #nds-modding-help atau telah ikut andil dalam melaporkan compatibility (kesesuaian)
    - Helpers have no moderator perms, please ping a mod if a situation needs one
 - Nitro Boosters - Given to those that have given Server Boosts
 
@@ -81,7 +81,7 @@ If you have broken the rules, you may receive these roles from a mod.
 These roles are only given for very specific purposes by Moderators.
 
 - Bots - Used to mark the Discord bots we have in this server
-- Special Thanks - People that have contributed to our community in a major way
+- Special Thanks (terima kasih khusus) - Orang-orang yang telah berikut andil besar dalam komunitas kami
 
 ### Self-Assignable Roles
 These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
@@ -91,7 +91,7 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Artist/Designers - For those that have made high-quality TWiLight Menu++ skins, unlaunch backgrounds or graphics for other DS(i) homebrew
 - Composers - For those that have made music for DS(i) homebrew or ROM hacks
 - Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
-- Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
+- Translators (penerjemah) - Siapa pun yang ingin dikabari untuk ikut andil menerjemahkan berbagai macam proyek DS-Homebrew
 
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Jangan minta-minta menjadi anggota regu, nanti malah mengurangi kesempatan akan diterima.

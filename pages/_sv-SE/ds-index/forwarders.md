@@ -89,12 +89,12 @@ If you already have TWiLight Menu++, skip to the next section.
 
 {% capture tab-flashcard %}
 
-### Requirements
+### Krav
 
-- **DSi users:**
+- **DSi-användare:**
    - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
    - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
-- **3DS users:**
+- **3DS-användare:**
    - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}

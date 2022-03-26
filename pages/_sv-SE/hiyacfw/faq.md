@@ -25,13 +25,13 @@ What works and what doesn't goes by every other range of two gibibytes. For exam
 
 The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
 
-##### Over 39 titles
+##### Över 39 titlar
 The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
 
 ##### Too much space used by DSiWare
 There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing DSiWare as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
 
-##### Invalid title
+##### Ogiltig titel
 There are several things you need to take into account when adding titles to hiyaCFW:
 - Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
 - Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu

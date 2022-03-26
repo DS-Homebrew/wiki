@@ -11,7 +11,7 @@ With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. The
 
 ### BMP
 - 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 256 x 192 eller mindre
 
 ### GIF
 - Simple answer: Most GIFs 256 x 192 or smaller will work

@@ -100,7 +100,7 @@ Examples of what breaks this rule include:
 - Breaking the rules and then claiming that you “didn’t know” will still make you guilty of breaking them
 - Trying to get around the rules by speaking in vague terms also counts as breaking them
 
-## Consequences
+## Konsekvenser
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
 - Most users end up having 4 warnings before they are banned

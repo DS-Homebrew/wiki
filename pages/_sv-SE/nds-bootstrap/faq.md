@@ -79,7 +79,7 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+Nej. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [TWiLight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?

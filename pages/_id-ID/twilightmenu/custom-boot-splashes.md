@@ -3,7 +3,7 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: customization
-title: Splash Boot Ubah Suai (Custom)
+title: Splash awal nyala ubah suai (custom)
 description: How to use custom splash screens for TWiLight Menu++
 ---
 

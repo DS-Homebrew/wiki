@@ -116,7 +116,7 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all related textures so that it's properly overwritten on change.
 
-| Texture          | Description                                             |
+| Texture          | Beskrivning                                             |
 | ---------------- | ------------------------------------------------------- |
 | date_time_font | The font to display the date and time                   |
 | Lshoulder        | The left shoulder                                       |
@@ -130,7 +130,7 @@ Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For
 ### Volume textures (`volume` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them so that it's properly overwritten on change.
 
-| Texture | Description                      |
+| Texture | Beskrivning                      |
 | ------- | -------------------------------- |
 | volume0 | Volume is only shown in DSi mode |
 | volume1 | 0 is muted, 4 is full volume     |
@@ -141,7 +141,7 @@ These must be PNG files, any file will work however only 100% transparency will 
 ## Theme configuration (`theme.ini` file)
 You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures. For true/false options `0` is false and `1` is true. Options with a blank default value for a theme are unused for that theme.
 
-| Value                    | Description                                                                                                  | Default (3DS) | Default (DSi) |
+| Värde                    | Beskrivning                                                                                                  | Default (3DS) | Default (DSi) |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------- | ------------- |
 | `StartBorderRenderY`     | The initial Y position of the Start Border                                                                   | 92            | 81            |
 | `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32            | 32            |
