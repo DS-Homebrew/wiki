@@ -17,10 +17,11 @@ Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file 
 ### Aggiornamento
 1. Scarica la versione piè recente di [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Estrai `TWiLightMenu-Flashcard.7z`
-1. Copia la cartella `_nds` nella scheda microSD della tua flashcard
-1. Copia il file `BOOT.NDS` nella scheda microSD della tua flashcard
+1. Copia la cartella `_nds` nella root della microSD della tua flashcard's. Sostituisci i files gia esistenti
+   - Se stai usando macOS, assicurati di **Copiare** e `Unire`, non `Sostituire`
+1. Copia il file `BOOT.NDS` nella root della microSD della tua flashcard's. Sostituisci i files gia esistenti
 
-### Passi aggiuntivi sul lato SD del DSi/3DS
+### Ulteriori passi per le flashcard su DSi/3DS
 
 Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è su v16.3.0 o successive, segui questi passaggi.
 

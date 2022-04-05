@@ -40,7 +40,7 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 - [#websites-development][websites-development] - Les discussions et suggestions pour [dsi.cfw.guide](https://dsi.cfw.guide/) et tous les [sites ds-homebrew](https://ds-homebrew.com/) vont ici
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects**
-- [#godmode9i][godmode9i] - Ce salon est destiné à la discussion du développement de godmode9i, utilisez #nds-modding-help pour l'aide
+- [#godmode9i][godmode9i] - Ce salon est destiné à la discussion du développement de GodMode9i, utilisez #nds-modding-help pour l'aide
 - [#emulators-on-nds][emulators-on-nds] - Ceci pour parler des émulateurs sur la Nintendo DS(i). Les discussions à propos des émulateurs sur Nintendo DS(i) devraient aller dans #nds-modding-discussion
 - [#other-nds-homebrew][other-nds-homebrew] - Parlez des homebrews pour Nintendo DS(i) et obtenez un support qui n'est pas couvert par d'autres salons
 

@@ -12,7 +12,7 @@ tabs:
     manual: Manuale
 ---
 
-If updating from a version older than v6.8.3, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
+Se stai aggiornando da una versione più vecchia di v6.8.3, sposta i tuoi file `.sav` per i titoli del DS in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM del DS.
 {:.alert .alert-info}
 
 Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM DSiWare.
@@ -30,9 +30,10 @@ Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file 
 {% capture tab-manual %}
 1. Scarica la versione piè recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Estrai `TWiLightMenu-3DS.7z`
-1. Copia la cartella `_nds` nella root della tua scheda SD
-1. Copia il file `BOOT.NDS` nella root della tua scheda SD
-1. Copia i due file `.cia` nella root della tua scheda SD
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
+1. Copy the two `.cia` files to your SD card root, replacing any existing files
 1. Sul tuo 3DS, installa i due file CIA con FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

@@ -27,7 +27,7 @@ La banque d'effets sonores contient des effets sonores tels que le son de sélec
 
 Vous pouvez ensuite exécuter `make` pour créer la banque d'effets sonores. Tous les fichiers énumérés ci-dessus, à l'exception de *bgm.pcm.raw* sont requis, mais vous pouvez les rendre silencieux.
 
-Votre *sfx.bin* résultant **doit être inférieur à 512000 octets = 512 Ko**. Toute valeur supérieure entraînera des plantages ou la perte de certains sons.
+Votre *sfx.bin* résultant **doit être inférieur à 512000 octets = 512 ko**. Toute valeur supérieure entraînera des plantages ou la perte de certains sons.
 
 ### Son de démarrage
 Alors que les autres effets sonores fonctionnent avec n'importe quel fichier WAV, le son de démarrage doit être dans un format spécifique pour fonctionner correctement, sinon il y aura un décalage entre l'arrêt du son de démarrage et le début de la musique de fond.
