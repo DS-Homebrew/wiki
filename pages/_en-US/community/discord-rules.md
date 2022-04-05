@@ -29,7 +29,7 @@ Examples of what breaks this rule include:
  - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatively, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
 - Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
 - Sending extremely long messages, which ruins the multiple-user aspect of having a conversation. Use a tool such as [mystbin](https://mystb.in/) for longer messages instead, which would put your messages externally, allowing people to read others' messages.
-- Rants are allowed as long as its for the sake of conversation rather than purely venting. This includes being open to other viewpoints, being able to back up personal feelings with facts and bringing new ideas to the table (if it's been done before)
+- Rants are allowed as long as its for the sake of conversation rather than purely venting. This includes being open to other viewpoints, being able to back up personal feelings with facts, and bringing new ideas to the table (if it's been done before)
 
 **Moderators may request a discussion to stop, and users are expected to comply with its request, even if it doesn't fall into any of the above examples**
 
@@ -38,7 +38,7 @@ Examples of what breaks this rule include:
 - Giving links to other Discord servers on request is allowed, but please ask a moderator in a DM before advertising a server without prior context
 - DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules, mass DM advertisement (with proof) will land you a ban
 - Joining for the purpose of advertising your discord server will land you a ban and your advertisements will be deleted
-- Compromised accounts will have their account kicked and their 
+- Any compromised account will get banned, with the sent messages from the bot being removed. If the account is later retrieved, please contact one of the staff members
 
 ### 4. Avoid piracy discussion
 
