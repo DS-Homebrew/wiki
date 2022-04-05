@@ -16,7 +16,7 @@ This section requires a 3DS family console, running a modern CFW environment fro
    ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Open Universal Updater from your HOME Menu
 1. Install the TWPatch package
-   - If your console is unable to access the Internet, you can download [TWPatch.cia](https://db.universal-team.net/assets/files/TWPatch.cia) directly, then install it with FBI
+   - If your console is unable to access the Internet, you can download [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) directly, then install it with FBI
 1. Return to the HOME menu and launch TWPatch
 1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
 1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
