@@ -30,7 +30,7 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
 ### To run games using your flashcard firmware
 
-Please note this only works if your flashcart is set to autoboot TWiLight Menu++. See above section for how to do so.
+Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
 {:.alert .alert-warning}
 
 Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
