@@ -14,7 +14,7 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 - This applies to everyone regardless of their role or level of activity in this server, even if they aren’t on the server
 - Do not backseat moderate or try to "help" when a moderator is already dealing with a situation
 - Reminders of the rules are fine, as long as you remain respectful
-- Credit the creator(s) when sending something if you know who created it
+- Credit the creator(s) when sending something if you know who created it (exception being when the included work already credits said author)
 
 ### 2. Do not bring the chat quality down
 
@@ -26,18 +26,19 @@ Examples of what breaks this rule include:
    - Important information can be found in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
 - Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
 - Repeating messages, whether it is repeated in the same channel or in multiple channels
- - If you're unsure where to post your message check the channel topics and ask in the most fitting one
-   - If you're still unsure, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
+ - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatively, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
 - Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages, use a tool such as [mystbin](https://mystb.in/) for longer messages instead
+- Sending extremely long messages, which ruins the multiple-user aspect of having a conversation. Use a tool such as [mystbin](https://mystb.in/) for longer messages instead, which would put your messages externally, allowing people to read others' messages.
+- Rants are allowed as long as its for the sake of conversation rather than purely venting. This includes being open to other viewpoints, being able to back up personal feelings with facts and bringing new ideas to the table (if it's been done before)
 
-- At a moderator's discretion, discussions may be stopped
+**Moderators may request a discussion to stop, and users are expected to comply with its request, even if it doesn't fall into any of the above examples**
 
 ### 3. Do not self-promote with no context or without explicit staff permission
 
 - Giving links to other Discord servers on request is allowed, but please ask a moderator in a DM before advertising a server without prior context
 - DM advertisements aren't allowed, both by the Discord Terms of Service and our server rules, mass DM advertisement (with proof) will land you a ban
 - Joining for the purpose of advertising your discord server will land you a ban and your advertisements will be deleted
+- Compromised accounts will have their account kicked and their 
 
 ### 4. Avoid piracy discussion
 
