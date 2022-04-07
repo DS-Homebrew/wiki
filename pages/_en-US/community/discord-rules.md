@@ -26,9 +26,9 @@ Examples of what breaks this rule include:
    - Important information can be found in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and in the pinned messages of all the channels
 - Taking up excessive space in chat (e.g. Sending a tiny amount of words in multiple messages instead of keeping it all in one message)
 - Repeating messages, whether it is repeated in the same channel or in multiple channels
- - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatively, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
+   - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatively, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
 - Posting for the sake of posting rather than to bring actual conversations (such as complaining that the chat is dead, only sending out greetings, copypastas, etc)
-- Sending extremely long messages, which ruins the multiple-user aspect of having a conversation. Use a tool such as [mystbin](https://mystb.in/) for longer messages instead, which would put your messages externally, allowing people to read others' messages.
+- Monologuing to the point where others are discouraged from intervening or a 16:9 mobile display with an average font size user would have to scroll in order to read your full message. Please refer to an external service (such as [mystbin](https://mystb.in/)) so that other users messages could be read as well
 - Rants are allowed as long as its for the sake of conversation rather than purely venting. This includes being open to other viewpoints, being able to back up personal feelings with facts, and bringing new ideas to the table (if it's been done before)
 
 **Moderators may request a discussion to stop, and users are expected to comply with its request, even if it doesn't fall into any of the above examples**
@@ -42,13 +42,16 @@ Examples of what breaks this rule include:
 
 ### 4. Avoid piracy discussion
 
-- Do not link/mention piracy websites/tools, upload pirated content, or encourage others to pirate
-- We will not assist with piracy or provide support for any pirated content or leaked titles
+Examples for what breaks this rule includes:
+- Mentioning/Linking piracy websites/tools
+- Encouraging piracy, whether by assisting others with it or justifying it
+- Uploading pirated or NDA-breaking content (ROMs compiled via official licensed SDKs, tools, etc...)
+
+Example for what DOESN'T break this rule being:
+- Discussing any of the publicly-known leaked content, as long as no builds, source code or even unrelated files are shared
+
+Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
 - For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
-- Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
-- You may discuss publicly-known information about the leaks as long as no builds, files or source code is shared
-- Do not link to SDK tools, or anything that breaks a Non-Disclosure Agreement
-   - This includes sending ROMs that were built with leaked SDK programs
 
 ### 5. Keep conversations within their respective channels
 
@@ -61,7 +64,7 @@ Examples of what breaks this rule include:
 
 - We are not able to easily moderate content in other languages
 - We suggest using [DeepL](https://www.deepl.com/translator) for translation
-- Moderators may allow others to speak in foreign languages in case translation fails and there are trusted people that know your language and are able to help
+- Exceptions may be granted in case translation fails and there are trusted people that know your language and are able to help
 
 ### 7. You may not have an alternative account on this server without staff permission
 
@@ -80,20 +83,17 @@ Examples of what breaks this rule include:
 - Things that happen in Direct Messages **are** the business of the server since unless you both share another server or are friends, you wouldn't be able to reach each other
 - Examples of what not to do include DM advertising, purposely redirecting users to DMs from normal chat (such as support) to break rules, and harassment
 
-
 ### 10. Do not bring external drama, NSFW, or illegal content into the server
 
 - If you are banned in other servers, avoid talking about it here
    - We can not help you get unbanned from other servers, that is the decision of the staff members there
 - Do not post anything that is not considered safe for work (e.g. sexual content, extreme violence, drugs)
-- Any account with a disturbing avatar will be kicked, if you rejoin and still have the avatar, you will be banned
+- Accounts with disturbing avatars will be kicked, then leading to a ban if they keep said avatar on return
 - Despite adult content being banned, users are still required to be thirteen and over in order to participate on this Discord server as per the Discord TOS
 
 ### 11. Do not talk about or do actions pertaining to breaking other Discord TOS
 
-- [Link to Terms of Service](https://discord.com/terms)
-- [Link to community guidelines](https://discord.com/guidelines)
-- Trying to do anything that is not explicitly mentioned in our rules but is still against Discord TOS will land you a ban (e.g. raids, malware, phishing)
+- Breaking anything covered by either Discord's [Terms of Service](https://discord.com/terms) or [community guidelines](https://discord.com/guidelines), regardless of whether mentioned by the above or not, will land one a ban
 
 ### 12. Do not try to evade the rules as this will be treated as breaking them
 
@@ -115,4 +115,4 @@ The consequences of breaking these rules are a warning, mute, kick or ban. Of co
 - However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
 
 
-Last updated: 2021-12-20
+Last updated: 2022-04-07
