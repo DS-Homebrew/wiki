@@ -8,7 +8,7 @@ description: How to set custom icons and banners for folders and games in TWiLig
 ---
 
 1. Download the icon or banner you want to set from [the Skins site](https://skins.ds-homebrew.com/icon/)
-   - Banners have a `.bin` file extension, they include custom game titles and its icons can be still or animated. When used with folders, the custom tittles won't be shown, and the folder name will be displayed instead.
+   - Banners have a `.bin` file extension, they include custom game titles and its icons can be still or animated. When used with folders, the custom titles won't be shown, and the folder name will be displayed instead.
    - Icons have a `.png` file exension and will only be shown as still images.
    - Any `.png` file that's 4 bits in color depth and 32x32 pixels or less in resolution can also be used, not only the ones present in the the Skins site.
 1. Put the icon/banner file in `sd:\_nds\TWiLightMenu\icons`
