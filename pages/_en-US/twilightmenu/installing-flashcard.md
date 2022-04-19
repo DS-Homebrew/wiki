@@ -26,7 +26,7 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
    - Skip this, if you don't see your flashcard
 1. ...
    - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
 
 ### To run games using your flashcard firmware
 
@@ -60,4 +60,4 @@ Please note that not all flashcards support running games in this fashion. If th
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
