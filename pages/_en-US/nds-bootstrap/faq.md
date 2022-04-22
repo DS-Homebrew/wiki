@@ -37,6 +37,14 @@ There are also timing issues and AP measures (which most are already removed), b
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Take screenshots and edit values in the RAM using the in-game menu
 
+#### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
+- Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
+- A limited number of DSiWare can be run using built-in patches
+     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
+- If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
+- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- Edit values in the RAM using the in-game menu
+
 #### What is a Donor ROM?
 In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
 A Donor ROM can be set using **TW**i**L**ight Menu++.
