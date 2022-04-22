@@ -39,7 +39,7 @@ There are also timing issues and AP measures (which most are already removed), b
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- A limited number of DSiWare can be run using built-in patches
+- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
