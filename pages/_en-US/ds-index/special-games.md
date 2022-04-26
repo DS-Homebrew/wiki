@@ -25,10 +25,14 @@ description: DS(i) Games that have special properties
    - Versus mode is removed
    - Many files are compressed for the game to fit within the DSiWare size limit
    - Icon is animated
+- Dragon's Lair
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Each mode are turned into DSiWare
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- Heathcliff: Frantic Foto
+   - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
    - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
@@ -43,10 +47,17 @@ description: DS(i) Games that have special properties
 - Planet Puzzle League
    - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
    - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
    - Icon is animated
+- Space Invaders Extreme 2
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Sujin Taisen: Number Battles
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
