@@ -25,6 +25,7 @@ description: DS(i) Games that have special properties
    - Versus mode is removed
    - Many files are compressed for the game to fit within the DSiWare size limit
    - Icon is animated
+- Chronos Twins
 - Clubhouse Games
    - Split into three DSiWare titles called
       - Clubhouse Games Express: Card Classics
