@@ -297,20 +297,34 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Tony Hawk’s Motion
 
 ### Games with Wii connectivity
-- Animal Crossing: Wild World -> Animal Crossing: City Folk
-- Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
-- Castlevania: Order of Ecclesia -> Castlevania Judgement
-- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
-- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
-- Jam with the Band -> Live Channel
-- My Word Coach -> My Word Coach (Wii)
-- Pokémon Diamond/Pearl -> My Pokémon Ranch
-- Pokémon Platinum -> My Pokémon Ranch (Japan Only)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
-- Personal Trainer: Walking -> Mii Channel
-- Ultimate Band -> Ultimate Band (Wii)
-- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
 ### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver
