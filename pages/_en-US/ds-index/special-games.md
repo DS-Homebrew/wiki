@@ -259,6 +259,8 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 ### Games that use GBA Option Paks
 - Memory Expansion Pak
    - Nintendo DS Browser
+- Motion Pack
+   - Tony Hawk’s Motion
 - Rumble Pak
    - Clubhouse Games
    - Custom Robo Arena
@@ -293,8 +295,6 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Tomb Raider: Underworld
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
-- Motion Pack
-   - Tony Hawk’s Motion
 
 ### Games with Wii connectivity
 - Animal Crossing: Wild World
