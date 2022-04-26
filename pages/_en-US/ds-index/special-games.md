@@ -25,6 +25,11 @@ description: DS(i) Games that have special properties
    - Versus mode is removed
    - Many files are compressed for the game to fit within the DSiWare size limit
    - Icon is animated
+- Clubhouse Games
+   - Split into three DSiWare titles called
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
 - Dragon's Lair
    - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
@@ -34,7 +39,7 @@ description: DS(i) Games that have special properties
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
