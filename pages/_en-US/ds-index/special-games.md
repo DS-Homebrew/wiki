@@ -82,6 +82,7 @@ description: DS(i) Games that have special properties
 Supports Wi-Fi (WPA 1/2 included):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
 - Tetris Party Live
 
 ### Games that got SDK upgrades
