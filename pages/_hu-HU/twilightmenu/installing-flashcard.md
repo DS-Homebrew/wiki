@@ -19,8 +19,19 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - **DS Phat/Lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
    - **DSi/3DS felhasználók:** Futtasd a TWLMenu++-t a konzol SD kártyáján és kapcsold be a `SCFG hozzáférést a Slot-1-ben` és állítsd be a `Slot-1: Érintés mód` opciót `DSi mód`-ra
       - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához, és a futtatását DSi-Enhanced/DSi-Exclusive/DSiWare játékoknak DSi módban a flashcard-odról
+      - Ha ez engedélyezett a <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> használatával válthatsz a belső SD kártya és a flashcard-od SD kártyája között
+
+### TWiLight Menu++ automatikus bootolása
+1. Csomagold ki az `Autoboot/(a te flashcard-od)` mapp tartalmát a flashcard-od microSD kártyája gyökerébe
+   - Lépd át ezt, ha nem látod a flashcard-od
+1. ...
+   - **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
+   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++-t a konzol SD kártyáján és kapcsold be a `Auto-start Slot-1` opciót
 
 ### Játékok futtatása a flashcard firmware használatával
+
+Vedd figyelembe, hogy ez csak akkor működik, ha a flashcard-od beállított autoboot-ra a TWiLight Menu++-ban. Tekintsd meg az előző fejezetet, arról, hogyan teheted ezt meg.
+{:.alert .alert-warning}
 
 Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon futtatását. Ha az alábbi lépések nem vonatkoznak a flashcard-odra, átugorhatod ezt a szakaszt.
 {:.alert .alert-warning}
@@ -30,7 +41,7 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 
 1. Ezekhez a flashcard-okhoz:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2020 cards
+   - r4isdhc.com 2014-2020 kártyák
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -40,20 +51,13 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (nem-SDHC modellek ***nem*** támogatottak)
+   - DSONE SDHC & DSONEi (a nem-SDHC modellek ***nem*** támogatottak)
    - M3 DS Real
    - M3i Zero (nem GMP-Z003 modell)
    - iTouchDS és iTouch2 (használd az M3Real_M3iZero YSMenu fájlokat)
    - R4(i)RTS (r4rts.com) (használd az M3Real_M3iZero YSMenu fájlokat)
-   - R4 SDHC RTS (feketecartridge) (r4isdhc.com) (használd az M3Real_M3iZero YSMenu fájlokat)
+   - R4 SDHC RTS (fekete cartridge) (r4isdhc.com) (használd az M3Real_M3iZero YSMenu fájlokat)
 
    Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
 1. Állítsd be a `Use nds-bootstrap` opciót `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
-
-### TWiLight Menu++ automatikus bootolása
-1. Csomagold ki az `Autoboot/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
-   - Lépd át ezt, ha nem látod a flashcard-od
-1. ...
-   - **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
-   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++-t a konzol SD kártyáján és kapcsold be a `Auto-start Slot-1` opciót

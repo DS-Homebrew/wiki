@@ -30,9 +30,10 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 {% capture tab-manual %}
 1. הורידו את הגרסה האחרונה של [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. חלצו את `TWiLightMenu-3DS.7z`
-1. העתיקו את התיקייה `_nds` לכרטיס הSD
-1. העתיקו את `BOOT.NDS` לכרטיס הSD
-1. העתיקו את שתי קבצי ה`.cia` לכרטיס הSD
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
+1. Copy the two `.cia` files to your SD card root, replacing any existing files
 1. במכשיר ה3DS, התקינו את שתי הCIAים באמצעות FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

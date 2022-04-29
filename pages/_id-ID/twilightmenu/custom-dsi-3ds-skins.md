@@ -13,7 +13,7 @@ To make a TWiLight Menu++ skin you will need an image editor capable of exportin
 The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format so if you have issues later on you can compare with these.
 
 ## Bagian 2: Menyunting gambar
-Unduh dan pasang [GIMP](https://www.gimp.org), bisa juga dengan penyunting (editor) berbeda kalau mau tetapi panduan ini memakai GIMP.
+Unduh dan pasang [GIMP](https://www.gimp.org), boleh juga memakai penyunting (editor) yang berbeda, tetapi panduan ini memakai GIMP.
 
 Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
 

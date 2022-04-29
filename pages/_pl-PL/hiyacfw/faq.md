@@ -4,7 +4,6 @@ layout: faq
 section: hiyacfw
 title: FAQ & Troubleshooting
 long_title: hiyaCFW FAQ & Troubleshooting
-category: other
 description: FAQ & Troubleshooting for hiyaCFW
 ---
 

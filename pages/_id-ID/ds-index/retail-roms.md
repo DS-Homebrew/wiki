@@ -21,7 +21,7 @@ Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another 
 ### Berkas-berkas simpanan (save)
 Cartridge Nintendo DS dikenali punya 4 jenis simpanan (save):
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca yang Bisa Ditata Olah Dihapus Secara Elektris)
+- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca Dapat Ditata Olah Dihapus Secara Elektris)
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory (Memori Akses Acak Feroelektrik)
 - NAND - NOT-AND

@@ -3,8 +3,7 @@ lang: pl-PL
 layout: wiki
 section: hiyacfw
 title: Niestandardowe splash screeny
-category: other
-description: Jak używać niestandardowych splash screenów z hiyaCFW
+description: How to use custom splash screens with hiyaCFW
 ---
 
 Dzięki hiyaCFW możesz używać niestandardowych splashy w formatach `.bmp` lub `.gif`. Muszą one znaleźć się w folderze `sd:/hiya` i muszą mieć nazwy `splashtop` dla górnego ekranu i `splashbottom` dla dolnego, z odpowiednim rozszerzeniem pliku, a następnie upewnij się, że splash screen jest włączony w konfiguracji. Obrazy nie muszą być w tym samym formacie, więc jeden może być BMP a drugi GIF, GIFy mają pierwszeństwo przed BMP. Poniżej znajduje się kilka szczegółów dotyczących wymagań, jakie muszą spełniać Twoje zdjęcia, aby działały:

@@ -136,4 +136,4 @@ En ce qui concerne les identifiants du système :
 
 ### Optimisé DSi :
 
-Les jeux dotés de la fonctionnalité « optimisé DSi » (ou « DSI Enhanced » en anglais) sont des jeux qui tirent parti de certains aspects du matériel de la DSi tout en restant compatibles avec la DS Tank/Lite. Ces jeux sont marqués comme `TWL` mais portent toujours la mention « Nintendo DS » au lieu de « Nintendo DSi » sur l'étiquette.
+Les jeux dotés de la fonctionnalité « optimisé DSi » (*DSi Enhanced* en anglais) sont des jeux qui tirent parti de certains aspects du matériel de la DSi tout en restant compatibles avec la DS Tank/Lite. Ces jeux sont marqués comme `TWL` mais portent toujours la mention « Nintendo DS » au lieu de « Nintendo DSi » sur l'étiquette.

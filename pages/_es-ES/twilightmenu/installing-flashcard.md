@@ -19,18 +19,29 @@ description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
    - **Usuarios de DS Phat/Lite:** Si al iniciar `BOOT.NDS` la consola crashea con una pantalla blanca, inserta un DS Memory Expansion Pak y prueba de nuevo
    - **Usuarios de DSi/3DS:** Abre TWLMenu++ desde la SD de la consola, activa `Acceso a SCFG en Slot-1` y configura la opción `Slot-1: Configuración Táctil` a `Modo DSi`
       - Esto permitirá usar la velocidad de reloj TWL y/o acelerar la VRAM en los juegos de la flashcard, así como acceder a la SD de la consola y lanzar juegos DSi-Enhanced/DSi-Exclusive/DSiWare en Modo DSi desde la flashcard
+      - Con esta opción habilitada, podrás usar <kbd>SELECT</kbd> + <kbd>Arriba</kbd>/<kbd>Abajo</kbd> para cambiar entre los contenidos de tu tarjeta SD y la tarjeta microSD de la flashcart
 
-### Iniciar los juegos con el firmware de la flashcard
+### Iniciar automáticamente TWiLight Menu++
+1. Extrae el contenido de la carpeta `Autoboot/(tu flashcart)` a la carpeta raíz de tu tarjeta microSD
+   - Si tu flashcart no aparece en el nombre de ninguna carpeta, puedes saltarte este paso
+1. ...
+   - **Usuarios de DS Phat/Lite:** Ve a los ajustes de tu consola, y activa el iniciar los juegos al encender la consola, para que así tu flashcart inicie automáticamente
+   - **Usuarios de DSi/3DS:** Inicia TWLMenu++ desde la tarjeta SD de la consola, ve a los ajustes y activa la opción `Inicio Automático Slot-1`
 
-Ten en cuenta que no todas las flashcards soportan correr juegos de esta forma. Si los siguientes pasos no aplican a tu flashcard, puedes omitir esta sección.
+### Para ejecutar los juegos usando el firmware de tu flashcart
+
+Ten en cuenta que esto sólo funciona si tu flashcart está preparada para iniciar TWiLight Menu++ automáticamente. Para configurar esto, ve la sección de arriba.
 {:.alert .alert-warning}
 
-1. Extrae el contenido de `Flashcart Loader/(tu flashcard)` en la raíz de la microSD de tu flashcard
-   - Si lo has hecho, continúa con el paso 3. Si no, sigue los pasos debajo de la lista de flashcards
+Ten en cuenta que no todas las flashcart tienen soporte para esta función. Si los pasos de abajo no aplican para tu flashcart, sáltate esta sección.
+{:.alert .alert-warning}
 
-1. Para estas flashcards:
+1. Extrae el contenido de la carpeta `Flashcart Loader/(tu flashcard)` a la carpeta raíz de tu tarjeta micro SD
+   - Si ya lo hiciste, continúa hasta el paso 3. Si no, sigue los pasos debajo de la lista de flashcarts a continuación
+
+1. Para las siguientes flashcarts:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2020 cards
+   - Tarjetas r4isdhc.com con etiquetas del 2014 al 2020
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -40,20 +51,13 @@ Ten en cuenta que no todas las flashcards soportan correr juegos de esta forma. 
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
+   - DSONE SDHC y DSONEi (los modelos que no admiten tarjetas SDHC ***no*** funcionan)
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
-   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
-   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
-   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
+   - M3i Zero (excepto el modelo GMP-Z003)
+   - iTouchDS y iTouch2 (usa los archivos de YSMenu de M3Real_M3iZero)
+   - R4(i)RTS (r4rts.com) (usa los archivos de YSMenu de M3Real_M3iZero YSMenu)
+   - R4 SDHC RTS (cartucho negro) (r4isdhc.com) (usa los archivos de YSMenu de M3Real_M3iZero)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Pon `Use nds-bootstrap` a `No` para usar el firmware de la flashcard en vez de nds-bootstrap
-
-### Iniciar automáticamente TWiLight Menu++
-1. Extrae el contenido de `Autoboot/(tu flashcard)` en la raíz de la microSD de tu flashcard
-   - Si no ves tu flashcard sáltate esto
-1. ...
-   - **Usuarios de DS Phat/Lite:** Ve a los ajustes en el menú de DS y pon el modo de inicio en Automático
-   - **Usuarios de DSi/3DS:** Inicia TWLMenu++ en la tarjeta SD de la consola y activa `Auto-start Slot-1`
+   Instala [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Asegúrate de que tienes el archivo `YSMenu.nds` (o renombra el archivo `TTMenu.dat`, si no existe) y la carpeta `TTMenu` en la carpeta raíz de tu tarjeta microSD
+1. En los ajustes de TWiLight Menu++, desactiva la opción `Usar nds-bootstrap`

@@ -2,10 +2,9 @@
 lang: it-IT
 layout: faq
 section: twilightmenu
-category: other
-title: FAQ & Risoluzione dei problemi
-long_title: TWiLight Menu++ FAQ & Risoluzione dei problemi
-description: FAQ e risoluzione dei problemi per il menu TWiLight ++
+title: FAQ & Troubleshooting
+long_title: TWiLight Menu++ FAQ & Troubleshooting
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 Per ulteriori FAQ, visita il thread [GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
@@ -16,7 +15,8 @@ TWL_FIRM potrebbe in qualche modo essere danneggiato. Segui questa guida per ris
 
 #### Come faccio a risolvere il problema di ottenere uno schermo bianco quando avvio TWiLight Menu++?
 - Reboot the console
-- Se ciò non funziona, formatta la scheda SD in FAT32 con 32 KB cluster/ memoria d'allocazione
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - Se anche questo non funziona, prova una scheda SD diversa
 
 #### Dov'è il tema Acekard/Wood IU?
@@ -34,11 +34,15 @@ You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nd
 
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
-#### Come faccio a mostrare un'immagine personalizzata sullo schermo superiore nel tema DSi?
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+
+#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - The images(s) must be no bigger than 208x156
 - If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
+
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
 
 #### Come posso ottenere i giochi?
 You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:

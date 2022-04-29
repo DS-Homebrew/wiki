@@ -43,11 +43,11 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
 #### Contoh adaptor microSD tersolder
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Sisipkan adaptor kartu microSD ke komputermu
-   - **PERINGATAN** - Jika Windows meminta memformat: **JANGAN diformat** - bisa terjadi kerusakan tak bisa diperbaiki
+- Sisipkan adaptor kartu microSD ke komputer
+   - **PERINGATAN** - Jika Windows minta memformat: **JANGAN diformat** - nanti terjadi kerusakan TAK DAPAT DIPERBAIKI
 
 #### Membuang footer no$gba
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. Caranya bisa dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. Ini dapat dilakukan dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
 1. Unduh versi aplikasi untuk sistem operasi yang kamu gunakan
 1. Run the script, selecting the NAND backup you wish to flash to your DSi

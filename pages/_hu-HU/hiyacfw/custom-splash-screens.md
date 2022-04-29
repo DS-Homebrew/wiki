@@ -3,7 +3,6 @@ lang: hu-HU
 layout: wiki
 section: hiyacfw
 title: Egyedi kezdőképernyők
-category: other
 description: Hogyan használj egyedi kezdőképernyőt a hiyaCFW-hez
 ---
 

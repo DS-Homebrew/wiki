@@ -2,9 +2,8 @@
 lang: en-US
 layout: faq
 section: twilightmenu
-category: other
-title: FAQ & Troubleshooting
-long_title: TWiLight Menu++ FAQ & Troubleshooting
+title: FAQ & Pengusutan masalah
+long_title: FAQ & Pengusutan Masalah TWiLight Menu++
 description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
@@ -17,6 +16,7 @@ TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <ht
 #### How do I fix getting a white screen when booting TWiLight Menu++?
 - Reboot the console
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - If that also doesn't work, try a different SD card
 
 #### Where is the Acekard/Wood UI theme?
@@ -34,20 +34,24 @@ You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nd
 
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
-#### How do I show a custom picture on the top screen of the DSi theme?
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+
+#### How do I show a custom picture on the top screen of the DSi theme? Apa dapat disembunyikan?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - The images(s) must be no bigger than 208x156
 - If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
 
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
+
 #### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Untuk mendapatkan dump permainan retail punya sendiri:
 - On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+Iya. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### How do I change TWiLight Menu++'s language?
 1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
@@ -55,13 +59,13 @@ Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) o
    - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
 
 #### Is this a DS(i) emulator?
-No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. Konsol yang diemulasikan hanya konsol terdahulu, tapi cuma sebagian untuk GBA (karena beberapa atau semua bagian seperti grafik dijalankan asli mesin).
+Tidak, ini bukan emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
 #### What systems does TWiLight Menu++ support?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Bisakah eksploit permainan Slot-1 mengawal nyala (boot) TWiLight Menu++?
-Tidak. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
+#### Apa eksploit permainan Slot-1 dapat menyala awal (boot) TWiLight Menu++?
+Tidak. Akses kartu SD hanya diperbolehkan untuk aplikasi DSiWare, jadi permainan Slot-1 tidak dapat diluncurkan (atau diakses) TWiLight Menu++.
 
 #### Kenapa permainan saya susah dicari/dilihat?
 There are a multiple reasons you may be unable to find them.

@@ -17,8 +17,9 @@ v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또�
 ### 업데이트하기
 1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
 1. `TWiLightMenu-Flashcard.7z`를 압축 해제합니다.
-1. Flashcard의 SD 카드 루트에 `_nds` 폴더를 복사합니다.
-1. Flashcard의 SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
+1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
 
 ### DSi/3DS SD 카드를 위한 추가적인 단계
 

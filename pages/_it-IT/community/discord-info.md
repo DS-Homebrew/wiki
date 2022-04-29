@@ -23,9 +23,8 @@ Ricordati sempre di controllare l'argomento del canale e i messaggi attaccati pr
 **Hub del server**
 - [#announcements][announcements] - Informazioni su aggiornamenti a homebrew e annunci generali relativi al server
 - [#github-updates][github-updates] - Feed di tutti i contributi e discussioni nelle repository GitHub dei nostri progetti
-- [#github-builds][github-builds] - Feed per le build nightly di tutti i nostri progetti
-- [#subreddit-feed][subreddit-feed] - Aggiornamenti sui nuovi post dal nostro [Subreddit](https://reddit.com/r/NDSBrew)
-- [#community-meta][community-meta] - Per dare feedback sulla nostra community, incluso questo server Discord, il nostro subreddit e l'organizzazione GitHub
+- [#subreddit-feed][subreddit-feed] - Updates for new posts from our [Subreddit](https://reddit.com/r/NDSBrew)
+- [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
 
 **Modding Nintendo DS⁽ⁱ⁾**
 - [#nds-modding-help][nds-modding-help] - Hai un problema con qualcosa che riguarda il Nintendo DS(i)? Hai bisogno di fare una domanda generale? Sentiti libero di farlo qui, fornendo tutte le informazioni che puoi dare (messagi di errore, la tua console, metodi provati, log, e così via). Per il modding 3DS vai su #other-console-modding a meno che non abbia a che fare con TWL_FIRM
@@ -109,7 +108,6 @@ Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#454
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537
 [github-updates]: https://discord.com/channels/283769550611152897/450065134191116290
-[github-builds]: https://discord.com/channels/283769550611152897/540764336134815766
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 

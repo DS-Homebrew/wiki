@@ -3,8 +3,7 @@ lang: it-IT
 layout: wiki
 section: hiyacfw
 title: Schermate d'avvio personalizzate
-category: other
-description: Come utilizzare schermate di avvio personalizzate con hiyaCFW
+description: How to use custom splash screens with hiyaCFW
 ---
 
 Con hiyaCFW puoi usare le schermate d'avvio personalizzate nei formati `.bmp` o `.gif`. Devono andare nella cartella `sd:/hiya` e devono essere chiamati `splashtop` per lo schermo superiore e `splashbottom` per quello inferiore, con l'estensione del file appropriata, poi assicurati che la schermata d'avvio sia abilitata nella configurazione. Le immagini non hanno bisogno di essere nello stesso formato, quindi una può essere BMP e l'altra GIF, le GIF hanno la priorità su i file BMP. Di seguito sono riportati alcuni dettagli sui requisiti per il funzionamento delle immagini:

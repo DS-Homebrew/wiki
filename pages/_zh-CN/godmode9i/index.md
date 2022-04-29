@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: godmode9i
 title: GodMode9i
-description: Information about GodMode9i
+description: 关于 GodMode9i 的信息
 ---
 
-[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) is an open source file browser for the Nintendo DS ecosystem, taking inspiration from GodMode9 for the Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
+[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) 是任天堂DS生态系统的开源文件浏览器，从任天堂3DS的 GodMode9 获得灵感。 GodMode9i具有转储游戏、管理SD卡文件、浏览NitroFS、计算文件的SHA1哈希值、用十六进制编辑器编辑二进制文件等功能。
 
-## Dumping functionality
+## 转储功能
 
-To dump games, select the drive in the drives list and follow the on-screen prompts.
-- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
-   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
-- On the Nintendo DSi family of systems, Unlaunch is required for dumping Slot-1 games to the SD card
-   - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
-- On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
-   - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+要转储游戏，在驱动器列表中选择驱动器并按照屏幕上的提示操作。
+- 在任天堂DS和任天堂DS Lite上，如果从Slot-1闪存卡运行，GodMode9i可以转储Slot-2游戏卡，如果GodMode9i从Slot-2闪存卡运行，则可以转储Slot-1游戏卡
+   - 保存文件也可以使用GBA卡带进行转储，更多信息请参见 [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data)
+- 在任天堂DSi系列系统中，将Slot-1游戏转储到SD卡时需要Unlaunch
+   - 转到 [dsi.cfw.guide](https://dsi.cfw.guide/) 获取如何安装 Unlaunch 的说明
+- 在任天堂3DS系列系统上，需要一个现代的CFW环境来启动GodMode9i
+   - 转到 [3ds.hacks.guide](https://3ds.hacks.guide/) 了解如何安装 Luma3DS 和 boot9strap
 
-### Restoring saves
-GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.
+### 还原存档
+GodMode9i还可以恢复DS游戏卡/GBA游戏卡的保存文件。 这可以通过在插入游戏卡时选择SD卡上的 `.sav` 文件并选择 `还原存档` 来实现。

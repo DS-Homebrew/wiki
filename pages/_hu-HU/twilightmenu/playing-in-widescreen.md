@@ -7,17 +7,16 @@ title: Játék széles képenyőn
 description: A TWiLight Menu++ széles képernyős használata Nintendo 3DS-en
 ---
 
-Nintendo 2DS vagy 3DS konzolt igényel.
+Ehhez a fejezethez egy a [3ds.hacks.guide](https://3ds.hacks.guide) oldalról származó modern CFW környezettel rendelkező 3DS családhoz tartozó konzolra van szükség.
 {:.alert .alert-info}
 
-### Előkészítés
-- Ellenőrizd, hogy a Luma `boot.firm` -je megtalálható-e az SD kártya gyökerében, ahhoz, hogy ez működjön
-
 ### Telepítés
-1. Töltsd le a [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia)-et és másold a `TWPatch.cia`-t az SD kártyádra ([GBAtemp beszélgetés szál](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Telepítsd a `TWPatch.cia`-t az FBI-jal
-   - Használhatod az Universal-Updater-t is a TWPatch telepítéséhez a korábbi két lépés helyett
-1. Térj vissza a home menübe és indítsd el a TWPatch-ot
+1. Nyisd meg az FBI-t és válaszd a `Remote Install`, majd a `Scan QR Code` opciót
+1. Olvasd be ezt a QR kódot a [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) legfrissebb verziójának telepítéséhez<br> ![Universal-Updater QR kód](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Nyisd meg az Universal Updater-t a HOME Menüből
+1. Telepítsd a TWPatch csomagot
+   - Ha a konzolod nem tud hozzáférni az internethez, akkor közvetlenül letöltheted a [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) fájlt, majd telepítheted az FBI segítségével
+1. Térj vissza a HOME menübe és indítsd el a TWPatch-ot
 1. Tarts nyomva az <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> gombokat, hogy megnyisd a patch menüt és engedélyezd a `Widescreen patch (384x240 16:10)` opciót
 1. (Opcionális!) A kevésbé pixeles széles képernyőhöz engedélyezd a `GPU átméretezés (homályos, nincs szűrő)` opciót is
 1. Nyomj <kbd class="face">B</kbd> gombot a patch menüből kilépéshez

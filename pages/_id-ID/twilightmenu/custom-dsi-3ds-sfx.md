@@ -3,70 +3,70 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skin DSi/3DS - SFX Ubah Suai
-description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
+title: Skin DSi/3DS - Kustom Efek Suara / SFX
+description: Cara menggunakan suara latar belakang kustom dan efek suara di skin DSi dan 3DS untuk TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if one is missing the default music will be used. You should then also set the music option in settings to "Theme".
+TWiLight Menu++ mendukung file suara kustom pada setiap tema. Letakkan file suaramu di sub direktori `sound` pada folder temamu, sebagai contoh untuk `tema` white, kamu harus meletakkan filenya masing-masing di `themes/white/sound/sfx.bin` dan `themes/white/sound/bgm.pcm.raw`. Keduanya itu opsional, jika salah satu hilang maka musik bawaan akan digunakan. Kamu juga harus mengatur pengaturan musik di pengaturan tema.
 
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Intruksi ini mengansumsikan kamu telah memasang devkitPro dengan mmutil. Kamu bisa mendapatkan devkitPro di [Website devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Sound Effect Bank
-The sound effect bank contains sound effects such as the icon select sound, etc.
+Sound effect bank berisi efek suara seperti ikon pilih suara, dsb.
 
-| File        | Description                                                                            |
-| ----------- | -------------------------------------------------------------------------------------- |
-| startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
-| launch.wav  | Played when launching a game                                                           |
-| select.wav  | Played when moving the select cursor                                                   |
-| wrong.wav   | Played when reaching the end of the page                                               |
-| switch.wav  | Played when switching pages                                                            |
-| stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
-| bgm.pcm.raw | Bukan bagian dari soundbank. See the section on [Menu BGM](#menu-bgm) for more details |
+| File        | Keterangan                                                                                |
+| ----------- | ----------------------------------------------------------------------------------------- |
+| startup.wav | Dimainkan saat startup. Lihat bagian [suara Startup](#startup-sound) untuk lebih jelasnya |
+| back.wav    | Kembali                                                                                   |
+| launch.wav  | Dimainkan saat menjalankan gim                                                            |
+| select.wav  | Dimainkan saat menggerakkan kunsor pilih                                                  |
+| wrong.wav   | Dimainkan ketika mencapai akhir dari satu halaman                                         |
+| switch.wav  | Dimainkan saat mengganti halaman                                                          |
+| stop.wav    | Dimainkan di tema DSi ketika kunsor pilih berhenti bergerak                               |
+| bgm.pcm.raw | Bukan bagian dari soundbank. Lihat bagian [Menu BGM](#menu-bgm) untuk lebih jelasnya      |
 
-You can then run `make` to make the sound effect bank. All files listed above, except *bgm.pcm.raw* are required, but you can make them silent.
+Kamu bisa menjalakan kode `make` untuk membuat sound effect bank. Semua file yang ada pada daftar di atas, kecuali *bgm.pcm.raw* dibutuhkan, tetapi kamu bisa membuat mereka hening.
 
-Your resulting *sfx.bin* **must be under 512000B = 512 kB**. Any larger will result in either crashes or some sounds not playing fully.
+Hasil *sfx.bin* **harus di bawah 512000B = 512 kB**. Jika lebih akan mengakibatkan crash dan beberapa suara tidak bisa diputar penuh.
 
-### Startup sound
-While the other sound effects will work with any WAV file, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+### Suara startup
+Saat efek suara lain akan berfungsi dengan setiap file WAV, suara startup harus dengan format yang spesifik agar dapat berfungsi dengan baik, sebaliknya akan ada celah antara ketika suara startup berhenti dan musik latar belakang dimulai.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+File startup.wav harus **16-bit 16 kHz**. Kamu bisa menggunakkan [Audacity](https://www.audacityteam.org/download/) untuk menkonversi ke format tersebut. Begitu file dimuat di Audacity, ubah **Project Rate (Hz)** ke **16000**, lalu tekan **Shift+M**, dan ubah **Format** ke **16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Jika filemu Stereo, kamu harus mengubahnya di **Tracks > Mix > Mix Stereo down to Mono**.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+Kamu harus mengatur `PlayStartupJingle=1` di `theme.ini` milikmu agar jingle startup bisa diputar.
 
 
 ## Menu BGM
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
+Menu BGM harus berupa **16-bit 16 kHz Mono** file raw PCM. Di bawah ini ada dua metode untuk menkonversi file audio menjadi format tersebut.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Tidak seperti sfx.bin, *bgm.pcm.raw* ukurannya bisa sangat besar.
 
 ### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
+Cara termudah untuk konversi muusik untuk digunakan di TWiLight Menu++ adalah dengan menggunakkan [perintah ffmpeg](https://ffmpeg.org) ini di terminal:
 
 ```bash
 ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
 ```
 
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Ganti `[input file]` dengan nama file yang ingin kamu konversikan. Kamu juga bisa dengan mudah melakukan ini dengan drag filenya ke jendela terminal dengan kunsor pada lokasi yang tepat.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+Jika kamu tidak ingin menggunakan command line kamu masih bisa menkonversi menggunakan [Audacity](https://www.audacityteam.org/download/).
 
-To convert the audio:
-1. Load the file in Audacity
-1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+Untuk menkonversi audio:
+1. Muat filenya di Audacity
+1. Jika filemu stereo, klik pada lagu tersebut lalu pilih `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Ubah `Project Rate (Hz)` di kiri bawah menjadi `16000`
 
-To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+Untuk export ke dalam format yang benar:
+1. Pilih `File` > `Export` > `Export Audio...`
+1. Atur `File Type` to `Other uncompressed files`
+1. Atur `Header` to `RAW (header-less)`
+1. Atur `Encoding` to `Signed 16-bit PCM`
+1. Atur nama output menjadi `bgm.pcm.raw` dan klik `Save`
+1. Klik `OK` untuk mengedit metadata
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Kini kamu memiliki file `bgm.pcm.raw` yang bisa kamu salin ke subfolder `sound` di folder temamu.

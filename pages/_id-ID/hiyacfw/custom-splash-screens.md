@@ -3,8 +3,7 @@ lang: en-US
 layout: wiki
 section: hiyacfw
 title: Layar splash ubah suai (custom)
-category: other
-description: Cara menggunakan layar splash ubah suai dengan hiyaCFW
+description: How to use custom splash screens with hiyaCFW
 ---
 
 With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:

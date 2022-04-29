@@ -2,10 +2,9 @@
 lang: he-IL
 layout: faq
 section: twilightmenu
-category: other
-title: שאלות ותשובות & פתרון בעיות
-long_title: שאלות & תשובות ופתרון בעיות עבור TWiLight Menu++
-description: שאלות ותשובות ופתרון בעיות עבור TWiLight Menu++
+title: FAQ & Troubleshooting
+long_title: TWiLight Menu++ FAQ & Troubleshooting
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 לשאלות ותשובות נוספות, בקרו ב[דיון בGBAtemp ](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
@@ -16,7 +15,8 @@ TWL_FIRM ככל הנראה נפגם. עקבו אחרי המדריך הזה לת�
 
 #### איך אני מתקן את הבעיה של מסך לבן כשאני מפעיל את TWiLight Menu++?
 - Reboot the console
-- אם זה לא עוזר, פרמטו את כרטיס הSD לFAT32 עם 32 KB cluster/allocation size
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - אם גם זה לא עוזר, נסו כרטיס SD אחר
 
 #### איפה ערכת הנושא Acekard/Wood UI?
@@ -34,14 +34,18 @@ See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq
 
 לחלופין, ניתן להשתמש ב[r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) על מנת ליצור מאגר בעצמכם.
 
-#### איך אני מראה תמונה מותאמת אישית במסך העליון בערכת הנושא של הDSi?
-קובץ `.png` אקראי מהתיקייה `sd:/_nds/TWiLightMenu/dsimenu/photos/` יוצג כל פעם שהתפריט יעלה. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+
+#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
+A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - הגודל המקסימלי של התמונות הוא 208x156
 - אם אתם מקבלים שגיאות, זוהי כנראה בעיה עם גודל התמונה. השתמשו ב[tinypng](https://tinypng.com) להקטין את הגודל
 
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
+
 #### איך אני משיג משחקים?
-ניתן להוריד משחקי הומברו מ [Universal-DB](https://db.universal-team.net/ds) ומ[GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). על מנת להשיג גיבויים של המשחקים הרשמיים שלכם:
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
 - על מכשיר DS ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת להשיג את הגיבויים של משחקי הGBA שלכם, ואם יש לכם פלאשקארט לSlot-2, משחקי DS. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - על מכשיר DSi ניתן להשתמש ב[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) על מנת להשיג את הגיבויים של משחקי הDS והDSiWare שלכם
 - על מכשיר 3DS ניתן להשתמש ב[GodMode9](https://github.com/d0k3/GodMode9/releases) על מנת להשיג את הגיבויים של משחקי DS, DSiWare ומשחקי Virtual Console

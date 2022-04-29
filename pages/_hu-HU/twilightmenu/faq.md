@@ -2,7 +2,6 @@
 lang: hu-HU
 layout: faq
 section: twilightmenu
-category: other
 title: GYIK & hibaelhárítás
 long_title: TWiLight Menu++ GYIK & hibaelhárítás
 description: TWiLight Menu++ GYIK és hibaelhárítás
@@ -17,6 +16,7 @@ A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
 - Indítsd újra a konzolt
 - Ha ez nem működik, formázd az SD kártyádat FAT32-re 32 KB cluster/foglalási mérettel
+   - Tekintsd meg a [dsi.cfw.guide oldalt](https://dsi.cfw.guide/sd-card-setup.html) az ajánlott eszközökért
 - Ha ez sem működik, próbálj egy másik SD kártyát
 
 #### Hol van az Acekard/Wood UI téma?
@@ -34,11 +34,15 @@ Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az
 
 Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 
-#### Hogyan jelenítek meg egy egyedi képet a felső képernyőn a DSi témában?
+Ha már van cheat DB-d, akkor a csalásokat a TWiLight menüben a <kbd class="face">Y</kbd> megnyomásával engedélyezheted, ami a játékonkénti beállításokat nyitja meg, majd a <kbd class="face">X</kbd> gombbal nyitohatod meg a csalások menüt.
+
+#### Hogyan jelenítek meg egy egyedi képet a felső képernyőn a DSi témában? El is rejthetem helyette?
 Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából kerül megjelenítésre minden alkalommal, amikor a menü betöltésre kerül. Ha nincsennek használható képek, akkor az nds-bootstrap által készített képernyőképek kerülnek felhasználásra.
 
 - A kép(ek) felbontása nem lehet nagyobb, mint 208x156
 - Ha hibát tapasztalsz, az leginkább a képméret hiba. Használd a [tinypng](https://tinypng.com)-t a méret csökkentéséhez
+
+A kép elrejtéséhez a `theme.ini` fájlt kell szerkesztened, amely a `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin mappa]/` mappában található. Nyisd meg a fájlt egy szövegszerkesztővel, módosítsd a `RenderPhoto` sort `1` -ről `0-ra`, majd mentsd el a fájlt.
 
 #### Hogyan szerezhetek játékokat?
 Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. A kereskedelmi játékaid dumpolásához:

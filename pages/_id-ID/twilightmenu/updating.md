@@ -23,6 +23,6 @@ Jika kamu menggunakan DSi (dari kartu SD internal), ikuti [arahan untuk DSi](upd
 [![Nintendo DSi](/assets/images/consoles/dsi.png)](updating-dsi) [![Nintendo DSi XL](/assets/images/consoles/dsixl.png)](updating-dsi)
 
 ### Flashcard
-Jika kamu menggunakan flashcard (terlepas dari model DS apa yang dipakai) ikuti [arahan untuk flashcard](updating-flashcard).
+Jika kamu menggunakan flashcard (terlepas dari model DS apa yang digunakan) ikuti [arahan untuk flashcard](updating-flashcard).
 
 [![Flashcard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Flashcard Acekard2i](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![Flashcard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

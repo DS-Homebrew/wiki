@@ -82,5 +82,5 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [TWiLight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
-#### Bisakah saya mempercepat permainan dengan nds-bootstrap?
+#### Apa permainan dapat dipercepat dengan nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.

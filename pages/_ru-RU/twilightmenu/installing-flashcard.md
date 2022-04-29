@@ -19,16 +19,27 @@ description: Как установить TWiLight Menu++ на флеш-карт�
    - **Пользователям DS Phat/Lite:** Если после запуска `BOOT.NDS` консоль виснет на белом экране, вставьте DS Memory Expansion Pak и попробуйте ещё раз
    - **Пользователям DSi/3DS:** Запустите TWLMenu++ с SD карты консоли, включите `Доступ SCFG в Slot-1` и поставьте `Слот-1: Режим касания` в `DSi режиме`
       - Это позволит вам использовать тактовая частоту TWL и/или ускорение VRAM в играх на вашем флеш-картридже, так же как и доступ к SD-карте консоли, и запуску DSi-Enhanced/DSi-Exclusive/DSiWare игр в режиме DSi с флеш-картриджа
+      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
 
-### Для запуска игр используя прошивку вашего флеш-картриджа
+### Autobooting TWiLight Menu++
+1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+   - Skip this, if you don't see your flashcard
+1. ...
+   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+
+### To run games using your flashcard firmware
+
+Please note this only works if your flashcart is set to autoboot TWiLight Menu++. See above section for how to do so.
+{:.alert .alert-warning}
 
 Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
 {:.alert .alert-warning}
 
-1. Извлеките всё, что есть в `Flashcart Loader/(ваш флеш-картридж)` в корень карты microSD флеш-картриджа
-   - If you have done so, continue to step 3. Если нет, выполните шаги, указанные ниже списка флеш-картриджей
+1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
-1. Для этих флеш-картриджей:
+1. For these flashcards:
    - R4i-SDHC (r4i-sdhc.com)
    - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
@@ -49,11 +60,4 @@ Please note that not all flashcards support running games in this fashion. If th
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Установите `Исп. nds-bootstrap` на `Нет`, чтобы использовалась прошивка вашего флеш-картриджа вместо nds-bootstrap
-
-### Автозагрузка TWiLight Menu++
-1. Извлеките всё содержимое из `Autoboot/(ваш флеш-картридж)` в корень microSD карты флеш-картриджа
-   - Пропустите если вы не видите ваш флеш-картридж в списке
-1. ...
-   - **DS Phat/Lite users:** Перейдите в настройки DS menu, и включите автозапуск, чтобы ваш флеш-картридж запускался после запуска консоли
-   - **Пользователи DSi/3DS:** Запустите TWLMenu++ на SD-карте консоли и включите `Автозапуск Slot-1`
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap

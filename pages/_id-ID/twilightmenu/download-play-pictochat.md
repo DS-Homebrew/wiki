@@ -7,7 +7,7 @@ title: Download Play/Pictochat di Menu DS Klasik
 description: Cara mendapatkan DS Download Play dan Pictochat di Menu DS Klasik TWiLight Menu++
 ---
 
-Jika kamu menggunakan konsol DSi, seharusnya sudah bisa meluncurkan dua aplikasi ini. Mendapatkan timbunan (dump) berkasnya untuk flashcard atau 3DS perlu mengakses Menu DS Klasik di DSi. Sebaliknya, jika kamu punya konsol 3DS, lanjut ke bawah.
+Jika kamu menggunakan konsol DSi, seharusnya sudah dapat meluncurkan dua aplikasi ini. Mendapatkan timbunan (dump) berkasnya untuk flashcard atau 3DS perlu mengakses Menu DS Klasik di DSi. Sebaliknya, jika kamu punya konsol 3DS, lanjut ke bawah.
 
 Di GodMode9:
 1. Tekan tombol HOME/Power

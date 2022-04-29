@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: nds-bootstrap
-title: Compatibility List & Testing Tips
-description: Compatibility list and tips for testing ROMs
+title: 兼容性列表 & 测试提示
+description: 兼容性列表和测试ROM的技巧
 ---
 
-### Compatibility List
-To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
+### 兼容性列表
+要查看经过测试的ROM，请查看 [兼容性列表](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/)。 如果您想要作出贡献，请点击 `只查看`， 然后点击 `请求编辑`。 Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
 
 To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
 

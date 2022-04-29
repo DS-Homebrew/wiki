@@ -17,8 +17,9 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 ### עדכון
 1. הורידו את הגרסה האחרונה של [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. חלצו את `TWiLightMenu-Flashcard.7z`
-1. העתיקו את התיקייה `_nds` לכרטיס המיקרו SD
-1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
+1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
 
 ### שלבים נוספים עבור הSD של DSi/3DS
 

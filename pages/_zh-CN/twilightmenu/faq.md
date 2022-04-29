@@ -2,9 +2,8 @@
 lang: zh-CN
 layout: faq
 section: twilightmenu
-category: other
 title: 常见问题 & 故障处理
-long_title: TWiLight Menu++ 常见问题 & 故障处理
+long_title: TWiLight Menu++ 常见问题 & 故障排除
 description: TWiLight Menu++ 的常见问题和故障处理
 ---
 
@@ -12,11 +11,12 @@ description: TWiLight Menu++ 的常见问题和故障处理
 {:.alert .alert-info}
 
 #### 为什么我的3DS在启动 TWiLight Menu++ 时，会出现黑屏、崩溃、断电等等的情况？
-TWL_FIRM可能以某种方式被破坏了。 按照这个指南来解决这个问题：<https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
+TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
 #### 如何解决启动 TWiLight Menu++ 时出现白屏的问题？
 - 重新启动主机
 - 如果这不起作用，将你的SD卡格式化为FAT32，分配单元大小为32KB。
+   - 请参阅 [dsi.cfw.guide 的页面](https://dsi.cfw.guide/sd-card-setup.html)了解推荐的工具。
 - 如果这也不奏效，尝试换一张SD卡
 
 #### Acekard/Wood UI主题在哪里？
@@ -34,49 +34,53 @@ TWL_FIRM可能以某种方式被破坏了。 按照这个指南来解决这个�
 
 另外，你还可以使用 [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) 来创建你自己的金手指数据库。
 
-#### How do I show a custom picture on the top screen of the DSi theme?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
+安装了金手指数据库之后， 你可以在TWiLight Menu++中选中一个游戏，按下 <kbd class="face">Y</kbd> 键来启用金手指。 然后按 <kbd class="face">X</kbd> 键打开金手指菜单。
 
-- The images(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
+#### 如何在DSi主题的上屏幕显示自定义图片？ 我可以隐藏它吗？
+每次加载菜单时都会在 `sd:/_nds/TWiLightMenu/dsimenu/photos/` 中随机选择 `.png` 图像显示。 如果没有适用的图像，将使用在 nds-bootstrap 拍摄的屏幕截图来代替。
 
-#### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
-- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
-- On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
-- On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
+- 图像必须不大于208x156
+- 如果启动时发生了错误，很可能是图像尺寸的错误。 请使用 [tinypng](https://tinypng.com) 来减小尺寸
 
-#### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+至于隐藏图片，你需要编辑 `theme.ini` 文件，在 `sd:/_nds/WiLightMenu/dsimenu/themes/[皮肤文件夹]/` 找到。 用文本编辑器打开文件，将 `RenderPhoto` 一行的值从 `1` 改为 `0`，然后保存该文件。
 
-#### How do I change TWiLight Menu++'s language?
-1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
-1. Change the first option until you see the language you want, then exit settings
-   - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
+#### 我如何获取游戏？
+你可以从 [Universal-DB](https://db.universal-team.net/ds) 和 [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)下载自制游戏。 为了获得你的卡带游戏的转储：
+- 在DS上，你可以使用 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 来转储你的GBA游戏，如果你有一个Slot-2烧录卡，还可以转储DS游戏。 如果你只有一张Slot-1烧录卡，并且想转储一个DS游戏，你可以使用 [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/)，它需要一个与DS兼容的Wi-Fi连接，以及一个单独设备上的FTP客户端来接收ROM
+- 在DSi上，你可以使用 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 来转储你的DS游戏和DSiWare
+- 在3DS上，您可以使用 [GodMode9](https://github.com/d0k3/GodMode9/releases) 来转储您的DS游戏、DSiWare 和 Virtual Console 游戏
 
-#### Is this a DS(i) emulator?
-No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
+#### 我可以把游戏卡上的保存文件放到我的SD卡上吗，反之亦然？
+是的。 你可以在3DS上使用 [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) ，或者在DSi / 3DS上使用 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) 。
 
-#### What systems does TWiLight Menu++ support?
-See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+#### 我该怎么改变 TWiLight Menu++ 的语言？
+1. 打开 TWiLight Menu++ 设置，你可以在加载TWiLight Menu++时按住 <kbd>SELECT</kbd> 打开设置
+1. 改变第一个选项，直到你看到你想要的语言，然后退出设置
+   - 你可能还想改变nds-bootstrap设置页面上的前三个选项，因为它们可以控制DS游戏的语言和地区以及TWiLight Menu++ 中的标题
 
-#### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
+#### 这是一个 DS(i) 模拟器吗？
+不是，这不是一个模拟器。 菜单和DS游戏（通过nds-bootstrap加载）在主机的DS/DSi模式下原生运行。 唯一模拟的游戏机是过去的游戏机，但GBA是部分模拟的（一些或所有的部分如图形是原生运行的）。
 
-#### Why can't I find/see my games?
-There are a multiple reasons you may be unable to find them.
-- The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
-- If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
-- If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
-- If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
-- If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+#### TWiLight Menu++ 支持哪些主机？
+参见 [TWiLight Menu++支持的主机列表](../ds-index/emulators#list-of-supported-systems-by-twilight-menu)。
 
-#### How do I access TWiLight Menu++ settings?
-The way to access the TWiLight Menu++ settings varies between your configuration.
-- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
-- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
-- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+#### Slot-1 游戏的漏洞可以启动 TWiLight Menu++ 吗？
+不能。 SD卡的访问权只授予DSiWare应用程序，因此Slot-1游戏不能启动（甚至不能访问）TWiLight Menu++。
 
-You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+#### 为什么我找不到/看不到我的游戏？
+有多种原因导致你可能无法找到它们。
+- 在SD卡根目录的 `_nds` 文件夹不是为了在TWiLight Menu++访问准备的，因为它保留了基于功能的文件（皮肤、配置、图像、模拟器等等）。 如果你把你的游戏放在这里，请把它们移到其他地方。
+- 如果你在一个文件夹里有超过39个项目，并且菜单上的所有空位都被占用，你的游戏可能在下一页。 使用 <kbd class="l">L</kbd>/<kbd class="r">R</kbd> 或 <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> 来切换页面
+- 如果你的游戏或文件夹是隐藏的，你可能需要修改TWiLight Menu++的GUI设置来显示隐藏文件
+- 如果你的游戏是在一个压缩文件里面（`zip`, `rar`, `7z`, 等等），它不能被TWiLight Menu++读取。 从压缩文件中提取游戏以使用它
+- 如果你的游戏没有使用[支持的扩展名之一](../ds-index/emulators#list-of-systems-supported-by-twilight-menu)，你可能必须通过重命名文件来改变扩展名
+
+#### 我如何访问TWiLight Menu++的设置？
+访问TWiLight Menu++设置的方式因你的配置而异。
+- **DS经典菜单：** 点击下屏幕底部的DS图标
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher主题：使用SELECT菜单：** 按 <kbd>SELECT</kbd>，然后启动设置小程序（使用十字键选择选项）
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher主题不使用SELECT菜单：** 按下 <kbd>SELECT</kbd> 将使你进入DS经典菜单
+- **任天堂3DS主题：** 点击屏幕下方的扳手图标
+- **原版R4主题：** 按下 <kbd>START</kbd> （如果你在文件浏览器中），然后按下 <kbd>SELECT</kbd>
+
+你也可以在启动TWiLight Menu++时按住 <kbd>SELECT</kbd> 来直接访问设置。

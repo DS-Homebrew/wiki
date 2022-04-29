@@ -3,8 +3,7 @@ lang: he-IL
 layout: wiki
 section: hiyacfw
 title: מסך פתיחה מותאם אישית
-category: other
-description: כיצד ליצור תמונות אתחול מותאמות אישית עבור hiyaCFW
+description: How to use custom splash screens with hiyaCFW
 ---
 
 עם hiyaCFW ניתן להשתמש במסכי פתיחה מותאמים אישית בפורמטים `.bmp` או `.gif`. הם צריכים להיות בתיקייה `sd:/hiya` והם צריכים ששמות הקבצים יהיו `splashtop` למסך העליות ו`splashbottom` למסך התחתון, עם סיומת הקובץ המתאימה, ולאחר מכן יש לוודא שמסך הפתיחה פעיל בהגדרות. התמונות לא חייבות להיות באותו הפורמט, כך שאחד יכול להיות BMP והשני GIF, כאשר לGIF יש עדיפות על BMP. להלן מספר פרטים על דרישות התמונות על מנת שיעבדו:

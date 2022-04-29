@@ -23,7 +23,6 @@ Mindig ellenőrizd a csatorna témáját és a rögzített tartalmat, mielőtt b
 **Szerver Hub**
 - [#announcements][announcements] - Információk új homebrew frissítésekről és általános bejelentések a szerverrel kapcsolatosan
 - [#github-updates][github-updates] - Minden hozzájárulás feed-je és beszélgetések a projektjeink GitHub repóiról
-- [#github-builds][github-builds] - A projektjeink esti fordításainak (nightly build) feedje
 - [#subreddit-feed][subreddit-feed] - Frissítések az új postokról a [Subreddit-ünkből](https://reddit.com/r/NDSBrew)
 - [#community-meta][community-meta] - Visszajelzés adásához a közösségről, beleértve ezt a Discord szervert, a subreddit-ünket és a GitHub organizációt
 
@@ -109,7 +108,6 @@ Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537
 [github-updates]: https://discord.com/channels/283769550611152897/450065134191116290
-[github-builds]: https://discord.com/channels/283769550611152897/540764336134815766
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 

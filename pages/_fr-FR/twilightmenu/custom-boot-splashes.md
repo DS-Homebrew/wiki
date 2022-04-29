@@ -3,7 +3,7 @@ lang: fr-FR
 layout: wiki
 section: twilightmenu
 category: customization
-title: Écrans de démarage personnalisés
+title: Écrans de démarrage personnalisés
 description: Comment utiliser des écrans de démarrage personnalisés pour TWiLight Menu++
 ---
 

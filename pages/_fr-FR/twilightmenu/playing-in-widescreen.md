@@ -7,25 +7,24 @@ title: Jouer en plein écran
 description: Comment utiliser TWiLight Menu++ en plein écran sur la Nintendo 3DS
 ---
 
-Nécessite une console Nintendo 3DS ou 2DS.
+Cette section nécessite une console de la famille 3DS, exécutant un environnement CFW moderne de [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-### Préparation
-- Assurez-vous que le fichier `boot.firm` de Luma se trouve à la racine de la carte SD pour que cela fonctionne
-
 ### Installation
-1. Téléchargez [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) et copiez `TWPatch.cia` sur votre carte SD ([fil GBAtemp](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Installez `TWPatch.cia` en utilisant FBI
-   - Vous pouvez également utiliser Universal-Updater pour installer TWPatch au lieu des deux étapes précédentes
+1. Ouvrez FBI, allez dans `Remote Install`, puis sélectionnez `Scan QR Code`
+1. Scannez ce code QR pour installer la dernière version de [Universal Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Code QR de Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Ouvrez Universal-Updater à partir de votre menu HOME
+1. Installez le package TWPatch
+   - Si votre console ne peut accéder à Internet, vous pouvez directement télécharger [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085), puis l'installer avec FBI
 1. Retournez au menu HOME et lancez TWPatch
 1. Maintenez <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> pour ouvrir le menu du patch et activez `Widescreen patch (384x240 16:10)`
 1. (Optionnel !) Pour un plein écran moins pixélisé, activez également `GPU scaling (blurry, no filters)`
 1. Appuyez sur <kbd class="face">B</kbd> pour quitter le menu du patch
-1. Appuyez sur <kbd>START</kbd> pour générer un fichier `TwlBg.cxi` avec le plein écran
-   - Si l'écran du haut n'indique pas que le patch plein écran est activé, recommencez depuis l'étape 3
+1. Appuyez sur <kbd>START</kbd> pour générer un fichier `TwlBg.cxi` en plein écran
+   - Si l'écran en haut de l'écran n'indique pas que le patch de plein écran est activé, recommencez à partir de l'étape 3
 1. Déplacez `TwlBg.cxi` de `sd:/luma/sysmodules/` à `sd :/_nds/TWiLightMenu/TwlBg/` (créez `le dossier TwlBg` s'il n'existe pas), et renommez le fichier en `Widescreen.cxi`
-1. Redémarrez votre 3DS tout en maintenant <kbd>SELECT</kbd> pour ouvrir la configuration de Luma3DS
-1. Activez `External FIRMs and modules`, puis appuyez sur <kbd>START</kbd> pour sauvegarder et quitter
+1. Redémarrez votre 3DS en maintenant <kbd>SELECT</kbd> pour ouvrir la configuration de Luma3DS
+1. Activez `external FIRMs and modules`, puis appuyez sur <kbd>START</kbd> pour enregistrer et quitter
 1. Ouvrez TWiLight Menu++, appuyez sur <kbd class="face">Y</kbd> sur le jeu de votre choix pour faire apparaître les paramètres par jeu, et réglez le `Ratio de l'écran` à `16/10`
 
 Vous avez terminé ! Profitez de vos jeux DS en plein écran !

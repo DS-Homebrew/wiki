@@ -2,10 +2,9 @@
 lang: ja-JP
 layout: faq
 section: twilightmenu
-category: other
-title: よくある質問とトラブルシューティング
-long_title: TWiLight Menu++のよくある質問とトラブルシューテイング
-description: TWiLight Menu++のよくある質問とトラブルシューティング
+title: FAQ & Troubleshooting
+long_title: TWiLight Menu++ FAQ & Troubleshooting
+description: FAQs and troubleshooting for TWiLight Menu++
 ---
 
 もっとよくある質問ため、[GBAtempスレッド](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/)にアクセスしてください。
@@ -16,7 +15,8 @@ TWL_FIRMは何らかの方法で破損している可能性があります。 �
 
 #### TWiLight Menu++を起動する時に、白い画面が表示されるを修正するにはどうすればいいですか？
 - 本体を再起動
-- それがうまくいかない場合は、SDカードを32KBクラスタ／割り当てサイズでFAT32にフォーマットしてください
+- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
+   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - それでもうまくいかない場合は、別のSDカードをお試してください
 
 #### Acekard・Wood UIのテーマはどこですか？
@@ -34,20 +34,24 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 
 あるいは、[r4cce](http://hp.vector.co.jp/authors/VA013928/soft.html)を使って独自のチートデータベースを作成できます。
 
-#### DSiテーマの上画面にカスタム画像を表示するにはどうすればいいですか？
-`sd:/_nds/TWiLightMenu/dsimenu/photos/`内のランダムな`.png`画像はメニューが読み込まれるたびに表示されます。 該当する画像がない場合は、代わりにnds-bootstrapで撮影されたスクリーンショットが使用されます。
+Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+
+#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
+A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - 画像は208x156以下である必要があります
 - エラーがある場合は、画像サイズのエラーの可能性が最も高いです。 サイズを小さくするには、[tinypng](https://tinypng.com)を使ってください
 
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
+
 #### ゲームを入手するにはどうすればよいですか？
-[Universal-DB](https://db.universal-team.net/ds)と[GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)から自作ゲームをダウンロードできます。 小売ゲームのダンプを取得するには：
+You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
 - DSでは、[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使ってGBAゲームをダンプでき、Slot-2フラッシュカートを持っている場合はDSゲームをダンプできます。 Slot-1フラッシュカードのみを持っていてDSゲームをダンプしたい場合は、 [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/)を使用できます。DSと互換性のあるWi-Fi接続とROMを受信する別のデバイスのFTPクライアントが必要です。
 - DSiでは、[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使ってDSゲームとDSiウェアをダンプできます
 - 3DSでは、[GodMode9](https://github.com/d0k3/GodMode9/releases)を使ってDSゲーム、DSiウェア、バーチァルコンソールのゲームをダンプできます
 
 #### ゲームカードからSDカードにセーブファイルを取得するまたは逆にことはできますか？
-はい。 3DSでは[Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)、DSi・3DSでは[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)を使用できます。
+Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### TWiLight Menu++の言語を変更するにはどうしたらよいですか？
 1. TWiLight Menu++設定を開きます。これを行うには、TWiLight Menu++を読み込んでいる間に<kbd>SELECT</kbd>を押し続けます
@@ -55,16 +59,16 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
    - また、nds-bootstrap設定ページの最初の3つのオプションを変更することもできます。これらのオプションは、DSゲームの言語と地域、およびTWiLight Menu++のタイトルを制御します
 
 #### これはDS(i)エミュレータですか？
-いいえ、これはエミュレータではありません。 メニューとDSゲーム（nds-bootstrapを介して読み取り）は、本体のDS・DSiモードでネイティブに実行されます。 唯一のエミュレートされる本体は、過去の本体です。しかし、GBAは部分的です（グラフィクスのようないくつかの部分はネイティブに実行されている）
+No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
 #### TWiLight Menu++はどのシステムに対応ですか？
-[TWiLight Menu++で対応されているシステムのリスト](../ds-index/emulators#twilight-menuで対応されているシステムのリスト)を参照してください。
+See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Slot-1ゲームのエクスプロイトでTWiLight Menu++を起動できますか？
-いいえ。 SDカードへのアクセスはDSiウェアアプリにのみ許可されるため、Slot-1ゲームではTWiLight Menu++を起動できない（アクセスすらできない）。
+No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### ゲームを見つける・見ることができないのはなぜですか？
-見つからないことができない複数の理由があります。
+There are a multiple reasons you may be unable to find them.
 - SDカードのルートにある`_nds`フォルダは、TWiLight Menu++のファイル（スキン、設定、画像、エミュレータなど）を保存するため、TWiLight TWiLight++からアクセスするアプリケーション向けではありません。 ここにタイトルを配置した場合は、他の場所に移動してください。
 - フォルダ内に39個以上のアイテムがあり、メニュー上のスロットがすべて取られている場合は、ゲームは次のページにある可能性があります。 <kbd class="l">L</kbd>・<kbd class="r">R</kbd>または<kbd>SELECT</kbd>+<kbd>左</kbd>・<kbd>右</kbd>を使ってページを切り替える
 - ゲームやフォルダが隠されている場合は、TWiLight Menu++のGUI設定から「隠しファイルの表示」をオンにする必要があります
@@ -72,11 +76,11 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 - ゲームが[対応されている拡張子](../ds-index/emulators#list-of-systems-supported-by-twilight-menu)のにずれかを使わない場合は、ファイルの名前を変更して拡張子を変更する必要があります
 
 #### TWiLight Menu++設定にアクセスするにはどうすればいいですか？
-TWiLight Menu++設定にアクセスする方法は、設定によって異なります。
+The way to access the TWiLight Menu++ settings varies between your configuration.
 - **DSクラシックメニュー：**下画面の下のDSアイコンをタップします
 - **ニンテンドーDSi/セガサターン/Homebrew Launcherのテーマ：SELECTメニューを使う：**<kbd>SELECT</kbd>を押して設定アプレットを起動します（D-PADを使ってオプションをハイライトします）
 - **SELECTメニューを使わないニンテンドーDSi/セガサターン/Homebrew Launcherのテーマ：**<kbd>SELECT</kbd>を押してDSクラシックメニューになります
 - **ニンテンドー3DSのテーマ：**下画面の左上のスパナのアイコンをタップします
 - **R4オリジナルテーマ：**<kbd>START</kbd>（ファイルブラウザにいている）を押し、<kbd>SELECT</kbd>を押します
 
-また、TWiLight Menu++を起動する時に<kbd>SELECT</kbd>を押して、設定に直接アクセスすることができます。
+You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.

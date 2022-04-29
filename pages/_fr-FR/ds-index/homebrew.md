@@ -11,8 +11,8 @@ description: Informations sur les homebrews de la Nintendo DS
 Le développement d'homebrews pour Nintendo DS utilise généralement les outils devkitPro, tels que devkitARM, libnds et libfat. Toutefois, il est possible de bifurquer et d'utiliser des logiciels alternatifs :
 
 - **Bibliothèques de cartes SD :** [libfat](https://github.com/devkitPro/libfat) est incluse dans libnds et généralement recommandée, [libslim](https://github.com/DS-Homebrew/libslim/) peut parfois mieux fonctionner mais est parfois instable
-- **Bibliothèques graphiques :** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), qui est inclu avec libnds, est recommandé, cependant [NightFox Lib](https://github.com/knightfox75/nds_nflib) peut être utilisé à la place
-- **Chaînes d'outils entières :** [devkitARM](https://devkitpro.org/wiki/Getting_Started) et [libnds](https://libnds.devkitpro.org/) sont recommandés, car ils incluent la compatibilité DSi et ont un écosystème plus large, cependant [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) est une option pour le développement exclusif aux linkers
+- **Bibliothèques graphiques :** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), qui est incluse avec libnds, est recommandée, cependant [NightFox Lib](https://github.com/knightfox75/nds_nflib) peut être utilisée à la place
+- **Chaînes d'outils entières :** [devkitARM](https://devkitpro.org/wiki/Getting_Started) et [libnds](https://libnds.devkitpro.org/) sont recommandées, car elles incluent la compatibilité DSi et ont un écosystème plus large, cependant [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) est une option pour le développement exclusif aux linkers
 
 Pour commencer, [ce fil GBAtemp](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) contient beaucoup de bonnes ressources pour les débutants. Pour plus d'informations techniques sur la DS(i), consultez [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 

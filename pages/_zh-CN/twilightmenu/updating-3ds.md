@@ -30,9 +30,10 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 {% capture tab-manual %}
 1. 下载最新的 [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. 解压 `TWiLightMenu-3DS.7z`
-1. 将 `_nds` 文件夹复制到 SD 卡的根目录下
-1. 将 `BOOT.NDS` 文件复制到 SD 卡的根目录下
-1. 将两个 `.cia` 文件复制到 SD 卡的根目录下
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
+1. Copy the two `.cia` files to your SD card root, replacing any existing files
 1. 在 3DS 上使用 FBI 安装两个 CIA 文件
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

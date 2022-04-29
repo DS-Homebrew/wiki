@@ -3,7 +3,6 @@ lang: fr-FR
 layout: wiki
 section: hiyacfw
 title: Écrans de démarrage personnalisés
-category: other
 description: Comment utiliser des écrans de démarrage personnalisés avec hiyaCFW
 ---
 

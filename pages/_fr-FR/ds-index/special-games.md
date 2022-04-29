@@ -304,31 +304,39 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
 - Jam with the Band -> Live Channel
 - My Word Coach -> My Word Coach (Wii)
-- Pokemon Diamond/Pearl -> My Pokemon Ranch
-- Pokemon Platinum -> My Pokemon Ranch (Japan Only)
+- Pokémon Diamant/Perle -> My Pokémon Ranch
+- Pokémon Platine -> My Pokémon Ranch (Japon uniquement)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
+### Jeux avec des cartes de jeu IR
+- Pokémon HeartGold/SoulSilver
+   - Pour la connexion au podomètre Pokéwalker
+- Pokémon Noir/Blanc/Noir 2/Blanc 2
+   - Pour les échanges, combats et Tests de Compatibilité en utilisant le C-Gear, ainsi que les partages de clés
+- Marche avec moi : Quel est ton rythme ?
+   - Possède deux podomètres infrarouges
+   - Non compatible avec les ROMs Pokémon
+- Active Health with Carol Worderman
+   - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais un seul
+   - Non compatible avec les ROMs Pokémon
+
 ### Autres (jeux spéciaux qui n'entrent pas dans l'une des catégories ci-dessus)
-- Learn with Pokemon: Typing Adventures
+- Apprends avec Pokémon : À la Conquête du Clavier
    - La carte est équipée d'une puce Bluetooth spéciale pour se connecter au clavier
-- Pokemon Heartgold/Soulsilver
-   - La carte a un port IR pour se connecter au périphérique Pokéwalker
-- ElectroPlankton
+- Electroplankton
    - La carte n'a pas de RAM de sauvegarde
 - DS Download Station
    - Série de cartes utilisées pour distribuer des jeux de démonstration
-- Sonic Classics Collection
+- Sonic Classic Collection
    - La structure d'émulation de la Mega Drive a été convertie en émulateur
 - Nitro Development Cart
    - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
-- Personal Trainer: Walking
-   - Possède deux podomètres infrarouges
-- Slide Adventure MAG KID
+- Slide Adventure MAGKID
    - Accompagné d'une souris optique Slot-2
-- Daigasso! Band Brothers
-   - Possède une cartouche Slot-2 qui a ajouté plus de chansons
-- Arkanoid
-   - Accompagné d'une manette de jeu Slot-2
+- Daigassō! Band Brothers
+   - Possède une cartouche Slot-2 ajoute plus de chansons
+- Arkanoid DS
+   - Accompagné d'une manette paddle Slot-2

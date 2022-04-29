@@ -26,7 +26,7 @@ description: How to get box art/game covers in TWiLight Menu++
 1. Nel terminale, scrivi `cd` poi trascina la cartella con `TwilightBoxart.CLI` nel terminale 
 1. Avvia `chmod +x TwilightBoxart.CLI`
 1. Avvia `./TwilightBoxart.CLI`
-1. `Si` se è mostrata il percorso corretto della tua scheda SD
+1. Clicca su `Si` se è mostrata il percorso corretto della tua scheda SD
 1. Assicurati di aver abilitato la visibilita delle box art nelle impostazioni di TWiLight Menu++
 
 ### Manualmente

@@ -3,7 +3,6 @@ lang: en-US
 layout: wiki
 section: hiyacfw
 title: Custom Splash Screens
-category: other
 description: How to use custom splash screens with hiyaCFW
 ---
 

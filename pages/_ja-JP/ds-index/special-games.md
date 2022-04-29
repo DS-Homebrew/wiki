@@ -304,18 +304,28 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
 - Jam with the Band -> Live Channel
 - My Word Coach -> My Word Coach (Wii)
-- Pokemon Diamond/Pearl -> My Pokemon Ranch
-- Pokemon Platinum -> My Pokemon Ranch (Japan Only)
+- Pokémon Diamond/Pearl -> My Pokémon Ranch
+- Pokémon Platinum -> My Pokémon Ranch (Japan Only)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
+### Games with IR Game Cards
+- Pokémon Heartgold/Soulsilver
+   - For connecting to Pokéwalker pedometer
+- Pokémon Black/White/Black 2/White 2
+   - For trading/battling/feeling check using the C-Gear, Key transfers
+- Personal Trainer: Walking
+   - Has twin IR based pedometers
+   - Not compatible with Pokémon ROMs
+- Active Health with Carol Vorderman
+   - Similar pedometer to Personal Trainer: Walking, but only one
+   - Not compatible with Pokémon ROMs
+
 ### Other (Special Games that do not fall into an above category)
-- Learn with Pokemon: Typing Adventures
+- Learn with Pokémon: Typing Adventures
    - Cartridge has special bluetooth chip for connecting to the keyboard
-- Pokemon Heartgold/Soulsilver
-   - Cartridge has IR port for connecting to pokewalker peripheral
 - ElectroPlankton
    - Cartridge has no save RAM
 - DS Download Station
@@ -324,8 +334,6 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Genesis emulation structure has been converted into an emulator
 - Nitro Development Cart
    - Has extra RAM for developing games for the DSi
-- Personal Trainer: Walking
-   - Has twin IR based pedometers
 - Slide Adventure MAG KID
    - Comes with a Slot-2 Optical Mouse
 - Daigasso! Band Brothers

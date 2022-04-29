@@ -4,7 +4,6 @@ layout: faq
 section: hiyacfw
 title: FAQ et dépannage
 long_title: FAQ et dépannage de hiyaCFW
-category: other
 description: FAQ et dépannage pour hiyaCFW
 ---
 

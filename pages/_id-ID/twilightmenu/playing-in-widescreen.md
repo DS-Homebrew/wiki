@@ -1,37 +1,36 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: other
-title: Playing in Widescreen
-description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
+title: Bermain Di Layar Lebar
+description: Cara menjalankan TWiLight Menu++ di layar lebar pada Nintendo 3DS
 ---
 
-Requires a Nintendo 3DS or 2DS console.
+Bagian ini memerlukan keluarga konsol 3DS yang menjalankan CFW terkini dari [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-### Preparation
-- Make sure Luma's `boot.firm` is on the SD root for this to work
+### Pemasangan
+1. Buka FBI dan pilih `Remote Install`, kemudian `Scan QR Code`
+1. Pindai kode QR berikut untuk memasang [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) versi terkini<br> ![Kode QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Buka Universal Updater dari layar HOME Menu
+1. Pasang kemasan TWPatch
+   - Jika konsol tidak dapat mengakses Internet, kamu dapat mengunduh [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) langsung, kemudian pasang dengan FBI
+1. Kembali ke HOME menu dan luncurkan TWPatch
+1. Tahan <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> untuk membuka menu tambalan dan nyalakan `Widescreen patch (384x240 16:10)`
+1. (Tidak Wajib!) Agar layar lebar tidak terlalu berpiksel, nyalakan `GPU scaling (blurry, no filters)`
+1. Tekan <kbd class="face">B</kbd> untuk keluar menu tambalan
+1. Tekan <kbd>START</kbd> untuk menghasilkan berkas `TwlBg.cxi` dengan layar lebar
+   - Jika layar atas tidak menandakan wide patch telah dinyalakan, mulai lagi dari langkah ke-3
+1. Pindahkan `TwlBg.cxi` dari `sd:/luma/sysmodules/` ke `sd:/_nds/TWiLightMenu/TwlBg/` (buat folder `TwlBg`, jika belum ada), dan ubah nama berkasnya menjadi `Widescreen.cxi`
+1. Nyalakan ulang 3DS sambil menahan <kbd>SELECT</kbd> untuk membuka penyetelan Luma3DS
+1. Nyalakan `external FIRMs and modules`, lalu tekan <kbd>START</kbd> untuk menyimpan dan keluar
+1. Buka TWiLight Menu++, tekan <kbd class="face">Y</kbd> pada permaian yang diinginkan untuk membuka pengaturan tiap-permainan, dan ubah `Nisbah Aspek Layar` ke `16:10`
 
-### Installing
-1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Install `TWPatch.cia` using FBI
-   - You can also use Universal-Updater to install TWPatch instead of the previous two steps
-1. Return to the home menu and launch TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
-1. Press <kbd class="face">B</kbd> to exit the patch menu
-1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
-1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
-1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
-1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+Selesai deh! Nikmati bermain DS di layar lebar!
 
-You're all done! Enjoy your DS games in widescreen!
-
-**NOTES:**
-1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
-1. Not every game is widescreen compatible. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`, and [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
-1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched
+**CATATAN:**
+1. Jangan tahan <kbd>START</kbd> atau <kbd>SELECT</kbd> saat meluncurkan TWLMenu++, jika tidak mau layar lebarnya ada glitch
+1. Tidak semua permainan sesuai dijadikan layar lebar. [Berikut daftar permainan dengan dukungan layar lebar](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Jika tersangkut di mode layar lebar pada semua bagian TWL_FIRM (termasuk GUI TWLMenu++) setelah mengikuti panduan dan meluncurkan permainan yang sesuai jadi layar lebar; hapus `TwlBg.cxi` di `sd:/luma/sysmodules/`, lalu [copot](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) dan [pasang ulang](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, lalu ikuti kembali panduan di atas, sekaligus gunakan build Luma3DS asli
+1. Sebagian besar tambalan layar lebar hanya akan menyesuaikan yang unsur 3D, unsur 2D (seperti menu) hanya akan dilebarkan

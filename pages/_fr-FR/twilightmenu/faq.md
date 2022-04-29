@@ -2,7 +2,6 @@
 lang: fr-FR
 layout: faq
 section: twilightmenu
-category: other
 title: FAQ et dépannage
 long_title: FAQ et dépannage de TWiLight Menu++
 description: FAQ et dépannage pour TWiLight Menu++
@@ -17,6 +16,7 @@ TWL_FIRM a pu être corrompu d'une manière ou d'une autre. Suivez ce guide pour
 #### Comment puis-je corriger l'obtention un écran blanc lors du démarrage de TWiLight Menu++ ?
 - Redémarrez la console
 - Si cela ne fonctionne pas, formatez votre carte SD en FAT32 avec une taille de cluster/d'allocation de 32 ko
+   - Consultez la page de [dsi.cfw.guide](https://dsi.cfw.guide/sd-card-setup.html) pour les outils recommandés
 - Si cela ne fonctionne pas non plus, essayez une autre carte SD
 
 #### Où est le thème Acekard/Wood UI ?
@@ -34,14 +34,18 @@ Vous avez besoin d'une base de données de codes de triche sous la forme d'un fi
 
 Vous pouvez également utiliser [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) pour créer votre propre base de données de codes de triche.
 
-#### Comment afficher une image personnalisée sur l'écran supérieur du thème DSi ?
-Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera affichée à chaque chargement du menu. S'il n'y a pas d'images applicables, des captures d'écran prises par nds-bootstrap seront utilisées à la place.
+Une fois que vous avez une base de données de codes de triche, vous pouvez les activer en appuyant sur <kbd class="face">Y</kbd> dans TWiLight Menu++ lorsque le curseur est sur le jeu pour ouvrir les paramètres par jeu, puis <kbd class="face">X</kbd> pour ouvrir le menu des codes de triche.
+
+#### Comment puis-je afficher une image personnalisée sur l'écran supérieur du thème DSi ? Je peux la cacher à la place ?
+Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera affichée chaque fois que le menu est chargé. S'il n'y a pas d'images applicables, des captures d'écran prises par nds-bootstrap seront utilisées à la place.
 
 - La/les image(s) ne doivent pas dépasser 208 × 156
 - Si vous obtenez des erreurs, il s'agit probablement d'une erreur dans la taille de l'image. Veuillez utiliser [tinypng](https://tinypng.com) pour réduire la taille
 
+Pour cacher l'image, vous devez modifier le fichier `theme.ini` qui se trouve dans `sd:/_nds/TWiLightMenu/dsimenu/themes/[dossier du skin]/`. Ouvrez le fichier avec un éditeur de texte, modifiez la ligne `RenderPhoto` de `1` à `0`, puis enregistrez le fichier.
+
 #### Comment obtenir des jeux ?
-Vous pouvez télécharger des jeux homebrews sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux commerciaux :
+Vous pouvez télécharger des jeux homebrew sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux commerciaux :
 - Sur DS, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux GBA et, si vous avez un linker Slot-2, vos jeux DS. Si vous ne disposez que d'un linker Slot-1 et que vous souhaitez dumper un jeu DS, vous pouvez utiliser [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), qui nécessite une connexion Wi-Fi compatible avec la DS, ainsi qu'un client FTP sur un appareil séparé pour recevoir la ROM
 - Sur DSi, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux DS et DSiWare
 - Sur 3DS, vous pouvez utiliser [GodMode9](https://github.com/d0k3/GodMode9/releases) pour vider vos jeux DS, DSiWare et titres de la console virtuelle

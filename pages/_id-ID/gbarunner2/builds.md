@@ -13,7 +13,7 @@ Ada sejumlah lepasan (release) atau "build" GBARunner2 berbeda yang dapat diguna
 
 GBARunner2 has had builds made that makes use of the extra hardware found inside the DSi and 3DS. Naturally, these DSi- and 3DS-specific builds will not work on a DS. However, they also will not work if you are running GBARunner2 from a flashcard on any of the systems, DSi and 3DS included. The details about this will not be covered here.
 
-Ini artinya Anda dapat menggunakan build untuk DS di konsol DSi dan 3DS, tapi tidak sebaliknya.
+Ini artinya kamu dapat menggunakan build untuk DS di konsol DSi dan 3DS, tapi tidak sebaliknya.
 
 ## Build yang sebagi antara DS, DSi dan 3DS
 
@@ -67,7 +67,7 @@ There is no consistency in what type of 3DS has what chip, at least as far as an
 
 ## Memeriksa Info Build
 
-GBARunner2 mempunyai menu yang dapat dibuka dengan menyentuh layar bawah dan menekan tombol R. Dengan ini Anda dapat mencari menu About yang menjelaskan ada di build berapa. Namun, build yang disertakan di TWiLightMenu++ tidak menulis versi build karena sudah didasarkan pada fork dari orang lain. Ini artinya jika di halaman About hanya kosong saja tentang build, kemungkinan kamu menggunakan yang sudah disertakan.
+GBARunner2 mempunyai menu yang dapat dibuka dengan menyentuh layar bawah dan menekan tombol R. Di dalam sini kamu dapat mencari menu About yang menjelaskan ada di build berapa. Namun, build yang disertakan di TWiLightMenu++ tidak menulis versi build karena sudah didasarkan pada fork dari orang lain. Ini artinya jika di halaman About hanya kosong saja tentang build, kemungkinan kamu menggunakan yang sudah disertakan.
 
 Ini agar tahu jika yang digunakan build ARM7DLDI atau ARM9DLDI
 

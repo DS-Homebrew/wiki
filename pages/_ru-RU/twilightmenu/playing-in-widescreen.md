@@ -7,25 +7,24 @@ title: Игра в широкоэкранном режиме
 description: Как использовать TWiLight Menu++ в широкоэкранном режиме на Nintendo 3DS
 ---
 
-Необходима консоль Nintendo 3DS или 2DS.
+This section requires a 3DS family console, running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-### Подготовка
-- Убедитесь, что `boot.firm` Люмы находится в корне SD чтобы всё сработало
-
-### Установка
-1. Download [TWPatch](https://db.universal-team.net/assets/files/TWPatch.cia) and copy `TWPatch.cia` to your SD card ([GBAtemp thread](https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/))
-1. Установите `TWPatch.cia` с помощью FBI
-   - Вы также можете использовать Universal-Updater для установки TWPatch вместо двух предыдущих шагов
-1. Вернитесь в главное меню и запустите TWPatch
-1. Удерживайте <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> чтобы открыть меню патчей, после включите `Widescreen patch (384x240 16:10)`
-1. (Необязательно!) Для менее пиксельного изображения также включите `GPU scaling (blurry, no filters)`
-1. Нажмите <kbd class="face">B</kbd> чтобы выйти из меню патчей
-1. Нажмите <kbd>START</kbd> чтобы сгенерировать файл `TwlBg.cxi` с широкоформатным хаком
-   - Это займёт некоторое время. Если на верхнем экране не будет написано что широкоформатный патч применён, то повторите шаги начиная с 3
-1. Переместите `TwlBg.cxi` из `sd:/luma/sysmodules/` в `sd:/_nds/TWiLightMenu/TwlBg/` (если папки `TwlBg` нет - создайте её), и переименуйте файл в `Widescreen.cxi`
-1. Перезапустите вашу 3DS с зажатой <kbd>SELECT</kbd> чтобы открыть настройки Luma3DS
-1. Включите `external FIRMs and modules`, затем нажмите <kbd>START</kbd> чтобы сохранить и выйти
+### Installing
+1. Open FBI and select `Remote Install`, then `Scan QR Code`
+1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Open Universal Updater from your HOME Menu
+1. Install the TWPatch package
+   - If your console is unable to access the Internet, you can download [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) directly, then install it with FBI
+1. Return to the HOME menu and launch TWPatch
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
+1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
+1. Press <kbd class="face">B</kbd> to exit the patch menu
+1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen
+   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
+1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
+1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
+1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
 1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
 
 Всё готово! Наслаждайтесь вашими DS играми в широкоформатном режиме!

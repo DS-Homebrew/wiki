@@ -19,16 +19,27 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - **DS Phat・Liteユーザー：**`BOOT.NDS`を起動すると、白い画面のロックアップが発生した場合は、DSメモリー拡張カートリッジを挿入して、もう一度やり直してください
    - **DSi・3DSユーザー：**本体のSDカードからTWiLight Menu++を実行し、`Slot-1でSCFGアクセス`をオンに設定し、`Slot-1: タッチモード`を`DSiモード`に設定します
       - これにより、フラッシュカードのゲームでTWLクロック速度やVRAMブーストを使用できますほか、本体のSDカードにアクセスしたり、フラッシュカードからDSi対応・DSi専用・DSiウェアのゲームをDSiモードで実行したりできます
+      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
 
-### フラッシュカードのファームウェアを使用してゲームを実行するには
+### Autobooting TWiLight Menu++
+1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+   - Skip this, if you don't see your flashcard
+1. ...
+   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
 
-すべてのフラッシュカードがこの方法でゲームを実行するがサポートしているわけではないことにご注意してください。 以下の手順があなたのフラッシュカードに通用されない場合は、このセクションをスキップできます。
+### To run games using your flashcard firmware
+
+Please note this only works if your flashcart is set to autoboot TWiLight Menu++. See above section for how to do so.
 {:.alert .alert-warning}
 
-1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出します
-   - そうしたら場合は、手順3に進みます。 そうでない場合は、以下の手順に従ってください
+Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+{:.alert .alert-warning}
 
-1. 以下のフラッシュカードため：
+1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+
+1. For these flashcards:
    - R4i-SDHC (r4i-sdhc.com)
    - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
@@ -40,20 +51,13 @@ description: ニンテンドーDSフラッシュカードにTWiLight Menu++を�
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHCとDSONEi（非SDHCモデルは**サポートされていません**)
+   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
    - M3 DS Real
-   - M3i Zero (非GMP-Z003のモデル)
-   - iTouchDSとiTouch2（M3Real_M3iZeroのYSMenuファイルを使用）
-   - R4(i)RTS (r4rts.com)（M3Real_M3iZeroのYSMenuファイルを使用）
-   - R4 SDHC RTS（黒いカートリッジ）（4isdhc.com）（M3Real_M3iZeroのYSMenuファイルを使用）
+   - M3i Zero (non-GMP-Z003 model)
+   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
+   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
+   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
-   [RetroGameFanのYSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
-      - フラッシュカードのmicroSDのルートに`YSMenu.nds`（既存しない場合は`TTMenu.dat`から名前を変更）と`TTMenu`フォルダがあることを確認します
-1. `nds-bootstrapを使用`を`いいえ`に設定して、nds-bootstrapの代わりにフラッシュカードのファームウェアが使用されます
-
-### TWiLight Menu++を自動起動する
-1. `Flashcard Loader/(あなたのフラッシュカード)`の内容をフラッシュカードのmicroSDカードのルートに抽出
-   - フラッシュカードが見つけない場合は、これをスキップ
-1. ...
-   - **DS Phat・DS Liteユーザー：**DSメニューで設定に移動し、自動起動をオンにして、起動時にフラッシュカードを起動されます
-   - **DSi・3DSユーザー：**本体のSDカードでTWLMenu++を実行し、`Slot-1を自動起動`をオンにします
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap

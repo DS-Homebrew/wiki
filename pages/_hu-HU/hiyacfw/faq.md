@@ -4,7 +4,6 @@ layout: faq
 section: hiyacfw
 title: GYIK & hibaelhárítás
 long_title: hiyaCFW GYIK & hibaelhárítás
-category: other
 description: GYIK & hibaelhárítás a hiyaCFW-hez
 ---
 

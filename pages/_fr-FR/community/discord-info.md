@@ -23,7 +23,6 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 **Server Hub**
 - [#announcements][announcements] - Informations sur les nouvelles mises à jour d'homebrews et aussi des annonces générales liées au serveur
 - [#github-updates][github-updates] - Flux de toutes les contributions et discussions dans les dépôts GitHub de nos projets
-- [#github-builds][github-builds] - Flux de tous les builds nightly de nos projets
 - [#subreddit-feed][subreddit-feed] - Mises à jour pour les nouveaux messages de notre [Subreddit](https://reddit.com/r/NDSBrew)
 - [#community-meta][community-meta] - Pour donner des commentaires sur notre communauté, y compris ce serveur Discord, notre subreddit et notre organisation GitHub
 
@@ -109,7 +108,6 @@ Gestionnaires du serveur : Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhan
 
 [announcements]: https://discord.com/channels/283769550611152897/283771381735489537
 [github-updates]: https://discord.com/channels/283769550611152897/450065134191116290
-[github-builds]: https://discord.com/channels/283769550611152897/540764336134815766
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 

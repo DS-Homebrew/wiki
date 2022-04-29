@@ -304,28 +304,36 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
 - Jam with the Band -> Live Channel
 - My Word Coach -> My Word Coach (Wii)
-- Pokemon Diamond/Pearl -> My Pokemon Ranch
-- Pokemon Platinum -> My Pokemon Ranch (Japan Only)
+- Pokémon Diamond/Pearl -> My Pokémon Ranch
+- Pokémon Platinum -> My Pokémon Ranch (csak Japán)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
 - Personal Trainer: Walking -> Mii Channel
 - Ultimate Band -> Ultimate Band (Wii)
 - WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
 
+### Játékok IR játék kártyával
+- Pokémon Heartgold/Soulsilver
+   - A Pokéwalker pedométerhez csatlakozáshoz
+- Pokémon Black/White/Black 2/White 2
+   - A C-Gear, Key transfers használatával történő kereskedéshez/harchoz/érzés ellenőrzéshez
+- Personal Trainer: Walking
+   - Iker IR-alapú lépésszámlálóval rendelkezik
+   - Nem kompatibilis a Pokémon ROM-okkal
+- Active Health with Carol Vorderman
+   - Hasonló lépésszámláló a Personal Trainer: Walking-hoz, de csak egy
+   - Nem kompatibilis a Pokémon ROM-okkal
+
 ### Egyéb (speciális játékok amelyen nem esnek egyik fenti kategóriába sem)
-- Learn with Pokemon: Typing Adventures
+- Learn with Pokémon: Typing Adventures
    - A cartridge speciális bluetooth chippel rendelkezik a billentyűzethez való csatlakozáshoz
-- Pokemon Heartgold/Soulsilver
-   - A cartridge IR-porttal rendelkezik a pokewalker perifériához való csatlakozáshoz
 - ElectroPlankton
    - A cartridge-nek nincs mentés RAM-ja
 - DS Download Station
    - Demó játékok terjesztésére használt kazetták sorozata
 - Sonic Classics Collection
-   - A Genesis emulációs struktúrát emulátorrá lett átalakítva
+   - A Genesis emulációs struktúra lett emulátorrá átalakítva
 - Nitro Development Cart
-   - Extra RAM memóriával rendelkezik a DSi számára fejlesztett játékokhoz
-- Personal Trainer: Walking
-   - Iker IR-alapú lépésszámlálóval rendelkezik
+   - Extra RAM memóriával rendelkezik a DSi játék fejlesztéséhez
 - Slide Adventure MAG KID
    - Slot-2 optikai egeret tartalmaz
 - Daigasso! Band Brothers

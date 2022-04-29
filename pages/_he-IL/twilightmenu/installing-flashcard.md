@@ -19,16 +19,27 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - **משתמשי DS Phat/Lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
    - **משתמשי DSi/3DS:** הרציו את TWLMenu++ מכרטיס הSD, הפעילו את `SCFG access in Slot-1` והגדירו את `Slot-1: Touch Mode` ל`DSi Mode`
       - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
+      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
 
-### הרצת משחקים באמצעות הקושחה של הפלאשקארט שלכם
+### Autobooting TWiLight Menu++
+1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+   - Skip this, if you don't see your flashcard
+1. ...
+   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+
+### To run games using your flashcard firmware
+
+Please note this only works if your flashcart is set to autoboot TWiLight Menu++. See above section for how to do so.
+{:.alert .alert-warning}
 
 Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
 {:.alert .alert-warning}
 
-1. חלצו את `Flashcart Loader/(כרטיס הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
-   - If you have done so, continue to step 3. במידה ולא, עקבו אחר ההוראות מתחת לרשימת הפלאשקארטים הבאה
+1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
-1. לפלאשקראטים הבאים:
+1. For these flashcards:
    - R4i-SDHC (r4i-sdhc.com)
    - r4isdhc.com 2014-2020 cards
    - R4i SDHC Upgrade Revolution
@@ -49,11 +60,4 @@ Please note that not all flashcards support running games in this fashion. If th
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. הגדירו את `Use nds-bootstrap` ל`No`, כך שהקושחה של הפלאשקארט תהיה בשימוש במקום nds-bootstrap
-
-### הפעלה אוטומטית של TWiLight Menu++
-1. חלצו את התוכן של `Autoboot/(הפלאשקארט שלכם)` לכרטיס המיקרו SD של הפלאשקארט
-   - דלגו על שלב זה, אם אתם לא רואים את הפלאשקארט שלכם
-1. ...
-   - **משתמשי DS Phat/DS Lite:** לכו להגדרות בתפריט הDS שלכם, והפעילו את auto-start, כך שהפלאשקארט שלכם יעלה בהדלקת המכשיר
-   - ** משתמשי DSi/3DS:** הריצו את TWLMenu++ מהSD שלכם, והפעילו את `Auto-start Slot-1`
+1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap

@@ -30,9 +30,10 @@ v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또�
 {% capture tab-manual %}
 1. 최신 버전의 [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)를 다운로드 하세요.
 1. `TWiLightMenu-3DS.7z`를 압축 해제합니다.
-1. SD 카드 루트에 `_nds` 폴더를 복사합니다.
-1. SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
-1. SD 카드 루트에 `.cia` 파일 두 개를 복사합니다.
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
+1. Copy the two `.cia` files to your SD card root, replacing any existing files
 1. 3DS 본체의 FBI에서 두 CIA 파일들을 설치합니다.
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

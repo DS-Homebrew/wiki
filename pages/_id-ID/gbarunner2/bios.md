@@ -6,17 +6,17 @@ title: GBA BIOS Info
 description: Information on the GBA BIOS and how to dump it
 ---
 
-In order for GBARunner2 to load titles, a dump of the GBA BIOS is required. Newer builds of GBARunner2 (which come with the latest release of TWiLight Menu++) have [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios) built-in. However, because it is not an exact copy, using a dump of the official BIOS increases compatibility. You can dump an official GBA BIOS with one of the following methods.
+Agar GBARunner2 bisa memuat gim, dibutuhkan sebuah dump dari GBA BIOS. Build terbaru dari GBARunner2 (yang juga hadir dalam TWiLight Menu++ terbaru) memiliki bios bawaan [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios). Bagaimanapun, karena itu bukanlah salinan yang tepat, dengan menggunakan dump dari BIOS resmi akan meninngkatkan kompatibilitasnya. Kamu dapat men-dump GBA BIOS resmi dengan mengikuti salah satu dari beberapa metode.
 
-### Panduan Pengimbitan (Dumping)
+### Panduan Dumping
 
 - [GBA/DS/DS Lite dengan flashcart GBA atau 3DS](https://glazedbelmont.github.io/gbabiosdump/)
-   - It is **not** possible to dump the GBA BIOS on a DSi
-- [Wii (bukan edisi Family)/GameCube, GBA, dan link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+   - **Tidak memungkinkan** untuk men-dump GBA BIOS dari DSi
+- [Wii (bukan Family Ediition)/GameCube, GBA, dan link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
-After dumping the BIOS, it must be renamed to `bios.bin` and then should be placed in `sd:/`, `sd:/gba/`, or `sd:/_gba/` for GBARunner2 to read it.
+Setelah dumping BIOS, file tersebut harus di rename menjadi `bios.bin` dan harus diletakkan di `sd:/`, `sd:/gba/`, or `sd:/_gba/` agar GBARunner2 bisa membaca file tersebut.
 
-You can verify that your BIOS is a proper dump by comparing it with the following checksums:
+Kamu dapat memverifikasi jika BIOS dump mu sudah tepat dengan membandingkan cheksums ini:
 
 GBA/GBA SP/Game Boy Micro/Game Boy Player:
 - **CRC-32:** `81977335`
@@ -30,4 +30,4 @@ Deret Konsol DS/DS Lite/3DS:
 - **SHA-1:** `c11531d5261006810cdc954bd4bec0afe3187b35`{:.wrap}
 - **SHA-256:** `782eb3894237ec6aa411b78ffee19078bacf10413856d33cda10b44fd9c2856b`{:.wrap}
 
-Jika Anda tidak tahu cara mendapatkan checksum berkas, gunakan [alat hitung checksum daring](https://emn178.github.io/online-tools/crc32_checksum.html).
+Jika kau tidak tahu cara mendapatkan checksum berkas, gunakan [alat hitung checksum daring](https://emn178.github.io/online-tools/crc32_checksum.html).
