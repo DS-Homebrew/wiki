@@ -80,8 +80,8 @@ There is no consistency in what type of 3DS has what chip, at least as far as an
 
 GBARunner2 has a menu that you can open by touching the touchscreen and pressing the right shoulder button. Within this you can find the About menu, which tells you which build you are on. However, the builds that currently come with **TW**i**L**ight Menu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
 
-This tells you if you are using an ARM7DLDI or ARM9DLDI build
+The About page also tells you if you are using an ARM7DLDI or ARM9DLDI build.
 
-Knowing what build to use is useful when checking the official compatibility list in case you are having issues with running a game. 
+Knowing which build to use is useful when checking the official compatibility list, in case you are having issues with running a game. 
 
 The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.
