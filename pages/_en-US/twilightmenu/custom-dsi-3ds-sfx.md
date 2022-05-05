@@ -28,7 +28,7 @@ All the files listed above are required to build a custom sound effect bank. If 
 
 To build the sound effect bank you need to download [this file](/assets/files/Makefile) and put it next to all the `.wav` files that will be used. After all the files are on the same folder, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command.
 
-You will get a resulting sfx.bin file. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
 
 ### Startup sound
 While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
