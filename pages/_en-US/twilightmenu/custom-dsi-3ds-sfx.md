@@ -24,7 +24,7 @@ The sound effect bank (sfx.bin) contains sound effects such as the icon select s
 |switch.wav|Played when switching pages|
 |stop.wav|Played on the DSi Theme when the select cursor stops moving|
 
-All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file.
+All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
 
 To build the sound effect bank you need to download [this file](/assets/files/Makefile) and put it next to all the `.wav` files that will be used. After all the files are on the same folder, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command.
 
