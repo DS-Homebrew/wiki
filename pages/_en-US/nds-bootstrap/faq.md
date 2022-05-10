@@ -110,6 +110,6 @@ Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-pira
 #### What are DSi binaries? How do I get them?
 DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
 
-- ROMs without the DSi binaries can still be played on any console through DS mode, in which case it will run as if the game were being played on a Nintendo DS Phat/Lite
+- ROMs without the DSi binaries can still be played on any console through DS mode, in which it will run as if the game were being played on a Nintendo DS Phat/Lite
 
 To obtain a ROM that contains the DSi binaries, [re-dump your Game Card](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).
