@@ -1,19 +1,19 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: customization
-title: Kustom Boot Splashes
-description: Cara menggunakan splash screen kustom untuk TWL Menu++
+title: Splash awal nyala kustom
+description: Cara menggunakan layar splash kustom untuk TWiLight Menu++
 ---
 
-Kamu dapat menggunakan file GIF kustom untuk digunakan sebagai splash screen saat booting TWiLight Menu++. GIF tersebut harus bernama `splashtop.gif` dan `splashbottom.gif` serta berada di `sd:/_nds/TWiLightMenu/extras`, lalu atur `DSi Splash Screen` ke `Custom` di pengaturan TWiLight Menu++.
+Berkas GIF ubah suai (custom) dapat kamu gunakan sebagai layar splash saat awal nyala (boot) TWiLight Menu++. Berkasnya harus dinamakan `splashtop.gif` dan `splashbottom.gif` serta berada di `sd:/_nds/TWiLightMenu/extras`, lalu ubah `Layar Splash DSi` ke `Ubah suai` di pengaturan TWiLight Menu++.
 
-Rata-rata file GIF di atas 256x192 akan berfungsi, dengan beberapa pengecualian:
-- File GIF lebih dari1 MiB (DSi Mode) atau 256 KiB (DS Mode) mungkin tidak akan berjalan dengan kecepatan penuh karena proses dekompresi berlangsung cepat
-- Di antara keduanya, GIF harus kurang dari 10 MB (DSi Mode) atau sekitar 2 MB (DS Mode)
-- Jika kedua GIF di atur menjadi loop forever, mereka akan muncul sekitar 3 detik, jadi aturlah jumlah putar / loop count setidaknya satu untuk mengatur waktunya
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-   - Hanya GIF yang menunggu untuk masukan akan berhenti sejenak, jadi yang lain bisa melanjutkan proses animasinya
-- Jika menggunakan tabel warna lokal seluruh frame harus ditimpa karena itu akan mengganti semua palet layar, bukan hanya frame saat ini
-- Interlaced dan text frames tidak akan berfungsi
+Berkas GIF sampai ukuran 256x192 dapat berfungsi, dengan beberapa pengecualian:
+- GIF yang lebih dari 1 MiB (Mode DSi) atau 256 KiB (Mode DS) mungkin akan berjalan lambat karena sekaligus didekompresi
+- Di antara keduanya, GIF harus kurang dari 10 MB (Mode DSi) atau sekitar 2 MB (Mode DS)
+- Jika kedua GIF diatur ke "loop forever" keduanya akan muncul selama 3 detik, perlu ada satu yang diatur ke "loop count" untuk mengatur waktunya
+- Ada panji (flag) masukan pengguna, jadi lama pemutaran perlu digunakan pada bingkai jika ingin gambarnya muncul dan menunggu secara bawaan
+   - Hanya GIF yang menunggu masukan yang akan dijeda, supaya animasi yang lain tetap berjalan
+- Jika menggunakan "Local Color Tables", seluruh bingkai harus ditimpa karena seluruh palet layar akan diganti; bukan cuma di bingkai saat ini
+- Interlace dan bingkai teks tidak akan berfungsi

@@ -21,16 +21,26 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
    - Fitur Download Play dihapus
    - Gambar ikon bergerak
 - Brain Challenge
-   - Ditambah fitur baru yang berkaitan kamera DSi
+   - Ditambah fitur-fitur baru yang berkaitan kamera DSi
    - Mode versus dihapus
    - Banyak berkasnya dipampat agar permainannya muat sesuai batas ukuran DSiWare
    - Gambar ikon bergerak
+- Chronos Twins
+- Clubhouse Games
+   - Dipisah menjadi tiga judul DSiWare bernama:
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
+- Dragon's Lair
+   - Menu "Extras" yang berisi "Watch Mode" digantikan manual
 - Electroplankton
-   - Tiap masing mode diubah menjadi DSiWare
+   - Masing-masing mode diubah menjadi judul DSiWare sendiri
 - Elite Forces: Unit 77
    - Main jamak (multiplayer) ditambah
+- Heathcliff: Frantic Foto
+   - Versi DSiWare disebut "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - Versi DSiWare disebut "Master of Illusion Express" (AS), atau "A Little Bit of... Magic Made Fun" (Eropa)
+   - Dipisah menjadi enam judul DSiWare bernama "Master of Illusion Express" (USA), atau "A Little Bit of... Magic Made Fun" (Eropa)
 - Need for Speed: Nitro
    - Versi DSiWare disebut "Need for Speed: Nitro-X"
    - Fitur Download Play dan bermacam musik dihapus
@@ -43,10 +53,17 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
 - Planet Puzzle League
    - Versi DSiWare disebut "Puzzle League Express" (AS), atau "A Little Bit of... Puzzle League" (Eropa)
    - Main jamak (multiplayer) dihapus
+   - Beberapa lintasan musik dihapus
 - Plants vs. Zombies
-   - Fitur Download Play, beberapa capaian, dan video musik dihapus
+   - Fitur Download Play, beberapa pencapaian, dan video musik dihapus
    - Terdapat permainan kecil (minigame) eksklusif
    - Gambar ikon bergerak
+- Space Invaders Extreme 2
+   - Versi DSiWare disebut "Space Invaders Extreme Z", hanya di Japan
+   - Fitur nirkabel dihapus
+- Sujin Taisen: Number Battles
+   - Versi DSiWare dikenal sebagai "Number Battle" di AS
+   - Main jamak lokal dihapus, tapi main jamak daring tetap ada
 - Tetris Party Deluxe
    - Versi DSiWare disebut "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, dan Bombliss Mode dihapus
@@ -65,6 +82,7 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
 Dapat memakai Wi-Fi (termasuk WPA 1/2):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
 - Tetris Party Live
 
 ### Permainan yang diberi peningkatan SDK
@@ -258,6 +276,8 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 ### Permainan yang memakai kartrid Option Pak GBA
 - Memory Expansion Pak (Penambah RAM)
    - Nintendo DS Browser
+- Motion Pack (Pengaya Gerak)
+   - Tony Hawk’s Motion
 - Rumble Pak (Pengaya Getaran)
    - Clubhouse Games
    - Custom Robo Arena
@@ -292,24 +312,36 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
    - Tomb Raider: Underworld
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
-- Motion Pack (Pengaya Gerak)
-   - Tony Hawk’s Motion
 
 ### Permainan dengan konektivitas Wii
-- Animal Crossing: Wild World -> Animal Crossing: City Folk
-- Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
-- Castlevania: Order of Ecclesia -> Castlevania Judgement
-- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
-- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
-- Jam with the Band -> Live Channel
-- My Word Coach -> My Word Coach (Wii)
-- Pokémon Diamond/Pearl -> My Pokémon Ranch
-- Pokémon Platinum -> My Pokémon Ranch (Hanya Jepang)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
-- Personal Trainer: Walking -> Mii Channel
-- Ultimate Band -> Ultimate Band (Wii)
-- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Pembaruan Hanya di Jepang)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
 ### Kartu permainan yang ada inframerah (IR)
 - Pokémon Heartgold/Soulsilver

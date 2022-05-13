@@ -7,11 +7,11 @@ description: A GBARunner különböző build-jeivel kapcsolatos további inform�
 ---
 
 
-Számos különböző GBARunner2 kiadás vagy "build" létezik, amelyeket használhatunk. A GBARunner2 különböző ágaiból és elágazásaiból származnak, és különböző funkciókkal rendelkeznek, amelyek vagy különböző GBA játékokat, vagy különböző funkciókat céloznak meg. **A legtöbb felhasználó számára** a TWiLightMenu++-hoz mellékelt build használata megfelelő.
+There are a number of different GBARunner2 releases, or "builds," which one can use. A GBARunner2 különböző ágaiból és elágazásaiból származnak, és különböző funkciókkal rendelkeznek, amelyek vagy különböző GBA játékokat, vagy különböző funkciókat céloznak meg. **For most users**, using the build that comes with **TW**i**L**ight Menu++ is enough.
 
 ## DS vs DSi vs 3DS Builds
 
-A GBARunner2 olyan buildeket készített, amelyek kihasználják a DSi és a 3DS extra hardverét. Természetesen ezek a DSi- és 3DS-specifikus buildek nem működnek DS-en. Azonban akkor sem fognak működni, ha a GBARunner2-t flashcard-ról futtatod bármelyik rendszeren, beleértve a DSi-t és a 3DS-t is. Ennek részleteivel itt nem foglalkozunk.
+GBARunner2 has had builds made that make use of the extra hardware found inside the DSi and 3DS. Naturally, these DSi and 3DS-specific builds will not work on a DS. Azonban akkor sem fognak működni, ha a GBARunner2-t flashcard-ról futtatod bármelyik rendszeren, beleértve a DSi-t és a 3DS-t is. Ennek részleteivel itt nem foglalkozunk.
 
 Ez azt jelenti, hogy a DS-hez készült buildeket a DSi-n és a 3DS-en is használhatod, de fordítva nem.
 
@@ -19,13 +19,13 @@ Ez azt jelenti, hogy a DS-hez készült buildeket a DSi-n és a 3DS-en is haszn�
 
 Ezek azok a build-ek amik mindhárom rendszeren jelen vannak.
 
-### Master
+### [Master](https://github.com/Gericom/GBARunner2/releases)
 
-A Master buildek vagy "fő" buildek a GBARunner2 megfelelő kiadásai. Általában ez a legstabilabb build. Az összes többi ág ezen kívül kísérleti ágnak és nem elég stabilnak tekintett ahhoz, hogy bekerüljön a Master-be. A Master buildek a DS, a DSi és a 3DS számára készült különböző build-ekre oszlanak. Mindegyiknek a fájlneve végére hozzá lett illesztve a hozzá tartozó rendszer neve.
+The Master builds, or "main" builds, are the proper releases of GBARunner2. Általában ez a legstabilabb build. Az összes többi ág ezen kívül kísérleti ágnak és nem elég stabilnak tekintett ahhoz, hogy bekerüljön a Master-be. A Master buildek a DS, a DSi és a 3DS számára készült különböző build-ekre oszlanak. Mindegyiknek a fájlneve végére hozzá lett illesztve a hozzá tartozó rendszer neve.
 
-### Wi-Fi-Link
+### [Wi-Fi-Link](https://github.com/Gericom/GBARunner2/releases/tag/v20200217-194452_0b8bbe3)
 
-A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsolását. Fontos megjegyezni, hogy nem az Interneten keresztül és az nem is lesz soha lehetséges. A jelenlegi előrehaladás változó és az egyetlen biztosan stabil kapcsolatot tartani tudó az Advance Guardian Heroes és az is csak akkor, ha követed a nagyon speciális utasításokat. Mondani sem kell, hogy ezt az ág jelenlegi állapotában újdonságnak tekinthető és egy koncepció, nem olyannak, amit ténylegesen használni kell. Néhány más játék képes csatlakozni, de ezek nagyon függenek a külső tényezőktől, például más Wi-Fi jelek interferenciájától, sok más dolog mellett.
+A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsolását. Note that this does not go over the Internet, and this will never be possible due to latency. A jelenlegi előrehaladás változó és az egyetlen biztosan stabil kapcsolatot tartani tudó az Advance Guardian Heroes és az is csak akkor, ha követed a nagyon speciális utasításokat. Mondani sem kell, hogy ezt az ág jelenlegi állapotában újdonságnak tekinthető és egy koncepció, nem olyannak, amit ténylegesen használni kell. Néhány más játék képes csatlakozni, de ezek nagyon függenek a külső tényezőktől, például más Wi-Fi jelek interferenciájától, sok más dolog mellett. To setup Wi-Fi liking, please see the [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 ## DS-specifikus build-ek
 
@@ -33,44 +33,52 @@ A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsol
 
 **Általában az ARM9DLDI-t használd**, és ha ez nem működik, akkor az ARM7DLDI-vel próbálkozz. Néhány flashcard-hoz vagy az ARM7DLDI vagy az ARM9DLDI szükséges, néhány pedig mindkettővel működhet. Nincs lista arról, hogy melyik flashcard melyik build-del működik, de ha problémáid vannak a GBARunner2 futtatásával, akkor érdemes a másikat kipróbálni.
 
-A kettő között nincsenek funkció- vagy teljesítménybeli különbségek, így nincs értelme mindkettőt tesztelni, hogy kiderüljön, egy játék jobban fut-e vagy kevesebb problémája van-e a másikon.
+If you are using **TW**i**L**ight Menu++ on your flashcard, you can switch between ARM7DLDI and ARM9DLDI in the **TW**i**L**ight Menu++ settings.
 
-Lásd lejjebb az információkat, hogy megtudhasd, milyen buildet használsz jelenleg.
+There are no feature or performance differences between the two so there is no use in testing both to see if a game runs better or has less issues on the other.
 
-### ROM3M
+See further down to find out what build you are currently using.
 
-Ha TWiLightMenu++-t használod, akkor már használod ezt a szolgáltatást azzal a GBARunner2 build-del, ami vele érkezik.
+### [rom3M](https://github.com/Gericom/GBARunner2/releases/tag/v20190911-201047_371815e)
 
 Ez az ág segíthet, ha olyan ROM-okat próbálsz futtatni a DS-en, amik nagyobbak, de van egy korlát a DS található korlátozott mennyiségű RAM miatt. Ez lényegében a Pokémon Emerald ág a DS-re.
 
-Void Star készített egy [a GBARunner2 ágat](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases), amely egyesíti ezt a ROM3M ágat néhány más hasznos funkcióval, és ez az a build, amelyet a TWiLightMenu++ tartalmaz, ha DS-t használsz.
+Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that merges the rom3M branch into the latest Master with some other neat features, and this is the build that comes with **TW**i**L**ight Menu++ if you are using a DS.
 
 ## DSi- és 3DS-specifikus build-ek
 
-A DSi és a 3DS általában ugyanazokat a build-eket tudja futtatni, de a DSi és a 3DS közötti RAM mennyiség különbség miatt a játékok kompatibilitása eltérő lehet. Ez általában azt jelenti, hogy a DSi-nek ez gondot okozhat a nagyobb ROM-ok futtatásában, amelyeket a 3DS jól tud futtatni.
+A DSi és a 3DS általában ugyanazokat a build-eket tudja futtatni, de a DSi és a 3DS közötti RAM mennyiség különbség miatt a játékok kompatibilitása eltérő lehet. This means that the DSi might have trouble running larger ROMs that the 3DS can run fine.
 
 A 3DS-be továbbá egy gyorsulásmérő chip is be van építve a giroszkópos vezérléshez, és ez egy 3DS-specifikus build-ben használható.
 
-### DSP
+### [DSP](https://github.com/Gericom/GBARunner2/releases/tag/v20200809-113646_551ae99_dsp-audio)
 
-A DSP build-ek a DSi-ben és a 3DS-ben is megtalálható extra processzort használják. Ez sokkal jobb hangzást és jobb teljesítményt eredményez. Van néhány probléma, mint például néhány ROM, amely nem működik ezzel az ággal.
+If you are using **TW**i**L**ight Menu++, then you are already using this feature in the GBARunner2 build that comes with it.
 
-### Hybrid Hicode
+The DSP builds make use of the digital sound processor present in both DSi and 3DS. This helps to produce a lot better sound and give better performance. There are some regressions, like a couple of ROMs that do not work in this branch.
 
-A Hybrid Hicode ág olyan nagyméretű ROM-okkal foglalkozik, amelyeknek problémái vannak a Master ágon való futással. Ez egy nagyon hasznos ág a DSi számára, mivel ez nagyrészt megoldja azt a problémát, hogy kevesebb RAM-mal rendelkezik, mint a 3DS.
+### [Hybrid Hicode](https://github.com/Gericom/GBARunner2/releases/tag/v20200812-130512_d5dc8d8)
 
-### 3DS-specifikus: Gyro
+If you are using **TW**i**L**ight Menu++, then you are already using this feature in the GBARunner2 build that comes with it.
 
-Ez az ág a 3DS belső gyorsulásmérőjét használja ki, így az ezzel a funkcióval rendelkező GBA játékok megfelelően játszhatók. Számos lépést kell megtenni ahhoz, hogy ez működjön. Ne feledd, hogy mivel a 3DS rendszerek különböző gyorsulásmérő chipekkel szereltek, ez nem fog működni minden 3DS-en, mivel nem minden chiphez van kód, ami támogatja őket.
+The Hybrid Hicode branch deals with ROMs that are large and have problems running on the Master branch. This is a very useful branch for the DSi since this mostly solves the issue with having less RAM than the 3DS.
 
-Nincs konzisztencia abban, hogy melyik 3DS milyen chipet tartalmaz, legalábbis amennyire eddig ez ismert.
+### [Hicode/DSP merge](https://github.com/therealteamplayer/GBARunner2/releases/tag/v20210911-merges-and-tweaks)
+
+This fork by therealteamplayer merges the Hicode and DSP branches into one build, along with some other tweaks listed in the release notes. This build is currently used by **TW**i**L**ight Menu++ for the DSi/3DS SD card.
+
+### 3DS-Specific: [Gyro](https://github.com/Gericom/GBARunner2/releases/tag/v20191228-021638_ee7f6a0)
+
+This branch makes use of the internal accelerometer in the 3DS so that GBA games that had this functionality can be played properly. There are several steps needed to take to make it work. Note that since there are different accelerometer chips between 3DS systems, this will not work on all 3DSes because all chips do not have code supporting them.
+
+There is no consistency in what type of 3DS has what chip, at least as far as anyone knows.
 
 ## A build információk megtalálása
 
-A GBARunner2 rendelkezik egy menüvel, amelyet az érintőképernyő megérintésével és a jobb vállgomb megnyomásával nyithatsz meg. Ezen belül találod az About menüt, amelyből megtudhatod, hogy milyen build-et használsz. Azonban a TWiLightMenu++-szal együtt érkező build-ek nem adnak meg build verziót, mert mások által készített ágakon alapulnak. Ez azt jelenti, hogy ha az About page üresnek tűnik a build esetében, akkor valószínűleg ezek valamelyikét használod.
+GBARunner2 has a menu that you can open by touching the touchscreen and pressing the right shoulder button. Within this you can find the About menu, which tells you which build you are on. However, the builds that currently come with **TW**i**L**ight Menu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
 
-Ez megmondja, hogy ARM7DLDI vagy ARM9DLDI buildet használsz-e
+The About page also tells you if you are using an ARM7DLDI or ARM9DLDI build.
 
-Hasznos tudni, hogy milyen buildet kell használni, a hivatalos kompatibilitási lista ellenőrzésével, abban az esetben ha problémák merülnek fel egy játék futtatásával kapcsolatosan.
+Knowing which build to use is useful when checking the official compatibility list, in case you are having issues with running a game.
 
-A kiadási azonosító (release ID) megtekinthető a GBARunner2 github repository-jában, ahol az utolsó hét alfanumerikus karakter a verziót jelenti. Például az aktuális legutolsó Master kiadás a "v20200812-131430_6e4ce45", és a "6e4ce45" jelöli a verziót.
+The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.

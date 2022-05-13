@@ -38,7 +38,7 @@ Comme la palette du GIF est chargée dans la même zone de VRAM que les palettes
 1. Si votre GIF est trop grand, vous pouvez essayer de l'optimiser en utilisant [gifsicle](http://www.lcdf.org/gifsicle/) ou [ezgif.com](https://ezgif.com/optimize)
    - Ces instructions utiliseront ezgif comme son plus simple, étant un site Web
 1. Ouvrez https://ezgif.com/optimize, et téléchargez votre GIF
-1. Essayez différents niveaux de compression jusqu'à ce que vous trouviez le meilleur en dessous de 15 472 octets (15,11 Kio), idéalement un peu en dessous car GIMP peut augmenter un peu la taille
+1. Essayez différents niveaux de compression jusqu'à ce que vous trouviez le meilleur en dessous de 15 472 octets (15,11 kio), idéalement un peu en dessous car GIMP peut augmenter un peu la taille
 1. Enregistrez le GIF optimisé et ouvrez-le dans GIMP
 1. Dans la barre de menu en haut, sélectionnez `Windows` -> `Dialogues ancrables` -> `Carte des couleurs`
 1. Changez votre `Couleur de premier plan` actuelle en #080808 et ajoutez 14 nouvelles couleurs avec le bouton `+`

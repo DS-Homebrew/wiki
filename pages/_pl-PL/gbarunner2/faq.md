@@ -13,16 +13,11 @@ Możesz przeczytać [ten przewodnik](https://docs.google.com/document/d/1owjiW-1
 #### Czy wspierane są cheaty?
 Jeszcze nie teraz. Zamiast tego możesz na stałe dołączyć cheaty do swojego ROMu GBA za pomocą [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
-#### Jak korzystać z wersji nightly GBARunner2 w TWiLight Menu++?
-1. Pobierz wersję Nightly
-1. Zmień nazwę na `GBARunner2_arm7dldi_3ds.nds` (lub `GBARunner2_arm7dldi_dsi.nds`, jeśli jesteś na DSi)
-1. Umieść go w `sd:_nds`
-
 #### Which build of GBARunner2 should I use?
 Usually, the builds that are included with TWiLight Menu++ is enough. For more information on the various builds of GBARunner, see the [Builds wiki page](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
 #### How do I use Wi-Fi link features?
-You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [GBAtemp Wiki page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+You will need a build from the [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) branch to use the features. You can find detailed instructions on how to setup the builds on its [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Why isn't RTC (Real Time Clock) supported in a ROM hack?
 RTC is supported on a per-game basis. You will have to change the ROM's title ID to that of a game that supports RTC so that GBARunner2 will recognize it.
@@ -33,3 +28,10 @@ You can change the title ID using the following:
 1. <label for="file-input" class="form-label">Save updated file:</label> <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled />
 
 <script src="/assets/js/change-gba-tid.js"></script>
+
+#### Why is a ROM not working, even though the compatibility list says it works?
+The GBARunner2 compatibility lists are primarily tested with the offical GBA BIOS, which improves compatibility. See [GBA BIOS Info](https://wiki.ds-homebrew.com/gbarunner2/bios) for information on obtaining the offical GBA BIOS.
+
+#### How do I fix duplicated layers at the bottom of the screen on 3DS?
+This is a bug in TWLBg that is rather prevalent in GBARunner2. The only way to temporarily fix this is to restart GBARunner2.
+- If applicable, you may be better off using other options for running GBA ROMs on 3DS, such as VC injects, open_agb_firm, or mGBA on n3DS models

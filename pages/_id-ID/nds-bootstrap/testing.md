@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: nds-bootstrap
-title: Daftar Kesesuaian (Compatibility) & Tips Pengujian
+title: Daftar Kompatibilitas & Tips Pengujian
 description: Compatibility list and tips for testing ROMs
 ---
 

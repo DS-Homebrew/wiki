@@ -17,7 +17,7 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
 1. אם כבר יש לכם שמירות, העבירו את קבצי ה`.sav` שלכם, שנמצאים במיקום של הROMים של הDS, לתיקייה חדשה שנקראת `saves`, שנמצאת גם כן במיקום של הROMים של הDS
 1. ...
    - **משתמשי DS Phat/Lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
-   - **משתמשי DSi/3DS:** הרציו את TWLMenu++ מכרטיס הSD, הפעילו את `SCFG access in Slot-1` והגדירו את `Slot-1: Touch Mode` ל`DSi Mode`
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
       - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
       - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
 
@@ -26,11 +26,11 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - Skip this, if you don't see your flashcard
 1. ...
    - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, and turn on `Auto-start Slot-1`
+   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
 
 ### To run games using your flashcard firmware
 
-Please note this only works if your flashcart is set to autoboot TWiLight Menu++. See above section for how to do so.
+Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
 {:.alert .alert-warning}
 
 Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
@@ -60,4 +60,4 @@ Please note that not all flashcards support running games in this fashion. If th
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap

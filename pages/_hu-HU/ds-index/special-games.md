@@ -25,46 +25,64 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
    - A Versus mód eltávolítva
    - Sok fájl tömörítésre került, hogy a játék beférjen a DSiWare méret korlátba
    - Az ikon animált
+- Chronos Twins
+- Clubhouse Games
+   - Split into three DSiWare titles called
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
+- Dragon's Lair
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Minden mód DSiWare-é vált
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
-   - Többjátékos mód hozzáadva
+   - Multiplayer added
+- Heathcliff: Frantic Foto
+   - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - A DSiWare verzió neve "Master of Illusion Express" (USA), vagy "A Little Bit of... Magic Made Fun" (Europe)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
-   - A DSiWare verzió neve "Need for Speed: Nitro-X"
-   - Download Play funkció és néhány zene eltávolítva
-   - Új rendőrautók érhetők el
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
 - Nintendogs: Lab & Friends
-   - A DSiWare verzió China régió számára exkluzív
+   - DSiWare version exclusive to China
 - Phantasy Star 0
-   - Egy demo(?) verziója az eredeti játéknak "Phantasy Star 0 Mini" néven a Japan régió számára exluzív
-   - Az ikon animált
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
 - Planet Puzzle League
-   - A DSiWare verzió neve "Puzzle League Express" (USA), vagy "A Little Bit of... Puzzle League" (Europe)
-   - A többjátékos mód eltávolítva
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
-   - A Download Play funkció, néhány trófea és zene videó eltávolítva
-   - Exkluzív minijátékot tartalmaz
-   - Az ikon animált
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
+- Space Invaders Extreme 2
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Sujin Taisen: Number Battles
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tetris Party Deluxe
-   - A DSiWare verzió neve "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode játékmódok eltávolítva
-   - Az ikon animált
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-   - A DSiWare verzió neve "True Swing Golf Express" (USA), vagy "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - A játék DSiWare verziója nem tartalmaz Wi-Fi funkciükat, mint például a Local/Download Play vagy a játékbani PictoChat funkció. Továbbá kevesebb pályát tartalmaz, mint a dobozos verzió
-      - A játékmotor feljavított
-      - A Challenge mód van dobozos játék Championship Tour módja helyett
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Slot-2 funkciók eltávolítva
+   - Slot-2 features removed
 - Zuma's Revenge!
-   - A többjátékos mód eltávolítva
-   - Az ikon animált
+   - Multiplayer removed
+   - Icon is animated
 
 Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
 - Tetris Party Live
 
 ### Játékok, amik SDK upgrade-et kaptak
@@ -258,6 +276,8 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 ### Játékok, amik GBA kiegészítőket (Pak) használnak
 - Memory Expansion Pak
    - Nintendo DS Browser
+- Motion Pack
+   - Tony Hawk’s Motion
 - Rumble Pak
    - Clubhouse Games
    - Custom Robo Arena
@@ -292,24 +312,36 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - Tomb Raider: Underworld
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
-- Motion Pack
-   - Tony Hawk’s Motion
 
 ### Játékok Wii kapcsolódással
-- Animal Crossing: Wild World -> Animal Crossing: City Folk
-- Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
-- Castlevania: Order of Ecclesia -> Castlevania Judgement
-- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
-- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
-- Jam with the Band -> Live Channel
-- My Word Coach -> My Word Coach (Wii)
-- Pokémon Diamond/Pearl -> My Pokémon Ranch
-- Pokémon Platinum -> My Pokémon Ranch (csak Japán)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
-- Personal Trainer: Walking -> Mii Channel
-- Ultimate Band -> Ultimate Band (Wii)
-- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
 ### Játékok IR játék kártyával
 - Pokémon Heartgold/Soulsilver

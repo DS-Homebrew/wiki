@@ -57,7 +57,7 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 ### Partie 1 : Pour commencer
 1. Copiez `NDSForwarder.dsi` à la racine de votre carte SD
    - Cela peut éventuellement être installé sur hiyaCFW directement en utilisant [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
-1. Téléchargez le [pack de forwarders pour carte SD de DSi](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
+1. Téléchargez le [pack de forwarders pour carte SD de DSi](https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Extrayez le contenu du dossier `for SD Card root` à la racine de la carte SD de votre DSi
 
 Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/nds-bootstrap.ini` et changer les paramètres suivants.

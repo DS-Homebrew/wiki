@@ -8,10 +8,10 @@ long_title: Pembaruan TWiLight Menu++ (Flashcard)
 description: Cara memperbarui TWiLight Menu++ pada flashcard Nintendo DS
 ---
 
-Jika memperbarui dari versi yang lebih tua dari v16.4.0, mohon pindahkan dulu berkas `.sav` permainan DS ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DS.
+Jika memperbarui dari versi yang lebih lawas dari v16.4.0, mohon pindahkan dulu berkas `.sav` permainan DS ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DS.
 {:.alert .alert-info}
 
-Jika memperbarui dari versi yang lebih tua dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DSiWare.
+Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
 ### Pembaruan

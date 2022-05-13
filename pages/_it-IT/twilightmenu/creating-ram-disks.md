@@ -29,7 +29,7 @@ Istruzioni di Dakkon7, modificate da Rocket Robz:
 1. Nel programma RAMDisk, fare clic su `Save Disk Image Now`
 1. Salva `nomerom.img` nella cartella `ramdisks` nella directory .nds. Se non esiste già, creala
 1. Fai clic su `Stop RAMDisk` quando hai finito
-1. In TWiLight Menu++, open the per-game settings for your homebrew
+1. In TWiLight Menu++, apri le impostazioni di gioco per il tuo homebrew
 1. Imposta RAM disk a 0
 1. Avvia il tuo homebrew, e dovrebbe leggere il tuo RAM disk
 

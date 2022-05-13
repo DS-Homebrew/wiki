@@ -13,23 +13,25 @@ Puedes seguir [esta guía](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2
 #### ¿Se pueden usar trucos?
 Aún no. En cambio, puedes inyectar trucos en tu ROM de GBA de forma permanente con [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
-#### ¿Cómo uso las versiones Nightly de GBARunner2 en TWiLight Menu++?
-1. Descargar la versión nightly
-1. Renómbrala como `GBARunner2_arm7dldi_3ds.nds` (o `GBARunner2_arm7dldi_dsi.nds` si estás en una DSi)
-1. Colócala en `sd:_nds`
-
-#### ¿Qué versión de GBARunner2 debería utilizar?
+#### Which build of GBARunner2 should I use?
 Usualmente, las versiones incluidas en TWiLight Menu++ son suficientes. Para más información sobre las diferentes versiones de GBARunner2, mire la [página wiki de versiones](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
-#### ¿Cómo uso la función Wi-Fi Link?
-Necesitarás la versión [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) de GBARunner2 para utilizar estas funciones. Puedes encontrar instrucciones detalladas sobre cómo configurar esta versión en su [página de GBAtemp Wiki](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+#### How do I use Wi-Fi link features?
+Necesitarás la versión [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) de GBARunner2 para utilizar estas funciones. You can find detailed instructions on how to setup the builds on its [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
-#### ¿Por qué el RTC (reloj en tiempo real) no funciona en ROM hacks?
+#### Why isn't RTC (Real Time Clock) supported in a ROM hack?
 RTC funciona dependiendo del juego. Deberás cambiar la ID de la ROM a la de un juego que soporte RTC, así GBARunner2 lo reconoce correctamente.
 
 Puedes cambiar la ID utilizando algunos de los siguientes métodos:
-1. <label for="file-input" class="form-label">Seleccione una ROM de GBA:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
-1. <label for="file-input" class="form-label">Ingrese la ID deseada:</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
-1. <label for="file-input" class="form-label">Guardar la ROM actualizada:</label> <input id="save" class="btn btn-secondary" type="button" value="Guardar" onclick="save()" disabled />
+1. <label for="file-input" class="form-label">Select GBA ROM file:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
+1. <label for="file-input" class="form-label">Enter desired title ID:</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
+1. <label for="file-input" class="form-label">Save updated file:</label> <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled />
 
 <script src="/assets/js/change-gba-tid.js"></script>
+
+#### Why is a ROM not working, even though the compatibility list says it works?
+The GBARunner2 compatibility lists are primarily tested with the offical GBA BIOS, which improves compatibility. See [GBA BIOS Info](https://wiki.ds-homebrew.com/gbarunner2/bios) for information on obtaining the offical GBA BIOS.
+
+#### How do I fix duplicated layers at the bottom of the screen on 3DS?
+This is a bug in TWLBg that is rather prevalent in GBARunner2. The only way to temporarily fix this is to restart GBARunner2.
+- If applicable, you may be better off using other options for running GBA ROMs on 3DS, such as VC injects, open_agb_firm, or mGBA on n3DS models

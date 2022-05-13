@@ -25,12 +25,22 @@ description: Jeux DS(i) qui ont des propriétés spéciales
    - Le mode Versus est supprimé
    - De nombreux fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
    - L'icône est animée
+- Chronos Twins
+- Clubhouse Games
+   - Split into three DSiWare titles called
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
+- Dragon's Lair
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Chaque mode est transformé en DSiWare
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
-   - Ajout du multijoueur
+   - Multiplayer added
+- Heathcliff: Frantic Foto
+   - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - Version DSiWare anglaise nommée « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
    - Version DSiWare nommée « Need for Speed: Nitro-X »
    - La fonction Téléchargement DS et diverses musiques sont supprimées
@@ -43,28 +53,36 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 - Planet Puzzle League
    - Version DSiWare anglaise appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
    - Multijoueur supprimé
-- Plants vs. Zombies
+   - Certaines pistes musicales ont été supprimées
+- Plantes contre Zombies
    - Le Téléchargement DS, certains succès et la vidéo musicale ont été supprimés
    - Comprend un mini-jeu exclusif
    - L'icône est animée
+- Space Invaders Extreme 2
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Sujin Taisen: Number Battles
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tetris Party Deluxe
-   - Version DSiWare nommée « Tetris Party Live »
-   - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
-   - L'icône est animée
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-   - Version DSiWare anglaise nommée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
-   - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
-      - Le moteur du jeu est amélioré
-      - Le mode challenge remplace le mode championnat du jeu commercial
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Fonctionnalités Slot-2 retirées
+   - Slot-2 features removed
 - Zuma's Revenge!
-   - Multijoueur supprimé
-   - L'icône est animée
+   - Multiplayer removed
+   - Icon is animated
 
 Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
 - Tetris Party Live
 
 ### Jeux qui ont reçu des mises à jour du SDK
@@ -258,6 +276,8 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 ### Jeux qui utilisent des cartouches d'option GBA
 - Memory Expansion Pak
    - Nintendo DS Browser
+- Motion Pack
+   - Tony Hawk’s Motion
 - Rumble Pak
    - Clubhouse Games
    - Custom Robo Arena
@@ -292,24 +312,36 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Tomb Raider: Underworld
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
-- Motion Pack
-   - Tony Hawk’s Motion
 
 ### Jeux avec connectivité Wii
-- Animal Crossing: Wild World -> Animal Crossing: City Folk
-- Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
-- Castlevania: Order of Ecclesia -> Castlevania Judgement
-- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
-- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
-- Jam with the Band -> Live Channel
-- My Word Coach -> My Word Coach (Wii)
-- Pokémon Diamant/Perle -> My Pokémon Ranch
-- Pokémon Platine -> My Pokémon Ranch (Japon uniquement)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
-- Personal Trainer: Walking -> Mii Channel
-- Ultimate Band -> Ultimate Band (Wii)
-- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
 ### Jeux avec des cartes de jeu IR
 - Pokémon HeartGold/SoulSilver

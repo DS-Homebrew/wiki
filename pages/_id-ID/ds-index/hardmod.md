@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: Modifikasi Keras (Hardmod)
-description: Cara meng-hardmod Nintendo DSi
+description: Cara memodifikasi keras Nintendo DSi
 tabs:
   - 
     windows: Windows
@@ -14,7 +14,7 @@ tabs:
 Memodifikasi keras (Hardmod) adalah ketika kamu mensolder fisik papan induk konsol Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
-[![Papan induk DS Original dengan titik sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Papan induk DS Original dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
@@ -28,11 +28,11 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - To be comfortable soldering to pads that are as small as 0.5mm in diameter
 
 #### Pin-out DSi sisi A
-[![DSi side A pinouts](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+[![Pin-out DSi sisi A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
 #### Pin-out DSi sisi B
-[![DSi side B pinouts](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+[![Pin-out DSi sisi B](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
 #### Pin-out DSi XL sisi B
-[![DSi XL side B pinouts](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+[![Pin-out DSi XL sisi B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - Kamu perlu mensolder titik (point) pada papan induk ke adaptor kartu microSD
    - CMD ke pin 2
@@ -41,7 +41,7 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - DAT0 ke pin 7
 
 #### Contoh adaptor microSD tersolder
-[![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
+[![Contoh microSD](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
 - Sisipkan adaptor kartu microSD ke komputer
    - **PERINGATAN** - Jika Windows minta memformat: **JANGAN diformat** - nanti terjadi kerusakan TAK DAPAT DIPERBAIKI

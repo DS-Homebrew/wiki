@@ -25,12 +25,22 @@ description: DS(i) Games that have special properties
    - Versus mode is removed
    - Many files are compressed for the game to fit within the DSiWare size limit
    - Icon is animated
+- Chronos Twins
+- Clubhouse Games
+   - Split into three DSiWare titles called
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
+- Dragon's Lair
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Each mode are turned into DSiWare
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- Heathcliff: Frantic Foto
+   - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - DSiWare version called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
@@ -43,10 +53,17 @@ description: DS(i) Games that have special properties
 - Planet Puzzle League
    - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
    - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
    - Icon is animated
+- Space Invaders Extreme 2
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Sujin Taisen: Number Battles
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
@@ -65,6 +82,7 @@ description: DS(i) Games that have special properties
 Supports Wi-Fi (WPA 1/2 included):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
 - Tetris Party Live
 
 ### Games that got SDK upgrades
@@ -258,6 +276,8 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 ### Games that use GBA Option Paks
 - Memory Expansion Pak
    - Nintendo DS Browser
+- Motion Pack
+   - Tony Hawk’s Motion
 - Rumble Pak
    - Clubhouse Games
    - Custom Robo Arena
@@ -292,24 +312,36 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Tomb Raider: Underworld
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
-- Motion Pack
-   - Tony Hawk’s Motion
 
 ### Games with Wii connectivity
-- Animal Crossing: Wild World -> Animal Crossing: City Folk
-- Band Hero -> Guitar Hero
-- Batman: The Brave and the Bold (DS) -> Batman: The Brave and the Bold (Wii)
-- Castlevania: Order of Ecclesia -> Castlevania Judgement
-- Final Fantasy Crystal Chronicles: Echoes of Time (DS) -> Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
-- Geometry Wars: Galaxies (DS) -> Geometry Wars: Galaxies (Wii)
-- Jam with the Band -> Live Channel
-- My Word Coach -> My Word Coach (Wii)
-- Pokémon Diamond/Pearl -> My Pokémon Ranch
-- Pokémon Platinum -> My Pokémon Ranch (Japan Only)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver-> Pokémon Battle Revolution
-- Personal Trainer: Walking -> Mii Channel
-- Ultimate Band -> Ultimate Band (Wii)
-- WarioWare D.I.Y. -> WarioWare D.I.Y. Showcase
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
 ### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver

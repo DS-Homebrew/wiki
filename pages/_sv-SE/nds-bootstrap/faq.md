@@ -8,16 +8,18 @@ description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
 #### I'm having issues with my ROM(s), what should I do?
-- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
-- Check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest nds-bootstrap
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on TWiLight Menu++ will disable all cheats for it
+- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
+- Check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest version of nds-bootstrap
+- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on **TW**i**L**ight Menu++ will disable all cheats for it
 - If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
 - Run the game with different settings, this includes ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
-    - Using TWiLight Menu++, change all the per-game settings to `Default`
-    - If there is a specific per-game setting that causes your issue, please report this to the [GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
+    - Using **TW**i**L**ight Menu++, change all the per-game settings to `Default`
+    - If there is a specific per-game setting that causes your issue, please report this to the [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)
+- If present, delete the cheat database (`usrcheat.dat`) in `sd:/_nds/TWiLightMenu/extras`
+- [Re-dump the ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) to ensure that it is not corrupted
 - If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
-- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on Github
-    - Check the closed issues too in case there has already been an issue closed in preference a different one.
+- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub
+    - Check the closed issues too in case there has already been an issue closed in preference a different one
     - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
 - If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
@@ -36,12 +38,20 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 - Byt ut övre och nedre skärmar i kompatibla spel för mer bekväm gameplay, eller på system med en trasig eller borttagen skärm
 - Take screenshots and edit values in the RAM using the in-game menu
 
+#### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
+- Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
+- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
+- If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
+- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- Edit values in the RAM using the in-game menu
+
 #### What is a Donor ROM?
 In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
 A Donor ROM can be set using **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM.
-- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on.
-- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around.
+- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
+- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
+- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
 
 #### What is the best Donor ROM?
 There is no *best* one to use.     
@@ -55,7 +65,10 @@ If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find d
 A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
-The way E cheat types are implemented in nds-bootstrap is broken, meaning they'd only work half of the time. Your cheat probably uses that type. It is not a fault of the cheat database, but rather a fault of nds-bootstrap. Please do not request these cheats to get deleted from the DB.
+- Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
+  - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
+- Most cheats were developed for use in DS mode and may not work correctly while running in DSi mode. If the game is DSi-Enhanced, try setting it to run in DS mode
+- The way E-type cheats are implemented in nds-bootstrap is currently broken, meaning they may or may not work. Your cheat probably uses that type, and it is not known when this issue will be fixed
 
 For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
@@ -79,8 +92,22 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-Nej. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
-- If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [TWiLight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
+No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+- If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
+
+#### Can I remap button inputs using nds-bootstrap?
+No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+
+#### How do I play randomized Pokémon ROMs with nds-bootstrap?
+Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
+- Randomized ROMs cannot be AP-patched on-the-fly like the vanilla versions of these games are, because randomizing a ROM has far too many unique possible outputs to be reasonably included with **TW**i**L**ight Menu++
+
+#### What are DSi binaries? How do I get them?
+DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
+
+- ROMs without the DSi binaries can still be played on any console through DS mode, in which it will run as if the game were being played on a Nintendo DS Phat/Lite
+
+To obtain a ROM that contains the DSi binaries, [re-dump your Game Card](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).
