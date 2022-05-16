@@ -93,7 +93,7 @@ Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) whi
 - Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
 
 There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server].
-To learn more, check out their website: <https://lightning-bot.gitlab.io/>
+To learn more, check out their website: <https://lightning.lightsage.dev/>
 
 **We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.**
 
