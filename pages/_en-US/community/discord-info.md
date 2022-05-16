@@ -82,7 +82,7 @@ These roles are only given for very specific purposes by Moderators.
 - Bots - Used to mark the Discord bots we have in this server
 - Special Thanks - People that have contributed to our community in a major way
 
-### Lightning Commands
+## Lightning Commands
 Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
 
 - Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
