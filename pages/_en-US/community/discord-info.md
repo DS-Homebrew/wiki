@@ -82,8 +82,8 @@ These roles are only given for very specific purposes by Moderators.
 - Bots - Used to mark the Discord bots we have in this server
 - Special Thanks - People that have contributed to our community in a major way
 
-### Self-Assignable Roles
-These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
+### Lightning Commands
+Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
 
 - Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
 - Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
@@ -91,6 +91,11 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Composers - For those that have made music for DS(i) homebrew or ROM hacks
 - Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
 - Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
+
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server].
+To learn more, check out their website: <https://lightning-bot.gitlab.io/>
+
+**We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.**
 
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing.
