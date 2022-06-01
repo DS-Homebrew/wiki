@@ -27,7 +27,7 @@ Always remember to check the channel topic and pins before talking in a channel.
 - [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
 
 **Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-modding-help][nds-modding-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
+- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
 - [#nds-modding-discussion][nds-modding-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
 - [#nds-retail-research][nds-retail-research] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities
 - [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
@@ -118,7 +118,7 @@ Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#454
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
-[nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
+[nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
 [nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
 [nds-dev-discussion]: https://discord.com/channels/283769550611152897/835273459339624499
