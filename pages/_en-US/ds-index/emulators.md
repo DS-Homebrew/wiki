@@ -37,6 +37,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
 | SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
+| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 {:.table}
 
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
@@ -110,3 +111,4 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids
