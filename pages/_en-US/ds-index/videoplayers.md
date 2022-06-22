@@ -17,7 +17,7 @@ Note: Actual max FPS is dependent on video content and length.
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |256x192        |
 |MPEG4Player     |`.mp4`, x264                    |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
-|Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format     |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
+|Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
 
 There are lots of players to choose from. Moonshell is the first on the list because it should be the first thing that comes to mind when playing videos on NDS. However, it requires the user to have a flashcard.
 
