@@ -49,7 +49,9 @@ Drag and drop your video into one of these batch files to convert your videos
 - [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
 - [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Converts to 12FPS video optimal for DSi consoles with 400% volume increase
 
-You can change `12` in `-r 12` to a different one between `10` and `15`.
+If you want, you can change the following in one of the above .bat files:
+- `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
+- For DS consoles: `-b 192k` to `-b 320k` for optimal quality
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
