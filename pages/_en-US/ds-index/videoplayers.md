@@ -27,7 +27,7 @@ First you want to grab your video of choice. It is recommended that your video b
 
 Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of TWiLight Menu++.
 
-Next, download FFMPeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+Next, download FFMpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
 
 You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your DSi. Slowdowns may occur on busy scenes (confetti, rain, etc).
 
