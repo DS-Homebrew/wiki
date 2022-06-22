@@ -3,8 +3,8 @@ This page contains a list of working or WIP video players for the Nintendo DSi t
 
 Note: Actual max FPS is dependent on video content and length.
 
-|Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS    |Max resolution
-|----------------|--------------------------------|----------------|-------------------------------------------|-----------|---------------|
+|Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |Max resolution
+|----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|---------------|
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |256x192        |
 |MPEG4Player     |`.mp4`, x264                    |DSi and NDS     |Can only play short videos.                |20fps                                          |256x144        |
