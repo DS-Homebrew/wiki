@@ -7,7 +7,7 @@ Note: Actual max FPS is dependent on video content and length.
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|---------------|
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |256x192        |
-|MPEG4Player     |`.mp4`, x264                    |DSi and NDS     |Can only play short videos.                |20fps                                          |256x144        |
+|MPEG4Player     |`.mp4`, x264                    |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
 |Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format     |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
 
 There are lots of players to choose from. Moonshell is the first on the list because it should be the first thing that comes to mind when playing videos on NDS. However, it requires the user to have a flashcard.
@@ -50,7 +50,7 @@ The video will quit to the menu after it is done playing, so if you want to loop
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 20fps, and the example code is different.
+The process is the same for Tuna-ViDS, but you can have videos up to 24fps, and the example code is different.
 ```
 ffmpeg -i video.mp4 -f mp4 -vf "fps=24000/1001, colorspace=space=ycgco:primaries=bt709:trc=bt709:range=pc:iprimaries=bt709:iall=bt709, scale=256:144" -dst_range 1 -color_range 2 -vcodec mpeg4 -profile:v 0 -level 8 -q:v 2 -maxrate 500k -acodec aac -ar 32k -b:a 64000 -ac 1 -slices 1 -g 50 %2
 ```
