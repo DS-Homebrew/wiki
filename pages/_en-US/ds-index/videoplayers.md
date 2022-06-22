@@ -27,7 +27,25 @@ Warning: Converting large files in Rocket Video converter may cause you to loose
 
 ## Moonshell video conversion (DPG4x)
 
-WIP
+1. Download DPG4x [here](https://www.gamebrew.org/wiki/DPG4X)
+1. Open `dpg4x.7z`
+1. Open `dpg4x-2.3.3.0.zip` (3.0-1 gives out an error when opening, for an unknown reason)
+1. Open `dpg4x-2.3.3.0_setup.exe`, and proceed with installation
+1. After installation, open DPG4X
+1. Click the `VIDEO` tab
+1. Tick the `Keep Aspect` option
+1. Set `Video Bitrate` to your choice (higher should improve quality)
+1. Click the `AUDIO` tab
+1. Tick `Normalize Volume`, if your video is a bit quiet
+1. Click the `SUBTITLES` tab
+1. Set `Subtitles Source` to `Disable Subtitles`, as certain subtitle tracks may not display correctly
+1. Click the `MAIN` tab
+1. Click `Add Media` to open your video file(s)
+1. Set `DPG Version` to `4`, if you're using Moonshell v2.x, otherwise set to `3` or below
+1. Set `Quality` to your choice
+1. Click `Start Encoding` to convert the video(s)
+
+When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
 
 ## TunaViDS Guide
 
