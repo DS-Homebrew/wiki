@@ -16,7 +16,7 @@ Note: Actual max FPS is dependent on video content and length.
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|---------------|
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |256x192        |
-|MPEG4Player     |`.mp4`, H.264                    |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
+|MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
 |Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
 
 There are lots of players to choose from. Moonshell is the first on the list because it should be the first thing that comes to mind when playing videos on NDS. However, it requires the user to have a flashcard.
@@ -69,7 +69,6 @@ Drag and drop your video into one of these batch files to convert it:
 
 If you want, you can change the following in one of the above .bat files:
 - `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
-- For DS consoles: `-b 192k` to `-b 320k` for optimal quality
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
