@@ -43,14 +43,13 @@ You should probably stay in the safe zone for converting videos (10-15fps), othe
 
 To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
 
-Use this example code to convert your videos
-```
-ffmpeg -i video.mp4 -vsync cfr -f avi -r 15 -vf "scale=256:-2" -b 192k -bt 64k -vcodec libxvid -deinterlace -acodec libmp3lame -ar 32000 -ab 96k -ac 2 -filter:a "volume=4" video-ds.avi
-```
-where `video.mp4` is the filename of the video you want to convert. Feel free to mess around with some of the settings.
-- Try changing `-b 192k` to `-b 320k` for optimal quality, or (for DSi) `-b 512k` for the best quality available.
-- Only use `-filter:a "volume=4"` if your video is a bit quiet. If the resulting video plays too loudly, please re-run the example code, but with `-filter:a "volume=4"` removed.
-- If you're converting a 24fps video, change `-r 15` to `-r 12` to fix image jumping.
+Drag and drop your video into one of these batch files to convert your videos
+- [xvid-ds.bat](/assets/files/xvid-ds.bat): Converts to 12FPS video optimal for DS consoles
+- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Converts to 12FPS video optimal for DSi consoles
+- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
+- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Converts to 12FPS video optimal for DSi consoles with 400% volume increase
+
+You can change `12` in `-r 12` to a different one between `10` and `15`.
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
@@ -60,7 +59,5 @@ The video will quit to the menu after it is done playing, so if you want to loop
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 24fps, and the example code is different.
-```
-ffmpeg -i video.mp4 -f mp4 -vf "fps=24000/1001, colorspace=space=ycgco:primaries=bt709:trc=bt709:range=pc:iprimaries=bt709:iall=bt709, scale=256:144" -dst_range 1 -color_range 2 -vcodec mpeg4 -profile:v 0 -level 8 -q:v 2 -maxrate 500k -acodec aac -ar 32k -b:a 64000 -ac 1 -slices 1 -g 50 %2
-```
+The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
+- [dsmp4.bat](/assets/files/dsmp4.bat)
