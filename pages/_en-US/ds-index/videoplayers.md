@@ -23,15 +23,15 @@ WIP
 ## TunaViDS Guide for DSi
 
 ### Windows
-First you want to grab your video of choice. It is recommended that your video be 4:3, but FFMpeg add black bars to the video if it isn't.
+First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
 
 Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of **TW**i**L**ight Menu++.
 
-Next, download FFMpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
 
 You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your DSi. Slowdowns may occur on busy scenes (confetti, rain, etc).
 
-To use FFMpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFMpeg, so make sure to remove the entry when you're done.
+To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
 
 Use this example code to convert your videos
 ```
