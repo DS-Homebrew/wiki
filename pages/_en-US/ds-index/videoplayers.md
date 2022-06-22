@@ -21,7 +21,7 @@ Note: Actual max FPS is dependent on video content and length.
 
 There are lots of players to choose from. Moonshell is the first on the list because it should be the first thing that comes to mind when playing videos on NDS. However, it requires the user to have a flashcard.
 
-MPEG4Player is in progress and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
+MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
 
 Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
 
