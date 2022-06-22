@@ -1,3 +1,12 @@
+---
+lang: en-US
+layout: wiki
+section: ds-index
+category: reference
+title: Video Players
+description: Homebrew Video Players for the Nintendo DS(i)
+---
+
 # Homebrew Video Players for the Nintendo DSi
 This page contains a list of working or WIP video players for the Nintendo DSi that explains how each works.
 
