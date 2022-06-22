@@ -43,7 +43,7 @@ You should probably stay in the safe zone for converting videos (10-15fps), othe
 
 To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
 
-Drag and drop your video into one of these batch files to convert your videos
+Drag and drop your video into one of these batch files to convert it:
 - [xvid-ds.bat](/assets/files/xvid-ds.bat): Converts to 12FPS video optimal for DS consoles
 - [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Converts to 12FPS video optimal for DSi consoles
 - [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
