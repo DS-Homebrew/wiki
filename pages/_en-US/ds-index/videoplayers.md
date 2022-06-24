@@ -70,6 +70,7 @@ Drag and drop your video into one of these batch files to convert it:
 
 If you want, you can change the following in one of the above .bat files:
 - `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
+- `-2` in `scale=256:-2` to your desired vertical resolution, if the video appears distorted
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
