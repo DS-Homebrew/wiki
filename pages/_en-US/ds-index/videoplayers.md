@@ -24,6 +24,7 @@ There are lots of players to choose from. Moonshell is the first on the list bec
 MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
 
 Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
+{: .alert .alert-warning}
 
 ## Moonshell video conversion (DPG4x)
 
