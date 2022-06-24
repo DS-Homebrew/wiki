@@ -37,7 +37,6 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 | SORD M5              | [ColecoDS][colecods]                         | `.m5`                                  |                                            |
 | スーパーファミコン            | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`                             |
 | ワンダースワン（カラー）         | [NitroSwan][nitroswan]                       | `.ws`, `.wsc`                          | ???                                        |
-{:.table}
 
 - Footnotes -
 {:footnotes}

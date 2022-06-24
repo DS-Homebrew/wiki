@@ -37,7 +37,6 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                |
 | SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                            |
-{:.table}
 
 - Footnotes -
 {:footnotes}
