@@ -32,7 +32,7 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 
 ### 4. Maintain the chat quality to the expectations set by the environment
 
-- Monologuing to the point of discouraging others from interacting or having the message overflow an average mobile screen should have the messages moved to a dedicated page, such as a server thread or Mystbin: <link>
+- Monologuing to the point of discouraging others from interacting or having the message overflow an average mobile screen should have the messages moved to a dedicated page, such as a server thread or Mystbin: https://mystb.in/
 - Keep needed messages for your point to a minimal, by not:
  - Sending multiple messages with few words each to build a sentence (iow: popcorning)
  - Duplicating messages, especially in different channels
