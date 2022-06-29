@@ -20,24 +20,25 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 
 - Asking to ask is not only ironic, but defeats the point of having a help channel such as #nds-help, where all help questions are intended to be directed towards
 - Arbitrary release dates aren't part of our schedule to publish high quality tested applications, and expecting them to be pre-determined/ready on demand interferes with our release schedule. Those not wanting to be constrained by these limitations should instead use nightly builds if the project offers it
-- Handholding is not helping; users are expected to do research on the subject matter, whether its by reading the pinned messages/#useful-resources or using a search engine to find links
- - Overlooking this rule for legitimate reasons is allowed, at moderators decision on what is considered legitimate
+- Handholding is not helping; users are expected to do research on the subject matter, whether it's by reading the pinned messages/#useful-resources or using a search engine to find links
+   - Overlooking this rule for legitimate reasons is allowed, at moderators decision on what is considered legitimate
 
 ### 3. Keep a positive-environment in the server
 
 - Curse words aren't prohibited (you're on the internet; expect it), but edgelords and slurs aren't welcome
 - Conversational rants are allowed as long as it's not purely for the sake of venting
- - Prevent discussions being repeats of frustrations already found so commonly elsewhere (ie: Twitter) by introducing another factor not well known or discussed
- - Starting off a topic with something bad to say about it? Make sure to not instantly start the whole convo to be negative
+   - Prevent discussions being repeats of frustrations already found so commonly elsewhere (ie: Twitter) by introducing another factor not well known or discussed
+   - Starting off a topic with something bad to say about it? Make sure to not instantly start the whole convo to be negative
 
 ### 4. Maintain the chat quality to the expectations set by the environment
 
 - Monologuing to the point of discouraging others from interacting or having the message overflow an average mobile screen should have the messages moved to a dedicated page, such as a server thread or Mystbin: https://mystb.in/
-- Keep needed messages for your point to a minimal, by not:
- - Sending multiple messages with few words each to build a sentence (iow: popcorning)
- - Duplicating messages, especially in different channels
- - Posting for the sake of posting ("chat is dead", copypastas, etc)
- - Using reactions to post simple emoji's responding to another's message (for the message immediately above, type `+:emojiname:` as a shortcut)
+- GIFs to complement messages are fun, but GIFs made to replace conversation is just irritating and bandwidth wasting.
+- Keep needed messages for your point to a minimal, by:
+   - NOT duplicating messages, especially in different channels
+   - NOT posting for the sake of posting ("chat is dead", copypastas, etc)
+   - NOT sending multiple messages with few words each to build a sentence (ie: popcorning)
+   - using reactions to post simple emoji's responding to another's message (for the message immediately above, type `+:emojiname:` as a shortcut)
 
 **Moderators may request a discussion to stop, and users are expected to comply with its request, even if it doesn't fall into any of the above examples**
 
