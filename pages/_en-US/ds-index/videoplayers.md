@@ -10,8 +10,6 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
 
-Note: Actual max FPS is dependent on video content and length.
-
 |Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |Max resolution
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|---------------|
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
@@ -19,9 +17,9 @@ Note: Actual max FPS is dependent on video content and length.
 |MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
 |Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
 
-There are lots of players to choose from. Moonshell is the first on the list because it should be the first thing that comes to mind when playing videos on NDS. However, it requires the user to have a flashcard.
-
-MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
+Notes:
+- Actual max FPS is dependent on video content and length.
+- MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
 
 Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
 {: .alert .alert-warning}
@@ -32,7 +30,7 @@ Warning: Converting large files in Rocket Video converter may cause you to loose
 1. Open `dpg4x.7z`
 1. Open `dpg4x-2.3.3.0.zip` (3.0-1 gives out an error when opening, for an unknown reason)
 1. Open `dpg4x-2.3.3.0_setup.exe`, and proceed with installation
-1. After installation, open DPG4X
+1. After installation, open DPG4x
 1. Click the `VIDEO` tab
 1. Tick the `Keep Aspect` option
 1. Set `Video Bitrate` to your choice (higher should improve quality)
