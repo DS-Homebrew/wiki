@@ -10,12 +10,12 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
 
-|Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |Max resolution
-|----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|---------------|
-|Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |256x192        |
-|Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |256x192        |
-|MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |256x144        |
-|Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|256x192        |
+|Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |
+|----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|
+|Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |
+|Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |
+|MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |
+|Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|
 
 Notes:
 - Actual max FPS is dependent on video content and length.
@@ -79,4 +79,5 @@ The video will quit to the menu after it is done playing, so if you want to loop
 ### Windows
 
 The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
-- [dsmp4.bat](/assets/files/dsmp4.bat)
+- [dsmp4-43.bat](/assets/files/dsmp4.bat): For 4:3 videos
+- [dsmp4.bat](/assets/files/dsmp4.bat): For 16:9 videos
