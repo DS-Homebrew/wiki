@@ -15,7 +15,7 @@ tabs:
 Ne pas mettre à jour le système après avoir installé hiyaCFW. Ce faisant, vous supprimerez les patchs SD de hiyaCFW.
 {: .alert .alert-danger}
 
-### Pré-requis
+### Prérequis
 - Une Nintendo DSi avec [Unlaunch installé](https://dsi.cfw.guide/installing-unlaunch)
 - Une sauvegarde NAND prise sur votre appareil [en utilisant dumpTool](https://dsi.cfw.guide/dumping-nand)
 - Un appareil Windows, macOS ou Linux

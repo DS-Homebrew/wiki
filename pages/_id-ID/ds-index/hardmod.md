@@ -22,7 +22,7 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
    - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
    - Adaptor kartu SD ke microSD
-   - Pembaca (reader) kartu SD yang mampu membaca cip eMMC berjalan di mode single data-line. [Ini yang dikenal bisa](https://www.amazon.com/dp/B006T9B6R2)
+   - Pembaca (reader) kartu SD yang mampu membaca cip eMMC berjalan di mode single data-line. [Ini yang dikenal berfungsi](https://www.amazon.com/dp/B006T9B6R2)
    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) dan [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jika di Windows
    - A valid NAND backup of the DSi you are hardmodding
    - To be comfortable soldering to pads that are as small as 0.5mm in diameter
@@ -114,7 +114,7 @@ You will first need to remove the NOCASH footer from the backup you are flashing
       - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
       - Replace `{device-name}` with the mount point of the SD card
 
-Sesudah itu, kamu boleh mencabut adaptor kartu SD dan menyalakan konsol DSi. If all went well, the DSi should have booted to the state it was when the backup was created!
+Sesudah itu, kamu boleh mencabut adaptor kartu SD dan menyalakan konsol DSi. Jika semua lancar, DSi seharusnya kembali dimulai nyala ke keadaan seperti saat cadangannya dibuat!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 

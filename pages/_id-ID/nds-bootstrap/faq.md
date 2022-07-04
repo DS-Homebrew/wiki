@@ -102,7 +102,7 @@ While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster spe
 Tidak. Karena nds-bootstrap menjalankannya secara natif, maka fungsi sebagian besar tombol tidak dapat diubah. Cara satu-satunya ya dengan memodifikasi permainan itu sendiri, atau dengan kode cheat.
 
 #### Bagaimana cara bermain ROM Pokémon teracakadut (randomized) dengan nds-bootstrap?
-Pokémon HeartGold/SoulSilver, Black/White, dan Black 2 / White 2 terdapat kode tindakan anti-piracy yang harus ditambal sendiri *sebelum* mengacakadut ROM. Caranya bisa dengan [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
+Pokémon HeartGold/SoulSilver, Black/White, dan Black 2 / White 2 terdapat kode tindakan anti-piracy yang harus ditambal sendiri *sebelum* mengacakadut ROM. Caranya dapat dengan [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
 - ROM yang diacakadut (randomized) tidak dapat ditambal AP saat berlangsung seperti versi ori permainan-permainan ini, karena mengacakadut ROM punya keluaran unik yang terlalu banyak untuk disertakan di **TW**i**L**ight Menu++
 
 #### What are DSi binaries? How do I get them?

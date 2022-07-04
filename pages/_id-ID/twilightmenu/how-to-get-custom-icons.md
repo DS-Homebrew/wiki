@@ -3,8 +3,8 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: lainnya
-title: Cara mendapatkan Ikon dan Banner ubah suai
-description: How to set custom icons and banners for folders and games in TWiLight Menu++
+title: Cara mendapatkan Ikon dan Banner kustom
+description: Bagaimana cara mengatur ikon dan banner kustom untuk folder dan permainan di TWiLight Menu++
 ---
 
 1. Download the icon or banner you want to set from [the Skins site](https://skins.ds-homebrew.com/icon/)

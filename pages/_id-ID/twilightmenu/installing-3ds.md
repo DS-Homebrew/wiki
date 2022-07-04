@@ -21,9 +21,9 @@ Sebelumnya harus punya custom firmware di konsol 3DS, ikuti [3ds.hacks.guide](ht
 1. Pindai kode QR berikut untuk memasang [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) versi terkini<br> ![Kode QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Tutup FBI dan luncurkan Universal-Updater
    - Jika tidak muncul di menu beranda, nyalakan ulang 3DS
-1. Cari TWiLight Menu++ di kisi (grid) aplikasi, gunakan tab ketiga pada papan sisi (sidebar) jika kesusahan mencari
+1. Cari TWiLight Menu++ di grid aplikasi, kamu bisa menggunakan tab ketiga pada sidebar jika kesulitan mencarinya
    - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di papan sisi (sidebar) dan pilih `TWiLight Menu++` untuk memasangnya
+1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di sidebar dan pilih `TWiLight Menu++` untuk memasangnya
    - Ini akan lumayan lama
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}

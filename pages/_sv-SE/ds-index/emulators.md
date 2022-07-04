@@ -11,7 +11,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 
 ### List of systems supported by TWiLight Menu++
 
-| Format                  | Loader                                           | Extensions                             | Spara fil                                      |
+| Format                  | Loader                                           | Tillägg                                | Spara fil                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                |
 | Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
@@ -37,6 +37,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
 | SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
+{:.table}
 
 - Footnotes -
 {:footnotes}
@@ -45,9 +46,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Other emulators for the DS
 
-| Format  | Loader         | Extensions | Spara fil |
-| ------- | -------------- | ---------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (okänd)   |
+| Format  | Loader         | Tillägg | Spara fil |
+| ------- | -------------- | ------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`  | (okänd)   |
 
 ## Notes on specific emulators
 ### RAM-diskar

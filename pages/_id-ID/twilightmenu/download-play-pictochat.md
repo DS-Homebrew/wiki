@@ -19,7 +19,7 @@ Di GodMode9:
    - Berkasnya akan ada di `0:/gm9/out/`
 1. Salin `DS Download Play (NTR-HDNA).nds` ke `0:/_nds/`, dan ubah namanya jadi `dlplay.nds`
 
-Langkah di atas akan mempercepat nyala awal (boot) DLP.
+Langkah di atas akan mempercepat awal nyala (boot) DLP.
 
 Untuk menjalankan PictoChat di 3DS (perlu DSi), salin `pictochat.nds` dari `sd:/_nds/` di kartu SD konsol DSi ke letak yang sama pada kartu SD konsol 3DS.
 

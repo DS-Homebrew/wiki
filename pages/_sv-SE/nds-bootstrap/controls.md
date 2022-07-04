@@ -16,7 +16,7 @@ These do not apply to homebrew.
   - Many games support simply pressing this button combination by default, but this will force reset it
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
    - <kbd class="r">R</kbd>: Advance by one frame
-   - Screenshot
+   - Skärmdump
       - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
       - <kbd class="face">A</kbd>: Save screenshot
       - <kbd class="face">B</kbd>: Return to in-game menu

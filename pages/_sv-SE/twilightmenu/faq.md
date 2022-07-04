@@ -51,7 +51,7 @@ You can download homebrew games from [Universal-DB](https://db.universal-team.ne
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
 
 #### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+Ja. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
 
 #### How do I change TWiLight Menu++'s language?
 1. Öppna TWiLight Menu++ inställningar, du kan göra detta genom att hålla ner <kbd>SELECT</kbd> medan du laddar TWiLight Menu++
@@ -65,7 +65,7 @@ No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) ar
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
+Nej. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
 
 #### Why can't I find/see my games?
 There are a multiple reasons you may be unable to find them.

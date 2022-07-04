@@ -13,7 +13,7 @@ Ini tidak berlaku untuk homebrew.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> selama 2 detik: Menimbun (dumping) RAM ke `sd:/_nds/nds-bootstrap`, sebagai `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> selama 2 detik: Kembali ke menu pemuat
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> selama 2 detik: Memulai ulang permainan
-  - Banyak permainan yang juga bisa dengan kombinasi tombol ini secara bawaan, bedanya ini akan memulai ulang paksa
+  - Banyak permainan yang juga mendukung kombinasi tombol ini secara bawaan, bedanya ini akan memulai ulang paksa
 - <kbd class="l">L</kbd> + <kbd>Bawah</kbd> + <kbd>SELECT</kbd>: Membuka menu in-game
    - <kbd class="r">R</kbd>: Maju satu bingkai (frame)
    - Tangkap Layar
@@ -47,4 +47,4 @@ Ini tidak berlaku untuk homebrew.
 - Kombinasi tombol untuk membuka menu in-game dapat diubah di pengaturan TWiLight Menu++
 - Tombol kendali volume presisi dapat dinyalakan/dimatikan di pengaturan TWiLight Menu++
 - Tangkapan layar disimpan di `sd:/_nds/nds-bootstrap/screenshots.tar`. Berkas ini dapat dibuka menggunakan penampil arsip seperti [7-Zip](https://www.7-zip.org/)
-- Menangkap layar saat ini belum bisa di mode B4DS
+- Menangkap layar saat ini belum berfungsi di mode B4DS

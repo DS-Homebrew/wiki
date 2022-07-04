@@ -75,5 +75,5 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
 1. Change the settings to your liking, then press <kbd>START</kbd> to continue
 
-Jika muncul tulisan `Terjadi kegalatan`, mohon rujuk laman [soal sering ditanya](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
+Jika muncul tulisan `Terjadi kegalatan`, mohon rujuk halaman [pertanyaan umum](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
 {: .alert .alert-warning}

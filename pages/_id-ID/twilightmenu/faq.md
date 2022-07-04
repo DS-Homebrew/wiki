@@ -64,7 +64,7 @@ Tidak, ini bukan emulator. The menu and DS games (loaded via nds-bootstrap) are 
 #### What systems does TWiLight Menu++ support?
 See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Apa eksploit permainan Slot-1 dapat menyala awal (boot) TWiLight Menu++?
+#### Apakah eksploit permainan Slot-1 dapat memulai TWiLight Menu++?
 Tidak. Akses kartu SD hanya diperbolehkan untuk aplikasi DSiWare, jadi permainan Slot-1 tidak dapat diluncurkan (atau diakses) TWiLight Menu++.
 
 #### Kenapa permainan saya susah dicari/dilihat?

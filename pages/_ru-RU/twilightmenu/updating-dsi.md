@@ -8,20 +8,20 @@ long_title: Обновление TWiLight Menu++ (DSi)
 description: Как обновить TWiLight Menu++ на Nintendo DSi
 ---
 
-If updating from a version older than v6.8.3, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
+Если обновляетесь с версии ниже чем v6.8.3, пожалуйста, переместите ваши `.sav` файлы для DS игр в новую папку под названием `saves`, при этом она должна быть в той же папке, что и ваши DS образы.
 {:.alert .alert-info}
 
-Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare игр в новую папку `saves`, она должна быть в той же папке что и ваши DSiWare образы.
+Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare игр в новую папку под названием `saves`, она должна быть в той же папке, что и ваши DSiWare образы.
 {:.alert .alert-info}
 
 ### Обновление
 1. Скачайте последнюю версию [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-1. Разархивируйте `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root, replacing any existing files
-   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
-1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root, replacing any existing files
-   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+1. Разархивируйте `TWiLightMenu-DSi.7z`
+1. Скопируйте папку `_nds` в корень вашей SD карты, заменив все существующие файлы
+   - При использовании macOS убедитесь, что вы **копируете** и `Объединяете`, а не `Заменяете`
+1. Скопируйте файл `BOOT.NDS` в корень вашей SD карты, заменив все существующие файлы
+1. **Пользователям hiyaCFW:** Скопируйте папку `title` в корень вашей SD карты, заменив все существующие файлы
+   - При использовании macOS убедитесь, что вы **копируете** и `Объединяете`, а не `Заменяете`
 
 ### Дополнительные шаги для пользователей флеш-картриджей
 

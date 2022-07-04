@@ -12,7 +12,7 @@ Beberapa homebrew DS tidak mampu mengakses berkas sistem kartu SD dengan benar. 
 Perangkat lunak yang digunakan di sini memerlukan sistem operasi Windows.
 {:.alert .alert-info}
 
-Kamu tidak perlu mengikuti ini jika memakai flashcard.
+Kamu tidak perlu mengikuti ini jika menggunakan flashcard.
 {:.alert .alert-info}
 
 Untuk membuat cakram RAM (RAM disk), unduh [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (klik `Download Software`), dan ikuti arahan di bawah ini.
@@ -26,7 +26,7 @@ Arahan dibuat oleh Dakkon7, diubah oleh Rocket Robz:
 1. Pencet **Load/Save**
 1. Pencet `Start RAMDisk`, dan akan muncul jendela baru untuk .img tadi
 1. Letakkan berkas dan folder yang homebrew butuhkan di situ, dan/atau berkas lain yang ingin digunakan
-1. Pada program RAMDisk, tekan `Save Disk Image Now`
+1. Pada program RAMDisk, pencet `Save Disk Image Now`
 1. Simpan `[nama rom].img` ke folder `ramdisks` tempat lokasi berkas .nds ditaruh. Jika folder tersebut belum ada, buat dulu
 1. Pencet `Stop RAMDisk` jika sudah selesai
 1. Di TWiLight Menu++, buka pengaturan tiap permainan pada homebrew dengan **Y**

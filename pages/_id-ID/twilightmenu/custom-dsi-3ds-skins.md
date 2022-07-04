@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Cara Membuat Skin DSi/3DS
-description: Cara membuat skin DSi dan 3DS ubah suai untuk TWiLight Menu++
+description: Cara membuat skin DSi dan 3DS kustom untuk TWiLight Menu++
 ---
 
 To make a TWiLight Menu++ skin you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide as it's capable of everything needed.
@@ -13,7 +13,7 @@ To make a TWiLight Menu++ skin you will need an image editor capable of exportin
 The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format so if you have issues later on you can compare with these.
 
 ## Bagian 2: Menyunting gambar
-Unduh dan pasang [GIMP](https://www.gimp.org), boleh juga memakai penyunting (editor) yang berbeda, tetapi panduan ini memakai GIMP.
+Unduh dan pasang [GIMP](https://www.gimp.org), boleh juga dengan penyunting yang berbeda, tapi panduan ini menggunakan GIMP.
 
 Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
 
@@ -185,5 +185,5 @@ Once you've edited some graphics and would like to test your skin, simply copy y
 ## Bagian 4: Membagikan skin
 Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
 
-## Musik latar belakang dan efek suara ubah suai (custom)
+## Musik latar belakang dan efek suara kustom
 The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.

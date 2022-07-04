@@ -16,8 +16,8 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 1. Salin folder `roms` ke root kartu microSD flashcard
 1. Jika sudah ada data simpanan (save), sebelumnya pindahkan dulu berkas `.sav`, yang tadinya bersama ROM DS, ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
 1. ...
-   - **Pengguna DS Phat(kodok) / Lite:** Jika menyalaawalkan `BOOT.NDS` malah tersangkut di layar putih, sisipkan DS Memory Expansion Pak, lalu coba lagi
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **Pengguna DS Phat (kodok) / Lite:** Jika memulai `BOOT.NDS` malah tersangkut di layar putih, sisipkan DS Memory Expansion Pak, lalu coba lagi
+   - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, buka Pengaturan TWLMenu++, pindah ke halaman `Pengatuan lain `, lalu nyalakan `Akses SCFG di Slot-1` dan ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
       - Ini agar laju jam (clock speed) TWL dan/atau kebut VRAM dapat digunakan permainan di flashcard, sekaligus mengakses kartu memori SD konsol, dan menjalankan ROM DSi-Enhanced/DSi-Exclusive/DSiWare dalam mode DSi di flashcard
       - Jika ini dinyalakan, tombol <kbd>SELECT</kbd> + <kbd>Atas</kbd>/<kbd>Bawah</kbd> dapat ditekan untuk beralih antara kartu SD konsol dan kartu SD flashcard
 
@@ -60,4 +60,4 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
 
    Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Pastikan kamu sudah ada `YSMenu.nds` (diubah nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` pada root kartu microSD flashcard
-1. Buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan nds-bootstrap`, dan ubah `Gunakan nds-bootstrap` ke `Tak`, agar yang digunakan bukan nds-boostrap tetapi perangkat tegar (firmware) flashcard
+1. Buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan nds-bootstrap`, dan ubah `Gunakan nds-bootstrap` ke `Tak`, agar perangkat tegar (firmware) flashcard digunakan dan bukan nds-boostrap

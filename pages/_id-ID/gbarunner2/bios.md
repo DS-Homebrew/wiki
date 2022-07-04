@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Info
-description: Information on the GBA BIOS and how to dump it
+title: Info BIOS GBA
+description: Informasi terkait BIOS GBA dan cara dumping-nya
 ---
 
-Agar GBARunner2 bisa memuat gim, dibutuhkan sebuah dump dari GBA BIOS. Build terbaru dari GBARunner2 (yang juga hadir dalam TWiLight Menu++ terbaru) memiliki bios bawaan [Normatt's Open Source BIOS](https://github.com/Normmatt/gba_bios). Bagaimanapun, karena itu bukanlah salinan yang tepat, dengan menggunakan dump dari BIOS resmi akan meninngkatkan kompatibilitasnya. Kamu dapat men-dump GBA BIOS resmi dengan mengikuti salah satu dari beberapa metode.
+Agar GBARunner2 dapat memuat permainan, dibutuhkan timbunan (dump) GBA BIOS. Binaan terbaru dari GBARunner2 (yang juga hadir di TWiLight Menu++ terkini) terdapat [BIOS Sumber Terbuka Normatt](https://github.com/Normmatt/gba_bios) di dalamnya. Tetapi, karena bukan salinan yang tepat, butuh timbunan BIOS resmi untuk kesesuaian lebih bagus. Kamu dapat menimbun BIOS GBA resmi dengan mengikuti salah satu metode berikut.
 
-### Panduan Dumping
+### Panduan Penimbunan (Dumping)
 
 - [GBA/DS/DS Lite dengan flashcart GBA atau 3DS](https://glazedbelmont.github.io/gbabiosdump/)
-   - **Tidak memungkinkan** untuk men-dump GBA BIOS dari DSi
-- [Wii (bukan Family Ediition)/GameCube, GBA, dan link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
+   - BIOS GBA **tidak mungkin** dapat ditimbun dari DSi
+- [Wii (bukan Family Edition)/GameCube, GBA, dan link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
-Setelah dumping BIOS, file tersebut harus di rename menjadi `bios.bin` dan harus diletakkan di `sd:/`, `sd:/gba/`, or `sd:/_gba/` agar GBARunner2 bisa membaca file tersebut.
+Setelah menimbun BIOS, berkasnya harus diubah nama menjadi `bios.bin` dan ditaruh di `sd:/`, di `sd:/gba/`, atau `sd:/_gba/` agar dibaca GBARunner2.
 
-Kamu dapat memverifikasi jika BIOS dump mu sudah tepat dengan membandingkan cheksums ini:
+Timbunan BIOS-mu dapat kamu verifikasi apakah sudah benar dengan dibandingkan cheksum berikut:
 
 GBA/GBA SP/Game Boy Micro/Game Boy Player:
 - **CRC-32:** `81977335`
@@ -30,4 +30,4 @@ Deret Konsol DS/DS Lite/3DS:
 - **SHA-1:** `c11531d5261006810cdc954bd4bec0afe3187b35`{:.wrap}
 - **SHA-256:** `782eb3894237ec6aa411b78ffee19078bacf10413856d33cda10b44fd9c2856b`{:.wrap}
 
-Jika kau tidak tahu cara mendapatkan checksum berkas, gunakan [alat hitung checksum daring](https://emn178.github.io/online-tools/crc32_checksum.html).
+Jika tidak tahu cara mendapatkan checksum berkas, gunakan [alat hitung checksum daring](https://emn178.github.io/online-tools/crc32_checksum.html).

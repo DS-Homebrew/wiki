@@ -3,7 +3,7 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: customization
-title: Splash awal nyala kustom
+title: Splash Awal Nyala Kustom
 description: Cara menggunakan layar splash kustom untuk TWiLight Menu++
 ---
 

@@ -10,7 +10,7 @@ description: Hur du använder TWiLight Meny++ i bredbild på Nintendo 3DS
 This section requires a 3DS family console, running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-### Installing
+### Installerar
 1. Open FBI and select `Remote Install`, then `Scan QR Code`
 1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Open Universal Updater from your HOME Menu

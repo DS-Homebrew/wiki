@@ -15,7 +15,7 @@ La première chose à faire est de télécharger les [skins d'exemple](/assets/f
 ## Partie 2 : Modifier les images
 Téléchargez et installez [GIMP](https://www.gimp.org), vous pouvez utiliser un autre éditeur si vous le souhaitez mais ce guide utilise GIMP.
 
-Une fois installé, ouvrez GIMP et sélectionnez `Windows` -> `Dialogues ancrables` -> `Carte des couleurs`. Cela ouvre la boîte de dialogue de la carte des couleurs, qui sera utile lors de l'édition d'images palettisées.
+Une fois installé, ouvrez GIMP et sélectionnez `Fenêtres` -> `Fenêtres ancrables` -> `Palette`. Cela ouvre la boîte de dialogue de la palette, qui sera utile lors de l'édition d'images palettisées.
 
 Vous pouvez maintenant ouvrir l'image que vous voulez modifier dans GIMP et passer à la section ci-dessous en fonction du dossier dans lequel elle se trouve. Notez que TWiLight Menu++ est pointilleux sur le format exact des images et qu'il varie selon le dossier dans lequel elles se trouvent, assurez-vous donc d'exporter comme indiqué dans la section.
 
@@ -35,7 +35,7 @@ Il doit s'agir de fichiers PNG. N'importe quel fichier peut être utilisé, mais
 
 | Texture            | Description                                                                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| battery0           | Clignote avec `batterie1` lorsque la batterie est très faible                                                                                           |
+| battery0           | Clignote avec `battery1` lorsque la batterie est très faible                                                                                            |
 | battery1           | 0-4 sont utilisés en mode DSi                                                                                                                           |
 | battery1purple     | Les icônes violettes sont utilisées lorsque `Couleur LED alim.` (pour « couleur de la LED d'alimentation ») est défini sur `Violet` dans les paramètres |
 | battery2           |                                                                                                                                                         |
@@ -53,13 +53,13 @@ Il doit s'agir de fichiers PNG. N'importe quel fichier peut être utilisé, mais
 ### Textures palettisées (dossier `grf`)
 Il doit s'agir de 4 fichiers BMP BPP (16 couleurs).
 
-Pour les modifier dans GIMP, sélectionnez `Image` -> `Mode` -> `RGB` pour permettre de changer les couleurs, puis, une fois les couleurs modifiées, sélectionner `Image` -> `Mode` -> `Indexé…` pour reconvertir en palettisé. Lorsque vous passez en mode indexé, assurez-vous que `Générer une palette optimale` est coché et que `Nombre maximal de couleurs` est fixé à `16`.
+Pour les modifier dans GIMP, sélectionnez `Image` -> `Mode` -> `RVB` pour permettre de changer les couleurs, puis, une fois les couleurs modifiées, sélectionner `Image` -> `Mode` -> `Couleurs indexées…` pour reconvertir en palettisé. Lorsque vous passez en mode indexé, assurez-vous que `Générer une palette optimale` est coché et que `Nombre maximal de couleurs` est fixé à `16`.
 
 **Note :** Certaines images du thème DSi ont leurs palettes remplacées en fonction de la couleur de profil de l'utilisateur. Si vous modifiez les couleurs de ces derniers, assurez-vous que l'option `UserPalette` qui lui est destinée dans le `theme.ini` est définie sur `0`.
 
-Après avoir converti en indexé, allez dans le dialogue de la carte des couleurs et assurez-vous que la couleur transparente (#FF00FF) est la couleur #0 dans la carte des couleurs. Si ce n'est pas le cas, faites un clic droit dans la carte des couleurs et sélectionnez `Réorganiser la carte des couleurs…` puis déplacez la couleur transparente pour qu'elle soit la première couleur de la carte des couleurs et sélectionnez `OK`.
+Après avoir converti en indexé, allez dans le dialogue de la palette et assurez-vous que la couleur transparente (#FF00FF) est la couleur #0 dans la palette. Si ce n'est pas le cas, faites un clic droit sur la palette et sélectionnez `Réorganiser la palette…` puis déplacez la couleur transparente pour qu'elle soit la première couleur de la carte des couleurs et sélectionnez `OK`.
 
-S'il y a moins de 16 couleurs dans votre carte de couleurs finale, appuyez sur le bouton `+` en bas de la boîte de dialogue de la carte de couleurs jusqu'à ce que vous ayez 16 couleurs.
+S'il y a moins de 16 couleurs dans votre palette finale, appuyez sur le bouton `+` en bas de la boîte de dialogue de la palette jusqu'à ce que vous ayez 16 couleurs.
 
 Lors de l'exportation, il est recommandé de cocher la case `Ne pas écrire les informations sur l'espace couleur` sous le menu déroulant `Options de compatibilité`.
 

@@ -19,7 +19,7 @@ There are guides for creating a DS-compatible hotspot on macOS and Linux compute
 
 An Android mobile hotspot set to Open (none) security would also work.
 
-Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
+Windows tidak dapat membuat hotspot yang sesuai (compatible), jadi pengguna Windows harus masuk ke Linux untuk menyiapkannya.
 #### Other methods
 If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
 - Nintendo Wi-Fi USB Connector

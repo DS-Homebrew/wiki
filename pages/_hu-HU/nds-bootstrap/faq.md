@@ -8,20 +8,20 @@ description: GYIK & hibaelhárítás az nds-bootstrap-hez
 ---
 
 #### Problémáim vannak a ROM(ok)-mal, mit tegyek?
-- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
+- Győződj meg róla, hogy a [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) és [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) legújabb verzióját használod (a frissítési utasításokat az egyes kiadási oldalakon találod)
 - Ellenőrizd az [nds-bootstrap kompatibilitási listában](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0), hogy megtudd, ez egy ismert probléma-e a legújabb nds-bootstrap verzió esetén
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on **TW**i**L**ight Menu++ will disable all cheats for it
+- Próbáld meg az összes csalás kikapcsolásával annál a játéknál, mert néhány csalás nem kompatibilis az nds-bootstrap-pel jelenleg; az <kbd class="l">L</kbd> gombot nyomva a játék csalás menüjében a **TW**i**L**ight Menu++-ban tudod egy játék összes csalását kikapcsolni
 - Ha korábban működött, töröld a `fatTable` és a `patchOffsetCache` mappát az `sd:/_nds/nds-bootstrap/` könyvtárból
 - Futtasd a játékokat más beállításokkal beleértve az ARM9 CPU sebességet, DS/DSi módot, hang minőséget, aszink kártya olvasást, kártya DMA-t, stb.
-    - Using **TW**i**L**ight Menu++, change all the per-game settings to `Default`
+    - A **TW**i**L**ight Menu++ használatával módosítsd az összes játékonkénti beállítást `Alapértelmezett` értékre
     - Ha van egy konkrét játékonkénti beállítás, ami a problémát okozza, kérjük, jelentsd a [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)-ba
 - Ha van, töröld a cheat adatbázist (`usrcheat.dat`) a `sd:/_nds/TWiLightMenu/extras` mappában
-- [Re-dump the ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) to ensure that it is not corrupted
-- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
-- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub
-    - Check the closed issues too in case there has already been an issue closed in preference a different one
-    - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-- If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
+- [Re-dumpold a ROM-ot](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) hogy biztos lehess abban, nem sérült
+- Ha a fenti lépéseket követted, kérdezd meg a [Discord szerveren](https://discord.gg/yD3spjv)
+- Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a játék jelentésre került-e már a GitHub-ra
+    - Ellenőrizd a lezárt jegyeket is, arra az esetre, ha valamelyik hiba lezárásra került egy másik preferálása miatt
+    - Ha nem tartozik hozzá GitHub hiba, akkor csinálj neki egy újat
+- Ha eddig nem sikerült megoldást találni, kérjük frissítsd a [kompatibilitási listában](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
 #### Miért vannak problémák a ROM betöltéssel, ha natívan futnak?
 Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és a ROM hardkódolt a Slot-1 olvasásra. Van néhány időzítési és AP intézkedés (amik nagy része már eltávolított), mind a kettő okozhatja, hogy a ROM-ok nem megfelelően működnek.
@@ -40,13 +40,13 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 
 #### DS/DS Lite: Miért használjak nds-bootstrap-et egy DS flashcard-on?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a Memory Expansion Pak-ba (vagy RAM-ot tartalmazó Slot-2 flashcard-o memóriájába), gyorsabb betöltési időket lehetővé téve, mint a normál játék kártyák
-- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
-- If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Edit values in the RAM using the in-game menu
+- Korlátozott számú DSiWare futtatható a beépített patchek és egy DSi-Enhanced cím Donor ROM-ja segítségével
+     - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `nds-bootstrap használata` beállítástól a TWLMenu++ beállításokban
+- Ha a flashcard kernel-ed nem tud futtatni egy bizonyos ROM-ot, akkor az nds-bootstrap használható helyette, és ez játékonként beállítható
+- Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
+- RAM-ban található értékek szerkesztése a játékonkénti menüben
 
-#### What is a Donor ROM?
+#### Mi az a Donor ROM?
 Az nds-bootstrap-ben, amikor egy játék nem bootol, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett.     
 A Donor ROM beállítható a **TW**i**L**ight Menu++-szal.
 - **Flashcard-ok DS módban:** A néhány támogatott DSi-Exklúzív/DSiWare cím DSi-Enhanced ROM készletet igényel, mint Donor ROM
@@ -105,9 +105,9 @@ Nem. Mivel az nds-bootstrap natívan futtatja a játékokat, a legtöbb gomb fun
 Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
 - Randomized ROMs cannot be AP-patched on-the-fly like the vanilla versions of these games are, because randomizing a ROM has far too many unique possible outputs to be reasonably included with **TW**i**L**ight Menu++
 
-#### What are DSi binaries? How do I get them?
-DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
+#### Mik azok a DSi binárisok? Hogyan szerezhetem meg őket?
+A DSi binárisok a játék kódjának azon részei, amelyeket a DSi (és a 3DS) rendszereken kell használni a DSi funkcióinak, például a kameráknak és a továbbfejlesztett Wi-Fi képességeknek a kihasználására. A régebbi dumpolási módszerek nem biztos, hogy megfelelően dumpolták ezeket.
 
-- ROMs without the DSi binaries can still be played on any console through DS mode, in which it will run as if the game were being played on a Nintendo DS Phat/Lite
+- A DSi binárisok nélküli ROM-ok továbbra is játszhatók bármely konzolon DS módban, amelyben a játék úgy fut, mintha Nintendo DS Phat/Lite konzolon játszanák
 
-To obtain a ROM that contains the DSi binaries, [re-dump your Game Card](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).
+A DSi bináris programokat tartalmazó ROM-hoz a [a játékkártya újradumpolásával](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) juthatsz hozzá.

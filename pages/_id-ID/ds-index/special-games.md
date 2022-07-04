@@ -79,7 +79,7 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
    - Main jamak (multiplayer) dihapus
    - Gambar ikon bergerak
 
-Dapat memakai Wi-Fi (termasuk WPA 1/2):
+Ada dukungan Wi-Fi (termasuk WPA 1/2):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Sujin Taisen: Number Battles
@@ -102,7 +102,7 @@ Dapat memakai Wi-Fi (termasuk WPA 1/2):
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### Permainan DSi-Enhanced yang tidak memakai overlay
+### DSi-Enhanced yang tidak menggunakan overlay
 Jumlah: 39, mungkin masih ada yang belum
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
@@ -144,7 +144,7 @@ Jumlah: 39, mungkin masih ada yang belum
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Permainan yang dapat disambungkan kartrid GBA
+### Permainan yang bersambung dengan kartrid GBA
 Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera beberapa cara lain.
 
 - Advance Wars: Dual Strike
@@ -273,7 +273,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Permainan yang memakai kartrid Option Pak GBA
+### Permainan yang menggunakan Option Pak GBA
 - Memory Expansion Pak (Penambah RAM)
    - Nintendo DS Browser
 - Motion Pack (Pengaya Gerak)
@@ -343,7 +343,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Kartu permainan yang ada inframerah (IR)
+### Kartu Permainan dengan Inframerah
 - Pokémon Heartgold/Soulsilver
    - Untuk menyambungkan ke pedometer Pokéwalker
 - Pokémon Black/White/Black 2/White 2

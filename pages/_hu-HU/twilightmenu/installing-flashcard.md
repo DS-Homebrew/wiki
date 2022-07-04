@@ -17,7 +17,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 1. Ha már van mentés adatod, mozgasd a `.sav` fájljaidat, ami a DS ROM lokáción találhatók egy új `saves` nevű mappába, ami szintén DS ROM lokáción található
 1. ...
    - **DS Phat/Lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++ -t a konzolod SD kártyáján, majd nyisd meg a TWLMenu++ Beállításokat és menj az `Egyéb  beállítások` oldalra és kapcsold be `SCFG hozzáférés Slot-1-ben` opciót, valamint állítsd be a `Slot-1: Érintés mód`-ot `DSi mód`-ra
       - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához, és a futtatását DSi-Enhanced/DSi-Exclusive/DSiWare játékoknak DSi módban a flashcard-odról
       - Ha ez engedélyezett a <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> használatával válthatsz a belső SD kártya és a flashcard-od SD kártyája között
 
@@ -26,7 +26,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - Lépd át ezt, ha nem látod a flashcard-od
 1. ...
    - **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++ -t a konzolod SD kártyáján, majd nyisd meg a TWLMenu++ Beállításokat és menj az `Egyéb beállítások` oldalra és kapcsold be az `Auto-start Slot-1` opciót
 
 ### Játékok futtatása a flashcard firmware használatával
 
@@ -60,4 +60,4 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 
    Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Nyisd meg a TWLMenu++ Beálltásokat, válts az `nds-bootstrap beállítások` oldalra és állítsd be az `nds-bootstrap haszmálatát` `Nem`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett

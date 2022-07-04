@@ -35,7 +35,7 @@ description: Kontroller för att använda TWiLight Meny++
       - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
       - <kbd class="l">L</kbd>: Inaktivera alla fusk
 
-#### Boot shortcuts
+#### Boot-genvägar
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
 
 - <kbd>SELECT</kbd>: Open settings

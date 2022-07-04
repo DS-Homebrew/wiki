@@ -37,6 +37,7 @@ Hay diferentes emuladores disponibles para DS y DSi. Esta página ofrece una exp
 | Sord M5                 | [ColecoDS][colecods]                                   | `.m5`                                  |                                                                |
 | SNES                    | [SNEmulDS][snemulds]                                   | `.smc`, `.sfc`                         | `[rom name].srm`                                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                                 | `.ws`, `.wsc`                          | ???                                                            |
+{:.table}
 
 - Footnotes -
 {:footnotes}

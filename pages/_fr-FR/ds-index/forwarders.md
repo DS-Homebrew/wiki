@@ -49,7 +49,7 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 
 {% capture tab-dsi-sd-card %}
 
-### Pré-requis
+### Prérequis
 
 - Une Nintendo DSi avec [Unlaunch](https://dsi.cfw.guide/fr_FR/installing-unlaunch) et [hiyaCFW](../hiyacfw/installing) installés
 - La dernière version de [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.dsi)
@@ -89,7 +89,7 @@ Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
 
 {% capture tab-flashcard %}
 
-### Pré-requis
+### Prérequis
 
 - **Utilisateurs de DSi :**
    - Une Nintendo DSi avec [Unlaunch](https://dsi.cfw.guide/fr_FR/installing-unlaunch) et [hiyaCFW](installing) installés

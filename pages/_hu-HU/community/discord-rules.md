@@ -14,7 +14,7 @@ Ez az oldal részletesebb szabályokat tartalmaz, mint ami az [#info-and-rules](
 - Ez mindenkire vonatkozik, függetlenül a szerepüktől vagy aktivitásuktól a szerveren, még akkor is ha nincsenek a szerveren
 - Ne legyél kibicmoderátor vagy próbálj "segíteni", ha egy moderátor már kezeli a helyzetet
 - A szabály emlékeztetők rendben vannak, addig amíg tiszteletteljes marad
-- Credit the creator(s) when sending something if you know who created it (exception being when the included work already credits said author)
+- Ha tudod, hogy ki készítette, írd be a szerző(k)nek, amikor elküldesz valamit (kivéve, ha az elküldött munka egyébként is tartalmazza a szerzőt)
 
 ### 2. Ne vidd le csevegés színvonalát
 
@@ -26,45 +26,45 @@ Példák, hogy mik szegik meg ezt a szabályt:
    - A fontos információk a [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) csatornán tároltak vagy pinnelve vannak minden csatornán
 - Túl sok helyet elfoglalása a chatben (pl. rövid szavak elküldése több üzenetben ahelyett, hogy az egészet egy üzenetben küldenéd)
 - Üzeneteket ismételni, függetlenül attól, hogy ugyanazon csatornán vagy különböző csatornákon történik
-   - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatively, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919)
+   - If you're unsure where to post your message, identify which channel would be the most fitting for your message by check its topic. Alternatívaként kérdezd meg a [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919) csatornán
 - Posztolni azért, hogy posztolj, a helyett, hogy valódi párbeszéd történne (például panaszkodni, hogy a chat halott, csak üdvözléseket kiküldeni, kopipésztek, stb.)
 - Monologuing to the point where others are discouraged from intervening or a 16:9 mobile display with an average font size user would have to scroll in order to read your full message. Please refer to an external service (such as [mystbin](https://mystb.in/)) so that other users messages could be read as well
 - Rants are allowed as long as its for the sake of conversation rather than purely venting. This includes being open to other viewpoints, being able to back up personal feelings with facts, and bringing new ideas to the table (if it's been done before)
 
-**Moderators may request a discussion to stop, and users are expected to comply with its request, even if it doesn't fall into any of the above examples**
+**A moderátorok kérhetik egy vita leállítását, és a felhasználóktól elvárható, hogy eleget tegyenek a kérésnek, még akkor is, ha az nem tartozik a fenti példák egyikébe sem**
 
 ### 3. Ne önreklámozz kontextus nélkül vagy kifejezett staff engedély nélkül
 
 - Más Discord szervere linkjének megadásra kérésre engedélyezett, de kérj közvetlen üzenetben hozzájárulást egy moderátortól, mielőtt reklámozol egy szervert kontextus nélkül
 - Közvetlen üzenet reklám nem engedélyezett, sem a Discord szolgáltatási feltételei sem a saját szerver szabályaink szerint sem, tömeges DM reklám (bizonyítékkal) bannoláshoz vezet
 - A saját Discord szerver reklámozásának céljával történő csatlakozás kitiltásodhoz vezet és a reklámod törlésre kerül
-- Any compromised account will get banned, with the sent messages from the bot being removed. If the account is later retrieved, please contact one of the staff members
+- Minden kompromittált fiókot letiltásra kerül, és a bot által küldött üzenetek eltávolításra. Ha a fiókot később visszaszerezted, kérjük, lépj kapcsolatba a staff egyik tagjával
 
 ### 4. Kerüld a kalózkodásról beszélgetést
 
-Examples for what breaks this rule includes:
-- Mentioning/Linking piracy websites/tools
-- Encouraging piracy, whether by assisting others with it or justifying it
-- Uploading pirated or NDA-breaking content (ROMs compiled via official licensed SDKs, tools, etc...)
+Példák, hogy mik szegik meg ezt a szabályt:
+- Kalózkodó weboldalak/eszközök megemlítése/hivatkozása
+- A kalózkodás ösztönzése, akár másoknak való segítségnyújtással, akár annak igazolásával
+- Kalóz vagy NDA-t sértő tartalmak feltöltése (hivatalos licencelt SDK-k, eszközök stb. segítségével összeállított ROM-ok...)
 
-Example for what DOESN'T break this rule being:
-- Discussing any of the publicly-known leaked content, as long as no builds, source code or even unrelated files are shared
+Példák, hogy mik NEM szegik meg ezt a szabályt:
+- A kiszivárgásokkal kapcsolatos nyilvánosan ismert információk megvitatása, amíg nem kerülnek megosztásra buildek, fájlok vagy forráskódok
 
-Discord’s Terms of Service follow the US law and as such, is subject to the US definition of piracy regardless of wherever the user lives in the US or not
-- For more information on what is piracy or not, we suggest reading [eip’s piracy definition page](https://3ds.eiphax.tech/piracy.html) (Disclaimer: We are not lawyers)
+A Discord szolgáltatási feltételei az amerikai törvényeket követik, és mint ilyen, a kalózkodás amerikai definíciójának hatálya alá tartozik, függetlenül attól, hogy a felhasználó az USA-ban él-e vagy sem
+- További információkért arról, hogy mi kalózkodás és mi nem javasoljuk ezt olvasni valónak: [eip kalózkodás definíciós oldala](https://3ds.eiphax.tech/piracy.html) (Jogi nyilatkozat: Nem vagyunk ügyvédek)
 
 ### 5. Tartsd a beszélgetéseket a hozzájuk tartozó csatornán
 
-- Even if they are related, sometimes another channel would be more suitable
-   - Check the channel topics for where to ask questions or have discussion
-- Sometimes, even an entirely different server is preferable, we don't have the answers to everything
-   - There are some related servers in [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) and the pins of other channels
+- Még akkor is, ha kapcsolódik, néha egy másik csatorna sokkal megfelelőbb
+   - Nézd meg a csatorna témáját hogy megtudd, hol kérdezz vagy beszélgess
+- Néha egy egészen másik szerver a javasolt, nincs mindenre válaszunk
+   - Néhány kapcsolódó szerver megtalálható a [#useful-resources](https://discord.com/channels/283769550611152897/638041441079263283) csatorn vagy pinnelve vannak más csatornákon
 
 ### 6. Tarts minden beszélgetést angolul
 
-- We are not able to easily moderate content in other languages
-- We suggest using [DeepL](https://www.deepl.com/translator) for translation
-- Exceptions may be granted in case translation fails and there are trusted people that know your language and are able to help
+- Nem tudunk könnyen moderálni tartalmat más nyelveken
+- Javasoljuk a [DeepL](https://www.deepl.com/translator)-t fordításra
+- A moderátorok engedélyezhetik másoknak, hogy idegen nyelven beszéljenek, ha a fordítás nem sikerül, és vannak megbízható emberek, akik ismerik a nyelvet és tudnak segíteni
 
 ### 7. Nem lehet alternatív fiókod ezen a szerveren staff engedély nélkül
 
@@ -88,12 +88,12 @@ Discord’s Terms of Service follow the US law and as such, is subject to the US
 - Ha bannolva vagy másik szervereken, kerüld az erről beszédet
    - Nem tudunk segíteni más szervereken unbannolásban, ez a stáb döntése itt
 - Ne tegyél közzé semmi olyat, ami nem tekinthető biztonságosnak a munkához (pl. szexuális tartalom, extrém erőszak, drogok)
-- Accounts with disturbing avatars will be kicked, then leading to a ban if they keep said avatar on return
+- A fiókok zavaró avatárral ki lesznek rúgva, ha újracsatlakozva vele, kitiltásra kerülnek
 - Habár a felnőtt tartalom tilott, a felhasználóknak továbbra is 13 év felettieknek kell lenniük, hogy részt vehessenek a Discord szerveren, ahogy a Discor TOS-ban szerepel
 
 ### 11. Ne beszélj más Discord TOS-ok megszegéséről, és ne tegyél ilyen lépéseket
 
-- Breaking anything covered by either Discord's [Terms of Service](https://discord.com/terms) or [community guidelines](https://discord.com/guidelines), regardless of whether mentioned by the above or not, will land one a ban
+- Bármely, a Discord [Általános Szerződési Feltételek](https://discord.com/terms) vagy [közösségi irányelvek](https://discord.com/guidelines)által szabályozott dolog megszegése, függetlenül attól, hogy a fentiekben szerepel-e vagy sem, kitiltást von maga után
 
 ### 12. Ne próbáld a szabályokat megkerülni, az ugyanúgy a megsértésüknek számít
 
