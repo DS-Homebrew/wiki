@@ -37,6 +37,7 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:
