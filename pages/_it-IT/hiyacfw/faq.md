@@ -4,7 +4,7 @@ layout: faq
 section: hiyacfw
 title: Domande frequenti e risoluzione dei problemi
 long_title: Domande frequenti su hiyaCFW e risoluzione dei problemi
-description: FAQ & Troubleshooting for hiyaCFW
+description: Domande frequenti e risoluzione dei possibili problemi di hiyaCFW
 ---
 
 #### Come posso installare applicazioni o DSiWare sulla SDNAND di hiyaCFW?

@@ -28,7 +28,7 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terbaru
+1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke root kartu SD, timpa berkas yang ada
    - Untuk macOS, pastikan harus **copy (salin)** dan `merge (gabung)`, jangan `replace (timpa)`

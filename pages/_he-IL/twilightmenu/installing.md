@@ -25,4 +25,4 @@ description: כיצד להתקין את TWiLight Menu++ (דף אינדקס)
 ### פלאשקארט
 אם אתם משתמשים בפלאשקארד (ללא תלות באיזה מכשיר DS אתם משתמשים), עקבו אחרי [ההוראות עבור פלאשקארד](installing-flashcard).
 
-[![פלאשקארד מr4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![פלאשקארד מסוג Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![פלאשקארד מסוג R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

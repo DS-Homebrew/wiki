@@ -25,4 +25,4 @@ TWiLight Menu++의 업데이트 과정은 닌텐도 DSi, 닌텐도 3DS, 닌텐�
 ### 플래시 카드
 만약 플래시 카드 (사용중인 DS 모델과 상관 없이)를 사용하고 계신다면, [플래시 카드 방법](updating-flashcard)을 따라 주세요.
 
-[![r4isdhc.com 플래시 카드](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Acekard2i 플래시 카드](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![R4i Gold 3DS Plus 플래시 카드](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

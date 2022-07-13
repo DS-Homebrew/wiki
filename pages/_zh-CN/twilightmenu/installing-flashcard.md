@@ -41,7 +41,7 @@ Please note this only works if your flashcard is set to autoboot TWiLight Menu++
 
 1. 烧录卡
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2020 cards
+   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

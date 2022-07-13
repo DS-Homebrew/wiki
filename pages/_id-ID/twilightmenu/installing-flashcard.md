@@ -9,7 +9,7 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 ---
 
 ### Pemasangan
-1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terbaru
+1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terkini
 1. Ekstrak `TWiLightMenu-Flashcard.7z`
 1. Salin folder `_nds` ke root kartu microSD flashcard
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard
@@ -25,7 +25,7 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 1. Ekstrak isi dari `Autoboot/(flashcard-mu)` ke root dari kartu microSD flashcard
    - Lewati jika tidak ada untuk flashcard-mu
 1. ...
-   - **Pengguna DS Phat(kodok) / Lite:** Masuk ke pengaturan di menu DS resmi, dan nyalakan `auto-start` agar flashcard langsung mulai sendiri
+   - **Pengguna DS Phat (kodok) / Lite:** Masuk ke pengaturan di menu DS resmi, dan nyalakan `auto-start` agar flashcard langsung mulai sendiri
    - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan lain`, dan nyalakan `Langsung mulai Slot-1`
 
 ### Menjalankan permainan dengan firmware flashcard
@@ -41,7 +41,7 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
 
 1. Untuk flashcard berikut:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com tahun 2014-2020
+   - Kartu r4isdhc.com 2014-2022 (**bukan** .hk atau .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -54,9 +54,9 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - DSONE SDHC & DSONEi (model tanpa SDHC sudah ***tidak*** didukung)
    - M3 DS Real
    - M3i Zero (model tanpa GMP-Z003)
-   - iTouchDS dan iTouch2 (gunakan berkas YSMenu M3Real_M3iZero)
-   - R4(i)RTS (r4rts.com) (gunakan berkas YSMenu M3Real_M3iZero)
-   - R4 SDHC RTS (kartrid hitam) (r4isdhc.com) (gunakan berkas YSMenu M3Real_M3iZero)
+   - iTouchDS dan iTouch2 (menggunakan berkas YSMenu M3Real_M3iZero)
+   - R4(i)RTS (r4rts.com) (menggunakan berkas YSMenu M3Real_M3iZero)
+   - R4 SDHC RTS (kartrid hitam) (r4isdhc.com) (menggunakan berkas YSMenu M3Real_M3iZero)
 
    Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Pastikan kamu sudah ada `YSMenu.nds` (diubah nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` pada root kartu microSD flashcard

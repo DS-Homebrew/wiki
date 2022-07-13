@@ -2,53 +2,53 @@
 lang: it-IT
 layout: faq
 section: nds-bootstrap
-title: FAQ & Risoluzione dei problemi
-long_title: nds-bootstrap FAQ & Risoluzione dei problemi
+title: Domande frequenti e risoluzione dei problemi
+long_title: Domande frequenti e Risoluzione dei problemi di nds-bootstrap
 description: FAQ & Risoluzione dei problemi per nds-bootstrap
 ---
 
-#### I'm having issues with my ROM(s), what should I do?
-- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
-- Check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest version of nds-bootstrap
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on **TW**i**L**ight Menu++ will disable all cheats for it
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
-- Run the game with different settings, this includes ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
-    - Using **TW**i**L**ight Menu++, change all the per-game settings to `Default`
-    - If there is a specific per-game setting that causes your issue, please report this to the [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)
-- If present, delete the cheat database (`usrcheat.dat`) in `sd:/_nds/TWiLightMenu/extras`
-- [Re-dump the ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) to ensure that it is not corrupted
-- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
-- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub
-    - Check the closed issues too in case there has already been an issue closed in preference a different one
-    - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-- If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
+#### Sto avendo problemi con la mia ROM, cosa dovrei fare?
+- Assicurati di avere l'ultima versione di [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) e [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) se lo stai utilizzando (le istruzioni di aggiornamento sono fornite in ogni pagina delle versioni)
+- Controlla [l'elenco di compatibilità di nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) per vedere se è un problema noto nell'ultima versione di nds-bootstrap
+- Prova a disabilitare tutti i trucchi per quel gioco, visto che al momento non tutti sono compatibili con nds-bootstrap; premere <kbd class="l">L</kbd> nel menu dei trucchi del gioco su **TW**i**L**ight Menu++ disabiliterà tutti i trucchi attivati
+- Se precedentemente funzionava, elimina le cartelle `fatTable` e `patchOffsetCache` in `sd:/_nds/nds-bootstrap/`
+- Avvia il gioco con diverse impostazioni, tra cui velocità della CPU ARM9, lettura asincrona della scheda, modalità DS/DSi, qualità del suono, lettura scheda DMA, ecc
+    - Utilizzando **TW**i**L**ight Menu++, modifica tutte le impostazioni per-gioco a `Predefinito`
+    - Se esiste un'impostazione specifica per-gioco che causa il problema, segnalala alla [repository GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
+- Se presente, eliminare il database dei trucchi (`usrcheat.dat`) in `sd:/_nds/TWiLightMenu/extras`
+- [Esegui nuovamente il dump della ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) per assicurarsi che non sia danneggiata
+- Se hai seguito tutti i passaggi precedenti, chiedi nel server Discord [](https://discord.gg/yD3spjv)
+- Se il server dice che si tratta di un problema di nds-bootstrap, controlla se il gioco non è già stato segnalato su GitHub
+    - Controlla anche i problemi chiusi, nel caso in cui ci sia già stato un problema chiuso a favore di uno diverso
+    - Se non c'è n'è già uno, creane uno nuovo
+- Se a questo punto non è stata trovata alcuna soluzione, aggiorna la [lista di compatibilità](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
-#### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
+#### Perché ci sono problemi con il caricamento delle ROM, anche se sono eseguite nativamente?
+nds-bootstrap applica una patch alle funzioni ROM da eseguire da una scheda SD, visto che le ROM sono codificate per essere lette dalla Slot-1. Ci sono anche problemi di timing e misure AP (che per la maggior parte sono già state rimosse), entrambi i quali causano il non corretto funzionamento delle ROM.
 
-#### Why use nds-bootstrap over a regular flashcard?
-- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal Game Cards
+#### Perché usare nds-bootstrap piuttosto di una normale flashcard?
+- Alcune ROM compatibili sono caricate nella RAM, consentendo tempi di caricamento più rapidi rispetto alle normali schede di gioco
 - È possibile espandere il bus di memoria VRAM a 32-bit
 - È possibile utilizzare la velocità della CPU aggiuntiva del DSi, consentendo prestazioni migliori in alcuni giochi
 - È possibile migliorare l'audio con 48 kHz
-- Si può utilizzare la modalità DSi, consentendo le funzionalità del DSi
-- Using certain Game Cards, you are able to use IR in your application
+- Si può utilizzare la modalità DSi, consentendo le funzionalità extra del DSi
+- Utilizzando alcune schede di gioco, si è in grado di utilizzare le funzioni IR nell’applicazione
 - nds-bootstrap è open source: significa che gli sviluppatori possono sempre aggiornarlo per correggere bug e altre cose, anche se il progetto si interrompe
 - Il DS Memory Expansion Pak è emulato, questo significa che i giochi che lo richiedono funzioneranno
 - Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
-- Take screenshots and edit values in the RAM using the in-game menu
+- Effettua screenshot e modifica i valori nella RAM utilizzando il menu di gioco
 
-#### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
-- Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
-- If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Edit values in the RAM using the in-game menu
+#### DS/DS Lite: Perché usare nds-bootstrap su una flashcard DS?
+- Alcune ROM compatibili vengono caricate nel Memory Expansion Pak (o nelle flashcard Slot-2 contenenti RAM), consentendo tempi di caricamento più rapidi rispetto alle normali schede di gioco
+- Un numero limitato di DSiWare può essere eseguito utilizzando le patch integrate e una ROM donatrice di un titolo DSi-Enhanced
+     - Tieni presente che nds-bootstrap sarà sempre usato per DSiWare, indipendentemente dall'impostazione `Usa nds-bootstrap` nelle impostazioni di TWLMenu++
+- Se il kernel della flashcard non è in grado di far girare una certa ROM, si può usare al suo posto nds-bootstrap, che può essere impostato per-gioco
+- Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
+- Modifica i valori nella RAM utilizzando il menu di gioco
 
-#### What is a Donor ROM?
-In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
-A Donor ROM can be set using **TW**i**L**ight Menu++.
+#### Che cos'è una ROM donatrice?
+In nds-bootstrap, quando un gioco non si avvia, viene usata un'altra ROM per "donare" il suo binario ARM7 (e ARM7i, se disponibile) al gioco da eseguire, al posto di quello del gioco stesso.     
+Una ROM donatrice può essere impostata usando **TW**i**L**ight Menu++.
 - **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
 - **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around

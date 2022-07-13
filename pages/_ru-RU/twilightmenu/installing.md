@@ -25,4 +25,4 @@ description: Как установить TWiLight Menu++ (страница ка�
 ### Флеш-картридж
 Если вы используете флеш-картридж (неважно какая у вас модель DS), следуйте инструкциям для [флеш-картриджей](installing-flashcard).
 
-[![Флеш-картридж от r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Флеш-картридж Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Флеш-картридж R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

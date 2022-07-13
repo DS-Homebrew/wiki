@@ -25,4 +25,4 @@ Jeśli korzystasz z DSi (z wewnętrznej karty SD) postępuj zgodnie z instrukcja
 ### Flashcard
 Jeśli używasz flashcard (niezależnie od tego, z którego modelu DS korzystasz), postępuj zgodnie z instrukcją [flashcard](installing-flashcard).
 
-[![Flaschard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Flaschard Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Flaschard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

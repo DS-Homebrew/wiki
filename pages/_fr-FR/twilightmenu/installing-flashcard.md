@@ -41,7 +41,7 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
 
 1. Pour ces linkers :
    - R4i-SDHC (r4i-sdhc.com)
-   - Cartes r4isdhc.com 2014-2020
+   - Cartes r4isdhc.com 2014-2022 (**pas** .hk ou .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

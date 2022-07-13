@@ -37,7 +37,7 @@ Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une e
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                          |
 | SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[nom de la ROM].srm`                                    |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                                      |
-{:.table}
+| Xvid                    | [tuna-viDS][tunavids]                           | `.avi`                                 |                                                          |
 
 - Footnotes -
 {:footnotes}
@@ -110,3 +110,4 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids

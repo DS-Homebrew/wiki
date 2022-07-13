@@ -25,4 +25,4 @@ DSi（内部SDカードから）を使い場合は、[DSiの説明](installing-d
 ### フラッシュカード
 フラッシュカード（どのDSモデルを使っていても）を使い場合は、[フラッシュカードの説明](installing-flashcard)に従ってください。
 
-[![r4isdhc.comフラッシュカード](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Acekard2iフラッシュカード](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![R4i Gold 3DS Plusフラッシュカード](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

@@ -25,4 +25,4 @@ description: Как обновить TWiLight Menu++ (карта)
 ### Флеш-картридж
 Если вы используете флеш-картридж (неважно какая у вас модель DS), следуйте инструкциям для [флеш-картриджей](updating-flashcard).
 
-[![Флеш-картридж от r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Флеш-картридж Acekard2i](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![Флеш-картридж R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

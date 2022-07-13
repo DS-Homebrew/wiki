@@ -25,4 +25,4 @@ Jika kamu menggunakan DSi (dari kartu SD internal), ikuti [arahan untuk DSi](ins
 ### Flashcard
 Jika kamu menggunakan flashcard (terlepas dari model DS apa yang digunakan) ikuti [arahan untuk flashcard](installing-flashcard).
 
-[![Flashcard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Flashcard Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Flashcard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

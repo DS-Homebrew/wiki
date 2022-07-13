@@ -27,10 +27,10 @@ Always remember to check the channel topic and pins before talking in a channel.
 - [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
 
 **Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-modding-help][nds-modding-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
-- [#nds-modding-discussion][nds-modding-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
-- [#nds-retail-research][nds-retail-research] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities
-- [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
+- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
+- [#nds-discussion][nds-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
+- [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pins for a list of dedicated communities
+- [#nds-development][nds-development] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
 
 **Main DS⁽ⁱ⁾ Homebrew Projects**
 - [#nds-bootstrap][nds-bootstrap] - This channel is for discussion of the development of nds-bootstrap, for help use #nds-modding-help
@@ -71,7 +71,7 @@ These roles can only be given by moderators and indicate that these users are kn
 If you have broken the rules, you may receive these roles from a mod.
 
 - No Community - Removes access for all the channels under the Community category
-- No Help - Removes access from [#nds-modding-help][nds-modding-help]
+- No Help - Removes access from \[#nds-modding-help\]\[nds-modding-help\]
 - No Reaction - Disables reaction perms for all channels
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
@@ -82,8 +82,8 @@ These roles are only given for very specific purposes by Moderators.
 - Bots - Used to mark the Discord bots we have in this server
 - Special Thanks (terima kasih khusus) - Orang-orang yang telah berikut andil besar dalam komunitas kami
 
-### Self-Assignable Roles
-These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
+## Lightning Commands
+Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
 
 - Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
 - Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
@@ -92,8 +92,12 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
 - Translators (penerjemah) - Siapa pun yang ingin dikabari untuk ikut andil menerjemahkan berbagai macam proyek DS-Homebrew
 
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning.lightsage.dev/>
+
+**We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.**
+
 ## The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Jangan minta-minta menjadi anggota regu, nanti malah mengurangi kesempatan akan diterima.
+These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
 
 Owner: shutterbug2000#8835
 
@@ -111,10 +115,10 @@ Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#454
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
-[nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
-[nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
-[nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
-[nds-dev-discussion]: https://discord.com/channels/283769550611152897/835273459339624499
+[nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
+[nds-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
+[nds-hacks]: https://discord.com/channels/283769550611152897/356988919738400768
+[nds-development]: https://discord.com/channels/283769550611152897/835273459339624499
 
 [nds-bootstrap]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu]: https://discord.com/channels/283769550611152897/489307733074640926

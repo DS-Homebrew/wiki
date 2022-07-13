@@ -58,7 +58,7 @@ L'helper hiyaCFW è causa di falsi positivi con Windows Defender e altri program
   - **macOS:** Fai clic con il pulsante destro del mouse sul file `HiyaCFW_Helper` estratto dall'archivio hiyaCFW Helper e scegliere `Apri`
   - **Linux:** Lancia il file `HiyaCFW_Helper.py` estratto dall'archivio hiyaCFW Helper
 1. Fai clic sul pulsante `...` nella casella "NAND file with No$GBA footer"
-1. Naviga al tuo backup NAND, e clicca su `Apri`
+1. Naviga al tuo backup NAND, e clicca su `Open`
 1. Premi `Start`
 1. Nella nuova finestra pop-up, vai nella root della tua scheda SD e premi `OK`.
    - Il processo può richiedere diversi minuti
@@ -75,5 +75,5 @@ L'helper hiyaCFW è causa di falsi positivi con Windows Defender e altri program
 1. Tieni premuto <kbd>SELECT</kbd> mentre accendi la console Nintendo DSi per accedere alle impostazioni di hiyaCFW
 1. Cambia le impostazioni a tuo piacimento, poi premi <kbd>START</kbd> per continuare
 
-If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
+Se appare un messaggio `An error has occurred`, guarda la pagina [Domande frequenti e risoluzione dei problemi](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
 {: .alert .alert-warning}

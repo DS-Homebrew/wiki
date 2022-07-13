@@ -2,61 +2,61 @@
 lang: it-IT
 layout: faq
 section: twilightmenu
-title: FAQ & Troubleshooting
-long_title: TWiLight Menu++ FAQ & Troubleshooting
-description: FAQs and troubleshooting for TWiLight Menu++
+title: FAQ & Risoluzione dei problemi
+long_title: FAQ e Risoluzione dei problemi & di TWiLight Menu++
+description: FAQ e risoluzione dei problemi di TWiLight Menu++
 ---
 
 Per ulteriori FAQ, visita il thread [GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
+#### Perché il mio 3DS si blocca con schermi neri, si spegne, ecc quando avvio TWiLight Menu++?
 TWL_FIRM potrebbe in qualche modo essere danneggiato. Segui questa guida per risolvere il problema: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
-#### Come faccio a risolvere il problema di ottenere uno schermo bianco quando avvio TWiLight Menu++?
-- Reboot the console
-- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
-   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
-- Se anche questo non funziona, prova una scheda SD diversa
+#### Come risolvo il problema di schermo bianco che ottengo quando avvio TWiLight Menu++?
+- Riavvia la console
+- Se ciò non funziona, formatta la scheda SD in FAT32 con 32 KB cluster/ memoria d'allocazione
+   - Vedi la pagina [di guida di dsi.cfw](https://dsi.cfw.guide/sd-card-setup.html) per gli strumenti consigliati
+- Se anche ciò non funziona, prova una scheda SD diversa
 
 #### Dov'è il tema Acekard/Wood IU?
-The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Si prega di aspettare che venga corretto. I progressi per il ritorno di questo tema possono essere trovati in [questo PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
+Il tema Acekard (chiamato anche Wood IU) è stato rimosso per via del suo comportamento difettoso e per le corruzioni che causava alla scheda SD. Si prega di aspettare che venga corretto. I progressi per il ritorno di questo tema possono essere trovati in [questo PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
 #### Come faccio a risolvere TWiLight Menu++ che si riavvia o mi dà un Guru Meditation Error quando avvio un gioco?
 Vai nelle impostazioni di TWLMenu++ e disabilita `Aggiorna la lista giochi recenti`.
 
-#### Why do I get a white screen when trying to load a DS game from SD card?
+#### Perché ottengo uno schermo bianci quando tento di caricare un gioco dalla scheda SD?
 See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
 
 #### Come posso usare i trucchi?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
+Devi avere un DB di trucchi nella forma di un file `usrcheat.dat` nella cartella `sd:/_nds/TWiLightMenu/extras/`. Il database dei cheat più aggiornato è quello di [DeadSkullzJr's](https://gbatemp.net/threads/488711/).
 - On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". This will automatically install it to the required location.
 
 Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
 Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
 
-#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
+#### Come faccio a mostrare un'immagine personalizzata sullo schermo superiore nel tema DSi? La posso nascondere?
+Un'immagine casuale in formato `.png` in `sd:/_nds/TWiLightMenu/dsimenu/photos/` verrà mostrata ogni volta che il menu viene caricato. Se non ci sono immagini utilizzabili, verranno utilizzati gli screenshot scattati da nds-bootstrap.
 
-- The images(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
+- Le immagini non devono essere più grandi di 208x156
+- Se si verificano errori, è molto probabile che siano a causa della dimensione dell'immagine. Usa [tinypng](https://tinypng.com) per ridurre la dimensione
 
-As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
+Per nascondere l'immagine, è necessario modificare il file `theme.ini` che si trova in `sd:/_nds/TWiLightMenu/dsimenu/themes/[cartella skin]/`. Apri il file con un editor di testo, modifica la riga `RenderPhoto` da `1` a `0`, e poi salva il file.
 
-#### Come posso ottenere i giochi?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get dumps of your retail games:
-- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
-- On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
-- On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
+#### Come si ottengono i giochi?
+Puoi scaricare i giochi homebrew da [Universal-DB](https://db.universal-team.net/ds) e [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Per ottenere i dump (copie) dei tuoi giochi commerciali:
+- Su DS puoi usare [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) per effettuare copie dei tuoi giochi GBA e, se hai una flashcard Slot-2, giochi DS. Se hai solo una flashcard Slot-1 e vuoi effettuare una copia di un gioco per DS, puoi usare [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), che richiede una connessione Wi-Fi compatibile con il DS e un client FTP su un dispositivo separato per ricevere la ROM
+- Su DSi puoi usare [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) per effettuare copie dei tuoi giochi DS e DSiWare
+- Su 3DS puoi usare [GodMode9](https://github.com/d0k3/GodMode9/releases) per effettuare copie dei tuoi giochi DS, DSiWare e Virtual Console
 
 #### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+Sì. Puoi usare [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) su 3DS o [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) su DSi / 3DS.
 
 #### Come faccio a cambiare la lingua di TWiLight Menu+?
-1. Apri le impostazioni di TWiLight Menu++ puoi farlo tenendo premuto <kbd>SELECT</kbd> durante il caricamento di TWiLight Menu++
-1. Change the first option until you see the language you want, then exit settings
-   - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
+1. Apri le impostazioni di TWiLight Menu++ tenendo premuto <kbd>SELECT</kbd> durante il caricamento di TWiLight Menu++
+1. Cambia la prima opzione finché non vedi la lingua che vuoi, poi esci dalle impostazioni
+   - Potresti anche voler cambiare le prime tre opzioni sulla pagina delle impostazioni nds-bootstrap in quanto riguardano la lingua e la regione dei giochi DS e i loro titoli in TWiLight Menu++
 
 #### Questo è un emulatore del DS(i)?
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
@@ -84,3 +84,12 @@ The way to access the TWiLight Menu++ settings varies between your configuration
 - **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
 
 You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+
+#### How do I use custom icons/banners for games?
+You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) + `.png` or `.bin`.
+
+For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32.
+
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using either [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) or [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor is a GUI application that may be simpler to use, however it sometimes has issues with transparency and is Windows only (although it does work in WINE).
+
+Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.

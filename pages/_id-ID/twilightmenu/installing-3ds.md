@@ -29,7 +29,7 @@ Sebelumnya harus punya custom firmware di konsol 3DS, ikuti [3ds.hacks.guide](ht
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
 {% capture tab-non-working-camera %}
-1. Unduh [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia) yang terbaru
+1. Unduh [`Universal-Updater.cia`](https://github.com/Universal-Team/Universal-Updater/releases/latest/download/Universal-Updater.cia) yang terkini
 1. Taruh berkas `Universal-Updater.cia` di mana pun di kartu SD
 1. Luncurkan FBI di Nintendo 3DS
 1. Saat di FBI, masuk ke tempat ditaruhnya berkas `Universal-Updater.cia`
@@ -44,7 +44,7 @@ Sebelumnya harus punya custom firmware di konsol 3DS, ikuti [3ds.hacks.guide](ht
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terbaru
+1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke root kartu SD
 1. Salin berkas `BOOT.NDS` ke root kartu SD

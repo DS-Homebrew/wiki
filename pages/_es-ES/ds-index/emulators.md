@@ -11,44 +11,44 @@ Hay diferentes emuladores disponibles para DS y DSi. Esta página ofrece una exp
 
 ### Lista de sistemas soportados por TWiLight Menu++
 
-| Formato                 | Lanzador                                               | Extensiones                            | Archivos de guardado                                           |
-| ----------------------- | ------------------------------------------------------ | -------------------------------------- | -------------------------------------------------------------- |
-| ARGV[^1]                | Nativo                                                 | `.argv`                                |                                                                |
-| Atari 2600              | [StellaDS][stellads]                                   | `.a26`                                 |                                                                |
-| Atari 5200              | [A5200DS][a5200ds]                                     | `.a52`                                 |                                                                |
-| Atari 7800              | [A7800DS][a7800ds]                                     | `.a78`                                 |                                                                |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                                     | `.xex`, `.atr`                         |                                                                |
-| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]                     | `.col`                                 |                                                                |
-| DS                      | [nds-bootstrap][ndsbs], kernel de la flashcard, nativo | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nombre de la ROM].sav`[^2]                             |
-| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]           | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nombre de la ROM].pub`, `saves/[nombre de la ROM].prv` |
-| Plugin DSTWO            | [DSTWO][dstwo][^3]                                     | `.plg`                                 |                                                                |
-| Game Boy (Color)        | [GameYob][gameyob]                                     | `.gb`, `.sgb`, `.gbc`                  | `[nombre de la ROM].sav`                                       |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], nativo[^5]               | `.agb`, `.gba`, `.mb`                  | `[nombre de la ROM].sav`                                       |
-| Game Gear               | [S8DS][s8ds]                                           | `.gg`                                  | `[nombre de la ROM].gg.sav`                                    |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]            | `.gen`                                 | `[nombre de la ROM].srm`[^6]                                   |
-| Intellivision           | [Nintellivision][nintellivision]                       | `.int`                                 |                                                                |
-| Master System           | [S8DS][s8ds]                                           | `.sms`                                 | `[nombre de la ROM].sms.sav`                                   |
-| Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                         | `.ngp`, `.ngc`                         | `/data/ngpds/[nombre de la ROM].ngp.fla`                       |
-| Fast Video              | Próximamente                                           | `.fv`                                  |                                                                |
-| NES/Famicom             | [nesDS][nesds]                                         | `.nes`, `.fds`                         | `[nombre de la ROM].sav`                                       |
-| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                               | `.pce`                                 |                                                                |
-| Rocket Video            | [Rocket Video Player][rvidplayer]                      | `.rvid`                                |                                                                |
-| SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]                     | `.sg`                                  |                                                                |
-| Sord M5                 | [ColecoDS][colecods]                                   | `.m5`                                  |                                                                |
-| SNES                    | [SNEmulDS][snemulds]                                   | `.smc`, `.sfc`                         | `[rom name].srm`                                               |
-| WonderSwan (Color)      | [NitroSwan][nitroswan]                                 | `.ws`, `.wsc`                          | ???                                                            |
-{:.table}
+| Formato                 | Lanzador                                         | Extensiones                            | Archivos de guardado                           |
+| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
+| ARGV[^1]                | Native                                           | `.argv`                                |                                                |
+| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
+| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
+| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
+| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
+| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]               | `.col`                                 |                                                |
+| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
+| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
+| DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
+| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
+| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
+| Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
+| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
+| Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`               |
+| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
+| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
+| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
+| Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
+| SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
+| Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
+| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
+| WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
+| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 
 - Footnotes -
 {:footnotes}
 
-Estos son los emuladores recomendados y lanzadores que están presentes en TWiLight Menu++. Existen otros emuladores para estas consolas (tales como lolSnes, Gbaemu4ds, etc.)
+These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### Otros emuladores para DS
 
-| Formato | Lanzador       | Extensiones | Archivos de guardado |
-| ------- | -------------- | ----------- | -------------------- |
-| Neo Geo | [neoDS][neods] | `.neo`      | (desconocido)        |
+| Format  | Loader         | Extensions | Save file |
+| ------- | -------------- | ---------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 
 ## Observaciones sobre emuladores específicos
 ### Discos RAM
@@ -110,3 +110,4 @@ Estos son los emuladores recomendados y lanzadores que están presentes en TWiLi
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids

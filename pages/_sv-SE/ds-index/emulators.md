@@ -29,7 +29,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`               |
-| Fast Video              | Kommer snart                                     | `.fv`                                  |                                                |
+| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
@@ -37,7 +37,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
 | SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
-{:.table}
+| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 
 - Footnotes -
 {:footnotes}
@@ -46,9 +46,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Other emulators for the DS
 
-| Format  | Loader         | Tillägg | Spara fil |
-| ------- | -------------- | ------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`  | (okänd)   |
+| Format  | Loader         | Extensions | Save file |
+| ------- | -------------- | ---------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 
 ## Notes on specific emulators
 ### RAM-diskar
@@ -110,3 +110,4 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids

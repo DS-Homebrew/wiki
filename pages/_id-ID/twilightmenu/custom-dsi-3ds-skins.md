@@ -110,7 +110,7 @@ Yang ini harus berkas PNG.
 | Tekstur    | Keterangan                                            |
 | ---------- | ----------------------------------------------------- |
 | bottombg   | Latar belakang untuk layar bawah                      |
-| phat_topbg | Latar belakang untuk layar atas pada DS Phat / Kodok  |
+| phat_topbg | Latar belakang untuk layar atas DS Phat (Kodok)       |
 | topbg      | Latar belakang untuk layar atas pada model DS apa pun |
 
 ### UI textures (`ui` folder)

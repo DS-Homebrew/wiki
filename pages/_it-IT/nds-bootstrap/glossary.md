@@ -36,5 +36,5 @@ Appears only for homebrew ROMs. Setting this to On will not use nds-bootstrap wh
 ### Bootstrap
 Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
 
-### Screen Aspect Ratio
-If on 3DS, the Screen Aspect Ratio can be changed from 4:3 (Default on DS/DSi) to 16:10. Only works if [widescreen is enabled](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).
+### Proporzioni schermo
+Su sistemi Nintendo 3DS, le proporzioni dello schermo possono essere cambiate da 4:3 (predefinite su DS/DSi) a 16:10. Only works if [widescreen is enabled](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).

@@ -1,13 +1,13 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: ds-index
 category: reference
-title: Special Games
-description: DS(i) Games that have special properties
+title: Giochi speciali
+description: Giochi DS(i) che hanno proprietà speciali
 ---
 
-### DS games available as DSiWare
+### Giochi DS disponibili come DSiWare
 - Advance Wars: Days of Ruin/Dark Conflict
    - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
    - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
@@ -79,13 +79,13 @@ description: DS(i) Games that have special properties
    - Multiplayer removed
    - Icon is animated
 
-Supports Wi-Fi (WPA 1/2 included):
+Wi-Fi supportato (WPA 1/2 incluso):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
-### Games that got SDK upgrades
+### Giochi che hanno ottenuto aggiornamenti dell'SDK
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
@@ -102,8 +102,8 @@ Supports Wi-Fi (WPA 1/2 included):
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### DSi-Enhanced games that don't use overlays
-Total: 39, some may be missing
+### Giochi DSi-Enhanced che non utilizzano overlay
+Totale: 39, alcuni potrebbero non esserci
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
 - Assassin's Creed II: Discovery
@@ -144,8 +144,8 @@ Total: 39, some may be missing
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Games that can connect with GBA titles
-Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
+### Giochi in grado di connettersi con i titoli GBA
+Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcune possibili alternative.
 
 - Advance Wars: Dual Strike
    - Advance Wars
@@ -273,7 +273,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Games that use GBA Option Paks
+### Giochi che utilizzano gli Option Pak per GBA
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Motion Pack
@@ -313,7 +313,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
 
-### Games with Wii connectivity
+### Giochi con connettività Wii
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
@@ -343,7 +343,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Games with IR Game Cards
+### Giochi con schede di gioco IR
 - Pokémon Heartgold/Soulsilver
    - For connecting to Pokéwalker pedometer
 - Pokémon Black/White/Black 2/White 2
@@ -355,7 +355,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Similar pedometer to Personal Trainer: Walking, but only one
    - Not compatible with Pokémon ROMs
 
-### Other (Special Games that do not fall into an above category)
+### Altri (Giochi speciali che non rientrano in nessuna categoria precedente)
 - Learn with Pokémon: Typing Adventures
    - Cartridge has special bluetooth chip for connecting to the keyboard
 - ElectroPlankton

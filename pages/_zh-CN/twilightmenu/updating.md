@@ -25,4 +25,4 @@ TWiLight Menu++的更新过程取决于您正在使用 Nintendo DS、Nintendo 3D
 ### 烧录卡
 如果您正在使用烧录卡（无论您使用哪种 DS 主机），请按照 [烧录卡的说明](updating-flashcard)。
 
-[![R4 烧录卡](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Acekard2i 烧录卡](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![R4i Gold 3DS Plus 烧录卡](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

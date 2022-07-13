@@ -13,7 +13,7 @@ Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione co
 
 | Formato                 | Loader                                           | Estensioni                             | File di salvataggio                            |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
-| ARGV[^1]                | Nativo                                           | `.argv`                                |                                                |
+| ARGV[^1]                | Native                                           | `.argv`                                |                                                |
 | Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
@@ -22,7 +22,7 @@ Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione co
 | DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
 | DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
-| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[nome rom].sav`                               |
+| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
@@ -37,18 +37,18 @@ Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione co
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
 | SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
-{:.table}
+| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 
 - Footnotes -
 {:footnotes}
 
-Questi sono gli emulatori e loaders suggeriti presenti su TWiLight Menu++. Ci sono altri emulatori per queste console (come as lolSnes, Gbaemu4ds, etc.)
+These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### Altri emulatori per DS
 
-| Formato | Loader         | Estensioni | File di salvataggio |
-| ------- | -------------- | ---------- | ------------------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (sconosciuto)       |
+| Format  | Loader         | Extensions | Save file |
+| ------- | -------------- | ---------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 
 ## Note su emulatori specifici
 ### RAM Disk
@@ -110,3 +110,4 @@ Questi sono gli emulatori e loaders suggeriti presenti su TWiLight Menu++. Ci so
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids

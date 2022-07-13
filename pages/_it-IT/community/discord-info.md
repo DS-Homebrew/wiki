@@ -27,10 +27,10 @@ Ricordati sempre di controllare l'argomento del canale e i messaggi attaccati pr
 - [#community-meta][community-meta] - For giving feedback about our community, including this Discord server, our subreddit, and GitHub organization
 
 **Modding Nintendo DS⁽ⁱ⁾**
-- [#nds-modding-help][nds-modding-help] - Hai un problema con qualcosa che riguarda il Nintendo DS(i)? Hai bisogno di fare una domanda generale? Sentiti libero di farlo qui, fornendo tutte le informazioni che puoi dare (messagi di errore, la tua console, metodi provati, log, e così via). Per il modding 3DS vai su #other-console-modding a meno che non abbia a che fare con TWL_FIRM
-- [#nds-modding-discussion][nds-modding-discussion] - Un posto per discutere di flashcard, AP, patch e su conoscenze generali e ricerca sul DS. Anche se questo canale copre TWL_FIRM su 3DS, per favore tieni le discussioni sulla modalità 3DS in #other-console-modding
-- [#nds-retail-research][nds-retail-research] - Parla di ROM hack, mod e cheat per i titoli Nintendo DS(i). Controlla i messaggi attaccati per una list di community dedicate
-- [#nds-dev-discussion][nds-dev-discussion] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
+- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Hai bisogno di fare una domanda generale? Sentiti libero di farlo qui, fornendo tutte le informazioni che puoi dare (messagi di errore, la tua console, metodi provati, log, e così via). Per il modding 3DS vai su #other-console-modding a meno che non abbia a che fare con TWL_FIRM
+- [#nds-discussion][nds-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. Anche se questo canale copre TWL_FIRM su 3DS, per favore tieni le discussioni sulla modalità 3DS in #other-console-modding
+- [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Controlla i messaggi attaccati per una list di community dedicate
+- [#nds-development][nds-development] - Resources and discussions about DS(i) homebrew development. Discussion of already existing homebrew should go in #other-nds-homebrew
 
 **Main DS⁽ⁱ⁾ Homebrew Projects**
 - [#nds-bootstrap][nds-bootstrap] - This channel is for discussion of the development of nds-bootstrap, for help use #nds-modding-help
@@ -71,7 +71,7 @@ These roles can only be given by moderators and indicate that these users are kn
 If you have broken the rules, you may receive these roles from a mod.
 
 - No Community - Removes access for all the channels under the Community category
-- No Help - Removes access from [#nds-modding-help][nds-modding-help]
+- No Help - Removes access from \[#nds-modding-help\]\[nds-modding-help\]
 - No Reaction - Disables reaction perms for all channels
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
@@ -82,8 +82,8 @@ These roles are only given for very specific purposes by Moderators.
 - Bots - Used to mark the Discord bots we have in this server
 - Special Thanks - People that have contributed to our community in a major way
 
-### Self-Assignable Roles
-These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) using the !togglerole command. If you want to know what other commands it has, use !help. Keep commands for it in #end-of-server.
+## Lightning Commands
+Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
 
 - Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
 - Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
@@ -91,6 +91,10 @@ These roles are given by the [Lightning bot](https://lightning-bot.gitlab.io/) u
 - Composers - For those that have made music for DS(i) homebrew or ROM hacks
 - Game Modders - For those that have made ROM hacks, cheats, or any other type of modifications to DS(i) games
 - Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
+
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning.lightsage.dev/>
+
+**We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.**
 
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
@@ -111,10 +115,10 @@ Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#454
 [subreddit-feed]: https://discord.com/channels/283769550611152897/869830055377928243
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
-[nds-modding-help]: https://discord.com/channels/283769550611152897/332961165829210117
-[nds-modding-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
-[nds-retail-research]: https://discord.com/channels/283769550611152897/356988919738400768
-[nds-dev-discussion]: https://discord.com/channels/283769550611152897/835273459339624499
+[nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
+[nds-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
+[nds-hacks]: https://discord.com/channels/283769550611152897/356988919738400768
+[nds-development]: https://discord.com/channels/283769550611152897/835273459339624499
 
 [nds-bootstrap]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu]: https://discord.com/channels/283769550611152897/489307733074640926

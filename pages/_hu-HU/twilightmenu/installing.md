@@ -25,4 +25,4 @@ Ha DSi-t használsz (a belső flash kártyáról), kövesd a [DSi lépéseket](i
 ### Flashcard
 Ha flashcard-ot használsz (mindegy melyik DS modellen), kövesd a [flashcard lépéseket](installing-flashcard).
 
-[![Egy r4isdhc.com flaschard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Egy Acekard2i flaschard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Egy R4i Gold 3DS Plus flaschard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![Egy r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Egy Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Egy R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

@@ -6,7 +6,7 @@ title: hiyaCFW
 description: Informasi cara memasang dan menggunakan hiyaCFW
 ---
 
-[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) adalah perangkat tegar khusus yang memungkinkan perangkat tegar Nintendo DSi dijalankan dari kartu SD konsol dan bukan dari cip NAND (memori internal). Ini berguna karena kartu SD mudah untuk diganti, sedangkan cip NAND internal ringkih dan lebih berpotensi rusak.
+[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) adalah perangkat tegar kustom yang memungkinkan perangkat tegar Nintendo DSi dijalankan dari kartu SD konsol dan bukan dari cip NAND (memori internal). Ini berguna karena kartu SD mudah untuk diganti, sedangkan cip NAND internal ringkih dan lebih berpotensi rusak.
 
 Bersamaan dengan manfaat keamanan tadi, mampu juga untuk...
 - Secara aman memasang aplikasi ke menu Nintendo DSi dengan kesesuaian (compatibility) DSiWare 100%

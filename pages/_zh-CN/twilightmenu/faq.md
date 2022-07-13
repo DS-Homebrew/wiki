@@ -84,3 +84,12 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 - **原版R4主题：** 按下 <kbd>START</kbd> （如果你在文件浏览器中），然后按下 <kbd>SELECT</kbd>
 
 你也可以在启动TWiLight Menu++时按住 <kbd>SELECT</kbd> 来直接访问设置。
+
+#### How do I use custom icons/banners for games?
+You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) + `.png` or `.bin`.
+
+For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32.
+
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using either [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) or [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor is a GUI application that may be simpler to use, however it sometimes has issues with transparency and is Windows only (although it does work in WINE).
+
+Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.

@@ -11,44 +11,44 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 
 ### TWiLight Menu++で対応されているシステムのリスト
 
-| 形式                   | ローダー                                         | 拡張子                                    | セーブファイル                                    |
-| -------------------- | -------------------------------------------- | -------------------------------------- | ------------------------------------------ |
-| ARGV[^1]             | ネイティブ                                        | `.argv`                                |                                            |
-| Atari 2600           | [StellaDS][stellads]                         | `.a26`                                 |                                            |
-| Atari 5200           | [A5200DS][a5200ds]                           | `.a52`                                 |                                            |
-| Atari 7800           | [A7800DS][a7800ds]                           | `.a78`                                 |                                            |
-| Atari XEGS           | [XEGS-DS][xegs-ds]                           | `.xex`, `.atr`                         |                                            |
-| コレコビジョン              | [S8DS][s8ds], [ColecoDS][colecods]           | `.col`                                 |                                            |
-| DS                   | [nds-bootstrap][ndsbs], フラッシュカードのカーネル, ネイティブ | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].sav`[^2]                   |
-| DSiウェア               | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs] | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[ROMの名前].pub`, `saves/[ROMの名前].prv` |
-| DSTWOプラグイン           | [DSTWO][dstwo][^3]                           | `.plg`                                 |                                            |
-| ゲームボーイ（カラー）          | [GameYob][gameyob]                           | `.gb`, `.sgb`, `.gbc`                  | `[ROMの名前].sav`                             |
-| ゲームボーイアドバンス          | [GBARunner2][gbarunner2][^4], ネイティブ[^5]      | `.agb`, `.gba`, `.mb`                  | `[ROMの名前].sav`                             |
-| ゲームギア                | [S8DS][s8ds]                                 | `.gg`                                  | `[ROMの名前].gg.sav`                          |
-| メガドライブ・Genesis       | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]  | `.gen`                                 | `[ROMの名前].srm`[^6]                         |
-| インテレビジョン             | [Nintellivision][nintellivision]             | `.int`                                 |                                            |
-| マスターシステム             | [S8DS][s8ds]                                 | `.sms`                                 | `[ROMの名前].sms.sav`                         |
-| ネオジオポケット（カラー）        | [NGPDS][ngpds]                               | `.ngp`, `.ngc`                         | `/data/ngpds/[ROMの名前].ngp.fla`             |
-| Fast Video           | 近日公開                                         | `.fv`                                  |                                            |
-| ファミリーコンピュータ・NES      | [nesDS][nesds]                               | `.nes`, `.fds`                         | `[ROMの名前].sav`                             |
-| PCエンジン・TurboGrafx-16 | [NitroGrafx][nitrografx]                     | `.pce`                                 |                                            |
-| Rocket Video         | [Rocket Video Player][rvidplayer]            | `.rvid`                                |                                            |
-| SG-1000              | [S8DS][s8ds], [ColecoDS][colecods]           | `.sg`                                  |                                            |
-| SORD M5              | [ColecoDS][colecods]                         | `.m5`                                  |                                            |
-| スーパーファミコン            | [SNEmulDS][snemulds]                         | `.smc`, `.sfc`                         | `[ROMの名前].srm`                             |
-| ワンダースワン（カラー）         | [NitroSwan][nitroswan]                       | `.ws`, `.wsc`                          | ???                                        |
-{:.table}
+| 形式                      | ローダー                                             | 拡張子                                    | セーブファイル                                        |
+| ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
+| ARGV[^1]                | Native                                           | `.argv`                                |                                                |
+| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
+| Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
+| Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
+| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
+| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]               | `.col`                                 |                                                |
+| DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
+| DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
+| DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
+| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
+| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
+| Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
+| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
+| Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`               |
+| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
+| NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
+| PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
+| Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
+| SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
+| Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
+| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
+| WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
+| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 
 - Footnotes -
 {:footnotes}
 
-これらは、TWiLight Menu++にあるおすすめされるエミュレータとローダーだけです。 これらの本体には他のエミュレータ（lolSnesやGbaemu4dsなど）があります。
+These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### DSの他のエミュレータ
 
-| 形式    | ローダー           | 拡張子    | セーブファイル |
-| ----- | -------------- | ------ | ------- |
-| ネオ・ジオ | [neoDS][neods] | `.neo` | (不明)    |
+| Format  | Loader         | Extensions | Save file |
+| ------- | -------------- | ---------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 
 ## 特定のエミュレータに関する注意
 ### RAMディスク
@@ -110,3 +110,4 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 [xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
+[tunavids]: https://github.com/chishm/tuna-vids

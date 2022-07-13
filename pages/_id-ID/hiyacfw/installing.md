@@ -18,7 +18,7 @@ JANGAN perbarui sistem (system update) setelah memasang hiyaCFW. Nanti tambalan 
 ### Persyaratan
 - Nintendo DSi yang sudah [terpasang Unlaunch](https://dsi.cfw.guide/installing-unlaunch)
 - Cadangan NAND yang diambil dari konsol [menggunakan dumpTool](https://dsi.cfw.guide/dumping-nand)
-- Perangkat Windows, macOS, atau Linux
+- Peranti Windows, macOS, atau Linux
 
 ### Bagian 1: Mempersiapkan komputer untuk memasang hiyaCFW
 {% capture tab-windows %}

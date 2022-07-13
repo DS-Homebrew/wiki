@@ -41,7 +41,7 @@ Ten en cuenta que no todas las flashcart tienen soporte para esta función. Si l
 
 1. Para las siguientes flashcarts:
    - R4i-SDHC (r4i-sdhc.com)
-   - Tarjetas r4isdhc.com con etiquetas del 2014 al 2020
+   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

@@ -25,7 +25,7 @@ This section requires a 3DS family console, running a modern CFW environment fro
 1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+1. Apri TWiLight Menu++, premi <kbd class="face">Y</kbd> su un gioco a tua scelta per aprire le impostazioni del gioco selezionato, e imposta `Proporzioni schermo` a `16:10`
 
 Hai finito! Goditi i tuoi giochi del DS in widescreen!
 

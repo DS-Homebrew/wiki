@@ -4,10 +4,10 @@ layout: faq
 section: twilightmenu
 title: FAQ & Pengusutan masalah
 long_title: FAQ & Pengusutan Masalah TWiLight Menu++
-description: FAQs and troubleshooting for TWiLight Menu++
+description: FAQ dan pengusutan masalah untuk TWiLight Menu++
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+Untuk FAQ lainnya, silakan kunjungi [utas GBAtemp](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
 #### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
@@ -61,11 +61,11 @@ Iya. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) o
 #### Is this a DS(i) emulator?
 Tidak, ini bukan emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
-#### What systems does TWiLight Menu++ support?
-See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+#### Sistem apa saja yang didukung TWiLight Menu++?
+Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Apakah eksploit permainan Slot-1 dapat memulai TWiLight Menu++?
-Tidak. Akses kartu SD hanya diperbolehkan untuk aplikasi DSiWare, jadi permainan Slot-1 tidak dapat diluncurkan (atau diakses) TWiLight Menu++.
+Tidak. Akses kartu SD hanya diperbolehkan untuk aplikasi DSiWare, jadi permainan Slot-1 tidak dapat meluncurkan (atau akses ke) TWiLight Menu++.
 
 #### Kenapa permainan saya susah dicari/dilihat?
 There are a multiple reasons you may be unable to find them.
@@ -84,3 +84,12 @@ The way to access the TWiLight Menu++ settings varies between your configuration
 - **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
 
 You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+
+#### How do I use custom icons/banners for games?
+You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) + `.png` or `.bin`.
+
+For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32.
+
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using either [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) or [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor is a GUI application that may be simpler to use, however it sometimes has issues with transparency and is Windows only (although it does work in WINE).
+
+Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.

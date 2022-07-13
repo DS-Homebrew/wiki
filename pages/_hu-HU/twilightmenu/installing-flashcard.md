@@ -41,7 +41,7 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 
 1. Ezekhez a flashcard-okhoz:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2020 kártyák
+   - r4isdhc.com 2014-2022 kártyák (**nem** .hk vagy .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

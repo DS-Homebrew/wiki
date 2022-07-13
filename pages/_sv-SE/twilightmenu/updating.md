@@ -25,4 +25,4 @@ Om du använder en DSi (från det inbyggda SD-kortet), följ [DSi instruktionern
 ### Minneskort
 Om du använder ett minneskort (oavsett vilken DS modell du befinner dig på), följ [minneskort instruktionerna](updating-flashcard).
 
-[![En r4isdhc.com minneskort](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![En Acekard2i minneskort](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![En R4i Gold 3DS Plus minneskort](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

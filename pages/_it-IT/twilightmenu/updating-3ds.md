@@ -12,28 +12,28 @@ tabs:
     manual: Manuale
 ---
 
-Se stai aggiornando da una versione più vecchia di v6.8.3, sposta i tuoi file `.sav` per i titoli del DS in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM del DS.
+Se stai aggiornando da una versione più vecchia della v6.8.3, sposta i tuoi file `.sav` per i titoli del DS in una nuova cartella chiamata `saves`, e piazzala nella stessa directory delle ROM del DS.
 {:.alert .alert-info}
 
-Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM DSiWare.
+Se stai aggiornando da una versione più vecchia della v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazzala nella stessa directory delle ROM DSiWare.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
 1. Apri Universal-Updater
    - Se non ce l'hai, segui le istruzioni [d'installazione](installing-3ds)
 1. Trova TWiLight Menu++ nella griglia delle applicazioni, puoi effettuare una ricerca con la terza scheda sulla barra laterale se hai problemi a trovarla
-1. Premi <kbd class="face">A</kbd> o tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarla
+1. Premi <kbd class="face">A</kbd> o tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarlo
    - L'operazione potrebbe richiedere un pò di tempo
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-1. Scarica la versione piè recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Scarica la versione più recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Estrai `TWiLightMenu-3DS.7z`
-1. Copy the `_nds` folder to your SD card root, replacing any existing files
-   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
-1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
-1. Copy the two `.cia` files to your SD card root, replacing any existing files
+1. Copia la cartella `_nds` nella root della tua scheda SD, sostituendo quella già presente
+   - Se usi macOS, assicurati di **Copiare** e `Unire`, non `Sostituire`
+1. Copia il file `BOOT.NDS` nella root della tua scheda SD, sostituendo il file già presente
+1. Copiare i due file `.cia` nella root della scheda SD, sostituendo i file esistenti
 1. Sul tuo 3DS, installa i due file CIA con FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
@@ -43,10 +43,10 @@ Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Ulteriori passi per le flashcard
+### Ulteriori passaggi per le flashcard
 
-Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è su v16.3. 0 o successiva, segui questi passaggi.
+Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è alla v16.3.0 o successiva, segui questi passaggi.
 
 1. Vai nelle impostazioni di TWLMenu++
 1. Seleziona `Aggiorna TWiLight Menu++`
-1. Seleziona `Console (micro)SD > Slot-1 microSD`
+1. Seleziona `microSD Console > microSD Slot-1`
