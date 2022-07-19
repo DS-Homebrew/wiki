@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Uninstalling (3DS)
-long_title: Uninstalling TWiLight Menu++ (3DS)
-description: How to uninstall TWiLight Menu++ from a Nintendo 3DS
+title: 卸载步骤（3DS）
+long_title: 卸载 TwiLight Menu++（3DS）
+description: 如何在 Nintendo 3DS上卸载 TWiLight Menu++
 ---
 
-### Uninstalling
-1. Open FBI
-1. Go to `Titles`
-1. Find two `TWiLight Menu++` titles in purple text
-1. Delete both titles
-1. Exit the title list
-1. Go to the SD card
-1. Open `_nds`
-1. Delete the `TWiLightMenu` folder
-1. Delete the nds-bootstrap and GBARunner2 files
-1. Exit `_nds`
-1. Delete `boot.nds`
+### 卸载
+1. 打开FBI
+1. 转到 `Title（标题）`.
+1. 找到两个含 `TWiLight Menu++` 紫色文本的标题
+1. 删除两个标题
+1. 退出标题列表
+1. 转到SD卡
+1. 打开 `_nds`
+1. 删除 `TWiLightMenu` 文件夹。
+1. 删除nds-bootstrap和GBARunner2文件。
+1. 退出 `_nds`
+1. 删除 `boot.nds`

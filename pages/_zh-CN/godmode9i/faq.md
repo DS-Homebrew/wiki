@@ -1,14 +1,14 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
-long_title: GodMode9i FAQ & Troubleshooting
-description: FAQ & Troubleshooting for GodMode9i
+title: 常见问题 & 故障处理
+long_title: Godmode9i 常见问题 & 故障处理
+description: 常见问题 & GodMode9i 的故障处理
 ---
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+#### 启动时如何跳过"挂载驱动器(s)"屏幕？
+当你从 [hiyaCFW](../hiyacfw)启动GodMode9i时，就会发生这种情况。 你可以在启动GodMode9i时按住 <kbd class="face">X</kbd> ，以跳过NAND挂载。 Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
 
 #### Why can't I add, remove, or edit files on the NAND?
 Editing files on the DSi NAND is not safe and can easily lead to a brick, so GodMode9i intentionally lacks this capability.

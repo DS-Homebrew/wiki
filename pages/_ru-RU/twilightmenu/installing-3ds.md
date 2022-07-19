@@ -13,7 +13,7 @@ tabs:
     manual: Ручная установка
 ---
 
-You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
+Для начала у вас должна быть установлена кастомная прошивка на вашей 3DS, следуйте [3ds.hacks.guide](https://3ds.hacks.guide), для её установки
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}

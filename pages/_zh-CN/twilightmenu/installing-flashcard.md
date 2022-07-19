@@ -17,27 +17,27 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
 1. ...
    - **对于 DS Phat/Lite 用户：**如果使用 `BOOT.NDS` 起到导致白屏卡机，请插入一张 DS 存储扩展卡(DS Memory Expansion Pak)，然后重试
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **对于 DSi/3DS 用户:** 在SD卡上启动 TWLMenu++ ，然后打开 TWLMenu++ 设置，切换到 `杂项。 settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
       - 这将使您能够在您的烧录卡游戏上使用 TWL 时钟速度和/或 VRAM 提升，并能够访问主机的 SD 卡，以及从您的烧录卡中运行 DSi 增强/DSi 独占/DSiWare 游戏。
       - 启用此功能后，您可以使用 <kbd>SELECT</kbd> + <kbd>向上</kbd>/<kbd>向下</kbd> 切换您内部的 SD 卡和烧录卡的SD卡
 
 ### 自动启动TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
    - 如果你没有烧录卡请跳过本步骤
 1. ...
    - **对于 DS Phat/Lite 用户：** 在 DS 设置菜单中打开自动运行，这样开机就会自动进入
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+   - **对于 DSi/3DS 用户:** 启动主机SD卡中的 TWLMenu++ 并打开设置，切换到 ` 杂项设置` 页面并打开 `自启动 Slot-1`
 
 ### 使用烧录卡固件运行游戏
 
-Please note this only works if your flashcard is set to autoboot TWiLight Menu++. 请参阅上文如何配置。
+请注意，这只在烧录卡已被设置为自动启动 TWiLight Menu++ 时生效。 请参阅上文如何配置。
 {:.alert .alert-warning}
 
 请注意，并非所有烧录卡都支持以这种方式运行游戏。 如果以下步骤不适用于您的烧录卡，您可以跳过此部分。
 {:.alert .alert-warning}
 
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+1. 解压缩 `Flashcart Loader/(你的烧录卡)` 中的所有文件到你自己烧录卡的microSD卡根目录
+   - 如果你已经这样做了，进行第3步。 If not, follow the steps below the flashcard list below
 
 1. 烧录卡
    - R4i-SDHC (r4i-sdhc.com)
@@ -60,4 +60,4 @@ Please note this only works if your flashcard is set to autoboot TWiLight Menu++
 
    安装 [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)。
       - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`) 文件和 `TTMenu` 文件夹
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. 打开 TWLMenu++ 设置并切换到 `nds-bootstrap 设置` 页面，然后把 `使用 nds-bootstrap` 调整为 `否`以不使用 nds-bootstrap 而使用烧录卡固件。

@@ -17,26 +17,26 @@ description: Как установить TWiLight Menu++ на флеш-карт�
 1. Если у вас уже есть сохранения, создайте папку `saves` внутри папки с вашими DS образами, и переместите все `.sav` из вашей папки с образами в папку `saves`
 1. ...
    - **Пользователям DS Phat/Lite:** Если после запуска `BOOT.NDS` консоль виснет на белом экране, вставьте DS Memory Expansion Pak и попробуйте ещё раз
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **Пользователи DSi/3DS:** Запустите TWLMenu++ на SD-карте консоли, откройте настройки TWLMenu++, перейдите на страницу `Misc. settings`, включите `SCFG access in Slot-1`  и установите `Slot-1: Touch Mode` на `DSi Mode`
       - Это позволит вам использовать тактовая частоту TWL и/или ускорение VRAM в играх на вашем флеш-картридже, так же как и доступ к SD-карте консоли, и запуску DSi-Enhanced/DSi-Exclusive/DSiWare игр в режиме DSi с флеш-картриджа
-      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
+      - Включив эту функцию, вы можете использовать <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> для переключения между внутренней SD-картой и SD-картой флеш-картриджа
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### Автозагрузка TWiLight Menu++
+1. Извлеките всё содержимое `Autoboot/(ваш флеш-картридж)` в корень microSD-карты флеш-картриджа
+   - Пропустите этот шаг, если вы не видите вашего флеш-картриджа в списке
 1. ...
-   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+   - **Пользователи DS Phat/Lite:** Перейдите в настройки в меню DS и включите автозапуск, чтобы ваш флеш-картридж запускался при загрузке
+   - **Пользователи DSi/3DS:** Запустите TWLMenu++ на SD-карте консоли, откройте настройки TWLMenu++, перейдите в `Misc settings` и влключите `Auto-start Slot-1`
 
-### To run games using your flashcard firmware
+### Для запуска игр с помощью прошивки вашей флеш-карты
 
-Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
+Обратите внимание, что это работает только в том случае, если на вашей флеш-карте установлена функция автозагрузки TWiLight Menu++. Как это сделать, см. в разделе выше.
 {:.alert .alert-warning}
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+Обратите внимание, что не все флеш-картриджи поддерживают запуск игр таким образом. Если нижеприведенные шаги не относятся к вашему флеш-картриджу, вы можете пропустить этот раздел.
 {:.alert .alert-warning}
 
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+1. Извлеките все, что находится в `Flashcart Loader/(ваша флеш-карта)` в корень microSD-карты флеш-картриджа
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:

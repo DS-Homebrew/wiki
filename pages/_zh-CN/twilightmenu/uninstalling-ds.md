@@ -1,17 +1,17 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: uninstalling
-title: Uninstalling (DS & DSi)
-long_title: Uninstalling TWiLight Menu++ (DS & DSi)
-description: How to uninstall TWiLight Menu++ from Nintendo DSi or DS flashcard
+title: 卸载 (DS & DSi)
+long_title: 卸载 TwiLight Menu++（DS & DSi）
+description: 如何在 Nintendo DS 烧录卡上卸载 TWiLight Menu++
 ---
 
-### Uninstalling
-1. Go to either the console's SD card or the flashcard's SD card
-1. Open `_nds`
-1. Delete the `TWiLightMenu` folder
-1. Delete the nds-bootstrap and GBARunner2 files
-1. Exit `_nds`
-1. Delete `boot.nds`
+### 卸载
+1. 转到主机的SD卡或烧录卡的SD卡上
+1. 打开 `_nds`
+1. 删除 `TWiLightMenu` 文件夹。
+1. 删除nds-bootstrap和GBARunner2文件。
+1. 退出 `_nds`
+1. 删除 `boot.nds`
