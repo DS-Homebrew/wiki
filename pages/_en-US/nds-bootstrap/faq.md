@@ -33,6 +33,7 @@ There are also timing issues and AP measures (which most are already removed), b
 - Utilize the DSi's additional CPU speed, allowing for better performance in some games
 - Enhance your audio with 48 kHz
 - Use DSi mode, allowing for DSi features
+- Less battery power is consumed
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
