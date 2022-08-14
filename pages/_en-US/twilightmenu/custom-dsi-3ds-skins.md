@@ -22,13 +22,15 @@ You can now open whichever image you want to edit in GIMP and continue to the se
 ### Background textures (`background` folder)
 These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 
-| Texture          | Description                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------- |
-| bottom           | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble    | The bottom background texture when hovering over an icon                                          |
-| bottom_ds        | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
-| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top              |                                                                                                   |
+| Texture            | Description                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------------------------ |
+| bottom             | The bottom background texture when not hovering over an icon                                           |
+| bottom_bubble      | The bottom background texture when hovering over an icon                                               |
+| bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS Phat/Lite |
+| bottom_bubble_ds   | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS Phat/Lite     |
+| bottom_bubble_macro| For the DSi theme, the background texture when hovering over an icon using Macro Mode                  |
+| bottom_moving      | For the DSi theme, the bottom background texture when moving an icon
+| top                | The top screen background texture                                                                      |
 
 ### Battery textures (`battery` folder)
 These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one icon should be transparent in all of them so that it's properly overwritten on change.
@@ -77,10 +79,12 @@ When exporting it's recommended to check the `Do not write color space informati
 | dialogbox     | The background of the dialog box that slides down                                               |
 | folder        | The icon for folders                                                                            |
 | icon_a26      | The icon for Atari 2600 games                                                                   |
+| icon_col      | The icon for Colecovision games                                                                 |
 | icon_gb       | The icon for Game Boy games                                                                     |
-| icon_gba      | The icon for GBA games (all themes) and the top icon to launch GBARunner2 (3DS Theme)           |
+| icon_gba      | The icon for GBA games                                                                          |
 | icon_gbamode  | The icon for native GBA Mode                                                                    |
 | icon_gg       | The icon for Game Gear games                                                                    |
+| icon_img      | The icon for BMP, GIF, and PNG images                                                           |
 | icon_int      | The icon for Intellivision games                                                                |
 | icon_m5       | The icon for Sord M5 games                                                                      |
 | icon_manual   | The icon for the manual                                                                         |
@@ -118,7 +122,6 @@ These must be PNG files, any file will work however only 100% transparency will 
 
 | Texture          | Description                                             |
 | ---------------- | ------------------------------------------------------- |
-| date_time_font   | The font to display the date and time                   |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
 | Rshoulder        | The right shoulder                                      |
@@ -153,31 +156,35 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `BubbleTipSpriteH`       | The height of the bubble tip sprite                                                                          | 7             | 8             |
 | `TitleboxRenderY`        | The initial Y position of the title text box                                                                 | 96            | 85            |
 | `TitleboxTextY`          | The initial Y position of the title text                                                                     | 55            | 30            |
-| `TitleboxTextW`          | The maximum width of the title text                                                                          | 200           | 240           |
+| `TitleboxTextW`          | The maximum width of the title text                                                                          | 200           | 240            |
 | `MacroTitleboxTextY`     | The initial Y position of the title text in macro mode                                                       |               | 40            |
-| `MacroTitleboxTextW`     | The maximum width of the title text in macro mode                                                            |               | 224           |
-| `TitleboxTextLarge`      | Whether to use the large font for the title text                                                             | 0             | 1             |
-| `TitleboxMaxLines`       | The maximum lines of text to show of the title                                                               | 3             | 4             |
-| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
-| `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 5             | 5             |
-| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172           |
-| `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
-| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
-| `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
-| `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
+| `MacroTitleboxTextW`     | The maximum width of the title text in macro mode                                                            |               | 224            |
+| `TitleboxTextLarge`      | Whether to use the large font for the title text                                                             | 0             | 1              |
+| `TitleboxMaxLines`       | The maximum lines of text to show of the title                                                               | 3             | 4              |
+| `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4              |
+| `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 5             | 5              |
+| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172            |
+| `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0              |
+| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172            |
+| `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178            |
+| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5              |
+| `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235            |
 | `FontPalette1`           | The transparent color of the font, unused for default fonts                                                  | 0x0000        | 0x0000        |
 | `FontPalette2`           | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                   | 0xDEF7        | 0xDEF7        |
 | `FontPalette3`           |                                                                                                              | 0xC631        | 0xC631        |
 | `FontPalette4`           |                                                                                                              | 0xA108        | 0xA108        |
-| `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        |               | 1             |
-| `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      |               | 1             |
-| `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         |               | 1             |
-| `MovingArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow shown when moving icons                     |               | 1             |
-| `LaunchDotsUserPalette`  | Whether to use the DS Profile color for the palette of the launch dots                                       |               | 1             |
-| `DialogBoxUserPalette`   | Whether to use the DS Profile color for the palette of the dialog box                                        |               | 1             |
-| `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0             | 1             |
-| `RotatingCubesRenderY`   | The Y position on the top screen to draw the rotating cubes                                                  | 78            |               |
+| `FontPaletteDateTime1`   | The transparent color of the font for the date and time                                                      | 0x0000        | 0x0000        |
+| `FontPaletteDateTime2`   | The color of the font for the date and time                                                                  | 0xDEF7        | 0xA529        |
+| `FontPaletteDateTime3`   |                                                                                                              | 0xC631        | 0xBDEF        |
+| `FontPaletteDateTime4`   |                                                                                                              | 0xA108        | 0xD6B5        |
+| `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        |               | 1              |
+| `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      |               | 1              |
+| `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         |               | 1              |
+| `MovingArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow shown when moving icons                     |               | 1              |
+| `LaunchDotsUserPalette`  | Whether to use the DS Profile color for the palette of the launch dots                                       |               | 1              |
+| `DialogBoxUserPalette`   | Whether to use the DS Profile color for the palette of the dialog box                                        |               | 1              |
+| `RenderPhoto`            | Whether or not to draw a photo on the top screen                                                             | 0             | 1              |
+| `RotatingCubesRenderY`   | The Y position on the top screen to draw the rotating cubes                                                  | 78            |                |
 
 ## Part 3: Adding to TWiLight Menu++
 Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
