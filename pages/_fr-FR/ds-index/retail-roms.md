@@ -125,9 +125,9 @@ La dernière lettre de l'ID du titre représente elle-même la langue du titre. 
 - U - Anglais australien
 - V - Anglais britannique
 - W - Autres langues (variable)
-- X - Autres langues (Variable)
+- X - Autres langues (variable)
 - Y - Autres langues (variable)
-- Z - Autres langues (Variable)
+- Z - Autres langues (variable)
 
 En ce qui concerne les identifiants du système :
 

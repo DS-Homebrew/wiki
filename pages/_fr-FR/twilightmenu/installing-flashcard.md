@@ -25,7 +25,7 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Extrayez le contenu de `Autoboot/(votre linker)` à la racine de la carte microSD du linker
    - Sautez cette étape si vous ne voyez pas votre linker
 1. ...
-   - **Utilisateurs d'une DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
+   - **Utilisateurs de DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
    - **Utilisateurs de DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, ouvrez les paramètres de TWLMenu++, passez à la page `Autres paramètres`, et activez `Démarrage automatique Slot-1`
 
 ### Pour lancer des jeux en utilisant le firmware de votre linker

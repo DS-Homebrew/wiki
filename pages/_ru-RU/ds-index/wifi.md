@@ -1,69 +1,69 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Information on using Wi-Fi on the Nintendo DS
+description: Информация об использовании Wi-Fi на Nintendo DS
 ---
 
-- On Nintendo DS applications, you can only use WEP and Open Wi-Fi security settings
-- On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
+- В приложениях Nintendo DS можно использовать не защищённые Wi-Fi сети и сети с параметром безопасности WEP
+- В Улучшеных/Эксклюхивных DSi приложениях, работающих в режиме DSi, у вас есть дополнительные опции безопасности WPA и WPA2
 
-Hotspots are usable, so you don't need to change your router configuration.
+Можно использовать точки доступа, поэтому вам не нужно менять конфигурацию маршрутизатора.
 
-### Creating a hotspot
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp.
+### Создание точки доступа
+На GBAtemp есть руководства по созданию DS-совместимой точки доступа на компьютерах с macOS и Linux.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-An Android mobile hotspot set to Open (none) security would also work.
+Также подойдет мобильная точка доступа Android, с отключенным паролем.
 
-Windows cannot create a compatible hotspot, so Windows users will need to boot into Linux in order to set one up.
-#### Other methods
-If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
+Windows не может создать совместимую точку доступа, поэтому пользователям Windows придется загрузиться в Linux, чтобы настроить ее.
+#### Другие способы
+Если вы не можете создать DS-совместимую точку доступа с помощью вышеуказанных методов, вы можете использовать другой метод.
 - Nintendo Wi-Fi USB Connector
-  - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
-  - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
-- Changing router settings to be DS-compatible
-  - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
-  - Not all routers support guest networks or turning security off
-- Wi-Fi extenders
+  - Хоть его всё ещё можно использовать, не стоит этого делать, поскольку для этого потребуется 32-разрядная версия Windows XP или Vista
+  - Для получения информации о настройке Nintendo Wi-Fi USB Connector прочитайте третий раздел этого руководства [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing), написанного членами [Mario Kart DS Network](https://discord.gg/pa9bea6)
+- Изменение настроек маршрутизатора для обеспечения совместимости с DS
+  - Не лучший способ, поскольку открывает вашу сеть для злоумышленников, даже если вы используете защиту WEP. Это также может вызвать проблемы у других пользователей вашей сети. Если вы решите сделать это, рекомендуется использовать вторичный маршрутизатор или гостевую сеть, если таковая имеется
+  - Не все маршрутизаторы поддерживают гостевые сети или отключение защиты
+- Усилитель Wi-Fi
 
-#### Settings
-If you are setting up a network to be DS-compatible, it must meet the following specifications:
-- WEP or Open (none) security
-- 2.4 GHz wireless frequency
-- 802.11b wireless mode
-  - This may be listed as "Legacy mode" or something similar
+#### Настройки
+Если вы настраиваете сеть на совместимость с DS, она должна соответствовать следующим характеристикам:
+- Безопасность WEP, ну же сеть вовсе не должна быть защищена паролем
+- Частота беспроводной связи 2,4 ГГц
+- Беспроводной режим 802.11b
+  - Это может быть указано как "Legacy mode" или что-то подобное
 
-### Nintendo DS WFC restoration
-1. Launch Nintendo Wi-Fi Connection Setup
-1. Connect to your access point
-1. Set your Primary DNS value as one of the values below, depending on which service you want to use:
-   - **[Wiimmfi](https://wiimmfi.de)** - `164.132.44.106` or `178.62.43.212`
-   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
-1. Set `1.1.1.1` as your secondary DNS
-1. You might need to NoSSL patch your game at this point, depending on the game
+### Восстановление Nintendo DS WFC
+1. Запустите Nintendo Wi-Fi Connection Setup
+1. Подключитесь к точке доступа
+1. Установите значение первичного DNS как одно из значений ниже, в зависимости от того, какую службу вы хотите использовать:
+   - **[Wiimmfi](https://wiimmfi.de)** - `164.132.44.106` или `178.62.43.212`
+   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([список онлайн-игроков](http://zwei.moe:9001))** - `172.104.88.237`
+1. Установите `1.1.1.1.1` в качестве вторичного DNS
+1. На этом этапе, в зависимости от игры, вам может потребоваться NoSSL-патч
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### Ручная модификация RОM-ов DS
+Следуйте руководству ниже, только если ваш провайдер блокирует пользовательские DNS-серверы, в противном случае *настоятельно* рекомендуется следовать руководству выше.
 
-- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
-- WfcPatcher currently doesn't support DSiWare
+- Пользователи GNU/Linux и macOS могут следовать очень похожим инструкциям, но им придется использовать Mono
+- WfcPatcher в настоящее время не поддерживает DSiWare
 
-1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
-1. Create a text file
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
-   - You can replace wiimmfi.de with another URL, if you wish to use a different server
-   - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name
-1. Now drag all the ROMs you wish to patch on to patch.bat
-1. Done! the patched ROMs will be the ones ending in (wiimmfi)
+1. Скачайте [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Скопируйте ROM игры, которую вы хотите модифицировать, в ту же папку, где сохранен WfcPatcher, и откройте эту папку
+1. Создайте текстовый файл
+1. В файле введите `wfcpatcher.exe %1 --domain wiimmfi.de` затем сохраните текстовый файл с именем `patch.bat` и закройте окно
+   - Вы можете заменить wiimmfi.de на другой URL, если хотите использовать другой сервер
+   - Если файл по-прежнему выглядит как текстовый документ, [включите отображение расширений файлов](https://dsi.cfw.guide/file-extensions-%28windows%29) и удалите `.txt` из имени файла
+1. Теперь перетащите все RОМ-ы, на которые вы хотите установить патч, на файл patch.bat
+1. Готово! модифицированные ромы будут оканчиваться на (wiimmfi)
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
+Не забудьте удалить все DNS, которые вы могли сохранить в настройках Wi-Fi, прежде чем пытаться подключиться, используя модифицированный ROM.
 
-### Troubleshooting and further reading
-If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Устранение неполадок и дополнительная литература
+Если вы получаете какие-либо ошибки, вы можете ввести код ошибки в программе [средство устранения неполадок Wiimmfi](https://wiimmfi.de/error) для поиска способов ее устранения.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Для получения более подробной информации об устранении неполадок и о многом другом, например, о том, как подключиться к Интернету на эмуляторах или как сделать это с помощью Nintendo Wi-Fi USB Connector, вы можете прочитать в [ Руководстве Wiimmfi](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing), написанном членами [Mario Kart DS Network](https://discord.gg/pa9bea6).

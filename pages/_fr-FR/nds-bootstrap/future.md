@@ -34,7 +34,7 @@ Bien que la compatibilité à 100 % ne soit pas possible avec les limitations de
 - Problèmes avec le [label B4DS](https://github.com/DS-Homebrew/nds-bootstrap/labels/B4DS)
 
 ### 1.4 Amélioration de la compatibilité des ROMs hacks
-Alors que certaines ROMs hacks sont vouées à ne pas fonctionner sur du matériel réel (par exemple, les hacks de la génération 5 de Pokémon avec le type Fée), l'amélioration de la compatibilité des ROM hacks reste possible
+Alors que certaines ROMs hacks sont vouées à ne pas fonctionner sur du matériel réel (par exemple, les hacks de la génération 5 de Pokémon avec le type Fée), l'amélioration de la compatibilité des ROMs hacks reste possible
 - Problèmes avec le [label ROM Hack](https://github.com/DS-Homebrew/nds-bootstrap/issues?q=is%3Aopen+is%3Aissue+label%3A%22ROM+Hack%22)
 
 ### 1.5 Fonctionnalités supplémentaires de nds-bootstrap

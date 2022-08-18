@@ -1,59 +1,59 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: Information related to retail DS games
+title: Розничные ROM-ы
+description: Информация, связанная с розничными играми DS
 ---
 
 ### Anti-piracy
-AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+AP (Anti-Piracy) - это метод, используемый разработчиками для обеспечения законных покупок и предотвращения пиратства. Это можно обойти либо в загрузчике, либо в самом RОМ-е.
 
-- For nds-bootstrap, it can load an `.ips` file in order to circumvent said patches. This `.ips` file will be applied by nds-bootstrap in RAM so you can keep the ROM files intact. A pack of `.ips` files is included with TWiLight Menu++
-- For Wood R4, these patches are included in the software itself, you will not need to modify the ROM itself
+- nds-bootstrap может загрузить файл `.ips`, чтобы обойти указанные ограничения. Этот файл `.ips` будет применен nds-bootstrap в оперативной памяти, так что файлы ROM-а останутся нетронутыми. Пакет файлов `.ips` включен в TWiLight Menu++
+- В Wood R4 эти патчи включены в само программное обеспечение, вам не нужно будет модифицировать ROM
 
-If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
+Если для вашего ROM-a нет файла `.ips` или ваша программа не модифицирует этот ROM вы можете попробовать изменить его напрямую с помощью [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### Cloneboot
-Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Not all games that have single-card multiplayer use cloneboot, however.
+Cloneboot - это когда игра отправляет свои собственные загруженные двоичные файлы ARM7 и ARM9 на другую консоль. Он используется в DS Download Play для многопользовательской игры использую лишь одну игровую карту. Однако не все игры с однокарточным мультиплеером используют cloneboot.
 
-### Save files
-Nintendo DS cartridges have 4 known save types:
+### Файлы сохранения
+Картриджи Nintendo DS имеют 4 известных типа сохранений:
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory
+- EEPROM - Electrically Erasable Programmable Read-Only Memory(Электрически Стираемая Программируемая Память, Доступная Только для чтения)
 - FLASH
-- FRAM - Ferroelectric Random-Access Memory
+- FRAM - Ferroelectric Random-Access Memory (Сегнетоэлектрическое запоминающее устройство с произвольным доступом)
 - NAND - NOT-AND
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have a save in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
+В зависимости от загрузчика можно использовать разные форматы, но nds-bootstrap использует необработанный формат `.sav`. Если у вас есть сохранение в другом формате, вот сайт, который вы можете использовать для его конвертации: http://www.shunyweb.info/convert.php.
 
-### Assembly
-Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses.
+### Ассемблер
+Язык ассемблера - это любой низкоуровневый язык программирования с сильной связью между инструкциями языка и инструкциями процессора. В DS ассемблерный код поставляется в виде инструкций ARM или THUMB, причем инструкции THUMB являются подмножеством инструкций ARM. THUMB используется для сакращение нагрузки на пропускноую способности памяти, поскольку он использует 16-разрядные инструкции вместо обычных 32-разрядных инструкций, используемых ARM.
 
-You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
+Более подробные инструкции по сборке, а также много другой технической информации для DS и DSi можно найти на сайте [GBATEK](https://problemkaputt.de/gbatek.htm).
 
-### Card read DMA
-DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred, code can still execute, so it is the preferred way of accessing data.
+### Чтение карты DMA
+DMA (прямой доступ к памяти) - это более эффективный способ считывания данных, чем использование центрального процессора. Когда данные передаются, код все еще может выполняться, поэтому это предпочтительный способ доступа к данным.
 
-You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+Вы можете найти игру, использующую DMA, в no$gba, включив журнал DMA на ARM9. При доступе DMA к карте в качестве третьего параметра используется AF000001.
+- Например: `DMA2: 04100010 023C18C0 AF000001`
 
-### Action Replay cheats
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+### Читы Action Replay
+Читы Action Replay - это коды, позволяющие вносить низкоуровневые программируемые изменения в область памяти вашей любимой игры. Эти изменения варьируются от простых корректировок стоимости до чрезвычайно сложных корректировок ASM, причем и те, и другие могут полностью изменить впечатления от игры.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
+Флэш-картриджи могут дать воспользоваться преимуществами чит-кодов, используя базы данных. Функциональность чита интегрирована в ядро флэш-картриджа соответственно. Следующие ядра могут использовать читы:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew/цифровые решения также могут использовать преимущества чит-баз данных, доступное в настоящее время программное обеспечение может использовать следующее:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real Game Cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
-- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
+   - NitroHax с флеш-картриджа позволяет вам использовать читы на настоящих игровых картах. Используемый здесь движок загружает всю базу данных cheats.xml в ограниченную оперативную память Nintendo DS и пытается управлять всем оттуда. Это накладывает серьезное ограничение на количество читов, поскольку NitroHax не будет загружать файл cheats.xml размером более 2,4 МБ
+- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat форк](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` или `usrcheat.dat`)
+   - NitroHax3DS - это версия NitroHax, которая запускается с SD-карты на DSi или 3DS. Оригинальная версия использует файл cheats.xml с тем же ограничением в 2,4 МБ, что и оригинальный NitroHax, но есть также форк, который загружает читы из базы данных usrcheat.dat без ограничения размера
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-   - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+   - TWiLight Menu++ считывает `usrcheat.dat` и отправляет значения включенных читов в другой файл, который подхватывает nds-bootstrap
+   - Чит-движок, используемый в nds-bootstrap, основан на движке, используемом в NitroHax. Однако из-за того, что файл с читами содержит только включенные читы для этой конкретной игры, есть ограничение только на количество читов, которые могут быть включены, но размер базы данных не ограничен
 
 For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
 

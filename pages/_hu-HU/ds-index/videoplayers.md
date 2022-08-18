@@ -17,32 +17,32 @@ Ez az oldal a Nintendo DS és DSi működő vagy WIP videólejátszók listájá
 | MPEG4Player   | `.mp4`, H.264                  | DSi és NDS     | Can only play short videos.                 | 24 fps                                          |
 | Rocket Video  | `.rvid`, Raw/LZ77              | DSi és NDS     | Dumps frames in an uncompressed format.     | up to 25fps (Progressive) or 50fps (Interlaced) |
 
-Notes:
-- Actual max FPS is dependent on video content and length.
-- MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
+Megjegyzések:
+- A tényleges maximális FPS a videó tartalmától és hosszától függ.
+- Az MPEG4Player régi és egy új videó formátumra kerülhet lecserélésre, a **FastVideoDS**-re. A RocketVideo már nincs fejlesztve.
 
-Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
+Figyelmeztetés: A nagyméretű fájlok konvertálása a Rocket Video konverterrel adatvesztést okozhat, mivel tömörítetlen képkockákat ír a merevlemezre. Ezért nem ajánlott a Rocket Video használata.
 {: .alert .alert-warning}
 
-## Moonshell video conversion (DPG4x)
+## Moonshell videó konverzió (DPG4x)
 
-1. Download DPG4x [here](https://www.gamebrew.org/wiki/DPG4X)
-1. Open `dpg4x.7z`
-1. Open `dpg4x-2.3.3.0.zip` (3.0-1 gives out an error when opening, for an unknown reason)
-1. Open `dpg4x-2.3.3.0_setup.exe`, and proceed with installation
-1. After installation, open DPG4x
-1. Click the `VIDEO` tab
-1. Tick the `Keep Aspect` option
-1. Set `Video Bitrate` to your choice (higher should improve quality)
-1. Click the `AUDIO` tab
-1. Tick `Normalize Volume`, if your video is a bit quiet
-1. Click the `SUBTITLES` tab
-1. Set `Subtitles Source` to `Disable Subtitles`, as certain subtitle tracks may not display correctly
-1. Click the `MAIN` tab
-1. Click `Add Media` to open your video file(s)
-1. Set `DPG Version` to `4`, if you're using Moonshell v2.x, otherwise set to `3` or below
-1. Set `Quality` to your choice
-1. Click `Start Encoding` to convert the video(s)
+1. Töltsd le a DPG4x-et [innen](https://www.gamebrew.org/wiki/DPG4X)-t
+1. Nyisd meg az `dpg4x.7z` fájlt
+1. Nyisd meg a `dpg4x-2.3.3.3.0.zip` fájlt (a 3.0-1 ismeretlen okból hibát ad ki megnyitáskor)
+1. Nyisd meg a `dpg4x-2.3.3.3.0_setup.exe`-t és folytasd a telepítést
+1. A telepítés után nyisd meg a DPG4x-et
+1. Kattints a `VIDEO` fülre
+1. Jelöld be a `Keep Aspect` opciót
+1. Állítsd be a `Video Bitrate` értéket a kívánt értékre (a magasabb érték javítja a minőséget)
+1. Kattints az `AUDIO` fülre
+1. Jelöld be a `Normalize Volume` opciót, ha a videó halk
+1. Kattints a `SUBTITLES` fülre
+1. Állítsd be a `Subtitles Source`-t `Disable Subtitles`-re mivel bizonyos felirat-sávok nem jelenhetnek meg helyesen
+1. Kattints a `MAIN` fülre
+1. Kattints az `Add Media` gombra a videofájl(ok) megnyitásához
+1. Állítsd be a `DPG Version`-t `4`-re, ha a Moonshell v2.x-et használod, egyébként állítsd be `3`-ra vagy az alatti értékre
+1. Állítsd be a `Quality`-t a minőség választásod szerint beállításához
+1. Kattints a `Start Encoding`-ra a videó(k) konvertálásához
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
 
@@ -78,6 +78,6 @@ The video will quit to the menu after it is done playing, so if you want to loop
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
-- [dsmp4-43.bat](/assets/files/dsmp4.bat): For 4:3 videos
-- [dsmp4.bat](/assets/files/dsmp4.bat): For 16:9 videos
+A folyamat ugyanaz a Tuna-ViDS esetében, de a videók akár 24fps sebességűek is lehetnek.
+- [dsmp4-43.bat](/assets/files/dsmp4.bat): 4:3 videókhoz
+- [dsmp4.bat](/assets/files/dsmp4.bat): 16:9 videókhoz

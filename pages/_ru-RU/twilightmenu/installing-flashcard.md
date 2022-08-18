@@ -36,12 +36,12 @@ description: Как установить TWiLight Menu++ на флеш-карт�
 Обратите внимание, что не все флеш-картриджи поддерживают запуск игр таким образом. Если нижеприведенные шаги не относятся к вашему флеш-картриджу, вы можете пропустить этот раздел.
 {:.alert .alert-warning}
 
-1. Извлеките все, что находится в `Flashcart Loader/(ваша флеш-карта)` в корень microSD-карты флеш-картриджа
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+1. Извлеките содержимое `Flashcart Loader/(ваш флеш-картридж)` в корень microSD карты вашего флеш-картриджа
+   - Если вы это сделали, перейдите к шагу 3. Если нет, выполните действия, приведенные ниже в списке флеш-картриджей
 
-1. For these flashcards:
+1. Для этих флеш-картриджей:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
+   - r4isdhc.com 2014-2022 картриджы (**не** .hk или .com.cn)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -51,13 +51,13 @@ description: Как установить TWiLight Menu++ на флеш-карт�
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
+   - DSONE SDHC и DSONEi (модели без SDHC ***не поддерживаются***)
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
-   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
-   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
-   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
+   - M3i Zero (модель, отличная от GMP-Z003)
+   - iTouchDS и iTouch2 (используйте файлы M3Real_M3iZero YSMenu)
+   - R4(i)RTS (r4rts.com) (используйте файлы M3Real_M3iZero YSMenu)
+   - R4 SDHC RTS (черный картридж) (r4isdhc.com) (используйте файлы M3Real_M3iZero YSMenu)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   Установка [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+      - Убедитесь, что у вас есть `YSMenu.nds` (переименуйте из `TTMenu.dat`, если его нет) и папка `TTMenu` в корне microSD карты вашего флеш-картриджа
+1. Откройте Настройки TWLMenu++, перейдите на страницу `Настройки nds-bootstrap `, и установите `Исп. nds-bootstrap` на `Выкл`, чтобы вместо nds-bootstrap использовалась прошивка флэш-картриджа

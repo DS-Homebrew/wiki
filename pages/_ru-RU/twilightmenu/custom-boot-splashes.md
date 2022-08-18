@@ -3,17 +3,17 @@ lang: ru-RU
 layout: wiki
 section: twilightmenu
 category: customization
-title: Кастомные бут-сплэши
+title: Пользовательская заставка экрана запуска
 description: Как использовать кастомные бут-сплэши для TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+Вы можете использовать свои GIF-файлы для создания пользовательских заставок при загрузке TWiLight Menu++. Они должны называться `splashtop.gif` и `splashbottom.gif` и находиться в `sd:/_nds/TWiLightMenu/extras`. После в настройках TWiLight Menu++ установите параметр `Заставка DSi` на `Свой`.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-   - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+Большинство GIF-файлов размером до 256x192 должны работать, за некоторыми исключениями:
+- GIF-файлы размером более 1 МБ (в режиме DSi) или 256 КБ (в режиме DS) могут воспроизводиться не на полной скорости, поскольку они будут распаковываться в реальном времени
+- Будут работать только те GIF-файлы, которые размером не превышает ± 10 МБ (в DSi режиме) или ± 2 МБ (в DS режиме)
+- Если оба GIF настроены на бесконечный повтор, то они будут отображаться в течение 3 секунд, поэтому установите счетчик цикла хотя бы для одного, чтобы контролировать время
+- Поддерживается функция пользовательского ввода, так что вы можете настроить показ заставки и ожидание касания (как в оригинале)
+   - Только GIF с функцией пользовательского ввода будет приостановлена, чтобы другая анимация могла продолжиться
+- Поддерживаются локальные таблицы цветов, но они заменят всю палитру, а не только конкретного кадра
+- Чересстрочные и текстовые кадры не будут работать

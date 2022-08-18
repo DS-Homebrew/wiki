@@ -2,7 +2,7 @@
 lang: ru-RU
 layout: wiki
 section: ds-index
-title: Индекс модов Nintendo DS
+title: Каталог модификаций Nintendo DS
 description: Объяснение всего, что касается модификации DS
 ---
 

@@ -27,10 +27,10 @@ Mindig ellenőrizd a csatorna témáját és a rögzített tartalmat, mielőtt b
 - [#community-meta][community-meta] - Visszajelzés adásához a közösségről, beleértve ezt a Discord szervert, a subreddit-ünket és a GitHub organizációt
 
 **Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
-- [#nds-discussion][nds-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
-- [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Nézd meg a rögzített üzeneteket a dedikált közösségekről
-- [#nds-development][nds-development] - Resources and discussions about DS(i) homebrew development. A már létező homebrew-okról szóló beszélgetéseknek az #other-nds-homebrew csatornán a helye
+- [#nds-help][nds-help] - Problémád van bármivel, ami Nintendo DS(i)-vel kapcsolatos? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
+- [#nds-discussion][nds-discussion] - Hely megbeszélni a flashcards-ok, AP patchek és általános DS megértések és kutatások megbeszélésére. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
+- [#nds-hacks][nds-hacks] - Beszélgetés ROM hack-ekről, mod-okról és csalásokról Nintendo DS(i) címeknél. Nézd meg a rögzített üzeneteket a dedikált közösségekről
+- [#nds-development][nds-development] - Erőforrások és beszélgetések DS(i) homebrew fejlesztésekről. A már létező homebrew-okról szóló beszélgetéseknek az #other-nds-homebrew csatornán a helye
 
 **Fő DS⁽ⁱ⁾ Homebrew Projektek**
 - [#nds-bootstrap][nds-bootstrap] - Ez a csatorna az nds-bootstrap fejlesztés beszélgetéseinek a helye, segítségért használd az #nds-modding-help csatornát
@@ -71,7 +71,7 @@ Ezek a szerepkörök moderátorok által kioszthatók csak, és jelzik, hogy eze
 Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátortól.
 
 - No Community - Eltávolítja a hozzáférést a Community kategória csatornáihoz
-- No Help - Removes access from \[#nds-modding-help\]\[nds-modding-help\]
+- No Help - Eltávolítja a hozzáférést az \[#nds-modding-help\]\[nds-modding-help\] csatornához
 - No Reaction - Letiltja a reagálási jogot minden csatornára
 - No VC - Eltávolítja a hozzáférést a hang csatornához
 - Muted - Letiltja az üzenetek küldésének lehetőségét
@@ -82,8 +82,8 @@ Ezeket a szerepköröket kifejezett célokra osztják a Moderátorok.
 - Bots- a Discord botok jelzésére vannak ezen a szerveren
 - Special Thanks - Személyek, akik különösen hozzá járultak a közösséghez
 
-## Lightning Commands
-Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
+## Lightning parancsok
+A Lightning egy Discord bot, amit [LightSage](https://github.com/LightSage) készített és hasznos parancsokkal rendelkezik a modding közösségnek. A leggyakrabban használt parancs a `!togglerole`, amely az alábbi szerepek bármelyikét adja:
 
 - Updates - Kapj frissítési értesítőket az új DS(i) homebrew-okról az #announcements csatornán
 - Nintendo DS Online Players - Bárki tudja pingelni ezt a szerepkört az #nds-gaming csatornán, ha embereket keres, akik szeretnének online DS játékkal játszani
@@ -92,18 +92,18 @@ Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) whi
 - Game Modders - Azok számára, akik ROM hackeket, csalásokat vagy egyéb módosításokat készítettek DS(i) játékokhoz
 - Translators - Bárki számára, aki szeretne értesítést kapni, ahhoz, hogy különböző DS-Homebrew projekteket fordítson
 
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning.lightsage.dev/>
+Egy csomó mókás parancsa van, amit futtatni lehet még, de kérjük ezeket használd az [#end-of-server][end-of-server] csatornán. Hogy többet tudj meg, látogasd meg weboldalukat: <https://lightning.lightsage.dev/>
 
-**We also use Lightning for moderation purposes (to log warns, kicks, mutes and bans). Keep this bot's DM box open in case we ever need to reach you.**
+**Továbbá használjuk a Lightning-ot moderációs célokra, (hogy loggoljuk a figyelmeztetéseket, kirúgásokat, némításokat és tiltásokat). Tartsd ennek a botnak a közvetlen üzenet ablakát nyitva, ha szükséges, hogy elérjünk téged.**
 
-## The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the member listing. Currently, we are not looking for staff members. Do not ask to be a part of the team, as it will decrease your chance of getting accepted.
+## A Staff Team
+Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Jelenleg nem keresünk stáb tagokat. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva.
 
-Owner: shutterbug2000#8835
+Tulajdonos: shutterbug2000#8835
 
-Administrators: RocketRobz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Adminisztrátorok: RocketRobz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
 
-Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
+Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

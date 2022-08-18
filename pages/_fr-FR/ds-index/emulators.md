@@ -75,7 +75,7 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
    - Le chargement prend un certain temps
    - Ne supporte pas les arguments
    - La limite est de 3 Mo sur toutes les plates-formes (en raison du chargement des ROMs dans la RAM)
-      - Pas de prise du DS Memory Pak ou de la mémoire étendue de la DSi
+      - Pas de prise en charge du DS Memory Pak ou de la mémoire étendue de la DSi
       - Il y a un patch pour *Sonic 3 & Knuckles* qui supprime le multijoueur, en obtenant le décompte des tailles
    - Émulation du son
    - La fréquence d'images est régulière

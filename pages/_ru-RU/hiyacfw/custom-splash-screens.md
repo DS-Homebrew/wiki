@@ -1,21 +1,21 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: hiyacfw
-title: Custom Splash Screens
-description: How to use custom splash screens with hiyaCFW
+title: Пользовательская заставка
+description: Как использовать пользовательскую заставку с hiyaCFW
 ---
 
-With hiyaCFW you can use custom splashes in either `.bmp` or `.gif` formats. They need to go in the `sd:/hiya` folder and need to be named `splashtop` for the top screen and `splashbottom` for the bottom, with the appropriate file extension, then make sure the splash screen is enabled in the configuration. The images do not need to be the same format, so one can be BMP and the other GIF, GIFs have priority over BMPs. Below are some details on the requirements for your images to work:
+С помощью hiyaCFW вы можете использовать пользовательские заставки в форматах `.bmp` или `.gif`. Их нужно поместить в папку `sd:/hiya` и назвать `splashtop` для верхнего экрана и `splashbottom` для нижнего, с соответствующим расширением файла, затем убедитесь, что заставка включена в конфигурации. Изображения не обязательно должны быть одного формата, поэтому одно может быть BMP, а другое GIF, GIF имеет приоритет над BMP. Ниже приведены более подробные требования к изображениям:
 
 ### BMP
-- 16-bit (RGBA 1555, RGB 1555, or RGB 565)
-- 256 x 192 or smaller
+- 16-бит (RGBA 1555, RGB 1555 или RGB 565)
+- 256 x 192 или меньше
 
 ### GIF
-- Simple answer: Most GIFs 256 x 192 or smaller will work
-- They can be animated, but should stay under 1 MiB for ideal performance and must be under around 10 MiB between the two absolute maximum
-- If both loop infinitely then they will be shown for 3 seconds, otherwise they will be shown until both are complete
-- If a frame has the user input flag set it will wait until the delay runs out or any button is pressed, whichever comes first
-- Interlaced and plain text frames are ***not*** supported
-- Local color tables are supported, but will replace the whole palette, including residual image from previous frames, so images using them will likely have palette problems
+- Большинство GIF-файлов разрешением 256 x 192 или меньше будут работать
+- Они могут быть анимированны, но их размер не должен превышать 10 МБ. Для лучшей производительности размер должен быть менее 1 МБ
+- Если оба цикла выполняются бесконечно, то они будут отображаться в течение 3 секунд, в противном случае они будут отображаться до тех пор, пока оба не будут завершены
+- Если для кадра установлена функция пользовательского ввода, будет ожидаться нажатие любой кнопки или окончание времени бездействия - смотря что наступит раньше
+- Чересстрочные и обычные текстовые кадры ***не*** поддерживаются
+- Поддерживаются локальные таблицы цветов, но они заменят всю палитру, включая остаточное изображение из предыдущих кадров, поэтому изображения, использующие их, скорее всего, будут иметь проблемы с палитрой

@@ -65,10 +65,10 @@ Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keres
 Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted [innen](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Miért nem működnek a csalásaim?
-- Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
-  - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
-- Most cheats were developed for use in DS mode and may not work correctly while running in DSi mode. If the game is DSi-Enhanced, try setting it to run in DS mode
-- The way E-type cheats are implemented in nds-bootstrap is currently broken, meaning they may or may not work. Your cheat probably uses that type, and it is not known when this issue will be fixed
+- Egyes csalások lehet, hogy gombbal aktiválhatók vagy vannak egyéb feltételek, amelyeket teljesíteni kell. További információkért nézd meg a csalás leírását
+  - A **TW**i**L**ight Menu++-ban Y-t nyomva megtekintheted a csalás információit, ha elérhető
+- A legtöbb csalást DS módban való használatra fejlesztették ki, és előfordulhat, hogy DSi módban nem működik megfelelően. Ha a játék DSi-Enhanced, próbáld meg beállítani, hogy DS módban fusson
+- A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben jelenleg hibás, ami azt jelenti, hogy vagy működnek vagy nem. A csalás, amit használsz valószínűleg ilyen típusú és nem tudni ez mikor lesz javítva
 
 További információkért a csalásokról látogass el [Action Replay csalás fejezethez a Kereskedelmi ROM-ok oldalon](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
@@ -93,17 +93,17 @@ Az nds-bootstrappal való online játék ugyanúgy fog működni, mint a valódi
 
 #### Károsíthatja a konzolomat, ha egy játékot úgy állítok be, hogy 133 MHz-es (TWL) CPU-sebességet használjon?
 Nem. Bár nem minden játék működik megfelelően ebben a beállításban, a DSi és a 3DS úgy lett tervezve, hogy képes legyen elérni ezt a CPU-sebességet.
-- If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
+- Ha hibát észlelsz egy játék 133 MHz (TWL) CPU sebességgel futtatásakor, hozz létre egy hibajegyet a [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues)-ban, leírva a jelenséget, így feketelistázásra kerülhet az ezen a CPU sebességen indításra
 
 #### Fel tudom gyorsítani a játékokat az nds-bootstrap használatával?
 Bár a TWL CPU sebesség csökkentheti a lagot, az nds-bootstrap nem képes a tervezettnél nagyobb sebességgel futtatni a játékokat.
 
-#### Can I remap button inputs using nds-bootstrap?
+#### Át tudom konfigurálni a gombokat nds-bootstrap-pel?
 Nem. Mivel az nds-bootstrap natívan futtatja a játékokat, a legtöbb gomb funkcióját nem tudja megváltoztatni. Ennek egyetlen módja ennek a játék módosítása vagy csalókódok használata.
 
-#### How do I play randomized Pokémon ROMs with nds-bootstrap?
-Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
-- Randomized ROMs cannot be AP-patched on-the-fly like the vanilla versions of these games are, because randomizing a ROM has far too many unique possible outputs to be reasonably included with **TW**i**L**ight Menu++
+#### Hogyan játszhatok randomizált Pokémon ROM-okat az nds-bootstrap segítségével?
+A Pokémon HeartGold/SoulSilver, Black/White és Black 2 / White 2 rendelkezik kalózkodás elleni védelemmel, amelyeket ki kell patchelnii *mielőtt* randomizáljuk a ROM-ot. Ezt a [DS-Scene ROM Tool](https://gbatemp.net/download/35735/)segítségével tudod megtenni.
+- A randomizált ROM-okat nem lehet röptében AP-patchelni, mint a játékok vanilla verzióit, mert a ROM-ok randomizálása túl sok egyedi lehetséges kimenettel jár ahhoz, hogy a **TW**i**L**ight Menu++-ba ésszerűen be lehessen tenni
 
 #### Mik azok a DSi binárisok? Hogyan szerezhetem meg őket?
 A DSi binárisok a játék kódjának azon részei, amelyeket a DSi (és a 3DS) rendszereken kell használni a DSi funkcióinak, például a kameráknak és a továbbfejlesztett Wi-Fi képességeknek a kihasználására. A régebbi dumpolási módszerek nem biztos, hogy megfelelően dumpolták ezeket.

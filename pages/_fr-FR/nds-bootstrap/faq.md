@@ -39,7 +39,7 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 - Faites des captures d'écran et modifiez les valeurs de la RAM à l'aide du menu en jeu
 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
-- Certaines ROM compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
+- Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
 - Un nombre limité de DSiWare peut être exécuté à l'aide de patchs intégrés et d'une ROM donatrice d'un titre optimisé DSi
      - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Utiliser nds-bootstrap` dans les paramètres de TWLMenu++
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu
@@ -110,4 +110,4 @@ Les binaires DSi sont les parties du code d'un jeu à utiliser sur les systèmes
 
 - Les ROMs sans les binaires DSi peuvent toujours être jouées sur n'importe quelle console grâce au mode DS, dans lequel le jeu fonctionnera comme s'il était joué sur une Nintendo DS Tank/Lite
 
-Pour obtenir une ROM contenant les binaires DSi, [re-dumpez votre carte de jeu](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).
+Pour obtenir une ROM contenant les binaires DSi, [re-dumpez votre carte de jeu](https://wiki.ds-homebrew.com/fr-FR/twilightmenu/faq?faq=comment-obtenir-des-jeux-).

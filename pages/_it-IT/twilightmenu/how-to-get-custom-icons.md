@@ -3,14 +3,14 @@ lang: en-US
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get custom Icons and Banners
+title: Icone e Banner personalizzati
 description: How to set custom icons and banners for folders and games in TWiLight Menu++
 ---
 
-1. Download the icon or banner you want to set from [the Skins site](https://skins.ds-homebrew.com/icon/)
-   - Banners have a `.bin` file extension, they include custom game titles and its icons can be still or animated. When used with folders, the custom titles won't be shown, and the folder name will be displayed instead.
-   - Icons have a `.png` file exension and will only be shown as still images.
-   - Any `.png` file that's 4 bits in color depth and 32x32 pixels or less in resolution can also be used, not only the ones present in the the Skins site.
-1. Put the icon/banner file in `sd:\_nds\TWiLightMenu\icons`
-   - If it's a custom icon or banner for a folder, rename the file so that its name is the same as the name of the folder in which you want the icon to be displayed. Keep in mind this will not replace the folder icon (unless the custom icon is bigger than the default skin icon), it will just be shown over it.
-   - If it's a custom icon or banner for a rom, rename the file so that its name is the same as the rom whose icon you want to replace. Note the the name has to include the file extension, e.g. `ASME.nds.png` or `ASME.nds.bin` if you want the icon/banner to show for the rom `ASME.nds`. This works not only for `.nds` roms, but for all roms that can be ran from TWiLight Menu++.
+1. Scarica l'icona o il banner che vuoi impostare da [qui](https://skins.ds-homebrew.com/icon/)
+   - I banner hanno un'estenzione `.bin`, includono custom game e le loro icone possono essere fisse o animate. Quando viene utilizzato con le cartelle, i titoli personalizzati non vengono visualizzati e viene visualizzato il nome della cartella.
+   - Le icone hanno un'estenzione `.png` e vengono visualizzate solamente come immagine fissa.
+   - È possibile utilizzare qualsiasi file `.png` con una profondità di colore di 4 bit, una risoluzione di 32x32 pixel o inferiore e non solo quelli presenti nel sito delle skin.
+1. Mettere il file di icone/banner in `sd:\_nds\TWiLightMenu\icons`
+   - Se si tratta di un'icona o di un banner personalizzato per una cartella, rinominare il file in modo che il suo nome sia uguale a quello della cartella in cui si desidera visualizzare l'icona. Tenere presente che non sostituirà l'icona della cartella (a meno che l'icona personalizzata non sia più grande dell'icona predefinita della skin), ma verrà semplicemente visualizzata sopra di essa.
+   - Se si tratta di un'icona o di un banner personalizzato per una rom, rinominare il file in modo che il suo nome sia lo stesso della rom di cui si vuole sostituire l'icona. Nota che il nome deve includere l'estensione del file, ad esempio per la ROM `ASME.nds` sarà `ASME.nds.png` o `ASME.nds.bin`. Questa funzione non funziona solamente per le ROM `.nds`, ma funzione per tutte le ROM che possono essere avviate da TWiLight Menu++.

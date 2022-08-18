@@ -1,36 +1,36 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
-long_title: hiyaCFW FAQ & Troubleshooting
-description: FAQ & Troubleshooting for hiyaCFW
+title: 常见问题 & 故障处理
+long_title: hiyaCFW 常见问题 & 故障处理
+description: hiyaCFW 的常见问题 & 故障处理
 ---
 
-#### How do I install apps or DSiWare to hiyaCFW's SDNAND?
-You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
-- If you would like to install Game Card dumps, you should use a [forwarder](../ds-index/forwarders)
+#### 如何在 hiyaCFW 的SDNAND上安装应用程序或DSiWare？
+你需要使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) ，将应用程序安装到SDNAND，但旧的DS自制软件可能不兼容。
+- 如果你想安装游戏卡转储，你应该使用 [forwarder](../ds-index/forwarders)
 
-#### Why do I get the #-2435-8325 error code?
-If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing).
+#### 为什么出现了#-2435-8325错误代码？
+如果你的任天堂DSi在启动时显示这种格式的错误，#是一个数字，这意味着bootstage 2认为你的SDNAND出了问题。 这通常可以通过[重新安装 hiyaCFW](installing) 来修复。
 
-#### Why do I get "An error has occurred" message when booting hiyaCFW?
-When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
+#### 为什么我在启动hiyaCFW时收到“发生错误 / An error has occurred / エラーが発生しました”的信息？
+当任天堂DSi菜单检测到问题时，通常会显示这个通用的错误信息，其中一些原因是：
 
-##### The free space bug
-The Nintendo DSi Menu has a bug when checking the free space on large storage devices. While this can't occur on the actual NAND (since the chip is only 256 MiB), it can happen when using an SD card.
+##### 剩余空间的问题
+任天堂DSi菜单在检查大型存储设备的可用空间时有一个错误。 虽然这不会发生在原装NAND上（因为芯片只有128 MB），但使用SD卡时可能会发生。
 
-What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
+空闲空间在每个2GB范围组内将不会出现错误。 例如, 0-2GiB可以正常工作, 但如果是2-4GiB它将不会正常工作。 4-6GiB与6-8GiB也是如此，直到达到SD卡的最大容量。
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+最新版本的 hiyaCFW 可以创建虚拟文件， 所以请确保您下载最新版本的 [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) 并将 `hiya.dsi` 从“for SDNAND SD card”放到SD卡的根目录。
 
-##### Over 39 titles
-The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
+##### 超过39个应用
+任天堂DSi菜单有39个应用的硬性限制。 如果你超出了这个数量，从 `sd:/title` 的文件夹中删除一些，或者使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) 来卸载它们。
 
-##### Too much space used by DSiWare
-There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing DSiWare as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+##### DSiWare 使用的空间太大
+`00030004` 文件夹中的DSiWare也有200格（25MB）的限制。 这可以通过使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)，将DSiWare安装为系统应用来解决。
 
-##### Invalid title
-There are several things you need to take into account when adding titles to hiyaCFW:
-- Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
-- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+##### 无效的应用
+在向hiyaCFW添加应用时，你需要考虑到几件事。
+- 如果不使用 [forwarder](../ds-index/forwarders), 就不能运行游戏卡转储。
+- 自制软件需要使用现代工具正确构建，才能在任天堂DSi菜单中工作。
