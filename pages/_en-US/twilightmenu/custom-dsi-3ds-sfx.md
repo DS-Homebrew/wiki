@@ -12,17 +12,17 @@ TWiLight Menu++ supports custom sound files in themes. Place your sound files un
 These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
 
 ## Sound Effect Bank
-The sound effect bank (sfx.bin) contains sound effects such as the icon select sound, etc.
+The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
-|File      |Description|
-|----------|-----------|
-|startup.wav|Played on startup. See the section on [Startup sound](#startup-sound) for more details|
-|back.wav  |Back       |
-|launch.wav|Played when launching a game|
-|select.wav|Played when moving the cursor in the per-game settings and select menu|
-|wrong.wav|Played when reaching the end of the page|
-|switch.wav|Played when switching pages|
-|stop.wav|Played on the DSi Theme when the select cursor stops moving|
+|File        |Description                                                                             |
+|------------|----------------------------------------------------------------------------------------|
+|startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
+|back.wav    | Back                                                                                   |
+|launch.wav  | Played when launching a game                                                           |
+|select.wav  | Played when moving the cursor in the per-game settings and select menu                 |
+|wrong.wav   | Played when reaching the end of the page                                               |
+|switch.wav  | Played when switching pages                                                            |
+|stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
 
 All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
 
