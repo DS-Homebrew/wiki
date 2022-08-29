@@ -152,8 +152,8 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `StartBorderSpriteW`     | The width of the start border sprite. Note that the start border texture is exactly half of the full border. | 32            | 32            |
 | `StartBorderSpriteH`     | The height of the start border sprite                                                                        | 64            | 80            |
 | `StartTextRenderY`       | The initial Y position of the Start text                                                                     | 143           | 143           |
-| `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98            | 80            |
 | `BubbleTipRenderX`       | The X position of the tip of the bubble that is drawn over the start border                                  | 125           | 122           |
+| `BubbleTipRenderY`       | The Y position of the tip of the bubble that is drawn over the start border                                  | 98            | 80            |
 | `BubbleTipSpriteW`       | The width of the bubble tip sprite                                                                           | 7             | 11            |
 | `BubbleTipSpriteH`       | The height of the bubble tip sprite                                                                          | 7             | 8             |
 | `TitleboxRenderY`        | The initial Y position of the title text box                                                                 | 96            | 85            |
@@ -163,21 +163,44 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `TitleboxMaxLines`       | The maximum lines of text to show of the title                                                               | 3             | 4             |
 | `VolumeRenderX`          | The X position on the top screen to draw the volume icon                                                     | 4             | 4             |
 | `VolumeRenderY`          | The Y position on the top screen to draw the volume icon                                                     | 5             | 5             |
-| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172           |
 | `ShoulderLRenderX`       | The X position on the top screen to draw the left shoulder                                                   | 0             | 0             |
-| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
+| `ShoulderLRenderY`       | The Y position on the top screen to draw the left shoulder                                                   | 172           | 172           |
 | `ShoulderRRenderX`       | The X position on the top screen to draw the right shoulder                                                  | 178           | 178           |
-| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
+| `ShoulderRRenderY`       | The Y position on the top screen to draw the right shoulder                                                  | 172           | 172           |
 | `BatteryRenderX`         | The X position on the top screen to draw the battery icon                                                    | 235           | 235           |
+| `BatteryRenderY`         | The Y position on the top screen to draw the battery icon                                                    | 5             | 5             |
+| `UsernameRenderX`        | The X position on the top screen to draw the username text                                                   | 28            | 28            |
+| `UsernameRenderY`        | The Y position on the top screen to draw the username text                                                   | 15            | 15            |
+| `UsernameRenderXDS`      | The X position on the top screen to draw the username text, when on a DS Phat/Lite                           | 4             | 4             |
+| `DateRenderX`            | The X postion on the top screen to draw the date text                                                        | 162           | 162           |
+| `DateRenderY`            | The Y postion on the top screen to draw the date text                                                        | 7             | 7             |
+| `TimeRenderX`            | The X positon on the top screen to draw the time text                                                        | 200           | 200           |
+| `TimeRenderY`            | The Y positon on the top screen to draw the time text                                                        | 7             | 7             |
 | `PurpleBatteryAvailable` | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings         | 1             | 1             |
 | `FontPalette1`           | The transparent color of the font, unused for default fonts                                                  | 0x0000        | 0x0000        |
 | `FontPalette2`           | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                   | 0xDEF7        | 0xDEF7        |
 | `FontPalette3`           |                                                                                                              | 0xC631        | 0xC631        |
 | `FontPalette4`           |                                                                                                              | 0xA108        | 0xA108        |
-| `FontPaletteDateTime1`   | The transparent color of the font for the date and time                                                      | 0x0000        | 0x0000        |
-| `FontPaletteDateTime2`   | The color of the font for the date and time                                                                  | 0xDEF7        | 0xA529        |
+| `FontPaletteDateTime1`   | The override transparent color of the font for the date and time                                             | 0x0000        | 0x0000        |
+| `FontPaletteDateTime2`   | The override color of the font for the date and time                                                         | 0xDEF7        | 0xA529        |
 | `FontPaletteDateTime3`   |                                                                                                              | 0xC631        | 0xBDEF        |
 | `FontPaletteDateTime4`   |                                                                                                              | 0xA108        | 0xD6B5        |
+| `FontPaletteTitlebox1`   | The override transparent color of the font for the ROM title box                                             | 0x0000        | 0x0000        |
+| `FontPaletteTitlebox2`   | The override color of the font for the ROM title box                                                         | 0xDEF7        | 0xDEF7        |
+| `FontPaletteTitlebox3`   |                                                                                                              | 0xC631        | 0xC631        |
+| `FontPaletteTitlebox4`   |                                                                                                              | 0xA108        | 0xA108        |
+| `FontPaletteDialog1`     | The override transparent color of the font for dialogs                                                       | 0x0000        | 0x0000        |
+| `FontPaletteDialog2`     | The override color of the font for dialogs                                                                   | 0xDEF7        | 0xDEF7        |
+| `FontPaletteDialog3`     |                                                                                                              | 0xC631        | 0xC631        |
+| `FontPaletteDialog4`     |                                                                                                              | 0xA108        | 0xA108        |
+| `FontPaletteOverlay1`    | The override transparent color of the font for overlayed text                                                | 0x0000        | 0x0000        |
+| `FontPaletteOverlay2`    | The override color of the font for overlayed text                                                            | 0xDEF7        | 0xDEF7        |
+| `FontPaletteOverlay3`    |                                                                                                              | 0xC631        | 0xC631        |
+| `FontPaletteOverlay4`    |                                                                                                              | 0xA108        | 0xA108        |
+| `FontPaletteName1`       | The override transparent color of the font for the username                                                  | 0x0000        | 0x0000        |
+| `FontPaletteName2`       | The override color of the font for the username                                                              | 0xDEF7        | 0xDEF7        |
+| `FontPaletteName3`       |                                                                                                              | 0xC631        | 0xC631        |
+| `FontPaletteName4`       |                                                                                                              | 0xA108        | 0xA108        |
 | `StartTextUserPalette`   | Whether to use the DS Profile color for the palette of the start text                                        |               | 1             |
 | `StartBorderUserPalette` | Whether to use the DS Profile color for the palette of the start border                                      |               | 1             |
 | `ButtonArrowUserPalette` | Whether to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen         |               | 1             |
