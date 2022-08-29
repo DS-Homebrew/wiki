@@ -135,13 +135,15 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
 
 ### Volume textures (`volume` folder)
+Volume textures are only displayed in DSi Mode.
+
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
 
 | Texture | Description/Notes                |
 | ------- | -------------------------------- |
-| volume0 | Volume is only shown in DSi mode |
-| volume1 | 0 is muted, 4 is full volume     |
+| volume0 | 0 is muted, 4 is full volume     |
+| volume1 |                                  |
 | volume2 |                                  |
 | volume3 |                                  |
 | volume4 |                                  |
