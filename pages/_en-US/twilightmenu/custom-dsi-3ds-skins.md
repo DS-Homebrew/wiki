@@ -26,6 +26,7 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 
 | Texture             | Description                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
+| top                 | The top screen background texture                                                                      |
 | bottom              | The bottom background texture when not hovering over an icon                                           |
 | bottom_ds           | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS Phat/Lite |
 | bottom_macro        | For the DSi theme, the background texture when not hovering over an icon while using Macro Mode        |
@@ -34,7 +35,6 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 | bottom_bubble_macro | For the DSi theme, the background texture when hovering over an icon while using Macro Mode            |
 | bottom_moving       | For the DSi theme, the bottom background texture when moving an icon                                   |
 | bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Maco Mode                    |
-| top                 | The top screen background texture                                                                      |
 
 ### Battery textures (`battery` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
