@@ -7,13 +7,14 @@ title: How to Create DSi/3DS Skins
 description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 
-To make a TWiLight Menu++ skin you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide as it's capable of everything needed.
+To make a TWiLight Menu++ skin, you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally, it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide, as it's capable of everything needed.
 
 ## Part 1: Download the examples
-The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format so if you have issues later on you can compare with these.
+The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format, so if you have issues later on, you can compare with these.
 
 ## Part 2: Editing images
-Download and install [GIMP](https://www.gimp.org), you can use a different editor if you want but this guide uses GIMP.
+Download and install [GIMP](https://www.gimp.org)
+- Other image editors such as Photoshop may work, but GIMP is what will be used in this guide
 
 Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
 
@@ -21,6 +22,7 @@ You can now open whichever image you want to edit in GIMP and continue to the se
 
 ### Background textures (`background` folder)
 These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
+- If using BMP files, you can set them to 16-bit under Advanced Options while exporting. You may need to do this each time you export as BMP
 
 | Texture             | Description                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -35,9 +37,9 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 | top                 | The top screen background texture                                                                      |
 
 ### Battery textures (`battery` folder)
-These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one icon should be transparent in all of them so that it's properly overwritten on change.
+These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture            | Description                                                                 |
+| Texture            | Description/Notes                                                           |
 | ------------------ | --------------------------------------------------------------------------- |
 | battery0           | Flashes with `battery1` when the battery is very low                        |
 | battery1           | 0-4 are used in DSi mode                                                    |
@@ -57,15 +59,15 @@ These must be PNG files, any file will work however only 100% transparency will 
 ### Paletted textures (`grf` folder)
 These must be 4 BPP (16 color) BMP files files.
 
-To edit these in GIMP select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
+To edit these in GIMP, select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
 
 **Note:** Some images in the DSi theme have their palettes overridden based on the user's profile color. If editing the colors of these ensure that the `UserPalette` option for it in the `theme.ini` is set to `0`.
 
 After converting to indexed, go to the colormap dialog and ensure the transparent color (#FF00FF) is color #0 in the colormap. If it isn't, right click in the colormap and select `Rearrange Colormap...` then move the transparent color to be the first color in the colormap and select `OK`.
 
-If there are fewer than 16 colors in your final colormap press the `+` button at the bottom of the colormap dialog until you have 16 colors.
+If there are fewer than 16 colors in your final colormap, press the `+` button at the bottom of the colormap dialog until you have 16 colors.
 
-When exporting it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
+When exporting, it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
 
 | Texture       | Description                                                                                     |
 | ------------- | ----------------------------------------------------------------------------------------------- |
@@ -120,7 +122,7 @@ These must be PNG files.
 | topbg      | Background for the top screen on any other DS model |
 
 ### UI textures (`ui` folder)
-These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all related textures so that it's properly overwritten on change.
+These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
 | Texture          | Description                                             |
 | ---------------- | ------------------------------------------------------- |
@@ -133,9 +135,10 @@ These must be PNG files, any file will work however only 100% transparency will 
 Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
 
 ### Volume textures (`volume` folder)
-These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them so that it's properly overwritten on change.
+These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture | Description                      |
+
+| Texture | Description/Notes                |
 | ------- | -------------------------------- |
 | volume0 | Volume is only shown in DSi mode |
 | volume1 | 0 is muted, 4 is full volume     |
@@ -144,9 +147,9 @@ These must be PNG files, any file will work however only 100% transparency will 
 | volume4 |                                  |
 
 ## Theme configuration (`theme.ini` file)
-You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger sprites or textures. For true/false options `0` is false and `1` is true. Options with a blank default value for a theme are unused for that theme.
+You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger graphics or different layouts. For true/false options, `0` is false, and `1` is true. Options with a blank default value for a theme are unused in that theme.
 
-| Value                      | Description                                                                                                                     | Default (3DS) | Default (DSi) |
+| Value                      | Description/Notes                                                                                                               | Default (3DS) | Default (DSi) |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- |
 | `StartBorderRenderY`       | The initial Y position of the Start Border                                                                                      | 92            | 81            |
 | `StartBorderSpriteW`       | The width of the start border sprite. Note that the start border texture is exactly half of the full border                     | 32            | 32            |
@@ -215,11 +218,14 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 ### Macro Mode options
 You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
 
+## Custom background music and sound effects
+The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+
+## Custom fonts
+You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+
 ## Part 3: Adding to TWiLight Menu++
 Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
 
 ## Part 4: Sharing your skin
 Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
-
-## Custom background music and sound effects
-The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
