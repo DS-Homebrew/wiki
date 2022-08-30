@@ -37,7 +37,7 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 | bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Maco Mode                    |
 
 ### Battery textures (`battery` folder)
-These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
+These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
 | Texture            | Description/Notes                                                           |
 | ------------------ | --------------------------------------------------------------------------- |
@@ -137,7 +137,7 @@ Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For
 ### Volume textures (`volume` folder)
 Volume textures are only displayed in DSi Mode.
 
-These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
+These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
 
 | Texture | Description/Notes                |
@@ -202,10 +202,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `FontPaletteOverlay2`      | The override color of the font for overlayed text                                                                               | 0xDEF7        | 0xDEF7        |
 | `FontPaletteOverlay3`      |                                                                                                                                 | 0xC631        | 0xC631        |
 | `FontPaletteOverlay4`      |                                                                                                                                 | 0xA108        | 0xA108        |
-| `FontPaletteName1`         | The override transparent color of the font for the username                                                                     | 0x0000        | 0x0000        |
-| `FontPaletteName2`         | The override color of the font for the username                                                                                 | 0xDEF7        | 0xDEF7        |
-| `FontPaletteName3`         |                                                                                                                                 | 0xC631        | 0xC631        |
-| `FontPaletteName4`         |                                                                                                                                 | 0xA108        | 0xA108        |
+| `FontPaletteUsername1`     | The override transparent color of the font for the username                                                                     | 0x0000        | 0x0000        |
+| `FontPaletteUsername2`     | The override color of the font for the username                                                                                 | 0xDEF7        | 0xDEF7        |
+| `FontPaletteUsername3`     |                                                                                                                                 | 0xC631        | 0xC631        |
+| `FontPaletteUsername4`     |                                                                                                                                 | 0xA108        | 0xA108        |
 | `StartTextUserPalette`     | Whether or not to use the DS Profile color for the palette of the start text                                                    |               | 1             |
 | `StartBorderUserPalette`   | Whether or not to use the DS Profile color for the palette of the start border                                                  |               | 1             |
 | `ButtonArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen                     |               | 1             |
