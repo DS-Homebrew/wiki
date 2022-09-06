@@ -42,8 +42,9 @@ There are also timing issues and AP measures (which most are already removed), b
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Edit values in the RAM using the in-game menu
@@ -51,7 +52,7 @@ There are also timing issues and AP measures (which most are already removed), b
 #### What is a Donor ROM?
 In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
 A Donor ROM can be set using **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
 - **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
      - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
