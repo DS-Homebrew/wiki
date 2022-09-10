@@ -7,7 +7,7 @@ title: How to Get Box Art
 description: How to get box art/game covers in TWiLight Menu++
 tabs:
   - windows: Windows
-    macos_linux: macOS/Linux
+    other: macOS/Linux
     manual: Manual
 ---
 
