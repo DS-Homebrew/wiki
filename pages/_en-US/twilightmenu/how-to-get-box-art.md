@@ -49,7 +49,8 @@ tabs:
 
 **To add your own box art:**
 Place them in `sd:/_nds/TWiLightMenu/boxart`.
-Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`).
-Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143.
+- Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`)
+- Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143
+- If using cached box art, the image size must be 44 KiB or below. You can use a tool like [tinypng](https://tinypng.com/) to compress the images to an acceptable size
 
 Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
