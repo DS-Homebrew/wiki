@@ -14,7 +14,7 @@ This page contains a list of working or WIP video players for the Nintendo DS an
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |
-|FastVideo       |`.fv`                           |DSi and NDS     |Unknown                                    |60fps (Current build only supports 24fps)      |
+|FastVideo       |`.fv`                           |DSi and NDS     |Unknown                                    |60fps                                          |
 |MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |
 |Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|
 
