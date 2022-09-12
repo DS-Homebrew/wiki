@@ -12,9 +12,9 @@ This page contains a list of working or WIP video players for the Nintendo DS an
 
 |Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|
+|FastVideo       |`.fv`                           |DSi and NDS     |Confetti spam slows down high FPS video.   |60fps                                          |
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |
-|FastVideo       |`.fv`                           |DSi and NDS     |Unknown                                    |60fps                                          |
 |MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |
 |Rocket Video    |`.rvid`, Raw/LZ77               |DSi and NDS     |Dumps frames in an uncompressed format.    |up to 25fps (Progressive) or 50fps (Interlaced)|
 
@@ -24,6 +24,13 @@ Notes:
 
 Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
 {: .alert .alert-warning}
+
+## FastVideoDS
+
+### Windows
+
+Download the below `.bat` file, and drag and drop your video into it.
+- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
 
 ## Moonshell video conversion (DPG4x)
 
