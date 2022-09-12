@@ -12,7 +12,7 @@ This page contains a list of working or WIP video players for the Nintendo DS an
 
 |Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |
 |----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|
-|FastVideoDS     |`.fv` FastVideo                 |DSi and NDS     |Confetti spam slows down high FPS video.   |60fps                                          |
+|FastVideoDS     |`.fv`, FastVideo                |DSi and NDS     |Confetti spam slows down high FPS video.   |60fps                                          |
 |Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |
 |Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |
 |MPEG4Player     |`.mp4`, H.264                   |DSi and NDS     |Can only play short videos.                |24fps                                          |
