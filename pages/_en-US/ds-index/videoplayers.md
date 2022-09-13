@@ -29,7 +29,7 @@ Warning: Converting large files in Rocket Video converter may cause you to loose
 
 ### Windows
 
-Download the below `.bat` file, and drag and drop your video into it.
+Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
 - [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
 
 ## Moonshell video conversion (DPG4x)
