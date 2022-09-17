@@ -60,12 +60,6 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
-After you extract the pack for your card, you can edit `sd:/_nds/nds-bootstrap.ini` and change the following settings.
-- BOOST_CPU: If set to 1, TWL clock speed is used, so lags begone
-- SOUND_FREQ: If set to 1, sound will play at 48khz, instead of 32khz
-- LANGUAGE: If set to -1, the system language will be used
-- REGION: If set to -2, the DSiWare game's region will be used instead of the system's
-
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
 If you already have TWiLight Menu++, skip to the next section.
