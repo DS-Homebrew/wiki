@@ -37,6 +37,10 @@ description: DS(i) Games that have special properties
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
