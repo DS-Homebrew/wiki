@@ -148,6 +148,24 @@ Total: 39, some may be missing
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
+### DSiWare games with backup code
+These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+
+- Cake Ninja
+   - Unused, so hacking is required to activate the code
+- Cake Ninja 2
+   - Unused, so hacking is required to activate the code
+- Cake Ninja: XMAS
+   - Unused, so hacking is required to activate the code
+- Dragon Quest Wars
+- Dreamwalker
+   - Unused, so hacking is required to activate the code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
+
 ### Games that can connect with GBA titles
 Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
 
