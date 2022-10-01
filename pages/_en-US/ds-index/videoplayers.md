@@ -29,8 +29,11 @@ Warning: Converting large files in Rocket Video converter may cause you to loose
 
 ### Windows
 
-Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
+1. Download the encoder [here](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
 - [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+
+When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
 ## Moonshell video conversion (DPG4x)
 
