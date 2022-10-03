@@ -27,6 +27,9 @@ Warning: Converting large files in Rocket Video converter may cause you to loose
 
 ## FastVideoDS
 
+Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
+{: .alert .alert-warning}
+
 ### Windows
 
 1. Download the encoder [here](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
