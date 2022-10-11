@@ -62,6 +62,10 @@ description: DS(i) Games that have special properties
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
    - Icon is animated
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
+   - Icon is animated
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
    - Wireless features removed
