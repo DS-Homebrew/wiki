@@ -7,21 +7,18 @@ title: How to Create DSi/3DS Skins
 description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 
-To make a TWiLight Menu++ skin, you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally, it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide, as it's capable of everything needed.
+Making skins for TWiLight Menu++ requires an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp`/`.png` files, and 4 BPP `.bmp` files. Ideally, it should also be able to manually rearrange image palettes.
+- [GIMP](https://www.gimp.org) is recommended and will be used for this guide, but any editor with these capabilities should work.
+- For paletted images, GIMP has a toggleable Colormap Dialog window. Enable it via `Windows` -> `Dockable Dialogs` -> `Colormap`
 
 ## Part 1: Download the examples
 The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format, so if you have issues later on, you can compare with these.
 
 ## Part 2: Editing images
-Download and install [GIMP](https://www.gimp.org)
-- Other image editors such as Photoshop may work, but GIMP is what will be used in this guide
-
-Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
-
-You can now open whichever image you want to edit in GIMP and continue to the section below based on which folder it's in. Note that TWiLight Menu++ is picky about the exact format of the images and it varies by which folder they're in, so make sure to export as the section says.
+With the image editor described above, you are now ready to edit any image based from a TWiLight Menu++ skin, as long as the format remains the same from the source specification. They are categorized by folders, each of them being located on the skin root folder.
 
 ### Background textures (`background` folder)
-These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
+These can be either PNG or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 - If using BMP files, you can set them to 16-bit under Advanced Options while exporting. You may need to do this each time you export as BMP
 
 | Texture             | Description                                                                                            |
@@ -57,17 +54,20 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 | batterylow         | Used when in DS mode                                                        |
 
 ### Paletted textures (`grf` folder)
-These must be 4 BPP (16 color) BMP files files.
+These must be 4 BPP (16 color) BMP files.
 
-To edit these in GIMP, select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
+Editing these in GIMP requires the image to be set in "RGB" mode, toggleable via the setting in `Image` -> `Mode` -> `RGB`.
+- When done, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted.
+
+Indexed Images requires an exact count of 16 colors, with the first of which (#0) being transparent (#FF00FF).
+- To set the transparent color as the first entry in the colormap, right click the colormap and select `Rearrange Colormap...`. Then, simply move the transparent color to the slot and select `OK`.
+- If there are over 16 colors, set `Maximum number of colors` to 16.
+- If there are fewer than 16 colors, press the `+` button at the bottom of the colormap dialog as many times as needed.
 
 **Note:** Some images in the DSi theme have their palettes overridden based on the user's profile color. If editing the colors of these ensure that the `UserPalette` option for it in the `theme.ini` is set to `0`.
 
-After converting to indexed, go to the colormap dialog and ensure the transparent color (#FF00FF) is color #0 in the colormap. If it isn't, right click in the colormap and select `Rearrange Colormap...` then move the transparent color to be the first color in the colormap and select `OK`.
-
-If there are fewer than 16 colors in your final colormap, press the `+` button at the bottom of the colormap dialog until you have 16 colors.
-
-When exporting, it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
+- When switching to indexed, ensure that `Generate optimum palette` is checked
+- When exporting, it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
 
 | Texture       | Description                                                                                     |
 | ------------- | ----------------------------------------------------------------------------------------------- |
@@ -132,7 +132,7 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 | Rshoulder_greyed | The right shoulder when there are no pages to the right |
 
 ### Video texture (`video` folder)
-Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
+The `3dsRotatingCubes.rvid` file is an animated video in the Rocket Video format, used exclusively on the Nintendo 3DS theme. The default purpose is to recreate the top screen boxes animation, but can be disabled by simply deleting the file. For more information, please read the "[Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid)" page on the Vid2RVID wiki.
 
 ### Volume textures (`volume` folder)
 Volume textures are only displayed in DSi Mode.
@@ -221,10 +221,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
 
 ## Custom background music and sound effects
-The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+Skins can [set an override](custom-dsi-3ds-sfx) to custom music and sound effects for the Nintendo DSi & Nintendo 3DS themes.
 
 ## Custom fonts
-You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+Custom fonts can be loaded from skins, whether globally or specific sections (`date_time.nftr`/`username.nftr`). Place them in `ui` -> `font`, according to the selection specified in the "[Custom Fonts](custom-fonts)" page.
 
 ## Part 3: Adding to TWiLight Menu++
 Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.

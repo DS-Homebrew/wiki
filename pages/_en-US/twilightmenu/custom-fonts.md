@@ -22,10 +22,10 @@ Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[fo
 
 The `-ds` and `-dsi` files have higher priority than the normal one and if found will be used when TWiLight Menu++ is running in DS or DSi Mode respectively.
 
-### Skin fonts
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
-
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+### Skin-Dependent fonts
+[Custom skins](custom-dsi-3ds-skins) for the Nintendo DSi/Nintendo 3DS themes can override the font setting for the general UI. These overrides are to be placed within the skin's `font` folder.
+- Specific elements could have their font overridden, by titling the file according to the specifications set by the page above
+- Delete the files within the skin in order to restore the font to whatever was specified in the TWiLight Menu++ settings
 
 ### Generating custom fonts
 You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
