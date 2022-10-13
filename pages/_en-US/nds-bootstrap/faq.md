@@ -47,7 +47,7 @@ There are also timing issues and AP measures (which most are already removed), b
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Edit values in the RAM using the in-game menu
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### What is a Donor ROM?
 In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
