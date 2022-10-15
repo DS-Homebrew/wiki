@@ -45,6 +45,8 @@ description: DS(i) Games that have special properties
    - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
