@@ -14,7 +14,7 @@ Affinché GBARunner2 possa avviare i titoli, è necessario un dump del BIOS GBA.
    - Non **è** possibile scaricare il BIOS del GBA su un DSi
 - [Wii (non family edition)/GameCube, GBA, e link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
-Dopo il dump del BIOS, deve essere rinominato in `bios.in` e posizionato in `sd:/`, `sd:/gba/`, o in `sd:/_gba/` per farlo leggere a GBARunner2.
+Dopo il dump del BIOS, deve essere rinominato in `bios.bin` e posizionato in `sd:/`, `sd:/gba/`, o in `sd:/_gba/` per farlo leggere a GBARunner2.
 
 Puoi verificare che il tuo BIOS sia un dump corretto confrontandolo con i seguenti checksum:
 

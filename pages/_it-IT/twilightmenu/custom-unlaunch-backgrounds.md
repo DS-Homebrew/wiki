@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: customization
 title: Sfondi personalizzati per Unlaunch
-description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
+description: Come creare sfondi di avvio personalizzati e installarli con TWiLight Menu++
 ---
 
 Potete trovare degli sfondi per Unlaunch su [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).

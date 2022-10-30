@@ -13,7 +13,7 @@ La maggior parte dei file GIF fino a 256x192 dovrebbe funzionare, con alcune ecc
 - I file GIF sopra 1 MiB (Modalità DSi) o 256 KiB (Modalità DS) potrebbero non essere riprodotti a piena velocità in quanto saranno decompressi al volo
 - Tra i due, le GIF devono essere inferiori a circa 10 MB (Modalità DSI) o circa 2 MB (Modalità DS)
 - Se entrambe le GIF sono impostate su loop per sempre, verranno mostrate per 3 secondi, quindi imposta un conteggio del loop su almeno uno per controllare il tempo
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
+- Il flag per l'input dell'utente è supportato, quindi impostalo insieme a un ritardo prolungato su un fotogramma, se vuoi mostrare uno splash e attendere come nelle impostazioni predefinite
    - Solo la GIF che aspetta un input viene stoppata, così le altre possono continuare
 - If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+- I fotogrammi interlacciati e di testo non funzionano

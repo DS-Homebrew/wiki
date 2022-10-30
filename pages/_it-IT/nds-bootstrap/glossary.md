@@ -10,7 +10,7 @@ description: Glossario per nds-bootstrap
 Possono essere trovate nelle impostazioni del singolo gioco di TWiLight Menu++. Alcune di queste opzioni possono anche essere cambiate nel menu in-game di nds-bootstrap
 
 ### Versione SDK
-The version of the Software Development Kit (SDK) that was used to compile the ROM.
+La versione del Software Development Kit (SDK) utilizzata per compilare la ROM.
 
 ### Numero di salvataggio
 Il file di salvataggio del gioco avrà l'estensione `.savX`, dove X è il numero di salvataggio se non è 0. Questo permette di salvare fino a 10 file di salvataggio per la stessa ROM.
@@ -27,14 +27,14 @@ Cambia la modalità della Video Random Access Memory (VRAM) del sistema. Le ROM 
 ### Lettura scheda DMA
 Abilita l'uso del Direct Memory Access (DMA) per la lettura della scheda. Attivare questa impostazione può accelerare le ROM ma può causare problemi. Maggiori informazioni tecniche sono disponibili sul [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
-### Ex. ROM space in RAM
-If a game is small enough, it can be loaded into the system's RAM to speed up loading times. Turning this option on will increase the size limit for ROMs, but might break some.
+### E spandi lo spazio della ROM nella RAM
+Se un gioco è abbastanza piccolo, può essere caricato nella RAM del sistema per accelerare i tempi di caricamento. L'attivazione di questa opzione aumenta il limite di dimensione delle ROM, ma potrebbe causare incompatibilità con alcune.
 
-### Direct Boot
-Appears only for homebrew ROMs. Setting this to On will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
+### Avvio diretto
+Appare solo per le ROM homebrew. Attivare questa opzione farà sì che nds-bootstrap non venga utilizzato per avviare la ROM. È utile per le ROM homebrew che non hanno bisogno o non funzionano con nds-bootstrap.
 
 ### Bootstrap
-Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
+Cambia se eseguire la ROM con la versione Release o Nightly di nds-bootstrap. Le informazioni sulle build Nightly si trovano nella [pagina delle domande frequenti di nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
 
 ### Proporzioni schermo
-Su sistemi Nintendo 3DS, le proporzioni dello schermo possono essere cambiate da 4:3 (predefinite su DS/DSi) a 16:10. Only works if [widescreen is enabled](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).
+Su sistemi Nintendo 3DS, le proporzioni dello schermo possono essere cambiate da 4:3 (predefinite su DS/DSi) a 16:10. Funziona solo se il [widescreen è abilitato](https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen).

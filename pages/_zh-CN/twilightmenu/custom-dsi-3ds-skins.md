@@ -7,65 +7,65 @@ title: 如何创建DSi/3DS皮肤
 description: 如何为TWiLight Menu++ 制作自定义DSi 和 3DS 皮肤
 ---
 
-To make a TWiLight Menu++ skin you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide as it's capable of everything needed.
+要制作TWiLight Menu++皮肤，你需要一个能够输出 `.png` 文件、16个 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` 文件或 `.png` 文件和4个BPP `.bmp` 文件的图像编辑器。 理想情况下，它还应该能够手动重新排列图像调色板。 [推荐使用GIMP](https://www.gimp.org) ，并将用于本指南，因为它能够满足一切需要。
 
-## Part 1: Download the examples
-The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format so if you have issues later on you can compare with these.
+## 第一部分：下载示例
+你应该做的第一件事是下载 [示例皮肤](/assets/files/skin-examples.zip)。 这些可以作为你的皮肤的基础，而且已经有了正确的格式，所以如果你以后有问题，你可以用这些进行比较。
 
-## Part 2: Editing images
-Download and install [GIMP](https://www.gimp.org), you can use a different editor if you want but this guide uses GIMP.
+## 第2部分：编辑图像
+下载并安装 [GIMP](https://www.gimp.org)，如果你愿意，你可以使用不同的编辑器，但本指南使用GIMP。
 
-Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
+安装后，打开GIMP，选择 `Windows` -> `Dockable Dialogs` -> `Colormap`。 这将打开颜色映射对话框，这在编辑调色板图像时很有帮助。
 
-You can now open whichever image you want to edit in GIMP and continue to the section below based on which folder it's in. Note that TWiLight Menu++ is picky about the exact format of the images and it varies by which folder they're in, so make sure to export as the section says.
+现在你可以在GIMP中打开你想编辑的任何一张图片，然后根据它所在的文件夹继续进入下面的章节。 请注意，TWiLight Menu++对图片的确切格式很挑剔，它因图片在哪个文件夹中而不同，所以要确保按照该部分的规定导出。
 
-### Background textures (`background` folder)
-These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
+### 背景纹理 (`背景` 文件夹)
+这些可以是PNG文件或16位(`A1 R5 G5 B5` 或 `X1 R5 G5 B5`) BMP文件。
 
-| Texture            | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
-| bottom             | The bottom background texture when not hovering over an icon                                      |
-| bottom_bubble      | The bottom background texture when hovering over an icon                                          |
-| bottom_ds          | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS lite |
-| bottom_bubble_ds | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS lite     |
-| top                |                                                                                                   |
+| 纹理                 | 描述                                |
+| ------------------ | --------------------------------- |
+| bottom             | 不悬停在图标上时的底部背景纹理                   |
+| bottom_bubble      | 不悬停在图标上时的底部背景纹理                   |
+| bottom_ds          | 对于3DS主题，在DS lite上没有悬停在图标上时的底部背景纹理 |
+| bottom_bubble_ds | 对于3DS主题，在DS lite上没有悬停在图标上时的底部背景纹理 |
+| top                |                                   |
 
-### Battery textures (`battery` folder)
-These must be PNG files, any file will work however only 100% transparency will work. Any pixel that is transparent in one icon should be transparent in all of them so that it's properly overwritten on change.
+### 电池纹理 (`电池` 文件夹)
+这些必须是PNG文件，任何文件都可以，但只有100%的透明度可以。 任何在一个图标中是透明的像素在所有的图标中都应该是透明的，这样它在变化时就会被正确覆盖。
 
-| Texture            | Description                                                                 |
-| ------------------ | --------------------------------------------------------------------------- |
-| battery0           | Flashes with `battery1` when the battery is very low                        |
-| battery1           | 0-4 are used in DSi mode                                                    |
-| battery1purple     | Purple icons are used when `Power LED color` is set to `Purple` in settings |
-| battery2           |                                                                             |
-| battery2purple     |                                                                             |
-| battery3           |                                                                             |
-| battery3purple     |                                                                             |
-| battery4           |                                                                             |
-| battery4purple     |                                                                             |
-| batterycharge      |                                                                             |
-| batterychargeblink | Flashes with `batterycharge` while charging                                 |
-| batteryfull        | Used when in DS mode on DSi/3DS                                             |
-| batteryfullDS      | Used when on DS Phat/DS Lite                                                |
-| batterylow         | Used when in DS mode                                                        |
+| 纹理                 | 描述                                    |
+| ------------------ | ------------------------------------- |
+| battery0           | 电池电量极低时闪烁 `电池1`                       |
+| battery1           | 0-4在DSi模式下使用                          |
+| battery1purple     | 当 `电源LED颜色` ，在设置中被设置为 `紫色` ，就会使用紫色图标。 |
+| battery2           |                                       |
+| battery2purple     |                                       |
+| battery3           |                                       |
+| battery3purple     |                                       |
+| battery4           |                                       |
+| battery4purple     |                                       |
+| batterycharge      |                                       |
+| batterychargeblink | 充电时闪烁， `电池电量`                         |
+| batteryfull        | 在DSi/3DS的DS模式下使用。                     |
+| batteryfullDS      | 在DS Phat/DS Lite上使用                   |
+| batterylow         | 在DS模式时使用                              |
 
-### Paletted textures (`grf` folder)
-These must be 4 BPP (16 color) BMP files files.
+### 调色板纹理(`grf` 文件夹)
+这些必须是4个BPP（16色）BMP文件的文件。
 
-To edit these in GIMP select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
+要在GIMP中编辑这些，选择 `Image` -> `Mode` -> `RGB` ，以允许改变颜色，然后在改变颜色后选择 `Image` -> `Mode` -> `Indexed...` ，以转换回调色板。 当切换到索引时，确保勾选 `生成最佳调色板` ，并将 `最大颜色数` 设置为 `16`。
 
-**Note:** Some images in the DSi theme have their palettes overridden based on the user's profile color. If editing the colors of these ensure that the `UserPalette` option for it in the `theme.ini` is set to `0`.
+**注意：** DSi主题中的一些图片的调色板是根据用户的个人资料颜色来覆盖的。 如果要编辑这些颜色，请确保 `UserPalette` 在 `theme.ini` 中为其设置的选项是 `0`。
 
-After converting to indexed, go to the colormap dialog and ensure the transparent color (#FF00FF) is color #0 in the colormap. If it isn't, right click in the colormap and select `Rearrange Colormap...` then move the transparent color to be the first color in the colormap and select `OK`.
+在转换为索引后，进入颜色映射对话框，确保透明色（#FF00FF）是颜色映射中的#0。 如果不是，在颜色图中点击右键，选择 `重新排列颜色图...` ，然后将透明色移动到颜色图中的第一个颜色，并选择 `确定`。
 
-If there are fewer than 16 colors in your final colormap press the `+` button at the bottom of the colormap dialog until you have 16 colors.
+如果您的最后颜色表中的颜色少于16个，请按颜色表对话框底部的 `+` 按钮直到您有 16 个颜色。
 
-When exporting it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
+导出时，建议勾选 `，不要写色彩空间信息` ，在 `兼容性选项` 下拉框。
 
-| Texture       | Description                                                                                     |
+| 纹理            | 描述                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------- |
-| bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                   |
+| bips          | 显示在滚动条底部的提示音（DSi主题）。                                                                            |
 | box           | The box texture, containing both full and empty textures (DSi Theme)                            |
 | box_empty     | The texture displayed for an empty box (3DS Theme)                                              |
 | box_full      | The texture displayed for a box with an icon (3DS Theme)                                        |

@@ -7,7 +7,7 @@ long_title: Domande frequenti e Risoluzione dei problemi di nds-bootstrap
 description: FAQ & Risoluzione dei problemi per nds-bootstrap
 ---
 
-#### Sto avendo problemi con la mia ROM, cosa dovrei fare?
+#### Ho problemi con le mie ROM, cosa devo fare?
 - Assicurati di avere l'ultima versione di [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) e [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) se lo stai utilizzando (le istruzioni di aggiornamento sono fornite in ogni pagina delle versioni)
 - Controlla [l'elenco di compatibilità di nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) per vedere se è un problema noto nell'ultima versione di nds-bootstrap
 - Prova a disabilitare tutti i trucchi per quel gioco, visto che al momento non tutti sono compatibili con nds-bootstrap; premere <kbd class="l">L</kbd> nel menu dei trucchi del gioco su **TW**i**L**ight Menu++ disabiliterà tutti i trucchi attivati
@@ -49,20 +49,20 @@ nds-bootstrap applica una patch alle funzioni ROM da eseguire da una scheda SD, 
 #### Che cos'è una ROM donatrice?
 In nds-bootstrap, quando un gioco non si avvia, viene usata un'altra ROM per "donare" il suo binario ARM7 (e ARM7i, se disponibile) al gioco da eseguire, al posto di quello del gioco stesso.     
 Una ROM donatrice può essere impostata usando **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
-- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
-- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
+- **Flashcard in modalità DS:** I pochi titoli DSi-Exclusive/DSiWare supportati richiederanno una ROM DSi-Enhanced come ROM donatrice
+- **DSiWarehax:** Poiché sia i giochi DSi-Enhanced che (la maggior parte de) i giochi DSi-Exclusive/DSiWare contengono impostazioni MBK diverse l'uno dall'altro, i giochi DSi-Enhanced non si avvieranno in modalità DSi senza una ROM donatrice. Impostando un titolo DSi-Exclusive/DSiWare come ROM donatrice, i giochi DSi-Enhanced saranno in grado di funzionare con le impostazioni MBK impostate dal titolo DSiWare su cui viene utilizzato l'exploit
+- **CycloDS iEvolution:** Stesso caso di DSiWarehax, ma i titoli DSi-Exclusive/DSiWare richiederanno un gioco DSi-Enhanced impostato come ROM donatrice, invece del contrario
 
-#### What is the best Donor ROM?
-There is no *best* one to use.     
-If you're a DSiWarehax user, it is preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM.     
-If you own a 3DS console though, it is preferable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
+#### Qual è la migliore ROM donatrice?
+Non esiste la *migliore* da utilizzare.     
+Se usi DSiWarehax, è preferibile impostare una ROM SDK5 che contenga una sotto-versione superiore a 0. Tuttavia, se non disponi di una ROM DSiWare esistente, è possibile scaricare una ROM di *Sound Nintendo DSi* (SDK5.0) utilizzando GodMode9**i**, e impostare DSi Sound come ROM donatrice.     
+Se possiedi una console 3DS, tuttavia, è preferibile scaricare la ROM DS WiFi Settings (SDK5.5) utilizzando GodMode9, e impostare invece DS WiFi Settings come ROM donatrice, poiché in questo modo è possibile attivare la modalità di sospensione in DSiWare senza attendere 9 secondi.
 
-#### Why can't I set a Donor ROM?
-If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
+#### Perché non posso impostare una ROM donatrice?
+Se c'è un titolo che richiede una ROM donatrice, e la ROM che TWLMenu++ ha dichiarato di trovare non mostra l'opzione per impostarla come tale (a patto che siate scesi in basso), allora trova un'altra ROM da impostare come donatrice.
 
-#### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### Che cos'è una nightly e dove posso trovarla?
+Una build nightly è una build per l'ultimo commit. Le build nightly possono essere instabili, ma contiene le correzioni più recenti. È possibile ottenere le build nightly per nds-bootstrap [qui](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information

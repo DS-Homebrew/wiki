@@ -10,4 +10,4 @@ Tutaj znajdziesz informacje o naszej społeczności, takie jak zasady dla naszeg
 - Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- Strona: [ds-homebrew.com](https://ds-homebrew.com)

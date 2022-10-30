@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: other
 title: Come Ottenere Box Art
-description: How to get box art/game covers in TWiLight Menu++
+description: Come ottenere le box art/le copertine dei giochi in TWiLight Menu++
 ---
 
 ### Windows

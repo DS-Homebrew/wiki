@@ -78,58 +78,58 @@ Looking at the bottom of the title label shows the title ID along with other bit
 
 - NTR-NTRJ-**XXX**
 
-**XXX** represents the following:
+**XXX** rappresenta quanto segue:
 
 - AUS - Australia
-- CHN - China
-- DEN - Denmark
-- EUR - Europe (Multilingual)
-- EUU - Europe (Dutch or Italian Only)
-- FRA - France
-- GER - Germany
-- HOL - Netherlands
-- ITA - Italian
-- JPN - Japan
-- KOR - Korea
-- NOE - Europe (German Only)
-- NOR - Norway
+- CHN - Cina
+- DEN - Danimarca
+- EUR - Europe (multilingua)
+- EUU - Europa (solo olandese o italiano)
+- FRA - Francia
+- GER - Germania
+- HOL - Paesi Bassi
+- ITA - Italiano
+- JPN - Giappone
+- KOR - Corea
+- NOE - Europa (solo tedesco)
+- NOR - Norvegia
 - RUS - Russia
-- SPA - Spain
-- UKV - United Kingdom
-- USA - United States
+- SPA - Spagna
+- UKV - Regno Unito
+- USA - Stati Uniti
 
 The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
 
 - NTR-NTR**X**-JPN
 
-**X** represents the following:
+**X** rappresenta quanto segue:
 
-- A - World (doesn't count as only one thing used it)
-- C - Chinese (Simplified)
-- D - German
-- E - American English
-- F - French
-- G - Greek
-- H - Dutch
-- I - Italian
-- J - Japanese
-- K - Korean
-- M - Swedish
-- N - Norwegian
-- O - English (DSi Enhanced)
-- P - European Multilingual
-- Q - Danish
-- R - Russian
-- S - Spanish
-- T - English (DSi Enhanced)
-- U - Australian English
-- V - British English
-- W - Other languages (Varies)
-- X - Other languages (Varies)
-- Y - Other languages (Varies)
-- Z - Other languages (Varies)
+- A - Mondo (non conta perché è stato usato solo per una cosa)
+- C - Cinese (semplificato)
+- D - Tedesco
+- E - Inglese americano
+- F - Francese
+- G - Greco
+- H - Olandese
+- I - Italiano
+- J - Giapponese
+- K - Coreano
+- M - Svedese
+- N - Norvegese
+- O - Inglese (DSi Enhanced)
+- P - Multilingue europeo
+- Q - Danese
+- R - Russo
+- S - Spagnolo
+- T - Inglese (DSi Enhanced)
+- U - Inglese australiano
+- V - Inglese britannico
+- W - Altre lingue (variabile)
+- X - Altre lingue (Varia)
+- Y - Altre lingue (variabile)
+- Z - Altre lingue (variabile)
 
-In terms of the system identifiers:
+In termini di identificatori di sistema:
 
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi

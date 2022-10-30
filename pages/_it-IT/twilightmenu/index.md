@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: it-IT
 section: twilightmenu
 title: TWiLight Menu++
-description: Guides on how to use and customize TWiLight Menu++
+description: Guide su come utilizzare e personalizzare TWiLight Menu++
 ---
 
 ![TWiLight Menu++ logo](https://github.com/DS-Homebrew/TWiLightMenu/raw/master/logo.png)

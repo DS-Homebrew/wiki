@@ -6,10 +6,10 @@ title: nds-bootstrap
 description: Informazioni su come usare nds-bootstrap
 ---
 
-[nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) is an open-source homebrew application which redirects Slot-1 read/writes from official Nintendo SDK games to the SD card, whether on a flashcard or the on-console SD card.
+[nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) è un'applicazione homebrew open-source che reindirizza le letture/scritture dello Slot-1 dai giochi ufficiali Nintendo SDK alla scheda SD, sia su una flashcard che sulla scheda SD della console.
 
-It also has a sub-project where it can run old homebrew meant for flashcards on a Nintendo DSi/3DS SD card.
+Ha anche un sottoprogetto in cui può eseguire vecchi homebrew destinati alle flashcard su una scheda SD del Nintendo DSi/3DS.
 
-- [Compatibility List](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=sharing)
-  - For edit access, press `View only` and then `Request edit access`.
+- [Elenco di compatibilità](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=sharing)
+  - Per accedere alla modifica, premi `Solo visualizzazione` e poi `Richiedi l'accesso`.
 - [Crowdin](https://crowdin.com/project/nds-bootstrap)

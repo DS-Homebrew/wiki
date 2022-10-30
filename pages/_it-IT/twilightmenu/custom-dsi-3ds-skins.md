@@ -15,7 +15,7 @@ La prima cosa da fare è scaricare le [skin di esempio](/assets/files/skin-examp
 ## Parte 2: Modifica delle immagini
 Scarica e installa [GIMP](https://www.gimp.org), puoi utilizzare anche altri editor, ma questa guida usa GIMP.
 
-Once installed, open GIMP and select `Windows` -> `Dockable Dialogs` -> `Colormap`. This opens the colormap dialog, which will be helpful when editing paletted images.
+Una volta installato, apri GIMP e seleziona `Windows` -> `Dockable Dialogs` -> `Colormap`. Apre la finestra di dialogo della mappa dei colori, utile per la modifica delle immagini con palette.
 
 A questo punto è possibile aprire l'immagine che si desidera modificare in GIMP e proseguire con la sezione sottostante in base alla cartella in cui si trova. Nota bene che TWiLight Menu++ è esigente per quanto riguarda il formato esatto delle immagini e varia a seconda della cartella in cui si trovano, quindi assicurati di esportarle come indicato nella sezione.
 
@@ -53,15 +53,15 @@ Devono essere file PNG, qualsiasi file funzionerà, ma solo con trasparenza al 1
 ### Texture della palette (cartella `grf`)
 Devono esserci 4 file BPP (16 colori) BMP.
 
-To edit these in GIMP select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
+Per modificarli in GIMP seleziona `Image` -> `Mode` -> `RGB` per consentire la modifica dei colori, quindi una volta terminata la modifica dei colori seleziona `Image` -> `Mode` -> `Indexed...` per convertire nuovamente in palette. Quando si passa all'indicizzazione, assicurartiche `Generate optimum palette` sia selezionato e `Maximum number of colors` sia impostato su `16`.
 
-**Nota:** Alcune immagini nel tema DSi hanno le palette sovrascritte in base al colore del profilo dell'utente. If editing the colors of these ensure that the `UserPalette` option for it in the `theme.ini` is set to `0`.
+**Nota:** Alcune immagini nel tema DSi hanno le palette sovrascritte in base al colore del profilo dell'utente. Se modifichi i colori di questi, assicurarsi che l'opzione `UserPalette` nel file `theme.ini` sia impostata su `0`.
 
-After converting to indexed, go to the colormap dialog and ensure the transparent color (#FF00FF) is color #0 in the colormap. If it isn't, right click in the colormap and select `Rearrange Colormap...` then move the transparent color to be the first color in the colormap and select `OK`.
+Dopo la conversione in indicizzato, accedi alla finestra di dialogo della mappa dei colori e assicurati che il colore trasparente (#FF00FF) sia il colore #0 nella mappa dei colori. In caso contrario, clicca con il pulsante destro del mouse sulla mappa dei colori e seleziona `Rearrange Colormap...` quindi sposta il colore trasparente in modo che sia il primo colore della mappa dei colori e seleziona `OK`.
 
-If there are fewer than 16 colors in your final colormap press the `+` button at the bottom of the colormap dialog until you have 16 colors.
+Se ci sono meno di 16 colori nella mappa dei colori finale, premi il pulsante `+` in fondo alla finestra di dialogo della mappa dei colori fino a ottenere 16 colori.
 
-When exporting it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
+Durante l'esportazione si consiglia di selezionare la casella `Do not write color space information` nel menu a discesa `Compatibility Options`.
 
 | Texture       | Descrizione                                                                                                 |
 | ------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -97,7 +97,7 @@ When exporting it's recommended to check the `Do not write color space informati
 | icon_ws       | L'icona dei giochi WonderSwan                                                                               |
 | launch_dot    | I punti mostrati all'avvio di un gioco (tema DSi)                                                           |
 | moving_arrow  | La freccia mostrata quando si sposta un gioco (tema DSi)                                                    |
-| progress      | The progress loading animation with 8 frames                                                                |
+| progress      | L'animazione di caricamento dell'avanzamento con 8 fotogrammi                                               |
 | scroll_window | La parte della barra di scorrimento che indica le icone visualizzate                                        |
 | small_cart    | Le icone visualizzate in alto (tema 3DS) e nel menu SELECT (tema DSi)                                       |
 | start_border  | Il bordo con i frame d'animazione indica l'icona selezionata (tema DSi)                                     |

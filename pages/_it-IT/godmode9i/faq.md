@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
-long_title: GodMode9i FAQ & Troubleshooting
-description: FAQ & Troubleshooting for GodMode9i
+title: Domande frequenti & risoluzione dei problemi
+long_title: Domande frequenti & risoluzione dei problemi di GodMode9i
+description: Domande frequenti & risoluzione dei problemi di GodMode9i
 ---
 
 #### How do I get past the "mounting drive(s)" screen while starting it up?

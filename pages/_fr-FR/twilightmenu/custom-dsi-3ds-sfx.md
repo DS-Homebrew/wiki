@@ -67,7 +67,7 @@ Pour exporter dans le bon format :
 1. Définissez `Type de fichier` à `Autres formats non-compressés`
 1. Définissez `En-tête` à `RAW (sans en-tête)`
 1. Définissez `Encodage` à `16 bits PCM signé`
-1. Définissez le nom de sortie à `bgm.pcm.raw` et cliquez sur `Savegarder`
+1. Définissez le nom de sortie à `bgm.pcm.raw` et cliquez sur `Sauvegarder`
 1. Cliquez sur `OK` pour accéder à l'édition des métadonnées
 
 Vous avez maintenant un fichier `bgm.pcm.raw` qui peut être copié dans le sous-dossier `sound` de votre dossier de thème.

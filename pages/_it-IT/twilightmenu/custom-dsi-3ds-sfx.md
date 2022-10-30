@@ -7,12 +7,12 @@ title: Skin DSi/3DS - Effetti sonori personalizzati
 description: Come utilizzare musica di sottofondo ed effetti sonori personalizzati nelle skin DSi e 3DS per TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
+TWiLight Menu++ supporta i file audio personalizzati nei temi. Colloca i file audio nella sottocartella `sound` della cartella del tema, ad esempio per il tema `white` i file vanno collocati rispettivamente in `themes/white/sound/sfx.bin` e `themes/white/sound/bgm.pcm.raw`. Entrambi i file sono opzionali; se `bmg.pcm.raw` manca, verrà utilizzata la musica predefinita. La stessa cosa accadrebbe con gli effetti sonori se mancasse anche `sfx.bin`.
 
-Queste istruzioni presuppongono che tu abbia devkitPro installato con mmutil. Puoi scaricare devkitPro sul sito ufficiale [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Queste istruzioni presuppongono che devkitPro sia installato con mmutil. Puoi scaricare devkitPro sul sito ufficiale [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
 
 ## Raccolta di Effetti Sonori
-The sound effect bank (sfx.bin) contains sound effects such as the icon select sound, etc.
+La raccolta degli effetti sonori (sfx.bin) contiene effetti sonori come il suono di selezione dell'icona, ecc.
 
 | File        | Descrizione                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------- |
@@ -24,52 +24,52 @@ The sound effect bank (sfx.bin) contains sound effects such as the icon select s
 | switch.wav  | Riprodotto quando si cambia pagina                                                            |
 | stop.wav    | Riprodotto sul tema DSi quando il cursore smette di muoversi                                  |
 
-All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
+Tutti i file sopra elencati sono necessari per creare una raccolta di effetti sonori personalizzati. Se desideri che un suono sia muto, è possibile utilizzare un file audio muto. Il formato `.wav` è obbligatorio e la codifica *deve* essere PCM.
 
-To build the sound effect bank you need to download [this file](/assets/files/Makefile) and put it next to all the `.wav` files that will be used. After all the files are on the same folder, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command.
+Per costruire la raccolta di effetti sonori è necessario scaricare [questo file](/assets/files/Makefile) e metterlo accanto a tutti i file `.wav` che verranno utilizzati. Dopo che tutti i file sono nella stessa cartella, apri il terminale (o la riga di comando se usate Windows), cambiate la directory corrente (`cd`) nella cartella in cui si trova `Makefile` e poi eseguite il comando `make`.
 
-You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+Si otterrà un file `sfx.bin` che può essere copiato nella sottocartella `sound` della cartella del tema. **Questo file deve essere inferiore a 512000B = 512 kB**. Qualsiasi file di dimensioni superiori a questo valore provocherà un arresto anomalo o la mancata riproduzione completa di alcuni suoni.
 
 ### Suono d'avvio
-While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+Mentre gli altri effetti sonori funzionano con qualsiasi file WAV con codifica PCM, il suono di avvio deve essere in un formato specifico per funzionare correttamente, altrimenti ci sarà un vuoto tra l'interruzione del suono di avvio e l'inizio della musica di sottofondo.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Il file startup.wav deve essere **16-bit 16 kHz**. È possibile utilizzare un programma come [Audacity](https://www.audacityteam.org/download/) per convertire in questo formato. Una volta caricato il file in Audacity, cambia **Project Rate (Hz)** in **16000**, quindi premi **Shift+M** e cambia **Format** in **16-bit PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Se il tuo file è in stereo, dovi anche andare su **Tracks > Mix > Mix Stereo down to Mono**.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+È necessario impostare `PlayStartupJingle=1` nel file `theme.ini` affinché il jingle di avvio venga riprodotto.
 
 
-## Menu BGM
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
+## Musica di sottofondo del menu
+Musica di sottofondo del menu deve essere un file PCM **16 bit 16 kHz Mono**. Di seguito sono riportati due metodi per convertire i file audio in tale formato.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+A differenza di sfx.bin, *bgm.pcm.raw* può essere arbitrariamente grande.
 
 ### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
+Il modo più semplice per convertire la musica da utilizzare in TWiLight Menu++ è eseguire il comando [ffmpeg](https://ffmpeg.org) in un terminale:
 
 ```bash
-ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+ffmpeg -i [file di input] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
 ```
 
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Sostituisci `[file di input]` con il nome del file che desideri convertire. Di solito è possibile farlo semplicemente trascinando nella posizione corretta con il cursore il file nella finestra del terminale.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+Se non vuoi usare la riga di comando, puoi anche convertire usando [Audacity](https://www.audacityteam.org/download/).
 
-To convert the audio:
-1. Load the file in Audacity
-1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+Per convertire l'audio:
+1. Caricare il file in Audacity
+1. Se il file è in stereo, clicca sul brano e seleziona `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Modifica `Project Rate (Hz)` in basso a sinistra in `16000`
 
-To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+Per esportare nel formato corretto:
+1. Seleziona `File` > `Export` > `Export Audio...`
+1. Imposta `File Type` a `Other uncompressed files`
+1. Imposta `Header` su `RAW (header-less)`
+1. Imposta `Encoding` a `Signed 16-bit PCM`
+1. Imposta il nome dell'output su `bgm.pcm.raw` e clicca su `Save`
+1. Clicca su `OK` alla modifica dei metadati
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Ora disponi di un file `bgm.pcm.raw` che può essere copiato nella sottocartella `sound` della cartella dei temi.
 
- You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
+ È quindi necessario impostare l'opzione `Musica Tema DSi/3DS` nelle impostazioni di TWiLight Menu++ su "Tema" affinché il BGM personalizzato venga riprodotto nel menu.

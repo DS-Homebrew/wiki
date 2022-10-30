@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: customization
 title: Stili del testo (font) personalizzati
-description: How to use custom fonts with TWiLight Menu++
+description: Come utilizzare i font personalizzati con TWiLight Menu++
 ---
 
 TWiLight Menu++ può utilizzare dei fonts personalizzati in formato NFTR (Nitro FonT Resource). Vengono applicati nelle Impostazioni, nel manuale, e nei temi del Nintendo DSi, Nintendo 3DS, SEGA Saturn, e Homebrew Launcher.

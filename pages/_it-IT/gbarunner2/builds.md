@@ -2,12 +2,12 @@
 lang: it-IT
 layout: wiki
 section: gbarunner2
-title: GBARunner2 Builds
-description: Information on the various GBARunner2 Builds and their uses
+title: Build di GBARunner2
+description: Informazioni sulle varie build di GBARunner2 e sul loro utilizzo
 ---
 
 
-There are a number of different GBARunner2 releases, or "builds," which one can use. They come from different branches and forks of GBARunner2 and have different features targeting either different GBA games or some different functions. **For most users**, using the build that comes with **TW**i**L**ight Menu++ is enough.
+Esistono diverse versioni di GBARunner2, o "build", che si possono utilizzare. They come from different branches and forks of GBARunner2 and have different features targeting either different GBA games or some different functions. **For most users**, using the build that comes with **TW**i**L**ight Menu++ is enough.
 
 ## DS vs DSi vs 3DS Builds
 
@@ -45,7 +45,7 @@ This branch might help if trying to run ROMs that are a bit larger on the DS, bu
 
 Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that merges the rom3M branch into the latest Master with some other neat features, and this is the build that comes with **TW**i**L**ight Menu++ if you are using a DS.
 
-## DSi- and 3DS-Specific Builds
+## Build specifiche per DSi e 3DS
 
 The DSi and 3DS can generally run the same builds, but due to the difference in amount of RAM between the DSi and 3DS the compatibility for games can differ. This means that the DSi might have trouble running larger ROMs that the 3DS can run fine.
 

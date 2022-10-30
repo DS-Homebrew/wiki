@@ -1,22 +1,22 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: ds-index
 category: reference
 title: Homebrew
-description: Information about homebrew on the Nintendo DS
+description: Informazioni sull'homebrew su Nintendo DS
 ---
 
-### Development
-Developing Nintendo DS homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
+### Sviluppo
+Lo sviluppo di homebrew per Nintendo DS utilizza tipicamente gli strumenti di devkitPro, come devkitARM, libnds e libfat. Tuttavia, c'è la possibilità di spaziare e di utilizzare software alternativi:
 
-- **SD card libraries:** [libfat](https://github.com/devkitPro/libfat) is included in libnds and generally recommended, [libslim](https://github.com/DS-Homebrew/libslim/) can sometimes work better but is unstable at times
-- **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended, however [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead
-- **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem, however [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development
+- **Librerie per schede SD:** [libfat](https://github.com/devkitPro/libfat) è inclusa in libnds e generalmente raccomandata, [libslim](https://github.com/DS-Homebrew/libslim/) a volte può funzionare meglio, ma può risultare instabile
+- **Librerie grafiche:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), che viene fornita con libnds, è raccomandata, tuttavia [NightFox Lib](https://github.com/knightfox75/nds_nflib) può essere utilizzata al suo posto
+- **Intere toolchain:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) e [libnds](https://libnds.devkitpro.org/) sono consigliate, in quanto includono la compatibilità con il DSi e hanno un ecosistema più ampio, tuttavia [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) è un'opzione per lo sviluppo esclusivo su flashcard
 
-To get started, [this GBAtemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. For more technical information on the DS(i), see [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
+Per iniziare, [questo thread di GBAtemp](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) contiene molte buone risorse per i principianti. Per ulteriori informazioni tecniche sul DS(i), consultare il sito [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
-### Flashcards
+### Flashcard
 DS mode flashcards are a Slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, have the ability to be used without modding your system, and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
 
 ### DLDI

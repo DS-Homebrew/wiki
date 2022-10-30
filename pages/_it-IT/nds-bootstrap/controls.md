@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: nds-bootstrap
 title: Controls

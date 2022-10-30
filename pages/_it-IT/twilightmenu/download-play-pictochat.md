@@ -1,10 +1,10 @@
 ---
-lang: en-US
+lang: it-IT
 layout: wiki
 section: twilightmenu
 category: other
 title: Scaricare Play/PictoChat nel menu classico del DS
-description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS Classic Menu
+description: Come ottenere DS Download Play e PictoChat nel Menu DS Classico di TWiLight Menu++
 ---
 
 Se stai usando una console DSi, dovresti essere già in grado di utilizzare queste applicazioni. Per ottenere i dump per la flashcard o per il 3DS è necessario accedere al menu classico del DS su un DSi. Altrimenti, se hai un 3DS senza dump esistenti, procedi di seguito.

@@ -9,15 +9,15 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
 ---
 
 ### Instalacja
-1. Pobierz najnowsze [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+1. Pobierz najnowszą wersje [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Wypakuj `TWiLightMenu-Flashcard.7z`
 1. Skopiuj folder `_nds` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj folder `roms` do katalogu głównego karty microSD nagrywarki
 1. Jeśli już masz dane zapisu, przenieś pliki `.sav`, które są umiejscowione razem z ROMami, do nowego folderu `saves`, który także ma się znaleźć razem z ROMami
 1. ...
-   - **użytkownicy DS Phat/Lite:**Jeśli uruchomienie `BOOT.NDS` powoduje zablokowanie na białym ekranie, włóż DS Memory Expansion Pak i spróbuj ponownie
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **Użytkownicy DS Phat/Lite:**Jeśli uruchamianie `BOOT.NDS` powoduje zablokowanie na białym ekranie, włóż DS Memory Expansion Pak i spróbuj ponownie
+   - **Użytkownicy DSi/3DS:** Uruchom TWLMenu++ na karcie SD konsoli, Otwórz Ustawienia TWLMenu++, zmień stronę ustawień na `Misc. Settings` i włącz `SCFG access in Slot-1` oraz ustaw `Slot-1: Touch Mode` na `DSi Mode` .
       - Pozwoli to na wykorzystanie prędkości zegara TWL i/lub zwiększenia pamięci VRAM w grach z karty flash, a także na dostęp do karty SD konsoli i uruchamianie gier DSi-Enhanced/DSi-Exclusive/DSiWare w trybie DSi z karty flash
       - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
 

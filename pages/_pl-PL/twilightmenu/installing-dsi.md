@@ -22,4 +22,4 @@ Jeśli nie masz jeszcze możliwości uruchomienia homebrew na swoim DSi, kliknij
 ### Autobootowanie z Unlaunch
 1. Włącz swojego DSi jednocześnie trzymając <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 1. W menu Unlaunch, wejdź w `OPTIONS`
-1. Przypisz `NO BUTTON` lub przycisk swojego wyboru do `TWiLight Menu++`, który ma napisane `BOOT.NDS` na dolnym ekranie
+1. Przypisz `NO BUTTON` lub przycisk swojego wyboru do `TWiLight Menu++`, z napisem `BOOT.NDS` na dolnym ekranie
