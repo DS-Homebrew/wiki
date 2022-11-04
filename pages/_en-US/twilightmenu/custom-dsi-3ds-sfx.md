@@ -7,7 +7,8 @@ title: DSi/3DS Skins - Custom SFX
 description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in skin. Place your sound files under the `sound` subdirectory in your skin folder, for example for the `white` skin, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
+Beyond the global music option (`DSi/3DS Theme Music`), TWiLight Menu++ supports skin overrides for music. To set it up, you'll need to follow [devkitPro's Getting Started guide](https://devkitpro.org/wiki/Getting_Started), which will install mmutil for you.
+- If the overrides are not placed, the default sounds would be used instead.
 
 These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
 
@@ -39,13 +40,12 @@ If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo dow
 
 You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
 
-
 ## Menu BGM
 Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Unlike sfx.bin, there is no size limit to `bgm.pcm.raw`.
 
-### ffmpeg
+### ffmpeg (Terminal)
 The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
 ```bash
@@ -70,6 +70,9 @@ To export in the correct format:
 1. Set the output name to `bgm.pcm.raw` and click `Save`
 1. Click `OK` to the metadata editing
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+---
 
-You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
+Once both of these files are ready to be used, place them in the `sound` subfolder for the skin.
+- Examples: `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/sfx.bin` & `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/bgm.pcm.raw`
+
+Be sure to now set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for the custom sounds to play.
