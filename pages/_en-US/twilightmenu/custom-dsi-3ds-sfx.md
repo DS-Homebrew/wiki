@@ -69,7 +69,8 @@ To export in the correct format:
 
 ---
 
-Once both of these files are ready to be used, place them in the `sound` subfolder for the skin.
-- Examples: `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/sfx.bin` & `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/bgm.pcm.raw`
+Once both of these files are ready to be used, place them in the `sound` subfolder for the skin. For example:
+- `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/sfx.bin`
+- `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/bgm.pcm.raw`
 
 Be sure to now set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for the custom sounds to play.
