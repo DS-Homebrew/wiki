@@ -7,10 +7,7 @@ title: DSi/3DS Skins - Custom SFX
 description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
 ---
 
-Beyond the global music option (`DSi/3DS Theme Music`), TWiLight Menu++ supports skin overrides for music. To set it up, you'll need to follow [devkitPro's Getting Started guide](https://devkitpro.org/wiki/Getting_Started), which will install mmutil for you.
-- If the overrides are not placed, the default sounds would be used instead.
-
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Beyond the global music option (`DSi/3DS Theme Music`), TWiLight Menu++ supports skin overrides for music. To set it up, you'll need to follow [devkitPro's Getting Started guide](https://devkitpro.org/wiki/Getting_Started), which will install mmutil for you. If these skin overrides are not used, the default sounds will be used instead.
 
 ## Sound Effect Bank
 The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
