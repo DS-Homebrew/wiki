@@ -8,8 +8,7 @@ description: How to make custom DSi and 3DS skins for TWiLight Menu++
 ---
 
 Making skins for TWiLight Menu++ requires an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp`/`.png` files, and 4 BPP `.bmp` files. Ideally, it should also be able to manually rearrange image palettes.
-- [GIMP](https://www.gimp.org) is recommended and will be used for this guide, but any editor with these capabilities should work.
-- For paletted images, GIMP has a toggleable Colormap Dialog window. Enable it via `Windows` -> `Dockable Dialogs` -> `Colormap`
+[GIMP](https://www.gimp.org) is recommended and will be used for this guide, but any editor with these capabilities should work. For paletted images, GIMP has a toggleable Colormap Dialog window. Enable it via `Windows` -> `Dockable Dialogs` -> `Colormap`
 
 ## Part 1: Download the examples
 The first thing you should do is download the [example skins](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format, so if you have issues later on, you can compare with these.
@@ -56,13 +55,12 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 ### Paletted textures (`grf` folder)
 These must be 4 BPP (16 color) BMP files.
 
-Editing these in GIMP requires the image to be set in "RGB" mode, toggleable via the setting in `Image` -> `Mode` -> `RGB`.
-- When done, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted.
+Editing these in GIMP requires the image to be set in "RGB" mode, toggleable via the setting in `Image` -> `Mode` -> `RGB`. When done, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted.
 
 Indexed Images requires an exact count of 16 colors, with the first of which (#0) being transparent (#FF00FF).
-- To set the transparent color as the first entry in the colormap, right click the colormap and select `Rearrange Colormap...`. Then, simply move the transparent color to the slot and select `OK`.
-- If there are over 16 colors, set `Maximum number of colors` to 16.
-- If there are fewer than 16 colors, press the `+` button at the bottom of the colormap dialog as many times as needed.
+- To set the transparent color as the first entry in the colormap, right click the colormap and select `Rearrange Colormap...`. Then, simply move the transparent color to the slot and select `OK`
+- If there are over 16 colors, set `Maximum number of colors` to 16
+- If there are fewer than 16 colors, press the `+` button at the bottom of the colormap dialog as many times as needed
 
 **Note:** Some images in the DSi theme have their palettes overridden based on the user's profile color. If editing the colors of these ensure that the `UserPalette` option for it in the `theme.ini` is set to `0`.
 
@@ -221,7 +219,7 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
 
 ## Custom background music and sound effects
-Skins can [set an override](custom-dsi-3ds-sfx) to custom music and sound effects for the Nintendo DSi & Nintendo 3DS themes.
+Skins can [use custom music and sound effects](custom-dsi-3ds-sfx) for the Nintendo DSi & Nintendo 3DS themes.
 
 ## Custom fonts
 Custom fonts can be loaded from skins, whether globally or specific sections (`date_time.nftr`/`username.nftr`). Place them in `ui` -> `font`, according to the selection specified in the "[Custom Fonts](custom-fonts)" page.
