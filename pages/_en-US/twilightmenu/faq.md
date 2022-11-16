@@ -98,11 +98,17 @@ Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins
 #### How do I install custom themes for TWiLight Menu++?
 Custom skins for themes can be acquired from [the official skins site](https://skins.ds-homebrew.com/), whic houses serveral community-made skins ready to apply. You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
 
-Once you have aquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
+Once you have acquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
 - Skins for the Nintendo DSi theme go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
 
-If you are using a console from the 3DS family, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`
+If you are using a  3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
 
-To apply a custom theme you must access TWiLight Menu++ Settings. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad. Once the target theme is selected, press the A button to choose between the skin you have installed, and press A on the desired skin to select it. Apply the settings by pressing B to go back to TWiLight Menu++, which should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
+To apply a custom theme you must access TWiLight Menu++ Settings.
+1. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad.
+2. Once the target theme is selected, press the A button to choose between the skin you have installed.
+3. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
+4. Apply the settings by pressing B to go back to TWiLight Menu++.
+
+TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
