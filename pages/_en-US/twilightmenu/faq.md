@@ -103,12 +103,12 @@ Once you have acquired a custom skin, you can install it by placing its folder o
 - Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
 
-If you are using a  3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
+If you are using a 3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
 
 To apply a custom theme you must access TWiLight Menu++ Settings.
 1. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad.
-2. Once the target theme is selected, press the A button to choose between the skin you have installed.
-3. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
-4. Apply the settings by pressing B to go back to TWiLight Menu++.
+1. Once the target theme is selected, press the A button to choose between the skin you have installed.
+1. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
+1. Apply the settings by pressing B to go back to TWiLight Menu++.
 
 TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
