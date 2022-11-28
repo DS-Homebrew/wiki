@@ -18,7 +18,7 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 1. Téléchargez le dernier [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Extrayez `TWiLightMenu-Flashcard.7z`
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker, en remplaçant tous les fichiers existants
-   - Si vous utilisez macOS, assurez-vous de **copier** et `Unir`, ne pas `Remplacer`
+   - Si vous utilisez macOS, assurez-vous de **Copier** et `Fusionner`, ne pas `Remplacer`
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker, en remplaçant tout fichier existant
 
 ### Étapes supplémentaires pour la carte SD DSi/3DS

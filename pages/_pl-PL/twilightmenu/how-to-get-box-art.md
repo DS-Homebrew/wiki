@@ -5,18 +5,25 @@ section: twilightmenu
 category: other
 title: Jak Dodać Okładki Gier
 description: Jak zdobyć okładki pudełek/ gier w TWiLight Menu++
+tabs:
+  - 
+    windows: Windows
+    other: macOS/Linux
+    manual: Manual
 ---
 
-### Windows
+{% capture tab-windows %}
 1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Wypakuj `TwilightBoxart-Windows-UX.zip` i uruchom `TwilightBoxart.exe`
 1. Kliknij `Wykryj SD`
    - Jeśli nie znajdzie poprawnej karty SD, kliknij `Przeglądaj...` i wybierz właściwą kartę
 1. Zmień rozmiar, obramowanie itp jak ci się żywnie podoba
 1. Kliknij `Start`
-1. Upewnij się, że w ustawieniach TWiLight Menu++ jest ustawiona opcja wyświetlania okładek
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
+{% endcapture %}
+{% assign tab-windows = tab-windows | split: "////////" %}
 
-### macOS/Linux
+{% capture tab-macos_linux %}
 1. Pobierz najnowszą wersję [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Wypakuj `.zip`
 1. Otwórz `TwilightBoxart.ini` w wypakowanym folderze w edytorze tekstowym
@@ -27,13 +34,23 @@ description: Jak zdobyć okładki pudełek/ gier w TWiLight Menu++
 1. Uruchom `chmod +x TwilightBoxart.CLI`
 1. Uruchom `./TwilightBoxart.CLI`
 1. Powiedz `Tak`, jeśli pokazuje ścieżkę SD poprawnie
-1. Upewnij się, że w ustawieniach TWiLight Menu++ jest ustawiona opcja wyświetlania okładek
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
+{% endcapture %}
+{% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
 
-### Ręcznie
+{% capture tab-manual %}
 1. Pobierz paczkę png box art z [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Wypakuj pliki .png do `sd:/_nds/TWiLightMenu/boxart`
-1. Upewnij się, że w ustawieniach Menu++ TWiLight jest ustawiona opcja wyświetlania okładek
+1. Make sure box art is set to be shown in TWiLight Menu++ settings
+{% endcapture %}
+{% assign tab-manual = tab-manual | split: "////////" %}
 
-**Aby dodać własne okładki:** Umieść je w `sd:/_nds/TWiLightMenu/boxart`. Nazwą okładki może być TID gry (np. `ASME.png`), albo nazwą pliku gry (np. `SM64DS.nds.png`). Musi być w formacie `.png`, o zalecanym rozmiarze 128x115 i maksymalnym rozmiarze 208x143.
+{% assign tabs = tab-windows | concat: tab-macos_linux | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
 
-Pojedyncze okładki można również pobrać z GameTDB, w kategorii **S Covers (png)**.
+**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`.
+- Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`)
+- Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143
+- If your **TW**i**L**ight Menu++ configuration has Box Art viewing set to `Cached`, the image size must be 44 KiB or below. You can use a tool like [tinypng](https://tinypng.com/) to compress the images to an acceptable size
+
+Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.

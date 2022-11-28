@@ -29,7 +29,7 @@ Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione co
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[nome rom].sms.sav`                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[nome rom].ngp.fla`               |
-| Fast Video              | Coming Soon                                      | `.fv`                                  |                                                |
+| FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[nome rom].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
@@ -93,6 +93,7 @@ Questi sono solo gli emulatori e i loader consigliati presenti in TWiLight Menu+
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
 [colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
+[fastvideodsplayer]: https://github.com/Gericom/FastVideoDSPlayer
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS

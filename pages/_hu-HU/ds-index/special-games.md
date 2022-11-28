@@ -37,47 +37,57 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- G.G. Series DSiWare címek
+   - A "G.G. Series Collection+" kollekció Japán régióban exkluzív fizikai kiadással rendelkezett
+   - NTR címként készült, lehetővé téve a DS konzolokon való játékot
+   - A kéziköny képernőyképei egyedi UI-t tartalmaz
 - Heathcliff: Frantic Foto
-   - DSiWare version called "Heathcliff: Spot On"
+   - A DSiWare verzió neve "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Hat DSiWare címre szétosztva "Master of Illusion Express" (USA) vagy "A Little Bit of... Magic Made Fun" (Europe) néven
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - A DSiWare verzió neve "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
-   - DSiWare version called "Need for Speed: Nitro-X"
-   - Download Play feature and various music are removed
-   - New police cars available
+   - A DSiWare verzió neve "Need for Speed: Nitro-X"
+   - Download Play funkció és néhány zene eltávolítva
+   - Új rendőrautók érhetők el
 - Nintendogs: Lab & Friends
-   - DSiWare version exclusive to China
+   - A DSiWare verzió Kína régió számára exkluzív
 - Phantasy Star 0
-   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
-   - Icon is animated
+   - Egy demo(?) verziója az eredeti játéknak "Phantasy Star 0 Mini" néven a Japan régió számára exluzív
+   - Az ikon animált
 - Planet Puzzle League
-   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
-   - Multiplayer removed
-   - Some music tracks removed
+   - A DSiWare verzió neve "Puzzle League Express" (USA), vagy "A Little Bit of... Puzzle League" (Europe)
+   - A többjátékos mód eltávolítva
+   - Néhány zeneszám eltávolítva
 - Plants vs. Zombies
-   - Download Play feature, some achievements, and music video are removed
-   - Includes exclusive minigame
-   - Icon is animated
+   - A Download Play funkció, néhány trófea és zene videó eltávolítva
+   - Exkluzív minijátékot tartalmaz
+   - Az ikon animált
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
+   - Az ikon animált
 - Space Invaders Extreme 2
-   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
-   - Wireless features removed
+   - A DSiWare verzió neve "Space Invaders Extreme Z", a Japán régió számára exkluzív
+   - Vezeték nélküli funkciók eltávolítva
 - Sujin Taisen: Number Battles
-   - DSiWare version known as "Number Battle" in USA
-   - Local multiplayer is removed, but online multiplayer is retained
+   - A DSiWare verzió neve "Number Battle" in USA
+   - A helyi többjátékos mód eltávolításra került, de az online többjátékos mód megmaradt
 - Tetris Party Deluxe
-   - DSiWare version called "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-   - Icon is animated
+   - A DSiWare verzió neve "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode játékmódok eltávolítva
+   - Az ikon animált
 - True Swing Golf/Nintendo Touch Golf
-   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
-      - The game engine is improved
-      - Challenge mode replaces Championship Tour of the retail game
+   - A DSiWare verzió neve "True Swing Golf Express" (USA), vagy "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - A játék DSiWare verziója nem tartalmaz Wi-Fi funkciókat, mint például a Local/Download Play vagy a játékbani PictoChat funkció. Továbbá kevesebb pályát tartalmaz, mint a dobozos verzió
+      - A játékmotor feljavított
+      - A Challenge mód van dobozos játék Championship Tour módja helyett
 - WarioWare: Touched!
-   - Slot-2 features removed
+   - Slot-2 funkciók eltávolítva
 - Zuma's Revenge!
-   - Multiplayer removed
-   - Icon is animated
+   - A többjátékos mód eltávolítva
+   - Az ikon animált
 
 Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Bomberman Blitz
@@ -144,6 +154,24 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
+### DSiWare játékok mentés kóddal
+Ezek mentési adatokat írnának a cartridge mentő chipjére, ha cartridge-ről futnak.
+
+- Cake Ninja
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+- Cake Ninja 2
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+- Cake Ninja: XMAS
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+- Dragon Quest Wars
+- Dreamwalker
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+- Make Up & Style
+   - Nem használt, így hackelés szükséges a kód aktiválásához
+
 ### Játékok, amik csatlakozni tudnak GBA címekhez
 Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehetséges alternatívát.
 
@@ -194,7 +222,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Lunar Knights
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (csak Japán)
 - Madden NFL 06
    - Madden NFL 06
    - Madden NFL 2005
@@ -203,24 +231,24 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - MegaMan Battle Network 2
    - MegaMan Battle Network 3 White/Blue
    - MegaMan Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Rockman EXE 4.5 Real Operation (csak Japán)
    - MegaMan Battle Network 5 Team ProtoMan/Colonel
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (csak Japán)
 - Mega Man Star Force Pegasus/Leo/Dragon
    - Mega Man Battle Network
    - Mega Man Battle Network 2
    - Mega Man Battle Network 3 White/Blue
    - Mega Man Battle Chip Challenge
    - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Rockman EXE 4.5 Real Operation (csak Japán)
    - Mega Man Battle Network 5 Team ProtoMan/Colonel
    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Használd ezt a [Slot-2 Patch-et](https://www.romhacking.net/hacks/4649/) az Area N tartalmának eléréséhez
+   - Használd ezt a <[Slot-2 Patch-et](https://www.romhacking.net/hacks/4649/) az Area N tartalmának eléréséhez
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -273,7 +301,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Játékok, amik GBA kiegészítőket (Pak) használnak
+### Játékok, amik GBA kiegészítőket (Option Pak) használnak
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Motion Pack
@@ -333,7 +361,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum
-    - My Pokémon Ranch (Japan Only Update)
+    - My Pokémon Ranch (csak Japán frissítés)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
     - Pokémon Battle Revolution
 - Personal Trainer: Walking

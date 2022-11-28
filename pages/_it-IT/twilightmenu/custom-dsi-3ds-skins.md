@@ -7,13 +7,14 @@ title: Come creare skin per DSi/3DS
 description: Come creare skin DSi e 3DS personalizzate per TWiLight Menu++
 ---
 
-Per creare una skin per TWiLight Menu++, è necessario un editor di immagini in grado di esportare i file `.png`, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` o `.png` e file 4 BPP `.bmp`. Idealmente dovrebbero anche essere in grado di potersi riorganizzare manualmente le palette immagini. [GIMP](https://www.gimp.org) è fortemente consigliato e verrà utilizzato in questa guida in quanto è in grado di fare tutto il necessario.
+To make a TWiLight Menu++ skin, you will need an image editor capable of exporting `.png` files, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` files or `.png` files, and 4 BPP `.bmp` files. Ideally, it should also be able to manually rearrange image palettes. [GIMP](https://www.gimp.org) is recommended and will be used for this guide, as it's capable of everything needed.
 
 ## Parte 1: Scarica gli esempi
-La prima cosa da fare è scaricare le [skin di esempio](/assets/files/skin-examples.zip). Possono essere utilizzate come base per la tua skin e sono già nel formato corretto, quindi se in seguito si riscontrano problemi si possono confrontare con queste.
+La prima cosa da fare è scaricare le [skin di esempio](/assets/files/skin-examples.zip). These can be used as a base for your skin and are already in the correct format, so if you have issues later on, you can compare with these.
 
 ## Parte 2: Modifica delle immagini
-Scarica e installa [GIMP](https://www.gimp.org), puoi utilizzare anche altri editor, ma questa guida usa GIMP.
+Download and install [GIMP](https://www.gimp.org)
+- Other image editors such as Photoshop may work, but GIMP is what will be used in this guide
 
 Una volta installato, apri GIMP e seleziona `Windows` -> `Dockable Dialogs` -> `Colormap`. Apre la finestra di dialogo della mappa dei colori, utile per la modifica delle immagini con palette.
 
@@ -21,19 +22,24 @@ A questo punto è possibile aprire l'immagine che si desidera modificare in GIMP
 
 ### Texture di sfondo (cartella `background`)
 Possono essere file PNG o file BMP a 16 bit (`A1 R5 G5 B5` o `X1 R5 G5 B5`).
+- If using BMP files, you can set them to 16-bit under Advanced Options while exporting. You may need to do this each time you export as BMP
 
-| Texture            | Descrizione                                                                                                    |
-| ------------------ | -------------------------------------------------------------------------------------------------------------- |
-| bottom             | La texture di sfondo dello schermo inferiore quando non si passa sopra a un'icona                              |
-| bottom_bubble      | La texture di sfondo dello schermo inferiore quando si passa sopra a un'icona                                  |
-| bottom_ds          | Per il tema 3DS, la texture di sfondo dello schermo inferiore quando non si passa sopra un'icona su un DS lite |
-| bottom_bubble_ds | Per il tema 3DS, la texture di sfondo dello schermo inferiore quando si passa sopra un'icona su un DS lite     |
-| top                |                                                                                                                |
+| Texture               | Descrizione                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------ |
+| top                   | The top screen background texture                                                                      |
+| bottom                | The bottom background texture when not hovering over an icon                                           |
+| bottom_ds             | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS Phat/Lite |
+| bottom_macro          | For the DSi theme, the background texture when not hovering over an icon while using Macro Mode        |
+| bottom_bubble         | The bottom background texture when hovering over an icon                                               |
+| bottom_bubble_ds    | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS Phat/Lite     |
+| bottom_bubble_macro | For the DSi theme, the background texture when hovering over an icon while using Macro Mode            |
+| bottom_moving         | For the DSi theme, the bottom background texture when moving an icon                                   |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Maco Mode                    |
 
 ### Texture della batteria (cartella `battery`)
-Devono essere file PNG, qualsiasi file funzionerà, ma solo con trasparenza al 100%. Qualsiasi pixel trasparente in un'icona deve essere trasparente in tutte, in modo che venga sovrascritto correttamente al momento della modifica.
+These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
-| Texture            | Descrizione                                                                                               |
+| Texture            | Description/Notes                                                                                         |
 | ------------------ | --------------------------------------------------------------------------------------------------------- |
 | battery0           | Lampeggia con `battery1` quando la batteria è quasi scarica                                               |
 | battery1           | 0-4 sono utilizzate in modalità DSi                                                                       |
@@ -53,15 +59,15 @@ Devono essere file PNG, qualsiasi file funzionerà, ma solo con trasparenza al 1
 ### Texture della palette (cartella `grf`)
 Devono esserci 4 file BPP (16 colori) BMP.
 
-Per modificarli in GIMP seleziona `Image` -> `Mode` -> `RGB` per consentire la modifica dei colori, quindi una volta terminata la modifica dei colori seleziona `Image` -> `Mode` -> `Indexed...` per convertire nuovamente in palette. Quando si passa all'indicizzazione, assicurartiche `Generate optimum palette` sia selezionato e `Maximum number of colors` sia impostato su `16`.
+To edit these in GIMP, select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. Quando si passa all'indicizzazione, assicurartiche `Generate optimum palette` sia selezionato e `Maximum number of colors` sia impostato su `16`.
 
 **Nota:** Alcune immagini nel tema DSi hanno le palette sovrascritte in base al colore del profilo dell'utente. Se modifichi i colori di questi, assicurarsi che l'opzione `UserPalette` nel file `theme.ini` sia impostata su `0`.
 
 Dopo la conversione in indicizzato, accedi alla finestra di dialogo della mappa dei colori e assicurati che il colore trasparente (#FF00FF) sia il colore #0 nella mappa dei colori. In caso contrario, clicca con il pulsante destro del mouse sulla mappa dei colori e seleziona `Rearrange Colormap...` quindi sposta il colore trasparente in modo che sia il primo colore della mappa dei colori e seleziona `OK`.
 
-Se ci sono meno di 16 colori nella mappa dei colori finale, premi il pulsante `+` in fondo alla finestra di dialogo della mappa dei colori fino a ottenere 16 colori.
+If there are fewer than 16 colors in your final colormap, press the `+` button at the bottom of the colormap dialog until you have 16 colors.
 
-Durante l'esportazione si consiglia di selezionare la casella `Do not write color space information` nel menu a discesa `Compatibility Options`.
+When exporting, it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
 
 | Texture       | Descrizione                                                                                                 |
 | ------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -77,32 +83,34 @@ Durante l'esportazione si consiglia di selezionare la casella `Do not write colo
 | dialogbox     | Lo sfondo della finestra di dialogo che scorre verso il basso                                               |
 | folder        | L'icona delle cartelle                                                                                      |
 | icon_a26      | L'icona dei giochi Atari 2600                                                                               |
-| icon_gb       | L'icona dei giochi Game Boy                                                                                 |
-| icon_gba      | L'icona dei giochi GBA (per tutti i temi) e l'icona in alto per avviare GBARunner2 (tema 3DS)               |
-| icon_gbamode  | L'icona della modalità GBA nativa                                                                           |
-| icon_gg       | L'icona dei giochi Game Gear                                                                                |
-| icon_int      | L'icona dei giochi Intellivision                                                                            |
-| icon_m5       | L'icona dei giochi Sord M5                                                                                  |
-| icon_manual   | L'icona del manuale                                                                                         |
-| icon_md       | L'icona dei giochi Mega Drive                                                                               |
-| icon_nes      | L'icona dei giochi NES                                                                                      |
-| icon_ngp      | L'icona dei giochi Neo Geo Pocket                                                                           |
-| icon_pce      | L'icona dei giochi PC Engine/TurboGrafx-16                                                                  |
-| icon_plg      | L'icona dei plugin DSTWO                                                                                    |
-| icon_settings | L'icona delle Impostazioni del Nintendo DSi                                                                 |
-| icon_sg       | L'icona dei giochi Sega SG-1000                                                                             |
-| icon_sms      | L'icona dei giochi Sega Master System                                                                       |
-| icon_snes     | L'icona dei giochi SNES                                                                                     |
-| icon_unk      | L'icona mostrata quando un gioco non ne ha una                                                              |
-| icon_ws       | L'icona dei giochi WonderSwan                                                                               |
-| launch_dot    | I punti mostrati all'avvio di un gioco (tema DSi)                                                           |
-| moving_arrow  | La freccia mostrata quando si sposta un gioco (tema DSi)                                                    |
-| progress      | L'animazione di caricamento dell'avanzamento con 8 fotogrammi                                               |
-| scroll_window | La parte della barra di scorrimento che indica le icone visualizzate                                        |
-| small_cart    | Le icone visualizzate in alto (tema 3DS) e nel menu SELECT (tema DSi)                                       |
-| start_border  | Il bordo con i frame d'animazione indica l'icona selezionata (tema DSi)                                     |
-| start_text    | Il testo mostrato sul bordo iniziale (tema DSi)                                                             |
-| wirelessicons | Le icone mostrate per indicare che un gioco è dotato di supporto wireless                                   |
+| icon_col      | The icon for Colecovision games                                                                             |
+| icon_gb       | The icon for Game Boy games                                                                                 |
+| icon_gba      | The icon for GBA games                                                                                      |
+| icon_gbamode  | The icon for native GBA Mode                                                                                |
+| icon_gg       | The icon for Game Gear games                                                                                |
+| icon_img      | The icon for BMP, GIF, and PNG images                                                                       |
+| icon_int      | The icon for Intellivision games                                                                            |
+| icon_m5       | The icon for Sord M5 games                                                                                  |
+| icon_manual   | The icon for the manual                                                                                     |
+| icon_md       | The icon for Mega Drive games                                                                               |
+| icon_nes      | The icon for NES games                                                                                      |
+| icon_ngp      | The icon for Neo Geo Pocket games                                                                           |
+| icon_pce      | The icon for PC Engine/TurboGrafx-16 games                                                                  |
+| icon_plg      | The icon for DSTWO plugins                                                                                  |
+| icon_settings | The icon for Nintendo DSi Settings                                                                          |
+| icon_sg       | The icon for Sega SG-1000 games                                                                             |
+| icon_sms      | The icon for Sega Master System games                                                                       |
+| icon_snes     | The icon for SNES games                                                                                     |
+| icon_unk      | The icon displayed when a game is missing an icon                                                           |
+| icon_ws       | The icon for WonderSwan games                                                                               |
+| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                                      |
+| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                                  |
+| progress      | The progress loading animation with 8 frames                                                                |
+| scroll_window | The part of the scrollbar that indicates the icons that are in view                                         |
+| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)                            |
+| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                               |
+| start_text    | The text displayed on the start border (DSi Theme)                                                          |
+| wirelessicons | The icons displayed to indicate a game has wireless support                                                 |
 
 ### Texture del Menu DS Classico (cartella `quickmenu`)
 Devono essere file PNG.
@@ -114,76 +122,112 @@ Devono essere file PNG.
 | topbg      | Sfondo per lo schermo superiore di qualsiasi altro modello DS |
 
 ### Texture dell'IU (cartella `ui`)
-Devono essere file PNG, qualsiasi file funzionerà, ma solo con trasparenza al 100%. Qualsiasi pixel trasparente in una texture deve essere trasparente in tutte le texture correlate, in modo che venga sovrascritto correttamente al momento della modifica.
+These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture          | Descrizione                                                |
-| ---------------- | ---------------------------------------------------------- |
-| date_time_font | Il carattere per visualizzare la data e l'ora              |
-| Lshoulder        | Il grilletto sinistro                                      |
-| Lshoulder_greyed | Il grilletto sinistro quando non ci sono pagine a sinistra |
-| Rshoulder        | Il grilletto destro                                        |
-| Rshoulder_greyed | Il grilletto destro quando non ci sono pagine a destra     |
+| Texture          | Descrizione                                             |
+| ---------------- | ------------------------------------------------------- |
+| Lshoulder        | The left shoulder                                       |
+| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
+| Rshoulder        | The right shoulder                                      |
+| Rshoulder_greyed | The right shoulder when there are no pages to the right |
 
 ### Texture video (cartella `video`)
 Utilizzate solo per il tema 3DS, `3dsRotatingCubes.rvid` è un file Rocket Video. Per ulteriori informazioni su come convertire i video in rvid, leggi [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) sulla wiki Vid2RVID. Se non vuoi che venga mostrato, è sufficiente cancellarlo.
 
 ### Texture del volume (cartella `volume`)
-Devono essere file PNG, qualsiasi file funzionerà, ma solo con trasparenza al 100%. Qualsiasi pixel trasparente in una texture deve essere trasparente in tutte, in modo che venga sovrascritto correttamente al momento della modifica.
+Volume textures are only displayed in DSi Mode.
 
-| Texture | Descrizione                                       |
-| ------- | ------------------------------------------------- |
-| volume0 | Il volume viene visualizzato solo in modalità DSi |
-| volume1 | 0 è senza volume, 4 è al massimo                  |
-| volume2 |                                                   |
-| volume3 |                                                   |
-| volume4 |                                                   |
+These must be PNG files. Transparency is supported, however only 100% transparency will work.
+
+
+| Texture | Description/Notes            |
+| ------- | ---------------------------- |
+| volume0 | 0 is muted, 4 is full volume |
+| volume1 |                              |
+| volume2 |                              |
+| volume3 |                              |
+| volume4 |                              |
 
 ## Configurazione del tema (file `theme.ini`)
-È possibile configurare varie opzioni sul modo in cui il tema viene visualizzato nel file `theme.ini` per adattarlo a sprite o a texture più grandi. Per le opzioni vero/falso `0` è falso e `1` è vero. Le opzioni con un valore predefinito vuoto per un tema sono inutilizzate in esso.
+You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger graphics or different layouts. For true/false options, `0` is false, and `1` is true. Options with a blank default value for a theme are unused in that theme.
 
-| Valore                   | Descrizione                                                                                                                    | Predefinite (3DS) | Predefinite (DSi) |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ----------------- | ----------------- |
-| `StartBorderRenderY`     | La posizione Y iniziale del bordo iniziale                                                                                     | 92                | 81                |
-| `StartBorderSpriteW`     | La larghezza dello sprite del bordo iniziale. Nota che la texture del bordo iniziale è esattamente la metà del bordo completo. | 32                | 32                |
-| `StartBorderSpriteH`     | L'altezza dello sprite del bordo iniziale                                                                                      | 64                | 80                |
-| `StartTextRenderY`       | La posizione Y iniziale del testo di avvio                                                                                     | 143               | 143               |
-| `BubbleTipRenderY`       | La posizione Y della punta della bolla che viene tracciata sopra il bordo iniziale                                             | 98                | 80                |
-| `BubbleTipRenderX`       | La posizione X della punta della bolla che viene tracciata sopra il bordo iniziale                                             | 125               | 122               |
-| `BubbleTipSpriteW`       | La larghezza dello sprite della punta della bolla                                                                              | 7                 | 11                |
-| `BubbleTipSpriteH`       | L'altezza dello sprite della punta della bolla                                                                                 | 7                 | 8                 |
-| `TitleboxRenderY`        | La posizione Y iniziale della casella del testo del titolo                                                                     | 96                | 85                |
-| `TitleboxTextY`          | La posizione Y iniziale del testo del titolo                                                                                   | 55                | 30                |
-| `TitleboxTextW`          | Larghezza massima del testo del titolo                                                                                         | 200               | 240               |
-| `MacroTitleboxTextY`     | La posizione Y iniziale del testo del titolo in modalità macro                                                                 |                   | 40                |
-| `MacroTitleboxTextW`     | La larghezza massima del testo del titolo in modalità macro                                                                    |                   | 224               |
-| `TitleboxTextLarge`      | Se utilizzare o meno i caratteri grandi per il testo del titolo                                                                | 0                 | 1                 |
-| `TitleboxMaxLines`       | Il numero massimo di linee di testo da mostrare del titolo                                                                     | 3                 | 4                 |
-| `VolumeRenderX`          | La posizione X sullo schermo superiore per tracciare l'icona del volume                                                        | 4                 | 4                 |
-| `VolumeRenderY`          | La posizione Y sullo schermo superiore per tracciare l'icona del volume                                                        | 5                 | 5                 |
-| `ShoulderLRenderY`       | La posizione Y sullo schermo superiore per tracciare l'icona del grilletto sinistro                                            | 172               | 172               |
-| `ShoulderLRenderX`       | La posizione X sullo schermo superiore per tracciare l'icona del grilletto sinistro                                            | 0                 | 0                 |
-| `ShoulderRRenderY`       | La posizione Y sullo schermo superiore per tracciare l'icona del grilletto destro                                              | 172               | 172               |
-| `ShoulderRRenderX`       | La posizione X sullo schermo superiore per tracciare l'icona del grilletto destro                                              | 178               | 178               |
-| `BatteryRenderY`         | La posizione Y sullo schermo superiore per tracciare l'icona della batteria                                                    | 5                 | 5                 |
-| `BatteryRenderX`         | La posizione X sullo schermo superiore per tracciare l'icona della batteria                                                    | 235               | 235               |
-| `FontPalette1`           | Il colore trasparente del carattere, non utilizzato per i caratteri predefiniti                                                | 0x0000            | 0x0000            |
-| `FontPalette2`           | I colori dei caratteri, utilizza [questo sito](http://www.conradshome.com/html2bgr15/) per convertirli                         | 0xDEF7            | 0xDEF7            |
-| `FontPalette3`           |                                                                                                                                | 0xC631            | 0xC631            |
-| `FontPalette4`           |                                                                                                                                | 0xA108            | 0xA108            |
-| `StartTextUserPalette`   | Se utilizzare o meno il colore del profilo DS per la palette del testo iniziale                                                |                   | 1                 |
-| `StartBorderUserPalette` | Se utilizzare o meno il colore del profilo DS per la palette del bordo iniziale                                                |                   | 1                 |
-| `ButtonArrowUserPalette` | Se utilizzare o meno il colore del profilo DS per la palette dei pulsanti freccia nella parte inferiore dello schermo          |                   | 1                 |
-| `MovingArrowUserPalette` | Se utilizzare o meno il colore del profilo DS per la palette dei pulsanti quando si muovono le icone                           |                   | 1                 |
-| `LaunchDotsUserPalette`  | Se utilizzare o meno il colore del profilo DS per la palette dei punti d'avvio                                                 |                   | 1                 |
-| `DialogBoxUserPalette`   | Se utilizzare o meno il colore del profilo DS per la palette della casella di dialogo                                          |                   | 1                 |
-| `RenderPhoto`            | Indica se mostrare o meno una foto nella schermata superiore                                                                   | 0                 | 1                 |
-| `RotatingCubesRenderY`   | La posizione Y sullo schermo superiore per tracciare i cubi che roteano                                                        | 78                |                   |
+| Valore                     | Description/Notes                                                                                                               | Predefinite (3DS) | Predefinite (DSi) |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- |
+| `StartBorderRenderY`       | La posizione Y iniziale del bordo iniziale                                                                                      | 92                | 81                |
+| `StartBorderSpriteW`       | La larghezza dello sprite del bordo iniziale. Note that the start border texture is exactly half of the full border             | 32                | 32                |
+| `StartBorderSpriteH`       | L'altezza dello sprite del bordo iniziale                                                                                       | 64                | 80                |
+| `StartTextRenderY`         | La posizione Y iniziale del testo di avvio                                                                                      | 143               | 143               |
+| `BubbleTipRenderX`         | The X position of the tip of the bubble that is drawn over the start border                                                     | 125               | 122               |
+| `BubbleTipRenderY`         | The Y position of the tip of the bubble that is drawn over the start border                                                     | 98                | 80                |
+| `BubbleTipSpriteW`         | La larghezza dello sprite della punta della bolla                                                                               | 7                 | 11                |
+| `BubbleTipSpriteH`         | L'altezza dello sprite della punta della bolla                                                                                  | 7                 | 8                 |
+| `TitleboxRenderY`          | La posizione Y iniziale della casella del testo del titolo                                                                      | 96                | 85                |
+| `TitleboxTextY`            | La posizione Y iniziale del testo del titolo                                                                                    | 55                | 30                |
+| `TitleboxTextW`            | Larghezza massima del testo del titolo                                                                                          | 200               | 240               |
+| `TitleboxTextLarge`        | Whether to use the large font for the title text                                                                                | 0                 | 1                 |
+| `TitleboxMaxLines`         | The maximum lines of text to show of the title                                                                                  | 3                 | 4                 |
+| `VolumeRenderX`            | The X position on the top screen to draw the volume icon                                                                        | 4                 | 4                 |
+| `VolumeRenderY`            | The Y position on the top screen to draw the volume icon                                                                        | 5                 | 5                 |
+| `ShoulderLRenderX`         | The X position on the top screen to draw the left shoulder                                                                      | 0                 | 0                 |
+| `ShoulderLRenderY`         | The Y position on the top screen to draw the left shoulder                                                                      | 172               | 172               |
+| `ShoulderRRenderX`         | The X position on the top screen to draw the right shoulder                                                                     | 178               | 178               |
+| `ShoulderRRenderY`         | The Y position on the top screen to draw the right shoulder                                                                     | 172               | 172               |
+| `BatteryRenderX`           | The X position on the top screen to draw the battery icon                                                                       | 235               | 235               |
+| `BatteryRenderY`           | The Y position on the top screen to draw the battery icon                                                                       | 5                 | 5                 |
+| `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28                | 28                |
+| `UsernameRenderY`          | The Y position on the top screen to draw the username text                                                                      | 15                | 15                |
+| `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                              | 4                 | 4                 |
+| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                           | 162               | 162               |
+| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                           | 7                 | 7                 |
+| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                           | 200               | 200               |
+| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                           | 7                 | 7                 |
+| `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                            | 1                 | 1                 |
+| `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                     | 0x0000            | 0x0000            |
+| `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7            | 0xDEF7            |
+| `FontPalette3`             |                                                                                                                                 | 0xC631            | 0xC631            |
+| `FontPalette4`             |                                                                                                                                 | 0xA108            | 0xA108            |
+| `FontPaletteDateTime1`     | The override transparent color of the font for the date and time                                                                | 0x0000            | 0x0000            |
+| `FontPaletteDateTime2`     | The override color of the font for the date and time                                                                            | 0xDEF7            | 0xA529            |
+| `FontPaletteDateTime3`     |                                                                                                                                 | 0xC631            | 0xBDEF            |
+| `FontPaletteDateTime4`     |                                                                                                                                 | 0xA108            | 0xD6B5            |
+| `FontPaletteTitlebox1`     | The override transparent color of the font for the ROM title box                                                                | 0x0000            | 0x0000            |
+| `FontPaletteTitlebox2`     | The override color of the font for the ROM title box                                                                            | 0xDEF7            | 0xDEF7            |
+| `FontPaletteTitlebox3`     |                                                                                                                                 | 0xC631            | 0xC631            |
+| `FontPaletteTitlebox4`     |                                                                                                                                 | 0xA108            | 0xA108            |
+| `FontPaletteDialog1`       | The override transparent color of the font for dialogs                                                                          | 0x0000            | 0x0000            |
+| `FontPaletteDialog2`       | The override color of the font for dialogs                                                                                      | 0xDEF7            | 0xDEF7            |
+| `FontPaletteDialog3`       |                                                                                                                                 | 0xC631            | 0xC631            |
+| `FontPaletteDialog4`       |                                                                                                                                 | 0xA108            | 0xA108            |
+| `FontPaletteOverlay1`      | The override transparent color of the font for overlayed text                                                                   | 0x0000            | 0x0000            |
+| `FontPaletteOverlay2`      | The override color of the font for overlayed text                                                                               | 0xDEF7            | 0xDEF7            |
+| `FontPaletteOverlay3`      |                                                                                                                                 | 0xC631            | 0xC631            |
+| `FontPaletteOverlay4`      |                                                                                                                                 | 0xA108            | 0xA108            |
+| `FontPaletteUsername1`     | The override transparent color of the font for the username                                                                     | 0x0000            | 0x0000            |
+| `FontPaletteUsername2`     | The override color of the font for the username                                                                                 | 0xDEF7            | 0xDEF7            |
+| `FontPaletteUsername3`     |                                                                                                                                 | 0xC631            | 0xC631            |
+| `FontPaletteUsername4`     |                                                                                                                                 | 0xA108            | 0xA108            |
+| `StartTextUserPalette`     | Whether or not to use the DS Profile color for the palette of the start text                                                    |                   | 1                 |
+| `StartBorderUserPalette`   | Whether or not to use the DS Profile color for the palette of the start border                                                  |                   | 1                 |
+| `ButtonArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen                     |                   | 1                 |
+| `MovingArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow shown when moving icons                                 |                   | 1                 |
+| `LaunchDotsUserPalette`    | Whether or not to use the DS Profile color for the palette of the launch dots                                                   |                   | 1                 |
+| `DialogBoxUserPalette`     | Whether or not to use the DS Profile color for the palette of the dialog box                                                    |                   | 1                 |
+| `RenderPhoto`              | Whether or not to draw a photo on the top screen                                                                                | 0                 | 1                 |
+| `RotatingCubesRenderY`     | The Y position on the top screen to draw the rotating cubes                                                                     | 78                |                   |
+| `PlayStartupJingle`        | Whether or not to use the startup sound before the main BGM. See the [custom SFX](custom-dsi-3ds-sfx) page for more information | 1                 | 0                 |
+| `StartupJingleDelayAdjust` | The amount of samples early in the startup sound the BGM should start at                                                        | 0                 | 0                 |
 
-## Parte 3: Aggiungere le skin a TWiLight Menu++
-Dopo che hai modificato la grafica, se vuoi provare la skin è sufficiente copiare la cartella skin (la cartella contenente le cartelle `background`, `battery`, ecc.) in `sd:/_nds/TWiLightMenu/3dsmenu/themes/` o `sd:/_nds/TWiLightMenu/dsimenu/themes/` corrispettivavamente per le skin 3DS e DSi.
+### Macro Mode options
+You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
 
-## Parte 4: Condividere la tua skin
-Una volta completata la skin, è possibile condividerla con la community creando un Pull Request e aggiungendola al repository GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) in un file `.7z`. Se non hai dimestichezza con git, puoi semplicemente creare un issue sulla repository con un file zip della tua skin, chiedendo che venga aggiunta.
-
-## Musica di sottofondo ed effetti sonori personalizzati
+## Custom background music and sound effects
 I temi per DSi e 3DS supportano anche la musica personalizzata. Per maggiori dettagli, consulta [Skin DSi/3DS - Effetti sonori personalizzati](custom-dsi-3ds-sfx).
+
+## Custom fonts
+You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+
+## Part 3: Adding to TWiLight Menu++
+Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
+
+## Part 4: Sharing your skin
+Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.

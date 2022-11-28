@@ -20,6 +20,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
    - **DSi/3DS felhasználók:** Futtasd a TWLMenu++ -t a konzolod SD kártyáján, majd nyisd meg a TWLMenu++ Beállításokat és menj az `Egyéb  beállítások` oldalra és kapcsold be `SCFG hozzáférés Slot-1-ben` opciót, valamint állítsd be a `Slot-1: Érintés mód`-ot `DSi mód`-ra
       - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához, és a futtatását DSi-Enhanced/DSi-Exclusive/DSiWare játékoknak DSi módban a flashcard-odról
       - Ha ez engedélyezett a <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> használatával válthatsz a belső SD kártya és a flashcard-od SD kártyája között
+      - A fenti funkciók használatához a flashcard-od indítását a TWLMenu++-szal kell megtenned a rendszer menü helyett
 
 ### TWiLight Menu++ automatikus bootolása
 1. Csomagold ki az `Autoboot/(a te flashcard-od)` mapp tartalmát a flashcard-od microSD kártyája gyökerébe
@@ -37,6 +38,7 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 {:.alert .alert-warning}
 
 1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
+   - A `Flashcart Loader` mappában található egy README.txt fájl, amely segít megtalálni, hogy melyik flashcart betöltő a megfelelő a flashcard-odhoz.
    - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
 1. Ezekhez a flashcard-okhoz:

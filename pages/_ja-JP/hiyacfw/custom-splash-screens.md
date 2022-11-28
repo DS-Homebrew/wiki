@@ -3,7 +3,7 @@ lang: ja-JP
 layout: wiki
 section: hiyacfw
 title: カスタムスプラッシュ画面
-description: How to use custom splash screens with hiyaCFW
+description: hiyaCFWでオリジナルスプラッシュ画面を使う方法
 ---
 
 hiyaCFWを使用すると、`.bmp`または`.gif`形式のカスタムスプラッシュ画面を使用できます。 `sd:/hiya`フォルダに入れる必要があり、上部画面では `splashtop`、下部画面では`splashbottom`という名前を付け、適切なファイル拡張子を付けます。そして、設定でスプラッシュ画面が有効になっていることを確認します。 画像は同じフォーマットである必要がありませんので、1つはBMPであり、他はGIFでも構いません。GIFの方がBMPよりも優先されます。 以下には画像を動作させるための要件の詳細があります：

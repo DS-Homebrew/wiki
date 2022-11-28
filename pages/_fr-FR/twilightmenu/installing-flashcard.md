@@ -20,6 +20,7 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
    - **Utilisateurs de DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, ouvrez les paramètres de TWLMenu++, passez à la page `Autres paramètres`, et activez `Accès au SCFG par Slot-1` puis définissez `Slot-1 : Mode tactile` sur `Mode DSi`
       - Ceci vous permet d'utiliser la vitesse d'horloge TWL et/ou le boost VRAM pour vos jeux sur linker, ainsi que d'accéder à la carte SD de la console et d'exécuter les jeux optimisés DSi/exclusifs DSi/DSiWare en mode DSi depuis votre linker
       - Cette option activée, vous pouvez utiliser <kbd>SELECT</kbd> + <kbd>Haut</kbd>/<kbd>Bas</kbd> pour basculer entre votre carte SD interne et la carte SD de votre linker
+      - Pour utiliser les fonctionnalités ci-dessus, vous devez lancer votre linker via TWLMenu++ au lieu du menu système
 
 ### Démarrage automatique de TWiLight Menu++
 1. Extrayez le contenu de `Autoboot/(votre linker)` à la racine de la carte microSD du linker
@@ -37,6 +38,7 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
 {:.alert .alert-warning}
 
 1. Extrayez ce qui est dans `Flashcart Loader/(votre linker)` à la racine de la carte microSD
+   - Un fichier README.txt est présent dans le dossier `Flashcart Loader`, pour aider à trouver quel lanceur de linker est approprié pour votre linker.
    - Si vous l'avez fait, passez à l'étape 3. Si ce n'est pas le cas, suivez les étapes de la liste de linkers ci-dessous
 
 1. Pour ces linkers :
@@ -60,4 +62,4 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
 
    Installez le [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
       - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
-1. Ouvrez les paramètres de TWLMenu++, passez à la page `Paramètres de nds-bootstrap settings`, et définissez `Utiliser nds-bootstrap` à `Non` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap
+1. Ouvrez les paramètres de TWLMenu++, passez à la page `Paramètres de nds-bootstrap`, et définissez `Utiliser nds-bootstrap` à `Non` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap

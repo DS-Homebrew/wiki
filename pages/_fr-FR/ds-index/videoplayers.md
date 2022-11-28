@@ -10,19 +10,28 @@ description: Lecteurs vidéo homebrews pour la Nintendo DS(i)
 # Lecteurs vidéo homebrews pour la Nintendo DS(i)
 Cette page contient une liste de lecteurs vidéo fonctionnels ou non terminés pour les Nintendo DS et DSi, et explique le fonctionnement de chacun.
 
-| Nom du joueur | Conteneurs/Codecs pris en charge | Support            | Inconvénients                                           | FPS max                                           |
-| ------------- | -------------------------------- | ------------------ | ------------------------------------------------------- | ------------------------------------------------- |
-| Moonshell     | `.dpg`, MPEG1                    | Linkers uniquement | Nécessite un linker pour lire des vidéos.               | 24 FPS                                            |
-| Tuna-ViDS     | `.avi`, XVid                     | DSi et DS          | Ne peut atteindre qu'un certain taux d'images/de débit. | 15 FPS                                            |
-| MPEG4Player   | `.mp4`, H.264                    | DSi et DS          | Ne peut lire que des vidéos courtes.                    | 24 FPS                                            |
-| Rocket Video  | `.rvid`, Raw/LZ77                | DSi et DS          | Dump les images dans un format non compressé.           | jusqu'à 25 FPS (progressif) ou 50 FPS (entrelacé) |
+| Nom du joueur | Conteneurs/Codecs pris en charge | Support            | Inconvénients                                               | FPS max |
+| ------------- | -------------------------------- | ------------------ | ----------------------------------------------------------- | ------- |
+| FastVideoDS   | `.fv`, FastVideoDS               | DSi et DS          | Le spam de confettis ralentit les vidéos à haute fréquence. | 60 FPS  |
+| Moonshell     | `.dpg`, MPEG1                    | Linkers uniquement | Nécessite un linker pour lire des vidéos.                   | 24 FPS  |
+| Tuna-ViDS     | `.avi`, XVid                     | DSi et DS          | Ne peut atteindre qu'un certain taux d'images/de débit.     | 15 FPS  |
+| MPEG4Player   | `.mp4`, MPEG-4                   | DSi et DS          | Ne peut lire que des vidéos courtes.                        | 24 FPS  |
 
 Notes :
 - Le nombre maximal de FPS dépend du contenu et de la durée de la vidéo.
-- MPEG4Player est obsolète et peut être remplacé par un nouveau format vidéo, **FastVideoDS**. RocketVideo n'est plus maintenu.
 
-Avertissement : La conversion de fichiers volumineux dans le convertisseur Rocket Video peut entraîner la perte de vos données car il écrit les images non compressées sur le disque dur. C'est pourquoi l'utilisation de Rocket Video n'est pas recommandée.
+## FastVideoDS
+
+Note : Si vous obtenez un message disant `Cet encodeur nécessite un processeur supportant les instructions AVX2`, alors vous devez soit installer une puce CPU plus récente, soit utiliser un PC plus récent.
 {: .alert .alert-warning}
+
+### Windows
+
+1. Téléchargez l'encodeur [ici](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Téléchargez le fichier `.bat` ci-dessous au même endroit que le fichier de l'encodeur `.exe`, et faites glisser votre vidéo dans le fichier `.bat`.
+- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+
+Lorsque ce processus est terminé, il devrait être facile de glisser-déposer sur la carte SD. Une fois que vous avez placé la vidéo sur votre carte SD, elle sera prête à être lue via **TW**i**L**ight Menu++.
 
 ## Conversion vidéo Moonshell (DPG4x)
 

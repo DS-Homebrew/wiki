@@ -29,7 +29,7 @@ Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une e
 | Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                          |
 | Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[nom de la ROM].sms.sav`                                |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                  | `.ngp`, `.ngc`                         | `/data/ngpds/[nom de la ROM].ngp.fla`                    |
-| Fast Video              | Bientôt disponible                              | `.fv`                                  |                                                          |
+| FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]          | `.fv`                                  |                                                          |
 | NES/Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[nom de la ROM].sav`                                    |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                          |
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                          |
@@ -93,6 +93,7 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
 [colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
+[fastvideodsplayer]: https://github.com/Gericom/FastVideoDSPlayer
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS

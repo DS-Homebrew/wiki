@@ -22,6 +22,11 @@ Les polices personnalisées sont chargées à partir de `sd:/_nds/TWiLightMenu/e
 
 Les fichiers `-ds` et `-dsi` ont une priorité plus élevée que la normale et s'ils sont trouvés, ils seront utilisés lorsque TWiLight Menu++ fonctionne en mode DS ou DSi respectivement.
 
+### Polices de skin
+Vous pouvez ajouter des polices de caractères pour [personnaliser les thèmes DSi/3DS](custom-dsi-3ds-skins), ce qui remplacera ce qui est défini dans les paramètres de TWiLight Menu++. Ces polices sont placées dans le dossier `font`, dans le dossier racine du skin.
+
+Les skins personnalisés peuvent également utiliser des polices de remplacement pour la date et l'heure en utilisant `date_time.nftr`, et le nom d'utilisateur de la console avec `username.nftr`.
+
 ### Génération de polices personnalisées
 Vous pouvez créer vos propres polices en utilisant un utilitaire tel que [nftr-editor](https://pk11.us/nftr-editor/) de Pk11. Pour régénérer l'une des polices existantes de TWiLight Menu++ en l'utilisant :
 1. Charger un fichier NFTR dans nftr-editor

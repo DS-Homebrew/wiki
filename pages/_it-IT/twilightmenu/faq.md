@@ -86,10 +86,10 @@ Il modo di accedere alle impostazioni di TWiLight Menu++ varia a seconda della c
 È anche possibile tenere premuto <kbd>SELECT</kbd> mentre avvii TWiLight Menu++ per accedere direttamente alle impostazioni.
 
 #### Come posso utilizzare icone/banner personalizzati per i giochi?
-È possibile utilizzare un banner personalizzato in formato PNG o DS banner.bin inserendolo nella cartella `sd:/_nds/TWiLightMenu/icons` con il nome della ROM (inclusa l'estensione) + `.png` o `.bin`.
+You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) or folder + `.png` or `.bin`.
 
-Per i banner PNG è sufficiente un file PNG con 15 colori o meno e una risoluzione massima di 32x32.
+For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
 
-I banner di tipo banner.bin possono essere animati e consentono di sostituire il titolo che verrà visualizzato in TWiLight Menu++. Possono essere realizzati utilizzando [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) o [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor è un'applicazione GUI che può essere più semplice da usare, ma a volte ha problemi con la trasparenza ed è solo per Windows (anche se funziona in WINE).
+I banner di tipo banner.bin possono essere animati e consentono di sostituire il titolo che verrà visualizzato in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), it's currently recommended to use the [nightly version](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) as it has several improvements over the stable release.
 
 I banner preconfezionati si trovano nella [ sezione delle icone del sito delle skin di TWiLight Menu++](https://skins.ds-homebrew.com/icon/) e se ne crei di nuovi possono essere condivisi anche lì.

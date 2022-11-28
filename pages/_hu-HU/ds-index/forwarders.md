@@ -60,15 +60,9 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 1. Töltsd le a [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a DSi SD kártyájának gyökerébe
 
-Miután kicsomagoltad a csomagot a kártyádra, szerkesztheted az `sd:/_nds/bootstrap.ini` fájlt és módosítsa a következő beállításokat.
-- BOOST_CPU: Ha 1-re állított, akkor a, TWL órajel sebesség kerül felhasználásra, így a lag-ok megszünnek
-- SOUND_FREQ: Ha 1-re állított a hang 48kHz-el fog lejátszódni 32kHz helyett
-- LANGUAGE: Ha -1-re állított, a rendszer nyelv kerül felhasználásra
-- REGION: Ha -2-re állított, a DSiWare játék régió kerül felhasználásra a rendszer régiója helyett
-
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
 
-Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
+Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
@@ -98,7 +92,7 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
    - Egy Nintendo 3DS család konzol modern CFW környezettel a [3ds.hacks.guide](https://3ds.hacks.guide) oldalról
 
 {% capture flashcards %}
-A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO/DSTWO PLUS-t. Az egyetlen hátrányuk, hogy a rendszer akkumulátort gyorsabban fogyasztják.
+A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO/DSTWO PLUS-t. Az egyetlen hátránya, hogy a rendszer akkumulátort gyorsabban fogyasztja.
 
 Ha olyan flashcard-od van, ami működik az Apache Thunder-nek az NTR Launcher-ével, kérheted azt [a GBAtemp vitaszálon](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Legyél biztos abban, melyik build-et használod (Normal vagy Alt), és hogy a `RESETSLOT1` `0`-ra vagy `1`-re van-e állítva a `sd:/nds/ntr_launcher.ini` fájlban.
 
@@ -124,7 +118,7 @@ Kompatibilis:
 - [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normál és Plus verziók)
 
 Teszteletlen:
-- R4i3D NEW (Használd aR4iDSN template-et és csomagot)
+- R4i3D NEW (Használd az R4iDSN template-et és csomagot)
 
 Részben kompatiblis:
 - Ace 3DS+ (A játék kompatibilitás rossz, a mentés/betöltése egy mentésnek összeomláshoz vezet)
@@ -179,7 +173,7 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
 
-Ha már van TWiLight Menu++-od, ugorj a következő fejezetbe.
+Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót

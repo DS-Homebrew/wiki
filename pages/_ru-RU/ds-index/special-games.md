@@ -37,10 +37,16 @@ description: DS(i) Games that have special properties
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
@@ -57,6 +63,10 @@ description: DS(i) Games that have special properties
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
+   - Icon is animated
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
    - Icon is animated
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
@@ -143,6 +153,24 @@ Total: 39, some may be missing
 - Women's Murder Club: Games of Passion
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
+
+### DSiWare games with backup code
+These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+
+- Cake Ninja
+   - Unused, so hacking is required to activate the code
+- Cake Ninja 2
+   - Unused, so hacking is required to activate the code
+- Cake Ninja: XMAS
+   - Unused, so hacking is required to activate the code
+- Dragon Quest Wars
+- Dreamwalker
+   - Unused, so hacking is required to activate the code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
 
 ### Games that can connect with GBA titles
 Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.

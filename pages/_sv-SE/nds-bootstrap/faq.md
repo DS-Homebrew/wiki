@@ -32,31 +32,36 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 - Utnyttja DSi:ens extra CPU-hastighet, vilket möjliggör bättre prestanda i vissa spel
 - Förbättra ditt ljud med 48 kHz
 - Använd DSi läge, vilket möjliggör DSi:ens funktioner
+- Less battery power is consumed
 - Using certain Game Cards, you are able to use IR in your application
-- nds-bootstrap har öppen källkod, vilket innebär att utvecklare alltid kan uppdatera det för att fixa buggar och andra saker även om projektet stängs ner
-- DS Memory Expansion Pak emuleras vilket innebär spel som kräver tillbehöret kommer att fungera
-- Byt ut övre och nedre skärmar i kompatibla spel för mer bekväm gameplay, eller på system med en trasig eller borttagen skärm
+- nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
+- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
+- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- A limited number of DSiWare can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Edit values in the RAM using the in-game menu
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### What is a Donor ROM?
 In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
 A Donor ROM can be set using **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The few supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
 - **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
+     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
 
 #### What is the best Donor ROM?
-There is no *best* one to use.     
-If you're a DSiWarehax user, it is preferred to set an SDK5 ROM containing a sub-version higher than 0. However, if you have no existing DSiWare ROM, you can dump a ROM of *Nintendo DSi Sound* (SDK5.0) using GodMode9**i**, and set DSi Sound as a Donor ROM.     
-If you own a 3DS console though, it is preferable to dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and instead, set DS WiFi Settings as a Donor ROM, as doing so allows sleep mode to be activated in DSiWare without waiting 9 seconds.
+There is no *best* one to use. Most ROMs of TWL titles can be set as a Donor ROM.
+
+Examples:
+- **DSiWarehax on DSi:** *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s), if one hasn't been set yet.
+- **DSiWarehax on 3DS:** Dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and set it as a Donor ROM.
 
 #### Why can't I set a Donor ROM?
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
@@ -92,14 +97,14 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-Nej. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
 
 #### Can I remap button inputs using nds-bootstrap?
-Nej. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
 
 #### How do I play randomized Pokémon ROMs with nds-bootstrap?
 Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).

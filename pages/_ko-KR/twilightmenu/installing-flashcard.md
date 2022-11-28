@@ -17,9 +17,10 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 1. 세이브 데이터를 이미 갖고있다면, DS ROM의 위치에 있는 `.sav` 파일을 `saves` 폴더에 넣으세요. (DS ROM의 위치에도 있습니다.)
 1. ...
    - **DS Phat/Lite 이용자: **`BOOT.NDS`를 부팅할 때, 하얀 화면이 지속된다면 DS 메모리 확장 팩을 삽입하고 다시 시도해보세요.
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **DSi/3DS 이용자:** TWLMenu++를 기기의 SD 카드에서 시작하고, TWLMenu++ 설정을 열고, `Misc. settings` 페이지에서 `SCFG Access in Slot-1`하고 `Slot-1: Touch Mode`를 `DSi Mode`로 설정하세요.
       - 이렇게 하면 플래시 카드 게임에서 TWL 클락 속도나 VRAM 부스트를 사용할 수 있을 뿐 아니라 본체의 SD 카드에 액세스하거나 플래시 카드에서 DSi 전용, DSi 웨어 게임을 DSi 모드로 실행할 수도 있습니다.
       - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
+      - 위 기능을 사용하고 싶다면, 플래시 카드를 시스템 메뉴가 아닌 TWLMenu++에서 실행해야 합니다.
 
 ### TWiLight Menu++ 자동 부팅하기
 1. `Autoboot/(사용하는 flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
@@ -30,18 +31,19 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 
 ### 사용하고 있는 Flashcard 펌웨어를 이용해 게임을 실행하려면...
 
-Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
+이 섹션은 flashcard가 TWiLight Menu++를 자동 부팅하도록 설정 되있을 시에만 적용됩니다. 방법은 위 섹션을 참고하세요.
 {:.alert .alert-warning}
 
 모든 Flashcard가 이 방식으로 게임을 실행하는 것을 지원하지는 않는다는 걸 알아 주세요. 만약 아래 절차가 당신의 Flashcard에 맞지 않는다면, 이 부분을 건너뛰셔도 됩니다,
 {:.alert .alert-warning}
 
 1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
-   - 이렇게 했다면, 3번으로 건너뛰셔도 됩니다. 아니라면, 아래 Flashcard 리스트에서 순서에 따라 진행합니다.
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. 아래 Flashcard 이용자:
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
+   - r4isdhc.com 2014-2022 카드 (.hk, .com.cn **아님**)
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance

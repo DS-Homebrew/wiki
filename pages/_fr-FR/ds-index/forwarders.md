@@ -60,12 +60,6 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 1. Téléchargez le [pack de forwarders pour carte SD de DSi](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Extrayez le contenu du dossier `for SD Card root` à la racine de la carte SD de votre DSi
 
-Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/nds-bootstrap.ini` et changer les paramètres suivants.
-- BOOST_CPU : Si la valeur est 1, la vitesse d'horloge TWL est utilisée, supprimant ainsi les ralentissements
-- SOUND_FREQ : Si la valeur est 1, le son sera joué à 48 kHz, au lieu de 32 kHz
-- LANGUAGE : Si la valeur est -1, la langue du système sera utilisée
-- REGION : Si la valeur est -2, la région du jeu DSiWare sera utilisée au lieu de celle du système
-
 ### Partie 2 : Obtenir les fichiers de correction AP à partir de TWiLight Menu++
 
 Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
@@ -95,12 +89,12 @@ Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
    - Une Nintendo DSi avec [Unlaunch](https://dsi.cfw.guide/fr_FR/installing-unlaunch) et [hiyaCFW](installing) installés
    - La dernière version de [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases)
 - **Utilisateurs de 3DS :**
-   - Une console de la famille Nintendo 3DS avec un environnement CFW moderne d'après [3ds.hacks.guide](https://3ds.hacks.guide)
+   - Une console de la famille Nintendo 3DS avec un environnement CFW moderne d'après [3ds.hacks.guide](https://3ds.hacks.guide/fr_FR/)
 
 {% capture flashcards %}
-Les linkers recommandées sont le DSTT et l'Acekard 2i. Si vous voulez une compatibilité parfaite avec les jeux, prenez la SuperCard DSTWO/DSTWO PLUS. Le seul inconvénient est que ceci vide plus rapidement la batterie de votre système.
+Les linkers recommandés sont le DSTT et l'Acekard 2i. Si vous voulez une compatibilité parfaite avec les jeux, prenez la SuperCard DSTWO/DSTWO PLUS. Le seul inconvénient est qu'elle vide plus rapidement la batterie de votre système.
 
-Si vous avez un linker qui fonctionne avec le NTR Launcher d'Apache Thunder, vous pouvez le demander [sur le fil GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Assurez-vous de spécifier quelle version vous utilisez (Normal ou Alt), et si `RESETSLOT1` est défini à `0` ou `1` dans `sd:/nds/ntr_launcher.ini`.
+Si vous avez un linker qui fonctionne avec le NTR Launcher d'Apache Thunder, vous pouvez le soumettre [sur le fil GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Assurez-vous de préciser quelle version vous utilisez (Normal ou Alt), et si `RESETSLOT1` est défini sur `0` ou `1` dans le fichier `sd:/nds/ntr_launcher.ini`.
 
 Compatibles :
 - [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (les jeux optimisés DSi, y compris les jeux NTR plus récents, ne fonctionnent pas)
@@ -127,7 +121,7 @@ Non testé :
 - R4i3D NEW (utilisez le modèle et le pack R4iDSN)
 
 Partiellement compatibles :
-- Ace 3DS+ (la compatibilité de jeu est mauvaise, la sauvegarde/le chargement d'un fichier de sauvegarde donc provoque un plantage)
+- Ace 3DS+ (la compatibilité de jeu est mauvaise, la sauvegarde/le chargement d'un fichier de sauvegarde provoque donc un plantage)
 - Carte Gateway bleue (la compatibilité de jeu est mauvaise, la sauvegarde/le chargement d'un fichier de sauvegarde provoque donc un plantage)
 - EX4DS (la compatibilité de jeu est mauvaise, la sauvegarde/le chargement d'un fichier de sauvegarde provoque donc un plantage)
 - R4iLS (la compatibilité de jeu est mauvaise, la sauvegarde/le chargement d'un fichier de sauvegarde provoque donc un plantage)
@@ -172,9 +166,9 @@ Incompatibles :
       - DSTT/R4i Gold/R4i-SDHC/R4 SDHC Dual-Core/R4 SDHC Upgrade/SC DSONE, Acekard 2(i)/M3DS Real/R4i-SDHC 1.4.x - YSMenu
       - Acekard RPG, Ace 3DS+/Carte Gateway bleue/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
 
-Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/ntr_forwarder.ini` pour changer les paramètres suivants. Ce n'est pas possible pour Acekard RPG, R4 DS et R4i Gold RTS.
+Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/ntr_forwarder.ini` pour changer les paramètres suivants. Cela n'est pas possible pour l'Acekard RPG, la R4 DS et la R4i Gold RTS.
    - `NTRCLOCK` : Si réglé sur `0` ou que <kbd class="face">A</kbd> est maintenu, l'écran de démarrage DSi apparaîtra à la place du démarrage normal de la DS et la vitesse de l'horloge TWL est utilisée, supprimant ainsi les ralentissements
-   - `DISABLEANIMATION` : Si réglé sur `1` ou que <kbd class="face">B</kbd> est maintenu, l'écran de démarrage de la DS/DSi est ignoré
+   - `DISABLEANIMATION` : Si réglé sur `1` ou que <kbd class="face">B</kbd> est maintenu, l'écran de démarrage DS/DSi est ignoré
    - `HEALTHSAFETYMSG` : Si réglé sur `1`, le message de santé et de sécurité de l'écran de démarrage apparaîtra sur l'écran inférieur, sinon l'écran inférieur reste blanc et sans message de santé et de sécurité
 
 ### Partie 2 : Obtenir les fichiers de correction AP à partir de TWiLight Menu++
@@ -203,7 +197,7 @@ Si vous disposez déjà de TWiLight Menu++, passez à la section suivante.
 ### Partie 4 : Installer le forwarder
 
 - Si vous utilisez une console de la famille 3DS :
-   1. Copiez le(s) CIA(s) sur la carte SD de votre 3DS, puis installez-les en utilisant FBI
+   1. Copiez le(s) CIA(s) sur la carte SD de votre 3DS, puis installez-le(s) en utilisant FBI
       - Si vous utilisez l'EmuNAND, installez à la fois sur la SysNAND et l'EmuNAND
 - Si vous utilisez une DSi :
    1. Copiez `tmfh.nds` depuis l'archive `.zip` de TMFH à la racine de votre carte SD

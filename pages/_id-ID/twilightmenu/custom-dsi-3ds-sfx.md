@@ -12,7 +12,7 @@ TWiLight Menu++ mendukung berkas suara kustom untuk tema. Taruh berkas suaranya 
 Arahan ini beranggapan kamu sudah memasang devkitPro dengan mmutil. Kamu dapat mengunduh devkitPro di [situs web devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Bank Efek Suara (SFX)
-Berkas bank efek suara (sfx.bin) mengandung sfx seperti suara memilih ikon, dll.
+The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
 | Berkas      | Keterangan                                                                                          |
 | ----------- | --------------------------------------------------------------------------------------------------- |
@@ -26,9 +26,9 @@ Berkas bank efek suara (sfx.bin) mengandung sfx seperti suara memilih ikon, dll.
 
 Semua berkas yang tertera di atas diperlukan untuk membuat bank efek suara ubah suai (custom). Jika ingin suaranya senyap, gunakan berkas audio yang sunyi. Format harus wajib yang `.wav` dan encoding-nya *harus* PCM.
 
-Untuk membuat bank efek suara, kamu perlu mengunduh [berkas ini](/assets/files/Makefile) dan taruh bersama semua berkas `.wav` yang akan digunakan. Setelah semua berkasnya sudah di folder yang sama, buka terminal (atau command line jika di Windows), ubah direktori saat ini (`cd`) ke folder yang ada `Makefile`, lalu jalankan perintah `make`.
+[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
 
-Kamu akan mendapat hasil berkas `sfx.bin` yang dapat disalin ke subfolder `sound` di folder temamu. **Berkas ini harus di bawah ukuran 512000B = 512 kB**. Jika lebih besar dari itu akan berakibat mogok (crash) atau suara tidak diputar sepenuhnya.
+To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
 
 ### Suara startup
 Di saat efek suara lain dapat berfungsi dengan berkas WAV apa pun ber-encode PCM, suara awal buka (startup) harus dengan format spesifik agar dapat berfungsi benar, jika tidak nanti ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.

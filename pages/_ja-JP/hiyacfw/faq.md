@@ -4,7 +4,7 @@ layout: faq
 section: hiyacfw
 title: よくある質問とトラブルシューティング
 long_title: hiyaCFWのよくある質問とトラブルシューティング
-description: FAQ & Troubleshooting for hiyaCFW
+description: hiyaCFWのよくある質問とトラブルシューティング
 ---
 
 #### hiyaCFWのSDNANDにアプリまたはDSiウェアをインストールするにはどうすればいいですか？

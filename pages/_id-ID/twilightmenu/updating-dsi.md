@@ -18,10 +18,10 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
 1. Ekstrak `TWiLightMenu-DSi.7z`
 1. Salin folder `_nds` ke root kartu SD, timpa berkas yang ada
-   - Untuk macOS, pastikan harus **copy (salin)** dan `merge (gabung)`, jangan `replace (timpa)`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Salin berkas `BOOT.NDS` ke root kartu SD, timpa berkas yang ada
 1. **Pengguna hiyaCFW:** Salin folder `title` ke root kartu SD, timpa berkas yang ada
-   - Untuk macOS, pastikan harus **copy (salin)** dan `merge (gabung)`, jangan `replace (timpa)`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 
 ### Langkah tambahan untuk di flashcard
 

@@ -10,19 +10,28 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
 
-| Player name  | Supported containers/Codecs | Support         | Drawbacks                                   | Max FPS                                         |
-| ------------ | --------------------------- | --------------- | ------------------------------------------- | ----------------------------------------------- |
-| Moonshell    | `.dpg`, MPEG1               | Flashcards only | Requires a flashcard to play videos.        | 24fps                                           |
-| Tuna-ViDS    | `.avi`, XVid                | DSi and NDS     | Can only reach a certain framerate/bitrate. | 15fps                                           |
-| MPEG4Player  | `.mp4`, H.264               | DSi and NDS     | Can only play short videos.                 | 24fps                                           |
-| Rocket Video | `.rvid`, Raw/LZ77           | DSi and NDS     | Dumps frames in an uncompressed format.     | up to 25fps (Progressive) or 50fps (Interlaced) |
+| Player name | Supported containers/Codecs | Support         | Drawbacks                                   | Max FPS |
+| ----------- | --------------------------- | --------------- | ------------------------------------------- | ------- |
+| FastVideoDS | `.fv`, FastVideoDS          | DSi and NDS     | Confetti spam slows down high FPS video.    | 60fps   |
+| Moonshell   | `.dpg`, MPEG1               | Flashcards only | Requires a flashcard to play videos.        | 24fps   |
+| Tuna-ViDS   | `.avi`, XVid                | DSi and NDS     | Can only reach a certain framerate/bitrate. | 15fps   |
+| MPEG4Player | `.mp4`, MPEG-4              | DSi and NDS     | Can only play short videos.                 | 24fps   |
 
 Notes:
 - Actual max FPS is dependent on video content and length.
-- MPEG4Player is outdated and may be replaced with a new video format, **FastVideoDS**. RocketVideo is no longer being maintained.
 
-Warning: Converting large files in Rocket Video converter may cause you to loose your data as it writes uncompressed frames to the hard disk. This is why using Rocket Video is unrecommended.
+## FastVideoDS
+
+Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
 {: .alert .alert-warning}
+
+### Windows
+
+1. Download the encoder [here](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
+- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+
+When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
 ## Moonshell video conversion (DPG4x)
 

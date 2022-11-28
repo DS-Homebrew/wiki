@@ -20,6 +20,7 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
    - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
       - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
       - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
+      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
 
 ### Autobooting TWiLight Menu++
 1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
@@ -37,6 +38,7 @@ Please note that not all flashcards support running games in this fashion. If th
 {:.alert .alert-warning}
 
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:

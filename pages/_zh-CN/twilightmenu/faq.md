@@ -86,10 +86,10 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 你也可以在启动TWiLight Menu++时按住 <kbd>SELECT</kbd> 来直接访问设置。
 
 #### 如何在游戏中使用自定义图标/banner？
-你可以使用PNG或DS banner.bin格式的自定义banner，方法是将其放在 `sd:/_nds/WiLightMenu/icons` 文件夹中，名称为ROM（包括扩展名）+ `.png` 或 `.bin`。
+You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) or folder + `.png` or `.bin`.
 
-对于PNG banner, 你只需要任何具有15种颜色或更少的PNG文件，最大分辨率为32x32。
+For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
 
-banner.bin类型的banner能够动画化，并允许你替换将在TWiLight Menu++中显示的标题。 它们可以使用 [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) 或 [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f) 生成。 NDS Banner Editor 是一个GUI应用程序，使用起来可能更简单，但是它有时在透明度方面有问题，而且只适用于Windows（尽管它在WINE中也能工作）。
+banner.bin类型的banner能够动画化，并允许你替换将在TWiLight Menu++中显示的标题。 They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), it's currently recommended to use the [nightly version](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) as it has several improvements over the stable release.
 
 预制的banner可以在TWiLight Menu++皮肤网站 [icons](https://skins.ds-homebrew.com/icon/) 部分找到，如果你制作了任何banner，也可以在那里分享。

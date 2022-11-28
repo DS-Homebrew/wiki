@@ -20,6 +20,7 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
    - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, buka Pengaturan TWLMenu++, pindah ke halaman `Pengatuan lain `, lalu nyalakan `Akses SCFG di Slot-1` dan ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
       - Ini agar laju jam (clock speed) TWL dan/atau kebut VRAM dapat digunakan permainan di flashcard, sekaligus mengakses kartu memori SD konsol, dan menjalankan ROM DSi-Enhanced/DSi-Exclusive/DSiWare dalam mode DSi di flashcard
       - Jika ini dinyalakan, tombol <kbd>SELECT</kbd> + <kbd>Atas</kbd>/<kbd>Bawah</kbd> dapat ditekan untuk beralih antara kartu SD konsol dan kartu SD flashcard
+      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
 
 ### Memulai sendiri (Autobooting) TWiLight Menu++
 1. Ekstrak isi dari `Autoboot/(flashcard-mu)` ke root dari kartu microSD flashcard
@@ -37,7 +38,8 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
 {:.alert .alert-warning}
 
 1. Ekstrak apa yang ada di `Flashcart Loader/(flashcard-mu)` ke root dari kartu microSD flashcard
-   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang ada di bawah daftar flashcard
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. Untuk flashcard berikut:
    - R4i-SDHC (r4i-sdhc.com)

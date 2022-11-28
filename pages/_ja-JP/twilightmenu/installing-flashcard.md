@@ -3,45 +3,47 @@ lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: installing
-title: インストール（フラッシュカード）
-long_title: TWiLight Menu++をインストール（フラッシュカード）
-description: ニンテンドーDSフラッシュカードにTWiLight Menu++をインストールする方法
+title: インストール（マジコン）
+long_title: TWiLight Menu++をインストール（マジコン）
+description: ニンテンドーDSマジコンにTWiLight Menu++をインストールする方法
 ---
 
 ### インストール
 1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
-1. `TWiLightMenu-Flashcard.7z`を抽出
-1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピー
-1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピー
-1. `roms`フォルダをフラッシュカードのmicroSDカードのルートにコピー
-1. すでにセーブデータがある場合は、DS ROMの場所にある`.sav`ファイルをDS ROMの場所に`saves`という新しいフォルダに移動
+1. `TWiLightMenu-Flashcard.7z`を展開
+1. `_nds`フォルダをマジコンのmicroSDカードのルートにコピー
+1. `BOOT.NDS`ファイルをマジコンのmicroSDカードのルートにコピー
+1. `roms`フォルダをマジコンのmicroSDカードのルートにコピー
+1. すでにセーブデータがある場合は、DS ROMの場所にある`.sav`ファイルを、同じくDS ROMの場所にある`saves`という新しいフォルダに移動
 1. ...
-   - **DS Phat・Liteユーザー：**`BOOT.NDS`を起動すると、白い画面のロックアップが発生した場合は、DSメモリー拡張カートリッジを挿入して、もう一度やり直してください
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
+   - **DS無印・Liteユーザー：**`BOOT.NDS`を起動して、白い画面フリーズした場合は、DSメモリー拡張カートリッジを挿入して、もう一度やり直してください
+   - **DSi・3DSユーザー：**ゲーム機のSDカードでTWLMenu++を実行し、TWLMenu++の設定を開き、 `その他の 設定`に移ります。`Slot-1でSCFGアクセス`をオンにし、`Slot-1: タッチモード`を`DSi モード`に設定します
       - これにより、フラッシュカードのゲームでTWLクロック速度やVRAMブーストを使用できますほか、本体のSDカードにアクセスしたり、フラッシュカードからDSi対応・DSi専用・DSiウェアのゲームをDSiモードで実行したりできます
-      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
+      - この機能を有効にすると、 <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> で、内蔵SDカードとマジコンのSDカードを切り替えることができます
+      - 上記の機能を利用するには、システムメニューではなく、TWLMenu++でマジコンを起動する必要があります
 
-### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Skip this, if you don't see your flashcard
+### TWiLight Menu++を自動起動する
+1. `Autoboot/(使っているマジコン)`の中身をマジコンのmicroSDカードのルートに展開する
+   - マジコンが表示されない場合は、スキップしてください
 1. ...
-   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+   - **DS無印・Liteユーザー：**DSメニューの設定から、自動起動をオンにして、起動時にマジコンが起動するようにします
+   - **DSi・3DSユーザー：**ゲーム機のSDカードでTWLMenu++を実行し、TWLMenu++の設定を開き、`その他の設定`で`Slot-1を自動起動`をオンにしてください
 
-### To run games using your flashcard firmware
+### マジコンファームウェアを使用してゲームを起動するには
 
-Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
+これは、TWiLight Menu++を自動起動するようにマジコンが設定されている場合しか機能しないのでご注意ください。 設定方法については、上記の項を参照してください。
 {:.alert .alert-warning}
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+すべてのマジコンがこの方法でのゲーム起動をサポートしているわけではありません。 以下の手順がお使いのマジコンに当てはまらない場合は、このセクションを飛ばして構いません。
 {:.alert .alert-warning}
 
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+1. `Flashcart Loader/(お使いのマジコン)`内のものをマジコンのmicroSDカードのルートへ展開します。
+   - `Flashcart Loader`には、どのFlashcart Loaderがお使いのマジコンに適しているかの判断材料となるREADME.txtがあります
+   - 判断がついたら、ステップ3に進んでください。 そうでなければ、下記のマジコンリストの載ったステップ2に進んでください
 
-1. For these flashcards:
+1. 次のマジコンを使う場合：
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
+   - r4isdhc.com 2014〜2022（.hkや.com.cn**ではない**）
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -51,13 +53,13 @@ Please note that not all flashcards support running games in this fashion. If th
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
+   - DSONE SDHC & DSONEi（非SDHCモデルは***非対応***）
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
-   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
-   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
-   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
+   - M3i Zero（GMP-Z003以外のモデル）
+   - iTouchDSとiTouch2（M3Real_M3iZero YSMenuファイルを使用）
+   - R4(i)RTS（r4rts.com）（M3Real_M3iZero YSMenuファイルを使用）
+   - R4 SDHC RTS（黒いカートリッジ）（r4isdhc.com）（M3Real_M3iZero YSMenuファイルを使用）
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+   [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
+      - マジコンのmicroSDのルートに`YSMenu.nds`（存在しない場合は`TTMenu.dat`から名前を変更する）と`TTMenu`フォルダがあることを確認してください
+1. TWLMenu++設定を開き、`nds-bootstrap設定`ページに切り替えます。`Use nds-bootstrap`を`No`に設定して、nds-bootstrapの代わりにマジコンファームウェアを使うようにします。

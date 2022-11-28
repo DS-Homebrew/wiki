@@ -37,47 +37,57 @@ description: Jeux DS(i) qui ont des propriétés spéciales
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- Titres DSiWare G.G. Series
+   - Une collection intitulée *G.G. Series Collection+* est sortie physiquement en exclusivité au Japon
+   - Réalisée comme un titre NTR, permettant de jouer sur les consoles DS
+   - Les écrans manuels contiennent une interface utilisateur unique
 - Heathcliff: Frantic Foto
-   - DSiWare version called "Heathcliff: Spot On"
-- Master of Illusion/Magic Made Fun
-   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Version DSiWare appelée « Heathcliff: Spot On »
+- Faites de la magie
+   - Divisé en six titres DSiWare appelés « Une pause avec… Faites de la magie ». En anglais, ils sont appelés « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - Version DSiWare appelée « Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light »
 - Need for Speed: Nitro
-   - Version DSiWare nommée « Need for Speed: Nitro-X »
+   - Version DSiWare appelée *Need for Speed: Nitro-X*
    - La fonction Téléchargement DS et diverses musiques sont supprimées
    - Nouvelles voitures de police disponibles
-- Nintendogs: Lab & Friends
+- Nintendogs : Labrador & ses amis
    - Version DSiWare exclusive à la Chine
 - Phantasy Star 0
    - Une version démo (?) du jeu original, nommée « Phantasy Star 0 Mini », est exclusive au Japon
    - L'icône est animée
-- Planet Puzzle League
-   - Version DSiWare anglaise appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
-   - Multijoueur supprimé
-   - Certaines pistes musicales ont été supprimées
+- Puzzle League DS
+   - Version DSiWare appelée « Une pause avec… Puzzle League ». En anglais, elle est appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
+   - Multijoueur retiré
+   - Certaines pistes musicales ont été retirées
 - Plantes contre Zombies
-   - Le Téléchargement DS, certains succès et la vidéo musicale ont été supprimés
+   - Le Téléchargement DS, certains succès et la vidéo musicale ont été retirés
    - Comprend un mini-jeu exclusif
    - L'icône est animée
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
+   - L'icône est animée
 - Space Invaders Extreme 2
-   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
-   - Wireless features removed
-- Sujin Taisen: Number Battles
-   - DSiWare version known as "Number Battle" in USA
-   - Local multiplayer is removed, but online multiplayer is retained
+   - Version DSiWare appelée « Space Invaders Extreme Z », exclusive au Japon
+   - Fonctionnalités sans fil retirées
+- Sujin Taisen : La guerre des chiffres
+   - Version DSiWare connue sous le nom de « Number Battle » aux États-Unis
+   - Le multijoueur local est retiré, mais le multijoueur en ligne est conservé
 - Tetris Party Deluxe
-   - DSiWare version called "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-   - Icon is animated
-- True Swing Golf/Nintendo Touch Golf
-   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
-      - The game engine is improved
-      - Challenge mode replaces Championship Tour of the retail game
+   - Version DSiWare nommée « Tetris Party Live »
+   - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
+   - L'icône est animée
+- Nintendo Touch Golf: Birdie Challenge
+   - Version DSiWare appelée « Une pause avec… Nintendo Touch Golf ». En anglais, elle est appelée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
+   - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
+      - Le moteur du jeu est amélioré
+      - Le mode challenge remplace le mode championnat du jeu commercial
 - WarioWare: Touched!
-   - Slot-2 features removed
+   - Fonctionnalités Slot-2 retirées
 - Zuma's Revenge!
-   - Multiplayer removed
-   - Icon is animated
+   - Multijoueur retiré
+   - L'icône est animée
 
 Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Bomberman Blitz
@@ -144,23 +154,41 @@ Total : 39, certains peuvent être manquants
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
+### Jeux DSiWare avec code de sauvegarde
+Ils écrivent les données de sauvegarde sur la puce de sauvegarde de la carte, s'ils fonctionnent à partir d'une carte.
+
+- Cake Ninja
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Cake Ninja 2
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Cake Ninja: XMAS
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Dragon Quest Wars
+- Dreamwalker
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo: Harmonious Forest Revenge
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Make-Up & Style
+   - Inutilisé, le hacking est donc nécessaire pour activer le code
+
 ### Jeux qui peuvent se connecter avec des titres GBA
 Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-dessous quelques alternatives possibles.
 
 - Advance Wars: Dual Strike
    - Advance Wars
    - Advance Wars 2: Black Hole Rising
-- Bleach DS
+- Bleach: The Blade of Fate
    - Bleach Advance: Kurenai ni Somaru Soul Society
-- Castlevania Dawn of Sorrow
-   - Castlevania Aria of Sorrow
+- Castlevania: Dawn of Sorrow
+   - Castlevania: Aria of Sorrow
    - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
-- Daigasso! Band Brothers
-   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
-- Eyeshield 21: MAX Devil Power
-   - Eyeshield 21: Devilbats Devildays
-- Feel the Magic: XY/XX
-   - ChuChu Rocket
+- Daigassō! Band Brothers
+   - Daigassō! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Eyeshield 21: MAX Devil Power!
+   - Eyeshield 21: DevilBats DevilDays
+- Project Rub
+   - ChuChu Rocket!
    - Puyo Pop
    - Sonic Advance
    - Sonic Advance 2
@@ -220,7 +248,7 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
+   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -228,16 +256,16 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Phoenix Wright: Trials and Tribulations
    - Gyakuten Saiban 3
 - Pokémon Dash
-   - Pokémon Ruby/Sapphire
-   - Pokémon FireRed/LeafGreen
-   - Pokémon Emerald
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
-   - Pokémon Ruby/Sapphire
-   - Pokémon FireRed/LeafGreen
-   - Pokémon Emerald
+   - Pokémon Rubis/Saphir
+   - Pokémon Rouge Feu/Vert Feuille
+   - Pokémon Émeraude
+- Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
+   - Pokémon Rubis/Saphir
+   - Pokémon Rouge Feu/Vert Feuille
+   - Pokémon Émeraude
    - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
-- Pokémon Mystery Dungeon: Blue Rescue Team
-   - Pokémon Mystery Dungeon: Red Rescue Team
+- Pokémon Donjon Mystère : Équipe de Secours Bleue
+   - Pokémon Donjon Mystère : Équipe de Secours Rouge
 - Shrek Super Slam
    - Shrek Super Slam
 - Spider-Man 2
@@ -330,11 +358,11 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
     - Live Channel
 - My Word Coach (DS)
     - My Word Coach (Wii)
-- Pokémon Diamond/Pearl
+- Pokémon Diamant/Perle
     - My Pokémon Ranch
-- Pokémon Platinum
-    - My Pokémon Ranch (Japan Only Update)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+- Pokémon Platine
+    - My Pokémon Ranch (mise à jour exclusive au Japon)
+- Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
     - Pokémon Battle Revolution
 - Personal Trainer: Walking
     - Mii Channel
@@ -352,7 +380,7 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Possède deux podomètres infrarouges
    - Non compatible avec les ROMs Pokémon
 - Active Health with Carol Worderman
-   - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais un seul
+   - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais il n'y en a qu'un
    - Non compatible avec les ROMs Pokémon
 
 ### Autres (jeux spéciaux qui n'entrent pas dans l'une des catégories ci-dessus)
@@ -369,6 +397,6 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Slide Adventure MAGKID
    - Accompagné d'une souris optique Slot-2
 - Daigassō! Band Brothers
-   - Possède une cartouche Slot-2 ajoute plus de chansons
+   - Possède une cartouche Slot-2 qui ajoute plus de chansons
 - Arkanoid DS
    - Accompagné d'une manette paddle Slot-2

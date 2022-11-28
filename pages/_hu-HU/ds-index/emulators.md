@@ -29,7 +29,7 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                |
 | Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                  | `.ngp`, `.ngc`                         | `/data/ngpds/[rom neve].ngp.fla`               |
-| Fast Video              | Hamarosan                                       | `.fv`                                  |                                                |
+| FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]          | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                        | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                |
@@ -93,6 +93,7 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
 [colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
+[fastvideodsplayer]: https://github.com/Gericom/FastVideoDSPlayer
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS

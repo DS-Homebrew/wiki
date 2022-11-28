@@ -31,7 +31,7 @@ Se stai aggiornando da una versione più vecchia della v21.0.0, sposta i tuoi fi
 1. Scarica la versione più recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Estrai `TWiLightMenu-3DS.7z`
 1. Copia la cartella `_nds` nella root della tua scheda SD, sostituendo quella già presente
-   - Se usi macOS, assicurati di **Copiare** e `Unire`, non `Sostituire`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copia il file `BOOT.NDS` nella root della tua scheda SD, sostituendo il file già presente
 1. Copiare i due file `.cia` nella root della scheda SD, sostituendo i file esistenti
 1. Sul tuo 3DS, installa i due file CIA con FBI

@@ -86,10 +86,10 @@ La manière d'accéder aux paramètres de TWiLight Menu++ varie selon votre conf
 Vous pouvez également maintenir <kbd>SELECT</kbd> tout en lançant TWiLight Menu++ pour accéder directement aux paramètres.
 
 #### Comment puis-je utiliser des icônes/bannières personnalisées pour les jeux ?
-Vous pouvez utiliser une bannière personnalisée au format PNG ou avec un fichier banner.bin en la plaçant dans le dossier `sd:/_nds/TWiLightMenu/icons` avec le nom de la ROM (y compris l'extension) + `.png` ou `.bin`.
+Vous pouvez utiliser une bannière personnalisée au format PNG ou avec un fichier banner.bin en la plaçant dans le dossier `sd:/_nds/TWiLightMenu/icons` avec le nom de la ROM (y compris l'extension) ou du dossier + `.png` ou `.bin`.
 
-Pour les bannières PNG, vous avez simplement besoin de n'importe quel fichier PNG avec 15 couleurs ou moins et une résolution maximale de 32 × 32.
+Pour les bannières PNG, vous avez simplement besoin de n'importe quel fichier PNG avec 15 couleurs ou moins et une résolution maximale de 32 × 32. La transparence totale fonctionne et ne compte pas dans les 15 couleurs, mais la semi-transparence ne fonctionne pas.
 
-Les bannières de type banner.bin peuvent être animées et vous permettent de remplacer le titre qui sera affiché dans TWiLight Menu++. Elles peuvent être réalisées en utilisant soit [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), soit [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor est une application dotée d'une interface graphique qui peut être plus simple à utiliser, mais elle a parfois des problèmes de transparence et ne fonctionne que sous Windows (bien qu'elle fonctionne avec WINE).
+Les bannières de type banner.bin peuvent être animées et vous permettent de remplacer le titre qui sera affiché dans TWiLight Menu++. Ils peuvent être réalisés à l'aide de [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), il est actuellement recommandé d'utiliser la [ version nightly](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) car elle comporte plusieurs améliorations par rapport à la version stable.
 
 Des bannières préfabriquées se trouvent dans la [section des icônes du site de skins de TWiLight Menu++](https://skins.ds-homebrew.com/icon/). Et si vous en créez, vous pouvez les partager là aussi.

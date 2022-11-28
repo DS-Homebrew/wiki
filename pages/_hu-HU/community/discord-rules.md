@@ -112,10 +112,10 @@ A Discord szolgáltatási feltételei az amerikai törvényeket követik, és mi
 
 ## Következmények
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+Ezen szabályok megsértésnek következményei lehetnek: figyelmeztetés, némítás, kirúgás vagy tiltás. Az egyes következmények természetesen az esettől függnek.
+- A legtöbb felhasználó 4 figyelmeztetést kap kitiltás előtt
+   - Ezekbe a figyelmeztetésekbe bele kell érteni, a !warn parancs használatát, a némítást és a szóbeli figyelmeztetéseket
+- A szabálysértés céljával történő csatlakozás kitiltásodhoz vezet
 
 ## Jelentés
 

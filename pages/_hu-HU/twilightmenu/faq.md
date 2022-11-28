@@ -85,11 +85,11 @@ A TWiLight Menu++ beállításainak elérési módja a konfigurációtól függ�
 
 Továbbá nyomva tarthatod a <kbd>SELECT</kbd> gombot a TWiLight Menu++ indításakor, ami közvetlenül a beállításokhoz visz.
 
-#### How do I use custom icons/banners for games?
-You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) + `.png` or `.bin`.
+#### Hagyan használhatok egyéni ikonokat/bannereket a játékokhoz?
+Egyedi bannereker PNG vagy DS banner.bin formátumban úgy használhatsz, hogy berakod az `sd:/_nds/TWiLightMenu/icons` mappába a ROM vagy a mappa nevén (beleértve a kiterjesztést) + `.png` vagy `.bin`.
 
-For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32.
+A PNG bannerekhet egy PNG fájlra van szükséged 15 vagy kevesebb színnel és maximum 32x32 felbontással. A teljes átlátszóság működik, és nem számít bele a 15 színbe, de a félig átlátszóság nem működik.
 
-banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using either [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) or [dsibanner.py](https://gist.github.com/Epicpkmn11/232b7568eed650e11523da4b01c7f64f). NDS Banner Editor is a GUI application that may be simpler to use, however it sometimes has issues with transparency and is Windows only (although it does work in WINE).
+A banner.bin típusú bannerek animálhatók, és lehetővé teszik a TWiLight Menu++-ban megjelenő cím cseréjét. Készíthetők az [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases)-ral, jelenleg az [esti fordítás verzió](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) az ajánlott, mert jónéhány fejlesztést tartalmaz a stabil kiadáshoz képest.
 
-Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
+Előre lekésztett bannerek találhatók az [ikonok szekciójában a TWiLight Menu++ szkinek oldalon](https://skins.ds-homebrew.com/icon/) és ha késztesz egyet, azok meg is oszhatók ott.

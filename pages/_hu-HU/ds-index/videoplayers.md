@@ -10,19 +10,28 @@ description: Homebrew videólejátszók Nintendo DS(i)-re
 # Homebrew videólejátszók Nintendo DS(i)-re
 Ez az oldal a Nintendo DS és DSi működő vagy WIP videólejátszók listáját tartalmazza és elmagyarázza az egyes lejátszók működését.
 
-| Lejátszó neve | Támogatott formátumok/codec-ek | Támogatás      | Hátrányok                                   | Max FPS                                         |
-| ------------- | ------------------------------ | -------------- | ------------------------------------------- | ----------------------------------------------- |
-| Moonshell     | `.dpg`, MPEG1                  | Csak flashcard | Flashcard szükséges a videók lejátszásához. | 24 fps                                          |
-| Tuna-ViDS     | `.avi`, XVid                   | DSi és NDS     | Can only reach a certain framerate/bitrate. | 15 fps                                          |
-| MPEG4Player   | `.mp4`, H.264                  | DSi és NDS     | Can only play short videos.                 | 24 fps                                          |
-| Rocket Video  | `.rvid`, Raw/LZ77              | DSi és NDS     | Dumps frames in an uncompressed format.     | up to 25fps (Progressive) or 50fps (Interlaced) |
+| Lejátszó neve | Támogatott formátumok/codec-ek | Támogatás      | Hátrányok                                                                 | Max FPS |
+| ------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------- | ------- |
+| FastVideoDS   | `.fv`, FastVideoDS             | DSi és NDS     | A konfetti spam (sok apró dolog mozgása) lelassítja a magas FPS-ű videót. | 60 fps  |
+| Moonshell     | `.dpg`, MPEG1                  | Csak flashcard | Flashcard szükséges a videók lejátszásához.                               | 24 fps  |
+| Tuna-ViDS     | `.avi`, XVid                   | DSi és NDS     | Csak bizonyos framerate/bitrate-et tud elérni.                            | 15 fps  |
+| MPEG4Player   | `.mp4`, MPEG-4                 | DSi és NDS     | Csak rövid videókat tud lejátszani.                                       | 24 fps  |
 
 Megjegyzések:
 - A tényleges maximális FPS a videó tartalmától és hosszától függ.
-- Az MPEG4Player régi és egy új videó formátumra kerülhet lecserélésre, a **FastVideoDS**-re. A RocketVideo már nincs fejlesztve.
 
-Figyelmeztetés: A nagyméretű fájlok konvertálása a Rocket Video konverterrel adatvesztést okozhat, mivel tömörítetlen képkockákat ír a merevlemezre. Ezért nem ajánlott a Rocket Video használata.
+## FastVideoDS
+
+Megjegyzés: Ha a következő üzenetet kapod: `This encoder requires a cpu with support for AVX2 instructions`, akkor vagy egy újabb CPU-t kell installálnod, vagy egy újabb PC-t kell használnod.
 {: .alert .alert-warning}
+
+### Windows
+
+1. Töltsd le az enkódert [innen](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Töltsd le az alábbi `.bat` fájlt ugyanoda, ahol az encoder `.exe` fájlja van és húzd rá a videódat a `.bat` fájlra.
+- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+
+Ha ez a folyamat kész, akkor csak húzd át az SD kártyádra. Ha a videót az SD kártyádra raktad, készen áll a **TW**i**L**ight Menu++-szal történő lejátszásra.
 
 ## Moonshell videó konverzió (DPG4x)
 
@@ -44,35 +53,35 @@ Figyelmeztetés: A nagyméretű fájlok konvertálása a Rocket Video konverterr
 1. Állítsd be a `Quality`-t a minőség választásod szerint beállításához
 1. Kattints a `Start Encoding`-ra a videó(k) konvertálásához
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
+Ha ez a folyamat kész, akkor csak húzd át az SD kártyádra. Ha a videót az SD kártyádra raktad, készen áll a Moonshell-lel történő lejátszásra.
 
-## TunaViDS Guide
+## TunaViDS útmutató
 
 ### Windows
-First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
+Először válaszd ki a videót. Ajánlott, hogy a videó 4:3 arányú legyen, de az FFmpeg fekete sávokat ad a videóhoz, ha az nem ilyen.
 
-Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of **TW**i**L**ight Menu++.
+Figyelmeztetés: Ne változtasd meg a Tuna-ViDS ROM-beállításait, mert nem fog megfelelően bootolni. Ez az útmutató feltételezi, hogy a legfrissebb **TW**i**L**ight Menu++-szal rendelkezel.
 {: .alert .alert-warning}
 
-Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+Ezután töltsd le az FFmpeg programot a [közvetlen linkről](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z), és csomagold ki a C:\ffmpeg útvonalra vagy egy olyan helyre, ahol adminisztrátori jogok nélkül is hozzáférsz.
 
-You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your console. Slowdowns may occur on busy scenes (confetti, rain, etc).
+A videók konvertálásánál célszerű a biztonságos zónában kell maradnod (10-15fps), különben a videód összeomlaszthatja a konzolod. Lassulások előfordulhatnak a forgalmas jeleneteknél (konfetti, eső stb.).
 
-To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
+Ahhoz, hogy az FFmpeg mindenhol használható legyen, ajánlott hozzáadni a könyvtárat az elérési útvonal rendszerkörnyezeti változóhoz. Ez tönkreteheti az FFmpeg-re támaszkodó további programokat, ezért távolítsd el a bejegyzést, ha végeztél.
 
-Drag and drop your video into one of these batch files to convert it:
-- [xvid-ds.bat](/assets/files/xvid-ds.bat): Converts to 12FPS video optimal for DS consoles
-- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Converts to 12FPS video optimal for DSi consoles
-- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
-- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Converts to 12FPS video optimal for DSi consoles with 400% volume increase
+Húzd rá a videóadat valamelyik bat fájlra az alábbiak közül a konvertáláshoz:
+- [xvid-ds.bat](/assets/files/xvid-ds.bat): 12FPS videót konvertál, ami optimális a DS konzolok számára
+- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): 12FPS videót konvertál, ami optimális a DSi konzolok számára
+- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): 12FPS videót konvertál, ami optimális a DS konzolok számára 400% hangerő növeléssel
+- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): 12FPS videót konvertál, ami optimális a DSi konzolok számára 400% hangerő növeléssel
 
-If you want, you can change the following in one of the above .bat files:
-- `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
-- `-2` in `scale=256:-2` to your desired vertical resolution, if the video appears distorted
+Ha szeretnéd, módosíthatod a következőket a fenti .bat fájlokban:
+- `12` az `-r 12` opcióban `10` és `15` között egy másik framerate-hez
+- `-2` a `scale=256:-2` opcióban, hogy megadd a kvánt függőleges felbontást, ha a videó torztottnak tűnik
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Ha ez a folyamat kész, akkor csak húzd át az SD kártyádra. Ha a videót az SD kártyádra raktad, készen áll a **TW**i**L**ight Menu++-szal történő lejátszásra.
 
-The video will quit to the menu after it is done playing, so if you want to loop videos, you are going to have to paste-repeat it in a video editor then convert it to an xvid avi using this method.
+A videó kilép a menübe, miután befejezte a lejátszást, így ha videókat akarsz loopolni, akkor be kell illesztened-ismételned egy videószerkesztő programban, majd ezzel a módszerrel xvid avi-vá konvertálnod.
 
 ## MPEG4Player
 

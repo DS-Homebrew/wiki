@@ -31,7 +31,7 @@ tabs:
 1. Скачайте последнюю версию [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Разархивируйте `TWiLightMenu-3DS.7z`
 1. Скопируйте папку `_nds` в корень вашей SD карты, согласившись на замену
-   - При использовании macOS убедитесь, что вы **копируете** и `Объединяете`, а не `Заменяете`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Скопируйте файл `BOOT.NDS` в корень вашей SD карты, заменив все существующие файлы
 1. Скопируйте два файла `.cia` в корень вашей SD карты, согласившись на замену
 1. Установите два CIA файла с помощью FBI на вашей 3DS

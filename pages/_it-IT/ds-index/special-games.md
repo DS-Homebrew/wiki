@@ -37,10 +37,16 @@ description: Giochi DS(i) che hanno proprietà speciali
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
@@ -57,6 +63,10 @@ description: Giochi DS(i) che hanno proprietà speciali
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
+   - Icon is animated
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
    - Icon is animated
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
@@ -144,8 +154,26 @@ Totale: 39, alcuni potrebbero non esserci
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Giochi in grado di connettersi con i titoli GBA
-Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcune possibili alternative.
+### DSiWare games with backup code
+These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+
+- Cake Ninja
+   - Unused, so hacking is required to activate the code
+- Cake Ninja 2
+   - Unused, so hacking is required to activate the code
+- Cake Ninja: XMAS
+   - Unused, so hacking is required to activate the code
+- Dragon Quest Wars
+- Dreamwalker
+   - Unused, so hacking is required to activate the code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
+
+### Games that can connect with GBA titles
+Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
 
 - Advance Wars: Dual Strike
    - Advance Wars
@@ -273,7 +301,7 @@ Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcu
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Giochi che utilizzano gli Option Pak per GBA
+### Games that use GBA Option Paks
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Motion Pack
@@ -313,7 +341,7 @@ Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcu
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
 
-### Giochi con connettività Wii
+### Games with Wii connectivity
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
@@ -343,7 +371,7 @@ Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcu
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Giochi con schede di gioco IR
+### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver
    - For connecting to Pokéwalker pedometer
 - Pokémon Black/White/Black 2/White 2
@@ -355,7 +383,7 @@ Attualmente, nds-bootstrap non dispone dell'emulazione Slot-2. Sono incluse alcu
    - Similar pedometer to Personal Trainer: Walking, but only one
    - Not compatible with Pokémon ROMs
 
-### Altri (Giochi speciali che non rientrano in nessuna categoria precedente)
+### Other (Special Games that do not fall into an above category)
 - Learn with Pokémon: Typing Adventures
    - Cartridge has special bluetooth chip for connecting to the keyboard
 - ElectroPlankton

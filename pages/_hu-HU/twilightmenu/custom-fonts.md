@@ -13,7 +13,7 @@ A TWiLight Menu++ tud olyan egyedi betűkészleteket használni, amik NFTR (Nitr
 3 betűkészlet van beágyazva a TWiLight Menu++-ba. Amikor a TWiLight Menu++ DSi Módban fut, minden karaktert tartalmaz, amire a TWiLight le lett fordítva, de ha DS Módban fut, sokkal korlátozottabb, a RAM korlátok miatt. Ezek a következők:
 - Alapértelmezett: Ez hivatalos DSi betűkészletet használja, mint elsődleges betűkészletet, és támogatja az összes karaktert, ami a TWiLight Menu++-ban használt, minden nyelven a DS módban
 - Kínai(Egyszerűsített): Ez a Noto Sans CS-t használja elsődleges betűkészletnek, és szignifikánsan több Kínai (Egyszerűsített) karakterrel rendelkezik DS módban, más nyelvek karaktereinek rovására
-- Koreai: Ez azonos az alaprételmezettel DSi módban, de DS módban egy sokkal teljesebb hangul készletet tartalmaz, más nyelvek karaktereinek rovására
+- Koreai: Ez azonos az alapértelmezettel DSi módban, de DS módban egy sokkal teljesebb hangul készletet tartalmaz, más nyelvek karaktereinek rovására
 
 ### Könyvtár szerkezet
 Az egyedi betűkészletek a `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` útvonalról kerülnek betöltésre, ahol a `[font name]` bármi lehet amit szeretne, és a `[font file].nftr` egyike a következőknek:
@@ -21,6 +21,11 @@ Az egyedi betűkészletek a `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[fon
 - `small-ds.nftr`, `small-dsi.nftr`, vagy `small.nftr`: A legtöbb más szöveghez használt kisebb betűméret
 
 A `-ds` és `-dsi` fájlok magasabb prioritással rendelkeznek, mint a normálisok, és ha megtalálásra kerülnek, akkor ezt használja a TWiLight Menu++, amikor DS vagy DSi Módban fut.
+
+### Szkin betűkészletek
+You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+
+Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
 
 ### Egyedi betűkészlet generálása
 Létrehozhatod az egyedi betűkészleted olyan eszközökkel, mint például Pk11 [nftr-editor](https://pk11.us/nftr-editor/)-ja. Ahhoz, hogy a TWiLight Menu++ meglévő betűkészleteit újra generálhasd:

@@ -9,7 +9,7 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 ---
 
 ### Installazione
-1. Scarica la versione piè recente di [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+1. Scarica la versione più recente di [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Estrai `TWiLightMenu-Flashcard.7z`
 1. Copia la cartella `_nds` nella scheda microSD della tua flashcard
 1. Copia il file `BOOT.NDS` nella scheda microSD della tua flashcard
@@ -20,6 +20,7 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
    - **Utenti DSi/3DS:** Avviate TWLMenu++ sulla scheda SD della console, aprite Impostazioni TWLMenu++, e passate a `Impostazioni Varie` e attivate `Accesso SCFG da Slot-1` e impostate `Slot-1: Modalità Touch` a `Modalità DSi`
       - Questo permetterà di utilizzare la velocità clock TWL e/o un boost della VRAM ai vostri giochi su flashcard, così come a quelli sulla scheda SD della console, ed eseguendo giochi DSi-Enhanced/DSi-Exclusive/DSiWare in modalità DSi dalla tua flashcard
       - Con questa opzione è possibile utilizzare <kbd>SELECT</kbd> +<kbd>Sù</kbd>/<kbd>Giù</kbd> per passare dalla scheda SD interna alla scheda SD della flashcard
+      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
 
 ### Auto-avvio TWiLight Menu++
 1. Estrai il/i contenuto(i) di `Autoboot/(la tua flashcard)` nella scheda microSD della flashcard
@@ -37,7 +38,8 @@ Nota bene che non tutte le flashcard supportano l'avvio dei giochi in questo mod
 {:.alert .alert-warning}
 
 1. Estrai ciò che c'è in `Flashcart Loader/(la tua flashcard)` nella scheda microSD della flashcard
-   - Se l'hai già fatto, passa al terzo passo. In caso contrario, segui i passaggi sotto la lista delle flashcard qui sotto
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. Per queste flashcard:
    - R4i-SDHC (r4i-sdhc.com)

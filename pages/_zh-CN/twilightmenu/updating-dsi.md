@@ -18,10 +18,10 @@ description: 如何在 Nintendo DSi 上更新 TWiLight Menu++
 1. 下载最新的 [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. 解压 `TWiLightMenu-DSi.7z`
 1. 将 `_nds` 文件夹复制到你的SD卡根目录，替换掉所有现有文件。
-   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. 将 `BOOT.NDS` 文件复制到你的SD卡根目录，替换掉所有现有文件。
 1. **对于 hiyaCFW用户：**将 `title` 文件夹复制到 SD 卡的根目录下，替换所有现有文件
-   - If using macOS, make sure **copy** and `Merge`, don't `Replace`
+   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 
 ### 适用于烧录卡的更多步骤
 

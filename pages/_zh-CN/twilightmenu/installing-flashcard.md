@@ -20,6 +20,7 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - **对于 DSi/3DS 用户:** 在SD卡上启动 TWLMenu++ ，然后打开 TWLMenu++ 设置，切换到 `杂项。 settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
       - 这将使您能够在您的烧录卡游戏上使用 TWL 时钟速度和/或 VRAM 提升，并能够访问主机的 SD 卡，以及从您的烧录卡中运行 DSi 增强/DSi 独占/DSiWare 游戏。
       - 启用此功能后，您可以使用 <kbd>SELECT</kbd> + <kbd>向上</kbd>/<kbd>向下</kbd> 切换您内部的 SD 卡和烧录卡的SD卡
+      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
 
 ### 自动启动TWiLight Menu++
 1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
@@ -37,7 +38,8 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 {:.alert .alert-warning}
 
 1. 解压缩 `Flashcart Loader/(你的烧录卡)` 中的所有文件到你自己烧录卡的microSD卡根目录
-   - 如果你已经这样做了，进行第3步。 If not, follow the steps below the flashcard list below
+   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
+   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
 1. 烧录卡
    - R4i-SDHC (r4i-sdhc.com)

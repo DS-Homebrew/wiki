@@ -12,7 +12,7 @@ TWiLight Menu++ поддерживает пользовательские зву
 Эти инструкции предполагают, что у вас установлен devkitPro с mmutil. Вы можете получить devkitPro на [сайте devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Банк звуковых эффектов
-Банк звуковых эффектов (sfx.bin) содержит звуковые эффекты, такие как звук выбора иконки и т.д.
+The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
 | Файл        | Описание                                                                                                |
 | ----------- | ------------------------------------------------------------------------------------------------------- |
@@ -26,9 +26,9 @@ TWiLight Menu++ поддерживает пользовательские зву
 
 Все перечисленные выше файлы необходимы для создания пользовательского банка звуковых эффектов. Если вы хотите, чтобы звук был отключен, можно использовать беззвучный аудиофайл. Формат `.wav` является обязательным, а кодировка *должна быть* PCM.
 
-Для создания банка звуковых эффектов вам нужно скачать [этот файл](/assets/files/Makefile) и поместить его рядом со всеми `.wav` файлами, которые будут использоваться. После того, как все файлы окажутся в одной папке, откройте терминал (или командную строку, если вы используете Windows), измените текущую директорию (`cd`) на ту, в которой находится `Makefile`, а затем выполните команду `make`.
+[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
 
-В результате вы получите файл `sfx.bin`, который можно скопировать в папку `sound`, находящуюся в папке вашей темы. **Этот файл должен быть меньше 512000Байт = 512 КБ**. Любой файл, превышающий этот размер, приведет либо к сбоям, либо к неполному воспроизведению некоторых звуков.
+To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
 
 ### Звук при запуске
 В то время как другие звуковые эффекты будут работать с любым WAV-файлом с кодировкой PCM, звук запуска должен быть в определенном формате, иначе будет наблюдаться разрыв между остановкой звука, воспроизводимого при запуске, и началом фоновой музыки.

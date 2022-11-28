@@ -12,7 +12,7 @@ TWiLight Menu++ supports custom sound files in themes. Place your sound files un
 Dessa instruktioner förutsätter att du har devkitPro installerat med mmutil. Du kan skaffa devkitPro på [devkitPro-webbplatsen](https://devkitpro.org/wiki/Getting_Started).
 
 ## Ljudeffekter
-The sound effect bank (sfx.bin) contains sound effects such as the icon select sound, etc.
+The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
 | Fil         | Beskrivning                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------- |
@@ -26,9 +26,9 @@ The sound effect bank (sfx.bin) contains sound effects such as the icon select s
 
 All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
 
-To build the sound effect bank you need to download [this file](/assets/files/Makefile) and put it next to all the `.wav` files that will be used. After all the files are on the same folder, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command.
+[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
 
-You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
 
 ### Uppstartsljud
 While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.

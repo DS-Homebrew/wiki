@@ -10,19 +10,28 @@ description: Lettori video homebrew per Nintendo DS(i)
 # Lettori video homebrew per Nintendo DS(i)
 Questa pagina contiene un elenco di lettori video funzionanti o in fase di sviluppo per Nintendo DS e DSi che spiega il funzionamento di ciascuno di loro.
 
-| Nome del lettore | Codec supportati  | Supporto       | Contro                                            | FPS massimi                                          |
-| ---------------- | ----------------- | -------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| Moonshell        | `.dpg`, MPEG1     | Solo flashcard | Richiede una flashcard per riprodurre i video.    | 24fps                                                |
-| Tuna-ViDS        | `.avi`, XVid      | DSi e NDS      | Può raggiungere solo un certo framerate/bitrate.  | 15 fps                                               |
-| MPEG4Player      | `.mp4`, H.264     | DSi e NDS      | Può riprodurre solo video brevi.                  | 24fps                                                |
-| Rocket Video     | `.rvid`, Raw/LZ77 | DSi e NDS      | Scarica i fotogrammi in un formato non compresso. | fino a 25 fps (progressivo) o 50 fps (interlacciato) |
+| Nome del lettore | Codec supportati   | Supporto       | Contro                                           | FPS massimi |
+| ---------------- | ------------------ | -------------- | ------------------------------------------------ | ----------- |
+| FastVideoDS      | `.fv`, FastVideoDS | DSi e NDS      | Confetti spam slows down high FPS video.         | 60fps       |
+| Moonshell        | `.dpg`, MPEG1      | Solo flashcard | Richiede una flashcard per riprodurre i video.   | 24fps       |
+| Tuna-ViDS        | `.avi`, XVid       | DSi e NDS      | Può raggiungere solo un certo framerate/bitrate. | 15 fps      |
+| MPEG4Player      | `.mp4`, MPEG-4     | DSi e NDS      | Può riprodurre solo video brevi.                 | 24fps       |
 
 Note:
 - Gli FPS massimi effettivi dipendono dal contenuto e dalla lunghezza del video.
-- MPEG4Player è obsoleto e potrebbe essere sostituito da un nuovo formato video, **FastVideoDS**. RocketVideo non viene più mantenuto.
 
-Attenzione: La conversione di file di grandi dimensioni con il convertitore Rocket Video può causare la perdita di dati, poiché scrive i fotogrammi non compressi sul disco rigido. Per questo motivo l'uso di Rocket Video non è consigliato.
+## FastVideoDS
+
+Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
 {: .alert .alert-warning}
+
+### Windows
+
+1. Download the encoder [here](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
+- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+
+Una volta terminato questo processo, dovrebbe essere facile trascinare e rilasciare i file sulla scheda SD. Una volta inserito il video nella scheda SD, sarà pronto per la riproduzione tramite **TW**i**L**ight Menu++.
 
 ## Conversione video Moonshell (DPG4x)
 
@@ -70,7 +79,7 @@ Se vuoi, è possibile modificare quanto segue in uno dei file .bat di cui sopra:
 - `12` in `-r 12` a un valore diverso tra `10` e `15` per un frame rate diverso
 - `-2` in `scala=256:-2` alla risoluzione verticale desiderata, se il video appare distorto
 
-Una volta terminato questo processo, dovrebbe essere facile trascinare e rilasciare i file sulla scheda SD. Una volta inserito il video nella scheda SD, sarà pronto per la riproduzione tramite **TW**i**L**ight Menu++.
+When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
 Il video uscirà dal menu al termine della riproduzione, quindi se si desidera riprodurre il video in loop, è necessario incollarlo e ripeterlo in un editor video e poi convertirlo in un file xvid avi con questo metodo.
 

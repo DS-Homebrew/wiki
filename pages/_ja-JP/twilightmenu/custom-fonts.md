@@ -10,8 +10,8 @@ description: TWiLight Menu++でカスタムフォントを使う方法
 TWiLight Menu++は、NFTR（Nitro FonT Resource）形式のカスタムフォントを使える。 設定、説明書のタイトル、およびニンテンドーDSi、ニンテンドー3DS、セガサターン、Homebrew Launcherのテーマに使われる。
 
 ### 含まれるフォント情報
-TWiLight Menu++には3つのフォントが含まれています。 DSiモードでTWiLight Menu++が実行されている場合は、TWiLight Menu++が翻訳されているのすべての言語に必要なすべての文字が含まれています。しかし、DSモードで実行されている場合はRAMの制限によって制限されます。 これらは以下の通りである：
-- デフォルト：これは公式のDSiフォントを主要なフォントとして使い、DSモードですべての言語でTWiLight Menu++で使われるすべての文字を含みます。
+TWiLight Menu++には3つのフォントが含まれています。 When TWiLight Menu++ is running in DSi Mode, they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. これらは以下の通りである：
+- Default: This uses the official DSi font as its primary font, and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
 - 中国語（簡体字）：これはNoto Sans CSを主要なフォントとして使い、DSモードの中国語（簡体字）の文字数が大幅に増加します、他の言語の文字を犠牲にして
 - 韓国語：これはDSiモードではデフォルトと同じです。しかし、DSモードではより完全なハングルのセットを持っています、他の言語の文字を犠牲にして
 
@@ -22,8 +22,13 @@ TWiLight Menu++には3つのフォントが含まれています。 DSiモード
 
 `-ds`と`-dsi`ファイルは通常のファイルよりも優先度が高く、見つかった場合はそれぞれDS・DSiモードでTWiLight Menu++が実行されている時に使われます。
 
-### カスタムフォントの生成
-Pk11の[nftr-editor](https://pk11.us/nftr-editor/)などのユーティリティを使って独自のフォントを作成できます。 TWiLight Menu++の既存のフォントを再生成するには、以下をします：
+### Skin fonts
+You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+
+Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+
+### Generating custom fonts
+You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. nftr-editorでNFTRファイルを読み込む
 1. `Input font`テキストボックスに、優先度の高いフォントから低いフォントへを入力します、カンマで区切っていください
    - 左上のボックスに入力フォントのプレビューが、下のボックスには現在のNFTRが表示されます

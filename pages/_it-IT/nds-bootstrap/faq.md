@@ -32,37 +32,42 @@ nds-bootstrap applica una patch alle funzioni ROM da eseguire da una scheda SD, 
 - È possibile utilizzare la velocità della CPU aggiuntiva del DSi, consentendo prestazioni migliori in alcuni giochi
 - È possibile migliorare l'audio con 48 kHz
 - Si può utilizzare la modalità DSi, consentendo le funzionalità extra del DSi
-- Utilizzando alcune schede di gioco, si è in grado di utilizzare le funzioni IR nell’applicazione
-- nds-bootstrap è open source: significa che gli sviluppatori possono sempre aggiornarlo per correggere bug e altre cose, anche se il progetto si interrompe
-- Il DS Memory Expansion Pak è emulato, questo significa che i giochi che lo richiedono funzioneranno
-- Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
-- Effettua screenshot e modifica i valori nella RAM utilizzando il menu di gioco
+- Less battery power is consumed
+- Using certain Game Cards, you are able to use IR in your application
+- nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
+- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
+- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite: Perché usare nds-bootstrap su una flashcard DS?
 - Alcune ROM compatibili vengono caricate nel Memory Expansion Pak (o nelle flashcard Slot-2 contenenti RAM), consentendo tempi di caricamento più rapidi rispetto alle normali schede di gioco
-- Un numero limitato di DSiWare può essere eseguito utilizzando le patch integrate e una ROM donatrice di un titolo DSi-Enhanced
+- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Tieni presente che nds-bootstrap sarà sempre usato per DSiWare, indipendentemente dall'impostazione `Usa nds-bootstrap` nelle impostazioni di TWLMenu++
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - Se il kernel della flashcard non è in grado di far girare una certa ROM, si può usare al suo posto nds-bootstrap, che può essere impostato per-gioco
 - Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
-- Modifica i valori nella RAM utilizzando il menu di gioco
+- Take screenshots and edit values in the RAM using the in-game menu
 
 #### Che cos'è una ROM donatrice?
 In nds-bootstrap, quando un gioco non si avvia, viene usata un'altra ROM per "donare" il suo binario ARM7 (e ARM7i, se disponibile) al gioco da eseguire, al posto di quello del gioco stesso.     
 Una ROM donatrice può essere impostata usando **TW**i**L**ight Menu++.
-- **Flashcard in modalità DS:** I pochi titoli DSi-Exclusive/DSiWare supportati richiederanno una ROM DSi-Enhanced come ROM donatrice
-- **DSiWarehax:** Poiché sia i giochi DSi-Enhanced che (la maggior parte de) i giochi DSi-Exclusive/DSiWare contengono impostazioni MBK diverse l'uno dall'altro, i giochi DSi-Enhanced non si avvieranno in modalità DSi senza una ROM donatrice. Impostando un titolo DSi-Exclusive/DSiWare come ROM donatrice, i giochi DSi-Enhanced saranno in grado di funzionare con le impostazioni MBK impostate dal titolo DSiWare su cui viene utilizzato l'exploit
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
+- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
+     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
 - **CycloDS iEvolution:** Stesso caso di DSiWarehax, ma i titoli DSi-Exclusive/DSiWare richiederanno un gioco DSi-Enhanced impostato come ROM donatrice, invece del contrario
 
 #### Qual è la migliore ROM donatrice?
-Non esiste la *migliore* da utilizzare.     
-Se usi DSiWarehax, è preferibile impostare una ROM SDK5 che contenga una sotto-versione superiore a 0. Tuttavia, se non disponi di una ROM DSiWare esistente, è possibile scaricare una ROM di *Sound Nintendo DSi* (SDK5.0) utilizzando GodMode9**i**, e impostare DSi Sound come ROM donatrice.     
-Se possiedi una console 3DS, tuttavia, è preferibile scaricare la ROM DS WiFi Settings (SDK5.5) utilizzando GodMode9, e impostare invece DS WiFi Settings come ROM donatrice, poiché in questo modo è possibile attivare la modalità di sospensione in DSiWare senza attendere 9 secondi.
+There is no *best* one to use. Most ROMs of TWL titles can be set as a Donor ROM.
+
+Examples:
+- **DSiWarehax on DSi:** *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s), if one hasn't been set yet.
+- **DSiWarehax on 3DS:** Dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and set it as a Donor ROM.
 
 #### Perché non posso impostare una ROM donatrice?
-Se c'è un titolo che richiede una ROM donatrice, e la ROM che TWLMenu++ ha dichiarato di trovare non mostra l'opzione per impostarla come tale (a patto che siate scesi in basso), allora trova un'altra ROM da impostare come donatrice.
+If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
 #### Che cos'è una nightly e dove posso trovarla?
-Una build nightly è una build per l'ultimo commit. Le build nightly possono essere instabili, ma contiene le correzioni più recenti. È possibile ottenere le build nightly per nds-bootstrap [qui](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information

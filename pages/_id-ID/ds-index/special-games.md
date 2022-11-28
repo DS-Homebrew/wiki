@@ -37,47 +37,57 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
    - Masing-masing mode diubah menjadi judul DSiWare sendiri
 - Elite Forces: Unit 77
    - Main jamak (multiplayer) ditambah
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
-   - Versi DSiWare disebut "Heathcliff: Spot On"
+   - DSiWare version called "Heathcliff: Spot On"
 - Master of Illusion/Magic Made Fun
-   - Dipisah menjadi enam judul DSiWare bernama "Master of Illusion Express" (USA), atau "A Little Bit of... Magic Made Fun" (Eropa)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
-   - Versi DSiWare disebut "Need for Speed: Nitro-X"
-   - Fitur Download Play dan bermacam musik dihapus
-   - Tersedia mobil polisi baru
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
 - Nintendogs: Lab & Friends
-   - Versi DSiWare yang hanya di Tiongkok
+   - DSiWare version exclusive to China
 - Phantasy Star 0
-   - Versi demo(?) dari permainan aslinya, disebut "Phantasy Star 0 Mini", hanya di Jepang
-   - Gambar ikon bergerak
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
 - Planet Puzzle League
-   - Versi DSiWare disebut "Puzzle League Express" (AS), atau "A Little Bit of... Puzzle League" (Eropa)
-   - Main jamak (multiplayer) dihapus
-   - Beberapa lintasan musik dihapus
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
-   - Fitur Download Play, beberapa pencapaian, dan video musik dihapus
-   - Terdapat permainan kecil (minigame) eksklusif
-   - Gambar ikon bergerak
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
+   - Icon is animated
 - Space Invaders Extreme 2
-   - Versi DSiWare disebut "Space Invaders Extreme Z", hanya di Japan
-   - Fitur nirkabel dihapus
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
 - Sujin Taisen: Number Battles
-   - Versi DSiWare dikenal sebagai "Number Battle" di AS
-   - Main jamak lokal dihapus, tapi main jamak daring tetap ada
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tetris Party Deluxe
-   - Versi DSiWare disebut "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, dan Bombliss Mode dihapus
-   - Gambar ikon bergerak
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-   - Versi DSiWare disebut "True Swing Golf Express" (AS), atau "A Little Bit of... Nintendo Touch Golf" (Eropa)
-   - Yang versi DSiWare tidak dilengkapi fitur Wi-Fi apa pun, seperti Local/Download Play atau fitur PictoChat dalam permainan. Lapangan golf juga lebih kurang dari yang permainan retail
-      - Kerja mesin permainan ditingkatkan
-      - Mode tantangan menggantikan Championship Tour yang di permainan retail
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Fitur Slot-2 dihapus
+   - Slot-2 features removed
 - Zuma's Revenge!
-   - Main jamak (multiplayer) dihapus
-   - Gambar ikon bergerak
+   - Multiplayer removed
+   - Icon is animated
 
 Ada dukungan Wi-Fi (termasuk WPA 1/2):
 - Bomberman Blitz
@@ -144,8 +154,26 @@ Jumlah: 39, mungkin masih ada yang belum
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Permainan yang bersambung dengan kartrid GBA
-Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera beberapa cara lain.
+### DSiWare games with backup code
+These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+
+- Cake Ninja
+   - Unused, so hacking is required to activate the code
+- Cake Ninja 2
+   - Unused, so hacking is required to activate the code
+- Cake Ninja: XMAS
+   - Unused, so hacking is required to activate the code
+- Dragon Quest Wars
+- Dreamwalker
+   - Unused, so hacking is required to activate the code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
+
+### Games that can connect with GBA titles
+Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
 
 - Advance Wars: Dual Strike
    - Advance Wars
@@ -154,7 +182,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
    - Bleach Advance: Kurenai ni Somaru Soul Society
 - Castlevania Dawn of Sorrow
    - Castlevania Aria of Sorrow
-   - Gunakan [cheat](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) untuk mendapat barang tertentu
+   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
 - Daigasso! Band Brothers
    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power
@@ -220,7 +248,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Gunakan [Tambalan Slot-2](https://www.romhacking.net/hacks/4649/) ini untuk mengakses konten di Area N
+   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -235,7 +263,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
-   - (Gunakan [pkmn-chest](https://universal-team.net/projects/pkmn-chest) atau [PKSM](https://flagbrew.org/projects/PKSM) untuk mentransfer/menambah Pokémon)
+   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
 - Pokémon Mystery Dungeon: Blue Rescue Team
    - Pokémon Mystery Dungeon: Red Rescue Team
 - Shrek Super Slam
@@ -273,12 +301,12 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Permainan yang menggunakan Option Pak GBA
-- Memory Expansion Pak (Penambah RAM)
+### Games that use GBA Option Paks
+- Memory Expansion Pak
    - Nintendo DS Browser
-- Motion Pack (Pengaya Gerak)
+- Motion Pack
    - Tony Hawk’s Motion
-- Rumble Pak (Pengaya Getaran)
+- Rumble Pak
    - Clubhouse Games
    - Custom Robo Arena
    - Diddy Kong Racing DS
@@ -313,7 +341,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
 
-### Permainan dengan konektivitas Wii
+### Games with Wii connectivity
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
@@ -333,7 +361,7 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum
-    - My Pokémon Ranch (Pembaruan Hanya di Jepang)
+    - My Pokémon Ranch (Japan Only Update)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
     - Pokémon Battle Revolution
 - Personal Trainer: Walking
@@ -343,32 +371,32 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Berikut di bawah tertera
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Kartu Permainan dengan Inframerah
+### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver
-   - Untuk menyambungkan ke pedometer Pokéwalker
+   - For connecting to Pokéwalker pedometer
 - Pokémon Black/White/Black 2/White 2
-   - Untuk memeriksa trade/pertarungan/perasaan dengan C-Gear, Transfer Kunci
+   - For trading/battling/feeling check using the C-Gear, Key transfers
 - Personal Trainer: Walking
-   - Mempunyai pedometer berdasar IR kembar
-   - Tidak sesuai (compatible) dengan ROM Pokémon
+   - Has twin IR based pedometers
+   - Not compatible with Pokémon ROMs
 - Active Health with Carol Vorderman
-   - Serupa dengan pedometer Personal Trainer: Walking, tapi hanya satu
-   - Tidak sesuai (compatible) dengan ROM Pokémon
+   - Similar pedometer to Personal Trainer: Walking, but only one
+   - Not compatible with Pokémon ROMs
 
-### Lainnya (Permainan Khusus yang tidak termasuk kategori di atas)
+### Other (Special Games that do not fall into an above category)
 - Learn with Pokémon: Typing Adventures
-   - Kartrid terdapat cip bluetooth khusus untuk disambungkan ke papan ketik
+   - Cartridge has special bluetooth chip for connecting to the keyboard
 - ElectroPlankton
-   - Kartrid tidak ada RAM simpanan
+   - Cartridge has no save RAM
 - DS Download Station
-   - Serangkaian kartrid yang ditujukan untuk mengedarkan permainan demo
+   - Series of cartridges used to distribute demo games
 - Sonic Classics Collection
-   - Struktur emulasi Genesis/Mega Drive telah dikonversi menjadi emulator
+   - Genesis emulation structure has been converted into an emulator
 - Nitro Development Cart
-   - Mempunyai RAM tambahan untuk mengembangkan permainan DSi
+   - Has extra RAM for developing games for the DSi
 - Slide Adventure MAG KID
-   - Dilengkapi dengan Tetikus Optis Slot-2
+   - Comes with a Slot-2 Optical Mouse
 - Daigasso! Band Brothers
-   - Mempunyai kartrid Slot-2 yang menambahkan lagu
+   - Has a Slot-2 cart that added more songs
 - Arkanoid
-   - Sekemas dengan Alat Kendali Paddle Slot-2
+   - Came bundled with a Slot-2 Paddle Controller

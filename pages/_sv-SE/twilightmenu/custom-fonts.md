@@ -10,8 +10,8 @@ description: Hur du använder dina egna typsnitt med TWiLight Meny++
 TWiLight Menu++ kan använda anpassade typsnitt i formatet NFTR (Nitro FonT Resource). De kommer att användas i inställningar, manualens titlar och i Nintendo DSi, Nintendo 3DS, SEGA Saturnus och Homebrew Launcher teman.
 
 ### Inkluderad teckensnittsinfo
-Det finns tre typsnitt som ingår i TWiLight Menu++. När TWiLight Menu++ körs i DSi Läge så innehåller de alla de tecken som ska behövas för alla språk som TWiLight översätts till, men när de körs i DS-läge är de mer begränsade på grund av RAM-begränsningar. Dessa begränsningar är:
-- Standard: Detta använder det officiella DSi-teckensnittet eftersom det är det primära teckensnittet och stöder alla tecken som används i TWiLight Menu++ på alla språk i DS-läge
+Det finns tre typsnitt som ingår i TWiLight Menu++. When TWiLight Menu++ is running in DSi Mode, they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. Dessa begränsningar är:
+- Default: This uses the official DSi font as its primary font, and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
 - Kinesiska (förenklad): Detta använder Noto Sans CS som det primära teckensnittet och har betydligt fler kinesiska (förenklade) tecken i DS-läge, på bekostnad av tecken för andra språk
 - Koreanska: Detta är identiskt med Standard i DSi Mode, men i DS Mode har det en mer komplett uppsättning hangul, på bekostnad av tecken för andra språk
 
@@ -22,8 +22,13 @@ Anpassade typsnitt laddas från `sd:/_nds/TWiLightMenu/extras/fonts/[typsnittsna
 
 Filerna `-ds` och `-dsi` har högre prioritet än den vanliga och om de hittas kommer de att användas när TWiLight Menu++ körs i DS eller DSi Mode respektive.
 
-### Att generera anpassade typsnitt
-Du kan göra dina egna typsnitt med ett verktyg som Pk11's [nftr-editor](https://pk11.us/nftr-editor/). För att regenerera ett av TWiLight Menu++'s befintliga typsnitt med det:
+### Skin fonts
+You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+
+Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+
+### Generating custom fonts
+You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. Ladda en NFTR-fil i nftr-editor
 1. Skriv in namnen på de typsnitt du vill använda från högsta till lägsta prioritet i textrutan `Input font` kommaseparerad
    - Du kan se en förhandsvisning av inmatningsformaten i den övre rutan till vänster och den nuvarande NFTR i den nedre rutan

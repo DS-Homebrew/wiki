@@ -12,7 +12,7 @@ A TWiLight Menu++ támogatja az egyedi hang fájlokat a témákban. Rakd a hangf
 Ezek a lépések feltételezik, hogy rendelkezel devkitPro-val telepített mmutil-lal. A devkitPro-t beszerezheted a [devkitPro weboldaláról](https://devkitpro.org/wiki/Getting_Started).
 
 ## Hang effektusok bank
-A hang effekt bank (sfx.bin) olyan hangeffekteket tartalmaz, mint például az ikon választás hang, stb.
+A hang effekt bank (`sfx.bin`) olyan hangeffekteket tartalmaz, mint például az ikon választás hang, stb.
 
 | Fájl        | Leírás                                                                                          |
 | ----------- | ----------------------------------------------------------------------------------------------- |
@@ -26,9 +26,9 @@ A hang effekt bank (sfx.bin) olyan hangeffekteket tartalmaz, mint például az i
 
 Minden fent listázott fájlra szükség van az egyéni hangeffekt bank létrehozásához. Ha valamelyik hangot némítani szeretnéd egy csendes audió fájlt kell használnod. A `.wav` formátum kötelező, és a kódolásnak PCM-nek *kell* lennie.
 
-A hanghatásbank létrehozásához le kell töltened [ezt a](/assets/files/Makefile) fájlt, és az összes `.wav` fájl mellé kell tenned, amelyeket használni fogsz. Miután minden fájl ugyanabban a mappában van, nyisd meg a terminálodat (vagy a parancssort, ha Windows-t használsz), cseréld le az aktuális könyvtárat (`cd`) arra a mappára, ahol a `Makefile` van, majd futtasd a `make` parancsot.
+[Ez a fájl](/assets/files/sfx-example.zip) tartalmazza az alapértelmezett DSi és 3DS témákban használt hangokat, a makefile-lal együtt, amit ahhoz szükséges, hogy egy érvényes sfx.bin fájlt build-eléséhez kell. Nyugodtan szerkeszd ezt és módosítsd a hang fájlokat, hogy egyedi sound effect bankot készíts.
 
-Eredményként létrejön neked az `sfx.bin` fájl, ami bemásolható a `sound` almappába a témád mappáján belül. **Ennek a fájlnak a mérete 512000 B = 512 KB alatt kell legyen**. Bármi nagyobb vagy összeomláshoz vezethet vagy néhány hang nem játszódik le teljesen.
+Az egyéni sound effect bank készítéséhez, nyisd meg a terminálodat (vagy a parancssort, ha Windows-t használsz), cseréld le az aktuális könyvtárat (`cd`) arra a mappára, ahol a `Makefile` van, majd futtasd a `make` parancsot. Eredményként létrejön neked az `sfx.bin` fájl, ami bemásolható a `sound` almappába a témád mappáján belül. **Ennek a fájlnak a mérete 512000 B = 512 Kb alatt kell legyen**. Bármi nagyobb vagy összeomláshoz vezethet vagy néhány hang nem játszódik le teljesen.
 
 ### Indítási hang
 Amíg más hang effektusok működnek bármilyen PCM kódolású WAV fájllal, az indítási hangnak egy megadott formátumúnak kell lennie, hogy megfelelően működjön, egyébként szünet lesz az indítási hang vége és a háttérzene kezdete között.

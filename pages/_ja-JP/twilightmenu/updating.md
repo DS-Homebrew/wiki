@@ -25,4 +25,4 @@ DSi（内部SDカードから）を使い場合は、[DSiの説明](updating-dsi
 ### フラッシュカード
 フラッシュカード（どのDSモデルを使っていても）を使い場合は、[フラッシュカードの説明](updating-flashcard)に従ってください。
 
-[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![r4isdhc.comマジコン](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Acekard2iマジコン](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![R4i Gold 3DS Plusマジコン](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

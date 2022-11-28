@@ -12,7 +12,7 @@ TWiLight Menu++ supporta i file audio personalizzati nei temi. Colloca i file au
 Queste istruzioni presuppongono che devkitPro sia installato con mmutil. Puoi scaricare devkitPro sul sito ufficiale [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
 
 ## Raccolta di Effetti Sonori
-La raccolta degli effetti sonori (sfx.bin) contiene effetti sonori come il suono di selezione dell'icona, ecc.
+The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
 | File        | Descrizione                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------- |
@@ -26,9 +26,9 @@ La raccolta degli effetti sonori (sfx.bin) contiene effetti sonori come il suono
 
 Tutti i file sopra elencati sono necessari per creare una raccolta di effetti sonori personalizzati. Se desideri che un suono sia muto, è possibile utilizzare un file audio muto. Il formato `.wav` è obbligatorio e la codifica *deve* essere PCM.
 
-Per costruire la raccolta di effetti sonori è necessario scaricare [questo file](/assets/files/Makefile) e metterlo accanto a tutti i file `.wav` che verranno utilizzati. Dopo che tutti i file sono nella stessa cartella, apri il terminale (o la riga di comando se usate Windows), cambiate la directory corrente (`cd`) nella cartella in cui si trova `Makefile` e poi eseguite il comando `make`.
+[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
 
-Si otterrà un file `sfx.bin` che può essere copiato nella sottocartella `sound` della cartella del tema. **Questo file deve essere inferiore a 512000B = 512 kB**. Qualsiasi file di dimensioni superiori a questo valore provocherà un arresto anomalo o la mancata riproduzione completa di alcuni suoni.
+To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
 
 ### Suono d'avvio
 Mentre gli altri effetti sonori funzionano con qualsiasi file WAV con codifica PCM, il suono di avvio deve essere in un formato specifico per funzionare correttamente, altrimenti ci sarà un vuoto tra l'interruzione del suono di avvio e l'inizio della musica di sottofondo.
