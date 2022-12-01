@@ -22,11 +22,3 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-
-### More steps for the flashcard side
-
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
-
-1. Go into TWLMenu++ Settings
-1. Select `Update TWiLight Menu++`
-1. Select `Console (micro)SD > Slot-1 microSD`
