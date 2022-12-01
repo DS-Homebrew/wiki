@@ -95,6 +95,18 @@ Supports Wi-Fi (WPA 1/2 included):
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
+### DSiWare compiled as DSi-Enhanced ROMs
+- Base 10 (Art Style)
+     - Uses cloneboot for Multiplayer
+- Clubhouse Games Express
+     - Uses cloneboot for Multiplayer
+- Dr. Mario Express
+- Metal Torrent
+- Pop Island
+     - Has a feture to send a game demo to any DS family console
+- Pop Island: Paperfield
+     - Has a feture to send a game demo to any DS family console
+
 ### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
