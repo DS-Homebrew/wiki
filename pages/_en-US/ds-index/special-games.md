@@ -98,10 +98,12 @@ Supports Wi-Fi (WPA 1/2 included):
 ### DSiWare compiled as DSi-Enhanced ROMs
 - Base 10 (Art Style)
      - Uses cloneboot for Multiplayer
+- Bird & Beans (Japan)
 - Clubhouse Games Express
      - Uses cloneboot for Multiplayer
 - Dr. Mario Express
 - Metal Torrent
+- Paper Airplane Chase (Japan)
 - Pop Island
      - Has a feture to send a game demo to any DS family console
 - Pop Island: Paperfield
