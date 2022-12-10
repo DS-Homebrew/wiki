@@ -27,7 +27,8 @@ Note: If you get a message saying `This encoder requires a cpu with support for 
 
 ### Windows
 
-1. Download the .NET runtime [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0), and install it
+1. Download the .NET Desktop Runtime [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0), and install it
+     - Once the page is opened, click `x64` under the `.NET Desktop Runtime` section
 1. Download the encoder [here](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Download the below `.bat` file to the same place as the encoder `.exe` file, and drag and drop your video into the `.bat` file.
 - [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
