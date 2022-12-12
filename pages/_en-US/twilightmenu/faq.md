@@ -112,3 +112,6 @@ To apply a custom theme you must access TWiLight Menu++ Settings.
 1. Apply the settings by pressing B to go back to TWiLight Menu++.
 
 TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
+
+#### Is there a 3DS emulator for DS(i)?
+No, there isn't. It is not possible to emulate 3DS on DS(i) because of the 3DS using newer hardware.
