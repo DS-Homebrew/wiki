@@ -49,8 +49,8 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
 1. Copy the `roms` folder to your SD card root
-1. Copy the two `.cia` files to your SD card root
-1. On your 3DS, install the two CIAs with FBI
+1. Copy the `.cia` file to your SD card root
+1. On your 3DS, install the CIA with FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
