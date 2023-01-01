@@ -33,7 +33,7 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
 
 **Main DS⁽ⁱ⁾ Homebrew Projects**
-- [#nds-bootstrap-dev][nds-bootstrap] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
+- [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
 - [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
 - [#gbarunner2-dev][gbarunner2-dev] - This channel is for discussion of the development of GBARunner2. For help, use #nds-help
 - [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
