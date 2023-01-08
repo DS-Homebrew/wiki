@@ -69,7 +69,7 @@ If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find d
 
 #### What is a nightly and where do I get it?
 A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added.
-You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
