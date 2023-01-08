@@ -31,7 +31,6 @@ Note: If you get a message saying `This encoder requires a cpu with support for 
 1. Download the [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
 1. Drag and drop your video into said `.bat` file
-     - If the window quickly disappears, then open the `.bat` file using Notepad, add `pause` to the bottom, save, and try again to see if there's an error message
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
