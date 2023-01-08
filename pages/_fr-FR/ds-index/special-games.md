@@ -204,25 +204,25 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Frogger's Adventures 2: The Lost Wand
 - Fullmetal Alchemist: Dual Sympathy
    - Hagane no Renkinjutsushi: Omoide no Sonata
-   - Hagane no Renkinjutsushi: Meisou no Rondo
-- Ganbare Goemon: Toukai Douchuu
-   - Ganbare Goemon 1+2: Yuki-hime to Magginisu
+   - Hagane no Renkinjutsushi: Meisō no Rondo
+- Ganbare Goemon: Tōkai Dōchū Ōedo Tengu ri Kaeshi no Maki
+   - Kessakusen! Ganbare Goemon 1•2: Yuki-hime to Magginesu
 - Harvest Moon DS
    - Harvest Moon: Friends of Mineral Town
    - Harvest Moon: More Friends of Mineral Town
-- Kim Possible: Kimmunicator
+- Disney's Kim Possible: Kimmunicator
    - Disney's Kim Possible: Revenge of Monkey Fist
    - Disney's Kim Possible 2: Drakken's Demise
    - Disney's Kim Possible 3: Team Possible
-- Kirby: Canvas Curse
-   - Kirby: Nightmare in Dream Land
-   - Kirby and the Amazing Mirror
+- Kirby : Le Pinceau du Pouvoir
+   - Kirby : Cauchemar au Pays des Rêves
+   - Kirby et le Labyrinthe des Miroirs
 - Knights in the Nightmare
    - Yggdra Union: We'll Never Fight Alone
 - Lunar Knights
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
 - Madden NFL 06
    - Madden NFL 06
    - Madden NFL 2005
@@ -231,24 +231,24 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - MegaMan Battle Network 2
    - MegaMan Battle Network 3 White/Blue
    - MegaMan Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
    - MegaMan Battle Network 5 Team ProtoMan/Colonel
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
 - Mega Man Star Force Pegasus/Leo/Dragon
    - Mega Man Battle Network
    - Mega Man Battle Network 2
    - Mega Man Battle Network 3 White/Blue
    - Mega Man Battle Chip Challenge
    - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
    - Mega Man Battle Network 5 Team ProtoMan/Colonel
    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
+   - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -266,36 +266,36 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
 - Pokémon Donjon Mystère : Équipe de Secours Bleue
    - Pokémon Donjon Mystère : Équipe de Secours Rouge
-- Shrek Super Slam
-   - Shrek Super Slam
+- Shrek SuperSlam
+   - Shrek SuperSlam
 - Spider-Man 2
    - Spider-Man: Mysterio's Menace
 - Super Robot Wars W
-   - Super Robot Wars Advance
-   - Super Robot Wars Reversal
-   - Super Robot Wars Destiny
-   - Super Robot Wars Judgement
+   - Super Robot Wars A
+   - Super Robot Wars R
+   - Super Robot Wars D
+   - Super Robot Wars J
    - Super Robot Taisen: Original Generation
    - Super Robot Taisen: Original Generation 2
    - Dai-2-Ji Super Robot Taisen Famicom Mini
 - Super Robot Wars K
-   - Super Robot Wars Advance
-   - Super Robot Wars Reversal
-   - Super Robot Wars Destiny
-   - Super Robot Wars Judgement
+   - Super Robot Wars A
+   - Super Robot Wars R
+   - Super Robot Wars D
+   - Super Robot Wars J
    - Super Robot Taisen: Original Generation
    - Super Robot Taisen: Original Generation 2
    - Dai-2-Ji Super Robot Taisen Famicom Mini
-- The Rub Rabbits
-   - ChuChu Rocket
+- The Rub Rabbits!
+   - ChuChu Rocket!
    - Puyo Pop
    - Sonic Advance
    - Sonic Advance 2
    - Sonic Advance 3
    - Sonic Battle
-- The Sims 2 (DS)
-   - The Sims 2 (GBA)
-- WarioWare: Touched! -WarioWare: Twisted!
+- Les Sims 2 (DS)
+   - Les Sims 2 (GBA)
+- WarioWare: Touched! - WarioWare: Twisted!
 - Yoshi Touch & Go
    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour
@@ -303,35 +303,35 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 
 ### Jeux qui utilisent des cartouches d'option GBA
 - Memory Expansion Pak
-   - Nintendo DS Browser
+   - Navigateur Nintendo DS
 - Motion Pack
-   - Tony Hawk’s Motion
+   - Tony Hawk's Motion
 - Rumble Pak
-   - Clubhouse Games
+   - 42 Jeux Indémodables
    - Custom Robo Arena
    - Diddy Kong Racing DS
    - Elite Beat Agents
    - Ferrari Challenge
-   - GRID
+   - Race Driver: GRID
    - Hotel Dusk: Room 215
    - Iron Man
    - Juiced 2: Hot Import Nights
-   - Last Window: The Secret of Cape West
-   - Legend of Spyro: A New Beginning
-   - Magnetica
-   - Mahjong Fight Club DS - Wi-Fi Taiou
-   - Mario & Luigi: Partners in Time
+   - Last Window : le secret de Cape West
+   - The Legend of Spyro: A New Beginning
+   - Actionloop
+   - Mahjong Fight Club DS: Wi-Fi Taiyou
+   - Mario et Luigi : Les Frères du Temps
    - Metroid Prime Pinball
-   - Metroid Prime: Hunters
-   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae!
-   - Need for Speed Nitro
-   - Orcs and Elves
+   - Metroid Prime Hunters
+   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ōendan 2
+   - Need for Speed: Nitro
+   - Orcs & Elves
    - Picross DS
    - Power Pro Kun Pocket 9
    - Power Pro Kun Pocket 10
    - Puyo Puyo! 15th Anniversary
-   - Race Driver: Create and Race
-   - Sega Superstars Tennis
+   - Race Driver: Create & Race
+   - SEGA Superstars Tennis
    - Sonic & SEGA All Stars Racing
    - Space Invaders Extreme
    - Star Fox Command
@@ -345,9 +345,9 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
-    - Guitar Hero
-- Batman: The Brave and the Bold (DS)
-    - Batman: The Brave and the Bold (Wii)
+    - Guitar Hero: On Tour
+- Batman : L'Alliance des héros - Le jeu vidéo (DS)
+    - Batman : L'Alliance des héros - Le jeu vidéo (Wii)
 - Castlevania: Order of Ecclesia
     - Castlevania Judgement
 - Final Fantasy Crystal Chronicles: Echoes of Time (DS)
@@ -356,20 +356,20 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
     - Geometry Wars: Galaxies (Wii)
 - Jam with the Band
     - Live Channel
-- My Word Coach (DS)
-    - My Word Coach (Wii)
+- Mon Coach Personnel : J'enrichis mon vocabulaire (DS)
+    - Mon Coach Personnel : J'enrichis mon vocabulaire (Wii)
 - Pokémon Diamant/Perle
     - My Pokémon Ranch
 - Pokémon Platine
     - My Pokémon Ranch (mise à jour exclusive au Japon)
 - Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
     - Pokémon Battle Revolution
-- Personal Trainer: Walking
-    - Mii Channel
-- Ultimate Band
+- Marche avec moi : Quel est ton rythme ?
+    - Chaîne Mii
+- Ultimate Band (DS)
     - Ultimate Band (Wii)
-- WarioWare D.I.Y.
-    - WarioWare D.I.Y. Showcase
+- WarioWare: D.I.Y.
+    - WarioWare: D.I.Y. Showcase
 
 ### Jeux avec des cartes de jeu IR
 - Pokémon HeartGold/SoulSilver

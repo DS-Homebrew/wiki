@@ -7,7 +7,7 @@ long_title: FAQ et dépannage de GBARunner2
 description: FAQ et dépannage pour GBARunner2
 ---
 
-#### Comment je crée et ajoute des bordures personnalisées ?
+#### Comment puis-je créer et ajouter des bordures personnalisées ?
 Vous pouvez lire et suivre [ce guide](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) de FrescoASF.
 
 #### Les codes de triche sont-ils pris en charge ?
@@ -16,7 +16,7 @@ Pas pour le moment. Au lieu de cela, vous pouvez injecter de façon permanente d
 #### Quel build de GBARunner2 dois-je utiliser ?
 Généralement, les builds qui sont inclus avec TWiLight Menu++ sont suffisants. Pour plus d'informations sur les différents builds de GBARunner2, consultez la [page wiki Builds](https://wiki.ds-homebrew.com/gbarunner2/builds).
 
-#### Comment utiliser les fonctionnalités de connexion Wi-Fi ?
+#### Comment puis-je utiliser les fonctionnalités de connexion Wi-Fi ?
 Vous aurez besoin d'un build à partir de la branche [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) pour utiliser les fonctionnalités. Vous pouvez trouver des instructions détaillées sur la façon de configurer les builds sur sa [page WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Pourquoi la HTR (Horloge à Temps Réel) n'est pas supportée dans une ROM hack ?

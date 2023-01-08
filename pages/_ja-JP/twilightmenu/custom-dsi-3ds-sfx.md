@@ -1,23 +1,23 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi/3DS Skins - Custom SFX
-description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
+title: DSi・3DS スキン - カスタムサウンド
+description: TWiLight Menu++のDSi・3DSスキンでカスタムBGMや効果音を使用する方法
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
+TWiLight Menu++は、テーマでカスタムサウンドに対応しています。 サウンドファイルは、テーマフォルダ内の `sound` サブディレクトリに置きます。例えば `white` テーマの場合、ファイルはそれぞれ `themes/white/sound/sfx.bin` と `themes/white/sound/bgm.pcm.raw` に置くことになります。 どちらのファイルもオプションです。 `bgm.pcm.raw` がない場合は、デフォルトの音楽が使われます。 `sfx.bin` が無い場合など、効果音についても同様です。
 
 These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
 
-## Sound Effect Bank
+## 効果音バンク
 The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
-| File        | Description                                                                            |
+| ファイル        | 説明                                                                                     |
 | ----------- | -------------------------------------------------------------------------------------- |
 | startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
+| back.wav    | 戻る                                                                                     |
 | launch.wav  | Played when launching a game                                                           |
 | select.wav  | Played when moving the cursor in the per-game settings and select menu                 |
 | wrong.wav   | Played when reaching the end of the page                                               |
@@ -40,7 +40,7 @@ If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo dow
 You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
 
 
-## Menu BGM
+## メニューBGM
 Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
 
 Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.

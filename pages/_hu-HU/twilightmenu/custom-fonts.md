@@ -23,9 +23,9 @@ Az egyedi betűkészletek a `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[fon
 A `-ds` és `-dsi` fájlok magasabb prioritással rendelkeznek, mint a normálisok, és ha megtalálásra kerülnek, akkor ezt használja a TWiLight Menu++, amikor DS vagy DSi Módban fut.
 
 ### Szkin betűkészletek
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+Hozzá adhatsz betűkészleteket az [egyedi DSi/3DS téma szkinekhez](custom-dsi-3ds-skins), ami felül fogja bírálni azt ami van be TWiLight Menu++ beállításaiban. Ezek a betűkészletek a `font` mappába kerülnek a szkin gyökér könyvtárába.
 
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+Hozzáadhatsz különböző felülírási betűkészleteket dátumhoz & időhöz a `date_time.nftr` használatával, és konzol felhasználó névhez a `username.nftr` használatával.
 
 ### Egyedi betűkészlet generálása
 Létrehozhatod az egyedi betűkészleted olyan eszközökkel, mint például Pk11 [nftr-editor](https://pk11.us/nftr-editor/)-ja. Ahhoz, hogy a TWiLight Menu++ meglévő betűkészleteit újra generálhasd:

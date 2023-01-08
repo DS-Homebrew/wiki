@@ -7,7 +7,7 @@ description: Informations sur les différents builds de GBARunner2 et leurs util
 ---
 
 
-Il existe un certain nombre de versions différentes de GBARunner2, ou « builds », pouvant être utilisées. Ils proviennent de différentes branches et forks de GBARunner2 et ont des caractéristiques différentes visant soit des jeux GBA différents, soit des fonctions différentes. **Pour la plupart des utilisateurs**, l'utilisation du build fourni avec **TW**i**L**ight Menu++ est suffisante.
+Il existe un certain nombre de versions différentes de GBARunner2, ou « builds », pouvant être utilisées. Ces builds proviennent de différentes branches et forks de GBARunner2 et ont des caractéristiques différentes visant soit des jeux GBA différents, soit des fonctions différentes. **Pour la plupart des utilisateurs**, l'utilisation du build fourni avec **TW**i**L**ight Menu++ est suffisante.
 
 ## Builds DS vs DSi vs 3DS
 
@@ -33,7 +33,7 @@ La branche Wi-Fi-Link ajoute la possibilité de relier deux systèmes sans fil. 
 
 **Normalement, utilisez l'ARM9DLDI**, et si cela ne fonctionne pas, essayez l'ARM7DLDI. Certains linkers nécessitent soit l'ARM7DLDI, soit l'ARM9DLDI, et certains peuvent fonctionner avec les deux. Il n'existe pas de liste des linkers qui fonctionnent avec les différentes versions, mais si vous rencontrez des problèmes pour faire fonctionner GBARunner2, vous pouvez essayer l'autre.
 
-Si vous utilisez **TW**i**L**ight Menu++ sur votre linker, vous pouvez passer de ARM7DLDI à ARM9DLDI dans les paramètres de **TW**i**L**ight Menu++.
+Si vous utilisez **TW**i**L**ight Menu++ sur votre linker, vous pouvez passer de l'ARM7DLDI à l'ARM9DLDI dans les paramètres de **TW**i**L**ight Menu++.
 
 Il n'y a pas de différences de fonctionnalités ou de performances entre les deux, il est donc inutile de les tester pour voir si un jeu fonctionne mieux ou a moins de problèmes sur l'autre.
 

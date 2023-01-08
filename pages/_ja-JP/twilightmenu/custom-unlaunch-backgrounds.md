@@ -3,27 +3,27 @@ lang: ja-JP
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Unlaunch Backgrounds
-description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
+title: Unlaunchの背景をカスタマイズ
+description: Unlaunchのカスタム背景を作成し、TWiLight Menu++でインストールする方法
 ---
 
-You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+[TWiLight Menu++ スキンサイト](https://skins.ds-homebrew.com/unlaunch/)で、既製の背景を探せます。
 {:.alert .alert-info}
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. This needs to be a 256 x 192 GIF, with a few restrictions:
-- Only the first frame will be shown, no animated backgrounds
-- The file must be less than or equal to 15,472 bytes
-- GIFs with more than 31 colors require specially made palettes to prevent breaking the text
+TWiLight Menu++を使ってUnlaunchインストーラにパッチを適用すると、好みの背景画像とテキストカラーパレットが利用可能になります。 背景は256×192のGIFである必要があり、さらにいくつかの制約があります。
+- 表示されるのは最初のフレームのみ。アニメGIFは再生されない。
+- ファイルは15472バイト以下でなければならない。
+- 31色以上のGIFには、テキストを壊さないために特別なパレットを作成する必要がある。
 
-### Installing
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
-1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
-1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
-1. Exit settings and launch `Unlaunch DSi Installer`
-   - It should use your custom image, if it does not then turn off your console and make sure your GIF conforms with the requirements above
-1. Choose `Install Now`
+### インストール
+1. GIFファイルを `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`にコピーします。
+1. [最新のUnlaunchインストーラ](https://problemkaputt.de/unlaunch.zip) をダウンロードし、 `UNLAUNCH.DSI` をSDカードに解凍します。
+1. TWiLight Menu++ 設定 を開き、 `Unlaunch設定` ページに切り替え、 `背景画像`で<kbd class="face">A</kbd>を押し、好みのものを選びます。
+1. 設定を終了し、`Unlaunch DSi Installer`を起動します。
+   - 選んだ画像が表示されているはずです。もしそうでない場合は本体の電源を切り、GIFが上記の要件に適合しているか確認してください。
+1. `Install Now`を選びます。
 
-### Using GIFs with more than 31 colors
+### 31色以上のGIFを使う
 As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
 1. Open your image in GIMP and make sure it's 256 x 192 pixels
 1. In the menu bar at the top, select `Image` -> `Mode` -> `Indexed...`
@@ -44,7 +44,7 @@ As the GIF's palette is loaded to the same area of VRAM as the text palettes it 
 1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
     - If your image doesn't have at least 133 colors you will need to keep adding colors until the last is index 146
 1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br> ![Palette with correct text colors](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
+1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br> ![文字色が正しく表示されるパレット](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
 1. Use the color picker to make your new colors match those in the above image
 1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
 1. In the next popup, make sure `GIF comment` is off and click `Export`

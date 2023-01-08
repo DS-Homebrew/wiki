@@ -33,49 +33,49 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - Az audiód minőségét javíthatod 48 kHz-re
 - Használható a DSi mód, amivel elérhetők a DSi funkciók
 - Kisebb akkumulátor fogyasztás
-- Using certain Game Cards, you are able to use IR in your application
-- nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
-- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Take screenshots and edit values in the RAM using the in-game menu
+- Bizonyos játék kártyák használatakor lehetőséged van az IR használatára az alkalmazásodból
+- Az nds-bootstrap nyílt forrású, így a fejlesztől mindig tudják frissíteni a hibák és egyéb dolgok javítása érdekében, még akkor is, ha a projekt megszűnik
+- A DS Memory Expansion Pak emulált, így azok a játékok amiknek szüksége van rá működni fognak
+- Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
+- Képernyőképek készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
 #### DS/DS Lite: Miért használjak nds-bootstrap-et egy DS flashcard-on?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a Memory Expansion Pak-ba (vagy RAM-ot tartalmazó Slot-2 flashcard-o memóriájába), gyorsabb betöltési időket lehetővé téve, mint a normál játék kártyák
-- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 100+ számú DSiWare cím futtatható a beépített patchek és egy DSi-Enhanced cím Donor ROM-ja segítségével
      - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `nds-bootstrap használata` beállítástól a TWLMenu++ beállításokban
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
+     - Nem minden DSiWare cím tud menteni, mivel nehéz hozzáadni a mentés támogatását, és/vagy egynél több fájlt tárolnak a mentési fájlrendszerben.
 - Ha a flashcard kernel-ed nem tud futtatni egy bizonyos ROM-ot, akkor az nds-bootstrap használható helyette, és ez játékonként beállítható
 - Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
-- Take screenshots and edit values in the RAM using the in-game menu
+- Képernyőképek készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
 #### Mi az a Donor ROM?
 Az nds-bootstrap-ben, amikor egy játék nem bootol, egy másik ROM-ot használunk, hogy "odaadományozza" az ARM7 (és ARM7i, ha van) binárisát a futtatandó játéknak, a játék saját binárisa helyett.     
 A Donor ROM beállítható a **TW**i**L**ight Menu++-szal.
 - **Flashcard-ok DS módban:** A támogatott DSi-Exklúzív/DSiWare címek DSi-Enhanced ROM készletet igényelnek, mint Donor ROM
 - **DSiWarehax:** Mivel a DSi-Enhanced játékok és a (legtöbb) DSi-Exkluzív/DSiWare játék eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják
-     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
+     - DSi-n, ha **TW**i**L**ight Menu++ észleli, hogy nincs Donor ROM beállítva, *Nintendo DSi Sound* és/vagy egy érvényes, már elindított exploitolt cím automatikusan Donor ROM(ok)-ként lesz beállítva
 - **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva
 
 #### Mi a legjobb Donor ROM?
-There is no *best* one to use. Most ROMs of TWL titles can be set as a Donor ROM.
+Nincs *legjobb*, amit használni lehet. A TWL címek legtöbb ROM-ját be lehet állítani Donor ROM-nak.
 
-Examples:
-- **DSiWarehax on DSi:** *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s), if one hasn't been set yet.
-- **DSiWarehax on 3DS:** Dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and set it as a Donor ROM.
+Példák:
+- **DSiWarehax a DSi-n:** *Nintendo DSi Sound* és/vagy egy általad indított érvényes exploitolt cím automatikusan Donor ROM(ok)-ként lesz beállítva, ha még nem volt beállítva.
+- **DSiWarehax a 3DS-en:** Dumpold a DS WiFi Settings ROM-ot (SDK5.5) a GodMode9 segítségével, és állítsd be Donor ROM-nak.
 
 #### Miért nem tudok beállítani Donor ROM-ot?
-If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
+Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keresett ROM nem mutatja meg a lehetőséget, hogy donor ROM-nak állítsd be (feltéve, hogy lefelé görgetsz), akkor keress egy másik ROM-ot, amelyet donornak állíthatsz be.
 
 #### Mi az esti fordítás (nightly) és hol szerezhetem be?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted [innen](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Miért nem működnek a csalásaim?
-- Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
-  - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
-- Most cheats were developed for use in DS mode and may not work correctly while running in DSi mode. If the game is DSi-Enhanced, try setting it to run in DS mode
-- The way E-type cheats are implemented in nds-bootstrap is currently broken, meaning they may or may not work. Your cheat probably uses that type, and it is not known when this issue will be fixed
+- Egyes csalások lehet, hogy gombbal aktiválhatók vagy vannak egyéb feltételek, amelyeket teljesíteni kell. További információkért nézd meg a csalás leírását
+  - A **TW**i**L**ight Menu++-ban Y-t nyomva megtekintheted a csalás információit, ha elérhető
+- A legtöbb csalást DS módban való használatra fejlesztették ki, és előfordulhat, hogy DSi módban nem működik megfelelően. Ha a játék DSi-Enhanced, próbáld meg beállítani, hogy DS módban fusson
+- A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben jelenleg hibás, ami azt jelenti, hogy vagy működnek vagy nem. A csalás, amit használsz valószínűleg ilyen típusú és nem tudni ez mikor lesz javítva
 
-For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+További információkért a csalásokról látogass el [Action Replay csalás fejezethez a Kereskedelmi ROM-ok oldalon](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
 #### Hogyan készíthetek képernyőképeket?
 Képernyőképeket készíthetsz a fő képernyőről a játékbani menün keresztül. Alapértelmezés szerint a jáékon belüli menü a az <kbd class="l">L</kbd> + <kbd>Le</kbd> + <kbd>SELECT</kbd> gombokra nyílik, ezután válasz a then select `Képernyőkép...` menüpontot, majd módosítsd a VRAM bank-ot, ha szükséges és nyomj <kbd class="face">A</kbd> gombot a képernyőkép mentéséhez.

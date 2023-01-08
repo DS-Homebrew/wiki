@@ -23,22 +23,22 @@ Ez az oldal részletesebb szabályokat tartalmaz, mint ami az [#info-and-rules](
 - Handholding is not helping; users are expected to do research on the subject matter, whether it's by reading the pinned messages/#useful-resources or using a search engine to find links
    - Overlooking this rule for legitimate reasons is allowed, at moderators decision on what is considered legitimate
 
-### 3. Keep a positive-environment in the server
+### 3. Tarts pozitív környezetet a szerveren
 
-- Curse words aren't prohibited (you're on the internet; expect it), but edgelords and slurs aren't welcome
-- Conversational rants are allowed as long as it's not purely for the sake of venting
-   - Prevent discussions being repeats of frustrations already found so commonly elsewhere (ie: Twitter) by introducing another factor not well known or discussed
-   - Starting off a topic with something bad to say about it? Make sure to not instantly start the whole convo to be negative
+- A káromkodó szavak nem tiltottak (az interneten vagy, számíts rá), de az ékesszólások és a szidalmak nem szívesen látottak
+- A szónoklatok megengedettek egészen addig, amíg a céljuk nem csak a gőz kieresztése
+   - Előzd meg, hogya viták egy máshol (pl.: Twitter) már oly gyakran előforduló frusztrációk ismétlődésévé váljanak egy másik, nem annyira ismert vagy vitatott tényező bevezetésével
+   - Egy témát úgy indítasz, hogy valami rosszat mondasz róla? Figyelj rá, hogy ne rögtön kezdéskor negatív legyen az egész beszélgetés
 
-### 4. Maintain the chat quality to the expectations set by the environment
+### 4. A chat minőségének fenntartása a környezet által meghatározott elvárásoknak megfelelően
 
 - Ha olyan mértékben monologizálsz, hogy másokat elriasztasz az interakciótól, vagy ha az üzenet túlcsordul egy átlagos mobil képernyőjén, akkor az üzeneteket egy külön oldalra kell áthelyezni, például egy szerverszálra vagy a Mystbinre: https://mystb.in/
 - Az üzeneteket kiegészítő GIF-ek szórakoztatóak, de a beszélgetés helyettesítésére készült GIF-ek csak irritálóak és sávszélesség-pazarlóak.
-- Keep needed messages for your point to a minimal, by:
-   - NOT duplicating messages, especially in different channels
-   - NOT posting for the sake of posting ("chat is dead", copypastas, etc)
-   - NOT sending multiple messages with few words each to build a sentence (ie: popcorning)
-   - using reactions to post simple emoji's responding to another's message (for the message immediately above, type `+:emojiname:` as a shortcut)
+- Tartsd minimálisan a szükséges üzeneteket ezekkel:
+   - NE duplikálj üzeneteket, különösen különböző csatornákon
+   - NE posztolj posztolás kedvéért ("a chat halott", copypasták, stb.)
+   - NE küldj több üzenetet, amelyek egyenként néhány szót tartalmaznak egy-egy mondat felépítéséhez (ún.: popcorning)
+   - a reakciók használatával egyszerű emojikat küldhetsz, amelyekkel válaszolhat egy másik üzenetére (a közvetlenül az előző üzenethez írd be a `+:emojiname:` rövidítést)
 
 **A moderátorok kérhetik egy vita leállítását, és a felhasználóktól elvárható, hogy eleget tegyenek a kérésnek, még akkor is, ha az nem tartozik a fenti példák egyikébe sem**
 

@@ -6,7 +6,7 @@ title: GBA BIOS情報
 description: GBA BIOSとそのダンプ方法に関する情報
 ---
 
-GBARunner2がタイトルを実行するためには、GBA BIOS必要があります。 GBARunner2の新しいビルド（TWiLight Menu++の最新リリースに付属）には、[NotmattのオープンソースBIOS](https://github.com/Normmatt/gba_bios)が組み込まれています。 しかし、正確なコピーではないので、公式のBIOSのダンプを使用すると、互換性が向上します。 以下のいずれかの方法で、公式のBIOSをダンプすることができます。
+GBARunner2でソフトを実行するためには、GBA BIOSが必要になります。 GBARunner2の新しいビルド（TWiLight Menu++の最新リリースに付属）には、[NotmattのオープンソースBIOS](https://github.com/Normmatt/gba_bios)が組み込まれています。 しかし、正確なコピーではないので、公式のBIOSのダンプを使用すると、互換性が向上します。 以下のいずれかの方法で、公式のBIOSをダンプすることができます。
 
 ### ダンプガイド
 
