@@ -24,6 +24,7 @@ The Markdown and file sizes sections apply to all languages, though Crowdin take
 - Indentation should be either 3 spaces (2 is weird with number lists)
    - HTML indentation should be tabs, but in a markdown file either's fine
 - Always use relative links to other pages so that it stays on the same translation
+- Avoid links that are simply the word [here], place the link on a word/phrase desccribing what's being linked to
 
 ## File sizes
 Because the decimal base units for file sizes are ambiguous which they actually are, using the binary base units is generally preferred unless something is a clean size in the decimal units. (ex. 500,000 bytes = 500 kB, 512,000 bytes = 500 KiB, 294,966 bytes = (about) 288 KiB)
