@@ -42,11 +42,3 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Więcej kroków dla użytkowników karty flashcard
-
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
-
-1. Przejdź do ustawień TWLMenu++
-1. Wybierz `Update TWiLight Menu++`
-1. Wybierz `konsola (micro)SD > Slot-1 microSD`

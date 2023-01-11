@@ -40,4 +40,3 @@ While some ROM hacks are bound to not work on real hardware (e.g. the gen 5 hack
 ### 1.5 Additional nds-bootstrap Features
 Adding more features to nds-bootstrap itself when running ROMs
 - Implementing Save Sates/Real-Time Saves [#143](https://github.com/DS-Homebrew/nds-bootstrap/issues/143)
-- Display Time at in-game menu [#1099](https://github.com/DS-Homebrew/nds-bootstrap/issues/1099)

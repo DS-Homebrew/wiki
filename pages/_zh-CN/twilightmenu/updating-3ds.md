@@ -42,11 +42,3 @@ tabs:
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### 适用于烧录卡的更多步骤
-
-如果您可以在 TWLMenu++ 中切换 SD 卡和烧录卡中的内容，并且如果烧录卡 TWLMenu++ 在 v16.3.0 版本或以上，请遵循这些步骤。
-
-1. 进入 TWLMenu++ 设置
-1. 选择 `更新 TWiLight Menu++`
-1. 选择 `Console (micro)SD > Slot-1 microSD`

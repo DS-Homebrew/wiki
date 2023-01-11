@@ -20,6 +20,7 @@ v21.0.0より古いバージョンから更新する場合は、DSiウェアタ�
 1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピーし、既存のファイルを置き換えます
    - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください
 1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピーし、既存のファイルを置き換えます
+1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 
 ### DSi・3DSのSDカードの他の手順
 

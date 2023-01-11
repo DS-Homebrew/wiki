@@ -11,8 +11,8 @@ description: 如何在 Nintendo 3DS上卸载 TWiLight Menu++
 ### 卸载
 1. 打开FBI
 1. 转到 `Title（标题）`.
-1. 找到两个含 `TWiLight Menu++` 紫色文本的标题
-1. 删除两个标题
+1. Find the `TWiLight Menu++` title in purple text
+1. Delete the `TWiLight Menu++` title
 1. 退出标题列表
 1. 转到SD卡
 1. 打开 `_nds`

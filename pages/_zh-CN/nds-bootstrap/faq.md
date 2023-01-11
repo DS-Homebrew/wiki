@@ -41,7 +41,7 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 
 #### DS/DS Lite：为什么在DS烧录卡上使用nds-bootstrap？
 - 某些兼容的ROM被加载到内存扩展卡（或含有RAM的Slot-2烧录卡）中，允许加载时间甚至比普通游戏卡更快。
-- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - 请记住，nds-bootstrap将始终用于DSiWare，无论 ，在TWLMenu++设置中的 `nds-bootstrap` 是否启用
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - 如果你的烧录卡内核不能运行某个ROM，可以用nds-bootstrap来代替，并且可以按游戏特定设置
@@ -67,7 +67,7 @@ Examples:
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
 #### 什么是每夜版(nightly)，我可以在哪里获得？
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### 为什么我的金手指不起作用？
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information

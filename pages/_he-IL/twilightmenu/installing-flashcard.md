@@ -15,19 +15,12 @@ description: איך להתקין את TWiLight Menu++ על פלאשקארד של
 1. העתיקו את `BOOT.NDS` לכרטיס המיקרו SD
 1. העתיקו את התיקייה `roms` לכרטיס המיקרו SD
 1. אם כבר יש לכם שמירות, העבירו את קבצי ה`.sav` שלכם, שנמצאים במיקום של הROMים של הDS, לתיקייה חדשה שנקראת `saves`, שנמצאת גם כן במיקום של הROMים של הDS
-1. ...
-   - **משתמשי DS Phat/Lite:** אם הפעלת `BOOT.NDS` גורם לקריסה עם מסך לבן, הכניסו קלטת הרחבת זכרון (DS Memory Expansion Pak) ונסו שוב
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to the `Misc. settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
-      - זה יאפשר לכם להשתמש במהירות שעון של TWL ו\או VRAM boost במשחקים מהפלאשקארט שלכם, זאת בנוסף על האפשרות לגשת לכרטיס הSD של המכשיר והרצת משחקי DSi-Enhanced / DSi-Exclusive / DSiWare במצב DSi על הפלאשקארד שלכם
-      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
-      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Autobooting TWiLight Menu++
 1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Skip this, if you don't see your flashcard
-1. ...
-   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### To run games using your flashcard firmware
 

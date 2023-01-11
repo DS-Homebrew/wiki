@@ -42,11 +42,3 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Fler steg för minneskort
-
-If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
-
-1. Gå till TWLMenu++ inställningar
-1. Välj `Uppdatera TWiLight Menu++`
-1. Välj `Konsolens (micro)SD > Slot-1 microSD`

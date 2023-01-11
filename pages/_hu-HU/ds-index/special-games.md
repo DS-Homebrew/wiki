@@ -95,22 +95,36 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
+### DSiWare-ok amik DSi-Enhanced ROM-nak lettek fordítva
+- Base 10 (Art Style)
+     - Cloneboot-ot használ a többjátékos módhoz
+- Bird & Beans (Japán)
+- Clubhouse Games Express
+     - Cloneboot-ot használ a többjátékos módhoz
+- Dr. Mario Express
+- Metal Torrent
+- Paper Airplane Chase (Japán)
+- Pop Island
+     - Has a feature to send a game demo to any DS family console
+- Pop Island: Paperfield
+     - Has a feature to send a game demo to any DS family console
+
 ### Játékok, amik SDK upgrade-et kaptak
-- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
+- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 Japánban (mint DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
-- Giana Sisters DS: SDK4 -> SDK5 in USA
-- Hotel Dusk: Room 215: SDK3 -> SDK4 in Korea
-- Inazuma Eleven: SDK4 -> SDK5 in Europe
-- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
-- Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea
-- Nintendogs: Lab and Friends: SDK2 -> SDK5 (as DSiWare)
-- Phineas and Ferb: SDK4 -> SDK5 in Europe (as a DSi-Enhanced title)
-- Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
-- Pokémon Dash: SDK2 -> SDK3 in Korea
-- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
-- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
-- Sonic Rush Adventure: SDK3 -> SDK4 in Korea
-- WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
+- Giana Sisters DS: SDK4 -> SDK5 az USÁ-ban
+- Hotel Dusk: Room 215: SDK3 -> SDK4 Koreában
+- Inazuma Eleven: SDK4 -> SDK5 Európában
+- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 Európában
+- Mario & Luigi: Partners in Time: SDK2 -> SDK4 Koreában
+- Nintendogs: Lab and Friends: SDK2 -> SDK5 (mint DSiWare)
+- Phineas and Ferb: SDK4 -> SDK5 Koreában (mint DSi-Enhanced cím)
+- Pokémon Diamond/Pearl: SDK3 -> SDK4 Koreában
+- Pokémon Dash: SDK2 -> SDK3 Koreában
+- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 Koreában
+- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (mint DSiWare)
+- Sonic Rush Adventure: SDK3 -> SDK4 Koreában
+- WarioWare: Touched: SDK2 -> SDK5 (mint DSiWare)
 
 ### DSi-Enhanced játékok, amik nem használnak overlay-eket
 Összesen: 39, néhány még hiányozhat
@@ -119,7 +133,7 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Assassin's Creed II: Discovery
 - Bejeweled Twist
 - The Biggest Loser
-- Bratz Fashion Boutique
+- The Biggest Loser
 - de Blob 2
 - Dolphin Island: Underwater Adventures
 - Fancy Nancy: Tea Party Time!
@@ -295,7 +309,8 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - Sonic Battle
 - The Sims 2 (DS)
    - The Sims 2 (GBA)
-- WarioWare: Touched! -WarioWare: Twisted!
+- WarioWare: Touched!
+   - WarioWare: Twisted!
 - Yoshi Touch & Go
    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour

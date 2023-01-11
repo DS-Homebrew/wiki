@@ -11,8 +11,8 @@ description: ニンテンドー3DSからTWiLight Menu++をアンインストー�
 ### アンインストール
 1. FBIを起動します
 1. `Titles`に移動します
-1. 紫色のテキストで2つの`TWiLight Menu++`のタイトルを見つける
-1. 両方のタイトルを削除します
+1. Find the `TWiLight Menu++` title in purple text
+1. Delete the `TWiLight Menu++` title
 1. タイトルリストを終了します
 1. SDカードに移動します
 1. `_nds`を開く

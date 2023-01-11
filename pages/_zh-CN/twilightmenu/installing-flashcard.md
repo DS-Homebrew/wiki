@@ -15,19 +15,12 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 1. 拷贝 `BOOT.NDS`文件到烧录卡存储卡的根目录
 1. 拷贝`roms` 目录到烧录卡存储卡的根目录
 1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
-1. ...
-   - **对于 DS Phat/Lite 用户：**如果使用 `BOOT.NDS` 起到导致白屏卡机，请插入一张 DS 存储扩展卡(DS Memory Expansion Pak)，然后重试
-   - **对于 DSi/3DS 用户:** 在SD卡上启动 TWLMenu++ ，然后打开 TWLMenu++ 设置，切换到 `杂项。 settings` page, and turn on `SCFG access in Slot-1` and set `Slot-1: Touch Mode` to `DSi Mode`
-      - 这将使您能够在您的烧录卡游戏上使用 TWL 时钟速度和/或 VRAM 提升，并能够访问主机的 SD 卡，以及从您的烧录卡中运行 DSi 增强/DSi 独占/DSiWare 游戏。
-      - 启用此功能后，您可以使用 <kbd>SELECT</kbd> + <kbd>向上</kbd>/<kbd>向下</kbd> 切换您内部的 SD 卡和烧录卡的SD卡
-      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### 自动启动TWiLight Menu++
 1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
    - 如果你没有烧录卡请跳过本步骤
-1. ...
-   - **对于 DS Phat/Lite 用户：** 在 DS 设置菜单中打开自动运行，这样开机就会自动进入
-   - **对于 DSi/3DS 用户:** 启动主机SD卡中的 TWLMenu++ 并打开设置，切换到 ` 杂项设置` 页面并打开 `自启动 Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### 使用烧录卡固件运行游戏
 

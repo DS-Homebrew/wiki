@@ -42,11 +42,3 @@ tabs:
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Дополнительные шаги для пользователей флеш-картриджей
-
-Если вы можете переключаться между SD-картой и флеш-картриджем в TWLMenu++, и если версия TWLMenu++ на флеш-картридже v16.3.0 или ниже, выполните эти шаги.
-
-1. Перейдите в Настройки TWLMenu++
-1. Выберите `Обновить TWiLight Menu++`
-1. Выберете `(micro)SD консоли > microSD Slot-1`

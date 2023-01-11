@@ -27,15 +27,16 @@ Megjegyzés: Ha a következő üzenetet kapod: `This encoder requires a cpu with
 
 ### Windows
 
-1. Töltsd le az enkódert [innen](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Töltsd le az alábbi `.bat` fájlt ugyanoda, ahol az encoder `.exe` fájlja van és húzd rá a videódat a `.bat` fájlra.
-- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+1. Download the [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), and install it
+1. DTöltsd le a [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)-t
+1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
+1. Drag and drop your video into said `.bat` file
 
 Ha ez a folyamat kész, akkor csak húzd át az SD kártyádra. Ha a videót az SD kártyádra raktad, készen áll a **TW**i**L**ight Menu++-szal történő lejátszásra.
 
 ## Moonshell videó konverzió (DPG4x)
 
-1. Töltsd le a DPG4x-et [innen](https://www.gamebrew.org/wiki/DPG4X)-t
+1. Download [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
 1. Nyisd meg az `dpg4x.7z` fájlt
 1. Nyisd meg a `dpg4x-2.3.3.3.0.zip` fájlt (a 3.0-1 ismeretlen okból hibát ad ki megnyitáskor)
 1. Nyisd meg a `dpg4x-2.3.3.3.0_setup.exe`-t és folytasd a telepítést

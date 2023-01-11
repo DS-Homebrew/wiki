@@ -93,3 +93,24 @@ Pour les bannières PNG, vous avez simplement besoin de n'importe quel fichier P
 Les bannières de type banner.bin peuvent être animées et vous permettent de remplacer le titre qui sera affiché dans TWiLight Menu++. Ils peuvent être réalisés à l'aide de [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), il est actuellement recommandé d'utiliser la [ version nightly](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) car elle comporte plusieurs améliorations par rapport à la version stable.
 
 Des bannières préfabriquées se trouvent dans la [section des icônes du site de skins de TWiLight Menu++](https://skins.ds-homebrew.com/icon/). Et si vous en créez, vous pouvez les partager là aussi.
+
+#### How do I install custom themes for TWiLight Menu++?
+Custom skins for themes can be acquired from [the official skins site](https://skins.ds-homebrew.com/), which houses serveral community-made skins ready to apply. You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
+
+Once you have acquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
+- Skins for the Nintendo DSi theme go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
+- Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
+- Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
+
+If you are using a 3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
+
+To apply a custom theme you must access TWiLight Menu++ Settings.
+1. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad.
+1. Once the target theme is selected, press the A button to choose between the skin you have installed.
+1. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
+1. Apply the settings by pressing B to go back to TWiLight Menu++.
+
+TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
+
+#### Is there a 3DS emulator for DS(i)?
+No, there isn't. It is not possible to emulate 3DS on DS(i) because of the 3DS using newer hardware.

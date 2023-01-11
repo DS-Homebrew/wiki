@@ -22,11 +22,3 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-
-### שלבים נוספים עבור הפלאשקארד
-
-אם אתם יכולים להחליף את הקבצים שעל הSD של המכשיר ובין הקבצים על הפלאשקארד באמצעות TWLMenu++, וגם גרסאת TWLMenu++ על הפלאשקארד היא v16.3.0 או גבוהה יותר, עקבו אחרי השלבים האלו.
-
-1. לכו להגדרות של TWLMenu++
-1. בחרו ב`Update TWiLight Menu++`
-1. בחרו ב`Console (micro)SD > Slot-1 microSD`

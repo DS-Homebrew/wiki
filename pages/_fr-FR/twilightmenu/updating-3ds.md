@@ -42,11 +42,3 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Étapes supplémentaire pour les linkers
-
-Si vous pouvez passer du contenu de la carte SD à celui du linker dans TWLMenu++, et si le TWLMenu++ du linker est sur v16.3.0 ou plus, veuillez suivre ces étapes.
-
-1. Allez dans les paramètres de TWLMenu++
-1. Sélectionnez `Mettre à jour TWLMenu++`
-1. Sélectionnez `(micro)SD console > microSD Slot-1`

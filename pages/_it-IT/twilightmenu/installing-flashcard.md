@@ -15,19 +15,12 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 1. Copia il file `BOOT.NDS` nella scheda microSD della tua flashcard
 1. Copia la cartella `roms` nella scheda microSD della tua flashcard
 1. Se hai già dei dati di salvataggio, sposta i tuoi file `.sav` posizionati insieme alle tue ROM del DS, in una nuova cartella chiamata `saves`, che va anche questa nella posizione delle ROM del DS
-1. ...
-   - **Utenti DS Phat/Lite:** Se avviare `BOOT.NDS` causa uno schermo bianco, inserire un DS Memory Expansion Pak, e riprovare
-   - **Utenti DSi/3DS:** Avviate TWLMenu++ sulla scheda SD della console, aprite Impostazioni TWLMenu++, e passate a `Impostazioni Varie` e attivate `Accesso SCFG da Slot-1` e impostate `Slot-1: Modalità Touch` a `Modalità DSi`
-      - Questo permetterà di utilizzare la velocità clock TWL e/o un boost della VRAM ai vostri giochi su flashcard, così come a quelli sulla scheda SD della console, ed eseguendo giochi DSi-Enhanced/DSi-Exclusive/DSiWare in modalità DSi dalla tua flashcard
-      - Con questa opzione è possibile utilizzare <kbd>SELECT</kbd> +<kbd>Sù</kbd>/<kbd>Giù</kbd> per passare dalla scheda SD interna alla scheda SD della flashcard
-      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Auto-avvio TWiLight Menu++
 1. Estrai il/i contenuto(i) di `Autoboot/(la tua flashcard)` nella scheda microSD della flashcard
    - Se non vedi la tua flashcard, salta questo passaggio
-1. ...
-   - **Utenti DS Phat/Lite:** Andate nelle impostazioni del menu DS e attivate l'avvio automatico, in questo modo la flashcard si avvierà automaticamente all'avvio
-   - **Utenti DSi/3DS:** Avviate TWLMenu++ sulla scheda SD della console, aprite le Impostazioni di TWLMenu++ e andate alla pagina `Impostazioni Varie` attivando `Avvio Automatico Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### Per avviare giochi utilizzando il firmware della flashcard
 

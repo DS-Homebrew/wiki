@@ -15,19 +15,12 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
 1. Skopiuj plik `BOOT.NDS` do katalogu głównego karty microSD nagrywarki
 1. Skopiuj folder `roms` do katalogu głównego karty microSD nagrywarki
 1. Jeśli już masz dane zapisu, przenieś pliki `.sav`, które są umiejscowione razem z ROMami, do nowego folderu `saves`, który także ma się znaleźć razem z ROMami
-1. ...
-   - **Użytkownicy DS Phat/Lite:**Jeśli uruchamianie `BOOT.NDS` powoduje zablokowanie na białym ekranie, włóż DS Memory Expansion Pak i spróbuj ponownie
-   - **Użytkownicy DSi/3DS:** Uruchom TWLMenu++ na karcie SD konsoli, Otwórz Ustawienia TWLMenu++, zmień stronę ustawień na `Misc. Settings` i włącz `SCFG access in Slot-1` oraz ustaw `Slot-1: Touch Mode` na `DSi Mode` .
-      - Pozwoli to na wykorzystanie prędkości zegara TWL i/lub zwiększenia pamięci VRAM w grach z karty flash, a także na dostęp do karty SD konsoli i uruchamianie gier DSi-Enhanced/DSi-Exclusive/DSiWare w trybie DSi z karty flash
-      - With this enabled you can use <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> to switch between your internal SD card and your flashcard's SD card
-      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Autobooting TWiLight Menu++
 1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Skip this, if you don't see your flashcard
-1. ...
-   - **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
-   - **DSi/3DS users:** Run TWLMenu++ on the console's SD card, open TWLMenu++ Settings, switch to `Misc settings` page, and turn on `Auto-start Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### To run games using your flashcard firmware
 

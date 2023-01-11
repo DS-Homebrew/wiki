@@ -40,4 +40,3 @@ Míg néhány ROM hack nem fog működni a valódi hardveren (pl. a gen 5 hackek
 ### 1.5 További nds-bootstrap funkciók
 További funkciók hozzáadása az nds-bootstrap-hez ROM-ok futtatásakor
 - Mentési állapotok/valós idejű mentések megvalósítása [#143](https://github.com/DS-Homebrew/nds-bootstrap/issues/143)
-- Idő megjelenítése a játék menüjében [#1099](https://github.com/DS-Homebrew/nds-bootstrap/issues/1099)

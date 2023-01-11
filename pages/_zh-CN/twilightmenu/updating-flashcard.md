@@ -20,6 +20,7 @@ description: 如何在 Nintendo DS 烧录卡上更新 TWiLight Menu++
 1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
+1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 
 ### 适用于DSi/3DS的更多步骤
 

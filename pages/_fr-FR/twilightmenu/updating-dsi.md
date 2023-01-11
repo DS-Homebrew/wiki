@@ -22,11 +22,3 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD, en remplaçant tous les fichiers existants
 1. **Utilisateurs de hiyaCFW :** Copiez le dossier `title` à la racine de votre carte SD, en remplaçant tous les fichiers existants
    - Si vous utilisez macOS, assurez-vous de **Copier** et `Fusionner`, ne pas `Remplacer`
-
-### Étapes supplémentaire pour les linkers
-
-Si vous pouvez passer du contenu de la carte SD à celui du linker dans TWLMenu++, et si le TWLMenu++ du linker est sur v16.3.0 ou plus, veuillez suivre ces étapes.
-
-1. Allez dans les paramètres de TWLMenu++
-1. Sélectionnez `Mettre à jour TWLMenu++`
-1. Sélectionnez `(micro)SD console > microSD Slot-1`

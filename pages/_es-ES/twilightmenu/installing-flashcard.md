@@ -15,19 +15,12 @@ description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
 1. Copia el archivo `BOOT.NDS` en la raíz de la microSD de tu flashcard
 1. Copia la carpeta `roms` en la raíz de la microSD de tu flashcard
 1. Si ya tienes archivos de guardado, mueve los archivos `.sav`, que se encuentran en la misma carpeta que tus ROMs de DS, a una nueva llamada `saves` también en la carpeta de las ROMs
-1. ...
-   - **Usuarios de DS Phat/Lite:** Si al iniciar `BOOT.NDS` la consola crashea con una pantalla blanca, inserta un DS Memory Expansion Pak y prueba de nuevo
-   - **Usuarios de DSi/3DS:** Abrir TWiLight Menu++ desde la tarjeta SD de la consola, abrir los ajustes de TWiLight Menu, ir a la página `Otros Ajustes`, acticar la opción `Acceso SCFG en Slot-1` y cambiar `Slot-1: Configuración Táctil` a `Modo DSi`
-      - Esto permitirá usar la velocidad de reloj TWL y/o acelerar la VRAM en los juegos de la flashcard, así como acceder a la SD de la consola y lanzar juegos DSi-Enhanced/DSi-Exclusive/DSiWare en Modo DSi desde la flashcard
-      - Con esta opción habilitada, podrás usar <kbd>SELECT</kbd> + <kbd>Arriba</kbd>/<kbd>Abajo</kbd> para cambiar entre los contenidos de tu tarjeta SD y la tarjeta microSD de la flashcart
-      - Para usar las características mencioandas arriba, tendrás que iniciar la flashcard a través de TWiLight Menu++ en lugar de desde el menú del sistema
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Iniciar automáticamente TWiLight Menu++
 1. Extrae el contenido de la carpeta `Autoboot/(tu flashcart)` a la carpeta raíz de tu tarjeta microSD
    - Si tu flashcart no aparece en el nombre de ninguna carpeta, puedes saltarte este paso
-1. ...
-   - **Usuarios de DS Phat/Lite:** Ve a los ajustes de tu consola, y activa el iniciar los juegos al encender la consola, para que así tu flashcart inicie automáticamente
-   - **Usuatios de DSi/3DS:** Abrir TWLMenu++ desde la tarjeta SD de la consola, abrir los ajustes de TWLMEnu++, cambiar a la página `Otros Ajustes` y activar la opción `Inicio automático del Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### Para ejecutar los juegos usando el firmware de tu flashcart
 

@@ -22,11 +22,3 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 1. Salin berkas `BOOT.NDS` ke root kartu SD, timpa berkas yang ada
 1. **Pengguna hiyaCFW:** Salin folder `title` ke root kartu SD, timpa berkas yang ada
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-
-### Langkah tambahan untuk di flashcard
-
-Jika kamu dapat beralih antara isi kartu SD ke flashcard lewat TWLMenu++, dan jika TWLMenu++ di flashcard sudah v16.3.0 ke atas, ikuti langkah-langkah berikut.
-
-1. Masuk ke pengaturan TWLMenu++
-1. Pilih `Perbarui TWiLight Menu++`
-1. Pilih `Kartu (micro)SD Konsol > microSD Slot-1`

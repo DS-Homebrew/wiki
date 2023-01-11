@@ -15,19 +15,12 @@ description: ニンテンドーDSマジコンにTWiLight Menu++をインスト�
 1. `BOOT.NDS`ファイルをマジコンのmicroSDカードのルートにコピー
 1. `roms`フォルダをマジコンのmicroSDカードのルートにコピー
 1. すでにセーブデータがある場合は、DS ROMの場所にある`.sav`ファイルを、同じくDS ROMの場所にある`saves`という新しいフォルダに移動
-1. ...
-   - **DS無印・Liteユーザー：**`BOOT.NDS`を起動して、白い画面フリーズした場合は、DSメモリー拡張カートリッジを挿入して、もう一度やり直してください
-   - **DSi・3DSユーザー：**ゲーム機のSDカードでTWLMenu++を実行し、TWLMenu++の設定を開き、 `その他の 設定`に移ります。`Slot-1でSCFGアクセス`をオンにし、`Slot-1: タッチモード`を`DSi モード`に設定します
-      - これにより、フラッシュカードのゲームでTWLクロック速度やVRAMブーストを使用できますほか、本体のSDカードにアクセスしたり、フラッシュカードからDSi対応・DSi専用・DSiウェアのゲームをDSiモードで実行したりできます
-      - この機能を有効にすると、 <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> で、内蔵SDカードとマジコンのSDカードを切り替えることができます
-      - 上記の機能を利用するには、システムメニューではなく、TWLMenu++でマジコンを起動する必要があります
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### TWiLight Menu++を自動起動する
 1. `Autoboot/(使っているマジコン)`の中身をマジコンのmicroSDカードのルートに展開する
    - マジコンが表示されない場合は、スキップしてください
-1. ...
-   - **DS無印・Liteユーザー：**DSメニューの設定から、自動起動をオンにして、起動時にマジコンが起動するようにします
-   - **DSi・3DSユーザー：**ゲーム機のSDカードでTWLMenu++を実行し、TWLMenu++の設定を開き、`その他の設定`で`Slot-1を自動起動`をオンにしてください
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### マジコンファームウェアを使用してゲームを起動するには
 

@@ -15,19 +15,12 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard
 1. Salin folder `roms` ke root kartu microSD flashcard
 1. Jika sudah ada data simpanan (save), sebelumnya pindahkan dulu berkas `.sav`, yang tadinya bersama ROM DS, ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
-1. ...
-   - **Pengguna DS Phat (kodok) / Lite:** Jika memulai `BOOT.NDS` malah tersangkut di layar putih, sisipkan DS Memory Expansion Pak, lalu coba lagi
-   - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, buka Pengaturan TWLMenu++, pindah ke halaman `Pengatuan lain `, lalu nyalakan `Akses SCFG di Slot-1` dan ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
-      - Ini agar laju jam (clock speed) TWL dan/atau kebut VRAM dapat digunakan permainan di flashcard, sekaligus mengakses kartu memori SD konsol, dan menjalankan ROM DSi-Enhanced/DSi-Exclusive/DSiWare dalam mode DSi di flashcard
-      - Jika ini dinyalakan, tombol <kbd>SELECT</kbd> + <kbd>Atas</kbd>/<kbd>Bawah</kbd> dapat ditekan untuk beralih antara kartu SD konsol dan kartu SD flashcard
-      - To use the above features, you need to launch your flashcard via TWLMenu++ instead of the system menu
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Memulai sendiri (Autobooting) TWiLight Menu++
 1. Ekstrak isi dari `Autoboot/(flashcard-mu)` ke root dari kartu microSD flashcard
    - Lewati jika tidak ada untuk flashcard-mu
-1. ...
-   - **Pengguna DS Phat (kodok) / Lite:** Masuk ke pengaturan di menu DS resmi, dan nyalakan `auto-start` agar flashcard langsung mulai sendiri
-   - **Pengguna DSi/3DS:** Jalankan TWLMenu++ di kartu SD konsol, buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan lain`, dan nyalakan `Langsung mulai Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### Menjalankan permainan dengan firmware flashcard
 

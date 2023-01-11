@@ -23,3 +23,38 @@ Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw
 1. Kapcsold be a DSi-d miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
 1. Az Unlaunch menüben menj az `OPTIONS` menühöz
 1. Állítsd be a `NO BUTTON` értéket vagy a választásod szerinti gombot ahhoz a `TWiLight Menu++`-hoz, ami a `BOOT.NDS`-t mutatja az alsó képernyőn
+
+### Hozzáférés a flashcard tartalmához
+
+A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalmaz egy microSD-kártya helyet. Ha nincs flashcard-od, akkor végeztél ezzel az útmutatóval.
+{:.alert .alert-warning}
+
+#### Ha R4(i) Ultra kártyád van
+
+1. Kövesd [ezt](installing-flashcard) az útmutatót a`To run games using your flashcard firmware` ponttól kezdve
+     - Biztonságosan ignorálhatod a figyelmeztetéseket
+1. Nyisd meg a TWLMenu++ beállításait
+1. Válts az `Egyéb beállítások` oldalra
+1. Kapcsold be a `Slot-1 microSD hozzáférést`
+1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
+     - Ha a DS Classic menübe kerültél, nyomd meg újra a `B` gombot
+
+#### Ha nincs R4(i) Ultra kártyád
+
+1. Hozz létre egy fájlt `primary` néven az `sd:/_nds/` mappában (nem a flashcard-ban lévőn), így a TWiLight Menu++ a beállításokat a konzol SD kártyájáról veszi, miután elindítja a flashcard-od
+1. Kövesd [ezt](installing-flashcard) az útmutatót a`TWiLight Menu++ automatikus bootolása` ponttól kezdve
+1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-Flashcard.7z` fájlból a flashcard-od microSD kártyája gyökerébe
+1. Nyisd meg a TWLMenu++ Beállítások menüpontját
+1. Válts az `Egyéb beállítások` oldalra
+1. Kapcsold be a `SCFG hozzáférés a Slot-1-ben` opciót (Figyelem, ez felülírja a `Slot-1 microSD hozzáférés` opciót)
+1. Állítsd be a `Slot-1: Érintés mód` to `DSi mód`-ra
+1. Kapcsold be az `Auto-start Slot-1`-et
+1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
+     - Ha a DS Classic menübe kerültél, indítsd el a flashcard-od
+     - Egyébként indítsd újra a TWiLight Menu++-t
+
+#### Váltás az SD és a flashcard tartalmak között
+- Nyomd meg a `SELECT`+`Fel` vagy a `SELECT`+`Le` gombokat az SD és a flashkártya tartalma közötti váltáshoz
+     - Ha a SELECT menü engedélyezve van, akkor ott is megteheted ezt
+     - Ha a 3DS témát használod, érintsd meg a Játékkártya/SD-kártya ikont
+     - Ha az R4/GBC témát használod, nyomd meg az `L` gombot

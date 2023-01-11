@@ -27,15 +27,16 @@ Note : Si vous obtenez un message disant `Cet encodeur nécessite un processeur 
 
 ### Windows
 
-1. Téléchargez l'encodeur [ici](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Téléchargez le fichier `.bat` ci-dessous au même endroit que le fichier de l'encodeur `.exe`, et faites glisser votre vidéo dans le fichier `.bat`.
-- [FastVideoDS.bat](/assets/files/FastVideoDS.bat)
+1. Download the [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), and install it
+1. Download the [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
+1. Drag and drop your video into said `.bat` file
 
 Lorsque ce processus est terminé, il devrait être facile de glisser-déposer sur la carte SD. Une fois que vous avez placé la vidéo sur votre carte SD, elle sera prête à être lue via **TW**i**L**ight Menu++.
 
 ## Conversion vidéo Moonshell (DPG4x)
 
-1. Téléchargez DPG4x [ici](https://www.gamebrew.org/wiki/DPG4X)
+1. Download [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
 1. Ouvrez `dpg4x.7z`
 1. Ouvrez `dpg4x-2.3.3.0.zip` (3.0-1 donne une erreur à l'ouverture, pour une raison inconnue)
 1. Ouvrez `dpg4x-2.3.3.0_setup.exe`, et procédez à l'installation

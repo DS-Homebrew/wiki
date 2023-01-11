@@ -40,4 +40,3 @@ Alors que certaines ROMs hacks sont vouées à ne pas fonctionner sur du matéri
 ### 1.5 Fonctionnalités supplémentaires de nds-bootstrap
 Ajout de plus de fonctionnalités à nds-bootstrap lui-même lors de l'exécution de ROMs
 - Implémentation de sauvegardes d'état/en temps réel [#143](https://github.com/DS-Homebrew/nds-bootstrap/issues/143)
-- Affichage de l'heure dans le menu en jeu [#1099](https://github.com/DS-Homebrew/nds-bootstrap/issues/1099)

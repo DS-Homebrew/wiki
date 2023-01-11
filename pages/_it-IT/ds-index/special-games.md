@@ -95,7 +95,21 @@ Wi-Fi supportato (WPA 1/2 incluso):
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
-### Giochi che hanno ottenuto aggiornamenti dell'SDK
+### DSiWare compiled as DSi-Enhanced ROMs
+- Base 10 (Art Style)
+     - Uses cloneboot for Multiplayer
+- Bird & Beans (Japan)
+- Clubhouse Games Express
+     - Uses cloneboot for Multiplayer
+- Dr. Mario Express
+- Metal Torrent
+- Paper Airplane Chase (Japan)
+- Pop Island
+     - Has a feature to send a game demo to any DS family console
+- Pop Island: Paperfield
+     - Has a feature to send a game demo to any DS family console
+
+### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
@@ -112,7 +126,7 @@ Wi-Fi supportato (WPA 1/2 incluso):
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### Giochi DSi-Enhanced che non utilizzano overlay
+### DSi-Enhanced games that don't use overlays
 Totale: 39, alcuni potrebbero non esserci
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
@@ -295,7 +309,8 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Sonic Battle
 - The Sims 2 (DS)
    - The Sims 2 (GBA)
-- WarioWare: Touched! -WarioWare: Twisted!
+- WarioWare: Touched!
+   - WarioWare: Twisted!
 - Yoshi Touch & Go
    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour

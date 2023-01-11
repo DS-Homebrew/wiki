@@ -15,19 +15,12 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
 1. Copiez le dossier `roms` à la racine de la carte microSD de votre linker
 1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav`, qui se trouvent dans l'emplacement de vos ROMs DS, vers un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROMs DS
-1. ...
-   - **Utilisateurs de DS Tank/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, insérez un DS Memory Expansion Pak et réessayez
-   - **Utilisateurs de DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, ouvrez les paramètres de TWLMenu++, passez à la page `Autres paramètres`, et activez `Accès au SCFG par Slot-1` puis définissez `Slot-1 : Mode tactile` sur `Mode DSi`
-      - Ceci vous permet d'utiliser la vitesse d'horloge TWL et/ou le boost VRAM pour vos jeux sur linker, ainsi que d'accéder à la carte SD de la console et d'exécuter les jeux optimisés DSi/exclusifs DSi/DSiWare en mode DSi depuis votre linker
-      - Cette option activée, vous pouvez utiliser <kbd>SELECT</kbd> + <kbd>Haut</kbd>/<kbd>Bas</kbd> pour basculer entre votre carte SD interne et la carte SD de votre linker
-      - Pour utiliser les fonctionnalités ci-dessus, vous devez lancer votre linker via TWLMenu++ au lieu du menu système
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Démarrage automatique de TWiLight Menu++
 1. Extrayez le contenu de `Autoboot/(votre linker)` à la racine de la carte microSD du linker
    - Sautez cette étape si vous ne voyez pas votre linker
-1. ...
-   - **Utilisateurs de DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
-   - **Utilisateurs de DSi/3DS :** Exécutez TWLMenu++ sur la carte SD de la console, ouvrez les paramètres de TWLMenu++, passez à la page `Autres paramètres`, et activez `Démarrage automatique Slot-1`
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
 ### Pour lancer des jeux en utilisant le firmware de votre linker
 

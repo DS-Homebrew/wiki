@@ -42,11 +42,3 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Langkah tambahan untuk di flashcard
-
-Jika kamu dapat beralih antara isi kartu SD ke flashcard lewat TWLMenu++, dan jika TWLMenu++ di flashcard sudah v16.3.0 ke atas, ikuti langkah-langkah berikut.
-
-1. Masuk ke pengaturan TWLMenu++
-1. Pilih `Perbarui TWiLight Menu++`
-1. Pilih `Kartu (micro)SD Konsol > microSD Slot-1`

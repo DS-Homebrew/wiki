@@ -49,8 +49,8 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
 1. Másold a `roms` mappát a microSD kártyád gyökerébe
-1. Másold a két `.cia` fájlt a microSD kártyád gyökerébe
-1. A 3DS-eden telepítés a két CIA fájlt az FBI-jal
+1. Másold a `.cia` fájlt az SD kártyád gyökerébe
+1. A 3DS-eden telepítsd a CIA fájlt az FBI-jal
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
@@ -58,3 +58,38 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
 
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
+
+### Hozzáférés a flashcard tartalmához
+
+A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalmaz egy microSD-kártya helyet. Ha nincs flashcard-od, akkor végeztél ezzel az útmutatóval.
+{:.alert .alert-warning}
+
+#### Ha R4(i) Ultra kártyád van
+
+1. Kövesd [ezt](installing-flashcard) az útmutatót a `Játékok futtatása a flashcard firmware használatával` ponttól kezdve
+     - Biztonságosan ignorálhatod a figyelmeztetéseket
+1. Nyisd meg a TWLMenu++ Beállítások menüpontját
+1. Válts az `Egyéb beállítások` oldalra
+1. Kapcsold be a `Slot-1 microSD hozzáférés`-t
+1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
+     - Ha a DS Classic menübe kerültél, nyomd meg újra a `B` gombot
+
+#### Ha nem R4(i) Ultra kártyád van
+
+1. Hozz létre egy fájlt `primary` néven az `sd:/_nds/` mappában (nem a flashcard-ban lévőn), így a TWiLight Menu++ a beállításokat a konzol SD kártyájáról veszi, miután elindítja a flashcard-od
+1. Kövesd [ezt](installing-flashcard) az útmutatót a`TWiLight Menu++ automatikus bootolása` ponttól kezdve
+1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-Flashcard.7z` fájlból a flashcard-od microSD kártyája gyökerébe
+1. Nyisd meg a TWLMenu++ Beállítások menüpontját
+1. Válts az `Egyéb beállítások` oldalra
+1. Kapcsold be a `SCFG hozzáférés a Slot-1-ben` opciót (Figyelem, ez felülírja a `Slot-1 microSD hozzáférés` opciót)
+1. Állítsd be a `Slot-1: Érintés mód` to `DSi mód`-ra
+1. Kapcsold be az `Auto-start Slot-1`-et
+1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
+     - Ha a DS Classic menübe kerültél, indítsd el a flashcard-od
+     - Egyébként tindítsd úkjra a TWiLight Menu++-t
+
+#### Váltás az SD és a flashcard tartalmak között
+- Nyomd meg a `SELECT`+`Fel` vagy a `SELECT`+`Le` gombokat az SD és a flashkártya tartalma közötti váltáshoz
+     - Ha a SELECTS menü engedélyezve van, akkor ott is megteheted ezt
+     - Ha a 3DS témát használod, érintsd meg a Játékkártya/SD-kártya ikont
+     - Ha az R4/GBC témát használod, nyomd meg az `L` gombot

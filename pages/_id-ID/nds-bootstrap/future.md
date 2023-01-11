@@ -40,4 +40,3 @@ Walaupun beberapa retasan ROM ada yang tidak berjalan di mesin asli (contohnya r
 ### 1.5 Fitur Tambahan nds-bootstrap
 Menambahkan fitur di nds-bootstrap itu sendiri saat menjalankan ROM
 - Mengimplementasi Save State/Simpanan Waktu-Nyata [#143](https://github.com/DS-Homebrew/nds-bootstrap/issues/143)
-- Menampilkan waktu di menu in-game [#1099](https://github.com/DS-Homebrew/nds-bootstrap/issues/1099)

@@ -15,19 +15,12 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 1. Másold az `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe
 1. Másold a `roms` mappát a flash kártyád microSD kártyájának gyökerébe
 1. Ha már van mentés adatod, mozgasd a `.sav` fájljaidat, ami a DS ROM lokáción találhatók egy új `saves` nevű mappába, ami szintén DS ROM lokáción található
-1. ...
-   - **DS Phat/Lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
-   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++ -t a konzolod SD kártyáján, majd nyisd meg a TWLMenu++ Beállításokat és menj az `Egyéb  beállítások` oldalra és kapcsold be `SCFG hozzáférés Slot-1-ben` opciót, valamint állítsd be a `Slot-1: Érintés mód`-ot `DSi mód`-ra
-      - Ez lehetővé teszi, hogy használd a TWL óra sebességet és/vagy VRAM gyorsítást a flashcard játékaidon, valamint a hozzáférést a konzol SD kártyájához, és a futtatását DSi-Enhanced/DSi-Exclusive/DSiWare játékoknak DSi módban a flashcard-odról
-      - Ha ez engedélyezett a <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> használatával válthatsz a belső SD kártya és a flashcard-od SD kártyája között
-      - A fenti funkciók használatához a flashcard-od indítását a TWLMenu++-szal kell megtenned a rendszer menü helyett
+1. **DS Phat/Lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor kövesd az alábbi lépéseket az autobootoláshoz és/vagy helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
 
 ### TWiLight Menu++ automatikus bootolása
 1. Csomagold ki az `Autoboot/(a te flashcard-od)` mapp tartalmát a flashcard-od microSD kártyája gyökerébe
    - Lépd át ezt, ha nem látod a flashcard-od
-1. ...
-   - **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
-   - **DSi/3DS felhasználók:** Futtasd a TWLMenu++ -t a konzolod SD kártyáján, majd nyisd meg a TWLMenu++ Beállításokat és menj az `Egyéb beállítások` oldalra és kapcsold be az `Auto-start Slot-1` opciót
+1. **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
 
 ### Játékok futtatása a flashcard firmware használatával
 

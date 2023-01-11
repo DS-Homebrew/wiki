@@ -7,7 +7,7 @@ long_title: nds-bootstrap FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---
 
-#### I'm having issues with my ROM(s), what should I do?
+#### У меня возникли проблемы с моим(-и) ROM-ом(-ами), что я должен делать?
 - Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
 - Check [the nds-bootstrap compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) to see if this is a known issue on the latest version of nds-bootstrap
 - Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on **TW**i**L**ight Menu++ will disable all cheats for it
@@ -41,7 +41,7 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
@@ -67,7 +67,7 @@ Examples:
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
 #### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information

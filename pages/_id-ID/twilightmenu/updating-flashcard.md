@@ -20,6 +20,7 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 1. Salin folder `_nds` ke root kartu microSD flashcard, timpa berkas yang ada
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard, timpa berkas yang ada
+1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 
 ### Langkah tambahan untuk di kartu SD DSi/3DS
 

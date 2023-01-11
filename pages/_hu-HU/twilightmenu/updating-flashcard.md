@@ -20,6 +20,7 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 1. Másold az `_nds` mappát a flashcard-od microSD kártyájának gyökerébe, felülírva bármilyen létező fájlt
    - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
 1. Másold az `BOOT.NDS` fájlt aa flashcard-od microSD kártyájának gyökerébe, felülírva bármilyen létező fájlt
+1. If TWLMenu++ nem bootol a frisítést követően, akkor frissítsd az autoboot fájl(oka)t is
 
 ### További lépések a DSi/3DS SD kártya oldaláról
 

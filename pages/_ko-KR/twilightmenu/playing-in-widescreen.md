@@ -34,3 +34,4 @@ This section requires a 3DS family console, running a modern CFW environment fro
 1. 모든 게임이 와이드스크린과 호환되지는 않습니다. [와이드 스크린 호환 게임 목록은 여기서 보실 수 있습니다.](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
 1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`, and [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. 많은 와이드스크린 패치들은 3D 요소만을 와이드스크린을 위해서 조정할 것이고, 2D 요소 (메뉴 등)은 그냥 늘리기만 할 것입니다.
+1. Luma3DS **must** be loaded from the SD card, if widescreen isn't working ensure that you have `boot.firm` in the root of your SD

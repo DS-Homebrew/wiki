@@ -42,11 +42,3 @@ Si estás intentando actualizar desde una versión anterior a la 21.0.0, por fav
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Más pasos desde la flashcard
-
-Si puedes cambiar entre los contenidos de la tarjeta SD y la flashcard desde TWiLight Menu++, y la versión de TWiLight Menu++ de la flashcard es 16.3.0 o anterior, por favor, sigue estos pasos.
-
-1. Ve a los ajustes de TWLMenu++
-1. Selecciona `Actualizar TWiLight Menu++`
-1. Selecciona `(micro)SD de la consola>microSD de la Slot-1`

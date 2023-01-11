@@ -22,11 +22,3 @@ Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file 
 1. Copia il file `BOOT.NDS` nella root della tua SD card, sostituendo quella gia presente
 1. **Utenti hiyaCFW:** Copia la cartella `title` nella root della tua SD card sostituendo quella gia presente
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-
-### Ulteriori passi per le flashcard
-
-Se è possibile passare dalla scheda SD a i contenuti della flashcard in TWLMenu++, e se la flashcard TWLMenu++ è su v16.3.0 o successive, segui questi passaggi.
-
-1. Vai nelle impostazioni di TWLMenu++
-1. Seleziona `Aggiorna TWiLight Menu++`
-1. Seleziona `Console (micro)SD > Slot-1 microSD`

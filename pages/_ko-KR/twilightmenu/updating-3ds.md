@@ -42,11 +42,3 @@ v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또�
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### Flashcard를 위한 추가적인 단계
-
-TWLMenu++내의 SD 카드와 Flashcard 간의 내용물을 전환하고 싶거나, Flashcard의 TWLMenu++가 v16.3.0 이후의 버전이라면, 이 단계를 따릅니다.
-
-1. TWLMenu++ 설정으로 진입합니다.
-1. `TWiLight Menu++ 업데이트`를 선택합니다.
-1. `본체 (마이크로)SD > Slot-1 마이크로SD`를 선택합니다.

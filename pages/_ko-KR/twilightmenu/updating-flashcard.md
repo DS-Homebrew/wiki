@@ -20,6 +20,7 @@ v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또�
 1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
+1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 
 ### DSi/3DS SD 카드를 위한 추가적인 단계
 

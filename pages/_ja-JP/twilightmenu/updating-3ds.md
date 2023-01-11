@@ -42,11 +42,3 @@ v21.0.0より古いバージョンから更新する場合は、DSiウェアタ�
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
-
-### フラッシュカード側の他の手順
-
-TWLMenu++でSDとフラッシュカードの内容を切り替えることができ、フラッシュカードのTWLMenu++はv16.3.0以降である場合は、以下の手順に従ってください。
-
-1. TWLMenu++の設定に行く
-1. `TWiLight Menu++を更新します`を選択
-1. `本体の(micro)SD > Slot-1のmicroSD`を選択

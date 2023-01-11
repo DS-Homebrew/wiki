@@ -41,7 +41,7 @@ nds-bootstrap applica una patch alle funzioni ROM da eseguire da una scheda SD, 
 
 #### DS/DS Lite: Perché usare nds-bootstrap su una flashcard DS?
 - Alcune ROM compatibili vengono caricate nel Memory Expansion Pak (o nelle flashcard Slot-2 contenenti RAM), consentendo tempi di caricamento più rapidi rispetto alle normali schede di gioco
-- 100+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Tieni presente che nds-bootstrap sarà sempre usato per DSiWare, indipendentemente dall'impostazione `Usa nds-bootstrap` nelle impostazioni di TWLMenu++
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - Se il kernel della flashcard non è in grado di far girare una certa ROM, si può usare al suo posto nds-bootstrap, che può essere impostato per-gioco
@@ -67,7 +67,7 @@ Examples:
 If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
 
 #### Che cos'è una nightly e dove posso trovarla?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [here](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information

@@ -95,7 +95,21 @@ Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
-### Jeux qui ont reçu des mises à jour du SDK
+### DSiWare compiled as DSi-Enhanced ROMs
+- Base 10 (Art Style)
+     - Uses cloneboot for Multiplayer
+- Bird & Beans (Japan)
+- Clubhouse Games Express
+     - Uses cloneboot for Multiplayer
+- Dr. Mario Express
+- Metal Torrent
+- Paper Airplane Chase (Japan)
+- Pop Island
+     - Has a feature to send a game demo to any DS family console
+- Pop Island: Paperfield
+     - Has a feature to send a game demo to any DS family console
+
+### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
@@ -112,7 +126,7 @@ Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### Jeux optimisés DSi qui n'utilisent pas de superpositions
+### DSi-Enhanced games that don't use overlays
 Total : 39, certains peuvent être manquants
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
@@ -154,41 +168,41 @@ Total : 39, certains peuvent être manquants
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### Jeux DSiWare avec code de sauvegarde
+### DSiWare games with backup code
 Ils écrivent les données de sauvegarde sur la puce de sauvegarde de la carte, s'ils fonctionnent à partir d'une carte.
 
 - Cake Ninja
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
+   - Unused, so hacking is required to activate the code
 - Cake Ninja 2
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
+   - Unused, so hacking is required to activate the code
 - Cake Ninja: XMAS
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
+   - Unused, so hacking is required to activate the code
 - Dragon Quest Wars
 - Dreamwalker
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
+   - Unused, so hacking is required to activate the code
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
-- Go! Go! Kokopolo: Harmonious Forest Revenge
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
-- Make-Up & Style
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
 
-### Jeux qui peuvent se connecter avec des titres GBA
+### Games that can connect with GBA titles
 Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-dessous quelques alternatives possibles.
 
 - Advance Wars: Dual Strike
    - Advance Wars
    - Advance Wars 2: Black Hole Rising
-- Bleach: The Blade of Fate
+- Bleach DS
    - Bleach Advance: Kurenai ni Somaru Soul Society
-- Castlevania: Dawn of Sorrow
-   - Castlevania: Aria of Sorrow
-   - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
-- Daigassō! Band Brothers
-   - Daigassō! Band Brothers Tsuika Kyoku (Expansion Pak)
-- Eyeshield 21: MAX Devil Power!
-   - Eyeshield 21: DevilBats DevilDays
-- Project Rub
-   - ChuChu Rocket!
+- Castlevania Dawn of Sorrow
+   - Castlevania Aria of Sorrow
+   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
+- Daigasso! Band Brothers
+   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Eyeshield 21: MAX Devil Power
+   - Eyeshield 21: Devilbats Devildays
+- Feel the Magic: XY/XX
+   - ChuChu Rocket
    - Puyo Pop
    - Sonic Advance
    - Sonic Advance 2
@@ -204,25 +218,25 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Frogger's Adventures 2: The Lost Wand
 - Fullmetal Alchemist: Dual Sympathy
    - Hagane no Renkinjutsushi: Omoide no Sonata
-   - Hagane no Renkinjutsushi: Meisō no Rondo
-- Ganbare Goemon: Tōkai Dōchū Ōedo Tengu ri Kaeshi no Maki
-   - Kessakusen! Ganbare Goemon 1•2: Yuki-hime to Magginesu
+   - Hagane no Renkinjutsushi: Meisou no Rondo
+- Ganbare Goemon: Toukai Douchuu
+   - Ganbare Goemon 1+2: Yuki-hime to Magginisu
 - Harvest Moon DS
    - Harvest Moon: Friends of Mineral Town
    - Harvest Moon: More Friends of Mineral Town
-- Disney's Kim Possible: Kimmunicator
+- Kim Possible: Kimmunicator
    - Disney's Kim Possible: Revenge of Monkey Fist
    - Disney's Kim Possible 2: Drakken's Demise
    - Disney's Kim Possible 3: Team Possible
-- Kirby : Le Pinceau du Pouvoir
-   - Kirby : Cauchemar au Pays des Rêves
-   - Kirby et le Labyrinthe des Miroirs
+- Kirby: Canvas Curse
+   - Kirby: Nightmare in Dream Land
+   - Kirby and the Amazing Mirror
 - Knights in the Nightmare
    - Yggdra Union: We'll Never Fight Alone
 - Lunar Knights
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
 - Madden NFL 06
    - Madden NFL 06
    - Madden NFL 2005
@@ -231,24 +245,24 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - MegaMan Battle Network 2
    - MegaMan Battle Network 3 White/Blue
    - MegaMan Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
+   - Rockman EXE 4.5 Real Operation (Japan only)
    - MegaMan Battle Network 5 Team ProtoMan/Colonel
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
 - Mega Man Star Force Pegasus/Leo/Dragon
    - Mega Man Battle Network
    - Mega Man Battle Network 2
    - Mega Man Battle Network 3 White/Blue
    - Mega Man Battle Chip Challenge
    - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
+   - Rockman EXE 4.5 Real Operation (Japan only)
    - Mega Man Battle Network 5 Team ProtoMan/Colonel
    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
+   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -256,82 +270,83 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Phoenix Wright: Trials and Tribulations
    - Gyakuten Saiban 3
 - Pokémon Dash
-   - Pokémon Rubis/Saphir
-   - Pokémon Rouge Feu/Vert Feuille
-   - Pokémon Émeraude
-- Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
-   - Pokémon Rubis/Saphir
-   - Pokémon Rouge Feu/Vert Feuille
-   - Pokémon Émeraude
-   - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
-- Pokémon Donjon Mystère : Équipe de Secours Bleue
-   - Pokémon Donjon Mystère : Équipe de Secours Rouge
-- Shrek SuperSlam
-   - Shrek SuperSlam
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
+- Pokémon Mystery Dungeon: Blue Rescue Team
+   - Pokémon Mystery Dungeon: Red Rescue Team
+- Shrek Super Slam
+   - Shrek Super Slam
 - Spider-Man 2
    - Spider-Man: Mysterio's Menace
 - Super Robot Wars W
-   - Super Robot Wars A
-   - Super Robot Wars R
-   - Super Robot Wars D
-   - Super Robot Wars J
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
    - Super Robot Taisen: Original Generation
    - Super Robot Taisen: Original Generation 2
    - Dai-2-Ji Super Robot Taisen Famicom Mini
 - Super Robot Wars K
-   - Super Robot Wars A
-   - Super Robot Wars R
-   - Super Robot Wars D
-   - Super Robot Wars J
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
    - Super Robot Taisen: Original Generation
    - Super Robot Taisen: Original Generation 2
    - Dai-2-Ji Super Robot Taisen Famicom Mini
-- The Rub Rabbits!
-   - ChuChu Rocket!
+- The Rub Rabbits
+   - ChuChu Rocket
    - Puyo Pop
    - Sonic Advance
    - Sonic Advance 2
    - Sonic Advance 3
    - Sonic Battle
-- Les Sims 2 (DS)
-   - Les Sims 2 (GBA)
-- WarioWare: Touched! - WarioWare: Twisted!
+- The Sims 2 (DS)
+   - The Sims 2 (GBA)
+- WarioWare: Touched!
+   - WarioWare: Twisted!
 - Yoshi Touch & Go
    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Jeux qui utilisent des cartouches d'option GBA
+### Games that use GBA Option Paks
 - Memory Expansion Pak
-   - Navigateur Nintendo DS
+   - Nintendo DS Browser
 - Motion Pack
-   - Tony Hawk's Motion
+   - Tony Hawk’s Motion
 - Rumble Pak
-   - 42 Jeux Indémodables
+   - Clubhouse Games
    - Custom Robo Arena
    - Diddy Kong Racing DS
    - Elite Beat Agents
    - Ferrari Challenge
-   - Race Driver: GRID
+   - GRID
    - Hotel Dusk: Room 215
    - Iron Man
    - Juiced 2: Hot Import Nights
-   - Last Window : le secret de Cape West
-   - The Legend of Spyro: A New Beginning
-   - Actionloop
-   - Mahjong Fight Club DS: Wi-Fi Taiyou
-   - Mario et Luigi : Les Frères du Temps
+   - Last Window: The Secret of Cape West
+   - Legend of Spyro: A New Beginning
+   - Magnetica
+   - Mahjong Fight Club DS - Wi-Fi Taiou
+   - Mario & Luigi: Partners in Time
    - Metroid Prime Pinball
-   - Metroid Prime Hunters
-   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ōendan 2
-   - Need for Speed: Nitro
-   - Orcs & Elves
+   - Metroid Prime: Hunters
+   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae!
+   - Need for Speed Nitro
+   - Orcs and Elves
    - Picross DS
    - Power Pro Kun Pocket 9
    - Power Pro Kun Pocket 10
    - Puyo Puyo! 15th Anniversary
-   - Race Driver: Create & Race
-   - SEGA Superstars Tennis
+   - Race Driver: Create and Race
+   - Sega Superstars Tennis
    - Sonic & SEGA All Stars Racing
    - Space Invaders Extreme
    - Star Fox Command
@@ -341,13 +356,13 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
 
-### Jeux avec connectivité Wii
+### Games with Wii connectivity
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
-    - Guitar Hero: On Tour
-- Batman : L'Alliance des héros - Le jeu vidéo (DS)
-    - Batman : L'Alliance des héros - Le jeu vidéo (Wii)
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
 - Castlevania: Order of Ecclesia
     - Castlevania Judgement
 - Final Fantasy Crystal Chronicles: Echoes of Time (DS)
@@ -356,47 +371,47 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
     - Geometry Wars: Galaxies (Wii)
 - Jam with the Band
     - Live Channel
-- Mon Coach Personnel : J'enrichis mon vocabulaire (DS)
-    - Mon Coach Personnel : J'enrichis mon vocabulaire (Wii)
-- Pokémon Diamant/Perle
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Pokémon Diamond/Pearl
     - My Pokémon Ranch
-- Pokémon Platine
-    - My Pokémon Ranch (mise à jour exclusive au Japon)
-- Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
     - Pokémon Battle Revolution
-- Marche avec moi : Quel est ton rythme ?
-    - Chaîne Mii
-- Ultimate Band (DS)
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
     - Ultimate Band (Wii)
-- WarioWare: D.I.Y.
-    - WarioWare: D.I.Y. Showcase
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
 
-### Jeux avec des cartes de jeu IR
-- Pokémon HeartGold/SoulSilver
-   - Pour la connexion au podomètre Pokéwalker
-- Pokémon Noir/Blanc/Noir 2/Blanc 2
-   - Pour les échanges, combats et Tests de Compatibilité en utilisant le C-Gear, ainsi que les partages de clés
-- Marche avec moi : Quel est ton rythme ?
-   - Possède deux podomètres infrarouges
-   - Non compatible avec les ROMs Pokémon
-- Active Health with Carol Worderman
-   - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais il n'y en a qu'un
-   - Non compatible avec les ROMs Pokémon
+### Games with IR Game Cards
+- Pokémon Heartgold/Soulsilver
+   - For connecting to Pokéwalker pedometer
+- Pokémon Black/White/Black 2/White 2
+   - For trading/battling/feeling check using the C-Gear, Key transfers
+- Personal Trainer: Walking
+   - Has twin IR based pedometers
+   - Not compatible with Pokémon ROMs
+- Active Health with Carol Vorderman
+   - Similar pedometer to Personal Trainer: Walking, but only one
+   - Not compatible with Pokémon ROMs
 
-### Autres (jeux spéciaux qui n'entrent pas dans l'une des catégories ci-dessus)
-- Apprends avec Pokémon : À la Conquête du Clavier
-   - La carte est équipée d'une puce Bluetooth spéciale pour se connecter au clavier
-- Electroplankton
-   - La carte n'a pas de RAM de sauvegarde
+### Other (Special Games that do not fall into an above category)
+- Learn with Pokémon: Typing Adventures
+   - Cartridge has special bluetooth chip for connecting to the keyboard
+- ElectroPlankton
+   - Cartridge has no save RAM
 - DS Download Station
-   - Série de cartes utilisées pour distribuer des jeux de démonstration
-- Sonic Classic Collection
-   - La structure d'émulation de la Mega Drive a été convertie en émulateur
+   - Series of cartridges used to distribute demo games
+- Sonic Classics Collection
+   - Genesis emulation structure has been converted into an emulator
 - Nitro Development Cart
-   - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
-- Slide Adventure MAGKID
-   - Accompagné d'une souris optique Slot-2
-- Daigassō! Band Brothers
-   - Possède une cartouche Slot-2 qui ajoute plus de chansons
-- Arkanoid DS
-   - Accompagné d'une manette paddle Slot-2
+   - Has extra RAM for developing games for the DSi
+- Slide Adventure MAG KID
+   - Comes with a Slot-2 Optical Mouse
+- Daigasso! Band Brothers
+   - Has a Slot-2 cart that added more songs
+- Arkanoid
+   - Came bundled with a Slot-2 Paddle Controller

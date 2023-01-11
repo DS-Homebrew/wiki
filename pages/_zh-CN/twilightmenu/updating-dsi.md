@@ -22,11 +22,3 @@ description: 如何在 Nintendo DSi 上更新 TWiLight Menu++
 1. 将 `BOOT.NDS` 文件复制到你的SD卡根目录，替换掉所有现有文件。
 1. **对于 hiyaCFW用户：**将 `title` 文件夹复制到 SD 卡的根目录下，替换所有现有文件
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-
-### 适用于烧录卡的更多步骤
-
-如果您可以在 TWLMenu++ 中切换 SD 卡和烧录卡中的内容，并且如果烧录卡 TWLMenu++ 在 v16.3.0 版本或以上，请遵循这些步骤。
-
-1. 进入 TWLMenu++ 设置
-1. 选择 `更新 TWiLight Menu++`
-1. 选择 `Console (micro)SD > Slot-1 microSD`

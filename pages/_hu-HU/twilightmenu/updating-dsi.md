@@ -22,11 +22,3 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 1. Másold az `BOOT.NDS` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
 1. **hiyaCFW felhasználók:** Másold a `title` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
    - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
-
-### További lépések a flashcard oldalán
-
-Ha tudsz váltani az SD és flashcard tartalmak között a TWLMenu++-ben, és a flashcard TWLMenu++ v16.3.0-os vagy későbbi, kövesd következő lépéseket.
-
-1. Menj a TWLMenu++ Beállítások-ba
-1. Válaszd a `TWiLight Menu++ frissítése` opciót
-1. Válaszd a `Konzol (micro)SD > Slot-1 microSD` opciót

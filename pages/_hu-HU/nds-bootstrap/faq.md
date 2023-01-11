@@ -41,7 +41,7 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 
 #### DS/DS Lite: Miért használjak nds-bootstrap-et egy DS flashcard-on?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a Memory Expansion Pak-ba (vagy RAM-ot tartalmazó Slot-2 flashcard-o memóriájába), gyorsabb betöltési időket lehetővé téve, mint a normál játék kártyák
-- 100+ számú DSiWare cím futtatható a beépített patchek és egy DSi-Enhanced cím Donor ROM-ja segítségével
+- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
      - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `nds-bootstrap használata` beállítástól a TWLMenu++ beállításokban
      - Nem minden DSiWare cím tud menteni, mivel nehéz hozzáadni a mentés támogatását, és/vagy egynél több fájlt tárolnak a mentési fájlrendszerben.
 - Ha a flashcard kernel-ed nem tud futtatni egy bizonyos ROM-ot, akkor az nds-bootstrap használható helyette, és ez játékonként beállítható
@@ -67,7 +67,7 @@ Példák:
 Ha van egy cím, amelyhez donor ROM-ra van szükség, és a TWLMenu által keresett ROM nem mutatja meg a lehetőséget, hogy donor ROM-nak állítsd be (feltéve, hogy lefelé görgetsz), akkor keress egy másik ROM-ot, amelyet donornak állíthatsz be.
 
 #### Mi az esti fordítás (nightly) és hol szerezhetem be?
-Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted [innen](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti fordítások instabilak lehetnek, de tartalmazzák a legutolsó hibajavításokat. Az nds-bootstrap esti fordításokat beszerezheted a [TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z)-ból.
 
 #### Miért nem működnek a csalásaim?
 - Egyes csalások lehet, hogy gombbal aktiválhatók vagy vannak egyéb feltételek, amelyeket teljesíteni kell. További információkért nézd meg a csalás leírását
