@@ -105,9 +105,9 @@ Supports Wi-Fi (WPA 1/2 included):
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pop Island
-     - Has a feture to send a game demo to any DS family console
+     - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
-     - Has a feture to send a game demo to any DS family console
+     - Has a feature to send a game demo to any DS family console
 
 ### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
@@ -310,7 +310,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - The Sims 2 (DS)
    - The Sims 2 (GBA)
 - WarioWare: Touched!
-   -WarioWare: Twisted!
+   - WarioWare: Twisted!
 - Yoshi Touch & Go
    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour
