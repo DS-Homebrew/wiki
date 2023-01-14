@@ -91,7 +91,7 @@ You can use a custom banner in either PNG or DS banner.bin format by placing it 
 
 For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
 
-banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), it's currently recommended to use the [nightly version](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) as it has several improvements over the stable release.
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases).
 
 Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
 
