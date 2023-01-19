@@ -13,6 +13,9 @@ description: DS(i) Games that have special properties
    - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Art Academy
    - Split into First & Second Semesters
+- Astro Invaders
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
 - Bejeweled Twist
    - Some features removed
 - Bomberman 2
@@ -85,6 +88,8 @@ description: DS(i) Games that have special properties
       - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
    - Slot-2 features removed
+- Zombiez Seeker
+   - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
    - Multiplayer removed
    - Icon is animated
