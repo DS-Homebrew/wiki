@@ -77,6 +77,8 @@ description: DS(i) Games that have special properties
 - Sujin Taisen: Number Battles
    - DSiWare version known as "Number Battle" in USA
    - Local multiplayer is removed, but online multiplayer is retained
+- Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
+   - Split into 5 parts(?)
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
