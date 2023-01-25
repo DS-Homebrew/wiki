@@ -20,6 +20,10 @@ Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi
    - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - If that also doesn't work, try a different SD card
 
+#### How do I fix touch screen not working after launching a game?
+- If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
+- If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
+
 #### Where is the Acekard/Wood UI theme?
 The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
