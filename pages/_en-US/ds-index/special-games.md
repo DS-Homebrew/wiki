@@ -48,6 +48,10 @@ description: DS(i) Games that have special properties
    - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
+- Jewel Adventures
+- Jewel Legends: Tree of Life
+- Jewel Quest 4: Heritage
+- Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
@@ -105,18 +109,39 @@ Supports Wi-Fi (WPA 1/2 included):
 - Tetris Party Live
 
 ### DSiWare compiled as DSi-Enhanced ROMs
+- 1st Class Poker & BlackJack
+     - Uses cloneboot for Multiplayer
 - Base 10 (Art Style)
      - Uses cloneboot for Multiplayer
 - Bird & Beans (Japan)
+- Box Pusher
+     - Uses cloneboot for Multiplayer
+- Bridge
+     - Uses cloneboot for Multiplayer
 - Clubhouse Games Express
      - Uses cloneboot for Multiplayer
+- Cosmo Fighters
+     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
 - Dr. Mario Express
+- Globulos Party
+     - Uses cloneboot for Multiplayer
+- Hearts Spades Euchre
+     - Uses cloneboot for Multiplayer
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
      - Has a feature to send a game demo to any DS family console
+
+### DSiWare moved from an originally planned DS/DS lite release
+- Flipper
+     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (unconfirmed)
+     - The game has an unused help menu which isn't like in other DSiWare titles
+     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
+- Go! Go! Kokopolo
+     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
 
 ### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
