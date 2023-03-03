@@ -13,6 +13,7 @@ description: DS(i) Games that have special properties
 - Advance Wars: Days of Ruin/Dark Conflict
    - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
    - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Animal Boxing
 - Art Academy
    - Split into First & Second Semesters
 - Astro Invaders
