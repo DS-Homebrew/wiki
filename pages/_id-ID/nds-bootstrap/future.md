@@ -12,7 +12,7 @@ Tidak ada tanggal pasti untuk lepasan (release) ke depannya.
 Halaman ini memberikan ikhtisar hal keutamaan nds-bootstrap ke depannya. Tonggak capaian berikut pasti akan berubah sesuai selesainya isu. Contoh yang di bawah setiap tonggak capaian masih kurang komprehensif. Untuk semua isu yang dikaitkan tonggak capaian masing-masing, lihat [halaman Milestones di GitHub.](https://github.com/DS-Homebrew/nds-bootstrap/milestones)
 
 ### 1.0 Meningkatkan Kompatibilitas Retail
-Membuat nds-bootstrap memiliki kesesuaian 1:1 dengan permainan eceran (retail)
+Membuat kompatibilitas nds-bootstrap mendekati 1:1 dengan permainan retail
 - Memperbaiki *Romancing SaGa 3* [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
 - Memperbaiki *Golden Sun: Dark Dawn* [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Memperbaiki sambungan DS-Wii *Pokemon* [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)

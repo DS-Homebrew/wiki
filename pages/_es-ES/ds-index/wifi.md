@@ -7,63 +7,63 @@ title: Wi-Fi
 description: Cómo usar el Wi-Fi de la Nintendo DS
 ---
 
-- En aplicaciones de Nintendo DS solo puedes usar Wifis abiertos o con claves WEP
-- En aplicaciones Nintendo DSi-Enhanced/Exclusive abriéndose en Modo DSi, tienes como opciones adicionales WPA y WPA2
+- En aplicaciones de Nintendo DS solo puedes usar conexiones Wi-Fi sin contraseña o con cifrado WEP
+- En aplicaciones con mejoras o exclusivas para DSi ejecutándose en modo DSi, puedes usar conexiones con cifrado WPA y WPA2
 
-Se pueden usar puntos de acceso (hotspots), así no tendrás que cambiar los ajustes de tu router.
+Puedes usar puntos de acceso móviles (hotspots), así no tendrás que cambiar los ajustes de tu rúter.
 
 ### Crear un punto de acceso
-En GBAtemp hay guías para crear un punto de acceso compatible con DS en ordenadores macOS y Linux.
+En GBAtemp hay guías (en inglés) para crear un punto de acceso compatible con DS en ordenadores que usen los sistemas operativos macOS y Linux.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-An Android mobile hotspot set to Open (none) security would also work.
+Un hotspot sin contraseña desde un teléfono android también te servirá.
 
-Windows no puede crear un punto de acceso compatible, por lo que los usuarios de Windows necesitarán arrancar en Linux para configurar uno.
+Windows no puede crear un punto de acceso compatible, por lo que los usuarios de Windows necesitarán iniciar en Linux para configurar uno.
 #### Otros métodos
-If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
+Si no puedes crear un hotspot compatible con aplicaciones en modo DS usando los métodos anteriores, necesitarás usar otro método.
 - Conector USB Wi-Fi de Nintendo
-  - Aunque esto aún puede ser usado, no se recomienda porque requiere una versión de 32 bits de Windows XP o Vista
-  - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
-- Changing router settings to be DS-compatible
-  - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
-  - Not all routers support guest networks or turning security off
+  - Si bien esto aún puede usarse, no se recomienda ya que requiera una instalación de Windows XP o Vista de 32 bits
+  - Para más información en como configurar un Conector USB Wi-Fi de Nintendo, lee la sección 3 de esta [guía de Wiimmfi (en inglés)](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) escrita por los miembros de la [Network de Mario Kart DS](https://discord.gg/pa9bea6)
+- Cambia los ajustes de tu rúter para que sea compatible con aplicaciones en modo DS
+  - Esto no se recomienda ya que abre tu conexión, haciéndola accesible a intrusos, incluso si usas cifrado WEP. También podría causar problemas para otros usuarios conectados a tu red. Si eliges ir por esta ruta, es recomendable que lo hagas usando un rúter secundario, o que configures una conexión para invitados, de ser posible.
+  - No todos los rúters soportan crear conexiones de invitado o desactivar la contraseña
 - Extensores Wi-Fi
 
 #### Ajustes
-Si está configurando una red para que sea compatible con DS, debe cumplir con las siguientes especificaciones:
+Si está configurando una red para que sea compatible con aplicaciones en modo DS, esta debe cumplir con las siguientes especificaciones:
 - Seguridad WEP o abierta (sin seguridad)
 - Frecuencia inalámbrica de 2,4 GHz
 - Modo inalámbrico 802.11b
-  - This may be listed as "Legacy mode" or something similar
+  - Es posible que esta opción esté listada como "Legacy Mode (Modo Antiguo en inglés)" o algo similar
 
-### Restaurar CWF de Nintendo DS
+### Proyecto de restauración de WFC de Nintendo DS
 1. Abre la Configuración Wi-Fi de Nintendo
 1. Conéctate a tu punto de acceso
-1. Pon uno de los valores listados abajo como DNS primario, dependiendo del servicio que quieras usar:
+1. Establece como DNS primario uno de los valores mostrados más abajo, dependiendo de qué servicio quieras usar:
    - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
    - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([lista de jugadores en línea](http://zwei.moe:9001))** - `172.104.88.237`
-1. Pon `1.1.1.1` como DNS secundario
-1. Quizá necesites parchear tu juego con NoSSL, dependiendo de cuál sea
+1. Establece `1.1.1.1` como DNS secundario
+1. Es posible que necesites parchear tu juego con NoSSL, dependiendo de a qué juego desees jugar en línea
 
 ### Parchear manualmente tus ROMs de DS
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+Sigue la guía de más abajo en caso de que tu proveedor bloquee los servidores DNS personalizados. Si este no es el caso, se recomienda *encarecidamente* que sigas la guía de más arriba.
 
-- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
-- WFCPatcher actualmente no es compatible con DSiWare
+- Los usuarios de sistemas operativos GNU/Linux y macOS pueden seguir instrucciones similares, pero tendrán que usar Mono
+- Actualmente, WFCPatcher no es compatible con títulos DSiWare
 
 1. Descarga [WFCPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
+1. Copia la ROM del juego que quieras parchear a la misma carpeta donde esté WFC y abre dicha carpeta
 1. Crea un archivo de texto
-1. En el archivo, añade `wfcpatcher.exe %1 --domain wiimmfi.de`, guárdalo con el nombre `patch.bat` y cierra la ventana
+1. En el archivo, pega `wfcpatcher.exe %1 --domain wiimmfi.de`, guárdalo con el nombre `patch.bat` y cierra la ventana
    - Puedes reemplazar wiimmfi.de por otro enlace si quieres usar otro servidor
    - Si el archivo sigue pareciendo un documento de texto, [activa las extensiones de archivo](https://dsi.cfw.guide/file-extensions-%28windows%29) y quita `.txt` del nombre del archivo
-1. Arrastra las ROMs que quieres parchear a patch.bat
-1. ¡Hecho! Las ROMs parcheadas son las que terminan en (wiimmfi)
+1. Arrastra las ROMs que quieres parchear a el archivo patch.bat
+1. ¡Listo! Las ROMs parcheadas son las que terminan en (wiimmfi)
 
 No olvides borrar cualquier DNS que hayas guardado previamente en la configuración Wi-Fi antes de intentar conectarte con la ROM parcheada.
 
-### Solución de problemas y más lectura
-Si salta algún error, puedes introducirlo en el [troubleshooter de Wiimmfi](https://wiimmfi.de/error) para encontrar una solución.
+### Solución de problemas y más información
+Si salta algún error, puedes introducirlo en la [sección de resolucion de problemas de Wiimmfi](https://wiimmfi.de/error) para encontrar una solución.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Para resolución de problemas de forma más específica y más información, como los pasos para conectarte para jugar en línea en emuladores o cómo usar el Conector USB Wi-Fi de Nintendo, puedes leer esta [guía de Wimmfi (en inglés)](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) escrita por los miembros de la [Network de Mario Kart DS](https://discord.gg/pa9bea6).

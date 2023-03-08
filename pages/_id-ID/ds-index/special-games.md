@@ -4,45 +4,55 @@ layout: wiki
 section: ds-index
 category: reference
 title: Permainan Khusus
-description: Permainan DS(i) yang memiliki ciri sifat khusus
+description: Permainan DS(i) yang berciri sifat khusus
 ---
 
-### Permainan DS yang tersedia sebagai DSiWare
+### Permainan DS yang berbentuk DSiWare
+- 7 Wonders II
+   - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
-   - Versi DSiWare yang hanya di Jepang, sebagai "Famicom Wars DS: Ushinawareta Hikari"
-   - Tambalan yang mengubah berkas bahasa Jepang ke versi Inggris AS tersedia [di sini](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Animal Boxing
 - Art Academy
-   - Dipisah menjadi Semester Pertama & Kedua
+   - Split into First & Second Semesters
+- Astro Invaders
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
 - Bejeweled Twist
-   - Beberapa fitur dihapus
+   - Some features removed
 - Bomberman 2
-   - Fitur main jamak diubah menjadi judulnya sendiri bernama "Bomberman Blitz"
+   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-   - Fitur Download Play dihapus
-   - Gambar ikon bergerak
+   - Download Play feature removed
+   - Icon is animated
 - Brain Challenge
-   - Ditambah fitur-fitur baru yang berkaitan kamera DSi
-   - Mode versus dihapus
-   - Banyak berkasnya dipampat agar permainannya muat sesuai batas ukuran DSiWare
-   - Gambar ikon bergerak
+   - New features related to the DSi camera are added
+   - Versus mode is removed
+   - Many files are compressed for the game to fit within the DSiWare size limit
+   - Icon is animated
 - Chronos Twins
 - Clubhouse Games
-   - Dipisah menjadi tiga judul DSiWare bernama:
+   - Split into three DSiWare titles called
       - Clubhouse Games Express: Card Classics
       - Clubhouse Games Express: Family Favorites
       - Clubhouse Games Express: Strategy Pack
 - Dragon's Lair
-   - Menu "Extras" yang berisi "Watch Mode" digantikan manual
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Masing-masing mode diubah menjadi judul DSiWare sendiri
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
-   - Main jamak (multiplayer) ditambah
+   - Multiplayer added
 - G.G. Series DSiWare titles
    - A collection called "G.G. Series Collection+" physically released exclusively in Japan
    - Built as an NTR title, allowing for playing on DS consoles
    - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
+- Jewel Adventures
+- Jewel Legends: Tree of Life
+- Jewel Quest 4: Heritage
+- Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
@@ -74,6 +84,8 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
 - Sujin Taisen: Number Battles
    - DSiWare version known as "Number Battle" in USA
    - Local multiplayer is removed, but online multiplayer is retained
+- Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
+   - Split into 5 parts(?)
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
@@ -85,29 +97,52 @@ description: Permainan DS(i) yang memiliki ciri sifat khusus
       - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
    - Slot-2 features removed
+- Zombiez Seeker
+   - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
    - Multiplayer removed
    - Icon is animated
 
-Ada dukungan Wi-Fi (termasuk WPA 1/2):
+Mendukung Wi-Fi (termasuk WPA 1/2):
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
-### DSiWare compiled as DSi-Enhanced ROMs
+### DSiWare yang dikompilasi sebagai DSi-Enhanced
+- 1st Class Poker & BlackJack
+     - Ada cloneboot untuk Main Jamak
 - Base 10 (Art Style)
-     - Uses cloneboot for Multiplayer
+     - Ada cloneboot untuk Main Jamak
 - Bird & Beans (Japan)
+- Box Pusher
+     - Ada cloneboot untuk Main Jamak
+- Bridge
+     - Ada cloneboot untuk Main Jamak
 - Clubhouse Games Express
-     - Uses cloneboot for Multiplayer
+     - Ada cloneboot untuk Main Jamak
+- Cosmo Fighters
+     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
 - Dr. Mario Express
+- Globulos Party
+     - Ada cloneboot untuk Main Jamak
+- Hearts Spades Euchre
+     - Ada cloneboot untuk Main Jamak
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
      - Has a feature to send a game demo to any DS family console
+
+### DSiWare moved from an originally planned DS/DS lite release
+- Flipper
+     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (unconfirmed)
+     - The game has an unused help menu which isn't like in other DSiWare titles
+     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
+- Go! Go! Kokopolo
+     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
 
 ### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
@@ -127,7 +162,7 @@ Ada dukungan Wi-Fi (termasuk WPA 1/2):
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
 ### DSi-Enhanced games that don't use overlays
-Jumlah: 39, mungkin masih ada yang belum
+Jumlah: 39, mungkin ada yang belum
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
 - Assassin's Creed II: Discovery
@@ -169,7 +204,7 @@ Jumlah: 39, mungkin masih ada yang belum
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
 ### DSiWare games with backup code
-These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+Data simpanan akan ditulis ke cip penyimpanan kartrid, jika kebetulan dijalankan dari kartrid.
 
 - Cake Ninja
    - Unused, so hacking is required to activate the code
@@ -187,7 +222,7 @@ These would write save data to the cartridge save chip, if they happen to be run
    - Unused, so hacking is required to activate the code
 
 ### Games that can connect with GBA titles
-Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
+Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Beberapa ada yang tertera cara lain.
 
 - Advance Wars: Dual Strike
    - Advance Wars

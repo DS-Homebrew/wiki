@@ -15,12 +15,12 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
 1. Copiez le dossier `roms` à la racine de la carte microSD de votre linker
 1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav`, qui se trouvent dans l'emplacement de vos ROMs DS, vers un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROMs DS
-1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
+1. **Utilisateurs de DS Tank/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, suivez les étapes ci-dessous pour le démarrage automatique et/ou insérez un DS Memory Expansion Pak, puis réessayez
 
 ### Démarrage automatique de TWiLight Menu++
 1. Extrayez le contenu de `Autoboot/(votre linker)` à la racine de la carte microSD du linker
    - Sautez cette étape si vous ne voyez pas votre linker
-1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+1. **Utilisateurs de DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
 
 ### Pour lancer des jeux en utilisant le firmware de votre linker
 

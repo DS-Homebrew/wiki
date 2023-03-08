@@ -1,12 +1,12 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: hiyacfw
 title: Layar Splash Kustom
 description: Cara menggunakan layar splash kustom dengan hiyaCFW
 ---
 
-Dengan hiyaCFW, splash ubah suai (custom) dapat menggunakan format `.bmp` atau `.gif`. Berkasnya ditaruh di folder `sd:/hiya` dan harus dinamakan `splashtop` untuk yang layar atas dan `splashbottom` untuk yang bawah, dengan ekstensi berkas yang benar, lalu pastikan layar splash sudah dinyalakan di penyetelan. Gambarnya tidak perlu berformat sama, jadi yang satu boleh BMP dan lainnya GIF, yang GIF lebih diutamakan daripada BMP. Berikut beberapa persyaratan gambarnya:
+Dengan hiyaCFW, splash kustom yang digunakan berformat `.bmp` atau `.gif`. Berkasnya ditaruh di folder `sd:/hiya` dan harus dinamakan `splashtop` untuk yang layar atas dan `splashbottom` untuk yang bawah, ekstensi berkas juga harus benar, lalu pastikan layar splash sudah dinyalakan di penyetelan. Gambarnya tidak perlu berformat sama, jadi yang satu boleh BMP dan lainnya GIF, yang GIF lebih diutamakan daripada BMP. Berikut beberapa persyaratan gambarnya:
 
 ### BMP
 - 16-bit (RGBA 1555, RGB 1555, atau RGB 565)

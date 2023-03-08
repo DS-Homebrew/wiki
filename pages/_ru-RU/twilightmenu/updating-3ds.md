@@ -33,8 +33,8 @@ tabs:
 1. Скопируйте папку `_nds` в корень вашей SD карты, согласившись на замену
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Скопируйте файл `BOOT.NDS` в корень вашей SD карты, заменив все существующие файлы
-1. Скопируйте два файла `.cia` в корень вашей SD карты, согласившись на замену
-1. Установите два CIA файла с помощью FBI на вашей 3DS
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. При помощи FBI установите CIA файл на вашу 3DS
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

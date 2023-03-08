@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: faq
 section: twilightmenu
 title: FAQ & Pengusutan masalah
@@ -19,6 +19,10 @@ TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <ht
    - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - If that also doesn't work, try a different SD card
 
+#### How do I fix touch screen not working after launching a game?
+- If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
+- If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
+
 #### Where is the Acekard/Wood UI theme?
 The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
@@ -36,7 +40,7 @@ Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_
 
 Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
 
-#### How do I show a custom picture on the top screen of the DSi theme? Apa dapat disembunyikan?
+#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
 A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
 
 - The images(s) must be no bigger than 208x156
@@ -61,13 +65,13 @@ Iya. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) o
 #### Is this a DS(i) emulator?
 Tidak, ini bukan emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
 
-#### Sistem apa saja yang didukung TWiLight Menu++?
+#### What systems does TWiLight Menu++ support?
 Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Apakah eksploit permainan Slot-1 dapat memulai TWiLight Menu++?
+#### Can exploits of Slot-1 games boot TWiLight Menu++?
 Tidak. Akses kartu SD hanya diperbolehkan untuk aplikasi DSiWare, jadi permainan Slot-1 tidak dapat meluncurkan (atau akses ke) TWiLight Menu++.
 
-#### Kenapa permainan saya susah dicari/dilihat?
+#### Why can't I find/see my games?
 There are a multiple reasons you may be unable to find them.
 - The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
 - If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
@@ -90,7 +94,7 @@ You can use a custom banner in either PNG or DS banner.bin format by placing it 
 
 For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
 
-banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), it's currently recommended to use the [nightly version](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) as it has several improvements over the stable release.
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases).
 
 Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
 

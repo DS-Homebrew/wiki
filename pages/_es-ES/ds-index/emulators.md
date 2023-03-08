@@ -14,7 +14,7 @@ Hay diferentes emuladores disponibles para DS y DSi. Esta página ofrece una exp
 | Formato                 | Lanzador                                         | Extensiones                            | Archivos de guardado                           |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
+| Atari 6200              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
 | Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
@@ -46,9 +46,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Otros emuladores para DS
 
-| Format  | Loader         | Extensions | Save file |
-| ------- | -------------- | ---------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
+| Formato | Lanzador       | Extensiones | Archivos de guardado |
+| ------- | -------------- | ----------- | -------------------- |
+| Neo Geo | [neoDS][neods] | `.neo`      | (unknown)            |
 
 ## Observaciones sobre emuladores específicos
 ### Discos RAM

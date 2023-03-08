@@ -5,7 +5,7 @@ section: twilightmenu
 category: other
 title: Kendali
 long_title: Kendali TWiLight Menu++
-description: Kendali menggunakan TWiLight Menu++
+description: Kendali di TWiLight Menu++
 ---
 
 #### Di tema Nintendo DSi, 3DS, SEGA Saturn dan Homebrew Launcher
@@ -15,7 +15,7 @@ description: Kendali menggunakan TWiLight Menu++
 - (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd> + <kbd>Atas</kbd>/<kbd>Bawah</kbd> & lepas <kbd>SELECT</kbd>: Beralih antara kartu SD konsol dan flashcard
 - <kbd class="face">Y</kbd>: Pengaturan tiap-permainan
    - <kbd class="face">X</kbd>: Menu pilih cheat
-      - <kbd class="face">A</kbd>: Pakai/lepas cheat
+      - <kbd class="face">A</kbd>: Pilih/lepas cheat
       - <kbd class="face">B</kbd>: Keluar menu cheat
       - <kbd class="face">X</kbd>: Simpan cheat dan keluar
       - <kbd class="face">Y</kbd>: Keterangan cheat
@@ -29,7 +29,7 @@ description: Kendali menggunakan TWiLight Menu++
 - <kbd class="l">L</kbd>: Beralih antara kartu SD konsol and flashcard
 - <kbd class="face">Y</kbd>: Pengaturan tiap-permainan
    - <kbd class="face">X</kbd>: Menu pilih cheat
-      - <kbd class="face">A</kbd>: Pakai/lepas cheat
+      - <kbd class="face">A</kbd>: Pilih/lepas cheat
       - <kbd class="face">B</kbd>: Keluar menu cheat
       - <kbd class="face">X</kbd>: Simpan cheat dan keluar
       - <kbd class="face">Y</kbd>: Keterangan cheat

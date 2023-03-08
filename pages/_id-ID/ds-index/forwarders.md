@@ -14,7 +14,7 @@ tabs:
 
 Forwarder adalah pintasan untuk permainan yang dapat kamu pasang di menu HOME atau menu hiyaFCW. Kamu dapat memuat permainan DS dari kartu SD (dengan nds-bootstrap) atau dari flashcard yang sesuai (lewat kernel masing-masing) menggunakan forwarder yang terpasang pada menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
-Permainan DS perlu ditimbun (dump) ke format `.nds` digital. Kartrid DS dapat kamu timbun menggunakan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
+Permainan DS harus di-dump ke format `.nds` digital. Kartrid DS dapat kamu timbun menggunakan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
 {:.alert .alert-info}
 
 Jika mengalami persoalan / isu, periksa Soal Sering Ditanya (FAQ) di [Utas GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
@@ -36,7 +36,7 @@ Jika di konsol-mu sudah terpasang Universal Updater, langsung saja ke langkah ke
 1. Pindai kode QR berikut untuk memasang [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) versi terkini<br> ![Kode QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Buka Universal Updater dari layar HOME Menu
 1. Pasang kemasan NDSForwarder
-1. NDSForwarder dan berkas yang perlunya sekarang sudah disiapkan di tempatnya masing-masing
+1. NDSForwarder dan berkas yang diperlukan sudah disiapkan di letaknya masing-masing
 
 ### Bagian 2: NDSForwarder
 1. Masuk ke Homebrew Launcher
@@ -128,8 +128,8 @@ Partially compatible:
 - Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing)
 
 Incompatible:
-- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards)
-- (i)Edge (Unable to autoboot a .nds ROM)
+- CycloDS (i)Evolution (Dapat memuat langsung ROM, tapi caranya beda dari flashcard lain)
+- (i)Edge (Tak dapat memuat langsung ROM .nds)
 - R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
 - R4i3D (2012)
 - R4 Infinity Dual Core

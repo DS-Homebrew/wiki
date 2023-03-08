@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: twilightmenu
 category: customization
@@ -7,63 +7,63 @@ title: Cara Membuat Skin DSi/3DS
 description: Cara membuat skin DSi dan 3DS kustom untuk TWiLight Menu++
 ---
 
-Untuk membuat skin TWiLight Menu++, dibutuhkan sebuah penyunting gambar yang mampu mengekspor berkas `.png`, 16 <abbr title="Bits Per Pixel">BPP</abbr> berkas`.bmp` atau berkas`.png`, dan 4 BPP berkas`.bmp`. Idealnya, penyunting tersebut mampu mengatur ulang palet gambar secara manual. Direkomendasikan untuk menggunakan [GIMP](https://www.gimp.org) yang akan digunakan dalam panduan kali ini, karena GIMP mampu melakukan segala hal yang dibutuhkan.
+Untuk membuat skin TWiLight Menu++, dibutuhkan penyunting gambar yang mampu mengekspor `.png`, `.bmp` atau `.png` 16 <abbr title="Bits Per Pixel">BPP</abbr>, dan `.bmp` 4 BPP. Diharuskan juga mampu mengatur ulang palet gambar secara manual. Pada panduan ini dianjurkan menggunakan [GIMP](https://www.gimp.org), karena mampu melakukan semua yang dibutuhkan.
 
-## Bagian 1: Unduh contohnya
-Hal pertama yang harus dilakukan adalah mengunduh [contoh skinnya](/assets/files/skin-examples.zip). Ini dapat digunakan sebagai dasar untuk skin mu dan sudah dalam format yang benar, jadi jika kamu menemukan masalah nantinya, kamu dapat membandingkannya dengan berkas awal.
+## Bagian 1: Mengunduh contoh
+Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini berguna sebagai dasar pembuatan skin dengan format yang benar, jadi jika nanti terdapat masalah, dapat dibandingkan dengan berkas contoh ini.
 
 ## Bagian 2: Menyunting gambar
-Unduh dan install [GIMP](https://www.gimp.org)
-- Penyunting gambar seperti Photoshop dapat digunakan, tapi pada panduan ini akan menggunakan GIMP
+Unduh dan pasang [GIMP](https://www.gimp.org)
+- Penyunting lain seperti Photoshop boleh digunakan, tapi pada panduan ini akan menggunakan GIMP
 
-Setelah terinstall, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Langkah tersebut akan membuka dialog colormap, yang akan membantu dalam mengedit gambar palet.
+Setelah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka colormap dialog untuk memudahkan menyunting palet pada gambar.
 
-Sekarang kamu dapat membuka gambar apapun yang ingin kamu edit di GIMP dan lanjut ke bagian bawah, berdasarkan di folder mana gambar itu berada. Perhatikan bahwa TWiLight Menu++ itu pilih-pilih dalam format gambar yang tepat dan itu tergantung di folder mana gambar tersebut berada, jadi pastikan untuk mengekspor sesuai dengan yang disebutkan.
+Sekarang sudah boleh membuka dan menyunting gambar di GIMP lalu lanjut ke bagian di bawah berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ itu pilih-pilih perihal ketepatan format gambar dan itu beragam tergantung letak folder dari gambar, jadi pastikan cara ekspor sesuai bagiannya.
 
 ### Tekstur latar belakang (folder `background`)
-Bisa berupa berkas PNG atau 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`) berkas BMP.
-- Jika menggunakan berkas BMP, kamu dapat mengaturnya ke 16-bit di bawah Advance Options ketika mengekspor. Kamu mungkin perlu melakukan ini setiap kali akan mengekspornya menjadi BMP
+Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
+- Jika berkasnya BMP, dapat diatur ke 16-bit di bawah Advance Options ketika mengekspor. Ini mungkin harus dilakukan setiap kali mengekspor BMP
 
-| Tekstur               | Keterangan                                                                                                          |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| top                   | Tekstur latar belakang layar atas                                                                                   |
-| bottom                | Tekstur latar belakang layar bawah ketika tidak melayang di atas ikon                                               |
-| bottom_ds             | Untuk tema 3DS, tekstur latar belakang layar bawah ketika tidak melayang di atas ikon saat dipasang di DS Phat/Lite |
-| bottom_macro          | Untuk tema DSi, tekstur latar belakang ketika tidak melayang di atas ikon ketika menggunakan Macro Mode             |
-| bottom_bubble         | Tekstur latar belakang bawah ketika tidak melayang di atas ikon                                                     |
-| bottom_bubble_ds    | Untuk tema 3DS, tekstur latar belakang bawah ketika melayang di atas ikon saat dipasang di DS Phat/Lite             |
-| bottom_bubble_macro | Untuk tema DSi, tekstur latar belakang ketika melayang di atas ikon saat menggunakan Macro Mode                     |
-| bottom_moving         | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon                                                     |
-| bottom_moving_macro | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon ketika menggunakan Macro Mode                       |
+| Tekstur               | Keterangan                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
+| top                   | Tekstur latar belakang layar atas                                                                       |
+| bottom                | Tekstur latar belakang layar bawah ketika tidak melayang di atas ikon                                   |
+| bottom_ds             | Untuk tema 3DS di DS Phat/Lite, tekstur latar layar bawah ketika tidak melayang di atas ikon            |
+| bottom_macro          | Untuk tema DSi, tekstur latar belakang ketika tidak melayang di atas ikon ketika menggunakan Macro Mode |
+| bottom_bubble         | Tekstur latar belakang bawah ketika tidak melayang di atas ikon                                         |
+| bottom_bubble_ds    | Untuk tema 3DS di DS Phat/Lite, tekstur latar layar bawah ketika melayang di atas ikon                  |
+| bottom_bubble_macro | Untuk tema DSi, tekstur latar belakang ketika melayang di atas ikon saat menggunakan Macro Mode         |
+| bottom_moving         | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon                                         |
+| bottom_moving_macro | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon ketika menggunakan Macro Mode           |
 
 ### Battery textures (`battery` folder)
-These must be PNG files. Transparency is supported, however only 100% transparency will work.
+Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work.
 
-| Tekstur            | Description/Notes                                                         |
-| ------------------ | ------------------------------------------------------------------------- |
-| battery0           | Berkedip dengan `battery1` saat baterai lemah                             |
-| battery1           | 0-4 digunakan di mode DSi                                                 |
-| battery1purple     | Ikon ungu dipakai saat `Power LED color` diatur ke `Purple` di pengaturan |
-| battery2           |                                                                           |
-| battery2purple     |                                                                           |
-| battery3           |                                                                           |
-| battery3purple     |                                                                           |
-| battery4           |                                                                           |
-| battery4purple     |                                                                           |
-| batterycharge      |                                                                           |
-| batterychargeblink | Berkedip dengan `batterycharge` saat mengisi daya                         |
-| batteryfull        | Digunakan saat di mode DS pada DSi/3DS                                    |
-| batteryfullDS      | Digunakan saat di DS Phat/DS Lite                                         |
-| batterylow         | Digunakan saat di mode DS                                                 |
+| Tekstur            | Description/Notes                                                          |
+| ------------------ | -------------------------------------------------------------------------- |
+| battery0           | Berkedip dengan `battery1` saat baterai lemah                              |
+| battery1           | 0-4 digunakan di mode DSi                                                  |
+| battery1purple     | Ikon ungu digunakan saat `Warna LED Daya` diubah ke `Purple` di pengaturan |
+| battery2           |                                                                            |
+| battery2purple     |                                                                            |
+| battery3           |                                                                            |
+| battery3purple     |                                                                            |
+| battery4           |                                                                            |
+| battery4purple     |                                                                            |
+| batterycharge      |                                                                            |
+| batterychargeblink | Berkedip dengan `batterycharge` saat mengisi daya                          |
+| batteryfull        | Digunakan saat di mode DS pada DSi/3DS                                     |
+| batteryfullDS      | Untuk di DS Phat/Lite                                                      |
+| batterylow         | Digunakan saat di mode DS                                                  |
 
 ### Tekstur Paletted (folder `grf`)
 Berkas harus berupa berkas BMP 4 BPP (16 warna).
 
 Untuk mengeditnya di GIMP, pilih `image-&#062; <code>Mode` -> `RGB`</code> untuk memberi izin penggantian warna, lalu setelah selesai, pilih `Image` -> `Mode` -> `Indexed...` untuk mengkonversikannya kembali ke paletted. Saat beralih ke indexed, pastikan bahwa `optimum palette` terceklis dan `Maximum number of colors` diatur ke `16`.
 
-**Catatan:** Beberapa gambar di tema DSi memiliki palet yang ditimpa berdasarkan warna profil pengguna. Jika mengedit warna-warna tersebut, pastikan bahwa pengaturan `UserPalette` di `theme.ini` diatur ke `0`.
+**Catatan:** Beberapa gambar di tema DSi paletnya dikesampingkan berdasarkan warna profil pengguna. Jika mengedit warna-warna tersebut, pastikan bahwa pengaturan `UserPalette` di `theme.ini` diatur ke `0`.
 
-Setelah mengkonversikannya ke indexed, ke colormap dialog dan pastikan warna transparan (#FF00FF) berada pada color #0 di colormap. Jika tidak, klik kanan pada colormap dan pilih `Rearrange Colormap...` kemudian pindahkan warna transparan ke warna pertama di colormap lalu tekan `OK`.
+Setelah mengkonversikannya ke indexed, ke colormap dialog dan pastikan warna transparan (#FF00FF) berada pada color #0 di colormap. Jika bukan, pencet kanan pada colormap dan pilih `Rearrange Colormap...` lalu pindahkan warna lejas ke warna pertama di colormap lalu tekan `OK`.
 
 Jika terdapat kurang dari 16 warna pada colormap mu, tekan tombol `+` di bawah dialog colormap sampai kamu mempunyai 16 warna.
 
@@ -122,7 +122,7 @@ Yang ini harus berkas PNG.
 | topbg      | Latar belakang untuk layar atas pada model DS apa pun |
 
 ### UI textures (`ui` folder)
-These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
+Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
 | Tekstur          | Keterangan                                              |
 | ---------------- | ------------------------------------------------------- |
@@ -137,7 +137,7 @@ Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For
 ### Volume textures (`volume` folder)
 Volume textures are only displayed in DSi Mode.
 
-These must be PNG files. Transparency is supported, however only 100% transparency will work.
+Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work.
 
 
 | Tekstur | Description/Notes            |

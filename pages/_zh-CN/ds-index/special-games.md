@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: ds-index
 category: reference
@@ -8,11 +8,17 @@ description: DS(i) Games that have special properties
 ---
 
 ### DS games available as DSiWare
+- 7 Wonders II
+   - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
    - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
    - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Animal Boxing
 - Art Academy
    - Split into First & Second Semesters
+- Astro Invaders
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
 - Bejeweled Twist
    - Some features removed
 - Bomberman 2
@@ -43,6 +49,10 @@ description: DS(i) Games that have special properties
    - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - DSiWare version called "Heathcliff: Spot On"
+- Jewel Adventures
+- Jewel Legends: Tree of Life
+- Jewel Quest 4: Heritage
+- Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
    - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
@@ -74,6 +84,8 @@ description: DS(i) Games that have special properties
 - Sujin Taisen: Number Battles
    - DSiWare version known as "Number Battle" in USA
    - Local multiplayer is removed, but online multiplayer is retained
+- Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
+   - Split into 5 parts(?)
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
@@ -85,6 +97,8 @@ description: DS(i) Games that have special properties
       - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
    - Slot-2 features removed
+- Zombiez Seeker
+   - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
    - Multiplayer removed
    - Icon is animated
@@ -96,18 +110,39 @@ Supports Wi-Fi (WPA 1/2 included):
 - Tetris Party Live
 
 ### DSiWare compiled as DSi-Enhanced ROMs
+- 1st Class Poker & BlackJack
+     - Uses cloneboot for Multiplayer
 - Base 10 (Art Style)
      - Uses cloneboot for Multiplayer
 - Bird & Beans (Japan)
+- Box Pusher
+     - Uses cloneboot for Multiplayer
+- Bridge
+     - Uses cloneboot for Multiplayer
 - Clubhouse Games Express
      - Uses cloneboot for Multiplayer
+- Cosmo Fighters
+     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
 - Dr. Mario Express
+- Globulos Party
+     - Uses cloneboot for Multiplayer
+- Hearts Spades Euchre
+     - Uses cloneboot for Multiplayer
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
      - Has a feature to send a game demo to any DS family console
+
+### DSiWare moved from an originally planned DS/DS lite release
+- Flipper
+     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (unconfirmed)
+     - The game has an unused help menu which isn't like in other DSiWare titles
+     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
+- Go! Go! Kokopolo
+     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
 
 ### Games that got SDK upgrades
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)

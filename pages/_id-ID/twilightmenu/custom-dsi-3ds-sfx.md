@@ -9,7 +9,7 @@ description: Cara menggunakan suara latar belakang dan efek suara kustom di skin
 
 TWiLight Menu++ mendukung berkas suara kustom untuk tema. Taruh berkas suaranya di subdirektori `sound` di folder temamu; contohnya, jika di tema `white`, kamu harus menaruh masing-masing berkasnya di `themes/white/sound/sfx.bin` dan `themes/white/sound/bgm.pcm.raw`. Kedua berkasnya opsional, jadi jika `bmg.pcm.raw` hilang, musik yang bawaan akan diputar. Hal yang sama juga berlaku pada efek suara jika berkas `sfx.bin` hilang.
 
-Arahan ini beranggapan kamu sudah memasang devkitPro dengan mmutil. Kamu dapat mengunduh devkitPro di [situs web devkitPro](https://devkitpro.org/wiki/Getting_Started).
+Arahan ini beranggapan kamu sudah memasang devkitPro dengan mmutil. Kamu dapat mengunduh devkitPro di [situs devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Bank Efek Suara (SFX)
 The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
@@ -24,7 +24,7 @@ The sound effect bank (`sfx.bin`) contains sound effects such as the icon select
 | switch.wav  | Diputar saat mengganti halaman                                                                      |
 | stop.wav    | Diputar di Tema DSi saat kursor pemilih berhenti bergerak                                           |
 
-Semua berkas yang tertera di atas diperlukan untuk membuat bank efek suara ubah suai (custom). Jika ingin suaranya senyap, gunakan berkas audio yang sunyi. Format harus wajib yang `.wav` dan encoding-nya *harus* PCM.
+Semua berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jika ingin suaranya senyap, gunakan berkas audio yang sunyi. Format harus wajib yang `.wav` dan encoding-nya *harus* PCM.
 
 [This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
 
@@ -59,7 +59,7 @@ Jika tidak ingin menggunakan command line, kamu masih dapat mengonversi dengan [
 
 Untuk mengonversi audio:
 1. Muat berkasnya di Audacity
-1. Jika berkasnya stereo, klik lagu tersebut lalu pilih `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Jika berkasnya stereo, pencet lagu tersebut lalu pilih `Tracks` > `Mix` > `Mix Stereo down to Mono`
 1. Ubah `Project Rate (Hz)` di kiri bawah menjadi `16000`
 
 Untuk mengekspor ke format yang benar:
@@ -67,8 +67,8 @@ Untuk mengekspor ke format yang benar:
 1. Ubah `File Type` ke `Other uncompressed files`
 1. Ubah `Header` ke `RAW (header-less)`
 1. Ubah `Encoding` ke `Signed 16-bit PCM`
-1. Ubah nama keluaran (output) ke `bgm.pcm.raw` dan klik `Save`
-1. Klik `OK` untuk menyunting metadata
+1. Ubah nama keluaran (output) ke `bgm.pcm.raw` dan pencet `Save`
+1. Pencet `OK` untuk menyunting metadata
 
 Sekarang kamu punya berkas `bgm.pcm.raw` yang dapat disalin ke subfolder `sound` di folder temamu.
 

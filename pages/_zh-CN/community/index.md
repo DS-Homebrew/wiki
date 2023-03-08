@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: community
 title: Community

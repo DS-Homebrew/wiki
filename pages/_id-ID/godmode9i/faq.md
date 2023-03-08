@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: faq
 section: godmode9i
 title: FAQ & Troubleshooting

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: wiki
 section: community
 title: 커뮤니티

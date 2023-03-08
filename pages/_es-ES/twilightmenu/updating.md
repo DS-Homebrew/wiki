@@ -3,8 +3,8 @@ lang: es-ES
 layout: wiki
 section: twilightmenu
 category: indexes
-title: Actualización
-long_title: Actualizando TWiLight Menu++
+title: Actualizar
+long_title: Actualizar TWiLight Menu++
 description: Cómo actualizar TWiLight Menu++ (índice)
 ---
 

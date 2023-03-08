@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: faq
 section: nds-bootstrap
 title: FAQ & Pengusutan masalah
@@ -90,21 +90,21 @@ The "main" screen is whichever screen is being drawn using the main engine, whic
 The reason screenshots can only be taken of the main screen is a hardware limitation of the Nintendo DS, it doesn't have a framebuffer but it does have a display capture feature which allows main engine's output to be captured. This is most often used by games to render 3D to both screens but can also be used to take screenshots.
 
 #### What is the "VRAM bank" I'm asked to select when taking a screenshot?
-When taking a screenshot using nds-bootstrap it needs to use the DS's display capture feature to capture a frame from the main engine, however this display capture can only write to VRAM and requires one of the first four banks. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
+Ketika menangkap layar dengan nds-bootstrap maka fitur tangkap tampilan DS digunakan untuk menangkap gambar dari mesin utama, namun tangkapan ini hanya dapat ditulis ke VRAM dan memerlukan salah satu dari empat bank pertama. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
 
 #### Can I play games online using nds-bootstrap?
 Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+Tidak. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
 
 #### Masukan tombol apakah dapat dipetakan ulang dengan nds-boostrap?
-No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+Tidak. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
 
 #### Bagaimana cara bermain ROM Pokémon teracakadut (randomized) dengan nds-bootstrap?
 Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).

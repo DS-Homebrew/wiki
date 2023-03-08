@@ -24,37 +24,37 @@ Si no tienes ninguna forma de ejecutar homebrew en tu DSi, consulta [dsi.cfw.gui
 1. En el menú de Unlaunch, ve a `OPTIONS`
 1. Selecciona `NO BUTTON` o un botón de tu elección en el `TWiLight Menu++` que ponga `BOOT.NDS` en la pantalla inferior
 
-### Accessing flashcard contents
+### Acceder al contenido de las flashcards
 
-A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
+Una flashcard es una tarjeta que va en la ranura de los cartuchos, en la que puedes introducir una tarjeta microSD. Si no tienes una flashcard, no es necesario que sigas estos pasos.
 {:.alert .alert-warning}
 
-#### If you have an R4(i) Ultra
+#### Si tienes una R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - You can safely ignore the warnings
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `Slot-1 microSD access`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, press `B` again
+1. Sigue [esta](installing-flashcard)guía desde el punto `Para ejecutar juegos usando el firmware de tu Flashcard`
+     - Puedes ignorar las advertencias
+1. Abre los ajustes de TWLMenu++
+1. Cambia a la pestaña `Otros ajustes`
+1. Habilita la opción `Acceso a microSD en Slot-1`
+1. Sal de los ajustes de TWLMenu++ pulsando el botón `B`
+     - Si te salta el menú Clásico DS, presiona `B` otra vez
 
-#### If you don't have an R4(i) Ultra
+#### Si no tienes una R4(i) Ultra
 
-1. Create a file called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
-1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
-1. Turn on `Auto-start Slot-1`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+1. Crea un archivo llamado `primary` en `sd:/_nds/` (no en la SD de la flashcard), para que TWiLight Menu++ lea las configuraciones de la tarjeta SD de la consola después de iniciar tu flashcard
+1. Sigue [esta](installing-flashcard)guía desde el punto `Iniciar TWiLight Menu++ automáticamente`
+1. Copia el archivo `BOOT.NDS` del archivo `TWiLightMenu-Flashcard.7z` a la carpeta raíz de la tarjeta microSD de tu flashcard
+1. Abre los ajustes de TWLMenu++
+1. Cambia a la pestaña `Otros ajustes`
+1. Habilita la opción `Acceso a SCFG en Slot-1` (Ten en cuenta que esta opción toma prioridad sobre `Acceso a SD en Slot-1`)
+1. Establece la opción `Slot-1: Configuración Táctil` a `Modo DSi`
+1. Habilita la opción `Inicio Automático del Slot-1`
+1. Sal de los ajustes de TWLMenu++ pulsando el botón `B`
+     - Si te salta el menú Clásico DS, inicia tu flashcard
+     - Si te salta cualquier otra cosa, reinicia TWiLight Menu++
 
-#### Switching between SD and flashcard contents
-- Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - If the SELECT menu is enabled, you can do so there as well
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+#### Cambiar entre el contenido de la tarjeta SD y de la flashcard
+- Presiona o bien `Select`+`Arriba` o `Select`+`Abajo` para cambiar entre los contenidos de la tarjeta SD y de la flashcard
+     - Si el menú SELECT está habilitado, puedes hacerlo desde allí también
+     - Si usas el tema 3DS, toca el icono del cartucho o de la tarjeta SD
+     - Si usas el tema R4 Original/GBC, presiona el botón `L`

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: gbarunner2
 title: GBARunner2 Builds

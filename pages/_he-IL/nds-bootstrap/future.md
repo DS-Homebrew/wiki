@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: he-IL
 layout: wiki
 section: nds-bootstrap
 title: Future of nds-bootstrap

@@ -43,7 +43,7 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. For help, use #nds-help
 - [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
 
-**Community**
+**קהילה**
 - [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
 - [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
 - [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
@@ -76,7 +76,7 @@ If you have broken the rules, you may receive these roles from a moderator.
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
 
-### Other
+### אחר
 These roles are only given for very specific purposes by moderators.
 
 - Bots - Used to mark the Discord bots in the server

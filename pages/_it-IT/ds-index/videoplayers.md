@@ -22,21 +22,21 @@ Note:
 
 ## FastVideoDS
 
-Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
+Nota: se viene visualizzato un messaggio che dice `Questo codificatore richiede una CPU con supporto per le istruzioni AVX2`, è necessario installare un chip CPU più recente o utilizzare un PC più recente.
 {: .alert .alert-warning}
 
 ### Windows
 
-1. Download the [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), and install it
-1. Download the [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
-1. Drag and drop your video into said `.bat` file
+1. Scarica [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), 3 installarlo
+1. Scarica [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Scaricate [FastVideoDS.bat](/assets/files/FastVideoDS.bat) nello stesso punto in cui si trova il file `.exe` del codificatore
+1. Trascina e rilascia il video nel file `.bat`
 
 Una volta terminato questo processo, dovrebbe essere facile trascinare e rilasciare i file sulla scheda SD. Una volta inserito il video nella scheda SD, sarà pronto per la riproduzione tramite **TW**i**L**ight Menu++.
 
 ## Conversione video Moonshell (DPG4x)
 
-1. Download [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
+1. Scarica DPG4x [qui](https://www.gamebrew.org/wiki/DPG4X)
 1. Apri `dpg4x.7z`
 1. Aprire `dpg4x-2.3.3.0.zip` (3.0-1 dà un errore durante l'apertura, per un motivo sconosciuto)
 1. Aprire `dpg4x-2.3.3.0_setup.exe`, e procedi all'installazione
@@ -80,7 +80,7 @@ Se vuoi, è possibile modificare quanto segue in uno dei file .bat di cui sopra:
 - `12` in `-r 12` a un valore diverso tra `10` e `15` per un frame rate diverso
 - `-2` in `scala=256:-2` alla risoluzione verticale desiderata, se il video appare distorto
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Quando questo processo finisce, dovrai trascinare e rilasciare i file sulla scheda SD. Una volta messo il video sulla tua MicroSD, sarà pronto per la riproduzione usando **TW**i**L**ight Menu++.
 
 Il video uscirà dal menu al termine della riproduzione, quindi se si desidera riprodurre il video in loop, è necessario incollarlo e ripeterlo in un editor video e poi convertirlo in un file xvid avi con questo metodo.
 

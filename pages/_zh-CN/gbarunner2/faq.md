@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: faq
 section: gbarunner2
 title: FAQ & Troubleshooting

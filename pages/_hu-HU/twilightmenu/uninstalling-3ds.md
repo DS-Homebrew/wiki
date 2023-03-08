@@ -11,8 +11,8 @@ description: Hogyan távolítsd el a TWiLight Menu++-t Nintendo 3DS-ről
 ### Eltávolítás
 1. Nyisd meg az FBI programot
 1. Menj a `Titles` opcióhoz
-1. Find the `TWiLight Menu++` title in purple text
-1. Delete the `TWiLight Menu++` title
+1. Keresd meg a `TWiLight Menu++` címet a lila szövegben
+1. Töröld a `TWiLightMenu++` címet
 1. Lépj ki a Title listából
 1. Menj az SD kártyához
 1. Nyisd meg az `_nds` mappát

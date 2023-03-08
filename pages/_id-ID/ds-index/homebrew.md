@@ -41,5 +41,5 @@ However, the kernels that come with these cards are fundamentally flawed and it 
 ### Dukungan ARGV
 ARGV adalah pemancar (transmitter) informasi antara dua aplikasi homebrew Nintendo DS. Dapat digunakan sebagai forwarder atau menu alternatif.
 
-- Homebrew perlu ditata olah (programmed) agar dapat memanfaatkannya. Contohnya: GBARunner2, NesDS, dan GameYob semua punya dukungan ARGV
+- Homebrew perlu ditata olah atau diprogram agar dapat dimanfaatkan. Contohnya: GBARunner2, NesDS, dan GameYob semua punya dukungan ARGV
 - There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments

@@ -36,12 +36,12 @@ nds-bootstrap applica una patch alle funzioni ROM da eseguire da una scheda SD, 
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- Inverti gli schermi superiori e inferiori per i giochi compatibili per un gameplay più confortevole, o su sistemi con uno schermo rotto o rimosso
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite: Perché usare nds-bootstrap su una flashcard DS?
 - Alcune ROM compatibili vengono caricate nel Memory Expansion Pak (o nelle flashcard Slot-2 contenenti RAM), consentendo tempi di caricamento più rapidi rispetto alle normali schede di gioco
-- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- Più di 200 titoli DSiWare possono essere avviati usando le patch integrate e una ROM donatrice di un titolo DSi-Enchanced
      - Tieni presente che nds-bootstrap sarà sempre usato per DSiWare, indipendentemente dall'impostazione `Usa nds-bootstrap` nelle impostazioni di TWLMenu++
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - Se il kernel della flashcard non è in grado di far girare una certa ROM, si può usare al suo posto nds-bootstrap, che può essere impostato per-gioco

@@ -33,8 +33,8 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 1. Másold az `_nds` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
    - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
 1. Másold az `BOOT.NDS` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
-1. Másold a két `.cia` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
-1. A 3DS-eden telepítsd a két CIA fájlt az FBI-jal
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. A 3DS-eden telepítsd a CIA fájlt az FBI-jal
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

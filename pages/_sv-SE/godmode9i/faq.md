@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
+title: FAQ & Felsökning
 long_title: GodMode9i FAQ & Troubleshooting
 description: FAQ & Troubleshooting for GodMode9i
 ---

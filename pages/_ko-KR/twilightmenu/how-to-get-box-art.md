@@ -9,11 +9,11 @@ tabs:
   - 
     windows: Windows
     other: macOS/Linux
-    manual: Manual
+    manual: 수동 설치
 ---
 
 {% capture tab-windows %}
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)의 최신 버전을 다운로드해 주세요.
 1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
 1. Click `Detect SD`
    - If it doesn't find the correct SD card click `Browse...` and select the right one

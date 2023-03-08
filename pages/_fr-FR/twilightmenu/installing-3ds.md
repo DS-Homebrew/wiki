@@ -49,8 +49,8 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
 1. Copiez le dossier `_nds` à la racine de votre carte SD
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
 1. Copiez le dossier `roms` à la racine de votre carte SD
-1. Copy the `.cia` file to your SD card root
-1. On your 3DS, install the CIA with FBI
+1. Copiez le fichier `.cia` à la racine de la carte SD
+1. Sur votre 3DS, installez le fichier CIA avec FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
@@ -59,37 +59,37 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Accessing flashcard contents
+### Accéder au contenu des linkers
 
-A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
+Un linker est un élément qui se place dans l'emplacement de la carte de jeu, et qui contient un emplacement pour carte microSD. Si vous n'avez pas de linker, vous en avez terminé avec ce guide.
 {:.alert .alert-warning}
 
-#### If you have an R4(i) Ultra
+#### Si vous avez une R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - You can safely ignore the warnings
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `Slot-1 microSD access`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, press `B` again
+1. Suivez [ce guide](installing-flashcard) à partir de `Pour lancer des jeux en utilisant le firmware de votre linker`
+     - Vous pouvez ignorer les avertissements
+1. Ouvrez les paramètres de TWLMenu++
+1. Allez à la page `Autres paramètres`
+1. Activez `Accès microSD Slot-1`
+1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
+     - Si vous vous retrouvez dans le menu DS Classic, appuyez à nouveau sur `B`
 
-#### If you don't have an R4(i) Ultra
+#### Si vous n'avez pas de R4(i) Ultra
 
-1. Create a file called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
-1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
-1. Turn on `Auto-start Slot-1`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+1. Créez un fichier appelé `primary` dans `sd:/_nds/` (pas celui du linker), pour que TWiLight Menu++ lise les paramètres de la carte SD de la console après avoir démarré votre linker
+1. Suivez [ce guide](installing-flashcard) à partir de `Démarrage automatique de TWiLight Menu++`
+1. Copiez le fichier `BOOT.NDS` de `TWiLightMenu-DSi.7z` à la racine de la carte microSD de votre linker
+1. Ouvrez les paramètres de TWLMenu++
+1. Allez à la page `Autres paramètres`
+1. Activez `Accès au SCFG par Slot-1` (Notez que cette option remplace `Accès microSD Slot-1`)
+1. Définissez `Slot-1 : Mode tactile` à `Mode DSi`
+1. Activez `Démarrage automatique Slot-1`
+1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
+     - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker
+     - Sinon, redémarrez TWiLight Menu++
 
-#### Switching between SD and flashcard contents
-- Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - If the SELECT menu is enabled, you can do so there as well
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+#### Basculer entre le contenu de la carte SD et celui du linker
+- Appuyez sur `SELECT`+`Haut` ou `SELECT`+`Bas` pour passer du contenu de la carte SD à celui du linker
+     - Si le menu SELECT est activé, vous pouvez également le faire à cet endroit
+     - Si vous utilisez le thème 3DS, touchez l'icône Carte de jeu/Carte SD
+     - Si vous utilisez le thème R4/GBC, appuyez sur le bouton `L`

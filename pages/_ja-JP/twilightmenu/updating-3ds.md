@@ -33,8 +33,8 @@ v21.0.0より古いバージョンから更新する場合は、DSiウェアタ�
 1. `_nds`フォルダをSDカードのルートにコピーし、既存のファイルを置き換えます
    - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください
 1. `BOOT.NDS`ファイルをSDカードのルートにコピーし、既存のファイルを置き換えます
-1. 2つの`.cia`ファイルをSDカードのルートにコピーし、既存のファイルを置き換えます
-1. 3DSで、FBIを使って2つのCIAをインストール
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. 3DSでFBIを使いCIAファイルをインストールします
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

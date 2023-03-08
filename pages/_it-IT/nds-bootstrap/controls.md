@@ -2,7 +2,7 @@
 lang: it-IT
 layout: wiki
 section: nds-bootstrap
-title: Controls
+title: Controlli
 long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---

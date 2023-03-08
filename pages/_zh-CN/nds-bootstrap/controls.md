@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: nds-bootstrap
-title: Controls
+title: 操作方式
 long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---

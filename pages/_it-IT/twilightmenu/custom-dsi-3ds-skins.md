@@ -37,7 +37,7 @@ Possono essere file PNG o file BMP a 16 bit (`A1 R5 G5 B5` o `X1 R5 G5 B5`).
 | bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Maco Mode                    |
 
 ### Texture della batteria (cartella `battery`)
-These must be PNG files. Transparency is supported, however only 100% transparency will work.
+Devono essere file PNG. Transparency is supported, however only 100% transparency will work.
 
 | Texture            | Description/Notes                                                                                         |
 | ------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -122,7 +122,7 @@ Devono essere file PNG.
 | topbg      | Sfondo per lo schermo superiore di qualsiasi altro modello DS |
 
 ### Texture dell'IU (cartella `ui`)
-These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
+Devono essere file PNG. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
 | Texture          | Descrizione                                             |
 | ---------------- | ------------------------------------------------------- |
@@ -137,7 +137,7 @@ Utilizzate solo per il tema 3DS, `3dsRotatingCubes.rvid` è un file Rocket Video
 ### Texture del volume (cartella `volume`)
 Volume textures are only displayed in DSi Mode.
 
-These must be PNG files. Transparency is supported, however only 100% transparency will work.
+Devono essere file PNG. Transparency is supported, however only 100% transparency will work.
 
 
 | Texture | Description/Notes            |

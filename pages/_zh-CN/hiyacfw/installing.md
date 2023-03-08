@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: hiyacfw
-title: Installing
+title: 安装步骤
 long_title: 安装 hiyaCFW
 description: How to install hiyaCFW on the Nintendo DSi
 tabs:

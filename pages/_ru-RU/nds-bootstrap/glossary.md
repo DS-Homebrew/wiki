@@ -1,12 +1,12 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: nds-bootstrap
 title: Glossary
 description: Glossary for nds-bootstrap
 ---
 
-## Settings
+## Настройки
 These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
 
 ### SDK ver

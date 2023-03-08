@@ -41,7 +41,7 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
 - Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
-- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- Plus de deux cents titres DSiWare peuvent être exécutés à l'aide de patchs intégrés et d'une ROM donatrice d'un titre optimisé DSi
      - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Utiliser nds-bootstrap` dans les paramètres de TWLMenu++
      - Tous les titres DSiWare ne peuvent pas être sauvegardés, en raison de la difficulté d'ajouter la prise en charge de la sauvegarde pour eux, et/ou du fait qu'ils stockent plus d'un fichier dans le système de fichiers de sauvegarde.
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu
@@ -67,7 +67,7 @@ Exemples :
 Si un titre nécessite une ROM donatrice, et que la ROM que TWLMenu++ a déclaré trouver ne montre pas l'option pour la définir comme telle (à condition que vous ayez fait défiler la page), trouvez une autre ROM à définir comme donatrice.
 
 #### Qu'est-ce qu'un nightly et où puis-je l'obtenir ?
-Un build nightly est compilé pour le dernier commit. Les builds nightly peuvent être instables, mais les dernières corrections de bogues ont été ajoutées. You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+Un build nightly est compilé pour le dernier commit. Les builds nightly peuvent être instables, mais les dernières corrections de bogues ont été ajoutées. Vous pouvez obtenir des builds nightly pour nds-bootstrap [à partir du dépôt GitHub TWLBot/Builds](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
 #### Pourquoi mes codes de triche ne fonctionnent pas ?
 - Certains codes de triche peuvent comporter des boutons d'activation ou d'autres conditions à remplir. Consultez la description du code de triche pour plus d'informations

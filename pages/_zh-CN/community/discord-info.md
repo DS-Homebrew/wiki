@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: community
 category: discord
@@ -76,7 +76,7 @@ If you have broken the rules, you may receive these roles from a moderator.
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
 
-### Other
+### 其他
 These roles are only given for very specific purposes by moderators.
 
 - Bots - Used to mark the Discord bots in the server

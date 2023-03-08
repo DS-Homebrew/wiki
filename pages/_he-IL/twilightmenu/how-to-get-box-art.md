@@ -9,7 +9,7 @@ tabs:
   - 
     windows: Windows
     other: macOS/Linux
-    manual: Manual
+    manual: ידני
 ---
 
 {% capture tab-windows %}

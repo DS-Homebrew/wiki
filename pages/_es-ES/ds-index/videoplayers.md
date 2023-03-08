@@ -1,93 +1,93 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: ds-index
 category: reference
-title: Video Players
-description: Homebrew Video Players for the Nintendo DS(i)
+title: Reproductores de Video
+description: Reproductores de Video Homebrew para Nintendo DS(i)
 ---
 
-# Homebrew Video Players for the Nintendo DS(i)
-This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
+# Reproductores de Video Homebrew para Nintendo DS(i)
+Esta página contiene una lista de reproductores de vídeo funcionales o aún en desarrollo para la Nintendo DS y Nintendo DSi, y una explicación de cómo funciona cada uno.
 
-| Player name | Supported containers/Codecs | Support         | Drawbacks                                   | Max FPS |
-| ----------- | --------------------------- | --------------- | ------------------------------------------- | ------- |
-| FastVideoDS | `.fv`, FastVideoDS          | DSi and NDS     | Confetti spam slows down high FPS video.    | 60fps   |
-| Moonshell   | `.dpg`, MPEG1               | Flashcards only | Requires a flashcard to play videos.        | 24fps   |
-| Tuna-ViDS   | `.avi`, XVid                | DSi and NDS     | Can only reach a certain framerate/bitrate. | 15fps   |
-| MPEG4Player | `.mp4`, MPEG-4              | DSi and NDS     | Can only play short videos.                 | 24fps   |
+| Nombre del reproductor | Codecs y Formatos compatibles | Sistemas compatibles | Desventajas                                                              | Tasa de FPS máxima |
+| ---------------------- | ----------------------------- | -------------------- | ------------------------------------------------------------------------ | ------------------ |
+| FastVideoDS            | `.fv`, FastVideoDS            | DS y DSi             | Muchos colores moviéndose realentizan los videos con tasas de FPS altas. | 60FPS              |
+| Moonshell              | `.dpg`, MPEG1                 | Flashcards           | Requiere una flashcard para funcionar.                                   | 24FPS              |
+| Tuna-ViDS              | `.avi`, XVid                  | DS y DSi             | Solo puede alcanzar ciertas tasas de FPS y bits.                         | 15FPS              |
+| MPEG4Player            | `.mp4`, MPEG-4                | DS y DSi             | Solo puede reproducir videos cortos.                                     | 24FPS              |
 
-Notes:
-- Actual max FPS is dependent on video content and length.
+Notas:
+- La tasa de FPS máxima real depende en el contenido y la duración de los videos.
 
 ## FastVideoDS
 
-Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
+Nora: Si te salta un mensaje diciendo `This encoder requires a cpu with support for AVX2 instructions`, necesitarás instalar un CPU más reciente, o usar un ordenador más moderno.
 {: .alert .alert-warning}
 
 ### Windows
 
-1. Download the [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), and install it
-1. Download the [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
-1. Drag and drop your video into said `.bat` file
+1. Descarga el [Runtime de .NET](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore) e instálalo
+1. Descarga el [Codificador de FastVideoDS](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Descarga [FastVideoDS.bat](/assets/files/FastVideoDS.bat) en la misma carpeta y colócalo en la misma carpeta que el archivo `.exe` del Codificador
+1. Arrastra tu video y suéltalo en dicho archivo `.bat`
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Cuando el proceso termine, deberías poder arrastrar el archivo resultante en tu tarjeta SD y soltarlo. Hecho esto, podrás reproducir el video abriéndolo a través de **TW**i**L**ight Menu++.
 
-## Moonshell video conversion (DPG4x)
+## Conversión de videos para Moonshell (DPG4x)
 
-1. Download [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
-1. Open `dpg4x.7z`
-1. Open `dpg4x-2.3.3.0.zip` (3.0-1 gives out an error when opening, for an unknown reason)
-1. Open `dpg4x-2.3.3.0_setup.exe`, and proceed with installation
-1. After installation, open DPG4x
-1. Click the `VIDEO` tab
-1. Tick the `Keep Aspect` option
-1. Set `Video Bitrate` to your choice (higher should improve quality)
-1. Click the `AUDIO` tab
-1. Tick `Normalize Volume`, if your video is a bit quiet
-1. Click the `SUBTITLES` tab
-1. Set `Subtitles Source` to `Disable Subtitles`, as certain subtitle tracks may not display correctly
-1. Click the `MAIN` tab
-1. Click `Add Media` to open your video file(s)
-1. Set `DPG Version` to `4`, if you're using Moonshell v2.x, otherwise set to `3` or below
-1. Set `Quality` to your choice
-1. Click `Start Encoding` to convert the video(s)
+1. Descarga [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
+1. Abre `dpg4x.7z`
+1. Abre `dpg4x-2.3.3.0.zip` (3.0-1 tira error al abrirlo, por alguna razón desconocida)
+1. Abre `dpg4x-2.3.3.0_setup.exe`, y procede con la instalación
+1. Al terminar, abre DPG4x
+1. Haz clic en la pestaña `VIDEO`
+1. Marca la casilla `Keep Aspect`
+1. Establece la opción `Video Bitrate` a lo que quieras (un número más alto indica una mayor calidad)
+1. Haz clic en la pestaña `AUDIO`
+1. Marca la casilla `Normalize Volume` si tu video tiene el volumen bajo
+1. Haz clic en la pestaña `SUBTITLES`
+1. Establece la opción `Subtitles Source` a `Disable Subtitles`, ya que algunas pistas de subtítulos podrían no mostrarse correctamente
+1. Haz clic en la pestaña `MAIN`
+1. Haz clic en `Add Media` para seleccionar tu(s) archivo(s) de video
+1. Establece la opción `DPG Version` a `4` si estás usando Moonsell v2.x, de lo contrario, establécela a `3` o anterior
+1. Establece la opción `Quality` a tu preferencia
+1. Haz cloc en `Start Encoding` para convertir el/los video(s)
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
+Cuando el proceso termine, deberías poder arrastrar el archivo resultante en tu tarjeta SD y soltarlo. Hecho esto, podrás reproducir el video abriéndolo a través de Moonsell.
 
-## TunaViDS Guide
+## Guía para TunaViDS
 
 ### Windows
-First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
+Escoge el video que quieras convertir. Es recomendable que la relación de aspecto sea 4:3, pero FFmpeg añade barras negras al video automáticamente si el video tiene una relación distinta.
 
-Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of **TW**i**L**ight Menu++.
+Advertencia: No cambies las opciones de Tuna-ViDS, o no iniciará correctamente. Esta guía asume que tienes instalada la última versión de **TW**i**L**ight Menu++.
 {: .alert .alert-warning}
 
-Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+A continuación, descarga FFmpeg desde [este enlace directo](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) y extráelo en C:\ffmpeg o en algún otro lugar al que puedas acceder sin permisos de administrador.
 
-You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your console. Slowdowns may occur on busy scenes (confetti, rain, etc).
+Probablemente debas quedarte en la zona segura al convertir videos (10 a 15FPS), o tu video podría bloquear tu consola. Las escenas con confeti, lluvia o escenas con mucho tráfico de imagen pueden causar realentizaciones.
 
-To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
+Para usar FFmpeg en cualquier lado, es necesario que añadas su locaclización a la variable PATH de tu entorno de sistema. Esto podría romper programas que dependen de FFmpeg, así que asegúrate de remover dicha entrada cuando termines el proceso.
 
-Drag and drop your video into one of these batch files to convert it:
-- [xvid-ds.bat](/assets/files/xvid-ds.bat): Converts to 12FPS video optimal for DS consoles
-- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Converts to 12FPS video optimal for DSi consoles
-- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
-- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Converts to 12FPS video optimal for DSi consoles with 400% volume increase
+Para convertir tus videos, arrástralos a cualquiera de los siguientes archivos batch, uno por uno:
+- [xvid-ds.bat](/assets/files/xvid-ds.bat): Convierte los videos con una tasa de 12FPS, óptimos para reproducirse en DS
+- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Convierte los videos con una tasa de 12FPS, óptimos para reproducirse en DSi
+- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Convierte los videos con una tasa de 12FPS, óptimos para DS y con un aumento del 400% del volumen
+- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Convierte los videos con una tasa de 12FPS, óptimos para DSi y con un aumento del 400% del volumen
 
-If you want, you can change the following in one of the above .bat files:
-- `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
-- `-2` in `scale=256:-2` to your desired vertical resolution, if the video appears distorted
+Si quieres, puedes cambiar cualquiera de los siguientes parámetros en los archivos .bat:
+- `12` en el parámetro `-r 12` a un valor distinto entre `10` y `15` para una tasa de FPS diferente
+- `-2` en el parámetro `scale=256:-2` a la resolución vertical que desees, si el video se muestra distorsionado
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Cuando el proceso termine, deberías poder arrastrar el archivo resultante en tu tarjeta SD y soltarlo. Hecho esto, podrás reproducir el video abriéndolo a través de **TW**i**L**ight Menu++.
 
-The video will quit to the menu after it is done playing, so if you want to loop videos, you are going to have to paste-repeat it in a video editor then convert it to an xvid avi using this method.
+Saldrás automáticamente al menú cuando el video termine, así que si deseas que el video se reproduzca en bucle, tendrás que pegar el video varias veces en un editor, y luego convertirlo a un video .avi compatible usando este método.
 
 ## MPEG4Player
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
-- [dsmp4-43.bat](/assets/files/dsmp4.bat): For 4:3 videos
-- [dsmp4.bat](/assets/files/dsmp4.bat): For 16:9 videos
+El proceso es el mismo que para Tuna-ViDS, pero podrás reproducir videos hasta una tasa de 24FPS.
+- [dsmp4-43.bat](/assets/files/dsmp4.bat): Para videos con una resolución de aspecto de 4:3
+- [dsmp4.bat](/assets/files/dsmp4.bat): Para videos con una resolución de aspecto de 16:9

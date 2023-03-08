@@ -2,7 +2,7 @@
 lang: he-IL
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
+title: שאלות ותשובות & פתרון בעיות
 long_title: hiyaCFW FAQ & Troubleshooting
 description: FAQ & Troubleshooting for hiyaCFW
 ---

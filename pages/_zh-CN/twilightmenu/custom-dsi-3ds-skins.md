@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: customization
@@ -115,7 +115,7 @@ When exporting, it's recommended to check the `Do not write color space informat
 ### DS Classic Menu textures (`quickmenu` folder)
 These must be PNG files.
 
-| Texture    | Description                                         |
+| 纹理         | 描述                                                  |
 | ---------- | --------------------------------------------------- |
 | bottombg   | Background for the bottom screen                    |
 | phat_topbg | Background for the top screen on DS Phat            |
@@ -124,7 +124,7 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture          | Description                                             |
+| 纹理               | 描述                                                      |
 | ---------------- | ------------------------------------------------------- |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
@@ -140,7 +140,7 @@ Volume textures are only displayed in DSi Mode.
 These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
 
-| Texture | Description/Notes            |
+| 纹理      | Description/Notes            |
 | ------- | ---------------------------- |
 | volume0 | 0 is muted, 4 is full volume |
 | volume1 |                              |

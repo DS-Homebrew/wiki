@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: ds-index
 category: reference
@@ -46,9 +46,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Other emulators for the DS
 
-| Format  | Loader         | Extensions | Save file |
-| ------- | -------------- | ---------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
+| Format  | Loader         | Tillägg | Spara fil |
+| ------- | -------------- | ------- | --------- |
+| Neo Geo | [neoDS][neods] | `.neo`  | (unknown) |
 
 ## Notes on specific emulators
 ### RAM-diskar

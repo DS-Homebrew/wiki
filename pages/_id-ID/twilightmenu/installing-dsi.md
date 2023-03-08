@@ -8,7 +8,7 @@ long_title: Pemasangan TWiLight Menu++ (DSi)
 description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 ---
 
-Jika kamu belum punya cara menjalankan homebrew di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
+Jika belum punya cara menjalankan homebrew di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
 
 ### Pemasangan
@@ -19,42 +19,42 @@ Jika kamu belum punya cara menjalankan homebrew di DSi, ikuti [dsi.cfw.guide](ht
 1. Salin folder `roms` ke root kartu SD
 1. **Pengguna hiyaCFW:** Salin folder `title` ke root kartu SD
 
-### Mulai sendiri (Autoboot) dengan Unlaunch
-1. Hidupkan Nintendo DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
-1. Pada menu Unlaunch, masuk ke `OPTIONS`
-1. Ubah `NO BUTTON` atau tombol pilihanmu ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah
+### Pemuatan langsung dengan Unlaunch
+1. Nyalakan Nintendo DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
+1. Di menu Unlaunch, masuk ke `OPTIONS`
+1. Ubah `NO BUTTON` atau tombol pilihan Anda ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah
 
-### Accessing flashcard contents
+### Mengakses isi flashcard
 
-A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
+Flashcard adalah kaset yang disisipkan ke slot kartu permainan, dan terdapat slot kartu microSD. Jika tidak punya flashcard, berarti panduan ini sudah selesai.
 {:.alert .alert-warning}
 
-#### If you have an R4(i) Ultra
+#### Jika punya R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - You can safely ignore the warnings
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `Slot-1 microSD access`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, press `B` again
+1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan firmware dari flashcard`
+     - Peringatan yang ada boleh diabaikan
+1. Buka Pengaturan TWLMenu++
+1. Pindah ke halaman `Pengaturan lain`
+1. Nyalakan `Akses microSD Slot-1`
+1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
+     - Jika masuk ke Menu DS Klasik, tekan `B` lagi
 
-#### If you don't have an R4(i) Ultra
+#### Jika tidak punya R4(i) Ultra
 
-1. Create a file called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
-1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
-1. Turn on `Auto-start Slot-1`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+1. Buat berkas bernama `primary` di `sd:/_nds/` (bukan yang flashcard), agar TWiLight Menu++ membaca pengaturan dari kartu SD konsol setelah flashcard dijalankan
+1. Ikuti [panduan ini](installing-flashcard) mulai dari `Memuat langsung TWiLight Menu++`
+1. Salin berkas `BOOT.NDS` dari `TWiLightMenu-Flashcard.7z` ke root kartu microSD flashcard
+1. Buka Pengaturan TWLMenu++
+1. Pindah ke halaman `Pengaturan lain`
+1. Nyalakan `Akses SCFG di Slot-1` (Mohon diingat opsi ini mengesampingkan `Akses SD di Slot-1`)
+1. Ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
+1. Nyalakan `Langsung mulai Slot-1`
+1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
+     - Jika masuk ke Menu DS Klasik, luncurkan flashcard
+     - Jika tidak, mulai ulang TWiLight Menu++
 
-#### Switching between SD and flashcard contents
-- Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - If the SELECT menu is enabled, you can do so there as well
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+#### Beralih antara isi kartu SD dan flashcard
+- Tekan `SELECT`+`Atas` atau `SELECT`+`Bawah` untuk beralih antara isi kartu SD dan flashcard
+     - Jika menu SELECT diaktifkan, dapat juga dilakukan dari situ
+     - Jika menggunakan tema 3DS, sentuh ikon Kaset/Kartu SD
+     - Jika menggunakan tema R4/GBC, tekan tombol `L`

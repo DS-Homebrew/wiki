@@ -2,7 +2,7 @@
 lang: sv-SE
 layout: faq
 section: nds-bootstrap
-title: FAQ & Troubleshooting
+title: FAQ & Felsökning
 long_title: nds-bootstrap FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---
@@ -97,14 +97,14 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+Nej. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
 
 #### Can I remap button inputs using nds-bootstrap?
-No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+Nej. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
 
 #### How do I play randomized Pokémon ROMs with nds-bootstrap?
 Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).

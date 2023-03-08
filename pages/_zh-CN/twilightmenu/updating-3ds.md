@@ -33,8 +33,8 @@ tabs:
 1. 将 `_nds` 文件夹复制到你的SD卡根目录，替换掉所有现有文件。
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. 将 `BOOT.NDS` 文件复制到你的SD卡根目录，替换掉所有现有文件。
-1. 将两个 `.cia` 文件复制到你的SD卡根目录，替换掉所有现有文件。
-1. 在 3DS 上使用 FBI 安装两个 CIA 文件
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. On your 3DS, install the CIA with FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
+title: FAQ & Felsökning
 long_title: hiyaCFW FAQ & Troubleshooting
 description: FAQ & Troubleshooting for hiyaCFW
 ---

@@ -16,15 +16,15 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 {:.alert .alert-info}
 
 **Fontos**
-- [#info-and-rules][info-and-rules] - Ezek rövid információt ad a követendő szabályokról és az információkról a szerveren. For more detailed information on the rules, see [the rules page](discord-rules) on this wiki
-- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server, such as other servers or this wiki
+- [#info-and-rules][info-and-rules] - Ezek rövid információt ad a követendő szabályokról és az információkról a szerveren. Részletes információkért a szabályokról tekints meg a [szabályok oldalt](discord-rules) ezen a wiki-n
+- [#useful-resources][useful-resources] - Linkek hasznos erőforrásokra, amik a Discord szerveren kívül vannak, mint például más szerverek vagy ez a wiki
 - [#member-logs][member-logs] - Mutatja a felhasználó bejelentkezéseket és a szerver bővülésket
 
 **Szerver Hub**
 - [#announcements][announcements] - Információk új homebrew frissítésekről és általános bejelentések a szerverrel kapcsolatosan
-- [#github-updates][github-updates] - Feed of all contributions to and discussions in DS-Homebrew project GitHub repositories
-- [#subreddit-feed][subreddit-feed] - Updates for new posts in the [Subreddit](https://reddit.com/r/NDSBrew)
-- [#community-meta][community-meta] - For giving feedback about the community, including the Discord server, the subreddit, and the [GitHub organization](http://github.com/DS-Homebrew)
+- [#github-updates][github-updates] - Minden hozzájárulás feed-je és beszélgetések DS-Homebrew projektek GitHub repóiról
+- [#subreddit-feed][subreddit-feed] - Frissítések az új postokról a [Subreddit-ünkből](https://reddit.com/r/NDSBrew)
+- [#community-meta][community-meta] - Visszajelzés adásához a közösségről, beleértve ezt a Discord szervert, a subreddit-ünket és a [GitHub organizációt](http://github.com/DS-Homebrew)
 
 **Nintendo DS⁽ⁱ⁾ Modding**
 - [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
@@ -50,7 +50,7 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 - [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
 
 ## Szerepek & felhasználók
-There are several roles you can get on the server, some of them being accessible with just a [Lightning bot command](#lightning-commands).
+Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak [Lightning bot paranccsal](#lightning-commands) érhető el.
 
 ### Moderátor szerepkörök
 These roles are given to people that are well trusted to maintain the server. They have the ability to ban, kick, mute, and give other roles to users.
@@ -68,11 +68,11 @@ These roles can only be given by moderators, and indicate that these users are k
 - Nitro Booster - Automatically given to those that have given Server Boosts to the server. This role has no additional permissions, and is not hoisted in the Member List
 
 ### Büntető szerepkörök
-If you have broken the rules, you may receive these roles from a moderator.
+Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátortól.
 
 - No Community - Eltávolítja a hozzáférést a Community kategória csatornáihoz
-- No Help - Removes access from [#nds-help][nds-help]
-- No Reaction - Disables reaction permissions for all channels
+- No Help - Eltávolítja a hozzáférést a [#nds-help][nds-help] csatornához
+- No Reaction - Letiltja a reagálási jogot minden csatornára
 - No VC - Eltávolítja a hozzáférést a hang csatornához
 - Muted - Letiltja az üzenetek küldésének lehetőségét
 
@@ -94,10 +94,10 @@ A Lightning egy Discord bot, amit [LightSage](https://github.com/LightSage) kés
 
 Egy csomó mókás parancs van még, amit futtatni lehet még, de kérjük ezeket használd az [#end-of-server][end-of-server] csatornán. Hogy többet tudj meg, látogasd meg weboldalukat: <https://lightning.lightsage.dev/>
 
-**Továbbá a Lightning-ot használjuk moderációs célokra, (hogy loggoljuk a figyelmeztetéseket, kirúgásokat, némításokat és tiltásokat). Keep Direct Messages enabled in the server in case we ever need to reach you.**
+**Továbbá a Lightning-ot használjuk moderációs célokra, (hogy loggoljuk a figyelmeztetéseket, kirúgásokat, némításokat és tiltásokat). Tartsd engedélyezve a közvetlen üzeneteket a szerveren, hogy elérjünk téged, ha szükséges.**
 
 ## A Staff Team
-Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva. Members will be added to the team if and when seen fit.
+Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva. A csapatot akkor és úgy egészítjük ki, ha és amikor azt szükségesnek látjuk.
 
 Tulajdonos: shutterbug2000#8835
 

@@ -39,7 +39,7 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 ### Battery textures (`battery` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
-| Texture            | Description/Notes                                                           |
+| 텍스쳐                | Description/Notes                                                           |
 | ------------------ | --------------------------------------------------------------------------- |
 | battery0           | Flashes with `battery1` when the battery is very low                        |
 | battery1           | 0-4 are used in DSi mode                                                    |
@@ -69,7 +69,7 @@ If there are fewer than 16 colors in your final colormap, press the `+` button a
 
 When exporting, it's recommended to check the `Do not write color space information` box under the `Compatibility Options` dropdown.
 
-| Texture       | Description                                                                                     |
+| 텍스쳐           | 설명                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------- |
 | bips          | The bips displayed on the bottom of the scrollbar (DSi Theme)                                   |
 | box           | The box texture, containing both full and empty textures (DSi Theme)                            |
@@ -115,7 +115,7 @@ When exporting, it's recommended to check the `Do not write color space informat
 ### DS Classic Menu textures (`quickmenu` folder)
 These must be PNG files.
 
-| Texture    | Description                                         |
+| 텍스쳐        | 설명                                                  |
 | ---------- | --------------------------------------------------- |
 | bottombg   | Background for the bottom screen                    |
 | phat_topbg | Background for the top screen on DS Phat            |
@@ -124,7 +124,7 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture          | Description                                             |
+| 텍스쳐              | 설명                                                      |
 | ---------------- | ------------------------------------------------------- |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
@@ -140,7 +140,7 @@ Volume textures are only displayed in DSi Mode.
 These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
 
-| Texture | Description/Notes            |
+| 텍스쳐     | Description/Notes            |
 | ------- | ---------------------------- |
 | volume0 | 0 is muted, 4 is full volume |
 | volume1 |                              |

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: pl-PL
 layout: faq
 section: godmode9i
 title: FAQ & Troubleshooting

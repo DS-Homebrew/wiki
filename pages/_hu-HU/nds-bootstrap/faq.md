@@ -41,7 +41,7 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 
 #### DS/DS Lite: Miért használjak nds-bootstrap-et egy DS flashcard-on?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a Memory Expansion Pak-ba (vagy RAM-ot tartalmazó Slot-2 flashcard-o memóriájába), gyorsabb betöltési időket lehetővé téve, mint a normál játék kártyák
-- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+- 200+ számú DSiWare cím futtatható a beépített patchek és egy DSi-Enhanced cím Donor ROM-ja segítségével
      - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `nds-bootstrap használata` beállítástól a TWLMenu++ beállításokban
      - Nem minden DSiWare cím tud menteni, mivel nehéz hozzáadni a mentés támogatását, és/vagy egynél több fájlt tárolnak a mentési fájlrendszerben.
 - Ha a flashcard kernel-ed nem tud futtatni egy bizonyos ROM-ot, akkor az nds-bootstrap használható helyette, és ez játékonként beállítható

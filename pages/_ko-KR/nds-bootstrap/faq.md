@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: faq
 section: nds-bootstrap
-title: FAQ & Troubleshooting
+title: 자주 묻는 질문 & 문제 해결하기
 long_title: nds-bootstrap FAQ & Troubleshooting
 description: FAQ & Troubleshooting for nds-bootstrap
 ---

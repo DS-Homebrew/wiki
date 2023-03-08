@@ -36,7 +36,7 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
+- 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite：为什么在DS烧录卡上使用nds-bootstrap？
@@ -97,14 +97,14 @@ Playing games online with nds-bootstrap will work exactly as it does with real G
 - If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
 
 #### 将游戏设置为使用133MHz（TWL）的CPU速度会损坏我的主机吗？
-No. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
+不能。 While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### 我可以用nds-bootstrap来加快游戏速度吗？
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
 
 #### 我可以使用nds-bootstrap重新映射按钮输入吗？
-No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+不能。 Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
 
 #### 如何用nds-bootstrap游玩改版宝可梦ROM？
 Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).

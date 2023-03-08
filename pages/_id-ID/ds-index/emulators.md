@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
@@ -59,7 +59,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
    - Was made for DSi
-   - Does not require nds-bootstrap RAM Disks
+   - Tidak memerlukan RAM Disk nds-bootstrap
       - Saving is supported on DSi SD cards
       - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
    - Supports arguments
@@ -70,7 +70,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 - **jEnesisDS**
    - DS Mode
-      - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
+      - Memerlukan RAM Disk nds-bootstrap untuk digunakan di kartu SD DSi
       - Saving is unavailable for DSi SD cards
    - Takes a while to load
    - No argument support
@@ -86,7 +86,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [^2]: Only for retail ROMs, homebrew do not have specific save files
 [^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the flashcard
 [^4]: When running in DSi Mode, it can use the DSP for better sound
-[^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
+[^5]: Memerlukan flashcart Slot-2 sehingga hanya berfungsi pada DS Phat dan DS Lite
 [^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS

@@ -8,23 +8,29 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
 ---
 
 ### DS játékok, amik elérhetők DSiWare-ként
+- 7 Wonders II
+   - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
-   - A DSiWare verzió a Japan régió számára exkluzív, mint "Famicom Wars DS: Ushinawareta Hikari"
-   - Egy patch ami a japán fájlokat kicseréli az angol verziókkal elérhető [itt](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Animal Boxing
 - Art Academy
-   - Felbontásra került Első & Második szemeszterre
+   - Split into First & Second Semesters
+- Astro Invaders
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
 - Bejeweled Twist
-   - Néhány funkció eltávolítva
+   - Some features removed
 - Bomberman 2
-   - A többjátékos funkció külön címként jelent meg "Bomberman Blitz" néven
+   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-   - Download Play funkció eltávolítva
-   - Az ikon animált
+   - Download Play feature removed
+   - Icon is animated
 - Brain Challenge
-   - Új a DSi kamerához kapcsolódó funkciók kerültek hozzáadásra
-   - A Versus mód eltávolítva
-   - Sok fájl tömörítésre került, hogy a játék beférjen a DSiWare méret korlátba
-   - Az ikon animált
+   - New features related to the DSi camera are added
+   - Versus mode is removed
+   - Many files are compressed for the game to fit within the DSiWare size limit
+   - Icon is animated
 - Chronos Twins
 - Clubhouse Games
    - Split into three DSiWare titles called
@@ -37,57 +43,65 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
-- G.G. Series DSiWare címek
-   - A "G.G. Series Collection+" kollekció Japán régióban exkluzív fizikai kiadással rendelkezett
-   - NTR címként készült, lehetővé téve a DS konzolokon való játékot
-   - A kéziköny képernőyképei egyedi UI-t tartalmaz
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
-   - A DSiWare verzió neve "Heathcliff: Spot On"
+   - DSiWare version called "Heathcliff: Spot On"
+- Jewel Adventures
+- Jewel Legends: Tree of Life
+- Jewel Quest 4: Heritage
+- Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
-   - Hat DSiWare címre szétosztva "Master of Illusion Express" (USA) vagy "A Little Bit of... Magic Made Fun" (Europe) néven
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
-   - A DSiWare verzió neve "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
-   - A DSiWare verzió neve "Need for Speed: Nitro-X"
-   - Download Play funkció és néhány zene eltávolítva
-   - Új rendőrautók érhetők el
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
 - Nintendogs: Lab & Friends
-   - A DSiWare verzió Kína régió számára exkluzív
+   - DSiWare version exclusive to China
 - Phantasy Star 0
-   - Egy demo(?) verziója az eredeti játéknak "Phantasy Star 0 Mini" néven a Japan régió számára exluzív
-   - Az ikon animált
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
 - Planet Puzzle League
-   - A DSiWare verzió neve "Puzzle League Express" (USA), vagy "A Little Bit of... Puzzle League" (Europe)
-   - A többjátékos mód eltávolítva
-   - Néhány zeneszám eltávolítva
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
-   - A Download Play funkció, néhány trófea és zene videó eltávolítva
-   - Exkluzív minijátékot tartalmaz
-   - Az ikon animált
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
-   - Az ikon animált
+   - Icon is animated
 - Space Invaders Extreme 2
-   - A DSiWare verzió neve "Space Invaders Extreme Z", a Japán régió számára exkluzív
-   - Vezeték nélküli funkciók eltávolítva
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
 - Sujin Taisen: Number Battles
-   - A DSiWare verzió neve "Number Battle" in USA
-   - A helyi többjátékos mód eltávolításra került, de az online többjátékos mód megmaradt
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
+- Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
+   - Split into 5 parts(?)
 - Tetris Party Deluxe
-   - A DSiWare verzió neve "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode játékmódok eltávolítva
-   - Az ikon animált
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-   - A DSiWare verzió neve "True Swing Golf Express" (USA), vagy "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - A játék DSiWare verziója nem tartalmaz Wi-Fi funkciókat, mint például a Local/Download Play vagy a játékbani PictoChat funkció. Továbbá kevesebb pályát tartalmaz, mint a dobozos verzió
-      - A játékmotor feljavított
-      - A Challenge mód van dobozos játék Championship Tour módja helyett
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Slot-2 funkciók eltávolítva
+   - Slot-2 features removed
+- Zombiez Seeker
+   - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
-   - A többjátékos mód eltávolítva
-   - Az ikon animált
+   - Multiplayer removed
+   - Icon is animated
 
 Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Bomberman Blitz
@@ -96,44 +110,65 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Tetris Party Live
 
 ### DSiWare-ok amik DSi-Enhanced ROM-nak lettek fordítva
+- 1st Class Poker & BlackJack
+     - Cloneboot-ot használ a többjátékos módhoz
 - Base 10 (Art Style)
      - Cloneboot-ot használ a többjátékos módhoz
-- Bird & Beans (Japán)
+- Bird & Beans (Japan)
+- Box Pusher
+     - Cloneboot-ot használ a többjátékos módhoz
+- Bridge
+     - Cloneboot-ot használ a többjátékos módhoz
 - Clubhouse Games Express
      - Cloneboot-ot használ a többjátékos módhoz
+- Cosmo Fighters
+     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
 - Dr. Mario Express
+- Globulos Party
+     - Cloneboot-ot használ a többjátékos módhoz
+- Hearts Spades Euchre
+     - Cloneboot-ot használ a többjátékos módhoz
 - Metal Torrent
-- Paper Airplane Chase (Japán)
+- Paper Airplane Chase (Japan)
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
      - Has a feature to send a game demo to any DS family console
 
-### Játékok, amik SDK upgrade-et kaptak
-- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 Japánban (mint DSiWare)
-- Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
-- Giana Sisters DS: SDK4 -> SDK5 az USÁ-ban
-- Hotel Dusk: Room 215: SDK3 -> SDK4 Koreában
-- Inazuma Eleven: SDK4 -> SDK5 Európában
-- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 Európában
-- Mario & Luigi: Partners in Time: SDK2 -> SDK4 Koreában
-- Nintendogs: Lab and Friends: SDK2 -> SDK5 (mint DSiWare)
-- Phineas and Ferb: SDK4 -> SDK5 Koreában (mint DSi-Enhanced cím)
-- Pokémon Diamond/Pearl: SDK3 -> SDK4 Koreában
-- Pokémon Dash: SDK2 -> SDK3 Koreában
-- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 Koreában
-- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (mint DSiWare)
-- Sonic Rush Adventure: SDK3 -> SDK4 Koreában
-- WarioWare: Touched: SDK2 -> SDK5 (mint DSiWare)
+### DSiWare moved from an originally planned DS/DS lite release
+- Flipper
+     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (unconfirmed)
+     - The game has an unused help menu which isn't like in other DSiWare titles
+     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
+- Go! Go! Kokopolo
+     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
 
-### DSi-Enhanced játékok, amik nem használnak overlay-eket
+### Games that got SDK upgrades
+- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
+- Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
+- Giana Sisters DS: SDK4 -> SDK5 in USA
+- Hotel Dusk: Room 215: SDK3 -> SDK4 in Korea
+- Inazuma Eleven: SDK4 -> SDK5 in Europe
+- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
+- Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea
+- Nintendogs: Lab and Friends: SDK2 -> SDK5 (as DSiWare)
+- Phineas and Ferb: SDK4 -> SDK5 in Europe (as a DSi-Enhanced title)
+- Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
+- Pokémon Dash: SDK2 -> SDK3 in Korea
+- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
+- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
+- Sonic Rush Adventure: SDK3 -> SDK4 in Korea
+- WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
+
+### DSi-Enhanced games that don't use overlays
 Összesen: 39, néhány még hiányozhat
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
 - Assassin's Creed II: Discovery
 - Bejeweled Twist
 - The Biggest Loser
-- The Biggest Loser
+- Bratz Fashion Boutique
 - de Blob 2
 - Dolphin Island: Underwater Adventures
 - Fancy Nancy: Tea Party Time!
@@ -168,25 +203,25 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### DSiWare játékok mentés kóddal
+### DSiWare games with backup code
 Ezek mentési adatokat írnának a cartridge mentő chipjére, ha cartridge-ről futnak.
 
 - Cake Ninja
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 - Cake Ninja 2
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 - Cake Ninja: XMAS
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 - Dragon Quest Wars
 - Dreamwalker
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Go! Go! Kokopolo
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 - Make Up & Style
-   - Nem használt, így hackelés szükséges a kód aktiválásához
+   - Unused, so hacking is required to activate the code
 
-### Játékok, amik csatlakozni tudnak GBA címekhez
+### Games that can connect with GBA titles
 Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehetséges alternatívát.
 
 - Advance Wars: Dual Strike
@@ -196,7 +231,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - Bleach Advance: Kurenai ni Somaru Soul Society
 - Castlevania Dawn of Sorrow
    - Castlevania Aria of Sorrow
-   - Használj [csalásokat](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) bizonyos tárgyak megszerzéséhez
+   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
 - Daigasso! Band Brothers
    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power
@@ -236,7 +271,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Lunar Knights
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (csak Japán)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
 - Madden NFL 06
    - Madden NFL 06
    - Madden NFL 2005
@@ -245,24 +280,24 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - MegaMan Battle Network 2
    - MegaMan Battle Network 3 White/Blue
    - MegaMan Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (csak Japán)
+   - Rockman EXE 4.5 Real Operation (Japan only)
    - MegaMan Battle Network 5 Team ProtoMan/Colonel
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (csak Japán)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
 - Mega Man Star Force Pegasus/Leo/Dragon
    - Mega Man Battle Network
    - Mega Man Battle Network 2
    - Mega Man Battle Network 3 White/Blue
    - Mega Man Battle Chip Challenge
    - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (csak Japán)
+   - Rockman EXE 4.5 Real Operation (Japan only)
    - Mega Man Battle Network 5 Team ProtoMan/Colonel
    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Használd ezt a <[Slot-2 Patch-et](https://www.romhacking.net/hacks/4649/) az Area N tartalmának eléréséhez
+   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -277,7 +312,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
-   - (Használd a [pkmn-chest](https://universal-team.net/projects/pkmn-chest) vagy [PKSM](https://flagbrew.org/projects/PKSM) programokat Pokémon átviteléhez vagy hozzáadásához)
+   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
 - Pokémon Mystery Dungeon: Blue Rescue Team
    - Pokémon Mystery Dungeon: Red Rescue Team
 - Shrek Super Slam
@@ -316,7 +351,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Játékok, amik GBA kiegészítőket (Option Pak) használnak
+### Games that use GBA Option Paks
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Motion Pack
@@ -356,7 +391,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
    - Wario: Master of Disguise
    - WWE SmackDown vs. Raw 2008
 
-### Játékok Wii kapcsolódással
+### Games with Wii connectivity
 - Animal Crossing: Wild World
     - Animal Crossing: City Folk
 - Band Hero
@@ -376,7 +411,7 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum
-    - My Pokémon Ranch (csak Japán frissítés)
+    - My Pokémon Ranch (Japan Only Update)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
     - Pokémon Battle Revolution
 - Personal Trainer: Walking
@@ -386,32 +421,32 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Játékok IR játék kártyával
+### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver
-   - A Pokéwalker pedométerhez csatlakozáshoz
+   - For connecting to Pokéwalker pedometer
 - Pokémon Black/White/Black 2/White 2
-   - A C-Gear, Key transfers használatával történő kereskedéshez/harchoz/érzés ellenőrzéshez
+   - For trading/battling/feeling check using the C-Gear, Key transfers
 - Personal Trainer: Walking
-   - Iker IR-alapú lépésszámlálóval rendelkezik
-   - Nem kompatibilis a Pokémon ROM-okkal
+   - Has twin IR based pedometers
+   - Not compatible with Pokémon ROMs
 - Active Health with Carol Vorderman
-   - Hasonló lépésszámláló a Personal Trainer: Walking-hoz, de csak egy
-   - Nem kompatibilis a Pokémon ROM-okkal
+   - Similar pedometer to Personal Trainer: Walking, but only one
+   - Not compatible with Pokémon ROMs
 
-### Egyéb (speciális játékok amelyen nem esnek egyik fenti kategóriába sem)
+### Other (Special Games that do not fall into an above category)
 - Learn with Pokémon: Typing Adventures
-   - A cartridge speciális bluetooth chippel rendelkezik a billentyűzethez való csatlakozáshoz
+   - Cartridge has special bluetooth chip for connecting to the keyboard
 - ElectroPlankton
-   - A cartridge-nek nincs mentés RAM-ja
+   - Cartridge has no save RAM
 - DS Download Station
-   - Demó játékok terjesztésére használt kazetták sorozata
+   - Series of cartridges used to distribute demo games
 - Sonic Classics Collection
-   - A Genesis emulációs struktúra lett emulátorrá átalakítva
+   - Genesis emulation structure has been converted into an emulator
 - Nitro Development Cart
-   - Extra RAM memóriával rendelkezik a DSi játék fejlesztéséhez
+   - Has extra RAM for developing games for the DSi
 - Slide Adventure MAG KID
-   - Slot-2 optikai egeret tartalmaz
+   - Comes with a Slot-2 Optical Mouse
 - Daigasso! Band Brothers
-   - Van egy Slot-2 cartridge-je, amely további dalokat adott hozzá
+   - Has a Slot-2 cart that added more songs
 - Arkanoid
-   - Egy Slot-2 Paddle Controllerrel együtt érkezett
+   - Came bundled with a Slot-2 Paddle Controller

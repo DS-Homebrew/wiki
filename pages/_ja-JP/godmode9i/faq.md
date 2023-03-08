@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
+title: よくある質問・トラブルシューティング
 long_title: GodMode9i FAQ & Troubleshooting
 description: FAQ & Troubleshooting for GodMode9i
 ---

@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: ds-index
 category: reference

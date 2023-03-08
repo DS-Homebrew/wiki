@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: nds-bootstrap
-title: Controls
+title: Управление
 long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---

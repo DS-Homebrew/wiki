@@ -69,7 +69,7 @@ This fork by therealteamplayer merges the Hicode and DSP branches into one build
 
 ### 3DS-Specific: [Gyro](https://github.com/Gericom/GBARunner2/releases/tag/v20191228-021638_ee7f6a0)
 
-This branch makes use of the internal accelerometer in the 3DS so that GBA games that had this functionality can be played properly. There are several steps needed to take to make it work. Note that since there are different accelerometer chips between 3DS systems, this will not work on all 3DSes because all chips do not have code supporting them.
+This branch makes use of the internal accelerometer in the 3DS so that GBA games that had this functionality can be played properly. Ada beberapa langkah yang harus dilakukan agar berfungsi. Note that since there are different accelerometer chips between 3DS systems, this will not work on all 3DSes because all chips do not have code supporting them.
 
 There is no consistency in what type of 3DS has what chip, at least as far as anyone knows.
 

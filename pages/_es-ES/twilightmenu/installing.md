@@ -4,7 +4,7 @@ layout: wiki
 section: twilightmenu
 category: indexes
 title: Instalación
-long_title: Instalando TWiLight Menu++
+long_title: Instalar TWiLight Menu++
 description: Cómo instalar TWiLight Menu++ (índice)
 ---
 

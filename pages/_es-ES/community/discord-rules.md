@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: es-ES
 layout: wiki
 section: community
 category: discord

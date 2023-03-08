@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: customization
@@ -14,7 +14,7 @@ These instructions assume you have devkitPro installed with mmutil. You can get 
 ## Sound Effect Bank
 The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
 
-| File        | Description                                                                            |
+| File        | 描述                                                                                     |
 | ----------- | -------------------------------------------------------------------------------------- |
 | startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
 | back.wav    | Back                                                                                   |

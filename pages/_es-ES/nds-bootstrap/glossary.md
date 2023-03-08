@@ -6,7 +6,7 @@ title: Glosario
 description: Glosario para nds-bootstrap
 ---
 
-## Settings
+## Ajustes
 These can be found within TWiLight Menu++'s per-game settings. Some of these options can also be changed in nds-bootstrap's in-game menu
 
 ### SDK ver

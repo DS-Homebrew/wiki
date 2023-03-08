@@ -2,7 +2,7 @@
 lang: ko-KR
 layout: faq
 section: twilightmenu
-title: FAQ & Troubleshooting
+title: 자주 묻는 질문 & 문제 해결하기
 long_title: TWiLight Menu++ FAQ & Troubleshooting
 description: FAQs and troubleshooting for TWiLight Menu++
 ---
@@ -18,6 +18,10 @@ TWL_FIRM이 알 수 없는 이유로 망가졌을 수 있습니다. 문제를 �
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
    - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - 이렇게까지 했는데도 효과가 없으면, 다른 SD카드로 시도해보세요.
+
+#### How do I fix touch screen not working after launching a game?
+- If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
+- If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
 #### Where is the Acekard/Wood UI theme?
 The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
@@ -90,7 +94,7 @@ You can use a custom banner in either PNG or DS banner.bin format by placing it 
 
 For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
 
-banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases), it's currently recommended to use the [nightly version](https://nightly.link/TheGameratorT/NDS_Banner_Editor/workflows/build/master) as it has several improvements over the stable release.
+banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases).
 
 Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
 

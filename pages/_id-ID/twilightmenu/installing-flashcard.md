@@ -14,25 +14,25 @@ description: Cara memasang TWiLight Menu++ pada flashcard Nintendo DS
 1. Salin folder `_nds` ke root kartu microSD flashcard
 1. Salin berkas `BOOT.NDS` ke root kartu microSD flashcard
 1. Salin folder `roms` ke root kartu microSD flashcard
-1. Jika sudah ada data simpanan (save), sebelumnya pindahkan dulu berkas `.sav`, yang tadinya bersama ROM DS, ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
-1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
+1. Jika sudah ada simpanan (save), sebelumnya pindahkan dulu berkas `.sav` yang tadi bersama ROM DS ke folder baru bernama `saves`, yang letaknya juga sama dengan ROM DS
+1. **Pengguna DS Phat/Lite:** Jika memulai `BOOT.NDS` malah tersangkut di layar putih, ikuti panduan memuat langsung di bawah, dan/atau sisipkan DS Memory Expansion Pak, lalu coba lagi
 
-### Memulai sendiri (Autobooting) TWiLight Menu++
-1. Ekstrak isi dari `Autoboot/(flashcard-mu)` ke root dari kartu microSD flashcard
-   - Lewati jika tidak ada untuk flashcard-mu
-1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+### Memuat langsung TWiLight Menu++
+1. Ekstrak isi dari `Autoboot/(jenis flashcard)` ke root kartu microSD flashcard
+   - Lewati jika jenis flashcard Anda tidak ada
+1. **Pengguna DS Phat/Lite:** Masuk ke pengaturan menu DS resmi, dan nyalakan auto-start agar flashcard langsung dimuat
 
 ### Menjalankan permainan dengan firmware flashcard
 
-Mohon diingat ini hanya bekerja jika flashcard sudah diatur langsung-memulai TWiLight Menu++. Lihat bagian di atas untuk caranya.
+Mohon diingat ini hanya berfungsi jika flashcard telah diatur langsung memuat TWiLight Menu++. Lihat bagian di atas untuk caranya.
 {:.alert .alert-warning}
 
-Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. Jika langkah di bawah tidak berlaku untuk flashcard-mu, lewati bagian ini.
+Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. Jika langkah berikut tidak berlaku di flashcard yang dipunya, lewati bagian ini.
 {:.alert .alert-warning}
 
-1. Ekstrak apa yang ada di `Flashcart Loader/(flashcard-mu)` ke root dari kartu microSD flashcard
-   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+1. Ekstrak apa yang ada di `Flashcart Loader/(jenis flashcard)` ke root dari kartu microSD flashcard
+   - Terdapat README.txt di folder `Flashcart Loader` untuk membantu mencari pemuat flashcart mana yang sesuai untuk flashcard Anda.
+   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang di bawah daftar flashcard
 
 1. Untuk flashcard berikut:
    - R4i-SDHC (r4i-sdhc.com)
@@ -54,5 +54,5 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - R4 SDHC RTS (kartrid hitam) (r4isdhc.com) (menggunakan berkas YSMenu M3Real_M3iZero)
 
    Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
-      - Pastikan kamu sudah ada `YSMenu.nds` (diubah nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` pada root kartu microSD flashcard
-1. Buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan nds-bootstrap`, dan ubah `Gunakan nds-bootstrap` ke `Tak`, agar perangkat tegar (firmware) flashcard digunakan dan bukan nds-boostrap
+      - Pastikan sudah ada `YSMenu.nds` (diubah nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` pada root kartu microSD flashcard
+1. Buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan nds-bootstrap`, dan ubah `Gunakan nds-bootstrap` ke `Tak`, agar ROM dijalankan dengan firmware flashcard

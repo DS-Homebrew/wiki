@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: ko-KR
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
+title: 자주 묻는 질문 & 문제 해결하기
 long_title: GodMode9i FAQ & Troubleshooting
 description: FAQ & Troubleshooting for GodMode9i
 ---

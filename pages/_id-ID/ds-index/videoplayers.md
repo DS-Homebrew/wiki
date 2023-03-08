@@ -1,93 +1,93 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
-title: Video Players
-description: Homebrew Video Players for the Nintendo DS(i)
+title: Pemutar Video
+description: Homebrew Pemutar Video untuk Nintendo DS(i)
 ---
 
-# Homebrew Video Players for the Nintendo DS(i)
-This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
+# Homebrew Pemutar Video untuk Nintendo DS(i)
+Halaman ini berisi penjelasan cara kerja tiap-tiap pemutar video yang berfungsi atau masih dikerjakan untuk Nintendo DS dan DSi.
 
-| Player name | Supported containers/Codecs | Support         | Drawbacks                                   | Max FPS |
-| ----------- | --------------------------- | --------------- | ------------------------------------------- | ------- |
-| FastVideoDS | `.fv`, FastVideoDS          | DSi and NDS     | Confetti spam slows down high FPS video.    | 60fps   |
-| Moonshell   | `.dpg`, MPEG1               | Flashcards only | Requires a flashcard to play videos.        | 24fps   |
-| Tuna-ViDS   | `.avi`, XVid                | DSi and NDS     | Can only reach a certain framerate/bitrate. | 15fps   |
-| MPEG4Player | `.mp4`, MPEG-4              | DSi and NDS     | Can only play short videos.                 | 24fps   |
+| Nama pemutar | Wadah/Codec yang didukung | Mendukung      | Kekurangan                                      | Batas FPS |
+| ------------ | ------------------------- | -------------- | ----------------------------------------------- | --------- |
+| FastVideoDS  | `.fv`, FastVideoDS        | DSi dan NDS    | Hamburan konfeti memperlambat video FPS tinggi. | 60fps     |
+| Moonshell    | `.dpg`, MPEG1             | Cuma flashcard | Perlu flashcard untuk memutar video.            | 24fps     |
+| Tuna-ViDS    | `.avi`, XVid              | DSi dan NDS    | Cuma sampai laju bingkai/laju bit rendah.       | 15fps     |
+| MPEG4Player  | `.mp4`, MPEG-4            | DSi dan NDS    | Hanya video pendek saja.                        | 24fps     |
 
-Notes:
-- Actual max FPS is dependent on video content and length.
+Catatan:
+- Batas tinggi FPS sebenarnya tergantung isi dan lamanya video.
 
 ## FastVideoDS
 
-Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
+Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 instructions`, berarti perlu memasang cip CPU terbaru, atau gunakan komputer terbaru.
 {: .alert .alert-warning}
 
 ### Windows
 
-1. Download the [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), and install it
-1. Download the [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Download [FastVideoDS.bat](/assets/files/FastVideoDS.bat) to the same place as the encoder `.exe` file
-1. Drag and drop your video into said `.bat` file
+1. Unduh [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), dan pasang
+1. Unduh [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
+1. Unduh [FastVideoDS.bat](/assets/files/FastVideoDS.bat) ke tempat yang sama dengan berkas `.exe` encoder
+1. Seret dan taruh videonya ke berkas `.bat` tadi
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Setelah menaruh videonya ke kartu SD, sekarang dapat diputar melalui **TW**i**L**ight Menu++.
 
-## Moonshell video conversion (DPG4x)
+## Konversi video Moonshell (DPG4x)
 
-1. Download [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
-1. Open `dpg4x.7z`
-1. Open `dpg4x-2.3.3.0.zip` (3.0-1 gives out an error when opening, for an unknown reason)
-1. Open `dpg4x-2.3.3.0_setup.exe`, and proceed with installation
-1. After installation, open DPG4x
-1. Click the `VIDEO` tab
-1. Tick the `Keep Aspect` option
-1. Set `Video Bitrate` to your choice (higher should improve quality)
-1. Click the `AUDIO` tab
-1. Tick `Normalize Volume`, if your video is a bit quiet
-1. Click the `SUBTITLES` tab
-1. Set `Subtitles Source` to `Disable Subtitles`, as certain subtitle tracks may not display correctly
-1. Click the `MAIN` tab
-1. Click `Add Media` to open your video file(s)
-1. Set `DPG Version` to `4`, if you're using Moonshell v2.x, otherwise set to `3` or below
-1. Set `Quality` to your choice
-1. Click `Start Encoding` to convert the video(s)
+1. Unduh [DPG4x](https://www.gamebrew.org/wiki/DPG4X)
+1. Buka `dpg4x.7z`
+1. Buka `dpg4x-2.3.3.0.zip` (3.0-1 muncul galat saat dibuka, belum tahu karena apa)
+1. Buka `dpg4x-2.3.3.0_setup.exe`, dan lanjutkan ke pemasangan
+1. Setelah pemasangan, buka DPG4x
+1. Pencet tab `VIDEO`
+1. Centang opsi `Keep Aspect`
+1. Atur `Video Bitrate` maunya berapa (lebih tinggi = mutu meningkat)
+1. Pencet tab `AUDIO`
+1. Centang `Normalize Volume`, jika suara videonya kecil
+1. Pencet tab `SUBTITLES`
+1. Atur `Subtitles Source` ke `Disable Subtitles`, karena sulih teks tertentu terkadang ditampilkan salah
+1. Pencet tab `MAIN`
+1. Pencet `Add Media` untuk membuka berkas video
+1. Atur `DPG Version` ke `4`, jika menggunakan Moonshell v2.x; jika tidak maka atur ke `3` ke bawah
+1. Atur `Quality` maunya berapa
+1. Pencet `Start Encoding` untuk mengonversi video
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Setelah menaruh videonya ke kartu SD, sekarang dapat diputar melalui Moonshell.
 
-## TunaViDS Guide
+## Panduan TunaViDS
 
 ### Windows
-First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
+Siapkan video yang ingin diubah. Dianjurkan videonya berukuran 4:3, tapi FFmpeg akan taruh tepi hitam di bagian kosong.
 
-Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of **TW**i**L**ight Menu++.
+Peringatan: Jangan ubah pengaturan ROM Tuna-ViDS, nanti susah dijalankan. Panduan ini beranggapan Anda sudah di **TW**i**L**ight Menu++ versi terkini.
 {: .alert .alert-warning}
 
-Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+Lalu, unduh FFmpeg dari [tautan langsung ini](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) dan ekstrak ke C:\ffmpeg atau tempat yang dapat diakses tanpa hak admin.
 
-You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your console. Slowdowns may occur on busy scenes (confetti, rain, etc).
+Usahakan tetap di zona aman pengaturan jika mengonversi video (10-15fps), nanti videonya akan mengacau konsol. Melambat dapat terjadi pada adegan riuh (ada konfeti, hujan, dll).
 
-To use FFmpeg everywhere, it is recommended to add the directory to your system environment variable path. This may break programs which rely on FFmpeg, so make sure to remove the entry when you're done.
+Untuk menggunakan FFmpeg di mana pun, dianjurkan menambah direktori ke jalur variabel dari lingkungan sistem. Ini dapat mengacau program yang bergantung ke FFmpeg, jadi pastikan entrinya dihapus ketika selesai.
 
-Drag and drop your video into one of these batch files to convert it:
-- [xvid-ds.bat](/assets/files/xvid-ds.bat): Converts to 12FPS video optimal for DS consoles
-- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Converts to 12FPS video optimal for DSi consoles
-- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Converts to 12FPS video optimal for DS consoles with 400% volume increase
-- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Converts to 12FPS video optimal for DSi consoles with 400% volume increase
+Seret dan taruh videonya ke salah satu berkas tumpak untuk dikonversi:
+- [xvid-ds.bat](/assets/files/xvid-ds.bat): Konversi ke video 12FPS yang optimal di konsol DS
+- [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Konversi ke video 12FPS yang optimal di konsol DSi
+- [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Konversi ke video 12FPS yang optimal di konsol DS dengan volume menaik 400%
+- [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Konversi ke video 12FPS yang optimal di konsol DSi dengan volume menaik 400%
 
-If you want, you can change the following in one of the above .bat files:
-- `12` in `-r 12` to a different one between `10` and `15` for a different frame rate
-- `-2` in `scale=256:-2` to your desired vertical resolution, if the video appears distorted
+Jika mau, pengaturan berikut dapat diubah dari salah satu .bat di atas:
+- `12` di `-r 12` ke nomor yang lain antara `10` dan `15` untuk laju bingkai berbeda
+- `-2` di `scale=256:-2` ke ukuran menegak yang diinginkan, jika video terlihat ada distorsi
 
-When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Setelah menaruh videonya ke kartu SD, sekarang dapat diputar melalui **TW**i**L**ight Menu++.
 
-The video will quit to the menu after it is done playing, so if you want to loop videos, you are going to have to paste-repeat it in a video editor then convert it to an xvid avi using this method.
+Video akan ke menu setelah selesai. Jika ingin videonya berulang, harus tempel-dan-ulang videonya di penyunting video lalu konversikan menjadi xvid avi dengan metode ini.
 
 ## MPEG4Player
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
-- [dsmp4-43.bat](/assets/files/dsmp4.bat): For 4:3 videos
-- [dsmp4.bat](/assets/files/dsmp4.bat): For 16:9 videos
+Proses ini sama dengan Tuna-ViDS, tapi yang ini dapat sampai 24fps.
+- [dsmp4-43.bat](/assets/files/dsmp4.bat): Untuk video 4:3
+- [dsmp4.bat](/assets/files/dsmp4.bat): Untuk video 16:9

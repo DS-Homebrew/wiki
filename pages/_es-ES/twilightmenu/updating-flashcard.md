@@ -20,7 +20,7 @@ Si estás intentando actualizar desde una versión anterior a la 21.0.0, por fav
 1. Copia la carpeta `_nds` a la carpeta raíz de tu tarjeta microSD, y reemplaza los archivos existentes
    - Si usas macOS, asegurate de **copiar** y `unificar`, no `reemplazar`
 1. Copia el archivo `BOOT.NDS` a la carpeta raíz de tu tarjeta microSD, y reemplaza cualquier archivo existente
-1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
+1. Si TWLMenu++ no inicia después de actualizar, actualiza los archivos de inicio automático también
 
 ### Más pasos desde la SD de la DSi/3DS
 

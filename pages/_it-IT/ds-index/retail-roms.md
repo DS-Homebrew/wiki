@@ -125,7 +125,7 @@ The last letter of the title ID itself represents the language of the title. Usi
 - U - Inglese australiano
 - V - Inglese britannico
 - W - Altre lingue (variabile)
-- X - Altre lingue (Varia)
+- X - Altre lingue (variabile)
 - Y - Altre lingue (variabile)
 - Z - Altre lingue (variabile)
 

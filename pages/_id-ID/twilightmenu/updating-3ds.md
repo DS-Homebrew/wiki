@@ -12,17 +12,17 @@ tabs:
     manual: Manual
 ---
 
-Jika memperbarui dari versi yang lebih lawas dari v6.8.3, mohon pindahkan dulu berkas `.sav` permainan DS ke folder baru bernama `saves`, folder `saves` harus di tempat yang sama dengan ROM DS.
+Jika memperbarui dari versi lebih lawas dari v6.8.3, mohon pindahkan dulu berkas `.sav` permainan DS ke folder baru bernama `saves`; tempat folder `saves` harus sama dengan ROM DS.
 {:.alert .alert-info}
 
-Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`, tempat folder `saves` harus sama dengan ROM DSiWare.
+Jika memperbarui dari versi lebih lawas dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`; tempat folder `saves` harus sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
 1. Buka Universal-Updater
-   - Jika belum punya, ikuti arahan [pemasangannya](installing-3ds)
-1. Cari TWiLight Menu++ di kisi (grid) aplikasi, gunakan tab ketiga pada papan sisi (sidebar) jika kesusahan mencari
-1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di papan sisi (sidebar) dan pilih `TWiLight Menu++` untuk memasangnya
+   - Jika belum punya, ikuti arahan [pemasangan](installing-3ds) ini
+1. Cari TWiLight Menu++ di kisi layar aplikasi, gunakan tab ketiga pada bilah sisi jika kesusahan mencari
+1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
    - Ini akan lumayan lama
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
@@ -31,10 +31,10 @@ Jika memperbarui dari versi yang lebih lawas dari v21.0.0, mohon pindahkan dulu 
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke root kartu SD, timpa berkas yang ada
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+   - Untuk macOS, pastikan harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)
 1. Salin berkas `BOOT.NDS` ke root kartu SD, timpa berkas yang ada
-1. Salin kedua berkas `.cia` ke root kartu SD, timpa berkas yang ada
-1. Di konsol 3DS, pasang dua .cia tadi dengan FBI
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. Di konsol 3DS, pasang CIA tadi dengan FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

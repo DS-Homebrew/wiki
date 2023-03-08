@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: twilightmenu
 category: customization
@@ -15,7 +15,7 @@ Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom back
 - The file must be less than or equal to 15,472 bytes
 - GIFs with more than 31 colors require specially made palettes to prevent breaking the text
 
-### Installing
+### Установка
 1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
 1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
 1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want

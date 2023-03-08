@@ -16,12 +16,12 @@ Ez az oldal részletesebb szabályokat tartalmaz, mint ami az [#info-and-rules](
 - A szabály emlékeztetők rendben vannak, addig amíg tiszteletteljes marad
 - Ha tudod, hogy ki készítette, írd be a szerző(k)nek, amikor elküldesz valamit (kivéve, ha az elküldött munka egyébként is tartalmazza a szerzőt)
 
-### 2. Follow standards set in project-development servers
+### 2. Kövesd a standardokat, amit a projekt fejlesztő szervereken lettek létrehozva
 
-- Asking to ask is not only ironic, but defeats the point of having a help channel such as #nds-help, where all help questions are intended to be directed towards
-- Arbitrary release dates aren't part of our schedule to publish high quality tested applications, and expecting them to be pre-determined/ready on demand interferes with our release schedule. Those not wanting to be constrained by these limitations should instead use nightly builds if the project offers it
-- Handholding is not helping; users are expected to do research on the subject matter, whether it's by reading the pinned messages/#useful-resources or using a search engine to find links
-   - Overlooking this rule for legitimate reasons is allowed, at moderators decision on what is considered legitimate
+- Kérdést kérni nem csak ironikus, de meghiúsítja az értelmét az olyan segítő csatornáknak, mint az #nds-help, ahova a segítség kéréseknek irányulnia kellene
+- A tetszőleges kiadási dátumok nem részei a magas színvonalú tesztelt alkalmazások közzétételére vonatkozó ütemtervünknek, és az, hogy előre meghatározott/megrendelésre elő álljanak, zavarja a kiadási ütemtervünket. Akik nem akarják, hogy ezek a korlátozások korlátozzák őket, inkább használjanak éjszakai buildeket, ha egy projektnél ez elérhető
+- A kézfogva vezetés nem segítség; a felhasználóktól elvárt, hogy kutassanak a témák után, történjen ez akár a kitűzött üzenetek/#useful-resources elolvasásával, vagy akár egy keresőmotor segítségével a linkek megkeresése
+   - A szabály figyelmen kívül hagyása jogos okokból megengedett, a moderátorok döntése alapján, hogy mi tekinthető jogosnak
 
 ### 3. Tarts pozitív környezetet a szerveren
 

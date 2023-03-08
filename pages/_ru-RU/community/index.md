@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: community
 title: Community

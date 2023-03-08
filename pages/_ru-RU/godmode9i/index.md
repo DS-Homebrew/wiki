@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: ru-RU
 layout: wiki
 section: godmode9i
 title: GodMode9i

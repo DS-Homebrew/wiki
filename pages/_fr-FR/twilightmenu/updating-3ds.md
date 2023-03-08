@@ -33,8 +33,8 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 1. Copiez le dossier `_nds` à la racine de votre carte SD, en remplaçant tous les fichiers existants
    - Si vous utilisez macOS, assurez-vous de **Copier** et `Fusionner`, ne pas `Remplacer`
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD, en remplaçant tous les fichiers existants
-1. Copiez les deux fichiers `.cia` à la racine de votre carte SD, en remplaçant tout fichier existant
-1. Sur votre 3DS, installez les deux fichiers CIA avec FBI
+1. Copiez le fichier `.cia` à la racine de votre carte SD, en remplaçant tout fichier existant
+1. Sur votre 3DS, installez le CIA avec FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

@@ -24,18 +24,18 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 | DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
-| Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
+| ゲームギア                   | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                           |
-| Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
-| Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
+| インテレビジョン                | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |
+| マスターシステム                | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`               |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                               |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                |
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
-| Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
-| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
+| SORD M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
+| スーパーファミコン               | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
 | Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 
@@ -46,9 +46,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### DSの他のエミュレータ
 
-| Format  | Loader         | Extensions | Save file |
-| ------- | -------------- | ---------- | --------- |
-| Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
+| 形式      | ローダー           | 拡張子    | セーブファイル   |
+| ------- | -------------- | ------ | --------- |
+| Neo Geo | [neoDS][neods] | `.neo` | (unknown) |
 
 ## 特定のエミュレータに関する注意
 ### RAMディスク

@@ -15,11 +15,11 @@ tabs:
 {% capture tab-windows %}
 1. Descarga la última versión de [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
 1. Extrae `TwilightBoxart-Windows-UX.zip` y abre `TwilightBoxart.exe`
-1. Pincha en `Detect SD`
-   - Si no encuentra la tarjeta SD correcta pincha en `Browse...` y selecciónala
+1. Haz clic en `Detect SD`
+   - Si no encuentra la tarjeta SD correcta, haz clic en `Browse...` y selecciónala
 1. Cambia el tamaño, borde, y demás opciones a tu gusto
-1. Pincha en `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Haz clic en `Start`
+1. Asegúrate de que hayas activado la opción para mostrar carátulas en los ajustes de TWiLight Menu++
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -34,23 +34,23 @@ tabs:
 1. Ejecuta `chmod +x TwilightBoxart.CLI`
 1. Ejecuta `./TwilightBoxart.CLI`
 1. Escribe `Yes` si muestra la ruta correcta de la SD
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Asegúrate de que hayas activado la opción para mostrar carátulas en los ajustes de TWiLight Menu++
 {% endcapture %}
 {% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
 
 {% capture tab-manual %}
 1. Descarga un pack con imágenes en png de [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Extrae los archivos .png en `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Asegúrate de que hayas activado la opción para mostrar carátulas en los ajustes de TWiLight Menu++
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
 {% assign tabs = tab-windows | concat: tab-macos_linux | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`.
-- Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`)
-- Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143
-- If your **TW**i**L**ight Menu++ configuration has Box Art viewing set to `Cached`, the image size must be 44 KiB or below. You can use a tool like [tinypng](https://tinypng.com/) to compress the images to an acceptable size
+**Para añadir tus propias carátulas:** Colócalas en el directorio `sd:/_nds/TWiLightMenu/boxart`.
+- Pueden tener como nombre el TID del juego (ej.: `ASME.PNG`) o el nombre del archivo (ej.: `SM64DS.nds.png`)
+- Las imágenes deben tener un formato `.png`, y un tamaño entre 128x115 y 208x143 píxeles
+- Si en los ajustes de **TW**i**L**ight Menu++, la opción de mostrar Arte/Carátulas está puesta en `En Caché`, el tamaño de las imágenes debe ser de 44KiB o menos. Puedes usar una herramienta como [tinypng](https://tinypng.com/) para comprimir las imágenes a un tamaño adecuado
 
-Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
+También puedes descargar carátulas de forma individual desde GameTDB, en la categoría **S Covers (png)**.

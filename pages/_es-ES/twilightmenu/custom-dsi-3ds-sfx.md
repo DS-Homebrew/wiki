@@ -7,69 +7,69 @@ title: Skins para DSi/3DS - Efectos de sonido personalizados
 description: Cómo usar música de fondo y efectos de sonido personalizados en las skins de DSi y 3DS de TWiLight Menu++
 ---
 
-TWiLightMenu permite usar sonidos personalizados en los temas. Coloca los archivos de sonido en la subcarpeta `sound` de tu tema. Por ejemplo, para el tema `white`, pondrías los archivos en `themes/white/sound/sfx.bin` y `themes/white/sound/bgm.pcm.raw`, respectivamente. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
+TWiLightMenu permite usar sonidos personalizados en los temas. Coloca los archivos de sonido en la subcarpeta `sound` de tu tema. Por ejemplo, para el tema `white`, pondrías los archivos en `themes/white/sound/sfx.bin` y `themes/white/sound/bgm.pcm.raw`, respectivamente. Ambos archivos son opcionales, si `bmg.pcm.raw` no está, se usará la música por defecto. Lo mismo ocurrirá con los efectos de sonido si `sfx.bin` falta también.
 
 En esta guía se asume que tienes instalado devkitPro con mmutil. Puedes descargarlo en la página de [devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Banco de sonidos
-The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
+El banco de efectos de sonido (`sfx.bin`) contiene los efectos de sonido, como el de selección, cambio de página, etc.
 
 | Archivo     | Descripción                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------- |
 | startup.wav | Suena al inicio. Ve a la sección de [Sonido de inicio](#startup-sound) para más detalles |
 | back.wav    | Volver                                                                                   |
 | launch.wav  | Suena al abrir un juego                                                                  |
-| select.wav  | Played when moving the cursor in the per-game settings and select menu                   |
+| select.wav  | Suena al mover el cursor en los ajustes por juego y en el menú select                    |
 | wrong.wav   | Suena al llegar al final de la página                                                    |
 | switch.wav  | Suena al cambiar de página                                                               |
 | stop.wav    | Suena en el Tema DSi cuando el cursor deja de moverse                                    |
 
-All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
+Todos los archivos listados arriba son requeridos para construir un banco de efectos de sonido personalizado. Si quieres que un sonido sea mudo, puedes usar un archivo de audio que no tenga sonido. El formato `.wav` es obligatorio y la codificación *debe* ser PCM.
 
-[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
+[Este archivo](/assets/files/sfx-example.zip) incluye los sonidos usados en los temas por DSi y 3DS con las skins por defecto, junto con el archivo makefile, requerido para construir un archivo sfx.bin válido. Siéntete libre de editar y cambiar los archivos de sonido para crear un banco de efectos de sonido personalizado.
 
-To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+Para construir un banco de efectos de sonido personalizado, abre tu terminal (o la línea de commandos si estás usando Windows), cambia el directorio actual (con el comando `cd`) a la carpeta donde se encuentra el archivo `Makefile`, y luego ejecuta el comando `make`. Obtendrás como resultado un archivo `sfx.bin` que puede ser copiado a la subcarpeta `sound` en la carpeta de tu skin personalizada. **Ese archivo debe ser más pequeño que 512000 bytes** (o sea, 512 kB). Si el archivo es más grande, provocará bloqueos o que algunos sonidos no se reproduzcan al completo.
 
 ### Sonido de inicio
-While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+Mientras que los otros sonidos funcionarán con cualquier archivo WAV con codificación PCM, el sonido de inicio debe tener un formato específico para funcionar correctamente, de otra forma, habrá un silencio entre que el sonido de inicio se acaba y empieza la música de fondo.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+El archivo startup.wav debe ser de **16 bits y 16 kHz**. Puedes usar, por ejemplo, [Audacity](https://www.audacityteam.org/download/) para convertir el archivo a este formato. Una vez tengas el archivo cargado en Audacity, cambia la **Frecuencia (Hz)** a **16000**, luego presiona **Shift+M**, y cambia el **Formato** a **16 bits, PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Si tu archivo de sonido está en Estéreo, deberías también ir a **Pistas > Mezclar > Mezclar pista estéreo a mono**.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+Debes establecer `PlayStartupJingle=1` en el archivo `theme.ini` de tu skin para que el sonido de inicio se reproduzca.
 
 
 ## Música del menú
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
+La música del menú debe ser un archivo PCM de **16 bits a 16kHz en Mono** Más abajo hay dos métodos para convertir archivos de audio al formato adecuado.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Al contrario que el archivo sfx.bin, *bgm.pcm.raw* puede ser tan grande como quieras.
 
 ### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
+La forma más simple de convertir música para ser usada en TWiLight Menu++, es ejecutar este comando de [ffmeg](https://ffmpeg.org) en una terminal o línea de comandos:
 
 ```bash
-ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+ffmpeg -i [tu archivo] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
 ```
 
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Reemplaza `[tu archivo]` con el nombre del archivo que quieres convertir. También puedes simplemente arrastrar el archivo a convertir en la ventana del terminal o línea de comandos cuando el cursor está en el lugar correcto.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+Si no quieres usar el comando, también puedes convertir al formato correcto usando [Audacity](https://www.audacityteam.org/download/).
 
-To convert the audio:
+Para convertir el audio:
 1. Abre el archivo con Audacity
-1. Si tu archivo es estéreo, pincha en la canción y selecciona `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Cambia el `Project Rate (Hz)` en la parte inferior izquierda a `16000`
+1. Si tu archivo es estéreo, haz clic en la canción y selecciona `Pista` > `Mezclar` > `Mezclar pista estéreo a mono`
+1. Cambia la `Frecuencia (Hz)` en la parte inferior izquierda a `16000`
 
-To export in the correct format:
-1. Selecciona `File` > `Export` > `Export Audio...`
-1. Pon `File Type` a `Other uncompressed files`
-1. Pon `Header` a `RAW (header-less)`
-1. Pon `Encoding` en `Signed 16-bit PCM`
-1. Pon como nombre `bgm.pcm.raw` y pincha en `Save`
-1. Pincha `OK` en la edición de metadatos
+Para exportar en el formato correcto:
+1. Selecciona `Archivo` > `Exportar` > `Exportar audio...`
+1. Establece la opción `Tipo` a `Otros archivos sin comprimir`
+1. Establece la opción `Cabecera` a `RAW (header-less)`
+1. Establece la opción `Codificación` a `Signed 16-bit PCM`
+1. Nombra el archivo `bgm.pcm.raw` y haz clic en `Guardar`
+1. Haz clic en `Aceptar` en la ventana de edición de metadatos
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Ahora tienes un archivo `bgm.pcm.raw` que puede ser copiado a la subcarpeta `sound` en la carpeta de tu skin personalizada.
 
- You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
+ Deberás establecer la opción `Música en el Tema DSi/3DS` en los ajustes de TWiLight Menu++ a "Tema" para que tu música personalizada suene estando en el menú.

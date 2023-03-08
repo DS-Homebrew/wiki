@@ -1,29 +1,29 @@
 ---
-lang: en-US
+lang: ja-JP
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: DS(i) モードハッキング情報
+description: DS⁽ⁱ⁾ Mode Hacking Discord サーバーの情報
 ---
 
-This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. This server also has a focus on other things such as creating ROM hacks, playing DS games, and TWL_FIRM modding on 3DS.
+これは、フラッシュカードのセットアップから自作ソフトの開発まで、ニンテンドーDS(i)のモッディングと自作に関連するすべてのことを専門とするDiscordサーバーです. このサーバーは、ROMハックの作成、DSゲームの再生、3DSでのTWL_FIRMの改造など、他のものにも焦点を当てています。
 
-## Discord Channels
-There are plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations.
+## Discordチャンネル
+さまざまなトピックのチャンネルがたくさんありますので、適切なチャンネルを使用していることを確認してください。他の人が関係ない会話がないようにしてください。
 
-Always remember to check the channel topic and pinned messages before talking in a channel.
+チャンネルで話す前に、チャンネルのトピックとピン留めされたメッセージを常に確認することを忘れないでください。
 {:.alert .alert-info}
 
-**Important**
-- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](discord-rules) on this wiki
-- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server, such as other servers or this wiki
-- [#member-logs][member-logs] - Shows user joins and server boosts
+**重要**
+- [#info-and-rules][info-and-rules] - このサーバーのルールと情報についての簡単な情報を提供します。 ルールの詳細については、本Wikiの [ルールページ](discord-rules) をご覧ください。
+- [#useful-resources][useful-resources] - 他のサーバーやこのwikiなど、Discordサーバー以外の有用なリソースへのリンク
+- [#member-logs][member-logs] - ユーザーの参加とサーバーブーストを表示します。
 
-**Server Hub**
-- [#announcements][announcements] - Information on new updates to homebrew, as well as general announcements related to the server
-- [#github-updates][github-updates] - Feed of all contributions to and discussions in DS-Homebrew project GitHub repositories
-- [#subreddit-feed][subreddit-feed] - Updates for new posts in the [Subreddit](https://reddit.com/r/NDSBrew)
+**サーバーハブ**
+- [#announcements][announcements] - Homebrewの新しい更新情報、およびサーバーに関する一般的なお知らせ
+- [#github-updates][github-updates] - DS-Homebrew プロジェクトの GitHub リポジトリへのすべての貢献とディスカッションのフィード。
+- [#subreddit-feed][subreddit-feed] - [Subreddit](https://reddit.com/r/NDSBrew)の新しい投稿のための更新。
 - [#community-meta][community-meta] - For giving feedback about the community, including the Discord server, the subreddit, and the [GitHub organization](http://github.com/DS-Homebrew)
 
 **Nintendo DS⁽ⁱ⁾ Modding**
@@ -43,7 +43,7 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. For help, use #nds-help
 - [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
 
-**Community**
+**コミュニティ**
 - [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
 - [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
 - [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
@@ -76,7 +76,7 @@ If you have broken the rules, you may receive these roles from a moderator.
 - No VC - Removes access to the voice channel
 - Muted - Disables the ability to send messages
 
-### Other
+### その他
 These roles are only given for very specific purposes by moderators.
 
 - Bots - Used to mark the Discord bots in the server

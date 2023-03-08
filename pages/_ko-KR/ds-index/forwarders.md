@@ -33,7 +33,7 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 {:.alert .alert-info}
 
 1. FBI를 열고 `Remote Install`을 선택, 그 후에 `Scan QR Code`를 선택해 주세요.
-1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치해 주세요.<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치해 주세요.<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. FBI를 끝내고, HOME Menu에서부터 Universal-Updater를 열어 주세요.
 1. NDSForwarder를 검색, 설치해 주세요.
 1. NDSForwarder의 준비가 완료되었습니다.
@@ -65,7 +65,7 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
-1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
 1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
@@ -75,7 +75,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
 1. Press <kbd class="face">A</kbd> on `Install`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. 당신의 게임 파일 위치에 들어가서, <kbd class="face">A</kbd>를 눌러 주세요.
 1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
 
 {% endcapture %}
@@ -83,7 +83,7 @@ If you already have TWiLight Menu++, skip to the next section.
 
 {% capture tab-flashcard %}
 
-### Requirements
+### 준비물
 
 - **DSi users:**
    - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
@@ -176,7 +176,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}
 
-1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. 최신 버전의 [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)를 다운로드 하세요.
 1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
 1. Drag the `apfix.pck` file to `fat:/_nds/ntr-forwarder/`
 

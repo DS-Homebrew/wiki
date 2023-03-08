@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: faq
 section: gbarunner2
 title: FAQ & Troubleshooting

@@ -3,22 +3,22 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: Modifikasi Keras (Hardmod)
-description: Cara memodifikasi keras Nintendo DSi
+title: Oprek Keras
+description: Cara mengoprek keras Nintendo DSi
 tabs:
   - 
     windows: Windows
     other: macOS/Linux
 ---
 
-Memodifikasi keras (Hardmod) adalah ketika kamu mensolder fisik papan induk konsol Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
+Mengoprek keras (hardmod) adalah ketika papan induk konsol Nintendo DSi disolder ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
 [![Papan induk DS Original dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
+Untuk mengoprek keras Nintendo DSi/DSi XL (LL) dibutuhkan:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
    - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
    - Adaptor kartu SD ke microSD
@@ -34,7 +34,7 @@ Untuk memodifikasi keras Nintendo DSi/DSi XL (LL) dibutuhkan:
 #### Pin-out DSi XL sisi B
 [![Pin-out DSi XL sisi B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
-- Kamu perlu mensolder titik (point) pada papan induk ke adaptor kartu microSD
+- Diharuskan mampu menyolder titik pada papan induk ke adaptor kartu microSD
    - CMD ke pin 2
    - GND ke pin 3 dan 6
    - CLK ke pin 5

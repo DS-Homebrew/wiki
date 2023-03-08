@@ -20,7 +20,7 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v21
 1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker, en remplaçant tous les fichiers existants
    - Si vous utilisez macOS, assurez-vous de **Copier** et `Fusionner`, ne pas `Remplacer`
 1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker, en remplaçant tout fichier existant
-1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
+1. Si TWLMenu++ ne démarre pas après la mise à jour, mettez également à jour le(s) fichier(s) de démarrage automatique
 
 ### Étapes supplémentaires pour la carte SD DSi/3DS
 

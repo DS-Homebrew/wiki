@@ -2,7 +2,7 @@
 lang: pl-PL
 layout: wiki
 section: nds-bootstrap
-title: Controls
+title: Sterowanie
 long_title: nds-bootstrap Controls
 description: Button controls for nds-bootstrap
 ---

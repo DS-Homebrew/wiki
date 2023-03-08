@@ -115,7 +115,7 @@ When exporting, it's recommended to check the `Do not write color space informat
 ### DS Classic Menu textures (`quickmenu` folder)
 These must be PNG files.
 
-| Texture    | Opis                                                |
+| Tekstura   | Opis                                                |
 | ---------- | --------------------------------------------------- |
 | bottombg   | Background for the bottom screen                    |
 | phat_topbg | Background for the top screen on DS Phat            |
@@ -124,7 +124,7 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Texture          | Description                                             |
+| Tekstura         | Opis                                                    |
 | ---------------- | ------------------------------------------------------- |
 | Lshoulder        | The left shoulder                                       |
 | Lshoulder_greyed | The left shoulder when there are no pages to the left   |
@@ -140,13 +140,13 @@ Volume textures are only displayed in DSi Mode.
 These must be PNG files. Transparency is supported, however only 100% transparency will work.
 
 
-| Texture | Description/Notes            |
-| ------- | ---------------------------- |
-| volume0 | 0 is muted, 4 is full volume |
-| volume1 |                              |
-| volume2 |                              |
-| volume3 |                              |
-| volume4 |                              |
+| Tekstura | Description/Notes            |
+| -------- | ---------------------------- |
+| volume0  | 0 is muted, 4 is full volume |
+| volume1  |                              |
+| volume2  |                              |
+| volume3  |                              |
+| volume4  |                              |
 
 ## Theme configuration (`theme.ini` file)
 You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger graphics or different layouts. For true/false options, `0` is false, and `1` is true. Options with a blank default value for a theme are unused in that theme.

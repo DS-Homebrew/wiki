@@ -1,8 +1,8 @@
 ---
-lang: en-US
+lang: es-ES
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
+title: Preguntas frecuentes y soluciones
 long_title: hiyaCFW FAQ & Troubleshooting
 description: FAQ & Troubleshooting for hiyaCFW
 ---

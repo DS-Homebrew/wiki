@@ -9,7 +9,7 @@ tabs:
   - 
     tab-3ds-sd-card: 3DS SD card
     tab-dsi-sd-card: DSi SD card
-    tab-flashcard: Flashcard
+    tab-flashcard: Minneskort
 ---
 
 Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -75,7 +75,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
 1. Press <kbd class="face">A</kbd> on `Install`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Navigera till ditt spels plats och tryck press <kbd class="face">A</kbd>
 1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
 
 {% endcapture %}
@@ -151,7 +151,7 @@ Incompatible:
    - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
-### Part 1: Getting started
+### Del 1: Komma igång
 1. Download one of these packs:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
@@ -171,7 +171,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
    - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
    - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
+### Del 2: Få AP:s åtgärdsfiler från TWiLight Menu++
 
 If you already have TWiLight Menu++, skip to the next section.
 {:.alert .alert-info}

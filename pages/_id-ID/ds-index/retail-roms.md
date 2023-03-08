@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
@@ -21,7 +21,7 @@ Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another 
 ### Berkas-berkas simpanan (save)
 Cartridge Nintendo DS dikenali punya 4 jenis simpanan (save):
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca Dapat Ditata Olah Dihapus Secara Elektris)
+- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca Tertataolahkan Terhapuskan Elektris)
 - FLASH
 - FRAM - Ferroelectric Random-Access Memory (Memori Akses Acak Feroelektrik)
 - NAND - NOT-AND
@@ -104,7 +104,7 @@ The last letter of the title ID itself represents the language of the title. Usi
 
 **X** mewakili berikut:
 
-- A - Sedunia (bukan berarti hanya satu yang menggunakan)
+- A - Sedunia (bukan berarti hanya digunakan satu saja)
 - C - Bahasa Cina (Sederhana)
 - D - Bahasa Jerman
 - E - Bahasa Inggris Amerika

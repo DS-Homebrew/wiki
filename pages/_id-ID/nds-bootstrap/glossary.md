@@ -22,16 +22,16 @@ Membuat ROM dijalankan di mode terpilih. Ini juga memengaruhi Cepat CPU ARM9 dan
 Mengubah kecepatan yang dijalankan CPU ARM9. ROM yang di Mode DS akan berjalan 67 Mhz (NTR) secara bawaan. Ini dapat diubah ke 133 Mhz (TWL) untuk mengurangi lambat, tapi juga memunculkan isu. ROM yang di Mode DSi hanya dapat diatur ke 133 Mhz (TWL).
 
 ### Mode VRAM
-Mengubah mode Video Random Access Memory (VRAM) dari sistem. ROM yang di Mode DS akan menggunakan Mode VRAM DS secara bawaan. Ini dapat diubah ke Mode VRAM DSi tapi tidak akan ada perubahan dan dapat ada masalah visual. ROM yang di Mode DSi hanya dapat diatur ke Mode VRAM DSi.
+Mengubah mode Video Random Access Memory (VRAM) dari sistem. ROM yang di Mode DS akan menggunakan Mode VRAM DS secara bawaan. Ini dapat diubah ke Mode VRAM DSi tapi tidak akan ada perubahan dan dapat bermasalah visual. ROM yang di Mode DSi hanya dapat diatur ke Mode VRAM DSi.
 
 ### DMA Bacaan Kartu
 Menyalakan penggunaan Direct Memory Access (DMA) untuk bacaan kartu. Jika pengaturan ini dinyalakan dapat mempercepat ROM, tapi akan ada isu. Untuk info lebih teknis dapat ditemukan di [Indeks DS](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
 ### Perl. ruang ROM di RAM
-Jika permainannya cukup kecil, nanti dapat dimuat ke RAM sistem untuk mempercepat pemuatan. Menyalakan opsi ini akan menambah atau memperluas batas ukuran ROM, tapi bisa jadi membuat kacau.
+Jika permainannya cukup kecil, nanti dapat dimuat ke RAM sistem untuk mempercepat pemuatan. Menyalakan opsi ini akan memperluas batas ukuran ROM, tapi kemungkinan membuat kacau.
 
 ### Mulai Langsung
-Hanya muncul untuk ROM homebrew. Jika diatur ke Nyala, maka ROM tidak akan diluncurkan dengan nds-bootstrap. Ini berguna untuk ROM homebrew yang tidak perlu/berfungsi dengan nds-bootstrap.
+Hanya muncul untuk ROM homebrew. Jika diatur ke Nyala, maka ROM tidak akan diluncurkan dengan nds-bootstrap. Ini berguna untuk ROM homebrew yang tidak butuh/berfungsi dengan nds-bootstrap.
 
 ### Bootstrap
 Mengubah cara jalan ROM apakah dengan build nds-boostrap Release atau Nightly. Informasi untuk build Nightly dapat ditemukan di [FAQ nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)

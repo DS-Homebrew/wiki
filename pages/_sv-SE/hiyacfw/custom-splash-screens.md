@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: sv-SE
 layout: wiki
 section: hiyacfw
 title: Custom Splash Screens

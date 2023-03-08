@@ -33,8 +33,8 @@ crwdns24044:0{% capture tab-manual %}crwdne24044:0
 1. crwdns29996:0crwdne29996:0
    - crwdns33232:0crwdne33232:0
 1. crwdns30000:0crwdne30000:0
-1. crwdns30002:0crwdne30002:0
-1. crwdns20000:0crwdne20000:0
+1. crwdns36533:0crwdne36533:0
+1. crwdns36535:0crwdne36535:0
 crwdns20002:0{% endcapture %}crwdne20002:0
 crwdns20004:0crwdne20004:0
 

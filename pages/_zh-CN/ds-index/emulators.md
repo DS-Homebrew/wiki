@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 layout: wiki
 section: ds-index
 category: reference
@@ -14,7 +14,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Format                  | Loader                                           | Extensions                             | Save file                                      |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
+| 雅达利2600                 | [StellaDS][stellads]                             | `.a26`                                 |                                                |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
 | Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
@@ -35,7 +35,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                |
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                |
-| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
+| SFC                     | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                               |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                            |
 | Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                |
 

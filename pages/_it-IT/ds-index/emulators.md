@@ -23,7 +23,7 @@ Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione co
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[nome rom].pub`, `saves/[nome rom].prv` |
 | DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                |
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                               |
-| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], nativo[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                               |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                            |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[nome rom].srm`[^6]                           |
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                |

@@ -33,8 +33,8 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 1. Copy the `_nds` folder to your SD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
-1. Copy the two `.cia` files to your SD card root, replacing any existing files
-1. Na swoim 3DS zainstaluj dwa CIA w FBI
+1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. On your 3DS, install the CIA with FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

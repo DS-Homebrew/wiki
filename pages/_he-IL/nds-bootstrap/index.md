@@ -10,6 +10,6 @@ description: מידע על שימוש בnds-bootstrap
 
 It also has a sub-project where it can run old homebrew meant for flashcards on a Nintendo DSi/3DS SD card.
 
-- [Compatibility List](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=sharing)
+- [רשימת תאימות](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/edit?usp=sharing)
   - For edit access, press `View only` and then `Request edit access`.
 - [Crowdin](https://crowdin.com/project/nds-bootstrap)
