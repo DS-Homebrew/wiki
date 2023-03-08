@@ -37,6 +37,7 @@ description: DS(i) Games that have special properties
       - Clubhouse Games Express: Card Classics
       - Clubhouse Games Express: Family Favorites
       - Clubhouse Games Express: Strategy Pack
+- Coropata
 - Dragon's Lair
    - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
