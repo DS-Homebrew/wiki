@@ -407,8 +407,12 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
     - Geometry Wars: Galaxies (Wii)
 - Jam with the Band
     - Live Channel
+- Kuizu Ongaku Nojika (DSiWare)
+    - Wii title unknown
 - My Word Coach (DS)
     - My Word Coach (Wii)
+- Odekake! Earth Seeker (DSiWare)
+    - Earth Seeker (Wii)
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum
