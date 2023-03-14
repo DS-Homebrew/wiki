@@ -46,7 +46,7 @@ Unlike sfx.bin, there is no size limit to `bgm.pcm.raw`.
 The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
 ```bash
-ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+ffmpeg -i [input file] -acodec adpcm_ima_wav bgm.wav
 ```
 
 Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
@@ -60,11 +60,9 @@ To convert the audio:
 1. Change the `Project Rate (Hz)` in the bottom left to `16000`
 
 To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Select `File` > `Export` > `Export as WAV`
+1. Set `Encoding` to `IMA ADPCM`
+1. Set the output name to `bgm.wav` and click `Save`
 1. Click `OK` to the metadata editing
 
 ---
