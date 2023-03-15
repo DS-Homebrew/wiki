@@ -75,6 +75,10 @@ description: DS(i) Games that have special properties
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
    - Icon is animated
+- The Price Is Right: 2010 Edition
+   - DSiWare version called "The Price Is Right"
+   - Some files are compressed for the game to fit within the DSiWare size limit
+   - Some minigames are removed
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
@@ -131,6 +135,10 @@ Supports Wi-Fi (WPA 1/2 included):
      - Uses cloneboot for Multiplayer
 - Metal Torrent
 - Paper Airplane Chase (Japan)
+- Pocket Pack: Strategy Games
+     - Uses cloneboot for Multiplayer
+- Pocket Pack: Words & Numbers
+     - Uses cloneboot for Multiplayer
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
