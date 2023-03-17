@@ -3,31 +3,31 @@ lang: es-ES
 layout: wiki
 section: ds-index
 category: reference
-title: Nintendo DSi / Nintendo 3DS TWL_FIRM
-description: Acerca el TWL_FIRM de Nintendo DSi y Nintendo 3DS
+title: TWL_FIRM en Nintendo DSi y Nintendo 3DS
+description: Acerca de TWL_FIRM en Nintendo DSi y Nintendo 3DS
 ---
 
-### Preparando el CFW
-The main benefit of modding your DSi and 3DS families of systems is that you can unlock more possibilities with your consoles. La instalación de firmware personalizado es bastante sencilla y, en la mayoría de los casos, todo lo que necesita es una tarjeta (micro)SD. Here are the best of guides for you to follow, with step-by-step instructions:
+### Preparando el firmware personalizado
+La ventaja principal de modificar las consolas de la familia de la Nintendo DSi y Nintendo 3DS, es que puedes desbloquear más posibilidades con ellas. Instalar firmware personalizado es bastante fácil, y en la mayoría de los casos, una tarjeta SD o microSD es todo lo que necesitas. Aquí tienes las mejores guías que puedes seguir, con instrucciones paso a paso:
 
-- [Guía de Hackeo de 3DS](https://3ds.hacks.guide)
+- [Guía de modificación de 3DS](https://3ds.hacks.guide)
    - Comando de Lightning: `mod 3ds`
-   - TWLHelper command: `guide 3ds`
-   - Kurisu command: `guide 3ds`
-- [Guía de Hackeo de DSi](https://dsi.cfw.guide)
-   - Lightning command: `mod dsi`
-   - TWLHelper command: `guide dsi`
-   - Kurisu command: `guide dsi`
+   - Comando de TWLHelper: `guide 3ds`
+   - Comando de Kurisu `guide 3ds`
+- [Guía de modificación de DSi](https://dsi.cfw.guide)
+   - Comando de Lightning: `mod dsi`
+   - Comando de TWLHelper: `guide dsi`
+   - Comando de Kurisu: `guide dsi`
 
-### Frecuencias de CPU
-The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with a 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, they will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
+### Velocidad de CPU
+La Nintendo DS contaba con un procesador de 67MHz en el 2004, y la DSi con un procesador de 133HMz cinco años después. La mayoría de juegos en el catálogo de la Nintendo DS fueron creados antes de que saliese la Nintendo DSi, y por lo tanto solo contaban con el procesador de 67MHz. Algunas aplicaciones están atadas a esa velocidad de reloj, y como resultado, no funcionarán correctamente con una velocidad mayot. Sin embargo, la mayoría de juegos pueden sacar ventaja de esa velocidad superior.
 
-nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work properly with the higher clock speed. Eso está en la propia aplicación, y que algunas aplicaciones no funcionen con una mayor velocidad de reloj NO es un fallo de nds-bootstrap.
+nds-bootstrap cuenta con la opción de cambiar la velocidad de la CPU al modo TWL, pero no hará que las ROMs que no funcionen en esta velocidad lo hagan milagrosamente. Eso depende de la aplicación en sí, y que algunas aplicaciones no funcionen con una velocidad de reloj alta NO es un fallo de nds-bootstrap.
 
-### Nintendo DSi Menu
-In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
+### Menú Nintendo DSi
+En la versión 1.4.0, no se revisan las firmas RSA de la lista admitida de cartuchos. Esta vulnerabilidad se puede explotar, lo que permite acceder al procesador ARM9. Se requiera una consola con la versión 1.4.0 (ya que esta vulnerabilidad no existía en versiones anteriores, y fue parcheada en versiones posteriores) y una flashcard con una ROM modificada.
 
-There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
+También hay un error conocido en la forma en la que el menú de la consola calcula el espacio disponible, lo que puede causar un error al usar el menú desde otro lugar que no sea la memoria NAND. Para más información, revisa la [página de preguntas frecuentes y resolución de problemas de hiyaCFW](../hiyacfw/faq#the-free-space-bug).
 
 ### Acceso y bloqueo del Slot-1 de Nintendo DSi
 Slot-1 access is blocked when launching applications from the system menu, except if said applications are either the Slot-1 launcher itself or System Settings. In order to launch normally unlaunchable Slot-1 cartridges, you'll need to either make a System Settings exploit or install Unlaunch. Without either of those, you cannot launch unlaunchable flashcards and you cannot dump ROMs to your SD card.

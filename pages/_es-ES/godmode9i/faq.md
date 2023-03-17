@@ -2,18 +2,18 @@
 lang: es-ES
 layout: faq
 section: godmode9i
-title: FAQ y solución de problemas
+title: Preguntas frecuentes y soluciónes
 long_title: 'GodMode9i: preguntas más frecuentes y solución de problemas'
 description: Preguntas más frecuentes y solución de problemas para GodMode9i
 ---
 
 #### ¿Cómo paso la pantalla "mounting drive(s)" al iniciar?
-Esto ocurre cuando abres GodMode9i desde [hiyaCFW](../hiyacfw). Puedes presionar <kbd class="face">X</kbd> mientras ejecutas GodMode9i para omitir el montado de la NAND. Otra opción, es lanzar GodMode9i directamente desde Unlaunch para poder montar la NAND.
+Esto ocurre cuando abres GodMode9i desde [hiyaCFW](../hiyacfw). Puedes presionar <kbd class="face">X</kbd> mientras ejecutas GodMode9i para omitir el montaje de la NAND. Otra opción, es lanzar GodMode9i directamente desde Unlaunch para poder montar la NAND.
 
 #### ¿Por qué no puedo agregar, quitar o editar archivos de la NAND?
-Editar archivos en la NAND de la DSi no es seguro y puede llevar fácilmente a un brickeo, por lo que GodMode9i intencionalmente carece de esta opción.
+Editar archivos en la NAND de la DSi no es seguro y puede llevar fácilmente a un bloqueo total, por lo que GodMode9i carece intencionalmente de esta opción.
 
-#### ¿Por qué no puedo ver info del archivo NDS en algunos DSiWare?
+#### ¿Por qué no puedo ver info del archivo NDS en algunos títulos DSiWare?
 Ciertos archivos DSiWare, específicamente aquellos ubicados en la carpeta `0003000f`, contienen información del sistema y por lo tanto no tienen un banner válido.
 
 #### ¿Debería utilizar la versión NDS o la versión DSi? ¿Cuál es la diferencia?
@@ -35,22 +35,22 @@ Puedes cambiar la fuente de GodMode9i seleccionando un archivo de fuente `.frf` 
 
 Puedes encontrar algunas fuentes pre-convertidas en la [carpeta resources](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) del repositorio de GitHub y puedes convertir fuentes propias desde imágenes PBM y archivos TXT que contengan el mapeo Unicode utilizando el script [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) de GodMode9i.
 
-#### How do I dump DS Saves using GBA save data?
-GodMode9i is able to use the save data of GBA cartridges to dump the saves of most DS Game Cards. ROM files and save files over 1 MiB cannot be dumped this way as the files are impractically large. This can also be done using Haxxstation instead of a DS flashcard if you have another way to dump the GBA save files, they can then be recombined and decompressed on a computer.
+#### ¿Cómo vuelco archivos de guardado de DS usando datos guardados de GBA?
+GodMode9i puede usar datos de guardados de cartuchos de GBA para volcar los datos guardados de la mayoría de cartuchos de juegos de DS. Las ROMs y los archivos de guardado de más de 1MiB no pueden ser volcados así ya que son demasiado grades. También puedes hacer esto usando Haxxstation en vez de una flashcard de DS si tienes otra forma de volcar los archivos de guardado de GBA, luego puedes recombinarlos y descomprimirlos en una computadora.
 
-1. Load GodMode9i on your flashcard
-1. Backup your GBA saves!!
-   - Any save data that hasn't been backed up will be lost
-   - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
-1. On the drive menu, press <kbd class="r">R</kbd> + <kbd class="face">B</kbd> to unmount the flashcard
-1. Eject the flashcard, insert a DS Game Card and GBA cartridge
-1. Select `NDS GAMECARD` then `Save`
-1. When asked, press <kbd class="face">A</kbd> to write the data to the GBA cart
-   - Swap to different GBA cartridges and repeat until the whole save is copied
-1. Reboot your DS with your Slot-1 flashcard back in and reopen GodMode9i
-1. Insert the first GBA cartridge you used and select `GBA GAMECART`
-1. Choose `DS Save`
-1. Swap through all the carts you dumped onto
-1. Your DS save will now be in `fat:/gm9i/out`, you can now restore your backed up GBA save files to their original cartridges
+1. Inicia GodMode9i desde tu flashcard
+1. ¡¡Respalda tus archivos de guardado de GBA!!
+   - Cualquier archivo que no haya sido respaldado se perderá
+   - Comprueba los archivos y encuentra los más grandes. Los archivos de 512 bytes no serán muy útiles, mientras que los de 64 o 128 KiB podrán almacenar la mayoría de archivos de guardado de DS en uno o dos cartuchos
+1. En el menú de unidades, presiona <kbd class="r">R</kbd> + <kbd class="face">B</kbd> para desmontar la flashcard
+1. Expulsa la flashcard, inserta un cartucho de juegos de DS y un cartucho de juegos de GBA
+1. Selecciona la opción `TARJETA DE JUEGO NDS` y luego `Archivo de guardado`
+1. Cuando se te pregunte, presiona <kbd class="face">A</kbd> para escribir los datos al cartucho de GBA
+   - Cambia de cartucho de GBA y repute hasta que todo el archivo de guardado se copie
+1. Reinicia la consola con la flashcard en la ranura Slot-1 y reabre GodMode9i
+1. Inserta el primer cartucho de GBA que usaste y selecciona la opción `TARJETA DE JUEGO GBA`
+1. Elige la opción `Archivo de Guardado DS`
+1. Ve cambiando por los cartuchos que usaste para copiar el archivo de guardado
+1. Tu archivo de guardado de DS estará en `fat:/gm9i/out`, y ahora puedes restaurar los archivos de guardado de GBA a sus respectivos cartuchos
 
-If you want to write the save file back onto the Game Card, simply select the `.sav` file and choose `Restore save (Slot-1)`, then swap out your flashcard for the DS Game Card when prompted.
+Si quieres escribir restaurar el archivo de guardado al cartucho, selecciona el archivo `.sav` y elige la opción `Restaurar archivo de guardado (Slot-1)`, y cambia la flashcard por el cartucho de DS cuando se te pida.

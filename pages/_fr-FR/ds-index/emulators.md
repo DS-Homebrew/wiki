@@ -25,7 +25,7 @@ Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une e
 | Game Boy (Color)        | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[nom de la ROM].sav`                                    |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], natif[^5]         | `.agb`, `.gba`, `.mb`                  | `[nom de la ROM].sav`                                    |
 | Game Gear               | [S8DS][s8ds]                                    | `.gg`                                  | `[nom de la ROM].gg.sav`                                 |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[nom de la ROM].srm`[^6]                                |
+| Mega Drive              | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[nom de la ROM].srm`[^6]                                |
 | Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                          |
 | Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[nom de la ROM].sms.sav`                                |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                  | `.ngp`, `.ngc`                         | `/data/ngpds/[nom de la ROM].ngp.fla`                    |

@@ -25,13 +25,13 @@ El reloj interno funciona solo en ciertos juegos. Deberás cambiar la ID de la R
 Puedes cambiar la ID de tu ROM usando esta herramienta:
 1. <label for="file-input" class="form-label">Selecciona el archivo ROM de GBA:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
 1. <label for="file-input" class="form-label">Introduce la ID deseada</label> <input id="tid-input" class="form-control mb-2" type="text" maxlength="4" onchange="updateTid(this.value)" disabled />
-1. <label for="file-input" class="form-label">Guarda el archivo resultante:</label> <input id="save" class="btn btn-secondary" type="button" value="Save" onclick="save()" disabled />
+1. <label for="file-input" class="form-label">Guarda el archivo resultante:</label> <input id="save" class="btn btn-secondary" type="button" value="Guardar" onclick="save()" disabled />
 
 <script src="/assets/js/change-gba-tid.js"></script>
 
-#### Why is a ROM not working, even though the compatibility list says it works?
-The GBARunner2 compatibility lists are primarily tested with the offical GBA BIOS, which improves compatibility. See [GBA BIOS Info](https://wiki.ds-homebrew.com/gbarunner2/bios) for information on obtaining the offical GBA BIOS.
+#### ¿Por qué esta ROM no está funcionando? En la lista de compatibilidad dice que debería funcionar
+La lista de compatibilidad de GBARunner2 está creada en base a pruebas hechas con una BIOS de GBA oficial, que mejora la compatibilidad. Consulta la página de [información sobre la BIOS de GBA](https://wiki.ds-homebrew.com/gbarunner2/bios) para saber como obtener una BIOS oficial de GBA.
 
-#### How do I fix duplicated layers at the bottom of the screen on 3DS?
-This is a bug in TWLBg that is rather prevalent in GBARunner2. The only way to temporarily fix this is to restart GBARunner2.
-- If applicable, you may be better off using other options for running GBA ROMs on 3DS, such as VC injects, open_agb_firm, or mGBA on n3DS models
+#### ¿Cómo hago que no aparezcan lineas duplicadas al fondo de la pantalla en 3DS?
+Esto es un error con TWLBg que es bastante más notable en GBARunner2. La única forma de resolverlo, y de forma temporal, es reiniciar GBARunner2.
+- En tu caso y de ser posible, es mejor que uses otros métodos para ejecutar ROMs de GBA, como inyecciones a la Consola Virtual, open_agb_firm, o si tienes una New 3DS/3DS, mGBA
