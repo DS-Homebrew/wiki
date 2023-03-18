@@ -83,6 +83,7 @@ description: DS(i) Games that have special properties
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
    - Icon is animated
+- Slingo Quest
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
    - Wireless features removed
