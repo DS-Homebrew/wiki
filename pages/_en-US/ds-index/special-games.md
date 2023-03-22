@@ -8,6 +8,9 @@ description: DS(i) Games that have special properties
 ---
 
 ### DS games available as DSiWare
+- 100 Classic Books
+   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
+   - Only 20 books included
 - 7 Wonders II
    - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
