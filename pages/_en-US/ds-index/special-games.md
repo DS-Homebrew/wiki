@@ -87,6 +87,12 @@ description: DS(i) Games that have special properties
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
    - Wireless features removed
+- Statego: Next Edition
+   - Sprite files are compressed for the game to fit within the DSiWare size limit
+- Successfully Learning: English, Year 2+3
+- Successfully Learning: English, Year 4+5
+- Successfully Learning: Mathematics, Year 2+3
+- Successfully Learning: Mathematics, Year 4+5
 - Sujin Taisen: Number Battles
    - DSiWare version known as "Number Battle" in USA
    - Local multiplayer is removed, but online multiplayer is retained
