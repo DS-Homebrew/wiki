@@ -1,5 +1,5 @@
 # DS-Homebrew wiki
-[![Discord server](https://img.shields.io/badge/Discord%20Server-%23websites--development-green.svg)](https://ds-homebrew.com/discord)
+[![Discord server](https://img.shields.io/badge/Discord%20Server-%23web--dev-green.svg)](https://ds-homebrew.com/discord.html)
 [![Crowdin](https://badges.crowdin.net/ds-homebrew-wiki/localized.svg)](https://crowdin.com/project/ds-homebrew-wiki)
 
 Wikis for DS-Homebrew projects
