@@ -6,3 +6,6 @@
 *.jekyll-cache
 *.jekyll-metadata
 *Gemfile.lock
+
+.bundle
+vendor
