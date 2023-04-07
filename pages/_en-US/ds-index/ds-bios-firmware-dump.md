@@ -46,9 +46,6 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 
 {% capture tab-flashcard %}
 
-Ace3DS+-based flashcards are currently not compatible with the dumping application in this guide.
-{:.alert .alert-warning}
-
 ### Part 1: Getting the required files
 
 1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
@@ -64,7 +61,7 @@ Ace3DS+-based flashcards are currently not compatible with the dumping applicati
   - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
 1. Insert your SD card into your computer
 
-All the necessary files will be on the root of your SD card.
+All the necessary files will be in a folder specified on the top screen of your device.
 {:.alert .alert-success}
 
 {% endcapture %}
