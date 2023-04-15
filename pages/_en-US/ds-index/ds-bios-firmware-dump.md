@@ -6,8 +6,8 @@ category: guides
 title: BIOS/Firmware Dumping
 description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
 tabs:
-  - tab-dsi-sd-card: DSi with Unlaunch
-    tab-flashcard: Flashcard
+  - dsi-sd-card: DSi with Unlaunch
+    flashcard: Flashcard
 ---
 
 Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:

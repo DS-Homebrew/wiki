@@ -5,8 +5,8 @@ section: gbarunner2
 title: GBA BIOS Dumping
 description: How to extract the Nintendo GBA BIOS from your console
 tabs:
-  - tab-3ds-sd-card: 3DS with open_agb_firm
-    tab-gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
+  - 3ds-sd-card: 3DS with open_agb_firm
+    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
 ---
 
 While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
