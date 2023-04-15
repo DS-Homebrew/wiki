@@ -20,7 +20,7 @@ description: hiyaCFW 的常见问题 & 故障处理
 ##### 剩余空间的问题
 任天堂DSi菜单在检查大型存储设备的可用空间时有一个错误。 虽然这不会发生在原装NAND上（因为芯片只有128 MB），但使用SD卡时可能会发生。
 
-空闲空间在每个2GB范围组内将不会出现错误。 例如, 0-2GiB可以正常工作, 但如果是2-4GiB它将不会正常工作。 4-6GiB与6-8GiB也是如此，直到达到SD卡的最大容量。
+空闲空间在每个2GiB范围组内将不会出现错误。 例如, 0-2GiB可以正常工作, 但如果是2-4GiB它将不会正常工作。 4-6GiB与6-8GiB也是如此，直到达到SD卡的最大容量。
 
 最新版本的 hiyaCFW 可以创建虚拟文件， 所以请确保您下载最新版本的 [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) 并将 `hiya.dsi` 从“for SDNAND SD card”放到SD卡的根目录。
 

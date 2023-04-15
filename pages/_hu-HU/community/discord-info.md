@@ -27,45 +27,45 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 - [#community-meta][community-meta] - Visszajelzés adásához a közösségről, beleértve ezt a Discord szervert, a subreddit-ünket és a [GitHub organizációt](http://github.com/DS-Homebrew)
 
 **Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
-- [#nds-discussion][nds-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
-- [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pinned messages for a list of dedicated communities
-- [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
+- [#nds-help][nds-help] - Problémád van bármivel, ami Nintendo DS(i)-vel kapcsolatos? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
+- [#nds-discussion][nds-discussion] - Hely megbeszélni a flashcards-ok, AP patchek és általános DS megértések és kutatások megbeszélésére. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
+- [#nds-hacks][nds-hacks] - Beszélgetés ROM hack-ekről, mod-okról és csalásokról Nintendo DS(i) címeknél. Nézd meg a rögzített üzeneteket a dedikált közösségekről
+- [#nds-dev][nds-dev] - Erőforrások és beszélgetések DS(i) homebrew fejlesztésekről. A szokásos beszélgetéseknek már létező homebrew-okról az #other-nds-homebrew csatornán a helye
 
 **Fő DS⁽ⁱ⁾ Homebrew Projektek**
-- [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
-- [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
-- [#gbarunner2-dev][gbarunner2-dev] - This channel is for discussion of the development of GBARunner2. For help, use #nds-help
-- [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
+- [#nds-bootstrap-dev][nds-bootstrap-dev] - Ez a csatorna az nds-bootstrap fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#twilight-menu-dev][twilight-menu-dev] - Ez a csatorna az TWiLight Menu++ fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#gbarunner2-dev][gbarunner2-dev] - Ez a csatorna a GBARunner2 fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#web-dev][web-dev] - Beszélgetések és javaslatok a [dsi.cfw.guide](https://dsi.cfw.guide/) és minden [ds-homebrew oldal](https://ds-homebrew.com/) témájában ide kerülnek
 
 **Másodlagos DS⁽ⁱ⁾ Homebrew Projektek**
-- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. For help, use #nds-help
-- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. For help, use #nds-help
-- [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
+- [#godmod9i][godmode9i] - Ez a csatorna az GodMode9i fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#fastvideods][fastvideods] - Ez a csatorna a FastVideoDS Player és Encoder fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#other-nds-homebrew][other-nds-homebrew] - Ez a fórum a Nintendo DS(i) homebrew-okról beszélgetésre, támogatásukre, frissítéseikre, más csatornák által még nem lefedett kérdéseikre használatos. Az egyes homebrew alkalmazásoknak lehetnek saját szálai, ha még nem lenne hozzá szál, akkor készíthetsz egy újat is
 
 **Közösség**
-- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Az alacsony minőségű postokat tartsd az #end-of-server csatornán
-- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
-- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
+- [#off-topic][off-topic] - Egy csatorna minden olyan témához, ami nem fér bele a többi csatornába. Az alacsony minőségű postokat tartsd az #end-of-server csatornán
+- [#nds-gaming][nds-gaming] - Egy csatorna általános beszélgetésekre játékokról a DS(i)-n és játékokosok keresése online játékhoz. Nézd meg a rögzített üzeneteket a dedikált közösségekről
+- [#other-console-modding][other-console-modding] - Beszélgetés homebrew-ról és mod-okról más játék rendszerekhez, mint például 3DS, ha nem TWL_FIRM-en van
+- [#end-of-server][end-of-server] - Ez az alkalmi, alacsony szintű csevegésre szolgáló hely. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
 
 ## Szerepek & felhasználók
 Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak [Lightning bot paranccsal](#lightning-commands) érhető el.
 
 ### Moderátor szerepkörök
-These roles are given to people that are well trusted to maintain the server. They have the ability to ban, kick, mute, and give other roles to users.
+Ezek a szerepkörök megbízhat személyeknek kerülnek kiosztásra a szerver fenntartása céljából. Rendelkeznek a kirúgás, tiltás, némítás jogokkal és tudnak különböző jogokat adni a felhasználóknak.
 
-- Da Master - The owner's role
-- Admin - Has all possible permissions, usually gets final say between the Server Maintainers
-- Server Maintainers - Segítenek betartatni a a szerver szabályokat és menedzselik a szervert. If there is an issue, contact them first before going higher up
+- Da Master - A tulajdonos (Owner) szerepkör
+- Admin - Rendelkezik minden joggal, többnyire övé a végső döntés a Server Maintainers-ek között
+- Server Maintainers - Segítenek betartatni a a szerver szabályokat és menedzselik a szervert. Ha probléma van, először őket keresd, mielőtt feljebb lépnél
 
 ### Felhasználói képesség szerepkörök
-These roles can only be given by moderators, and indicate that these users are knowledgeable in those fields, some give access to private channels. Ha úgy gondolod, beleférsz a leírásukba ezen szerepeknek, kérdezz a #community-meta csatornán. A moderátorok megvizsgálják a kérésedet a szerepkör követelményei alapján.
+Ezek a szerepkörök moderátorok által kioszthatók csak, és jelzik, hogy ezen felhasználók rendelkeznek képességekkel ezeken a területeken, néhány hozzáférést ad a privát csatornákhoz. Ha úgy gondolod, beleférsz a leírásukba ezen szerepeknek, kérdezz a #community-meta csatornán. A moderátorok megvizsgálják a kérésedet a szerepkör követelményei alapján.
 
-- Developers - Ezt azok kapják, akik hozzájárultak kóddal a Nintendo DS scene-hez. If you have any projects for the role, show them in #nds-dev
-- Helpers - This role is given to those that actively provide meaningful assistance in #nds-help or have contributed to compatibility reporting
-   - Helpers have no moderator permissions, please ping a moderator if a situation needs one
-- Nitro Booster - Automatically given to those that have given Server Boosts to the server. This role has no additional permissions, and is not hoisted in the Member List
+- Developers - Ezt azok kapják, akik hozzájárultak kóddal a Nintendo DS scene-hez. Ha van valami projekted a szerepkörhöz, mutasd meg a #nds-dev csatornán
+- Helpers - Ezt azok kapják, akik aktívan biztosítanak használható segítséget az #nds-help csatornán, vagy hozzájárultak a kompatibilitás jelentésekhez
+   - A Helper-ek nem rendelkeznek moderátor jogokkal, így moderátornak jelezz, ha a szituáció azt igényli
+- Nitro Boosters - Azok kapják, akik adtak Server Boost-ot a szervernek. Ez a szerepkör nem rendelkezik további jogosultságokkal, és nem kerül feltüntetésre a taglistában
 
 ### Büntető szerepkörök
 Ha megsérted a szabályokat, ezeket a szerepköröket kaphatod egy moderátortól.

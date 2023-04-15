@@ -4,7 +4,7 @@ layout: wiki
 section: hiyacfw
 title: 安装步骤
 long_title: 安装 hiyaCFW
-description: How to install hiyaCFW on the Nintendo DSi
+description: 如何在 Nintendo DSi上安装 hiyaCFW
 tabs:
   - 
     windows: Windows
@@ -22,28 +22,28 @@ tabs:
 
 ### 第一部分：准备您的电脑以安装 hiyaCFW
 {% capture tab-windows %}
-The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+hiyaCFW Helper 可能会导致 Windows Defender 和其他防病毒程序出现误报，如果你在下载或运行该程序时遇到困难，请暂时禁用此类程序。
 {: .alert .alert-info}
 
-1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
-   - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. 下载并安装最新版本的 [7-Zip](https://www.7-zip.org/download.html)
+   - 这不会与任何其他的压缩文件提取工具，如WinRAR一起工作，hiyaCFW Helper 依赖于7-Zip本身，而不是一般的档案提取工具。
+1. 下载最新Windows版本的 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. 解压 hiyaCFW Helper 到你计算机上的任意位置
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Download the latest macOS version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. 下载最新macOS版本的 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. 解压 hiyaCFW Helper 到你计算机上的任意位置
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
-1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Install tkinter with the following command for your distro if you don't already have it:
-   - Debian-based: `sudo apt-get install python3-tk`
+1. 如果 Python 3尚未安装，请使用软件包管理器安装
+1. 下载最新Python版本的 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. 解压 hiyaCFW Helper 到你计算机上的任意位置
+1. 如果你还没有tkinter，请用以下命令为你的发行版安装它。
+   - （基于）Debian： `sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -54,26 +54,26 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 ![HiyaCFW Helper 的截图](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. 启动 hiyaCFW Helper
-  - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
-  - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
-  - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says `Done!`, close out of the hiyaCFW Helper
-1. Close the terminal window
+  - **Windows:** 启动从hiyaCFW Helper解压的文件`HiyaCFW_Helper.exe` (您可能需要暂时关闭杀毒软件)
+  - **macOS:** 右键点击从hiyaCFW Helper中解压出来的`HiyaCFW_Helper` 然后选择 `打开`
+  - **Linux:** 启动从hiyaCFW Helper中解压出来的`HiyaCFW_Helper.py`
+1. 在 "NAND file with No$GBA footer"框中点击 `...` 按钮。
+1. 选择你的NAND备份，然后点击 `打开`
+1. 按 `Start`
+1. 在新的弹出窗口中，选择你的SD卡的根目录，然后按 `确定`。
+   - 进程可能需要几分钟时间
+1. 当应用程序说`Done!`时，关闭hiyaCFW Helper
+1. 关闭终端窗口
 
-### Part 3: Configuring Unlaunch and hiyaCFW
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
-1. Navigate to `OPTIONS`, then `NO BUTTON`
-1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
-   - This will make the system launch hiyaCFW automatically
-1. Save your settings and restart your console
-1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-1. Change the settings to your liking, then press <kbd>START</kbd> to continue
+### 第三部分：配置Unlaunch和hiyaCFW
+1. 同时按住 <kbd class="face">A</kbd> 和 <kbd class="face">B</kbd> 后，再按下 DSi 的电源键
+   - 这应该能启动到Unlaunch的文件菜单
+1. 选择 `OPTIONS`，然后是 `NO BUTTON`
+1. 选择 `hiyaCFW` 并按 <kbd class="face">A</kbd>
+   - 这将使系统自动启动 hiyaCFW
+1. 保存您的设置并重启机器
+1. 按住 <kbd>SELECT</kbd> 开机来进入hiyaCFW设置
+1. 按喜好更改设置, 然后按 <kbd>START</kbd> 继续
 
-If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
+如果显示 `发生错误/An error has occurred`，请看 [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) 页面。
 {: .alert .alert-warning}
