@@ -17,7 +17,6 @@ Membuat kompatibilitas nds-bootstrap mendekati 1:1 dengan permainan retail
 - Memperbaiki *Golden Sun: Dark Dawn* [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Memperbaiki sambungan DS-Wii *Pokemon* [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Memperbaiki seri-seri *Brain Age* [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Memperbaiki *Miniland-Mayhem* [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 Peningkatan Tambahan ke Permainan
 Menambahkan fitur yang tidak ada ketika dimainkan di kartu permainan

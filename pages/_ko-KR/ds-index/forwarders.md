@@ -7,9 +7,9 @@ title: DS 게임 포워더
 description: hiyaCFW나 3DS HOME 메뉴에서 DS 게임 포워더를 사용하는 방법
 tabs:
   - 
-    tab-3ds-sd-card: 3DS SD 카드
-    tab-dsi-sd-card: DSi SD 카드
-    tab-flashcard: 플래시 카드
+    3ds-sd-card: 3DS SD 카드
+    dsi-sd-card: DSi SD 카드
+    flashcard: 플래시 카드
 ---
 
 Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->

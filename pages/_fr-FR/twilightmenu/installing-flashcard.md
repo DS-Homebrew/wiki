@@ -53,6 +53,6 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
    - R4(i)RTS (r4rts.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
    - R4 SDHC RTS (carte noire) (r4isdhc.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
 
-   Installez le [YSMenu de RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
-1. Ouvrez les paramètres de TWLMenu++, passez à la page `Paramètres de nds-bootstrap`, et définissez `Utiliser nds-bootstrap` à `Non` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

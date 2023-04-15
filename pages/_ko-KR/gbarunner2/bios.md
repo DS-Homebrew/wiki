@@ -10,7 +10,7 @@ GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필�
 
 ### 덤핑 가이드
 
-- [GBA 플레시카드가 있는 GBA/DS/DS Lite나 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [GBA 플레시카드가 있는 GBA/DS/DS Lite나 3DS](bios-dump)
    - DSi에서는 GBA BIOS를 덤핑할 수 **없습니다.**
 - [(패밀리 에디션이 아닌) Wii/게임큐브, GBA, 링크 케이블 덤퍼](https://github.com/FIX94/gba-link-cable-dumper)
 

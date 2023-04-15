@@ -28,7 +28,7 @@ Always remember to check the channel topic and pinned messages before talking in
 
 **Nintendo DS⁽ⁱ⁾ Modding**
 - [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Potrzebujesz zadać jakieś ogólne pytanie? Możesz śmiało zrobić to tutaj, podając każdą informację, jaką możesz dać (komunikaty błędu, twoja konsola, spróbowane metody, logi itd.). Zachowaj rozmowy o modowaniu 3DS-a w #other-console-modding, chyba że dotyczy to TWL_FIRM
-- [#nds-discussion][nds-discussion] - Place to discuss flashcards, AP patches, and general DS understandings and research. Kiedy ten kanał dotyczy TWL_FIRM na 3DSie, proszę zachować rozmowy o modowaniu 3DS-a na #other-console-modding
+- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Kiedy ten kanał dotyczy TWL_FIRM na 3DSie, proszę zachować rozmowy o modowaniu 3DS-a na #other-console-modding
 - [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pinned messages for a list of dedicated communities
 - [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
 
@@ -116,7 +116,7 @@ Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#454
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
 [nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
-[nds-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
+[nds-hardware]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-hacks]: https://discord.com/channels/283769550611152897/356988919738400768
 [nds-dev]: https://discord.com/channels/283769550611152897/835273459339624499
 

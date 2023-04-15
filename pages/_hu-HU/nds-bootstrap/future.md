@@ -17,7 +17,6 @@ Az nds-bootstrap kerüljön közelebb az 1:1 kompatibilitáshoz a kereskedelmi c
 - A Golden Sun: Dark Dawn javítása [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Pokemon DS-Wii kapcsolatok javítása [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Brain Age címek javítása [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Miniland-Mayhem javítása [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 További bővítések a játékokhoz
 Olyan funkciók hozzáadása, amelyek nem léteznek, ha egy játékkártyáról játszunk

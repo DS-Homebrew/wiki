@@ -17,7 +17,6 @@ Faire en sorte que nds-bootstrap se rapproche de la compatibilité 1:1 avec les 
 - Correction de *Golden Sun : Obscure Aurore* [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Correction des connexions DS-Wii de Pokémon [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Correction des titres de la série *Programme d'entraînement cérébral du D<sup>r</sup> Kawashima* [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Correction de *Mario vs. Donkey Kong : Pagaille à Mini-Land !* [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 Améliorations supplémentaires apportées aux jeux
 Ajout de fonctionnalités qui n'existent pas en jouant avec une carte de jeu

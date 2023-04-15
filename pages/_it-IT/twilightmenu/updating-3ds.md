@@ -18,6 +18,9 @@ Se stai aggiornando da una versione più vecchia della v6.8.3, sposta i tuoi fil
 Se stai aggiornando da una versione più vecchia della v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazzala nella stessa directory delle ROM DSiWare.
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Apri Universal-Updater
    - Se non ce l'hai, segui le istruzioni [d'installazione](installing-3ds)

@@ -7,9 +7,9 @@ title: crwdns25079:0crwdne25079:0
 description: crwdns25081:0crwdne25081:0
 tabs:
   - 
-    tab-3ds-sd-card: crwdns25083:0crwdne25083:0
-    tab-dsi-sd-card: crwdns25085:0crwdne25085:0
-    tab-flashcard: crwdns25087:0crwdne25087:0
+    3ds-sd-card: crwdns25083:0crwdne25083:0
+    dsi-sd-card: crwdns25085:0crwdne25085:0
+    flashcard: crwdns25087:0crwdne25087:0
 ---
 
 crwdns27169:0crwdne27169:0 crwdns27171:0crwdne27171:0 <!--- I feel like this still needs a bit of work. Still better than what was there before. -->

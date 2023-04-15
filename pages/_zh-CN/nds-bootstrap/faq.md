@@ -36,13 +36,14 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
+     - Currently, only *Nintendo DS Browser* emulates it
 - 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite：为什么在DS烧录卡上使用nds-bootstrap？
 - 某些兼容的ROM被加载到内存扩展卡（或含有RAM的Slot-2烧录卡）中，允许加载时间甚至比普通游戏卡更快。
-- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - 请记住，nds-bootstrap将始终用于DSiWare，无论 ，在TWLMenu++设置中的 `nds-bootstrap` 是否启用
+- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - 如果你的烧录卡内核不能运行某个ROM，可以用nds-bootstrap来代替，并且可以按游戏特定设置
 - 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换

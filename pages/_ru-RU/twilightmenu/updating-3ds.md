@@ -18,6 +18,9 @@ tabs:
 Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare игр в новую папку `saves`, находящуюся в той же папке, что и ваши DSiWare ROM-ы.
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Откройте Universal-Updater
    - Если у вас его нет, следуйте инструкциям [ по его установке](installing-3ds)

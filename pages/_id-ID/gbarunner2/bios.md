@@ -10,7 +10,7 @@ Agar GBARunner2 dapat memuat permainan, diperlukan dump BIOS GBA. Binaan terbaru
 
 ### Panduan Penimbunan (Dumping)
 
-- [GBA/DS/DS Lite dengan flashcart GBA atau 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [GBA/DS/DS Lite dengan flashcart GBA atau 3DS](bios-dump)
    - BIOS GBA **tidak mungkin** dapat di-dump dari DSi
 - [Wii (bukan Family Edition)/GameCube, GBA, dan link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 

@@ -28,7 +28,7 @@ Siempre recuerda revisar el tema del canal y los mensajes anclados antes de habl
 
 **Nintendo DS⁽ⁱ⁾ Modding (Modificaciones de Nintendo DS⁽ⁱ⁾)**
 - [#nds-help][nds-help] - ¿Tienes un problema relacionado con la Nintendo DS(i)? ¿Necesitas hacer una pregunta general? Puedes hacerlo aquí, aportando toda la información que puedas (mensajes de error, información sobre tu consola, cosas que intentaste hacer, registros, etcétera). Si tu consulta es acerca de modificaciones en una 3DS, mantén la conversación en #other-console-modding, a no ser que implique el uso de TWL_FIRM
-- [#nds-discussion][nds-discussion] - Lugar para discutir flashcards, parches antipìratería, y conocimiento e investigación general sobre la DS. Si bien este canal cubre el uso de TWL_FIRM en una 3DS, por favor, mantén las discusiones acerca del modo 3DS en #other-console-modding
+- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Si bien este canal cubre el uso de TWL_FIRM en una 3DS, por favor, mantén las discusiones acerca del modo 3DS en #other-console-modding
 - [#nds-hacks][nds-hacks] - Charla acerca de ROM hacks, modificaciones y trucos para juegos de Nintendo DS(i). Revisa los mensajes anclados para obtener una lista de comunidades dedicadas
 - [#nds-dev][nds-dev] - Recursos y discusión sobre el desarrollo de aplicaciones homebrew para Nintendo DS(i). La discusión sobre aplicaciones homebrew existentes debe ir en #other-nds-homebrew
 
@@ -116,7 +116,7 @@ Mantenedores del Servidor: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhan
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
 [nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
-[nds-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
+[nds-hardware]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-hacks]: https://discord.com/channels/283769550611152897/356988919738400768
 [nds-dev]: https://discord.com/channels/283769550611152897/835273459339624499
 

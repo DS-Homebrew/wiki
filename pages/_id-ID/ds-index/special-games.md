@@ -8,6 +8,9 @@ description: Permainan DS(i) yang berciri sifat khusus
 ---
 
 ### Permainan DS yang berbentuk DSiWare
+- 100 Classic Books
+   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
+   - Only 20 books included
 - 7 Wonders II
    - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
@@ -37,6 +40,7 @@ description: Permainan DS(i) yang berciri sifat khusus
       - Clubhouse Games Express: Card Classics
       - Clubhouse Games Express: Family Favorites
       - Clubhouse Games Express: Strategy Pack
+- Coropata
 - Dragon's Lair
    - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
@@ -74,13 +78,24 @@ description: Permainan DS(i) yang berciri sifat khusus
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
    - Icon is animated
+- The Price Is Right: 2010 Edition
+   - DSiWare version called "The Price Is Right"
+   - Some files are compressed for the game to fit within the DSiWare size limit
+   - Some minigames are removed
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
    - Icon is animated
+- Slingo Quest
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
    - Wireless features removed
+- Statego: Next Edition
+   - Sprite files are compressed for the game to fit within the DSiWare size limit
+- Successfully Learning: English, Year 2+3
+- Successfully Learning: English, Year 4+5
+- Successfully Learning: Mathematics, Year 2+3
+- Successfully Learning: Mathematics, Year 4+5
 - Sujin Taisen: Number Battles
    - DSiWare version known as "Number Battle" in USA
    - Local multiplayer is removed, but online multiplayer is retained
@@ -130,6 +145,10 @@ Mendukung Wi-Fi (termasuk WPA 1/2):
      - Ada cloneboot untuk Main Jamak
 - Metal Torrent
 - Paper Airplane Chase (Japan)
+- Pocket Pack: Strategy Games
+     - Ada cloneboot untuk Main Jamak
+- Pocket Pack: Words & Numbers
+     - Ada cloneboot untuk Main Jamak
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
@@ -406,8 +425,12 @@ Saat ini, nds-bootstrap belum dapat mengemulasi Slot-2. Beberapa ada yang terter
     - Geometry Wars: Galaxies (Wii)
 - Jam with the Band
     - Live Channel
+- Kuizu Ongaku Nojika (DSiWare)
+    - Wii title unknown
 - My Word Coach (DS)
     - My Word Coach (Wii)
+- Odekake! Earth Seeker (DSiWare)
+    - Earth Seeker (Wii)
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum

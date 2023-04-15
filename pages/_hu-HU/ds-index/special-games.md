@@ -8,100 +8,115 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
 ---
 
 ### DS játékok, amik elérhetők DSiWare-ként
+- 100 Classic Books
+   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
+   - Only 20 books included
 - 7 Wonders II
-   - A Free Play mód eltávolításra került
+   - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
-   - A DSiWare verzió a Japán régió számára exkluzív, mint "Famicom Wars DS: Ushinawareta Hikari"
-   - Egy patch, ami a japán fájlokat kicseréli az angol verziókkal elérhető [itt](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Animal Boxing
 - Art Academy
-   - Felbontásra került Első & Második szemeszterre
+   - Split into First & Second Semesters
 - Astro Invaders
-   - A DSiWare verzió neve "Astro"
-   - A használati utasításban érdekes módon még mindig "Astro Invaders" néven szerepel az 1. oldalon
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
 - Bejeweled Twist
-   - Néhány funkció eltávolítva
+   - Some features removed
 - Bomberman 2
-   - A többjátékos funkció külön címként jelent meg "Bomberman Blitz" néven
+   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
 - Bookworm
-   - Download Play funkció eltávolítva
-   - Az ikon animált
+   - Download Play feature removed
+   - Icon is animated
 - Brain Challenge
-   - Új a DSi kamerához kapcsolódó funkciók kerültek hozzáadásra
-   - A Versus mód eltávolítva
-   - Sok fájl tömörítésre került, hogy a játék beférjen a DSiWare méret korlátba
-   - Az ikon animált
+   - New features related to the DSi camera are added
+   - Versus mode is removed
+   - Many files are compressed for the game to fit within the DSiWare size limit
+   - Icon is animated
 - Chronos Twins
 - Clubhouse Games
-   - A következő három DSiWare címre lett bontva
+   - Split into three DSiWare titles called
       - Clubhouse Games Express: Card Classics
       - Clubhouse Games Express: Family Favorites
       - Clubhouse Games Express: Strategy Pack
+- Coropata
 - Dragon's Lair
-   - Az Extrák menü, amely a Figyelési módot tartalmazza, a Kézikönyv menüponttal került helyettesítésre
+   - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
-   - Minden mód egy önálló DSiWare-ként került kiadásra
+   - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
-   - Többjátékos mód hozzáadva
-- G.G. Series DSiWare címek
-   - A "G.G. Series Collection+" kollekció Japán régióban exkluzív fizikai kiadással rendelkezett
-   - NTR címként készült, lehetővé téve a DS konzolokon való játékot
-   - A kéziköny képernyőképei egyedi UI-t tartalmaznak
+   - Multiplayer added
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
-   - A DSiWare verzió neve "Heathcliff: Spot On"
+   - DSiWare version called "Heathcliff: Spot On"
 - Jewel Adventures
 - Jewel Legends: Tree of Life
 - Jewel Quest 4: Heritage
 - Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
-   - Hat DSiWare címre lett szétosztva "Master of Illusion Express" (USA) vagy "A Little Bit of... Magic Made Fun" (Európa)
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
-   - A DSiWare verzió neve "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
-   - A DSiWare verzió neve "Need for Speed: Nitro-X"
-   - Download Play funkció és néhány zene eltávolítva
-   - Új rendőrautók érhetők el
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
 - Nintendogs: Lab & Friends
-   - A DSiWare verzió Kína régió számára exkluzív
+   - DSiWare version exclusive to China
 - Phantasy Star 0
-   - Egy demo(?) verziója az eredeti játéknak "Phantasy Star 0 Mini" néven a Japán régió számára exkluzív
-   - Az ikon animált
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
 - Planet Puzzle League
-   - A DSiWare verzió neve "Puzzle League Express" (USA), vagy "A Little Bit of... Puzzle League" (Europe)
-   - A többjátékos mód eltávolítva
-   - Néhány zeneszám eltávolítva
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
+   - Some music tracks removed
 - Plants vs. Zombies
-   - A Download Play funkció, néhány trófea és zene videó eltávolítva
-   - Exkluzív minijátékot tartalmaz
-   - Az ikon animált
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
+- The Price Is Right: 2010 Edition
+   - DSiWare version called "The Price Is Right"
+   - Some files are compressed for the game to fit within the DSiWare size limit
+   - Some minigames are removed
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
-   - Az ikon animált
+   - Icon is animated
+- Slingo Quest
 - Space Invaders Extreme 2
-   - A DSiWare verzió neve "Space Invaders Extreme Z", a Japán régió számára exkluzív
-   - Vezeték nélküli funkciók eltávolítva
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Statego: Next Edition
+   - Sprite files are compressed for the game to fit within the DSiWare size limit
+- Successfully Learning: English, Year 2+3
+- Successfully Learning: English, Year 4+5
+- Successfully Learning: Mathematics, Year 2+3
+- Successfully Learning: Mathematics, Year 4+5
 - Sujin Taisen: Number Battles
-   - A DSiWare verzió neve "Number Battle" az USA régióban
-   - A helyi többjátékos mód eltávolításra került, de az online többjátékos mód megmaradt
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
 - Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
-   - 5 részre bontott(?)
+   - Split into 5 parts(?)
 - Tetris Party Deluxe
-   - A DSiWare verzió neve "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode játékmódok eltávolítva
-   - Az ikon animált
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
 - True Swing Golf/Nintendo Touch Golf
-   - A DSiWare verzió neve "True Swing Golf Express" (USA), vagy "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - A játék DSiWare verziója nem tartalmaz Wi-Fi funkciókat, mint például a Local/Download Play vagy a játékbani PictoChat funkció. Továbbá kevesebb pályát tartalmaz, mint a dobozos verzió
-      - A játékmotor feljavított
-      - A Challenge mód van dobozos játék Championship Tour módja helyett
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
 - WarioWare: Touched!
-   - Slot-2 funkciók eltávolítva
+   - Slot-2 features removed
 - Zombiez Seeker
-   - A DSiWare verzió neve "Zombie Blaster"
+   - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
-   - A többjátékos mód eltávolítva
-   - Az ikon animált
+   - Multiplayer removed
+   - Icon is animated
 
 Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
 - Bomberman Blitz
@@ -130,10 +145,14 @@ Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
      - Cloneboot-ot használ a többjátékos módhoz
 - Metal Torrent
 - Paper Airplane Chase (Japán)
+- Pocket Pack: Strategy Games
+     - Cloneboot-ot használ a többjátékos módhoz
+- Pocket Pack: Words & Numbers
+     - Cloneboot-ot használ a többjátékos módhoz
 - Pop Island
-     - Van egy olyan funkciója, hogy egy játék demót küldhet a DS konzol család bármelyik tagjára
+     - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield
-     - Van egy olyan funkciója, hogy egy játék demót küldhet a DS konzol család bármelyik tagjára
+     - Has a feature to send a game demo to any DS family console
 
 ### DSiWare, ami az eredetileg tervezett DS/DS lite kiadástól eltávolodott
 - Flipper
@@ -406,12 +425,16 @@ Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehe
     - Geometry Wars: Galaxies (Wii)
 - Jam with the Band
     - Live Channel
+- Kuizu Ongaku Nojika (DSiWare)
+    - Wii title unknown
 - My Word Coach (DS)
     - My Word Coach (Wii)
+- Odekake! Earth Seeker (DSiWare)
+    - Earth Seeker (Wii)
 - Pokémon Diamond/Pearl
     - My Pokémon Ranch
 - Pokémon Platinum
-    - My Pokémon Ranch (csak Japán frissítés)
+    - My Pokémon Ranch (Japan Only Update)
 - Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
     - Pokémon Battle Revolution
 - Personal Trainer: Walking

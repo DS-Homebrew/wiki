@@ -18,6 +18,9 @@ Jika memperbarui dari versi lebih lawas dari v6.8.3, mohon pindahkan dulu berkas
 Jika memperbarui dari versi lebih lawas dari v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` untuk ROM DSiWare ke folder baru bernama `saves`; tempat folder `saves` harus sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Buka Universal-Updater
    - Jika belum punya, ikuti arahan [pemasangan](installing-3ds) ini

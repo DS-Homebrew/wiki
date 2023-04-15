@@ -18,6 +18,9 @@ tabs:
 如果从一个比v21.0.0更老的版本更新的话，请把对于DSiWare游戏的 `.pub` 和/或 `.prv` 文件移动到一个叫 `saves`的文件夹，`saves` 文件夹和 DSiWare Rom 在同一个位置。
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. 打开 Universal-Updater
    - 如果您没有，请按照 [安装](installing-3ds) 说明

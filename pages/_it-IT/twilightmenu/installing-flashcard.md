@@ -53,6 +53,6 @@ Nota bene che non tutte le flashcard supportano l'avvio dei giochi in questo mod
    - R4(i)RTS (r4rts.com) (usa i file YSMenu di M3Real_M3iZero)
    - R4 SDHC RTS (cartuccia nera) (r4isdhc.com) (utilizza i file YSMenu di M3Real_M3iZero)
 
-   Installa [YSMenu di RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se non già presente) e la cartella`TTMenu` nella root della microSD della flashcard
-1. Apri le impostazioni di TWLMenu++, e vai alla pagina `Impostazioni nds-bootstrap`, e imposta `Usa nds-bootstrap` a `No`, in questo modo il firmware della flashcard verrà utilizzato al posto di nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

@@ -7,9 +7,9 @@ title: Forwarders de jeux DS
 description: Comment utiliser les forwarders de jeux DS sur le menu hiyaCFW ou le menu HOME de la 3DS
 tabs:
   - 
-    tab-3ds-sd-card: Carte SD 3DS
-    tab-dsi-sd-card: Carte SD DSi
-    tab-flashcard: Linker
+    3ds-sd-card: Carte SD 3DS
+    dsi-sd-card: Carte SD DSi
+    flashcard: Linker
 ---
 
 Les forwarders sont des raccourcis pour les jeux que vous pouvez installer dans votre menu HOME ou votre menu hiyaCFW. Vous pouvez lancer les jeux DS depuis la carte SD (en utilisant nds-bootstrap) ou depuis un linker compatible (via son kernel respectif) en utilisant des forwarders installés dans le menu de votre choix. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->

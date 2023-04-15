@@ -10,7 +10,7 @@ A GBARunner2-nek, hogy betöltse a címeket szüksége van egy GBA BIOS dumpra. 
 
 ### Dumpolási útmutatók
 
-- [GBA/DS/DS Lite egy GBA Flashcard-dal vagy 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [GBA/DS/DS Lite egy GBA Flashcard-dal vagy 3DS](bios-dump)
    - **Nem** lehetséges a GBA BIOS dumpolása egy DSi-n
 - [Wii (nem Family verzió)/GameCube, GBA és link kábel dumper](https://github.com/FIX94/gba-link-cable-dumper)
 

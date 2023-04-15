@@ -53,6 +53,6 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
    - R4(i)RTS (r4rts.com) (M3Real_M3iZero YSMenu 파일을 사용함)
    - R4 SDHC RTS (black cartridge) (r4isdhc.com) (M3Real_M3iZero YSMenu 파일을 사용함)
 
-   [RetroGameFan의 YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)를 설치해 주세요.
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Flashcard의 microSD카드 루트에 `YSMenu.nds` (`TTMenu.dat`에서 이름을 변경해도 됨)과 `TTMenu`가 있는 것을 확인해 주세요.
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Use nds-bootstrap` to `No`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

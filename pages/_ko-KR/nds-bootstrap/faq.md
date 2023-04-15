@@ -36,13 +36,14 @@ nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are 
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
+     - Currently, only *Nintendo DS Browser* emulates it
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- 200+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Use nds-bootstrap` setting in TWLMenu++ Settings
+- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
+     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
      - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen

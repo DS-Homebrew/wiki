@@ -28,7 +28,7 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 
 **Nintendo DS⁽ⁱ⁾ Modding**
 - [#nds-help][nds-help] - Problémád van bármivel, ami Nintendo DS(i)-vel kapcsolatos? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
-- [#nds-discussion][nds-discussion] - Hely megbeszélni a flashcards-ok, AP patchek és általános DS megértések és kutatások megbeszélésére. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
+- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
 - [#nds-hacks][nds-hacks] - Beszélgetés ROM hack-ekről, mod-okról és csalásokról Nintendo DS(i) címeknél. Nézd meg a rögzített üzeneteket a dedikált közösségekről
 - [#nds-dev][nds-dev] - Erőforrások és beszélgetések DS(i) homebrew fejlesztésekről. A szokásos beszélgetéseknek már létező homebrew-okról az #other-nds-homebrew csatornán a helye
 
@@ -116,7 +116,7 @@ Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#
 [community-meta]: https://discord.com/channels/283769550611152897/715651368391671919
 
 [nds-help]: https://discord.com/channels/283769550611152897/332961165829210117
-[nds-discussion]: https://discord.com/channels/283769550611152897/547986366357700620
+[nds-hardware]: https://discord.com/channels/283769550611152897/547986366357700620
 [nds-hacks]: https://discord.com/channels/283769550611152897/356988919738400768
 [nds-dev]: https://discord.com/channels/283769550611152897/835273459339624499
 

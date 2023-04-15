@@ -10,7 +10,7 @@ Affinché GBARunner2 possa avviare i titoli, è necessario un dump del BIOS GBA.
 
 ### Guide al dumping
 
-- [GBA/DS/DS Lite con flashcard GBA o 3DS](https://glazedbelmont.github.io/gbabiosdump/)
+- [GBA/DS/DS Lite con flashcard GBA o 3DS](bios-dump)
    - Non **è** possibile scaricare il BIOS del GBA su un DSi
 - [Wii (non family edition)/GameCube, GBA, e link cable dumper](https://github.com/FIX94/gba-link-cable-dumper)
 

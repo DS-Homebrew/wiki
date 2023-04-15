@@ -17,7 +17,6 @@ Far sì che nds-bootstrap si avvicini alla compatibilità 1:1 con i titoli comme
 - Sistemare Golden Sun: Dark Dawn [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Sistemare la connessione DS-Wii dei giochi Pokemon [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Sistemare i titoli Brain Age [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Sistemare Parapiglia a Minilandia [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 Migliorie ulteriori ai giochi
 Aggiunta di funzionalità che non esistono quando si gioca con una scheda di gioco

@@ -53,6 +53,6 @@ Mohon diingat tidak semua flashcard dapat memainkan permainan dengan cara ini. J
    - R4(i)RTS (r4rts.com) (menggunakan berkas YSMenu M3Real_M3iZero)
    - R4 SDHC RTS (kartrid hitam) (r4isdhc.com) (menggunakan berkas YSMenu M3Real_M3iZero)
 
-   Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/).
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Pastikan sudah ada `YSMenu.nds` (diubah nama dari `TTMenu.dat` jika belum ada) dan folder `TTMenu` pada root kartu microSD flashcard
-1. Buka Pengaturan TWLMenu++, pindah ke halaman `pengaturan nds-bootstrap`, dan ubah `Gunakan nds-bootstrap` ke `Tak`, agar ROM dijalankan dengan firmware flashcard
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

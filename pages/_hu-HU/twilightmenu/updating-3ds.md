@@ -18,6 +18,9 @@ Ha régebbi verzióról frissítesz, mint a v6.8.3, kérjük mozgasd a `.sav` DS
 Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` és/vagy `.prv` DSiWare fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DSiWare ROM-ok.
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Nyisd meg az Universal-Updater-t
    - Ha még nem rendelkezel vele, kövesd a [telepítési](installing-3ds) lépéseket

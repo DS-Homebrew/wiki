@@ -53,6 +53,6 @@ description: ニンテンドーDSマジコンにTWiLight Menu++をインスト�
    - R4(i)RTS（r4rts.com）（M3Real_M3iZero YSMenuファイルを使用）
    - R4 SDHC RTS（黒いカートリッジ）（r4isdhc.com）（M3Real_M3iZero YSMenuファイルを使用）
 
-   [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)をインストールします。
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - マジコンのmicroSDのルートに`YSMenu.nds`（存在しない場合は`TTMenu.dat`から名前を変更する）と`TTMenu`フォルダがあることを確認してください
-1. TWLMenu++設定を開き、`nds-bootstrap設定`ページに切り替えます。`Use nds-bootstrap`を`No`に設定して、nds-bootstrapの代わりにマジコンファームウェアを使うようにします。
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

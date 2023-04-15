@@ -17,7 +17,6 @@ Hacer que nds-bootstrap se acerque lo más posible a la compatibilidad total con
 - Arreglar el problema con Golden Sun: Dark Dawn [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Arreglar el problema de conexión de DS a Wii de los juegos de Pokémon [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Arreglar el problema con los títulos de Brain Age [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Arreglar el problema con Miniland-Mayhem [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 Mejoras adicionales a juegos
 Añadir mejoras que no existen cuando se juega desde los cartuchos

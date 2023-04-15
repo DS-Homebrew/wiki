@@ -53,6 +53,6 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
    - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
 
-   安装 [RetroGameFan's YSMenu](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/)。
+   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`) 文件和 `TTMenu` 文件夹
-1. 打开 TWLMenu++ 设置并切换到 `nds-bootstrap 设置` 页面，然后把 `使用 nds-bootstrap` 调整为 `否`以不使用 nds-bootstrap 而使用烧录卡固件。
+1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

@@ -18,6 +18,9 @@ If updating from a version older than v6.8.3, please move your `.sav` files for 
 v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또는 `.prv`폴더를 DSi웨어 타이틀 파일이 있는 위치와 같은 곳에 새로 만든 뒤, DSi웨어 롬의 `.sav` 파일을 해당 폴더에 넣어주세요.
 {:.alert .alert-info}
 
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+{:.alert .alert-info}
+
 {% capture tab-universal-updater %}
 1. Universal-Updater를 실행합니다.
    - 설치되어있지 않다면,  [설치하기](installing-3ds)에 대한 설명을 참고합니다.

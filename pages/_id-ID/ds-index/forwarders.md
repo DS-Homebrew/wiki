@@ -7,9 +7,9 @@ title: Forwarder Permainan DS
 description: Cara menggunakan forwarder permainan DS di hiyaCFW atau menu HOME 3DS
 tabs:
   - 
-    tab-3ds-sd-card: Kartu SD 3DS
-    tab-dsi-sd-card: Kartu SD DSi
-    tab-flashcard: Flashcard
+    3ds-sd-card: Kartu SD 3DS
+    dsi-sd-card: Kartu SD DSi
+    flashcard: Flashcard
 ---
 
 Forwarder adalah pintasan untuk permainan yang dapat kamu pasang di menu HOME atau menu hiyaFCW. Kamu dapat memuat permainan DS dari kartu SD (dengan nds-bootstrap) atau dari flashcard yang sesuai (lewat kernel masing-masing) menggunakan forwarder yang terpasang pada menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->

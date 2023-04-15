@@ -7,9 +7,9 @@ title: DS játék forwarder-ek
 description: Hogyan használjuk a DS játék forwardert a hiyaCFW-n vagy a 3DS HOME menüben
 tabs:
   - 
-    tab-3ds-sd-card: 3DS SD kártya
-    tab-dsi-sd-card: DSi SD kártya
-    tab-flashcard: Flashcard
+    3ds-sd-card: 3DS SD kártya
+    dsi-sd-card: DSi SD kártya
+    flashcard: Flashcard
 ---
 
 A forwarderek a játékok parancsikonjai, amelyeket a főmenübe vagy a hiyaCFW menübe telepíthetsz. Betölthetsz DS játékot SD kártyáról (az nds-bootstrap használatával) vagy kompatibilis flashcard-ról (a megfelelő kernel-lel) a forwarderek használatával, abból a menüből, amit választottál. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->

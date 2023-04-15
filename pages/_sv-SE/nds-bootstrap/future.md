@@ -17,7 +17,6 @@ Have nds-bootstrap get closer to 1:1 compatibility with retail titles
 - Fixing Golden Sun: Dark Dawn [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Fixing Pokemon DS-Wii connections [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
 - Fixing Brain Age titles [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
-- Fixing Miniland-Mayhem [#467](https://github.com/DS-Homebrew/nds-bootstrap/issues/467)
 
 ### 1.1 Additional Enhancements to Games
 Adding features that do not exist when played off a game card
