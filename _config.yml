@@ -15,6 +15,16 @@ defaults:
     values:
       layout: wiki
 
+exclude: [
+  "fix in-context.sh",
+  CONTRIBUTING.md,
+  CNAME,
+  crowdin-pull.sh,
+  crowdin.yml,
+  LICENSE,
+  README.md
+]
+
 collections:
   en-US:
     output: true
