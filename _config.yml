@@ -16,6 +16,7 @@ defaults:
       layout: wiki
 
 exclude: [
+  "**/community/rules/*",
   "fix in-context.sh",
   CONTRIBUTING.md,
   CNAME,
