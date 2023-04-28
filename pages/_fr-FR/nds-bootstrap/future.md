@@ -25,7 +25,7 @@ Ajout de fonctionnalités qui n'existent pas en jouant avec une carte de jeu
 - Correction des codes de triche de type E [#746](https://github.com/DS-Homebrew/nds-bootstrap/issues/746)
 
 ### 1.2 Améliorer la compatibilité des homebrews
-Faire fonctionner plus d'anciennes applications homebrews avec nds-bootstrap
+Faire fonctionner plus d'anciennes applications homebrew avec nds-bootstrap
 - Problèmes avec le [label Homebrew](https://github.com/DS-Homebrew/nds-bootstrap/labels/Homebrew)
 
 ### 1.3 Améliorer B4DS

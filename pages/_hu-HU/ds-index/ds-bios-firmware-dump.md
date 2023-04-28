@@ -2,44 +2,44 @@
 lang: hu-HU
 layout: wiki
 section: ds-index
-category: guides
-title: BIOS/Firmware Dumping
-description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
+category: útmutatók
+title: BIOS/Firmware dumpolás
+description: Hogyan szedd ki a Nintendo DS or DSi BIOS/Firmware-t a konzolodból
 tabs:
   - 
-    dsi-sd-card: DSi with Unlaunch
+    dsi-sd-card: DSi Unlaunch-csel
     flashcard: Flashcard
 ---
 
-Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:
-- a DSi with Unlaunch, OR
-- a DS/DS Lite/3DS or a DSi without Unlaunch, along with a flashcard compatible with the console
+Néhány emulátorhoz, mint például a melonDS, DS-módú vagy DSi-módú BIOS és firmware szükséges, amelyek a konzolból való kinyeréssel szerezhetők meg. Két úton lehet ezt elérni:
+- egy DSi Unlaunch-csel, VAGY
+- egy DS/DS Lite/3DS vagy egy DSi Unlaunch nélkül egy kompatibilis flashcard-dal
 
-The DSi method will extract both the DS-mode and DSi-mode BIOS and firmware files. The flashcard method will only extract the DS-mode files.
+A DSi metódus ki fogja szedni mind a DS-mód, mind a DSi-mód BIOS és firmware fájlját. A flashcard metódus csak a DS-mód fájljait szedi ki.
 
 {% capture tab-dsi-sd-card %}
 
-This page assumes you are running a modern CFW environment from [dsi.cfw.guide](https://dsi.cfw.guide).
+Ez az oldal feltételezi, hogy modern CFW környezetet futtatsz a [dsi.cfw.guide](https://dsi.cfw.guide) alapján.
 {:.alert .alert-warning}
 
 ### 1. rész: A szükséges fájlok beszerzése
 
-1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
-1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
+1. Töltsd le a [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z) fájlt
+1. Másold a `dsibiosdumper.nds` fájlt a dsibiosdumper `.7z` fájlból az SD kártyád gyökerébe
 1. Tedd vissza az SD kártyád a készülékedbe
 
-### Part 2: dsibiosdumper
-1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device
-1. Your device should have booted into the Unlaunch menu
-1. Launch dsibiosdumper from the list of applications
-1. Press <kbd class="face">A</kbd> to dump everything
-1. Wait for the process to complete
-    - This can take a while
-1. After the process is complete, press <kbd>SELECT</kbd> to exit dsibiosdumper
-1. Power off your device
-1. Insert your SD card into your computer
+### 2. rész: dsibiosdumper
+1. Az eszközöd kikapcsolt állapotában tartsd nyomva a következő gombokat: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, majd ezen gombok nyomva tartása mellett kapcsold be az eszközöd
+1. A készülékednek az Unlaunch menübe kell bootolnia
+1. Indítsd el dsibiosdumper-t az alkalmazások listájából
+1. Nyomj <kbd class="face">A</kbd> gombot minden dumpolásához
+1. Várja meg, amíg a folyamat befejeződik
+    - Ez eltarthat egy ideig
+1. Ha a folyamat befejeződött, akkor nyomj <kbd>SELECT</kbd> gombot a dsibiosdumper-ből kilépéshez
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépedbe
 
-All the necessary files will be in the `dsidump` folder on the root of your SD card.
+Minden szükséges fájl a `dsidump` mappában lesz az SD kártyád gyökerében.
 {:.alert .alert-success}
 
 {% endcapture %}
@@ -49,20 +49,20 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 
 ### 1. rész: A szükséges fájlok beszerzése
 
-1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
-1. Copy `dsbf_dump.nds` to the root of your SD card
-1. Reinsert your SD card into your flashcard
+1. Töltsd le az [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) fájlt (az `.nds` fájl)
+1. Másold a `dsbf_dump.nds` fájlt az SD kártyád gyökerébe
+1. Tedd vissza az SD kártyád a flashcard-odba
 
-### Part 2: dsbf_dump
-1. Power on your device
-1. Launch your flashcard
-1. Navigate to the root of your SD card, and launch dsbf_dump
-1. Wait for the process to complete
-1. After the process is complete, press <kbd>START</kbd> to power off your device
-  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
-1. Insert your SD card into your computer
+### 2. rész: dsbf_dump
+1. Kapcsold be a készülékedet
+1. Idítsd el a flashcard-od
+1. Navigálj az SD kártyád gyökerébe és indítsd el a dsbf_dump-ot
+1. Várja meg, amíg a folyamat befejeződik
+1. Ha a folyamat végzett, nyomd meg a <kbd>START</kbd> gombot az eszközöd kikapcsolásáshoz
+  - A 3DS-család rendszerei "Software closed" jelenik meg helyette. Kapcsold ki a készüléked ezen a képernyőn
+1. Helyezd az SD kártyád a számítógépedbe
 
-All the necessary files will be in a folder specified on the top screen of your device.
+Minden szükséges fájl a készülék felső képernyőjén megjelenített mappában lesz.
 {:.alert .alert-success}
 
 {% endcapture %}

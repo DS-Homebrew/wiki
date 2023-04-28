@@ -31,6 +31,6 @@ Para ver qué ROMs tienen problemas conocidos, echa un vistazo a la [página de 
 - También, asegúrate de eliminar de la lista de juegos pendientes los juegos que has testeado
 
 #### Si vas a testear para actualizar las listas de exclusión
-- Change only the blacklisted options, these being: 133 MHz (TWL) CPU Speed, Card Read DMA, and Asynch Card Read
-- To enable blacklisted options in the per-game settings, go to `sd:/_nds/TWiLightMenu/settings.ini` and set `IGNORE_BLACKLISTS` to `1`
-- If there are any issues caused when turning on these settings, please report them on the Github issues page 
+- Cambia solamente las opciones con lista de exclusión, es decir, Veloc. CPU ARM9 a 133MHz (TWL), Lectura DMA, y Lectura asíncrona
+- Para habilitar las opciones excluídas en los ajustes de cada juego, abre el archivo `sd:/_nds/TWiLightMenu/settings.ini` y cambia el valor de `IGNORE_BLACKLISTS` a `1`
+- Si hay problemas al habilitar estos ajustes, por favor, repórtalos en la página de problemas de GitHub 

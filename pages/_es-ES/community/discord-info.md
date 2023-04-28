@@ -28,7 +28,7 @@ Siempre recuerda revisar el tema del canal y los mensajes anclados antes de habl
 
 **Nintendo DS⁽ⁱ⁾ Modding (Modificaciones de Nintendo DS⁽ⁱ⁾)**
 - [#nds-help][nds-help] - ¿Tienes un problema relacionado con la Nintendo DS(i)? ¿Necesitas hacer una pregunta general? Puedes hacerlo aquí, aportando toda la información que puedas (mensajes de error, información sobre tu consola, cosas que intentaste hacer, registros, etcétera). Si tu consulta es acerca de modificaciones en una 3DS, mantén la conversación en #other-console-modding, a no ser que implique el uso de TWL_FIRM
-- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Si bien este canal cubre el uso de TWL_FIRM en una 3DS, por favor, mantén las discusiones acerca del modo 3DS en #other-console-modding
+- [#nds-hardware][nds-hardware] - Lugar para discutir flashcards, parches antipìratería, y conocimiento e investigación general sobre la DS. Si bien este canal cubre el uso de TWL_FIRM en una 3DS, por favor, mantén las discusiones acerca del modo 3DS en #other-console-modding
 - [#nds-hacks][nds-hacks] - Charla acerca de ROM hacks, modificaciones y trucos para juegos de Nintendo DS(i). Revisa los mensajes anclados para obtener una lista de comunidades dedicadas
 - [#nds-dev][nds-dev] - Recursos y discusión sobre el desarrollo de aplicaciones homebrew para Nintendo DS(i). La discusión sobre aplicaciones homebrew existentes debe ir en #other-nds-homebrew
 

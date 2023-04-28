@@ -8,115 +8,115 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 ---
 
 ### Jeux DS disponibles sous forme de DSiWare
-- 100 Classic Books
-   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
-   - Only 20 books included
+- 100 Livres Classiques
+   - Version DSiWare appelée « Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20 »
+   - Seulement 20 livres sont inclus
 - 7 Wonders II
    - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
-   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
-   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - Version DSiWare exclusive au Japon, sous le nom de « Famicom Wars DS: Ushinawareta Hikari »
+   - Un patch qui change les fichiers japonais en versions anglaises américaines est disponible [ici](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Animal Boxing
 - Art Academy
-   - Split into First & Second Semesters
+   - Divisé en Premier et Second Semestres
 - Astro Invaders
-   - DSiWare version called "Astro"
-   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
+   - Version DSiWare appelée « Astro »
+   - Il est intéressant de noter que le manuel d'instructions indique toujours « Astro Invaders » à la page 1
 - Bejeweled Twist
-   - Some features removed
+   - Certaines fonctionnalités ont été supprimées
 - Bomberman 2
-   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
+   - La fonction multijoueur est devenue un titre autonome appelé « Bomberman Blitz »
 - Bookworm
-   - Download Play feature removed
-   - Icon is animated
+   - Suppression de la fonction Téléchargement DS
+   - L'icône est animée
 - Brain Challenge
-   - New features related to the DSi camera are added
-   - Versus mode is removed
-   - Many files are compressed for the game to fit within the DSiWare size limit
-   - Icon is animated
+   - De nouvelles fonctionnalités liées à l'appareil photo DSi sont ajoutées
+   - Le mode Versus est supprimé
+   - De nombreux fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
+   - L'icône est animée
 - Chronos Twins
-- Clubhouse Games
-   - Split into three DSiWare titles called
-      - Clubhouse Games Express: Card Classics
-      - Clubhouse Games Express: Family Favorites
-      - Clubhouse Games Express: Strategy Pack
+- 42 Jeux Indémodables
+   - Divisé en trois titres DSiWare appelés
+      - Une pause avec… Des jeux indémodables : Jeux de cartes
+      - Une pause avec… Des jeux indémodables : Jeux de société
+      - Une pause avec… Des jeux indémodables : Jeux de stratégie
 - Coropata
 - Dragon's Lair
    - Extras menu containing Watch Mode is replaced with the Manual
 - Electroplankton
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
-   - Multiplayer added
-- G.G. Series DSiWare titles
-   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Multijoueur ajouté
+- Titres DSiWare G.G. Series
+   - Une collection intitulée « G.G. Series Collection+ » est sortie physiquement en exclusivité au Japon
    - Built as an NTR title, allowing for playing on DS consoles
-   - Manual screens contain a unique UI
+   - Les écrans du manuel contiennent une interface utilisateur unique
 - Heathcliff: Frantic Foto
-   - DSiWare version called "Heathcliff: Spot On"
+   - Version DSiWare appelée « Heathcliff: Spot On »
 - Jewel Adventures
 - Jewel Legends: Tree of Life
 - Jewel Quest 4: Heritage
 - Jewel Quest 5: The Sleepless Star
-- Master of Illusion/Magic Made Fun
-   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Faites de la magie
+   - Divisé en six titres DSiWare appelés « Une pause avec… Faites de la magie ». En anglais, ils sont appelés « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
-   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
+   - Version DSiWare appelée « Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light »
 - Need for Speed: Nitro
-   - DSiWare version called "Need for Speed: Nitro-X"
-   - Download Play feature and various music are removed
-   - New police cars available
-- Nintendogs: Lab & Friends
-   - DSiWare version exclusive to China
+   - Version DSiWare appelée « Need for Speed: Nitro-X »
+   - La fonction Téléchargement DS et diverses musiques sont supprimées
+   - Nouvelles voitures de police disponibles
+- Nintendogs : Labrador & ses amis
+   - Version DSiWare exclusive à la Chine
 - Phantasy Star 0
-   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
-   - Icon is animated
-- Planet Puzzle League
-   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
-   - Multiplayer removed
-   - Some music tracks removed
-- Plants vs. Zombies
-   - Download Play feature, some achievements, and music video are removed
-   - Includes exclusive minigame
-   - Icon is animated
+   - Une version démo (?) du jeu original, nommée « Phantasy Star 0 Mini », est exclusive au Japon
+   - L'icône est animée
+- Puzzle League DS
+   - Version DSiWare appelée « Une pause avec… Puzzle League ». En anglais, elle est appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
+   - Multijoueur retiré
+   - Certaines pistes musicales ont été retirées
+- Plantes contre Zombies
+   - La fonction Téléchargement DS, certains succès et la vidéo musicale ont été retirés
+   - Comprend un mini-jeu exclusif
+   - L'icône est animée
 - The Price Is Right: 2010 Edition
    - DSiWare version called "The Price Is Right"
-   - Some files are compressed for the game to fit within the DSiWare size limit
+   - Certains fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
    - Some minigames are removed
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
-   - Icon is animated
+   - L'icône est animée
 - Slingo Quest
 - Space Invaders Extreme 2
-   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
-   - Wireless features removed
+   - Version DSiWare appelée « Space Invaders Extreme Z », exclusive au Japon
+   - Fonctionnalités sans fil retirées
 - Statego: Next Edition
    - Sprite files are compressed for the game to fit within the DSiWare size limit
 - Successfully Learning: English, Year 2+3
 - Successfully Learning: English, Year 4+5
 - Successfully Learning: Mathematics, Year 2+3
 - Successfully Learning: Mathematics, Year 4+5
-- Sujin Taisen: Number Battles
-   - DSiWare version known as "Number Battle" in USA
-   - Local multiplayer is removed, but online multiplayer is retained
+- Sujin Taisen : La guerre des chiffres
+   - Version DSiWare connue sous le nom de « Number Battle » aux États-Unis
+   - Le multijoueur local est retiré, mais le multijoueur en ligne est conservé
 - Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
-   - Split into 5 parts(?)
+   - Divisé en 5 parties (?)
 - Tetris Party Deluxe
-   - DSiWare version called "Tetris Party Live"
-   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-   - Icon is animated
-- True Swing Golf/Nintendo Touch Golf
-   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
-   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
-      - The game engine is improved
-      - Challenge mode replaces Championship Tour of the retail game
+   - Version DSiWare nommée « Tetris Party Live »
+   - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
+   - L'icône est animée
+- Nintendo Touch Golf: Birdie Challenge
+   - Version DSiWare appelée « Une pause avec… Nintendo Touch Golf ». En anglais, elle est appelée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
+   - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
+      - Le moteur du jeu est amélioré
+      - Le mode challenge remplace le mode championnat du jeu commercial
 - WarioWare: Touched!
-   - Slot-2 features removed
+   - Fonctionnalités Slot-2 retirées
 - Zombiez Seeker
    - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
-   - Multiplayer removed
-   - Icon is animated
+   - Multijoueur retiré
+   - L'icône est animée
 
 Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Bomberman Blitz
@@ -150,18 +150,18 @@ Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Pocket Pack: Words & Numbers
      - Utilise le cloneboot pour le multijoueur
 - Pop Island
-     - Has a feature to send a game demo to any DS family console
-- Pop Island: Paperfield
-     - Has a feature to send a game demo to any DS family console
+     - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
+- Pop Island Paperfield
+     - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
 
 ### DSiWare ayant eu une sortie initialement prévue sur DS/DS Lite
 - Flipper
-     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
-- Go! Go! Island Rescue! (unconfirmed)
-     - The game has an unused help menu which isn't like in other DSiWare titles
-     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
-- Go! Go! Kokopolo
-     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
+     - L'éditeur original de la version DS a fait faillite. [Consulter la page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (non confirmé)
+     - Le jeu dispose d'un menu d'aide inutilisé, ce qui n'est pas le cas des autres titres DSiWare
+     - Le menu À propos affiche un nom différent (probablement plus ancien), « Go ! Go! Rescue Squad! »
+- Go! Go! Kokopolo: Harmonious Forest Revenge
+     - Annoncé pour la première fois en octobre 2008 comme un titre en cours de développement pour la Nintendo DS, dans une série de « Developers Diaries » du magazine de jeux vidéo britannique NGamer. [Consulter la page](http://n-europe.com/news.php?nid=12428)
 
 ### Jeux qui ont reçu des mises à jour du SDK
 - Advance Wars: Days of Ruin/Dark Conflict : SDK4 -> SDK5 au Japon (en tant que DSiWare)
@@ -427,29 +427,29 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
     - Live Channel
 - Kuizu Ongaku Nojika (DSiWare)
     - Wii title unknown
-- My Word Coach (DS)
-    - My Word Coach (Wii)
+- Mon Coach Personnel : J'enrichis mon vocabulaire (DS)
+    - Mon Coach Personnel : J'enrichis mon vocabulaire (Wii)
 - Odekake! Earth Seeker (DSiWare)
     - Earth Seeker (Wii)
-- Pokémon Diamond/Pearl
+- Pokémon Diamant/Perle
     - My Pokémon Ranch
-- Pokémon Platinum
-    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Platine
+    - My Pokémon Ranch (mise à jour exclusive au Japon)
 - Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
     - Pokémon Battle Revolution
-- Personal Trainer: Walking
-    - Mii Channel
-- Ultimate Band
+- Marche avec moi : Quel est ton rythme ?
+    - Chaîne Mii
+- Ultimate Band (DS)
     - Ultimate Band (Wii)
-- WarioWare D.I.Y.
-    - WarioWare D.I.Y. Showcase
+- WarioWare: D.I.Y.
+    - WarioWare: D.I.Y. Showcase
 
 ### Jeux avec des cartes de jeu IR
 - Pokémon HeartGold/SoulSilver
    - Pour la connexion au podomètre Pokéwalker
 - Pokémon Noir/Blanc/Noir 2/Blanc 2
    - Pour les échanges, combats et Tests de Compatibilité en utilisant le C-Gear, ainsi que les partages de clés
-- Personal Trainer: Walking
+- Marche avec moi : Quel est ton rythme ?
    - Possède deux podomètres infrarouges
    - Non compatible avec les ROMs Pokémon
 - Active Health with Carol Worderman

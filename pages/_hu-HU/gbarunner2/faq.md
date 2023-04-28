@@ -20,7 +20,7 @@ Töbnyire a TWiLight Menu++-ba ágyazott build megfelelő. A GBARunner különb�
 Szükséged van egy build-re a [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) ágból, ahhoz, hogy használhasd ezt a szolgáltatást. Részletes információt találsz a buildek telepítéséről a [WikiTemp oldalon](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Miért nem támogatott az RTC (Real Time Clock) egy ROM hackben?
-Az RTC játékonként támogatott. A ROM cím ID-ját meg kell változtatnod egy olyan játék kódjára, ami támogatja az RTC-t, hogy a GBARunner2 felismerje azt.
+Az RTC játékonként támogatott. A ROM cím ID-ját meg kell változtatnod egy olyan játék kódjára, ami támogatja az RTC-t, hogy a GBARunner2 felismerje azt. You can find a list of supported title IDs in [GBARunner2's code](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
 
 A cím ID- a következő módon módosíthatod:
 1. <label for="file-input" class="form-label">Válaszd ki a GBA ROM fájlt:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />

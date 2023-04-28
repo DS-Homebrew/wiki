@@ -2,45 +2,45 @@
 lang: hu-HU
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Dumping
-description: How to extract the Nintendo GBA BIOS from your console
+title: GBA BIOS dumpolása
+description: Hogyan szedd ki a Nintendo GBA BIOS-t a konzolodból
 tabs:
   - 
-    3ds-sd-card: 3DS with open_agb_firm
-    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
+    3ds-sd-card: 3DS open_agb_firm-mel
+    gba-flashcart: GBA/DS/DS Lite GBA-módú flashcart-tal
 ---
 
-While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
+Míg a legtöbb GBA emulátornak önmagában nem okoz gondot a GBA játékok lejátszása, néhány emulátornak és hipervizornak, például a GBARunner2-nek szüksége lehet a BIOS fájlra egyes játékok megfelelő lejátszásához.
 
-There are two distinct ways to achieve this, using:
-- a 3DS with custom firmware, OR
-- a GBA/DS/DS Lite with a GBA-mode flashcart
+Két úton lehet ezt elérni:
+- egy 3DS egyéni firmware-rel, VAGY
+- egy GBA/DS/DS Lite GBA-módú flashcart-tal
 
 {% capture tab-3ds-sd-card %}
 ### 1. rész: A szükséges fájlok beszerzése
-1. Download [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (the `.7z` file)
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Create a folder named `payloads` inside the `/luma` folder if it does not already exist
-1. Copy `open_agb_firm.firm` from the open_agb_firm `.7z` file to the `/luma/payloads` folder
-1. Copy `Bios_Dumper.gba` to the root of your SD card
+1. Töltsd le az [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) fájlt (a `.7z` fájl)
+1. Töltsd le a [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba) fájlt
+1. Hozz létre egy `payloads` nevű mappát a `/luma` mappában, ha még nem létezik
+1. Másold az `open_agb_firm.firm`fájlt az open_agb_firm `.7z` fájlból a `/luma/payloads` mappába
+1. Másold a `Bios_Dumper.gba` fájlt az SD kártyád gyökerébe
 1. Tedd vissza az SD kártyád a készülékedbe
 
-### Part 2: Bios_Dumper
-1. Press and hold <kbd>START</kbd>, and while holding <kbd>START</kbd>, power on your device
-    - This will launch open_agb_firm
-    - If it loads the `Luma3DS Chainloader`, select `open_agb_firm` from this menu
-    - If it loads to something else, you did not copy `open_agb_firm.firm` to the correct folder on your SD card
-1. From open_agb_firm, launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### 2. rész: Bios_Dumper
+1. Nyomd le és tartsd lenyomva a <kbd>START</kbd> gombot, és amíg nyomva tartod azt, kapcsold be a készüléked
+    - Ez elindítja az open_agb_firm-et
+    - Ha betölti a `Luma3DS Chainloader`-t, válaszd az `open_agb_firm`-et ebbl a menüből
+    - Ha mást tölt be, akkor nem másoltad az `open_agb_firm.firm` fájlt a megfelelő mappába az SD kártyádon
+1. Az open_agb_firm-ből indítsd el a `Bios_Dumper.gba`-t
+1. A képernyő pirosan majd zölden villant
+1. Várj kb. 5 másodpercet
+1. Kapcsold ki a készüléked
 
 {% capture upload-bios-text %}
-From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
+Az SD kártyádról töltsd fel a `/3ds/open_agb_firm/saves/Bios_Dumper.sav` fájlt itt:
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### 3. rész: A BIOS kicsomagolása a generált mentés fájlból
+1. Helyezd az SD kártyád a számítógépedbe
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -49,23 +49,23 @@ From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
 
 {% capture tab-gba-flashcart %}
 ### 1. rész: A szükséges fájlok beszerzése
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Copy `Bios_Dumper.gba` to the root of your flashcart's SD card
-1. Reinsert your SD card into your flashcart
-1. Reinsert your GBA flashcart into your cartridge
+1. Töltsd le a [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba) fájlt
+1. Másold a `Bios_Dumper.gba` fájlt a flashcart SD kártyája gyökerébe
+1. Tedd vissza az SD kártyád a flashcart-odba
+1. Helyezd vissza a GBA flashcart-odat a cartridge-be
 
-### Part 2: Bios_Dumper
-1. Launch your flashcart, then launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### 2. rész: Bios_Dumper
+1. Indítsd el a flashcart-odat, majd indítsd el a `Bios_Dumper.gba`-t
+1. A képernyő pirosan majd zölden villant
+1. Várj kb. 5 másodpercet
+1. Kapcsold ki a készüléked
 
 {% capture upload-bios-text %}
-From your SD card, upload `Bios_Dumper.sav` here:
+Az SD kártyádról töltsd fel a `Bios_Dumper.sav` fájlt itt:
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### 3. rész: A BIOS kicsomagolása a generált mentés fájlból
+1. Helyezd az SD kártyád a számítógépedbe
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -74,7 +74,7 @@ From your SD card, upload `Bios_Dumper.sav` here:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-A `bios.bin` file will automatically download. This is the final GBA BIOS file.
+Egy `bios.bin` fájl automatikusan letöltésre kerül. Ez a végleges GBA BIOS fájl.
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

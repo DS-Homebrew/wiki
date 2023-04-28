@@ -53,6 +53,6 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
    - R4(i)RTS (r4rts.com) (használd az M3Real_M3iZero YSMenu fájlokat)
    - R4 SDHC RTS (fekete cartridge) (r4isdhc.com) (használd az M3Real_M3iZero YSMenu fájlokat)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
+   Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/download/35737/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Nyisd meg a TWLMenu++ Beálltásokat, válts az `nds-bootstrap beállítások` oldalra és állítsd be az `nds-bootstrap használatát` `Kernel`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett

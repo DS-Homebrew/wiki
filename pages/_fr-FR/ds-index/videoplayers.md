@@ -4,10 +4,10 @@ layout: wiki
 section: ds-index
 category: reference
 title: Lecteurs vidéo
-description: Lecteurs vidéo homebrews pour la Nintendo DS(i)
+description: Lecteurs vidéo homebrew pour la Nintendo DS(i)
 ---
 
-# Lecteurs vidéo homebrews pour la Nintendo DS(i)
+# Lecteurs vidéo homebrew pour la Nintendo DS(i)
 Cette page contient une liste de lecteurs vidéo fonctionnels ou non terminés pour les Nintendo DS et DSi, et explique le fonctionnement de chacun.
 
 | Nom du joueur | Conteneurs/Codecs pris en charge | Support            | Inconvénients                                               | FPS max |

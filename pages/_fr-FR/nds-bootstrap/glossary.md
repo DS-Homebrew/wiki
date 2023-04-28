@@ -31,7 +31,7 @@ Permet d'utiliser l'accès direct à la mémoire (de l'anglais Direct Memory Acc
 Si un jeu est suffisamment petit, il peut être chargé dans la RAM du système pour accélérer les temps de chargement. L'activation de cette option augmente la limite de taille des ROMs, mais peut en casser certaines.
 
 ### Démarrage direct
-Apparaît seulement pour les ROMs homebrews. En mettant cette option sur « Oui », nds-bootstrap ne sera pas utilisé lors du lancement de la ROM. Ceci est utile pour les ROMs homebrews qui n'ont pas besoin ou ne fonctionnent pas avec nds-bootstrap.
+Apparaît seulement pour les ROMs homebrew. En mettant cette option sur « Oui », nds-bootstrap ne sera pas utilisé lors du lancement de la ROM. Ceci est utile pour les ROMs homebrew qui n'ont pas besoin ou ne fonctionnent pas avec nds-bootstrap.
 
 ### Bootstrap
 Changez si vous voulez exécuter la ROM avec la version Stable ou Nightly de nds-bootstrap. Des informations sur les builds Nightly peuvent être trouvées sur la [FAQ de nds-bootstrap](https://wiki.ds-homebrew.com/fr-FR/nds-bootstrap/faq?faq=quest-ce-quun-nightly-et-ou-puis-je-lobtenir)

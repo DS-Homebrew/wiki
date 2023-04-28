@@ -28,7 +28,7 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 
 **Nintendo DS⁽ⁱ⁾ Modding (« Modding Nintendo DS⁽ⁱ⁾ »)**
 - [#nds-help][nds-help] - Vous avez un problème avec tout ce qui concerne la Nintendo DS(i) ? Vous avez besoin de poser une question générale ? Faites-le ici, en fournissant toutes les informations que vous pouvez donner (messages d'erreur, votre console, méthodes essayées, logs, etc.). Gardez ce qui concerne le modding 3DS dans #other-console-modding sauf si cela implique TWL_FIRM
-- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Bien que ce salon couvre TWL_FIRM sur 3DS, veuillez garder les discussions sur le mode 3DS dans #other-console-modding
+- [#nds-hardware][nds-hardware] - Lieu de discussion sur les linkers, les patchs AP, et les compréhensions et recherches générales sur la DS. Bien que ce salon couvre TWL_FIRM sur 3DS, veuillez garder les discussions sur le mode 3DS dans #other-console-modding
 - [#nds-hacks][nds-hacks] - Parlez des ROMs hacks, des mods et des codes de triche pour les titres Nintendo DS(i). Consultez les messages épinglés pour obtenir une liste des communautés dédiées
 - [#nds-dev][nds-dev] - Ressources et discussions sur le développement d'homebrews de la DS(i). Les discussions régulières sur les homebrews existants doivent aller dans #other-nds-homebrew
 
@@ -41,12 +41,12 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 **Secondary DS⁽ⁱ⁾ Homebrew Projects (« Projets d'homebrews DS⁽ⁱ⁾ secondaires »)**
 - [#godmode9i][godmode9i] - Ce salonest destiné aux discussions sur le développement de GodMode9i. Pour obtenir de l'aide, utilisez #nds-help
 - [#fastvideods][fastvideods] - Ce salon est destiné aux discussions sur le développement FastVideoDS Player et Encoder. Pour obtenir de l'aide, utilisez #nds-help
-- [#other-nds-homebrew][other-nds-homebrew] - Ce forum est destiné à l'aide, aux mises à jour et aux discussions sur les homebrews Nintendo DS(i) qui ne sont pas couverts par d'autres salons. Il y a des fils de discussion pour les applications homebrews individuelles, et vous pouvez en créer un nouveau s'il n'y a pas déjà un fil de discussion pour votre application
+- [#other-nds-homebrew][other-nds-homebrew] - Ce forum est destiné à l'aide, aux mises à jour et aux discussions sur les homebrews Nintendo DS(i) qui ne sont pas couverts par d'autres salons. Il y a des fils de discussion pour les applications homebrew individuelles, et vous pouvez en créer un nouveau s'il n'y a pas déjà un fil de discussion pour votre application
 
 **Community (« Communauté »)**
 - [#off-topic][off-topic] - Un salon pour tout sujet qui ne correspond pas nécessairement aux autres salons. Les messages de moindre qualité doivent rester sur #end-of-server
 - [#nds-gaming][nds-gaming] - Un endroit pour discuter de manière générale des jeux sur la DS(i), ainsi que pour rechercher des joueurs pour jouer en ligne. Consultez les messages épinglés pour obtenir une liste des communautés dédiées
-- [#other-console-modding][other-console-modding] - Parler d'homebrews et de mods pour tout autres systèmes de jeux, comme la 3DS lorsqu'elle ne concerne pas TWL_FIRM
+- [#other-console-modding][other-console-modding] - Parler d'homebrews et de mods pour tout autre système de jeu, comme la 3DS lorsqu'elle ne concerne pas TWL_FIRM
 - [#end-of-server][end-of-server] - Pour les discussions occasionnelles de moindre qualité. Les règles sont un peu plus souples, mais sont toujours appliquées. Utilisez cet espace pour poster vos mèmes, commandes de bots et autres choses qui ne facilitent pas la discussion
 
 ## Rôles et étiquettes utilisateur

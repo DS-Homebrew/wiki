@@ -27,7 +27,7 @@ Choisissez l'un des éléments suivants pour l'ajouter au menu HOME :
 Cette page suppose que vous exécutez un environnement CFW moderne d'après [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-warning}
 
-### Partie 1 : Obtenir les fichiers nécessaires
+### Étape 1: Récupérer les fichiers nécessaires
 
 Si Universal-Updater est déjà installé sur votre console, vous pouvez passer à l'étape 3.
 {:.alert .alert-info}

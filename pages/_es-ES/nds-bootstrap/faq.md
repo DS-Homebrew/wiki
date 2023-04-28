@@ -35,15 +35,15 @@ nds-bootstrap parchea las funciones de la ROM para poder ejecutarse desde una ta
 - Se consume menos batería
 - Usando ciertos cartuchos, puedes usar comunicación IR en las aplicaciones y juegos que lo admiten
 - nds-bootstrap es de código abierto, lo que significa que los desarrolladores pueden actualizarlo para corregir bugs y otras cosas, incluso si se abandona el proyecto
-- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-     - Currently, only *Nintendo DS Browser* emulates it
+- Se emula el cartucho de expansión de memoria, lo que significa que los juegos que requieren dicho accesorio funcionarán
+     - Actualmente, sólo se emula con la aplicación *Nintendo DS Browser*
 - Se pueden intercambiar las pantallas, lo que permite una experiencia de juego más cómoda en sistemas con pantallas rotas o removidas
 - Puedes tomar capturas de pantalla y editar valores en la memoria RAM a través del menú dentro del juego
 
 #### ¿Por qué debería usar B4DS en una flashcard si uso una DS/DS Lite?
 - Ciertas ROMs compatibles se cargan en el cartucho de expansión de memoria (o en flashcards de la ranura Slot-2 que tengan RAM), lo que permite tiempos de carga más rápidos que al usar cartuchos
-- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
+- Se pueden ejecutar más de 400 títulos DSiWare usando parches integrados y una ROM donante de un juego con mejoras DSi
+     - Ten en cuenta que siempre se usará nds-bootstrap para ejecutar títulos DSiWare, independientemente de si configuraste TWiLight Menu++ para usar el kernel de tu flashcard en lugar de nds-bootstrap en los ajustes
      - No todos los títulos DSiWare son capaces de guardar, debido a que es complicado añadir soporte de guardado, y algunos almacenan más de un archivo en el sistema de almacenamiento.
 - Si el kernel de tu flashcard no puede ejecutar alguna ROM, puedes usar nds-bootstrap en su lugar, y esto puedes configurarlo independientemente según cada juego
 - Se pueden intercambiar las pantallas, lo que permite una experiencia de juego más cómoda en sistemas con pantallas rotas o removidas

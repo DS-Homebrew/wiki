@@ -20,7 +20,7 @@ Généralement, les builds qui sont inclus avec TWiLight Menu++ sont suffisants.
 Vous aurez besoin d'un build à partir de la branche [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) pour utiliser les fonctionnalités. Vous pouvez trouver des instructions détaillées sur la façon de configurer les builds sur sa [page WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Pourquoi la HTR (Horloge à Temps Réel) n'est pas supportée dans une ROM hack ?
-La HTR est prise en charge sur une base par jeu. Vous devrez changer l'ID du titre de la ROM en celui d'un jeu qui supporte la HTR pour que GBARunner2 la reconnaisse.
+La HTR est prise en charge sur une base par jeu. Vous devrez changer l'ID du titre de la ROM en celui d'un jeu qui supporte la HTR pour que GBARunner2 la reconnaisse. You can find a list of supported title IDs in [GBARunner2's code](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
 
 Vous pouvez modifier l'ID du titre en procédant comme suit :
 1. <label for="file-input" class="form-label">Sélectionnez le fichier de ROM GBA :</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />

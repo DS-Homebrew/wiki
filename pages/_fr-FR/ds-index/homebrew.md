@@ -39,7 +39,7 @@ Toutefois, les kernels fournis avec ces cartes sont fondamentalement défectueux
 - [TWiLight Menu avec YSmenu](../twilightmenu/installing-flashcard) - Menu tout-en-un personnalisable avec une grande compatibilité, mais manque de support pour les codes de triche
 
 ### Support de l'ARGV
-L'ARGV est un transmetteur d'informations entre deux applications homebrews Nintendo DS. Il peut être utilisé pour les forwarders ou les menus alternatifs.
+L'ARGV est un transmetteur d'informations entre deux applications homebrew Nintendo DS. Il peut être utilisé pour les forwarders ou les menus alternatifs.
 
 - Les homebrews doivent être programmés pour en tirer parti. Par exemple, GBARunner2, NesDS et GameYob ont tous un support de l'ARGV
 - Il faut également prévoir un moyen de définir les variables ARGV. TWiLight Menu++ et HBMenu permettent de définir les arguments ARGV

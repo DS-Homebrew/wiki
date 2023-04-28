@@ -1,6 +1,6 @@
 ---
 lang: he-IL
-layout: wiki
+layout: וויקי
 section: ds-index
 category: guides
 title: BIOS/Firmware Dumping

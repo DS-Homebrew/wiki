@@ -3,16 +3,16 @@ lang: he-IL
 layout: wiki
 section: ds-index
 category: reference
-title: Special Games
-description: DS(i) Games that have special properties
+title: משחקים מיוחדים
+description: משחקי DS(i) עם פונקציות מיוחדות
 ---
 
-### DS games available as DSiWare
+### משחקי DS הזמינים כמשחקי DSiWare
 - 100 Classic Books
-   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
-   - Only 20 books included
+   - גרסאת הDSiWare נקראת "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
+   - רק 20 ספרים כלולים
 - 7 Wonders II
-   - Free Play mode removed
+   - מצב Free Play הוסר
 - Advance Wars: Days of Ruin/Dark Conflict
    - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
    - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
@@ -296,7 +296,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Madden NFL 2005
 - MegaMan Battle Network 5: Double Team DS
    - Mega Man Battle Network
-   - MegaMan Battle Network 2
+   - Mega Man Battle Network 2
    - MegaMan Battle Network 3 White/Blue
    - MegaMan Battle Network 4 Red Sun/Blue Moon
    - Rockman EXE 4.5 Real Operation (Japan only)
@@ -370,12 +370,12 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Games that use GBA Option Paks
-- Memory Expansion Pak
+### משחקים שמשתמשים בחבילות תוספת של GBA
+- חבילת הרחבת זכרון
    - Nintendo DS Browser
-- Motion Pack
+- חבילת תנועה
    - Tony Hawk’s Motion
-- Rumble Pak
+- חבילת רטט
    - Clubhouse Games
    - Custom Robo Arena
    - Diddy Kong Racing DS

@@ -20,7 +20,7 @@ crwdns28009:0crwdne28009:0 crwdns28011:0crwdne28011:0
 crwdns28013:0crwdne28013:0 crwdns31282:0crwdne31282:0
 
 #### crwdns31284:0crwdne31284:0
-crwdns28017:0crwdne28017:0 crwdns28681:0crwdne28681:0
+crwdns28017:0crwdne28017:0 crwdns28681:0crwdne28681:0 crwdns39699:0crwdne39699:0
 
 crwdns28683:0crwdne28683:0
 1. crwdns31286:0crwdne31286:0 <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />

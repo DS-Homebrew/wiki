@@ -28,7 +28,7 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 
 **Nintendo DS⁽ⁱ⁾ Modding**
 - [#nds-help][nds-help] - Problémád van bármivel, ami Nintendo DS(i)-vel kapcsolatos? Általános kérdésed van? Rajta, tedd fel itt, megadva minden információt, amit lehet (hiba üzenetek, konzolod, próbált metódusok, logok és így tovább). A 3DS moddolást tartsd a #other-console-modding csatornán, amíg nem kapcsolódik hozzá TWL_FIRM téma
-- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
+- [#nds-hardware][nds-hardware] - A flachcard-ok AP patchek, és a DS általános megértése és kutatások megvitatásának helye. Habár ez a csatorna fedi a TWL_FIRM-et a 3DS-en, a 3DS mód kérdéseket tartsd az #other-console-modding csatornán
 - [#nds-hacks][nds-hacks] - Beszélgetés ROM hack-ekről, mod-okról és csalásokról Nintendo DS(i) címeknél. Nézd meg a rögzített üzeneteket a dedikált közösségekről
 - [#nds-dev][nds-dev] - Erőforrások és beszélgetések DS(i) homebrew fejlesztésekről. A szokásos beszélgetéseknek már létező homebrew-okról az #other-nds-homebrew csatornán a helye
 

@@ -35,15 +35,15 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 - La consommation de la batterie est moindre
 - En utilisant certaines cartes de jeu, vous pouvez utiliser l'infrarouge dans votre application
 - nds-bootstrap est open source, ce qui signifie que les développeurs peuvent toujours le mettre à jour pour corriger les bogues et autres choses, même si le projet est abandonné
-- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-     - Currently, only *Nintendo DS Browser* emulates it
+- Le Memory Expansion Pak DS est émulé, ce qui signifie que les jeux nécessitant cet accessoire fonctionneront
+     - Actuellement, seul le *Navigateur Nintendo DS* l'émule
 - Intervertissez les écrans supérieur et inférieur dans les jeux compatibles pour un meilleur confort de jeu, ou sur les systèmes dont l'écran est cassé ou retiré
 - Faites des captures d'écran et modifiez les valeurs de la RAM à l'aide du menu en jeu
 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
 - Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
-- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
+- Plus de quatre cents titres DSiWare peuvent être exécutés à l'aide de patchs intégrés et d'une ROM donatrice d'un titre optimisé DSi
+     - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Lanceur de jeu` dans les paramètres de TWLMenu++
      - Tous les titres DSiWare ne peuvent pas être sauvegardés, en raison de la difficulté d'ajouter la prise en charge de la sauvegarde pour eux, et/ou du fait qu'ils stockent plus d'un fichier dans le système de fichiers de sauvegarde.
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu
 - Intervertissez les écrans supérieur et inférieur dans les jeux compatibles pour un meilleur confort de jeu, ou sur les systèmes dont l'écran est cassé ou retiré
