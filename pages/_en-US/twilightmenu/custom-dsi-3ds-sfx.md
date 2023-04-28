@@ -33,7 +33,7 @@ To build your custom sound effect bank, open your terminal (or command line if y
 ### Startup sound
 While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+The startup.wav file must be **16-bit 16 kHz**. You can use [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
 
 If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
 
@@ -55,7 +55,7 @@ ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
 Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+If you don't want to use the command line you can also convert using [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2).
 
 To convert the audio:
 1. Load the file in Audacity
