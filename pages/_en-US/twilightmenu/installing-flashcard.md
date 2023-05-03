@@ -30,6 +30,9 @@ Please note this only works if your flashcard is set to autoboot TWiLight Menu++
 Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
 {:.alert .alert-warning}
 
+Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
+{:.alert .alert-warning}
+
 1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
