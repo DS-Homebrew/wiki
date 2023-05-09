@@ -17,7 +17,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                |
-| Atari XEGS              | [XEGS-DS][xegs-ds]                               | `.xex`, `.atr`                         |                                                |
+| Atari XEGS              | [A8DS][a8ds]                                     | `.xex`, `.atr`                         |                                                |
 | ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]               | `.col`                                 |                                                |
 | DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                     |
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv` |
@@ -91,6 +91,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 <!-- Links for tables -->
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
+[a8ds]: https://github.com/wavemotion-dave/A8DS
 [colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
 [fastvideodsplayer]: https://github.com/Gericom/FastVideoDSPlayer
@@ -108,7 +109,6 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
-[xegs-ds]: https://github.com/wavemotion-dave/XEGS-DS
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
 [tunavids]: https://github.com/chishm/tuna-vids
