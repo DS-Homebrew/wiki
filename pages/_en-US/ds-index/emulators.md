@@ -71,7 +71,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
       - Saving is supported on DSi SD cards
       - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
    - Supports arguments
-   - Limit is 2.5 MB on a **Flashcard**
+   - Limit is 3 MB on a **Flashcard**
       - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
    - No sound emulation
    - Framerate is extremely choppy
