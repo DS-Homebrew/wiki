@@ -7,9 +7,7 @@ title: DSi/3DS Skins - Custom SFX
 description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
-
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Beyond the global music option (`DSi/3DS Theme Music`), TWiLight Menu++ supports skin overrides for music. To set it up, you'll need to follow [devkitPro's Getting Started guide](https://devkitpro.org/wiki/Getting_Started), which will install mmutil for you. If these skin overrides are not used, the default sounds will be used instead.
 
 ## Sound Effect Bank
 The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
@@ -39,17 +37,16 @@ If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo dow
 
 You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
 
-
 ## Menu BGM
 Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Unlike sfx.bin, there is no size limit to `bgm.pcm.raw`.
 
-### ffmpeg
+### ffmpeg (Terminal)
 The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
 
 ```bash
-ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
+ffmpeg -i [input file] -acodec adpcm_ima_wav bgm.wav
 ```
 
 Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
@@ -63,13 +60,15 @@ To convert the audio:
 1. Change the `Project Rate (Hz)` in the bottom left to `16000`
 
 To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
+1. Select `File` > `Export` > `Export as WAV`
+1. Set `Encoding` to `IMA ADPCM`
+1. Set the output name to `bgm.wav` and click `Save`
 1. Click `OK` to the metadata editing
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+---
 
- You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
+Once both of these files are ready to be used, place them in the `sound` subfolder for the skin. For example:
+- `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/sfx.bin`
+- `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme name]/sound/bgm.pcm.raw`
+
+Be sure to now set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for the custom sounds to play.
