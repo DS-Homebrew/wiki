@@ -47,9 +47,19 @@ If you are setting up a network to be DS-compatible, it must meet the following 
 1. Set `1.1.1.1` as your secondary DNS
 1. You might need to NoSSL patch your game at this point, depending on the game
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### Setting up the RiiConnect24 DNS Server
+Follow the guide below in the case that your ISP blocks custom DNS servers. This is typically indicated by the game continuing to display error code `20110`, despite having the correct DNS values entered.
+- Before following this, verify that your DS has no saved network configurations that are not setup to connect to an alternative service, and verify that your DNS settings are correct
 
+- This method requires your PC to be connected to the same network as your DS, and your PC must be running the server while you are playing online
+  - If you are unable to do this, you may need to manually patch your DS ROMs
+
+Simply follow the instructions for your platform in the [RiiConnect24 DNS Server README](https://github.com/RiiConnect24/DNS-Server#readme). From there, you should be able to connect to Wiimmfi from your DS.
+
+### Manually patching your DS ROMs
+Follow the guide below in case your ISP blocks custom DNS servers, *and* you are unable to use the RiiConnect24 DNS Server. Otherwise, it is *strongly* recommended to follow one of the guides above.
+
+- This method requires your console to be able to run DS ROMs via an SD card, through either a flashcard on any DS model, or a modded DSi or 3DS with [**TW**i**L**ight Menu++](twilightmenu) or [nds-bootstrap forwarders](forwarders)
 - Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
 - WfcPatcher currently doesn't support DSiWare
 
