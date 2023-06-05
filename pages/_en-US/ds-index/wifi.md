@@ -51,6 +51,7 @@ If you are setting up a network to be DS-compatible, it must meet the following 
 Follow the guide below in the case that your ISP blocks custom DNS servers. This is typically indicated by the game continuing to display error code `20110`, despite having the correct DNS values entered.
 - Before following this, verify that your DS has no saved network configurations that are not setup to connect to an alternative service, and verify that your DNS settings are correct
 
+- This method only supports the Wiimmfi servers. If you want to connect to different custom servers, you will need to create your own fork of the application
 - This method requires your PC to be connected to the same network as your DS, and your PC must be running the server while you are playing online
   - If you are unable to do this, you may need to manually patch your DS ROMs
 
