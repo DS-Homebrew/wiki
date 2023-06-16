@@ -41,35 +41,25 @@ You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to
 
 
 ## Menu BGM
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
+Menu BGM needs to be a **16-bit Mono** `.wav` file. Below is the method for converting audio files into that format.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
-
-### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
-
-```bash
-ffmpeg -i [input file] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
-```
-
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Unlike `sfx.bin`, `bgm.wav` can be arbitrarily large.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2).
+To get started, download [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2).
 
 To convert the audio:
 1. Load the file in Audacity
 1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Change the `Project Rate (Hz)` in the bottom left to `16000`
+1. Make sure the `Project Rate (Hz)` in the bottom left is not set to be above `48000` (which is the limit)
 
 To export in the correct format:
 1. Select `File` > `Export` > `Export Audio...`
-1. Set `File Type` to `Other uncompressed files`
-1. Set `Header` to `RAW (header-less)`
+1. Set `Save as type` to `WAV (Microsoft)`
 1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.pcm.raw` and click `Save`
-1. Click `OK` to the metadata editing
+1. Set the output name to `bgm.wav` and click `Save`
+1. Click `Clear` and then click `OK` to the metadata editing
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Now you have a `bgm.wav` file that can be copied to the `sound` subfolder in your theme folder.
 
  You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
