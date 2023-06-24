@@ -45,7 +45,7 @@ Menu BGM needs to be a **16-bit Mono** `.wav` file. Below is the method for conv
 
 Unlike `sfx.bin`, `bgm.wav` can be arbitrarily large.
 
-Please note that if your audio file alreade comes as a `.wav` file, you must follow the below method anyways, as TWLMenu++ has specific requirements.
+Please note that if your audio file already comes as a `.wav` file, you must follow the below method anyways, as TWLMenu++ has specific requirements.
 
 ### Audacity
 To get started, download [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2).
