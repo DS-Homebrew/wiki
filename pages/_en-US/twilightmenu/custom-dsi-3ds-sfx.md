@@ -33,7 +33,7 @@ To build your custom sound effect bank, open your terminal (or command line if y
 ### Startup sound
 While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://github.com/audacity/audacity/releases/latest) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
 
 If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
 
@@ -48,12 +48,12 @@ Unlike `sfx.bin`, `bgm.wav` can be arbitrarily large.
 Please note that if your audio file already comes as a `.wav` file, you must follow the below method anyways, as TWLMenu++ has specific requirements.
 
 ### Audacity
-To get started, download [the v3.0.2 version of Audacity](https://github.com/audacity/audacity/releases/tag/Audacity-3.0.2).
+To get started, download [the latest version of Audacity](https://github.com/audacity/audacity/releases/latest).
 
 To convert the audio:
 1. Load the file in Audacity
 1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Make sure the `Project Rate (Hz)` in the bottom left is not set to be above `48000` (which is the limit)
+1. Go to `Audio Setup` > `Audio Settings...`, and make sure the `Project Sample Rate` is not set to be above `48000 Hz` (which is the limit)
 
 To export in the correct format:
 1. Select `File` > `Export` > `Export Audio...`
