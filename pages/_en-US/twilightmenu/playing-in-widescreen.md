@@ -10,6 +10,9 @@ description: How to use TWiLight Menu++ in widescreen on the Nintendo 3DS
 This section requires a 3DS family console, running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
+This will not work with Luma v13. If you're currently on v13, please downgrade to v12.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### Installing
 1. Open FBI and select `Remote Install`, then `Scan QR Code`
 1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
