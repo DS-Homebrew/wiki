@@ -17,8 +17,8 @@ The Nintendo DS, Nintendo DSi, Nintendo 3DS, and Nintendo 2DS consoles are all c
 | Screen type       | TN(?)                               | TN (Regular), IPS (XL) | TN or IPS (varies by model) |
 | Screen scaling    | No                                  | No                     | Yes[^2]                     |
 | Brightness levels | 2 (On/Off for Phat), 4 (Lite)[^3]   | 5                      | 5                           |
-| GBA Compatiblity  | Native/Near-Perfect[^4]             | Great                  | Native/Near-Perfect[^5]     |
-| DSiWare Support   | Yes/Partial[^6]                     | Yes[^7]                | Yes[^7]                     |
+| GBA Compatiblity  | Native, Near-Perfect[^4]            | Great                  | Native, Near-Perfect[^5]    |
+| DSiWare Support   | Yes, Partial[^6]                    | Yes[^7]                | Yes[^7]                     |
 
 [^1]: DS games will run at 67mhz, but most can be configured to run at 133mhz, though certain games will have issues.
 [^2]: When launching in DS(i) mode, holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
