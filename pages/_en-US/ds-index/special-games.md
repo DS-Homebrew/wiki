@@ -47,8 +47,9 @@ description: DS(i) Games that have special properties
    - Each mode are turned into standalone DSiWare titles
 - Elite Forces: Unit 77
    - Multiplayer added
-- G.G. Series DSiWare titles
-   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+- G.G Series DSiWare titles
+   - A collection called "G.G Series Collection+" physically released exclusively in Japan
+   - Contains some exclusive titles which we're released a few years later as DSiWare
    - Built as an NTR title, allowing for playing on DS consoles
    - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
