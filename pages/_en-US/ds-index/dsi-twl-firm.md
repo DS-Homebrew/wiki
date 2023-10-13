@@ -7,25 +7,14 @@ title: Nintendo DSi / Nintendo 3DS TWL_FIRM
 description: Information about the Nintendo DSi and the Nintendo 3DS's TWL_FIRM
 ---
 
-### Setting up CFW
-The main benefit of modding your DSi and 3DS families of systems is that you can unlock more possibilities with your consoles. Installing Custom Firmware is quite easy, and in most cases, all you need is a (micro)SD card. Here are the best of guides for you to follow, with step-by-step instructions:
-
-- [3DS Hacking Guide](https://3ds.hacks.guide)
-   - Lightning command: `mod 3ds`
-   - TWLHelper command: `guide 3ds`
-   - Kurisu command: `guide 3ds`
-- [DSi Hacking Guide](https://dsi.cfw.guide)
-   - Lightning command: `mod dsi`
-   - TWLHelper command: `guide dsi`
-   - Kurisu command: `guide dsi`
-
 ### CPU speeds
-The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with a 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, they will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
 
-nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work properly with the higher clock speed. That's on the application itself, and applications not working with a higher clock speed is NOT a bug on the nds-bootstrap end.
+With the number of games that came out between the release of the first Nintendo DS to the release of the Nintendo DSi, most were coded to support only the former's clock speed without keeping in mind that one day, the title could be used in an environment not intended. As such, when running these games under the higher clock speed provided by the DSi (133 MHz), numerous glitches could occur, whether minor (such as screen tearing) or gamebreaking (not being able to see anything after sleep mode usage). By default, Nintendo locks these older titles to run under their intended environment (67 MHz) but by utilizing an alternative loader (such as TWiLight Menu++'s Slot-1 Launcher or nds-bootstrap), the lock is removed and it is up to the game (not our implementation) to keep up.
+
+For the titles that can keep up (whether thanks to nds-bootstrap patches or natively), these higher speeds are beneficial for loading times as well as lessen the amount of slowdown in-game. These options are not intended to be used with games that would be broken, and TWiLight Menu++ comes with a blacklist for any game that is known to be broken. Keep in mind that anything which remains broken is due to a fault in how the game was programmed and not a result of the way we remove the lock.
 
 ### Nintendo DSi Menu
-In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
+In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited to gain control over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
 
 There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
 
@@ -45,4 +34,4 @@ A `pit.bin` file is used in order to load images. However, the header size at of
 The second bootstage of the Nintendo DSi loads launcher's "title.tmd" into memory. However, they do not specify a file size limit check, meaning that the first 80k bytes are loaded into RAM while the rest can be a custom payload. This is the basis of Unlaunch exploit.
 
 ### RTCom
-RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, even while in TWL_FIRM. This allows 3DS features to be used while in DS(i) mode. This includes the circle pad's analog input, enabling widescreen, and having gyro support. Currently, the only public DS homebrew that make use of RTCom is certain builds of GBARunner2 that have support for the 3DS's gyro feature. To enable RTCom, you will need to use [TWPatch](https://gbatemp.net/threads/542694/).
+RTCom is the use of the 3DS's RTC to allow the ARM7 and ARM11 CPUs to communicate with each other, to enable additional features introduced in the Nintendo 3DS while in TWL_FIRM. These featured include remapping the circle pad to the touch screen, stretching the top screen display (allowing widescreen) and gyro support (currently only implemented in specific GBARunner2 builds) Enabling this requires [TWPatch](https://gbatemp.net/threads/542694/).
