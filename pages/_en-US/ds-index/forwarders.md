@@ -8,7 +8,7 @@ description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
 tabs:
   - 3ds-sd-card: 3DS SD card
     dsi-sd-card: DSi SD card
-    flashcard: Flashcard
+    flashcard-dsi-3ds: Flashcard on DSi/3DS
 ---
 
 Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -81,7 +81,7 @@ If you already have TWiLight Menu++, skip to the next section.
 {% endcapture %}
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
-{% capture tab-flashcard %}
+{% capture tab-flashcard-dsi-3ds %}
 
 ### Requirements
 
@@ -205,7 +205,7 @@ If you already have TWiLight Menu++, skip to the next section.
    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
    1. Install the forwarder NDS file using TMFH
 {% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+{% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 
-{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard %}
+{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard-dsi-3ds %}
 {% include tabs.html index=0 tabs=tabs %}
