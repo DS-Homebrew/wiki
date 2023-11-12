@@ -56,7 +56,7 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Part 1: Getting started
 1. Copy `NDSForwarder.dsi` to your SD card root
-   - This can optionally be installed to hiyaCFW directly using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
+   - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
 1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
