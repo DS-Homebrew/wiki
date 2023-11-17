@@ -8,7 +8,7 @@ description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
 tabs:
   - 3ds-sd-card: 3DS SD card
     dsi-sd-card: DSi SD card
-    flashcard: Flashcard only (DS Phat/Lite or unmodded DSi/3DS)
+    flashcard: Flashcard only
     flashcard-dsi-3ds: Flashcard on modded DSi/3DS
 ---
 
@@ -63,7 +63,7 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next section.
+If you already have TWiLight Menu++, skip to the next part.
 {:.alert .alert-info}
 
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
@@ -96,7 +96,7 @@ If you already have TWiLight Menu++, skip to the next section.
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
-If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next section.
+If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
 {:.alert .alert-info}
 
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
