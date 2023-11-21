@@ -9,6 +9,7 @@ description: Information on using Wi-Fi on the Nintendo DS
 
 - On Nintendo DS applications, you can only use WEP and Open Wi-Fi security settings
 - On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
+- If you're on DSi or 3DS, ensure you've accepted the network agreement first
 
 Hotspots are usable, so you don't need to change your router configuration.
 
