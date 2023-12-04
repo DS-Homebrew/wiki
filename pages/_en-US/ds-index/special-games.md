@@ -120,11 +120,21 @@ description: DS(i) Games that have special properties
    - Multiplayer removed
    - Icon is animated
 
-Supports Wi-Fi (WPA 1/2 included):
+### DSiWare with Wi-Fi support (WPA 1/2 included)
 - Bomberman Blitz
+   - Multiplayer
+- Dragon Quest Wars
+   - Multiplayer
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+   - Multiplayer & Records
+- Metal Torrent
+   - Records
 - Sujin Taisen: Number Battles
+   - Multiplayer
 - Tetris Party Live
+   - Multiplayer
+- UNO
+   - Multiplayer
 
 ### DSiWare compiled as DSi-Enhanced ROMs
 - 1st Class Poker & BlackJack
