@@ -127,6 +127,8 @@ description: DS(i) Games that have special properties
    - Multiplayer
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
    - Multiplayer & Records
+- Mario vs. Donkey Kong: Minis March Again
+   - Downloading user-created stages
 - Metal Torrent
    - Records
 - Sujin Taisen: Number Battles
