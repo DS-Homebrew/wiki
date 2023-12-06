@@ -86,7 +86,7 @@ If you already have TWiLight Menu++, skip to the next part.
 
 ### Requirements
 
-- A Nintendo DS, DS Lite, or unmodded DSi or 3DS with a flashcard
+- A Nintendo DS, DS Lite, DSi or 3DS with a flashcard
 - The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
 
 ### Part 1: Getting started
