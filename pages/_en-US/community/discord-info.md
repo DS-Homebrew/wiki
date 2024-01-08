@@ -36,6 +36,7 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
 - [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
 - [#gbarunner3-dev][gbarunner3-dev] - This channel is for discussion of the development of GBARunner3. For help, use #nds-help
+- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - This channel is for discussion of DSi ntrboot development.
 - [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects**
@@ -125,6 +126,7 @@ Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01,
 [nds-bootstrap-dev]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu-dev]: https://discord.com/channels/283769550611152897/489307733074640926
 [gbarunner3-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[dsi-ntrboot-dev]: https://discord.com/channels/283769550611152897/1193678677666431097
 [web-dev]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
