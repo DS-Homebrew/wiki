@@ -1,0 +1,475 @@
+---
+lang: uk-UA
+layout: wiki
+section: ds-index
+category: reference
+title: Special Games
+description: DS(i) Games that have special properties
+---
+
+### DS games available as DSiWare
+- 100 Classic Books
+   - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
+   - Only 20 books included
+- 7 Wonders II
+   - Free Play mode removed
+- Advance Wars: Days of Ruin/Dark Conflict
+   - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
+   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+- Animal Boxing
+- Art Academy
+   - Split into First & Second Semesters
+- Astro Invaders
+   - DSiWare version called "Astro"
+   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
+- Bejeweled Twist
+   - Some features removed
+- Bomberman 2
+   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
+- Bookworm
+   - Download Play feature removed
+   - Icon is animated
+- Brain Challenge
+   - New features related to the DSi camera are added
+   - Versus mode is removed
+   - Many files are compressed for the game to fit within the DSiWare size limit
+   - Icon is animated
+- Chronos Twins
+- Clubhouse Games
+   - Split into three DSiWare titles called
+      - Clubhouse Games Express: Card Classics
+      - Clubhouse Games Express: Family Favorites
+      - Clubhouse Games Express: Strategy Pack
+- Coropata
+- Dragon's Lair
+   - Extras menu containing Watch Mode is replaced with the Manual
+- Electroplankton
+   - Each mode are turned into standalone DSiWare titles
+- Elite Forces: Unit 77
+   - Multiplayer added
+- G.G. Series DSiWare titles
+   - A collection called "G.G. Series Collection+" physically released exclusively in Japan
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
+- Heathcliff: Frantic Foto
+   - DSiWare version called "Heathcliff: Spot On"
+- Jewel Adventures
+- Jewel Legends: Tree of Life
+- Jewel Quest 4: Heritage
+- Jewel Quest 5: The Sleepless Star
+- Master of Illusion/Magic Made Fun
+   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+- Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
+   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
+- Need for Speed: Nitro
+   - DSiWare version called "Need for Speed: Nitro-X"
+   - Download Play feature and various music are removed
+   - New police cars available
+- Nintendogs: Lab & Friends
+   - DSiWare version exclusive to China
+- Phantasy Star 0
+   - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
+   - Icon is animated
+- Planet Puzzle League
+   - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
+   - Multiplayer removed
+   - Some music tracks removed
+- Plants vs. Zombies
+   - Download Play feature, some achievements, and music video are removed
+   - Includes exclusive minigame
+   - Icon is animated
+- The Price Is Right: 2010 Edition
+   - DSiWare version called "The Price Is Right"
+   - Some files are compressed for the game to fit within the DSiWare size limit
+   - Some minigames are removed
+- Puzzler Brain Games
+- Puzzler World 2013
+- Real Crimes: Jack the Ripper
+   - Icon is animated
+- Slingo Quest
+- Space Invaders Extreme 2
+   - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
+   - Wireless features removed
+- Statego: Next Edition
+   - Sprite files are compressed for the game to fit within the DSiWare size limit
+- Successfully Learning: English, Year 2+3
+- Successfully Learning: English, Year 4+5
+- Successfully Learning: Mathematics, Year 2+3
+- Successfully Learning: Mathematics, Year 4+5
+- Sujin Taisen: Number Battles
+   - DSiWare version known as "Number Battle" in USA
+   - Local multiplayer is removed, but online multiplayer is retained
+- Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
+   - Split into 5 parts(?)
+- Tetris Party Deluxe
+   - DSiWare version called "Tetris Party Live"
+   - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
+   - Icon is animated
+- True Swing Golf/Nintendo Touch Golf
+   - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
+   - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
+      - The game engine is improved
+      - Challenge mode replaces Championship Tour of the retail game
+- WarioWare: Touched!
+   - Slot-2 features removed
+- Zombiez Seeker
+   - DSiWare version called "Zombie Blaster"
+- Zuma's Revenge!
+   - Multiplayer removed
+   - Icon is animated
+
+Supports Wi-Fi (WPA 1/2 included):
+- Bomberman Blitz
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Sujin Taisen: Number Battles
+- Tetris Party Live
+
+### DSiWare compiled as DSi-Enhanced ROMs
+- 1st Class Poker & BlackJack
+     - Uses cloneboot for Multiplayer
+- Base 10 (Art Style)
+     - Uses cloneboot for Multiplayer
+- Bird & Beans (Japan)
+- Box Pusher
+     - Uses cloneboot for Multiplayer
+- Bridge
+     - Uses cloneboot for Multiplayer
+- Clubhouse Games Express
+     - Uses cloneboot for Multiplayer
+- Cosmo Fighters
+     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
+- Dr. Mario Express
+- Globulos Party
+     - Uses cloneboot for Multiplayer
+- Hearts Spades Euchre
+     - Uses cloneboot for Multiplayer
+- Metal Torrent
+- Paper Airplane Chase (Japan)
+- Pocket Pack: Strategy Games
+     - Uses cloneboot for Multiplayer
+- Pocket Pack: Words & Numbers
+     - Uses cloneboot for Multiplayer
+- Pop Island
+     - Has a feature to send a game demo to any DS family console
+- Pop Island: Paperfield
+     - Has a feature to send a game demo to any DS family console
+
+### DSiWare moved from an originally planned DS/DS lite release
+- Flipper
+     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+- Go! Go! Island Rescue! (unconfirmed)
+     - The game has an unused help menu which isn't like in other DSiWare titles
+     - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
+- Go! Go! Kokopolo
+     - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
+
+### Games that got SDK upgrades
+- Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
+- Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
+- Giana Sisters DS: SDK4 -> SDK5 in USA
+- Hotel Dusk: Room 215: SDK3 -> SDK4 in Korea
+- Inazuma Eleven: SDK4 -> SDK5 in Europe
+- Inazuma Eleven 2: Blizzard and Firestorm: SDK4 -> SDK5 in Europe
+- Mario & Luigi: Partners in Time: SDK2 -> SDK4 in Korea
+- Nintendogs: Lab and Friends: SDK2 -> SDK5 (as DSiWare)
+- Phineas and Ferb: SDK4 -> SDK5 in Europe (as a DSi-Enhanced title)
+- Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
+- Pokémon Dash: SDK2 -> SDK3 in Korea
+- Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
+- Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
+- Sonic Rush Adventure: SDK3 -> SDK4 in Korea
+- WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
+
+### DSi-Enhanced games that don't use overlays
+Total: 39, some may be missing
+- 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
+- Are You Smarter than a 5th Grader: Back to School
+- Assassin's Creed II: Discovery
+- Bejeweled Twist
+- The Biggest Loser
+- Bratz Fashion Boutique
+- de Blob 2
+- Dolphin Island: Underwater Adventures
+- Fancy Nancy: Tea Party Time!
+- Grease: The Official Video Game
+- iCarly
+- Imagine: Animal Doctor Care Center
+- Imagine: Babyz Fashion
+- Imagine: Champion Rider
+- Imagine: Fashion Designer - World Tour
+- Imagine: Fashion Stylist/Fashion Paradise
+- Imagine: Gymnast
+- Imagine: Journalist
+- Imagine: Reporter
+- Imagine: Rescue Vet
+- Imagine: Resort Owner/Dream Resort
+- Jam Sessions 2
+- Just Sing!
+- Just Sing! Vol. 2
+- Just Sing! Vol. 3
+- Kung Fu Panda 2
+- The Last Airbender
+- Monster High: Ghoul Spirit
+- Penguins of Madagascar
+- Penguins of Madagascar: Dr. Blowhole Returns Again!
+- Petz: Dolphinz Encounter
+- Pictionary
+- Popstars
+- Rio
+- Scripps Spelling Bee
+- Sonic Classic Collection
+- Women's Murder Club: Games of Passion
+- You Don't Know Jack
+- Zhu Zhu Pets 2: Featuring The Wild Bunch
+
+### DSiWare games with backup code
+These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+
+- Cake Ninja
+   - Unused, so hacking is required to activate the code
+- Cake Ninja 2
+   - Unused, so hacking is required to activate the code
+- Cake Ninja: XMAS
+   - Unused, so hacking is required to activate the code
+- Dragon Quest Wars
+- Dreamwalker
+   - Unused, so hacking is required to activate the code
+- Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+- Go! Go! Kokopolo
+   - Unused, so hacking is required to activate the code
+- Make Up & Style
+   - Unused, so hacking is required to activate the code
+
+### Games that can connect with GBA titles
+Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
+
+- Advance Wars: Dual Strike
+   - Advance Wars
+   - Advance Wars 2: Black Hole Rising
+- Bleach DS
+   - Bleach Advance: Kurenai ni Somaru Soul Society
+- Castlevania Dawn of Sorrow
+   - Castlevania Aria of Sorrow
+   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
+- Daigasso! Band Brothers
+   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Eyeshield 21: MAX Devil Power
+   - Eyeshield 21: Devilbats Devildays
+- Feel the Magic: XY/XX
+   - ChuChu Rocket
+   - Puyo Pop
+   - Sonic Advance
+   - Sonic Advance 2
+   - Sonic Advance 3
+   - Sonic Battle
+   - Sonic Pinball Party
+   - Space Channel 5: Ulala's Cosmic Attack
+- Final Fantasy Tactics A2: Grimoire of the Rift
+   - Final Fantasy Tactics Advance
+- Frogger: Helmet Chaos
+   - Frogger's Journey: The Forgotten Relic
+   - Frogger's Adventures: Temple of the Frog
+   - Frogger's Adventures 2: The Lost Wand
+- Fullmetal Alchemist: Dual Sympathy
+   - Hagane no Renkinjutsushi: Omoide no Sonata
+   - Hagane no Renkinjutsushi: Meisou no Rondo
+- Ganbare Goemon: Toukai Douchuu
+   - Ganbare Goemon 1+2: Yuki-hime to Magginisu
+- Harvest Moon DS
+   - Harvest Moon: Friends of Mineral Town
+   - Harvest Moon: More Friends of Mineral Town
+- Kim Possible: Kimmunicator
+   - Disney's Kim Possible: Revenge of Monkey Fist
+   - Disney's Kim Possible 2: Drakken's Demise
+   - Disney's Kim Possible 3: Team Possible
+- Kirby: Canvas Curse
+   - Kirby: Nightmare in Dream Land
+   - Kirby and the Amazing Mirror
+- Knights in the Nightmare
+   - Yggdra Union: We'll Never Fight Alone
+- Lunar Knights
+   - Boktai: The Sun is in Your Hand
+   - Boktai 2: Solar Boy Django
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+- Madden NFL 06
+   - Madden NFL 06
+   - Madden NFL 2005
+- MegaMan Battle Network 5: Double Team DS
+   - Mega Man Battle Network
+   - MegaMan Battle Network 2
+   - MegaMan Battle Network 3 White/Blue
+   - MegaMan Battle Network 4 Red Sun/Blue Moon
+   - Rockman EXE 4.5 Real Operation (Japan only)
+   - MegaMan Battle Network 5 Team ProtoMan/Colonel
+   - Boktai: The Sun is in Your Hand
+   - Boktai 2: Solar Boy Django
+   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+- Mega Man Star Force Pegasus/Leo/Dragon
+   - Mega Man Battle Network
+   - Mega Man Battle Network 2
+   - Mega Man Battle Network 3 White/Blue
+   - Mega Man Battle Chip Challenge
+   - Mega Man Battle Network 4 Red Sun/Blue Moon
+   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Mega Man Battle Network 5 Team ProtoMan/Colonel
+   - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
+- Mega Man ZX
+   - Mega Man Zero 3
+   - Mega Man Zero 4
+   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
+- Phoenix Wright: Ace Attorney
+   - Gyakuten Saiban
+- Phoenix Wright: Justice for All
+   - Gyakuten Saiban 2
+- Phoenix Wright: Trials and Tribulations
+   - Gyakuten Saiban 3
+- Pokémon Dash
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+   - Pokémon Ruby/Sapphire
+   - Pokémon FireRed/LeafGreen
+   - Pokémon Emerald
+   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
+- Pokémon Mystery Dungeon: Blue Rescue Team
+   - Pokémon Mystery Dungeon: Red Rescue Team
+- Shrek Super Slam
+   - Shrek Super Slam
+- Spider-Man 2
+   - Spider-Man: Mysterio's Menace
+- Super Robot Wars W
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
+   - Super Robot Taisen: Original Generation
+   - Super Robot Taisen: Original Generation 2
+   - Dai-2-Ji Super Robot Taisen Famicom Mini
+- Super Robot Wars K
+   - Super Robot Wars Advance
+   - Super Robot Wars Reversal
+   - Super Robot Wars Destiny
+   - Super Robot Wars Judgement
+   - Super Robot Taisen: Original Generation
+   - Super Robot Taisen: Original Generation 2
+   - Dai-2-Ji Super Robot Taisen Famicom Mini
+- The Rub Rabbits
+   - ChuChu Rocket
+   - Puyo Pop
+   - Sonic Advance
+   - Sonic Advance 2
+   - Sonic Advance 3
+   - Sonic Battle
+- The Sims 2 (DS)
+   - The Sims 2 (GBA)
+- WarioWare: Touched!
+   - WarioWare: Twisted!
+- Yoshi Touch & Go
+   - Yoshi's Island: Super Mario Advance 3
+- Yu-Gi-Oh! Nightmare Troubadour
+   - Yu-Gi-Oh! GX Duel Academy
+
+### Games that use GBA Option Paks
+- Memory Expansion Pak
+   - Nintendo DS Browser
+- Motion Pack
+   - Tony Hawk’s Motion
+- Rumble Pak
+   - Clubhouse Games
+   - Custom Robo Arena
+   - Diddy Kong Racing DS
+   - Elite Beat Agents
+   - Ferrari Challenge
+   - GRID
+   - Hotel Dusk: Room 215
+   - Iron Man
+   - Juiced 2: Hot Import Nights
+   - Last Window: The Secret of Cape West
+   - Legend of Spyro: A New Beginning
+   - Magnetica
+   - Mahjong Fight Club DS - Wi-Fi Taiou
+   - Mario & Luigi: Partners in Time
+   - Metroid Prime Pinball
+   - Metroid Prime: Hunters
+   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae!
+   - Need for Speed Nitro
+   - Orcs and Elves
+   - Picross DS
+   - Power Pro Kun Pocket 9
+   - Power Pro Kun Pocket 10
+   - Puyo Puyo! 15th Anniversary
+   - Race Driver: Create and Race
+   - Sega Superstars Tennis
+   - Sonic & SEGA All Stars Racing
+   - Space Invaders Extreme
+   - Star Fox Command
+   - Star Trek: Tactical Assault
+   - Super Princess Peach
+   - Tomb Raider: Underworld
+   - Wario: Master of Disguise
+   - WWE SmackDown vs. Raw 2008
+
+### Games with Wii connectivity
+- Animal Crossing: Wild World
+    - Animal Crossing: City Folk
+- Band Hero
+    - Guitar Hero
+- Batman: The Brave and the Bold (DS)
+    - Batman: The Brave and the Bold (Wii)
+- Castlevania: Order of Ecclesia
+    - Castlevania Judgement
+- Final Fantasy Crystal Chronicles: Echoes of Time (DS)
+    - Final Fantasy Crystal Chronicles: Echoes of Time (Wii)
+- Geometry Wars: Galaxies (DS)
+    - Geometry Wars: Galaxies (Wii)
+- Jam with the Band
+    - Live Channel
+- Kuizu Ongaku Nojika (DSiWare)
+    - Wii title unknown
+- My Word Coach (DS)
+    - My Word Coach (Wii)
+- Odekake! Earth Seeker (DSiWare)
+    - Earth Seeker (Wii)
+- Pokémon Diamond/Pearl
+    - My Pokémon Ranch
+- Pokémon Platinum
+    - My Pokémon Ranch (Japan Only Update)
+- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
+    - Pokémon Battle Revolution
+- Personal Trainer: Walking
+    - Mii Channel
+- Ultimate Band
+    - Ultimate Band (Wii)
+- WarioWare D.I.Y.
+    - WarioWare D.I.Y. Showcase
+
+### Games with IR Game Cards
+- Pokémon Heartgold/Soulsilver
+   - For connecting to Pokéwalker pedometer
+- Pokémon Black/White/Black 2/White 2
+   - For trading/battling/feeling check using the C-Gear, Key transfers
+- Personal Trainer: Walking
+   - Has twin IR based pedometers
+   - Not compatible with Pokémon ROMs
+- Active Health with Carol Vorderman
+   - Similar pedometer to Personal Trainer: Walking, but only one
+   - Not compatible with Pokémon ROMs
+
+### Other (Special Games that do not fall into an above category)
+- Learn with Pokémon: Typing Adventures
+   - Cartridge has special bluetooth chip for connecting to the keyboard
+- ElectroPlankton
+   - Cartridge has no save RAM
+- DS Download Station
+   - Series of cartridges used to distribute demo games
+- Sonic Classics Collection
+   - Genesis emulation structure has been converted into an emulator
+- Nitro Development Cart
+   - Has extra RAM for developing games for the DSi
+- Slide Adventure MAG KID
+   - Comes with a Slot-2 Optical Mouse
+- Daigasso! Band Brothers
+   - Has a Slot-2 cart that added more songs
+- Arkanoid
+   - Came bundled with a Slot-2 Paddle Controller

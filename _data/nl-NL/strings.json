@@ -1,0 +1,18 @@
+{
+	"by": "Door: $1",
+	"close": "Sluit",
+	"color-scheme": "Kleurenschema:",
+	"dark": "Donker",
+	"default": "Standaard",
+	"description": "Wiki's voor DS-Homebrew projecten",
+	"discord-server": "Discord server (alleen Engels)",
+	"light": "Licht",
+	"need-help": "Hulp nodig? Sluit je aan bij onze Discord server: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (Engels)",
+	"published-with": "Gepubliceerd met <a href=\"https://pages.github.com\">GitHub Pagina's</a>, bekijk <a href=\"https://github.com/$1\">de bron</a> op GitHub.",
+	"select-language": "Selecteer taal",
+	"source": "Bron",
+	"title": "DS-Homebrew Wiki",
+	"toggle-navigation": "Toon navigatie",
+	"translate-here": "Vertaal hier",
+	"translate-on-crowdin": "Vertaal op Crowdin"
+}

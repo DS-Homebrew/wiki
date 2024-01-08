@@ -1,0 +1,39 @@
+[
+		{
+				"title": "Startseite",
+				"url": "/"
+		},
+		{
+				"title": "Projekte",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "GodMode9i",
+								"url": "/godmode9i"
+						},
+						{
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						}
+				]
+		},
+		{
+				"title": "DS Index",
+				"url": "/ds-index"
+		},
+		{
+				"title": "Community-Info",
+				"url": "/community"
+		}
+]

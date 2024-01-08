@@ -1,0 +1,18 @@
+{
+	"by": "Від: $1",
+	"close": "Закрити",
+	"color-scheme": "Тема:",
+	"dark": "Темна",
+	"default": "За замовчуванням",
+	"description": "Вікі для проєкту DS-Homebrew",
+	"discord-server": "Сервер Discord (лише англійська мова)",
+	"light": "Світла",
+	"need-help": "Потрібна допомога? Приєднуйтесь до нашого сервера Discord: <a href=\"https://ds-homebrew.com/discord\">DS⁽ⁱ⁾ Mode Hacking!</a> (лише англійська мова)",
+	"published-with": "Опубліковано за допомогою <a href=\"https://pages.github.com\">Сторінки GitHub</a>. Переглянути <a href=\"https://github.com/\">джерело</a> на GitHub.",
+	"select-language": "Вибрати мову",
+	"source": "Джерело",
+	"title": "Вікі DS-Homebrew",
+	"toggle-navigation": "Навігаційна панель",
+	"translate-here": "Перекласти тут",
+	"translate-on-crowdin": "Перекласти на Crowdin"
+}

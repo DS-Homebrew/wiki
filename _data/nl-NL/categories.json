@@ -1,0 +1,48 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "Gidsen"
+		},
+		{
+			"key": "reference",
+			"title": "Referentie"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "Installeren"
+		},
+		{
+			"key": "updating",
+			"title": "Bijwerken"
+		},
+		{
+			"key": "customization",
+			"title": "Aanpassingen"
+		},
+		{
+			"key": "other",
+			"title": "Overig"
+		},
+		{
+			"key": "uninstalling",
+			"title": "Verwijderen"
+		},
+		{
+			"key": "indexes",
+			"title": "Hoofdstukken"
+		}
+	],
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [],
+	"godmode9i": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"ds-index": [
+		{
+			"key": "guides",
+			"title": "Anleitungen"
+		},
+		{
+			"key": "reference",
+			"title": "Referenz"
+		}
+	],
+	"twilightmenu": [
+		{
+			"key": "installing",
+			"title": "Installiere"
+		},
+		{
+			"key": "updating",
+			"title": "Aktualisieren"
+		},
+		{
+			"key": "customization",
+			"title": "Anpassung"
+		},
+		{
+			"key": "other",
+			"title": "Andere"
+		},
+		{
+			"key": "uninstalling",
+			"title": "Deinstallieren"
+		},
+		{
+			"key": "indexes",
+			"title": "Indexe"
+		}
+	],
+	"nds-bootstrap": [],
+	"gbarunner2": [],
+	"hiyacfw": [],
+	"godmode9i": [],
+	"community": [
+		{
+			"key": "discord",
+			"title": "Discord"
+		}
+	]
+}

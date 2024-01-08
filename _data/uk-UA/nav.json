@@ -1,0 +1,39 @@
+[
+		{
+				"title": "Головна",
+				"url": "/"
+		},
+		{
+				"title": "Проєкти",
+				"items": [
+						{
+								"title": "TWiLight Menu++",
+								"url": "/twilightmenu"
+						},
+						{
+								"title": "nds-bootstrap",
+								"url": "/nds-bootstrap"
+						},
+						{
+								"title": "GBARunner2",
+								"url": "/gbarunner2"
+						},
+						{
+								"title": "GodMode9i",
+								"url": "/godmode9i"
+						},
+						{
+								"title": "hiyaCFW",
+								"url": "/hiyacfw"
+						}
+				]
+		},
+		{
+				"title": "Каталог DS",
+				"url": "/ds-index"
+		},
+		{
+				"title": "Інформація про спільноту",
+				"url": "/community"
+		}
+]
