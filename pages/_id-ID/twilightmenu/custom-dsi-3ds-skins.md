@@ -7,227 +7,291 @@ title: Cara Membuat Skin DSi/3DS
 description: Cara membuat skin DSi dan 3DS kustom untuk TWiLight Menu++
 ---
 
-Untuk membuat skin TWiLight Menu++, dibutuhkan penyunting gambar yang mampu mengekspor `.png`, `.bmp` atau `.png` 16 <abbr title="Bits Per Pixel">BPP</abbr>, dan `.bmp` 4 BPP. Diharuskan juga mampu mengatur ulang palet gambar secara manual. Pada panduan ini dianjurkan menggunakan [GIMP](https://www.gimp.org), karena mampu melakukan semua yang dibutuhkan.
+Untuk membuat skin TWiLight Menu++, diperlukan penyunting gambar yang mampu mengekspor `.png`, `.bmp`/`.png` 16 <abbr title="Bits Per Pixel">BPP</abbr>, dan `.bmp` 4 BPP. Diharuskan juga mampu menyusun ulang palet gambar secara manual. Panduan ini menganjurkan aplikasi [GIMP](https://www.gimp.org), karena mampu melakukan semua yang diperlukan.
 
 ## Bagian 1: Mengunduh contoh
-Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini berguna sebagai dasar pembuatan skin dengan format yang benar, jadi jika nanti terdapat masalah, dapat dibandingkan dengan berkas contoh ini.
+Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini berguna sebagai dasar pembuatan skin yang berformat benar, jadi jika nanti terdapat masalah, bisa dibandingkan dengan berkas contoh ini.
 
 ## Bagian 2: Menyunting gambar
 Unduh dan pasang [GIMP](https://www.gimp.org)
-- Penyunting lain seperti Photoshop boleh digunakan, tapi pada panduan ini akan menggunakan GIMP
+- Penyunting lain seperti Photoshop juga boleh, tapi panduan ini akan menggunakan GIMP
 
-Setelah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka colormap dialog untuk memudahkan menyunting palet pada gambar.
+Setelah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka dialog *colormap* untuk memudahkan menyunting palet pada gambar.
 
-Sekarang sudah boleh membuka dan menyunting gambar di GIMP lalu lanjut ke bagian di bawah berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ itu pilih-pilih perihal ketepatan format gambar dan itu beragam tergantung letak folder dari gambar, jadi pastikan cara ekspor sesuai bagiannya.
+Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan itu beragam tergantung letak foldernya, jadi pastikan diekspor sesuai bagiannya.
 
 ### Tekstur latar belakang (folder `background`)
 Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
-- Jika berkasnya BMP, dapat diatur ke 16-bit di bawah Advance Options ketika mengekspor. Ini mungkin harus dilakukan setiap kali mengekspor BMP
+- Jika berkasnya BMP, bisa diatur ke 16-bit di bawah *Advance Options* ketika mengekspor. Ini mungkin harus dilakukan setiap kali mengekspor BMP
 
-| Tekstur               | Keterangan                                                                                              |
-| --------------------- | ------------------------------------------------------------------------------------------------------- |
-| top                   | Tekstur latar belakang layar atas                                                                       |
-| bottom                | Tekstur latar belakang layar bawah ketika tidak melayang di atas ikon                                   |
-| bottom_ds             | Untuk tema 3DS di DS Phat/Lite, tekstur latar layar bawah ketika tidak melayang di atas ikon            |
-| bottom_macro          | Untuk tema DSi, tekstur latar belakang ketika tidak melayang di atas ikon ketika menggunakan Macro Mode |
-| bottom_bubble         | Tekstur latar belakang bawah ketika tidak melayang di atas ikon                                         |
-| bottom_bubble_ds    | Untuk tema 3DS di DS Phat/Lite, tekstur latar layar bawah ketika melayang di atas ikon                  |
-| bottom_bubble_macro | Untuk tema DSi, tekstur latar belakang ketika melayang di atas ikon saat menggunakan Macro Mode         |
-| bottom_moving         | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon                                         |
-| bottom_moving_macro | Untuk tema DSi, tekstur latar belakang bawah ketika pindah ikon ketika menggunakan Macro Mode           |
+| Tekstur               | Keterangan                                                                                  |
+| --------------------- | ------------------------------------------------------------------------------------------- |
+| top                   | Tekstur latar belakang layar atas                                                           |
+| bottom                | Tekstur latar layar bawah saat tidak diarahkan di atas ikon                                 |
+| bottom_ds             | Untuk tema 3DS di DS Phat/Lite. Tekstur latar layar bawah saat tidak diarahkan di atas ikon |
+| bottom_macro          | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat tidak diarahkan di atas ikon      |
+| bottom_bubble         | Tekstur latar layar bawah saat diarahkan di atas ikon                                       |
+| bottom_bubble_ds    | Untuk tema 3DS di DS Phat/Lite. Tekstur latar layar bawah saat diarahkan di atas ikon       |
+| bottom_bubble_macro | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat diarahkan di atas ikon            |
+| bottom_moving         | Untuk tema DSi. Tekstur latar layar bawah saat memindah ikon                                |
+| bottom_moving_macro | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat memindah ikon                     |
 
-### Battery textures (`battery` folder)
-Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work.
+### Tekstur baterai (folder `battery`)
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi.
 
-| Tekstur            | Description/Notes                                                          |
-| ------------------ | -------------------------------------------------------------------------- |
-| battery0           | Berkedip dengan `battery1` saat baterai lemah                              |
-| battery1           | 0-4 digunakan di mode DSi                                                  |
-| battery1purple     | Ikon ungu digunakan saat `Warna LED Daya` diubah ke `Purple` di pengaturan |
-| battery2           |                                                                            |
-| battery2purple     |                                                                            |
-| battery3           |                                                                            |
-| battery3purple     |                                                                            |
-| battery4           |                                                                            |
-| battery4purple     |                                                                            |
-| batterycharge      |                                                                            |
-| batterychargeblink | Berkedip dengan `batterycharge` saat mengisi daya                          |
-| batteryfull        | Digunakan saat di mode DS pada DSi/3DS                                     |
-| batteryfullDS      | Untuk di DS Phat/Lite                                                      |
-| batterylow         | Digunakan saat di mode DS                                                  |
+| Tekstur            | Keterangan/Catatan                                                       |
+| ------------------ | ------------------------------------------------------------------------ |
+| battery0           | Berkelipkan gambar `battery1` jika baterai lemah                         |
+| battery1           | 0-4 digunakan di mode DSi                                                |
+| battery1purple     | Ikon ungu digunakan jika `Warna LED Daya` diubah ke `Ungu` di pengaturan |
+| battery2           |                                                                          |
+| battery2purple     |                                                                          |
+| battery3           |                                                                          |
+| battery3purple     |                                                                          |
+| battery4           |                                                                          |
+| battery4purple     |                                                                          |
+| batterycharge      |                                                                          |
+| batterychargeblink | Berkelipkan gambar `batterycharge` jika mengisi daya                     |
+| batteryfull        | Digunakan DSi/3DS di mode DS                                             |
+| batteryfullDS      | Digunakan DS Phat/Lite                                                   |
+| batterylow         | Digunakan di mode DS                                                     |
 
-### Tekstur Paletted (folder `grf`)
-Berkas harus berupa berkas BMP 4 BPP (16 warna).
+### Tekstur Berpalet (folder `grf`)
+Untuk ini harus berkas BMP 4 BPP (16 warna).
 
-Untuk mengeditnya di GIMP, pilih `image-&#062; <code>Mode` -> `RGB`</code> untuk memberi izin penggantian warna, lalu setelah selesai, pilih `Image` -> `Mode` -> `Indexed...` untuk mengkonversikannya kembali ke paletted. Saat beralih ke indexed, pastikan bahwa `optimum palette` terceklis dan `Maximum number of colors` diatur ke `16`.
+Untuk disunting di GIMP, pilih `Image` -> `Mode` -> `RGB` agar boleh mengubah warna, setelah selesai mengubah warna, pilih `Image` -> `Mode` -> `Indexed...` untuk dipaletkan kembali. Saat berpindah ke *indexed*, pastikan `optimum palette` tercentang dan `Maximum number of colors` diatur ke `16`.
 
-**Catatan:** Beberapa gambar di tema DSi paletnya dikesampingkan berdasarkan warna profil pengguna. Jika mengedit warna-warna tersebut, pastikan bahwa pengaturan `UserPalette` di `theme.ini` diatur ke `0`.
+**Catatan:** Beberapa palet gambar di tema DSi ditimpakan sesuai warna profil pengguna. Jika ingin menyunting warna palet tersebut, pastikan opsi `UserPalette` di `theme.ini` diatur ke `0`.
 
-Setelah mengkonversikannya ke indexed, ke colormap dialog dan pastikan warna transparan (#FF00FF) berada pada color #0 di colormap. Jika bukan, pencet kanan pada colormap dan pilih `Rearrange Colormap...` lalu pindahkan warna lejas ke warna pertama di colormap lalu tekan `OK`.
+Setelah dikonversi ke *indexed*, buka dialog *colormap* dan pastikan warna lejas (#FF00FF) sudah di warna #0 pada *colormap*. Jika belum, pencet kanan pada *colormap* dan pilih `Rearrange Colormap...` lalu pindahkan warna lejas menjadi warna pertama di *colormap* lalu tekan `OK`.
 
-Jika terdapat kurang dari 16 warna pada colormap mu, tekan tombol `+` di bawah dialog colormap sampai kamu mempunyai 16 warna.
+Jika jumlah warna di *colormap* kurang dari 16, tekan tombol `+` di bawah dialog *colormap* sampai ada 16 warna.
 
-Ketika mengekspor, direkomendasikan untuk mencentang `Do not write color space information` pada box di bawah `Compatibility Options`.
+Ketika mengekspor, disarankan mencentang `Do not write color space information` pada kotak di bawah `Compatibility Options`.
 
-| Tekstur       | Keterangan                                                                                         |
-| ------------- | -------------------------------------------------------------------------------------------------- |
-| bips          | Bips yang ditampilkan di bagian bawah scrollbar (Tema DSi)                                         |
-| box           | Tekstur kotak, berisi antara tekstur penuh dan kosong (Tema DSi)                                   |
-| box_empty     | Tekstur yang ditampilkah untuk kotak kosong (Tema 3DS)                                             |
-| box_full      | Tekstur yang ditampilkan untuk kotak dengan sebuah ikon (Tema 3DS)                                 |
-| brace         | Tekstur penjepit yang menunjukkan ikon pertama dan terakhir (Tema DSi)                             |
-| bubble        | Gelembung bawah yang digambar di bawah bingkai start atau kotak ikon                               |
-| button_arrow  | Tekstur untuk panah di kedua sisi scrollbar bawah (DSi Theme)                                      |
-| cornerbutton  | Tombol-tombol yang ditampilkan pada menu SELECT (DSi Theme) (Nama ini berdasarkan penggunaan lama) |
-| cursor        | Perbatasan dengan bingkai animasi yang menunjukkan ikon yang dipilih (Tema 3DS)                    |
-| dialogbox     | Perbatasan dengan bingkai animasi yang menunjukkan ikon yang dipilih (Tema 3DS)                    |
-| folder        | The icon for folders                                                                               |
-| icon_a26      | Ikon untuk permainan Atari 2600                                                                    |
-| icon_col      | The icon for Colecovision games                                                                    |
-| icon_gb       | The icon for Game Boy games                                                                        |
-| icon_gba      | The icon for GBA games                                                                             |
-| icon_gbamode  | The icon for native GBA Mode                                                                       |
-| icon_gg       | The icon for Game Gear games                                                                       |
-| icon_img      | The icon for BMP, GIF, and PNG images                                                              |
-| icon_int      | The icon for Intellivision games                                                                   |
-| icon_m5       | The icon for Sord M5 games                                                                         |
-| icon_manual   | The icon for the manual                                                                            |
-| icon_md       | The icon for Mega Drive games                                                                      |
-| icon_nes      | The icon for NES games                                                                             |
-| icon_ngp      | The icon for Neo Geo Pocket games                                                                  |
-| icon_pce      | The icon for PC Engine/TurboGrafx-16 games                                                         |
-| icon_plg      | The icon for DSTWO plugins                                                                         |
-| icon_settings | The icon for Nintendo DSi Settings                                                                 |
-| icon_sg       | The icon for Sega SG-1000 games                                                                    |
-| icon_sms      | The icon for Sega Master System games                                                              |
-| icon_snes     | The icon for SNES games                                                                            |
-| icon_unk      | The icon displayed when a game is missing an icon                                                  |
-| icon_ws       | The icon for WonderSwan games                                                                      |
-| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                             |
-| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                         |
-| progress      | The progress loading animation with 8 frames                                                       |
-| scroll_window | The part of the scrollbar that indicates the icons that are in view                                |
-| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)                   |
-| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                      |
-| start_text    | The text displayed on the start border (DSi Theme)                                                 |
-| wirelessicons | The icons displayed to indicate a game has wireless support                                        |
+| Tekstur       | Keterangan                                                                                      |
+| ------------- | ----------------------------------------------------------------------------------------------- |
+| bips          | Titik penanda urutan yang ada di dalam bilah gulir (Tema DSi)                                   |
+| box           | Tekstur kotak, ada yang tekstur penuh dan kosong (Tema DSi)                                     |
+| box_empty     | Tekstur kotak kosong melompong (Tema 3DS)                                                       |
+| box_full      | Tekstur kotak penuh untuk latar ikon (Tema 3DS)                                                 |
+| brace         | Tekstur kurawal sebelah ikon pertama dan terakhir (Tema DSi)                                    |
+| bubble        | Bagian bawah gelembung judul yang di atas start_border atau kotak ikon                          |
+| button_arrow  | Tekstur arah panah di kedua sisi bilah gulir layar bawah (Tema DSi)                             |
+| cornerbutton  | Tombol-tombol yang ada di menu SELECT (Tema DSi) (Dinamakan demikian sesuai penggunaan lamanya) |
+| cursor        | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema 3DS)                         |
+| dialogbox     | Sembulan kotak dialog yang meluncur ke bawah                                                    |
+| folder        | Ikon untuk folder                                                                               |
+| icon_a26      | Ikon permainan Atari 2600                                                                       |
+| icon_col      | Ikon permainan Colecovision                                                                     |
+| icon_gb       | Ikon permainan Game Boy                                                                         |
+| icon_gba      | Ikon permainan GBA                                                                              |
+| icon_gbamode  | Ikon untuk Mode GBA lokal                                                                       |
+| icon_gg       | Ikon permainan Game Gear                                                                        |
+| icon_img      | Ikon untuk gambar BMP, GIF, dan PNG                                                             |
+| icon_int      | Ikon permainan Intellivision                                                                    |
+| icon_m5       | Ikon permainan Sord M5                                                                          |
+| icon_manual   | Ikon untuk manual                                                                               |
+| icon_md       | Ikon permainan Mega Drive                                                                       |
+| icon_nes      | Ikon permainan NES                                                                              |
+| icon_ngp      | Ikon permainan Neo Geo Pocket                                                                   |
+| icon_pce      | Ikon permainan PC Engine/TurboGrafx-16                                                          |
+| icon_plg      | Ikon colok-masuk DSTWO                                                                          |
+| icon_settings | Ikon untuk Nintendo DSi Settings                                                                |
+| icon_sg       | Ikon permainan Sega SG-1000                                                                     |
+| icon_sms      | Ikon permainan Sega Master System                                                               |
+| icon_snes     | Ikon permainan SNES                                                                             |
+| icon_unk      | Ikon untuk permainan yang tidak ada ikon                                                        |
+| icon_ws       | Ikon permainan WonderSwan                                                                       |
+| launch_dot    | Efek titik yang muncul saat membuka permainan (Tema DSi)                                        |
+| moving_arrow  | Arah panah yang muncul saat memindah permainan (Tema DSi)                                       |
+| progress      | Animasi pemuatan dengan 8 gambar bingkai                                                        |
+| scroll_window | Bagian bilah gulir yang menandakan ikon yang sedang dilihat                                     |
+| small_cart    | Ikon yang ada di deretan atas (Tema 3DS) dan di menu SELECT (Tema DSi)                          |
+| start_border  | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema DSi)                         |
+| start_text    | Teks yang muncul di start_border (Tema DSi)                                                     |
+| wirelessicons | Ikon yang muncul untuk permainan yang mendukung nirkabel                                        |
 
 ### Tekstur Menu DS Klasik (folder `quickmenu`)
-Yang ini harus berkas PNG.
+Untuk ini harus berkas PNG.
 
-| Tekstur    | Keterangan                                            |
-| ---------- | ----------------------------------------------------- |
-| bottombg   | Latar belakang untuk layar bawah                      |
-| phat_topbg | Latar belakang untuk layar atas DS Phat (Kodok)       |
-| topbg      | Latar belakang untuk layar atas pada model DS apa pun |
+| Tekstur    | Keterangan                                          |
+| ---------- | --------------------------------------------------- |
+| bottombg   | Latar belakang untuk layar bawah                    |
+| phat_topbg | Latar belakang untuk layar atas DS Phat             |
+| topbg      | Latar belakang untuk layar atas di model DS apa pun |
 
-### UI textures (`ui` folder)
-Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
+### Tekstur antarmuka (folder `ui`)
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
 
-| Tekstur          | Keterangan                                              |
-| ---------------- | ------------------------------------------------------- |
-| Lshoulder        | The left shoulder                                       |
-| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
-| Rshoulder        | The right shoulder                                      |
-| Rshoulder_greyed | The right shoulder when there are no pages to the right |
+| Tekstur          | Keterangan                                           |
+| ---------------- | ---------------------------------------------------- |
+| Lshoulder        | Gambar tombol L                                      |
+| Lshoulder_greyed | Gambar tombol L saat tidak ada halaman lagi di kiri  |
+| Rshoulder        | Gambar tombol R                                      |
+| Rshoulder_greyed | Gambar tombol R saat tidak ada halaman lagi di kanan |
 
-### Video texture (`video` folder)
-Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.
+### Tekstur video (folder `video`)
+Hanya digunakan tema 3DS, `3dsRotatingCubes.rvid` adalah berkas Rocket Video. Untuk informasi lanjut cara mengonversi video ke rvid, baca [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) di wiki Vid2RVID. Jika tidak ingin dipermuncul, hapus saja berkasnya.
 
-### Volume textures (`volume` folder)
-Volume textures are only displayed in DSi Mode.
+### Tekstur volume (folder `volume`)
+Tekstur volume hanya ditampilkan di Mode DSi.
 
-Yang ini harus berkas PNG. Transparency is supported, however only 100% transparency will work.
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi.
 
 
-| Tekstur | Description/Notes            |
-| ------- | ---------------------------- |
-| volume0 | 0 is muted, 4 is full volume |
-| volume1 |                              |
-| volume2 |                              |
-| volume3 |                              |
-| volume4 |                              |
+| Tekstur | Keterangan/Catatan          |
+| ------- | --------------------------- |
+| volume0 | 0 = senyap, 4 = suara penuh |
+| volume1 |                             |
+| volume2 |                             |
+| volume3 |                             |
+| volume4 |                             |
 
 ## Penyetelan tema (berkas `theme.ini`)
-You may configure various options on how the theme is drawn in the `theme.ini` to accommodate larger graphics or different layouts. For true/false options, `0` is false, and `1` is true. Options with a blank default value for a theme are unused in that theme.
+Opsi bentuk permunculan tema bisa disetel di `theme.ini` untuk mewadahi grafik lebih besar atau tata letak berbeda. Untuk opsi benar/salah, `0` = salah, dan `1` = benar. Opsi dengan nilai kosong berarti tidak digunakan di tema tersebut.
 
-| Nilai (Value)              | Description/Notes                                                                                                               | Bawaan (3DS) | Bawaan (DSi) |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------ |
-| `StartBorderRenderY`       | Posisi awalan Y dari tepian kotak penunjuk permainan                                                                            | 92           | 81           |
-| `StartBorderSpriteW`       | The width of the start border sprite. Note that the start border texture is exactly half of the full border                     | 32           | 32           |
-| `StartBorderSpriteH`       | The height of the start border sprite                                                                                           | 64           | 80           |
-| `StartTextRenderY`         | Posisi awalan Y dari teks "Start"                                                                                               | 143          | 143          |
-| `BubbleTipRenderX`         | The X position of the tip of the bubble that is drawn over the start border                                                     | 125          | 122          |
-| `BubbleTipRenderY`         | The Y position of the tip of the bubble that is drawn over the start border                                                     | 98           | 80           |
-| `BubbleTipSpriteW`         | The width of the bubble tip sprite                                                                                              | 7            | 11           |
-| `BubbleTipSpriteH`         | The height of the bubble tip sprite                                                                                             | 7            | 8            |
-| `TitleboxRenderY`          | The initial Y position of the title text box                                                                                    | 96           | 85           |
-| `TitleboxTextY`            | The initial Y position of the title text                                                                                        | 55           | 30           |
-| `TitleboxTextW`            | The maximum width of the title text                                                                                             | 200          | 240          |
-| `TitleboxTextLarge`        | Whether to use the large font for the title text                                                                                | 0            | 1            |
-| `TitleboxMaxLines`         | The maximum lines of text to show of the title                                                                                  | 3            | 4            |
-| `VolumeRenderX`            | The X position on the top screen to draw the volume icon                                                                        | 4            | 4            |
-| `VolumeRenderY`            | The Y position on the top screen to draw the volume icon                                                                        | 5            | 5            |
-| `ShoulderLRenderX`         | The X position on the top screen to draw the left shoulder                                                                      | 0            | 0            |
-| `ShoulderLRenderY`         | The Y position on the top screen to draw the left shoulder                                                                      | 172          | 172          |
-| `ShoulderRRenderX`         | The X position on the top screen to draw the right shoulder                                                                     | 178          | 178          |
-| `ShoulderRRenderY`         | The Y position on the top screen to draw the right shoulder                                                                     | 172          | 172          |
-| `BatteryRenderX`           | The X position on the top screen to draw the battery icon                                                                       | 235          | 235          |
-| `BatteryRenderY`           | The Y position on the top screen to draw the battery icon                                                                       | 5            | 5            |
-| `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28           | 28           |
-| `UsernameRenderY`          | The Y position on the top screen to draw the username text                                                                      | 15           | 15           |
-| `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                              | 4            | 4            |
-| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                           | 162          | 162          |
-| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                           | 7            | 7            |
-| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                           | 200          | 200          |
-| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                           | 7            | 7            |
-| `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                            | 1            | 1            |
-| `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                     | 0x0000       | 0x0000       |
-| `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7       | 0xDEF7       |
-| `FontPalette3`             |                                                                                                                                 | 0xC631       | 0xC631       |
-| `FontPalette4`             |                                                                                                                                 | 0xA108       | 0xA108       |
-| `FontPaletteDateTime1`     | The override transparent color of the font for the date and time                                                                | 0x0000       | 0x0000       |
-| `FontPaletteDateTime2`     | The override color of the font for the date and time                                                                            | 0xDEF7       | 0xA529       |
-| `FontPaletteDateTime3`     |                                                                                                                                 | 0xC631       | 0xBDEF       |
-| `FontPaletteDateTime4`     |                                                                                                                                 | 0xA108       | 0xD6B5       |
-| `FontPaletteTitlebox1`     | The override transparent color of the font for the ROM title box                                                                | 0x0000       | 0x0000       |
-| `FontPaletteTitlebox2`     | The override color of the font for the ROM title box                                                                            | 0xDEF7       | 0xDEF7       |
-| `FontPaletteTitlebox3`     |                                                                                                                                 | 0xC631       | 0xC631       |
-| `FontPaletteTitlebox4`     |                                                                                                                                 | 0xA108       | 0xA108       |
-| `FontPaletteDialog1`       | The override transparent color of the font for dialogs                                                                          | 0x0000       | 0x0000       |
-| `FontPaletteDialog2`       | The override color of the font for dialogs                                                                                      | 0xDEF7       | 0xDEF7       |
-| `FontPaletteDialog3`       |                                                                                                                                 | 0xC631       | 0xC631       |
-| `FontPaletteDialog4`       |                                                                                                                                 | 0xA108       | 0xA108       |
-| `FontPaletteOverlay1`      | The override transparent color of the font for overlayed text                                                                   | 0x0000       | 0x0000       |
-| `FontPaletteOverlay2`      | The override color of the font for overlayed text                                                                               | 0xDEF7       | 0xDEF7       |
-| `FontPaletteOverlay3`      |                                                                                                                                 | 0xC631       | 0xC631       |
-| `FontPaletteOverlay4`      |                                                                                                                                 | 0xA108       | 0xA108       |
-| `FontPaletteUsername1`     | The override transparent color of the font for the username                                                                     | 0x0000       | 0x0000       |
-| `FontPaletteUsername2`     | The override color of the font for the username                                                                                 | 0xDEF7       | 0xDEF7       |
-| `FontPaletteUsername3`     |                                                                                                                                 | 0xC631       | 0xC631       |
-| `FontPaletteUsername4`     |                                                                                                                                 | 0xA108       | 0xA108       |
-| `StartTextUserPalette`     | Whether or not to use the DS Profile color for the palette of the start text                                                    |              | 1            |
-| `StartBorderUserPalette`   | Whether or not to use the DS Profile color for the palette of the start border                                                  |              | 1            |
-| `ButtonArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen                     |              | 1            |
-| `MovingArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow shown when moving icons                                 |              | 1            |
-| `LaunchDotsUserPalette`    | Whether or not to use the DS Profile color for the palette of the launch dots                                                   |              | 1            |
-| `DialogBoxUserPalette`     | Whether or not to use the DS Profile color for the palette of the dialog box                                                    |              | 1            |
-| `RenderPhoto`              | Whether or not to draw a photo on the top screen                                                                                | 0            | 1            |
-| `RotatingCubesRenderY`     | The Y position on the top screen to draw the rotating cubes                                                                     | 78           |              |
-| `PlayStartupJingle`        | Whether or not to use the startup sound before the main BGM. See the [custom SFX](custom-dsi-3ds-sfx) page for more information | 1            | 0            |
-| `StartupJingleDelayAdjust` | The amount of samples early in the startup sound the BGM should start at                                                        | 0            | 0            |
+| Nilai (Value)              | Keterangan/Catatan                                                                                                       | Bawaan (3DS) | Bawaan (DSi) |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------ |
+| `StartBorderRenderY`       | Posisi Y awal dari start_border (bingkai START)                                                                          | 92           | 81           |
+| `StartBorderSpriteW`       | Lebar dari *sprite* start_border. Mohon diingat tekstur start_border aslinya hanya setengah                            | 32           | 32           |
+| `StartBorderSpriteH`       | Tinggi dari *sprite* start_border                                                                                        | 64           | 80           |
+| `StartTextRenderY`         | Posisi Y awal dari start_text (terjemahan START)                                                                         | 143          | 143          |
+| `BubbleTipRenderX`         | Posisi X dari pucuk gelembung yang dipermuncul di atas start_border                                                      | 125          | 122          |
+| `BubbleTipRenderY`         | Posisi Y dari pucuk gelembung yang dipermuncul di atas start_border                                                      | 98           | 80           |
+| `BubbleTipSpriteW`         | Lebar dari *sprite* pucuk gelembung                                                                                      | 7            | 11           |
+| `BubbleTipSpriteH`         | Tinggi dari *sprite* pucuk gelembung                                                                                     | 7            | 8            |
+| `TitleboxRenderY`          | Posisi Y awal dari kotak teks judul                                                                                      | 96           | 85           |
+| `TitleboxTextY`            | Posisi Y awal dari teks judul                                                                                            | 55           | 30           |
+| `TitleboxTextW`            | Lebar maksimum dari teks judul                                                                                           | 200          | 240          |
+| `TitleboxTextLarge`        | Dengan *font* besar atau kecil untuk teks judul                                                                          | 0            | 1            |
+| `TitleboxMaxLines`         | Baris maksimum dari tampilan teks judul                                                                                  | 3            | 4            |
+| `VolumeRenderX`            | Posisi X permunculan ikon volume di layar atas                                                                           | 4            | 4            |
+| `VolumeRenderY`            | Posisi Y permunculan ikon volume di layar atas                                                                           | 5            | 5            |
+| `ShoulderLRenderX`         | Posisi X gambar tombol L di layar atas                                                                                   | 0            | 0            |
+| `ShoulderLRenderY`         | Posisi Y gambar tombol L di layar atas                                                                                   | 172          | 172          |
+| `ShoulderRRenderX`         | Posisi X gambar tombol R di layar atas                                                                                   | 178          | 178          |
+| `ShoulderRRenderY`         | Posisi Y gambar tombol R di layar atas                                                                                   | 172          | 172          |
+| `BatteryRenderX`           | Posisi X permunculan ikon baterai di layar atas                                                                          | 235          | 235          |
+| `BatteryRenderY`           | Posisi Y permunculan ikon baterai di layar atas                                                                          | 5            | 5            |
+| `UsernameRenderX`          | Posisi X permunculan teks nama pengguna di layar atas                                                                    | 28           | 28           |
+| `UsernameRenderY`          | Posisi Y permunculan teks nama pengguna di layar atas                                                                    | 15           | 15           |
+| `UsernameRenderXDS`        | Posisi X permunculan teks nama pengguna di layar atas, saat di DS Phat/Lite                                              | 4            | 4            |
+| `DateRenderX`              | Posisi X permunculan teks tanggal di layar atas                                                                          | 162          | 162          |
+| `DateRenderY`              | Posisi Y permunculan teks tanggal di layar atas                                                                          | 7            | 7            |
+| `TimeRenderX`              | Posisi X permunculan teks waktu di layar atas                                                                            | 200          | 200          |
+| `TimeRenderY`              | Posisi Y permunculan teks waktu di layar atas                                                                            | 7            | 7            |
+| `PurpleBatteryAvailable`   | Dengan ikon baterai ungu atau tidak saat `Warna LED Daya` diatur ke `Ungu` di pengaturan                                 | 1            | 1            |
+| `FontPalette1`             | Warna lejas dari *font*, ini tidak digunakan *font* bawaan                                                               | 0x0000       | 0x0000       |
+| `FontPalette2`             | Warna dari *font*, konversi dengan [situs ini](http://www.conradshome.com/html2bgr15/)                                   | 0xDEF7       | 0xDEF7       |
+| `FontPalette3`             |                                                                                                                          | 0xC631       | 0xC631       |
+| `FontPalette4`             |                                                                                                                          | 0xA108       | 0xA108       |
+| `FontPaletteDateTime1`     | Warna lejas *font* yang ditimpakan untuk tanggal dan waktu                                                               | 0x0000       | 0x0000       |
+| `FontPaletteDateTime2`     | Warna *font* yang ditimpakan untuk tanggal dan waktu                                                                     | 0xDEF7       | 0xA529       |
+| `FontPaletteDateTime3`     |                                                                                                                          | 0xC631       | 0xBDEF       |
+| `FontPaletteDateTime4`     |                                                                                                                          | 0xA108       | 0xD6B5       |
+| `FontPaletteTitlebox1`     | Warna lejas *font* yang ditimpakan untuk kotak judul ROM                                                                 | 0x0000       | 0x0000       |
+| `FontPaletteTitlebox2`     | Warna *font* yang ditimpakan untuk kotak judul ROM                                                                       | 0xDEF7       | 0xDEF7       |
+| `FontPaletteTitlebox3`     |                                                                                                                          | 0xC631       | 0xC631       |
+| `FontPaletteTitlebox4`     |                                                                                                                          | 0xA108       | 0xA108       |
+| `FontPaletteDialog1`       | Warna lejas *font* yang ditimpakan untuk dialog                                                                          | 0x0000       | 0x0000       |
+| `FontPaletteDialog2`       | Warna *font* yang ditimpakan untuk dialog                                                                                | 0xDEF7       | 0xDEF7       |
+| `FontPaletteDialog3`       |                                                                                                                          | 0xC631       | 0xC631       |
+| `FontPaletteDialog4`       |                                                                                                                          | 0xA108       | 0xA108       |
+| `FontPaletteOverlay1`      | Warna lejas *font* yang ditimpakan untuk teks hamparan                                                                   | 0x0000       | 0x0000       |
+| `FontPaletteOverlay2`      | Warna *font* yang ditimpakan untuk teks hamparan                                                                         | 0xDEF7       | 0xDEF7       |
+| `FontPaletteOverlay3`      |                                                                                                                          | 0xC631       | 0xC631       |
+| `FontPaletteOverlay4`      |                                                                                                                          | 0xA108       | 0xA108       |
+| `FontPaletteUsername1`     | Warna lejas *font* yang ditimpakan untuk nama pengguna                                                                   | 0x0000       | 0x0000       |
+| `FontPaletteUsername2`     | Warna *font* yang ditimpakan untuk nama pengguna                                                                         | 0xDEF7       | 0xDEF7       |
+| `FontPaletteUsername3`     |                                                                                                                          | 0xC631       | 0xC631       |
+| `FontPaletteUsername4`     |                                                                                                                          | 0xA108       | 0xA108       |
+| `BipsUserPalette`          | Dengan warna DS Profile atau tidak untuk palet pada titik urutan di bilah gulir                                          |              | 0            |
+| `BoxUserPalette`           | Dengan warna DS Profile atau tidak untuk palet pada kotak yang ada ikon di tema DSi                                      |              | 0            |
+| `BoxEmptyUserPalette`      | Dengan warna DS Profile atau tidak untuk palet pada kotak kosong di tema 3DS                                             | 0            |              |
+| `BoxFullUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada kotak yang ada ikon di tema 3DS                                      | 0            |              |
+| `BraceUserPalette`         | Dengan warna DS Profile atau tidak untuk palet pada kurawal di awal dan akhir daftar permainan                           |              | 0            |
+| `BubbleUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada pucuk gelembung judul                                                | 0            | 0            |
+| `ButtonArrowUserPalette`   | Dengan warna DS Profile atau tidak untuk palet pada tombol arah panah di layar bawah                                     |              | 1            |
+| `CornerButtonUserPalette`  | Dengan warna DS Profile atau tidak untuk palet pada ikon pengaturan dan menu DSi di menu SELECT                          |              | 0            |
+| `CursorUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada kursor                                                               | 0            |              |
+| `DialogBoxUserPalette`     | Dengan warna DS Profile atau tidak untuk palet pada kotak dialog                                                         | 0            | 1            |
+| `FolderUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada folder                                                               | 0            | 0            |
+| `LaunchDotsUserPalette`    | Dengan warna DS Profile atau tidak untuk palet pada launch_dot                                                           |              | 1            |
+| `MovingArrowUserPalette`   | Dengan warna DS Profile atau tidak untuk palet pada arah panah saat memindah ikon                                        |              | 1            |
+| `ProgressUserPalette`      | Dengan warna DS Profile atau tidak untuk palet pada kotak pemuatan berputar                                              | 1            | 1            |
+| `ScrollWindowUserPalette`  | Dengan warna DS Profile atau tidak untuk palet pada batang jendela gulir di bilah gulir                                  |              | 0            |
+| `SmallCartUserPalette`     | Dengan warna DS Profile atau tidak untuk palet pada ikon small_cart                                                      | 0            | 0            |
+| `StartBorderUserPalette`   | Dengan warna DS Profile atau tidak untuk palet pada start_border                                                         |              | 1            |
+| `StartTextUserPalette`     | Dengan warna DS Profile atau tidak untuk palet pada start_text                                                           |              | 1            |
+| `WirelessIconsUserPalette` | Dengan warna DS Profile atau tidak untuk palet pada ikon nirkabel                                                        | 0            | 0            |
+| `IconA26UserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon Atari 2600                                                      | 0            | 0            |
+| `IconCOLUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon ColecoVision                                                    | 0            | 0            |
+| `IconGBUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon Game Boy                                                        | 0            | 0            |
+| `IconGBAUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon Game Boy Advance                                                | 0            | 0            |
+| `IconGBAModeUserPalette`   | Dengan warna DS Profile atau tidak untuk palet pada ikon Mode GBA lokal                                                  | 0            | 0            |
+| `IconGGUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon Game Gear                                                       | 0            | 0            |
+| `IconIMGUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon berkas gambar                                                   | 0            | 0            |
+| `IconINTUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon Intellivision                                                   | 0            | 0            |
+| `IconM5UserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon Sord M5                                                         | 0            | 0            |
+| `IconManualUserPalette`    | Dengan warna DS Profile atau tidak untuk palet pada ikon manual                                                          | 0            | 0            |
+| `IconMDUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon Genesis/Mega Drive                                              | 0            | 0            |
+| `IconNESUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon NES/Famicom                                                     | 0            | 0            |
+| `IconNGPUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon Neo Geo Pocket                                                  | 0            | 0            |
+| `IconPCEUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon PC Engine/TurboGrafx-16                                         | 0            | 0            |
+| `IconPLGUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon colok-masuk DSTWO                                               | 0            | 0            |
+| `IconSettingsUserPalette`  | Dengan warna DS Profile atau tidak untuk palet pada ikon DSi Settings                                                    | 0            | 0            |
+| `IconSGUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon SG-1000                                                         | 0            | 0            |
+| `IconSMSUserPalette`       | Dengan warna DS Profile atau tidak untuk palet pada ikon Master System                                                   | 0            | 0            |
+| `IconSNESUserPalette`      | Dengan warna DS Profile atau tidak untuk palet pada ikon SNES                                                            | 0            | 0            |
+| `IconUnknownUserPalette`   | Dengan warna DS Profile atau tidak untuk palet pada ikon tidak diketahui (hilang)                                        | 0            | 0            |
+| `IconWSUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon WonderSwan                                                      | 0            | 0            |
+| `UsernameUserPalette`      | Dengan warna DS Profile atau tidak untuk palet pada nama pengguna                                                        | 1            | 1            |
+| `ProgressBarUserPalette`   | Dengan warna DS Profile atau tidak untuk warna bilah pemuatan                                                            | 1            | 1            |
+| `ProgressBarColor`         | Ini warna bilah pemuatan jika `ProgressBarUserPalette` dinonaktikan                                                      | 0x7C00       | 0x7C00       |
+| `UseAlphaBlend`            | Memadukan warna teks layar atas (nama pengguna dan tanggal/waktu) dengan warna latar belakang atau tidak                 | 1            | 1            |
+| `DarkLoading`              | Warna memudar putih diganti ke hitam atau tidak di layar pemuatan                                                        | 0            | 0            |
+| `RenderPhoto`              | Mempermuncul foto atau tidak di layar atas                                                                               | 0            | 1            |
+| `RotatingCubesRenderY`     | Posisi Y permunculan rotatingcubes di layar atas                                                                         | 78           |              |
+| `PlayStartupJingle`        | Dengan suara awal buka atau tidak sebelum BGM utama. Lihat laman [SFX kustom](custom-dsi-3ds-sfx) untuk informasi lanjut | 1            | 0            |
+| `StartupJingleDelayAdjust` | Jumlah sampel di awalan suara awal buka untuk kapan BGM diputar                                                          | 0            | 0            |
 
-### Macro Mode options
-You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
+### Opsi Mode Macro
+Opsi timpaan spesifik boleh ditambah di `theme.ini` untuk Mode Macro. Caranya, tulis `[MACRO]` di barisan baru di bawah tulisan konfigurasi yang ada, lalu tambahkan setelan tertentu di bawahnya.
 
-## Custom background music and sound effects
-The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+## Musik latar belakang dan efek suara kustom
+Tema DSi dan 3DS mendukung musik kustom. Lihat [Skin DSi/3DS - Efek Suara Kustom](custom-dsi-3ds-sfx) untuk perinciannya.
 
-## Custom fonts
-You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+## *Font* kustom
+[*Font* Kustom](custom-fonts) boleh ditaruh di folder `font` untuk skin. Bisa juga ditambah "*font* timpaan" untuk tanggal & waktu menggunakan `date_time.nftr`, dan nama pengguna dengan `username.nftr`.
 
-## Part 3: Adding to TWiLight Menu++
-Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
+## Warna palet kustom
+Untuk tekstur berpalet (folder `grf`), bisa ditambah seperangkat palet timpaan yang digunakan saat pengaturan `UserPalette` terkait diaktifkan. Berkas palet bisa dibuat dengan [penyunting ini](https://skinpaltool.dvdo.dev/). Saat di penyunting, impor dulu gambar yang ingin dikerjakan, lalu buat palet untuk masing-masing 16 warna DS Profile. [Berkas palet contoh](/assets/files/example-palette.bin) ini bisa digunakan sebagai titik mula.
 
-## Part 4: Sharing your skin
-Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
+Ke-16 baris kumpulan palet merujuk ke masing-masing warna profil dan harus dalam urutan berikut:
+1. Kelabu-Biru
+2. Cokelat
+3. Merah
+4. Merah Jambu
+5. Jingga
+6. Kuning
+7. Hijau Muda
+8. Hijau
+9. Hijau Tua
+10. Pirus
+11. Biru Muda/Sian
+12. Biru
+13. Biru Tua/Nila
+14. Lembayung/Ungu Tua
+15. Ungu
+16. Patma
+
+Setelah membuat berkas palet, taruh berkasnya di folder `palettes`. Nama berkas palet harus sama dengan nama gambarnya tapi dengan ekstensi `.bin` (contoh: `start_border.bin` akan diterapkan ke gambar `start_border.bmp`).
+
+Boleh juga menaruh berkas palet `username.bin` untuk mengubah palet dari *font* nama pengguna. Pastikan penyunting palet diatur ke `Font Mode` saat membuat berkas ini.
+
+## Bagian 3: Menambahkan ke TWiLight Menu++
+Setelah menyunting beberapa grafis dan ingin mencoba skin yang dibuat, cukup salin folder skin (folder yang berisi `background`, `battery`, dll) ke `sd:/_nds/TWiLightMenu/3dsmenu/themes/` atau `sd:/_nds/TWiLightMenu/dsimenu/themes/` untuk skin tema 3DS dan DSi secara urutan.
+
+## Bagian 4: Membagikan skin
+Setelah selesai membuat skin, bisa Anda bagikan ke komunitas dengan membuat *Pull Request* dan ditambah ke repositori GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) dalam bentuk `.7z`. Jika tidak terbiasa menggunakan git, buat saja *issue* di repositori tersebut dengan mencantumkan berkas zip skin Anda yang ingin ditambahkan.

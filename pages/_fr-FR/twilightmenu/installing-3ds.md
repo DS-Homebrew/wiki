@@ -76,7 +76,7 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 
 #### Si vous n'avez pas de R4(i) Ultra
 
-1. Créez un fichier appelé `primary` dans `sd:/_nds/` (pas celui du linker), pour que TWiLight Menu++ lise les paramètres de la carte SD de la console après avoir démarré votre linker
+1. Créez un fichier appelé `primary` dans `sd:/_nds/` (pas celui du linker), afin que TWiLight Menu++ lise les paramètres de la carte SD de la console après avoir démarré votre linker
 1. Suivez [ce guide](installing-flashcard) à partir de `Démarrage automatique de TWiLight Menu++`
 1. Copiez le fichier `BOOT.NDS` de `TWiLightMenu-DSi.7z` à la racine de la carte microSD de votre linker
 1. Ouvrez les paramètres de TWLMenu++

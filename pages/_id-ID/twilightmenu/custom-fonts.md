@@ -4,33 +4,33 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Font Kustom
-description: Cara menggunakan font kustom di TWiLight Menu++
+description: Cara menggunakan <i>font</i> kustom di TWiLight Menu++
 ---
 
-TWiLight Menu++ menggunakan font kustom dengan format NFTR (Nitro FonT Resource). They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
+TWiLight Menu++ membaca *font* kustom berformat NFTR (*Nitro FonT Resource*). Ini digunakan di Pengaturan, judul Manual, dan di tema Nintendo DSi, Nintendo 3DS, SEGA Saturn, dan Homebrew Launcher.
 
-### Included font info
-There are three fonts included with TWiLight Menu++. When TWiLight Menu++ is running in DSi Mode, they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. They are as follows:
-- Default: This uses the official DSi font as its primary font, and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
-- Chinese (Simplified): This uses Noto Sans CS as the primary font and has significantly more Chinese (Simplified) characters in DS Mode, at the cost of characters for other languages
-- Korean: This is identical to Default in DSi Mode, but in DS Mode has a more complete set of hangul, at the cost of characters for other languages
+### Info *font* terserta
+Terdapat tiga *font* yang disertakan di TWiLight Menu++. Saat menjalankan TWiLight Menu++ di Mode DSi, akan dimuat *font* yang mengandung semua huruf untuk bahasa yang tersedia di TWLMenu++, tapi jika dijalankan di Mode DS hurufnya terbatas karena keterbatasan RAM. Tersedia sebagai berikut:
+- Bawaan: Menggunakan *font* DSi resmi sebagai *font* utama di Mode DS, dan mendukung semua huruf untuk digunakan bahasa yang ada di TWiLight Menu++
+- Cina (Huruf Sederhana): Menggunakan Noto Sans CS sebagai *font* utama dan terdapat lebih banyak huruf hanzi sederhana di Mode DS, tapi mengorbankan huruf bahasa lain
+- Korea: Hampir sama dengan Bawaan di Mode DSi, bedanya terdapat serangkaian hangeul lebih lengkap di Mode DS, tapi mengorbankan huruf bahasa lain
 
-### Directory structure
-Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` where `[font name]` is whatever name you want and `[font file].nftr` is one of the following:
-- `large-ds.nftr`, `large-dsi.nftr`, or `large.nftr`: The larger font used for titles
-- `small-ds.nftr`, `small-dsi.nftr`, or `small.nftr`: The smaller font used for most other text
+### Struktur direktori
+*Font* kustom dimuat dari `sd:/_nds/TWiLightMenu/extras/fonts/[nama <i>font</i>]/[berkas <i>font</i>].nftr`, berkas `[nama <i>font</i>]` bisa nama apa saja, dan `[berkas <i>font</i>].nftr` bisa salah satu dari berikut ini:
+- `large-ds.nftr`, `large-dsi.nftr`, atau `large.nftr`: *Font* ukuran besar ini untuk judul
+- `small-ds.nftr`, `small-dsi.nftr`, atau `small.nftr`: *Font* ukuran kecil ini untuk teks lain
 
-The `-ds` and `-dsi` files have higher priority than the normal one and if found will be used when TWiLight Menu++ is running in DS or DSi Mode respectively.
+Berkas berujung `-ds` dan `-dsi` lebih diutamakan daripada yang biasa dan jika terbaca akan digunakan TWiLight Menu++ di Mode DS atau DSi secara urutan.
 
-### Skin fonts
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+### *Font* di skin
+*Font* boleh ditambah di [skin tema DSi/3DS kustom](custom-dsi-3ds-skins), ini akan menimpakan apa pun yang diatur di pengaturan TWiLight Menu++. *Font* ini ditaruh di folder `font`, di akar tempat skin.
 
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+Skin kustom bisa ditambah *font* timpaan untuk tanggal & waktu menggunakan `date_time.nftr`, dan nama pengguna dengan `username.nftr`.
 
-### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
-1. Load an NFTR file in nftr-editor
-1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
-   - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
-1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
-1. Click `Save`, then repeat for the other sizes
+### Menghasilkan *font* kustom
+*Font* bisa dibuat sendiri dengan utilitas seperti [nftr-editor](https://pk11.us/nftr-editor/). Untuk menghasilkan *font* seperti yang di TWiLight Menu++, caranya:
+1. Buka berkas NFTR di nftr-editor
+1. Ketik nama *font* yang ingin digunakan dari urutan yang atas sampai bawah di kotak teks `Input font`, dipisah huruf koma
+   - Pratayang masukan *font* bisa dilihat di kotak atas sebelah kiri dan NFTR saat ini di kotak bawah
+1. Pencet `Generate from font`, dan pencet `OK` untuk membentuk ulang huruf yang ada lalu `Cancel` untuk membentuk ulang huruf khusus (contoh: &#xE000;)
+1. Pencet `Save`, lalu ulangi jika untuk ukuran lain

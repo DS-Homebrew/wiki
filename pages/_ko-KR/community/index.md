@@ -10,4 +10,4 @@ You can find information about our community here, such as the rules for our Dis
 - Discord: [DS⁽ⁱ⁾ Mode Hacking](https://ds-homebrew.com/discord)
 - Reddit: [r/NDSBrew](https://reddit.com/r/NDSBrew)
 - GitHub: [DS-Homebrew](https://github.com/DS-Homebrew)
-- Website: [ds-homebrew.com](https://ds-homebrew.com)
+- 웹사이트: [ds-homebrew.com](https://ds-homebrew.com)

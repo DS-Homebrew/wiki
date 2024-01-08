@@ -12,7 +12,7 @@ description: Jeux DS(i) qui ont des propriétés spéciales
    - Version DSiWare appelée « Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20 »
    - Seulement 20 livres sont inclus
 - 7 Wonders II
-   - Free Play mode removed
+   - Mode Jeu Libre indisponible
 - Advance Wars: Days of Ruin/Dark Conflict
    - Version DSiWare exclusive au Japon, sous le nom de « Famicom Wars DS: Ushinawareta Hikari »
    - Un patch qui change les fichiers japonais en versions anglaises américaines est disponible [ici](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
@@ -42,14 +42,14 @@ description: Jeux DS(i) qui ont des propriétés spéciales
       - Une pause avec… Des jeux indémodables : Jeux de stratégie
 - Coropata
 - Dragon's Lair
-   - Extras menu containing Watch Mode is replaced with the Manual
+   - Le menu Extras contenant "Watch Mode" est remplacé par le manuel
 - Electroplankton
-   - Each mode are turned into standalone DSiWare titles
+   - Chaque mode fut converti en jeu DSiWare individuel
 - Elite Forces: Unit 77
    - Multijoueur ajouté
 - Titres DSiWare G.G. Series
    - Une collection intitulée « G.G. Series Collection+ » est sortie physiquement en exclusivité au Japon
-   - Built as an NTR title, allowing for playing on DS consoles
+   - Développé en tant que jeu NTR, leur permettant d'être joués sur des consoles DS
    - Les écrans du manuel contiennent une interface utilisateur unique
 - Heathcliff: Frantic Foto
    - Version DSiWare appelée « Heathcliff: Spot On »
@@ -79,9 +79,9 @@ description: Jeux DS(i) qui ont des propriétés spéciales
    - Comprend un mini-jeu exclusif
    - L'icône est animée
 - The Price Is Right: 2010 Edition
-   - DSiWare version called "The Price Is Right"
+   - La version DSiWare fut nommée "The Price Is Right"
    - Certains fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
-   - Some minigames are removed
+   - Certains mini-jeux sont indisponibles
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
@@ -91,7 +91,7 @@ description: Jeux DS(i) qui ont des propriétés spéciales
    - Version DSiWare appelée « Space Invaders Extreme Z », exclusive au Japon
    - Fonctionnalités sans fil retirées
 - Statego: Next Edition
-   - Sprite files are compressed for the game to fit within the DSiWare size limit
+   - Les fichiers de sprites sont compressés pour que le jeu ne dépasse pas la limite de taille de fichier d'un jeu DSiWare
 - Successfully Learning: English, Year 2+3
 - Successfully Learning: English, Year 4+5
 - Successfully Learning: Mathematics, Year 2+3
@@ -113,7 +113,7 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 - WarioWare: Touched!
    - Fonctionnalités Slot-2 retirées
 - Zombiez Seeker
-   - DSiWare version called "Zombie Blaster"
+   - La version DSiWare fut nommée "Zombie Blaster"
 - Zuma's Revenge!
    - Multijoueur retiré
    - L'icône est animée
@@ -137,7 +137,7 @@ Prend en charge le Wi-Fi (WPA 1/2 inclus) :
 - Une pause avec… Des jeux indémodables
      - Utilise le cloneboot pour le multijoueur
 - Cosmo Fighters
-     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
+     - La ROM de base fut compilée pour être jouable exclusivement sur la DSi, mais le fichier ROM démo inclus est compilé pour recevoir des fonctionnalités supplémentaires sur une DSi
 - Une pause avec… Dr. Mario
 - Globulos Party
      - Utilise le cloneboot pour le multijoueur
@@ -210,17 +210,17 @@ Total : 39, certains peuvent être manquants
 - Kung Fu Panda 2
 - The Last Airbender
 - Monster High: Ghoul Spirit
-- Penguins of Madagascar
-- Penguins of Madagascar: Dr. Blowhole Returns Again!
+- Les Pingouins de Madagascar
+- Les Pingouins de Madagascar : Le Docteur Blowhole est de retour !
 - Petz: Dolphinz Encounter
 - Pictionary
 - Popstars
 - Rio
 - Scripps Spelling Bee
 - Sonic Classic Collection
-- Women's Murder Club: Games of Passion
+- Women's Murder Club : Crime et splendeur
 - You Don't Know Jack
-- Zhu Zhu Pets 2: Featuring The Wild Bunch
+- Zhu Zhu Pets : Animaux de la Forêt
 
 ### Jeux DSiWare avec code de sauvegarde
 Ils écrivent les données de sauvegarde sur la puce de sauvegarde de la carte, s'ils fonctionnent à partir d'une carte.
@@ -426,7 +426,7 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Jam with the Band
     - Live Channel
 - Kuizu Ongaku Nojika (DSiWare)
-    - Wii title unknown
+    - Jeu Wii inconnu
 - Mon Coach Personnel : J'enrichis mon vocabulaire (DS)
     - Mon Coach Personnel : J'enrichis mon vocabulaire (Wii)
 - Odekake! Earth Seeker (DSiWare)

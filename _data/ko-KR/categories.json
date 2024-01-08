@@ -12,11 +12,11 @@
 	"twilightmenu": [
 		{
 			"key": "installing",
-			"title": "설치"
+			"title": "설치하기"
 		},
 		{
 			"key": "updating",
-			"title": "업데이트"
+			"title": "업데이트하기"
 		},
 		{
 			"key": "customization",
@@ -28,7 +28,7 @@
 		},
 		{
 			"key": "uninstalling",
-			"title": "제거"
+			"title": "제거하기"
 		},
 		{
 			"key": "indexes",

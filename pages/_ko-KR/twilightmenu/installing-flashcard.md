@@ -10,7 +10,7 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 
 ### 설치하기
 1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
-1. `TWiLightMenu-Flashcard.7z`를 압축 해제합니다.
+1. `TWiLightMenu-Flashcard.7z`를 압축 해제하세요
 1. Flashcard의 SD 카드 루트에 `_nds` 폴더를 복사합니다.
 1. Flashcard의 SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
 1. Flashcard의 SD 카드 루트에 `roms` 폴더를 복사합니다.
@@ -28,6 +28,9 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 {:.alert .alert-warning}
 
 모든 Flashcard가 이 방식으로 게임을 실행하는 것을 지원하지는 않는다는 걸 알아 주세요. 만약 아래 절차가 당신의 Flashcard에 맞지 않는다면, 이 부분을 건너뛰셔도 됩니다,
+{:.alert .alert-warning}
+
+Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
 1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
@@ -53,6 +56,7 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
    - R4(i)RTS (r4rts.com) (M3Real_M3iZero YSMenu 파일을 사용함)
    - R4 SDHC RTS (black cartridge) (r4isdhc.com) (M3Real_M3iZero YSMenu 파일을 사용함)
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
+   [RetroGameFan의 YSMenu](https://gbatemp.net/download/35737/)를 설치해 주세요.
       - Flashcard의 microSD카드 루트에 `YSMenu.nds` (`TTMenu.dat`에서 이름을 변경해도 됨)과 `TTMenu`가 있는 것을 확인해 주세요.
+      - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
 1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

@@ -8,7 +8,7 @@ description: Acerca de los juegos de DS comerciales
 ---
 
 ### Anti-piratería
-AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. Estos sistemas pueden saltarse a través del cargador (loader) o la propia ROM.
+AP (Anti-Piratería) es un método usado por los desarrolladores para reforzar las ventas legítimas y prevenir la piratería. Estos sistemas pueden saltarse a través del cargador (loader) o la propia ROM.
 
 - For nds-bootstrap, it can load an `.ips` file in order to circumvent said patches. This `.ips` file will be applied by nds-bootstrap in RAM so you can keep the ROM files intact. A pack of `.ips` files is included with TWiLight Menu++
 - For Wood R4, these patches are included in the software itself, you will not need to modify the ROM itself
@@ -16,10 +16,10 @@ AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases 
 If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### Cloneboot
-Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. Se usa en la Descarga DS para el multijugador con una sola tarjeta. Not all games that have single-card multiplayer use cloneboot, however.
+Cloneboot es cuando un juego envía sus propios binarios cargados ARM7 y ARM9 a otra consola. Se usa en la Descarga DS para el multijugador con una sola tarjeta. Sin embargo, no todos los juegos que tienen multijugador con una sola tarjeta utilizan cloneboot.
 
 ### Archivos de guardado
-Nintendo DS cartridges have 4 known save types:
+Los cartuchos de Nintendo DS tienen 4 tipos de guardado conocidos:
 
 - EEPROM - Electrically Erasable Programmable Read-Only Memory
 - FLASH
@@ -34,21 +34,21 @@ Assembly language is any low-level programming language with a strong connection
 You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
 
 ### Lectura Card DMA
-DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred, code can still execute, so it is the preferred way of accessing data.
+DMA (Acceso Directo a Memoria) es una forma más eficiente de leer datos que utilizar la CPU. Cuando la información es transferida, el código aún puede ejecutarse, esa es la manera preferible de acceder a la información.
 
-You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
+Puedes encontrar un juego que usa DMA en no$gba habilitando "DMA log on ARM9". Un acceso DMA a la tarjeta usa AF000001 como tercer parámetro.
 - Por ejemplo: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Trucos de Action Replay
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+Los cheats de Action Replay son códigos que te permiten hacer cambios en la programación a bajo nivel en la región de memoria de tu(s) juego(s) favorito(s). Estos cambios van desde simples cambios en los números hasta ajustes en ASM muy avanzados, los cuales pueden cambiar la experiencia de juego por completo.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
+Las flashcards pueden aprovecharse de estos códigos usando bases de datos de trucos. Esta función está integrada en el kernel de la flashcard respectivamente. Los siguientes kernel pueden usar cheats:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Homebrew y aplicaciones digitales también pueden aprovechar estas bases de datos, el software actual puede usar las siguientes:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real Game Cards from a flashcard. El motor carga la base de datos entera en la RAM de la Nintendo DS y trabaja desde ahí. Esto supone un límite bastante grande en la cantidad de trucos que puedes tener, ya que NitroHax no cargará más del archivo a partir de los 2.4 MB
+   - NitroHax permite usar cheats en cartuchos oficiales a través de una flashcard. El motor carga la base de datos entera en la RAM de la Nintendo DS y trabaja desde ahí. Esto supone un límite bastante grande en la cantidad de trucos que puedes tener, ya que NitroHax no cargará más del archivo a partir de los 2.4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([fork usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` o `usrcheat.dat`)
    - NitroHax3DS es una versión de NitroHax que funciona desde la tarjeta SD del sistema en la DSi o 3DS. La versión original usa cheats.xml con la misma limitación de 2.4 MB que el NitroHax original, pero hay un fork que carga los trucos desde una base de datos usrcheat.dat sin ningún tipo de límite
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
@@ -63,77 +63,77 @@ Cheat codes generally have types 0 through F, and here is an (unfinished) descri
   - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
-### Demonstration and Distribution Titles:
+### Títulos de demostración y distribución:
 Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, and on the back of the title's cartridge, a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
 
 Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
 
 Example ID: `DIS-NTR-NTRJ-JPN`
 
-`DIS` - Distribution
+`DIS` - Distribución
 
 
-### Title Labels
-Looking at the bottom of the title label shows the title ID along with other bits of information, for this example the following ID will be used:
+### Etiquetas de título
+En la parte inferior de la etiqueta se muestra el ID del título junto con otros datos; para este ejemplo se utilizará el siguiente ID:
 
 - NTR-NTRJ-**XXX**
 
-**XXX** represents the following:
+**XXX** representa lo siguiente:
 
 - AUS - Australia
 - CHN - China
-- DEN - Denmark
-- EUR - Europe (Multilingual)
-- EUU - Europe (Dutch or Italian Only)
-- FRA - France
-- GER - Germany
-- HOL - Netherlands
-- ITA - Italian
-- JPN - Japan
-- KOR - Korea
-- NOE - Europe (German Only)
-- NOR - Norway
-- RUS - Russia
-- SPA - Spain
-- UKV - United Kingdom
-- USA - United States
+- DEN - Dinamarca
+- EUR - Europa (multilingüe)
+- EUU - Europa (sólo neerlandés o italiano)
+- FRA - Francia
+- GER - Alemania
+- HOL - Países Bajos
+- I - Italiano
+- JPN - Japón
+- KOR - Corea
+- NOE - Europa (sólo en alemán)
+- NOR - Noruega
+- RUS - Rusia
+- SPA - España
+- UKV - Reino Unido
+- USA - Estados Unidos
 
-The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
+La última letra del ID del título representa el idioma del mismo. Usando como ejemplo el ID del último título:
 
 - NTR-NTR**X**-JPN
 
-**X** represents the following:
+**X** representa lo siguiente:
 
-- A - World (doesn't count as only one thing used it)
-- C - Chinese (Simplified)
-- D - German
-- E - American English
-- F - French
-- G - Greek
-- H - Dutch
-- I - Italian
-- J - Japanese
-- K - Korean
-- M - Swedish
-- N - Norwegian
-- O - English (DSi Enhanced)
-- P - European Multilingual
-- Q - Danish
-- R - Russian
-- S - Spanish
-- T - English (DSi Enhanced)
-- U - Australian English
-- V - British English
-- W - Other languages (Varies)
-- X - Other languages (Varies)
-- Y - Other languages (Varies)
-- Z - Other languages (Varies)
+- A - Mundo (no cuenta como una sola cosa usada)
+- C - Chino (simplificado)
+- D - Alemán
+- E - Inglés americano
+- F - Francés
+- G - Griego
+- H - Holandés
+- I - Italiano
+- J - Japonés
+- K - Coreano
+- M - Sueco
+- N - Noruego
+- O - Inglés (DSi Enhanced)
+- P - Multilingüe europeo
+- Q - Danés
+- R - Ruso
+- S - Español
+- T - Inglés (DSi Enhanced)
+- U - Inglés australiano
+- V - Inglés británico
+- W - Otros idiomas (varía)
+- X - Otros idiomas (varía)
+- Y - Otros idiomas (varía)
+- Z - Otros idiomas (varía)
 
-In terms of the system identifiers:
+En términos de identificadores de sistema:
 
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi
 
 ### DSi Enhanced:
 
-Games with "DSi Enhanced" functionality are games that take advantage of some aspect of the DSi's hardware while still remaining compatible with the DS Phat/Lite. These games are marked as `TWL` but still say "Nintendo DS" instead of "Nintendo DSi" on the label.
+Los juegos con "DSi Enhanced" son juegos que aprovechan algún aspecto del hardware de Nintendo DSi sin dejar de ser compatibles con la DS Phat/Lite. Estos juegos están marcados como `TWL` pero todavía muestran "Nintendo DS" en lugar de "Nintendo DSi" en la etiqueta.

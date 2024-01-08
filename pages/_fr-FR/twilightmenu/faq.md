@@ -49,7 +49,7 @@ Une image aléatoire `.png` dans `sd:/_nds/TWiLightMenu/dsimenu/photos/` sera af
 Pour cacher l'image, vous devez modifier le fichier `theme.ini` qui se trouve dans `sd:/_nds/TWiLightMenu/dsimenu/themes/[dossier du skin]/`. Ouvrez le fichier avec un éditeur de texte, modifiez la ligne `RenderPhoto` de `1` à `0`, puis enregistrez le fichier.
 
 #### Comment puis-je obtenir des jeux ?
-Vous pouvez télécharger des jeux homebrew sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir des dumps de vos jeux commerciaux :
+Vous pouvez télécharger des jeux homebrew sur [Universal-DB](https://db.universal-team.net/ds) et [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Pour obtenir les jeux sortis officiellement, vous devez les récupérer sous forme de dumps, soit depuis vos cartes de jeu physiques, soit depuis une console existante :
 - Sur DS, vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux GBA et, si vous avez un linker Slot-2, vos jeux DS. Si vous ne disposez que d'un linker Slot-1 et que vous souhaitez dumper un jeu DS, vous pouvez utiliser [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), qui nécessite une connexion Wi-Fi compatible avec la DS, ainsi qu'un client FTP sur un appareil séparé pour recevoir la ROM
 - Sur DSi vous pouvez utiliser [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) pour dumper vos jeux DS et DSiWare
 - Sur 3DS, vous pouvez utiliser [GodMode9](https://github.com/d0k3/GodMode9/releases) pour dumper vos jeux DS, DSiWare et titres de la console virtuelle

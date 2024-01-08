@@ -4,72 +4,64 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Skin DSi/3DS - Efek Suara Kustom
-description: Cara menggunakan suara latar belakang dan efek suara kustom di skin DSi dan 3DS untuk TWiLight Menu++
+description: Cara membuat suara latar belakang dan efek suara kustom di skin DSi dan 3DS untuk TWiLight Menu++
 ---
 
-TWiLight Menu++ mendukung berkas suara kustom untuk tema. Taruh berkas suaranya di subdirektori `sound` di folder temamu; contohnya, jika di tema `white`, kamu harus menaruh masing-masing berkasnya di `themes/white/sound/sfx.bin` dan `themes/white/sound/bgm.pcm.raw`. Kedua berkasnya opsional, jadi jika `bmg.pcm.raw` hilang, musik yang bawaan akan diputar. Hal yang sama juga berlaku pada efek suara jika berkas `sfx.bin` hilang.
+TWiLight Menu++ mendukung suara kustom untuk tema. Taruh berkas suaranya di subdirektori `sound` dalam folder tema; contohnya, jika di tema `white`, masing-masing berkas harus ditaruh di `themes/white/sound/sfx.bin` dan `themes/white/sound/bgm.pcm.raw`. Keduanya opsional, jadi jika `bmg.pcm.raw` hilang, musik yang bawaan akan diputar. Begitu juga dengan efek suara jika berkas `sfx.bin` hilang.
 
-Arahan ini beranggapan kamu sudah memasang devkitPro dengan mmutil. Kamu dapat mengunduh devkitPro di [situs devkitPro](https://devkitpro.org/wiki/Getting_Started).
+Arahan ini beranggapan Anda sudah memasang devkitPro dengan mmutil. Unduh berkas devkitPro di [situs devkitPro](https://devkitpro.org/wiki/Getting_Started).
 
 ## Bank Efek Suara (SFX)
-The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
+Berkas bank efek suara (`sfx.bin`) terdapat efek suara seperti suara memilih ikon, dll.
 
-| Berkas      | Keterangan                                                                                          |
-| ----------- | --------------------------------------------------------------------------------------------------- |
-| startup.wav | Diputar saat awal buka (startup). Lihat bagian [Suara startup](#startup-sound) untuk lebih jelasnya |
-| back.wav    | Kembali                                                                                             |
-| launch.wav  | Diputar saat menjalankan permainan                                                                  |
-| select.wav  | Diputar saat menggerakkan kursor di pengaturan tiap-permainan dan menu SELECT                       |
-| wrong.wav   | Diputar saat mentok di ujung halaman                                                                |
-| switch.wav  | Diputar saat mengganti halaman                                                                      |
-| stop.wav    | Diputar di Tema DSi saat kursor pemilih berhenti bergerak                                           |
+| Berkas      | Keterangan                                                                                         |
+| ----------- | -------------------------------------------------------------------------------------------------- |
+| startup.wav | Diputar di awal buka atau *startup*. Lihat bagian [Suara awal buka](#startup-sound) untuk jelasnya |
+| back.wav    | Kembali                                                                                            |
+| launch.wav  | Diputar saat permainan dijalankan                                                                  |
+| select.wav  | Diputar saat kursor digerakkan di setelan tiap-permainan dan menu SELECT                           |
+| wrong.wav   | Diputar saat mentok di ujung halaman                                                               |
+| switch.wav  | Diputar saat mengganti halaman                                                                     |
+| stop.wav    | Diputar di Tema DSi saat kursor pemilih berhenti bergerak                                          |
 
-Semua berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jika ingin suaranya senyap, gunakan berkas audio yang sunyi. Format harus wajib yang `.wav` dan encoding-nya *harus* PCM.
+Berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jika ingin suaranya senyap, gunakan berkas audio yang sunyi. Diwajibkan berformat `.wav` dan *harus* ber-*encode* PCM.
 
-[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
+[Berkas ini](/assets/files/sfx-example.zip) berisi suara yang digunakan di tema DSi dan 3DS bawaan, sekaligus makefile untuk membuat suara menjadi berkas sfx.bin absah. Silakan saja mengutak-atik berkas suaranya untuk membuat bank efek suara kustom.
 
-To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+Untuk membuat bank efek suara kustom, buka terminal (atau *command line* jika di Windows), ubah direktori saat ini (`cd`) ke folder yang ada `Makefile`, lalu jalankan perintah `make`. Nanti akan ada berkas `sfx.bin` yang bisa disalin ke subfolder `sound` di folder tema. **Ukuran berkas harus di bawah 512000B = 512 kB**. Jika lebih dari itu, suara akan mogok (*crash*) atau tidak diputar penuh.
 
-### Suara startup
-Di saat efek suara lain dapat berfungsi dengan berkas WAV apa pun ber-encode PCM, suara awal buka (startup) harus dengan format spesifik agar dapat berfungsi benar, jika tidak nanti ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.
+### Suara awal buka
+Walaupun efek suara lain bisa berfungsi dengan berkas WAV apa pun ber-*encode* PCM, suara awal buka atau *startup* harus berformat spesifik agar jalan, karena akan ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.
 
-Berkas startup.wav harus **16-bit 16 kHz**. Kamu dapat menggunakan [Audacity](https://www.audacityteam.org/download/) untuk konversi ke format tersebut. Begitu berkasnya dimuat di Audacity, ubah **Project Rate (Hz)** ke **16000**, lalu tekan **Shift+M**, dan ubah bentuk **Format** ke **16-bit PCM**.
+Berkas startup.wav harus **16-bit 16 kHz**. [Audacity](https://github.com/audacity/audacity/releases/latest) boleh digunakan untuk konversi ke format tersebut. Setelah berkas dibuka di Audacity, ubah **Project Rate (Hz)** ke **16000**, lalu tekan **Shift+M**, dan ubah bentuk **Format** ke **16-bit PCM**.
 
 Jika berkasnya Stereo, harus diubah ke Mono di **Tracks > Mix > Mix Stereo down to Mono**.
 
-Supaya ada jingle di awal buka, kamu harus ada `PlayStartupJingle=1` di `theme.ini` temamu.
+Supaya ada *jingle* di awal buka, tulis `PlayStartupJingle=1` di berkas `theme.ini`.
 
 
 ## Musik Latar Menu (BGM)
-BGM menu harus berkas raw PCM yang **16-bit 16 kHz Mono**. Di bawah ini ada dua cara mengonversi berkas audio ke format tersebut.
+BGM menu harus berupa `.wav` **16-bit Mono**. Di bawah ini ada dua cara mengonversi audio ke format tersebut.
 
-Beda dengan sfx.bin, ukuran *bgm.pcm.raw* suka tiba-tiba besar.
+Beda dengan `sfx.bin`, ukuran `bgm.wav` suka tiba-tiba besar.
 
-### ffmpeg
-Cara termudah mengonversi musik untuk di TWiLight Menu++ adalah dengan menjalankan [perintah ffmpeg](https://ffmpeg.org) ini di terminal:
-
-```bash
-ffmpeg -i [berkas masukan] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
-```
-
-Ganti `[berkas masukan]` dengan nama berkas yang ingin dikonversikan. Kamu juga dapat dengan mudah menyeret berkasnya ke jendela terminal dengan kursornya di baris `[berkas masukan]`.
+Mohon diingat jika berkas audio Anda sudah berformat `.wav`, maka ikuti metode di bawah ini, sebab TWLMenu++ terdapat syarat khusus.
 
 ### Audacity
-Jika tidak ingin menggunakan command line, kamu masih dapat mengonversi dengan [Audacity](https://www.audacityteam.org/download/).
+Mula-mula, unduh dulu [versi terkini Audacity](https://github.com/audacity/audacity/releases/latest).
 
-Untuk mengonversi audio:
-1. Muat berkasnya di Audacity
-1. Jika berkasnya stereo, pencet lagu tersebut lalu pilih `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Ubah `Project Rate (Hz)` di kiri bawah menjadi `16000`
+Untuk konversi audio:
+1. Buka berkasnya di Audacity
+1. Jika berkasnya stereo, pencet lagunya lalu pilih `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Masuk ke `Audio Setup` > `Audio Settings...`dan pastikan `Project Sample Rate` tidak diatur melebihi `48000 Hz` (ini batas besarnya)
 
-Untuk mengekspor ke format yang benar:
+Mengekspor ke format yang benar:
 1. Pilih `File` > `Export` > `Export Audio...`
-1. Ubah `File Type` ke `Other uncompressed files`
-1. Ubah `Header` ke `RAW (header-less)`
+1. Ubah `Save as type` ke `WAV (Microsoft)`
 1. Ubah `Encoding` ke `Signed 16-bit PCM`
-1. Ubah nama keluaran (output) ke `bgm.pcm.raw` dan pencet `Save`
-1. Pencet `OK` untuk menyunting metadata
+1. Ubah nama keluaran ke `bgm.wav` dan pencet `Save`
+1. Di penyuntingan metadata, pencet `Clear` lalu pencet `OK`
 
-Sekarang kamu punya berkas `bgm.pcm.raw` yang dapat disalin ke subfolder `sound` di folder temamu.
+Hasilnya akan ada berkas `bgm.wav` yang bisa disalin ke subfolder `sound` di folder tema.
 
- Kamu juga perlu mengubah opsi `Musik Tema DSi/3DS` di pengaturan TWiLight Menu++ ke "Tema" agar BGM kustomnya diputar di menu.
+ Jangan lupa atur opsi `Musik Tema DSi/3DS` di pengaturan TWiLight Menu++ ke "Tema" agar diputarkan BGM kustom di menu.

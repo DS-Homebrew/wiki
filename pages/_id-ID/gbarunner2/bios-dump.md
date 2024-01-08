@@ -2,45 +2,45 @@
 lang: id-ID
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Dumping
-description: How to extract the Nintendo GBA BIOS from your console
+title: Membuat <i>Dump<i> BIOS GBA
+description: Cara mengekstrak BIOS Nintendo GBA dari konsol
 tabs:
   - 
-    3ds-sd-card: 3DS with open_agb_firm
-    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
+    3ds-sd-card: 3DS dengan open_agb_firm
+    gba-flashcart: GBA/DS/DS Lite dengan <i>flashcart</i> mode GBA
 ---
 
-While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
+Walaupun hampir semua emulator GBA langsung bisa membaca ROM GBA, ada emulator dan *hypervisor*, seperti GBARunner2, yang mungkin perlu BIOS agar ROM dibaca benar.
 
-There are two distinct ways to achieve this, using:
-- a 3DS with custom firmware, OR
-- a GBA/DS/DS Lite with a GBA-mode flashcart
+Ada dua cara melakukannya, yaitu menggunakan:
+- Konsol 3DS yang ada CFW, atau
+- GBA/DS/DS Lite dengan *flashcart* mode GBA
 
 {% capture tab-3ds-sd-card %}
 ### Bagian 1: Menyiapkan berkas yang perlu
-1. Download [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (the `.7z` file)
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Create a folder named `payloads` inside the `/luma` folder if it does not already exist
-1. Copy `open_agb_firm.firm` from the open_agb_firm `.7z` file to the `/luma/payloads` folder
-1. Copy `Bios_Dumper.gba` to the root of your SD card
-1. Sisip kembali kartu SD ke konsolmu
+1. Unduh [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (yang `.7z`)
+1. Unduh [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Buat folder bernama `payloads` dalam folder `/luma` jika belum ada
+1. Salin `open_agb_firm.firm` dari berkas `.7z` open_agb_firm ke folder `/luma/payloads`
+1. Salin `Bios_Dumper.gba` ke akar kartu SD
+1. Sisip kembali kartu SD ke konsol
 
-### Part 2: Bios_Dumper
-1. Press and hold <kbd>START</kbd>, and while holding <kbd>START</kbd>, power on your device
-    - This will launch open_agb_firm
-    - If it loads the `Luma3DS Chainloader`, select `open_agb_firm` from this menu
-    - If it loads to something else, you did not copy `open_agb_firm.firm` to the correct folder on your SD card
-1. From open_agb_firm, launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### Bagian 2: Bios_Dumper
+1. Tekan dan tahan <kbd>START</kbd>, selagi <kbd>START</kbd> ditahan, nyalakan daya konsol
+    - Ini akan masuk ke open_agb_firm
+    - Jika masuk ke `Luma3DS Chainloader`, pilih `open_agb_firm` dari menu ini
+    - Jika masuk ke yang lain, berarti `open_agb_firm.firm` belum disalin ke folder yang benar di kartu SD
+1. Dari open_agb_firm, jalankan `Bios_Dumper.gba`
+1. Layar akan berkelip merah, lalu berkelip hijau
+1. Tunggu sekitar lima detik
+1. Matikan daya konsol
 
 {% capture upload-bios-text %}
-From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
+Dari kartu SD, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` ke sini:
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### Bagian 3: Memetik BIOS dari hasil berkas simpanan
+1. Sisipkan kartu SD ke komputer Anda
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -49,23 +49,23 @@ From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
 
 {% capture tab-gba-flashcart %}
 ### Bagian 1: Menyiapkan berkas yang perlu
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Copy `Bios_Dumper.gba` to the root of your flashcart's SD card
-1. Reinsert your SD card into your flashcart
-1. Reinsert your GBA flashcart into your cartridge
+1. Unduh [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Salin `Bios_Dumper.gba` ke akar kartu SD *flashcart*
+1. Sisip kembali kartu SD ke *flashcart*
+1. Sisip kembali *flashcart* GBA ke Slot-2
 
-### Part 2: Bios_Dumper
-1. Launch your flashcart, then launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### Bagian 2: Bios_Dumper
+1. Luncurkan *flashcart*, lalu jalankan `Bios_Dumper.gba`
+1. Layar akan berkelip merah, lalu berkelip hijau
+1. Tunggu sekitar lima detik
+1. Matikan daya konsol
 
 {% capture upload-bios-text %}
-From your SD card, upload `Bios_Dumper.sav` here:
+Dari kartu SD, unggah `Bios_Dumper.sav` ke sini:
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### Bagian 3: Memetik BIOS dari hasil berkas simpanan
+1. Sisipkan kartu SD ke komputer Anda
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -74,7 +74,7 @@ From your SD card, upload `Bios_Dumper.sav` here:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-A `bios.bin` file will automatically download. This is the final GBA BIOS file.
+Berkas `bios.bin` akan otomatis diunduh. Ini berkas BIOS GBA hasil akhir.
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

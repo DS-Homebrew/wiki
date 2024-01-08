@@ -49,7 +49,7 @@ Un'immagine casuale in formato `.png` in `sd:/_nds/TWiLightMenu/dsimenu/photos/`
 Per nascondere l'immagine, è necessario modificare il file `theme.ini` che si trova in `sd:/_nds/TWiLightMenu/dsimenu/themes/[cartella skin]/`. Apri il file con un editor di testo, modifica la riga `RenderPhoto` da `1` a `0`, e poi salva il file.
 
 #### How do I get games?
-Puoi scaricare i giochi homebrew da [Universal-DB](https://db.universal-team.net/ds) e [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Per ottenere i dump (copie) dei tuoi giochi commerciali:
+Puoi scaricare i giochi homebrew da [Universal-DB](https://db.universal-team.net/ds) e [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Per ottenere giochi rilasciati ufficialmente, devi fare un dump delle tue cartucce fisiche o da una console esistente:
 - On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles

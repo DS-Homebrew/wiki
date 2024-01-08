@@ -39,16 +39,16 @@ Cette page fournit plus de détails sur les règles décrites dans le salon [#in
 
 ## Conséquences
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+The consequences of breaking these rules are a warning, mute, kick or ban. Bien entendu, les conséquences spécifiques seront traitées au cas par cas.
+- La plupart des utilisateurs finissent par recevoir quatre avertissements avant d'être bannis
+   - Ces avertissements comprennent l'utilisation de la commande !warn, la mise en sourdine et les avertissements verbaux
+- Si vous vous inscrivez dans le but d'enfreindre les règles, vous serez banni
 
 ## Rapport
 
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Si quelqu'un enfreint les règles et qu'un modérateur ne s'occupe pas déjà du cas, veuillez envoyer un message à un modérateur en ligne
+- Si l'incident s'est déroulé dans les MP, il doit y avoir des preuves, comme d'autres personnes qui l'ont signalé aussi, des implications sur le serveur, ou quelque chose de ce genre
+- Toutefois, lorsque vous établissez votre rapport, couvrez tous les liens ; ne donnez pas à l'annonceur en MP plus de visibilité qu'il n'en a déjà obtenu par le biais des messages privés envoyés à tout le monde
 
 
-Last updated: 2022-06-28
+Dernière mise à jour : 28/06/2022

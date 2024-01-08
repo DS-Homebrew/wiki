@@ -7,7 +7,7 @@ title: Regole DS⁽ⁱ⁾ Mode Hacking
 description: Regole su il server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](/community/discord-rules) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
+Questa pagina fornisce maggiori dettagli sulle regole descritte nel canale [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) nel server Discord. Se hai altre domande, chiedi a [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Nota bene che la versione inglese [delle regole](/community/discord-rules) è la versione canonica e qualsiasi potenziale discrepanza nelle traduzioni non influirà sulla loro applicazione.
 
 {% include_relative rules/1.md %}
 
@@ -37,18 +37,18 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 
 {% include_relative rules/14.md %}
 
-## Consequences
+## Conseguenze
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+The consequences of breaking these rules are a warning, mute, kick or ban. Naturalmente, le conseguenze specifiche saranno gestite caso per caso.
+- La maggior parte degli utenti finisce per ricevere 4 avvertimenti prima di essere bannata
+   - Questi avvertimenti includono l'uso del comando !warn, il silenziamento e gli avvertimenti verbali
+- Unirsi con lo scopo di infrangere le regole ti farà bannare
 
-## Reporting
+## Segnalare
 
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Se qualcuno sta violando le regole e un moderatore non si sta ancora occupando del caso, si prega di contattare un moderatore online
+- Se l'incidente è avvenuto nei Messaggi diretti, devono esserci delle prove, come ad esempio la segnalazione di altre persone, implicazioni sul server o qualsiasi altra cosa del genere
+- Tuttavia, quando si fa una segnalazione, bisogna coprire i link; meglio non dare all'inserzionista dei messaggi diretti più visibilità di quella che ha già ottenuto con essi
 
 
-Last updated: 2022-06-28
+Ultimo aggiornamento: 28-06-2022

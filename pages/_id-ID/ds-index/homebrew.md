@@ -3,43 +3,43 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
-title: Homebrew
-description: Informasi tentang homebrew di Nintendo DS
+title: <i>Homebrew</i>
+description: Informasi tentang <i>homebrew</i> di Nintendo DS
 ---
 
-### Pengembangan (Development)
-Developing Nintendo DS homebrew typically uses devkitPro tools, such as devkitARM, libnds, and libfat. However, there is the possibility to branch out and use alternative software:
+### Pengembangan
+*Homebrew* Nintendo DS biasanya dikembangkan dengan alat devkitPro; seperti devkitARM, libnds, dan libfat. Namun, boleh juga merambah ke peranti lunak lain sebagai alternatif:
 
-- **SD card libraries:** [libfat](https://github.com/devkitPro/libfat) is included in libnds and generally recommended, [libslim](https://github.com/DS-Homebrew/libslim/) can sometimes work better but is unstable at times
-- **Graphics libraries:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117), which comes shipped with libnds, is recommended, however [NightFox Lib](https://github.com/knightfox75/nds_nflib) can be used instead
-- **Entire toolchains:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) and [libnds](https://libnds.devkitpro.org/) are recommended, as it includes DSi compatibility and has a larger ecosystem, however [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) is an option for flashcard-exclusive development
+- **Pustaka kartu SD:** Umumnya [libfat](https://github.com/devkitPro/libfat) yang ada dalam libnds dianjurkan, atau [libslim](https://github.com/DS-Homebrew/libslim/) malah lebih baik tapi terkadang tidak stabil
+- **Pustaka grafis:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117) yang ada dalam libnds dianjurkan, tapi [NightFox Lib](https://github.com/knightfox75/nds_nflib) juga bisa digunakan
+- **Seluruh rantai alat:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) dan [libnds](https://libnds.devkitpro.org/) dianjurkan, karena berkompatibilitas DSi dan berekosistem lebih besar, sedangkan [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) diperuntukkan pengembangan khusus *flashcard*
 
-To get started, [this GBAtemp thread](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) has a lot of good resources for begginers. Untuk informasi lebih teknis di DS(i), silakan ke [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
+Bagi pemula, baca [utas GBAtemp ini](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) yang berisi banyak sumber daya bagus. Untuk informasi DS(i) lebih teknis, lihat [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
-### Flashcard
-DS mode flashcards are a Slot-1 method of running Nintendo DS applications. Flashcards have the advantages of keeping console files and portable files separate, have the ability to be used without modding your system, and are usable on DS Phat/Lite consoles. However, unlike modding the actual console, there are multiple flashcards on the market, each with different kernel requirements. The kernel you use is the most important.
+### *Flashcard*
+*Flashcard* mode DS adalah cara menjalankan aplikasi Nintendo DS lewat Slot-1. *Flashcard* mampu menyimpan berkas konsol dan berkas portabel tetap terpisah, bisa digunakan tanpa perlu memodif konsol, dan bisa digunakan di konsol DS Phat/Lite. Tapi, tidak seperti memodif konsol langsung, harus pintar memilih *flashcard* di pasaran dengan kernel berbeda-beda. Ketahui juga *kernel* yang digunakan dan cadangkan.
 
 ### DLDI
-Different SD card slots have different hardware (most of the time) and code written for one card won't necessarily work for another card. DLDI (short for Dynamically Linked Device Interface) attempts to solve this by having the SD card handling code patched in externally. Loaders like YSMenu, Wood R4, and TWiLight Menu++ can automatically DLDI patch a homebrew, but if you need to manually patch it in, you can use a [DLDI Patcher](https://www.chishm.com/DLDI#tools) on a computer.
+Slot kartu SD berbeda (sering kali) punya papan fisik berbeda, dan kode untuk suatu *flashcard* belum tentu bisa di *flashcard* lain. DLDI (singkatan dari *Dynamically Linked Device Interface*) akan mengatasinya dengan menambal kode *handling* kartu SD dari cara luar. Pemuat (*loader*) seperti YSMenu, Wood R4, dan TWiLight Menu++ bisa otomatis menambal DLDI ke *homebrew*, tapi jika ingin menambal sendiri, gunakan [DLDI Patcher](https://www.chishm.com/DLDI#tools) di komputer.
 
-### Time bomb
-In some flashcard kernels, an arbitrary expiration date (more commonly known as a time bomb) is coded in by the kernel developers as a way to get consumers to buy their latest product. The procedure for how this works is the following:
+### *Time bomb*
+Di *kernel flashcard* tertentu, ada beragam tenggat kedaluwarsa (disebutnya *time bomb*) oleh para pengembang *kernel* agar konsumen membeli produk baru mereka. Berikut cara kerjanya:
 
-1. The flashcard is booted into and loads up the kernel file from the SD card without checking if it's the kernel intended by the developers
-1. Each time the kernel file from the SD card is loaded, it checks if the system date is past a certain date
+1. *Flashcard* diluncurkan lalu berkas *kernel* di kartu SD akan dimuat tanpa memeriksa itu *kernel* dari pengembang apa bukan
+1. Setiap kali berkas *kernel* dimuat dari kartu SD, tanggal sistem akan diperiksa apakah lewat tenggat
 
-If the second test comes out positive, the kernel will refuse to boot. This can be tested by setting your date to the latest value possible. However, the security is weak and the results aren't cached, meaning that there are ways to work around it:
+Jika yang kedua hasilnya positif, *kernel* akan menolak dimuat. Ini bisa diuji dengan memajukan tanggal sistem ke paling ujung. Namun, keamanannya lemah dan hasilnya tidak di-*cache*, berarti ada cara lain menyiasatinya:
 
-If you want to use the default kernel that the flashcard manufacturers intended, the system clock can be set back in the device's System Settings application. Keep in mind, though, that this may break any game that relies on the system clock (such as Animal Crossing: Wild World).
+Jika ingin menggunakan *kernel* bawaan yang dibuat produsen *flashcard*, jam sistem harus dimundurkan di aplikasi System Settings konsol. Perlu diingat, ini bisa mengacau permainan apa pun yang terikat jam sistem (seperti Animal Crossing: Wild World).
 
-However, the kernels that come with these cards are fundamentally flawed and it is preferable to outright replace them. Untungnya, pengembang pihak ke-3 telah membuat alternatif yang dapat digunakan:
+Namun, *kernel* yang disertakan dengan *flashcard* ini memang kurang bagus dan lebih baik langsung diganti. Untungnya, pengembang pihak ke-3 telah membuat alternatif berikut:
 
-- [YSmenu - menu + game loader](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) - Although it does not have the advantage of a customizable all-in-one menu, the game loader has far better compatibility with support for action-replay cheats
-- [TWiLight Menu++ with nds-bootstrap](../twilightmenu/installing-flashcard) - Has a customizable all-in-one menu and supports cheats, but its B4DS mode (the mode used when it doesn't have the DSi's capabilities) has weak compatibility, some games even requiring the Memory Expansion Pak
-- [TWiLight Menu++ with YSmenu](../twilightmenu/installing-flashcard) - Customizable all-in-one menu with high compatibility, but lacks cheat support
+- [YSmenu - menu + pemuat permainan](https://gbatemp.net/threads/retrogamefan-updates-releases.267243/) - Walaupun tidak ada keunggulan menu semua-satu ubah suai, kompatibilitas pemuat permainan ini lebih bagus dan mendukung *cheat* action-replay
+- [TWiLight Menu++ dengan nds-bootstrap](../twilightmenu/installing-flashcard) - Menu semua-satu ubah suai ini mendukung *cheat*, tapi mode B4DS (mode saat tidak ada akses ke fitur DSi) berkompatibilitas lemah, beberapa permainan bahkan perlu Memory Expansion Pak
+- [TWiLight Menu++ dengan YSmenu](../twilightmenu/installing-flashcard) - Menu semua-satu ubah suai ini berkompatibilitas tinggi, tapi tidak mendukung *cheat*
 
 ### Dukungan ARGV
-ARGV adalah pemancar (transmitter) informasi antara dua aplikasi homebrew Nintendo DS. Dapat digunakan sebagai forwarder atau menu alternatif.
+ARGV adalah pemancar informasi antara dua aplikasi *homebrew* Nintendo DS. Bisa digunakan sebagai *forwarder* atau menu alternatif.
 
-- Homebrew perlu ditata olah atau diprogram agar dapat dimanfaatkan. Contohnya: GBARunner2, NesDS, dan GameYob semua punya dukungan ARGV
-- There also needs to have a way to set the ARGV variables. TWiLight Menu++ and HBMenu allow setting ARGV arguments
+- *Homebrew* perlu ditata olah atau diprogram untuk memanfaatkannya. Contohnya: GBARunner2, NesDS, dan GameYob sudah ada dukungan ARGV
+- Diperlukan juga kemampuan mengatur peubah ARGV. TWiLight Menu++ dan HBMenu mampu mengatur *argument* ARGV

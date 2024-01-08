@@ -33,7 +33,7 @@ To build your custom sound effect bank, open your terminal (or command line if y
 ### Uppstartsljud
 While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://www.audacityteam.org/download/) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://github.com/audacity/audacity/releases/latest) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
 
 If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
 
@@ -41,35 +41,27 @@ You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to
 
 
 ## Meny BGM
-Menu BGM needs to be a **16-bit 16 kHz Mono** raw PCM file. Below are two methods for converting audio files into that format.
+Menu BGM needs to be a **16-bit Mono** `.wav` file. Below is the method for converting audio files into that format.
 
-Unlike sfx.bin, *bgm.pcm.raw* can be arbitrarily large.
+Unlike `sfx.bin`, `bgm.wav` can be arbitrarily large.
 
-### ffmpeg
-The simplest way to convert music for use in TWiLight Menu++ is to run this [ffmpeg](https://ffmpeg.org) command in a terminal:
-
-```bash
-ffmpeg -i [inmatningsfil] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
-```
-
-Replace `[input file]` with the name of the file you want to convert. You can usually do this by simply dragging the file onto the terminal window with the cursor in the correct location.
+Please note that if your audio file already comes as a `.wav` file, you must follow the below method anyways, as TWLMenu++ has specific requirements.
 
 ### Audacity
-If you don't want to use the command line you can also convert using [Audacity](https://www.audacityteam.org/download/).
+To get started, download [the latest version of Audacity](https://github.com/audacity/audacity/releases/latest).
 
 To convert the audio:
 1. Ladda filen i Audacity
 1. Om din fil är i stereo, klicka på låten och välj sedan `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Ändra `Project Rate (Hz)` längst ned till vänster till `16000`
+1. Go to `Audio Setup` > `Audio Settings...`, and make sure the `Project Sample Rate` is not set to be above `48000 Hz` (which is the limit)
 
 To export in the correct format:
 1. Välj `File` > `Export` > `Export Audio...`
-1. Ställ in `File Type` till `Other uncompressed files`
-1. Ställ in `Header` till `RAW (header-less)`
-1. Ställ in `Encoding` till `Signed 16-bit PCM`
-1. Ställ in utdatanamnet till `bgm.pcm.raw` och klicka `Save`
-1. Klicka på `OK` för att redigera metadata
+1. Set `Save as type` to `WAV (Microsoft)`
+1. Set `Encoding` to `Signed 16-bit PCM`
+1. Set the output name to `bgm.wav` and click `Save`
+1. Click `Clear` and then click `OK` to the metadata editing
 
-Now you have a `bgm.pcm.raw` file that can be copied to the `sound` subfolder in your theme folder.
+Now you have a `bgm.wav` file that can be copied to the `sound` subfolder in your theme folder.
 
  You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.

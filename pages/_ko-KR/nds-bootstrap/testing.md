@@ -6,7 +6,7 @@ title: Compatibility List & Testing Tips
 description: Compatibility list and tips for testing ROMs
 ---
 
-### Compatibility List
+### 호환 리스트
 To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
 
 To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.

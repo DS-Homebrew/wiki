@@ -18,7 +18,7 @@ If updating from a version older than v6.8.3, please move your `.sav` files for 
 If updating from a version older than v21.0.0, please move your `.pub` and/or `.prv` files for DSiWare titles to a new folder called `saves`, with the `saves` folder being in the same place as the DSiWare ROMs.
 {:.alert .alert-info}
 
-If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}

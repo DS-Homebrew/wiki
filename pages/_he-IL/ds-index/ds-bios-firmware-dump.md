@@ -3,43 +3,43 @@ lang: he-IL
 layout: וויקי
 section: ds-index
 category: guides
-title: BIOS/Firmware Dumping
-description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
+title: השמירת BIOS/קרנל
+description: כיצד לחלץ את BIOS/קרנל Nintendo DS או DSi מהקונסולה שלך
 tabs:
   - 
-    dsi-sd-card: DSi with Unlaunch
+    dsi-sd-card: DSi עם Unlaunch
     flashcard: פלאשקארט
 ---
 
-Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:
-- a DSi with Unlaunch, OR
-- a DS/DS Lite/3DS or a DSi without Unlaunch, along with a flashcard compatible with the console
+כמה מהמדמים, כמו melonDS, דורשים את BIOS וקושחה במצב DS או DSi, שניתן להוציא מהמכשיר שלך. ישנם שני דרכים שונות להשיג זאת, באמצעות:
+- DSi עם Unlaunch, או
+- DS/DS Lite/3DS או DSi ללא Unlaunch, יחד עם כרטיס זיכרון מותאם למכשיר
 
-The DSi method will extract both the DS-mode and DSi-mode BIOS and firmware files. The flashcard method will only extract the DS-mode files.
+השיטה של DSi תשדרג את קבצי ה-BIOS וה-Firmware בשני מצבי ה-DS וה-DSi. השיטה של כרטיס ה-Flash תשדרג רק את קבצי ה-DS במצב DS.
 
 {% capture tab-dsi-sd-card %}
 
-This page assumes you are running a modern CFW environment from [dsi.cfw.guide](https://dsi.cfw.guide).
+דף זה מניח שאתה מריץ סביבת CFW עדכנית מ־[dsi.cfw.guide](https://dsi.cfw.guide).
 {:.alert .alert-warning}
 
 ### חלק 1: השגת הקבצים הנדרשים
 
-1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
-1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
-1. Reinsert your SD card into your device
+1. הורד [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+1. העתק את `dsibiosdumper.nds` מתוך קובץ dsibiosdumper `.7z` לשורש כרטיס ה-SD שלך
+1. הכנס מחדש את כרטיס ה-SD שלך למכשיר שלך
 
-### Part 2: dsibiosdumper
-1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device
-1. Your device should have booted into the Unlaunch menu
-1. Launch dsibiosdumper from the list of applications
-1. Press <kbd class="face">A</kbd> to dump everything
-1. Wait for the process to complete
-    - This can take a while
-1. After the process is complete, press <kbd>SELECT</kbd> to exit dsibiosdumper
-1. Power off your device
-1. Insert your SD card into your computer
+### חלק 2: dsibiosdumper
+1. עם המכשיר שלך כדיווחת כבוי, החזק את הכפתורים הבאים: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, ותחזוק אותם ביחד בזמן שאתה מדליק את המכשיר שלך
+1. על מכשירך להשתמש בתפריט Unlaunch כעת
+1. הפעל את dsibiosdumper מרשימת היישומים
+1. לחץ <kbd class="face">A</kbd> כדי לשדרג הכול
+1. חכה עד שהתהליך יושלם
+    - זה יכול לקחת זמן
+1. לאחר שהתהליך הושלם, לחץ על <kbd>SELECT</kbd> כדי לצאת מ־dsibiosdumper
+1. כבה את המכשיר שלך
+1. הכנס את כרטיס ה-SD שלך למחשב
 
-All the necessary files will be in the `dsidump` folder on the root of your SD card.
+כל הקבצים הנדרשים יהיו בתיקיית `dsidump` בשורש כרטיס ה-SD שלך.
 {:.alert .alert-success}
 
 {% endcapture %}
@@ -49,20 +49,20 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 
 ### חלק 1: השגת הקבצים הנדרשים
 
-1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
-1. Copy `dsbf_dump.nds` to the root of your SD card
-1. Reinsert your SD card into your flashcard
+1. הורד [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (הקובץ `.nds`)
+1. העתק `dsbf_dump.nds` אל שורש כרטיס ה-SD שלך
+1. הכנס מחדש את כרטיס ה-SD שלך אל כרטיס הפלאש שלך
 
-### Part 2: dsbf_dump
-1. Power on your device
-1. Launch your flashcard
-1. Navigate to the root of your SD card, and launch dsbf_dump
-1. Wait for the process to complete
-1. After the process is complete, press <kbd>START</kbd> to power off your device
-  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
-1. Insert your SD card into your computer
+### חלק 2: dsbf_dump
+1. הדלק את המכשיר שלך
+1. השתמש בכרטיס הזכרון שלך
+1. נווט לשורש כרטיס הSD שלך והפעל את dsbf_dump
+1. חכה עד שהתהליך יושלם
+1. לאחר ההליך, לחץ על <kbd>START</kbd> כדי לכבות את המכשיר שלך
+  - במערכות משפחת ה-3DS, זה יציג במקום ״תוכנה סגורה״. כבו את המכשיר ממסך זה
+1. הכנס את כרטיס ה-SD שלך למחשב
 
-All the necessary files will be in a folder specified on the top screen of your device.
+כל הקבצים הדרושים יהיו בתיקייה המצויה במסך העליון של המכשיר שלך.
 {:.alert .alert-success}
 
 {% endcapture %}

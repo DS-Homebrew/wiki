@@ -18,7 +18,7 @@ v6.8.3より古いバージョンから更新する場合は、DSゲームの`.s
 v21.0.0より古いバージョンから更新する場合は、DSiウェアタイトルの`.pub`および/または`.prv`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDSウェアROMと同じ場所に置いてください。
 {:.alert .alert-info}
 
-If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}

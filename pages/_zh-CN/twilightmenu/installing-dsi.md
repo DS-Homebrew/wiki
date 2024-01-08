@@ -3,7 +3,7 @@ lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: installing
-title: 安装步骤（DSi）
+title: 安装（DSi）
 long_title: 安装 TwiLight Menu++（DSi）
 description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 ---
@@ -24,37 +24,37 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 1. 在 Unlaunch 的菜单中，选择 `OPTIONS`
 1. 将下屏中的 `BOOT.NDS` 项设置成 `NO BUTTON` 或是其他你想要的键位
 
-### Accessing flashcard contents
+### 访问烧录卡内容
 
-A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
+烧录卡是一种可插入游戏卡插槽的东西，包含一个 microSD 卡插槽。 如果您没有烧录卡，可以无需继续阅读本指南。
 {:.alert .alert-warning}
 
-#### If you have an R4(i) Ultra
+#### 如果您有 R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - You can safely ignore the warnings
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `Slot-1 microSD access`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, press `B` again
+1. 要使用烧录卡固件运行游戏，请从[本指南](installing-flashcard)的`使用烧录卡固件运行游戏`章节开始阅读
+     - 您可以放心地忽略这些警告
+1. 打开 TWLMenu++ 设置
+1. 切换到 `Misc settings`（杂项设置）页面
+1. 打开 `Slot-1 microSD access`（Slot-1 microSD访问）
+1. 按 `B` 键退出 TWLMenu++ 设置
+     - 如果您最后进入的是 DS 经典菜单，请再次按 `B`
 
-#### If you don't have an R4(i) Ultra
+#### 如果您没有 R4(i) Ultra
 
-1. Create a file called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
-1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
-1. Open TWLMenu++ Settings
-1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
-1. Turn on `Auto-start Slot-1`
-1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+1. 在 `sd:/_nds/`（不是烧录卡的 microSD 卡）中创建名为 `primary` 的文件或文件夹，以便 TWiLight Menu++ 启动烧录卡后从主机的 SD 卡读取设置。
+1. 要使用烧录卡固件运行游戏，请从[本指南](installing-flashcard)的`自动启动TWiLight Menu++`章节开始阅读
+1. 将 `BOOT.NDS` 文件从 `TWiLightMenu-Flashcard.7z` 复制到烧录卡的 microSD 卡根目录。
+1. 打开 TWLMenu++ 设置
+1. 切换到 `Misc settings`（杂项设置）页面
+1. 打开 `SCFG access in Slot-1`（注意，该选项会覆盖 `SD access in Slot-1`）。
+1. 将 `Slot-1: Touch Mode` 设置为 `DSi 模式`
+1. 打开 `Auto-start Slot-1`
+1. 按 `B` 键退出 TWLMenu++ 设置
+     - 如果您最后进入的是 DS 经典菜单，请启动烧录卡
+     - 否则，重新启动 TWiLight Menu++
 
-#### Switching between SD and flashcard contents
-- Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - If the SELECT menu is enabled, you can do so there as well
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+#### 在 SD 卡和烧录卡内容之间切换
+- 按 `SELECT`+`↑` 或 `SELECT`+`↓` 在 SD 卡和烧录卡内容之间切换
+     - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
+     - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
+     - 如果使用 R4/GBC 主题，请按 `L` 键

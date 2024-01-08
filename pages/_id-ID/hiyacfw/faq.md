@@ -2,35 +2,35 @@
 lang: id-ID
 layout: faq
 section: hiyacfw
-title: FAQ & Troubleshooting
-long_title: hiyaCFW FAQ & Troubleshooting
-description: FAQ & Troubleshooting for hiyaCFW
+title: Pertanyaan Umum & Sidik Gangguan
+long_title: Pertanyaan Umum & Sidik Gangguan hiyaCFW
+description: Pertanyaan umum dan sidik gangguan terkait hiyaCFW
 ---
 
-#### How do I install apps or DSiWare to hiyaCFW's SDNAND?
-You will need to use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
-- If you would like to install Game Card dumps, you should use a [forwarder](../ds-index/forwarders)
+#### Bagaimana memasang aplikasi atau DSiWare ke SDNAND hiyaCFW?
+Perlu [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) untuk memasang aplikasi ke SDNAND, tapi *homebrew* DS lawas mungkin tidak kompatibel.
+- Jika ingin memasang *dump* ROM Kaset, gunakan [*forwarder*](../ds-index/forwarders)
 
-#### Why do I get the #-2435-8325 error code?
-If your Nintendo DSi shows an error in this format when booting, with the # being a number, that means that bootstage 2 thinks something is wrong with your SDNAND. This is usually fixed by [reinstalling hiyaCFW](installing).
+#### Kenapa muncul kode galat #-2435-8325?
+Jika konsol Nintendo DSi muncul galat ini saat dinyalakan (tanda # mewakili nomor), berarti *bootstage 2* mengira ada yang salah dengan SDNAND. Ini bisa diperbaiki dengan [memasang ulang hiyaCFW](installing).
 
-#### Why do I get "An error has occurred" message when booting hiyaCFW?
-When the Nintendo DSi Menu detects a problem it will usually show this generic error message, some of the causes are:
+#### Kenapa ada pesan "An error has occurred" saat memuat ke hiyaCFW?
+Saat Nintendo DSi Menu sadar ada masalah, biasanya akan muncul pesan galat umum ini, beberapa sebabnya yaitu:
 
-##### The free space bug
-The Nintendo DSi Menu has a bug when checking the free space on large storage devices. While this can't occur on the actual NAND (since the chip is only 256 MiB), it can happen when using an SD card.
+##### Kutu memori ruang kosong
+Nintendo DSi Menu terdapat kutu (*bug*) saat memeriksa ruang kosong di penyimpanan besar. Walaupun ini pasti tidak terjadi di NAND aslinya (karena cip hanya 256 MiB), tapi ini bisa terjadi di kartu SD.
 
-What works and what doesn't goes by every other range of two gibibytes. For example, having 0-2 GiB of free space works, but 2-4 GiB doesn't. The same goes for 4-6 GiB vs 6-8 GiB, up until you get to the size of your SD card.
+Berfungsi dan tidaknya ini terjadi setiap rentang dua gibibita. Contohnya, sisa ruang 0-2 GiB akan berfungsi, tapi 2-4 GiB tidak. Begitu juga 4-6 GiB lalu 6-8 GiB, ini terus sampai sebesar ukuran di kartu SD.
 
-The latest hiyaCFW version can create dummy files to work around this, so make sure that you download the latest version of [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) and copy `hiya.dsi` from "for SDNAND SD card" to the root of your SD card.
+Versi terkini hiyaCFW bisa membuat berkas bonekaan untuk mengatasi ini, caranya unduh dulu [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) versi terkini dan salin `hiya.dsi` dari "for SDNAND SD card" ke akar kartu SD.
 
-##### Over 39 titles
-The Nintendo DSi Menu has a limit of 39 titles. If you have more than that, delete some from the folders in `sd:/title` or use [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) to uninstall them.
+##### Melebihi 39 Judul
+Nintendo DSi Menu punya batas 39 judul. Jika ada lebih, hapus beberapa isi folder di `sd:/title` atau gunakan [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) untuk mencopotnya.
 
-##### Too much space used by DSiWare
-There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing DSiWare as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+##### DSiWare memakan banyak ruang
+DSiWare juga dibatasi sampai 200 *blocks* (25MB) di folder `00030004`. Ini bisa diatasi dengan memasang DSiWare sebagai aplikasi sistem dengan [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
 
-##### Invalid title
-There are several things you need to take into account when adding titles to hiyaCFW:
-- Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
-- Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+##### Judul tidak absah
+Ada beberapa hal yang perlu dipertimbangkan saat memasang judul ke hiyaCFW:
+- *Dump* ROM Kaset tidak bisa dijalankan kecuali dengan [*forwarder*](../ds-index/forwarders)
+- *Homebrew* perlu dibuat dengan alat modern agar berfungsi di Nintendo DSi Menu

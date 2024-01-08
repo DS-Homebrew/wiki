@@ -55,85 +55,85 @@ Homebrew/цифровые решения также могут использо�
    - TWiLight Menu++ считывает `usrcheat.dat` и отправляет значения включенных читов в другой файл, который подхватывает nds-bootstrap
    - Чит-движок, используемый в nds-bootstrap, основан на движке, используемом в NitroHax. Однако из-за того, что файл с читами содержит только включенные читы для этой конкретной игры, есть ограничение только на количество читов, которые могут быть включены, но размер базы данных не ограничен
 
-For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
+Для получения наиболее полной базы читов рекомендуется использовать [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
-Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
+Чит-коды обычно имеют типы от 0 до F, и здесь представлено их (незаконченное) описание:
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job
-  - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
-- DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
+- Тип кода 0xE - это 32-битный тип кода, который позволяет выполнять несколько записей по многим последовательным адресам одновременно. По сути, он похож на базовый 32-битный тип кода записи в ОЗУ (0x0), за исключением того, что в нем нет адресов, перечисленных рядом со значениями, которые вы хотите записать. Вместо этого тип кода 0xE запрограммирован на автоматическое ответвление от начального адреса, а затем определение адресов для записи. Далее вам просто нужно указать значение для записи и задача будет выполнена
+  - Известно, что в настоящее время чит-коды такого типа, как правило, не работают
+- DeadSkullzJr работает над более полным списком описаний чит-кодов, ссылка на него появится в этом разделе, как только он будет готов
 
-### Demonstration and Distribution Titles:
-Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, and on the back of the title's cartridge, a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+### Демонстрация и распространение программ:
+Демонстрационные (Демо) игры отличаются от своих розничных аналогов по разным параметрам. Очевидно, что рассматриваемая игра является демонстрацией того, какой будет розничная версия, по сути, это быстрый взгляд на то, что будет в будущем, когда выйдет полноценный розничный релиз. В случае с линейкой Nintendo DS эти игры часто имеют на обложке пометку "Не для перепродажи", каждая демоверсия имеет свой идентификатор, отличный от розничных аналогов, а на задней стороне картриджа с игрой также присутствует наклейка "Не для перепродажи". Обычно такие игры представляют собой демо-версии для стендов в магазинах и т. д.
 
-Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
+В большинстве случаев ситуация с играми для дистрибуции обстоит совершенно иначе, однако очень редко демо-версии игр также могут быть обозначены, как будто они предназначены для широкого распространения. В большинстве случаев игры для распространения - это просто розничные версии игр, которые предназначены только для демонстрации или поставляются в рекламных упаковках. На этих изданиях, так же как и на демоверсиях, можно увидеть надпись "Не для перепродажи". Иногда их используют на стендах, чтобы дать игрокам опробовать игру. Однако, зная, что в большинстве случаев они по сути такие же, как и их розничные аналоги, они, как правило, имеют дополнительный идентификатор в ID на этикетке.
 
-Example ID: `DIS-NTR-NTRJ-JPN`
+Пример ID: `DIS-NTR-NTRJ-JPN`
 
-`DIS` - Distribution
+`DIS` - Для распространения
 
 
-### Title Labels
-Looking at the bottom of the title label shows the title ID along with other bits of information, for this example the following ID will be used:
+### Идентификаторы
+Если посмотреть на нижнюю часть этикетки картриджа, можно увидеть идентификатор игры, а также другую информацию. Для примера рассмотрим следующий ID:
 
 - NTR-NTRJ-**XXX**
 
-**XXX** represents the following:
+**XXX** представляет собой следующее:
 
-- AUS - Australia
-- CHN - China
-- DEN - Denmark
-- EUR - Europe (Multilingual)
-- EUU - Europe (Dutch or Italian Only)
-- FRA - France
-- GER - Germany
-- HOL - Netherlands
-- ITA - Italian
-- JPN - Japan
-- KOR - Korea
-- NOE - Europe (German Only)
-- NOR - Norway
-- RUS - Russia
-- SPA - Spain
-- UKV - United Kingdom
-- USA - United States
+- AUS - Австралия
+- CHN - Китай
+- DEN - Дания
+- EUR - Европа (Многоязычный)
+- EUU - Европа (Только на голландском или итальянском языке)
+- FRA - Франция
+- GER - Германия
+- HOL - Нидерланды
+- ITA - Италия
+- JPN - Япония
+- KOR - Корея
+- NOE - Европа (Только немецкий язык)
+- NOR - Норвегия
+- RUS - Россия
+- SPA - Испания
+- UKV - Великобритания
+- USA - Соединенные Штаты
 
-The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
+Последняя буква ID игры обозначает её язык. Рассмотрим следующий пример:
 
 - NTR-NTR**X**-JPN
 
-**X** represents the following:
+**X** представляет собой следующее:
 
-- A - World (doesn't count as only one thing used it)
-- C - Chinese (Simplified)
-- D - German
-- E - American English
-- F - French
-- G - Greek
-- H - Dutch
-- I - Italian
-- J - Japanese
-- K - Korean
-- M - Swedish
-- N - Norwegian
-- O - English (DSi Enhanced)
-- P - European Multilingual
-- Q - Danish
-- R - Russian
-- S - Spanish
-- T - English (DSi Enhanced)
-- U - Australian English
-- V - British English
-- W - Other languages (Varies)
-- X - Other languages (Varies)
-- Y - Other languages (Varies)
-- Z - Other languages (Varies)
+- A - Мир (Можно забыть, так как использовалась только лишь единожды)
+- C - Китайский (упрощенный)
+- D - Немецкий
+- E - Американский Английский
+- F - Французский
+- G - Греческий
+- H- Голландский
+- I - Итальянский
+- J - Японский
+- K - Корейский
+- М - Шведский
+- N - Норвежский
+- O - Английский (Игры адаптированные для DSi)
+- P - Европейский многоязычный
+- Q - Датский
+- R - Русский
+- S - Испанский
+- T - Английский (Игры адаптированные для DSi)
+- U - Австралийский Английский
+- V - Британский английский
+- W - Другие языки (Варьируется)
+- X - Другие языки (Варьируется)
+- Y - Другие языки (Варьируется)
+- Z - Другие языки (Варьируется)
 
-In terms of the system identifiers:
+Что касается системных идентификаторов:
 
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi
 
-### DSi Enhanced:
+### Адаптированные для DSi:
 
-Games with "DSi Enhanced" functionality are games that take advantage of some aspect of the DSi's hardware while still remaining compatible with the DS Phat/Lite. These games are marked as `TWL` but still say "Nintendo DS" instead of "Nintendo DSi" on the label.
+Игры с функцией "DSi Enhanced" - это игры, которые используют преимущества некоторых аспектов аппаратного обеспечения DSi, оставаясь при этом совместимыми с DS Phat/Lite. Эти игры помечены как `TWL`, но на обложке написано "Nintendo DS", а не "Nintendo DSi".

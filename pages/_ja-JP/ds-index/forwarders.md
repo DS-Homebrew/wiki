@@ -27,7 +27,7 @@ Choose one of the following to add to the HOME menu:
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### パート1：必要なファイルを取得する
 
 If you already have Universal Updater installed on your console, you can skip to step 3.
 {:.alert .alert-info}
@@ -70,7 +70,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: NDSForwarder-DSi
-1. Reinsert your SD card into your device
+1. SDカードを再度デバイスに挿入してください
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card

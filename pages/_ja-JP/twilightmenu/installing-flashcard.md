@@ -30,6 +30,9 @@ description: ニンテンドーDSマジコンにTWiLight Menu++をインスト�
 すべてのマジコンがこの方法でのゲーム起動をサポートしているわけではありません。 以下の手順がお使いのマジコンに当てはまらない場合は、このセクションを飛ばして構いません。
 {:.alert .alert-warning}
 
+Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
+{:.alert .alert-warning}
+
 1. `Flashcart Loader/(お使いのマジコン)`内のものをマジコンのmicroSDカードのルートへ展開します。
    - `Flashcart Loader`には、どのFlashcart Loaderがお使いのマジコンに適しているかの判断材料となるREADME.txtがあります
    - 判断がついたら、ステップ3に進んでください。 そうでなければ、下記のマジコンリストの載ったステップ2に進んでください
@@ -55,4 +58,5 @@ description: ニンテンドーDSマジコンにTWiLight Menu++をインスト�
 
    Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - マジコンのmicroSDのルートに`YSMenu.nds`（存在しない場合は`TTMenu.dat`から名前を変更する）と`TTMenu`フォルダがあることを確認してください
+      - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
 1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

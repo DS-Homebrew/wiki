@@ -2,55 +2,55 @@
 lang: id-ID
 layout: faq
 section: godmode9i
-title: FAQ & Troubleshooting
-long_title: GodMode9i FAQ & Troubleshooting
-description: FAQ & Troubleshooting for GodMode9i
+title: Pertanyaan Umum & Sidik Gangguan
+long_title: Pertanyaan Umum & Sidik Gangguan GodMode9i
+description: Pertanyaan umum dan sidik gangguan terkait GodMode9i
 ---
 
-#### How do I get past the "mounting drive(s)" screen while starting it up?
-This happens when you launch GodMode9i from [hiyaCFW](../hiyacfw). You can hold <kbd class="face">X</kbd> while launching GodMode9i to skip NAND mounting. Alternatively, you can launch GodMode9i directly from Unlaunch to be able to mount the NAND.
+#### Bagaimana agar tidak "mounting drive(s)" saat baru buka?
+Ini terjadi jika membuka GodMode9i dari [hiyaCFW](../hiyacfw). Tahan tombol X saat membuka GodMode9i agar tidak jadi me-*mount* NAND. Cara lainnya, buka GodMode9i langsung dari Unlaunch agar NAND bisa di-*mount*.
 
-#### Why can't I add, remove, or edit files on the NAND?
-Editing files on the DSi NAND is not safe and can easily lead to a brick, so GodMode9i intentionally lacks this capability.
+#### Kenapa berkas di NAND tidak bisa ditambah, hapus, atau ubah?
+Mengubah berkas dari NAND DSi itu tidak aman dan akan mudah rusak parah (*brick*), makanya GodMode9i sengaja tidak bisa.
 
-#### Why can't I view NDS file info for some DSiWare?
-Some DSiWare, specifically those located in the `0003000f` folder, contain system data and do not have a valid banner.
+#### Kenapa ada info berkas NDS DSiWare tidak bisa dibuka?
+Beberapa DSiWare, terlebih yang di folder `0003000f`, berisi data sistem dan memang tidak punya nama judul absah.
 
-#### Should I use the NDS version or the DSi version? What's the difference?
-These are functionally the same, but they have specific purposes.
-- If you are using GodMode9i with a flashcard, use the NDS version
-- If you are installing GodMode9i to your hiyaCFW SDNAND, use the DSi version
-- If you are starting GodMode9i via TWiLight Menu++, both versions will work identically
-- If you are installing GodMode9i to your 3DS HOME Menu, use the CIA version
+#### Lebih baik gunakan versi NDS atau versi DSi? Apa bedanya?
+Fungsi keduanya sama saja, tapi ditujukan berbeda.
+- Jika menggunakan GodMode9i di *flashcard*, gunakan versi NDS
+- Jika memasang GodMode9i ke hiyaCFW SDNAND, gunakan versi DSi
+- Jika membuka GodMode9i lewat TWiLight Menu++, kedua versi tersebut berfungsi mirip
+- Jika memasang GodMode9i ke HOME Menu 3DS, gunakan versi CIA
 
-#### How do I change the language?
-You can change GodMode9i's language by pressing <kbd>START</kbd>, selecting the last option in that menu, and choosing the language you want to use.
+#### Bagaimana mengubah bahasa?
+Bahasa di GodMode9i bisa diubah dengan menekan <kbd>START</kbd>, lalu pilih opsi paling bawah dari menu, dan pilih bahasa yang ingin digunakan.
 
-Note that this will only work if GodMode9i is being run from TWiLight Menu++ or there is a copy of `GodMode9i.nds`/`GodMode9i.dsi` in the root of your SD card.
+Mohon diingat ini hanya berfungsi jika GodMode9i dijalankan dari TWiLight Menu++ atau ada berkas `GodMode9i.nds`/`GodMode9i.dsi` di akar kartu SD.
 
-You can also manually enter a path to any translation file on your SD card in the config file, `sd:/gm9i/config.ini`, with the `LANGUAGE_INI_PATH` entry.
+Bisa juga menulis jalur sendiri ke berkas terjemahan apa pun di kartu SD pada berkas setelan `sd:/gm9i/config.ini`, di entri `LANGUAGE_INI_PATH`.
 
-#### How do I change the font?
-You can change GodMode9i's font by selecting a `.frf` font file and choosing `Load font`. To set a different font as the default either place it at `sd:/gm9i/font.frf` or edit the config file (`sd:/gm9i/config.ini`) to set the `FONT_PATH` to where your font file is.
+#### Bagaimana mengubah *font*?
+*Font* GodMode9i bisa diubah dengan memilih *font* `.frf` dan pilih opsi `Muat <i>font</i>`. Untuk memilih *font* lain sebagai *font* bawaan, bisa taruh di `sd:/gm9i/font.frf`, atau pada berkas (`sd:/gm9i/config.ini`) bisa ubah entri `FONT_PATH` ke letak berkas *font* lain.
 
-You can find a few pre-converted fonts in the [resources folder](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) of the GitHub repository and you can convert your own from a PBM image and TXT file containing the Unicode mappings using GodMode9's [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) script.
+Beberapa *font* yang sudah dikonversi bisa dicari di [folder *resources*](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) repositori GitHub atau bisa dibuat sendiri dengan mengonversi gambar PBM dan berkas TXT berisi pemetaan Unicode dengan naskah [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) GodMode9.
 
-#### How do I dump DS Saves using GBA save data?
-GodMode9i is able to use the save data of GBA cartridges to dump the saves of most DS Game Cards. ROM files and save files over 1 MiB cannot be dumped this way as the files are impractically large. This can also be done using Haxxstation instead of a DS flashcard if you have another way to dump the GBA save files, they can then be recombined and decompressed on a computer.
+#### Bagaimana men-*dump* simpanan DS dengan data simpanan GBA?
+GodMode9i mampu menggunakan data simpanan kartrid GBA untuk men-*dump* simpanan sebagian besar kaset DS. Berkas ROM dan simpanan di atas 1 MiB tidak bisa di-*dump* dengan cara ini karena tidak muat. Ini juga bisa dilakukan Haxxstation selain dengan *flashcard* DS jika simpanan GBA bisa di-*dump* cara lain, nanti bisa digabung ulang dan diekstrak di komputer.
 
-1. Load GodMode9i on your flashcard
-1. Backup your GBA saves!!
-   - Any save data that hasn't been backed up will be lost
-   - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
-1. On the drive menu, press <kbd class="r">R</kbd> + <kbd class="face">B</kbd> to unmount the flashcard
-1. Eject the flashcard, insert a DS Game Card and GBA cartridge
-1. Select `NDS GAMECARD` then `Save`
-1. When asked, press <kbd class="face">A</kbd> to write the data to the GBA cart
-   - Swap to different GBA cartridges and repeat until the whole save is copied
-1. Reboot your DS with your Slot-1 flashcard back in and reopen GodMode9i
-1. Insert the first GBA cartridge you used and select `GBA GAMECART`
-1. Choose `DS Save`
-1. Swap through all the carts you dumped onto
-1. Your DS save will now be in `fat:/gm9i/out`, you can now restore your backed up GBA save files to their original cartridges
+1. Buka GodMode9i di *flashcard*
+1. Cadangkan dulu simpanan GBA!!
+   - Semua data simpanan yang belum dicadang akan hilang
+   - Periksa berkasnya dan cari yang besar, tidak usah kartrid bersimpanan 512 bita karena simpanan 64 atau 128 KiB saja bisa muat simpanan DS untuk 1 atau 2 kaset
+1. Di menu kandar, tekan <kbd class="r">R</kbd> + <kbd class="face">B</kbd> untuk lepas baca *flashcard*
+1. Keluarkan *flashcard*, sisipkan kaset DS dan kartrid GBA
+1. Pilih `KASET NDS` lalu `Simpan`
+1. Saat diminta, tekan <kbd class="face">A</kbd> untuk menaruh data ke kartrid GBA
+   - Ganti ke kartrid GBA lain dan ulangi sampai seluruh simpanan disalin
+1. Nyalakan ulang DS dengan *flashcard* Slot-1 dan buka lagi GodMode9i
+1. Sisipkan kartrid GBA pertama yang tadi digunakan dan pilih `KARTRID GBA`
+1. Pilih `Simpanan DS`
+1. Ganti terus ke semua kartrid yang tadi ditaruh *dump*
+1. Simpanan DS akan disimpan di `fat:/gm9i/out`, dan sekarang simpanan GBA yang tadi dicadang bisa dipulihkan ke kartridnya
 
-If you want to write the save file back onto the Game Card, simply select the `.sav` file and choose `Restore save (Slot-1)`, then swap out your flashcard for the DS Game Card when prompted.
+Jika ingin menaruh simpanan lagi ke kaset DS, cukup pilih berkas `.sav` dan pilih `Pulihkan simpanan (Slot-1)`, lalu ganti *flashcard* Slot-1 ke kaset DS saat diminta.

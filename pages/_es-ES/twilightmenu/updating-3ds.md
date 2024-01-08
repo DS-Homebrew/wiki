@@ -18,7 +18,7 @@ Si estás actualizando desde una versión anterior a v6.8.3, mueve tus archivos 
 Si estás actualizando desde una versión anterior a la 21.0.0, mueve tus archivos `.pub` y/o `.prv` de títulos DSiWare a una nueva carpeta llamada `saves`, la cual debe estar presente dentro de la misma carpeta que las ROMS de los títulos DSiWare.
 {:.alert .alert-info}
 
-Si estás actualizando desde una versión anterior a la 25.7.0, se recomienda que elimines el título `TWiLight Menu++ Game Booter` de la lista de títulos usando FBI
+Si estás actualizando desde una versión más antigua que la v25.7.0, es recomendado que elimines el título `TWiLight Menu++ Game Booter` desde la lista de títulos, usando FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}

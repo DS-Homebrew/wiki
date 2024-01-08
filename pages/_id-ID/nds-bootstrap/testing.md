@@ -2,35 +2,35 @@
 lang: id-ID
 layout: wiki
 section: nds-bootstrap
-title: Daftar Kompatibilitas & Tips Pengujian
-description: Compatibility list and tips for testing ROMs
+title: Daftar Kompatibilitas & Saran Pengujian
+description: Daftar kesesuaian dan saran cara menguji ROM
 ---
 
-### Daftar Kesesuaian (Compatibility)
-To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika kamu ingin ikut andil, tekan `view only` kemudian `request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
+### Daftar Kompatibilitas
+Untuk ROM yang sudah diuji, lihat [daftar kompatibilitas](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika ingin bersumbangsih, tekan `view only` lalu `request edit access`. Pastikan entri ditambahkan di lembar yang benar sesuai tab di bawah laman.
 
-To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
+Untuk isu yang ada pada ROM, lihat [laman *issues*](https://github.com/DS-Homebrew/nds-bootstrap/issues) di Github. Jika ingin membuat [isu baru](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), ikuti contoh templat isu dengan benar.
 
-### Tips For Testing ROMs
-- In general, look through the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) and [glossary](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) to make sure that you understand how to troubleshoot issues
+### Saran Cara Uji ROM
+- Biasanya, lihat dulu [pertanyaan umum ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) dan [glosarium nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) untuk memahami cara menyidik gangguan isu
 
-#### If testing for a specific reported bug
-- Replicate the steps as close as possible
-- If there are any differences (such as nds-bootstrap version, system used, or settings changed), make sure to include that in your report
-- Feel free to ask the original reporter for more details (such as uploading a save file or any missing information) if possible
-- If there is no solution, make sure to update the compatibility list
+#### Jika menguji kutu tertentu dari laporan
+- Tiru langkah-langkahnya semirip mungkin
+- Jika ada perbedaan (seperti versi nds-bootstrap, konsolnya, atau ubahan pengaturan), pastikan itu ditulis juga di dalam laporan
+- Jangan ragu berbicara terkait perincian ke pelapor awal (seperti meminta berkas simpanan atau informasi belum lainnya) jika sempat
+- Jika tidak ada solusi, jangan lupa perbarui daftar kompatibilitas
 
-#### If a ROM has an issue after updating nds-bootstrap
-- Find which specific version first introduced this issue
-- You can downgrade nds-bootstrap by downloading a [past release](https://github.com/DS-Homebrew/nds-bootstrap/releases) and following the update instructions
-- Downgrading to a past release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) might be needed as well
+#### Jika ROM bermasalah setelah nds-bootstrap diperbarui
+- Cari versi tertentu mana yang pertama mengalami isu ini
+- Coba turunkan versi nds-bootstrap dengan mengunduh [*release* sebelumnya](https://github.com/DS-Homebrew/nds-bootstrap/releases) dan ikuti cara memperbaruinya
+- Mungkin perlu juga turun versi ke *release* sebelumnya dari [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases)
 
-#### If testing for a ROM that has no known issues or has not been tested before
-- Be thorough with testing the ROM, going through anything that other users might see
-- Make sure to add the appropriate information on the compatibility list on the correct sheet
-- Also make sure to remove games that have been tested off of the Testing Queue sheet
+#### Jika menguji ROM yang tidak ada masalah umum atau belum pernah diuji
+- Uji ROM lebih teliti lagi, periksa apa pun yang mungkin juga dialami pengguna lain
+- Pastikan informasi sesuai ditambahkan pada daftar kompatibilitas di lembar yang benar
+- Pastikan juga permainan yang sudah diuji dihapus dari lembar *Testing Queue</ii></li> </ul>
 
-#### If testing to update blacklists
-- Change only the blacklisted options, these being: 133 MHz (TWL) CPU Speed, Card Read DMA, and Asynch Card Read
-- To enable blacklisted options in the per-game settings, go to `sd:/_nds/TWiLightMenu/settings.ini` and set `IGNORE_BLACKLISTS` to `1`
-- If there are any issues caused when turning on these settings, please report them on the Github issues page 
+#### Jika menguji untuk perbarui daftar hitam
+- Ubah opsi yang terdaftar hitam saja, yaitu: Cepat CPU 133 MHz (TWL), DMA Bacaan Kartu, dan Bacaan Kartu Tak Selaras
+- Untuk mengaktifkan opsi terdaftar hitam di setelan tiap-permainan, buka `sd:/_nds/TWiLightMenu/settings.ini` dan atur `IGNORE_BLACKLISTS` ke `1`
+- Jika terjadi isu apa pun saat mengaktifkan pengaturan ini, mohon laporkan ke laman Github issues 

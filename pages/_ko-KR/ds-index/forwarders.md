@@ -27,13 +27,13 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 이 페이지는 당신이 [3ds.hacks.guide](https://3ds.hacks.guide)를 통해서 CFW를 설치한 것을 가정하고 있습니다.
 {:.alert .alert-warning}
 
-### Part 1: 파일 다운로드하기
+### 파트 1: 필요한 파일 가져오기
 
 만약 3DS에 이미 Universal-Updater가 설치되어 있다면, 본 파트의 3번으로 스킵하셔도 무방합니다.
 {:.alert .alert-info}
 
-1. FBI를 열고 `Remote Install`을 선택, 그 후에 `Scan QR Code`를 선택해 주세요.
-1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치해 주세요.<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. FBI를 열고 `Remote Install`에 진입합니다. 그러고 나서 `Scan QR Code`를 선택하세요
+1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치하세요<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. FBI를 끝내고, HOME Menu에서부터 Universal-Updater를 열어 주세요.
 1. NDSForwarder를 검색, 설치해 주세요.
 1. NDSForwarder의 준비가 완료되었습니다.
@@ -70,7 +70,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: NDSForwarder-DSi
-1. Reinsert your SD card into your device
+1. 귀하의 SD 카드를 기기에 다시 삽입하십시오
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card

@@ -8,7 +8,7 @@ long_title: TWiLight Menu++ 설치하기
 description: TWiLight Menu++를 설치하는 방법 (목차 페이지)
 ---
 
-TWiLight Menu++의 설치 과정은 닌텐도 DSi, 닌텐도 3DS, 닌텐도 DS 플래시 카드 (TT칩 등) 중의 어느 것을 쓰느냐에 따라 달라집니다. 당신이 쓰는 것에 대한 페이지를 선택해 주세요.
+TWiLight Menu++의 설치 과정은 닌텐도 DSi, 닌텐도 3DS, 닌텐도 DS 플래시 카드 (TT칩 등) 중의 어느 것을 쓰느냐에 따라 달라집니다. 사용하고 있는 것의 페이지를 선택해주세요.
 
 ### 3DS/2DS
 당신이 3DS나 2DS (내장 SD 카드)를 사용하고 계신다면, [3DS 방법](installing-3ds)을 따라 주세요.
@@ -25,4 +25,4 @@ TWiLight Menu++의 설치 과정은 닌텐도 DSi, 닌텐도 3DS, 닌텐도 DS �
 ### 플래시 카드
 만약 플래시 카드 (DS 모델과 상관 없이)를 사용하고 계신다면, [플래시 카드 방법](installing-flashcard)을 따라 주세요.
 
-[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![r4isdhc.com 플래시 카드](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Acekard2i 플래시 카드](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![R4i Gold 3DS Plus 플래시 카드](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

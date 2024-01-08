@@ -30,7 +30,7 @@ In some flashcard kernels, an arbitrary expiration date (more commonly known as 
 
 If the second test comes out positive, the kernel will refuse to boot. This can be tested by setting your date to the latest value possible. However, the security is weak and the results aren't cached, meaning that there are ways to work around it:
 
-If you want to use the default kernel that the flashcard manufacturers intended, the system clock can be set back in the device's System Settings application. Keep in mind, though, that this may break any game that relies on the system clock (such as Animal Crossing: Wild World).
+Si desea utilizar la parte básica de la computadora que viene con su tarjeta de memoria, puede cambiar la hora en su consola en la aplicación Configuración del Sistema. Keep in mind, though, that this may break any game that relies on the system clock (such as Animal Crossing: Wild World).
 
 However, the kernels that come with these cards are fundamentally flawed and it is preferable to outright replace them. Thankfully, 3rd party developers have made alternatives you can use:
 

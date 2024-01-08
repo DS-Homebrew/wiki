@@ -24,10 +24,10 @@ description: DS⁽ⁱ⁾ Mode Hacking Discord サーバーの情報
 - [#announcements][announcements] - Homebrewの新しい更新情報、およびサーバーに関する一般的なお知らせ
 - [#github-updates][github-updates] - DS-Homebrew プロジェクトの GitHub リポジトリへのすべての貢献とディスカッションのフィード。
 - [#subreddit-feed][subreddit-feed] - [Subreddit](https://reddit.com/r/NDSBrew)の新しい投稿のための更新。
-- [#community-meta][community-meta] - For giving feedback about the community, including the Discord server, the subreddit, and the [GitHub organization](http://github.com/DS-Homebrew)
+- [#community-meta][community-meta] - Discord サーバー、subreddit、 [GitHub organization](http://github.com/DS-Homebrew)を含むコミュニティに関するフィードバック用。
 
-**Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
+**ニンテンドーDS⁽ⁱ⁾改造**
+- [#nds-help][nds-help] - ニンテンドーDS(i)関連で何か問題がありますか？ 一般的な質問が必要ですか？ エラーメッセージ、コンソール、試したメソッド、ログなど）。 Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
 - [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
 - [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pinned messages for a list of dedicated communities
 - [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
@@ -99,11 +99,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
 
-Owner: shutterbug2000#8835
+Owner: shutterbug2000
 
-Administrators: Rocket Robz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrators: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
 
-Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943, YourKalamity#3646
+Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

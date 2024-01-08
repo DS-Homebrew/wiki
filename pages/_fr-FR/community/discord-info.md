@@ -99,11 +99,11 @@ Il existe une tonne de commandes amusantes que vous pouvez également exécuter,
 ## Le staff
 Ce sont les personnes qui gèrent le serveur. Si elles disent que quelque chose est définitif, il n'y a pas de débat possible. Ces membres sont en haut de la liste des membres. Ne demandez pas à faire partie de l'équipe, car cela diminuerait vos chances d'être accepté. Des membres seront ajoutés à l'équipe si et quand cela sera jugé nécessaire.
 
-Propriétaire : shutterbug2000#8835
+Propriétaire : shutterbug2000
 
-Administrateurs : Rocket Robz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrateurs : rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
 
-Responsables du serveur : Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943, YourKalamity#3646
+Gestionnaires du serveur : kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

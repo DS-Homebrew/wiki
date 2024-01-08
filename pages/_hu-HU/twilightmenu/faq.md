@@ -49,7 +49,7 @@ Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából 
 A kép elrejtéséhez a `theme.ini` fájlt kell szerkesztened, amely a `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin mappa]/` mappában található. Nyisd meg a fájlt egy szövegszerkesztővel, módosítsd a `RenderPhoto` sort `1` -ről `0-ra`, majd mentsd el a fájlt.
 
 #### Hogyan szerezhetek játékokat?
-Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. A kereskedelmi játékaid dumpolásához:
+Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. Ahhoz, hogy hivatalosan kiadott játékot szerezz, dump-ként kell azokat beszerezned vagy egy fizikai cartridge-ről, vagy egy másik konzolról:
 - DS-en használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a GBA játékaid dumpolásához, illetve ha van Slot-2 flashcart-od, DS játékokra. Ha csak Slot-1 flashcard-od van és szeretnél dumpolni egy DS játékot, használhatod a [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/)-t, amihez szükség van egy Wi-Fi kompatibilis DS-re és egy FTP kliensre egy független eszközön a ROM fogadásához
 - DSi-n használhatod a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t a DS játékaid és a DSiWare dumpolásához
 - 3DS-n használhatod a [GodMode9](https://github.com/d0k3/GodMode9/releases)-t a DS játékaid, DSiWare és Virtual Console címek dumpolásához

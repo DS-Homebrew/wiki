@@ -2,7 +2,7 @@
 lang: it-IT
 layout: wiki
 section: gbarunner2
-title: Dumping del BIOS GBA
+title: Dump del BIOS GBA
 description: Come estrarre il BIOS GBA dalla tua console
 tabs:
   - 
@@ -19,8 +19,8 @@ Esistono due modi distinti per raggiungere questo obiettivo, utilizzando:
 {% capture tab-3ds-sd-card %}
 ### Parte 1: Ottenere i file richiesti
 1. Scaricare [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (il file `.7z`)
-1. Scarica [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Crea una cartella chiamata `payloads` nella cartella `luma` della tua scheda SD
+1. Scaricare [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Creare una cartella chiamata `payloads` nella cartella `luma` della tua scheda Sd
 1. Copiare `open_agb_firm.firm` dal file open_agb_firm `.7z` nella cartella `/luma/payloads`
 1. Copiare `Bios_Dumper.gba` nella root della scheda SD.
 1. Inserisci la scheda SD nella tua console
@@ -30,7 +30,7 @@ Esistono due modi distinti per raggiungere questo obiettivo, utilizzando:
     - In questo modo si avvia open_agb_firm
     - Se viene caricato il Chainloader `Luma3DS`, selezionare `open_agb_firm` da questo menu
     - Se si carica in un altro modo, non è stato copiato `open_agb_firm.firm` nella cartella corretta della scheda SD.
-1. Da open_agb_firm, lanciare `Bios_Dumper.gba`
+1. Da open_agb_firm, avviare `Bios_Dumper.gba`
 1. Lo schermo lampeggierà di rosso e di verde
 1. Attendere circa cinque secondi
 1. Spegni la tua console
@@ -49,10 +49,10 @@ Dalla scheda SD, caricare `/3ds/open_agb_firm/saves/Bios_Dumper.sav` qui:
 
 {% capture tab-gba-flashcart %}
 ### Parte 1: Ottenere i file richiesti
-1. Scarica [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Scaricare [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
 1. Copia `Bios_Dumper.gba` nella root della scheda SD
 1. Inserisci la scheda SD nella tua console
-1. Reinsert your GBA flashcart into your cartridge
+1. Reinserire la flashcart del GBA nella cartuccia
 
 ### Parte 2: Bios_Dumper
 1. Avvia la flashcart, e poi avvia `Bios_Dumper.gba`

@@ -5,10 +5,10 @@ section: twilightmenu
 category: indexes
 title: Pemasangan
 long_title: Pemasangan TWiLight Menu++
-description: Cara memasang TWiLight Menu++ (halaman indeks)
+description: Cara memasang TWiLight Menu++ (laman indeks)
 ---
 
-Proses pemasangan TWiLight Menu++ tergantung pada apa yang digunakan: Nintendo DSi, Nintendo 3DS, atau flashcard Nintendo DS. Silakan pilih halaman untuk konsol yang digunakan.
+Proses pemasangan TWiLight Menu++ tergantung pada apa yang digunakan: Nintendo DSi, Nintendo 3DS, atau *flashcard* Nintendo DS. Silakan pilih laman untuk konsol yang digunakan.
 
 ### 3DS/2DS
 Jika menggunakan 3DS atau 2DS (dari kartu SD internal), ikuti [arahan untuk 3DS](installing-3ds).
@@ -22,7 +22,7 @@ Jika menggunakan DSi (dari kartu SD internal), ikuti [arahan untuk DSi](installi
 
 [![Nintendo DSi](/assets/images/consoles/dsi.png)](installing-dsi) [![Nintendo DSi XL](/assets/images/consoles/dsixl.png)](installing-dsi)
 
-### Flashcard
-Jika menggunakan flashcard (terlepas dari model DS apa yang digunakan) ikuti [arahan untuk flashcard](installing-flashcard).
+### *Flashcard*
+Jika menggunakan *flashcard* (apa pun model DS yang digunakan) ikuti [arahan untuk *flashcard*](installing-flashcard).
 
-[![Flashcard r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![Flashcard Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![Flashcard R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)
+[![<i>Flashcard</i> r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![<i>Flashcard</i> Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![<i>Flashcard</i> R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

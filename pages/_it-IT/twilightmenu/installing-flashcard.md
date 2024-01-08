@@ -15,12 +15,12 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 1. Copia il file `BOOT.NDS` nella scheda microSD della tua flashcard
 1. Copia la cartella `roms` nella scheda microSD della tua flashcard
 1. Se hai già dei dati di salvataggio, sposta i tuoi file `.sav` posizionati insieme alle tue ROM del DS, in una nuova cartella chiamata `saves`, che va anche questa nella posizione delle ROM del DS
-1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
+1. **Utenti DS Phat/Lite:** Se avviare `BOOT.NDS` causa uno schermo bianco, prova a seguire i passaggi per l'auto-avvio, e/o inserisci un DS Memory Expansion Pak e riprova
 
 ### Auto-avvio TWiLight Menu++
 1. Estrai il/i contenuto(i) di `Autoboot/(la tua flashcard)` nella scheda microSD della flashcard
    - Se non vedi la tua flashcard, salta questo passaggio
-1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+1. **Utenti DS Phat/Lite:** Vai nelle impostazioni del menu DS e attiva l'avvio automatico, in questo modo la flashcard si avvierà automaticamente all'avvio
 
 ### Per avviare giochi utilizzando il firmware della flashcard
 
@@ -30,9 +30,12 @@ Nota bene che funziona solamente se la flashcard è impostata per avviarsi autom
 Nota bene che non tutte le flashcard supportano l'avvio dei giochi in questo modo. Se i seguenti passaggi non si applicano alla tua flashcard, puoi saltare questa sezione.
 {:.alert .alert-warning}
 
+Tieni presente che perderai la possibilità di utilizzare i trucchi durante l'esecuzione di giochi in questo modo. Se vuoi mantenere la funzionalità trucchi, salta questa sezione.
+{:.alert .alert-warning}
+
 1. Estrai ciò che c'è in `Flashcart Loader/(la tua flashcard)` nella scheda microSD della flashcard
-   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+   - Nella cartella `Flashcart Loader` è presente un file README.txt che aiuta a individuare il caricatore flashcart più adatto alla propria flashcard.
+   - Se l'hai già fatto, passa al terzo passaggio. In caso contrario, segui i passaggi sotto la lista delle flashcard
 
 1. Per queste flashcard:
    - R4i-SDHC (r4i-sdhc.com)
@@ -55,4 +58,5 @@ Nota bene che non tutte le flashcard supportano l'avvio dei giochi in questo mod
 
    Installa [YSMenu di RetroGameFan](https://gbatemp.net/download/35737/).
       - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se non già presente) e la cartella`TTMenu` nella root della microSD della flashcard
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+      - Non copiare `TTMenu.dat` direttamente; questo interromperà l'avvio automatico e il soft reset di YSMenu
+1. Apri le impostazioni di TWLMenu++, e vai alla pagina `Impostazioni nds-bootstrap`, e imposta `Caricatori dei giochi` a `Kernel`, in questo modo il firmware della flashcard verrà utilizzato al posto di nds-bootstrap

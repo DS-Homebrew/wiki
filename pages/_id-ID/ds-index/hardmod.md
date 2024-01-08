@@ -11,28 +11,28 @@ tabs:
     other: macOS/Linux
 ---
 
-Mengoprek keras (hardmod) adalah ketika papan induk konsol Nintendo DSi disolder ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
+Oprek keras atau *hardmod* adalah tindakan menyolder papan induk Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
-[![Papan induk DS Original dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Papan induk DS Orisinal dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
-Untuk mengoprek keras Nintendo DSi/DSi XL (LL) dibutuhkan:
-   - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
-   - [Very fine wire](https://www.amazon.com/dp/B01MXGNTA4), 28AWG or smaller, preferably 30AWG+
+Untuk mengoprek keras Nintendo DSi/DSi XL (LL) diperlukan:
+   - [Solder bermata runcing](https://www.amazon.com/dp/B01N4571Q6)
+   - [Kawat email tipis](https://www.amazon.com/dp/B01MXGNTA4), 28AWG atau kecil lagi, bagusnya 30AWG+
    - Adaptor kartu SD ke microSD
-   - Pembaca (reader) kartu SD yang mampu membaca cip eMMC berjalan di mode single data-line. [Ini yang dikenal berfungsi](https://www.amazon.com/dp/B006T9B6R2)
+   - Pembaca kartu SD yang mampu membaca cip eMMC di mode *single data-line*. [Berikut yang berfungsi baik](https://www.amazon.com/dp/B006T9B6R2)
    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) dan [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jika di Windows
-   - A valid NAND backup of the DSi you are hardmodding
-   - To be comfortable soldering to pads that are as small as 0.5mm in diameter
+   - Cadangan NAND absah dari DSi yang sedang dioprek
+   - Kemampuan menyolder di bantalan PCB sekecil 0.5mm
 
-#### Pin-out DSi sisi A
-[![Pin-out DSi sisi A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
-#### Pin-out DSi sisi B
-[![Pin-out DSi sisi B](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
-#### Pin-out DSi XL sisi B
-[![Pin-out DSi XL sisi B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
+#### Pin solder DSi sisi A
+[![Pin solder DSi sisi A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
+#### Pin solder DSi sisi B
+[![Pin solder DSi sisi B](/assets/images/dsi-hardmod/side_b.png)](/assets/images/dsi-hardmod/side_b.png)
+#### Pin solder DSi XL sisi B
+[![Pin solder DSi XL sisi B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - Diharuskan mampu menyolder titik pada papan induk ke adaptor kartu microSD
    - CMD ke pin 2
@@ -44,80 +44,80 @@ Untuk mengoprek keras Nintendo DSi/DSi XL (LL) dibutuhkan:
 [![Contoh microSD](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
 - Sisipkan adaptor kartu microSD ke komputer
-   - **PERINGATAN** - Jika Windows minta memformat: **JANGAN diformat** - nanti terjadi kerusakan TAK DAPAT DIPERBAIKI
+   - **PERINGATAN** - Jika Windows meminta format: **JANGAN format** - nanti terjadi kerusakan tak bisa diperbaiki
 
-#### Membuang footer no$gba
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. Ini dapat dilakukan dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+#### Membuang *footer* no$gba
+Pertama-tama harus menghapus *footer* NOCASH dari cadangan yang akan di-*flash* ke DSi. Caranya dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Unduh versi aplikasi untuk sistem operasi yang kamu gunakan
-1. Run the script, selecting the NAND backup you wish to flash to your DSi
-1. Switch to NAND mode with the button to the left of the file path
-1. Click `Start` to create the NAND backup without the no$gba footer
+1. Unduh versi aplikasi untuk sistem operasi yang digunakan
+1. Jalankan naskah, pilih cadangan NAND yang ingin di-*flash* ke DSi
+1. Ganti ke mode NAND dengan tombol di sebelah kiri jalur berkas
+1. Pencet `Start` untuk mencadang NAND tanpa *footer* no$gba
 
-- Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
-   - Use this file as the NAND image you flash onto the DSi
+- Setelah naskahnya selesai, akan ada berkas dengan nama panjang berakhiran `-no-footer.bin` di folder tempat membuka terminal
+   - Berkas citra NAND ini digunakan untuk di-*flash* ke DSi
 
 {% capture tab-windows %}
 1. Buka Win32DiskImager
-1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
-1. Choose the device that is the DSi and click read
-1. Once it is done, click the folder icon, change the name to `NAND_1.bin` and read again
-1. Open HxD and drag both files into the editor. Go to the top bar, click "Analysis", click "File compare" from the drop down menu, then click "Compare".
-1. Choose to compare both files then click OK when done
-   - If it says "The chosen files are identical.", you are good to go to the next section
-   - If it doesn't say that, and both NANDs aren't around 240 MB, dump NAND_1/NAND_0 again
-1. Open Win32DiskImager, click the folder icon and choose your existing NAND backup you created before
-1. Flash it with the `Write` button
-1. Cabut adaptor kartu SD dan coba hidupkan konsol DSi
+1. Pencet ikon folder dan telusur ke desktop. Pada kotak teks, tulis `NAND_0.bin`. Untuk jenisnya, pilih `All types *.*`
+1. Pilih perangkat yang DSi dan pencet `Read`
+1. Setelah selesai, pencet ikon folder, ubah nama menjadi `NAND_1.bin` dan pencet `Read` lagi
+1. Buka HxD dan seret keduanya ke penyunting. Di bilah atas, pencet "Analysis", pencet "File compare" dari menu tarik-turun, lalu pencet "Compare".
+1. Pilih bandingkan kedua berkas, lalu pencet OK jika sudah
+   - Jika muncul "The chosen files are identical.", berarti boleh ke bagian berikutnya
+   - Jika tidak begitu, dan kedua NAND tidak sekitar 240 MB, buat *dump* NAND_1/NAND_0 lagi
+1. Buka Win32DiskImager, pencet ikon folder dan pilih cadangan NAND yang telah dibuat sebelumnya
+1. *Flash*-kan dengan tombol `Write`
+1. Cabut adaptor kartu SD dan coba nyalakan konsol DSi
 {% endcapture tab-windows %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 
 {% capture tab-other %}
-1. Work out where the SD card is mounted
+1. Cari tahu kartu SD di-*mount* di mana
    - Linux:
       1. Cabut adaptor kartu SD
-      1. Run `lsblk` in a terminal
+      1. Jalankan `lsblk` di terminal
       1. Colok adaptor kartu SD
-      1. Run `lsblk` again
-      1. This time a new device should appear
-         - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+      1. Jalankan `lsblk` lagi
+      1. Sekarang akan muncul perangkat baru
+         - Mungkin tertulis `/dev/sdb`, jangan lupa catat apa namanya di *komputer Anda*
 
    - macOS:
       1. Cabut adaptor kartu SD
-      1. Run `df` in a terminal
+      1. Jalankan `df` di terminal
       1. Colok adaptor kartu SD
-      1. Run `df` again
-      1. A new device should appear in the list
-         - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+      1. Jalankan `df` lagi
+      1. Di daftar akan muncul perangkat baru
+         - Mungkin tertulis `/dev/disk1s1`, jangan lupa catat apa namanya di *komputer Anda*
 
-1. Dump the NAND
-   - Run the following command in a terminal:
-      - `cat {device-name} > nand0.bin`
-      - Replace `{device-name}` with the SD card mount location
-      - E.g `cat /dev/sdb > nand0.bin`
-      - Then run `cat {device-name} > nand1.bin`
+1. Menyalin NAND
+   - Jalankan perintah berikut di terminal:
+      - `cat {nama-perangkat} > nand0.bin`
+      - Ganti `{nama-perangkat}` dengan letak *mount* kartu SD
+      - Misalnya `cat /dev/sdb > nand0.bin`
+      - Lalu jalankan `cat {nama-perangkat} > nand1.bin`
 
 
-1. Compare NAND dumps
-   1. Run the following command:
+1. Membandingkan *dump* NAND
+   1. Jalankan perintah berikut:
       - Linux: `md5sum nand0.bin nand1.bin`
       - macOS: `md5 -r nand0.bin nand1.bin`
-   1. Check that the hash generated matches each other
-   1. If not, redump the NAND, adjusting the wiring if necessary
-   1. Keep on redumping the NAND until the hashes are identical
+   1. Periksa apakah hasil *hash* keduanya cocok
+   1. Jika tidak, *dump* ulang NAND, kabelnya rapikan jika perlu
+   1. Teruskan membuat *dump* NAND sampai *hash*-nya identik
 
-1. Flash NAND
-   1. Locate the NAND backup you created before on the console
+1. Mem-*flash* NAND
+   1. Cari letak cadangan NAND yang tadi dibuat di konsol
    1. Jalankan perintah berikut:
-      - `cat {existing-nand-backup} > {device-name}`
-      - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
-      - Replace `{device-name}` with the mount point of the SD card
+      - `cat {cadangan-nand} > {nama-perangkat}`
+      - Ganti `{cadangan-nand}` dengan letak dan nama cadangan NAND lama Anda
+      - Ganti `{nama-perangkat}` dengan letak titik *mount* kartu SD
 
-Sesudah itu, kamu boleh mencabut adaptor kartu SD dan menyalakan konsol DSi. Jika semua lancar, DSi seharusnya kembali dimulai nyala ke keadaan seperti saat cadangannya dibuat!
+Sesudah itu, adaptor kartu SD boleh dicabut dan coba nyalakan konsol DSi. Jika semua lancar, DSi seharusnya menyala ke keadaan semula seperti saat cadangan dibuat!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 
-### Flashing the NAND backup
+### Mem-*flash* cadangan NAND
 {% assign tabs = tab-windows | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}

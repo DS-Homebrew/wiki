@@ -99,11 +99,11 @@ Hay un monón más de comandos divertidos que puedes usar, pero por favor, úsal
 ## El Personal del Servidor
 Estas son las personas que mantienen el servidor. Si dicen algo, es definitivo, y no hay lugar para debate. Estos miembros están anclados en la lista de miembros. No solicites formar parte del personal, así solo disminuirás las posibilidades de hacerlo. Se añadirán miembros al personal solo si y cuando se considere oportuno.
 
-Dueño: shutterbug2000#8835
+Owner: shutterbug2000
 
-Administradores: Rocket Robz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrators: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
 
-Mantenedores del Servidor: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943, YourKalamity#3646
+Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

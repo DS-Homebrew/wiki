@@ -3,11 +3,11 @@ lang: zh-CN
 layout: wiki
 section: ds-index
 category: reference
-title: Special Games
-description: DS(i) Games that have special properties
+title: 特殊游戏
+description: 具有特殊属性的 DS(i) 游戏
 ---
 
-### DS games available as DSiWare
+### 作为 DSiWare 提供的 DS 游戏
 - 100 Classic Books
    - DSiWare version called "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
    - Only 20 books included
@@ -118,13 +118,13 @@ description: DS(i) Games that have special properties
    - Multiplayer removed
    - Icon is animated
 
-Supports Wi-Fi (WPA 1/2 included):
+支持 Wi-Fi（包括 WPA 1/2）：
 - Bomberman Blitz
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 - Sujin Taisen: Number Battles
 - Tetris Party Live
 
-### DSiWare compiled as DSi-Enhanced ROMs
+### 编译为 DSi-Enhanced ROM 的 DSiWare
 - 1st Class Poker & BlackJack
      - Uses cloneboot for Multiplayer
 - Base 10 (Art Style)
@@ -154,7 +154,7 @@ Supports Wi-Fi (WPA 1/2 included):
 - Pop Island: Paperfield
      - Has a feature to send a game demo to any DS family console
 
-### DSiWare moved from an originally planned DS/DS lite release
+### 由原计划的 DS/DS lite 版本改为 DSiWare
 - Flipper
      - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
 - Go! Go! Island Rescue! (unconfirmed)
@@ -163,7 +163,7 @@ Supports Wi-Fi (WPA 1/2 included):
 - Go! Go! Kokopolo
      - First announced in October 2008 as a title under development for the Nintendo DS, in a series of Developers Diaries in the UK video game magazine NGamer. [See page](http://n-europe.com/news.php?nid=12428)
 
-### Games that got SDK upgrades
+### 获得 SDK 升级的游戏
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 in Japan (as DSiWare)
 - Drawn to Life: The Next Chapter: SDK4 -> SDK5 (v1.1)
 - Giana Sisters DS: SDK4 -> SDK5 in USA
@@ -180,7 +180,7 @@ Supports Wi-Fi (WPA 1/2 included):
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea
 - WarioWare: Touched: SDK2 -> SDK5 (as DSiWare)
 
-### DSi-Enhanced games that don't use overlays
+### 不使用覆盖层的 DSi-Enhanced 游戏
 Total: 39, some may be missing
 - 2 in 1 - Music for Kids + Englisch Macht Spass - Eine Reise nach London!
 - Are You Smarter than a 5th Grader: Back to School
@@ -222,7 +222,7 @@ Total: 39, some may be missing
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### DSiWare games with backup code
+### 带备份代码的 DSiWare 游戏
 These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
 
 - Cake Ninja
@@ -240,7 +240,7 @@ These would write save data to the cartridge save chip, if they happen to be run
 - Make Up & Style
    - Unused, so hacking is required to activate the code
 
-### Games that can connect with GBA titles
+### 可与 GBA 游戏连接的游戏
 Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
 
 - Advance Wars: Dual Strike
@@ -282,9 +282,9 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Disney's Kim Possible: Revenge of Monkey Fist
    - Disney's Kim Possible 2: Drakken's Demise
    - Disney's Kim Possible 3: Team Possible
-- Kirby: Canvas Curse
-   - Kirby: Nightmare in Dream Land
-   - Kirby and the Amazing Mirror
+- 触摸！卡比
+   - 星之卡比 梦之泉豪华版
+   - 星之卡比 镜之大迷宫
 - Knights in the Nightmare
    - Yggdra Union: We'll Never Fight Alone
 - Lunar Knights
@@ -317,23 +317,23 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Mega Man Zero 3
    - Mega Man Zero 4
    - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
-- Phoenix Wright: Ace Attorney
-   - Gyakuten Saiban
-- Phoenix Wright: Justice for All
-   - Gyakuten Saiban 2
-- Phoenix Wright: Trials and Tribulations
-   - Gyakuten Saiban 3
-- Pokémon Dash
-   - Pokémon Ruby/Sapphire
-   - Pokémon FireRed/LeafGreen
-   - Pokémon Emerald
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
-   - Pokémon Ruby/Sapphire
-   - Pokémon FireRed/LeafGreen
-   - Pokémon Emerald
-   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
-- Pokémon Mystery Dungeon: Blue Rescue Team
-   - Pokémon Mystery Dungeon: Red Rescue Team
+- 逆转裁判 复苏的逆转
+   - 逆转裁判（GBA）
+- 逆转裁判 2
+   - 逆转裁判 2（GBA）
+- 逆转裁判 3
+   - 逆转裁判 3（GBA）
+- 宝可梦冲刺赛
+   - 宝可梦 红宝石／蓝宝石
+   - 宝可梦 火红／叶绿
+   - 宝可梦 绿宝石
+- 宝可梦 钻石／珍珠／白金／心金／魂银
+   - 宝可梦 红宝石／蓝宝石
+   - 宝可梦 火红／叶绿
+   - 宝可梦 绿宝石
+   - （使用 [pkmn-chest](https://universal-team.net/projects/pkmn-chest) 或 [PKSM](https://flagbrew.org/projects/PKSM) 转移/添加宝可梦）
+- 宝可梦不可思议迷宫 青之救助队
+   - 宝可梦不可思议迷宫 赤之救助队
 - Shrek Super Slam
    - Shrek Super Slam
 - Spider-Man 2
@@ -363,14 +363,14 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Sonic Battle
 - The Sims 2 (DS)
    - The Sims 2 (GBA)
-- WarioWare: Touched!
-   - WarioWare: Twisted!
-- Yoshi Touch & Go
-   - Yoshi's Island: Super Mario Advance 3
+- 摸摸瓦力欧制造
+   - 转转瓦力欧制造
+- 摸摸耀西 云中漫步
+   - 超级马力欧 Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour
    - Yu-Gi-Oh! GX Duel Academy
 
-### Games that use GBA Option Paks
+### 使用 GBA Option Pak 的游戏
 - Memory Expansion Pak
    - Nintendo DS Browser
 - Motion Pack
@@ -405,14 +405,14 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Space Invaders Extreme
    - Star Fox Command
    - Star Trek: Tactical Assault
-   - Super Princess Peach
+   - 超级碧姬公主
    - Tomb Raider: Underworld
-   - Wario: Master of Disguise
+   - 怪盗瓦力欧七面人
    - WWE SmackDown vs. Raw 2008
 
-### Games with Wii connectivity
-- Animal Crossing: Wild World
-    - Animal Crossing: City Folk
+### 连接 Wii 的游戏
+- 欢迎光临！动物森友会
+    - 去城市吧！动物森友会
 - Band Hero
     - Guitar Hero
 - Batman: The Brave and the Bold (DS)
@@ -431,38 +431,38 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
     - My Word Coach (Wii)
 - Odekake! Earth Seeker (DSiWare)
     - Earth Seeker (Wii)
-- Pokémon Diamond/Pearl
-    - My Pokémon Ranch
-- Pokémon Platinum
-    - My Pokémon Ranch (Japan Only Update)
-- Pokémon Diamond/Pearl/Platinum/HeartGold/SoulSilver
-    - Pokémon Battle Revolution
+- 宝可梦 钻石／珍珠
+    - 大家的宝可梦牧场
+- 宝可梦 白金
+    - 大家的宝可梦牧场（仅日本更新）
+- 宝可梦 钻石／珍珠／白金／心金／魂银
+    - 宝可梦对战革命
 - Personal Trainer: Walking
     - Mii Channel
 - Ultimate Band
     - Ultimate Band (Wii)
-- WarioWare D.I.Y.
-    - WarioWare D.I.Y. Showcase
+- 老子制造
+    - 老子制造 Showcase
 
-### Games with IR Game Cards
-- Pokémon Heartgold/Soulsilver
-   - For connecting to Pokéwalker pedometer
-- Pokémon Black/White/Black 2/White 2
-   - For trading/battling/feeling check using the C-Gear, Key transfers
+### 使用红外游戏卡的游戏
+- 宝可梦 心金／魂银
+   - 用于连接宝可计步器
+- 宝可梦 黑／白／黑 2／白 2
+   - 使用 C 装置进行交换/对战/感情测试，钥匙装置
 - Personal Trainer: Walking
    - Has twin IR based pedometers
-   - Not compatible with Pokémon ROMs
+   - 与宝可梦 ROM 不兼容
 - Active Health with Carol Vorderman
    - Similar pedometer to Personal Trainer: Walking, but only one
-   - Not compatible with Pokémon ROMs
+   - 与宝可梦 ROM 不兼容
 
-### Other (Special Games that do not fall into an above category)
-- Learn with Pokémon: Typing Adventures
-   - Cartridge has special bluetooth chip for connecting to the keyboard
-- ElectroPlankton
-   - Cartridge has no save RAM
-- DS Download Station
-   - Series of cartridges used to distribute demo games
+### 其他（不属于上述类别的特殊游戏）
+- 对战与收服！宝可梦打字练习 DS
+   - 卡带具有特殊的蓝牙芯片，用于连接键盘
+- 电子浮游生物
+   - 卡带没有存档 RAM
+- DS 下载站
+   - 用于分发游戏试玩版的系列卡带
 - Sonic Classics Collection
    - Genesis emulation structure has been converted into an emulator
 - Nitro Development Cart

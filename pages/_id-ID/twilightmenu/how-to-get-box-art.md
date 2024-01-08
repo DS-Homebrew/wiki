@@ -3,54 +3,17 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: other
-title: How to Get Box Art
-description: How to get box art/game covers in TWiLight Menu++
-tabs:
-  - 
-    windows: Windows
-    other: macOS/Linux
-    manual: Manual
+title: Cara Menaruh <i>Box Art</i>
+description: Cara menaruh <i>box art</i>/gambar sampul di TWiLight Menu++
 ---
 
-{% capture tab-windows %}
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-windows = tab-windows | split: "////////" %}
+1. Unduh satuan *box art* png dari [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Ekstrak berkas .png ke `sd:/_nds/TWiLightMenu/boxart`
+1. Pastikan *box art* diaktifkan di pengaturan TWiLight Menu++
 
-{% capture tab-macos_linux %}
-1. Download the latest version of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
-1. Type the path to your SD card after `SdRoot=`, then save the file
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI`
-1. Say `Yes` if it shows your SD path correctly
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
+**Cara menambah *box art*:** Taruh berkasnya di `sd:/_nds/TWiLightMenu/boxart`.
+- Boleh sesuai TID permainan (contoh: `ASME.png`), atau nama berkas (contoh: `SM64DS.nds.png`)
+- Harus berformat `.png`, disarankan berukuran 128x115 dan maksimum 208x143
+- Jika setelan *Box art* di **TW**i**L**ight Menu++ diatur ke `di-<i>cache</i>`, ukuran gambar harus sudah 44 KiB ke bawah. Gunakan alat [tinypng](https://tinypng.com/) untuk memampat gambar ke ukuran yang pas
 
-{% capture tab-manual %}
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
-1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-manual = tab-manual | split: "////////" %}
-
-{% assign tabs = tab-windows | concat: tab-macos_linux | concat: tab-manual %}
-{% include tabs.html index=0 tabs=tabs %}
-
-**To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`.
-- Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`)
-- Must be in `.png` format, with the recommended size of 128x115 and maximum of 208x143
-- If your **TW**i**L**ight Menu++ configuration has Box Art viewing set to `Cached`, the image size must be 44 KiB or below. You can use a tool like [tinypng](https://tinypng.com/) to compress the images to an acceptable size
-
-Individual box art can also be downloaded from GameTDB, under the **S Covers (png)** category.
+*Box art* juga bisa diunduh satu-satu dari GameTDB, di bawah kategori **S Covers (png)**.

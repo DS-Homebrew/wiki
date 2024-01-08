@@ -5,48 +5,11 @@ section: twilightmenu
 category: other
 title: 박스 아트 가져오기
 description: How to get box art/game covers in TWiLight Menu++
-tabs:
-  - 
-    windows: Windows
-    other: macOS/Linux
-    manual: 수동 설치
 ---
 
-{% capture tab-windows %}
-1. [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)의 최신 버전을 다운로드해 주세요.
-1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
-1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
-1. Change the size, border, etc options to your liking
-1. Click `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-windows = tab-windows | split: "////////" %}
-
-{% capture tab-macos_linux %}
-1. [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)의 최신 버전을 다운로드해 주세요.
-1. Extract the `.zip`
-1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
-1. Type the path to your SD card after `SdRoot=`, then save the file
-   - On macOS this is `/Volumes/` then the name of your SD card
-1. Open the terminal
-1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
-1. Run `chmod +x TwilightBoxart.CLI`
-1. Run `./TwilightBoxart.CLI`
-1. Say `Yes` if it shows your SD path correctly
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
-
-{% capture tab-manual %}
 1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
 1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
 1. Make sure box art is set to be shown in TWiLight Menu++ settings
-{% endcapture %}
-{% assign tab-manual = tab-manual | split: "////////" %}
-
-{% assign tabs = tab-windows | concat: tab-macos_linux | concat: tab-manual %}
-{% include tabs.html index=0 tabs=tabs %}
 
 **To add your own box art:** Place them in `sd:/_nds/TWiLightMenu/boxart`.
 - Can either have the game's TID (ex. `ASME.png`), or the filename (ex. `SM64DS.nds.png`)

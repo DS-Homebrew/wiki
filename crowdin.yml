@@ -1,4 +1,4 @@
-project_id_env: DS_HOMEBREW_WIKI_CROWDIN_ID
+project_id: 433934
 api_token_env: CROWDIN_TOKEN
 preserve_hierarchy: true
 

@@ -18,7 +18,7 @@ Si vous effectuez une mise à jour à partir d'une version antérieure à la v6.
 Si vous effectuez une mise à jour à partir d'une version antérieure à la v21.0.0, veuillez déplacer vos fichiers `.pub` et/ou `.prv` pour les titres DSiWare vers un nouveau dossier appelé `saves`, le dossier `saves` se trouvant au même endroit que les ROMs DSiWare.
 {:.alert .alert-info}
 
-Si vous effectuez une mise à jour à partir d'une version antérieure à la v25.7.0, il est recommandé de supprimer le titre `TWiLight Menu++ Game Booter` de la liste des titres, à l'aide de FBI
+Si vous effectuez une mise à jour à partir d'une version antérieure à la v25.7.0, il est recommandé de supprimer le titre `TWiLight Menu++ Game Booter` de la liste des titres, à l'aide de FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}

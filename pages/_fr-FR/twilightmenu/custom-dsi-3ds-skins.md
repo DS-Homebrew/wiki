@@ -206,12 +206,51 @@ Vous pouvez configurer diverses options sur la façon dont le thème est dessin�
 | `FontPaletteUsername2`     | La couleur de remplacement de la police pour le nom d'utilisateur                                                                                                         | 0xDEF7           | 0xDEF7           |
 | `FontPaletteUsername3`     |                                                                                                                                                                           | 0xC631           | 0xC631           |
 | `FontPaletteUsername4`     |                                                                                                                                                                           | 0xA108           | 0xA108           |
-| `StartTextUserPalette`     | Utilisation ou non de la couleur du profil DS pour la palette du texte de démarrage                                                                                       |                  | 1                |
-| `StartBorderUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette du texte de démarrage                                                                                       |                  | 1                |
+| `BipsUserPalette`          | Utilisation ou non de la couleur du profil DS pour la palette des points de la barre de défilement                                                                        |                  | 0                |
+| `BoxUserPalette`           | Utilisation ou non de la couleur du profil DS pour la palette des cases contenant les icônes de jeu dans le thème DSi                                                     |                  | 0                |
+| `BoxEmptyUserPalette`      | Utilisation ou non de la couleur du profil DS pour la palette des cases vides dans le thème 3DS                                                                           | 0                |                  |
+| `BoxFullUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette des cases contenant les icônes de jeu dans le thème 3DS                                                     | 0                |                  |
+| `BraceUserPalette`         | Utilisation ou non de la couleur du profil DS pour la palette de l'accolade au début et à la fin de la liste de jeu                                                       |                  | 0                |
+| `BubbleUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de la pointe de la bulle de titre                                                                           | 0                | 0                |
 | `ButtonArrowUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette des boutons fléchés en bas de l'écran                                                                       |                  | 1                |
-| `MovingArrowUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette de la flèche affichée lors du déplacement des icônes                                                        |                  | 1                |
+| `CornerButtonUserPalette`  | Utilisation ou non de la couleur du profil DS pour la palette des icônes du menu DSi et des paramètres dans le menu SELECT                                                |                  | 0                |
+| `CursorUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette du curseur                                                                                                  | 0                |                  |
+| `DialogBoxUserPalette`     | Utilisation ou non de la couleur du profil DS pour la palette de la boîte de dialogue                                                                                     | 0                | 1                |
+| `FolderUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette des dossiers                                                                                                | 0                | 0                |
 | `LaunchDotsUserPalette`    | Utilisation ou non de la couleur du profil DS pour la palette des points de lancement                                                                                     |                  | 1                |
-| `DialogBoxUserPalette`     | Utilisation ou non de la couleur du profil DS pour la palette de la boîte de dialogue                                                                                     |                  | 1                |
+| `MovingArrowUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette de la flèche affichée lors du déplacement des icônes                                                        |                  | 1                |
+| `ProgressUserPalette`      | Utilisation ou non de la couleur du profil DS pour la palette de l'animation rotative de la progression du chargement                                                     | 1                | 1                |
+| `ScrollWindowUserPalette`  | Utilisation ou non de la couleur du profil DS pour la palette de l'arrière-plan de la fenêtre de défilement sur la barre de défilement                                    |                  | 0                |
+| `SmallCartUserPalette`     | Utilisation ou non de la couleur du profil DS pour la palette des icônes de cartouche                                                                                     | 0                | 0                |
+| `StartBorderUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette de la bordure de démarrage                                                                                  |                  | 1                |
+| `StartTextUserPalette`     | Utilisation ou non de la couleur du profil DS pour la palette du texte de démarrage                                                                                       |                  | 1                |
+| `WirelessIconsUserPalette` | Utilisation ou non de la couleur du profil DS pour la palette des icônes de la connexion sans fil                                                                         | 0                | 0                |
+| `IconA26UserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Atari 2600                                                                                       | 0                | 0                |
+| `IconCOLUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône ColecoVision                                                                                     | 0                | 0                |
+| `IconGBUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Game Boy                                                                                         | 0                | 0                |
+| `IconGBAUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Game Boy Advance                                                                                 | 0                | 0                |
+| `IconGBAModeUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette de l'icône du mode GBA natif                                                                                | 0                | 0                |
+| `IconGGUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Game Gear                                                                                        | 0                | 0                |
+| `IconIMGUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône d'image                                                                                          | 0                | 0                |
+| `IconINTUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Intellivision                                                                                    | 0                | 0                |
+| `IconM5UserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Sord M5                                                                                          | 0                | 0                |
+| `IconManualUserPalette`    | Utilisation ou non de la couleur du profil DS pour la palette de l'icône du manuel                                                                                        | 0                | 0                |
+| `IconMDUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Mega Drive                                                                                       | 0                | 0                |
+| `IconNESUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône NES/Famicom                                                                                      | 0                | 0                |
+| `IconNGPUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Neo Geo Pocket                                                                                   | 0                | 0                |
+| `IconPCEUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône PC Engine                                                                                        | 0                | 0                |
+| `IconPLGUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône de plugin DSTWO                                                                                  | 0                | 0                |
+| `IconSettingsUserPalette`  | Utilisation ou non de la couleur du profil DS pour la palette de l'icône des paramètres DSi                                                                               | 0                | 0                |
+| `IconSGUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône SG-1000                                                                                          | 0                | 0                |
+| `IconSMSUserPalette`       | Utilisation ou non de la couleur du profil DS pour la palette de l'icône Master System                                                                                    | 0                | 0                |
+| `IconSNESUserPalette`      | Utilisation ou non de la couleur du profil DS pour la palette de l'icône SNES                                                                                             | 0                | 0                |
+| `IconUnknownUserPalette`   | Utilisation ou non de la couleur du profil DS pour la palette de l'icône inconnue (manquante)                                                                             | 0                | 0                |
+| `IconWSUserPalette`        | Utilisation ou non de la couleur du profil DS pour la palette de l'icône WonderSwan                                                                                       | 0                | 0                |
+| `UsernameUserPalette`      | Utilisation ou non de la couleur du profil DS pour la palette du nom d'utilisateur                                                                                        | 1                | 1                |
+| `ProgressBarUserPalette`   | Utilisation ou non de la couleur du profil DS comme couleur de la barre de progression                                                                                    | 1                | 1                |
+| `ProgressBarColor`         | La couleur de la barre de progression si `ProgressBarUserPalette` est désactivé                                                                                           | 0x7C00           | 0x7C00           |
+| `UseAlphaBlend`            | Mélange ou non des couleurs du texte du sur l'écran supérieur (date/heure et nom d'utilisateur) avec les couleurs de l'arrière-plan                                       | 1                | 1                |
+| `DarkLoading`              | Possibilité ou non d'effectuer un fondu au noir plutôt qu'au blanc lors des écrans de chargement                                                                          | 0                | 0                |
 | `RenderPhoto`              | Afficher ou non une photo sur l'écran supérieur                                                                                                                           | 0                | 1                |
 | `RotatingCubesRenderY`     | La position Y sur l'écran supérieur pour afficher les cubes en rotation                                                                                                   | 78               |                  |
 | `PlayStartupJingle`        | Utilisation ou non du son de démarrage avant la musique de fond principale. Consultez la page [Effets sonores personnalisés](custom-dsi-3ds-sfx) pour plus d'informations | 1                | 0                |
@@ -225,6 +264,31 @@ Les thèmes DSi et 3DS prennent également en charge la musique personnalisée. 
 
 ## Polices personnalisées
 Vous pouvez placer des [polices personnalisées](custom-fonts) dans le dossier `font` pour l'utiliser dans le skin. Vous pouvez également ajouter des polices de remplacement pour la date et l'heure en utilisant `date_time.nftr`, et le nom d'utilisateur de la console avec `username.nftr`.
+
+## Palettes personnalisées
+Pour les textures palettisées (dossier `grf` ), vous pouvez éventuellement ajouter des sets de palettes prioritaires qui sont utilisés lorsque le paramètre `UserPalette` correspondant est activé. Les fichiers de sets de palettes peuvent être créés à l'aide de [cet éditeur](https://skinpaltool.dvdo.dev/). Lorsque vous utilisez l'éditeur, importez l'image avec laquelle vous souhaitez travailler, puis créez une palette pour chacune des 16 couleurs du profil DS. Vous pouvez utiliser ce [fichier de palette d'exemple](/assets/files/example-palette.bin) comme point de départ.
+
+Les 16 lignes de la collection de palettes correspondent à chaque couleur du profil et doivent être placées dans l'ordre suivant :
+1. Gris-Bleu
+2. Marron
+3. Rouge
+4. Rose
+5. Orange
+6. Jaune
+7. Vert citron
+8. Vert
+9. Vert foncé
+10. Turquoise
+11. Cyan/Bleu clair
+12. Bleu
+13. Bleu foncé/Indigo
+14. Violet/Pourpre foncé
+15. Violet
+16. Magenta
+
+Une fois que vous avez créé un fichier de palette, placez-le dans le dossier `palettes`. Le nom du fichier de la palette doit correspondre au nom de l'image, mais avec une extension `.bin` (par exemple, `start_border.bin` sera appliqué à `start_border.bmp`).
+
+Vous pouvez également placer un fichier de palette `username.bin` pour changer les palettes de la police du nom d'utilisateur. Veillez à régler l'éditeur de palette sur `Font Mode` lorsque vous créez ce fichier.
 
 ## Partie 3 : Ajout dans TWiLight Menu++
 Une fois que vous avez édité quelques graphismes et que vous souhaitez tester votre skin, il suffit de copier votre dossier skin (le dossier contenant les dossiers `background`, `battery`, etc.) vers `sd :/_nds/TWiLightMenu/3dsmenu/themes/` ou `sd:/_nds/TWiLightMenu/dsimenu/themes/` pour les skins des thèmes 3DS et DSi respectivement.

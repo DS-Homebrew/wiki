@@ -18,7 +18,7 @@ Se stai aggiornando da una versione più vecchia della v6.8.3, sposta i tuoi fil
 Se stai aggiornando da una versione più vecchia della v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazzala nella stessa directory delle ROM DSiWare.
 {:.alert .alert-info}
 
-If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+Se si esegue l'aggiornamento da una versione precedente alla v25.7.0, si consiglia di eliminare il titolo `TWiLight Menu++ Game Booter` dall'elenco dei titoli, utilizzando FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
@@ -36,8 +36,8 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 1. Copia la cartella `_nds` nella root della tua scheda SD, sostituendo quella già presente
    - Se usi macOS, assicurati di **Copiare** e `Unire<1/>, non <code>Sostituire`
 1. Copia il file `BOOT.NDS` nella root della tua scheda SD, sostituendo il file già presente
-1. Copy the `.cia` file to your SD card root, replacing any existing files
-1. On your 3DS, install the CIA with FBI
+1. Copiare il file `.cia` nella root della scheda SD, sostituendo i file esistenti
+1. Sul tuo 3DS, installa il file CIA con FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

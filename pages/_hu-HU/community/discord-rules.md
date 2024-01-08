@@ -39,16 +39,16 @@ Ez az oldal részletesebb szabályokat tartalmaz, mint ami az [#info-and-rules](
 
 ## Következmények
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+The consequences of breaking these rules are a warning, mute, kick or ban. Az egyes következmények természetesen az esettől függnek.
+- A legtöbb felhasználó 4 figyelmeztetést kap kitiltás előtt
+   - Ezekbe a figyelmeztetésekbe bele kell érteni, a !warn parancs használatát, a némítást és a szóbeli figyelmeztetéseket
+- A szabálysértés céljával történő csatlakozás kitiltásodhoz vezet
 
 ## Jelentés
 
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Ha valaki megszegi a szabályokat, és egy moderátor még nem foglalkozik az üggyel, kérjük, pingelj meg egy online moderátort
+- Ha egy incidens DM-ezésre kerül, bizonyíték kell róla, például, hogy mások is jelentsék, a hatása a szerverre vagy valami hasonló
+- Azonban ha jelented, takard ki a linkeket; ne add meg a közvetlen üzenet reklámozónak a lehetőséget, hogy nagyobb nyilvánosságot kapjon annál, mint amit a közvetlen üzenetével mindenkinek elért
 
 
-Last updated: 2022-06-28
+Utolsó frissítés: 2022-06-28

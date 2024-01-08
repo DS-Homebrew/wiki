@@ -30,6 +30,9 @@ Veuillez noter que cela ne fonctionne que si votre linker est configuré pour un
 Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de cette manière. Si les étapes ci-dessous ne s'appliquent pas à votre linker, vous pouvez sauter cette section.
 {:.alert .alert-warning}
 
+Veuillez noter que vous perdrez la possibilité d'utiliser des codes de triche lorsque vous exécuterez des jeux de cette manière. Si vous souhaitez conserver la fonctionnalité des codes de triche, veuillez sauter cette section.
+{:.alert .alert-warning}
+
 1. Extrayez ce qui est dans `Flashcart Loader/(votre linker)` à la racine de la carte microSD
    - Un fichier README.txt est présent dans le dossier `Flashcart Loader`, pour aider à trouver quel lanceur de linker est approprié pour votre linker.
    - Si vous l'avez fait, passez à l'étape 3. Si ce n'est pas le cas, suivez les étapes de la liste de linkers ci-dessous
@@ -55,4 +58,5 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
 
    Installez le [YSMenu de RetroGameFan](https://gbatemp.net/download/35737/).
       - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
+      - Ne copiez pas directement `TTMenu.dat` ; cela casserait le démarrage automatique et la réinitialisation logicielle de YSMenu
 1. Ouvrez les paramètres de TWLMenu++, passez à la page `Paramètres de nds-bootstrap`, et définissez `Lanceur de jeu` à `Kernel` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap

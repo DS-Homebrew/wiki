@@ -19,14 +19,14 @@ These do not apply to homebrew.
    - Screenshot
       - <kbd>Up</kbd>/<kbd>Down</kbd>/<kbd>Left</kbd>/<kbd>Right</kbd>: Change VRAM bank
       - <kbd class="face">A</kbd>: Save screenshot
-      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">B</kbd>: 게임 내 메뉴로 돌아가기
    - RAM Viewer
       - <kbd>Up</kbd>/<kbd>Down</kbd>: Scroll
       - <kbd>Left</kbd>/<kbd>Right</kbd>: Fast scroll
       - <kbd class="r">R</kbd> + <kbd>Down</kbd>/<kbd>Up</kbd>: Faster scroll
       - <kbd class="r">R</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Fastest scroll
       - <kbd class="face">A</kbd>: Enter RAM Editor
-      - <kbd class="face">B</kbd>: Return to in-game menu
+      - <kbd class="face">B</kbd>: 게임 내 메뉴로 돌아가기
       - <kbd class="face">Y</kbd>: Specify an address to jump to
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value

@@ -99,11 +99,11 @@ Egy csomó mókás parancs van még, amit futtatni lehet még, de kérjük ezeke
 ## A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva. A csapatot akkor és úgy egészítjük ki, ha és amikor azt szükségesnek látjuk.
 
-Tulajdonos: shutterbug2000#8835
+Tulajdonos: shutterbug2000
 
-Adminisztrátorok: Rocket Robz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Adminisztrátorok: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
 
-Szerver karbantartók: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943, YourKalamity#3646
+Szerver karbantartók: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

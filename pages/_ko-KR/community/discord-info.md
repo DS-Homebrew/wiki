@@ -33,14 +33,14 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
 
 **Main DS⁽ⁱ⁾ Homebrew Projects**
-- [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
-- [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
-- [#gbarunner2-dev][gbarunner2-dev] - This channel is for discussion of the development of GBARunner2. For help, use #nds-help
+- [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. 도움이 필요하면 #nds-help를 사용하세요
+- [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. 도움이 필요하면 #nds-help를 사용하세요
+- [#gbarunner2-dev][gbarunner2-dev] - This channel is for discussion of the development of GBARunner2. 도움이 필요하면 #nds-help를 사용하세요
 - [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects**
-- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. For help, use #nds-help
-- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. For help, use #nds-help
+- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. 도움이 필요하면 #nds-help를 사용하세요
+- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. 도움이 필요하면 #nds-help를 사용하세요
 - [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
 
 **커뮤니티**
@@ -99,11 +99,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
 
-Owner: shutterbug2000#8835
+Owner: shutterbug2000
 
-Administrators: Rocket Robz#4931, NightScript#5597, FNowut#5028, ahezard#8037, Apache Thunder#1696
+Administrators: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
 
-Server Maintainers: Kaisaan#6181, Pk11#3666, Kodtiz3D#8288, lifehackerhansol#4546, Frost#6943, YourKalamity#3646
+Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

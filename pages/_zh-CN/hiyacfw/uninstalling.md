@@ -3,14 +3,14 @@ lang: zh-CN
 layout: wiki
 section: hiyacfw
 title: 卸载
-long_title: Uninstalling hiyaCFW
-description: How to uninstall hiyaCFW from Nintendo DSi
+long_title: 卸载 hiyaCFW
+description: 如何为 Nintendo DSi 卸载 hiyaCFW
 ---
 
-hiyaCFW is only present on the SD card and has no presence on your NAND. Before proceeding, be sure to backup any save data from your SDNAND that you wish to keep. You can learn how to do that by following Section III of the [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) guide.
+hiyaCFW 只存在于 SD 卡中，并不存在于 NAND 中。 在继续之前，请务必备份 SDNAND 中您希望保留的任何保存数据。 您可按照[dsi.cfw.guide的](https://dsi.cfw.guide)[DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional)进行操作
 
 ### 卸载
-1. Delete `hiya.dsi` from the SD card root
+1. 从 SD 卡根目录删除 `hiya.dsi`
 1. Delete the `hiya` folder
 1. Delete the `import`, `photo`, `progress`, `shared1`, `shared2`, `sys`, `title`, `ticket`, and `tmp` folders
 

@@ -72,7 +72,7 @@ description: DS(i) Games that have special properties
    - Icon is animated
 - Planet Puzzle League
    - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
-   - Multiplayer removed
+   - 멀티플레이어 없음
    - Some music tracks removed
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
@@ -115,7 +115,7 @@ description: DS(i) Games that have special properties
 - Zombiez Seeker
    - DSiWare version called "Zombie Blaster"
 - Zuma's Revenge!
-   - Multiplayer removed
+   - 멀티플레이어 없음
    - Icon is animated
 
 Supports Wi-Fi (WPA 1/2 included):
@@ -126,29 +126,29 @@ Supports Wi-Fi (WPA 1/2 included):
 
 ### DSiWare compiled as DSi-Enhanced ROMs
 - 1st Class Poker & BlackJack
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Base 10 (Art Style)
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Bird & Beans (Japan)
 - Box Pusher
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Bridge
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Clubhouse Games Express
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Cosmo Fighters
      - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
 - Dr. Mario Express
 - Globulos Party
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Hearts Spades Euchre
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pocket Pack: Strategy Games
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Pocket Pack: Words & Numbers
-     - Uses cloneboot for Multiplayer
+     - 멀티플레이어에 cloneboot 사용
 - Pop Island
      - Has a feature to send a game demo to any DS family console
 - Pop Island: Paperfield

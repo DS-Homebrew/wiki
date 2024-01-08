@@ -27,12 +27,12 @@ Choose one of the following to add to the HOME menu:
 This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### 第一部分：获取所需文件
 
 If you already have Universal Updater installed on your console, you can skip to step 3.
 {:.alert .alert-info}
 
-1. 启动 FBI 并选择 `Remote Install(远程安装)`，再选择 `Scan QR Code(扫描二维码)`
+1. 启动 FBI 并选择 `Remote Install`（远程安装），再选择 `Scan QR Code`（扫描二维码）
 1. 扫描这个二维码来安装最新版本的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater 二维码](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Open Universal Updater from your HOME Menu
 1. Install the NDSForwarder package
@@ -70,7 +70,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: NDSForwarder-DSi
-1. Reinsert your SD card into your device
+1. 重新将您的SD卡插入设备
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card

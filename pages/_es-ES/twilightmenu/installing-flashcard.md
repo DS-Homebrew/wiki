@@ -30,6 +30,9 @@ Ten en cuenta que esto sólo funciona si tu flashcard está preparada para inici
 Ten en cuenta que no todas las flashcart tienen soporte para esta función. Si los pasos de abajo no aplican para tu flashcart, sáltate esta sección.
 {:.alert .alert-warning}
 
+Ten en cuenta que perderás la posibilidad de usar cheats cuando ejecutes juegos de esta manera. Si quieres seguir usando cheats, sáltate esta parte.
+{:.alert .alert-warning}
+
 1. Extrae el contenido de la carpeta `Flashcart Loader/(tu flashcard)` a la carpeta raíz de tu tarjeta micro SD
    - Existe un archivo README.txt en la carpeta `Flashcart Loader` (en inglés), para ayudarte a encontrar los archivos apropiados para tu flashcard.
    - Si ya lo haz hecho, continúa al paso 3. Si no, sigue los siguientes pasos para las siguientes flashcards
@@ -55,4 +58,5 @@ Ten en cuenta que no todas las flashcart tienen soporte para esta función. Si l
 
    Instala [YSMenu de RetroGameFan](https://gbatemp.net/download/35737/).
       - Asegúrate de que tienes el archivo `YSMenu.nds` (o renombra el archivo `TTMenu.dat`, si no existe) y la carpeta `TTMenu` en la carpeta raíz de tu tarjeta microSD
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+      - No copies `TTMenu.dat` directamente; esto romperá el inicio automático y el reinicio rápido de YSMenu
+1. Abre los ajustes de TWLMenu++, cambia a la página de `nds-bootstrap settings` y selecciona `Game Loader` a `Kernel`, para que el firmware de la flashcard sea usado en vez de nds-bootstrap

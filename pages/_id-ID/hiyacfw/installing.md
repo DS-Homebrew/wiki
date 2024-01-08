@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: hiyacfw
-title: Pemasangan (Installing)
+title: Pemasangan
 long_title: Memasang hiyaCFW
 description: Cara memasang hiyaCFW pada Nintendo DSi
 tabs:
@@ -12,38 +12,38 @@ tabs:
     other: Linux
 ---
 
-JANGAN perbarui sistem (system update) setelah memasang hiyaCFW. Nanti tambalan hiyaCFW pada kartu SD akan lepas.
+Jangan perbarui sistem setelah memasang hiyaCFW. Tambalan kartu SD hiyaCFW akan lepas.
 {: .alert .alert-danger}
 
 ### Persyaratan
-- Nintendo DSi yang sudah [terpasang Unlaunch](https://dsi.cfw.guide/installing-unlaunch)
-- Cadangan NAND yang diambil dari konsol [menggunakan dumpTool](https://dsi.cfw.guide/dumping-nand)
-- Peranti Windows, macOS, atau Linux
+- Nintendo DSi yang [terpasang Unlaunch](https://dsi.cfw.guide/installing-unlaunch)
+- Cadangan NAND dari konsol [menggunakan dumpTool](https://dsi.cfw.guide/dumping-nand)
+- Perangkat Windows, macOS, atau Linux
 
-### Bagian 1: Mempersiapkan komputer untuk memasang hiyaCFW
+### Bagian 1: Persiapan di komputer untuk memasang hiyaCFW
 {% capture tab-windows %}
-The hiyaCFW Helper is known to cause false positives with Windows Defender and other antivirus programs, please temporarity disable such programs if you have trouble downloading or running it.
+Program hiyaCFW Helper sering kena positif palsu pada Windows Defender dan antivirus lain, mohon nonaktikan dulu antivirus tersebut agar bisa mengunduh atau membuka program.
 {: .alert .alert-info}
 
-1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
-   - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. Unduh & pasang [7-Zip](https://www.7-zip.org/download.html) versi terkini
+   - Tidak akan berfungsi dengan pengekstrak arsip lain seperti WinRAR, karena hiyaCFW helper memerlukan 7-Zip, bukan pengekstrak arsip yang umum
+1. Unduh versi Windows terkini dari [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Ekstrak arsip hiyaCFW Helper di mana saja di komputer
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Download the latest macOS version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. Unduh versi macOS terkini dari [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Ekstrak arsip hiyaCFW Helper di mana saja di komputer
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
-1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Install tkinter with the following command for your distro if you don't already have it:
-   - Debian-based: `sudo apt-get install python3-tk`
+1. Pasang Python 3 dengan *package manager* jika belum dipasang
+1. Unduh versi Python terkini dari [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Ekstrak arsip hiyaCFW Helper di mana saja di komputer
+1. Pasang tkinter dengan perintah berikut untuk di distro jika belum ada:
+   - Berdasar Debian: `sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -53,27 +53,27 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 ### Bagian 2: Menambahkan berkas hiyaCFW ke kartu SD
 ![Tangkapan Layar hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-1. Launch the hiyaCFW Helper
-  - **Windows:** Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
-  - **macOS:** Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
-  - **Linux:** Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says `Done!`, close out of the hiyaCFW Helper
-1. Close the terminal window
+1. Luncurkan hiyaCFW Helper
+  - **Windows:** Luncurkan berkas `HiyaCFW_Helper.exe` yang diekstrak dari arsip hiyaCFW Helper (mungkin perlu menonaktifkan dulu antivirus)
+  - **macOS:** Pencet kanan berkas `HiyaCFW_Helper` yang diekstrak dari arsip hiyaCFW Helper dan pilih `Buka`
+  - **Linux:** Luncurkan `HiyaCFW_Helper.py` yang diekstrak dari arsip hiyaCFW Helper
+1. Pencet tombol `...` di kotak "NAND file with No$GBA footer"
+1. Navigasi ke cadangan NAND Anda, dan pencet `Open`
+1. Tekan `Start`
+1. Di sembulan baru, navigasi ke akar kartu SD, lalu tekan `OK`.
+   - Proses ini mungkin beberapa menit
+1. Jika sudah muncul `Done!`, tutup program hiyaCFW Helper
+1. Tutup jendela terminal
 
-### Bagian 3: Menyetelkan Unlaunch dan hiyaCFW
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
-1. Navigate to `OPTIONS`, then `NO BUTTON`
-1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
-   - This will make the system launch hiyaCFW automatically
-1. Save your settings and restart your console
-1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-1. Change the settings to your liking, then press <kbd>START</kbd> to continue
+### Bagian 3: Menyetel Unlaunch dan hiyaCFW
+1. Nyalakan Nintendo DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
+   - Seharusnya ini masuk ke menu berkas Unlaunch
+1. Navigasi ke `OPTIONS`, lalu `NO BUTTON`
+1. Pilih `hiyaCFW` dan tekan <kbd class="face">A</kbd>
+   - Ini membuat konsol otomatis masuk ke hiyaCFW
+1. Simpan pengaturan ini dan nyalakan ulang konsol
+1. Tahan <kbd>SELECT</kbd> sambil menyalakan daya konsol Nintendo DSi untuk ke pengaturan hiyaCFW
+1. Ubah pengaturan sesuai keinginan, lalu tekan <kbd>START</kbd> untuk lanjut
 
-Jika muncul tulisan `Terjadi kegalatan`, mohon rujuk halaman [pertanyaan umum](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
+Jika muncul tulisan `An error has occurred`, mohon rujuk ke laman [pertanyaan umum](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw).
 {: .alert .alert-warning}

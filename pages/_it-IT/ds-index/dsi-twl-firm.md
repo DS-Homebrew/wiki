@@ -8,24 +8,24 @@ description: Informazioni sul Nintendo DSi e sul TWL_FIRM del Nintendo 3DS
 ---
 
 ### Configurare il CFW
-The main benefit of modding your DSi and 3DS families of systems is that you can unlock more possibilities with your consoles. Installare il Custom Firmware è abbastanza facile, e nella maggior parte dei casi, tutto ciò di cui hai bisogno è una scheda (micro)SD. Here are the best of guides for you to follow, with step-by-step instructions:
+Il vantaggio principale della modifica dei sistemi delle famiglie DSi e 3DS è che si possono sbloccare possibilità maggiori con le console. Installare il Custom Firmware è abbastanza facile, e nella maggior parte dei casi, tutto ciò di cui hai bisogno è una scheda (micro)SD. Ecco le migliori guide da seguire, con istruzioni passo per passo:
 
-- [Guida all'Hacking del 3DS](https://3ds.hacks.guide)
+- [Guida all'hacking del 3DS](https://3ds.hacks.guide)
    - Comando Lightning: `mod 3ds`
-   - TWLHelper command: `guide 3ds`
-   - Kurisu command: `guide 3ds`
-- [Guida all'Hacking del DSi](https://dsi.cfw.guide)
-   - Lightning command: `mod dsi`
-   - TWLHelper command: `guide dsi`
-   - Kurisu command: `guide dsi`
+   - Comando TWLHelper: `guide 3ds`
+   - Comando Kurisu: `guide 3ds`
+- [Guida all'hacking del DSi](https://dsi.cfw.guide)
+   - Comando Lightning: `mod dsi`
+   - Comando TWLHelper: `guide dsi`
+   - Comando Kurisu: `guide dsi`
 
 ### Velocità della CPU
-The Nintendo DS shipped with a 67 MHz processor in 2004, and the Nintendo DSi shipped with a 133 MHz processor five years later. Most games of the Nintendo DS library were made before the Nintendo DSi came out, and as such the only processor available to them was 67 MHz. Some applications tied themselves to that clock speed and as a result, they will not work well with a higher clock speed. Most games, however, outperform the original with a higher clock speed.
+Il Nintendo DS è stato distribuito con un processore a 67 MHz nel 2004, mentre il Nintendo DSi è stato distribuito con un processore a 133 MHz cinque anni dopo. La maggior parte dei giochi del parco titoli del Nintendo DS sono stati realizzati prima che il Nintendo DSi uscì, e pertanto l'unico processore a loro disposizione era a 67MHz. Alcune applicazioni si sono legate a quella velocità e di conseguenza, non funzionerebbero bene con una maggiore velocità. La maggior parte dei giochi, tuttavia, supererebbe l'originale con una maggiore velocità.
 
-nds-bootstrap has TWL Clock Speed as an option, but it will not try to adjust the ROM to work properly with the higher clock speed. Questo è colpa dell'applicazione in sé, e perciò le applicazioni che non funzionano ad una velocità più alta NON è un bug di nds-bootstrap.
+nds-bootstrap ha la velocità TWL come opzione, ma non cercherà di regolare le ROM per farle funzionare a velocità maggiore correttamente. Questo dipende dall'applicazione in sé, e perciò se non funzionano ad una velocità più alta NON è un bug di nds-bootstrap.
 
-### Nintendo DSi Menu
-In version 1.4.0, RSA signatures in the DS Game Card whitelist aren't verified. This is a vulnerability that can be exploited, and it allows you to take access over the ARM9 processor. It requires version 1.4.0 (it was patched in future versions and didn't exist in prior versions) and a flashcard with a modified ROM.
+### Menu Nintendo DSi
+Nella versione 1.4.0, le firme RSA nella whitelist della schede di gioco DS non vengono verificate. Si tratta di una vulnerabilità che può essere sfruttata e che consente di accedere al processore ARM9. Richiede la versione 1.4.0 (è stata patchata nelle versioni successive e non esisteva nelle versioni precedenti) e una flashcard con una ROM modificata.
 
 There is also a known glitch in the way the Nintendo DSi Menu calculates free space that can can cause an error when using the menu not from the original NAND, for more information see [hiyaCFW FAQ & Troubleshooting](../hiyacfw/faq#the-free-space-bug).
 

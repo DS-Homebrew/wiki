@@ -4,66 +4,66 @@ layout: wiki
 section: ds-index
 category: reference
 title: Wi-Fi
-description: Information on using Wi-Fi on the Nintendo DS
+description: Informasi penggunaan Wi-Fi di Nintendo DS
 ---
 
-- On Nintendo DS applications, you can only use WEP and Open Wi-Fi security settings
-- On Nintendo DSi-Enhanced/Exclusive applications running in DSi Mode, you have the additional options of WPA and WPA2 security
+- Di aplikasi Nintendo DS, pengaturan keamanan Wi-Fi hanya bisa WEP atau tidak ada
+- Di aplikasi Nintendo DSi-*Enhanced/Exclusive* saat di Mode DSi, kata sandi bisa diatur ke keamanan WPA dan WPA2
 
-Hotspots are usable, so you don't need to change your router configuration.
+*Hotspot* juga bisa digunakan, jadi tidak usah mengubah setelan perute.
 
-### Creating a hotspot
-There are guides for creating a DS-compatible hotspot on macOS and Linux computers on GBAtemp.
+### Membuat *hotspot*
+Di GBAtemp terdapat panduan membuat *hotspot* kompatibel untuk DS lewat komputer macOS dan Linux.
 - [macOS](https://gbatemp.net/threads/571658)
 - [Linux](https://gbatemp.net/threads/543283)
 
-An Android mobile hotspot set to Open (none) security would also work.
+Untuk di Android, keamanan *hotspot* harus diatur ke *Open* (tidak ada).
 
-Windows tidak dapat membuat hotspot yang kompatibel, jadi pengguna Windows harus masuk ke Linux untuk menyiapkannya.
-#### Other methods
-If you cannot create a DS-compatible hotspot using the above methods, you may be able to use another method.
+Windows tidak bisa membuat *hotspot* kompatibel, jadi pengguna Windows harus ke Linux untuk menyiapkannya.
+#### Metode lain
+Jika tidak bisa membuat *hotspot* kompatibel untuk DS dengan metode di atas, coba metode lain berikut ini.
 - Nintendo Wi-Fi USB Connector
-  - While this can still be used, it is not recommended because it requires a 32-bit version of Windows XP or Vista
-  - For information on setting up a Nintendo Wi-Fi USB Connector, read Section 3 of this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6)
-- Changing router settings to be DS-compatible
-  - This is not recommended because it opens your network to intruders, even if you use WEP security. It may also cause issues for other users of your network. If you choose to do this, it is recommended that you use a secondary router or guest network, if available
-  - Not all routers support guest networks or turning security off
-- Wi-Fi extenders
+  - Walaupun masih bisa digunakan, ini sangat tidak dianjurkan karena perlu Windows XP atau Vista versi 32-bit
+  - Untuk informasi cara mengatur Nintendo Wi-Fi USB Connector, baca laman Bagian 3 [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) ini oleh anggota [Mario Kart DS Network](https://discord.gg/pa9bea6)
+- Mengubah pengaturan perute agar kompatibel untuk DS
+  - Cara ini tidak dianjurkan karena jejaring akan terbuka dan mudah disusup, mau sudah WEP juga. Ini juga bisa bermasalah untuk pengguna jejaring tersebut. Jika cara ini tetap dilakukan, gunakanlah perute cadangan atau jejaringan tamu, jika ada
+  - Tidak semua perute mendukung jejaringan tamu atau tanpa keamanan
+- *Wi-Fi extenders* (peluas Wi-Fi)
 
-#### Settings
-If you are setting up a network to be DS-compatible, it must meet the following specifications:
-- WEP or Open (none) security
-- 2.4 GHz wireless frequency
-- 802.11b wireless mode
-  - This may be listed as "Legacy mode" or something similar
+#### Pengaturan
+Jika ingin mengatur jejaring agar kompatibel untuk DS, harus sesuai spesifikasi berikut:
+- Keamanan WEP atau *Open* (tidak ada)
+- Frekuensi nirkabel 2,4 GHz
+- Mode nirkabel 802.11b
+  - Untuk yang Ini mungkin ada di "*Legacy mode*" atau sejenisnya
 
-### Nintendo DS WFC restoration
-1. Launch Nintendo Wi-Fi Connection Setup
-1. Connect to your access point
-1. Set your Primary DNS value as one of the values below, depending on which service you want to use:
-   - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
-   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
-1. Set `1.1.1.1` as your secondary DNS
-1. You might need to NoSSL patch your game at this point, depending on the game
+### Memulihkan Nintendo DS WFC
+1. Masuk ke Nintendo Wi-Fi Connection Setup
+1. Sambungkan ke titik akses
+1. Atur nilai *Primary DNS* ke salah satu nilai di bawah ini, sesuai layanan yang ingin digunakan:
+   - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` atau `178.62.43.212`
+   - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([daftar pemain daring](http://zwei.moe:9001))** - `172.104.88.237`
+1. Atur `1.1.1.1` sebagai *secondary DNS*
+1. Mungkin ROM juga perlu ditambal NoSSL, tergantung permainan
 
-### Manually patching your DS ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+### Menambal sendiri ROM DS
+Ikuti panduan di bawah ini jika ISP Wi-Fi memblokir server DNS kustom, jika tidak, *lebih baik* ikuti saja panduan di atas.
 
-- Users of GNU/Linux and macOS can follow very similar instructions, but will have to use Mono
-- WfcPatcher currently doesn't support DSiWare
+- Pengguna GNU/Linux dan macOS boleh mengikuti arahan serupa, tapi harus dengan Mono
+- WfcPatcher saat ini belum bisa untuk DSiWare
 
-1. Download [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
-1. Create a text file
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
-   - You can replace wiimmfi.de with another URL, if you wish to use a different server
-   - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name
-1. Now drag all the ROMs you wish to patch on to patch.bat
-1. Done! the patched ROMs will be the ones ending in (wiimmfi)
+1. Unduh [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
+1. Salin ROM yang ingin ditambal ke folder WfcPatcher tadi diunduh dan buka foldernya
+1. Buat berkas teks
+1. Buka berkasnya, tulis `wfcpatcher.exe %1 --domain wiimmfi.de` lalu simpan dengan nama `patch.bat` dan tutup jendelanya
+   - Tulisan `wiimmfi.de` boleh diganti URL lain, jika ingin menggunakan server lain
+   - Jika berkas masih dianggap dokumen teks, [aktifkan ekstensi berkas](https://dsi.cfw.guide/file-extensions-%28windows%29) dan hapus `.txt` dari nama berkas
+1. Sekarang seret semua ROM yang ingin ditambal ke patch.bat
+1. Selesai! ROM yang sudah ditambal akan ada akhiran (wiimmfi)
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
+Jangan lupa hapus DNS yang mungkin masih ada di pengaturan Wi-Fi sebelum menyambung ke internet dengan ROM sudah ditambal.
 
-### Troubleshooting and further reading
-If you are receiving any errors, you can enter the error code in Wiimmfi's [troubleshooter](https://wiimmfi.de/error) for ways to fix it.
+### Sidik gangguan dan bacaan lanjut
+Jika muncul galat, ketik kode galatnya di [penyidik gangguan](https://wiimmfi.de/error) Wiimmfi untuk cara mengatasinya.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Untuk sidik gangguan spesifik dan informasi lanjut, seperti cara menyambung internet di emulator atau dengan Nintendo Wi-Fi USB Connector, baca laman [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) ini oleh anggota [Mario Kart DS Network](https://discord.gg/pa9bea6).

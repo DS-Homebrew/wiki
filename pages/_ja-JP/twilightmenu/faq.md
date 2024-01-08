@@ -49,7 +49,7 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 画像を隠すには、`sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`にある`theme.ini`ファイルを編集する必要があります。 テキストエディタでファイルを開き、`RenderPhoto`の行を`1`から`0`に変更し、保存してください。
 
 #### How do I get games?
-[Universal-DB](https://db.universal-team.net/ds)および[GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)から自作ゲームをダウンロードすることができます。 市販ゲームの吸い出しをするには：
+[Universal-DB](https://db.universal-team.net/ds)および[GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)から自作ゲームをダウンロードすることができます。 To get officially released games, you need to get those as dumps, either from your physical cartridges, or from an existing console:
 - On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
 - On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
 - On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles

@@ -3,35 +3,35 @@ lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: other
-title: 创建 RAM 盘
-description: How to create RAM disks for using old DS homebrew with TWiLight Menu++
+title: 创建 RAM 磁盘
+description: 如何使用 TWiLight Menu++ 创建 RAM 磁盘以使用旧版 DS 自制软件
 ---
 
-Some DS homebrew are incapable of properly accessing the SD card filesystem. Because of this, it may be necessary to load a standalone filesystem into the RAM containing the necessary files for your homebrew in order for it to work.
+某些 DS 自制软件无法正常访问 SD 卡文件系统。 因此，可能需要在 RAM 中加载一个独立的文件系统，其中包含自制软件所需的文件，这样才能正常运行。
 
-The software used here requires the Windows operating system.
+这里使用的软件需要 Windows 操作系统。
 {:.alert .alert-info}
 
-You do not need to follow this if you're using a flashcard.
+如果您使用的是烧录卡，则无需遵循此步骤。
 {:.alert .alert-info}
 
-To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
+要制作 RAM 磁盘，请下载 [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)（单击 `Download Software`），并按照以下说明操作。
 
-Instructions by Dakkon7, modified by Rocket Robz:
+由 Dakkon7 编写，由 Rocket Robz 修改：
 
-1. Run RAMDisk
-1. Click **View** -> **Advanced**
-1. For **Disk Size**, type `12` for DSi, or `28` for 3DS, above **Max 1023 MB**
-1. Un-mark **Create TEMP Directory**, if it's already marked
-1. Click **Load/Save**
-1. Click `Start RAMDisk`, and a new window for your .img should appear
-1. Place any file and/or folder the homebrew expects there, and/or file(s) you want to use
-1. In the RAMDisk program, click `Save Disk Image Now`
-1. Save `romname.img` to the `ramdisks` folder in the .nds file location. If it does not exist already, create it
-1. Click `Stop RAMDisk` when you're done
-1. In TWiLight Menu++, open the per-game settings for your homebrew
-1. Set RAM disk to 0
-1. Launch your homebrew, and it should read your RAM disk
+1. 运行 RAMDisk
+1. 点击 **View**（查看） -> **Advanced**（高级）
+1. 在 **Disk Size**（磁盘大小）中，对于 DSi 输入 `12`，对于 3DS 输入 `28`，最大值 **Max 1023 MB**
+1. 若 **Create TEMP Directory**（创建临时目录）已勾选，则取消勾选
+1. 单击 **Load/Save**（载入/保存）
+1. 单击 `Start RAMDisk`（启动 RAMDisk），应该会出现一个新窗口来显示 .img
+1. 将自制软件所需的任何文件和/或文件夹和/或您想使用的文件放在此处
+1. 在 RAMDisk 程序中，单击 `Save Disk Image Now`（立即保存磁盘映像）
+1. 将 `romname.img` 保存到 `ramdisks` 文件夹中的 .nds 文件位置。 如果还不存在，请创建
+1. 完成后单击 `Stop RAMDisk`（结束 RAMDisk）
+1. 在 TWiLight Menu++ 中，打开自制游戏的游戏设置
+1. 将 RAM 磁盘设置为 0
+1. 启动自制软件，它应该会读取 RAM 磁盘
 
-If you wish to use the other RAM disk slots for a single homebrew application, use the `.img1` extension for RAM disk slot 1, and so on.
+如果您希望将其他 RAM 磁盘插槽用于单个自制应用程序，请使用 `.img1` 扩展名来指定 RAM 磁盘插槽 1，以此类推。
 {:.alert .alert-info}

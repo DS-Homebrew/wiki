@@ -4,49 +4,49 @@ layout: wiki
 section: twilightmenu
 category: customization
 title: Latar Belakang Unlaunch Kustom
-description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
+description: Cara membuat latar belakang Unlaunch kustom dan dipasang dengan TWiLight Menu++
 ---
 
-You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+Latar belakang Unlaunch prajadi bisa dicari di [situs skin TWiLight Menu++](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. Ini harus berupa GIF 256 x 192, dengan beberapa batasan:
-- Only the first frame will be shown, no animated backgrounds
-- The file must be less than or equal to 15,472 bytes
-- GIFs with more than 31 colors require specially made palettes to prevent breaking the text
+Dengan TWiLight Menu++, latar belakang dan palet warna teks Unlaunch bisa diganti dengan menambal pemasang Unlaunch. Ini harus berupa GIF 256 x 192, dengan beberapa batasan:
+- Hanya bingkai pertama yang muncul, tidak ada animasi latar belakang
+- Berkas harus kurang dari atau seukuran 15.472 bita
+- GIF dengan lebih dari 31 warna perlu palet yang dibuat khusus agar tidak mengacau teks
 
 ### Pemasangan
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
-1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
-1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
-1. Exit settings and launch `Unlaunch DSi Installer`
-   - It should use your custom image, if it does not then turn off your console and make sure your GIF conforms with the requirements above
-1. Choose `Install Now`
+1. Salin berkas GIF ke `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
+1. Unduh [pemasang Unlaunch terkini](https://problemkaputt.de/unlaunch.zip) dan ekstrak `UNLAUNCH.DSI` ke kartu SD
+1. Buka Pengaturan TWiLight Menu++, pindah ke halaman `Pengaturan Unlaunch`, dan pencet `Latar Belakang`, lalu pilih salah satu gambar
+1. Keluar pengaturan dan luncurkan `Unlaunch DSi Installer`
+   - Seharusnya gambar kustom digunakan, jika tidak, matikan daya konsol dan pastikan lagi GIF sudah sesuai persyaratan di atas
+1. Pilih `Install Now`
 
-### Using GIFs with more than 31 colors
-As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
-1. Open your image in GIMP and make sure it's 256 x 192 pixels
-1. In the menu bar at the top, select `Image` -> `Mode` -> `Indexed...`
-1. Select `Generate optimum palette` and set the maximum colors to anything up to 226 colors
-1. Select a dithering pattern from the `Color dithering` dropdown
-   - Images without dithering generally compress best, but with it will generally look better, try and see which looks best for the size
-1. Click `Convert`
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-   - If it gives any warnings, click the accept button
-1. In the next popup, disable the `GIF comment` and click `Export`
-1. Check the size of the exported file, if it's 15,472 bytes or less, then skip to step 13
-1. If your GIF is too large, then using either [gifsicle](http://www.lcdf.org/gifsicle/) or [ezgif.com](https://ezgif.com/optimize) you can try optimizing it
-   - These instructions will use ezgif as its simpler, being a website
-1. Open https://ezgif.com/optimize, and upload your GIF
-1. Try different compression levels until you find the best one under 15,472 bytes (15.11 KiB), ideally a bit under as GIMP may increase the size a bit
-1. Save the optimized GIF and open it in GIMP
-1. In the menu bar at the top, select `Windows` -> `Dockable Dialogs` -> `Colormap`
-1. Change your current `Foreground color` to #080808 and add 14 new colors with the `+` button
-    - If your image doesn't have at least 133 colors you will need to keep adding colors until the last is index 146
-1. Right click a color in the Colormap and select `Rearrange Colormap...`
-1. Arrange your new colors so they match the ones outlined in red: (The 2nd and 3rd columns starting on the 4th row)<br> ![Palette with correct text colors](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
-1. Use the color picker to make your new colors match those in the above image
-1. In the menu bar at the top, select `File` -> `Export As...`, give it a name with the extension `.gif`, and click `Export`
-1. In the next popup, make sure `GIF comment` is off and click `Export`
-1. Ensure the image is still under 15,472 bytes, if it's gotten too big then repeat from step 10 using a higher compression level
-1. You're done! Follow the [installing](#installing) section above to use your image!
+### Menggunakan GIF lebih dari 31 warna
+Karena palet GIF dimuat ke area VRAM yang sama dengan palet teks, palet GIF akan menimpakan palet teks jika terlalu besar, namun ini bisa diatasi dengan menaruh palet teks dalam palet GIF. Jika digunakan dengan warna lain maka akan punya warna teks lain juga, jika diinginkan. Arahan ini ditujukan untuk [GIMP](https://gimp.org), tapi penyunting gambar lain yang mampu menyusun ulang palet gambar juga boleh.
+1. Buka gambarnya di GIMP dan pastikan berukuran 256 x 192 piksel
+1. Di bilah menu bagian atas, pilih `Image` -> `Mode` -> `Indexed...`
+1. Pilih `Generate optimum palette` dan atur maksimum warna berapa saja sampai 226 warna
+1. Pilih pola baur galat (*dither*) dari menu tarik-turun `Color dithering`
+   - Coba dulu mana yang bagus untuk ukurannya. Gambar tanpa baur galat biasanya dipampat bagus, tapi ada baur galat juga masih bagus
+1. Pencet `Convert`
+1. Di bilah menu bagian atas, pilih `File` -> `Export As...`, tulis namanya dengan ekstensi `.gif`, dan pencet `Export`
+   - Jika ada peringatan, pencet tombol terima
+1. Di sembulan berikutnya, nonaktifkan `GIF comment` dan pencet `Export`
+1. Periksa ukuran ekspor berkas, jika berukuran 15.472 bita atau kurang, langsung ke no. 13
+1. Jika GIF terlalu besar, maka gunakan [gifsicle](http://www.lcdf.org/gifsicle/) atau [ezgif.com](https://ezgif.com/optimize) untuk mengoptimalkannya
+   - Arahan ini akan lanjut dengan ezgif karena sederhana, berbentuk web
+1. Buka https://ezgif.com/optimize, dan unggah GIF
+1. Coba tingkat pampat yang lain sampai dapat yang terbaik di bawah 15.472 bita (15,11 KiB), bagusnya sedikit rendah karena GIMP suka agak menaikkan ukurannya
+1. Simpan GIF optimalnya dan buka di GIMP
+1. Di bilah menu bagian atas, pilih `Windows` -> `Dockable Dialogs` -> `Colormap`
+1. Ubah `Foreground color` saat ini ke #080808 dan tambah 14 warna baru dengan tombol `+`
+    - Jika gambar Anda kurang dari 133 warna, maka tambah lagi warnanya sampai yang terakhir indeks 146
+1. Pencet kanan warna di *Colormap* dan pilih `Rearrange Colormap...`
+1. Susun warna barunya agar cocok dengan warna yang digarisi warna merah: (Kolom ke-2 dan ke-3 mulai dari baris ke-4)<br> ![Palet dengan warna teks benar](/assets/images/custom-unlaunch-bg/unlaunch-palette.png)
+1. Gunakan pemilih warna agar warna barunya cocok dengan warna gambar di atas
+1. Di bilah menu bagian atas, pilih `File` -> `Export As...`, tulis namanya dengan ekstensi `.gif`, dan pencet `Export`
+1. Di sembulan berikutnya, pastikan `GIF comment` tidak aktif dan pencet `Export`
+1. Pastikan gambar masih di bawah 15.472 bita, jika terlalu besar maka ulangi dari nomor 10 dengan tingkat pampat lebih tinggi
+1. Selesai dah! Ikuti bagian [pemasangan](#installing) di atas untuk memasang gambar!

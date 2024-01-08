@@ -18,7 +18,7 @@ tabs:
 Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare игр в новую папку `saves`, находящуюся в той же папке, что и ваши DSiWare ROM-ы.
 {:.alert .alert-info}
 
-If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI
+При обновлении с версии старше, чем v25.7.0 рекомендуется удалить приложение `TWiLight Menu++ Game Booter` из списка приложений, используя FBI.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
@@ -34,9 +34,9 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 1. Скачайте последнюю версию [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Разархивируйте `TWiLightMenu-3DS.7z`
 1. Скопируйте папку `_nds` в корень вашей SD карты, согласившись на замену
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+   - При использовании macOS убедитесь, что вы **копируете** и `Объединяете`, а не `Заменяете`
 1. Скопируйте файл `BOOT.NDS` в корень вашей SD карты, заменив все существующие файлы
-1. Copy the `.cia` file to your SD card root, replacing any existing files
+1. Скопируйте файл `.cia` в корень вашей SD карты, согласившись на замену
 1. При помощи FBI установите CIA файл на вашу 3DS
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}

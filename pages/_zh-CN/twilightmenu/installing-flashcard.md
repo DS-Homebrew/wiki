@@ -15,12 +15,12 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 1. 拷贝 `BOOT.NDS`文件到烧录卡存储卡的根目录
 1. 拷贝`roms` 目录到烧录卡存储卡的根目录
 1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
-1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
+1. **对于 DS Phat/Lite 用户：**如果使用 `BOOT.NDS` 启动导致白屏死机，请插入一张 DS 存储扩展卡，然后重试
 
-### 自动启动TWiLight Menu++
-1. 将烧录卡 `Autoboot/(你的烧录卡)` 中的文件拷贝到烧录卡存储卡的根目录
-   - 如果你没有烧录卡请跳过本步骤
-1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+### 自动启动 TWiLight Menu++
+1. 将 `Autoboot/(您的烧录卡)` 中的所有文件解压到烧录卡 microSD 卡的根目录
+   - 如果没有找到您的烧录卡，请跳过本步骤
+1. **对于 DS Phat/Lite 用户：**在 DS 设置菜单中打开自动运行，这样开机时就会自动进入烧录卡
 
 ### 使用烧录卡固件运行游戏
 
@@ -30,13 +30,16 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 请注意，并非所有烧录卡都支持以这种方式运行游戏。 如果以下步骤不适用于您的烧录卡，您可以跳过此部分。
 {:.alert .alert-warning}
 
-1. 解压缩 `Flashcart Loader/(你的烧录卡)` 中的所有文件到你自己烧录卡的microSD卡根目录
-   - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
-   - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+请注意，以这种方式运行游戏时，您将无法使用金手指。 如果您想保留金手指功能，请跳过本节。
+{:.alert .alert-warning}
+
+1. 将 `Flashcart Loader/(您的烧录卡)` 中的所有文件解压到烧录卡 microSD 卡的根目录
+   - `Flashcart Loader` 文件夹中有一个 README.txt 文件，可帮助找到适合您的烧录卡的加载器。
+   - 如果已完成，请看第 3 步。 如果没有，请按照下面烧录卡列表中的步骤操作
 
 1. 烧录卡
    - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2022 cards (**not** .hk or .com.cn)
+   - r4isdhc.com 2014-2022 烧录卡（**不包括** .hk 或 .com.cn）
    - R4i SDHC Upgrade Revolution
    - R4DSiXL3D
    - R4i Advance
@@ -46,13 +49,14 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    - R4i Gold (v1.4.1) (3DS)
    - R4xDS
    - DSTT(i)
-   - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
+   - DSONE SDHC & DSONEi（非 SDHC 款***不***受支持）
    - M3 DS Real
-   - M3i Zero (non-GMP-Z003 model)
-   - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
-   - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
-   - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
+   - M3i Zero（非 GMP-Z003 款）
+   - iTouchDS and iTouch2（使用 M3Real_M3iZero YSMenu 的文件）
+   - R4(i)RTS (r4rts.com)（使用 M3Real_M3iZero YSMenu 的文件）
+   - R4 SDHC RTS（黑卡）(r4isdhc.com)（使用 M3Real_M3iZero YSMenu 的文件）
 
-   Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
-      - 确认在烧录卡的存储卡根目录已经有`YSMenu.nds` (如果没有请直接重命名`TTMenu.dat`) 文件和 `TTMenu` 文件夹
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+   安装 [RetroGameFan 的 YSMenu](https://gbatemp.net/download/35737/)。
+      - 确认在烧录卡的 microSD 卡根目录已经有 `YSMenu.nds`（如果没有，请直接将 `TTMenu.dat` 重命名）文件和 `TTMenu` 文件夹
+      - 请勿直接复制 `TTMenu.dat` ；这将破坏自动启动和 YSMenu 的软重启功能
+1. 打开 TWLMenu++ 设置并切换到 `nds-bootstrap settings` 页面，然后把 `Game Loader` 调整为 `Kernel` 以不使用 nds-bootstrap 而使用烧录卡固件。

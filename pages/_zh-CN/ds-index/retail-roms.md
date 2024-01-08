@@ -3,43 +3,43 @@ lang: zh-CN
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: Information related to retail DS games
+title: 零售 ROM
+description: 与零售 DS 游戏相关的信息
 ---
 
-### Anti-piracy
-AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+### 反盗版
+AP（反盗版）是开发商用来执行合法购买和防止盗版的一种方法。 这可以通过加载程序或 ROM 本身来规避。
 
-- For nds-bootstrap, it can load an `.ips` file in order to circumvent said patches. This `.ips` file will be applied by nds-bootstrap in RAM so you can keep the ROM files intact. A pack of `.ips` files is included with TWiLight Menu++
-- For Wood R4, these patches are included in the software itself, you will not need to modify the ROM itself
+- 对于 nds-bootstrap，它可以加载 `.ips` 文件，以规避上述补丁。 `.ips` 文件将由 nds-bootstrap 在 RAM 中应用，因此可以保持 ROM 文件完好无损。 TWiLight Menu++ 包含一个 `.ips` 文件包。
+- 对于 Wood R4，这些补丁包含在软件本身中，您无需修改 ROM 本身
 
-If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
+如果您的 ROM 没有 `.ips` 文件，或者您的软件没有为 ROM 打补丁，您可以尝试使用 [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) 直接修改 ROM 本身。
 
 ### Cloneboot
-Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Not all games that have single-card multiplayer use cloneboot, however.
+Cloneboot 是指游戏将自己加载的 ARM7 和 ARM9 二进制文件发送到另一个主机。 它被 DS Download Play 用于单卡多人游戏。 不过，并非所有单卡多人游戏都使用 cloneboot。
 
-### Save files
-Nintendo DS cartridges have 4 known save types:
+### 存档文件
+任天堂 DS 卡带有 4 种已知的存档类型：
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory
-- FLASH
-- FRAM - Ferroelectric Random-Access Memory
-- NAND - NOT-AND
+- EEPROM - 电可擦除可编程只读存储器
+- FLASH - 闪存
+- FRAM - 铁电随机存取存储器
+- NAND - 非易失性闪存
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have a save in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
+根据加载器的不同，可以使用不同的格式，但 nds-bootstrap 使用原始 `.sav` 格式。 如果您有不同格式的保存文件，可以通过以下网站进行转换： http://www.shunyweb.info/convert.php。
 
-### Assembly
-Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses.
+### 汇编
+汇编语言是语言指令与处理器指令之间存在紧密联系的低级编程语言。 在 DS 上，汇编代码以 ARM 或 THUMB 指令的形式出现，THUMB 指令是 ARM 指令的子集。 由于 THUMB 使用的是 16 位指令，而不是 ARM 使用的普通 32 位指令，因此有助于节省内存带宽。
 
-You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
+您可以在 [GBATEK](https://problemkaputt.de/gbatek.htm)上找到有关汇编的更多信息，以及有关 DS 和 DSi 的更多技术信息。
 
-### Card read DMA
-DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred, code can still execute, so it is the preferred way of accessing data.
+### 卡带读取 DMA
+与使用 CPU 相比，DMA（直接内存访问）是一种更高效的数据读取方式。 数据传输时，代码仍可执行，因此这是访问数据的首选方式。
 
-You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+只要在 no$gba 上启用 ARM9 的 DMA 日志，就能发现使用 DMA 的游戏。 卡的 DMA 访问使用 AF000001 作为第三个参数。
+- 例如：`DMA2: 04100010 023C18C0 AF000001`
 
-### Action Replay cheats
+### Action Replay 金手指
 Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
 Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
@@ -73,66 +73,66 @@ Example ID: `DIS-NTR-NTRJ-JPN`
 `DIS` - Distribution
 
 
-### Title Labels
-Looking at the bottom of the title label shows the title ID along with other bits of information, for this example the following ID will be used:
+### 游戏标签
+游戏标签底部显示 title ID 和其他信息，本例将使用以下 ID：
 
 - NTR-NTRJ-**XXX**
 
-**XXX** represents the following:
+**XXX** 代表以下内容：
 
-- AUS - Australia
-- CHN - China
-- DEN - Denmark
-- EUR - Europe (Multilingual)
-- EUU - Europe (Dutch or Italian Only)
-- FRA - France
-- GER - Germany
-- HOL - Netherlands
-- ITA - Italian
-- JPN - Japan
-- KOR - Korea
-- NOE - Europe (German Only)
-- NOR - Norway
-- RUS - Russia
-- SPA - Spain
-- UKV - United Kingdom
-- USA - United States
+- AUS - 澳大利亚
+- CHN - 中国
+- DEN - 丹麦
+- EUR - 欧洲（多种语言）
+- EUU - 欧洲（仅限荷兰语或意大利语）
+- FRA - 法国
+- GER - 德国
+- HOL - 荷兰
+- ITA - 意大利语
+- JPN - 日本
+- KOR - 韩国
+- NOE - 欧洲（仅限德语）
+- NOR - 挪威
+- RUS - 俄罗斯
+- SPA - 西班牙
+- UKV - 英国
+- USA - 美国
 
-The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
+title ID 的最后一个字母本身代表游戏的语言。 使用上一个示例的 title ID：
 
 - NTR-NTR**X**-JPN
 
-**X** represents the following:
+**X** 代表以下内容：
 
-- A - World (doesn't count as only one thing used it)
-- C - Chinese (Simplified)
-- D - German
-- E - American English
-- F - French
-- G - Greek
-- H - Dutch
-- I - Italian
-- J - Japanese
-- K - Korean
-- M - Swedish
-- N - Norwegian
-- O - English (DSi Enhanced)
-- P - European Multilingual
-- Q - Danish
-- R - Russian
-- S - Spanish
-- T - English (DSi Enhanced)
-- U - Australian English
-- V - British English
-- W - Other languages (Varies)
-- X - Other languages (Varies)
-- Y - Other languages (Varies)
-- Z - Other languages (Varies)
+- A - 世界（仅有一个游戏使用）
+- C - 中文（简体）
+- D - 德语
+- E - 美式英语
+- F - 法语
+- G - 希腊语
+- H - 荷兰语
+- I - 意大利语
+- J - 日语
+- K - 韩语
+- M - 瑞典语
+- N - 挪威语
+- O - 英语（DSi 增强版）
+- P - 欧洲多种语言
+- Q - 丹麦语
+- R - 俄语
+- S - 西班牙语
+- T - 英语（DSi 增强版）
+- U - 澳大利亚英语
+- V - 英式英语
+- W - 其他语言（各不相同）
+- X - 其他语言（各不相同）
+- Y - 其他语言（各不相同）
+- Z - 其他语言（各不相同）
 
-In terms of the system identifiers:
+在系统标识符方面：
 
-- NTR - Nitro - Nintendo DS
-- TWL - Twilight - Nintendo DSi
+- NTR - Nitro - 任天堂 DS
+- TWL - Twilight - 任天堂 DSi
 
 ### DSi Enhanced:
 

@@ -2,118 +2,118 @@
 lang: id-ID
 layout: faq
 section: nds-bootstrap
-title: FAQ & Pengusutan masalah
-long_title: FAQ & Pengusutan masalah nds-bootstrap
-description: FAQ & Pengusutan masalah untuk nds-bootstrap
+title: Pertanyaan Umum & Sidik Gangguan
+long_title: Pertanyaan Umum & Sidik Gangguan nds-bootstrap
+description: Pertanyaan umum dan sidik gangguan terkait nds-bootstrap
 ---
 
-#### Saya mengalami isu dengan ROM saya, bagaimana ini?
-- Make sure that you are on the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) and [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) if you are using it (update instructions are provided in each release page)
-- Periksa [daftar kesesuaian nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) untuk melihat jika isu yang terjadi sudah diketahui pada versi terkini nds-bootstrap
-- Try with all cheats disabled for that game as some cheats are not compatible with nds-bootstrap at the moment, pressing <kbd class="l">L</kbd> in the game's cheats menu on **TW**i**L**ight Menu++ will disable all cheats for it
-- If it worked before, delete the `fatTable` and `patchOffsetCache` folders in `sd:/_nds/nds-bootstrap/`
-- Run the game with different settings, this includes ARM9 CPU Speed, Async card read, DS/DSi Mode, sound quality, Card read DMA, etc
-    - Using **TW**i**L**ight Menu++, change all the per-game settings to `Default`
-    - If there is a specific per-game setting that causes your issue, please report this to the [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)
-- If present, delete the cheat database (`usrcheat.dat`) in `sd:/_nds/TWiLightMenu/extras`
-- [Re-dump the ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) to ensure that it is not corrupted
-- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
-- If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub
-    - Check the closed issues too in case there has already been an issue closed in preference a different one
-    - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
-- If no solution has been found at this point, please update the [compatibility list](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
+#### ROM saya bermasalah, ini bagaimana?
+- Pastikan [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest) dan [**TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) sudah di versi terkini (cara memperbarui ada di setiap laman *release*)
+- Lihat [daftar kompatibilitas nds-bootstrap](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/htmlview#gid=0) untuk mencari tahu jika ada isu yang sama pada versi terkini nds-bootstrap
+- Coba lepas semua *cheat* permainan tersebut karena mungkin ada *cheat* yang tidak kompatibel nds-bootstrap, lepas semua *cheat* dengan tombol <kbd class="l">L</kbd> di menu *cheat* permainan saat di **TW**i**L**ight Menu++
+- Jika tadi bisa, hapus folder `fatTable` dan `patchOffsetCache` di `sd:/_nds/nds-bootstrap/`
+- Coba ubah setelan tiap-permainan sebelum main, seperti Cepat CPU ARM9, Bacaan Kartu Tak Selaras, Mode DS/DSi, mutu suara, DMA Bacaan Kartu, dll
+    - Di setelan tiap-permainan **TW**i**L**ight Menu++, ubah semua ke `Bawaan`
+    - Jika ada bentuk setelan tertentu yang ternyata bermasalah, mohon laporkan ke [repositori GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
+- Jika ada pangkalan data *cheat* (`usrcheat.dat`), hapus di `sd:/_nds/TWiLightMenu/extras`
+- [*Dump* ulang kaset](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) agar yakin ROM tidak rusak
+- Jika langkah-langkah di atas sudah diikuti, tanya ke [server Discord](https://discord.gg/yD3spjv)
+- Jika di server berkata ini isu nds-bootstrap, lihat dulu permainan tersebut sudah dilaporkan atau belum di GitHub
+    - Lihat juga label isu yang tutup, mungkin saja isu tersebut ditutup karena sama dengan isu lain
+    - Jika belum dicantum label isu Github, silakan buat isu baru
+- Jika sampai sini tidak ditemukan solusi, mohon tuliskan di [daftar kompatibilitas](https://wiki.ds-homebrew.com/nds-bootstrap/testing)
 
-#### Why are there issues with ROM loading, even though they're run natively?
-nds-bootstrap patches the ROM functions to run from an SD card, as the ROMs are hardcoded to read from Slot-1. There are also timing issues and AP measures (which most are already removed), both of which will cause the ROMs to not work properly.
+#### Kenapa ROM susah dibaca, padahal sudah dijalankan lokal?
+nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihkan ke kartu SD. Belum lagi masalah pewaktuan dan tindakan AP (sebagian besar sudah dihilangkan) yang keduanya membuat ROM tidak berfungsi benar.
 
-#### Kenapa menggunakan nds-bootstrap daripada flashcard biasa?
-- Certain compatible ROMs are loaded into RAM, allowing for load times to be faster than even normal Game Cards
-- You can expand the VRAM memory bus to 32-bit
-- Utilize the DSi's additional CPU speed, allowing for better performance in some games
-- Enhance your audio with 48 kHz
-- Gunakan mode DSi, agar fitur DSi boleh digunakan
-- Less battery power is consumed
-- Using certain Game Cards, you are able to use IR in your application
-- nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
-- The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-     - Currently, only *Nintendo DS Browser* emulates it
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Take screenshots and edit values in the RAM using the in-game menu
+#### Kenapa lebih baik nds-bootstrap daripada *flashcard* biasa?
+- ROM tertentu bisa dimuat ke RAM, agar bisa dibaca lebih cepat daripada kaset biasa
+- Bisa memperluas bus memori VRAM sampai 32-bit
+- Memanfaatkan cepat CPU tambahan DSi, agar kinerja beberapa permainan meningkat
+- Memperbagus audio ke 48 kHz
+- Mampu ke mode DSi, agar ada akses fitur DSi
+- Lebih sedikit menguras baterai
+- Jika disisip kaset tertentu, fitur IR bisa digunakan pada aplikasi
+- nds-bootstrap bersumber terbuka, sehingga pengembang bisa terus mengatasi kutu dan memperbaruinya atau hal lainnya, bahkan jika sudah tidak diurus
+- Memory Expansion Pak DS bisa diemulasi untuk permainan yang perlu pengaya ini
+     - Saat ini, baru diemulasi di *Nintendo DS Browser*
+- Bisa menukar layar atas dan bawah di permainan tertentu untuk bermain lebih nyaman, atau untuk layar yang rusak atau dilepas
+- Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
 
-#### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
-- Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
-- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of a DSi-Enhanced title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem.
-- If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
-- Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
-- Take screenshots and edit values in the RAM using the in-game menu
+#### DS/DS Lite: Kenapa perlu nds-bootstrap di *flashcard* DS?
+- ROM tertentu bisa dimuat ke Memory Expansion Pak (atau *flashdisk* Slot-2 yang berisi RAM), agar bisa dibaca lebih cepat daripada kaset biasa
+- 400+ DSiWare bisa dijalankan dengan tambalan sekemas dan ROM Donor *DSi-Enhanced*
+     - Mohon diingat nds-bootstrap akan selalu digunakan untuk DSiWare, terlepas dari pengaturan `Pemuat Permainan` di TWLMenu++
+     - Tidak semua DSiWare bisa menyimpan karena susahnya menambah fitur simpan, dan/atau simpanan ditampung lebih dari satu berkas di sistem berkas.
+- Jika *kernel flashcard* tidak bisa membaca ROM tertentu, nds-bootstrap bisa digunakan dan diatur di tiap-permainan
+- Bisa menukar layar atas dan bawah di permainan tertentu untuk bermain lebih nyaman, atau untuk layar yang rusak atau dilepas
+- Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
 
-#### Donor ROM itu apa?
-In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's ARM7 (and ARM7i, if available) binary to the game set to run, in place of the game's own said binary.     
-A Donor ROM can be set using **TW**i**L**ight Menu++.
-- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require a DSi-Enhanced ROM set as a Donor ROM
-- **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
-     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
-- **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
+#### Apa itu ROM Donor?
+Jika permainan tidak bisa jalan, nds-bootstrap akan "menyumbangkan" ARM7 (dan ARM7i, jika ada) dari ROM lain untuk mengganti biner permainan tersebut sebagai donor.     
+ROM Donor bisa diatur di **TW**i**L**ight Menu++.
+- ***Flashcard* di mode DS:** ROM DSiWare/*DSi-Exclusive* yang didukung perlu ROM *DSi-Enhanced* sebagai ROM Donor
+- **DSiWarehax:** Karena permainan *DSi-Enhanced* dan (hampir semua) DSiWare/*DSi-Exclusive* saling punya pengaturan MBK berbeda, maka yang *DSi-Enhanced* perlu ROM Donor agar bisa jalan di mode DSi. Jika DSiWare/*DSi-Exclusive* diatur jadi ROM Donor, permainan *DSi-Enhanced* akan bisa dijalankan sesuai pengaturan MBK eksploit DSiWare
+     - Di DSi, jika **TW**i**L**ight Menu++ mendeteksi belum ada yang jadi ROM Donor, *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis jadi ROM Donor
+- **CycloDS iEvolution:** Sama halnya seperti DSiWarehax, tapi ROM DSiWare/*DSi-Exclusive* perlu permainan *DSi-Enhanced* sebagai ROM Donor, bukan sebaliknya
 
-#### Donor ROM apa yang terbaik?
-There is no *best* one to use. Most ROMs of TWL titles can be set as a Donor ROM.
+#### ROM Donor apa yang terbaik?
+Tidak ada yang *terbaik* digunakan. Hampir semua ROM TWL bisa diatur jadi ROM Donor.
 
-Examples:
-- **DSiWarehax on DSi:** *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s), if one hasn't been set yet.
-- **DSiWarehax on 3DS:** Dump the DS WiFi Settings ROM (SDK5.5) using GodMode9, and set it as a Donor ROM.
+Contoh:
+- **DSiWarehax di DSi:** *Nintendo DSi Sound* dan/atau judul eksploit absah yang dijalankan akan otomatis jadi ROM Donor, jika belum ada yang diatur.
+- **DSiWarehax di 3DS:** *Dump* dulu ROM DS WiFi Settings (SDK5.5) dengan GodMode9, lalu atur jadi ROM Donor.
 
-#### Why can't I set a Donor ROM?
-If there's a title requiring a Donor ROM, and the ROM TWLMenu++ stated to find doesn't show the option to set it as one (provided you've scrolled down), then find another ROM to set as a donor.
+#### Kenapa ada ROM Donor yang tidak bisa?
+Jika ada judul yang memerlukan ROM Donor, dan ROM yang dianjur TWLMenu++ malah tidak ada opsi untuk jadi ROM Donor (jika sudah gulir ke bawah), maka cari ROM lain sebagai donor.
 
-#### What is a nightly and where do I get it?
-A nightly build is build for the latest commit. Nightly builds may be unstable, but has the most recent bugfixes added. You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repository](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
+#### Apa itu *nightly* dan di mana dapatnya?
+Versi *nightly* adalah *commit* paling baru. Versi *nightly* mungkin tidak stabil, tapi kutu (*bug*) sudah diperbaiki duluan di sini. Unduh nds-bootstrap versi *nightly* [di repositori GitHub TWLBot/Builds](https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z).
 
-#### Why do my cheats not work?
-- Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
-  - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
-- Most cheats were developed for use in DS mode and may not work correctly while running in DSi mode. If the game is DSi-Enhanced, try setting it to run in DS mode
-- The way E-type cheats are implemented in nds-bootstrap is currently broken, meaning they may or may not work. Your cheat probably uses that type, and it is not known when this issue will be fixed
+#### Kenapa *cheat* tidak berfungsi?
+- Beberapa *cheat* mungkin perlu kombinasi tombol atau syarat lain agar aktif. Coba periksa dulu keterangan di tiap *cheat*
+  - Di **TW**i**L**ight Menu++, tekan Y untuk melihat keterangan *cheat* tertentu, jika ada
+- Hampir semua *cheat* dibuat untuk di mode DS dan mungkin tidak berfungsi di mode DSi. Jika permainan berjenis *DSi-Enhanced*, coba atur ke mode DS
+- Implementasi *cheat* E-type di nds-bootstrap masih kacau, kadang berfungsi kadang tidak. Mungkin *cheat* Anda sejenis itu, dan ini masih belum pasti kapan akan diperbaiki
 
-For more info on cheats, check the [Action Replay cheats section of the Retail ROMs page](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
+Untuk info lanjut terkait *cheat*, lihat [bagian *Cheat* Action Replay dari laman ROM Retail](https://wiki.ds-homebrew.com/ds-index/retail-roms#action-replay-cheats).
 
-#### How do I take screenshots?
-You can take screenshots of the main screen from the in-game menu. By default the in-game menu is opened by pressing <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>, then select `Screenshot...`, change the VRAM bank if needed, and press <kbd class="face">A</kbd> to save the screenshot.
+#### Bagaimana cara menangkap layar?
+Menangkap layar utama bisa dilakukan dari menu *in-game*. Buka menu *in-game* secara bawaan dengan tombol <kbd class="l">L</kbd> + <kbd>Bawah</kbd> + <kbd>SELECT</kbd>, dan pilih `Tangkap Layar...`, ubah bank VRAM jika perlu, lalu tekan <kbd class="face">A</kbd> untuk menangkap layar.
 
-To view your screenshots on your PC you will need to extract `sd:/_nds/nds-bootstrap/screenshots.tar`, inside will be all of your screenshots in BMP format. There will also be additional empty BMP files to pad the TAR file out to 50, these can simply be ignored or deleted.
+Untuk melihat tangkapan layarnya di komputer, ekstrak `sd:/_nds/nds-bootstrap/screenshots.tar`; berkas ini berisi semua tangkapan layar berformat BMP. Tersedia 50 slot berkas BMP kosong yang bisa diisi tangkapan layar, yang masih kosong boleh diabaikan atau dihapus.
 
-nds-bootstrap can only fit 50 screenshots in the `screenshots.tar`, so once you're getting close you should extract them and delete the TAR, nds-bootstrap will then generate a new TAR next time you load a game.
+Aplikasi nds-bootstrap hanya bisa muat 50 tangkapan layar di `screenshots.tar`. Jika hampir penuh, ekstrak dulu berkas TAR lalu boleh hapus, nds-bootstrap akan membuat TAR baru saat memuat permainan.
 
-#### What is the main screen and why can only it have screenshots?
-The "main" screen is whichever screen is being drawn using the main engine, which can be either physical screen. Typically it's the screen where the main gameplay is happening and if one screen has 3D that's always the main screen. It'll always be the top screen when in the in-game menu.
+#### Apa itu "layar utama" dan kenapa menangkap layar hanya di situ?
+Layar "utama" adalah layar fisik atas atau bawah yang dipermuncul gambar oleh mesin utama. Biasanya layar yang menampilkan jalan permainan atau berunsur 3D yang selalu layar utama. Di menu *in-game* utamanya akan selalu layar atas.
 
-The reason screenshots can only be taken of the main screen is a hardware limitation of the Nintendo DS, it doesn't have a framebuffer but it does have a display capture feature which allows main engine's output to be captured. This is most often used by games to render 3D to both screens but can also be used to take screenshots.
+Alasan kenapa hanya bisa menangkap layar utama karena keterbatasan peranti keras Nintendo DS, tidak ada penyangga bingkai (*framebuffer*) tapi ada fitur tangkap tampilan yang menangkap hasil keluaran mesin utama. Ini sering kali digunakan permainan untuk merender 3D ke kedua layar tapi juga bisa untuk menangkap layar.
 
-#### What is the "VRAM bank" I'm asked to select when taking a screenshot?
-Ketika menangkap layar dengan nds-bootstrap maka fitur tangkap tampilan DS digunakan untuk menangkap gambar dari mesin utama, namun tangkapan ini hanya dapat ditulis ke VRAM dan memerlukan salah satu dari empat bank pertama. nds-bootstrap will try to select a bank that isn't being used for the main engine so usually you can simply ignore this, however in some case all four of the possible VRAM banks will be in use for the main engine and thus it's not possible to take a perfect screenshot and you will need to select the bank you find looks best.
+#### Apa itu "Bank VRAM" yang perlu dipilih saat menangkap layar?
+Saat menangkap layar dengan nds-bootstrap maka fitur tangkap tampilan DS digunakan untuk menangkap gambar dari mesin utama, namun tangkapan ini hanya bisa ditulis ke VRAM dan memerlukan salah satu dari empat bank pertama. nds-bootstrap akan langsung memilih bank yang tidak sedang digunakan mesin utama, jadi biasanya ini boleh diabaikan; namun terkadang keempat bank VRAM akan digunakan mesin utama yang berarti tangkapan layar akan tidak bagus sehingga harus memilih bank yang sekiranya bagus.
 
-#### Can I play games online using nds-bootstrap?
-Playing games online with nds-bootstrap will work exactly as it does with real Game Cards. See the [Wi-Fi](../ds-index/wifi) page for information on connecting to an alternate online service.
-- If you are playing a DSi-Enhanced game in DS mode, you are restricted to unsecured or WEP network connections
+#### Apakah bisa bermain daring dengan nds-bootstrap?
+Bermain daring dengan nds-bootstrap akan berfungsi persis seperti di kaset sungguhan. Lihat laman [Wi-Fi](../ds-index/wifi) ini untuk informasi cara menyambung layanan daring alternatif.
+- Jika permainan *DSi-Enhanced* dijalankan di mode DS, sambungan jejaring akan terbatas di keamaan WEP atau tidak ada
 
-#### Can setting a game to use 133 MHz (TWL) CPU speed damage my console?
-Tidak. While not all games may function correctly under this setting, the DSi and 3DS were designed to be able to reach this CPU speed.
-- If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
+#### Apakah mengatur cepat CPU permainan ke 133 MHz (TWL) akan merusak konsol?
+Tidak. Walaupun tidak semua permainan berfungsi di pengaturan ini, DSi dan 3DS memang dirancang mampu di kecepatan CPU ini.
+- Jika permainan terjadi isu saat dijalankan pada cepat CPU 133 MHz (TWL), buat isu baru di [repositori GitHub **TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/issues) dan jelaskan efeknya, nanti cepat CPU ini akan didaftarhitamkan untuk permainan tersebut
 
-#### Can I speed up games using nds-bootstrap?
-While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
+#### Apakah nds-bootstrap bisa mempercepat permainan?
+Walaupun cepat CPU TWL bisa meredakan sendat, nds-bootstrap tidak bisa mempercepat lebih dari spesifikasi yang ada.
 
-#### Masukan tombol apakah dapat dipetakan ulang dengan nds-boostrap?
-Tidak. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
+#### Apakah nds-boostrap bisa memetakan tombol?
+Tidak. Karena nds-bootstrap menjalankan permainan secara lokal, fungsi tombol tidak bisa diubah. Satu-satunya cara ya dengan memodif permainan itu sendiri, atau dengan *cheat*.
 
-#### Bagaimana cara bermain ROM Pokémon teracakadut (randomized) dengan nds-bootstrap?
-Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
-- Randomized ROMs cannot be AP-patched on-the-fly like the vanilla versions of these games are, because randomizing a ROM has far too many unique possible outputs to be reasonably included with **TW**i**L**ight Menu++
+#### Apakah ROM Pokémon *randomized* bisa dimainkan di nds-bootstrap?
+Pokémon HeartGold/SoulSilver, Black/White, dan Black 2 / White 2 terdapat kode anti-pembajakan yang harus ditambal sendiri *sebelum* mengacakadut ROM. Caranya dengan [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
+- ROM teracakadut (*randomized*) tidak bisa ditambal AP sambil jalan seperti versi ori permainannya, karena mengacakadut ROM hasilnya akan terus berbeda untuk disertakan tambalannya juga di **TW**i**L**ight Menu++
 
-#### What are DSi binaries? How do I get them?
-DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
+#### Apa itu biner DSi? Bagaimana dapatnya?
+Sebagian biner DSi adalah kode permainan yang digunakan di konsol DSi (dan juga 3DS) untuk mengakses fitur DSi, seperti kamera dan keamanan Wi-Fi lebih baik. Men-*dump* biner dengan cara lama mungkin masih kurang benar.
 
-- ROMs without the DSi binaries can still be played on any console through DS mode, in which it will run as if the game were being played on a Nintendo DS Phat/Lite
+- ROM tanpa biner DSi masih bisa dimainkan di konsol apa pun lewat mode DS, tapi akan dijalankan seolah-olah di spesifikasi Nintendo DS Phat/Lite
 
-To obtain a ROM that contains the DSi binaries, [re-dump your Game Card](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).
+Untuk mendapat ROM dengan biner DSi, coba [*dump* ulang Kaset Permainan](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games).

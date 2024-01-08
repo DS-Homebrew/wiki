@@ -198,20 +198,59 @@ Különböző opciókat konfigurálhatsz arról, hogy hogyan kerüljön rajzolá
 | `FontPaletteDialog2`       | A felülíró színe a betűtípusnak a párbeszédablakokhoz                                                                                                           | 0xDEF7               | 0xDEF7               |
 | `FontPaletteDialog3`       |                                                                                                                                                                 | 0xC631               | 0xC631               |
 | `FontPaletteDialog4`       |                                                                                                                                                                 | 0xA108               | 0xA108               |
-| `FontPaletteOverlay1`      | A felülíró átlátszó színe a betűtípusnak az pátlapolt szövegekhez                                                                                               | 0x0000               | 0x0000               |
-| `FontPaletteOverlay2`      | A felülíró színe a betűtípusnak az pátlapolt szövegekhez                                                                                                        | 0xDEF7               | 0xDEF7               |
+| `FontPaletteOverlay1`      | A felülíró átlátszó színe a betűtípusnak az átlapolt szövegekhez                                                                                                | 0x0000               | 0x0000               |
+| `FontPaletteOverlay2`      | A felülíró színe a betűtípusnak az átlapolt szövegekhez                                                                                                         | 0xDEF7               | 0xDEF7               |
 | `FontPaletteOverlay3`      |                                                                                                                                                                 | 0xC631               | 0xC631               |
 | `FontPaletteOverlay4`      |                                                                                                                                                                 | 0xA108               | 0xA108               |
 | `FontPaletteUsername1`     | A felülíró átlátszó színe a betűtípusnak a felhasználó névhez                                                                                                   | 0x0000               | 0x0000               |
 | `FontPaletteUsername2`     | A felülíró színe a betűtípusnak a felhasználó névhez                                                                                                            | 0xDEF7               | 0xDEF7               |
 | `FontPaletteUsername3`     |                                                                                                                                                                 | 0xC631               | 0xC631               |
 | `FontPaletteUsername4`     |                                                                                                                                                                 | 0xA108               | 0xA108               |
-| `StartTextUserPalette`     | Használja-e vagy sem a DS profil színt a kezdő szöveg palettájához                                                                                              |                      | 1                    |
-| `StartBorderUserPalette`   | Használja-e vagy sem a DS profil színt a kezdő keret palettájához                                                                                               |                      | 1                    |
+| `BipsUserPalette`          | Használja-e vagy sem a DS profil színt palettának a bips-hez a gördítősávon                                                                                     |                      | 0                    |
+| `BoxUserPalette`           | Használja-e vagy sem a DS profil színt palettának a dobozokhoz, amik a játék ikonokat tartalmazzák a DSi témában                                                |                      | 0                    |
+| `BoxEmptyUserPalette`      | Használja-e vagy sem a DS profil színt palettának az üres dobozokhoz a 3DS témában                                                                              | 0                    |                      |
+| `BoxFullUserPalette`       | Használja-e vagy sem a DS profil színt palettának a dobozokhoz, amik a játék ikonokat tartalmazzák a 3DS témában                                                | 0                    |                      |
+| `BraceUserPalette`         | Használja-e vagy sem a DS profil színt palettának a merevítőhöz a játéklista elején és végén                                                                    |                      | 0                    |
+| `BubbleUserPalette`        | Használja-e vagy sem a DS profil színt palettának a cím buborék hegyéhez                                                                                        | 0                    | 0                    |
 | `ButtonArrowUserPalette`   | Használja-e vagy sem a DS profil színt a nyíl gombok palettájához, amik a képernyő alján kerülnek megjelenítésre                                                |                      | 1                    |
-| `MovingArrowUserPalette`   | Használja-e vagy sem a DS profil színt a nyilak palettájához, amik ikonok mozgatásakor kerülnek megjelenítésre                                                  |                      | 1                    |
+| `CornerButtonUserPalette`  | Használja-e vagy sem a DS profil színt palettának a DSi Menu és DSi Settings ikonhoz a SELECT menüben                                                           |                      | 0                    |
+| `CursorUserPalette`        | Használja-e vagy sem a DS profil színt palettának a kurzorhoz                                                                                                   | 0                    |                      |
+| `DialogBoxUserPalette`     | Használja-e vagy sem a DS profil színt a párbeszéd ablak palettájához                                                                                           | 0                    | 1                    |
+| `FolderUserPalette`        | Használja-e vagy sem a DS profil színt palettának a mappákhoz                                                                                                   | 0                    | 0                    |
 | `LaunchDotsUserPalette`    | Használja-e vagy sem a DS profil színt az indítási pontok palettájához                                                                                          |                      | 1                    |
-| `DialogBoxUserPalette`     | Használja-e vagy sem a DS profil színt a párbeszéd ablak palettájához                                                                                           |                      | 1                    |
+| `MovingArrowUserPalette`   | Használja-e vagy sem a DS profil színt a nyilak palettájához, amik ikonok mozgatásakor kerülnek megjelenítésre                                                  |                      | 1                    |
+| `ProgressUserPalette`      | Használja-e vagy sem a DS profil színt palettának a betöltés folyamatban pörgőhöz                                                                               | 1                    | 1                    |
+| `ScrollWindowUserPalette`  | Használja-e vagy sem a DS profil színt palettának a görgetősávon a görgetőablak hátterének                                                                      |                      | 0                    |
+| `SmallCartUserPalette`     | Használja-e vagy sem a DS profil színt palettának a cartridge ikonokhoz                                                                                         | 0                    | 0                    |
+| `StartBorderUserPalette`   | Használja-e vagy sem a DS profil színt a kezdő keret palettájához                                                                                               |                      | 1                    |
+| `StartTextUserPalette`     | Használja-e vagy sem a DS profil színt a kezdő szöveg palettájához                                                                                              |                      | 1                    |
+| `WirelessIconsUserPalette` | Használja-e vagy sem a DS profil színt palettának a vezetéknélküli ikonokhoz                                                                                    | 0                    | 0                    |
+| `IconA26UserPalette`       | Használja-e vagy sem a DS profil színt palettának az Atari 2600 ikonhoz                                                                                         | 0                    | 0                    |
+| `IconCOLUserPalette`       | Használja-e vagy sem a DS profil színt palettának a ColecoVision ikonhoz                                                                                        | 0                    | 0                    |
+| `IconGBUserPalette`        | Használja-e vagy sem a DS profil színt palettának a Game Boy ikonhoz                                                                                            | 0                    | 0                    |
+| `IconGBAUserPalette`       | Használja-e vagy sem a DS profil színt palettának a Game Boy Advance ikonhoz                                                                                    | 0                    | 0                    |
+| `IconGBAModeUserPalette`   | Használja-e vagy sem a DS profil színt palettának a natív GBA mód ikonhoz                                                                                       | 0                    | 0                    |
+| `IconGGUserPalette`        | Használja-e vagy sem a DS profil színt palettának a Game Gear ikonhoz                                                                                           | 0                    | 0                    |
+| `IconIMGUserPalette`       | Használja-e vagy sem a DS profil színt palettának a kép ikonhoz                                                                                                 | 0                    | 0                    |
+| `IconINTUserPalette`       | Használja-e vagy sem a DS profil színt palettának az Intellivision ikonhoz                                                                                      | 0                    | 0                    |
+| `IconM5UserPalette`        | Használja-e vagy sem a DS profil színt palettának a Sord M5 ikonhoz                                                                                             | 0                    | 0                    |
+| `IconManualUserPalette`    | Használja-e vagy sem a DS profil színt palettának a kézi ikonhoz                                                                                                | 0                    | 0                    |
+| `IconMDUserPalette`        | Használja-e vagy sem a DS profil színt palettának a Genesis/Mega Drive ikonhoz                                                                                  | 0                    | 0                    |
+| `IconNESUserPalette`       | Használja-e vagy sem a DS profil színt palettának a NES/Famicom ikonhoz                                                                                         | 0                    | 0                    |
+| `IconNGPUserPalette`       | Használja-e vagy sem a DS profil színt palettának a Neo Geo Pocket ikonhoz                                                                                      | 0                    | 0                    |
+| `IconPCEUserPalette`       | Használja-e vagy sem a DS profil színt palettának a PC Engine/TurboGrafx-16 ikonhoz                                                                             | 0                    | 0                    |
+| `IconPLGUserPalette`       | Használja-e vagy sem a DS profil színt palettának a DSTWO plugin ikonhoz                                                                                        | 0                    | 0                    |
+| `IconSettingsUserPalette`  | Használja-e vagy sem a DS profil színt palettának a DSi Settings ikonhoz                                                                                        | 0                    | 0                    |
+| `IconSGUserPalette`        | Használja-e vagy sem a DS profil színt palettának az SG-1000 ikonhoz                                                                                            | 0                    | 0                    |
+| `IconSMSUserPalette`       | Használja-e vagy sem a DS profil színt palettának a Master System ikonhoz                                                                                       | 0                    | 0                    |
+| `IconSNESUserPalette`      | Használja-e vagy sem a DS profil színt palettának az SNES ikonhoz                                                                                               | 0                    | 0                    |
+| `IconUnknownUserPalette`   | Használja-e vagy sem a DS profil színt palettának az ismeretlen (hiányzó) ikonhoz                                                                               | 0                    | 0                    |
+| `IconWSUserPalette`        | Használja-e vagy sem a DS profil színt palettának a WonderSwan ikonhoz                                                                                          | 0                    | 0                    |
+| `UsernameUserPalette`      | Használja-e vagy sem a DS profil színt palettának a felhasználónévhez                                                                                           | 1                    | 1                    |
+| `ProgressBarUserPalette`   | Használja-e vagy sem a DS profil színt a folyamatjelző-sáv színének                                                                                             | 1                    | 1                    |
+| `ProgressBarColor`         | A folyamatjelző-sáv színe, ha a `ProgressBarUserPalette` kikapcsolt                                                                                             | 0x7C00               | 0x7C00               |
+| `UseAlphaBlend`            | Összemossa-e vagy sem a képernyő felső részén megjelenő szöveg (dátum/idő és felhasználónév) és a háttér színét                                                 | 1                    | 1                    |
+| `DarkLoading`              | Feketére menjen-e vagy sem színátmenettel a fehér helyett a töltő képernyőkön                                                                                   | 0                    | 0                    |
 | `RenderPhoto`              | Kerüljön-e vagy sem a fénykép kirajzolásra a felső képernyőn                                                                                                    | 0                    | 1                    |
 | `RotatingCubesRenderY`     | A forgó kockák rajzolásának Y pozíciója a felső képernyőn                                                                                                       | 78                   |                      |
 | `PlayStartupJingle`        | Használja-e vagy sem az indítási hangot, mielőtt a fő BGM háttérzene elindul. Tekintsd meg az [Egyedi hangeffektusok](custom-dsi-3ds-sfx) oldalt a részletekért | 1                    | 0                    |
@@ -225,6 +264,31 @@ A DSi és a 3DS témák támogatják továbbá az egyedi zenét. Lásd a [DSi/3D
 
 ## Egyéni betűtípusok
 [Egyéni betűtípusokat](custom-fonts) rakhatsz `font` mappába a szkinből történő használathoz. Hozzáadhatsz különböző felülírási betűkészleteket dátumhoz & időhoz a `date_time.nftr` használatával, és konzol felhasználó nevet a `username.nftr` használatával.
+
+## Egyéni paletták
+A palettás textúrákhoz (`grf` mappa) opcionálisan hozzáadhatsz felülbírálható palettakészleteket, amelyek akkor kerülnek felhasználásra, ha a megfelelő `UserPalette` beállítás engedélyezett. A palettakészlet-fájlok a [, ezzel a szerkesztővel](https://skinpaltool.dvdo.dev/) hozhatók létre. A szerkesztő használatakor importáld a képet, amellyel dolgozni szeretnél, majd hozz létre egy palettát mind a 16 DS profil színhez. Használhatod kiindulási pontként ezt a [paletta-példafájlt](/assets/files/example-palette.bin).
+
+A paletta-gyűjtemény 16 sora megfelel az egyes profilszíneknek, és a következő sorrendben kell elhelyezkedniük:
+1. Szürkéskék
+2. Barna
+3. Vörös
+4. Rózsaszín
+5. Narancssárga
+6. Sárga
+7. Limezöld
+8. Zöld
+9. Sötétzöld
+10. Türkiz
+11. Cián/Világoskék
+12. Kék
+13. Sötétkék/Indigo
+14. Viola/Sötétlila
+15. Lila
+16. Magenta
+
+Miután létrehoztál egy palettafájlt, helyezd el a `palettes` mappába. A palettafájl nevének meg kell egyeznie a kép nevével, de a `.bin` kiterjesztéssel (pl. `start_border.bin` használt a `start_border.bmp` esetében).
+
+A `username.bin` palettafájlt is elhelyezheted, hogy megváltoztasd a felhasználónév betűtípus palettáit. Győződj meg róla, hogy a paletta szerkesztőd a `Font Mode` beállításra állítottad be a fájl létrehozásakor.
 
 ## 3. rész: Hozzáadás a TWiLight Menu++-hoz
 Ha szerkesztettél néhány grafikát és szeretnéd tesztelni a szkinjeidet, csak másold a szkin foldert (a mappát, ami a `background`, `battery`, és egyéb mappákat tartalmazza) az `sd:/_nds/TWiLightMenu/3dsmenu/themes/` vagy az `sd:/_nds/TWiLightMenu/dsimenu/themes/` mappába attól függően, hogy 3DS-hez vagy a DSi-hez tartoznak.

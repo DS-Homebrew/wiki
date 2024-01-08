@@ -41,7 +41,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 
 #### If you don't have an R4(i) Ultra
 
-1. Create a file called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
+1. Create a file or folder called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
 1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
 1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
 1. Open TWLMenu++ Settings

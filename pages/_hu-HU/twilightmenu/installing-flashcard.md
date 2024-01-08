@@ -30,6 +30,9 @@ Vedd figyelembe, hogy ez csak akkor működik, ha a flashcard-od beállított au
 Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon futtatását. Ha az alábbi lépések nem vonatkoznak a flashcard-odra, átugorhatod ezt a szakaszt.
 {:.alert .alert-warning}
 
+Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy csalásokat használj, ha a játékokat így indítod. Ha továbbra is szeretnéd elérni a csalás funkcionalitást, lépd át ezt a részt.
+{:.alert .alert-warning}
+
 1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
    - A `Flashcart Loader` mappában található egy README.txt fájl, amely segít megtalálni, hogy melyik flashcart betöltő a megfelelő a flashcard-odhoz.
    - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
@@ -55,4 +58,5 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 
    Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/download/35737/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
+      - Ne másolda `TTMenu.dat` közvetlenül; ez megtöri az automatikus indítást és az YSMenu soft reset-et
 1. Nyisd meg a TWLMenu++ Beálltásokat, válts az `nds-bootstrap beállítások` oldalra és állítsd be az `nds-bootstrap használatát` `Kernel`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett

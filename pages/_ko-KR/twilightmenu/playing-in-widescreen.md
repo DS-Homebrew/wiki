@@ -11,8 +11,8 @@ This section requires a 3DS family console, running a modern CFW environment fro
 {:.alert .alert-info}
 
 ### 설치하기
-1. FBI를 열고 `Remote Install`에 진입합니다. 그러고 나서 `Scan QR Code`를 선택합니다.
-1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치합니다.<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. FBI를 열고 `Remote Install`에 진입합니다. 그러고 나서 `Scan QR Code`를 선택하세요
+1. 아래의 QR 코드를 스캔해서 최신 버전의 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)를 설치하세요<br> ![Universal-Updater QR 코드](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. FBI를 끝내고, HOME Menu에서부터 Universal-Updater를 열어 주세요.
 1. Install the TWPatch package
    - If your console is unable to access the Internet, you can download [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) directly, then install it with FBI

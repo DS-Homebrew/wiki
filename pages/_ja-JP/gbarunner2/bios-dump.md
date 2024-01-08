@@ -2,45 +2,45 @@
 lang: ja-JP
 layout: wiki
 section: gbarunner2
-title: GBA BIOS Dumping
-description: How to extract the Nintendo GBA BIOS from your console
+title: GBA BIOSダンピング
+description: ニンテンドーGBAコンソールからBIOSを抽出する方法は
 tabs:
   - 
-    3ds-sd-card: 3DS with open_agb_firm
-    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
+    3ds-sd-card: open_agb_firmを搭載した3DS
+    gba-flashcart: GBAモードフラッシュカートリッジを装備したGBA/DS/DS Lite
 ---
 
-While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
+ほとんどのGBAエミュレータはGBAゲームを単独で問題なく再生できますが、一部のエミュレータやハイパーバイザー、例えばGBARunner2のようなものは、一部のタイトルを正しく再生するためにBIOSファイルが必要な場合があります。
 
-There are two distinct ways to achieve this, using:
-- a 3DS with custom firmware, OR
-- a GBA/DS/DS Lite with a GBA-mode flashcart
+これを達成するためには、2つの異なる方法があります。以下の方法を使用します：
+- カスタムファームウェアを搭載した3DS、または
+- GBAモードフラッシュカートリッジを使用したGBA/DS/DS Lite
 
 {% capture tab-3ds-sd-card %}
-### Part 1: Getting the required files
-1. Download [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (the `.7z` file)
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Create a folder named `payloads` inside the `/luma` folder if it does not already exist
-1. Copy `open_agb_firm.firm` from the open_agb_firm `.7z` file to the `/luma/payloads` folder
-1. Copy `Bios_Dumper.gba` to the root of your SD card
-1. Reinsert your SD card into your device
+### パート1：必要なファイルを取得する
+1. [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest)（`.7z`ファイル）をダウンロードしてください
+1. [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)をダウンロードしてください
+1. 既に存在しない場合、`/luma`フォルダ内に`payloads`という名前のフォルダを作成してください
+1. `open_agb_firm.firm`をopen_agb_firmの`.7z`ファイルから`/luma/payloads`フォルダにコピーしてください
+1. `Bios_Dumper.gba`をSDカードのルートにコピーしてください
+1. SDカードを再度デバイスに挿入してください
 
-### Part 2: Bios_Dumper
-1. Press and hold <kbd>START</kbd>, and while holding <kbd>START</kbd>, power on your device
-    - This will launch open_agb_firm
-    - If it loads the `Luma3DS Chainloader`, select `open_agb_firm` from this menu
-    - If it loads to something else, you did not copy `open_agb_firm.firm` to the correct folder on your SD card
-1. From open_agb_firm, launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### パート2：Bios_Dumper
+1. <kbd>START</kbd>ボタンを押しながら、<kbd>START</kbd>ボタンを押し続けたまま、デバイスの電源を入れてください
+    - これにより、open_agb_firmが起動します
+    - `Luma3DS Chainloader`が読み込まれた場合、このメニューから`open_agb_firm`を選択してください
+    - それ以外の何かが読み込まれた場合、`open_agb_firm.firm`を正しいフォルダにコピーしていない可能性があります
+1. open_agb_firmから、`Bios_Dumper.gba`を起動してください
+1. 画面は赤く点滅し、その後緑く点滅します
+1. 約5秒間お待ちください
+1. デバイスの電源を切ってください
 
 {% capture upload-bios-text %}
-From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
+SDカードから、`/3ds/open_agb_firm/saves/Bios_Dumper.sav`をこちらにアップロードしてください：
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### パート3：生成されたセーブファイルからBIOSを展開してください
+1. SDカードをコンピュータに挿入してください
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -48,24 +48,24 @@ From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
 
 
 {% capture tab-gba-flashcart %}
-### Part 1: Getting the required files
-1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Copy `Bios_Dumper.gba` to the root of your flashcart's SD card
-1. Reinsert your SD card into your flashcart
-1. Reinsert your GBA flashcart into your cartridge
+### パート1：必要なファイルを取得する
+1. [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)をダウンロードしてください
+1. `Bios_Dumper.gba`をフラッシュカートのSDカードのルートにコピーしてください
+1. SDカードをフラッシュカートリッジに再挿入してください
+1. GBAフラッシュカートリッジを再度カートリッジに挿入してください
 
-### Part 2: Bios_Dumper
-1. Launch your flashcart, then launch `Bios_Dumper.gba`
-1. The screen will flash red, then it will flash green
-1. Wait for about five seconds
-1. Power off your device
+### パート2：Bios_Dumper
+1. フラッシュカートリッジを起動し、その後`Bios_Dumper.gba`を起動してください
+1. 画面は赤く点滅し、その後緑く点滅します
+1. 約5秒間お待ちください
+1. デバイスの電源を切ってください
 
 {% capture upload-bios-text %}
-From your SD card, upload `Bios_Dumper.sav` here:
+SDカードから、`Bios_Dumper.sav`をこちらにアップロードしてください：
 {% endcapture %}
 
-### Part 3: Unpack the BIOS from the generated save file
-1. Insert your SD card into your computer
+### パート3：生成されたセーブファイルからBIOSを展開してください
+1. SDカードをコンピュータに挿入してください
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -74,7 +74,7 @@ From your SD card, upload `Bios_Dumper.sav` here:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-A `bios.bin` file will automatically download. This is the final GBA BIOS file.
+`bios.bin`ファイルが自動的にダウンロードされます。 これが最終的なGBA BIOSファイルです。
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

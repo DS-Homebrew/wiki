@@ -18,7 +18,7 @@ Ha régebbi verzióról frissítesz, mint a v6.8.3, kérjük mozgasd a `.sav` DS
 Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` és/vagy `.prv` DSiWare fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DSiWare ROM-ok.
 {:.alert .alert-info}
 
-Ha a v25.7.0 verziónál régebbiről frissítünk, ajánlott kitörölni a `TWiLight Menu++ Game Booter`-t, a címek listájáról FBI alkalmazással
+Ha a v25.7.0 verziónál régebbiről frissítünk, ajánlott kitörölni a `TWiLight Menu++ Game Booter`-t, a címek listájáról FBI alkalmazással.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}

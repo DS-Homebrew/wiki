@@ -41,7 +41,7 @@ A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalm
 
 #### Ha nincs R4(i) Ultra kártyád
 
-1. Hozz létre egy fájlt `primary` néven az `sd:/_nds/` mappában (nem a flashcard-ban lévőn), így a TWiLight Menu++ a beállításokat a konzol SD kártyájáról veszi, miután elindítja a flashcard-od
+1. Hozz létre egy fájlt vagy mappát `primary` néven az `sd:/_nds/` mappában (nem a flashcard-ban lévőn), így a TWiLight Menu++ a beállításokat a konzol SD kártyájáról veszi, miután elindítja a flashcard-od
 1. Kövesd [ezt](installing-flashcard) az útmutatót a`TWiLight Menu++ automatikus bootolása` ponttól kezdve
 1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-Flashcard.7z` fájlból a flashcard-od microSD kártyája gyökerébe
 1. Nyisd meg a TWLMenu++ Beállítások menüpontját

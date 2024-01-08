@@ -3,43 +3,43 @@ lang: pl-PL
 layout: wiki
 section: ds-index
 category: guides
-title: BIOS/Firmware Dumping
-description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
+title: Zrzucanie BIOS/Firmware
+description: Jak wydobyć BIOS/Firmware konsoli Nintendo DS lub DSi z Twojej konsoli
 tabs:
   - 
-    dsi-sd-card: DSi with Unlaunch
+    dsi-sd-card: DSi z oprogramowaniem Unlaunch
     flashcard: Flashcard
 ---
 
-Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:
-- a DSi with Unlaunch, OR
-- a DS/DS Lite/3DS or a DSi without Unlaunch, along with a flashcard compatible with the console
+Niektóre emulatory, takie jak melonDS, wymagają BIOS-u i oprogramowania trybu DS lub DSi, które można uzyskać poprzez wyodrębnienie ich z konsoli. Istnieją dwie odrębne metody osiągnięcia tego celu, wykorzystując:
+- DSi z Unlaunchem, LUB
+- DS/DS Lite/3DS lub DSi bez Unlauncha, wraz z kartą flash kompatybilną z konsolą
 
-The DSi method will extract both the DS-mode and DSi-mode BIOS and firmware files. The flashcard method will only extract the DS-mode files.
+Metoda DSi wyodzyska zarówno pliki BIOS-u, jak i oprogramowania trybu DS i DSi. Metoda karty flash wyodzyska tylko pliki trybu DS.
 
 {% capture tab-dsi-sd-card %}
 
-This page assumes you are running a modern CFW environment from [dsi.cfw.guide](https://dsi.cfw.guide).
+Ta strona zakłada, że korzystasz z nowoczesnego środowiska CFW dostępnego na stronie [dsi.cfw.guide](https://dsi.cfw.guide).
 {:.alert .alert-warning}
 
 ### Część 1: Pobieranie wymaganych plików
 
-1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
-1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
-1. Reinsert your SD card into your device
+1. Pobierz [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+1. Skopiuj plik `dsibiosdumper.nds` z archiwum `.7z` dsibiosdumper na główny katalog karty SD
+1. Włóż ponownie kartę SD do urządzenia
 
-### Part 2: dsibiosdumper
-1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device
-1. Your device should have booted into the Unlaunch menu
-1. Launch dsibiosdumper from the list of applications
-1. Press <kbd class="face">A</kbd> to dump everything
-1. Wait for the process to complete
-    - This can take a while
-1. After the process is complete, press <kbd>SELECT</kbd> to exit dsibiosdumper
-1. Power off your device
-1. Insert your SD card into your computer
+### Część 2: dsibiosdumper
+1. Przy wyłączonym urządzeniu, przytrzymaj następujące przyciski: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, i podczas trzymania ich jednocześnie, włącz urządzenie
+1. Twoje urządzenie powinno uruchomić się w menu Unlaunch
+1. Uruchom dsibiosdumper z listy aplikacji
+1. Naciśnij <kbd class="face">A</kbd>, aby przeprowadzić zrzut wszystkiego
+1. Poczekaj, aż proces zostanie zakończony
+    - To może chwilę potrwać
+1. Po zakończeniu procesu naciśnij <kbd>SELECT</kbd>, aby wyjść z dsibiosdumper
+1. Wyłącz urządzenie
+1. Włóż kartę SD do swojego komputera
 
-All the necessary files will be in the `dsidump` folder on the root of your SD card.
+Wszystkie niezbędne pliki znajdą się w katalogu `dsidump` na głównym katalogu Twojej karty SD.
 {:.alert .alert-success}
 
 {% endcapture %}
@@ -49,20 +49,20 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 
 ### Część 1: Pobieranie wymaganych plików
 
-1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
-1. Copy `dsbf_dump.nds` to the root of your SD card
-1. Reinsert your SD card into your flashcard
+1. Pobierz [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (plik `.nds`)
+1. Skopiuj plik `dsbf_dump.nds` do głównego katalogu karty SD
+1. Włóż ponownie kartę SD do karty flash
 
-### Part 2: dsbf_dump
-1. Power on your device
-1. Launch your flashcard
-1. Navigate to the root of your SD card, and launch dsbf_dump
-1. Wait for the process to complete
-1. After the process is complete, press <kbd>START</kbd> to power off your device
-  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
-1. Insert your SD card into your computer
+### Część 2: dsbf_dump
+1. Włącz urządzenie
+1. Uruchom swoją kartę flash
+1. Przejdź do głównego katalogu karty SD i uruchom dsbf_dump
+1. Poczekaj, aż proces zostanie zakończony
+1. Po zakończeniu procesu, naciśnij <kbd>START</kbd>, aby wyłączyć urządzenie
+  - Na systemach rodziny 3DS, zamiast tego pokaże się komunikat "Oprogramowanie zamknięte". Wyłącz urządzenie z tego ekranu
+1. Włóż kartę SD do swojego komputera
 
-All the necessary files will be in a folder specified on the top screen of your device.
+Wszystkie niezbędne pliki znajdą się w katalogu wskazanym na górnym ekranie Twojego urządzenia.
 {:.alert .alert-success}
 
 {% endcapture %}

@@ -33,7 +33,7 @@ Pour créer votre banque d'effets sonores personnalisés, ouvrez votre terminal 
 ### Son de démarrage
 Alors que les autres effets sonores fonctionnent avec n'importe quel fichier WAV avec un encodage PCM, le son de démarrage doit être dans un format spécifique pour fonctionner correctement, sinon il y aura un décalage entre l'arrêt du son de démarrage et le début de la musique de fond.
 
-Le fichier startup.wav doit être **16 bits 16 kHz**. Vous pouvez par exemple utiliser [Audacity](https://www.audacityteam.org/download/) pour convertir vers ce format. Une fois le fichier chargé dans Audacity, changer le **Taux du projet (Hz)** en **16000**, puis appuyez sur **Maj + M**, et modifiez le **Format** en **16 bits PCM**.
+Le fichier startup.wav doit être **16 bits 16 kHz**. Vous pouvez par exemple utiliser [Audacity](https://github.com/audacity/audacity/releases/latest) pour convertir vers ce format. Une fois le fichier chargé dans Audacity, changer le **Taux du projet (Hz)** en **16000**, puis appuyez sur **Maj + M**, et modifiez le **Format** en **16 bits PCM**.
 
 Si votre fichier est en stéréo, vous devez aussi aller dans **Pistes > Mix > Mix stéréo vers mono**.
 
@@ -41,35 +41,27 @@ Vous devez définir `PlayStartupJingle=1` dans votre `theme.ini` pour que le jin
 
 
 ## Son de fond du menu
-La musique de fond du menu doit être un fichier PCM brut **16 bits 16 kHz mono**. Vous trouverez ci-dessous deux méthodes pour convertir des fichiers audio dans ce format.
+La musique de fond du menu doit être un fichier `.wav` **16 bits 16 kHz mono**. Vous trouverez ci-dessous la méthode pour convertir des fichiers audio dans ce format.
 
-Contrairement à sfx.bin, *bgm.pcm.raw* peut être arbitrairement grand.
+Contrairement à `sfx.bin`, `bgm.wav` peut être arbitrairement grand.
 
-### ffmpeg
-La manière la plus simple de convertir de la musique pour l'utiliser dans TWiLight Menu++ est d'exécuter cette commande [ffmpeg](https://ffmpeg.org) dans un terminal :
-
-```bash
-ffmpeg -i [fichier d'entrée] -f s16le -acodec pcm_s16le -ac 1 -ar 16k bgm.pcm.raw
-```
-
-Remplacez `[fichier d'entrée]` par le nom du fichier que vous voulez convertir. Pour ce faire, il suffit généralement de faire glisser le fichier sur la fenêtre du terminal avec le curseur à l'endroit voulu.
+Veuillez noter que si votre fichier audio se présente déjà sous la forme d'un fichier `.wav` , vous devez quand même suivre la méthode ci-dessous, car TWLMenu++ a des exigences spécifiques.
 
 ### Audacity
-Si vous ne voulez pas utiliser la ligne de commande, vous pouvez également convertir en utilisant [Audacity](https://www.audacityteam.org/download/).
+Pour commencer, téléchargez [la dernière version d'Audacity](https://github.com/audacity/audacity/releases/latest).
 
 Pour convertir l'audio :
 1. Chargez le fichier dans Audacity
 1. Si votre fichier est en stéréo, cliquez sur le morceau puis sélectionnez `Pistes` > `Mix` > `Mix stéréo vers mono`
-1. Changez le `Taux de projet (Hz)` en bas à gauche en `16000`
+1. Allez sur `Audio Setup` > `Audio Settings…`, et assurez-vous que `Project Sample Rate` n'est pas supérieur à `48000 Hz` (qui est la limite)
 
 Pour exporter dans le bon format :
 1. Sélectionnez `Fichier` > `Exporter` > `Exporter l'audio…`
-1. Définissez `Type de fichier` à `Autres formats non-compressés`
-1. Définissez `En-tête` à `RAW (sans en-tête)`
-1. Définissez `Encodage` à `16 bits PCM signé`
-1. Définissez le nom de sortie à `bgm.pcm.raw` et cliquez sur `Sauvegarder`
-1. Cliquez sur `OK` pour accéder à l'édition des métadonnées
+1. Définissez `Type` à `WAV (Microsoft)`
+1. Définissez `Encodage` à `Signed 16-bit PCM`
+1. Définissez le nom de sortie à `bgm.wav` et cliquez sur `Enregistrer`
+1. Sur l'édition des métadonnées, cliquez sur `Effacer` et cliquez ensuite sur `Valider`
 
-Vous avez maintenant un fichier `bgm.pcm.raw` qui peut être copié dans le sous-dossier `sound` de votre dossier de thème.
+Vous avez maintenant un fichier `bgm.wav` qui peut être copié dans le sous-dossier `sound` de votre dossier de thème.
 
  Vous devez ensuite définir l'option `Musique thèmes DSi/3DS` dans les paramètres de TWiLight Menu++ sur « Thème » pour que votre musique de fond personnalisée soit jouée dans le menu.

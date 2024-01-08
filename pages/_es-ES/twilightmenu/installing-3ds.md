@@ -76,7 +76,7 @@ Una flashcard es una tarjeta que va en la ranura de los cartuchos, en la que pue
 
 #### Si no tienes una R4(i) Ultra
 
-1. Crea un archivo llamado `primary` en `sd:/_nds/` (no en la SD de la flashcard), para que TWiLight Menu++ lea las configuraciones de la tarjeta SD de la consola después de iniciar tu flashcard
+1. Crea un archivo o carpeta con el nombre `primary` in `sd:/_nds/` (en la Flashcard no), para que TWiLight Menu++ lea los parámetros de la tarjeta SD de tu consola antes de que inicie tu Flashcard
 1. Sigue [esta](installing-flashcard)guía desde el punto `Iniciar TWiLight Menu++ automáticamente`
 1. Copia el archivo `BOOT.NDS` del archivo `TWiLightMenu-Flashcard.7z` a la carpeta raíz de la tarjeta microSD de tu flashcard
 1. Abre los ajustes de TWLMenu++

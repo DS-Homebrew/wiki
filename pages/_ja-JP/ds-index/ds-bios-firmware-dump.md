@@ -3,43 +3,43 @@ lang: ja-JP
 layout: wiki
 section: ds-index
 category: guides
-title: BIOS/Firmware Dumping
-description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
+title: BIOS/Firmwareのダンプ
+description: 任天堂DSまたはDSiのBIOS/ファームウェアをコンソールから抽出する方法は何ですか
 tabs:
   - 
-    dsi-sd-card: DSi with Unlaunch
+    dsi-sd-card: Unlaunchを備えたDSi
     flashcard: フラッシュカード
 ---
 
-Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:
-- a DSi with Unlaunch, OR
-- a DS/DS Lite/3DS or a DSi without Unlaunch, along with a flashcard compatible with the console
+melonDSなど、一部のエミュレーターは、DSモードまたはDSiモードのBIOSおよびファームウェアを必要とし、これらはコンソールから抽出して利用可能です。 これを達成するためには、2つの異なる方法があります。以下の方法を使用します：
+- Unlaunchを備えたDSi、または
+- UnlaunchのないDS/DS Lite/3DSまたはDSi、およびそのコンソールに対応したフラッシュカードとともに
 
-The DSi method will extract both the DS-mode and DSi-mode BIOS and firmware files. The flashcard method will only extract the DS-mode files.
+DSiの方法では、DSモードとDSiモードのBIOSおよびファームウェアファイルの両方を抽出します。 フラッシュカードの方法では、DSモードのファイルのみを抽出します。
 
 {% capture tab-dsi-sd-card %}
 
-This page assumes you are running a modern CFW environment from [dsi.cfw.guide](https://dsi.cfw.guide).
+このページは、[dsi.cfw.guide](https://dsi.cfw.guide)からの最新のカスタムファームウェア環境を実行していると仮定しています。
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### パート1：必要なファイルを取得する
 
-1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
-1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
-1. Reinsert your SD card into your device
+1. [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)をダウンロードしてください
+1. `dsibiosdumper.nds`をdsibiosdumper`.7z`ファイルからSDカードのルートディレクトリにコピーしてください
+1. SDカードを再度デバイスに挿入してください
 
-### Part 2: dsibiosdumper
-1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device
-1. Your device should have booted into the Unlaunch menu
-1. Launch dsibiosdumper from the list of applications
-1. Press <kbd class="face">A</kbd> to dump everything
-1. Wait for the process to complete
-    - This can take a while
-1. After the process is complete, press <kbd>SELECT</kbd> to exit dsibiosdumper
-1. Power off your device
-1. Insert your SD card into your computer
+### パート2：dsibiosdumper
+1. デバイスの電源がまだ切れた状態で、以下のボタンを押しながら電源を入れてください：<kbd class="face">A</kbd> + <kbd class="face">B</kbd>。これらのボタンを一緒に押したまま、デバイスの電源を入れてください
+1. デバイスはUnlaunchメニューに起動しているはずです
+1. アプリケーションのリストからdsibiosdumperを起動してください
+1. <kbd class="face">A</kbd>ボタンを押して、すべてをダンプしてください
+1. プロセスの完了を待ってください
+    - これにはしばらく時間がかかることがあります
+1. プロセスが完了したら、dsibiosdumperを終了するために<kbd>SELECT</kbd>ボタンを押してください
+1. デバイスの電源を切ってください
+1. SDカードをコンピュータに挿入してください
 
-All the necessary files will be in the `dsidump` folder on the root of your SD card.
+必要なすべてのファイルは、SDカードのルートにある`dsidump`フォルダに保存されます。
 {:.alert .alert-success}
 
 {% endcapture %}
@@ -47,22 +47,22 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 
 {% capture tab-flashcard %}
 
-### Part 1: Getting the required files
+### パート1：必要なファイルを取得する
 
-1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
-1. Copy `dsbf_dump.nds` to the root of your SD card
-1. Reinsert your SD card into your flashcard
+1. [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest)（`.nds`ファイル）をダウンロードしてください
+1. `dsbf_dump.nds`をSDカードのルートにコピーしてください
+1. SDカードをフラッシュカードに再挿入してください
 
-### Part 2: dsbf_dump
-1. Power on your device
-1. Launch your flashcard
-1. Navigate to the root of your SD card, and launch dsbf_dump
-1. Wait for the process to complete
-1. After the process is complete, press <kbd>START</kbd> to power off your device
-  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
-1. Insert your SD card into your computer
+### パート2：dsbf_dump
+1. デバイスの電源を入れてください
+1. フラッシュカードを起動してください
+1. SDカードのルートに移動し、dsbf_dumpを起動してください
+1. プロセスの完了を待ってください
+1. プロセスが完了したら、デバイスの電源を切るために<kbd>START</kbd>ボタンを押してください
+  - 3DSファミリーシステムでは、代わりに「ソフトウェアが終了しました」と表示されます。 この画面からデバイスの電源を切ってください
+1. SDカードをコンピュータに挿入してください
 
-All the necessary files will be in a folder specified on the top screen of your device.
+必要なすべてのファイルは、デバイスの上部画面に指定されたフォルダに保存されます。
 {:.alert .alert-success}
 
 {% endcapture %}

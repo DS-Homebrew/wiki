@@ -3,34 +3,34 @@ lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Fonts
-description: How to use custom fonts with TWiLight Menu++
+title: 自定义字体
+description: 如何在 TWiLight Menu++ 中使用自定义字体
 ---
 
-TWiLight Menu++ can use custom fonts in NFTR (Nitro FonT Resource) format. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
+TWiLight Menu++ 可以使用 NFTR（Nitro FonT Resource）格式的自定义字体。 它们将用于设置、菜单标题以及 Nintendo DSi、Nintendo 3DS、SEGA Saturn 和 Homebrew Launcher 主题。
 
-### Included font info
-There are three fonts included with TWiLight Menu++. When TWiLight Menu++ is running in DSi Mode, they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. They are as follows:
-- Default: This uses the official DSi font as its primary font, and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
-- Chinese (Simplified): This uses Noto Sans CS as the primary font and has significantly more Chinese (Simplified) characters in DS Mode, at the cost of characters for other languages
-- Korean: This is identical to Default in DSi Mode, but in DS Mode has a more complete set of hangul, at the cost of characters for other languages
+### 包含字体信息
+TWiLight Menu++ 包含三种字体。 当 TWiLight Menu++ 在 DSi 模式下运行时，它们都包含 TWiLight 翻译成的所有语言所需的所有字符，但在 DS 模式下运行时，由于 RAM 的限制，它们会受到更多限制。 字体包括：
+- 默认：它使用官方的 DSi 字体作为主要字体，并支持 DS 模式下 TWiLight Menu++ 本身在所有语言中使用的所有字符。
+- 中文（简体）：该版本使用 Noto Sans CS 作为主要字体，在 DS 模式中大幅增加了中文（简体）字符，但其他语言的字符则有所减少
+- 韩语：这与 DSi 模式中的默认设置相同，但在 DS 模式中，韩文字符集更完整，但其他语言的字符则有所减少
 
-### Directory structure
-Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` where `[font name]` is whatever name you want and `[font file].nftr` is one of the following:
-- `large-ds.nftr`, `large-dsi.nftr`, or `large.nftr`: The larger font used for titles
-- `small-ds.nftr`, `small-dsi.nftr`, or `small.nftr`: The smaller font used for most other text
+### 目录结构
+自定义字体从 `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` 加载，其中 `[font name]` 是您想要的任何名称， `[font file].nftr` 是以下内容之一：
+- `large-ds.nftr`、`large-dsi.nftr` 或 `large.nftr`：标题使用的较大字体
+- `small-ds.nftr`、`small-dsi.nftr` 或 `small.nftr`：用于大多数其他文本的较小字体
 
-The `-ds` and `-dsi` files have higher priority than the normal one and if found will be used when TWiLight Menu++ is running in DS or DSi Mode respectively.
+`-ds` 和 `-dsi` 文件的优先级高于普通文件，如果找到，将分别在 TWiLight Menu++ 以 DS 或 DSi 模式运行时使用。
 
-### Skin fonts
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+### 皮肤字体
+您可以在 [自定义 DSi/3DS 主题皮肤](custom-dsi-3ds-skins)中添加字体，这将覆盖 TWiLight Menu++ 设置中的任何设置。 这些字体放在皮肤根目录下的 `font` 文件夹中。
 
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+自定义皮肤还可以使用 `date_time.nftr`来覆盖日期 & 时间的字体，并使用 `username.nftr`来覆盖主机用户名的字体。
 
-### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
-1. Load an NFTR file in nftr-editor
-1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
-   - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
-1. Click `Generate from font`, then say `OK` to regenerating existing characters and `Cancel` to regenerating the special button characters (ex. &#xE000;)
-1. Click `Save`, then repeat for the other sizes
+### 生成自定义字体
+您可以使用 Pk11 的 [nftr-editor](https://pk11.us/nftr-editor/) 等实用程序制作自己的字体。 使用它重新生成 TWiLight Menu++ 现有字体之一：
+1. 在 nftr-editor 中加载 NFTR 文件
+1. 在 `Input font`（输入字体）文本框中，按优先级从高到低键入要使用的字体名称，以逗号分隔。
+   - 您可以在左上方的方框中看到输入字体的预览，在下方的方框中看到当前的 NFTR
+1. 单击 `Generate from font`（从字体生成），然后选择 `OK` 重新生成现有字符，选择 `Cancel`（取消）重新生成特殊按钮字符（例如 &#xE000;）。
+1. 单击 `Save`（保存），然后重复其他尺寸的操作

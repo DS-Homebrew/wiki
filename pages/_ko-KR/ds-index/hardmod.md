@@ -16,7 +16,7 @@ Hardmodding is when you physically solder the motherboard of the Nintendo DSi to
 ### Nintendo DS
 [![Original DS motherboard with touch-points labeled](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
-### Nintendo DSi
+### 닌텐도 DSi
 
 To hardmod a Nintendo DSi/DSi XL (LL) you will need:
    - [Pencil tipped soldering iron](https://www.amazon.com/dp/B01N4571Q6)
@@ -76,17 +76,17 @@ You will first need to remove the NOCASH footer from the backup you are flashing
 {% capture tab-other %}
 1. Work out where the SD card is mounted
    - Linux:
-      1. Unplug the SD card adapter
+      1. SD 카드 어댑터를 분리하세요
       1. Run `lsblk` in a terminal
-      1. Plug in the SD card adapter
+      1. SD 카드 어댑터를 삽입하세요
       1. Run `lsblk` again
       1. This time a new device should appear
          - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
    - macOS:
-      1. Unplug the SD card adapter
+      1. SD 카드 어댑터를 분리하세요
       1. Run `df` in a terminal
-      1. Plug in the SD card adapter
+      1. SD 카드 어댑터를 삽입하세요
       1. Run `df` again
       1. A new device should appear in the list
          - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer

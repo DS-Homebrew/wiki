@@ -3,88 +3,88 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
-title: Retail ROMs
-description: Information related to retail DS games
+title: ROM Retail
+description: Informasi terkait permainan DS eceran atau retail
 ---
 
-### Anti-piracy
-AP (Anti-Piracy) is a method used by developers to enforce legitimate purchases and prevent piracy. This can be circumvented either from the loader or the ROM itself.
+### Anti-pembajakan
+AP (Anti-Pembajakan) adalah salah satu cara pengembang agar pembeli tidak membajak dan mencegah pembajakan. Ini bisa disiasati dari pemuat atau ROM itu sendiri.
 
-- For nds-bootstrap, it can load an `.ips` file in order to circumvent said patches. This `.ips` file will be applied by nds-bootstrap in RAM so you can keep the ROM files intact. A pack of `.ips` files is included with TWiLight Menu++
-- For Wood R4, these patches are included in the software itself, you will not need to modify the ROM itself
+- Untuk nds-bootstrap, akan dimuatkan tambalan `.ips` untuk mengatasinya. Berkas `.ips` ini akan diterapkan oleh nds-bootstrap dalam RAM sehingga ROM tetap utuh. Satuan berkas `.ips` sudah ada di TWiLight Menu++
+- Untuk Wood R4, tambalan ini sudah ada dalam peranti lunaknya, sehingga ROM tidak perlu dimodif lagi
 
-If there isn't an `.ips` file for your ROM or your software doesn't patch your ROM, you can try directly modifying the ROM itself using [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
+Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau menambal ROM, coba modif langsung ROM itu sendiri dengan [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
-### Cloneboot
-Cloneboot is when a game sends its own loaded ARM7 and ARM9 binaries to another console. It is used by DS Download Play for single-card multiplayer. Not all games that have single-card multiplayer use cloneboot, however.
+### *Cloneboot*
+*Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main jamak satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
 
-### Berkas-berkas simpanan (save)
-Cartridge Nintendo DS dikenali punya 4 jenis simpanan (save):
+### Berkas simpanan
+Kaset Nintendo DS umumnya terdapat 4 jenis simpanan:
 
-- EEPROM - Electrically Erasable Programmable Read-Only Memory (Memori Hanya-Baca Tertataolahkan Terhapuskan Elektris)
+- EEPROM - Memori Hanya-Baca Tertataolahkan Terhapuskan Berlistrik
 - FLASH
-- FRAM - Ferroelectric Random-Access Memory (Memori Akses Acak Feroelektrik)
-- NAND - NOT-AND
+- FRAM - Memori Akses Acak Feroelektrik
+- NAND - Gerbang NOT-AND
 
-There are different formats to use depending on the loader, but nds-bootstrap uses the raw `.sav` format. If you have a save in a different format, here is a website you can use to convert it: http://www.shunyweb.info/convert.php.
+Ada beberapa format berbeda untuk dibaca pemuatnya, di sini nds-bootstrap menggunakan format `.sav` mentah. Jika simpanannya berbeda format, gunakan situs berikut untuk konversi: http://www.shunyweb.info/convert.php.
 
-### Assembly
-Assembly language is any low-level programming language with a strong connection between the language's instructions and the processor's instructions. On the DS, assembly code comes in the form of either ARM or THUMB instructions, THUMB instructions being a subset of the ARM instructions. THUMB is useful to save memory bandwidth as it uses 16-bit instructions over the regular 32-bit instructions that ARM uses.
+### *Assembly*
+Bahasa *assembly* (ASM) adalah bahasa penataolahan tingkat rendah dengan komunikasi kuat antara instruksi bahasa dan prosesor. Untuk di DS, kode *assembly* ini berbentuk intruksi ARM atau THUMB, instruksi THUMB merupakan subhimpunan ARM. THUMB ini mampu menghemat lebar pita memori karena menjalankan instruksi 16-bit daripada instruksi ARM 32-bit.
 
-You can find more information on assembly instructions, as well as a lot more technical information for the DS and DSi, on [GBATEK](https://problemkaputt.de/gbatek.htm).
+Untuk informasi lebih lanjut terkait instruksi *assembly*, serta informasi teknis lainnya untuk DS dan DSi ada di [GBATEK](https://problemkaputt.de/gbatek.htm).
 
-### Card read DMA
-DMA (Direct Memory Access) is a more efficient way to read data than using the CPU. When data is being transferred, code can still execute, so it is the preferred way of accessing data.
+### DMA bacaan kartu
+DMA (Akses Memori Langsung) adalah cara lebih sangkil membaca data daripada CPU. Saat mentransfer data, kode masih bisa jalan, sehingga cara ini lebih disukai untuk membaca data.
 
-You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A DMA access to the card uses AF000001 as the third parameter.
-- For example: `DMA2: 04100010 023C18C0 AF000001`
+Untuk permainan dengan DMA bisa dilacak di no$gba dengan mengaktifkan *DMA log* di ARM9. Akses DMA ke kartu menggunakan AF000001 sebagai parameter ketiga.
+- Contohnya: `DMA2: 04100010 023C18C0 AF000001`
 
-### Action Replay cheats
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+### *Cheat* Action Replay
+Kode *cheat* Action Replay adalah kode yang memanfaatkan tata olah tingkat rendah untuk mengubah daerah memori permainan. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
+*Flashcard* bisa memanfaatkan kode *cheat* jika ada pangkalan data *cheat*. Untungnya, fungsi *cheat* sudah sepadu dalam *kernel flashcard*. *Kernel* berikut ini mampu membaca *cheat*:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
+Cara lainnya secara *homebrew*/digital juga bisa membaca pangkalan data *cheat*, peranti lunak yang menggunakan *cheat* di antaranya:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real Game Cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
-- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
+   - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kaset asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
+- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([*fork* usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` atau `usrcheat.dat`)
+   - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-   - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+   - TWiLight Menu++ membaca `usrcheat.dat` dan menyalurkan nilai *cheat* yang aktif ke berkas lain, lalu dibaca oleh nds-bootstrap
+   - Mesin *cheat* yang digunakan di nds-bootstrap didasarkan dari NitroHax. Namun, karena berkas *cheat* hanya berisi *cheat* untuk judul tertentu, maka yang dibatasi hanya jumlah *cheat* yang bisa diaktifkan, bukan ukuran pangkalan datanya
 
-For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
+Untuk pangkalan data *cheat* terlengkap, kami anjurkan [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
-Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
+Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 
-- The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job
-  - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
-- DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
+- Jenis kode 0xE adalah kode 32-bit yang mampu menulis bersamaan di banyak alamat beruntun sekaligus. Pada intinya, ini seperti jenis kode tulis RAM 32-bit dasar (0x0), bedanya ini tidak disenaraikan alamat di sebelah nilai yang ingin Anda tulis. Melainkan, jenis kode 0xE diprogram untuk langsung bercabang dari alamat awal, lalu akan ditentukan ditulis ke alamat mana. Dari situ, tentukan saja jumlah tulisnya untuk dijalankan
+  - Kode *cheat* jenis ini diketahui susah berfungsi dengan nds-bootstrap saat ini
+- DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini setelah siap
 
-### Demonstration and Distribution Titles:
-Demonstration (Demo) titles are different from their retail counterparts in various ways. The obvious indicator being that the title at hand is a demo of what the retail version will be like, essentially it's a sneak peek at what is coming in the future when the full retail release comes. In the case of the Nintendo DS line, these titles often are marked as "Not for Resale" on the title labels, each demo also sports a different title ID compared to their retail counterparts, and on the back of the title's cartridge, a "Not for Resale" sticker is also present. These titles are usually just kiosk demos in promotional places in stores and what not.
+### Judul Demonstrasi dan Distribusi:
+Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya merupakan peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di tempat promosi seperti toko dan lainnya.
 
-Distribution titles are a slightly different situation in most cases, however demos can also fit the distribution label for a few titles in the library. Most cases distribution titles are just retail versions of the title(s) that are for display only or come from a promotional packaging of some sort. You can see "Not for Resale" labeled on these types of titles like you can with the demonstration titles. These can sometimes also be used in kiosks for the sake of letting other players test out the title. However knowing that these are essentially the same as their retail counterparts in most cases, they tend to have an extra identifier in the title ID on the label.
+Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kaset judul jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, karena hampir semua judul ini pada dasarnya sama dengan versi retailnya, biasanya kaset diberi pengenal tambahan di ID judul label.
 
-Example ID: `DIS-NTR-NTRJ-JPN`
+Contoh ID: `DIS-NTR-NTRJ-JPN`
 
-`DIS` - Distribution
+`DIS` - Distribusi
 
 
-### Title Labels
-Looking at the bottom of the title label shows the title ID along with other bits of information, for this example the following ID will be used:
+### Label Judul
+Melihat bagian bawah label kaset akan ada ID judul dan informasi kecil lainnya, berikut contoh dengan ID:
 
 - NTR-NTRJ-**XXX**
 
-**XXX** mewakili berikut:
+**XXX** mewakili daerah berikut:
 
 - AUS - Australia
 - CHN - Tiongkok
 - DEN - Denmark
-- EUR - Eropa (Beragam Bahasa)
-- EUU - Eropa (Hanya Bahasa Belanda atau Italia)
+- EUR - Eropa (Bermacam Bahasa)
+- EUU - Eropa (Hanya Belanda atau Italia)
 - FRA - Prancis
 - GER - Jerman
 - HOL - Belanda
@@ -98,14 +98,14 @@ Looking at the bottom of the title label shows the title ID along with other bit
 - UKV - Inggris Raya
 - USA - Amerika Serikat
 
-The last letter of the title ID itself represents the language of the title. Using the last example's title ID:
+Huruf terakhir pada ID judul itu sendiri mewakili bahasa judul. Berikut contoh dengan ID tadi:
 
 - NTR-NTR**X**-JPN
 
 **X** mewakili berikut:
 
 - A - Sedunia (bukan berarti hanya digunakan satu saja)
-- C - Bahasa Cina (Sederhana)
+- C - Bahasa Cina (Huruf Sederhana)
 - D - Bahasa Jerman
 - E - Bahasa Inggris Amerika
 - F - Bahasa Prancis
@@ -116,12 +116,12 @@ The last letter of the title ID itself represents the language of the title. Usi
 - K - Bahasa Korea
 - M - Bahasa Swedia
 - N - Bahasa Norwegia
-- O - Bahasa Inggris (DSi Enhanced)
-- P - Beragam Bahasa Eropa
+- O - Bahasa Inggris (*DSi Enhanced*)
+- P - Bermacam Bahasa Eropa
 - Q - Bahasa Denmark
 - R - Bahasa Rusia
 - S - Bahasa Spanyol
-- T - Bahasa Inggris (DSi Enhanced)
+- T - Bahasa Inggris (*DSi Enhanced*)
 - U - Bahasa Inggris Australia
 - V - Bahasa Inggris Britania
 - W - Bahasa lain (Bermacam)
@@ -134,6 +134,6 @@ Untuk mengidentifikasi sistem:
 - NTR - Nitro - Nintendo DS
 - TWL - Twilight - Nintendo DSi
 
-### DSi Enhanced:
+### *DSi Enhanced*:
 
-Games with "DSi Enhanced" functionality are games that take advantage of some aspect of the DSi's hardware while still remaining compatible with the DS Phat/Lite. These games are marked as `TWL` but still say "Nintendo DS" instead of "Nintendo DSi" on the label.
+Permainan dengan fungsi "*DSi Enhanced*" adalah permainan yang mampu menggunakan beberapa fitur peranti keras DSi tapi tetap bisa dimainkan di DS Phat/Lite. Permainan jenis ini ditandai `TWL` tapi tetap berlabel "Nintendo DS", bukan "Nintendo DSi".
