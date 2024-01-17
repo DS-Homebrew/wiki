@@ -30,7 +30,8 @@ Note : Si vous obtenez un message disant `Cet encodeur nécessite un processeur 
 1. Téléchargez [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore) et installez-le
 1. Téléchargez [l'encodeur FastVideoDS](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Téléchargez [FastVideoDS.bat](/assets/files/FastVideoDS.bat) au même endroit que le fichier `.exe` de l'encodeur
-1. Faites glisser et déposez votre vidéo dans le fichier `.bat`
+1. Copy or move your video to the same place as the `.bat` file
+1. Drag and drop the copied or moved video into the `.bat` file
 
 Lorsque ce processus est terminé, il devrait être facile de glisser-déposer sur la carte SD. Une fois que vous avez placé la vidéo sur votre carte SD, elle sera prête à être lue via **TW**i**L**ight Menu++.
 

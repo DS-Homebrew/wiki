@@ -7,7 +7,7 @@ title: Emulator di konsol DS
 description: Rujukan terkait Emulator untuk di DS
 ---
 
-Tersedia banyak emulator yang dibuat untuk DS dan DSi. Laman ini akan menjelaskan berbagai emulator dan pemuat yang sekemas di TWiLight Menu++.
+Tersedia banyak emulator yang dibuat untuk DS dan DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### Daftar sistem yang didukung TWiLight Menu++
 

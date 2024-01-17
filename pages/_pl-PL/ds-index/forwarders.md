@@ -9,10 +9,11 @@ tabs:
   - 
     3ds-sd-card: 3DS SD card
     dsi-sd-card: DSi SD card
-    flashcard: Flashcard
+    flashcard: Flashcard only
+    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
 ---
 
-Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 Gry na DS muszą być zrzucone do cyfrowego formatu `.nds`. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
 {:.alert .alert-info}
@@ -56,13 +57,13 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Część 1: Rozpoczęcie
 1. Copy `NDSForwarder.dsi` to your SD card root
-   - This can optionally be installed to hiyaCFW directly using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
-1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
+   - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
+1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
 ### Część 2: Pobieranie plików poprawek AP z TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next section.
+If you already have TWiLight Menu++, skip to the next part.
 {:.alert .alert-info}
 
 1. Pobierz najnowszą wersje [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
@@ -70,7 +71,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: NDSForwarder-DSi
-1. Włóż ponownie kartę SD do urządzenia
+1. Reinsert your SD card into your device
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
@@ -82,6 +83,39 @@ If you already have TWiLight Menu++, skip to the next section.
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
+
+### Wymagania
+
+- A Nintendo DS, DS Lite, DSi or 3DS with a flashcard
+- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
+
+### Część 1: Rozpoczęcie
+1. Copy `NDSForwarder.nds` to your flashcard's SD card root
+1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
+1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
+
+### Część 2: Pobieranie plików poprawek AP z TWiLight Menu++
+
+If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
+{:.alert .alert-info}
+
+1. Pobierz najnowszą wersje [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
+1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
+
+### Part 3: NDSForwarder-DSi
+1. Reinsert your SD card into your flashcard, and the flashcard into your device
+1. Power on your device and launch your flashcard
+1. Launch `NDSForwarder.nds`
+   - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.nds` on the root of your SD card
+1. Press <kbd class="face">A</kbd> on `Install`
+1. Przejdź do lokalizacji gry i naciśnij <kbd class="face">A</kbd>
+1. After it is installed, your game will now appear in a folder called `forwarders` on the flashcard's SD card root
+
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% capture tab-flashcard-dsi-3ds %}
 
 ### Wymagania
 
@@ -173,7 +207,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 ### Część 2: Pobieranie plików poprawek AP z TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next section.
+If you already have TWiLight Menu++, skip to the next part.
 {:.alert .alert-info}
 
 1. Pobierz najnowszą wersję [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
@@ -205,7 +239,7 @@ If you already have TWiLight Menu++, skip to the next section.
    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
    1. Install the forwarder NDS file using TMFH
 {% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+{% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 
-{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard %}
+{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard | concat: tab-flashcard-dsi-3ds %}
 {% include tabs.html index=0 tabs=tabs %}

@@ -35,7 +35,8 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 **Fő DS⁽ⁱ⁾ Homebrew Projektek**
 - [#nds-bootstrap-dev][nds-bootstrap-dev] - Ez a csatorna az nds-bootstrap fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
 - [#twilight-menu-dev][twilight-menu-dev] - Ez a csatorna az TWiLight Menu++ fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
-- [#gbarunner2-dev][gbarunner2-dev] - Ez a csatorna a GBARunner2 fejlesztés beszélgetéseinek a helye. Segítségért használd a #nds-help-et
+- [#gbarunner3-dev][gbarunner3-dev] - Ez a csatorna a GBARunner3 fejlesztés beszélgetéseinek helye. Segítségért használd a #nds-help-et
+- [#nds-bootstrap-dev][dsi-ntrboot-dev] - Ez a csatorna az nds-bootstrap fejlesztés beszélgetéseinek a helye.
 - [#web-dev][web-dev] - Beszélgetések és javaslatok a [dsi.cfw.guide](https://dsi.cfw.guide/) és minden [ds-homebrew oldal](https://ds-homebrew.com/) témájában ide kerülnek
 
 **Másodlagos DS⁽ⁱ⁾ Homebrew Projektek**
@@ -46,8 +47,9 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 **Közösség**
 - [#off-topic][off-topic] - Egy csatorna minden olyan témához, ami nem fér bele a többi csatornába. Az alacsony minőségű postokat tartsd az #end-of-server csatornán
 - [#nds-gaming][nds-gaming] - Egy csatorna általános beszélgetésekre játékokról a DS(i)-n és játékokosok keresése online játékhoz. Nézd meg a rögzített üzeneteket a dedikált közösségekről
-- [#other-console-modding][other-console-modding] - Beszélgetés homebrew-ról és mod-okról más játék rendszerekhez, mint például 3DS, ha nem TWL_FIRM-en van
-- [#end-of-server][end-of-server] - Ez az alkalmi, alacsony szintű csevegésre szolgáló hely. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
+- [#other-console-modding][other-console-modding] - Beszélgetés homebrew-ról és mod-okról más játék rendszerekhez, mint például 3DS, ha nem TWL_FIRM
+- [#other-dev][other-dev] - Beszélgetés nem Nintendo DS fejlesztésekről
+- [#end-of-server][end-of-server] - Ez alkalmi, gyengébb minőségű csevegéshez használható. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
 
 ## Szerepek & felhasználók
 Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak [Lightning bot paranccsal](#lightning-commands) érhető el.
@@ -122,7 +124,8 @@ Szerver karbantartók: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage
 
 [nds-bootstrap-dev]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu-dev]: https://discord.com/channels/283769550611152897/489307733074640926
-[gbarunner2-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[gbarunner3-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[dsi-ntrboot-dev]: https://discord.com/channels/283769550611152897/1193678677666431097
 [web-dev]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
@@ -132,4 +135,5 @@ Szerver karbantartók: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage
 [off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
+[other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

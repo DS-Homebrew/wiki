@@ -27,6 +27,7 @@ Dies können PNG-Dateien oder 16-Bit (`A1 R5 G5 B5` oder `X1 R5 G5 B5`) BMP-Date
 | Textur                | Beschreibung                                                                                                                     |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | top                   | Die Hintergrundtextur des oberen Bildschirms                                                                                     |
+| top_photo             | The top screen background texture when a photo is being shown                                                                    |
 | bottom                | Die untere Hintergrundtextur, wenn der Mauszeiger nicht auf ein Symbol zeigt                                                     |
 | bottom_ds             | Für das 3DS-Thema, die untere Hintergrundtextur, wenn auf einem DS Phat/Lite der Mauszeiger nicht auf ein Symbol zeigt           |
 | bottom_macro          | Für das DSi-Thema, die Hintergrundtextur, wenn der Mauszeiger, während der Makromodus verwendet wird, nicht auf ein Symbol zeigt |
@@ -124,12 +125,16 @@ Diese müssen PNG-Dateien sein.
 ### UI-Texturen (`ui`-Ordner)
 Diese müssen PNG-Dateien sein. Transparenz wird unterstützt, aber nur 100 % Transparenz wird funktionieren. Jedes Pixel, das in einer Textur transparent ist, sollte dies in allen Texturen sein, damit es bei einer Änderung ordnungsgemäß überschrieben wird.
 
-| Textur           | Beschreibung                                                |
-| ---------------- | ----------------------------------------------------------- |
-| Lshoulder        | Die linke Schulter                                          |
-| Lshoulder_greyed | Die linke Schulter, wenn sich links keine Seiten befinden   |
-| Rshoulder        | Die rechte Schulter                                         |
-| Rshoulder_greyed | Die rechte Schulter, wenn sich rechts keine Seiten befinden |
+| Textur                   | Beschreibung                                                     |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | Die linke Schulter                                               |
+| Lshoulder_greyed         | Die linke Schulter, wenn sich links keine Seiten befinden        |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | Die rechte Schulter                                              |
+| Rshoulder_greyed         | Die rechte Schulter, wenn sich rechts keine Seiten befinden      |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Videotextur (`video`-Ordner)
 Nur für das 3DS-Thema verwendet, `3dsRotatingCubes.rvid` ist eine Rocket-Video-Datei. Für weitere Informationen zum Konvertieren von Videos in rvid, lies [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) (englisch) im Vid2RVID Wiki. Wenn du das nicht willst, kannst du es einfach löschen.

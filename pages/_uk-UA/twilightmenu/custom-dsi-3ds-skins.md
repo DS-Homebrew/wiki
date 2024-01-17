@@ -27,6 +27,7 @@ description: Як створювати власні скіни DSi та 3DS дл
 | Текстури              | Опис                                                                                          |
 | --------------------- | --------------------------------------------------------------------------------------------- |
 | top                   | Текстура фону верхнього екрана                                                                |
+| top_photo             | The top screen background texture when a photo is being shown                                 |
 | bottom                | Нижня фонова текстура, коли не наведено курсор на іконку                                      |
 | bottom_ds             | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
 | bottom_macro          | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
@@ -124,12 +125,16 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files. Прозорість підтримується, однак працюватиме лише 100% прозорість. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| Текстури         | Опис                                                    |
-| ---------------- | ------------------------------------------------------- |
-| Lshoulder        | The left shoulder                                       |
-| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
-| Rshoulder        | The right shoulder                                      |
-| Rshoulder_greyed | The right shoulder when there are no pages to the right |
+| Текстури                 | Опис                                                             |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | The left shoulder                                                |
+| Lshoulder_greyed         | The left shoulder when there are no pages to the left            |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | The right shoulder                                               |
+| Rshoulder_greyed         | The right shoulder when there are no pages to the right          |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Video texture (`video` folder)
 Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.

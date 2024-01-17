@@ -49,7 +49,7 @@ Se mostrará una una imagen aleatoria en formato `.png` encontrada en `sd:/_nds/
 Si quieres ocultar la imagen, debes editar el archivo `theme.ini` hallado en `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Ábrelo con un editor de texto y cambia el parámetro de la línea `RenderPhoto` de `1` a `0`. y guarda el archivo.
 
 #### ¿Cómo consigo juegos?
-Puedes descargar juegos homebrew desde [Universal-DB](https://db.universal-team.net/ds) y [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get officially released games, you need to get those as dumps, either from your physical cartridges, or from an existing console:
+Puedes descargar juegos homebrew desde [Universal-DB](https://db.universal-team.net/ds) y [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Para tener juegos oficialmente lanzados, tienes que conseguirlos como volcados, ya sea de tus cartuchos físicos o desde una consola existente:
 - Desde una Nintendo DS puedes usar [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) para volcar tus juegos de GBA, y si tienes una flashcard para la ranura Slot-2, juegos de DS. Si solo tienes una flashcard para la ranura Slot-1 y te gustaría volcar un juego de DS, puedes usar[Wooddumer](https://digiex.net/attachments/wooddumper_r89-zip.14735/), que requiere una conexión Wi-Fi compatible con DS, y también un cliente FTP en un dispositivo aparte para recibir la ROM
 - En una DSi puedes usar [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) para volcar tus cartuchos de juegos DS y tus títulos DSiWare
 - En una 3DS puedes usar [GodMode9](https://github.com/d0k3/GodMode9/releases) para volcar tus juegos de DS, títulos DSiWare y títulos de la Consola Virtual

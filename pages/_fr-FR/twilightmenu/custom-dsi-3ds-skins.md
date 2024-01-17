@@ -27,6 +27,7 @@ Il peut s'agir de fichiers PNG ou de fichiers BMP 16 bits (`A1 R5 G5 B5` ou `X1 
 | Texture               | Description                                                                                                        |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | top                   | La texture de fond de l'écran supérieur                                                                            |
+| top_photo             | Texture de l'arrière-plan de l'écran supérieur lorsqu'une photo est affichée                                       |
 | bottom                | La texture de l'arrière-plan inférieur lorsqu’une icône n'est pas survolée                                         |
 | bottom_ds             | Pour le thème 3DS, la texture de l'arrière-plan inférieur lorsqu'une icône n'est pas survolée sur une DS Tank/Lite |
 | bottom_macro          | Pour le thème DSi, la texture de l'arrière-plan lorsqu'une icône n'est pas survolée en utilisant le mode Macro     |
@@ -124,12 +125,16 @@ Il doit s'agir de fichiers PNG.
 ### Textures de l'interface utilisateur (dossier `ui`)
 Il doit s'agir de fichiers PNG. La transparence est prise en charge, mais seule une transparence à 100 % fonctionnera. Tout pixel transparent dans une texture doit l'être dans toutes les autres, afin qu'il soit correctement écrasé lors d'un changement.
 
-| Texture          | Description                                             |
-| ---------------- | ------------------------------------------------------- |
-| Lshoulder        | La gâchette gauche                                      |
-| Lshoulder_greyed | La gâchette gauche quand il n'y a pas de pages à gauche |
-| Rshoulder        | La gâchette droite                                      |
-| Rshoulder_greyed | La gâchette droite quand il n'y a pas de pages à droite |
+| Texture                  | Description                                                  |
+| ------------------------ | ------------------------------------------------------------ |
+| Lshoulder                | La gâchette gauche                                           |
+| Lshoulder_greyed         | La gâchette gauche quand il n'y a pas de pages à gauche      |
+| Lshoulder_photo          | La gâchette gauche lorsqu'une photo est affichée             |
+| Lshoulder_photo_greyed | La gâchette gauche, sans page à gauche et une photo affichée |
+| Rshoulder                | La gâchette droite                                           |
+| Rshoulder_greyed         | La gâchette droite quand il n'y a pas de pages à droite      |
+| Rshoulder_photo          | La gâchette droite lorsqu'une photo est affichée             |
+| Rshoulder_photo_greyed | La gâchette droite, sans page à gauche et une photo affichée |
 
 ### Texture vidéo (dossier `video`)
 Utilisé uniquement pour le thème 3DS, `3dsRotatingCubes.rvid` est un fichier Rocket Video. Pour plus d'informations sur la conversion de vidéos en rvid, lisez [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) sur le wiki de Vid2RVID. Si vous ne voulez pas qu'il soit affiché, vous pouvez simplement le supprimer.

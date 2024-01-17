@@ -7,7 +7,7 @@ title: Comment obtenir des jaquettes
 description: Comment obtenir des jaquettes de jeux dans TWiLight Menu++
 ---
 
-1. Téléchargez un pack de jaquettes en png depuis [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Téléchargez un pack de boxarts en png à partir de [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), sous la catégorie **S Covers (png)**
 1. Extrayez les fichiers .png vers `sd:/_nds/TWiLightMenu/boxart`
 1. Assurez-vous que les jaquettes sont définies pour être affichées dans les paramètres de TWiLight Menu++
 

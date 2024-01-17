@@ -10,6 +10,9 @@ description: Cara agar layar TWiLight Menu++ jadi lebar di Nintendo 3DS
 Bagian ini perlu keluarga konsol 3DS yang menjalankan CFW terkini dari [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
+If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### Pemasangan
 1. Buka FBI dan pilih `Remote Install`, lalu `Scan QR Code`
 1. Pindai kode QR berikut untuk memasang [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) versi terkini<br> ![Kode QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ Selesai dah! Nikmati bermain DS di layar lebar!
 **CATATAN:**
 1. Jangan tahan <kbd>START</kbd> atau <kbd>SELECT</kbd> saat menjalankan TWLMenu++, jika tidak ingin ada *glitch* di layar lebar
 1. Tidak semua permainan bisa dijadikan layar lebar. [Berikut daftar permainan dengan dukungan layar lebar](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. Jika tersangkut di mode layar lebar pada semua bagian TWL_FIRM (termasuk GUI TWLMenu++) setelah mengikuti panduan dan membuka permainan yang bisa layar lebar; hapus `TwlBg.cxi` di `sd:/luma/sysmodules/`, lalu [copot](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) dan [pasang ulang](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, dan ikuti kembali panduan di atas, sekaligus gunakan versi Luma3DS asli
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. Hampir semua tambalan layar lebar hanya akan menyesuaikan unsur 3D, untuk unsur 2D (seperti menu) cuma dilebarkan
 1. Luma3DS **harus** dibaca dari kartu SD, jika layar lebar tidak berfungsi, pastikan sudah ada `boot.firm` di akar kartu SD

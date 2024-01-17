@@ -35,19 +35,21 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 **Main DS⁽ⁱ⁾ Homebrew Projects (« Projets d'homebrews DS⁽ⁱ⁾ principaux »)**
 - [#nds-bootstrap-dev][nds-bootstrap-dev] - Ce salon est destiné aux discussions sur le développement de nds-bootstrap. Pour obtenir de l'aide, utilisez #nds-help
 - [#twilight-menu-dev][twilight-menu-dev] - Ce salon est destiné aux discussions sur le développement de TWiLight Menu++. Pour obtenir de l'aide, utilisez #nds-help
-- [#gbarunner2-dev][gbarunner2-dev] - Ce salon est destiné aux discussions sur le développement de GBARunner2. Pour obtenir de l'aide, utilisez #nds-help
-- [#web-dev][web-dev] - Les discussions et suggestions pour le site [dsi.cfw.guide](https://dsi.cfw.guide/) et tous les [sites DS-Homebrew](https://ds-homebrew.com/) vont ici
+- [#gbarunner3-dev][gbarunner3-dev] - This channel is for discussion of the development of GBARunner3. Pour obtenir de l'aide, utilisez #nds-help
+- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - This channel is for discussion of DSi ntrboot development.
+- [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects (« Projets d'homebrews DS⁽ⁱ⁾ secondaires »)**
-- [#godmode9i][godmode9i] - Ce salonest destiné aux discussions sur le développement de GodMode9i. Pour obtenir de l'aide, utilisez #nds-help
-- [#fastvideods][fastvideods] - Ce salon est destiné aux discussions sur le développement FastVideoDS Player et Encoder. Pour obtenir de l'aide, utilisez #nds-help
-- [#other-nds-homebrew][other-nds-homebrew] - Ce forum est destiné à l'aide, aux mises à jour et aux discussions sur les homebrews Nintendo DS(i) qui ne sont pas couverts par d'autres salons. Il y a des fils de discussion pour les applications homebrew individuelles, et vous pouvez en créer un nouveau s'il n'y a pas déjà un fil de discussion pour votre application
+- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. Pour obtenir de l'aide, utilisez #nds-help
+- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. Pour obtenir de l'aide, utilisez #nds-help
+- [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. Il y a des fils de discussion pour les applications homebrew individuelles, et vous pouvez en créer un nouveau s'il n'y a pas déjà un fil de discussion pour votre application
 
 **Community (« Communauté »)**
-- [#off-topic][off-topic] - Un salon pour tout sujet qui ne correspond pas nécessairement aux autres salons. Les messages de moindre qualité doivent rester sur #end-of-server
-- [#nds-gaming][nds-gaming] - Un endroit pour discuter de manière générale des jeux sur la DS(i), ainsi que pour rechercher des joueurs pour jouer en ligne. Consultez les messages épinglés pour obtenir une liste des communautés dédiées
-- [#other-console-modding][other-console-modding] - Parler d'homebrews et de mods pour tout autre système de jeu, comme la 3DS lorsqu'elle ne concerne pas TWL_FIRM
-- [#end-of-server][end-of-server] - Pour les discussions occasionnelles de moindre qualité. Les règles sont un peu plus souples, mais sont toujours appliquées. Utilisez cet espace pour poster vos mèmes, commandes de bots et autres choses qui ne facilitent pas la discussion
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Les messages de moindre qualité doivent rester sur #end-of-server
+- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Consultez les messages épinglés pour obtenir une liste des communautés dédiées
+- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
+- [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
+- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Les règles sont un peu plus souples, mais sont toujours appliquées. Utilisez cet espace pour poster vos mèmes, commandes de bots et autres choses qui ne facilitent pas la discussion
 
 ## Rôles et étiquettes utilisateur
 Il existe plusieurs rôles que vous pouvez obtenir sur le serveur, certains d'entre eux étant accessibles avec une simple [commande du bot Lightning](#lightning-commands).
@@ -92,7 +94,7 @@ Lightning est un bot Discord créé par [LightSage](https://github.com/LightSage
 - Game Modders - Pour ceux qui ont fait des ROMs hacks, des codes de triche, ou tout autre type de modifications aux jeux DS(i)
 - Translators - Toute personne souhaitant être informée des contributions aux traductions de divers projets DS-Homebrew
 
-Il existe une tonne de commandes amusantes que vous pouvez également exécuter, mais veuillez vous en tenir à [#end-of-server][end-of-server]. Pour en savoir plus, consultez son site Web : <https://lightning.lightsage.dev/>
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. Pour en savoir plus, consultez son site Web : <https://lightning.lightsage.dev/>
 
 **Lightning est également utilisé à des fins de modération (pour enregistrer les avertissements, les expulsions, les mises en sourdine et les bannissements). Gardez les messages privés activés pour le serveur au cas où nous aurions besoin de vous joindre.**
 
@@ -122,7 +124,8 @@ Gestionnaires du serveur : kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, light
 
 [nds-bootstrap-dev]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu-dev]: https://discord.com/channels/283769550611152897/489307733074640926
-[gbarunner2-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[gbarunner3-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[dsi-ntrboot-dev]: https://discord.com/channels/283769550611152897/1193678677666431097
 [web-dev]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
@@ -132,4 +135,5 @@ Gestionnaires du serveur : kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, light
 [off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
+[other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

@@ -27,6 +27,7 @@ Download and install [GIMP](https://www.gimp.org)
 | 纹理                    | 描述                                                                                                     |
 | --------------------- | ------------------------------------------------------------------------------------------------------ |
 | top                   | The top screen background texture                                                                      |
+| top_photo             | The top screen background texture when a photo is being shown                                          |
 | bottom                | The bottom background texture when not hovering over an icon                                           |
 | bottom_ds             | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS Phat/Lite |
 | bottom_macro          | For the DSi theme, the background texture when not hovering over an icon while using Macro Mode        |
@@ -124,12 +125,16 @@ These must be PNG files.
 ### UI textures (`ui` folder)
 These must be PNG files. Transparency is supported, however only 100% transparency will work. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| 纹理               | 描述                                                      |
-| ---------------- | ------------------------------------------------------- |
-| Lshoulder        | The left shoulder                                       |
-| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
-| Rshoulder        | The right shoulder                                      |
-| Rshoulder_greyed | The right shoulder when there are no pages to the right |
+| 纹理                       | 描述                                                               |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | The left shoulder                                                |
+| Lshoulder_greyed         | The left shoulder when there are no pages to the left            |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | The right shoulder                                               |
+| Rshoulder_greyed         | The right shoulder when there are no pages to the right          |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Video texture (`video` folder)
 Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.

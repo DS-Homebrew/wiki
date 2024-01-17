@@ -42,9 +42,10 @@ nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihkan ke k
 
 #### DS/DS Lite: Kenapa perlu nds-bootstrap di *flashcard* DS?
 - ROM tertentu bisa dimuat ke Memory Expansion Pak (atau *flashdisk* Slot-2 yang berisi RAM), agar bisa dibaca lebih cepat daripada kaset biasa
-- 400+ DSiWare bisa dijalankan dengan tambalan sekemas dan ROM Donor *DSi-Enhanced*
+- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
      - Mohon diingat nds-bootstrap akan selalu digunakan untuk DSiWare, terlepas dari pengaturan `Pemuat Permainan` di TWLMenu++
-     - Tidak semua DSiWare bisa menyimpan karena susahnya menambah fitur simpan, dan/atau simpanan ditampung lebih dari satu berkas di sistem berkas.
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Jika *kernel flashcard* tidak bisa membaca ROM tertentu, nds-bootstrap bisa digunakan dan diatur di tiap-permainan
 - Bisa menukar layar atas dan bawah di permainan tertentu untuk bermain lebih nyaman, atau untuk layar yang rusak atau dilepas
 - Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
@@ -52,13 +53,14 @@ nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihkan ke k
 #### Apa itu ROM Donor?
 Jika permainan tidak bisa jalan, nds-bootstrap akan "menyumbangkan" ARM7 (dan ARM7i, jika ada) dari ROM lain untuk mengganti biner permainan tersebut sebagai donor.     
 ROM Donor bisa diatur di **TW**i**L**ight Menu++.
-- ***Flashcard* di mode DS:** ROM DSiWare/*DSi-Exclusive* yang didukung perlu ROM *DSi-Enhanced* sebagai ROM Donor
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax:** Karena permainan *DSi-Enhanced* dan (hampir semua) DSiWare/*DSi-Exclusive* saling punya pengaturan MBK berbeda, maka yang *DSi-Enhanced* perlu ROM Donor agar bisa jalan di mode DSi. Jika DSiWare/*DSi-Exclusive* diatur jadi ROM Donor, permainan *DSi-Enhanced* akan bisa dijalankan sesuai pengaturan MBK eksploit DSiWare
      - Di DSi, jika **TW**i**L**ight Menu++ mendeteksi belum ada yang jadi ROM Donor, *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis jadi ROM Donor
 - **CycloDS iEvolution:** Sama halnya seperti DSiWarehax, tapi ROM DSiWare/*DSi-Exclusive* perlu permainan *DSi-Enhanced* sebagai ROM Donor, bukan sebaliknya
 
 #### ROM Donor apa yang terbaik?
-Tidak ada yang *terbaik* digunakan. Hampir semua ROM TWL bisa diatur jadi ROM Donor.
+Tidak ada yang *terbaik* digunakan. Most ROMs of TWL titles can be set as a Donor ROM.     
+On DS flashcards, any SDK5 DS title can be set as a Donor ROM for DSiWare.
 
 Contoh:
 - **DSiWarehax di DSi:** *Nintendo DSi Sound* dan/atau judul eksploit absah yang dijalankan akan otomatis jadi ROM Donor, jika belum ada yang diatur.

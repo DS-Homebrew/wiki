@@ -7,7 +7,7 @@ title: Come Ottenere Box Art
 description: Come ottenere le box art/le copertine dei giochi in TWiLight Menu++
 ---
 
-1. Scarica la box art in formato png da [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. Estrai i file .png in `sd:/_nds/TWiLightMenu/boxart`
 1. Assicurati che la box art sia impostata per essere mostrata nelle impostazioni di TWiLight Menu++
 

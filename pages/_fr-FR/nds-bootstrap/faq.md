@@ -42,9 +42,10 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
 - Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
-- Plus de quatre cents titres DSiWare peuvent être exécutés à l'aide de patchs intégrés et d'une ROM donatrice d'un titre optimisé DSi
+- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
      - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Lanceur de jeu` dans les paramètres de TWLMenu++
-     - Tous les titres DSiWare ne peuvent pas être sauvegardés, en raison de la difficulté d'ajouter la prise en charge de la sauvegarde pour eux, et/ou du fait qu'ils stockent plus d'un fichier dans le système de fichiers de sauvegarde.
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu
 - Intervertissez les écrans supérieur et inférieur dans les jeux compatibles pour un meilleur confort de jeu, ou sur les systèmes dont l'écran est cassé ou retiré
 - Faites des captures d'écran et modifiez les valeurs de la RAM à l'aide du menu en jeu
@@ -52,13 +53,14 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 #### Qu'est-ce qu'une ROM donatrice ?
 Dans nds-bootstrap, lorsqu'un jeu ne démarre pas, une autre ROM est utilisée pour « donner » son binaire ARM7 (et ARM7i, si disponible) au jeu configuré pour s'exécuter, à la place dudit binaire du jeu.     
 Une ROM donatrice peut être définie en utilisant **TW**i**L**ight Menu++.
-- **Linkers en mode DS :** Les titres exclusifs DSi/DSiWare pris en charge nécessiteront une ROM d'un jeu exclusif DSi définie en tant que ROM donatrice
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax :** Comme les jeux optimisés DSi et (la plupart) des jeux exclusifs DSi/DSiWare contiennent des paramètres MBK différents les uns des autres, les jeux optimisés DSi ne pourront pas démarrer en mode DSi sans une ROM donatrice. En définissant un titre exclusif DSi/DSiWare en tant que ROM donatrice, les jeux optimisés DSi pourront fonctionner avec les paramètres MBK définis par le titre DSiWare sur lequel l'exploit est utilisé
      - Sur DSi, si **TW**i**L**ight Menu++ détecte qu'aucune ROM donatrice n'est définie, le *Studio son Nintendo DSi* et/ou un titre exploité valide que vous avez lancé seront automatiquement définis comme ROM donatrice(s)
 - **CycloDS iEvolution :** Même cas avec DSiWarehax, mais les titres exclusifs DSi/DSiWare nécessiteront un jeu optimisé DSi défini en tant que ROM donatrice, au lieu de l'inverse
 
 #### Quelle est la meilleure ROM donatrice ?
-Il n'y en a pas de *meilleure* à utiliser. La plupart des ROMs des titres TWL peuvent être configurées comme ROM donatrice.
+Il n'y en a pas de *meilleure* à utiliser. Most ROMs of TWL titles can be set as a Donor ROM.     
+On DS flashcards, any SDK5 DS title can be set as a Donor ROM for DSiWare.
 
 Exemples :
 - **DSiWarehax sur DSi :** Le *Studio son Nintendo DSi* et/ou un titre exploité valide que vous avez lancé sera automatiquement défini comme ROM(s) donatrice, s'il n'y en a pas encore.

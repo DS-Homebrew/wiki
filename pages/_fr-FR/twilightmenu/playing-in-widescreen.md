@@ -10,6 +10,9 @@ description: Comment utiliser TWiLight Menu++ en plein écran sur la Nintendo 3D
 Cette section nécessite une console de la famille 3DS, exécutant un environnement CFW moderne de [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
+Si vous utilisez actuellement la v13 de Luma, veuillez mettre à jour vers la v13.0.1 avant de suivre ce guide.
+{:.alert .alert-info}
+
 ### Installation
 1. Ouvrez FBI, allez dans `Remote Install`, puis sélectionnez `Scan QR Code`
 1. Scannez ce code QR pour installer la dernière version de [Universal Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Code QR de Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ Vous avez terminé ! Profitez de vos jeux DS en plein écran !
 **NOTES :**
 1. Ne maintenez pas <kbd>START</kbd> ou <kbd>SELECT</kbd> lors du lancement de TWLMenu++ si vous ne voulez pas que le plein écran ait l'air glitché
 1. Tous les jeux ne sont pas compatibles avec le plein écran. [Voici une liste de jeux qui prennent en charge le plein écran](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. Si vous êtes bloqué en mode plein écran dans tout TWL_FIRM (y compris l'interface graphique de TWLMenu++) après avoir suivi ce guide et lancé un jeu compatible avec le grand écran, supprimez `TwlBg.cxi` à `sd:/luma/sysmodules/`, [désinstallez](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) puis [réinstallez](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++ et suivez à nouveau le guide ci-dessus, en plus d'utiliser le build original de Luma
+1. Si vous êtes bloqué en mode plein écran dans tout TWL_FIRM (y compris l'interface graphique TWLMenu++) après avoir suivi ce guide et lancé un jeu compatible avec le plein écran, supprimez `TwlBg.cxi` dans `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. La plupart des patchs pour le plein écran n'ajustent que les éléments 3D, les éléments 2D (tels que les menus) ne seront qu'étirés
 1. Luma3DS **doit** être chargé à partir de la carte SD ; si le plein écran ne fonctionne pas, assurez-vous que le fichier `boot.firm` se trouve à la racine de votre carte SD

@@ -42,9 +42,10 @@ nds-bootstrap parchea las funciones de la ROM para poder ejecutarse desde una ta
 
 #### ¿Por qué debería usar B4DS en una flashcard si uso una DS/DS Lite?
 - Ciertas ROMs compatibles se cargan en el cartucho de expansión de memoria (o en flashcards de la ranura Slot-2 que tengan RAM), lo que permite tiempos de carga más rápidos que al usar cartuchos
-- Se pueden ejecutar más de 400 títulos DSiWare usando parches integrados y una ROM donante de un juego con mejoras DSi
+- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
      - Ten en cuenta que siempre se usará nds-bootstrap para ejecutar títulos DSiWare, independientemente de si configuraste TWiLight Menu++ para usar el kernel de tu flashcard en lugar de nds-bootstrap en los ajustes
-     - No todos los títulos DSiWare son capaces de guardar, debido a que es complicado añadir soporte de guardado, y algunos almacenan más de un archivo en el sistema de almacenamiento.
+     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Si el kernel de tu flashcard no puede ejecutar alguna ROM, puedes usar nds-bootstrap en su lugar, y esto puedes configurarlo independientemente según cada juego
 - Se pueden intercambiar las pantallas, lo que permite una experiencia de juego más cómoda en sistemas con pantallas rotas o removidas
 - Puedes tomar capturas de pantalla y editar valores en la memoria RAM a través del menú dentro del juego
@@ -52,13 +53,14 @@ nds-bootstrap parchea las funciones de la ROM para poder ejecutarse desde una ta
 #### ¿Qué es una ROM donante?
 En nds-bootstrap, cuando un juego no puede iniciarse, se toma prestado el binario ARM7 (y ARM7i, de estar disponible) de otra ROM, en lugar del binario propio de dicho juego.     
 Puedes establecer una ROM como donante usando **TW**i**L**ight Menu++.
-- **Flashcards en modo DS:** Los títulos DSiWare/exclusivos para DSi requieren una ROM donante de un juego con mejoras DSi
+- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax:** Ya que la tanto los juegos con mejoras DSi como los que son exclusivos o los títulos DSiWare contienen configuraciones distintas de MKB, los juegos con mejoras DSI no podrán iniciar en modo DSi sin una ROM donante. Al establecer como ROM donante un juego exclusivo para DSI o un título DSiWare, los juegos con mejoras DSi podrán ejecutarse con la configuración de MBK establecida por el título DSiWare en el que usa el exploit
      - En una DSi, si if **TW**i**L**ight Menu++ detecta que no se ha establecido una ROM donante, *Nintendo DSi Sound* y/o otro título válido con el que se haya hecho un exploit se establecerá de manera automática
 - **CycloDS iEvolution:** Ocurre lo mismo que con DSiWarehax, pero los juegos con mejoras DSi y los títulos DSiWare requerirán un juego con mejoras DSi como ROM donante, y no al revés
 
 #### ¿Cuál es la mejor ROM donante?
-No hay una *mejor* que otras. La mayoría de juegos cuyo código empieza con TWL se puede establecer como ROM donante.
+No hay una *mejor* que otras. Most ROMs of TWL titles can be set as a Donor ROM.     
+On DS flashcards, any SDK5 DS title can be set as a Donor ROM for DSiWare.
 
 Ejemplos:
 - **DSiWarehax on DSi:** *Nintendo DSi Sound* o un título válido explotable que hayas lanzado se establecerá automáticamente como ROM donante, si no has establecido alguna previamente.

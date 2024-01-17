@@ -7,7 +7,7 @@ title: Emulátorok a DS-en
 description: DS emulátorok referenciája
 ---
 
-Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutatását tartalmazza az emulátoroknak és betöltőknek amik a TWiLight Menu++-szal csomagoltak.
+Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutatását tartalmazza az emulátoroknak és betöltőknek amik a **TW**i**L**ight Menu++-szal csomagoltak.<0>
 
 ### A TWiLight Menu++ által támogatott emulátorok listája
 

@@ -35,7 +35,8 @@ Always remember to check the channel topic and pinned messages before talking in
 **Main DS⁽ⁱ⁾ Homebrew Projects**
 - [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
 - [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
-- [#gbarunner2-dev][gbarunner2-dev] - This channel is for discussion of the development of GBARunner2. For help, use #nds-help
+- [#gbarunner3-dev][gbarunner3-dev] - This channel is for discussion of the development of GBARunner3. For help, use #nds-help
+- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - This channel is for discussion of DSi ntrboot development.
 - [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
 
 **Secondary DS⁽ⁱ⁾ Homebrew Projects**
@@ -47,6 +48,7 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
 - [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
 - [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
+- [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
 - [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Use this to post your memes, bot commands, and other things that don't facilitate discussion
 
 ## Roller & Användarflairs
@@ -122,7 +124,8 @@ Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01,
 
 [nds-bootstrap-dev]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu-dev]: https://discord.com/channels/283769550611152897/489307733074640926
-[gbarunner2-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[gbarunner3-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[dsi-ntrboot-dev]: https://discord.com/channels/283769550611152897/1193678677666431097
 [web-dev]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
@@ -132,4 +135,5 @@ Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01,
 [off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
+[other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

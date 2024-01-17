@@ -77,9 +77,9 @@ Primero tienes que quitar el footer de NOCASH de la copia de seguridad que está
 1. Busca dónde está montada la tarjeta SD
    - Linux:
       1. Extrae el adaptador de tarjetas SD
-      1. Run `lsblk` in a terminal
+      1. Corre `lsblk` en un terminal
       1. Conecta el adaptador de tarjetas SD
-      1. Run `lsblk` again
+      1. Corre `lsblk` de nuevo
       1. Esta vez debería aparecer un nuevo dispositivo
          - Debería llamarse `/dev/sdb`, anota el nombre que tiene en *tu* ordenador
 

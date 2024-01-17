@@ -47,10 +47,12 @@ description: Permainan DS(i) berkesifatan khusus
    - Masing-masing mode dijadikan judul DSiWare sendiri
 - Elite Forces: Unit 77
    - Main jamak atau *multiplayer* ditambah
-- G.G. Series DSiWare titles
-   - Koleksi terpisah dari "G.G. Series Collection+" yang hanya dijual fisik di Jepang
-   - Dibina dalam bentuk NTR, sehingga bisa dimainkan di konsol DS
-   - Layar manual terdapat antarmuka unik
+- G.G Series DSiWare titles
+   - A collection called "G.G Series Collection+" physically released exclusively in Japan
+   - Contains some exclusive titles of which released a few years later as DSiWare
+       - In those late DSiWare releases, some contain incorrect/missing audio!
+   - Built as an NTR title, allowing for playing on DS consoles
+   - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
    - Versi DSiWare bernama "Heathcliff: Spot On"
 - Jewel Adventures
@@ -118,11 +120,23 @@ description: Permainan DS(i) berkesifatan khusus
    - Main jamak atau *multiplayer* dihapus
    - Gambar ikon bergerak
 
-Mendukung Wi-Fi (termasuk WPA 1/2):
+### DSiWare with Wi-Fi support (WPA 1/2 included)
 - Bomberman Blitz
+   - Multiplayer
+- Dragon Quest Wars
+   - Multiplayer
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+   - Multiplayer & Records
+- Mario vs. Donkey Kong: Minis March Again
+   - Downloading user-created stages
+- Metal Torrent
+   - Records
 - Sujin Taisen: Number Battles
+   - Multiplayer
 - Tetris Party Live
+   - Multiplayer
+- UNO
+   - Multiplayer
 
 ### DSiWare dikompilasi menjadi *DSi-Enhanced*
 - 1st Class Poker & BlackJack

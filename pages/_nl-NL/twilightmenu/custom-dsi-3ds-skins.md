@@ -27,6 +27,7 @@ Dit kunnen PNG-bestanden of 16-bits (`A1 R5 G5 B5` of `X1 R5 G5 B5`) BMP-bestand
 | Textuur               | Beschrijving                                                                                                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | top                   | De achtergrondtextuur van het bovenste scherm                                                                                   |
+| top_photo             | The top screen background texture when a photo is being shown                                                                   |
 | bottom                | De achtergrondtextuur van het onderste scherm wanneer je niet over een pictogram zweeft                                         |
 | bottom_ds             | Voor het 3DS-thema, de achtergrondtextuur van het onderste scherm wanneer je niet over een pictogram zweeft op een DS Phat/Lite |
 | bottom_macro          | Voor het DSi-thema, de achtergrondtextuur wanneer je niet over een pictogram zweeft tijdens het gebruik van de Macro-modus      |
@@ -124,12 +125,16 @@ Dit moeten PNG-bestanden zijn.
 ### UI-texturen (`ui` map)
 Dit moeten PNG-bestanden zijn. Transparantie wordt ondersteund, maar alleen 100% transparantie werkt. Elke pixel die transparant is in één textuur moet transparant zijn in alle texturen, zodat het goed wordt overschreven bij verandering.
 
-| Textuur          | Beschrijving                                                 |
-| ---------------- | ------------------------------------------------------------ |
-| Lshoulder        | De linkerschouder                                            |
-| Lshoulder_greyed | De linkerschouder wanneer er geen pagina's links zijn        |
-| Rshoulder        | De rechterschouder                                           |
-| Rshoulder_greyed | De rechterschouder wanneer er geen pagina's naar rechts zijn |
+| Textuur                  | Beschrijving                                                     |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | De linkerschouder                                                |
+| Lshoulder_greyed         | De linkerschouder wanneer er geen pagina's links zijn            |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | De rechterschouder                                               |
+| Rshoulder_greyed         | De rechterschouder wanneer er geen pagina's naar rechts zijn     |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Videotextuur (`video` map)
 Alleen gebruikt voor het 3DS-thema, `3dsRotatingCubes.rvid` is een Rocket Video-bestand. Voor meer informatie over het converteren van video's naar rvid, lees [Een video converteren naar .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) op de Vid2RVID-wiki. Als je niet wilt dat dit getekend wordt, kun je het gewoon verwijderen.

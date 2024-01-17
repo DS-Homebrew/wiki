@@ -7,7 +7,7 @@ title: Cara Menaruh <i>Box Art</i>
 description: Cara menaruh <i>box art</i>/gambar sampul di TWiLight Menu++
 ---
 
-1. Unduh satuan *box art* png dari [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. Ekstrak berkas .png ke `sd:/_nds/TWiLightMenu/boxart`
 1. Pastikan *box art* diaktifkan di pengaturan TWiLight Menu++
 

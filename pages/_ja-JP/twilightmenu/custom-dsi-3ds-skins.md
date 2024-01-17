@@ -24,17 +24,18 @@ TWiLight Menu++のスキンを作るには、画像編集ソフト、特に`.png
 PNGファイル または 16 ビット（`A1 R5 G5 B5` または `X1 R5 G5 B5`）BMPファイルが使用できます。
 - BMPファイルを使用する場合は、エクスポート時に「詳細設定」で16ビットに設定することができます。 BMPでエクスポートするたびに、この操作が必要になる場合があります。
 
-| テクスチャ                 | 説明                                                |
-| --------------------- | ------------------------------------------------- |
-| top                   | 上画面の背景テクスチャ                                       |
-| bottom                | アイコンにカーソルを合わせていない時の下画面背景テクスチャ                     |
-| bottom_ds             | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせていない時の下画面背景テクスチャ |
-| bottom_macro          | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ        |
-| bottom_bubble         | アイコンにカーソルを合わせた時の下画面背景テクスチャ                        |
-| bottom_bubble_ds    | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせた時の下画面背景テクスチャ    |
-| bottom_bubble_macro | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ        |
-| bottom_moving         | DSiテーマで、アイコン移動時の下画面背景テクスチャ                        |
-| bottom_moving_macro | DSiテーマかつマクロモードで、アイコン移動時の下画面背景テクスチャ                |
+| テクスチャ                 | 説明                                                            |
+| --------------------- | ------------------------------------------------------------- |
+| top                   | 上画面の背景テクスチャ                                                   |
+| top_photo             | The top screen background texture when a photo is being shown |
+| bottom                | アイコンにカーソルを合わせていない時の下画面背景テクスチャ                                 |
+| bottom_ds             | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせていない時の下画面背景テクスチャ             |
+| bottom_macro          | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                    |
+| bottom_bubble         | アイコンにカーソルを合わせた時の下画面背景テクスチャ                                    |
+| bottom_bubble_ds    | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                |
+| bottom_bubble_macro | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                    |
+| bottom_moving         | DSiテーマで、アイコン移動時の下画面背景テクスチャ                                    |
+| bottom_moving_macro | DSiテーマかつマクロモードで、アイコン移動時の下画面背景テクスチャ                            |
 
 ### 電池テクスチャ（`battery` フォルダ）
 PNGファイルとすること。 透明度には対応していますが、100％透明でないと効果がありません。
@@ -124,12 +125,16 @@ PNGファイルとすること。
 ### UI テクスチャ（`ui` フォルダ）
 PNGファイルとすること。 透明度には対応していますが、100％透明でないと効果がありません。 あるテクスチャで透明なピクセルは、すべてのテクスチャで透明であるべきです。変更時の上書きを適切にするためです。
 
-| テクスチャ            | 説明               |
-| ---------------- | ---------------- |
-| Lshoulder        | Lボタン             |
-| Lshoulder_greyed | 左側にページがない場合のLボタン |
-| Rshoulder        | Rボタン             |
-| Rshoulder_greyed | 右側にページがない場合のRボタン |
+| テクスチャ                    | 説明                                                               |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | Lボタン                                                             |
+| Lshoulder_greyed         | 左側にページがない場合のLボタン                                                 |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | Rボタン                                                             |
+| Rshoulder_greyed         | 右側にページがない場合のRボタン                                                 |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### ビデオテクスチャ（`video` フォルダ）
 3DSテーマでのみ使用されます。 `3dsRotatingCubes.rvid` は Rocket Video ファイルです。 動画を rvid へ変換する手順などの詳細は、Vid2RVID wiki の [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) をご覧ください。 もしこれを表示したくない場合は、削除すればOKです。

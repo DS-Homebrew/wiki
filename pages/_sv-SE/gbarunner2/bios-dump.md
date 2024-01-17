@@ -2,45 +2,45 @@
 lang: sv-SE
 layout: wiki
 section: gbarunner2
-title: Dumpning av GBA BIOS
-description: Hur du extraherar Nintendo GBA BIOS från din konsol
+title: GBA BIOS Dumping
+description: How to extract the Nintendo GBA BIOS from your console
 tabs:
   - 
-    3ds-sd-card: 3DS med open_agb_firm
-    gba-flashcart: GBA/DS/DS Lite med ett GBA-läge flashkort
+    3ds-sd-card: 3DS with open_agb_firm
+    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
 ---
 
-Även om de flesta GBA-emulatorer inte har några problem med att spela GBA-spel i sig själva, kan vissa emulatorer och hypervisors, som GBARunner2, behöva BIOS-filen för att korrekt spela upp vissa titlar.
+While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
 
-Det finns två distinkta sätt att uppnå detta, genom att använda:
-- en 3DS med anpassad firmware, ELLER
-- en GBA/DS/DS Lite med en GBA-läge minneskortsmodul
+There are two distinct ways to achieve this, using:
+- a 3DS with custom firmware, OR
+- a GBA/DS/DS Lite with a GBA-mode flashcart
 
 {% capture tab-3ds-sd-card %}
 ### Del 1: Få de nödvändiga filerna
-1. Ladda ner [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (filen `.7z`)
-1. Ladda ner [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Skapa en mapp med namnet `payloads` inuti mappen `/luma` om den inte redan finns
-1. Kopiera `open_agb_firm.firm` från filen `.7z` i open_agb_firm till mappen `/luma/payloads`
-1. Kopiera `Bios_Dumper.gba` till roten av ditt SD-kort
-1. Sätt i ditt SD-kort i din enhet igen
+1. Download [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (the `.7z` file)
+1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Create a folder named `payloads` inside the `/luma` folder if it does not already exist
+1. Copy `open_agb_firm.firm` from the open_agb_firm `.7z` file to the `/luma/payloads` folder
+1. Copy `Bios_Dumper.gba` to the root of your SD card
+1. Reinsert your SD card into your device
 
-### Del 2: Bios_Dumper
-1. Håll ned <kbd>START</kbd>-knappen och medan du håller ned den, starta din enhet
-    - Detta kommer att starta open_agb_firm
-    - Om den laddar `Luma3DS Chainloader`, välj `open_agb_firm` från detta menyn
-    - Om det laddar något annat, har du inte kopierat `open_agb_firm.firm` till rätt mapp på ditt SD-kort
-1. Från open_agb_firm, starta `Bios_Dumper.gba`
-1. Skärmen kommer att blixtra rött, sedan kommer den att blixtra grönt
-1. Vänta i cirka fem sekunder
-1. Stäng av din enhet
+### Part 2: Bios_Dumper
+1. Press and hold <kbd>START</kbd>, and while holding <kbd>START</kbd>, power on your device
+    - This will launch open_agb_firm
+    - If it loads the `Luma3DS Chainloader`, select `open_agb_firm` from this menu
+    - If it loads to something else, you did not copy `open_agb_firm.firm` to the correct folder on your SD card
+1. From open_agb_firm, launch `Bios_Dumper.gba`
+1. The screen will flash red, then it will flash green
+1. Wait for about five seconds
+1. Power off your device
 
 {% capture upload-bios-text %}
-Från ditt SD-kort, ladda upp `/3ds/open_agb_firm/saves/Bios_Dumper.sav` här:
+From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
 {% endcapture %}
 
-### Del 3: Packa upp BIOS från den genererade sparfilen
-1. Sätt in ditt SD-kort i din dator
+### Part 3: Unpack the BIOS from the generated save file
+1. Insert your SD card into your computer
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -49,23 +49,23 @@ Från ditt SD-kort, ladda upp `/3ds/open_agb_firm/saves/Bios_Dumper.sav` här:
 
 {% capture tab-gba-flashcart %}
 ### Del 1: Få de nödvändiga filerna
-1. Ladda ner [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Kopiera `Bios_Dumper.gba` till roten av din flash-kassettens SD-kort
-1. Sätt tillbaka ditt SD-kort i din flashkassett
-1. Sätt tillbaka din GBA-flashkassett i din kassett
+1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Copy `Bios_Dumper.gba` to the root of your flashcart's SD card
+1. Reinsert your SD card into your flashcart
+1. Reinsert your GBA flashcart into your cartridge
 
-### Del 2: Bios_Dumper
-1. Starta din flashkassett och starta sedan `Bios_Dumper.gba`
-1. Skärmen kommer att blixtra rött, sedan kommer den att blixtra grönt
-1. Vänta i cirka fem sekunder
-1. Stäng av din enhet
+### Part 2: Bios_Dumper
+1. Launch your flashcart, then launch `Bios_Dumper.gba`
+1. The screen will flash red, then it will flash green
+1. Wait for about five seconds
+1. Power off your device
 
 {% capture upload-bios-text %}
-Från ditt SD-kort, ladda upp `Bios_Dumper.sav` här:
+From your SD card, upload `Bios_Dumper.sav` here:
 {% endcapture %}
 
-### Del 3: Packa upp BIOS från den genererade sparfilen
-1. Sätt in ditt SD-kort i din dator
+### Part 3: Unpack the BIOS from the generated save file
+1. Insert your SD card into your computer
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -74,7 +74,7 @@ Från ditt SD-kort, ladda upp `Bios_Dumper.sav` här:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-En `bios.bin`-fil kommer att laddas ner automatiskt. Detta är den slutgiltiga GBA BIOS-filen.
+A `bios.bin` file will automatically download. This is the final GBA BIOS file.
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

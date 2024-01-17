@@ -27,6 +27,7 @@ Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
 | Tekstur               | Keterangan                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------- |
 | top                   | Tekstur latar belakang layar atas                                                           |
+| top_photo             | The top screen background texture when a photo is being shown                               |
 | bottom                | Tekstur latar layar bawah saat tidak diarahkan di atas ikon                                 |
 | bottom_ds             | Untuk tema 3DS di DS Phat/Lite. Tekstur latar layar bawah saat tidak diarahkan di atas ikon |
 | bottom_macro          | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat tidak diarahkan di atas ikon      |
@@ -124,12 +125,16 @@ Untuk ini harus berkas PNG.
 ### Tekstur antarmuka (folder `ui`)
 Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
 
-| Tekstur          | Keterangan                                           |
-| ---------------- | ---------------------------------------------------- |
-| Lshoulder        | Gambar tombol L                                      |
-| Lshoulder_greyed | Gambar tombol L saat tidak ada halaman lagi di kiri  |
-| Rshoulder        | Gambar tombol R                                      |
-| Rshoulder_greyed | Gambar tombol R saat tidak ada halaman lagi di kanan |
+| Tekstur                  | Keterangan                                                       |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | Gambar tombol L                                                  |
+| Lshoulder_greyed         | Gambar tombol L saat tidak ada halaman lagi di kiri              |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | Gambar tombol R                                                  |
+| Rshoulder_greyed         | Gambar tombol R saat tidak ada halaman lagi di kanan             |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Tekstur video (folder `video`)
 Hanya digunakan tema 3DS, `3dsRotatingCubes.rvid` adalah berkas Rocket Video. Untuk informasi lanjut cara mengonversi video ke rvid, baca [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) di wiki Vid2RVID. Jika tidak ingin dipermuncul, hapus saja berkasnya.

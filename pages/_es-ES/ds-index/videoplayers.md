@@ -30,7 +30,8 @@ Nora: Si te salta un mensaje diciendo `This encoder requires a cpu with support 
 1. Descarga el [Runtime de .NET](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore) e instálalo
 1. Descarga el [Codificador de FastVideoDS](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Descarga [FastVideoDS.bat](/assets/files/FastVideoDS.bat) en la misma carpeta y colócalo en la misma carpeta que el archivo `.exe` del Codificador
-1. Arrastra tu video y suéltalo en dicho archivo `.bat`
+1. Copia/mueve tu vídeo a la misma ubicación que el archivo `.bat`
+1. Arrastra y suelta el vídeo copiado/movido en el archivo `.bat`
 
 Cuando el proceso termine, deberías poder arrastrar el archivo resultante en tu tarjeta SD y soltarlo. Hecho esto, podrás reproducir el video abriéndolo a través de **TW**i**L**ight Menu++.
 

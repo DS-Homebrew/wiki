@@ -12,6 +12,9 @@ Pengaturan berikut ada di setelan tiap-permainan TWiLight Menu++. Beberapa opsi 
 ### Versi SDK
 Versi dari *Software Development Kit* (SDK) sebagai pengompilasi ROM.
 
+### Title ID
+The ID of which would be displayed on the bottom of the game card's sticker (ex. `NTR-ASME-USA`). It is retrieved from the ROM by reading it's header.
+
 ### Nomor simpanan
 Berkas simpanan atau *save* permainan akan berekstensi `.savX`, tanda X menandakan angka simpanan selain 0. Mampu menyimpan sampai 10 simpanan di ROM yang sama.
 
@@ -22,16 +25,13 @@ Mengubah mode yang dijalankan ROM. Cepat CPU ARM9 dan opsi Mode VRAM juga terpen
 Mengubah kecepatan yang dijalankan CPU ARM9. Secara bawaan, ROM di Mode DS berjalan 67 Mhz (NTR). Ini bisa diubah ke 133 Mhz (TWL) untuk mengurangi lambat, tapi akan ada isu. ROM di Mode DSi hanya bisa diubah ke 133 Mhz (TWL).
 
 ### Mode VRAM
-Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, ROM di Mode DS menggunakan Mode VRAM DS. Ini bisa diubah ke Mode VRAM DSi tapi tidak berpengaruh dan akan bermasalah visual. ROM di Mode DSi hanya bisa diubah ke Mode VRAM DSi.
+Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, ROM di Mode DS menggunakan Mode VRAM DS. Ini bisa diubah ke Mode VRAM DSi tapi tidak berpengaruh dan akan bermasalah visual. ROM di Mode DSi hanya bisa diubah ke Mode VRAM DSi. If you're playing a TWL-type (DSi-Enhanced or DSiWare) ROM in DSi Mode, the VRAM Mode is set by the game itself.
 
 ### DMA Bacaan Kartu
-Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Jika pengaturan ini diaktifkan akan mempercepat ROM, tapi akan ada isu. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
-
-### Perl. ruang ROM di RAM
-Jika ukuran permainan cukup kecil, bisa dimuatkan ke RAM sistem agar pemuatan dipercepat. Mengaktifkan opsi ini akan memperluas batas ukuran ROM, tapi akan ada yang kacau.
+Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Having this setting on can speed up ROMs slightly, but may cause issues. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
 ### Mulai Langsung
-Hanya muncul untuk ROM *homebrew*. Jika diatur ke Nyala, maka ROM tidak akan dijalankan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
+Appears only for homebrew ROMs on flashcards. Setting this to `On` will not use nds-bootstrap when launching the ROM. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
 
 ### Bootstrap
 Mengubah cara jalan ROM apakah dengan nds-boostrap versi *Release* atau *Nightly*. Informasi untuk versi *Nightly* bisa dilihat di [Pertanyaan Umum nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)

@@ -7,7 +7,7 @@ title: DS上のエミュレータ
 description: DS上のエミュレータの参照
 ---
 
-DSとDSiには多くのエミュレータがあります。 このページでは、TWiLight Menu++にバンドルされている多くのエミュレータやローダーについて、包括的な説明を提供します。
+DSとDSiには多くのエミュレータがあります。 This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### TWiLight Menu++で対応されているシステムのリスト
 
@@ -22,8 +22,8 @@ DSとDSiには多くのエミュレータがあります。 このページで�
 | DS                      | [nds-bootstrap][ndsbs], flashcard kernel, native | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].sav`[^2]                                                 |
 | DSiWare                 | [Unlaunch][unlaunch], [nds-bootstrap][ndsbs]     | `.nds`, `.dsi`, `.ids`, `.srl`, `.app` | `saves/[rom name].pub`, `saves/[rom name].prv`, `saves/[rom name].sav`[^7] |
 | DSTWO Plugin            | [DSTWO][dstwo][^3]                               | `.plg`                                 |                                                                            |
-| ゲームボーイ（カラー）             | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                                           |
-| ゲームボーイアドバンス             | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                                           |
+| Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                                           |
+| Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                                           |
 | ゲームギア                   | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                                                        |
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                                                       |
 | インテレビジョン                | [Nintellivision][nintellivision]                 | `.int`                                 |                                                                            |

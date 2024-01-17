@@ -27,6 +27,7 @@ These can be PNG files or 16-bit (`A1 R5 G5 B5` or `X1 R5 G5 B5`) BMP files.
 | 텍스쳐                   | 설명                                                                                                     |
 | --------------------- | ------------------------------------------------------------------------------------------------------ |
 | top                   | The top screen background texture                                                                      |
+| top_photo             | The top screen background texture when a photo is being shown                                          |
 | bottom                | The bottom background texture when not hovering over an icon                                           |
 | bottom_ds             | For the 3DS theme, the bottom background texture when not hovering over an icon when on a DS Phat/Lite |
 | bottom_macro          | For the DSi theme, the background texture when not hovering over an icon while using Macro Mode        |
@@ -124,12 +125,16 @@ PNG 파일이어야 합니다.
 ### UI textures (`ui` folder)
 PNG 파일이어야 합니다. 투명도는 지원되지만 100% 투명도만 가능합니다. Any pixel that is transparent in one texture should be transparent in all of them, so that it's properly overwritten on change.
 
-| 텍스쳐              | 설명                                                      |
-| ---------------- | ------------------------------------------------------- |
-| Lshoulder        | The left shoulder                                       |
-| Lshoulder_greyed | The left shoulder when there are no pages to the left   |
-| Rshoulder        | The right shoulder                                      |
-| Rshoulder_greyed | The right shoulder when there are no pages to the right |
+| 텍스쳐                      | 설명                                                               |
+| ------------------------ | ---------------------------------------------------------------- |
+| Lshoulder                | The left shoulder                                                |
+| Lshoulder_greyed         | The left shoulder when there are no pages to the left            |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
+| Rshoulder                | The right shoulder                                               |
+| Rshoulder_greyed         | The right shoulder when there are no pages to the right          |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Video texture (`video` folder)
 Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) on the Vid2RVID wiki. If you don't want this to be drawn you can simply delete it.

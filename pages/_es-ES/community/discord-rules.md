@@ -39,16 +39,16 @@ Esta página proporciona más detalles para la reglas descritas en el canal [#in
 
 ## Consecuencias
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+The consequences of breaking these rules are a warning, mute, kick or ban. Las consecuencias específicas son dependientes para cada caso.
+- La mayoría de usuarios tienen hasta cuatro advertencias antes de ser vetados
+   - Estas advertencias incluyen usar el comando !warn, ser silenciado y las advertencias verbales por el chat
+- Unirse con el propósito de romper las reglas hará que seas vetado inmediatamente
 
 ## Reportar
 
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Si alguien está rompiendo las reglas y no hay moderadores al tanto, por favor, notifica a un moderador que esté en línea
+- Si la infracción ocurrió por mensaje privado, hace falta evidencia, como varias personas reportando el problema, implicaciones en el servidor o cosas por el estilo
+- Sin embargo, cubre enlaces cuando hagas un reporte, no le des más atención a alguien que la está buscando
 
 
-Last updated: 2022-06-28
+Actualizado por última vez el 28 de junio de 2022

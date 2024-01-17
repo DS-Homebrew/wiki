@@ -7,14 +7,14 @@ title: Emuladores en la DS
 description: Una documentación sobre emuladores en la DS
 ---
 
-Hay diferentes emuladores disponibles para DS y DSi. Esta página ofrece una explicación completa sobre la variedad de emuladores y lanzadores incluidos con TWiLight Menu++.
+Hay diferentes emuladores disponibles para DS y DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### Lista de sistemas soportados por TWiLight Menu++
 
 | Formato                 | Lanzador                                         | Extensiones                            | Archivos de guardado                                                       |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                                            |
-| Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                                            |
+| Atari 6200              | [StellaDS][stellads]                             | `.a26`                                 |                                                                            |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                                            |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                                            |
 | Atari XEGS              | [A8DS][a8ds]                                     | `.xex`, `.atr`                         |                                                                            |

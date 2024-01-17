@@ -20,7 +20,7 @@ Usualmente, las versiones incluidas en TWiLight Menu++ son suficientes. Para má
 Necesitarás la versión [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) de GBARunner2 para utilizar estas funciones. Encontrarás instrucciones detalladas para configurar estas versiones en su [página en WikiTemp (en inglés)](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### ¿Por qué no funciona el reloj interno (RTC) en este romhack?
-El reloj interno funciona solo en ciertos juegos. Deberás cambiar la ID de la ROM a la de un juego compatible para que GBARunner2 la reconozca correctamente. Puede encontrar una lista de identificadores de títulos admitidos en el [código de GBARunner2](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
+El reloj interno funciona solo en ciertos juegos. Deberás cambiar la ID de la ROM a la de un juego compatible para que GBARunner2 la reconozca correctamente. You can find a list of supported title IDs in [GBARunner2's code](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
 
 Puedes cambiar la ID de tu ROM usando esta herramienta:
 1. <label for="file-input" class="form-label">Selecciona el archivo ROM de GBA:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />

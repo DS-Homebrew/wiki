@@ -2,45 +2,45 @@
 lang: de-DE
 layout: wiki
 section: gbarunner2
-title: GBA-BIOS-Auslesen
-description: Wie extrahiert man das Nintendo GBA-BIOS von Ihrer Konsole
+title: GBA BIOS Dumping
+description: How to extract the Nintendo GBA BIOS from your console
 tabs:
   - 
-    3ds-sd-card: 3DS mit open_agb_firm
-    gba-flashcart: GBA/DS/DS Lite mit einer GBA-Modus-Flashkarte
+    3ds-sd-card: 3DS with open_agb_firm
+    gba-flashcart: GBA/DS/DS Lite with a GBA-mode flashcart
 ---
 
-Obwohl die meisten GBA-Emulatoren keine Probleme beim Abspielen von GBA-Spielen haben, könnten einige Emulatoren und Hypervisoren wie GBARunner2 die BIOS-Datei benötigen, um einige Titel ordnungsgemäß wiederzugeben.
+While most GBA emulators have no issue playing GBA games by itself, some emulators and hypervisors, such as GBARunner2, may need the BIOS file to properly playback some titles.
 
-Es gibt zwei verschiedene Möglichkeiten, dies zu erreichen, und zwar durch Verwendung von:
-- eine 3DS mit benutzerdefinierter Firmware ODER
-- Ein GBA/DS/DS Lite mit einer GBA-Modus-Flashkarte
+There are two distinct ways to achieve this, using:
+- a 3DS with custom firmware, OR
+- a GBA/DS/DS Lite with a GBA-mode flashcart
 
 {% capture tab-3ds-sd-card %}
-### Teil 1: Beschaffung der erforderlichen Dateien
-1. Laden Sie [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (die Datei `.7z`) herunter
-1. Laden Sie [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba) herunter
-1. Erstellen Sie einen Ordner namens `payloads` innerhalb des `/luma` Ordners, falls er noch nicht existiert
-1. Kopieren Sie `open_agb_firm.firm` aus der open_agb_firm `.7z` Datei in den `/luma/payloads` Ordner
-1. Kopieren Sie `Bios_Dumper.gba` in das Stammverzeichnis Ihrer SD-Karte
-1. Stecken Sie Ihre SD-Karte erneut in Ihr Gerät
+### Part 1: Getting the required files
+1. Download [open_agb_firm](https://github.com/profi200/open_agb_firm/releases/latest) (the `.7z` file)
+1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Create a folder named `payloads` inside the `/luma` folder if it does not already exist
+1. Copy `open_agb_firm.firm` from the open_agb_firm `.7z` file to the `/luma/payloads` folder
+1. Copy `Bios_Dumper.gba` to the root of your SD card
+1. Reinsert your SD card into your device
 
-### Teil 2: Bios_Dumper
-1. Drücken und halten Sie <kbd>START</kbd> gedrückt, und während Sie <kbd>START</kbd> gedrückt halten, schalten Sie Ihr Gerät ein
-    - Dies wird open_agb_firm starten
-    - Wenn der `Luma3DS Chainloader` geladen wird, wählen Sie `open_agb_firm` aus diesem Menü
-    - Wenn es in etwas anderes lädt, haben Sie `open_agb_firm.firm` nicht in den richtigen Ordner auf Ihrer SD-Karte kopiert
-1. Starten Sie `Bios_Dumper.gba` aus open_agb_firm
-1. Der Bildschirm wird rot aufleuchten, dann wird er grün aufleuchten
-1. Warten Sie etwa fünf Sekunden
-1. Schalten Sie Ihr Gerät aus
+### Part 2: Bios_Dumper
+1. Press and hold <kbd>START</kbd>, and while holding <kbd>START</kbd>, power on your device
+    - This will launch open_agb_firm
+    - If it loads the `Luma3DS Chainloader`, select `open_agb_firm` from this menu
+    - If it loads to something else, you did not copy `open_agb_firm.firm` to the correct folder on your SD card
+1. From open_agb_firm, launch `Bios_Dumper.gba`
+1. The screen will flash red, then it will flash green
+1. Wait for about five seconds
+1. Power off your device
 
 {% capture upload-bios-text %}
-Von Ihrer SD-Karte, laden Sie `/3ds/open_agb_firm/saves/Bios_Dumper.sav` hier hoch:
+From your SD card, upload `/3ds/open_agb_firm/saves/Bios_Dumper.sav` here:
 {% endcapture %}
 
-### Teil 3: Entpacken Sie das BIOS aus der generierten Speicherdatei
-1. Stecken Sie Ihre SD-Karte in Ihren Computer
+### Part 3: Unpack the BIOS from the generated save file
+1. Insert your SD card into your computer
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -48,24 +48,24 @@ Von Ihrer SD-Karte, laden Sie `/3ds/open_agb_firm/saves/Bios_Dumper.sav` hier ho
 
 
 {% capture tab-gba-flashcart %}
-### Teil 1: Beschaffung der erforderlichen Dateien
-1. Laden Sie [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba) herunter
-1. Kopieren Sie `Bios_Dumper.gba` auf die Wurzel Ihrer Flashkarte SD-Karte
-1. Setzen Sie Ihre SD-Karte erneut in Ihr Flashmodul ein
-1. Setzen Sie Ihre GBA-Flashkarte erneut in Ihr Modul ein
+### Part 1: Getting the required files
+1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
+1. Copy `Bios_Dumper.gba` to the root of your flashcart's SD card
+1. Reinsert your SD card into your flashcart
+1. Reinsert your GBA flashcart into your cartridge
 
-### Teil 2: Bios_Dumper
-1. Starten Sie Ihre Flashkarte und anschließend `Bios_Dumper.gba`
-1. Der Bildschirm wird rot aufleuchten, dann wird er grün aufleuchten
-1. Warten Sie etwa fünf Sekunden
-1. Schalten Sie Ihr Gerät aus
+### Part 2: Bios_Dumper
+1. Launch your flashcart, then launch `Bios_Dumper.gba`
+1. The screen will flash red, then it will flash green
+1. Wait for about five seconds
+1. Power off your device
 
 {% capture upload-bios-text %}
-Von Ihrer SD-Karte, laden Sie `Bios_Dumper.sav` hier hoch:
+From your SD card, upload `Bios_Dumper.sav` here:
 {% endcapture %}
 
-### Teil 3: Entpacken Sie das BIOS aus der generierten Speicherdatei
-1. Stecken Sie Ihre SD-Karte in Ihren Computer
+### Part 3: Unpack the BIOS from the generated save file
+1. Insert your SD card into your computer
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
 {% endcapture %}
@@ -74,7 +74,7 @@ Von Ihrer SD-Karte, laden Sie `Bios_Dumper.sav` hier hoch:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-Es wird automatisch eine `bios.bin`-Datei heruntergeladen. Dies ist die endgültige GBA-BIOS-Datei.
+A `bios.bin` file will automatically download. This is the final GBA BIOS file.
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

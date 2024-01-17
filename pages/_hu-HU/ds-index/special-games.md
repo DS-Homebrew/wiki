@@ -47,8 +47,10 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
    - Minden mód egy önálló DSiWare-ként került kiadásra
 - Elite Forces: Unit 77
    - Többjátékos mód hozzáadva
-- G.G. Series DSiWare címek
-   - A "G.G. Series Collection+" kollekció Japán régióban exkluzív fizikai kiadással rendelkezett
+- G.G Series DSiWare címek
+   - A "G.G Series Collection+" fizikailag kizárólag Japánban lett kiadva
+   - Tartalmaz néhány exkluzív címet, amelyek néhány évvel később DSiWare-ként jelentek meg
+       - Ezekben a késői DSiWare-kiadásokban némelyik hibás/hiányzó hangot tartalmaz!
    - NTR címként készült, lehetővé téve a DS konzolokon való játékot
    - A kéziköny képernyőképei egyedi UI-t tartalmaznak
 - Heathcliff: Frantic Foto
@@ -118,11 +120,23 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
    - A többjátékos mód eltávolítva
    - Az ikon animált
 
-Támogat Wi-Fi-t (tartalmaz WPA 1/2-t):
+### DSiWare Wi-Fi támogatással (WPA 1/2 mellékelve)
 - Bomberman Blitz
+   - Többjátékos
+- Dragon Quest Wars
+   - Többjátékos
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+   - Többjátékos & Rekordok
+- Mario vs. Donkey Kong: Minis March Again
+   - Felhasználó által készített pályák
+- Metal Torrent
+   - Rekordok
 - Sujin Taisen: Number Battles
+   - Többjátékos
 - Tetris Party Live
+   - Többjátékos
+- UNO
+   - Többjátékos
 
 ### DSiWare-ok amik DSi-Enhanced ROM-nak lettek fordítva
 - 1st Class Poker & BlackJack

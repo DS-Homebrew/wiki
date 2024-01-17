@@ -35,19 +35,21 @@ Jangan lupa periksa dulu topik dan pesan tersemat di tiap saluran sebelum mulai 
 **Proyek Utama *Homebrew* DS⁽ⁱ⁾**
 - [#nds-bootstrap-dev][nds-bootstrap-dev] - Saluran ini untuk membahas pengembangan nds-bootstrap. Minta bantuan di #nds-help
 - [#twilight-menu-dev][twilight-menu-dev] - Saluran ini untuk membahas pengembangan TWiLight Menu++. Minta bantuan di #nds-help
-- [#gbarunner2-dev][gbarunner2-dev] - Saluran ini untuk membahas pengembangan GBARunner2. Minta bantuan di #nds-help
-- [#web-dev][web-dev] - Untuk saran dan tempat membahas [dsi.cfw.guide](https://dsi.cfw.guide/) serta perihal [situs DS-Homebrew](https://ds-homebrew.com/)
+- [#gbarunner3-dev][gbarunner3-dev] - This channel is for discussion of the development of GBARunner3. Minta bantuan di #nds-help
+- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - This channel is for discussion of DSi ntrboot development.
+- [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
 
 **Proyek Sambilan *Homebrew* DS⁽ⁱ⁾**
-- [#godmode9i][godmode9i] - Saluran ini untuk membahas pengembangan GodMode9i. Minta bantuan di #nds-help
-- [#fastvideods][fastvideods] - Saluran ini untuk membahas pengembangan Pemutar dan Enkoder FastVideoDS. Minta bantuan di #nds-help
-- [#other-nds-homebrew][other-nds-homebrew] - Forum ini untuk dukungan, perbaruan, dan pembahasan *homebrew* Nintendo DS(i) yang tidak dicakup saluran lain. Tersedia utas untuk membahas masing-masing *homebrew*, dan bisa membuat utas baru untuk yang belum ada
+- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. Minta bantuan di #nds-help
+- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. Minta bantuan di #nds-help
+- [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. Tersedia utas untuk membahas masing-masing *homebrew*, dan bisa membuat utas baru untuk yang belum ada
 
 **Komunitas**
-- [#off-topic][off-topic] - Saluran ini untuk topik apa pun yang tidak begitu cocok di saluran lain. Postingan kurang mutu harus tetap di #end-of-server
-- [#nds-gaming][nds-gaming] - Tempat membahas permainan DS(i) secara umum, sekaligus mencari teman bermain daring. Periksa pesan tersemat untuk melihat daftar komunitas khusus
-- [#other-console-modding][other-console-modding] - Untuk membicarakan *homebrew* dan modifikasi permainan konsol lain, seperti 3DS tapi bukan TWL_FIRM
-- [#end-of-server][end-of-server] - Untuk santai-santai, obrolan kurang mutu. Peraturan di sini lebih luwes, tapi masih ditegaskan. Gunakan jika ingin mengirim meme, perintah bot, dan hal lain yang tidak selalu harus bahasan
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Postingan kurang mutu harus tetap di #end-of-server
+- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Periksa pesan tersemat untuk melihat daftar komunitas khusus
+- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
+- [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
+- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Peraturan di sini lebih luwes, tapi masih ditegaskan. Gunakan jika ingin mengirim meme, perintah bot, dan hal lain yang tidak selalu harus bahasan
 
 ## Peran & *Flair*
 Ada beberapa peran yang bisa didapatkan di server, beberapa bisa diakses dengan [perintah bot Lightning](#lightning-commands).
@@ -92,7 +94,7 @@ Lightning adalah bot Discord oleh [LightSage](https://github.com/LightSage) yang
 - Game Modders - Untuk yang pernah membuat retasan ROM, *cheat*, atau modifikasi apa pun pada permainan DS(i)
 - Translators - Mengabari proyek terjemah di DS-Homebrew ke penerjemah atau siapa pun
 
-Ada banyak perintah lain yang juga bisa diketik, tapi lakukan di [#end-of-server][end-of-server] saja. Untuk lebih jelas, silakan ke situsnya: <https://lightning.lightsage.dev/>
+There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. Untuk lebih jelas, silakan ke situsnya: <https://lightning.lightsage.dev/>
 
 **Lightning juga digunakan untuk tujuan moderasi (mencatat peringatan, menendang, membisu dan mencekal). Tetap aktifkan DM di server untuk jaga-jaga jika Anda perlu kami japri.**
 
@@ -122,7 +124,8 @@ Pemelihara Server: kalamty, lightsage01, lifehackerhansol, kodtiz3d, Pk11#3666, 
 
 [nds-bootstrap-dev]: https://discord.com/channels/283769550611152897/283769550611152897
 [twilight-menu-dev]: https://discord.com/channels/283769550611152897/489307733074640926
-[gbarunner2-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[gbarunner3-dev]: https://discord.com/channels/283769550611152897/620310871800807466
+[dsi-ntrboot-dev]: https://discord.com/channels/283769550611152897/1193678677666431097
 [web-dev]: https://discord.com/channels/283769550611152897/744649302567157800
 
 [godmode9i]: https://discord.com/channels/283769550611152897/497960894660083732
@@ -132,4 +135,5 @@ Pemelihara Server: kalamty, lightsage01, lifehackerhansol, kodtiz3d, Pk11#3666, 
 [off-topic]: https://discord.com/channels/283769550611152897/286686210225864725
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
+[other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

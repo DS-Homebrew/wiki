@@ -27,6 +27,7 @@ Ezek vagy PNG fájlok vagy 16 bites (`A1 R5 G5 B5` vagy `X1 R5 G5 B5`) BMP-fájl
 | Textúra               | Leírás                                                                                                         |
 | --------------------- | -------------------------------------------------------------------------------------------------------------- |
 | top                   | A felső képernyő háttér textúrája                                                                              |
+| top_photo             | A felső képernyő háttér textúrája, amikor egy fotó kerül megjelenítésre                                        |
 | bottom                | Az alsó háttér textúra, ha nem ikon felett állsz                                                               |
 | bottom_ds             | A 3DS téma esetén, az alsó háttér texturája, amikor nem egy ikon felett állsz és DS Phat/Lite van használatban |
 | bottom_macro          | A DSi téma esetén, a háttér textúrája, amikor nem egy ikon felett állsz és Macro mód van használatban          |
@@ -124,12 +125,16 @@ Ezeknek PNG fájloknak kell lenniük.
 ### UI texturák (`ui` mappa)
 Ezeknek PNG fájloknak kell lenniük. Az átlátszóság támogatott, azonban csak a 100%-os átlátszóság fog működni. Bármelyik pixelnek ami átlátszó az egyik textúrán, átlátszónak kell lenni mindegyiken, így megfelelően felülírásra kerül változáskor.
 
-| Textúra          | Leírás                                                |
-| ---------------- | ----------------------------------------------------- |
-| Lshoulder        | A bal váll                                            |
-| Lshoulder_greyed | A bal váll, ha már nincs további oldal tovább balra   |
-| Rshoulder        | A jobb váll                                           |
-| Rshoulder_greyed | A jobb váll, ha már nincs további oldal tovább jobbra |
+| Textúra                  | Leírás                                                                             |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| Lshoulder                | A bal váll                                                                         |
+| Lshoulder_greyed         | A bal váll, ha már nincs további oldal tovább balra                                |
+| Lshoulder_photo          | A bal váll, ha egy fotó van megjelenítve és már nincs további oldal tovább balra   |
+| Lshoulder_photo_greyed | A bal váll, ha egy fotó van megjelenítve és már nincs további oldal tovább balra   |
+| Rshoulder                | A jobb váll                                                                        |
+| Rshoulder_greyed         | A jobb váll, ha már nincs további oldal tovább jobbra                              |
+| Rshoulder_photo          | A jobb váll, ha egy fotó van megjelenítve és már nincs további oldal tovább jobbra |
+| Rshoulder_photo_greyed | A jobb váll, ha egy fotó van megjelenítve és már nincs további oldal tovább jobbra |
 
 ### Videó texturák (`video` mappa)
 Csak a 3DS témában használt, a `3dsRotatingCubes.rvid` egy Rocket Video fájl. További információkért a videók rvid fájllá konvertálásáról, olvasd el [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) cikket a Vid2RVID wiki-ben. Ha nem szeretnéd, hogy megjelenjen, egyszerűen csak töröld.

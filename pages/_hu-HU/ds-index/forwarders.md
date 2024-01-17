@@ -9,10 +9,11 @@ tabs:
   - 
     3ds-sd-card: 3DS SD kártya
     dsi-sd-card: DSi SD kártya
-    flashcard: Flashcard
+    flashcard: Csak flashcard
+    flashcard-dsi-3ds: Flashcard moddolt DSi/3DS-en
 ---
 
-A forwarderek a játékok parancsikonjai, amelyeket a főmenübe vagy a hiyaCFW menübe telepíthetsz. Betölthetsz DS játékot SD kártyáról (az nds-bootstrap használatával) vagy kompatibilis flashcard-ról (a megfelelő kernel-lel) a forwarderek használatával, abból a menüből, amit választottál. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+A forwarderek a játékok parancsikonjai, amelyeket a HOME menübe, a hiyaCFW menübe vagy a flashcard menübe telepíthetsz. Betölthetsz DS(i) játékot SD kártyáról (az nds-bootstrap használatával) vagy kompatibilis flashcard-ról (a megfelelő kernel-lel) a forwarderek használatával, abból a menüből, amit választottál. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 A DS játékokat a digitális `.nds` formátumba kell dumpolni. A DS kártyáidat dumpolhatod a [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) használatával 3DS-en vagy a [GodMode9i](https://dsi.cfw.guide/dumping-game-cards)-vel DSi-n.
 {:.alert .alert-info}
@@ -56,13 +57,13 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 
 ### 1. rész: Kezdeti lépések
 1. Másold az `NDSForwarder.dsi` fájlt az SD kártyád gyökerébe
-   - Ez opcionálisan telepíthető a hiyaCFW-be közvetlenül a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip) használatával
-1. Töltsd le a [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)-ot
+   - Ez opcionálisan telepíthető a hiyaCFW-be közvetlenül az [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi) használatával
+1. Csomagold ki a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a DSi SD kártyájának gyökerébe
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
 
-Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
+Ha már van TWiLight Menu++-od, ugorj a következő részre.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
@@ -82,6 +83,39 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
+
+### Követelmények
+
+- Egy Nintendo DS, DS Lite, DSi vagy 3DS flashcard-dal
+- A legutolsó kiadása azf [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)-nak
+
+### 1. rész: Kezdeti lépések
+1. Másold az `NDSForwarder.nds` fájlt a flashcard-od SD kártyájának gyökerébe
+1. Töltsd le a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
+1. Csomagold ki a `for SD Card root` mappa tartalmát a flashcard SD kártyájának gyökerébe
+
+### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
+
+Ha már van TWiLight Menu++-od, vagy szeretnél DSiWare-t futtatni, ugorj a következő részre.
+{:.alert .alert-info}
+
+1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót
+1. A `7z` fájlban menj az `_nds/TWiLightMenu/extras` könyvtárba
+1. Húzd az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába a 3DS-ed SD kártyájára
+
+### 3. rész: NDSForwarder-DSi
+1. Tedd vissza az SD kártyád a flashcard-odba, és a flashcard-od az eszközödbe
+1. Kapcsold be az eszközöd és indítsd el a flashcard-ot
+1. Indítsd el az `NDSForwarder.nds`-t
+   - Ha a `nitroFSInit() fail` üzenetet kapod, próbáld meg a TWiLight Menu++ használatát az inításhoz vagy rakd az `NDSForwarder.dsi`-t az SD kártyád gyökerébe
+1. Nyomj <kbd class="face">A</kbd> gombot az `Install`-on
+1. Navigálj a játék lokációjára és nyomj <kbd class="face">A</kbd> gombot
+1. A telepítés után a játékod egy `forwarders` nevű mappában fog megjelenni a flashkártya SD-kártyájának gyökerén
+
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% capture tab-flashcard-dsi-3ds %}
 
 ### Követelmények
 
@@ -173,7 +207,7 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
 
 ### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
 
-Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
+Ha már van TWiLight Menu++-od, ugorj a következő részre.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
@@ -205,7 +239,7 @@ Ha már van TWiLight Menu++-od, ugorj a következő fejezetre.
    1. Indítsd el a `tmfh.nds`-t az Unlaunch-ből vagy a TWiLight Menu++-on keresztül
    1. Telepítsd a forwarder NDS fájlt a TMFH használatával
 {% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+{% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 
-{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard %}
+{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard | concat: tab-flashcard-dsi-3ds %}
 {% include tabs.html index=0 tabs=tabs %}

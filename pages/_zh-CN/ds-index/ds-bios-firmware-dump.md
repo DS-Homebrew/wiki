@@ -3,43 +3,43 @@ lang: zh-CN
 layout: wiki
 section: ds-index
 category: guides
-title: BIOS/固件转储
-description: 如何从您的控制台中提取任天堂DS或DSi的BIOS/固件
+title: BIOS/Firmware Dumping
+description: How to extract the Nintendo DS or DSi BIOS/Firmware from your console
 tabs:
   - 
-    dsi-sd-card: 带有Unlaunch的DSi
+    dsi-sd-card: DSi with Unlaunch
     flashcard: 烧录卡
 ---
 
-一些模拟器，如melonDS，需要DS模式或DSi模式的BIOS和固件，可以通过从您的主机中提取获得。 有两种不同的方法来实现这一点，使用：
-- 带有Unlaunch的DSi，或者
-- 带有适用于主机的DS/DS Lite/3DS或不带Unlaunch的DSi以及与主机兼容的闪存卡
+Some emulators, such as melonDS, require the DS-mode or DSi-mode BIOS and firmware, which are available by extracting from your console. There are two distinct ways to achieve this, using:
+- a DSi with Unlaunch, OR
+- a DS/DS Lite/3DS or a DSi without Unlaunch, along with a flashcard compatible with the console
 
-DSi方法将提取DS模式和DSi模式的BIOS和固件文件。 闪存卡方法只会提取DS模式的文件。
+The DSi method will extract both the DS-mode and DSi-mode BIOS and firmware files. The flashcard method will only extract the DS-mode files.
 
 {% capture tab-dsi-sd-card %}
 
-本页假设您正在从[dsi.cfw.guide](https://dsi.cfw.guide)运行现代的CFW环境。
+This page assumes you are running a modern CFW environment from [dsi.cfw.guide](https://dsi.cfw.guide).
 {:.alert .alert-warning}
 
-### 第一部分：获取所需文件
+### Part 1: Getting the required files
 
-1. 下载[dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
-1. 将`dsibiosdumper.nds`从dsibiosdumper`.7z`文件复制到您的SD卡的根目录
-1. 重新将您的SD卡插入设备
+1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
+1. Reinsert your SD card into your device
 
-### 第二部分：dsibiosdumper
-1. 在您的设备仍然关闭的情况下，按住以下按钮：<kbd class="face">A</kbd> + <kbd class="face">B</kbd>，同时按住这些按钮，然后打开您的设备
-1. 您的设备应该已经启动到Unlaunch菜单
-1. 从应用程序列表中启动dsibiosdumper
-1. 按下<kbd class="face">A</kbd>键以转储所有内容
-1. 等待过程完成
-    - 这可能需要一段时间
-1. 在过程完成后，按<kbd>SELECT</kbd>退出dsibiosdumper
-1. 关闭您的设备
-1. 将您的SD卡插入电脑中
+### Part 2: dsibiosdumper
+1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device
+1. Your device should have booted into the Unlaunch menu
+1. Launch dsibiosdumper from the list of applications
+1. Press <kbd class="face">A</kbd> to dump everything
+1. Wait for the process to complete
+    - This can take a while
+1. After the process is complete, press <kbd>SELECT</kbd> to exit dsibiosdumper
+1. Power off your device
+1. Insert your SD card into your computer
 
-所有必要的文件都将位于您的SD卡根目录下的`dsidump`文件夹中。
+All the necessary files will be in the `dsidump` folder on the root of your SD card.
 {:.alert .alert-success}
 
 {% endcapture %}
@@ -47,22 +47,22 @@ DSi方法将提取DS模式和DSi模式的BIOS和固件文件。 闪存卡方法�
 
 {% capture tab-flashcard %}
 
-### 第一部分：获取所需文件
+### Part 1: Getting the required files
 
-1. 下载[dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest)（`.nds`文件）
-1. 将`dsbf_dump.nds`复制到您SD卡的根目录
-1. 将SD卡重新插入到您的闪存卡中
+1. Download [dsbf_dump](https://github.com/DS-Homebrew/dsbf_dump/releases/latest) (the `.nds` file)
+1. Copy `dsbf_dump.nds` to the root of your SD card
+1. Reinsert your SD card into your flashcard
 
-### 第二部分：dsbf_dump
-1. 打开您的设备
-1. 启动您的闪存卡
-1. 导航到您SD卡的根目录，然后启动dsbf_dump
-1. 等待过程完成
-1. 在过程完成后，按<kbd>START</kbd>关闭您的设备
-  - 在3DS系列系统上，它将显示“软件已关闭”而不是。 从此屏幕关机您的设备
-1. 将您的SD卡插入电脑中
+### Part 2: dsbf_dump
+1. Power on your device
+1. Launch your flashcard
+1. Navigate to the root of your SD card, and launch dsbf_dump
+1. Wait for the process to complete
+1. After the process is complete, press <kbd>START</kbd> to power off your device
+  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
+1. Insert your SD card into your computer
 
-所有必要的文件将位于设备顶部屏幕上指定的文件夹中。
+All the necessary files will be in a folder specified on the top screen of your device.
 {:.alert .alert-success}
 
 {% endcapture %}

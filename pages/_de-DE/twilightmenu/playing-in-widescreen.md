@@ -10,6 +10,9 @@ description: Wie man TWiLight Menu++ im Breitbildformat auf dem Nintendo 3DS ver
 Dieser Abschnitt erfordert eine Konsole der 3DS-Familie, auf der eine moderne CFW-Umgebung von [3ds.hacks.guide](https://3ds.hacks.guide)läuft.
 {:.alert .alert-info}
 
+If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### Installation
 1. Öffne FBI und wähle `Remote-Installation`, dann `QR-Code scannen`
 1. Scannen Sie diesen QR-Code, um die neueste Version von [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) zu installieren<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ Alles erledigt! Genieße deine DS Spiele im Breitbildschirm!
 **HINWEISE:**
 1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
 1. Nicht jedes Spiel ist mit dem Breitbildformat kompatibel. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`, and [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched
 1. Luma3DS **must** be loaded from the SD card, if widescreen isn't working ensure that you have `boot.firm` in the root of your SD

@@ -9,10 +9,11 @@ tabs:
   - 
     3ds-sd-card: 3DS SD 카드
     dsi-sd-card: DSi SD 카드
-    flashcard: 플래시 카드
+    flashcard: Flashcard only
+    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
 ---
 
-Forwarders are shortcuts for games that you can install to your home menu or hiyaCFW menu. You can load DS games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS 카트리지들은 3DS에서는 [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge)을 통해, DSi에서는 [GodMode9i](https://dsi.cfw.guide/dumping-game-cards)를 통해서 덤핑할 수 있습니다.
 {:.alert .alert-info}
@@ -27,7 +28,7 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 이 페이지는 당신이 [3ds.hacks.guide](https://3ds.hacks.guide)를 통해서 CFW를 설치한 것을 가정하고 있습니다.
 {:.alert .alert-warning}
 
-### 파트 1: 필요한 파일 가져오기
+### Part 1: 파일 다운로드하기
 
 만약 3DS에 이미 Universal-Updater가 설치되어 있다면, 본 파트의 3번으로 스킵하셔도 무방합니다.
 {:.alert .alert-info}
@@ -56,13 +57,13 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 
 ### Part 1: Getting started
 1. Copy `NDSForwarder.dsi` to your SD card root
-   - This can optionally be installed to hiyaCFW directly using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest/download/TMFH.0.7.1.zip)
-1. Download the [Forwarder pack for DSi SD Card](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
+   - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
+1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next section.
+If you already have TWiLight Menu++, skip to the next part.
 {:.alert .alert-info}
 
 1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
@@ -70,7 +71,7 @@ If you already have TWiLight Menu++, skip to the next section.
 1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
 
 ### Part 3: NDSForwarder-DSi
-1. 귀하의 SD 카드를 기기에 다시 삽입하십시오
+1. Reinsert your SD card into your device
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
    - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
@@ -82,6 +83,39 @@ If you already have TWiLight Menu++, skip to the next section.
 {% assign tab-dsi-sd-card = tab-dsi-sd-card | split: "////////" %}
 
 {% capture tab-flashcard %}
+
+### 준비물
+
+- A Nintendo DS, DS Lite, DSi or 3DS with a flashcard
+- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
+
+### Part 1: Getting started
+1. Copy `NDSForwarder.nds` to your flashcard's SD card root
+1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
+1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
+
+### Part 2: Getting the AP fix files from TWiLight Menu++
+
+If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
+{:.alert .alert-info}
+
+1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
+1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
+1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
+
+### Part 3: NDSForwarder-DSi
+1. Reinsert your SD card into your flashcard, and the flashcard into your device
+1. Power on your device and launch your flashcard
+1. Launch `NDSForwarder.nds`
+   - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.nds` on the root of your SD card
+1. Press <kbd class="face">A</kbd> on `Install`
+1. 당신의 게임 파일 위치에 들어가서, <kbd class="face">A</kbd>를 눌러 주세요.
+1. After it is installed, your game will now appear in a folder called `forwarders` on the flashcard's SD card root
+
+{% endcapture %}
+{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+
+{% capture tab-flashcard-dsi-3ds %}
 
 ### 준비물
 
@@ -173,7 +207,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 ### Part 2: Getting the AP fix files from TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next section.
+If you already have TWiLight Menu++, skip to the next part.
 {:.alert .alert-info}
 
 1. 최신 버전의 [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)를 다운로드 하세요.
@@ -205,7 +239,7 @@ If you already have TWiLight Menu++, skip to the next section.
    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
    1. Install the forwarder NDS file using TMFH
 {% endcapture %}
-{% assign tab-flashcard = tab-flashcard | split: "////////" %}
+{% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 
-{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard %}
+{% assign tabs = tab-3ds-sd-card | concat: tab-dsi-sd-card | concat: tab-flashcard | concat: tab-flashcard-dsi-3ds %}
 {% include tabs.html index=0 tabs=tabs %}

@@ -14,9 +14,8 @@ Ez az oldal áttekintést ad az nds-bootstrap jövőjéről fontossági sorrendb
 ### 1.0 A kereskedelmi címek kompatibilitás javítása
 Az nds-bootstrap kerüljön közelebb az 1:1 kompatibilitáshoz a kereskedelmi címekkel
 - Romancing SaGa 3 javítása [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
-- A Golden Sun: Dark Dawn javítása [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Pokemon DS-Wii kapcsolatok javítása [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
-- Brain Age címek javítása [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
+- Brain Age DSiWare címek javítása [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 További bővítések a játékokhoz
 Olyan funkciók hozzáadása, amelyek nem léteznek, ha egy játékkártyáról játszunk

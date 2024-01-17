@@ -7,11 +7,11 @@ title: Emulators on the DS
 description: A reference on Emulators on the DS
 ---
 
-There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into TWiLight Menu++.
+There are many emulators present for the DS and DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### List of systems supported by TWiLight Menu++
 
-| Format                  | Loader                                           | Extensions                             | 保存文件                                                                       |
+| Format                  | Loader                                           | Extensions                             | Save file                                                                  |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                                            |
 | 雅达利2600                 | [StellaDS][stellads]                             | `.a26`                                 |                                                                            |
@@ -46,7 +46,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### Other emulators for the DS
 
-| Format  | Loader         | Extensions | 保存文件      |
+| Format  | Loader         | Extensions | Save file |
 | ------- | -------------- | ---------- | --------- |
 | Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 

@@ -7,7 +7,7 @@ title: Emulatori su DS
 description: Un riferimento agli Emulatori su DS
 ---
 
-Esistono molti emulatori per DS e DSi. Questa pagina fornisce una spiegazione completa sugli emulatori e loaders inclusi in TWiLight Menu++.
+Esistono molti emulatori per DS e DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### Elenco dei sistemi supportati da TWiLight Menu++
 

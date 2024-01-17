@@ -7,7 +7,7 @@ title: Émulateurs sur la DS
 description: Une référence des émulateurs sur la DS
 ---
 
-Il existe de nombreux émulateurs pour la DS et la DSi. Cette page fournit une explication complète sur les nombreux émulateurs et lanceurs inclus dans TWiLight Menu++.
+Il existe de nombreux émulateurs pour la DS et la DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### Liste des systèmes pris en charge par TWiLight Menu++
 

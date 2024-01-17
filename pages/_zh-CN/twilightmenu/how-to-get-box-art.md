@@ -7,7 +7,7 @@ title: 如何获得封面图
 description: 如何在 TWiLight Menu++ 中获取盒装封面/游戏封面
 ---
 
-1. 从 [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)下载 png 格式的游戏封面图包
+1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. 将 .png 文件解压到 `sd:/_nds/TWiLightMenu/boxart`
 1. 确保在 TWiLight Menu++ 设置中开启了显示封面图
 

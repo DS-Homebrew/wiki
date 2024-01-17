@@ -10,6 +10,9 @@ description: 如何在 Nintendo 3DS 中让 TWiLight Menu++ 使用宽屏
 本节要求使用运行 [3ds.hacks.guide](https://3ds.hacks.guide)上的现代 CFW 环境的 3DS 系列主机。
 {:.alert .alert-info}
 
+If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### 安装
 1. 启动 FBI 并选择 `Remote Install`（远程安装），再选择 `Scan QR Code`（扫描二维码）
 1. 扫描这个二维码来安装最新版本的 [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater 二维码](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ description: 如何在 Nintendo 3DS 中让 TWiLight Menu++ 使用宽屏
 **注意：**
 1. 启动TWLMenu++时不要按住 <kbd>START</kbd> 或 <kbd>SELECT</kbd>，否则宽屏会看起来很奇怪
 1. 并非每个游戏都可以使用宽屏补丁。 [这是兼容宽屏的游戏列表](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. 如果您在遵循指南启动宽屏游戏后，所有 TWL_FIRM（包括 TWLMenu++ GUI）都卡在宽屏模式，请删除位于 `sd:/luma/sysmodules/`的 `TwlBg.cxi`，然后 [卸载](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) 并且 [重装](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++，然后重新按照教程操作，并保证使用原版 Luma
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. 大多数宽屏补丁只会针对宽屏调整 3D 元素，2D 元素（如菜单）只会被拉长
 1. Luma3DS **必须**从 SD 卡加载，如果宽屏无法正常工作，请确保您的 SD 卡根目录中有 `boot.firm`

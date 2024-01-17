@@ -10,6 +10,9 @@ description: Як використовувати TWiLight Menu++ на широк
 Цей розділ потребує консоль сімейства 3DS, на якій запущено сучасне CFW з [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
+If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### Встановлення
 1. Відкрийте FBI і виберіть `Remote Install`, потім `Scan QR Code`
 1. Відскануйте цей QR-код, щоб встановити останню версію [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![QR код Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ description: Як використовувати TWiLight Menu++ на широк
 **ПРИМІТКИ:**
 1. Не утримуйте <kbd>START</kbd> або <kbd>SELECT</kbd> під час запуску TWLMenu++, якщо ви не хочете, щоб широкоекранний екран глючив
 1. Не кожна гра сумісна з широкоекранним режимом. [Ось список ігор з підтримкою широкого екрану](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. Якщо ви застрягли в широкоекранному режимі у всьому TWL_FIRM (включно з графічним інтерфейсом TWLMenu++) після виконання цього посібника і запуску гри, сумісної з широкоекранним режимом, видаліть `TwlBg.cxi` з теки `sd:/luma/sysmodules/`, [видаліть](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) та [переінсталюйте](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, і повторно виконайте вищевказаний посібник, а також скористайтеся оригінальною збіркою Luma
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. Більшість широкоекранних патчів лише підлаштовують 3D-елементи під широкоекранний режим, 2D-елементи (наприклад, меню) лише розтягуються
 1. Luma3DS **повинна** завантажуватися з SD карти. Якщо широкоекранний режим не працює, переконайтеся, що у вас є `boot.firm` в корені вашої SD карти

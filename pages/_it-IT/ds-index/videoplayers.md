@@ -30,7 +30,8 @@ Nota: se viene visualizzato un messaggio che dice `Questo codificatore richiede 
 1. Scarica [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), 3 installarlo
 1. Scarica [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Scaricate [FastVideoDS.bat](/assets/files/FastVideoDS.bat) nello stesso punto in cui si trova il file `.exe` del codificatore
-1. Trascina e rilascia il video nel file `.bat`
+1. Copy or move your video to the same place as the `.bat` file
+1. Drag and drop the copied or moved video into the `.bat` file
 
 Una volta terminato questo processo, dovrebbe essere facile trascinare e rilasciare i file sulla scheda SD. Una volta inserito il video nella scheda SD, sarà pronto per la riproduzione tramite **TW**i**L**ight Menu++.
 

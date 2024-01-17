@@ -12,6 +12,9 @@ Ezek a TWiLight Menu++ játékonkénti beállításai között találhatók. Né
 ### SDK ver
 A szoftverfejlesztő készlet (SDK) verziója, amelyet a ROM lefordításához használtak.
 
+### Cím ID
+Az azonosító ami a játék kártya alján található matricán kerül megjelenítésre. (pl. `NTR-ASME-USA`). A ROM-ból a header kiolvasásával szerezhető meg.
+
 ### Mentés szám
 A játék mentési fájljának a `.savX` fájlkiterjesztés lesz, ahol X az adott mentési szám, ha a mentési szám nem 0. Ez akár 10 mentési fájlt is lehetővé tesz ugyanahhoz a ROM-hoz.
 
@@ -22,16 +25,13 @@ A mód amiben a ROM-nak futnia kell. Ez az ARM9 CPU sebesség és a VRAM mód be
 Módosítja az ARM9 CPU futási sebességét. A DS módban futtatott ROM-ok alapértelmezés szerint 67 Mhz-et (NTR) használnak. Ez 133 Mhz-re (TWL) módosítható a lassulások csökkentése érdekében, de ez is okozhat problémákat. A DSi módban futtatott ROM-ok csak 133 Mhz-re (TWL) állíthatók be.
 
 ### VRAM mód
-Módosítja a rendszer Video Random Access Memory (VRAM) üzemmódját. A DS módban futtatott ROM-ok alapértelmezés szerint a DS VRAM módot használják. Ez megváltoztatható DSi VRAM módra, de ez nem csinál semmit, és vizuális problémákat okozhat. A DSi módban futtatott ROM-ok csak DSi VRAM módra állíthatók be.
+Módosítja a rendszer Video Random Access Memory (VRAM) üzemmódját. A DS módban futtatott ROM-ok alapértelmezés szerint a DS VRAM módot használják. Ez megváltoztatható DSi VRAM módra, de ez nem csinál semmit, és vizuális problémákat okozhat. A DSi módban futtatott ROM-ok csak DSi VRAM módra állíthatók be. Ha egy TWL típusú (DSi-Enhanced vagy DSiWare) ROM-ot játszol DSi módban, a VRAM módot maga a játék állítja be.
 
 ### Kártya olvasás DMA
-Engedélyezi a közvetlen memória-hozzáférés (DMA) használatát a kártya olvasáshoz. Ennek a beállításnak a bekapcsolása felgyorsíthatja a ROM-okat, de problémákat okozhat. További technikai információk a [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma) oldalon találhatók.
-
-### ROM terület a RAM-ban
-Ha egy játék elég kicsi, akkor a betöltési idő felgyorsítása érdekében a rendszer RAM memóriájába tölthető. Az opciót bekapcsolása, megnöveli a ROM-ok méretkorlátot, de néhány hibás lehet.
+Engedélyezi a közvetlen memória-hozzáférés (DMA) használatát a kártya olvasáshoz. Ennek a beállításnak a bekapcsolása felgyorsíthatja a ROM-okat egy picit, de problémákat okozhat. További technikai információk a [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma) oldalon találhatók.
 
 ### Közvetlen boot
-Csak a homebrew ROM-ok esetében jelenik meg. Ha ezt a beállítást bekapcsolt nem használja az nds-bootstrap-et a ROM indításakor. Ez olyan homebrew ROM-ok esetében hasznos, amelyeknek nincs szükségük az nds-bootstrap-re, vagy nem működnek vele.
+Csak a flashcard-on található homebrew ROM-ok esetében jelenik meg. Beállítva ezt `On`-ra, nem fogja használni az nds-bootstrap-et egy ROM indításakor. Ez olyan homebrew ROM-ok esetében hasznos, amelyeknek nincs szükségük az nds-bootstrap-re, vagy nem működnek vele.
 
 ### Bootstrap
 Módosíthatod, hogy a ROM az nds-bootstrap Kiadás (Release) vagy Esti fordítás (Nightly) build-jével fusson-e. Az Esti (Nightly) buildek-kel kapcsolatos információk a [nds-bootstrap GYIK](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it) oldalon találhatók

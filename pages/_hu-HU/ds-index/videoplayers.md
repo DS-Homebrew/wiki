@@ -30,7 +30,8 @@ Megjegyzés: Ha a következő üzenetet kapod: `This encoder requires a cpu with
 1. Töltsd le és telepítds a [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore)-ot
 1. Töltsd le a [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)-t
 1. Töltsd le a [FastVideoDS.bat](/assets/files/FastVideoDS.bat) fájlt ugyanoda, ahol az encoder `.exe` fájlja van
-1. Húzd rá a videóadat a jelzett `.bat` fájlra
+1. Másold vagy mozgasd a videót ugyanarra a helyre, ahol a `.bat` fájl található
+1. Húzd rá a másolt vagy módosított videódat a `.bat` fájlra
 
 Ha ez a folyamat kész, akkor csak húzd át az SD kártyádra. Ha a videót az SD kártyádra raktad, készen áll a **TW**i**L**ight Menu++-szal történő lejátszásra.
 

@@ -7,7 +7,7 @@ title: Эмуляторы на DS
 description: Справочник по эмуляторам на DS
 ---
 
-Существует множество эмуляторов для DS и DSi. На этой странице представлено исчерпывающее описание множества эмуляторов и загрузчиков, входящих в состав TWiLight Menu++.
+Существует множество эмуляторов для DS и DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
 
 ### Список систем, поддерживаемых TWiLight Menu++
 

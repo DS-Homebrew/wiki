@@ -27,6 +27,7 @@ Estas imágenes pueden ser archivos PNG o archivos BMP de 16 bits (`A1 R5 G5 B5`
 | Textura               | Descripción                                                                                                                                    |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | top                   | La textura de fondo de la pantalla superior                                                                                                    |
+| top_photo             | The top screen background texture when a photo is being shown                                                                                  |
 | bottom                | La textura de fondo de la pantalla inferior cuando el cursor no está sobre ningún icono                                                        |
 | bottom_ds             | Para el tema Nintendo 3DS, la textura de fondo de la pantalla inferior cuando el cursor no está sobre ningún icono en una consola DS Phat/Lite |
 | bottom_macro          | Para el tema Nintendo DSi, la textura de fondo de la pantalla inferior cuando el cursor no está sobre ningún icono en el modo Macro            |
@@ -124,12 +125,16 @@ Estas imágenes deben tener formato PNG.
 ### Texutras de la interfaz (carpeta `UI`)
 Estas imágenes deben tener formato PNG. Los píxeles transparentes se verán como tal, pero solamente píxeles 100% transparentes funcionarán. Si hay un pixel transparente en cualquiera de las texturas, deberá ser transparente en todas para que pueda sobrescribirse correctamente.
 
-| Textura          | Descripción                                                          |
-| ---------------- | -------------------------------------------------------------------- |
-| Lshoulder        | La textura para el botón L                                           |
-| Lshoulder_greyed | La textura para el botón L cuando no haya más páginas a la izquierda |
-| Rshoulder        | La textura para el botón R                                           |
-| Rshoulder_greyed | La textura para el botón R cuando no haya más páginas a la derecha   |
+| Textura                  | Descripción                                                          |
+| ------------------------ | -------------------------------------------------------------------- |
+| Lshoulder                | La textura para el botón L                                           |
+| Lshoulder_greyed         | La textura para el botón L cuando no haya más páginas a la izquierda |
+| Lshoulder_photo          | The left shoulder when there is a photo being shown                  |
+| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing      |
+| Rshoulder                | La textura para el botón R                                           |
+| Rshoulder_greyed         | La textura para el botón R cuando no haya más páginas a la derecha   |
+| Rshoulder_photo          | The right shoulder when there is a photo being shown                 |
+| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing     |
 
 ### Texturas de video (carpeta `video`)
 Estas texturas solo se usan en el tema 3DS, el archivo `3dsRotatingCubes.rvid` es un archivo de formato Rocket Video. Para más información acerca de cómo convertir videos a este formato, lee la sección de [Convertir un video a .rvid (en inglés)](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) en la wiki de Vid2RVID. Si no quieres que esto se muestre, puedes borrar el archivo.

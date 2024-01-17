@@ -14,9 +14,8 @@ Questa pagina fornisce una panoramica del futuro di nds-bootstrap in ordine di p
 ### 1.0 Migliorare la compatibilità con i titoli commerciali
 Far sì che nds-bootstrap si avvicini alla compatibilità 1:1 con i titoli commerciali
 - Sistemare Romancing SaGa 3 [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
-- Sistemare Golden Sun: Dark Dawn [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Sistemare la connessione DS-Wii dei giochi Pokemon [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
-- Sistemare i titoli Brain Age [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
+- Fixing Brain Age DSiWare titles [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 Migliorie ulteriori ai giochi
 Aggiunta di funzionalità che non esistono quando si gioca con una scheda di gioco

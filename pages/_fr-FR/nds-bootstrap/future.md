@@ -14,9 +14,8 @@ Cette page donne un aperçu de l'avenir de nds-bootstrap par ordre de priorité.
 ### 1.0 Améliorer la compatibilité des titres commerciaux
 Faire en sorte que nds-bootstrap se rapproche de la compatibilité 1:1 avec les titres commerciaux
 - Correction de *Romancing SaGa 3* [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
-- Correction de *Golden Sun : Obscure Aurore* [#252](https://github.com/DS-Homebrew/nds-bootstrap/issues/252)
 - Correction des connexions DS-Wii de Pokémon [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
-- Correction des titres de la série *Programme d'entraînement cérébral du D<sup>r</sup> Kawashima* [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
+- Fixing Brain Age DSiWare titles [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 Améliorations supplémentaires apportées aux jeux
 Ajout de fonctionnalités qui n'existent pas en jouant avec une carte de jeu

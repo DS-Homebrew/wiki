@@ -7,7 +7,7 @@ title: Box-art beszerzése
 description: Hogyan szerezz be játék dobozt/játékborítókat a TWiLight Menu++-ban
 ---
 
-1. Töltsd le a png box-art csomagot a [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs) oldaláról
+1. Töltsd le a png box art csomagot a [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)-ről, az **S Covers (png)** kategória alatt
 1. Csomagold ki a .png fájlokat a `sd:/_nds/TWiLightMenu/boxart` mappába
 1. Ellenőrizd, hogy a Doboz/Játék borítók megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 

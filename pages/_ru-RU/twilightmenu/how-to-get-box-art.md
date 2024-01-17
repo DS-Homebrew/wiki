@@ -7,7 +7,7 @@ title: Как получить обложки
 description: Как получить обложки игр в TWiLight Menu++
 ---
 
-1. Загрузите пакет обложек в формате png с сайта [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. Извлеките файлы .png в `sd:/_nds/TWiLightMenu/boxart`
 1. Убедитесь, что в настройках TWiLight Menu++ установлено отображение обложек
 

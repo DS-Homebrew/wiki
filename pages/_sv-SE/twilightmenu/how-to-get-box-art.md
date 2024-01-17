@@ -7,7 +7,7 @@ title: Hur man får Spelomslag
 description: How to get box art/game covers in TWiLight Menu++
 ---
 
-1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs)
+1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
 1. Make sure box art is set to be shown in TWiLight Menu++ settings
 

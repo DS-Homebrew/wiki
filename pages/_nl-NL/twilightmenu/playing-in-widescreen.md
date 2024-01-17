@@ -10,6 +10,9 @@ description: Hoe gebruik je TWiLight Menu++ in breedbeeld op de Nintendo 3DS
 Dit gedeelte vereist een 3DS-console, waarop een moderne CFW-installatie draait van [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
+If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+{:.alert .alert-info}
+
 ### Installeren
 1. Open FBI en selecteer `Remote Install`, gevolgt door `Scan QR Code`
 1. Scan deze QR-code om de laatste versie van [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) te installeren<br> ![Universal-Updater QR-code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
@@ -32,6 +35,7 @@ Je bent helemaal klaar! Geniet van je DS-games in breedbeeld!
 **LET OP:**
 1. Houd <kbd>START</kbd> of <kbd>SELECT</kbd> niet ingedrukt bij het starten van TWLMenu++, als je niet wilt dat het breedbeeld er verstoord uitziet
 1. Niet elk spel is geschikt voor breedbeeld. [Hier is een lijst van spellen met breedbeeldondersteuning](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. Als je vastzit in breedbeeldmodus in heel TWL_FIRM (inclusief de TWLMenu++ GUI) na het volgen van deze gids en het starten van een breedbeeldcompatibel spel, verwijder dan `TwlBg.cxi` in `sd:/luma/sysmodules/`, en [verwijder](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) en [installeer](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++ opnieuw, en volg de bovenstaande gids opnieuw, evenals het gebruik van de originele build van Luma
+1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
+   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
 1. De meeste breedbeeldpatches passen alleen 3D-elementen aan voor breedbeeld, 2D-elementen (zoals menu's) worden alleen uitgerekt
 1. Luma3DS **moet** worden geladen vanaf de SD-kaart, als breedbeeld niet werkt, zorg er dan voor dat je `boot.firm` in de root van je SD hebt staan
