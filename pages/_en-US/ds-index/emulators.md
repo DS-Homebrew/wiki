@@ -28,6 +28,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                                                       |
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                                            |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                                       |
+| MSX                     | [ColecoDS][colecods]                             | `.msx`                                 | ???                                                                        |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`                                           |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                                            |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                                                           |
