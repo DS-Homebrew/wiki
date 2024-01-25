@@ -10,15 +10,15 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 
 ### Installing
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-1. Extract `TWiLightMenu-Flashcard.7z`
-1. Copy the `_nds` folder to your flashcard's microSD card root
-1. Copy the `BOOT.NDS` file to your flashcard's microSD card root
-1. Copy the `roms` folder to your flashcard's microSD card root
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### Autobooting TWiLight Menu++
-1. Extract the content(s) of `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Skip this, if you don't see your flashcard
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
@@ -33,7 +33,7 @@ Please note that not all flashcards support running games in this fashion. If th
 Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
-1. Extract what's in `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
