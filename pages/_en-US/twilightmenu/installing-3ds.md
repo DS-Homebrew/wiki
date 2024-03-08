@@ -45,7 +45,7 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 
 {% capture tab-manual %}
 
-If you use a Windows edition which contains Windows Defender, please turn it off before downloading, as the `.7z` file has gotten detected as a Trojan due to a false positive.
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To work around the false positive, please see this guide [here](https://www.makeuseof.com/microsoft-defender-restore-quarantined-file/).
 {:.alert .alert-warning}
 
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
