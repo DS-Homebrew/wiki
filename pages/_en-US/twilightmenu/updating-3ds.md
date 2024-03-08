@@ -31,7 +31,7 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 
 {% capture tab-manual %}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To work around the false positive, please see this guide [here](https://www.makeuseof.com/microsoft-defender-restore-quarantined-file/).
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
 {:.alert .alert-warning}
 
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
