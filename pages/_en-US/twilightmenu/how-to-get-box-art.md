@@ -12,7 +12,7 @@ tabs:
 ---
 
 {% capture tab-windows %}
-1. Download version 0.6 of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. Download version 0.6 of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases/tag/0.6)
 1. Extract `TwilightBoxart-Windows-UX.zip` and run `TwilightBoxart.exe`
 1. Click `Detect SD`
    - If it doesn't find the correct SD card click `Browse...` and select the right one
@@ -23,7 +23,7 @@ tabs:
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos_linux %}
-1. Download version 0.6 of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases)
+1. Download version 0.6 of [TWiLightBoxart](https://github.com/KirovAir/TwilightBoxart/releases/tag/0.6)
 1. Extract the `.zip`
 1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
 1. Type the path to your SD card after `SdRoot=`, then save the file
