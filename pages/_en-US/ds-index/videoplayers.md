@@ -8,7 +8,7 @@ description: Homebrew Video Players for the Nintendo DS(i)
 ---
 
 # Homebrew Video Players for the Nintendo DS(i)
-This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
 |Player name     |Supported containers/Codecs     |Drawbacks                                  |Max FPS                                        |
 |----------------|--------------------------------|-------------------------------------------|-----------------------------------------------|
