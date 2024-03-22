@@ -52,6 +52,7 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 1. Extract `TWiLightMenu-3DS.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
+1. Copy the `roms` folder to your SD card root
 1. Copy the `.cia` file to your SD card root
 1. On your 3DS, install the CIA with FBI
 {% endcapture %}

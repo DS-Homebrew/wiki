@@ -19,6 +19,7 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 1. Extract `TWiLightMenu-DSi.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
+1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
 ### Autobooting with Unlaunch
