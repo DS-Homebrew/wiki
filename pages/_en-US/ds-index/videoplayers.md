@@ -10,15 +10,16 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working or WIP video players for the Nintendo DS and DSi that explains how each works.
 
-|Player name     |Supported containers/Codecs     |Support         |Drawbacks                                  |Max FPS                                        |
-|----------------|--------------------------------|----------------|-------------------------------------------|-----------------------------------------------|
-|FastVideoDS     |`.fv`, FastVideoDS              |DSi and NDS     |Confetti spam slows down high FPS video.   |60fps                                          |
-|Moonshell       |`.dpg`, MPEG1                   |Flashcards only |Requires a flashcard to play videos.       |24fps                                          |
-|Tuna-ViDS       |`.avi`, XVid                    |DSi and NDS     |Can only reach a certain framerate/bitrate.|15fps                                          |
-|MPEG4Player     |`.mp4`, MPEG-4                  |DSi and NDS     |Can only play short videos.                |24fps                                          |
+|Player name     |Supported containers/Codecs     |Drawbacks                                  |Max FPS                                        |
+|----------------|--------------------------------|-------------------------------------------|-----------------------------------------------|
+|FastVideoDS     |`.fv`, FastVideoDS              |Confetti spam slows down high FPS video.   |60fps                                          |
+|Moonshell       |`.dpg`, MPEG1                   |Can only reach a certain framerate/bitrate.|24fps                                          |
+|Tuna-ViDS       |`.avi`, XVid                    |Can only reach a certain framerate/bitrate.|15fps                                          |
+|MPEG4Player     |`.mp4`, MPEG-4                  |Can only play short videos.                |24fps                                          |
 
 Notes:
 - Actual max FPS is dependent on video content and length.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 
