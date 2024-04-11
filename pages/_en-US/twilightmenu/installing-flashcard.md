@@ -62,4 +62,4 @@ Please note that you'll lose the ability to use cheats when running games in thi
    Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
       - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
