@@ -10,12 +10,12 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-|Player name     |Supported containers/Codecs     |Drawbacks                                  |Max FPS                                        |
-|----------------|--------------------------------|-------------------------------------------|-----------------------------------------------|
-|FastVideoDS     |`.fv`, FastVideoDS              |Confetti spam slows down high FPS video.   |60fps                                          |
-|Moonshell       |`.dpg`, MPEG1                   |Can only reach a certain framerate/bitrate.|24fps                                          |
-|Tuna-ViDS       |`.avi`, XVid                    |Can only reach a certain framerate/bitrate.|15fps                                          |
-|MPEG4Player     |`.mp4`, MPEG-4                  |Can only play short videos.                |24fps                                          |
+|Player name     |Supported containers/Codecs     |Drawbacks                                                                      |Max FPS                                        |
+|----------------|--------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------|
+|FastVideoDS     |`.fv`, FastVideoDS              |Confetti spam slows down high FPS video. Can only reach 30fps on DS flashcards.|60fps                                          |
+|Moonshell       |`.dpg`, MPEG1                   |Can only reach a certain framerate/bitrate.                                    |24fps                                          |
+|Tuna-ViDS       |`.avi`, XVid                    |Can only reach a certain framerate/bitrate.                                    |15fps                                          |
+|MPEG4Player     |`.mp4`, MPEG-4                  |Can only play short videos.                                                    |24fps                                          |
 
 Notes:
 - Actual max FPS is dependent on video content and length.
