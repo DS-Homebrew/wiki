@@ -11,6 +11,9 @@ description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 Jika belum punya cara menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Pemasangan
 1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
 1. Ekstrak `TWiLightMenu-DSi.7z`
@@ -31,7 +34,7 @@ Jika belum punya cara menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https
 
 #### Jika punya R4(i) Ultra
 
-1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan <i>firmware flashcard</i>`
+1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan firmware flashcard`
      - Peringatan yang ada boleh diabaikan
 1. Buka Pengaturan TWLMenu++
 1. Pindah ke halaman `Pengaturan lain`
@@ -41,7 +44,7 @@ Jika belum punya cara menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https
 
 #### Jika tidak punya R4(i) Ultra
 
-1. Buat berkas atau folder bernama `primary` di `sd:/_nds/` (bukan yang *flashcard*), agar TWiLight Menu++ membaca pengaturan dari kartu SD konsol setelah *flashcard* dijalankan
+1. Buat berkas atau folder bernama `primary` di `sd:/_nds/` (bukan di *flashcard*), agar TWiLight Menu++ membaca pengaturan dari kartu SD konsol setelah *flashcard* dijalankan
 1. Ikuti [panduan ini](installing-flashcard) mulai dari `Memuat langsung TWiLight Menu++`
 1. Salin berkas `BOOT.NDS` dari `TWiLightMenu-Flashcard.7z` ke akar kartu microSD *flashcard*
 1. Buka Pengaturan TWLMenu++

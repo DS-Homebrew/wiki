@@ -11,6 +11,9 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 아직 사용자의 DSi 본체에 홈브류를 설치하지 않았다면, TWiLight Menu++를 설치하기 위해 [dsi.cfw.guide](https://dsi.cfw.guide)를 따르세요.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### 설치하기
 1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
 1. `TWiLightMenu-DSi.7z`를 압축 해제하세요

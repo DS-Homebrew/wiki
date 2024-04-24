@@ -7,13 +7,13 @@ title: Користувацькі заставки
 description: Як використовувати користувацькі заставки для TWiLight Menu++
 ---
 
-Ви можете використовувати власні GIF файли для створення користувацьких заставок під час завантаження TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+Ви можете використовувати власні GIF файли для створення користувацьких заставок під час завантаження TWiLight Menu++. Вони повинні бути названі `splashtop.gif` і `splashbottom.gif`, а також знаходитися в `sd:/_nds/TWiLightMenu/extras`, потім встановіть `DSi Splash Screen` на `Custom` в налаштуваннях TWiLight Menu++.
 
-Most GIF files up to 256x192 should work, with a few exceptions:
-- GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly
-- Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
-- If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
-- The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
-   - Only the GIF waiting for input will be paused, so the other can continue animating
-- If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
-- Interlaced and text frames will not work
+Більшість GIF файлів розміром до 256x192 повинні працювати, за деякими винятками:
+- GIF файли розміром понад 1 МіБ (режим DSi) або 256 КіБ (режим DS) можуть не відтворюватися на повній швидкості, оскільки вони будуть розпаковуватися на ходу
+- GIF файли мають бути меншими за 10 МБ (режим DSi) або близько 2 МБ (режим DS)
+- Якщо обидва GIF файли налаштовані зациклюватися назавжди, то вони будуть показуватися протягом 3 секунд, тож встановіть лічильник циклів хоча б на один, щоб контролювати час
+- Підтримується прапорець введення користувачем, тож якщо ви хочете показати заставку і зачекати (як у заставці за замовчуванням), встановіть його й очікування натискання
+   - Лише ті GIF, що очікують на введення, будуть призупинено, тож інші можуть продовжувати анімацію
+- У разі використання локальних таблиць кольорів потрібно перезаписати весь кадр, оскільки він замінить усю палітру екрана, а не лише поточний кадр
+- Чересстрочні та текстові кадри не підтримуються, тож вони не будуть працювати

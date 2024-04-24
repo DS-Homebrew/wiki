@@ -8,17 +8,20 @@ long_title: Installation von TWiLight Menu++ (Flashcard)
 description: Wie man TWiLight Menu++ auf einer Nintendo DS Flashcard installiert
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Installation
 1. Lade die neueste Version von [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) herunter
-1. Entpacke `TWiLightMenu-3DS.7z `
-1. Kopiere den `_nds` Ordner in dein Sd-Kartenverzeichnis
-1. Kopiere den `BOOT.NDS` Ordner in dein Sd-Kartenverzeichnis
-1. Kopiere den `roms` Ordner in dein Sd-Kartenverzeichnis
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. Wenn du bereits Speicherdaten hast, bewege alle `.sav` Dateien, welche im DS ROM Speicherort sind, zu einem neuen Ordner namens `saves`, welcher auch zum DS ROM Speicherort geht
 1. **DS Phat/Lite-Benutzer:** Falls das Starten von `BOOT.NDS` das Aufhängen des Systems mit einem weißen Bildschirm verursacht, lege ein DS Memory Expansion Pak ein, und versuche es erneut
 
 ### TWiLight Menu++ Autobooten
-1. Extrahiere den Inhalt von ` Autoboog/(deine Flashcard)` in das Stammverzeichnis der microSD-Karte
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Überspringe dies, wenn du deine Flashkarte nicht siehst
 1. **DS Phat/DS Lite-Benutzer:** Gehe zu den Einstellungen im DS-Menü und aktiviere den Auto-Start, sodass deine Flashkarte beim Booten gestartet wird
 
@@ -33,7 +36,7 @@ Bitte beachte, dass nicht alle Flashkarten diese Art des Ausführens von Spielen
 Bitte beachte, dass du die Möglichkeit verlierst, Cheats zu verwenden, wenn du Spiele auf diese Weise ausführst. Wenn du die Cheat-Funktionalität beibehalten willst, überspringe bitte diesen Abschnitt.
 {:.alert .alert-warning}
 
-1. Extrahiere den Inhalt von `Flashcart Loader/(deine Flashkarte)` im Stammverzeichnis der microSD-Karte der Flashkarte
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - Eine README.txt-Datei ist im Ordner `Flashcart Loader` vorhanden, um herauszufinden, welcher Flashcart-Loader für Ihre Flashcard geeignet ist.
    - Wenn du dies getan hast, fahre mit Schritt 3 fort. Wenn nicht, folge den Schritten unter der Flashkartenliste
 
@@ -59,4 +62,4 @@ Bitte beachte, dass du die Möglichkeit verlierst, Cheats zu verwenden, wenn du 
    Installiere [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Vergewissere dich, dass du `YSMenu.nds` (umbenannt von `TTMenu.dat`, falls nicht vorhanden) und den `TTMenu` Ordner im MicroSD-Hauptverzeichnis der Flashkarte hast
       - Kopiere nicht `TTMenu.dat` direkt; dies wird das Autobooten und YSMenu's Soft Reset zerstören
-1. Öffne die TWLMenu++ Einstellungen, wechsle zu `nds-bootstrap Einstellungen` und setze `nds-bootstrap` auf `Nein`, sodass die Flashkarten-Firmware anstelle von nds-bootstrap verwendet wird
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

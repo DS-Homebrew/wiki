@@ -239,20 +239,20 @@ Total : 39, certains peuvent être manquants
 ### Jeux DSiWare avec code de sauvegarde
 Ils écrivent les données de sauvegarde sur la puce de sauvegarde de la carte, s'ils fonctionnent à partir d'une carte.
 
-- Cake Ninja
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
-- Cake Ninja 2
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
-- Cake Ninja: XMAS
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
 - Dragon Quest Wars
-- Dreamwalker
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+
+#### Unused code
+Hacking is required to activate the code.
+
+- Antipole
+- Cake Ninja
+- Cake Ninja 2
+- Cake Ninja: XMAS
+- Cosmos X2
+- Dreamwalker
 - Go! Go! Kokopolo: Harmonious Forest Revenge
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
 - Make-Up & Style
-   - Inutilisé, le hacking est donc nécessaire pour activer le code
 
 ### Jeux qui peuvent se connecter avec des titres GBA
 Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-dessous quelques alternatives possibles.
@@ -265,8 +265,8 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 - Castlevania: Dawn of Sorrow
    - Castlevania: Aria of Sorrow
    - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
-- Daigassō! Band Brothers
-   - Daigassō! Band Brothers Tsuika Kyoku (Expansion Pak)
+- Daigasso! Band Brothers
+   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power!
    - Eyeshield 21: DevilBats DevilDays
 - Project Rub
@@ -483,7 +483,7 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
    - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
 - Slide Adventure MAGKID
    - Accompagné d'une souris optique Slot-2
-- Daigassō! Band Brothers
+- Daigasso! Band Brothers
    - Possède une cartouche Slot-2 qui ajoute plus de chansons
 - Arkanoid DS
    - Accompagné d'une manette paddle Slot-2

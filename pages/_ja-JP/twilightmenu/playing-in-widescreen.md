@@ -20,6 +20,7 @@ If you're currently using Luma v13, please update to v13.0.1, before following t
 1. Install the TWPatch package
    - If your console is unable to access the Internet, you can download [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) directly, then install it with FBI
 1. Return to the HOME menu and launch TWPatch
+   - If you get a message which says `Can't open /luma/exeTWL.bin`, then use [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/) to fix broken TWL mode
 1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
 1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
 1. Press <kbd class="face">B</kbd> to exit the patch menu

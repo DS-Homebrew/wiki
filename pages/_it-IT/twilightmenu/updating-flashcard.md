@@ -14,6 +14,9 @@ Se stai aggiornando da una versione più vecchia di v16.4.0, sposta i tuoi file 
 Se stai aggiornando da una versione più vecchia di v21.0.0, sposta i tuoi file `.pub` e/o `.prv` per i titoli DSiWare in una nuova cartella chiamata `saves`, e piazza suddetta cartella nella stessa directory delle ROM DSiWare.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Aggiornamento
 1. Scarica la versione piè recente di [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Estrai `TWiLightMenu-Flashcard.7z`

@@ -8,17 +8,20 @@ long_title: 安装 TWiLight Menu++（烧录卡）
 description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### 安装步骤
 1. 下载最新的 [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-1. 解压缩`TWiLightMenu-Flashcard.7z`
-1. 拷贝 `_nds` 目录到烧录卡存储卡的根目录下
-1. 拷贝 `BOOT.NDS`文件到烧录卡存储卡的根目录
-1. 拷贝`roms` 目录到烧录卡存储卡的根目录
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. 如果你有历史的存档数据，可以将原来DS游戏的 `.sav`文件拷贝到`saves`目录下，这样原来的存档数据都会自动转移
 1. **对于 DS Phat/Lite 用户：**如果使用 `BOOT.NDS` 启动导致白屏死机，请插入一张 DS 存储扩展卡，然后重试
 
 ### 自动启动 TWiLight Menu++
-1. 将 `Autoboot/(您的烧录卡)` 中的所有文件解压到烧录卡 microSD 卡的根目录
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - 如果没有找到您的烧录卡，请跳过本步骤
 1. **对于 DS Phat/Lite 用户：**在 DS 设置菜单中打开自动运行，这样开机时就会自动进入烧录卡
 
@@ -33,7 +36,7 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 请注意，以这种方式运行游戏时，您将无法使用金手指。 如果您想保留金手指功能，请跳过本节。
 {:.alert .alert-warning}
 
-1. 将 `Flashcart Loader/(您的烧录卡)` 中的所有文件解压到烧录卡 microSD 卡的根目录
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - `Flashcart Loader` 文件夹中有一个 README.txt 文件，可帮助找到适合您的烧录卡的加载器。
    - 如果已完成，请看第 3 步。 如果没有，请按照下面烧录卡列表中的步骤操作
 
@@ -59,4 +62,4 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
    安装 [RetroGameFan 的 YSMenu](https://gbatemp.net/download/35737/)。
       - 确认在烧录卡的 microSD 卡根目录已经有 `YSMenu.nds`（如果没有，请直接将 `TTMenu.dat` 重命名）文件和 `TTMenu` 文件夹
       - 请勿直接复制 `TTMenu.dat` ；这将破坏自动启动和 YSMenu 的软重启功能
-1. 打开 TWLMenu++ 设置并切换到 `nds-bootstrap settings` 页面，然后把 `Game Loader` 调整为 `Kernel` 以不使用 nds-bootstrap 而使用烧录卡固件。
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

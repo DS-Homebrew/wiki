@@ -18,7 +18,7 @@ tabs:
 **HINWEIS:** Wenn ein Update von einer Version älter als v21.0.0 erfolgt, verschiebe bitte deine `.pub` und/oder `.priv` Dateien für DSi-Spiele in einen neuen Ordner namens `saves`, mit dem `saves` Ordner an der gleichen Stelle wie die DSiWare-Roms.
 {:.alert .alert-info}
 
-If updating from a version older than v25.7.0, it is recommended to delete the `TWiLight Menu++ Game Booter` title from the title list, using FBI.
+Wenn Sie von einer älteren Version als v25.7.0 aktualisieren, wird empfohlen, den Titel `TWiLight Menu++ Game Booter` aus der Titelliste mit FBI zu löschen.
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
@@ -31,13 +31,17 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Lade die neueste Version von[`TWiLightMenu-3DS.7z herunter`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Entpacke `TWiLightMenu-3DS.7z`
 1. Kopiere den `_nds` Ordner in den Hauptordner deiner SD-Karte, ersetze alle existierenden Dateien
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+   - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`
 1. Kopiere die `BOOT.NDS` Datei in das Stammverzeichnis deiner SD-Karte, ersetze alle existierenden Dateien
-1. Copy the `.cia` file to your SD card root, replacing any existing files
-1. On your 3DS, install the CIA with FBI
+1. Kopiere die `.cia` Datei in das Stammverzeichnis deiner SD-Karte, und ersetze alle existierenden Dateien
+1. Installiere auf deinem 3DS die beiden CIAs mit FBI
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

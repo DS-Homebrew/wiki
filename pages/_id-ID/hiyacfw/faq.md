@@ -17,14 +17,14 @@ Jika konsol Nintendo DSi muncul galat ini saat dinyalakan (tanda # mewakili nomo
 #### Kenapa ada pesan "An error has occurred" saat memuat ke hiyaCFW?
 Saat Nintendo DSi Menu sadar ada masalah, biasanya akan muncul pesan galat umum ini, beberapa sebabnya yaitu:
 
-##### Kutu memori ruang kosong
-Nintendo DSi Menu terdapat kutu (*bug*) saat memeriksa ruang kosong di penyimpanan besar. Walaupun ini pasti tidak terjadi di NAND aslinya (karena cip hanya 256 MiB), tapi ini bisa terjadi di kartu SD.
+##### Kutu memori sisa ruang
+Nintendo DSi Menu terdapat *bug* (kutu) saat memeriksa sisa ruang di penyimpanan besar. Walaupun ini pasti tidak terjadi di NAND aslinya (karena cip hanya 256 MiB), tapi ini bisa terjadi di kartu SD.
 
-Berfungsi dan tidaknya ini terjadi setiap rentang dua gibibita. Contohnya, sisa ruang 0-2 GiB akan berfungsi, tapi 2-4 GiB tidak. Begitu juga 4-6 GiB lalu 6-8 GiB, ini terus sampai sebesar ukuran di kartu SD.
+Berfungsi dan tidaknya ini terjadi setiap rentang dua gibibita. Contohnya, sisa ruang 0-2 GiB akan berfungsi, tapi 2-4 GiB tidak. Begitu juga 4-6 GiB lalu 6-8 GiB, ini terus sampai sebesar ukuran kartu SD.
 
 Versi terkini hiyaCFW bisa membuat berkas bonekaan untuk mengatasi ini, caranya unduh dulu [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) versi terkini dan salin `hiya.dsi` dari "for SDNAND SD card" ke akar kartu SD.
 
-##### Melebihi 39 Judul
+##### Melebihi 39 judul
 Nintendo DSi Menu punya batas 39 judul. Jika ada lebih, hapus beberapa isi folder di `sd:/title` atau gunakan [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) untuk mencopotnya.
 
 ##### DSiWare memakan banyak ruang

@@ -14,6 +14,9 @@ Ha régebbi verzióról frissítesz, mint a v6.8.3, kérjük mozgasd a `.sav` DS
 Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` és/vagy `.prv` DSiWare fájljaidat egy új `saves` nevű mappába, ahol a `saves` mappa ugyanazon a helyen van, mint a DSiWare ROM-ok.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Frissítés
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
 1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt

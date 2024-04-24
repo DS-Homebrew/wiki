@@ -14,6 +14,9 @@ Si está actualizando de una versión inferior a v6.8.3, mueva sus archivos `.sa
 Si estás intentando actualizar desde una versión anterior a la 21.0.0, por favor, mueve tus archivos `.pub` y/o `.prv` de títulos DSiWare a una nueva carpeta llamada `saves`, que se encuentra dentro de la misma carpeta que las roms de DSiWare.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Actualización
 1. Descarga [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) de la versión más reciente
 1. Extrae `TWiLightMenu-DSi.7z`

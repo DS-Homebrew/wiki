@@ -16,7 +16,7 @@ hiyaCFW hanya boleh ada di kartu SD dan tidak boleh di NAND. Sebelum lanjut, pas
 
 ### Mengubah pengaturan Unlaunch
 
-Jika Unlaunch telah diatur memuat langsung (*autoboot*) hiyaCFW, lebih baik diubah lagi jika sudah tidak digunakan.
+Jika Unlaunch telah diatur *autoboot* (memuat langsung) hiyaCFW, lebih baik diubah lagi jika tidak digunakan lagi.
 
 1. Sisipkan kartu SD ke Nintendo DSi dan nyalakan konsol sambil menekan <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
    - Ini akan membuka "Filemenu" Unlaunch

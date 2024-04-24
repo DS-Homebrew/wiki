@@ -31,6 +31,10 @@ Ha a v25.7.0 verziónál régebbiről frissítünk, ajánlott kitörölni a `TWi
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
 1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
 1. Másold az `_nds` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt

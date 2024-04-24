@@ -239,20 +239,20 @@ Total: 39, some may be missing
 ### 带备份代码的 DSiWare 游戏
 These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
 
-- Cake Ninja
-   - Unused, so hacking is required to activate the code
-- Cake Ninja 2
-   - Unused, so hacking is required to activate the code
-- Cake Ninja: XMAS
-   - Unused, so hacking is required to activate the code
 - Dragon Quest Wars
-- Dreamwalker
-   - Unused, so hacking is required to activate the code
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+
+#### Unused code
+Hacking is required to activate the code.
+
+- Antipole
+- Cake Ninja
+- Cake Ninja 2
+- Cake Ninja: XMAS
+- Cosmos X2
+- Dreamwalker
 - Go! Go! Kokopolo
-   - Unused, so hacking is required to activate the code
 - Make Up & Style
-   - Unused, so hacking is required to activate the code
 
 ### 可与 GBA 游戏连接的游戏
 Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.

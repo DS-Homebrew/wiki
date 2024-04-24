@@ -10,7 +10,7 @@ description: Cara membuat skin DSi dan 3DS kustom untuk TWiLight Menu++
 Untuk membuat skin TWiLight Menu++, diperlukan penyunting gambar yang mampu mengekspor `.png`, `.bmp`/`.png` 16 <abbr title="Bits Per Pixel">BPP</abbr>, dan `.bmp` 4 BPP. Diharuskan juga mampu menyusun ulang palet gambar secara manual. Panduan ini menganjurkan aplikasi [GIMP](https://www.gimp.org), karena mampu melakukan semua yang diperlukan.
 
 ## Bagian 1: Mengunduh contoh
-Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini berguna sebagai dasar pembuatan skin yang berformat benar, jadi jika nanti terdapat masalah, bisa dibandingkan dengan berkas contoh ini.
+Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini berguna sebagai dasar pembuatan skin yang berformat benar, jadi jika nanti terdapat isu, bisa dibandingkan dengan berkas contoh ini.
 
 ## Bagian 2: Menyunting gambar
 Unduh dan pasang [GIMP](https://www.gimp.org)
@@ -27,7 +27,7 @@ Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
 | Tekstur               | Keterangan                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------- |
 | top                   | Tekstur latar belakang layar atas                                                           |
-| top_photo             | The top screen background texture when a photo is being shown                               |
+| top_photo             | Tekstur latar layar atas saat sedang ada foto                                               |
 | bottom                | Tekstur latar layar bawah saat tidak diarahkan di atas ikon                                 |
 | bottom_ds             | Untuk tema 3DS di DS Phat/Lite. Tekstur latar layar bawah saat tidak diarahkan di atas ikon |
 | bottom_macro          | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat tidak diarahkan di atas ikon      |
@@ -73,9 +73,9 @@ Ketika mengekspor, disarankan mencentang `Do not write color space information` 
 | Tekstur       | Keterangan                                                                                      |
 | ------------- | ----------------------------------------------------------------------------------------------- |
 | bips          | Titik penanda urutan yang ada di dalam bilah gulir (Tema DSi)                                   |
-| box           | Tekstur kotak, ada yang tekstur penuh dan kosong (Tema DSi)                                     |
+| box           | Tekstur kotak, ada yang kotak terisi dan kosong (Tema DSi)                                      |
 | box_empty     | Tekstur kotak kosong melompong (Tema 3DS)                                                       |
-| box_full      | Tekstur kotak penuh untuk latar ikon (Tema 3DS)                                                 |
+| box_full      | Tekstur kotak terisi untuk latar ikon (Tema 3DS)                                                |
 | brace         | Tekstur kurawal sebelah ikon pertama dan terakhir (Tema DSi)                                    |
 | bubble        | Bagian bawah gelembung judul yang di atas start_border atau kotak ikon                          |
 | button_arrow  | Tekstur arah panah di kedua sisi bilah gulir layar bawah (Tema DSi)                             |
@@ -125,16 +125,16 @@ Untuk ini harus berkas PNG.
 ### Tekstur antarmuka (folder `ui`)
 Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
 
-| Tekstur                  | Keterangan                                                       |
-| ------------------------ | ---------------------------------------------------------------- |
-| Lshoulder                | Gambar tombol L                                                  |
-| Lshoulder_greyed         | Gambar tombol L saat tidak ada halaman lagi di kiri              |
-| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
-| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
-| Rshoulder                | Gambar tombol R                                                  |
-| Rshoulder_greyed         | Gambar tombol R saat tidak ada halaman lagi di kanan             |
-| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
-| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
+| Tekstur                  | Keterangan                                                  |
+| ------------------------ | ----------------------------------------------------------- |
+| Lshoulder                | Gambar tombol L                                             |
+| Lshoulder_greyed         | Gambar tombol L saat tidak ada halaman lagi di kiri         |
+| Lshoulder_photo          | Gambar tombol L saat sedang ada foto                        |
+| Lshoulder_photo_greyed | Gambar tombol L saat di halaman terakhir kiri dan ada foto  |
+| Rshoulder                | Gambar tombol R                                             |
+| Rshoulder_greyed         | Gambar tombol R saat tidak ada halaman lagi di kanan        |
+| Rshoulder_photo          | Gambar tombol R saat sedang ada foto                        |
+| Rshoulder_photo_greyed | Gambar tombol R saat di halaman terakhir kanan dan ada foto |
 
 ### Tekstur video (folder `video`)
 Hanya digunakan tema 3DS, `3dsRotatingCubes.rvid` adalah berkas Rocket Video. Untuk informasi lanjut cara mengonversi video ke rvid, baca [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) di wiki Vid2RVID. Jika tidak ingin dipermuncul, hapus saja berkasnya.
@@ -299,4 +299,4 @@ Boleh juga menaruh berkas palet `username.bin` untuk mengubah palet dari *font* 
 Setelah menyunting beberapa grafis dan ingin mencoba skin yang dibuat, cukup salin folder skin (folder yang berisi `background`, `battery`, dll) ke `sd:/_nds/TWiLightMenu/3dsmenu/themes/` atau `sd:/_nds/TWiLightMenu/dsimenu/themes/` untuk skin tema 3DS dan DSi secara urutan.
 
 ## Bagian 4: Membagikan skin
-Setelah selesai membuat skin, bisa Anda bagikan ke komunitas dengan membuat *Pull Request* dan ditambah ke repositori GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) dalam bentuk `.7z`. Jika tidak terbiasa menggunakan git, buat saja *issue* di repositori tersebut dengan mencantumkan berkas zip skin Anda yang ingin ditambahkan.
+Setelah selesai membuat skin, bisa dibagikan ke komunitas dengan membuat *Pull Request* di repositori GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) dengan berkas `.7z`. Jika tidak terbiasa menggunakan git, buat saja *issue* di repositori tersebut dengan mencantumkan berkas zip skin Anda yang ingin ditambahkan.

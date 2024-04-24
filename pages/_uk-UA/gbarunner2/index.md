@@ -3,7 +3,7 @@ lang: uk-UA
 layout: wiki
 section: gbarunner2
 title: GBARunner2
-description: Information on how to use GBARunner2
+description: Інформація про використання GBARunner2
 ---
 
 GBARunner2 - це [з відкритим вихідним кодом](https://github.com/Gericom/GBARunner2) гіпервізором, яка запускає ігри GBA з DS/DSi/3DS в режимі DS. Він працює подібно до [Nintendont](https://github.com/FIX94/Nintendont) для запуску ігор GameCube на Wii.

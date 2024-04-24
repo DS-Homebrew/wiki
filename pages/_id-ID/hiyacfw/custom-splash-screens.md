@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: hiyacfw
-title: Layar <i>Splash</i> Kustom
+title: Layar Splash Kustom
 description: Cara menggunakan layar <i>splash</i> kustom untuk hiyaCFW
 ---
 

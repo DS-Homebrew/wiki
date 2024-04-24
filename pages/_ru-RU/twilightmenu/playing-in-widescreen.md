@@ -19,7 +19,8 @@ description: Как использовать TWiLight Menu++ в широкоэк
 1. Откройте Universal Updater из меню HOME
 1. Установите пакет TWPatch
    - Если ваша консоль не имеет доступа к Интернету, вы можете скачать [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) напрямую, а затем установить его с помощью FBI
-1. Вернитесь в меню HOME и запустите TWPatch
+1. Return to the HOME menu and launch TWPatch
+   - If you get a message which says `Can't open /luma/exeTWL.bin`, then use [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/) to fix broken TWL mode
 1. Удерживайте <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> чтобы открыть меню патчей, после включите `Widescreen patch (384x240 16:10)`
 1. (Необязательно!) Для менее пиксельного изображения также включите `GPU scaling (blurry, no filters)`
 1. Нажмите <kbd class="face">B</kbd> чтобы выйти из меню патчей

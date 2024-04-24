@@ -11,6 +11,9 @@ description: Как установить TWiLight Menu++ на Nintendo DSi
 Если у вас еще нет возможности запускать homebrew на DSi, следуйте[dsi.cfw.guide](https://dsi.cfw.guide) для установки TWiLight Menu++
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Установка
 1. Скачайте последнюю версию [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Разархивируйте `TWiLightMenu-DSi.7z`

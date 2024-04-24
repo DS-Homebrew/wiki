@@ -3,8 +3,8 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: updating
-title: Pembaruan (<i>Flashcard</i>)
-long_title: Pembaruan TWiLight Menu++ (<i>Flashcard</i>)
+title: Pembaruan (Flashcard)
+long_title: Pembaruan TWiLight Menu++ (Flashcard)
 description: Cara memperbarui TWiLight Menu++ pada <i>flashcard</i> Nintendo DS
 ---
 
@@ -14,13 +14,16 @@ Jika memperbarui dari versi di bawah v16.4.0, mohon pindahkan dulu berkas `.sav`
 Jika memperbarui dari versi di bawah v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` dari DSiWare ke folder baru bernama `saves`; tempat folder `saves` harus sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Pembaruan
 1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terkini
 1. Ekstrak `TWiLightMenu-Flashcard.7z`
 1. Salin folder `_nds` ke akar kartu microSD *flashcard*, timpa berkas yang ada
    - Untuk macOS, harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)
 1. Salin berkas `BOOT.NDS` ke akar kartu microSD *flashcard*, timpa berkas yang ada
-1. Jika setelah ini TWLMenu++ tidak jalan, perbarui juga berkas muat langsung atau *autoboot*
+1. Jika setelah ini TWLMenu++ tidak jalan, perbarui juga berkas *autoboot* (muat langsung)
 
 ### Langkah tambahan bagian kartu SD DSi/3DS
 

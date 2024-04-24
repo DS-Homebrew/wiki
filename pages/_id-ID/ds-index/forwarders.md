@@ -3,17 +3,17 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: <i>Forwarder</i> Permainan DS
+title: Forwarder Permainan DS
 description: Cara menggunakan <i>forwarder</i> ROM DS di hiyaCFW atau HOME Menu 3DS
 tabs:
   - 
     3ds-sd-card: Kartu SD 3DS
     dsi-sd-card: Kartu SD DSi
-    flashcard: Flashcard only
-    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
+    flashcard: Khusus <i>flashcard</i>
+    flashcard-dsi-3ds: <i>Flashcard</i> di DSi/3DS termodif
 ---
 
-Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+*Forwarder* adalah pintasan permainan yang dipasang di HOME Menu, menu hiyaCFW, atau menu *flashcard*. Permainan DS(i) akan dibaca dari kartu SD (dengan nds-bootstrap) atau dari *flashcard* yang sesuai (lewat *kernel* masing-masing) dengan memasang *forwarder* di menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 Permainan DS perlu di-*dump* dulu ke format `.nds`. Kaset DS bisa di-*dump* dengan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
 {:.alert .alert-info}
@@ -21,7 +21,7 @@ Permainan DS perlu di-*dump* dulu ke format `.nds`. Kaset DS bisa di-*dump* deng
 Jika mengalami isu, lihat Pertanyaan Umum atau FAQ di [utas GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-Pilih salah satu dari berikut untuk memasang ke HOME Menu:
+Pilih salah satu cara pasang ke HOME Menu dari berikut:
 
 {% capture tab-3ds-sd-card %}
 
@@ -57,13 +57,13 @@ Jika di konsol sudah ada Universal Updater, langsung ke langkah ke-3.
 
 ### Bagian 1: Memulai
 1. Salin `NDSForwarder.dsi` ke akar kartu SD
-   - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
-1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
-1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD dari DSi<br>*Akar atau *root* adalah bagian paling awal direktori folder
+   - Ini bisa dipasang secara opsional ke hiyaCFW dengan [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
+1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
+1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD dari DSi.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
 ### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next part.
+Jika sudah ada TWiLight Menu++, lewati bagian ini.
 {:.alert .alert-info}
 
 1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
@@ -86,17 +86,17 @@ If you already have TWiLight Menu++, skip to the next part.
 
 ### Persyaratan
 
-- A Nintendo DS, DS Lite, DSi or 3DS with a flashcard
-- The latest release of [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
+- Nintendo DS, DS Lite, DSi atau 3DS dengan *flashcard*
+- Versi terkini [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
 
 ### Bagian 1: Memulai
-1. Copy `NDSForwarder.nds` to your flashcard's SD card root
-1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
-1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
+1. Salin `NDSForwarder.nds` ke akar kartu SD *flashcard*
+1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
+1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD *flashcard*.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
 ### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
 
-If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
+Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian ini.
 {:.alert .alert-info}
 
 1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terkini
@@ -104,13 +104,13 @@ If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the nex
 1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
 
 ### Bagian 3: NDSForwarder-DSi
-1. Reinsert your SD card into your flashcard, and the flashcard into your device
-1. Power on your device and launch your flashcard
-1. Launch `NDSForwarder.nds`
-   - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.nds` on the root of your SD card
+1. Sisip kembali kartu SD ke *flashcard*, lalu *flashcard* ke konsol
+1. Nyalakan daya konsol dan luncurkan *flashcard*
+1. Luncurkan `NDSForwarder.nds`
+   - Jika muncul pesan `nitroFSInit() fail`, coba luncurkan dengan TWiLight Menu++, atau taruh `NDSForwarder.nds` di akar kartu SD
 1. Tekan <kbd class="face">A</kbd> pada `Install`
 1. Navigasi ke letak permainan dan tekan <kbd class="face">A</kbd>
-1. After it is installed, your game will now appear in a folder called `forwarders` on the flashcard's SD card root
+1. Setelah dipasang, permainan akan muncul di folder bernama `forwarders` pada akar kartu SD *flashcard*</li> </ol>
 
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
@@ -207,7 +207,7 @@ Setelah mengekstrak kemasan sesuai *flashcard*, pengaturan di `sd:/_nds/ntr_forw
 
 ### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next part.
+Jika sudah ada TWiLight Menu++, lewati bagian ini.
 {:.alert .alert-info}
 
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini

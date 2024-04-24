@@ -49,7 +49,7 @@ description: ЧаПи та усунення проблем для TWiLight Menu+
 Щоб приховати зображення, потрібно відредагувати файл `theme.ini`, який знаходиться в `sd:/_nds/TWiLightMenu/dsimenu/themes/[тека скіну]/`. Відкрийте файл текстовим редактором, змініть рядок `RenderPhoto` з `1` на `0`, потім збережіть файл.
 
 #### Як мені отримати ігри?
-Ви можете завантажити саморобні програми з [Universal-DB](https://db.universal-team.net/ds) та [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get officially released games, you need to get those as dumps, either from your physical cartridges, or from an existing console:
+Ви можете завантажити саморобні програми з [Universal-DB](https://db.universal-team.net/ds) та [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Щоб отримати офіційно випущені ігри, вам потрібно отримати їх у вигляді дампа з ваших фізичних картриджів або з наявної консолі:
 - На DS ви можете використати [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) для копіювання своїх ігор GBA, та, якщо у вас є флешкарта для Slot-2, ігор DS. Якщо у вас є лише флешкарта для Slot-1 і ви хочете створити копію гри для DS, ви можете скористатися програмою [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), яка вимагає сумісного з DS Wi-Fi з'єднання, а також клієнта FTP на окремому пристрої для отримання ROM
 - На DSi ви можете використати [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) для копіювання своїх ігор DS та DSiWare
 - На 3DS ви можете використати [GodMode9](https://github.com/d0k3/GodMode9/releases) для копіювання ваших ігор DS, DSiWare та Virtual Console

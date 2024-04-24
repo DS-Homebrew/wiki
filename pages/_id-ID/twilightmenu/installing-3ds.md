@@ -44,6 +44,10 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD
@@ -66,7 +70,7 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 
 #### Jika punya R4(i) Ultra
 
-1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan <i>firmware flashcard</i>`
+1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan firmware flashcard`
      - Peringatan yang ada boleh diabaikan
 1. Buka Pengaturan TWLMenu++
 1. Pindah ke halaman `Pengaturan lain`

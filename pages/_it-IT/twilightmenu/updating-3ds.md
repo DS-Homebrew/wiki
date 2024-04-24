@@ -31,6 +31,10 @@ Se si esegue l'aggiornamento da una versione precedente alla v25.7.0, si consigl
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Scarica la versione più recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Estrai `TWiLightMenu-3DS.7z`
 1. Copia la cartella `_nds` nella root della tua scheda SD, sostituendo quella già presente

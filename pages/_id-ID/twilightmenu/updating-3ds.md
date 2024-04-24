@@ -31,6 +31,10 @@ Jika memperbarui dari versi di bawah v25.7.0, disarankan untuk menghapus `TWiLig
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD, timpa berkas yang ada

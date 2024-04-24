@@ -8,17 +8,20 @@ long_title: TWiLight Menu++をインストール（マジコン）
 description: ニンテンドーDSマジコンにTWiLight Menu++をインストールする方法
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### インストール
 1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
-1. `TWiLightMenu-Flashcard.7z`を展開
-1. `_nds`フォルダをマジコンのmicroSDカードのルートにコピー
-1. `BOOT.NDS`ファイルをマジコンのmicroSDカードのルートにコピー
-1. `roms`フォルダをマジコンのmicroSDカードのルートにコピー
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. すでにセーブデータがある場合は、DS ROMの場所にある`.sav`ファイルを、同じくDS ROMの場所にある`saves`という新しいフォルダに移動
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### TWiLight Menu++を自動起動する
-1. `Autoboot/(使っているマジコン)`の中身をマジコンのmicroSDカードのルートに展開する
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - マジコンが表示されない場合は、スキップしてください
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
@@ -33,7 +36,7 @@ description: ニンテンドーDSマジコンにTWiLight Menu++をインスト�
 Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
-1. `Flashcart Loader/(お使いのマジコン)`内のものをマジコンのmicroSDカードのルートへ展開します。
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - `Flashcart Loader`には、どのFlashcart Loaderがお使いのマジコンに適しているかの判断材料となるREADME.txtがあります
    - 判断がついたら、ステップ3に進んでください。 そうでなければ、下記のマジコンリストの載ったステップ2に進んでください
 
@@ -59,4 +62,4 @@ Please note that you'll lose the ability to use cheats when running games in thi
    Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - マジコンのmicroSDのルートに`YSMenu.nds`（存在しない場合は`TTMenu.dat`から名前を変更する）と`TTMenu`フォルダがあることを確認してください
       - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

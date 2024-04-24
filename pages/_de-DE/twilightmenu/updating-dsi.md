@@ -14,11 +14,14 @@ description: Wie man TWiLight Menu++ auf dem Nintendo DSi aktualisiert
 **HINWEIS:** Wenn ein Update von einer Version älter als v21.0.0 erfolgt, verschiebe bitte deine `.pub` und/oder `.priv` Dateien für DSi-Spiele in einen neuen Ordner namens `saves`, mit dem `saves` Ordner an der gleichen Stelle wie die DSiWare-Roms.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Aktualisieren
 1. Lade die neueste Version von [`TWiLightMenu-DSi`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) herunter
 1. Entpacke `TWiLightMenu-DSi.7z`
 1. Kopiere den `_nds` Ordner in den Hauptordner deiner SD-Karte, ersetze alle existierenden Dateien
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+   - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`
 1. Kopiere die `BOOT.NDS` Datei in das Stammverzeichnis deiner SD-Karte, ersetze alle existierenden Dateien
 1. **hiyaCFW Benutzer:** Kopiere den `title` Ordner in den SD-Karten-Hauptordner, ersetze vorhandene Dateien
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+   - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`

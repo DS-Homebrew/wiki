@@ -3,18 +3,18 @@ lang: id-ID
 layout: wiki
 section: gbarunner2
 title: Info BIOS GBA
-description: Informasi terkait BIOS GBA dan cara membuat <i>dump</i>
+description: Informasi terkait BIOS GBA dan cara membuat dump
 ---
 
 Untuk memuat permainan di GBARunner2, diperlukan *dump* BIOS GBA. Versi terbaru GBARunner2 (yang ada dalam TWiLight Menu++ terkini) sudah ada [BIOS Sumber Terbuka Normatt](https://github.com/Normmatt/gba_bios) di dalamnya. Namun, karena bukan salinan persis, diperlukan *dump* BIOS resmi untuk kompatibilitas lebih baik. BIOS GBA resmi bisa di-*dump* dengan salah satu cara berikut.
 
-### Panduan Membuat *Dump*
+### Panduan Membuat Dump
 
 - [GBA/DS/DS Lite dengan *flashcart* GBA atau 3DS](bios-dump)
    - BIOS GBA **tidak mungkin** bisa di-*dump* dari DSi
 - [Wii (bukan Family Edition)/GameCube, GBA, dan *link cable dumper*](https://github.com/FIX94/gba-link-cable-dumper)
 
-Setelah membuat *dump* BIOS, berkas harus diubah nama jadi `bios.bin` dan ditaruh di `sd:/`, di `sd:/gba/`, atau `sd:/_gba/` agar dibaca GBARunner2.
+Setelah men-*dump* BIOS, berkas harus diubah nama jadi `bios.bin` dan ditaruh di `sd:/`, di `sd:/gba/`, atau `sd:/_gba/` agar dibaca GBARunner2.
 
 Hasil *dump* BIOS yang benar bisa dipastikan dengan dibandingkan *checksum* berikut:
 

@@ -10,7 +10,7 @@ description: Wie man TWiLight Menu++ im Breitbildformat auf dem Nintendo 3DS ver
 Dieser Abschnitt erfordert eine Konsole der 3DS-Familie, auf der eine moderne CFW-Umgebung von [3ds.hacks.guide](https://3ds.hacks.guide)läuft.
 {:.alert .alert-info}
 
-If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+Wenn Sie derzeit Luma v13 verwenden, aktualisieren Sie bitte auf v13.0.1, bevor Sie dieser Anleitung folgen.
 {:.alert .alert-info}
 
 ### Installation
@@ -19,23 +19,24 @@ If you're currently using Luma v13, please update to v13.0.1, before following t
 1. Öffne Universal Updater aus deinem HOME-Menü
 1. Installiere das TWPatch-Paket
    - Wenn deine Konsole nicht auf das Internet zugreifen kann, kannst du [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) direkt herunterladen und dann mit FBI installieren
-1. Kehre zum HOME-Menü zurück und starte TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and enable `Widescreen patch (384x240 16:10)`
-1. (Optional!) For a less pixelated widescreen, also enable `GPU scaling (blurry, no filters)`
+1. Return to the HOME menu and launch TWPatch
+   - If you get a message which says `Can't open /luma/exeTWL.bin`, then use [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/) to fix broken TWL mode
+1. Halten Sie <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> gedrückt, um das Patch-Menü zu öffnen und `Widescreen-Patch (384x240 16:10) zu aktivieren`
+1. (Optional!) Für einen weniger verpixelten Breitbildschirm aktivieren Sie auch `GPU-Skalierung (unscharf, keine Filter)`
 1. Drücke <kbd class="face">B</kbd> um das Patch-Menü zu verlassen
 1. Drücke <kbd>START</kbd> um eine `TwlBg.cxi` Datei mit Widescreen zu erzeugen
-   - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
+   - Wenn der obere Bildschirm nicht anzeigt, dass der breite Patch aktiviert ist, beginnen Sie erneut bei Schritt 3
 1. Verschiebe `TwlBg.cxi` von `sd:/luma/sysmodules/` zu `sd:/_nds/TWiLightMenu/TwlBg/` (Erstelle den `TwlBg` Ordner, wenn er nicht existiert), und benenne die Datei in `Widescreen.cxi` um
 1. Starte deinen 3DS neu, während du <kbd>SELECT</kbd> gedrückt hältst, um die Konfiguration von Luma3DS zu öffnen
 1. Aktiviere `external FIRMs and modules`, dann drücke <kbd>START</kbd> um zu speichern und zu beenden
-1. Open TWiLight Menu++, press <kbd class="face">Y</kbd> on your desired game to bring up the per-game settings, and set `Screen Aspect Ratio` to `16:10`
+1. Öffnen Sie TWiLight Menu++, drücken Sie <kbd class="face">Y</kbd> auf dem gewünschten Spiel, um die Einstellungen für das jeweilige Spiel aufzurufen, und stellen Sie `Screen Aspect Ratio` auf `16:10`
 
 Alles erledigt! Genieße deine DS Spiele im Breitbildschirm!
 
 **HINWEISE:**
-1. Do not hold <kbd>START</kbd> or <kbd>SELECT</kbd> when launching TWLMenu++, if you don't want widescreen to look glitched
-1. Nicht jedes Spiel ist mit dem Breitbildformat kompatibel. [Here is a list of games with widescreen support](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
-   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
-1. Most widescreen patches will only adjust 3D elements for widescreen, 2D elements (such as menus) will only be stretched
-1. Luma3DS **must** be loaded from the SD card, if widescreen isn't working ensure that you have `boot.firm` in the root of your SD
+1. Halten Sie beim Starten von TWLMenu++ nicht <kbd>START</kbd> oder <kbd>SELECT</kbd> gedrückt, wenn Sie nicht wollen, dass der Breitbildschirm glitched aussieht
+1. Nicht jedes Spiel ist mit dem Breitbildformat kompatibel. [Hier ist eine Liste von Spielen mit Widescreen-Unterstützung](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Wenn Sie im gesamten TWL_FIRM (einschließlich der TWLMenu++-GUI) im Widescreen-Modus feststecken, nachdem Sie diese Anleitung befolgt und ein Widescreen-kompatibles Spiel gestartet haben, löschen Sie `TwlBg.cxi` unter `sd:/luma/sysmodules/`.
+   - Wenn das Problem weiterhin besteht, deinstallieren Sie [](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) und [und installieren Sie](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++ erneut und befolgen Sie die obige Anleitung
+1. Die meisten Widescreen-Patches passen nur 3D-Elemente an das Breitbildformat an, 2D-Elemente (z. B. Menüs) werden nur gedehnt
+1. Luma3DS **muss** von der SD-Karte geladen werden. Wenn der Breitbildschirm nicht funktioniert, stellen Sie sicher, dass Sie `boot.firm` im Stammverzeichnis Ihrer SD-Karte haben

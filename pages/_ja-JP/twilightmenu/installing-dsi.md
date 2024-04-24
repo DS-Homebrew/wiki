@@ -11,6 +11,9 @@ description: ニンテンドーDSiにTWiLight Menu++をインストールする�
 DSiに自作ソフトを実行する方法がない場合は、[dsi.cfw.guide](https://dsi.cfw.guide)に従って、TWiLight Menu++をインストールしてください
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### インストール
 1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロード
 1. `TWiLightMenu-DSi.7z`を抽出

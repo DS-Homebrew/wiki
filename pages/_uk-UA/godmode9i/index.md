@@ -3,7 +3,7 @@ lang: uk-UA
 layout: wiki
 section: godmode9i
 title: GodMode9i
-description: Information about GodMode9i
+description: Інформація про GodMode9i
 ---
 
 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) - це файловий браузер з відкритим вихідним кодом для екосистеми Nintendo DS, натхненний GodMode9 для Nintendo 3DS. У GodMode9i можливість копіювати ігри, керувати файлами SD карт, переглядати NitroFS, обчислити хеш файлів SHA1, редагувати двійкові файли шістнадцятковим редактором і багато іншого.

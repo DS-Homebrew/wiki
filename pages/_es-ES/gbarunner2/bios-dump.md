@@ -22,6 +22,7 @@ Hay dos forma distintas de conseguir una BIOS:
 1. Descarga [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
 1. Crea una carpeta llamada `payloads` dentro de la carpeta `/luma`, si es que esta no existe
 1. Copia `open_agb_firm.firm` desde el archivo `.7z` de open_agb_firm a la carpeta `/luma/payloads`
+1. Copy `3ds` from the open_agb_firm `.7z` file to the root of your SD card
 1. Copia `Bios_Dumper.gba` a la carpeta raíz de tu tarjeta SD
 1. Vuelve a insertar tu tarjeta SD en tu consola
 

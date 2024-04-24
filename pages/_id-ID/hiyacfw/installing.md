@@ -54,7 +54,7 @@ Program hiyaCFW Helper sering kena positif palsu pada Windows Defender dan antiv
 ![Tangkapan Layar hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Luncurkan hiyaCFW Helper
-  - **Windows:** Luncurkan berkas `HiyaCFW_Helper.exe` yang diekstrak dari arsip hiyaCFW Helper (mungkin perlu menonaktifkan dulu antivirus)
+  - **Windows:** Luncurkan berkas `HiyaCFW_Helper.exe` yang diekstrak dari arsip hiyaCFW Helper (mungkin antivirus perlu dinonaktifkan dulu)
   - **macOS:** Pencet kanan berkas `HiyaCFW_Helper` yang diekstrak dari arsip hiyaCFW Helper dan pilih `Buka`
   - **Linux:** Luncurkan `HiyaCFW_Helper.py` yang diekstrak dari arsip hiyaCFW Helper
 1. Pencet tombol `...` di kotak "NAND file with No$GBA footer"

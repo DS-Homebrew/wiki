@@ -14,6 +14,9 @@ description: Як оновити TWiLight Menu++ на Nintendo DSi
 Якщо ви оновлюєтесь з версії, старішої за v21.0.0, будь ласка, перемістіть ваші файли `.pub` та/чи `.prv` для DSiWare до нової теки під назвою `saves`, що повинна знаходитись у тому ж місці, що й ROM для DSiWare.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Оновлення
 1. Завантажте останню версію [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
 1. Розпакуйте `TWiLightMenu-DSi.7z`

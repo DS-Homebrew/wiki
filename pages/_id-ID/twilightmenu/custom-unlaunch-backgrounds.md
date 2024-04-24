@@ -28,7 +28,7 @@ Karena palet GIF dimuat ke area VRAM yang sama dengan palet teks, palet GIF akan
 1. Buka gambarnya di GIMP dan pastikan berukuran 256 x 192 piksel
 1. Di bilah menu bagian atas, pilih `Image` -> `Mode` -> `Indexed...`
 1. Pilih `Generate optimum palette` dan atur maksimum warna berapa saja sampai 226 warna
-1. Pilih pola baur galat (*dither*) dari menu tarik-turun `Color dithering`
+1. Pilih pola *dither* (baur galat) dari menu tarik-turun `Color dithering`
    - Coba dulu mana yang bagus untuk ukurannya. Gambar tanpa baur galat biasanya dipampat bagus, tapi ada baur galat juga masih bagus
 1. Pencet `Convert`
 1. Di bilah menu bagian atas, pilih `File` -> `Export As...`, tulis namanya dengan ekstensi `.gif`, dan pencet `Export`

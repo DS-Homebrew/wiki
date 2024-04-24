@@ -3,7 +3,7 @@ lang: de-DE
 layout: wiki
 section: hiyacfw
 title: Benutzerdefinierte Splashes
-description: How to use custom splash screens with hiyaCFW
+description: Wie man mit hiyaCFW benutzerdefinierte Startbildschirme verwendet
 ---
 
 Mit hiyaCFW kannst du eigene Splashes entweder im `.bmp` oder `.gif`-Format erstellen. Diese müssen in den `sd:/hiya`-Ordner mit dem Namen `splashtop` für den Topscreen und `splashbottom` für den Touchscreen mit der geeigneten Dateierweiterung. Stelle sicher, dass Splashes in den Hiya-CFW-Einstellungen aktiviert sind. Die Bilder müssen nicht dasselbe Format haben, sodass eines ein BMP und das andere ein GIF ist, jedoch haben GIFs Vorrang gegenüber BMPs. Hier sind einige Details über die Anforderungen, sodass die Bilder funktionieren:

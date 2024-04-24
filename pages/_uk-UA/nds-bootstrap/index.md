@@ -3,7 +3,7 @@ lang: uk-UA
 layout: wiki
 section: nds-bootstrap
 title: nds-bootstrap
-description: Information on how to use nds-bootstrap
+description: Інформація про використання nds-bootstrap
 ---
 
 [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) - це саморобна програма з відкритим вихідним кодом, яка перенаправляє читання/запис Slot-1 з офіційних ігор Nintendo SDK на SD-карту, як на флешкарту, так і на SD-карту консолі.

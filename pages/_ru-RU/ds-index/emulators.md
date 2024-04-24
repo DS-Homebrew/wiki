@@ -25,9 +25,10 @@ description: Справочник по эмуляторам на DS
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[имя rom-a].sav`                                                             |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], нативный[^5]       | `.agb`, `.gba`, `.mb`                  | `[имя rom-a].sav`                                                             |
 | Game Gear               | [S8DS][s8ds]                                     | `.gg`                                  | `[имя rom-a].gg.sav`                                                          |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[имя rom-a].srm`[^6]                                                         |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`, `.md`                          | `[имя rom-a].srm`[^6]                                                         |
 | Intellivision           | [Nintellivision][nintellivision]                 | `.int`                                 |                                                                               |
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[имя rom-a].sms.sav`                                                         |
+| MSX                     | [ColecoDS][colecods]                             | `.msx`                                 | ???                                                                           |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[имя rom-a].ngp.fla`                                             |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                                               |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[имя rom-a].sav`                                                             |

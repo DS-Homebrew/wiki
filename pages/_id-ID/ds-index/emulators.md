@@ -7,7 +7,7 @@ title: Emulator di konsol DS
 description: Rujukan terkait Emulator untuk di DS
 ---
 
-Tersedia banyak emulator yang dibuat untuk DS dan DSi. This page provides a comprehensive explanation on the many emulators and loaders bundled into **TW**i**L**ight Menu++.
+Tersedia banyak emulator yang dibuat untuk DS dan DSi. Laman ini akan menjelaskan berbagai emulator dan pemuat yang sekemas di **TW**i**L**ight Menu++.
 
 ### Daftar sistem yang didukung TWiLight Menu++
 
@@ -25,9 +25,10 @@ Tersedia banyak emulator yang dibuat untuk DS dan DSi. This page provides a comp
 | Game Boy (Color)        | [GameYob][gameyob]                                | `.gb`, `.sgb`, `.gbc`                  | `[nama rom].sav`                                                           |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], lokal[^5]           | `.agb`, `.gba`, `.mb`                  | `[nama rom].sav`                                                           |
 | Game Gear               | [S8DS][s8ds]                                      | `.gg`                                  | `[nama rom].gg.sav`                                                        |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]       | `.gen`                                 | `[nama rom].srm`[^6]                                                       |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]       | `.gen`, `.md`                          | `[nama rom].srm`[^6]                                                       |
 | Intellivision           | [Nintellivision][nintellivision]                  | `.int`                                 |                                                                            |
 | Master System           | [S8DS][s8ds]                                      | `.sms`                                 | `[nama rom].sms.sav`                                                       |
+| MSX                     | [ColecoDS][colecods]                              | `.msx`                                 | ???                                                                        |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                    | `.ngp`, `.ngc`                         | `/data/ngpds/[nama rom].ngp.fla`                                           |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]            | `.fv`                                  |                                                                            |
 | NES/Famicom             | [nesDS][nesds]                                    | `.nes`, `.fds`                         | `[nama rom].sav`                                                           |
@@ -82,7 +83,7 @@ Ini semua jenis emulator dan pemuat anjuran yang disediakan di TWiLight Menu++. 
 
 
 <!-- Links for tables -->
-[^1]: Untuk berkas teks yang berisi jalur ke aplikasi *homebrew* DS dan *argument* perintah luncur, lihat [README nds-hb-menu](https://github.com/devkitPro/nds-hb-menu#passing-arguments) untuk info lanjut
+[^1]: Untuk berkas teks yang berisi jalur ke *homebrew* DS dan *argument* perintah luncur, lihat [README nds-hb-menu](https://github.com/devkitPro/nds-hb-menu#passing-arguments) untuk info lanjut
 [^2]: Hanya untuk ROM retail, karena simpanan *homebrew* berbeda-beda
 [^7]: Hanya saat dijalankan di mode B4DS
 [^3]: Hanya berfungsi dari *flashcard* SuperCard DSTWO karena ada daya pengolahan dan RAM tambahan di dalamnya

@@ -8,17 +8,20 @@ long_title: Встановлення TWiLight Menu++ (Флешкарта)
 description: Як встановити TWiLight Menu++ на флешкарту Nintendo DS
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Встановлення
 1. Завантажте останню версію [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-1. Розпакуйте `TWiLightMenu-Flashcard.7z`
-1. Скопіюйте теку `_nds` в кореневу теку microSD карти для вашої флешкарти
-1. Скопіюйте файл `BOOT.NDS` в кореневу теку microSD карти для вашої флешкарти
-1. Скопіюйте теку `roms` в кореневу теку microSD карти для вашої флешкарти
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. Якщо у вас вже є файли збереження, перемістіть файли `.sav`, які знаходяться у вашій теці з ROM DS, до нової теки під назвою `saves`, яка також знаходиться у теці з ROM
 1. **Користувачі оригінальної DS та DS Lite:** Якщо завантаження `BOOT.NDS` призводить до білого екрана, виконайте наведені нижче кроки для автозапуску та/або встановіть DS Memory Expansion Pak і спробуйте ще раз
 
 ### Автозапуск TWiLight Menu++
-1. Розпакуйте вміст `Autoboot/(ваша флешкарта)` у кореневу теку microSD карти для вашої флешкарти
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Пропустіть це, якщо ви не бачите свою флешкарту
 1. **Користувачі оригінальної DS та DS Lite:** Перейдіть до налаштувань в меню DS та увімкніть автозапуск, щоб ваша флешкарта запускалася при завантаженні
 
@@ -33,7 +36,7 @@ description: Як встановити TWiLight Menu++ на флешкарту N
 Зверніть увагу, що ви втратите можливість використовувати чити в іграх, використовуючи цей режим. Якщо ви хочете зберегти функцію читів, пропустіть цей розділ.
 {:.alert .alert-warning}
 
-1. Розпакуйте вміст `Flashcart Loader/(ваша флешкарта)` у кореневу теку microSD карти для вашої флешкарти
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - Файл README.txt міститься в теці `Flashcart Loader`, щоб допомогти визначитися, який завантажувач підходить для вашої флешкарти.
    - Якщо ви це зробили, переходьте до кроку 3. Якщо ні, виконайте кроки, наведені нижче у списку флешкарт
 
@@ -59,4 +62,4 @@ description: Як встановити TWiLight Menu++ на флешкарту N
    Встановіть [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
       - Переконайтеся, що у вас є `YSMenu.nds` (перейменуйте з `TTMenu.dat`, якщо його немає) та тека `TTMenu` в кореневій теці вашої microSD карти
       - Не копіюйте `TTMenu.dat` безпосередньо; це порушить автозавантаження та швидке перезавантаження YSMenu
-1. Відкрийте Налаштування TWLMenu++, перейдіть на сторінку `Налаштування nds-bootstrap` і встановіть `Завантажувач ігор` на `Ядро флешкарти`, щоб замість nds-bootstrap використовувалась прошивка вашої флешкарти
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

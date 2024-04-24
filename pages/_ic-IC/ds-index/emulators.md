@@ -25,18 +25,19 @@ crwdns24485:0crwdne24485:0 crwdns40392:0crwdne40392:0
 | crwdns31562:0crwdne31562:0 | [crwdns31566:0crwdne31566:0][gameyob]           | crwdns31568:0crwdne31568:0   | `crwdns31570:0crwdne31570:0` |
 | crwdns31572:0crwdne31572:0 | crwdns40345:0crwdne40345:0                      | crwdns31576:0crwdne31576:0   | `crwdns31578:0crwdne31578:0` |
 | crwdns31580:0crwdne31580:0 | [crwdns31584:0crwdne31584:0][s8ds]              | `crwdns31586:0crwdne31586:0` | `crwdns31588:0crwdne31588:0` |
-| crwdns31590:0crwdne31590:0 | crwdns40347:0crwdne40347:0                      | `crwdns31594:0crwdne31594:0` | crwdns40349:0crwdne40349:0   |
+| crwdns31590:0crwdne31590:0 | crwdns40347:0crwdne40347:0                      | crwdns40812:0crwdne40812:0   | crwdns40349:0crwdne40349:0   |
 | crwdns31598:0crwdne31598:0 | [crwdns31602:0crwdne31602:0][nintellivision]    | `crwdns31604:0crwdne31604:0` |                              |
 | crwdns31606:0crwdne31606:0 | [crwdns31610:0crwdne31610:0][s8ds]              | `crwdns31612:0crwdne31612:0` | `crwdns31614:0crwdne31614:0` |
+| crwdns40814:0crwdne40814:0 | [crwdns31668:0crwdne31668:0][colecods]          | `crwdns40816:0crwdne40816:0` | crwdns31690:0crwdne31690:0   |
 | crwdns31616:0crwdne31616:0 | [crwdns31620:0crwdne31620:0][ngpds]             | crwdns31622:0crwdne31622:0   | `crwdns31624:0crwdne31624:0` |
 | crwdns33048:0crwdne33048:0 | [crwdns33052:0crwdne33052:0][fastvideodsplayer] | `crwdns31630:0crwdne31630:0` |                              |
 | crwdns31632:0crwdne31632:0 | [crwdns31636:0crwdne31636:0][nesds]             | crwdns31638:0crwdne31638:0   | `crwdns31640:0crwdne31640:0` |
 | crwdns31642:0crwdne31642:0 | [crwdns31646:0crwdne31646:0][nitrografx]        | `crwdns31648:0crwdne31648:0` |                              |
 | crwdns31650:0crwdne31650:0 | [crwdns31654:0crwdne31654:0][rvidplayer]        | `crwdns31656:0crwdne31656:0` |                              |
 | crwdns31658:0crwdne31658:0 | crwdns40351:0crwdne40351:0                      | `crwdns31662:0crwdne31662:0` |                              |
-| crwdns31664:0crwdne31664:0 | [crwdns31668:0crwdne31668:0][colecods]          | `crwdns31670:0crwdne31670:0` |                              |
+| crwdns31664:0crwdne31664:0 | [crwdns40820:0crwdne40820:0][colecods]          | `crwdns31670:0crwdne31670:0` |                              |
 | crwdns31672:0crwdne31672:0 | [crwdns31676:0crwdne31676:0][snemulds]          | crwdns31678:0crwdne31678:0   | `crwdns31680:0crwdne31680:0` |
-| crwdns31682:0crwdne31682:0 | [crwdns31686:0crwdne31686:0][nitroswan]         | crwdns31688:0crwdne31688:0   | crwdns31690:0crwdne31690:0   |
+| crwdns31682:0crwdne31682:0 | [crwdns31686:0crwdne31686:0][nitroswan]         | crwdns31688:0crwdne31688:0   | crwdns40822:0crwdne40822:0   |
 | crwdns31692:0crwdne31692:0 | [crwdns31696:0crwdne31696:0][tunavids]          | `crwdns31698:0crwdne31698:0` |                              |
 
 - crwdns24649:0crwdne24649:0
@@ -94,6 +95,7 @@ crwdns31700:0crwdne31700:0 crwdns31702:0crwdne31702:0
 [a7800ds]: crwdns31520:0crwdne31520:0
 [a8ds]: crwdns40331:0crwdne40331:0
 [colecods]: crwdns31666:0crwdne31666:0
+[colecods]: crwdns40818:0crwdne40818:0
 [fastvideodsplayer]: crwdns33050:0crwdne33050:0
 [gameyob]: crwdns31564:0crwdne31564:0
 [nesds]: crwdns31634:0crwdne31634:0

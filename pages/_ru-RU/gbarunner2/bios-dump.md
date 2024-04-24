@@ -22,6 +22,7 @@ tabs:
 1. Download [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
 1. Создайте папку `payloads` внутри папки `luma`, если ее еще нет
 1. Из архива `open_agb_firm.7z` скопируйте файл `open_agb_firm.firm` в `/luma/payloads` (на вашей SD-карте), а также из архива скопируйте папку `3ds` в корень SD-карты
+1. Copy `3ds` from the open_agb_firm `.7z` file to the root of your SD card
 1. Copy `Bios_Dumper.gba` to the root of your SD card
 1. Reinsert your SD card into your device
 

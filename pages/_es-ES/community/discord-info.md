@@ -89,9 +89,6 @@ Lightning es un bot de Discord creado por [LightSage](https://github.com/LightSa
 
 - Updates (Actualizaciones) - Se te notificará cuando haya una actualización para aplicaciones Homebrew de DS(i) en el canal #announcements
 - Nintendo DS Online Players (Jugadores en línea de Nintendo DS) - Cualquiera puede notificar a este rol en #nds-gaming cuando esté buscando gente para jugar juegos de Nintendo DS en línea
-- Artists/Designers (Artistas/Diseñadores) - Para aquellos que han hecho una skin de calidad para TWiLight Menu++, fondos para Unlaunch o gráficos para otras aplicaciones Homebrew para Nintendo DS(i)
-- Composers (Compositores) - Para aquellos que han hecho música para aplicaciones homebrew o ROM hacks
-- Game Modders (Modificadores de juegos) - Para aquellos que han hecho ROM hacks, trucos, o cualquier otro tipo de modificación para juegos de Nintendo DS(i)
 - Translators (Traductores) - Cualquiera que quiera recibir notificaciones para contribuir a traducir varios proyectos del grupo DS-Homebrew
 
 Hay montón de comandos divertidos que puedes usar, pero por favor mantenlos en [#end-of-server][end-of-server]. Para más información, echa un vistazo a su página web: <https://lightning.lightsage.dev/>

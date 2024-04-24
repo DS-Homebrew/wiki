@@ -14,6 +14,9 @@ Als je bijwerkt vanaf een versie ouder dan v16.4.0, verplaats dan je `.sav`-best
 Als je bijwerkt vanaf een versie ouder dan v21.0.0, verplaats dan je `.pub`- en/of `.prv`-bestanden voor DSiWare-titels naar een nieuwe map genaamd `saves`, waarbij de map `saves` op dezelfde plaats staat als de DSiWare-ROM's.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Bijwerken
 1. Download de meest recente versie van [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Pak `TWiLightMenu-Flashcard.7z` uit

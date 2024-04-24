@@ -3,7 +3,7 @@ lang: uk-UA
 layout: wiki
 section: hiyacfw
 title: hiyaCFW
-description: Information on how to install and use hiyaCFW
+description: Інформація про встановлення та використання hiyaCFW
 ---
 
 [hiyaCFW](https://github.com/RocketRobz/hiyaCFW) - користувацька прошивка, яка дозволяє запускати прошивку Nintendo DSi з SD-карти консолі, а не з чіпа NAND (внутрішньої пам'яті). Це корисно, оскільки SD-карту можна замінити, тоді як внутрішній чіп NAND слабкий і може зламатися.

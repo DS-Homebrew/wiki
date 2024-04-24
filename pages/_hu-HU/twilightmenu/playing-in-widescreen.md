@@ -19,7 +19,8 @@ Ha jelenleg a Luma v13-at használod, kérjük, frissíts a v13.0.1 verzióra, m
 1. Nyisd meg az Universal Updater-t a HOME Menüből
 1. Telepítsd a TWPatch csomagot
    - Ha a konzolod nem tud hozzáférni az internethez, akkor közvetlenül letöltheted a [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) fájlt, majd telepítheted az FBI segítségével
-1. Térj vissza a HOME menübe és indítsd el a TWPatch-ot
+1. Return to the HOME menu and launch TWPatch
+   - If you get a message which says `Can't open /luma/exeTWL.bin`, then use [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/) to fix broken TWL mode
 1. Tarts nyomva az <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> gombokat, hogy megnyisd a patch menüt és engedélyezd a `Widescreen patch (384x240 16:10)` opciót
 1. (Opcionális!) A kevésbé pixeles széles képernyőhöz engedélyezd a `GPU átméretezés (homályos, nincs szűrő)` opciót is
 1. Nyomj <kbd class="face">B</kbd> gombot a patch menüből kilépéshez

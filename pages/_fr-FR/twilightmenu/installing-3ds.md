@@ -44,6 +44,10 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Téléchargez le dernier [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Extrayez `TWiLightMenu-3DS.7z`
 1. Copiez le dossier `_nds` à la racine de votre carte SD

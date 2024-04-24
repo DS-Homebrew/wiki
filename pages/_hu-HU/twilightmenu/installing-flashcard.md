@@ -8,17 +8,20 @@ long_title: A TWiLight Menu++ telepítése (Flashcard)
 description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Telepítés
 1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót
-1. Csomagold ki `TWiLightMenu-Flashcard.7z` fájlt
-1. Másold az `_nds` mappát a flash kártyád microSD kártyájának gyökerébe
-1. Másold az `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe
-1. Másold a `roms` mappát a flash kártyád microSD kártyájának gyökerébe
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. Ha már van mentés adatod, mozgasd a `.sav` fájljaidat, ami a DS ROM lokáción találhatók egy új `saves` nevű mappába, ami szintén DS ROM lokáción található
 1. **DS Phat/Lite felhasználók:** Ha a `BOOT.NDS` bootolása fehér képernyő fagyást okoz, akkor kövesd az alábbi lépéseket az autobootoláshoz és/vagy helyezz be egy DS Memory Expansion Pak-ot és próbáld újra
 
 ### TWiLight Menu++ automatikus bootolása
-1. Csomagold ki az `Autoboot/(a te flashcard-od)` mapp tartalmát a flashcard-od microSD kártyája gyökerébe
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Lépd át ezt, ha nem látod a flashcard-od
 1. **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
 
@@ -33,7 +36,7 @@ Vedd figyelemben, hogy nem minden flashcard támogatja a játékok ilyen módon 
 Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy csalásokat használj, ha a játékokat így indítod. Ha továbbra is szeretnéd elérni a csalás funkcionalitást, lépd át ezt a részt.
 {:.alert .alert-warning}
 
-1. Csomagold ki a `Flashcart Loader/(a te flashcard-od)` mappát a flashcard-od microSD kártyája gyökerébe
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - A `Flashcart Loader` mappában található egy README.txt fájl, amely segít megtalálni, hogy melyik flashcart betöltő a megfelelő a flashcard-odhoz.
    - Ha ezt már megcsináltad, folytasd a 3. lépéssel. Ha még nem, kövesd a flashcard-ok listája alatti lépéseket
 
@@ -59,4 +62,4 @@ Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy csalások
    Telepítsd a [RetroGameFan YSMenu](https://gbatemp.net/download/35737/)-jét.
       - Ellenőrizd, hogy az `YSMenu.nds` (átnevezve `TTMenu.dat`-ról, ha nincs ilyen) és a `TTMenu` mappa létezik a flashcard-od microSD kártyájának gyökerében
       - Ne másolda `TTMenu.dat` közvetlenül; ez megtöri az automatikus indítást és az YSMenu soft reset-et
-1. Nyisd meg a TWLMenu++ Beálltásokat, válts az `nds-bootstrap beállítások` oldalra és állítsd be az `nds-bootstrap használatát` `Kernel`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

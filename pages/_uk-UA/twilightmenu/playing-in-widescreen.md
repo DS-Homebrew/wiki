@@ -4,13 +4,13 @@ layout: wiki
 section: twilightmenu
 category: other
 title: Ігри у широкоекранному режимі
-description: Як використовувати TWiLight Menu++ на широкому екрані на Nintendo 3DS
+description: Як використовувати TWiLight Menu++ в широкоекранному режимі на Nintendo 3DS
 ---
 
 Цей розділ потребує консоль сімейства 3DS, на якій запущено сучасне CFW з [3ds.hacks.guide](https://3ds.hacks.guide).
 {:.alert .alert-info}
 
-If you're currently using Luma v13, please update to v13.0.1, before following this guide.
+Якщо ви використовуєте Luma v13, будь ласка, оновіть її до v13.0.1, перш ніж дотримуватися цього посібника.
 {:.alert .alert-info}
 
 ### Встановлення
@@ -19,7 +19,8 @@ If you're currently using Luma v13, please update to v13.0.1, before following t
 1. Відкрийте Universal Updater з меню HOME
 1. Встановіть пакет TWPatch
    - Якщо ваша консоль не має доступу до Інтернету, ви можете завантажити [TWPatch.cia](https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085) прямо на SD карту, а потім встановити його за допомогою FBI
-1. Поверніться до меню HOME та запустіть TWPatch
+1. Return to the HOME menu and launch TWPatch
+   - If you get a message which says `Can't open /luma/exeTWL.bin`, then use [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/) to fix broken TWL mode
 1. Утримуйте <kbd class="face">Y</kbd> + <kbd class="face">B</kbd>, щоб відкрити меню патчів та увімкнути `Widescreen patch (384x240 16:10)`
 1. (Необов'язково!) Для менш піксельного екрана, також увімкніть `GPU scaling (blurry, no filters)`
 1. Натисніть <kbd class="face">B</kbd>, щоб вийти з меню
@@ -35,7 +36,7 @@ If you're currently using Luma v13, please update to v13.0.1, before following t
 **ПРИМІТКИ:**
 1. Не утримуйте <kbd>START</kbd> або <kbd>SELECT</kbd> під час запуску TWLMenu++, якщо ви не хочете, щоб широкоекранний екран глючив
 1. Не кожна гра сумісна з широкоекранним режимом. [Ось список ігор з підтримкою широкого екрану](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. If you're stuck in widescreen mode in all of TWL_FIRM (including the TWLMenu++ GUI) after following this guide and launching a widescreen-compatible game, delete `TwlBg.cxi` at `sd:/luma/sysmodules/`.
-   - If the problem persists, [uninstall](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) and [re-install](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, and re-follow the above guide, as well as using the original build of Luma
+1. Якщо ви застрягли у широкоекранному режимі у всьому TWL_FIRM (включно з графічним інтерфейсом TWLMenu++) після виконання цього посібника і запуску гри, сумісної з широкоекранним режимом, видаліть `TwlBg.cxi` в теці `sd:/luma/sysmodules/`.
+   - Якщо проблема не зникне, [видаліть](https://wiki.ds-homebrew.com/twilightmenu/uninstalling-3ds) та [ переінсталюйте](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++ і повторіть наведені вище інструкції, а також використовуйте оригінальну збірку Luma
 1. Більшість широкоекранних патчів лише підлаштовують 3D-елементи під широкоекранний режим, 2D-елементи (наприклад, меню) лише розтягуються
 1. Luma3DS **повинна** завантажуватися з SD карти. Якщо широкоекранний режим не працює, переконайтеся, що у вас є `boot.firm` в корені вашої SD карти

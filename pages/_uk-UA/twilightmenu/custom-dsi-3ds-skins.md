@@ -7,10 +7,10 @@ title: Як створювати скіни DSi/3DS
 description: Як створювати власні скіни DSi та 3DS для TWiLight Menu++
 ---
 
-Для створення обкладинки TWiLight Menu++ вам знадобиться графічний редактор, здатний експортувати файли `.png`, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` або `.png` файлів, а також 4 BPP `.bmp` файлів. В ідеалі, він також повинен мати можливість вручну переставляти палітри зображень. [GIMP](https://www.gimp.org) рекомендується і буде використовуватися для цього посібника, оскільки в ньому є все необхідне.
+Для створення скіну TWiLight Menu++ вам знадобиться графічний редактор, здатний експортувати файли `.png`, 16 <abbr title="Bits Per Pixel">BPP</abbr> `.bmp` або `.png` файлів, а також 4 BPP `.bmp` файлів. В ідеалі, він також повинен мати можливість вручну переставляти палітри зображень. [GIMP](https://www.gimp.org) рекомендується і буде використовуватися для цього посібника, оскільки в ньому є все необхідне.
 
 ## Частина 1: Завантажити приклади
-Перше, що вам слід зробити, це завантажити приклади скінів [та](/assets/files/skin-examples.zip). Вони можуть бути використані як основа для вашого скіну та вже мають правильний формат, тому, якщо у вас виникнуть проблеми пізніше, ви зможете порівняти їх з цими.
+Перше, що вам слід зробити - завантажити [приклади скінів](/assets/files/skin-examples.zip). Вони можуть бути використані як основа для вашого скіну та вже мають правильний формат, тому, якщо у вас виникнуть проблеми пізніше, ви зможете порівняти їх з цими.
 
 ## Частина 2: Редагування зображень
 Завантажте та встановіть [GIMP](https://www.gimp.org)
@@ -20,14 +20,14 @@ description: Як створювати власні скіни DSi та 3DS дл
 
 Тепер ви можете відкрити будь-яке зображення, яке хочете відредагувати в GIMP, і перейти до наступного розділу, залежно від того, в якій теці воно знаходиться. Зверніть увагу, що TWiLight Menu++ прискіпливо ставиться до точного формату зображень, і він залежить від того, в якій теці вони знаходяться, тому переконайтеся, що експортуєте, як зазначено в розділі.
 
-### Фонові текстури (`background` folder)
+### Фонові текстури (тека `background`)
 Це можуть бути PNG-файли або 16-розрядні (`A1 R5 G5 B5` або `X1 R5 G5 B5`) BMP-файли.
 - Якщо ви використовуєте BMP-файли, ви можете встановити для них 16-бітну кодування в Додаткових параметрах під час експорту. Можливо, вам доведеться робити це щоразу, коли ви експортуєте у форматі BMP
 
 | Текстури              | Опис                                                                                          |
 | --------------------- | --------------------------------------------------------------------------------------------- |
 | top                   | Текстура фону верхнього екрана                                                                |
-| top_photo             | The top screen background texture when a photo is being shown                                 |
+| top_photo             | Текстура верхнього фону екрана під час показу фотографії                                      |
 | bottom                | Нижня фонова текстура, коли не наведено курсор на іконку                                      |
 | bottom_ds             | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
 | bottom_macro          | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
@@ -37,25 +37,25 @@ description: Як створювати власні скіни DSi та 3DS дл
 | bottom_moving         | Для теми DSi, нижня фонова текстура при переміщенні піктограми                                |
 | bottom_moving_macro | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
 
-### Фонові текстури (`background` folder)
+### Фонові текстури (тека `background`)
 Це мають бути файли у форматі PNG. Прозорість підтримується, однак працюватиме лише 100% прозорість.
 
-| Текстури           | Опис/Примітки                                                                                                   |
-| ------------------ | --------------------------------------------------------------------------------------------------------------- |
-| battery0           | Блимає `батарея1`, коли батарея дуже розряджена                                                                 |
-| battery1           | 0-4 використовуються в режимі DSi                                                                               |
-| battery1purple     | Фіолетові іконки використовуються, коли `колір індикатора живлення` встановлено на `Фіолетовий` в налаштуваннях |
-| battery2           |                                                                                                                 |
-| battery2purple     |                                                                                                                 |
-| battery3           |                                                                                                                 |
-| battery3purple     |                                                                                                                 |
-| battery4           |                                                                                                                 |
-| battery4purple     |                                                                                                                 |
-| batterycharge      |                                                                                                                 |
-| batterychargeblink | Під час заряджання блимає `заряджання батареї`                                                                  |
-| batteryfull        | Використовується в режимі DS на DSi/3DS                                                                         |
-| batteryfullDS      | Використовується на DS Phat/DS Lite                                                                             |
-| batterylow         | Використовується в режимі DS                                                                                    |
+| Текстури           | Опис/Примітки                                                                                            |
+| ------------------ | -------------------------------------------------------------------------------------------------------- |
+| battery0           | Блимає з текстурою `battery1`, коли батарея дуже розряджена                                              |
+| battery1           | 0-4 використовуються в режимі DSi                                                                        |
+| battery1purple     | Фіолетові іконки використовуються, коли `Колір LED живлення` встановлено на `Фіолетовий` у налаштуваннях |
+| battery2           |                                                                                                          |
+| battery2purple     |                                                                                                          |
+| battery3           |                                                                                                          |
+| battery3purple     |                                                                                                          |
+| battery4           |                                                                                                          |
+| battery4purple     |                                                                                                          |
+| batterycharge      |                                                                                                          |
+| batterychargeblink | Блимає з `batterycharge` під час заряджання                                                              |
+| batteryfull        | Використовується в режимі DS на DSi/3DS                                                                  |
+| batteryfullDS      | Використовується на DS Phat/DS Lite                                                                      |
+| batterylow         | Використовується в режимі DS                                                                             |
 
 ### Фонові текстури (`background` folder)
 Це повинні бути 4 BPP (16 кольорів) BMP-файли.
@@ -261,42 +261,42 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `PlayStartupJingle`        | Whether or not to use the startup sound before the main BGM. See the [custom SFX](custom-dsi-3ds-sfx) page for more information | 1             | 0             |
 | `StartupJingleDelayAdjust` | The amount of samples early in the startup sound the BGM should start at                                                        | 0             | 0             |
 
-### Macro Mode options
-You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
+### Параметри режиму Macro
+Ви можете додати певні параметри перевизначення до файлу `theme.ini` для використання у режимі Macro. Для цього додайте `[MACRO]` в порожній рядок внизу конфігураційного файлу, а потім додайте будь-які вказані конфігурації під ним.
 
-## Custom background music and sound effects
-The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+## Спеціальна фонова музика та звукові ефекти
+Теми DSi та 3DS також підтримують користувацьку музику. Подивіться [DSi/3DS скіни - Користувацькі ефекти](custom-dsi-3ds-sfx) для більш детальної інформації.
 
-## Custom fonts
-You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+## Користувацькі шрифти
+Ви можете покласти [Користувацькі шрифти](custom-fonts) до теки `font` для використання у скіні. Ви також можете додати перевизначення шрифтів для дати & часу за допомогою `date_time.nftr`, та імені користувача консолі за допомогою `username.nftr`.
 
-## Custom palettes
-For the paletted textures (`grf` folder), you can optionally add override palette sets which are used when the corresponding `UserPalette` setting is enabled. Palette set files can be created using [this editor](https://skinpaltool.dvdo.dev/). When using the editor, import the image you would like to work with, then create a palette for each of the 16 DS Profile colors. You can use this [example palette file](/assets/files/example-palette.bin) as a starting point.
+## Користувацькі палітри
+Для палітрових текстур (тека `grf`) ви можете додатково додати набори палітр, які використовуються, коли увімкнено відповідний параметр `UserPalette`. Файли наборів палітр можна створювати за допомогою [цього редактора](https://skinpaltool.dvdo.dev/). Використовуючи редактор, імпортуйте зображення, з яким ви хочете працювати, а потім створіть палітру для кожного з 16 кольорів профілю DS. Ви можете використати цей [приклад файлу палітри](/assets/files/example-palette.bin) як початкову точку.
 
-The 16 rows of the palette collection correspond to each profile color and should be in the following order:
-1. Gray-Blue
-2. Brown
+16 рядів колекції палітри відповідають кожному кольору профілю та повинні бути в наступному порядку:
+1. Сіро-блакитний
+2. Коричневий
 3. Червоний
 4. Рожевий
-5. Orange
+5. Помаранчевий
 6. Жовтий
-7. Lime Green
+7. Світло-зелений
 8. Зелений
-9. Dark Green
-10. Turquoise
-11. Cyan/Light Blue
+9. Темно-зелений
+10. Бірюзовий
+11. Блакитний/Світло-блакитний
 12. Синій
-13. Dark Blue/Indigo
-14. Violet/Dark Purple
+13. Темно-синій/Індиго
+14. Фіалковий/Темно-фіолетовий
 15. Фіолетовий
-16. Magenta
+16. Пурпуровий
 
-Once you've created a palette file, place it in the `palettes` folder. The name of the palette file should match the name of its image but with a `.bin` extension instead (ex. `start_border.bin` will be applied to `start_border.bmp`).
+Створивши файл палітри, помістіть його до теки `palettes`. Ім'я файлу палітри має збігатися з ім'ям її зображення, але з розширенням `.bin` (наприклад, `start_border.bin` буде застосовано до `start_border.bmp`).
 
-You may also put a `username.bin` palette file to change the palettes of the username font. Make sure to set the palette editor to `Font Mode` when creating this file.
+Ви також можете додати файл палітри `username.bin` для зміни палітри шрифту імені користувача. Під час створення цього файлу обов'язково встановіть у редакторі палітри `Font Mode`.
 
-## Part 3: Adding to TWiLight Menu++
-Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
+## Частина 3: Додавання до TWiLight Menu++
+Після того, як ви відредагували текстури та хочете протестувати свою скіну, просто скопіюйте папку зі своєю скіною (теку, що містить `background`, `battery` тощо) до `sd:/_nds/TWiLightMenu/3dsmenu/themes/` або `sd:/_nds/TWiLightMenu/dsimenu/themes/` для скінів тем для 3DS/DSi відповідно.
 
-## Part 4: Sharing your skin
-Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
+## Частина 4: Поширення свого скіну
+Завершивши роботу над скіном, ви можете поділитися ним зі спільнотою, створивши запит щодо додавання скіну до репозиторію [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub у вигляді файлу `.7z`. Якщо ви не знайомі з git'ом, ви також можете просто створити питання в цьому репозиторії з zip файлом вашого скіна з проханням про його додавання.

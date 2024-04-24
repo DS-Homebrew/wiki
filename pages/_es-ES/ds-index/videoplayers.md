@@ -8,17 +8,18 @@ description: Reproductores de Video Homebrew para Nintendo DS(i)
 ---
 
 # Reproductores de Video Homebrew para Nintendo DS(i)
-Esta página contiene una lista de reproductores de vídeo funcionales o aún en desarrollo para la Nintendo DS y Nintendo DSi, y una explicación de cómo funciona cada uno.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-| Nombre del reproductor | Codecs y Formatos compatibles | Sistemas compatibles | Desventajas                                                              | Tasa de FPS máxima |
-| ---------------------- | ----------------------------- | -------------------- | ------------------------------------------------------------------------ | ------------------ |
-| FastVideoDS            | `.fv`, FastVideoDS            | DS y DSi             | Muchos colores moviéndose realentizan los videos con tasas de FPS altas. | 60FPS              |
-| Moonshell              | `.dpg`, MPEG1                 | Flashcards           | Requiere una flashcard para funcionar.                                   | 24FPS              |
-| Tuna-ViDS              | `.avi`, XVid                  | DS y DSi             | Solo puede alcanzar ciertas tasas de FPS y bits.                         | 15FPS              |
-| MPEG4Player            | `.mp4`, MPEG-4                | DS y DSi             | Solo puede reproducir videos cortos.                                     | 24FPS              |
+| Nombre del reproductor | Codecs y Formatos compatibles | Desventajas                                                              | Tasa de FPS máxima                |
+| ---------------------- | ----------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
+| FastVideoDS            | `.fv`, FastVideoDS            | Muchos colores moviéndose realentizan los videos con tasas de FPS altas. | 60fps (DSi mode), 30fps (DS mode) |
+| Moonshell              | `.dpg`, MPEG1                 | Solo puede alcanzar ciertas tasas de FPS y bits.                         | 24FPS                             |
+| Tuna-ViDS              | `.avi`, XVid                  | Solo puede alcanzar ciertas tasas de FPS y bits.                         | 15FPS                             |
+| MPEG4Player            | `.mp4`, MPEG-4                | Solo puede reproducir videos cortos.                                     | 24FPS                             |
 
 Notas:
 - La tasa de FPS máxima real depende en el contenido y la duración de los videos.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 

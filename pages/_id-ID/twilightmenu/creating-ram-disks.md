@@ -3,11 +3,11 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: other
-title: Membuat <i>RAM Disk</i>
+title: Membuat RAM Disk
 description: Cara membuat <i>RAM disk</i> untuk <i>homebrew</i> DS lawas di TWiLight Menu++
 ---
 
-Beberapa *homebrew* DS tidak mampu mengakses sistem berkas kartu SD dengan benar. Karena itu, mungkin perlu dimuat berkas sistem mandiri ke dalam RAM, isinya berkas yang diperlukan *homebrew* tersebut agar berfungsi.
+Beberapa *homebrew* DS tidak tahu cara mengakses sistem berkas kartu SD. Makanya, mungkin perlu dimuat berkas sistem tersendiri ke dalam RAM, isinya berkas yang diperlukan *homebrew* tersebut agar berfungsi.
 
 Peranti lunak di sini memerlukan sistem operasi Windows.
 {:.alert .alert-info}

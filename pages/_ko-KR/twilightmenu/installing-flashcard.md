@@ -8,17 +8,20 @@ long_title: TWiLight Menu++ 설치하기 (플래시카드)
 description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 방법
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### 설치하기
 1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
-1. `TWiLightMenu-Flashcard.7z`를 압축 해제하세요
-1. Flashcard의 SD 카드 루트에 `_nds` 폴더를 복사합니다.
-1. Flashcard의 SD 카드 루트에 `BOOT.NDS` 파일을 복사합니다.
-1. Flashcard의 SD 카드 루트에 `roms` 폴더를 복사합니다.
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. 세이브 데이터를 이미 갖고있다면, DS ROM의 위치에 있는 `.sav` 파일을 `saves` 폴더에 넣으세요. (DS ROM의 위치에도 있습니다.)
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
 
 ### TWiLight Menu++ 자동 부팅하기
-1. `Autoboot/(사용하는 flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - 사용중인 Flashcard가 보이지 않는다면 이 과정을 건너뛰세요.
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
@@ -33,7 +36,7 @@ description: 닌텐도 DS 플래시카드에서 TWiLight Menu++를 설치하는 
 Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
-1. `Flashcart Loader/(your flashcard)`에 있는 것들을 Flashcard의 마이크로 SD카드의 루트에 추출합니다.
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
 
@@ -59,4 +62,4 @@ Please note that you'll lose the ability to use cheats when running games in thi
    [RetroGameFan의 YSMenu](https://gbatemp.net/download/35737/)를 설치해 주세요.
       - Flashcard의 microSD카드 루트에 `YSMenu.nds` (`TTMenu.dat`에서 이름을 변경해도 됨)과 `TTMenu`가 있는 것을 확인해 주세요.
       - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
-1. Open TWLMenu++ Settings, switch to `nds-bootstrap settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

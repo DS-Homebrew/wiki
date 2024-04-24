@@ -14,6 +14,9 @@ description: Как обновить TWiLight Menu++ на флеш-картри�
 Если обновляетесь с версии ниже чем v21.0.0, пожалуйста, переместите ваши `.pab` и/или `.prv` файлы для DSiWare в новую папку `saves`, находящуюся в той же папке, что и ваши DSiWare ROM-ы.
 {:.alert .alert-info}
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Обновление
 1. Скачайте последнюю версию [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
 1. Разархивируйте `TWiLightMenu-Flashcard.7z`

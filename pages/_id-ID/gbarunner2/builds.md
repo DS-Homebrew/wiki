@@ -31,11 +31,11 @@ Cabang *Wi-Fi-Link* ini mampu menghubungkan dua sistem secara nirkabel. Tapi buk
 
 ### ARM7DLDI vs ARM9DLDI
 
-**ARM9DLDI biasanya digunakan**, dan jika tidak berfungsi, coba yang ARM7DLDI. Beberapa *flashcard* ada yang hanya bisa ARM7DLDI atau ARM9DLDI, atau ada yang bisa keduanya. Tidak ada daftar pasti *flashcard* berfungsi di versi mana, tapi jika bermasalah menjalankan GBARunner2 mungkin coba versi satunya lagi.
+**ARM9DLDI biasanya digunakan**, dan jika tidak berfungsi, coba yang ARM7DLDI. Beberapa *flashcard* ada yang hanya bisa ARM7DLDI atau ARM9DLDI, atau ada yang bisa keduanya. Tidak ada daftar pasti *flashcard* berfungsi di versi mana, tapi jika ada isu menjalankan GBARunner2 mungkin coba versi satunya lagi.
 
 Jika menggunakan **TW**i**L**ight Menu++ di *flashcard*, bisa dipilih versi ARM7DLDI atau ARM9DLDI di pengaturan **TW**i**L**ight Menu++.
 
-Keduanya tidak ada perbedaan dari segi fitur atau kinerja, sehingga keduanya tidak usah diuji yang mana yang lebih lancar atau lebih sedikit masalah.
+Keduanya tidak ada perbedaan dari segi fitur atau kinerja, sehingga keduanya tidak usah diuji yang mana yang lebih lancar atau lebih sedikit ada isu.
 
 Lihat lagi ke bawah untuk memeriksa sekarang di versi apa.
 
@@ -55,13 +55,13 @@ Konsol 3DS punya cip akselerometer tertanam untuk kendali *gyro*, dan ini bisa d
 
 Jika menggunakan **TW**i**L**ight Menu++, fitur ini sudah digunakan pada GBARunner2 yang ada.
 
-Versi DSP memanfaatkan pengolah suara digital yang ada di DSi dan 3DS. Ini membantu menghasilkan suara dan kinerja yang lebih baik. Tapi ada kemunduran, seperti beberapa ROM masih tidak berfungsi di cabang ini.
+Versi DSP memanfaatkan pengolah suara digital yang ada di DSi dan 3DS. Ini berguna agar suara dan kinerja menjadi lebih baik. Tapi ada kemunduran, seperti beberapa ROM masih tidak berfungsi di cabang ini.
 
 ### [*Hybrid Hicode*](https://github.com/Gericom/GBARunner2/releases/tag/v20200812-130512_d5dc8d8)
 
 Jika menggunakan **TW**i**L**ight Menu++, fitur ini sudah digunakan pada GBARunner2 yang ada.
 
-Cabang *Hybrid Hicode* menangani ROM berukuran besar dan yang bermasalah dijalankan di cabang *Master*. Versi ini sangat berguna di konsol DSi karena mengatasi masalah RAM lebih kecil dibanding 3DS.
+Cabang *Hybrid Hicode* menangani ROM berukuran besar dan yang bermasalah dijalankan di cabang *Master*. Versi ini sangat berguna di konsol DSi karena mengatasi isu RAM lebih kecil dibanding 3DS.
 
 ### [Gabungan Hicode/DSP](https://github.com/therealteamplayer/GBARunner2/releases/tag/v20210911-merges-and-tweaks)
 
@@ -79,6 +79,6 @@ Menu di GBARunner2 bisa dibuka dengan menyentuh layar bawah dan menekan tombol R
 
 Halaman *About* juga menjelaskan sekarang di versi ARM7DLDI atau ARM9DLDI.
 
-Mengetahui versi yang digunakan akan memudahkan memeriksa daftar kompatibilitas resmi, Ini jika permainan ada yang bermasalah.
+Tahu versi mana yang digunakan akan memudahkan memeriksa daftar kompatibilitas resmi, Ini jika permainan ada yang muncul isu.
 
 Nomor *release ID* bisa dilihat di laman *release* dari repositori github GBARunner2, versinya terdiri dari tujuh alfanumerik. Contohnya, versi *Master* terkini bernama "v20200812-131430_6e4ce45", bagian "6e4ce45" mewakili nomor versi.

@@ -9,7 +9,7 @@ description: Informasi penggunaan Wi-Fi di Nintendo DS
 
 - Di aplikasi Nintendo DS, pengaturan keamanan Wi-Fi hanya bisa WEP atau tidak ada
 - Di aplikasi Nintendo DSi-*Enhanced/Exclusive* saat di Mode DSi, kata sandi bisa diatur ke keamanan WPA dan WPA2
-- If you're on DSi or 3DS, ensure you've accepted the network agreement first
+- Jika di konsol DSi atau 3DS, pastikan persetujuan jejaring sudah disetujui
 
 *Hotspot* juga bisa digunakan, jadi tidak usah mengubah setelan perute.
 

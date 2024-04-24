@@ -25,9 +25,10 @@ DSとDSiには多くのエミュレータがあります。 This page provides a
 | Game Boy (Color)        | [GameYob][gameyob]                               | `.gb`, `.sgb`, `.gbc`                  | `[rom name].sav`                                                           |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], native[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom name].sav`                                                           |
 | ゲームギア                   | [S8DS][s8ds]                                     | `.gg`                                  | `[rom name].gg.sav`                                                        |
-| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`                                 | `[rom name].srm`[^6]                                                       |
+| Genesis/Mega Drive      | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]      | `.gen`, `.md`                          | `[rom name].srm`[^6]                                                       |
 | インテレビジョン                | [Nintellivision][nintellivision]                 | `.int`                                 |                                                                            |
 | マスターシステム                | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                                       |
+| MSX                     | [ColecoDS][colecods]                             | `.msx`                                 | ???                                                                        |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`                                           |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                                            |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                                                           |

@@ -22,13 +22,13 @@ The Nintendo DS, Nintendo DSi, Nintendo 3DS, and Nintendo 2DS consoles are all c
 
 [^1]: DS games will run at 67mhz, but most can be configured to run at 133mhz, though certain games will have issues.
 
-[^2]: When launching in DS(i) mode, holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
+[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
 
 [^3]: Later Phat models have the same brightness levels as the Lite model, but will require FlashMe to be installed in order to use those levels (at least in the original menu).
 
 [^4]: The only game known to have a compatibility issue, _MegaMan Battle Network 3_ crashes after the Capcom logo.
 
-[^5]: Large GBA Video ROMs (above 32MB) will not work.
+[^5]: Large GBA Video ROMs (above 32MB) will not work. Gyro and rumble features will also not work.
 
 [^6]: Majority of supported titles do not require the camera. See [this page](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) for which titles are supported. **TW**i**L**ight Menu++ is required to be installed on your flashcard.
 

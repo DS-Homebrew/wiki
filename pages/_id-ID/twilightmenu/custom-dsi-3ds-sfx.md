@@ -28,7 +28,7 @@ Berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jik
 
 [Berkas ini](/assets/files/sfx-example.zip) berisi suara yang digunakan di tema DSi dan 3DS bawaan, sekaligus makefile untuk membuat suara menjadi berkas sfx.bin absah. Silakan saja mengutak-atik berkas suaranya untuk membuat bank efek suara kustom.
 
-Untuk membuat bank efek suara kustom, buka terminal (atau *command line* jika di Windows), ubah direktori saat ini (`cd`) ke folder yang ada `Makefile`, lalu jalankan perintah `make`. Nanti akan ada berkas `sfx.bin` yang bisa disalin ke subfolder `sound` di folder tema. **Ukuran berkas harus di bawah 512000B = 512 kB**. Jika lebih dari itu, suara akan mogok (*crash*) atau tidak diputar penuh.
+Untuk membuat bank efek suara kustom, buka terminal (atau *command line* jika di Windows), ubah direktori saat ini (`cd`) ke folder yang ada `Makefile`, lalu jalankan perintah `make`. Nanti akan ada berkas `sfx.bin` yang bisa disalin ke subfolder `sound` di folder tema. **Ukuran berkas harus di bawah 512000B = 512 kB**. Jika lebih dari itu, suara akan *crash* (mogok) atau tidak diputar penuh.
 
 ### Suara awal buka
 Walaupun efek suara lain bisa berfungsi dengan berkas WAV apa pun ber-*encode* PCM, suara awal buka atau *startup* harus berformat spesifik agar jalan, karena akan ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.

@@ -3,7 +3,7 @@ lang: uk-UA
 layout: wiki
 section: community
 title: Спільнота
-description: Information about the DS-Homebrew community
+description: Інформація про спільноту DS-Homebrew
 ---
 
 Ви можете знайти інформацію про нашу спільноту, такі як правила для нашого Discord серверу. У нас є такі місця:

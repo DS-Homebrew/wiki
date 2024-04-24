@@ -125,16 +125,16 @@ Estas imágenes deben tener formato PNG.
 ### Texutras de la interfaz (carpeta `UI`)
 Estas imágenes deben tener formato PNG. Los píxeles transparentes se verán como tal, pero solamente píxeles 100% transparentes funcionarán. Si hay un pixel transparente en cualquiera de las texturas, deberá ser transparente en todas para que pueda sobrescribirse correctamente.
 
-| Textura                  | Descripción                                                          |
-| ------------------------ | -------------------------------------------------------------------- |
-| Lshoulder                | La textura para el botón L                                           |
-| Lshoulder_greyed         | La textura para el botón L cuando no haya más páginas a la izquierda |
-| Lshoulder_photo          | The left shoulder when there is a photo being shown                  |
-| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing      |
-| Rshoulder                | La textura para el botón R                                           |
-| Rshoulder_greyed         | La textura para el botón R cuando no haya más páginas a la derecha   |
-| Rshoulder_photo          | The right shoulder when there is a photo being shown                 |
-| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing     |
+| Textura                  | Descripción                                                              |
+| ------------------------ | ------------------------------------------------------------------------ |
+| Lshoulder                | La textura para el botón L                                               |
+| Lshoulder_greyed         | La textura para el botón L cuando no haya más páginas a la izquierda     |
+| Lshoulder_photo          | El hombro izquierdo cuando se muestran una foto                          |
+| Lshoulder_photo_greyed | El hombro izquierdo sin páginas a la izquierda y una foto que se muestra |
+| Rshoulder                | La textura para el botón R                                               |
+| Rshoulder_greyed         | La textura para el botón R cuando no haya más páginas a la derecha       |
+| Rshoulder_photo          | El hombro derecho cuando se muestran un foto                             |
+| Rshoulder_photo_greyed | El hombro derecho sin páginas a la izquierda y una foto que se muestra   |
 
 ### Texturas de video (carpeta `video`)
 Estas texturas solo se usan en el tema 3DS, el archivo `3dsRotatingCubes.rvid` es un archivo de formato Rocket Video. Para más información acerca de cómo convertir videos a este formato, lee la sección de [Convertir un video a .rvid (en inglés)](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) en la wiki de Vid2RVID. Si no quieres que esto se muestre, puedes borrar el archivo.
@@ -211,19 +211,19 @@ Puedes configurar varios parámetros de renderizado del tema en el archivo `them
 | `FontPaletteUsername2`     | El color de la fuente para el nombre de usuario                                                                                                        | 0xDEF7            | 0xDEF7            |
 | `FontPaletteUsername3`     |                                                                                                                                                        | 0xC631            | 0xC631            |
 | `FontPaletteUsername4`     |                                                                                                                                                        | 0xA108            | 0xA108            |
-| `BipsUserPalette`          | Whether or not to use the DS Profile color for the palette of the bips on the scrollbar                                                                |                   | 0                 |
-| `BoxUserPalette`           | Whether or not to use the DS Profile color for the palette of the boxes containing the game icons in the DSi Theme                                     |                   | 0                 |
-| `BoxEmptyUserPalette`      | Whether or not to use the DS Profile color for the palette of empty boxes in the 3DS Theme                                                             | 0                 |                   |
-| `BoxFullUserPalette`       | Whether or not to use the DS Profile color for the palette of the boxes containing the game icons in the 3DS Theme                                     | 0                 |                   |
-| `BraceUserPalette`         | Whether or not to use the DS Profile color for the palette of the brace at the start and end of the game list                                          |                   | 0                 |
-| `BubbleUserPalette`        | Whether or not to use the DS Profile color for the palette of the tip of the title bubble                                                              | 0                 | 0                 |
+| `BipsUserPalette`          | Si se usa o no el color del DS Profile como paleta de colores para los puntos en la barra del rodillo                                                  |                   | 0                 |
+| `BoxUserPalette`           | Si se usa o no el color del DS Profile como paleta de las cajas que contienen los símbolos de los juegos en el Tema DSi                                |                   | 0                 |
+| `BoxEmptyUserPalette`      | Si se usa o no el color del DS Profile como paleta de cajas vacias en el Tema 3DS                                                                      | 0                 |                   |
+| `BoxFullUserPalette`       | Si se usa o no el color del DS Profile como paleta de cajas que contiene los símbolos de los juegos en el Tema 3DS                                     | 0                 |                   |
+| `BraceUserPalette`         | Si se usa o no el color del DS Profile como paleta del tirante al comienzo y fin de la lista de juegos                                                 |                   | 0                 |
+| `BubbleUserPalette`        | Si se usa o no el color del DS Profile como paleta del extremo de la burbuja del título                                                                | 0                 | 0                 |
 | `ButtonArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen                                            |                   | 1                 |
-| `CornerButtonUserPalette`  | Whether or not to use the DS Profile color for the palette of the DSi Menu and Settings icons in the SELECT menu                                       |                   | 0                 |
-| `CursorUserPalette`        | Whether or not to use the DS Profile color for the palette of the cursor                                                                               | 0                 |                   |
-| `DialogBoxUserPalette`     | Whether or not to use the DS Profile color for the palette of the dialog box                                                                           | 0                 | 1                 |
-| `FolderUserPalette`        | Whether or not to use the DS Profile color for the palette of folders                                                                                  | 0                 | 0                 |
-| `LaunchDotsUserPalette`    | Whether or not to use the DS Profile color for the palette of the launch dots                                                                          |                   | 1                 |
-| `MovingArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow shown when moving icons                                                        |                   | 1                 |
+| `CornerButtonUserPalette`  | Si se usa o no el color del DS Profile como paleta del Menú DSi y íconos de Ajustes en el menú SELECT                                                  |                   | 0                 |
+| `CursorUserPalette`        | Si se usa o no el color del DS Profile como paleta del cursor                                                                                          | 0                 |                   |
+| `DialogBoxUserPalette`     | Si se usa o no el color del perfil como paleta de colores para los cuadros emergentes                                                                  | 0                 | 1                 |
+| `FolderUserPalette`        | Si se usa o no el color del DS Profile como paleta de las carpetas                                                                                     | 0                 | 0                 |
+| `LaunchDotsUserPalette`    | Si se usa o no el color del perfil como paleta de colores para los puntos que aparecen al iniciar una aplicación                                       |                   | 1                 |
+| `MovingArrowUserPalette`   | Si se usa o no el color del perfil como paleta de colores para la flecha que se muestra al mover iconos de sitio                                       |                   | 1                 |
 | `ProgressUserPalette`      | Whether or not to use the DS Profile color for the palette of the loading progress spinner                                                             | 1                 | 1                 |
 | `ScrollWindowUserPalette`  | Whether or not to use the DS Profile color for the palette of the background to the scroll window on the scrollbar                                     |                   | 0                 |
 | `SmallCartUserPalette`     | Whether or not to use the DS Profile color for the palette of the cartridge icons                                                                      | 0                 | 0                 |

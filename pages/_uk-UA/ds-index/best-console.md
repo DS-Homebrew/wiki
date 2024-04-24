@@ -3,33 +3,33 @@ lang: uk-UA
 layout: wiki
 section: ds-index
 category: guides
-title: Which DS family console is the best for me?
-description: Looking at the features of each console to decide the best DS(i) mode experience
+title: Яка ігрова консоль сімейства DS найкраще мені пасує?
+description: Розглянемо особливості кожної консолі, щоб вибрати найкращий режим DS(i)
 ---
 
-The Nintendo DS, Nintendo DSi, Nintendo 3DS, and Nintendo 2DS consoles are all capable of running in DS(i) mode, as well as GBA games. To help decide which console is best for you, please read this page.
+На консолях Nintendo DS, Nintendo DSi, Nintendo 3DS і Nintendo 2DS можна грати в режимі DS(i), а також в ігри GBA. Щоб вирішити, яка консоль найкраще підійде саме вам, прочитайте цю сторінку.
 
-| Features          | Nintendo DS                                            | Nintendo DSi                                                 | Nintendo 3DS/2DS                               |
-| ----------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| Max RAM           | 4MB (up to 36MB with RAM expansion) | 16MB                                                         | 32MB                                           |
-| Max CPU Speed     | 67mhz                                                  | 133mhz[^1]                                                   | 133mhz[^1]                                     |
-| Camera            | No                                                     | Yes                                                          | Yes                                            |
-| Screen type       | TN(?)                               | TN (Regular), IPS (XL) | TN or IPS (varies by model) |
-| Screen scaling    | No                                                     | No                                                           | Yes[^2]                                        |
-| Brightness levels | 2 (On/Off for Phat), 4 (Lite)[^3]                      | 5                                                            | 5                                              |
-| GBA Compatiblity  | Native, Near-Perfect[^4]                               | Great                                                        | Native, Near-Perfect[^5]                       |
-| DSiWare Support   | Yes, Partial[^6]                                       | Yes[^7]                                                      | Yes[^7]                                        |
+| Особливості                        | Nintendo DS                                          | Nintendo DSi                                                  | Nintendo 3DS/2DS                                    |
+| ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------- |
+| Максимальна RAM                    | 4 МБ (до 36 МБ з розширенням RAM) | 16 МБ                                                         | 32 МБ                                               |
+| Макс. швидкість ЦП | 67 МГц                                               | 133 МГц[^1]                                                   | 133 МГц[^1]                                         |
+| Камера                             | Немає                                                | Є                                                             | Є                                                   |
+| Тип екрану                         | TN(?)                             | TN (звичайна), IPS (XL) | TN або IPS (залежить від моделі) |
+| Масштабування екрану               | Немає                                                | Немає                                                         | Є[^2]                                               |
+| Рівень яскравості                  | 2 (Увімк./вимк. для Phat), 4 (Lite)[^3]              | 5                                                             | 5                                                   |
+| Сумісність з GBA                   | Нативна, майже ідеальна[^4]                          | Чудова                                                        | Нативна, майже ідеальна[^5]                         |
+| Підтримка DSiWare                  | Так, частково[^6]                                    | Так[^7]                                                       | Так[^7]                                             |
 
-[^1]: DS games will run at 67mhz, but most can be configured to run at 133mhz, though certain games will have issues.
+[^1]: DS ігри все ще працюватимуть на частоті 67 МГц, але більшість з них можна налаштувати на частоту 133 МГц, хоча з деякими іграми можуть виникнути проблеми.
 
-[^2]: When launching in DS(i) mode, holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
+[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
 
-[^3]: Later Phat models have the same brightness levels as the Lite model, but will require FlashMe to be installed in order to use those levels (at least in the original menu).
+[^3]: Пізніші моделі Phat мають такі ж рівні яскравості, як і модель Lite, але для використання цих рівнів (принаймні в оригінальному меню) потрібно встановити FlashMe.
 
-[^4]: The only game known to have a compatibility issue, _MegaMan Battle Network 3_ crashes after the Capcom logo.
+[^4]: Єдина гра, про яку відомо, що вона має проблеми з сумісністю, _MegaMan Battle Network 3_ вилітає після логотипу Capcom.
 
-[^5]: Large GBA Video ROMs (above 32MB) will not work.
+[^5]: Великі GBA Video ROM (понад 32 МБ) не працюватимуть. Gyro and rumble features will also not work.
 
-[^6]: Majority of supported titles do not require the camera. See [this page](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) for which titles are supported. **TW**i**L**ight Menu++ is required to be installed on your flashcard.
+[^6]: Більшість підтримуваних додатків не вимагають наявності камери. Дивіться [цей список](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) підтримуваних додатків. На вашій флеш-карті має бути встановлена **TW**i**L**ight Menu++.
 
-[^7]: If you're using **TW**i**L**ight Menu++ with either `DSiWare Booter` setting set to `nds-bootstrap` or if using a 3DS/2DS, then compatibility is near-perfect.
+[^7]: Якщо ви використовуєте **TW**i**L**ight Menu++ з параметром `Завантажувач DSiWare`, встановленим на `nds-bootstrap`, або якщо ви використовуєте 3DS/2DS, то сумісність буде майже ідеальною.

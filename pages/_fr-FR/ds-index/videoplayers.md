@@ -8,17 +8,18 @@ description: Lecteurs vidéo homebrew pour la Nintendo DS(i)
 ---
 
 # Lecteurs vidéo homebrew pour la Nintendo DS(i)
-Cette page contient une liste de lecteurs vidéo fonctionnels ou non terminés pour les Nintendo DS et DSi, et explique le fonctionnement de chacun.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-| Nom du joueur | Conteneurs/Codecs pris en charge | Support            | Inconvénients                                               | FPS max |
-| ------------- | -------------------------------- | ------------------ | ----------------------------------------------------------- | ------- |
-| FastVideoDS   | `.fv`, FastVideoDS               | DSi et DS          | Le spam de confettis ralentit les vidéos à haute fréquence. | 60 FPS  |
-| Moonshell     | `.dpg`, MPEG1                    | Linkers uniquement | Nécessite un linker pour lire des vidéos.                   | 24 FPS  |
-| Tuna-ViDS     | `.avi`, XVid                     | DSi et DS          | Ne peut atteindre qu'un certain taux d'images/de débit.     | 15 FPS  |
-| MPEG4Player   | `.mp4`, MPEG-4                   | DSi et DS          | Ne peut lire que des vidéos courtes.                        | 24 FPS  |
+| Nom du joueur | Conteneurs/Codecs pris en charge | Inconvénients                                               | FPS max                           |
+| ------------- | -------------------------------- | ----------------------------------------------------------- | --------------------------------- |
+| FastVideoDS   | `.fv`, FastVideoDS               | Le spam de confettis ralentit les vidéos à haute fréquence. | 60fps (DSi mode), 30fps (DS mode) |
+| Moonshell     | `.dpg`, MPEG1                    | Ne peut atteindre qu'un certain taux d'images/de débit.     | 24 FPS                            |
+| Tuna-ViDS     | `.avi`, XVid                     | Ne peut atteindre qu'un certain taux d'images/de débit.     | 15 FPS                            |
+| MPEG4Player   | `.mp4`, MPEG-4                   | Ne peut lire que des vidéos courtes.                        | 24 FPS                            |
 
 Notes :
 - Le nombre maximal de FPS dépend du contenu et de la durée de la vidéo.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 

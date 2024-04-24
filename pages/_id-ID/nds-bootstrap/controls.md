@@ -31,7 +31,7 @@ Ini tidak berlaku untuk *homebrew*.
         - <kbd>Atas</kbd>/<kbd>Bawah</kbd>: Menambah/Kurangi nilai terpilih
         - <kbd>Kiri</kbd>/<kbd>Kanan</kbd>: Pilih nilai (*value*)
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Melompat ke alamat yang ditentu
-      - <kbd>SELECT</kbd>: Beralih antara [peta-peta memori ARM7 and ARM9](https://problemkaputt.de/gbatek-ds-memory-maps.htm)
+      - <kbd>SELECT</kbd>: Beralih antara [peta-peta memori ARM7 dan ARM9](https://problemkaputt.de/gbatek-ds-memory-maps.htm)
    - Penyunting RAM
       - <kbd>Atas</kbd>/<kbd>Bawah</kbd>/<kbd>Kiri</kbd>/<kbd>Kanan</kbd>: Pilih nilai (*value*)
       - <kbd class="face">A</kbd>: Mengubah nilai terpilih
@@ -43,8 +43,8 @@ Ini tidak berlaku untuk *homebrew*.
         - <kbd>Atas</kbd>/<kbd>Bawah</kbd>: Menambah/Kurangi nilai terpilih
         - <kbd>Kiri</kbd>/<kbd>Kanan</kbd>: Pilih nilai (*value*)
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Melompat ke alamat yang ditentu
-- Kembali ke pemuat (*loader*) mungkin tidak berfungsi di beberapa model O3DS dan di mode B4DS
-- Kombinasi tombol membuka menu *in-game* bisa diubah di pengaturan TWiLight Menu++
+- Kembali ke *loader* (pemuat) mungkin tidak berfungsi di model O3DS tertentu dan di mode B4DS
+- Kombinasi tombol untuk ke menu *in-game* bisa diubah di pengaturan TWiLight Menu++
 - Tombol volume presisi bisa dinyalakan/dimatikan di pengaturan TWiLight Menu++
 - Tangkapan layar disimpan di `sd:/_nds/nds-bootstrap/screenshots.tar`. Berkas ini bisa dibuka dengan penampil arsip seperti [7-Zip](https://www.7-zip.org/)
 - Menangkap layar saat ini belum berfungsi di mode B4DS

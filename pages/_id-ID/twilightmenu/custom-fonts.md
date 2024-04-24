@@ -16,7 +16,7 @@ Terdapat tiga *font* yang disertakan di TWiLight Menu++. Saat menjalankan TWiLig
 - Korea: Hampir sama dengan Bawaan di Mode DSi, bedanya terdapat serangkaian hangeul lebih lengkap di Mode DS, tapi mengorbankan huruf bahasa lain
 
 ### Struktur direktori
-*Font* kustom dimuat dari `sd:/_nds/TWiLightMenu/extras/fonts/[nama <i>font</i>]/[berkas <i>font</i>].nftr`, berkas `[nama <i>font</i>]` bisa nama apa saja, dan `[berkas <i>font</i>].nftr` bisa salah satu dari berikut ini:
+*Font* kustom dimuat dari `sd:/_nds/TWiLightMenu/extras/fonts/[nama font]/[berkas font].nftr`, berkas `[nama font]` bisa nama apa saja, dan `[berkas font].nftr` bisa salah satu dari berikut ini:
 - `large-ds.nftr`, `large-dsi.nftr`, atau `large.nftr`: *Font* ukuran besar ini untuk judul
 - `small-ds.nftr`, `small-dsi.nftr`, atau `small.nftr`: *Font* ukuran kecil ini untuk teks lain
 

@@ -3,16 +3,16 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: reference
-title: <i>Homebrew</i>
+title: Homebrew
 description: Informasi tentang <i>homebrew</i> di Nintendo DS
 ---
 
 ### Pengembangan
 *Homebrew* Nintendo DS biasanya dikembangkan dengan alat devkitPro; seperti devkitARM, libnds, dan libfat. Namun, boleh juga merambah ke peranti lunak lain sebagai alternatif:
 
-- **Pustaka kartu SD:** Umumnya [libfat](https://github.com/devkitPro/libfat) yang ada dalam libnds dianjurkan, atau [libslim](https://github.com/DS-Homebrew/libslim/) malah lebih baik tapi terkadang tidak stabil
-- **Pustaka grafis:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117) yang ada dalam libnds dianjurkan, tapi [NightFox Lib](https://github.com/knightfox75/nds_nflib) juga bisa digunakan
-- **Seluruh rantai alat:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) dan [libnds](https://libnds.devkitpro.org/) dianjurkan, karena berkompatibilitas DSi dan berekosistem lebih besar, sedangkan [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) diperuntukkan pengembangan khusus *flashcard*
+- **Pustaka kartu SD:** Umumnya dianjurkan [libfat](https://github.com/devkitPro/libfat) yang ada dalam libnds, atau [libslim](https://github.com/DS-Homebrew/libslim/) malah lebih baik tapi terkadang tidak stabil
+- **Pustaka grafis:** Dianjurkan [easyGL2D](http://rel.phatcode.net/junk.php?id=117) yang ada dalam libnds, tapi [NightFox Lib](https://github.com/knightfox75/nds_nflib) juga bisa digunakan
+- **Seluruh rantai alat:** Dianjurkan [devkitARM](https://devkitpro.org/wiki/Getting_Started) dan [libnds](https://libnds.devkitpro.org/), karena berkompatibilitas DSi dan berekosistem lebih besar, sedangkan [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) untuk pengembangan khusus *flashcard*
 
 Bagi pemula, baca [utas GBAtemp ini](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) yang berisi banyak sumber daya bagus. Untuk informasi DS(i) lebih teknis, lihat [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
@@ -20,7 +20,7 @@ Bagi pemula, baca [utas GBAtemp ini](https://gbatemp.net/threads/useful-resource
 *Flashcard* mode DS adalah cara menjalankan aplikasi Nintendo DS lewat Slot-1. *Flashcard* mampu menyimpan berkas konsol dan berkas portabel tetap terpisah, bisa digunakan tanpa perlu memodif konsol, dan bisa digunakan di konsol DS Phat/Lite. Tapi, tidak seperti memodif konsol langsung, harus pintar memilih *flashcard* di pasaran dengan kernel berbeda-beda. Ketahui juga *kernel* yang digunakan dan cadangkan.
 
 ### DLDI
-Slot kartu SD berbeda (sering kali) punya papan fisik berbeda, dan kode untuk suatu *flashcard* belum tentu bisa di *flashcard* lain. DLDI (singkatan dari *Dynamically Linked Device Interface*) akan mengatasinya dengan menambal kode *handling* kartu SD dari cara luar. Pemuat (*loader*) seperti YSMenu, Wood R4, dan TWiLight Menu++ bisa otomatis menambal DLDI ke *homebrew*, tapi jika ingin menambal sendiri, gunakan [DLDI Patcher](https://www.chishm.com/DLDI#tools) di komputer.
+Slot kartu SD berbeda (sering kali) punya papan fisik berbeda, dan kode untuk suatu *flashcard* belum tentu bisa di *flashcard* lain. DLDI (singkatan dari *Dynamically Linked Device Interface*) akan mengatasinya dengan menambal kode *handling* kartu SD dari cara luar. *Loader* (pemuat) seperti YSMenu, Wood R4, dan TWiLight Menu++ bisa otomatis menambal DLDI ke *homebrew*, tapi jika ingin menambal sendiri, gunakan [DLDI Patcher](https://www.chishm.com/DLDI#tools) di komputer.
 
 ### *Time bomb*
 Di *kernel flashcard* tertentu, ada beragam tenggat kedaluwarsa (disebutnya *time bomb*) oleh para pengembang *kernel* agar konsumen membeli produk baru mereka. Berikut cara kerjanya:

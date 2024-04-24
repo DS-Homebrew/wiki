@@ -44,6 +44,10 @@ Je moet eerst aangepaste firmware op je 3DS hebben, volg de instructies op [3ds.
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
+
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 1. Download de meest recente versie van [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
 1. Pak `TWiLightMenu-3DS.7z` uit
 1. Kopieer de map `_nds` naar de root van je SD-kaart

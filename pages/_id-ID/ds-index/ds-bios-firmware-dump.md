@@ -3,7 +3,7 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: Membuat <i>Dump</i> BIOS/<i>Firmware</i>
+title: Membuat Dump BIOS/Firmware
 description: Cara mengekstrak BIOS/<i>Firmware</i> Nintendo DS atau DSi dari konsol
 tabs:
   - 
@@ -15,7 +15,7 @@ Beberapa emulator, seperti melonDS, perlu BIOS dan *firmware* mode DS atau mode 
 - DSi yang ada Unlaunch, atau
 - DS/DS Lite/3DS atau DSi tanpa ada Unlaunch, beserta *flashcard* yang bisa dibaca konsol
 
-Cara DSi akan mengekstrak berkas BIOS dan *firmware* yang mode DS dan DSi. Cara *flashcard* hanya akan mengekstrak yang mode DS.
+Cara dengan DSi bisa mengekstrak BIOS dan *firmware* mode DS dan DSi. Cara dengan *flashcard* hanya bisa mengekstrak mode DS.
 
 {% capture tab-dsi-sd-card %}
 
@@ -62,7 +62,7 @@ Semua berkas yang perlu akan ada dalam folder `dsidump` di akar kartu SD.
   - Di seri konsol 3DS, nanti akan muncul "Software closed". Matikan daya konsol saat di layar ini
 1. Sisipkan kartu SD ke komputer Anda
 
-Semua berkas yang perlu ada dalam folder sesuai penjelaskan di layar atas konsol.
+Semua berkas yang perlu ada dalam folder sesuai penjelasan di layar atas konsol.
 {:.alert .alert-success}
 
 {% endcapture %}

@@ -8,17 +8,18 @@ description: Homebrew videólejátszók Nintendo DS(i)-re
 ---
 
 # Homebrew videólejátszók Nintendo DS(i)-re
-Ez az oldal a Nintendo DS és DSi működő vagy WIP videólejátszók listáját tartalmazza és elmagyarázza az egyes lejátszók működését.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-| Lejátszó neve | Támogatott formátumok/codec-ek | Támogatás      | Hátrányok                                                                 | Max FPS |
-| ------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------- | ------- |
-| FastVideoDS   | `.fv`, FastVideoDS             | DSi és NDS     | A konfetti spam (sok apró dolog mozgása) lelassítja a magas FPS-ű videót. | 60 fps  |
-| Moonshell     | `.dpg`, MPEG1                  | Csak flashcard | Flashcard szükséges a videók lejátszásához.                               | 24 fps  |
-| Tuna-ViDS     | `.avi`, XVid                   | DSi és NDS     | Csak bizonyos framerate/bitrate-et tud elérni.                            | 15 fps  |
-| MPEG4Player   | `.mp4`, MPEG-4                 | DSi és NDS     | Csak rövid videókat tud lejátszani.                                       | 24 fps  |
+| Lejátszó neve | Támogatott formátumok/codec-ek | Hátrányok                                                                 | Max FPS                           |
+| ------------- | ------------------------------ | ------------------------------------------------------------------------- | --------------------------------- |
+| FastVideoDS   | `.fv`, FastVideoDS             | A konfetti spam (sok apró dolog mozgása) lelassítja a magas FPS-ű videót. | 60fps (DSi mode), 30fps (DS mode) |
+| Moonshell     | `.dpg`, MPEG1                  | Csak bizonyos framerate/bitrate-et tud elérni.                            | 24 fps                            |
+| Tuna-ViDS     | `.avi`, XVid                   | Csak bizonyos framerate/bitrate-et tud elérni.                            | 15 fps                            |
+| MPEG4Player   | `.mp4`, MPEG-4                 | Csak rövid videókat tud lejátszani.                                       | 24 fps                            |
 
 Megjegyzések:
 - A tényleges maximális FPS a videó tartalmától és hosszától függ.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 

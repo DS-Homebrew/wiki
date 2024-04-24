@@ -8,17 +8,18 @@ description: Lettori video homebrew per Nintendo DS(i)
 ---
 
 # Lettori video homebrew per Nintendo DS(i)
-Questa pagina contiene un elenco di lettori video funzionanti o in fase di sviluppo per Nintendo DS e DSi che spiega il funzionamento di ciascuno di loro.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-| Nome del lettore | Codec supportati   | Supporto       | Contro                                           | FPS massimi |
-| ---------------- | ------------------ | -------------- | ------------------------------------------------ | ----------- |
-| FastVideoDS      | `.fv`, FastVideoDS | DSi e NDS      | Confetti spam slows down high FPS video.         | 60fps       |
-| Moonshell        | `.dpg`, MPEG1      | Solo flashcard | Richiede una flashcard per riprodurre i video.   | 24fps       |
-| Tuna-ViDS        | `.avi`, XVid       | DSi e NDS      | Può raggiungere solo un certo framerate/bitrate. | 15 fps      |
-| MPEG4Player      | `.mp4`, MPEG-4     | DSi e NDS      | Può riprodurre solo video brevi.                 | 24fps       |
+| Nome del lettore | Codec supportati   | Contro                                           | FPS massimi                       |
+| ---------------- | ------------------ | ------------------------------------------------ | --------------------------------- |
+| FastVideoDS      | `.fv`, FastVideoDS | Confetti spam slows down high FPS video.         | 60fps (DSi mode), 30fps (DS mode) |
+| Moonshell        | `.dpg`, MPEG1      | Può raggiungere solo un certo framerate/bitrate. | 24fps                             |
+| Tuna-ViDS        | `.avi`, XVid       | Può raggiungere solo un certo framerate/bitrate. | 15 fps                            |
+| MPEG4Player      | `.mp4`, MPEG-4     | Può riprodurre solo video brevi.                 | 24fps                             |
 
 Note:
 - Gli FPS massimi effettivi dipendono dal contenuto e dalla lunghezza del video.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 

@@ -22,6 +22,7 @@ Két úton lehet ezt elérni:
 1. Töltsd le a [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba) fájlt
 1. Hozz létre egy `payloads` nevű mappát a `/luma` mappában, ha még nem létezik
 1. Másold az `open_agb_firm.firm`fájlt az open_agb_firm `.7z` fájlból a `/luma/payloads` mappába
+1. Copy `3ds` from the open_agb_firm `.7z` file to the root of your SD card
 1. Másold a `Bios_Dumper.gba` fájlt az SD kártyád gyökerébe
 1. Tedd vissza az SD kártyád a készülékedbe
 

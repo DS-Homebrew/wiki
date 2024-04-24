@@ -239,20 +239,20 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
 ### DSiWare játékok mentés kóddal
 Ezek mentési adatokat írnának a cartridge mentő chipjére, ha cartridge-ről futnak.
 
-- Cake Ninja
-   - Nem használt, így hackelés szükséges a kód aktiválásához
-- Cake Ninja 2
-   - Nem használt, így hackelés szükséges a kód aktiválásához
-- Cake Ninja: XMAS
-   - Nem használt, így hackelés szükséges a kód aktiválásához
 - Dragon Quest Wars
-- Dreamwalker
-   - Nem használt, így hackelés szükséges a kód aktiválásához
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+
+#### Unused code
+Hacking is required to activate the code.
+
+- Antipole
+- Cake Ninja
+- Cake Ninja 2
+- Cake Ninja: XMAS
+- Cosmos X2
+- Dreamwalker
 - Go! Go! Kokopolo
-   - Nem használt, így hackelés szükséges a kód aktiválásához
 - Make Up & Style
-   - Nem használt, így hackelés szükséges a kód aktiválásához
 
 ### Játékok, amik csatlakozni tudnak GBA címekhez
 Jelenleg az nds-bootstrap-nek nincs Slot-2 emulációja. Tartalmaz néhány lehetséges alternatívát.

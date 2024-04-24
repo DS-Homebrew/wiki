@@ -25,9 +25,10 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Game Boy (Color)        | [GameYob][gameyob]                              | `.gb`, `.sgb`, `.gbc`                  | `[rom neve].sav`                                                           |
 | Game Boy Advance        | [GBARunner2][gbarunner2][^4], natív[^5]         | `.agb`, `.gba`, `.mb`                  | `[rom neve].sav`                                                           |
 | Game Gear               | [S8DS][s8ds]                                    | `.gg`                                  | `[rom neve].gg.sav`                                                        |
-| Genesis / Mega Drive    | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`                                 | `[rom neve].srm`[^6]                                                       |
+| Genesis / Mega Drive    | [jEnesisDS][jenesis], [PicoDriveTWL][pdtwl]     | `.gen`, `.md`                          | `[rom neve].srm`[^6]                                                       |
 | Intellivision           | [Nintellivision][nintellivision]                | `.int`                                 |                                                                            |
 | Master System           | [S8DS][s8ds]                                    | `.sms`                                 | `[rom neve].sms.sav`                                                       |
+| MSX                     | [ColecoDS][colecods]                            | `.msx`                                 | ???                                                                        |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                  | `.ngp`, `.ngc`                         | `/data/ngpds/[rom neve].ngp.fla`                                           |
 | FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]          | `.fv`                                  |                                                                            |
 | NES/Famicom             | [nesDS][nesds]                                  | `.nes`, `.fds`                         | `[rom neve].sav`                                                           |

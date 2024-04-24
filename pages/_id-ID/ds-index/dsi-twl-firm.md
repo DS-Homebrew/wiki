@@ -22,7 +22,7 @@ Manfaat utama memodif keluarga konsol DSi dan 3DS adalah membuka kemampuan lebih
 ### Cepat CPU
 Nintendo DS dirakit dengan prosesor 67 MHz pada 2004, dan Nintendo DSi dengan prosesor 133 MHz lima tahun kemudian. Hampir semua pustaka Nintendo DS dibuat sebelum Nintendo DSi dirilis, sehingga banyak permainan hanya membaca prosesor 67 MHz. Beberapa aplikasi dibuat dengan laju jam tersebut sehingga tidak akan berfungsi benar jika di laju jam lebih tinggi. Tapi hampir semua permainan lebih lancar daripada aslinya di laju jam tinggi.
 
-nds-bootstrap terdapat opsi *TWL Clock Speed*, tapi tidak memaksa ROM berjalan lancar di laju jam lebih tinggi. Jadi ROM yang kacau di laju jam lebih tinggi itu *BUKAN* gara-gara kutu nds-bootstrap, tapi dari ROM itu sendiri.
+Terdapat opsi *TWL Clock Speed* di nds-bootstrap, tapi ROM tidak akan dipaksa lancar di laju jam lebih tinggi. Jadi ROM yang kacau di laju jam lebih tinggi itu *BUKAN* gara-gara kutu nds-bootstrap, tapi dari ROM itu sendiri.
 
 ### Menu Nintendo DSi
 Di versi 1.4.0, tanda tangan RSA di daftar putih Kaset DS tidak diverifikasi. Ini kerentanan yang bisa dieksploitasi agar mampu mengambil alih akses prosesor ARM9. Perlu versi 1.4.0 (karena di versi baru sudah ditambal dan di versi lama tidak ada) dan *flashcard* dengan ROM dimodif.
@@ -34,12 +34,12 @@ Akses Slot-1 diblokir jika menjalankan aplikasi dari menu sistem, kecuali jika a
 
 Sebelum v1.4.0, daftar putih hanya berisi dua bagian. Di v1.4.0, mulai ada bagian ketiga untuk memblokir *flashcard* yang bisa molos dua bagian tadi. Bagian ketiga ini membaca delapan bagian berbeda dari ROM yang diperiksa dengan *hash* agar tahu ROM diutak-atik atau tidak. Namun, karena kurangnya kendali, ini bisa diluapkan ke vektor pengecualian/alamat interupsi menggunakan nilai cukup besar. Hebatnya, ternyata ini berjalan di ARM7 (prosesor keamanan) menjadikan ini eksploit pertama ke prosesor ARM7. Karena ini berjalan sebelum tutup izin register SCFG, *homebrew* tingkat lanjut (seperti Slot-1 dumpers) bisa dijalankan.
 
-Sayangnya, persyaratannya susah. Perlu versi 1.4.0 dan *flashcard* dengan ROM dimodif. Eksploit ini tidak pernah diumumkan resmi, karena Unlaunch lebih mudah dipasang dan tidak banyak persyaratan (hanya untuk ke *homebrew*) dan manfaatnya juga sama.
+Sayangnya, persyaratannya susah. Perlu versi 1.4.0 dan *flashcard* dengan ROM dimodif. Eksploit ini tidak pernah diumumkan resmi, karena Unlaunch lebih mudah dipasang dan tidak banyak persyaratan (cuma untuk ke *homebrew*) dan manfaatnya juga sama.
 
 ### Nintendo DSi Camera
 Aplikasi Nintendo DSi Camera mampu mengambil gambar format JPEG dan menyimpannya ke *System Memory* atau kartu SD. Tapi dibatasi hanya bisa membaca gambar yang dibuat di DSi, karena tidak ada HMAC yang benar dalam tag EXIF kustom. Gambar bersumber lain tidak bisa dibaca di DSi, baik dari komputer atau suntingan komputer, kecuali jika disimpan benar.
 
-Pemuatan gambar diurus dari berkas `pit.bin`. Tapi, ukuran *header* di *offset* 0x16 malah tidak diperiksa, jadi jika nilai ukuran *header* ini cukup besar akan meluwah dan penyangganya akan menimpa dan membaca kode tak bertanda. Begitu cara kerja Memory Pit.
+Pemuatan gambar diurus dari berkas `pit.bin`. Tapi, ukuran *header* di *offset* 0x16 malah tidak diperiksa; jadi jika nilai ukuran *header* cukup besar, ini akan meluwah dan penyangganya akan menimpa dan membaca kode tak bertanda. Begitu cara kerja Memory Pit.
 
 ### *Bootstage 2* Nintendo DSi
 Tahap nyala kedua atau *bootstage 2* Nintendo DSi memuat "title.tmd" peluncur ke memori. Tapi, karena tidak dilakukan periksa batas ukuran berkas, berarti 80ribu bita pertama akan dimuat ke RAM dan sisanya bisa diisi *payload* kustom. Ini dasar dari eksploit Unlaunch.

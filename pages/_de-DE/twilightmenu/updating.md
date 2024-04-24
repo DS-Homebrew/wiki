@@ -25,4 +25,4 @@ Wenn du einen DSi (von der internen SD-Karte) verwendest, befolge die [DSi Anwei
 ### Flashkarten
 Wenn du eine Flashkarte verwendest (unabhängig davon, welches DS-Modell du benutzt), folge den [Flashkarten Anweisungen](updating-flashcard).
 
-[![An r4isdhc.com flashcard](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![An Acekard2i flashcard](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![An R4i Gold 3DS Plus flashcard](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)
+[![Eine r4isdhc.com Flashkarte](/assets/images/consoles/r4isdhc.com.png)](updating-flashcard) [![Eine Acekard2i Flashkarte](/assets/images/consoles/acekard2i.png)](updating-flashcard) [![Eine R4i Gold 3DS Plus Flashkarte](/assets/images/consoles/r4igold3dsplus.png)](updating-flashcard)

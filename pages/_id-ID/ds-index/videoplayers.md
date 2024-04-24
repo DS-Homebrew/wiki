@@ -8,17 +8,18 @@ description: <i>Homebrew</i> Pemutar Video untuk Nintendo DS(i)
 ---
 
 # *Homebrew* Pemutar Video untuk Nintendo DS(i)
-Laman ini berisi penjelasan cara kerja tiap-tiap pemutar video yang berfungsi atau masih dibuat untuk Nintendo DS dan DSi.
+This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-| Nama pemutar | Wadah/Codec yang didukung | Mendukung         | Kekurangan                                     | Batas FPS |
-| ------------ | ------------------------- | ----------------- | ---------------------------------------------- | --------- |
-| FastVideoDS  | `.fv`, FastVideoDS        | DSi dan NDS       | Hamburan konfeti melambatkan video FPS tinggi. | 60fps     |
-| Moonshell    | `.dpg`, MPEG1             | Hanya *flashcard* | Perlu *flashcard* untuk memutar video.         | 24fps     |
-| Tuna-ViDS    | `.avi`, XVid              | DSi dan NDS       | Hanya sampai laju bingkai/laju bit rendah.     | 15fps     |
-| MPEG4Player  | `.mp4`, MPEG-4            | DSi dan NDS       | Hanya memutar video pendek.                    | 24fps     |
+| Nama pemutar | Wadah/Codec yang didukung | Kekurangan                                     | Batas FPS                         |
+| ------------ | ------------------------- | ---------------------------------------------- | --------------------------------- |
+| FastVideoDS  | `.fv`, FastVideoDS        | Hamburan konfeti melambatkan video FPS tinggi. | 60fps (DSi mode), 30fps (DS mode) |
+| Moonshell    | `.dpg`, MPEG1             | Hanya sampai laju bingkai/laju bit rendah.     | 24fps                             |
+| Tuna-ViDS    | `.avi`, XVid              | Hanya sampai laju bingkai/laju bit rendah.     | 15fps                             |
+| MPEG4Player  | `.mp4`, MPEG-4            | Hanya memutar video pendek.                    | 24fps                             |
 
 Catatan:
 - Batas tinggi FPS sebenarnya tergantung isi dan lamanya video.
+- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 
@@ -30,8 +31,8 @@ Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 in
 1. Unduh [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), lalu pasang
 1. Unduh [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Unduh [FastVideoDS.bat](/assets/files/FastVideoDS.bat) ke tempat yang sama dengan berkas `.exe` *encoder*
-1. Copy or move your video to the same place as the `.bat` file
-1. Drag and drop the copied or moved video into the `.bat` file
+1. Salin dan pindahkan video ke tempat berkas `.bat` tadi
+1. Seret dan taruh video yang disalin atau pindah ke berkas `.bat`
 
 Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar melalui **TW**i**L**ight Menu++.
 

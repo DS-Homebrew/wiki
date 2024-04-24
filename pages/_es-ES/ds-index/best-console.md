@@ -22,13 +22,13 @@ Las consolas Nintendo DS, DSi, 3DS y 2DS pueden correr el modo DS(i) al igual qu
 
 [^1]: Los juegos de DS correrán a 67mhz, pero muchos de ellos pueden ser ajustados para que corran a 133mhz, aunque ciertos juegos tendrán problemas.
 
-[^2]: Al ejecutar en modo DS(i), mantener SELECT o START presionados desactivará el escalado de pantalla, pero añadirá bordes negros al rededor de la imagen del juego.
+[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
 
 [^3]: Modelos Phat posteriores tienen los mismos niveles de brillo que el modelo Lite, pero necesitarán que FlashMe sea instalado para que sean habilitados (al menos en el menú original).
 
 [^4]: El único juego que se sabe que tiene un problema de compatibilidad, _MegaMan Battle Network 3_ se congela después del logotipo de Capcom.
 
-[^5]: ROMs GBA grandes de vídeo (mayor a 32MB) no funcionarán.
+[^5]: ROMs GBA grandes de vídeo (mayor a 32MB) no funcionarán. Gyro and rumble features will also not work.
 
 [^6]: La mayoría de títulos compatibles no requieren del uso de la cámara. Mira [esta página](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) para saber qué títulos son compatibles. Es necesario que instales **TW**i**L**ight Menu++ en tu Flashcard.
 

@@ -7,7 +7,7 @@ title: Permainan Khusus
 description: Permainan DS(i) berkesifatan khusus
 ---
 
-### Permainan DS dalam bentuk DSiWare
+### Permainan DS berbentuk DSiWare
 - 100 Classic Books
    - Versi DSiWare bernama "Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20"
    - Hanya disertakan 20 buku
@@ -47,12 +47,12 @@ description: Permainan DS(i) berkesifatan khusus
    - Masing-masing mode dijadikan judul DSiWare sendiri
 - Elite Forces: Unit 77
    - Main jamak atau *multiplayer* ditambah
-- G.G Series DSiWare titles
-   - A collection called "G.G Series Collection+" physically released exclusively in Japan
-   - Contains some exclusive titles of which released a few years later as DSiWare
-       - In those late DSiWare releases, some contain incorrect/missing audio!
-   - Built as an NTR title, allowing for playing on DS consoles
-   - Manual screens contain a unique UI
+- G.G Series bentuk DSiWare
+   - Koleksi terpisah dari "G.G. Series Collection+" yang hanya dijual fisik di Jepang
+   - Judul eksklusif lainnya juga dirilis beberapa tahun kemudian sebagai DSiWare
+       - Di beberapa DSiWare penghujung, bahkan ada audio yang salah/hilang!
+   - Dibuat ke bentuk NTR, sehingga bisa dimainkan di konsol DS
+   - Layar manual terdapat antarmuka unik
 - Heathcliff: Frantic Foto
    - Versi DSiWare bernama "Heathcliff: Spot On"
 - Jewel Adventures
@@ -109,7 +109,7 @@ description: Permainan DS(i) berkesifatan khusus
    - Gambar ikon bergerak
 - True Swing Golf/Nintendo Touch Golf
    - Versi DSiWare bernama "True Swing Golf Express" (AS), atau "A Little Bit of... Nintendo Touch Golf" (Eropa)
-   - Versi DSiWare ini tidak dilengkapi fitur Wi-Fi apa pun, seperti Local/Download Play atau fitur PictoChat dalam permainan. Lapangan golf juga lebih kurang dari yang retail
+   - Versi DSiWare ini tidak dilengkapi fitur Wi-Fi apa pun, seperti Local/Download Play atau fitur PictoChat dalam permainan. Lapangan golf juga lebih sedikit dari yang retail
       - Mesin lunaknya diperbagus
       - Mode "Challenge" menggantikan "Championship Tour" permainan retail
 - WarioWare: Touched!
@@ -120,23 +120,23 @@ description: Permainan DS(i) berkesifatan khusus
    - Main jamak atau *multiplayer* dihapus
    - Gambar ikon bergerak
 
-### DSiWare with Wi-Fi support (WPA 1/2 included)
+### DSiWare berdukungan Wi-Fi (termasuk WPA 1/2)
 - Bomberman Blitz
-   - Multiplayer
+   - Main jamak
 - Dragon Quest Wars
-   - Multiplayer
+   - Main jamak
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
-   - Multiplayer & Records
+   - Main jamak & Rekor
 - Mario vs. Donkey Kong: Minis March Again
-   - Downloading user-created stages
+   - Mengunduh loka pengguna lain
 - Metal Torrent
-   - Records
+   - Rekor
 - Sujin Taisen: Number Battles
-   - Multiplayer
+   - Main jamak
 - Tetris Party Live
-   - Multiplayer
+   - Main jamak
 - UNO
-   - Multiplayer
+   - Main jamak
 
 ### DSiWare dikompilasi menjadi *DSi-Enhanced*
 - 1st Class Poker & BlackJack
@@ -239,20 +239,20 @@ Jumlah: 39, mungkin ada yang belum
 ### DSiWare dengan kode cadangan
 Data simpanan akan ditulis ke cip simpanan kartrid, jika kebetulan dijalankan dari kartrid.
 
-- Cake Ninja
-   - Usang, kode perlu diaktifkan dengan retasan
-- Cake Ninja 2
-   - Usang, kode perlu diaktifkan dengan retasan
-- Cake Ninja: XMAS
-   - Usang, kode perlu diaktifkan dengan retasan
 - Dragon Quest Wars
-- Dreamwalker
-   - Usang, kode perlu diaktifkan dengan retasan
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
+
+#### Unused code
+Hacking is required to activate the code.
+
+- Antipole
+- Cake Ninja
+- Cake Ninja 2
+- Cake Ninja: XMAS
+- Cosmos X2
+- Dreamwalker
 - Go! Go! Kokopolo
-   - Usang, kode perlu diaktifkan dengan retasan
 - Make Up & Style
-   - Usang, kode perlu diaktifkan dengan retasan
 
 ### Permainan dengan sambungan kartrid GBA
 Saat ini, nds-bootstrap belum ada emulasi Slot-2. Ada beberapa yang tertera cara lain.

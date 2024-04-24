@@ -2,7 +2,7 @@
 lang: id-ID
 layout: wiki
 section: gbarunner2
-title: Membuat <i>Dump<i> BIOS GBA
+title: Membuat Dump BIOS GBA
 description: Cara mengekstrak BIOS Nintendo GBA dari konsol
 tabs:
   - 
@@ -10,7 +10,7 @@ tabs:
     gba-flashcart: GBA/DS/DS Lite dengan <i>flashcart</i> mode GBA
 ---
 
-Walaupun hampir semua emulator GBA langsung bisa membaca ROM GBA, ada emulator dan *hypervisor*, seperti GBARunner2, yang mungkin perlu BIOS agar ROM dibaca benar.
+Walaupun hampir semua emulator GBA bisa langsung membaca ROM GBA, ada emulator dan *hypervisor*, seperti GBARunner2, yang mungkin perlu BIOS agar ROM dibaca benar.
 
 Ada dua cara melakukannya, yaitu menggunakan:
 - Konsol 3DS yang ada CFW, atau
@@ -22,6 +22,7 @@ Ada dua cara melakukannya, yaitu menggunakan:
 1. Unduh [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
 1. Buat folder bernama `payloads` dalam folder `/luma` jika belum ada
 1. Salin `open_agb_firm.firm` dari berkas `.7z` open_agb_firm ke folder `/luma/payloads`
+1. Copy `3ds` from the open_agb_firm `.7z` file to the root of your SD card
 1. Salin `Bios_Dumper.gba` ke akar kartu SD
 1. Sisip kembali kartu SD ke konsol
 

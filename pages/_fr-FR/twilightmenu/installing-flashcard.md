@@ -8,17 +8,20 @@ long_title: Installation de TWiLight Menu++ (linker)
 description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 ---
 
+If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+{:.alert .alert-warning}
+
 ### Installation
 1. Téléchargez le dernier [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-1. Extrayez `TWiLightMenu-Flashcard.7z`
-1. Copiez le dossier `_nds` à la racine de la carte microSD de votre linker
-1. Copiez le fichier `BOOT.NDS` à la racine de la carte microSD de votre linker
-1. Copiez le dossier `roms` à la racine de la carte microSD de votre linker
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Drag and drop the `_nds` folder to your flashcard's microSD card root
+1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. Si vous avez déjà des données de sauvegarde, déplacez vos fichiers `.sav`, qui se trouvent dans l'emplacement de vos ROMs DS, vers un nouveau dossier appelé `saves`, qui va également dans l'emplacement de vos ROMs DS
 1. **Utilisateurs de DS Tank/Lite :** Si le démarrage de `BOOT.NDS` provoque un écran blanc figé, suivez les étapes ci-dessous pour le démarrage automatique et/ou insérez un DS Memory Expansion Pak, puis réessayez
 
 ### Démarrage automatique de TWiLight Menu++
-1. Extrayez le contenu de `Autoboot/(votre linker)` à la racine de la carte microSD du linker
+1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
    - Sautez cette étape si vous ne voyez pas votre linker
 1. **Utilisateurs de DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
 
@@ -33,7 +36,7 @@ Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de ce
 Veuillez noter que vous perdrez la possibilité d'utiliser des codes de triche lorsque vous exécuterez des jeux de cette manière. Si vous souhaitez conserver la fonctionnalité des codes de triche, veuillez sauter cette section.
 {:.alert .alert-warning}
 
-1. Extrayez ce qui est dans `Flashcart Loader/(votre linker)` à la racine de la carte microSD
+1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
    - Un fichier README.txt est présent dans le dossier `Flashcart Loader`, pour aider à trouver quel lanceur de linker est approprié pour votre linker.
    - Si vous l'avez fait, passez à l'étape 3. Si ce n'est pas le cas, suivez les étapes de la liste de linkers ci-dessous
 
@@ -59,4 +62,4 @@ Veuillez noter que vous perdrez la possibilité d'utiliser des codes de triche l
    Installez le [YSMenu de RetroGameFan](https://gbatemp.net/download/35737/).
       - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
       - Ne copiez pas directement `TTMenu.dat` ; cela casserait le démarrage automatique et la réinitialisation logicielle de YSMenu
-1. Ouvrez les paramètres de TWLMenu++, passez à la page `Paramètres de nds-bootstrap`, et définissez `Lanceur de jeu` à `Kernel` pour que le firmware du linker soit utilisé au lieu de nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

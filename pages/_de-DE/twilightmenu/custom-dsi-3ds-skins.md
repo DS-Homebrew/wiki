@@ -27,7 +27,7 @@ Dies können PNG-Dateien oder 16-Bit (`A1 R5 G5 B5` oder `X1 R5 G5 B5`) BMP-Date
 | Textur                | Beschreibung                                                                                                                     |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | top                   | Die Hintergrundtextur des oberen Bildschirms                                                                                     |
-| top_photo             | The top screen background texture when a photo is being shown                                                                    |
+| Oberers_Foto          | Die Hintergrundtextur im oberen Bildschirm, wenn ein Foto angezeigt wird                                                         |
 | bottom                | Die untere Hintergrundtextur, wenn der Mauszeiger nicht auf ein Symbol zeigt                                                     |
 | bottom_ds             | Für das 3DS-Thema, die untere Hintergrundtextur, wenn auf einem DS Phat/Lite der Mauszeiger nicht auf ein Symbol zeigt           |
 | bottom_macro          | Für das DSi-Thema, die Hintergrundtextur, wenn der Mauszeiger, während der Makromodus verwendet wird, nicht auf ein Symbol zeigt |
@@ -104,12 +104,12 @@ Es wird empfohlen, beim Exportieren das Kontrollkästchen `Farbrauminformationen
 | icon_snes     | Das Icon für SNES-Spiele                                                                                   |
 | icon_unk      | Das Icon, das angezeigt wird, wenn in einem Spiel ein Icon fehlt                                           |
 | icon_ws       | Das Icon für WonderSwan-Spiele                                                                             |
-| launch_dot    | The dots displayed when a game is launched (DSi Theme)                                                     |
-| moving_arrow  | The arrow displayed when a game is being moved (DSi Theme)                                                 |
-| progress      | The progress loading animation with 8 frames                                                               |
-| scroll_window | The part of the scrollbar that indicates the icons that are in view                                        |
-| small_cart    | The icons displayed along the top (3DS Theme) and in the SELECT menu (DSi Theme)                           |
-| start_border  | The border with animation frames that indicates the selected icon (DSi Theme)                              |
+| launch_dot    | Die Punkte, die angezeigt werden, wenn ein Spiel gestartet wird (DSi-Theme)                                |
+| moving_arrow  | Die Punkte, die angezeigt werden, wenn ein Spiel gestartet wird (DSi-Theme)                                |
+| progress      | Die Fortschritts-Ladeanimation mit 8 Bildern                                                               |
+| scroll_window | Der Teil der Scrollleiste, der die angezeigten Symbole anzeigt                                             |
+| small_cart    | Die oben (3DS-Theme) und im SELECT-Menü (DSi-Theme) angezeigten Symbole                                    |
+| start_border  | Der Rahmen mit Animationsbildern, die das ausgewählte Symbol anzeigen (3DS-Theme)                          |
 | start_text    | The text displayed on the start border (DSi Theme)                                                         |
 | wirelessicons | The icons displayed to indicate a game has wireless support                                                |
 

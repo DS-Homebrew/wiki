@@ -10,7 +10,7 @@ description: Informasi tentang GodMode9i
 
 ## Kemampuan *dump*
 
-Untuk menyalin permainan, pilih kandar (*drive*) di daftar kandar dan ikuti perintah di layar.
+Untuk menyalin permainan, pilih *drive* (kandar) di daftar kandar dan ikuti perintah di layar.
 - Untuk Nintendo DS dan Nintendo DS Lite, GodMode9i bisa men-*dump* kartrid Slot-2 jika dijalankan dari *flashcard* Slot-1, atau kaset Slot-1 jika GodMode9i dijalankan dari *flashcart* Slot-2
    - Berkas simpanan atau *save* bisa di-*dump* dengan kartrid GBA, lihat [Pertanyaan Umum](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) untuk informasi lanjut
 - Untuk di seri konsol Nintendo DSi, Unlaunch diperlukan untuk men-*dump* permainan Slot-1 ke kartu SD
@@ -19,4 +19,4 @@ Untuk menyalin permainan, pilih kandar (*drive*) di daftar kandar dan ikuti peri
    - Ikuti [3ds.hacks.guide](https://3ds.hacks.guide/) untuk arahan cara memasang Luma3DS + boot9strap
 
 ### Memulihkan simpanan
-GodMode9i juga mampu memulihkan simpanan ke Kaset DS/kartrid GBA. Caranya dengan memilih berkas `.sav` pada kartu SD selagi kaset/kartrid disisipkan, lalu pilih `Restore save`.
+GodMode9i juga mampu memulihkan simpanan ke kaset DS/kartrid GBA. Caranya dengan memilih berkas `.sav` pada kartu SD selagi kaset/kartrid disisipkan, lalu pilih `Restore save`.

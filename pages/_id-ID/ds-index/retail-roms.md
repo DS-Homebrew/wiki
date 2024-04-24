@@ -29,7 +29,7 @@ Kaset Nintendo DS umumnya terdapat 4 jenis simpanan:
 Ada beberapa format berbeda untuk dibaca pemuatnya, di sini nds-bootstrap menggunakan format `.sav` mentah. Jika simpanannya berbeda format, gunakan situs berikut untuk konversi: http://www.shunyweb.info/convert.php.
 
 ### *Assembly*
-Bahasa *assembly* (ASM) adalah bahasa penataolahan tingkat rendah dengan komunikasi kuat antara instruksi bahasa dan prosesor. Untuk di DS, kode *assembly* ini berbentuk intruksi ARM atau THUMB, instruksi THUMB merupakan subhimpunan ARM. THUMB ini mampu menghemat lebar pita memori karena menjalankan instruksi 16-bit daripada instruksi ARM 32-bit.
+Bahasa *assembly* (ASM) adalah bahasa penataolahan tingkat rendah dengan komunikasi kuat antara instruksi bahasa dan prosesor. Untuk di DS, kode *assembly* ini berbentuk intruksi ARM atau pun THUMB, instruksi THUMB merupakan subhimpunan ARM. THUMB ini mampu menghemat lebar pita memori karena menjalankan instruksi 16-bit daripada instruksi ARM 32-bit.
 
 Untuk informasi lebih lanjut terkait instruksi *assembly*, serta informasi teknis lainnya untuk DS dan DSi ada di [GBATEK](https://problemkaputt.de/gbatek.htm).
 
@@ -64,7 +64,7 @@ Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 - DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini setelah siap
 
 ### Judul Demonstrasi dan Distribusi:
-Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya merupakan peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di tempat promosi seperti toko dan lainnya.
+Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya merupakan peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
 
 Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kaset judul jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, karena hampir semua judul ini pada dasarnya sama dengan versi retailnya, biasanya kaset diberi pengenal tambahan di ID judul label.
 
@@ -104,7 +104,7 @@ Huruf terakhir pada ID judul itu sendiri mewakili bahasa judul. Berikut contoh d
 
 **X** mewakili berikut:
 
-- A - Sedunia (bukan berarti hanya digunakan satu saja)
+- A - Sedunia (tak penting, hanya digunakan satu hal)
 - C - Bahasa Cina (Huruf Sederhana)
 - D - Bahasa Jerman
 - E - Bahasa Inggris Amerika

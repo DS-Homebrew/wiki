@@ -11,8 +11,8 @@ description: Wie man TWiLight Menu++ von einem Nintendo 3DS deinstalliert
 ### Deinstallieren
 1. Öffne FBI
 1. Gehe zu `Titles`
-1. Find the `TWiLight Menu++` title in purple text
-1. Delete the `TWiLight Menu++` title
+1. Finde zwei `TWiLight Menu++` Titel in violettem Text
+1. Löschen Sie den Titel `TWiLight Menu++`
 1. Verlasse die Titelliste
 1. Gehe zur SD-Karte
 1. Öffne `_nds`
