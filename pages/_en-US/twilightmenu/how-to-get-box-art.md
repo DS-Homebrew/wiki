@@ -32,7 +32,7 @@ tabs:
 1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
 1. Run `chmod +x TwilightBoxart.CLI`
 1. Run `./TwilightBoxart.CLI`
-1. Say `Yes` if it shows your SD path correctly
+1. Use the arrow and enter keys to select `Yes` if it shows your SD path correctly
 1. Make sure box art is set to be shown in TWiLight Menu++ settings
 {% endcapture %}
 {% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
