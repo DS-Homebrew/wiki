@@ -13,7 +13,7 @@ Ini terjadi jika membuka GodMode9i dari [hiyaCFW](../hiyacfw). Tahan tombol X sa
 #### Kenapa berkas di NAND tidak bisa ditambah, hapus, atau ubah?
 Mengubah berkas NAND DSi itu tidak aman dan akan mudah *brick* (rusak parah), makanya GodMode9i sengaja tidak bisa.
 
-#### Kenapa ada info berkas NDS DSiWare tidak bisa dibuka?
+#### Kenapa ada info NDS DSiWare yang tak bisa dibuka?
 Beberapa DSiWare, terlebih yang di folder `0003000f`, berisi data sistem dan memang tidak punya nama judul absah.
 
 #### Lebih baik gunakan versi NDS atau versi DSi? Apa bedanya?

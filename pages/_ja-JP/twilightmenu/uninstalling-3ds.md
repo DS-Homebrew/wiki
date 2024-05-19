@@ -16,7 +16,8 @@ description: ニンテンドー3DSからTWiLight Menu++をアンインストー�
 1. タイトルリストを終了します
 1. SDカードに移動します
 1. `_nds`を開く
-1. `TWiLightMenu`フォルダを削除します
+1. Delete the `TWiLightMenu` folder
+    - **IMPORTANT:** Before deleting the folder, open it, and check if a `saves` folder exists. If it does, then backup everything inside that folder
 1. nds-bootstrapとGBARunner2のファイルを削除します
 1. `_nds`から戻る
 1. `boot.nds`を削除します

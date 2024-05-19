@@ -23,10 +23,10 @@ description: TWiLight Menu++を使うためのコントロール
 - <kbd class="face">X</kbd>：ゲームの削除・非表示
 - （DSi・サターン・HBLのテーマ）<kbd>SELECT</kbd>：SELECTメニューまたはDSクラシックメニュー（システムメニュー、TWiLight Menu++の設定、GBAモードにアクセスできます）
 
-#### R4テーマ
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>上</kbd>・<kbd>下</kbd>：ゲーム・アプリの選択
 - <kbd class="face">A</kbd>：ゲーム・アプリを起動する
-- <kbd class="l">L</kbd>：SDカードとフラッシュカードを切り替える
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>：ゲームごとの設定
    - <kbd class="face">X</kbd>：チートメニュー
       - <kbd class="face">A</kbd>：チートを切り替える
@@ -34,6 +34,7 @@ description: TWiLight Menu++を使うためのコントロール
       - <kbd class="face">X</kbd>：保存してチートメニューを終了する
       - <kbd class="face">Y</kbd>：チートの説明を表示する
       - <kbd class="l">L</kbd>：すべてのチートを無効にする
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### 起動時のショートカット
 これらは、TWiLight Menu++のスプラッシュ画面で、またはニンテンドーDSiスプラッシュ画面の直後に押します必要があります。

@@ -11,7 +11,7 @@ description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 Jika belum punya cara menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan dikira Trojan karena positif palsu. Untuk mengatasi positif palsu, pastikan Windows Defender sudah mutakhir.
 {:.alert .alert-warning}
 
 ### Pemasangan
@@ -29,7 +29,7 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 
 ### Mengakses isi *flashcard*
 
-*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, berarti panduan ini sudah selesai.
+*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
 {:.alert .alert-warning}
 
 #### Jika punya R4(i) Ultra

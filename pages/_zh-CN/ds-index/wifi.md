@@ -42,7 +42,7 @@ Windows 无法创建兼容的热点，因此 Windows 用户需要启动到 Linux
 1. 启动 Nintendo Wi-Fi Connection 设置
 1. 连接到您的无线网络
 1. 根据您想要使用的服务，将您的主要 DNS 设置为下面的值之一：
-    - **[Wiimmfi](https://wiimmfi.de)** - `178.62.43.212`
+    - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
     - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([在线玩家列表](http://zwei.moe:9001))** - `172.104.88.237`
 1. 将 `1.1.1.1` 设置为辅助 DNS
 1. 您可能需要为游戏打上 NoSSL 补丁，具体取决于游戏

@@ -23,10 +23,10 @@ description: Kontroller för att använda TWiLight Meny++
 - <kbd class="face">X</kbd>: Ta bort/dölj spel
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
 
-#### R4 tema
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app
 - <kbd class="face">A</kbd>: Launch game/app
-- <kbd class="l">L</kbd>: Växla mellan SD-kort och minneskort
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Spelspecifika inställningar
    - <kbd class="face">X</kbd>: Fuskmeny
       - <kbd class="face">A</kbd>: Växla på/av fusk
@@ -34,6 +34,7 @@ description: Kontroller för att använda TWiLight Meny++
       - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
       - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
       - <kbd class="l">L</kbd>: Inaktivera alla fusk
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Boot-genvägar
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.

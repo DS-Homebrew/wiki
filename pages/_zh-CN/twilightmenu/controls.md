@@ -23,10 +23,10 @@ description: 如何操作TWiLight Menu++
 - <kbd class="face">X</kbd>: 删除/隐藏游戏
 - （DSi/Saturn/HBL主题）<kbd>SELECT</kbd>: SELECT 菜单/DS 经典菜单（可以访问系统菜单、TWiLight Menu++ 设置和 GBA 模式）
 
-#### R4 主题
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>上</kbd>/<kbd>下</kbd>: 选择游戏/应用
 - <kbd class="face">A</kbd>: 启动游戏/应用
-- <kbd class="l">L</kbd>: 在SD卡和烧录卡之间切换
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: 打开游戏子设置菜单
    - <kbd class="face">X</kbd>: 金手指菜单
       - <kbd class="face">A</kbd>: 切换金手指模式
@@ -34,6 +34,7 @@ description: 如何操作TWiLight Menu++
       - <kbd class="face">X</kbd>: 保存并退出金手指菜单
       - <kbd class="face">Y</kbd>: 查看金手指描述
       - <kbd class="l">L</kbd>: 禁用所有金手指
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### 启动快捷方式
 应在 TWiLight Menu++ 启动屏幕 / 任天堂 DSi 启动屏幕后按下这些按键。

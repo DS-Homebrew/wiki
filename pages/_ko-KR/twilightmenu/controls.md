@@ -23,10 +23,10 @@ description: TWiLight Menu++의 조작법
 - <kbd class="face">X</kbd>: 게임 제거/숨기기
 - (DSi/새턴/홈브류 테마) <kbd>SELECT</kbd>: SELECT 메뉴 또는 DS 클래식 메뉴 (시스템 메뉴, TWiLightMenu++ 설정, GBA모드에 접근할 수 있는 곳)
 
-#### R4 테마
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>위</kbd>/<kbd>아래</kbd>: 게임 또는 응용프로그램 선택
 - <kbd class="face">A</kbd>: 게임 또는 응용프로그램 실행
-- <kbd class="l">L</kbd>: SD카드와 flashcard 간 전환
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: 게임별 설정
    - <kbd class="face">X</kbd>: 치트 메뉴
       - <kbd class="face">A</kbd>: 치트 켬/끔
@@ -34,6 +34,7 @@ description: TWiLight Menu++의 조작법
       - <kbd class="face">X</kbd>: 치트 저장하고 나가기
       - <kbd class="face">Y</kbd>: 치트 설명 보기
       - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### 부팅 단축키
 아래는 TWiLight Menu++ 시작화면 실행중 또는, DSi 시작화면이 나온 즉시에 사용할 수 있는 단축키입니다.

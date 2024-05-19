@@ -25,7 +25,7 @@ description: Permainan DS(i) berkesifatan khusus
 - Bejeweled Twist
    - Beberapa fitur dihapus
 - Bomberman 2
-   - Fitur main jamak dijadikan judulnya sendiri bernama "Bomberman Blitz"
+   - Fitur main rangkap dijadikan judul tersendiri bernama "Bomberman Blitz"
 - Bookworm
    - Fitur Download Play dihapus
    - Gambar ikon bergerak
@@ -46,7 +46,7 @@ description: Permainan DS(i) berkesifatan khusus
 - Electroplankton
    - Masing-masing mode dijadikan judul DSiWare sendiri
 - Elite Forces: Unit 77
-   - Main jamak atau *multiplayer* ditambah
+   - *Multiplayer* ditambah
 - G.G Series bentuk DSiWare
    - Koleksi terpisah dari "G.G. Series Collection+" yang hanya dijual fisik di Jepang
    - Judul eksklusif lainnya juga dirilis beberapa tahun kemudian sebagai DSiWare
@@ -74,7 +74,7 @@ description: Permainan DS(i) berkesifatan khusus
    - Gambar ikon bergerak
 - Planet Puzzle League
    - Versi DSiWare bernama "Puzzle League Express" (AS), atau "A Little Bit of... Puzzle League" (Eropa)
-   - Main jamak atau *multiplayer* dihapus
+   - *Multiplayer* dihapus
    - Beberapa jalur musik dihapus
 - Plants vs. Zombies
    - Fitur Download Play, beberapa pencapaian, dan video musik dihapus
@@ -100,7 +100,7 @@ description: Permainan DS(i) berkesifatan khusus
 - Successfully Learning: Mathematics, Year 4+5
 - Sujin Taisen: Number Battles
    - Versi DSiWare dikenal sebagai "Number Battle" di AS
-   - Main jamak lokal dihapus, tapi main jamak daring tetap ada
+   - Main rangkap lokal dihapus, tapi main rangkap daring tetap ada
 - Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
    - Dipisah 5 bagian(?)
 - Tetris Party Deluxe
@@ -117,56 +117,56 @@ description: Permainan DS(i) berkesifatan khusus
 - Zombiez Seeker
    - Versi DSiWare bernama "Zombie Blaster"
 - Zuma's Revenge!
-   - Main jamak atau *multiplayer* dihapus
+   - *Multiplayer* dihapus
    - Gambar ikon bergerak
 
 ### DSiWare berdukungan Wi-Fi (termasuk WPA 1/2)
 - Bomberman Blitz
-   - Main jamak
+   - *Multiplayer* (main rangkap)
 - Dragon Quest Wars
-   - Main jamak
+   - *Multiplayer* (main rangkap)
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
-   - Main jamak & Rekor
+   - Main Rangkap & Rekor
 - Mario vs. Donkey Kong: Minis March Again
    - Mengunduh loka pengguna lain
 - Metal Torrent
    - Rekor
 - Sujin Taisen: Number Battles
-   - Main jamak
+   - *Multiplayer* (main rangkap)
 - Tetris Party Live
-   - Main jamak
+   - *Multiplayer* (main rangkap)
 - UNO
-   - Main jamak
+   - *Multiplayer* (main rangkap)
 
 ### DSiWare dikompilasi menjadi *DSi-Enhanced*
 - 1st Class Poker & BlackJack
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Base 10 (Art Style)
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Bird & Beans (Jepang)
 - Box Pusher
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Bridge
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Clubhouse Games Express
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Cosmo Fighters
      - ROM dasarnya dikompilasi sebagai *DSi-Exclusive*, tapi ROM demo di dalamnya dikompilasi sebagai *DSi-Enhanced*
 - Dr. Mario Express
 - Globulos Party
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Hearts Spades Euchre
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Metal Torrent
 - Paper Airplane Chase (Jepang)
 - Pocket Pack: Strategy Games
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Pocket Pack: Words & Numbers
-     - Ada *cloneboot* untuk Main Jamak
+     - Ada *cloneboot* untuk Main Rangkap
 - Pop Island
-     - Ada fitur mengirim demo permainan ke seri konsol DS lain
+     - Ada fitur mengirim demo permainan ke jenis konsol DS lain
 - Pop Island: Paperfield
-     - Ada fitur mengirim demo permainan ke seri konsol DS lain
+     - Ada fitur mengirim demo permainan ke jenis konsol DS lain
 
 ### DSiWare yang rencana awalnya untuk DS/DS lite
 - Flipper
@@ -175,7 +175,7 @@ description: Permainan DS(i) berkesifatan khusus
      - Permainan ini terdapat menu bantuan usang yang tidak seperti DSiWare lain
      - Menu "About" terdapat nama berbeda (mungkin lawas), "Go! Go! Rescue Squad!"
 - Go! Go! Kokopolo
-     - Pertama kali diumumkan pada Oktober 2008 sebagai judul tengah dikembangkan untuk Nintendo DS, menurut Developers Diaries di majalah permainan video Inggris, NGamer. [Lihat laman](http://n-europe.com/news.php?nid=12428)
+     - Pertama kali diumumkan pada Oktober 2008 dan dalam pengembangan untuk Nintendo DS, menurut Developers Diaries di majalah permainan video Inggris, NGamer. [Lihat laman](http://n-europe.com/news.php?nid=12428)
 
 ### Permainan dengan SDK meningkat
 - Advance Wars: Days of Ruin/Dark Conflict: SDK4 -> SDK5 di Jepang (sebagai DSiWare)
@@ -242,8 +242,8 @@ Data simpanan akan ditulis ke cip simpanan kartrid, jika kebetulan dijalankan da
 - Dragon Quest Wars
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 
-#### Unused code
-Hacking is required to activate the code.
+#### Kode usang
+Kode perlu diaktifkan dengan retasan.
 
 - Antipole
 - Cake Ninja

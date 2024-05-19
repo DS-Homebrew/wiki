@@ -18,7 +18,7 @@ Unduh dan pasang [GIMP](https://www.gimp.org)
 
 Setelah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka dialog *colormap* untuk memudahkan menyunting palet pada gambar.
 
-Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan itu beragam tergantung letak foldernya, jadi pastikan diekspor sesuai bagiannya.
+Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan itu beragam tergantung letak foldernya, jadi ikuti cara ekspor sesuai bagiannya.
 
 ### Tekstur latar belakang (folder `background`)
 Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
@@ -38,7 +38,7 @@ Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
 | bottom_moving_macro | Untuk tema DSi di Mode Macro. Tekstur latar belakang saat memindah ikon                     |
 
 ### Tekstur baterai (folder `battery`)
-Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi.
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus di tingkat 100% agar berfungsi.
 
 | Tekstur            | Keterangan/Catatan                                                       |
 | ------------------ | ------------------------------------------------------------------------ |
@@ -123,7 +123,7 @@ Untuk ini harus berkas PNG.
 | topbg      | Latar belakang untuk layar atas di model DS apa pun |
 
 ### Tekstur antarmuka (folder `ui`)
-Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus di tingkat 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
 
 | Tekstur                  | Keterangan                                                  |
 | ------------------------ | ----------------------------------------------------------- |
@@ -142,7 +142,7 @@ Hanya digunakan tema 3DS, `3dsRotatingCubes.rvid` adalah berkas Rocket Video. Un
 ### Tekstur volume (folder `volume`)
 Tekstur volume hanya ditampilkan di Mode DSi.
 
-Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun tingkatnya harus 100% agar berfungsi.
+Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus di tingkat 100% agar berfungsi.
 
 
 | Tekstur | Keterangan/Catatan          |
@@ -253,7 +253,7 @@ Opsi bentuk permunculan tema bisa disetel di `theme.ini` untuk mewadahi grafik l
 | `IconWSUserPalette`        | Dengan warna DS Profile atau tidak untuk palet pada ikon WonderSwan                                                      | 0            | 0            |
 | `UsernameUserPalette`      | Dengan warna DS Profile atau tidak untuk palet pada nama pengguna                                                        | 1            | 1            |
 | `ProgressBarUserPalette`   | Dengan warna DS Profile atau tidak untuk warna bilah pemuatan                                                            | 1            | 1            |
-| `ProgressBarColor`         | Ini warna bilah pemuatan jika `ProgressBarUserPalette` dinonaktikan                                                      | 0x7C00       | 0x7C00       |
+| `ProgressBarColor`         | Ini warna bilah pemuatan jika `ProgressBarUserPalette` dinonaktifkan                                                     | 0x7C00       | 0x7C00       |
 | `UseAlphaBlend`            | Memadukan warna teks layar atas (nama pengguna dan tanggal/waktu) dengan warna latar belakang atau tidak                 | 1            | 1            |
 | `DarkLoading`              | Warna memudar putih diganti ke hitam atau tidak di layar pemuatan                                                        | 0            | 0            |
 | `RenderPhoto`              | Mempermuncul foto atau tidak di layar atas                                                                               | 0            | 1            |

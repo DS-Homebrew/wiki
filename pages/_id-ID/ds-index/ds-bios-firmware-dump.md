@@ -15,7 +15,7 @@ Beberapa emulator, seperti melonDS, perlu BIOS dan *firmware* mode DS atau mode 
 - DSi yang ada Unlaunch, atau
 - DS/DS Lite/3DS atau DSi tanpa ada Unlaunch, beserta *flashcard* yang bisa dibaca konsol
 
-Cara dengan DSi bisa mengekstrak BIOS dan *firmware* mode DS dan DSi. Cara dengan *flashcard* hanya bisa mengekstrak mode DS.
+Cara dengan DSi bisa mengekstrak BIOS dan *firmware* di mode DS dan DSi. Cara dengan *flashcard* hanya mengekstrak di mode DS.
 
 {% capture tab-dsi-sd-card %}
 
@@ -59,7 +59,7 @@ Semua berkas yang perlu akan ada dalam folder `dsidump` di akar kartu SD.
 1. Navigasi ke akar kartu SD, dan luncurkan dsbf_dump
 1. Tunggu proses ini selesai
 1. Setelah proses selesai, tekan <kbd>START</kbd> untuk mematikan daya konsol
-  - Di seri konsol 3DS, nanti akan muncul "Software closed". Matikan daya konsol saat di layar ini
+  - Di jenis konsol 3DS, nanti akan muncul "Software closed". Matikan daya konsol saat di layar ini
 1. Sisipkan kartu SD ke komputer Anda
 
 Semua berkas yang perlu ada dalam folder sesuai penjelasan di layar atas konsol.

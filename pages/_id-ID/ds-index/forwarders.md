@@ -45,6 +45,16 @@ Jika di konsol sudah ada Universal Updater, langsung ke langkah ke-3.
 1. Navigasi ke letak permainan dan tekan <kbd class="face">A</kbd>
 1. Mulai pasang dengan memilih `Yes`
 1. Setelah dipasang, permainan akan muncul sebagai judul di HOME Menu
+
+### Bagian 3: Mendapatkan AP-fix dari TWiLight Menu++
+
+Jika sudah ada TWiLight Menu++, panduan ini selesai di sini.
+{:.alert .alert-info}
+
+1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
+1. Di dalam berkas `.7z`, masuk ke folder `_nds/TWiLightMenu/extras`
+1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
+
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -61,7 +71,7 @@ Jika di konsol sudah ada Universal Updater, langsung ke langkah ke-3.
 1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD dari DSi.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
-### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
+### Bagian 2: Mendapatkan AP-fix dari TWiLight Menu++
 
 Jika sudah ada TWiLight Menu++, lewati bagian ini.
 {:.alert .alert-info}
@@ -94,7 +104,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD *flashcard*.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
-### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
+### Bagian 2: Mendapatkan AP-fix dari TWiLight Menu++
 
 Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian ini.
 {:.alert .alert-info}
@@ -110,7 +120,7 @@ Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian i
    - Jika muncul pesan `nitroFSInit() fail`, coba luncurkan dengan TWiLight Menu++, atau taruh `NDSForwarder.nds` di akar kartu SD
 1. Tekan <kbd class="face">A</kbd> pada `Install`
 1. Navigasi ke letak permainan dan tekan <kbd class="face">A</kbd>
-1. Setelah dipasang, permainan akan muncul di folder bernama `forwarders` pada akar kartu SD *flashcard*</li> </ol>
+1. Setelah dipasang, permainan akan muncul di folder bernama `forwarders` pada akar kartu SD *flashcard*
 
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
@@ -123,7 +133,7 @@ Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian i
    - Nintendo DSi yang terpasang [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) dan [hiyaCFW](installing)
    - Versi terkini [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
 - **Pengguna 3DS:**
-   - Keluarga konsol Nintendo 3DS yang sudah ada CFW modern sesuai [3ds.hacks.guide](https://3ds.hacks.guide)
+   - Jenis konsol Nintendo 3DS yang sudah ada CFW modern sesuai [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}
 Jenis *flashcard* yang dianjurkan yaitu DSTT dan Acekard2i. Jika ingin kompatibilitas sempurna, gunakan SuperCard DSTWO/DSTWO PLUS. Sayangnya lebih cepat menguras baterai konsol.
@@ -138,7 +148,7 @@ Kompatibel:
 - Galaxy Eagle
 - M3 DS Real
 - [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (Perlu kartu microSD < 2 GB)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Versi asli tanpa SDHC, perlu kartu microSD < 2 GB)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Versi asli bukan SDHC, perlu kartu microSD < 2 GB)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -230,7 +240,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 
 ### Bagian 4: Memasang *forwarder*
 
-- Untuk keluarga konsol 3DS:
+- Untuk jenis konsol 3DS:
    1. Salin berkas CIA tadi ke kartu SD 3DS, lalu pasang dengan FBI
       - Jika punya EmuNAND, pasang di SysNAND dan juga EmuNAND
 - Untuk konsol DSi:

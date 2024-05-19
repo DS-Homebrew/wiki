@@ -45,7 +45,7 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 
 {% capture tab-manual %}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan dikira Trojan karena positif palsu. Untuk mengatasi positif palsu, pastikan Windows Defender sudah mutakhir.
 {:.alert .alert-warning}
 
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
@@ -65,7 +65,7 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 
 ### Mengakses isi *flashcard*
 
-*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, berarti panduan ini sudah selesai.
+*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
 {:.alert .alert-warning}
 
 #### Jika punya R4(i) Ultra
@@ -80,7 +80,7 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 
 #### Jika tidak punya R4(i) Ultra
 
-1. Buat berkas atau folder bernama `primary` di `sd:/_nds/` (bukan yang *flashcard*), agar TWiLight Menu++ membaca pengaturan dari kartu SD konsol setelah *flashcard* dijalankan
+1. Buat berkas atau folder bernama `primary` di `sd:/_nds/` (bukan di *flashcard*), agar TWiLight Menu++ membaca pengaturan dari kartu SD konsol setelah *flashcard* dijalankan
 1. Ikuti [panduan ini](installing-flashcard) mulai dari `Memuat langsung TWiLight Menu++`
 1. Salin berkas `BOOT.NDS` dari `TWiLightMenu-Flashcard.7z` ke akar kartu microSD *flashcard*
 1. Buka Pengaturan TWLMenu++

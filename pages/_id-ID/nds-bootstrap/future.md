@@ -13,15 +13,15 @@ Laman ini menjabarkan ikhtisar utama nds-bootstrap ke depannya. Tonggak capaian 
 
 ### 1.0 Meningkatkan Kompatibilitas Retail
 Membuat kompatibilitas nds-bootstrap hampir 1:1 dengan permainan retail
-- Memperbaiki Romancing SaGa 3 [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
-- Memperbaiki sambungan Pokemon DS-Wii [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
-- Memperbaiki semua seri Brain Age DSiWare [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
+- Perbaiki Romancing SaGa 3 [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
+- Perbaiki sambungan Pokemon DS-Wii [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
+- Perbaiki semua seri Brain Age DSiWare [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 Peningkatan Tambahan ke Permainan
 Menambah fitur baru yang tidak ada di kaset saat dimainkan
 - Sambungan WPA di permainan mode DS [#628](https://github.com/DS-Homebrew/nds-bootstrap/issues/628)
 - Emulasi Slot-2 [#19](https://github.com/DS-Homebrew/nds-bootstrap/issues/19)
-- Memperbaiki kode *cheat* E-type [#746](https://github.com/DS-Homebrew/nds-bootstrap/issues/746)
+- Perbaiki kode *cheat* E-type [#746](https://github.com/DS-Homebrew/nds-bootstrap/issues/746)
 
 ### 1.2 Meningkatkan Kompatibilitas *Homebrew*
 Membuat banyak *homebrew* lawas bisa dijalankan nds-bootstrap

@@ -11,7 +11,7 @@ description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DSi-ra
 Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw.guide](https://dsi.cfw.guide) oldalt a TWiLight Menu++ telepítéséhez
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
+Ha olyan Windows kiadást használ, amely tartalmazza a Windows Defender-t, az hamis pozitív eredmény miatt trójai vírusként fogja észlelni a `.7z` fájlt. A hamis pozitív eredmény kijavításához ellenőrizd, hogy a Windows Defender naprakész.
 {:.alert .alert-warning}
 
 ### Telepítés

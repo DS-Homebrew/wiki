@@ -8,27 +8,27 @@ description: <i>Homebrew</i> Pemutar Video untuk Nintendo DS(i)
 ---
 
 # *Homebrew* Pemutar Video untuk Nintendo DS(i)
-This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
+Laman ini berisi penjelasan cara kerja tiap-tiap pemutar video yang berfungsi atau masih dibuat untuk Nintendo DS dan DSi.
 
 | Nama pemutar | Wadah/Codec yang didukung | Kekurangan                                     | Batas FPS                         |
 | ------------ | ------------------------- | ---------------------------------------------- | --------------------------------- |
-| FastVideoDS  | `.fv`, FastVideoDS        | Hamburan konfeti melambatkan video FPS tinggi. | 60fps (DSi mode), 30fps (DS mode) |
+| FastVideoDS  | `.fv`, FastVideoDS        | Hamburan konfeti melambatkan video FPS tinggi. | 60fps (mode DSi), 30fps (mode DS) |
 | Moonshell    | `.dpg`, MPEG1             | Hanya sampai laju bingkai/laju bit rendah.     | 24fps                             |
 | Tuna-ViDS    | `.avi`, XVid              | Hanya sampai laju bingkai/laju bit rendah.     | 15fps                             |
 | MPEG4Player  | `.mp4`, MPEG-4            | Hanya memutar video pendek.                    | 24fps                             |
 
 Catatan:
 - Batas tinggi FPS sebenarnya tergantung isi dan lamanya video.
-- Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
+- Moonshell v1.x dan v2.00 versi beta mungkin nanti tersangkut, jika laju bit video lebih dari `192`. Dianjurkan menggunakan v2.10.
 
 ## FastVideoDS
 
-Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 instructions`, berarti perlu dipasang cip CPU terbaru, atau gunakan komputer terbaru.
+Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 instructions`, berarti perlu menggunakan komputer terkini, atau pasang CPU terbaru.
 {: .alert .alert-warning}
 
 ### Windows
 
-1. Unduh [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), lalu pasang
+1. Unduh [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), lalu pasangkan
 1. Unduh [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
 1. Unduh [FastVideoDS.bat](/assets/files/FastVideoDS.bat) ke tempat yang sama dengan berkas `.exe` *encoder*
 1. Salin dan pindahkan video ke tempat berkas `.bat` tadi

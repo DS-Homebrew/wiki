@@ -23,10 +23,10 @@ description: Sterowanie korzystania z TWiLight Menu++
 - <kbd class="face">X</kbd>: Usuń/ukryj grę
 - (motyw DSi/Saturn/HBL) <kbd>SELECT</kbd>: menu SELECT lub klasyczne menu DS (gdzie można uzyskać dostęp do menu systemu, ustawień TWiLight Menu++ i trybu GBA)
 
-#### Motyw R4
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Góra</kbd>/<kbd>Dół</kbd>: Wybierz grę/aplikację
 - <kbd class="face">A</kbd>: Uruchom grę/aplikację
-- <kbd class="l">L</kbd>: Przełącz między kartą SD i flashcard
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Ustawienia dla gry
    - <kbd class="face">X</kbd>: Menu cheatów
       - <kbd class="face">A</kbd>: Przełącz cheat
@@ -34,6 +34,7 @@ description: Sterowanie korzystania z TWiLight Menu++
       - <kbd class="face">X</kbd>: Zapisz i wyjdź z menu cheatów
       - <kbd class="face">Y</kbd>: Pokaż opis cheatu
       - <kbd class="l">L</kbd>: Wyłącz wszystkie cheaty
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Boot shortcuts
 These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.

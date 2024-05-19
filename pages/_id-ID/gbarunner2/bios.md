@@ -24,7 +24,7 @@ GBA/GBA SP/Game Boy Micro/Game Boy Player:
 - **SHA-1:** `300c20df6731a33952ded8c436f7f186d25d3492`{:.wrap}
 - **SHA-256:** `fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570`{:.wrap}
 
-Seri Konsol DS/DS Lite/3DS:
+Jenis Konsol DS/DS Lite/3DS:
 - **CRC-32:** `a6473709`
 - **MD5:** `1c0d67db9e1208b95a1506b1688a0ad6`{:.wrap}
 - **SHA-1:** `c11531d5261006810cdc954bd4bec0afe3187b35`{:.wrap}

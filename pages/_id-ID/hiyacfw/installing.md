@@ -22,7 +22,7 @@ Jangan perbarui sistem setelah memasang hiyaCFW. Tambalan kartu SD hiyaCFW akan 
 
 ### Bagian 1: Persiapan di komputer untuk memasang hiyaCFW
 {% capture tab-windows %}
-Program hiyaCFW Helper sering kena positif palsu pada Windows Defender dan antivirus lain, mohon nonaktikan dulu antivirus tersebut agar bisa mengunduh atau membuka program.
+Program hiyaCFW Helper sering kena positif palsu pada Windows Defender dan antivirus lain, mohon nonaktifkan dulu antivirus tersebut agar bisa mengunduh atau membuka program.
 {: .alert .alert-info}
 
 1. Unduh & pasang [7-Zip](https://www.7-zip.org/download.html) versi terkini

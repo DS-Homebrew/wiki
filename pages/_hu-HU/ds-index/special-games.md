@@ -242,8 +242,8 @@ Ezek mentési adatokat írnának a cartridge mentő chipjére, ha cartridge-ről
 - Dragon Quest Wars
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 
-#### Unused code
-Hacking is required to activate the code.
+#### Nem használt kód
+Hackelés szükséges a kód aktiválásához.
 
 - Antipole
 - Cake Ninja

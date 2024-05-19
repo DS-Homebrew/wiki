@@ -3,7 +3,7 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: Keluarga konsol DS mana yang terbaik?
+title: Jenis konsol DS mana yang terbaik?
 description: Melihat fitur dari tiap konsol untuk menyesuaikan keperluan bermain DS(i) terbaik
 ---
 
@@ -22,13 +22,13 @@ Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca p
 
 [^1]: Permainan DS berjalan di 67mhz, tapi hampir semua bisa disetel ke 133mhz, sayangnya beberapa akan muncul isu.
 
-[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
+[^2]: Ketika menjalankan di mode DS(i), layar akan diperlebar tidak rapih, dan tidak piksel sempurna. Menahan START atau SELECT akan menonaktifkan penskalaan layar, tapi akan ada tepian hitam di sekeliling layar.
 
-[^3]: DS Phat model baru terdapat tingkat kecerahan yang sama dengan DS Lite, tapi perlu dipasang FlashMe agar empat tingkatnya bisa digunakan (setidaknya di menu awal).
+[^3]: DS Phat model baru terdapat tingkat kecerahan yang sama dengan DS Lite, tapi perlu dipasang FlashMe agar empat tingkatnya bisa digunakan (setidaknya di menu asli).
 
 [^4]: Ada satu permainan yang terdapat isu kompatibilitas, _MegaMan Battle Network 3_ akan mogok setelah logo Capcom.
 
-[^5]: ROM Video GBA besar (di atas 32MB) tidak bisa. Gyro and rumble features will also not work.
+[^5]: ROM Video GBA besar (di atas 32MB) tidak bisa. Fitur <i>gyro</i> dan getar tidak akan berfungsi.
 
 [^6]: Sebagian besar permainan tidak perlu kamera. Lihat [laman ini](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) untuk apa saja yang didukung. <i>Flashcard</i> perlu dipasang **TW**i**L**ight Menu++ dulu.
 

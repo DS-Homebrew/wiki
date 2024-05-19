@@ -23,10 +23,10 @@ description: Tombol kendali di TWiLight Menu++
 - <kbd class="face">X</kbd>: Hapus/sembunyikan permainan
 - (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menu SELECT atau Menu DS Klasik (Untuk akses ke menu sistem, pengaturan TWiLight Menu++, dan mode GBA)
 
-#### Tema R4
+#### Tema Original R4, GameBoy Color, dan Wood UI
 - <kbd>Atas</kbd>/<kbd>Bawah</kbd>: Pilih permainan/aplikasi
 - <kbd class="face">A</kbd>: Memulai permainan/aplikasi
-- <kbd class="l">L</kbd>: Beralih antara kartu SD konsol dan *flashcard*
+- <kbd class="r">R</kbd>: Beralih antara kartu SD konsol dan *flashcard*
 - <kbd class="face">Y</kbd>: Setelan tiap-permainan
    - <kbd class="face">X</kbd>: Menu pilih *cheat*
       - <kbd class="face">A</kbd>: Pilih/lepas *cheat*
@@ -34,6 +34,7 @@ description: Tombol kendali di TWiLight Menu++
       - <kbd class="face">X</kbd>: Simpan *cheat* dan keluar
       - <kbd class="face">Y</kbd>: Keterangan *cheat*
       - <kbd class="l">L</kbd>: Lepas semua *cheat*
+- (Tema Wood UI) <kbd>SELECT</kbd>: Beralih bentuk urutan
 
 #### Pintasan awal nyala
 Tombol berikut harus ditekan saat di layar *splash* TWiLight Menu++ / sesudah layar *splash* Nintendo DSi.

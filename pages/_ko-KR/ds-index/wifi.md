@@ -42,7 +42,7 @@ If you are setting up a network to be DS-compatible, it must meet the following 
 1. Launch Nintendo Wi-Fi Connection Setup
 1. 사용자의 엑세스 포인트에 접속합니다.
 1. 사용할 목적과 서비스에 따라, 기본 설정 DNS를 아래에 적힌 값으로 설정합니다.
-    - **[Wiimmfi](https://wiimmfi.de)** - `178.62.43.212`
+    - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
     - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
 1. 보조 DNS를 `1.1.1.1` 로 설정합니다.
 1. 여기서, 게임에 따라 NoSSL 패치가 필요할 수 있습니다.

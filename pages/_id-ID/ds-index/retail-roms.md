@@ -16,7 +16,7 @@ AP (Anti-Pembajakan) adalah salah satu cara pengembang agar pembeli tidak membaj
 Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau menambal ROM, coba modif langsung ROM itu sendiri dengan [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### *Cloneboot*
-*Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main jamak satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
+*Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main rangkap satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
 
 ### Berkas simpanan
 Kaset Nintendo DS umumnya terdapat 4 jenis simpanan:

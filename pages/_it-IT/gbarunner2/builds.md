@@ -25,7 +25,7 @@ Le build "principali", sono le release vere e proprie di GBARunner2. In genere q
 
 ### [Wi-Fi-Link](https://github.com/Gericom/GBARunner2/releases/tag/v20200217-194452_0b8bbe3)
 
-Il ramo Wi-Fi-Link aggiunge la possibilità di collegare due sistemi in modalità wireless. Si noti che non si connette attraverso Internet e non sarà mai possibile a causa della latenza. Allo stato attuale i risultati varieranno, l'unico gioco sicuro in grado di mantenere una connessione stabile è Advance Guardian Heroes, a condizione che vengano seguite le specifiche istruzioni. Inutile dire che, questo ramo, allo stato attuale, è una novità e una prova concettuale, e non qualcosa da usare davvero. Alcuni altri giochi sono in grado di connettersi, ma dipendono molto da fattori esterni come l'interferenza di altri segnali Wi-Fi, oltre a molte altre cose. Per impostare la connessione Wi-Fi, consulta la pagina [WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Il ramo Wi-Fi-Link aggiunge la possibilità di collegare due sistemi in modalità wireless. Si noti che non si connette attraverso Internet e non sarà mai possibile a causa della latenza. Allo stato attuale i risultati varieranno, l'unico gioco sicuro in grado di mantenere una connessione stabile è Advance Guardian Heroes, a condizione che vengano seguite le specifiche istruzioni. Inutile dire che, questo ramo, allo stato attuale, è una novità e una prova concettuale, e non qualcosa da usare davvero. Alcuni altri giochi sono in grado di connettersi, ma dipendono molto da fattori esterni come l'interferenza di altri segnali Wi-Fi, oltre a molte altre cose. To setup Wi-Fi linking, please see the [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 ## Build specifiche per DS
 

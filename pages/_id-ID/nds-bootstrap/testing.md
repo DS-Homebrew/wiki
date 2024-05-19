@@ -12,12 +12,12 @@ Untuk ROM yang sudah diuji, lihat [daftar kompatibilitas](https://docs.google.co
 Untuk isu yang ada pada ROM, lihat [laman *issues*](https://github.com/DS-Homebrew/nds-bootstrap/issues) di Github. Jika ingin membuat [isu baru](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), ikuti contoh templat isu dengan benar.
 
 ### Saran Pengujian ROM
-- Biasanya, baca dulu [pertanyaan umum ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) dan [glosarium nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) untuk memahami cara menyidik gangguan isu
+- Biasanya, baca dulu [pertanyaan umum ](https://wiki.ds-homebrew.com/id-ID/nds-bootstrap/faq) dan [glosarium nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) untuk memahami cara menyidik gangguan isu
 
 #### Untuk menguji kutu sesuai laporan
 - Tiru langkah-langkahnya semirip mungkin
 - Jika ada perbedaan (seperti versi nds-bootstrap, konsolnya, atau ubahan pengaturan), pastikan itu ditulis juga di dalam laporan
-- Jangan ragu berbicara terkait perincian ke pelapor awal (seperti meminta berkas simpanan atau informasi belum lainnya) jika sempat
+- Jangan ragu bertanya terkait perincian ke pelapor awal (seperti meminta berkas simpanan atau informasi belum lainnya) jika sempat
 - Jika tidak ada solusi, jangan lupa perbarui daftar kompatibilitas
 
 #### Untuk ROM yang ada isu setelah nds-bootstrap diperbarui

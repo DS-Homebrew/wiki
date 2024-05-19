@@ -11,7 +11,8 @@ description: 닌텐도 DSi 또는 DS flashcard에서 TWiLight Menu++를 제거�
 ### 제거하기
 1. 본체의 SD 카드 또는 Flashcard의 SD 카드에 진입합니다.
 1. `_nds`폴더를 여세요
-1. `TWiLightMenu` 폴더를 삭제하세요
+1. Delete the `TWiLightMenu` folder
+    - **IMPORTANT:** Before deleting the folder, open it, and check if a `saves` folder exists. If it does, then backup everything inside that folder
 1. nds-bootstrap와 GBARunner2 파일들을 삭제하세요
 1. `_nds`에서 나오세요
 1. `boot.nds`를 삭제하세요

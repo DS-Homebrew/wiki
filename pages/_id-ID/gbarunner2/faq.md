@@ -10,11 +10,11 @@ description: Pertanyaan umum dan sidik gangguan terkait GBARunner2
 #### Bagaimana membuat dan menaruh tepian kustom?
 Silakan baca dan ikuti [panduan ini](https://docs.google.com/document/d/1owjiW-1fHEbokrkK2ZuPFjR2-N9s1dXCCAM3ghWRtxk/edit?usp=sharing) oleh FrescoASF.
 
-#### Apakah mendukung cheat?
+#### Apakah bisa cheat?
 Saat ini belum. Tapi kode *cheat* bisa disemat permanen ke ROM GBA dengan [GBAATM](https://gbatemp.net/threads/gba-auto-trainer-maker-gbaatm.99334/).
 
 #### Versi GBARunner2 mana yang harus digunakan?
-Biasanya, versi yang disertakan di TWiLight Menu++ sudah cukup. Untuk informasi lebih lanjut terkait berbagai versi GBARunner, lihat [laman wiki Versi](https://wiki.ds-homebrew.com/gbarunner2/builds).
+Biasanya, versi yang disertakan di TWiLight Menu++ sudah cukup. Untuk informasi lebih lanjut terkait berbagai versi GBARunner, lihat [laman wiki Versi](https://wiki.ds-homebrew.com/id-ID/gbarunner2/builds).
 
 #### Bagaimana menggunakan fitur Wi-Fi link?
 Diperlukan versi dari cabang [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) untuk menggunakan fiturnya. Untuk perincian arahan cara menyiapkan versi ini ada di [laman WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
@@ -29,9 +29,9 @@ ID judul bisa diubah menggunakan ini:
 
 <script src="/assets/js/change-gba-tid.js"></script>
 
-#### Kenapa ROM tidak berfungsi, padahal di daftar kompatibilitas tertulis bisa?
-Daftar kompatibilitas GBARunner2 utamanya diuji dengan BIOS GBA resmi yang mana menambah kompatibilitas. Lihat [Info BIOS GBA](https://wiki.ds-homebrew.com/gbarunner2/bios) untuk cara mendapatkan BIOS GBA resmi.
+#### Kenapa ROM tidak berfungsi, padahal tertulis bisa di daftar kompatibilitas?
+Daftar kompatibilitas GBARunner2 utamanya diuji dengan BIOS GBA resmi yang mana menambah kompatibilitas. Lihat [Info BIOS GBA](https://wiki.ds-homebrew.com/id-ID/gbarunner2/bios) untuk cara mendapatkan BIOS GBA resmi.
 
 #### Bagaimana memperbaiki gambar berulang di bagian bawah layar 3DS?
-Terdapat *bug* (kutu) di TWLBg yang cukup lazim di GBARunner2. Ini bisa diperbaiki sementara dengan mengulang GBARunner2.
+Ini *bug* (kutu) di TWLBg yang cukup lazim di GBARunner2. Perbaikan sementara bisa dengan mengulang GBARunner2.
 - Jika bisa, lebih baik gunakan opsi lain menjalankan ROM GBA di 3DS, seperti VC inject, open_agb_firm, atau mGBA di seri new3DS

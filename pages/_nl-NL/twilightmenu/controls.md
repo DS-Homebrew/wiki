@@ -23,10 +23,10 @@ description: Bedieningselementen voor het gebruik van TWiLight Menu++
 - <kbd class="face">X</kbd>: Verwijder/verbeg spel
 - (DSi- / Saturn- / HBL-thema) <kbd>SELECT</kbd>: SELECT-menu of DS Classic Menu (Waar systeemmenu, TWiLight Menu++-instellingen, en GBA Mode toegankelijk zijn)
 
-#### R4-thema
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Omhoog</kbd>/<kbd>Omlaag</kbd>: Selecteer een spel/app
 - <kbd class="face">A</kbd>: Voer spel/app uit
-- <kbd class="l">L</kbd>: Schakel tussen SD-kaart en flashkaart
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Instellingen per spel
    - <kbd class="face">X</kbd>: Cheat-menu
       - <kbd class="face">A</kbd>: Schakel cheat
@@ -34,6 +34,7 @@ description: Bedieningselementen voor het gebruik van TWiLight Menu++
       - <kbd class="face">X</kbd>: Sla op en sluit cheat-menu af
       - <kbd class="face">Y</kbd>: Toon cheat-beschrijving
       - <kbd class="l">L</kbd>: Alle cheats uitschakelen
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Sneltoetsen voor opstarten
 Deze moeten worden ingedrukt op het TWiLight Menu++-opstartscherm / direct na het Nintendo DSi-opstartscherm.

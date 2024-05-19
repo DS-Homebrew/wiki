@@ -9,18 +9,10 @@ description: Hogyan használj egyedi betű készletet a TWiLight Menu++-ban
 
 A TWiLight Menu++ tud olyan egyedi betűkészleteket használni, amik NFTR (Nitro FonT Resource) formátumúak. A készletek a beállításokban, kézikönyv címekben és a Nintendo DSi, Nintendo 3DS, SEGA Saturn és Homebrew Launcher témákban kerülnek felhasználásra.
 
-### Beágyazott betűkészlet info
-3 betűkészlet van beágyazva a TWiLight Menu++-ba. Amikor a TWiLight Menu++ DSi Módban fut, minden karaktert tartalmaz, amire a TWiLight le lett fordítva, de ha DS Módban fut, sokkal korlátozottabb, a RAM korlátok miatt. Ezek a következők:
-- Alapértelmezett: Ez hivatalos DSi betűkészletet használja, mint elsődleges betűkészletet, és támogatja az összes karaktert, ami a TWiLight Menu++-ban használt, minden nyelven a DS módban
-- Kínai(Egyszerűsített): Ez a Noto Sans CS-t használja elsődleges betűkészletnek, és szignifikánsan több Kínai (Egyszerűsített) karakterrel rendelkezik DS módban, más nyelvek karaktereinek rovására
-- Koreai: Ez azonos az alapértelmezettel DSi módban, de DS módban egy sokkal teljesebb hangul készletet tartalmaz, más nyelvek karaktereinek rovására
-
 ### Könyvtár szerkezet
 Az egyedi betűkészletek a `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` útvonalról kerülnek betöltésre, ahol a `[font name]` bármi lehet amit szeretne, és a `[font file].nftr` egyike a következőknek:
-- `large-ds.nftr`, `large-dsi.nftr`, vagy `large.nftr`: A címekhez használt nagyobb betűméret
-- `small-ds.nftr`, `small-dsi.nftr`, vagy `small.nftr`: A legtöbb más szöveghez használt kisebb betűméret
-
-A `-ds` és `-dsi` fájlok magasabb prioritással rendelkeznek, mint a normálisok, és ha megtalálásra kerülnek, akkor ezt használja a TWiLight Menu++, amikor DS vagy DSi Módban fut.
+- `large.nftr`: The larger font used for titles
+- `small.nftr`: The smaller font used for most other text
 
 ### Szkin betűkészletek
 Hozzá adhatsz betűkészleteket az [egyedi DSi/3DS téma szkinekhez](custom-dsi-3ds-skins), ami felül fogja bírálni azt ami van be TWiLight Menu++ beállításaiban. Ezek a betűkészletek a `font` mappába kerülnek a szkin gyökér könyvtárába.

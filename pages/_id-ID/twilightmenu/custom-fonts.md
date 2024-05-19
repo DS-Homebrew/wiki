@@ -9,18 +9,10 @@ description: Cara menggunakan <i>font</i> kustom di TWiLight Menu++
 
 TWiLight Menu++ membaca *font* kustom berformat NFTR (*Nitro FonT Resource*). Ini digunakan di Pengaturan, judul Manual, dan di tema Nintendo DSi, Nintendo 3DS, SEGA Saturn, dan Homebrew Launcher.
 
-### Info *font* terserta
-Terdapat tiga *font* yang disertakan di TWiLight Menu++. Saat menjalankan TWiLight Menu++ di Mode DSi, akan dimuat *font* yang mengandung semua huruf untuk bahasa yang tersedia di TWLMenu++, tapi jika dijalankan di Mode DS hurufnya terbatas karena keterbatasan RAM. Tersedia sebagai berikut:
-- Bawaan: Menggunakan *font* DSi resmi sebagai *font* utama di Mode DS, dan mendukung semua huruf untuk digunakan bahasa yang ada di TWiLight Menu++
-- Cina (Huruf Sederhana): Menggunakan Noto Sans CS sebagai *font* utama dan terdapat lebih banyak huruf hanzi sederhana di Mode DS, tapi mengorbankan huruf bahasa lain
-- Korea: Hampir sama dengan Bawaan di Mode DSi, bedanya terdapat serangkaian hangeul lebih lengkap di Mode DS, tapi mengorbankan huruf bahasa lain
-
 ### Struktur direktori
 *Font* kustom dimuat dari `sd:/_nds/TWiLightMenu/extras/fonts/[nama font]/[berkas font].nftr`, berkas `[nama font]` bisa nama apa saja, dan `[berkas font].nftr` bisa salah satu dari berikut ini:
-- `large-ds.nftr`, `large-dsi.nftr`, atau `large.nftr`: *Font* ukuran besar ini untuk judul
-- `small-ds.nftr`, `small-dsi.nftr`, atau `small.nftr`: *Font* ukuran kecil ini untuk teks lain
-
-Berkas berujung `-ds` dan `-dsi` lebih diutamakan daripada yang biasa dan jika terbaca akan digunakan TWiLight Menu++ di Mode DS atau DSi secara urutan.
+- `large.nftr`: *Font* lebih besar untuk judul
+- `small.nftr`: *Font* lebih kecil untuk teks keseluruhan
 
 ### *Font* di skin
 *Font* boleh ditambah di [skin tema DSi/3DS kustom](custom-dsi-3ds-skins), ini akan menimpakan apa pun yang diatur di pengaturan TWiLight Menu++. *Font* ini ditaruh di folder `font`, di akar tempat skin.

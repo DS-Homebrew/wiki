@@ -9,18 +9,10 @@ description: Jak używać własnych czcionek z TWiLight Menu++
 
 TWiLight Menu++ może używać niestandardowych czcionek w formacie NFTR (Nitro FonT Resource). Będą one używane w Ustawieniach, tytułach podręcznika oraz w motywach Nintendo 3DS, SEGA Saturn i Homebrew Launcher.
 
-### Dołączone informacje o czcionce
-Do TWiLight Menu++ są już dołączone trzy czcionki. When TWiLight Menu++ is running in DSi Mode, they all contain all of the characters that should be needed for all of the languages TWiLight is translated to, but when running in DS Mode they are more limited due to RAM limitations. Wygląda to następująco:
-- Default: This uses the official DSi font as its primary font, and supports all characters that are used in TWiLight Menu++ itself in all languages in DS mode
-- Chiński (uproszczony): używa CS Noto Sans jako podstawowej czcionki i ma znacznie więcej chińskich (uproszczonych) znaków w trybie DS, kosztem znaków innych języków.
-- Koreański: Identycznie jak Domyślne w DSi Mode, ale w DS Mode ma bardziej kompletny zestaw znaków hangul, kosztem znaków innych języków
-
 ### Struktura katalogu
 Niestandardowe czcionki są wczytywane z `sd:/_nds/TWiLightMenu/extras/fonts/[nazwa czcionki]/[plik czcionki].nftr`, gdzie `[nazwa czcionki]` jest nazwą wybraną przez Ciebie a `[nazwa czcionki].ntfr` jest jednym z następujących:
-- `large-ds.nftr`, `large-dsi.nftr` lub `large.nftr`: Większa czcionka używana w tytułach
-- `small-ds.nftr`, `small-dsi.nftr` lub `small.nftr`: Mniejsza czcionka dla reszty tekstu
-
-Pliki `-ds` i `-dsi` mają wyższy priorytet niż normalne i jeśli zostaną wykryte, będą użyte, kiedy TWiLight Menu++ działa odpowiednio w DS lub DSi Mode.
+- `large.nftr`: The larger font used for titles
+- `small.nftr`: The smaller font used for most other text
 
 ### Skin fonts
 You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.

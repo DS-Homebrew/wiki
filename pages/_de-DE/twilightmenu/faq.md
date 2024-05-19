@@ -23,9 +23,6 @@ TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <ht
 - If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
 - If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
-#### Where is the Acekard/Wood UI theme?
-The Acekard (also called Wood UI) theme was removed due to its buggy behavior and causing SD card corruption. Please wait for a fix. Progress for the return of this theme can be found in [this PR](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
-
 #### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
 Go into TWLMenu++ Settings, and disable `Update recently played list`.
 

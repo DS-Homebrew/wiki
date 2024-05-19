@@ -44,7 +44,17 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 1. Dans l'Homebrew Launcher, ouvrez `NDS Forwarder Generator`
 1. Naviguez jusqu'à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd>
 1. Confirmez l'installation en sélectionnant `Yes`
-1. Après son installation, votre jeu apparaîtra comme un titre dans votre menu HOME
+1. After it is installed, your game will now appear as a title on your HOME menu
+
+### Part 3: Getting the AP-fix pack from TWiLight Menu++
+
+If you already have TWiLight Menu++ installed, you are done with this guide.
+{:.alert .alert-info}
+
+1. Téléchargez le dernier [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+1. Dans le fichier `.7z`, allez dans le dossier `_nds/TWiLightMenu/extras`
+1. Faites glisser le fichier `apfix.pck` vers `sd:/_nds/ntr-forwarder/`
+
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -61,9 +71,9 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extrayez le contenu du dossier `for SD Card root` à la racine de la carte SD de votre DSi
 
-### Partie 2 : Obtenir les fichiers de correction AP à partir de TWiLight Menu++
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next part.
+If you already have TWiLight Menu++ installed, skip to the next part.
 {:.alert .alert-info}
 
 1. Téléchargez le dernier [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
@@ -94,9 +104,9 @@ If you already have TWiLight Menu++, skip to the next part.
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
 
-### Partie 2 : Obtenir les fichiers de correction AP à partir de TWiLight Menu++
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
+If you already have TWiLight Menu++ installed or just plan to run DSiWare, skip to the next part.
 {:.alert .alert-info}
 
 1. Téléchargez le dernier [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)

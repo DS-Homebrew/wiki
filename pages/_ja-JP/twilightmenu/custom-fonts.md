@@ -9,18 +9,10 @@ description: TWiLight Menu++でカスタムフォントを使う方法
 
 TWiLight Menu++では、NFTR（Nitro FonT Resource）形式のカスタムフォントを利用できます。 設定画面、説明書のタイトル、およびニンテンドーDSi、ニンテンドー3DS、セガサターン、Homebrew Launcherのテーマに使われます。
 
-### 含まれるフォント情報
-TWiLight Menu++には3つのフォントが含まれています。 TWiLight Menu++がDSiモードで実行される場合は、翻訳済み言語に必要なすべての文字が含まれます。しかし、DSモードで実行される場合はRAM容量の限界によって制限されます。 これらは以下の通りです。
-- デフォルト：これは公式DSiフォントを主なフォントとして使い、DSモードでも全言語でTWiLight Menu++で使われるすべての文字を含みます。
-- 中国語（簡体字）：これはNoto Sans CSを主要なフォントとして使い、他言語の文字と引き換えにDSモードの中国語（簡体字）の文字数を大幅に増加します。
-- 韓国語：これはDSiモードではデフォルトと同じです。しかしDSモードでは、他言語の文字と引き換えに、より完全なハングルのセットを提供します。
-
 ### ディレクトリ構造
 カスタムフォントは`sd:/_nds/TWiLightMenu/extras/fonts/[フォントの名前]/[フォントファイル].nftr`から読み込まれます。ここで、`[フォントの名前]`は任意の名前であり、`[フォントファイル].nftr`は以下のいずれかです。
-- `large-ds.nftr`、`large-dsi.nftr`または`large.nftr`：タイトルに使われる大きなフォント
-- `small-ds.nftr`、`small-dsi.nftr`または`small.nftr`：他のほとんどのテキストに使われる小さいフォント
-
-`-ds`と`-dsi`ファイルは通常のファイルよりも優先度が高く、見つかった場合はそれぞれDS・DSiモードでTWiLight Menu++が実行される時に使われます。
+- `large.nftr`: The larger font used for titles
+- `small.nftr`: The smaller font used for most other text
 
 ### スキンフォント
 You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.

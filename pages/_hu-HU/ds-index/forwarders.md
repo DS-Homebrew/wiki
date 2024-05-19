@@ -44,7 +44,17 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 1. A Homebrew Launcher-ben nyisd meg az `NDS Forwarder Generator`-t
 1. Navigálj a játék lokációjára és nyomj <kbd class="face">A</kbd> gombot
 1. Hagyd jóvá a telepítést a `Yes` opcióval
-1. Miután telepítetted, a játék megjelenik mint cím a HOME menüdben
+1. After it is installed, your game will now appear as a title on your HOME menu
+
+### Part 3: Getting the AP-fix pack from TWiLight Menu++
+
+If you already have TWiLight Menu++ installed, you are done with this guide.
+{:.alert .alert-info}
+
+1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
+1. A `7z` fájlban menj az `_nds/TWiLightMenu/extras` könyvtárba
+1. Húzd az `apfix` mappát az `sd:/_nds/ntr-forwarder/` mappába a 3DS-ed SD kártyájára
+
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -61,9 +71,9 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 1. Csomagold ki a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a DSi SD kártyájának gyökerébe
 
-### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-Ha már van TWiLight Menu++-od, ugorj a következő részre.
+If you already have TWiLight Menu++ installed, skip to the next part.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
@@ -94,9 +104,9 @@ Ha már van TWiLight Menu++-od, ugorj a következő részre.
 1. Töltsd le a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a flashcard SD kártyájának gyökerébe
 
-### 2. rész: AP fix fájlok beszerzése a TWiLight Menu++-ból
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-Ha már van TWiLight Menu++-od, vagy szeretnél DSiWare-t futtatni, ugorj a következő részre.
+If you already have TWiLight Menu++ installed or just plan to run DSiWare, skip to the next part.
 {:.alert .alert-info}
 
 1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót

@@ -23,10 +23,10 @@ description: Управление TWiLight Menu++
 - <kbd class="face">X</kbd>: Удалить/скрыть игру
 - (Тема DSi/Saturn/HBL) <kbd>SELECT</kbd>: выбор между SELECT меню и классическом меню DS (Из которого можно зайти в системное меню, Настройки TWiLight Menu++, режим GBA)
 
-#### Тема R4
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Вверх</kbd>/<kbd>Вниз</kbd>: Выбор игры/приложения
 - <kbd class="face">A</kbd>: Запуск игры/приложения
-- <kbd class="l">L</kbd>: Переключение между SD картой и флеш-картриджем
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Настройки игры
    - <kbd class="face">X</kbd>: Чит-меню
       - <kbd class="face">A</kbd>: Переключить чит
@@ -34,6 +34,7 @@ description: Управление TWiLight Menu++
       - <kbd class="face">X</kbd>: Сохранить и выйти из чит-меню
       - <kbd class="face">Y</kbd>: Показать описание чита
       - <kbd class="l">L</kbd>: Отключить все читы
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Горячие клавиши при запуске
 Они должны быть нажаты во время заставки TWiLight Menu++ / сразу после заставки Nintendo DSi.

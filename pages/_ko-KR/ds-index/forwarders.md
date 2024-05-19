@@ -44,7 +44,17 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 1. Homebrew Launcher 내에서, `NDS Forwarder Generator`를 실행해 주세요.
 1. 당신의 게임 파일 위치에 들어가서, <kbd class="face">A</kbd>를 눌러 주세요.
 1. `Yes`를 눌러서, 설치를 확정해 주세요.
-1. 설치가 끝나면, 당신의 게임이 HOME 메뉴에 나올 것입니다.
+1. After it is installed, your game will now appear as a title on your HOME menu
+
+### Part 3: Getting the AP-fix pack from TWiLight Menu++
+
+If you already have TWiLight Menu++ installed, you are done with this guide.
+{:.alert .alert-info}
+
+1. 최신 버전의 [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)를 다운로드 하세요.
+1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
+1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
+
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -61,9 +71,9 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-If you already have TWiLight Menu++, skip to the next part.
+If you already have TWiLight Menu++ installed, skip to the next part.
 {:.alert .alert-info}
 
 1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
@@ -94,9 +104,9 @@ If you already have TWiLight Menu++, skip to the next part.
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
+### Part 2: Getting the AP-fix pack from TWiLight Menu++
 
-If you already have TWiLight Menu++ or just plan to run DSiWare, skip to the next part.
+If you already have TWiLight Menu++ installed or just plan to run DSiWare, skip to the next part.
 {:.alert .alert-info}
 
 1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.

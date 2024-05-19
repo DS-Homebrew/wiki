@@ -22,7 +22,7 @@ Ada dua cara melakukannya, yaitu menggunakan:
 1. Unduh [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
 1. Buat folder bernama `payloads` dalam folder `/luma` jika belum ada
 1. Salin `open_agb_firm.firm` dari berkas `.7z` open_agb_firm ke folder `/luma/payloads`
-1. Copy `3ds` from the open_agb_firm `.7z` file to the root of your SD card
+1. Salin `3ds` dari berkas `.7z` open_agb_firm ke akar kartu SD
 1. Salin `Bios_Dumper.gba` ke akar kartu SD
 1. Sisip kembali kartu SD ke konsol
 

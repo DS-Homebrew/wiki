@@ -23,10 +23,10 @@ description: A TWiLight Menu++ irányítása
 - <kbd class="face">X</kbd>: Játék törlése/elrejtése
 - (DSi/Saturn/HBL téma) <kbd>SELECT</kbd>: SELECT menü vagy DS Classic Menü (Ahol a rendszer menü, TWiLight Menu++ Beállítások és a GBA Mód érhető el)
 
-#### R4 téma
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Fel</kbd>/<kbd>Le</kbd>: Játék/app kiválasztása
 - <kbd class="face">A</kbd>: Játék/app indítása
-- <kbd class="l">L</kbd>: Váltás az SD kártya és a flashcard között
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Játékonkénti beállítások
    - <kbd class="face">X</kbd>: Csalás menü
       - <kbd class="face">A</kbd>: Csalás be-/kikapcsolása
@@ -34,6 +34,7 @@ description: A TWiLight Menu++ irányítása
       - <kbd class="face">X</kbd>: Mentés és kilépés a csalás menüből
       - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
       - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Indítási gyorsbillentyűk
 Ezeket a TWiLight Menu++ kezdőképernyőjén kell nyomni / rögtön a Nintendo DSi kezdőképernyő után.

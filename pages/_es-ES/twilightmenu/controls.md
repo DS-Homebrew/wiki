@@ -23,10 +23,10 @@ description: Controles para usar TWiLight Menu++
 - <kbd class="face">X</kbd>: Borrar/ocultar juego
 - (Tema DSi/Saturn/HBL) <kbd>SELECT</kbd>: Menú SELECT, o Menú Clásico de DS (donde se pueden acceder al menú del sistema, la configuración de TWiLight Menu++ y el modo GBA)
 
-#### Tema R4
+#### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Arriba</kbd>/<kbd>Abajo</kbd>: Seleccionar juego o aplicación
 - <kbd class="face">A</kbd>: Iniciar juego o aplicación
-- <kbd class="l">L</kbd>: Cambiar entre la tarjeta SD y la flashcard
+- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Ajustes del juego
    - <kbd class="face">X</kbd>: Trucos
       - <kbd class="face">A</kbd>: Activar truco
@@ -34,6 +34,7 @@ description: Controles para usar TWiLight Menu++
       - <kbd class="face">X</kbd>: Guardar y salir del menú de trucos
       - <kbd class="face">Y</kbd>: Mostrar descripción del truco
       - <kbd class="l">L</kbd>: Desactivar todos los trucos
+- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Atajos de inicio
 Estas combinaciones deben ser presionadas en la pantalla de bienvenida de TWiLight Menu++ o justo después de la pantalla de inicio de Nintendo DSi.

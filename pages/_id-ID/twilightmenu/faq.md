@@ -19,18 +19,15 @@ TWL_FIRM mungkin saja rusak. Ikuti panduan ini untuk memperbaiki isu: <https://3
    - Lihat laman [dsi.cfw.guide](https://dsi.cfw.guide/sd-card-setup.html) untuk aplikasi anjuran
 - Jika tidak berhasil juga, coba kartu SD lain
 
-#### Layar sentuh tidak tanggap setelah memuat permainan, ini bagaimana?
+#### Layar sentuh tidak tanggap setelah memuat permainan, bagaimana ini?
 - Jika menjalankan kaset, pastikan pengaturan `Mode Sentuh Slot-1` diatur ke `Mode DS`
 - Jika masih muncul isu, atau jika menggunakan ROM, ikuti panduan ini: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
-
-#### Di mana tema Acekard/Wood UI?
-Tema Acekard (disebut juga Wood UI) dihilangkan karena bertindak tidak stabil dan merusak kartu SD. Mohon tunggu diperbaiki. Perkembangan kembalinya tema ini ada di [*Pull Request*](https://github.com/DS-Homebrew/TWiLightMenu/pull/1109).
 
 #### Bagaimana memperbaiki TWiLight Menu++ mengulang atau galat Guru Meditation saat memuat permainan?
 Masuk ke Pengaturan TWLMenu++, dan nonaktifkan `Perbarui daftar Terbaru Main`.
 
 #### Kenapa selalu layar putih saat memuat permainan DS dari kartu SD?
-Buka laman [ROM saya bermasalah, ini bagaimana?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) di Pertanyaan Umum nds-bootstrap.
+Buka laman [ROM saya bermasalah, bagaimana ini?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) di Pertanyaan Umum nds-bootstrap.
 
 #### Bagaimana menggunakan cheat?
 Harus ada *cheat DB* berupa berkas `usrcheat.dat` di folder `sd:/_nds/TWiLightMenu/extras/`. Pangkalan data *cheat* termutakhir ada di [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
@@ -99,14 +96,14 @@ Untuk gambar ikon jenis banner.bin bisa dianimasikan dan mengganti nama judul di
 Gambar ikon prajadi bisa dicari di [laman ikon situs skin TWiLight Menu++](https://skins.ds-homebrew.com/icon/) dan bisa dibagikan ke situ jika sudah membuat.
 
 #### Bagaimana memasang tema kustom ke TWiLight Menu++?
-Skin kustom tema bisa didapatkan dari [laman skin resmi](https://skins.ds-homebrew.com/), yang menampung berbagai skin buatan komunitas yang siap digunakan. Skin kustom bisa dibuat sendiri untuk tema Nintendo 3DS dan Nintendo DSi dengan mengikuti [panduan ini](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). Tema **Homebrew Launcher**, **Sega Saturn** dan **Game Boy Color** _**tidak bisa**_ diubah suai.
+Skin kustom tema bisa didapatkan dari [laman skin resmi](https://skins.ds-homebrew.com/), yang menampung berbagai skin buatan komunitas yang siap digunakan. Skin kustom bisa dibuat sendiri untuk tema Nintendo 3DS dan Nintendo DSi dengan mengikuti [panduan ini](https://wiki.ds-homebrew.com/id-ID/twilightmenu/custom-dsi-3ds-skins). Tema **Homebrew Launcher**, **Sega Saturn** dan **Game Boy Color** _**tidak bisa**_ diubah suai.
 
 Setelah mendapatkan skin kustom, cara memasangnya tinggal taruh folder skin sesuai tempatnya, yang mana berbeda tergantung jenis tema skin.
 - Skin untuk tema Nintendo DSi ditaruh di `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Skin untuk tema Nintendo 3DS ditaruh di `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skin untuk tema R4 Original ditaruh di `sd:\_nds\TWiLightMenu\r4menu\themes\`
 
-Jika menggunakan seri konsol 3DS, lebih mudah memasang skin dengan [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Masuk ke pengaturan Universal-Updater, pilih `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
+Jika menggunakan sejenis konsol 3DS, lebih mudah memasang skin dengan [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Masuk ke pengaturan Universal-Updater, pilih `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
 
 Untuk menerapkan tema kustom harus ke Pengaturan TWiLight Menu++.
 1. Di halaman `Pengaturan GUI`, sorot opsi `Tema` dan pilih tema dengan tombol kanan dan kiri.
@@ -117,4 +114,4 @@ Untuk menerapkan tema kustom harus ke Pengaturan TWiLight Menu++.
 TWiLight Menu++ seharusnya berubah tampilan (dan juga musik, jika ada di skin yang dipilih dan diaktifkan di pengaturan).
 
 #### Apakah ada emulator 3DS untuk DS(i)?
-Pastinya tidak ada. Mengemulasi 3DS pada DS(i) sangat tidak mungkin karena peranti keras 3DS lebih baru.
+Tidak ada. Mengemulasi 3DS pada DS(i) pasti tidak mungkin karena peranti keras 3DS lebih baru.

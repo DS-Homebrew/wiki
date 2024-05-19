@@ -9,18 +9,10 @@ description: Hoe gebruik je aangepaste lettertypen met TWiLight Menu++
 
 TWiLight Menu++ kan aangepaste lettertypes in NFTR-formaat (Nitro FonT Resource) gebruiken. Ze zullen worden gebruikt in Instellingen, de titels van de Handleiding, en in de Nintendo DSi, Nintendo 3DS, SEGA Saturn, en Homebrew Launcher thema's.
 
-### Inbegrepen lettertype-info
-Er zijn drie lettertypen inbegrepen bij TWiLight Menu++. Wanneer TWiLight Menu++ in DSi-modus draait, bevatten ze alle tekens die nodig zouden moeten zijn voor alle talen waarnaar TWiLight wordt vertaald, maar wanneer ze in DS-modus draaien, zijn ze beperkter wegens RAM-beperkingen. Ze zijn als volgt:
-- Standaard: Dit gebruikt het officiële DSi-lettertype als het primaire lettertype, en ondersteunt alle tekens die worden gebruikt in TWiLight Menu++ zelf in alle talen in DS-modus
-- Chinees (Vereenvoudigd): Dit gebruikt Noto Sans CS als het primaire lettertype en heeft aanzienlijk meer Chinese (Vereenvoudigde) tekens in DS-modus, ten koste van tekens voor andere talen
-- Koreaans: Dit is identiek aan Standaard in DSi-modus, maar heeft in DS-modus een completere hangul-set, ten koste van karakters voor andere talen
-
 ### Mapstructuur
 Aangepaste lettertypen worden geladen van `sd:/_nds/TWiLightMenu/extras/fonts/[lettertypenaam]/[lettertypebestand].nftr` waar `[lettertypenaam]` de gewenste naam is en `[lettertypebestand].nftr` een van de volgende is:
-- `large-ds.nftr`, `large-dsi.nftr`, of `large.nftr`: Het grotere lettertype dat voor spellen wordt gebruikt
-- `small-ds.nftr`, `small-dsi.nftr`, of `small.nftr`: Het kleinere lettertype dat voor de meeste andere teksten wordt gebruikt
-
-De `-ds` en `-dsi` bestanden hebben een hogere prioriteit dan de normale en worden, indien gevonden, gebruikt wanneer TWiLight Menu++ in DS- of DSi-modus draait.
+- `large.nftr`: The larger font used for titles
+- `small.nftr`: The smaller font used for most other text
 
 ### Skin-lettertypen
 Je kunt lettertypen toevoegen aan [aangepaste DSi-/3DS-themaskins](custom-dsi-3ds-skins), die zullen overschrijven wat is ingesteld in TWiLight Menu++-instellingen. Deze lettertypen gaan in de map `font`, in de hoofdmap van de skin.

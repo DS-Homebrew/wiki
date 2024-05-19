@@ -22,13 +22,13 @@ A Nintendo DS, Nintendo DSi, Nintendo 3DS ésNintendo 2DS konzolok mind képesek
 
 [^1]: A DS-játékok 67 MHz-en futnak, de a legtöbbet be lehet állítani 133 MHz-es sebességre, bár bizonyos játékoknál ez problémát okozhat.
 
-[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
+[^2]: DS(i) üzemmódban történő indításkor a képernyők nem pontosan skálázotta, és nem jelennek meg pixel pontosan. A START vagy a SELECT gomb lenyomva tartása kikapcsolja a képernyő átméretezését, de a képernyő képei körül fekete keretek jelennek meg.
 
 [^3]: A későbbi Phat modellek ugyanazokkal a fényerőszintekkel rendelkeznek, mint a Lite modell, de ezek használatához a FlashMe telepítése szükséges (legalábbis az eredeti menüben).
 
 [^4]: Az egyetlen ismert játék, amely kompatibilitási problémával küzd, a _MegaMan Battle Network 3_ a Capcom logó megjelenése után összeomlik.
 
-[^5]: A nagy GBA Video ROM-ok (32 MB felett) nem működnek. Gyro and rumble features will also not work.
+[^5]: A nagy GBA Video ROM-ok (32 MB felett) nem működnek. Továbbá a giroszkóp és rezgés funkciók sem működnek.
 
 [^6]: A támogatott címek többsége nem igényel kamerát. A támogatott címeket lásd [ezen az oldalon](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h). A **TW**i**L**ight Menu++ szüséges, hogy telepítve legyen a flashcard-ra.
 
