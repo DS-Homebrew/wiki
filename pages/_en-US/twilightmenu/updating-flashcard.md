@@ -16,7 +16,7 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 
 ### Updating
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extract `TWiLightMenu-Flashcard.7z`
 1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
