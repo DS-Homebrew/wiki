@@ -4,7 +4,7 @@ layout: wiki
 section: ds-index
 category: guides
 title: ntrboot
-description: How using ntrboot on a Nintendo DSi
+description: How to use ntrboot on a Nintendo DSi
 tabs:
   - dsi: DS/DSi
     3ds: 3DS
@@ -53,11 +53,11 @@ You must have already followed [3ds.hacks.guide](https://3ds.hacks.guide) and ha
 ### Running ntrboot
 
 1. Download any homebrew to the SD card as `sdmc:/ntrboot.nds`. For this example we'll use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases/).
-2. Insert your SD card and the ntrboot flashcard in your DSi
-3. Place a magnet near the `ABXY` buttons until you trigger sleep mode
-4. Turn off your DSi
-5. With the magnet in place, hold `start` + `select` + `x` and turn the DSi on
-6. GodMode9i should now boot
+1. Insert your SD card and the ntrboot flashcard in your DSi
+1. Place a magnet near the `ABXY` buttons until you trigger sleep mode
+1. Turn off your DSi
+1. With the magnet in place, hold `start` + `select` + `x` and turn the DSi on
+1. GodMode9i should now boot
 
 If ntrboot does nothing and you're sure that the magnet and button combo are correct, ntrboot might not be working. Try following the flashing instructions again with [this ntrboot image](/assets/files/default_green.gcd) and see if ntrboot loads a green screen. If it does not, your flashcard may be incompatible and you will need to ask in the [DS(i) Mode Hacking](https://ds-homebrew.com/discord) Discord server.
 
