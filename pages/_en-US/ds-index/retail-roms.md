@@ -40,24 +40,14 @@ You can spot a game that uses DMA in no$gba by enabling the DMA log on ARM9. A D
 - For example: `DMA2: 04100010 023C18C0 AF000001`
 
 ### Action Replay cheats
-Action Replay cheat codes are codes that allow you to make low-level programmable changes in the memory region of your favorite game(s). These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
+Cheat codes allow one to set low-level programmable changes in the memory, defined at the beginning of gameplay. These changes range from simple value tweaks to extremely advanced ASM tweaks, both of which can alter the experience of the game(s) being played altogether.
 
-Flashcards can take advantage of cheat codes by using cheat databases. Cheat functionality is integrated within the flashcard kernel respectively. The following kernels can utilize cheats:
-- Wood R4 (`usrcheat.dat`)
-- YSMenu (`usrcheat.dat`)
+These codes are typically packaged into single file databases, meant to contain cheats for every game. The one we recommend using is [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711), but one could easily create their own via [R4CCE](r.pk11.us/r4cce). The format they are produced in is typically `usrcheat.dat`, which is supported by 99% of the loader environments. This includes flashcard kernels (such as Wood R4 & YSMenu), [NitroHax3DS's fork](https://github.com/Epicpkmn11/NitroHax3DS/releases) for physical game cards & [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) for digital `.nds` payloads found on the system SD card. There are two common exceptions to this rule:
 
-Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
-- [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real Game Cards from a flashcard. The engine used here loads the entire cheats.xml database into the Nintendo DS's limited RAM and tries to manage things from there. This imposes a serious limit on how many cheats you can have, as NitroHax will not load a cheats.xml file past 2.4 MB
-- [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS is a version of NitroHax that runs from the system's SD card on DSi or 3DS. The original version uses cheats.xml with the same 2.4 MB limit as the original NitroHax, but there is also a fork that loads cheats from a usrcheat.dat database with no size limitation
-- [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-   - The cheat engine used in nds-bootstrap is based on the one used in NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+- nds-boostrap has its own mechanism of housing cheats, but this is only a concern for pro-users launching nds-bootstrap directly. TWiLight already turns all the enabled cheats from the `usrcheat.dat` format into the format used by nds-bootstrap
+- NitroHax for flashcards reads the entirety of its cheats database, places it in memory and requires you to hotswap your card to launch the cheat menu for the proper ROM. Since dealing with decompression takes up memory not available, the most optimal use is through the `cheats.xml` format, which even there has a limit of 2.4 MB. 
 
-For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
-
-Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
+Cheat Code uses the Action Replay format, which generally utilizes types 0 through F. Here is an (unfinished) description of each:
 
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job
   - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
