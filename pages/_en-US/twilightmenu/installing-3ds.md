@@ -95,4 +95,4 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
      - If the SELECT menu is enabled, you can do so there as well
      - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+     - If you use the R4, GBC, or Wood themes, press `R` button
