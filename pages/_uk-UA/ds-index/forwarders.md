@@ -45,6 +45,7 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
 1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
+   - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, follow steps 2-3 in Part 1 of the `DSi SD card` tab
 
 ### Part 3: Getting the AP-fix pack from TWiLight Menu++
 

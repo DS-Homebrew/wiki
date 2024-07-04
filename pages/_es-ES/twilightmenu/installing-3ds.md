@@ -24,7 +24,8 @@ Primero necesitaras tener un firmware personalizado en tu consola. Sigue la guí
 1. Busca TWiLight Menu++ en la lista de apps, puedes buscarlo en la 3a opción de la columna lateral si no consigues encontrarlo
    - Tiene este icono: ![Icono de TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Presiona <kbd class="face">A</kbd> o toca el icono de descarga en el lateral y selecciona `TWiLight Menu++` para instalarlo
-   - Esto llevará un tiempo
+   - Esto tardará un rato
+   - Si la instalación falla, asegúrese de que la consola esté conectada a internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Primero necesitaras tener un firmware personalizado en tu consola. Sigue la guí
    - Tiene este icono: ![Icono de TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Presiona <kbd class="face">A</kbd> o toca el icono de descarga en el lateral y selecciona `TWiLight Menu++` para instalarlo
    - Esto llevará un tiempo
+   - Si la instalación falla, asegúrese de que la consola esté conectada a internet. Si no, haz clic en la pestaña `Manual`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Descarga [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) de la versión más reciente
+   - Si no se descarga, visita la <0>página de descargas</0>
 1. Extrae `TWiLightMenu-3DS.7z`
 1. Copia la carpeta `_nds` en la raíz de tu tarjeta SD
 1. Copia el archivo `BOOT.NDS` en la raíz de tu tarjeta SD
@@ -96,4 +95,4 @@ Una flashcard es una tarjeta que va en la ranura de los cartuchos, en la que pue
 - Presiona o bien `Select`+`Arriba` o `Select`+`Abajo` para cambiar entre los contenidos de la tarjeta SD y de la flashcard
      - Si el menú SELECT está habilitado, puedes hacerlo desde allí también
      - Si usas el tema 3DS, toca el icono del cartucho o de la tarjeta SD
-     - Si usas el tema R4 Original/GBC, presiona el botón `L`
+     - If you use the R4, GBC, or Wood themes, press `R` button

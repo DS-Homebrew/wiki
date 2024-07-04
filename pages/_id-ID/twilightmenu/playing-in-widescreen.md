@@ -25,18 +25,18 @@ Jika masih di Luma v13, mohon perbarui dulu ke v13.0.1, lalu boleh ikuti panduan
 1. (Tidak Wajib!) Agar layar tidak terlalu berpiksel, aktifkan `GPU scaling (blurry, no filters)`
 1. Tekan <kbd class="face">B</kbd> untuk keluar menu tambalan
 1. Tekan <kbd>START</kbd> untuk menghasilkan berkas `TwlBg.cxi` dengan layar lebar
-   - Jika layar atas tidak menandakan *wide patch* diaktifkan, mulai lagi dari langkah ke-3
-1. Pindahkan `TwlBg.cxi` dari `sd:/luma/sysmodules/` ke `sd:/_nds/TWiLightMenu/TwlBg/` (buat folder `TwlBg`, jika belum ada), dan ubah nama berkasnya jadi `Widescreen.cxi`
+   - Jika layar atas tidak menandakan *wide patch* diaktifkan, mulai lagi dari langkah 3
+1. Pindahkan `TwlBg.cxi` dari `sd:/luma/sysmodules/` ke `sd:/_nds/TWiLightMenu/TwlBg/` (buat folder `TwlBg`, jika belum ada), dan ubah nama berkas menjadi `Widescreen.cxi`
 1. Nyalakan ulang 3DS sambil menahan <kbd>SELECT</kbd> untuk membuka penyetelan Luma3DS
 1. Aktifkan `external FIRMs and modules`, lalu tekan <kbd>START</kbd> untuk simpan dan keluar
-1. Buka TWiLight Menu++, tekan <kbd class="face">Y</kbd> pada permainan pilihan untuk membuka setelan tiap-permainan, dan ubah `Nisbah Aspek Layar` ke `16:10`
+1. Buka TWiLight Menu++, tekan <kbd class="face">Y</kbd> pada permainan pilihan untuk membuka setelan tiap-permainan, dan atur `Nisbah Aspek Layar` ke `16:10`
 
 Selesai dah! Nikmati bermain DS di layar lebar!
 
 **CATATAN:**
-1. Jangan tahan <kbd>START</kbd> atau <kbd>SELECT</kbd> saat menjalankan TWLMenu++, jika tidak ingin ada *glitch* di layar lebar
-1. Tidak semua permainan bisa dijadikan layar lebar. [Berikut daftar permainan dengan dukungan layar lebar](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
-1. Jika layar selalu lebar di semua bagian TWL_FIRM (termasuk di GUI TWLMenu++) setelah mengikuti panduan ini lalu membuka permainan bisa layar lebar, hapus `TwlBg.cxi` di `sd:/luma/sysmodules/`.
+1. Jangan tahan <kbd>START</kbd> atau <kbd>SELECT</kbd> saat memuat TWLMenu++, jika tidak ingin ada *glitch* di layar lebar
+1. Tidak semua permainan kompatibel layar lebar. [Berikut daftar permainan dengan dukungan layar lebar](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt)
+1. Jika selalu layar lebar di keseluruhan TWL_FIRM (termasuk GUI TWLMenu++) *setelah* mengikuti panduan ini dan memuat permainan kompatibel layar lebar, hapus `TwlBg.cxi` di `sd:/luma/sysmodules/`.
    - Jika masih bermasalah, [copot](https://wiki.ds-homebrew.com/id-ID/twilightmenu/uninstalling-3ds) dan [pasang ulang](https://wiki.ds-homebrew.com/twilightmenu/installing-3ds) TWiLight Menu++, lalu ikuti lagi panduan di atas, gunakan juga Luma3DS versi asli
-1. Hampir semua tambalan layar lebar cuma menyesuaikan unsur 3D, untuk unsur 2D (seperti menu) cuma dilebarkan
+1. Hampir semua tambalan layar lebar hanya menyesuaikan unsur 3D, untuk unsur 2D (seperti menu) cuma dilebarkan
 1. Luma3DS **harus** dibaca dari kartu SD, jika layar lebar tidak berfungsi, pastikan sudah ada `boot.firm` di akar kartu SD

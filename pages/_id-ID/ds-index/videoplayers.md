@@ -19,7 +19,7 @@ Laman ini berisi penjelasan cara kerja tiap-tiap pemutar video yang berfungsi at
 
 Catatan:
 - Batas tinggi FPS sebenarnya tergantung isi dan lamanya video.
-- Moonshell v1.x dan v2.00 versi beta mungkin nanti tersangkut, jika laju bit video lebih dari `192`. Dianjurkan menggunakan v2.10.
+- Moonshell v1.x dan v2.00 versi beta mungkin akan tersangkut jika laju bit video lebih dari `192`. Dianjurkan menggunakan v2.10.
 
 ## FastVideoDS
 

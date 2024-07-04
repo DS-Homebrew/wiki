@@ -11,6 +11,9 @@ tabs:
     other: macOS/Linux
 ---
 
+Hardmodding can easily damage your DSi. If you're trying to unbrick your DSi, then you should try [ntrboot](ntrboot) first.
+{:.alert .alert-danger}
+
 El hardmodding consiste en soldar un adaptador de tarjetas SD directamente a la placa base de la DSi para poder leerla en un ordenador. Es bastante útil para restaurar copias de seguridad de la NAND, ver la NAND en tu PC, etc...
 
 ### Nintendo DS

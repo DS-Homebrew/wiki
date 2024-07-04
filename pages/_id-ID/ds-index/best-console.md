@@ -7,7 +7,7 @@ title: Jenis konsol DS mana yang terbaik?
 description: Melihat fitur dari tiap konsol untuk menyesuaikan keperluan bermain DS(i) terbaik
 ---
 
-Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca permainan DS(i), sekaligus permainan GBA. Untuk menyesuaikan konsol mana yang terbaik, mohon baca laman ini.
+Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca permainan DS(i) dan juga permainan GBA. Untuk menentukan konsol mana yang terbaik untuk Anda, baca laman ini.
 
 | Fitur                           | Nintendo DS                                       | Nintendo DSi                                               | Nintendo 3DS/2DS                                  |
 | ------------------------------- | ------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
@@ -22,11 +22,11 @@ Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca p
 
 [^1]: Permainan DS berjalan di 67mhz, tapi hampir semua bisa disetel ke 133mhz, sayangnya beberapa akan muncul isu.
 
-[^2]: Ketika menjalankan di mode DS(i), layar akan diperlebar tidak rapih, dan tidak piksel sempurna. Menahan START atau SELECT akan menonaktifkan penskalaan layar, tapi akan ada tepian hitam di sekeliling layar.
+[^2]: Saat dimuat di mode DS(i), layar akan diperlebar tidak rapih, dan tidak piksel sempurna. Menahan START atau SELECT akan menonaktifkan penskalaan layar, tapi akan ada tepian hitam di sekeliling layar.
 
 [^3]: DS Phat model baru terdapat tingkat kecerahan yang sama dengan DS Lite, tapi perlu dipasang FlashMe agar empat tingkatnya bisa digunakan (setidaknya di menu asli).
 
-[^4]: Ada satu permainan yang terdapat isu kompatibilitas, _MegaMan Battle Network 3_ akan mogok setelah logo Capcom.
+[^4]: Ada satu permainan yang ada isu kompatibilitas; _MegaMan Battle Network 3_ akan mogok setelah logo Capcom.
 
 [^5]: ROM Video GBA besar (di atas 32MB) tidak bisa. Fitur <i>gyro</i> dan getar tidak akan berfungsi.
 

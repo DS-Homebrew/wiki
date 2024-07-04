@@ -24,7 +24,8 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen
    - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
-   - Det kommer att ta ett tag
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
    - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
    - Det kommer att ta ett tag
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrahera `TWiLightMenu-3DS.7z`
 1. Kopiera mappen `_nds` till ditt SD-korts rot
 1. Kopiera filen `BOOT.NDS` till din SD-korts rot
@@ -96,4 +95,4 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
      - If the SELECT menu is enabled, you can do so there as well
      - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+     - If you use the R4, GBC, or Wood themes, press `R` button

@@ -25,6 +25,7 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
    - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
    - Ini akan lumayan lama
+   - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
    - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
    - Ini akan lumayan lama
+   - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan dikira Trojan karena positif palsu. Untuk mengatasi positif palsu, pastikan Windows Defender sudah mutakhir.
-{:.alert .alert-warning}
-
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
+   - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD
 1. Salin berkas `BOOT.NDS` ke akar kartu SD
@@ -96,4 +95,4 @@ Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan 
 - Tekan `SELECT`+`Atas` atau `SELECT`+`Bawah` untuk beralih antara isi kartu SD dan *flashcard*
      - Jika menu SELECT diaktifkan, boleh dilakukan dari situ
      - Jika menggunakan tema 3DS, sentuh ikon Kaset/Kartu SD
-     - Jika menggunakan tema R4/GBC, tekan tombol `L`
+     - Jika menggunakan tema Wood, R4, atau GBC; tekan tombol `L`

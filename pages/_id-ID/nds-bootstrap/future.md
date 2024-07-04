@@ -32,7 +32,7 @@ Walaupun kompatibilitas 100% itu mustahil karena keterbatasan B4DS, kompatibilit
 - Isu-isu dengan [label B4DS](https://github.com/DS-Homebrew/nds-bootstrap/labels/B4DS)
 
 ### 1.4 Meningkatkan Kompatibilitas Retasan ROM
-Walaupun ada retasan ROM yang tidak berjalan di mesin asli (misalnya gen 5 dengan *fairy type*), retasan ROM masih bisa ditingkatkan
+Walaupun ada retasan ROM yang tidak berjalan di mesin asli (misal: gen 5 dengan *fairy type*), retasan ROM masih bisa ditingkatkan
 - Isu-isu dengan [label ROM Hack](https://github.com/DS-Homebrew/nds-bootstrap/issues?q=is%3Aopen+is%3Aissue+label%3A%22ROM+Hack%22)
 
 ### 1.5 Fitur Tambahan nds-bootstrap

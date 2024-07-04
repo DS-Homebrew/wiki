@@ -8,11 +8,9 @@ long_title: Att installera TWiLight Menu++ (Minneskort)
 description: Hur man installerar TWiLight Menu+ + på Nintendo DS minneskort
 ---
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### Installation
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root

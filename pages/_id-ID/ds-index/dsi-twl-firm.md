@@ -30,16 +30,16 @@ Di versi 1.4.0, tanda tangan RSA di daftar putih Kaset DS tidak diverifikasi. In
 Tapi ada juga *glitch* dari cara Nintendo DSi Menu menghitung ruang kosong yang mana bisa galat jika menu tidak dibaca dari NAND asli; untuk informasi lanjut, lihat [Pertanyaan Umum & Sidik Gangguan hiyaCFW](../hiyacfw/faq#the-free-space-bug).
 
 ### Akses & pemblokiran Slot-1 Nintendo DSi
-Akses Slot-1 diblokir jika menjalankan aplikasi dari menu sistem, kecuali jika aplikasi tersebut peluncur Slot-1 itu sendiri atau System Settings. Untuk menjalankan kaset Slot-1 yang biasanya tak terbacakan, perlu eksploit System Settings atau pasang Unlaunch. Tanpa salah satu kedua ini, maka tidak akan bisa membaca *flashcard* tak terbacakan dan men-*dump* ROM ke kartu SD.
+Akses Slot-1 diblokir jika memuat aplikasi dari menu sistem, kecuali jika aplikasi tersebut peluncur Slot-1 itu sendiri atau System Settings. Untuk menjalankan kaset Slot-1 yang biasanya tak terbacakan, perlu eksploit System Settings atau pasang Unlaunch. Tanpa salah satu kedua ini, maka tidak akan bisa membaca *flashcard* tak terbacakan dan men-*dump* ROM ke kartu SD.
 
 Sebelum v1.4.0, daftar putih hanya berisi dua bagian. Di v1.4.0, mulai ada bagian ketiga untuk memblokir *flashcard* yang bisa molos dua bagian tadi. Bagian ketiga ini membaca delapan bagian berbeda dari ROM yang diperiksa dengan *hash* agar tahu ROM diutak-atik atau tidak. Namun, karena kurangnya kendali, ini bisa diluapkan ke vektor pengecualian/alamat interupsi menggunakan nilai cukup besar. Hebatnya, ternyata ini berjalan di ARM7 (prosesor keamanan) menjadikan ini eksploit pertama ke prosesor ARM7. Karena ini berjalan sebelum tutup izin register SCFG, *homebrew* tingkat lanjut (seperti Slot-1 dumpers) bisa dijalankan.
 
-Sayangnya, persyaratannya susah. Perlu versi 1.4.0 dan *flashcard* dengan ROM dimodif. Eksploit ini tidak pernah diumumkan resmi, karena Unlaunch lebih mudah dipasang dan tidak banyak persyaratan (cuma untuk ke *homebrew*) dan manfaatnya juga sama.
+Sayangnya, persyaratannya susah. Perlu versi 1.4.0 dan *flashcard* dengan ROM dimodif. Eksploit ini tidak pernah diumumkan resmi, karena Unlaunch lebih mudah dipasang dan tidak banyak persyaratan (hanya untuk ke *homebrew*) dan manfaatnya juga sama.
 
 ### Nintendo DSi Camera
 Aplikasi Nintendo DSi Camera mampu mengambil gambar format JPEG dan menyimpannya ke *System Memory* atau kartu SD. Tapi dibatasi hanya bisa membaca gambar yang dibuat di DSi, karena tidak ada HMAC yang benar dalam tag EXIF kustom. Gambar bersumber lain tidak bisa dibaca di DSi, baik dari komputer atau suntingan komputer, kecuali jika disimpan benar.
 
-Pemuatan gambar diurus dari berkas `pit.bin`. Tapi, ukuran *header* di *offset* 0x16 malah tidak diperiksa; jadi jika nilai ukuran *header* cukup besar, ini akan meluwah dan penyangganya akan menimpa dan membaca kode tak bertanda. Begitu cara kerja Memory Pit.
+Pemuatan gambar diurus dari berkas `pit.bin`. Tapi, ukuran *header* di *offset* 0x16 malah tidak diperiksa; jadi jika nilai ukuran *header* cukup besar, ini akan meluwah dan daparnya akan menimpa dan membaca kode tak bertanda. Begitu cara kerja Memory Pit.
 
 ### *Bootstage 2* Nintendo DSi
 Tahap nyala kedua atau *bootstage 2* Nintendo DSi memuat "title.tmd" peluncur ke memori. Tapi, karena batas ukuran berkas tidak diperiksa, berarti 80ribu bita pertama akan dimuat ke RAM dan sisanya bisa diisi *payload* kustom. Ini dasar dari eksploit Unlaunch.

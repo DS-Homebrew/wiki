@@ -42,7 +42,7 @@ Se si sta configurando una rete compatibile con il DS, deve soddisfare le seguen
 1. Avvia configurazione Nintendo Wi-Fi Connection
 1. Connettiti al tuo punto di accesso
 1. Imposta il tuo valore DNS primario come uno dei valori sottostanti, a seconda del servizio che vuoi utilizzare:
-    - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
+    - **[Wiimmfi](https://wiimmfi.de)** - `167.235.229.36` or `178.62.43.212`
     - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([lista dei giocatori online](http://zwei.moe:9001))** - `172.104.88.237`
 1. Imposta `1.1.1.1` come DNS secondario
 1. Potresti aver bisogno di NoSSL per applicare una patch per il tuo gioco a questo punto, a seconda della sua compatibilità

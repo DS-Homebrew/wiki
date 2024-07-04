@@ -24,7 +24,8 @@ Prima di tutto avrai bisogno di un Custom Firmware installato sul tuo 3DS, segui
 1. Trova TWiLight Menu++ nella griglia delle applicazioni, puoi effettuare una ricerca con la terza scheda sulla barra laterale se hai problemi a trovarla
    - L'app ha questa icona: ![Icona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Premi <kbd class="face">A</kbd> oppure tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarla
-   - L'operazione potrebbe richiedere un pò di tempo
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Prima di tutto avrai bisogno di un Custom Firmware installato sul tuo 3DS, segui
    - L'app ha questa icona: ![Icona TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Premi <kbd class="face">A</kbd> o tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarla
    - L'operazione potrebbe richiedere un po' di tempo
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Scarica la versione più recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Estrai `TWiLightMenu-3DS.7z`
 1. Copia la cartella `_nds` nella root della tua scheda SD
 1. Copia il file `BOOT.NDS` nella root della tua scheda SD
@@ -96,4 +95,4 @@ Una flashcard è un oggetto che si inserisce nello slot della scheda di gioco e 
 - Premi o `SELECT`+`Sù` o `SELECT`+`Giù` per passare dai contenuti della SD a quelli della flashcard
      - Se il menu SELECT è abilitato, puoi farlo anche lì
      - Se utilizzi il tema 3DS, tocca l'icona della scheda di gioco/scheda SD
-     - Se utilizzi il tema R4/GBC, premi il pulsante `L`
+     - If you use the R4, GBC, or Wood themes, press `R` button

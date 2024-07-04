@@ -13,7 +13,7 @@ tabs:
     flashcard-dsi-3ds: <i>Flashcard</i> di DSi/3DS termodif
 ---
 
-*Forwarder* adalah pintasan permainan yang dipasang di HOME Menu, menu hiyaCFW, atau menu *flashcard*. Permainan DS(i) akan dibaca dari kartu SD (dengan nds-bootstrap) atau dari *flashcard* yang sesuai (lewat *kernel* masing-masing) dengan memasang *forwarder* di menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+*Forwarder* adalah pintasan permainan yang bisa dipasang di HOME Menu, hiyaCFW, atau menu *flashcard*. Permainan DS(i) akan dibaca dari kartu SD (dengan nds-bootstrap) atau dari *flashcard* kompatibel (lewat *kernel*-nya) dengan memasang *forwarder* ke menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
 Permainan DS perlu di-*dump* dulu ke format `.nds`. Kaset DS bisa di-*dump* dengan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
 {:.alert .alert-info}
@@ -30,7 +30,7 @@ Laman ini beranggapan konsol Anda sudah ada CFW modern sesuai [3ds.hacks.guide](
 
 ### Bagian 1: Menyiapkan berkas yang perlu
 
-Jika di konsol sudah ada Universal Updater, langsung ke langkah ke-3.
+Jika di konsol sudah ada Universal Updater, langsung ke langkah 3.
 {:.alert .alert-info}
 
 1. Buka FBI dan pilih `Remote Install`, lalu `Scan QR Code`
@@ -44,7 +44,8 @@ Jika di konsol sudah ada Universal Updater, langsung ke langkah ke-3.
 1. Di Homebrew Launcher, buka `NDS Forwarder Generator`
 1. Navigasi ke letak permainan dan tekan <kbd class="face">A</kbd>
 1. Mulai pasang dengan memilih `Yes`
-1. Setelah dipasang, permainan akan muncul sebagai judul di HOME Menu
+1. Setelah dipasang, permainan akan muncul di HOME Menu
+   - Jika muncul pesan galat bertulis `/_nds/ntr-forwarder/sdcard.nds not found` saat memuat, ikuti langkah 2-3 di Bagian 1 dari tab `Kartu SD DSi`
 
 ### Bagian 3: Mendapatkan AP-fix dari TWiLight Menu++
 
@@ -96,7 +97,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 
 ### Persyaratan
 
-- Nintendo DS, DS Lite, DSi atau 3DS dengan *flashcard*
+- Nintendo DS, DS Lite, DSi, atau 3DS dengan *flashcard*
 - Versi terkini [NDSForwarder-DSi](https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/latest/download/NDSForwarder.nds)
 
 ### Bagian 1: Memulai
@@ -141,7 +142,7 @@ Jenis *flashcard* yang dianjurkan yaitu DSTT dan Acekard2i. Jika ingin kompatibi
 Jika punya *flashcard* lain yang bisa dibaca NTR Launcher Apache Thunder, beri tahu dan minta [di utas GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Jangan lupa sebutkan versi mana yang digunakan (Normal atau Alt), dan beri tahu `RESETSLOT1` diatur ke `0` atau `1` di `sd:/nds/ntr_launcher.ini`.
 
 Kompatibel:
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (Tidak bisa baca permainan *DSi-Enhanced* dan juga permainan NTR terbaru)
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (Tidak bisa baca permainan NTR terbaru dan juga *DSi-Enhanced*)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
@@ -174,11 +175,11 @@ Sebagian kompatibel:
 Tidak kompatibel:
 - CycloDS (i)Evolution (Bisa memuat langsung ROM, tapi caranya beda dari *flashcard* lain)
 - (i)Edge (Tidak bisa memuat langsung .nds)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu akan merusak parah kaset, bukan karena proses *forwarder*)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (kaset akan matot karena YSMenu, bukan karena proses *forwarder*)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)/www.r4isdhc.hk) (YSMenu akan merusak parah kaset, bukan karena proses *forwarder*)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)/www.r4isdhc.hk) (kaset akan matot karena YSMenu, bukan karena proses *forwarder*)
 {% endcapture %}
 
 <details>
@@ -211,9 +212,9 @@ Tidak kompatibel:
       - Acekard RPG, Ace 3DS+/Gateway Blue Card/R4iLS/R4iTT, R4iDSN/R4i Gold RTS - WoodR4
 
 Setelah mengekstrak kemasan sesuai *flashcard*, pengaturan di `sd:/_nds/ntr_forwarder.ini` bisa diubah. Tapi tidak bisa untuk Acekard RPG, R4 DS, dan R4i Gold RTS.
-   - `NTRCLOCK`: Jika diubah ke `0` atau jika menahan <kbd class="face">A</kbd>, *splash* DS biasa tidak muncul tapi jadi layar awal nyala DSi; dan laju jam TWL akan aktif agar tidak sendat
-   - `DISABLEANIMATION`: Jika diubah ke `1` atau jika menahan <kbd class="face">B</kbd>, layar awal nyala DS/DSi dilewati
-   - `HEALTHSAFETYMSG`: Jika diubah ke `1`, pesan kesehatan dan keselamatan akan muncul di layar bawah; jika tidak, layar bawah akan putih tanpa pesan kesehatan dan keselamatan
+   - `NTRCLOCK`: Jika diatur ke `0` atau jika menahan <kbd class="face">A</kbd>, *splash* DS biasa tidak muncul tapi jadi layar awal nyala DSi; dan laju jam TWL akan aktif agar tidak sendat
+   - `DISABLEANIMATION`: Jika diatur ke `1` atau jika menahan <kbd class="face">B</kbd>, layar awal nyala DS/DSi dilewati
+   - `HEALTHSAFETYMSG`: Jika diatur ke `1`, pesan kesehatan dan keselamatan akan muncul di layar bawah; jika tidak, layar bawah akan putih tanpa pesan kesehatan dan keselamatan
 
 ### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
 
@@ -230,7 +231,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 1. Pilih jenis kartu sebagai `Target` di kiri
    - **CATATAN:** Jika tidak muncul daftar kartu, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ubah namanya jadi `.forwarders`
 1. Aktifkan `Automatically set ROM path`
-   - **Pengguna Linux:** Jalur otomatis dianggap salah karena ada nama lengkap jalurnya (misalnya `/media/$USER/anu-anu/`), mohon hapus bagian itu
+   - **Pengguna Linux:** Jalur otomatis dianggap salah karena ada nama lengkap jalurnya (misal: `/media/$USER/anu-anu/`), mohon hapus bagian itu
    - **Pengguna MacOS:** Jalur otomatis dianggap salah karena ada nama `/Volumes/(nama kartu)/` di awalan, mohon hapus bagian itu
 1. Pencet folder yang di kanan atas dan pilih ROM yang ingin dibuat *forwarder*, atau seret dan lepas ke jendela aplikasi
    - **CATATAN:** ROM harus sudah ada di kartu SD saat dipilih, dan tidak bisa dipindahkan lagi kecuali jika *forwarder* dibuat lagi

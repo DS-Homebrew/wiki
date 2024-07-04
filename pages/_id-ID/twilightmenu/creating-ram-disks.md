@@ -27,7 +27,7 @@ Arahan dibuat oleh Dakkon7, diubah oleh Rocket Robz:
 1. Pencet `Start RAMDisk`, dan akan muncul jendela baru untuk .img
 1. Taruh berkas dan/atau folder yang *homebrew* perlukan di situ, dan/atau berkas lainnya
 1. Pada program RAMDisk, pencet `Save Disk Image Now`
-1. Simpan `[nama rom].img` ke folder `ramdisks` di tempat .nds ditaruh. Jika foldernya belum ada, buat dulu
+1. Simpan `[nama rom].img` ke folder `ramdisks` di letak .nds tersebut. Jika foldernya belum ada, buat dulu
 1. Pencet `Stop RAMDisk` jika sudah selesai
 1. Di TWiLight Menu++, buka setelan tiap-permainan pada *homebrew* dengan **Y**
 1. Atur **RAM disk** ke 0

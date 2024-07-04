@@ -19,7 +19,7 @@ Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau men
 *Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main rangkap satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
 
 ### Berkas simpanan
-Kaset Nintendo DS umumnya terdapat 4 jenis simpanan:
+Kaset Nintendo DS diketahui ada 4 jenis simpanan:
 
 - EEPROM - Memori Hanya-Baca Tertataolahkan Terhapuskan Berlistrik
 - FLASH
@@ -37,7 +37,7 @@ Untuk informasi lebih lanjut terkait instruksi *assembly*, serta informasi tekni
 DMA (Akses Memori Langsung) adalah cara lebih sangkil membaca data daripada CPU. Saat mentransfer data, kode masih bisa jalan, sehingga cara ini lebih disukai untuk membaca data.
 
 Untuk permainan dengan DMA bisa dilacak di no$gba dengan mengaktifkan *DMA log* di ARM9. Akses DMA ke kartu menggunakan AF000001 sebagai parameter ketiga.
-- Contohnya: `DMA2: 04100010 023C18C0 AF000001`
+- Contoh: `DMA2: 04100010 023C18C0 AF000001`
 
 ### *Cheat* Action Replay
 Kode *cheat* Action Replay adalah kode yang memanfaatkan tata olah tingkat rendah untuk mengubah daerah memori permainan. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
@@ -61,10 +61,10 @@ Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 
 - Jenis kode 0xE adalah kode 32-bit yang mampu menulis bersamaan di banyak alamat beruntun sekaligus. Pada intinya, ini seperti jenis kode tulis RAM 32-bit dasar (0x0), bedanya ini tidak disenaraikan alamat di sebelah nilai yang ingin Anda tulis. Melainkan, jenis kode 0xE diprogram untuk langsung bercabang dari alamat awal, lalu akan ditentukan ditulis ke alamat mana. Dari situ, tentukan saja jumlah tulisnya untuk dijalankan
   - Kode *cheat* jenis ini diketahui susah berfungsi dengan nds-bootstrap saat ini
-- DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini setelah siap
+- DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini sesudah siap
 
 ### Judul Demonstrasi dan Distribusi:
-Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya merupakan peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
+Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya hanya peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
 
 Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kaset judul jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, karena hampir semua judul ini pada dasarnya sama dengan versi retailnya, biasanya kaset diberi pengenal tambahan di ID judul label.
 

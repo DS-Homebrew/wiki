@@ -476,7 +476,7 @@ Saat ini, nds-bootstrap belum ada emulasi Slot-2. Ada beberapa yang tertera cara
 - ElectroPlankton
    - Kaset tidak ada RAM simpanan
 - DS Download Station
-   - Serangkaian kaset untuk mengedarkan permainan demo
+   - Serangkaian kaset untuk mengagihkan permainan demo
 - Sonic Classics Collection
    - Struktur emulasi Sega Genesis dikonversi menjadi emulator
 - Nitro Development Cart

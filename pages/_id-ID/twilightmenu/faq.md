@@ -20,7 +20,7 @@ TWL_FIRM mungkin saja rusak. Ikuti panduan ini untuk memperbaiki isu: <https://3
 - Jika tidak berhasil juga, coba kartu SD lain
 
 #### Layar sentuh tidak tanggap setelah memuat permainan, bagaimana ini?
-- Jika menjalankan kaset, pastikan pengaturan `Mode Sentuh Slot-1` diatur ke `Mode DS`
+- Jika memuat kaset, pastikan pengaturan `Mode Sentuh Slot-1` diatur ke `Mode DS`
 - Jika masih muncul isu, atau jika menggunakan ROM, ikuti panduan ini: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
 #### Bagaimana memperbaiki TWiLight Menu++ mengulang atau galat Guru Meditation saat memuat permainan?
@@ -35,7 +35,7 @@ Harus ada *cheat DB* berupa berkas `usrcheat.dat` di folder `sd:/_nds/TWiLightMe
 
 Cara lainnya, gunakan [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) untuk membuat *cheat DB* sendiri.
 
-Setelah ada *cheat DB* maka *cheat* bisa diaktifkan dengan tombol <kbd class="face">Y</kbd> di TWiLight Menu++ saat diarahkan di permainan untuk membuka setelan tiap-permainan, lalu <kbd class="face">X</kbd> untuk ke menu *cheat*.
+Sesudah ada *cheat DB* maka *cheat* bisa diaktifkan dengan tombol <kbd class="face">Y</kbd> di TWiLight Menu++ saat diarahkan di permainan untuk membuka setelan tiap-permainan, lalu <kbd class="face">X</kbd> untuk ke menu *cheat*.
 
 #### Bagaimana menampilkan gambar kustom di layar atas tema DSi? Bisa disembunyikan, tidak?
 Gambar `.png` acak dari `sd:/_nds/TWiLightMenu/dsimenu/photos/` akan muncul setiap kali menu dimuat. Jika tidak ada gambar terbaca, tangkapan layar oleh nds-bootstrap akan digunakan.
@@ -47,7 +47,7 @@ Untuk menyembunyikan gambar, berkas `theme.ini` harus disunting dari `sd:/_nds/T
 
 #### Di mana mendapat permainan?
 Permainan swayasa atau *homebrew* bisa diunduh dari [Universal-DB](https://db.universal-team.net/ds) dan [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Untuk permainan resmi, harus dilakukan *dump*, baik dari kaset fisik, atau dari konsol yang ada:
-- Di konsol DS, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid GBA dan, jika punya *flashcart* Slot-2, kaset DS juga. Jika hanya punya *flashcard* Slot-1 dan ingin men-*dump* kaset DS, bisa gunakan [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), tapi perlu sambungan Wi-Fi yang kompatibel dengan DS, serta klien FTP pada perangkat lain untuk menerima ROM
+- Di konsol DS, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid GBA dan, jika punya *flashcart* Slot-2, kaset DS juga. Jika hanya punya *flashcard* Slot-1 dan ingin men-*dump* kaset DS, bisa gunakan [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), tapi perlu sambungan Wi-Fi yang bisa dibaca DS, serta klien FTP pada perangkat lain untuk menerima ROM
 - Di konsol DSi, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kaset DS dan DSiWare
 - Di konsol 3DS, gunakan [GodMode9](https://github.com/d0k3/GodMode9/releases) untuk men-*dump* kaset DS, DSiWare, dan Virtual Console
 
@@ -60,7 +60,7 @@ Bisa. Gunakan [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) untu
    - Mungkin ubah juga tiga opsi pertama pada halaman pengaturan nds-bootstrap untuk mengatur bahasa, daerah, dan judul ROM DS di TWiLight Menu++
 
 #### Apakah ini emulator DS(i)?
-Bukan, ini bukan emulator. Menu dan permainan DS (dimuat lewat nds-bootstrap) dijalankan lokal atau *native* di mode DS/DSi konsol. Konsol yang diemulasi hanya konsol lama, tapi untuk GBA ada sebagian (beberapa atau semua bagian seperti grafik dibaca lokal).
+Bukan, ini bukan emulator. Untuk menu dan permainan DS (dimuat nds-bootstrap) dijalankan lokal atau *native* di mode DS/DSi konsol. Konsol yang diemulasi hanya konsol lama, tapi untuk GBA ada sebagian (beberapa atau semua bagian seperti grafik dibaca lokal).
 
 #### Sistem apa saja yang didukung TWiLight Menu++?
 Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
@@ -70,7 +70,7 @@ Tidak. Akses kartu SD hanya diperuntukkan aplikasi DSiWare, jadi kaset Slot-1 ti
 
 #### Kenapa permainan saya tidak ketemu?
 Ada beberapa alasan kenapa permainan tidak ketemu.
-- Folder `_nds` yang di akar kartu SD bukan untuk menaruh aplikasi yang nanti diakses lewat TWiLight Menu++, karena folder ini khusus untuk berkas fungsi (skin, konfigurasi, gambar, emulator, dan lainnya). Jika permainan ditaruh di sini, pindahkan ke tempat lain.
+- Folder `_nds` yang di akar kartu SD bukan untuk menaruh aplikasi yang nanti diakses lewat TWiLight Menu++, karena folder ini khusus untuk berkas fungsi (skin, konfigurasi, gambar, emulator, dan lainnya). Jika permainan ditaruh di sini, pindahkan ke letak lain.
 - Jika dalam satu folder ada 39+ permainan dan slot di menu terisi semua, mungkin sisanya ada di halaman lain. Gunakan <kbd class="l">L</kbd>/<kbd class="r">R</kbd> atau <kbd>SELECT</kbd> + <kbd>Kiri</kbd>/<kbd>Kanan</kbd> untuk pindah halaman
 - Jika permainan atau folder disembunyikan, munculkan berkasnya lewat pengaturan GUI TWiLight Menu++
 - Jika berkas berbentuk arsip (`zip`, `rar`, `7z`, dll), maka tidak bisa dibaca TWiLight Menu++. Ekstrak dulu isi arsip untuk digunakan
@@ -84,7 +84,7 @@ Cara mengakses pengaturan TWiLight Menu++ berbeda tergantung setelan.
 - **Tema Nintendo 3DS:** Ketuk ikon kunci bengkel di layar bawah
 - **Tema R4 Original:** Tekan <kbd>START</kbd> (jika di peramban berkas), lalu tekan <kbd>SELECT</kbd>
 
-Menahan <kbd>SELECT</kbd> saat membuka TWiLight Menu++ juga akan langsung ke pengaturan.
+Menahan <kbd>SELECT</kbd> saat memuat TWiLight Menu++ juga akan langsung ke pengaturan.
 
 #### Bagaimana menggunakan gambar ikon kustom?
 Gambar ikon kustom berformat PNG atau banner.bin bisa digunakan dengan ditaruh di folder `sd:/_nds/TWiLightMenu/icons` sesuai nama ROM (ekstensinya juga), atau folder + `.png` atau `.bin`.
@@ -98,7 +98,7 @@ Gambar ikon prajadi bisa dicari di [laman ikon situs skin TWiLight Menu++](https
 #### Bagaimana memasang tema kustom ke TWiLight Menu++?
 Skin kustom tema bisa didapatkan dari [laman skin resmi](https://skins.ds-homebrew.com/), yang menampung berbagai skin buatan komunitas yang siap digunakan. Skin kustom bisa dibuat sendiri untuk tema Nintendo 3DS dan Nintendo DSi dengan mengikuti [panduan ini](https://wiki.ds-homebrew.com/id-ID/twilightmenu/custom-dsi-3ds-skins). Tema **Homebrew Launcher**, **Sega Saturn** dan **Game Boy Color** _**tidak bisa**_ diubah suai.
 
-Setelah mendapatkan skin kustom, cara memasangnya tinggal taruh folder skin sesuai tempatnya, yang mana berbeda tergantung jenis tema skin.
+Sesudah mendapatkan skin kustom, cara memasangnya tinggal taruh folder skin sesuai tempatnya, yang mana berbeda tergantung jenis tema skin.
 - Skin untuk tema Nintendo DSi ditaruh di `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Skin untuk tema Nintendo 3DS ditaruh di `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skin untuk tema R4 Original ditaruh di `sd:\_nds\TWiLightMenu\r4menu\themes\`
@@ -107,7 +107,7 @@ Jika menggunakan sejenis konsol 3DS, lebih mudah memasang skin dengan [Universal
 
 Untuk menerapkan tema kustom harus ke Pengaturan TWiLight Menu++.
 1. Di halaman `Pengaturan GUI`, sorot opsi `Tema` dan pilih tema dengan tombol kanan dan kiri.
-1. Setelah memilih tema, tekan tombol A untuk memilih ragam skin yang sudah dipasang.
+1. Sesudah memilih tema, tekan tombol A untuk memilih ragam skin yang sudah dipasang.
 1. Dengan tombol atas dan bawah, sorot skin yang diinginkan, lalu tekan A untuk memilih.
 1. Terapkan dengan menekan B untuk kembali ke TWiLight Menu++.
 

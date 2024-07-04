@@ -25,6 +25,7 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
    - Ez az ikonja: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
    - Ez eltart egy ideig
+   - Ha a telepítés nem sikerül, győződj meg arról, hogy a konzol csatlakozik az internethez. Egyébként kattints a `Kézi` fülre
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Először egyedi firmware-t kell telepítned a 3DS-edre, kövesd a [3ds.hacks.gu
    - Ez az ikonja: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
    - Ez eltart egy ideig
+   - Ha a telepítés nem sikerül, győződj meg arról, hogy a konzol csatlakozik az internethez. Egyébként kattints a `Kézi` fülre
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-Ha olyan Windows kiadást használ, amely tartalmazza a Windows Defendert, az hamis pozitív eredmény miatt trójai vírusként fogja észlelni a `.7z` fájlt. A hamis pozitív eredmény kijavításához ellenőrizd, hogy a Windows Defender naprakész.
-{:.alert .alert-warning}
-
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
+   - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
@@ -96,4 +95,4 @@ A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalm
 - Nyomd meg a `SELECT`+`Fel` vagy a `SELECT`+`Le` gombokat az SD és a flashkártya tartalma közötti váltáshoz
      - Ha a SELECTS menü engedélyezve van, akkor ott is megteheted ezt
      - Ha a 3DS témát használod, érintsd meg a Játékkártya/SD-kártya ikont
-     - Ha az R4/GBC témát használod, nyomd meg az `L` gombot
+     - Ha az R4, GBC vagy Wood témát használod, nyomd meg az `R` gombot

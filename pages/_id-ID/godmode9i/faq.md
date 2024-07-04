@@ -8,10 +8,10 @@ description: Pertanyaan umum dan sidik gangguan terkait GodMode9i
 ---
 
 #### Bagaimana agar tidak "mounting drive(s)" saat baru buka?
-Ini terjadi jika membuka GodMode9i dari [hiyaCFW](../hiyacfw). Tahan tombol X saat membuka GodMode9i agar tidak jadi me-*mount* NAND. Cara lainnya, buka GodMode9i langsung dari Unlaunch agar NAND bisa di-*mount*.
+Ini terjadi jika membuka GodMode9i dari [hiyaCFW](../hiyacfw). Tahan tombol X saat memuat GodMode9i agar tidak jadi me-*mount* NAND. Cara lainnya, buka GodMode9i langsung dari Unlaunch agar NAND bisa di-*mount*.
 
 #### Kenapa berkas di NAND tidak bisa ditambah, hapus, atau ubah?
-Mengubah berkas NAND DSi itu tidak aman dan akan mudah *brick* (rusak parah), makanya GodMode9i sengaja tidak bisa.
+Mengubah berkas NAND DSi itu tidak aman dan mudah *brick* (matot), makanya GodMode9i sengaja tidak bisa.
 
 #### Kenapa ada info NDS DSiWare yang tak bisa dibuka?
 Beberapa DSiWare, terlebih yang di folder `0003000f`, berisi data sistem dan memang tidak punya nama judul absah.
@@ -31,7 +31,7 @@ Mohon diingat ini hanya berfungsi jika GodMode9i dijalankan dari TWiLight Menu++
 Bisa juga menulis jalur sendiri ke berkas terjemahan apa pun di kartu SD pada berkas setelan `sd:/gm9i/config.ini`, di entri `LANGUAGE_INI_PATH`.
 
 #### Bagaimana mengubah font?
-*Font* GodMode9i bisa diubah dengan memilih *font* `.frf` dan pilih opsi `Muat font`. Untuk memilih *font* lain sebagai *font* bawaan, bisa taruh di `sd:/gm9i/font.frf`, atau pada berkas (`sd:/gm9i/config.ini`) bisa ubah entri `FONT_PATH` ke letak berkas *font* lain.
+*Font* GodMode9i bisa diubah dengan memilih *font* `.frf` dan pilih opsi `Muat font`. Untuk memilih *font* lain sebagai *font* bawaan, bisa taruh di `sd:/gm9i/font.frf`, atau pada berkas (`sd:/gm9i/config.ini`) bisa atur entri `FONT_PATH` ke letak berkas *font* lain.
 
 Beberapa *font* yang sudah dikonversi bisa dicari di [folder *resources*](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) repositori GitHub atau bisa dibuat sendiri dengan mengonversi gambar PBM dan berkas TXT berisi pemetaan Unicode dengan naskah [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) GodMode9.
 

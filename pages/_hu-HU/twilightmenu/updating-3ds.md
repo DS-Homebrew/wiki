@@ -27,15 +27,13 @@ Ha a v25.7.0 verziónál régebbiről frissítünk, ajánlott kitörölni a `TWi
 1. Keresd meg a TWiLight Menu++-t az appok között; kereshetsz az oldalsáv harmadik fülén is, ha problémát okoz megtalálni
 1. Nyomj <kbd class="face">A</kbd>-t vagy érintsd meg a letöltés ikont az oldalsávon, és válaszd a `TWiLight Menu++`-t a telepítéséhez
    - Ez eltart egy ideig
+   - Ha a telepítés nem sikerül, győződj meg arról, hogy a konzol csatlakozik az internethez. Egyébként kattints a `Kézi` fülre
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-
-Ha olyan Windows kiadást használ, amely tartalmazza a Windows Defendert, az hamis pozitív eredmény miatt trójai vírusként fogja észlelni a `.7z` fájlt. A hamis pozitív eredmény kijavításához ellenőrizd, hogy a Windows Defender naprakész.
-{:.alert .alert-warning}
-
 1. Töltsd le a legutolsó [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) verziót
+   - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Csomagold ki `TWiLightMenu-3DS.7z` fájlt
 1. Másold az `_nds` mappát az SD kártyád gyökerébe, felülírva bármilyen létező fájlt
    - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`

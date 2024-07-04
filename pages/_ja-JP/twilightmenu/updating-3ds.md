@@ -26,16 +26,14 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
    - お持ちでない場合は、[インストール](installing-3ds)手順に従ってください
 1. アプリのグリッドで「TWiLight Menu++」を見つけます。見つからない場合は、サイドバーの3番目のダブで検索できます
 1. <kbd class="face">A</kbd>を押すか、サイドバーのダウンロードアイコンをタップし、`TWiLight Menu++`を選択してインストールします
-   - しばらく時間がかかります
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. 最新の[`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)をダウンロード
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-3DS.7z`を抽出
 1. `_nds`フォルダをSDカードのルートにコピーし、既存のファイルを置き換えます
    - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください

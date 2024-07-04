@@ -14,11 +14,9 @@ Si estás intentando actualizar desde una versión anterior a la 16.4.0, por fav
 Si estás intentando actualizar desde una versión anterior a la 21.0.0, por favor, mueve tus archivos `.pub` y/o `.prv` de títulos DSiWare a una nueva carpeta llamada `saves`, que se encuentra dentro de la misma carpeta que las roms de DSiWare.
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### Actualización
 1. Descarga [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) de la versión más reciente
+   - Si no se descarga, visita la <0>página de descargas</0>
 1. Extrae `TWiLightMenu-Flashcard.7z`
 1. Copia la carpeta `_nds` a la carpeta raíz de tu tarjeta microSD, y reemplaza los archivos existentes
    - Si usas macOS, asegurate de **copiar** y `unificar`, no `reemplazar`

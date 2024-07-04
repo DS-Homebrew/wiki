@@ -77,7 +77,7 @@ Ini semua jenis emulator dan pemuat anjuran yang disediakan di TWiLight Menu++. 
    - Tidak mendukung *argument*
    - Batasnya 3 MB di semua pelantar (karena berkas dimuat ke RAM)
       - Tidak mendukung DS Memory Pak atau Memori Tambahan DSi
-      - Tersedia tambalan Sonic 3 & Knuckles yang menghapus main rangkap supaya hemat ukuran
+      - Tersedia tambalan Sonic 3 & Knuckles yang menghapus main rangkap agar hemat ukuran
    - Ada emulasi suara
    - Laju bingkai mulus
 

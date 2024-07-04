@@ -13,19 +13,19 @@ tabs:
 ---
 
 {% capture tab-windows %}
-1. Download [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)
-1. Extract `TwilightBoxart-Windows-GUI.zip` and run `TwilightBoxart.exe`
+1. Töltsd le a [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)-ot
+1. Csomagold ki a `TwilightBoxart-Windows-GUI.zip`-et és futtasd a `TwilightBoxart.exe` állományt
 1. Kattints a `Detect SD` opcióra
    - Ha nem találja meg a megfelelő SD kártyát, kattints a `Browse...`-ra és válaszd ki a jót
-1. **Optional:** Change the size, border, etc options to your liking
+1. **Opcionális:** Módosítsd a méret, keret, stb. opciókat, ahogy tetszik
 1. Kattints a `Start`-ra
 1. Ellenőrizd, hogy a Doboz/Játék borítók megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos_linux %}
-1. Download [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)
-1. Extract the MacOS or Linux `.zip`
+1. Töltsd le a [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)-ot
+1. Csomagold ki a MacOS vagy Linux `.zip` fájlt
 1. Nyisd meg a `TwilightBoxart.ini` fájlt egy szöveg editorral
 1. Írd be az SD kártyád útvonalát az `SdRoot=` mögé, majd mentsd a fájlt
    - Ez macOS-en a `/Volumes/`, majd ezt követően az SD kártyád neve
@@ -33,7 +33,7 @@ tabs:
 1. A terminal-ban gépeld be, hogy `cd ` majd húzd bele a mappát, ami tartalmazza a `TwilightBoxart.CLI`-t a terminal-ba
 1. Futtasd a `chmod +x TwilightBoxart.CLI` parancsot
 1. Futtasd a `./TwilightBoxart.CLI` parancsot
-1. Use the arrow and enter keys to select `Yes` if it shows your SD path correctly
+1. Válaszolj `Yes`-t, ha az SD kártyád útvonalát helyesen mutatja
 1. Ellenőrizd, hogy a Doboz/Játék borítók megjelenítése bekapcsolt a TWiLight Menu++ beállításaiban
 {% endcapture %}
 {% assign tab-macos_linux = tab-macos_linux | split: "////////" %}

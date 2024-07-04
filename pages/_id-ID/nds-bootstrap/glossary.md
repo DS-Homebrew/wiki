@@ -22,16 +22,16 @@ Berkas simpanan atau *save* permainan akan berekstensi `.savX`, tanda X menandak
 Mengubah mode yang dijalankan ROM. Cepat CPU ARM9 dan opsi Mode VRAM juga terpengaruh. Jika ROM yang tidak didukung diubah ke mode DSi tidak akan ada efeknya.
 
 ### Cepat CPU ARM9
-Mengubah kecepatan yang dijalankan CPU ARM9. Secara bawaan, ROM di Mode DS berjalan 67 Mhz (NTR). Ini bisa diubah ke 133 Mhz (TWL) untuk mengurangi lambat, tapi akan ada isu. ROM di Mode DSi hanya bisa diubah ke 133 Mhz (TWL).
+Mengubah kecepatan yang dijalankan CPU ARM9. Secara bawaan, ROM di Mode DS berjalan 67 Mhz (NTR). Ini bisa diubah ke 133 Mhz (TWL) untuk mengurangi lambat, tapi akan ada isu. ROM di Mode DSi hanya bisa diatur ke 133 Mhz (TWL).
 
 ### Mode VRAM
-Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, ROM di Mode DS menggunakan Mode VRAM DS. Ini bisa diubah ke Mode VRAM DSi tapi tidak berpengaruh dan akan ada isu visual. ROM di Mode DSi hanya bisa diubah ke Mode VRAM DSi. Untuk ROM jenis TWL (*DSi-Enhanced* atau DSiWare) di Mode DSi, Mode VRAM akan diatur permainan sendiri.
+Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, ROM di Mode DS menggunakan Mode VRAM DS. Ini bisa diubah ke Mode VRAM DSi tapi tidak berpengaruh dan akan ada isu visual. ROM di Mode DSi hanya bisa diatur ke Mode VRAM DSi. Untuk ROM jenis TWL (*DSi-Enhanced* atau DSiWare) di Mode DSi, Mode VRAM akan diatur permainan sendiri.
 
 ### DMA Bacaan Kartu
 Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Jika ini diaktifkan akan sedikit mempercepat ROM, tapi akan ada isu. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#card-read-dma).
 
 ### Mulai Langsung
-Hanya muncul pada ROM *homebrew* di *flashcard*. Jika diatur ke `Nyala`, maka ROM tidak akan dijalankan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
+Hanya muncul pada ROM *homebrew* di *flashcard*. Jika diatur ke `Nyala`, ROM tidak akan dimuat dengan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
 
 ### Bootstrap
 Mengubah cara jalan ROM apakah dengan nds-boostrap versi *Release* atau *Nightly*. Informasi untuk versi *Nightly* bisa dilihat di [Pertanyaan Umum nds-bootstrap](https://wiki.ds-homebrew.com/id-ID/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)

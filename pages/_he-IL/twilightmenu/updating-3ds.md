@@ -26,16 +26,14 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
    - אם אין לכם אותה מותקנת, עקבו אחרי ההוראות [התקנה](installing-3ds)
 1. מצאו את TWiLight Menu++ ברשימת התוכנות, ניתן לעשות חיפוש באמצעות הטאב השלישי בתפריט הצד במידה ואתם מתקשים במציאה שלו
 1. לחצו על <kbd class="face">A</kbd> או לחצו על אייקון ההורדה בתפריט הצד ובחרו ב`TWiLight Menu++` על מנת להתחיל את ההתקנה
-   - פעולה זו תמשך זמן מה
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. הורידו את הגרסה האחרונה של [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. חלצו את `TWiLightMenu-3DS.7z`
 1. Copy the `_nds` folder to your SD card root, replacing any existing files
    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`

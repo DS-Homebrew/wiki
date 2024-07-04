@@ -11,6 +11,9 @@ tabs:
     other: macOS/Linux
 ---
 
+Hardmodding can easily damage your DSi. If you're trying to unbrick your DSi, then you should try [ntrboot](ntrboot) first.
+{:.alert .alert-danger}
+
 המושג Hardmod מתייחס למצב שבו מלחימים ללוח האם של הDSi מתאם לכרטיס SD, על מנת שהוא יוכל להקרא באמצעות מחשב. זה יעיל לשחזור גיבויי NAND, צפייה בNAND על המחשב ועוד...
 
 ### Nintendo DS

@@ -88,7 +88,7 @@ Untuk melihat tangkapan layarnya di komputer, ekstrak `sd:/_nds/nds-bootstrap/sc
 Aplikasi nds-bootstrap hanya bisa muat 50 tangkapan layar di `screenshots.tar`. Jika hampir penuh, ekstrak dulu berkas TAR lalu boleh hapus, nds-bootstrap akan membuat TAR baru saat memuat permainan.
 
 #### Apa itu "layar utama" dan kenapa menangkap layar hanya di situ?
-Layar "utama" adalah layar fisik atas atau bawah yang dipermuncul gambar oleh mesin utama. Biasanya layar yang menampilkan jalan permainan atau berunsur 3D itu selalu jadi layar utama. Di menu *in-game* ini akan selalu layar atas.
+Layar "utama" adalah layar fisik atas atau bawah yang dipermuncul gambar oleh mesin utama. Biasanya layar yang menampilkan jalan permainan atau berunsur 3D itu selalu jadi layar utama. Di menu *in-game*, ini selalu layar atas.
 
 Alasan kenapa hanya bisa menangkap layar utama karena keterbatasan peranti keras Nintendo DS, tidak ada *framebuffer* (dapar bingkai) tapi ada fitur tangkap tampilan yang menangkap hasil keluaran mesin utama. Ini sering digunakan permainan untuk merender 3D ke kedua layar tapi juga bisa untuk menangkap layar.
 
@@ -99,9 +99,9 @@ Saat menangkap layar dengan nds-bootstrap maka fitur tangkap tampilan DS digunak
 Bermain daring dengan nds-bootstrap akan berfungsi persis seperti di kaset sungguhan. Lihat laman [Wi-Fi](../ds-index/wifi) ini untuk informasi cara menyambung layanan daring alternatif.
 - Jika permainan *DSi-Enhanced* dijalankan di mode DS, keamanan sambungan jejaring hanya bisa WEP atau tidak ada
 
-#### Apakah mengatur cepat CPU permainan ke 133 MHz (TWL) akan merusak konsol?
+#### Apakah mengatur CPU permainan ke 133 MHz (TWL) akan merusak konsol?
 Tidak. Walaupun tidak semua permainan berfungsi di pengaturan ini, DSi dan 3DS memang dirancang mampu di kecepatan CPU ini.
-- Jika permainan bermasalah saat dijalankan pada cepat CPU 133 MHz (TWL), buat isu baru di [repositori GitHub **TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/issues) dan jelaskan efeknya, nanti cepat CPU ini akan didaftarhitamkan untuk permainan tersebut
+- Jika permainan bermasalah saat dijalankan pada cepat CPU 133 MHz (TWL), buat *issue* baru di [repositori GitHub **TW**i**L**ight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/issues) dan jelaskan efeknya, nanti cepat CPU ini akan didaftarhitamkan untuk permainan tersebut
 
 #### Apakah nds-bootstrap bisa mempercepat permainan?
 Walaupun cepat CPU TWL bisa meredakan sendat, nds-bootstrap tidak bisa mempercepat lebih dari spesifikasi yang ada.

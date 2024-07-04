@@ -45,6 +45,7 @@ DS 게임들은 디지털의 `.nds` 포맷으로 덤핑되어야 합니다. DS �
 1. 당신의 게임 파일 위치에 들어가서, <kbd class="face">A</kbd>를 눌러 주세요.
 1. `Yes`를 눌러서, 설치를 확정해 주세요.
 1. After it is installed, your game will now appear as a title on your HOME menu
+   - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, follow steps 2-3 in Part 1 of the `DSi SD card` tab
 
 ### Part 3: Getting the AP-fix pack from TWiLight Menu++
 

@@ -24,7 +24,8 @@ tabs:
 1. 在应用列表中找到 TWiLight Menu++，如果找不到它，可以使用侧边栏上的第 3 个按钮进行搜索
    - 它的图标长这样：![TWiLight Menu++ 图标](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. 按 <kbd class="face">A</kbd> 键，或是点击侧边栏中的下载图标并选择 `TWiLight Menu++` 来安装它
-   - 这需要一些时间
+   - 可能需要一段时间
+   - 如果安装失败，请确保掌机已连接到互联网。 否则，请单击 "`Manual`"选项卡
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ tabs:
    - 它的图标长这样：![TWiLight Menu++ 图标](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. 按 <kbd class="face">A</kbd> 键，或是点击侧边栏中的下载图标并选择 `TWiLight Menu++` 来安装它
    - 这将会需要一段时间
+   - 如果安装失败，请确保掌机已连接到互联网。 否则，请单击 "`Manual`"选项卡
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. 下载最新的 [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-3DS.7z`
 1. 将 `_nds` 文件夹复制到 SD 卡的根目录下
 1. 将 `BOOT.NDS` 文件复制到 SD 卡的根目录下
@@ -96,4 +95,4 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 - 按 `SELECT`+`↑` 或 `SELECT`+`↓` 在 SD 卡和烧录卡内容之间切换
      - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
      - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
-     - 如果使用 R4/GBC 主题，请按 `L` 键
+     - If you use the R4, GBC, or Wood themes, press `R` button

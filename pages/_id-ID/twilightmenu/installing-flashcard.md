@@ -8,11 +8,9 @@ long_title: Pemasangan TWiLight Menu++ (Flashcard)
 description: Cara memasang TWiLight Menu++ pada <i>flashcard</i> Nintendo DS
 ---
 
-Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan dikira Trojan karena positif palsu. Untuk mengatasi positif palsu, pastikan Windows Defender sudah mutakhir.
-{:.alert .alert-warning}
-
 ### Pemasangan
 1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terkini
+   - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Buka atau ekstrak `TWiLightMenu-Flashcard.7z`
 1. Seret dan taruh folder `_nds` ke akar kartu microSD *flashcard*
 1. Seret dan taruh berkas `BOOT.NDS` ke akar kartu microSD *flashcard*
@@ -38,7 +36,7 @@ Fitur *cheat* akan hilang jika permainan dijalankan dengan cara ini. Jika tetap 
 
 1. Seret dan taruh semua isi dari `Flashcart Loader/(jenis flashcard)` ke akar kartu microSD *flashcard*
    - Terdapat README.txt di folder `Flashcart Loader` untuk membantu mencari pemuat *flashcart* mana yang sesuai untuk *flashcard* Anda.
-   - Jika sudah, lanjut ke langkah ke-3. Jika belum, ikuti langkah yang di bawah daftar *flashcard*
+   - Jika sudah, lanjut ke langkah 3. Jika belum, ikuti langkah yang di bawah daftar *flashcard*
 
 1. Untuk *flashcard* berikut:
    - R4i-SDHC (r4i-sdhc.com)
@@ -62,4 +60,4 @@ Fitur *cheat* akan hilang jika permainan dijalankan dengan cara ini. Jika tetap 
    Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/download/35737/).
       - Pastikan sudah ada `YSMenu.nds` (dari `TTMenu.dat` diubah nama, jika belum ada) dan folder `TTMenu` pada akar kartu microSD *flashcard*
       - Jangan langsung salin `TTMenu.dat`; nanti mengacau muat langsung dan mulai ulang YSMenu
-1. Buka Pengaturan TWLMenu++, pindah ke halaman `Pengaturan Permainan dan Apl.`, dan ubah `Pemuat Permainan` ke `Kernel`, agar ROM dijalankan dengan *firmware flashcard*
+1. Buka Pengaturan TWLMenu++, pindah ke halaman `Pengaturan Permainan dan Apl.`, dan atur `Pemuat Permainan` ke `Kernel`, agar ROM dijalankan dengan *firmware flashcard*

@@ -23,6 +23,6 @@ Jika menggunakan DSi (dari kartu SD internal), ikuti [arahan untuk DSi](installi
 [![Nintendo DSi](/assets/images/consoles/dsi.png)](installing-dsi) [![Nintendo DSi XL](/assets/images/consoles/dsixl.png)](installing-dsi)
 
 ### *Flashcard*
-Jika menggunakan *flashcard* (apa pun model DS yang digunakan) ikuti [arahan untuk *flashcard*](installing-flashcard).
+Jika menggunakan *flashcard* (dengan model DS apa pun) ikuti [arahan untuk *flashcard*](installing-flashcard).
 
 [![<i>Flashcard</i> r4isdhc.com](/assets/images/consoles/r4isdhc.com.png)](installing-flashcard) [![<i>Flashcard</i> Acekard2i](/assets/images/consoles/acekard2i.png)](installing-flashcard) [![<i>Flashcard</i> R4i Gold 3DS Plus](/assets/images/consoles/r4igold3dsplus.png)](installing-flashcard)

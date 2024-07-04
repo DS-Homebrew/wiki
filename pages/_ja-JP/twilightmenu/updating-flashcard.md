@@ -14,11 +14,9 @@ v16.4.0より古いバージョンから更新する場合は、DSゲームの`.
 v21.0.0より古いバージョンから更新する場合は、DSiウェアタイトルの`.pub`および/または`.prv`ファイルを`saves`という新しいフォルダに移動し、`saves`フォルダはDSウェアROMと同じ場所に置いてください。
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### 更新
 1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-Flashcard.7z`を抽出
 1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピーし、既存のファイルを置き換えます
    - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください

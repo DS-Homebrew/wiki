@@ -11,6 +11,9 @@ tabs:
     other: macOS/Linux
 ---
 
+Mengoprek keras rentan merusak DSi. Jika ingin konsol DSi betul lagi, coba dengan cara [ntrboot](ntrboot) dulu.
+{:.alert .alert-danger}
+
 Oprek keras atau *hardmod* adalah tindakan menyolder papan induk Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
@@ -54,14 +57,14 @@ Pertama-tama harus menghapus *footer* NOCASH dari cadangan yang akan di-*flash* 
 1. Ganti ke mode NAND dengan tombol di sebelah kiri jalur berkas
 1. Pencet `Start` untuk mencadang NAND tanpa *footer* no$gba
 
-- Setelah naskahnya selesai, akan ada berkas dengan nama panjang berakhiran `-no-footer.bin` di folder tempat membuka terminal
+- Sesudah naskahnya selesai, akan ada berkas dengan nama panjang berakhiran `-no-footer.bin` di folder tempat membuka terminal
    - Berkas citra NAND ini digunakan untuk di-*flash* ke DSi
 
 {% capture tab-windows %}
 1. Buka Win32DiskImager
 1. Pencet ikon folder dan telusur ke desktop. Pada kotak teks, tulis `NAND_0.bin`. Untuk jenisnya, pilih `All types *.*`
 1. Pilih perangkat yang DSi dan pencet `Read`
-1. Setelah selesai, pencet ikon folder, ubah nama menjadi `NAND_1.bin` dan pencet `Read` lagi
+1. Sesudah selesai, pencet ikon folder, ubah nama menjadi `NAND_1.bin` dan pencet `Read` lagi
 1. Buka HxD dan seret keduanya ke penyunting. Di bilah atas, pencet "Analysis", pencet "File compare" dari menu tarik-turun, lalu pencet "Compare".
 1. Pilih bandingkan kedua berkas, lalu pencet OK jika sudah
    - Jika muncul "The chosen files are identical.", berarti boleh ke bagian berikutnya
@@ -95,7 +98,7 @@ Pertama-tama harus menghapus *footer* NOCASH dari cadangan yang akan di-*flash* 
    - Jalankan perintah berikut di terminal:
       - `cat {nama-perangkat} > nand0.bin`
       - Ganti `{nama-perangkat}` dengan letak *mount* kartu SD
-      - Misalnya `cat /dev/sdb > nand0.bin`
+      - Misal: `cat /dev/sdb > nand0.bin`
       - Lalu jalankan `cat {nama-perangkat} > nand1.bin`
 
 

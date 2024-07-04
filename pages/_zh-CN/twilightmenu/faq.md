@@ -19,9 +19,9 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
    - 请参阅 [dsi.cfw.guide 的页面](https://dsi.cfw.guide/sd-card-setup.html)了解推荐的工具。
 - 如果这也不奏效，尝试换一张SD卡
 
-#### How do I fix touch screen not working after launching a game?
-- If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
-- If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
+#### 如何解决启动游戏之后触摸屏失灵的问题？
+- 如果要启动卡带里的游戏，请确保将`Slot-1 触摸模式`设置为`DS 模式`
+- 如果问题仍然存在，或者您使用的是 ROM，请遵循以下指南： https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
 #### 如何解决 TWiLight Menu++ 在启动游戏时重新启动或出现 Guru Meditation Error 的问题？
 进入 TWLMenu++ 设置，禁用 `更新最近游戏列表`。
@@ -40,7 +40,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 #### 如何在DSi主题的上屏幕显示自定义图片？ 我可以隐藏它吗？
 每次加载菜单时都会在 `sd:/_nds/TWiLightMenu/dsimenu/photos/` 中随机选择 `.png` 图像显示。 如果没有适用的图像，将使用在 nds-bootstrap 拍摄的屏幕截图来代替。
 
-- The images(s) must be no bigger than 208x156
+- 所有图像必须不大于208x156
 - 如果启动时发生了错误，很可能是图像尺寸的错误。 请使用 [tinypng](https://tinypng.com) 来减小尺寸
 
 至于隐藏图片，你需要编辑 `theme.ini` 文件，在 `sd:/_nds/WiLightMenu/dsimenu/themes/[皮肤文件夹]/` 找到。 用文本编辑器打开文件，将 `RenderPhoto` 一行的值从 `1` 改为 `0`，然后保存该文件。
@@ -71,7 +71,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 #### 为什么我找不到/看不到我的游戏？
 有多种原因导致你可能无法找到它们。
 - 在SD卡根目录的 `_nds` 文件夹不是为了在TWiLight Menu++访问准备的，因为它保留了基于功能的文件（皮肤、配置、图像、模拟器等等）。 如果你把你的游戏放到了这里，请把它们移到其他地方。
-- 如果你在一个文件夹里有超过39个项目，并且菜单上的所有空位都被占用，你的游戏可能在下一页。 使用 <kbd class="l">L</kbd>/<kbd class="r">R</kbd> 或 <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> 来切换页面
+- 如果你在一个文件夹里有超过39个项目，并且菜单上的所有空位都被占用，你的游戏可能会在下一页。 使用 <kbd class="l">L</kbd>/<kbd class="r">R</kbd> 或 <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> 来切换页面
 - 如果你的游戏或文件夹是隐藏的，你可能需要修改TWiLight Menu++的GUI设置来显示隐藏文件
 - 如果你的游戏是在一个压缩文件里面（`zip`, `rar`, `7z`, 等等），它不能被TWiLight Menu++读取。 从压缩文件中提取游戏以使用它
 - 如果你的游戏没有使用[支持的扩展名之一](../ds-index/emulators#list-of-systems-supported-by-twilight-menu)，你可能必须通过重命名文件来改变扩展名

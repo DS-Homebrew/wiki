@@ -42,7 +42,7 @@ If you are setting up a network to be DS-compatible, it must meet the following 
 1. הפעילו את הNintendo Wi-Fi Connection Setup
 1. התחברו לנקודת הגישה שלכם
 1. הגדירו את הPrimary DNS שלכם לאחד הערכים הבאים, בהתאם לשירות בו תרצו להשתמש:
-    - **[Wiimmfi](https://wiimmfi.de)** - `167.86.108.126` or `178.62.43.212`
+    - **[Wiimmfi](https://wiimmfi.de)** - `167.235.229.36` or `178.62.43.212`
     - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
 1. הגדירו את `1.1.1.1` בתור הsecondary DNS
 1. ייתכן ותצטרכו להתקין טלאי NoSSL על המשחק שלכם בשלב זה, כתלות במשחק

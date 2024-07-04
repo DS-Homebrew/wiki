@@ -16,8 +16,8 @@ description: Hogyan távolítsd el a TWiLight Menu++-t Nintendo 3DS-ről
 1. Lépj ki a Title listából
 1. Menj az SD kártyához
 1. Nyisd meg az `_nds` mappát
-1. Delete the `TWiLightMenu` folder
-    - **IMPORTANT:** Before deleting the folder, open it, and check if a `saves` folder exists. If it does, then backup everything inside that folder
+1. Töröld a `TWiLightMenu` mappát
+    - **FONTOS:** Mielőtt törölnéd a mappát, nyisd meg, és ellenőrizd, hogy létezik-e `saves` mappa. Ha igen, akkor ments mindent, ami abban a mappában van
 1. Töröld le az nds-bootstrap és a GBARunner2 fájlokat
 1. Lépj ki az `_nds` mappából
 1. Töröld a `boot.nds` fájlt

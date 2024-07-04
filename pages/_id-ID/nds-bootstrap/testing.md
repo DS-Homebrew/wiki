@@ -28,7 +28,7 @@ Untuk isu yang ada pada ROM, lihat [laman *issues*](https://github.com/DS-Homebr
 #### Untuk menguji ROM yang tidak ada isu umum atau belum pernah diuji
 - Uji ROM lebih teliti lagi, periksa apa pun yang mungkin juga dialami pengguna lain
 - Pastikan jangan salah menambah informasi pada lembar di daftar kompatibilitas
-- Pastikan juga permainan yang sudah diuji dihapus dari lembar *Testing Queue</ii></li> </ul>
+- Pastikan juga permainan yang sudah diuji dihapus dari lembar *Testing Queue*
 
 #### Untuk memperbarui daftar hitam
 - Ubah opsi terdaftar hitam saja, yaitu: Cepat CPU 133 MHz (TWL), DMA Bacaan Kartu, dan Bacaan Kartu Tak Selaras

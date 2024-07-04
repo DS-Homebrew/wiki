@@ -11,6 +11,9 @@ tabs:
     other: macOS/Linux
 ---
 
+Hardmodding can easily damage your DSi. If you're trying to unbrick your DSi, then you should try [ntrboot](ntrboot) first.
+{:.alert .alert-danger}
+
 Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do adaptera karty SD w celu podłączenia do komputera. Jest to przydatne by przywrócić kopię zapasową NAND, przeglądać NAND na swoim komputerze itp...
 
 ### Nintendo DS

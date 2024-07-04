@@ -16,7 +16,7 @@ Pertama-tama harus mengunduh [contoh skin](/assets/files/skin-examples.zip). Ini
 Unduh dan pasang [GIMP](https://www.gimp.org)
 - Penyunting lain seperti Photoshop juga boleh, tapi panduan ini akan menggunakan GIMP
 
-Setelah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka dialog *colormap* untuk memudahkan menyunting palet pada gambar.
+Sesudah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka dialog *colormap* untuk memudahkan menyunting palet pada gambar.
 
 Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan itu beragam tergantung letak foldernya, jadi ikuti cara ekspor sesuai bagiannya.
 
@@ -44,7 +44,7 @@ Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus d
 | ------------------ | ------------------------------------------------------------------------ |
 | battery0           | Berkelipkan gambar `battery1` jika baterai lemah                         |
 | battery1           | 0-4 digunakan di mode DSi                                                |
-| battery1purple     | Ikon ungu digunakan jika `Warna LED Daya` diubah ke `Ungu` di pengaturan |
+| battery1purple     | Ikon ungu digunakan jika `Warna LED Daya` diatur ke `Ungu` di pengaturan |
 | battery2           |                                                                          |
 | battery2purple     |                                                                          |
 | battery3           |                                                                          |
@@ -68,50 +68,50 @@ Setelah dikonversi ke *indexed*, buka dialog *colormap* dan pastikan warna lejas
 
 Jika jumlah warna di *colormap* kurang dari 16, tekan tombol `+` di bawah dialog *colormap* sampai ada 16 warna.
 
-Ketika mengekspor, disarankan mencentang `Do not write color space information` pada kotak di bawah `Compatibility Options`.
+Saat mengekspor, disarankan mencentang `Do not write color space information` pada kotak di bawah `Compatibility Options`.
 
-| Tekstur       | Keterangan                                                                                      |
-| ------------- | ----------------------------------------------------------------------------------------------- |
-| bips          | Titik penanda urutan yang ada di dalam bilah gulir (Tema DSi)                                   |
-| box           | Tekstur kotak, ada yang kotak terisi dan kosong (Tema DSi)                                      |
-| box_empty     | Tekstur kotak kosong melompong (Tema 3DS)                                                       |
-| box_full      | Tekstur kotak terisi untuk latar ikon (Tema 3DS)                                                |
-| brace         | Tekstur kurawal sebelah ikon pertama dan terakhir (Tema DSi)                                    |
-| bubble        | Bagian bawah gelembung judul yang di atas start_border atau kotak ikon                          |
-| button_arrow  | Tekstur arah panah di kedua sisi bilah gulir layar bawah (Tema DSi)                             |
-| cornerbutton  | Tombol-tombol yang ada di menu SELECT (Tema DSi) (Dinamakan demikian sesuai penggunaan lamanya) |
-| cursor        | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema 3DS)                         |
-| dialogbox     | Sembulan kotak dialog yang meluncur ke bawah                                                    |
-| folder        | Ikon untuk folder                                                                               |
-| icon_a26      | Ikon permainan Atari 2600                                                                       |
-| icon_col      | Ikon permainan Colecovision                                                                     |
-| icon_gb       | Ikon permainan Game Boy                                                                         |
-| icon_gba      | Ikon permainan GBA                                                                              |
-| icon_gbamode  | Ikon untuk Mode GBA lokal                                                                       |
-| icon_gg       | Ikon permainan Game Gear                                                                        |
-| icon_img      | Ikon untuk gambar BMP, GIF, dan PNG                                                             |
-| icon_int      | Ikon permainan Intellivision                                                                    |
-| icon_m5       | Ikon permainan Sord M5                                                                          |
-| icon_manual   | Ikon untuk manual                                                                               |
-| icon_md       | Ikon permainan Mega Drive                                                                       |
-| icon_nes      | Ikon permainan NES                                                                              |
-| icon_ngp      | Ikon permainan Neo Geo Pocket                                                                   |
-| icon_pce      | Ikon permainan PC Engine/TurboGrafx-16                                                          |
-| icon_plg      | Ikon colok-masuk DSTWO                                                                          |
-| icon_settings | Ikon untuk Nintendo DSi Settings                                                                |
-| icon_sg       | Ikon permainan Sega SG-1000                                                                     |
-| icon_sms      | Ikon permainan Sega Master System                                                               |
-| icon_snes     | Ikon permainan SNES                                                                             |
-| icon_unk      | Ikon untuk permainan yang tidak ada ikon                                                        |
-| icon_ws       | Ikon permainan WonderSwan                                                                       |
-| launch_dot    | Efek titik yang muncul saat membuka permainan (Tema DSi)                                        |
-| moving_arrow  | Arah panah yang muncul saat memindah permainan (Tema DSi)                                       |
-| progress      | Animasi pemuatan dengan 8 gambar bingkai                                                        |
-| scroll_window | Bagian bilah gulir yang menandakan ikon yang sedang dilihat                                     |
-| small_cart    | Ikon yang ada di deretan atas (Tema 3DS) dan di menu SELECT (Tema DSi)                          |
-| start_border  | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema DSi)                         |
-| start_text    | Teks yang muncul di start_border (Tema DSi)                                                     |
-| wirelessicons | Ikon yang muncul untuk permainan yang mendukung nirkabel                                        |
+| Tekstur       | Keterangan                                                                             |
+| ------------- | -------------------------------------------------------------------------------------- |
+| bips          | Titik penanda urutan yang ada di dalam bilah gulir (Tema DSi)                          |
+| box           | Tekstur kotak, ada yang kotak terisi dan kosong (Tema DSi)                             |
+| box_empty     | Tekstur kotak kosong melompong (Tema 3DS)                                              |
+| box_full      | Tekstur kotak terisi untuk latar ikon (Tema 3DS)                                       |
+| brace         | Tekstur kurawal sebelah ikon pertama dan terakhir (Tema DSi)                           |
+| bubble        | Bagian bawah gelembung judul yang di atas start_border atau kotak ikon                 |
+| button_arrow  | Tekstur arah panah di kedua sisi bilah gulir layar bawah (Tema DSi)                    |
+| cornerbutton  | Tombol-tombol yang ada di menu SELECT (Tema DSi) (Dinamakan sesuai penggunaan lamanya) |
+| cursor        | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema 3DS)                |
+| dialogbox     | Sembulan kotak dialog yang meluncur ke bawah                                           |
+| folder        | Ikon untuk folder                                                                      |
+| icon_a26      | Ikon permainan Atari 2600                                                              |
+| icon_col      | Ikon permainan Colecovision                                                            |
+| icon_gb       | Ikon permainan Game Boy                                                                |
+| icon_gba      | Ikon permainan GBA                                                                     |
+| icon_gbamode  | Ikon untuk Mode GBA lokal                                                              |
+| icon_gg       | Ikon permainan Game Gear                                                               |
+| icon_img      | Ikon untuk gambar BMP, GIF, dan PNG                                                    |
+| icon_int      | Ikon permainan Intellivision                                                           |
+| icon_m5       | Ikon permainan Sord M5                                                                 |
+| icon_manual   | Ikon untuk manual                                                                      |
+| icon_md       | Ikon permainan Mega Drive                                                              |
+| icon_nes      | Ikon permainan NES                                                                     |
+| icon_ngp      | Ikon permainan Neo Geo Pocket                                                          |
+| icon_pce      | Ikon permainan PC Engine/TurboGrafx-16                                                 |
+| icon_plg      | Ikon colok-masuk DSTWO                                                                 |
+| icon_settings | Ikon untuk Nintendo DSi Settings                                                       |
+| icon_sg       | Ikon permainan Sega SG-1000                                                            |
+| icon_sms      | Ikon permainan Sega Master System                                                      |
+| icon_snes     | Ikon permainan SNES                                                                    |
+| icon_unk      | Ikon untuk permainan yang tidak ada ikon                                               |
+| icon_ws       | Ikon permainan WonderSwan                                                              |
+| launch_dot    | Efek titik yang muncul saat memuat permainan (Tema DSi)                                |
+| moving_arrow  | Arah panah yang muncul saat memindah permainan (Tema DSi)                              |
+| progress      | Animasi pemuatan dengan 8 gambar bingkai                                               |
+| scroll_window | Bagian bilah gulir yang menandakan ikon yang sedang dilihat                            |
+| small_cart    | Ikon yang ada di deretan atas (Tema 3DS) dan di menu SELECT (Tema DSi)                 |
+| start_border  | Tepian dengan bingkai animasi untuk menandakan ikon terpilih (Tema DSi)                |
+| start_text    | Teks yang muncul di start_border (Tema DSi)                                            |
+| wirelessicons | Ikon yang muncul untuk permainan yang mendukung nirkabel                               |
 
 ### Tekstur Menu DS Klasik (folder `quickmenu`)
 Untuk ini harus berkas PNG.
@@ -125,16 +125,16 @@ Untuk ini harus berkas PNG.
 ### Tekstur antarmuka (folder `ui`)
 Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus di tingkat 100% agar berfungsi. Piksel apa pun yang lejas di salah satu tekstur harus lejas di semuanya, agar warnanya ditimpa dengan benar saat diubah.
 
-| Tekstur                  | Keterangan                                                  |
-| ------------------------ | ----------------------------------------------------------- |
-| Lshoulder                | Gambar tombol L                                             |
-| Lshoulder_greyed         | Gambar tombol L saat tidak ada halaman lagi di kiri         |
-| Lshoulder_photo          | Gambar tombol L saat sedang ada foto                        |
-| Lshoulder_photo_greyed | Gambar tombol L saat di halaman terakhir kiri dan ada foto  |
-| Rshoulder                | Gambar tombol R                                             |
-| Rshoulder_greyed         | Gambar tombol R saat tidak ada halaman lagi di kanan        |
-| Rshoulder_photo          | Gambar tombol R saat sedang ada foto                        |
-| Rshoulder_photo_greyed | Gambar tombol R saat di halaman terakhir kanan dan ada foto |
+| Tekstur                  | Keterangan                                               |
+| ------------------------ | -------------------------------------------------------- |
+| Lshoulder                | Gambar tombol L                                          |
+| Lshoulder_greyed         | Gambar tombol L saat tidak ada halaman lagi di kiri      |
+| Lshoulder_photo          | Gambar tombol L saat sedang ada foto                     |
+| Lshoulder_photo_greyed | Gambar tombol L saat di halaman kiri pojok dan ada foto  |
+| Rshoulder                | Gambar tombol R                                          |
+| Rshoulder_greyed         | Gambar tombol R saat tidak ada halaman lagi di kanan     |
+| Rshoulder_photo          | Gambar tombol R saat sedang ada foto                     |
+| Rshoulder_photo_greyed | Gambar tombol R saat di halaman kanan pojok dan ada foto |
 
 ### Tekstur video (folder `video`)
 Hanya digunakan tema 3DS, `3dsRotatingCubes.rvid` adalah berkas Rocket Video. Untuk informasi lanjut cara mengonversi video ke rvid, baca [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) di wiki Vid2RVID. Jika tidak ingin dipermuncul, hapus saja berkasnya.
@@ -291,12 +291,12 @@ Ke-16 baris kumpulan palet merujuk ke masing-masing warna profil dan harus dalam
 15. Ungu
 16. Patma
 
-Setelah membuat berkas palet, taruh berkasnya di folder `palettes`. Nama berkas palet harus sama dengan nama gambarnya tapi dengan ekstensi `.bin` (contoh: `start_border.bin` akan diterapkan ke gambar `start_border.bmp`).
+Sesudah membuat berkas palet, taruh berkasnya di folder `palettes`. Nama berkas palet harus sama dengan nama gambarnya tapi dengan ekstensi `.bin` (contoh: `start_border.bin` akan diterapkan ke gambar `start_border.bmp`).
 
 Boleh juga menaruh berkas palet `username.bin` untuk mengubah palet dari *font* nama pengguna. Pastikan penyunting palet diatur ke `Font Mode` saat membuat berkas ini.
 
 ## Bagian 3: Menambahkan ke TWiLight Menu++
-Setelah menyunting beberapa grafis dan ingin mencoba skin yang dibuat, cukup salin folder skin (folder yang berisi `background`, `battery`, dll) ke `sd:/_nds/TWiLightMenu/3dsmenu/themes/` atau `sd:/_nds/TWiLightMenu/dsimenu/themes/` untuk skin tema 3DS dan DSi secara urutan.
+Sesudah menyunting beberapa grafis dan ingin mencoba skin yang dibuat, cukup salin folder skin (folder yang berisi `background`, `battery`, dll) ke `sd:/_nds/TWiLightMenu/3dsmenu/themes/` atau `sd:/_nds/TWiLightMenu/dsimenu/themes/` untuk skin tema 3DS dan DSi secara urutan.
 
 ## Bagian 4: Membagikan skin
-Setelah selesai membuat skin, bisa dibagikan ke komunitas dengan membuat *Pull Request* di repositori GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) dengan berkas `.7z`. Jika tidak terbiasa menggunakan git, buat saja *issue* di repositori tersebut dengan mencantumkan berkas zip skin Anda yang ingin ditambahkan.
+Sesudah selesai membuat skin, bisa dibagikan ke komunitas dengan membuat *Pull Request* di repositori GitHub [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) dengan berkas `.7z`. Jika tidak terbiasa menggunakan git, buat saja *issue* di repositori tersebut dengan mencantumkan berkas zip skin Anda yang ingin ditambahkan.

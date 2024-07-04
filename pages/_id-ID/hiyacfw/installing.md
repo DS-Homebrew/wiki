@@ -26,7 +26,7 @@ Program hiyaCFW Helper sering kena positif palsu pada Windows Defender dan antiv
 {: .alert .alert-info}
 
 1. Unduh & pasang [7-Zip](https://www.7-zip.org/download.html) versi terkini
-   - Tidak akan berfungsi dengan pengekstrak arsip lain seperti WinRAR, karena hiyaCFW helper memerlukan 7-Zip, bukan pengekstrak arsip yang umum
+   - Tidak akan berfungsi dengan pengekstrak arsip lain seperti WinRAR, karena hiyaCFW helper bergantung 7-Zip, bukan pengekstrak arsip yang umum
 1. Unduh versi Windows terkini dari [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Ekstrak arsip hiyaCFW Helper di mana saja di komputer
 {% endcapture %}

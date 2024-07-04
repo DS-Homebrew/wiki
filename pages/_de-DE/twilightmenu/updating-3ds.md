@@ -26,16 +26,14 @@ Wenn Sie von einer älteren Version als v25.7.0 aktualisieren, wird empfohlen, d
    - Wenn Sie es nicht haben, folgen Sie den [-Installationsanweisungen](installing-3ds)
 1. Finde TWiLight Menü++ im App-Raster, du kannst mit der 3. Registerkarte in der Seitenleiste suchen, falls du Probleme hast es zu finden
 1. Drücke <kbd class="face">A</kbd> oder tippe auf das Download-Symbol in der Seitenleiste und wähle `TWiLight Menu++`, um es zu installieren
-   - Dies kann eine Weile dauern
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Lade die neueste Version von[`TWiLightMenu-3DS.7z herunter`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Entpacke `TWiLightMenu-3DS.7z`
 1. Kopiere den `_nds` Ordner in den Hauptordner deiner SD-Karte, ersetze alle existierenden Dateien
    - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`

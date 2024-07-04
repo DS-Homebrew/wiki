@@ -16,11 +16,11 @@ hiyaCFW hanya boleh ada di kartu SD dan tidak boleh di NAND. Sebelum lanjut, pas
 
 ### Mengubah pengaturan Unlaunch
 
-Jika Unlaunch telah diatur *autoboot* (memuat langsung) hiyaCFW, lebih baik diubah lagi jika tidak digunakan lagi.
+Jika Unlaunch sudah diatur *autoboot* (memuat langsung) hiyaCFW, lebih baik ubah lagi jika sudah tidak digunakan.
 
 1. Sisipkan kartu SD ke Nintendo DSi dan nyalakan konsol sambil menekan <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
    - Ini akan membuka "Filemenu" Unlaunch
-1. Masuk ke `OPTIONS`, dan ubah `NO BUTTON` ke aplikasi yang diinginkan
+1. Masuk ke `OPTIONS`, dan atur `NO BUTTON` ke aplikasi yang diinginkan
    - Jika ingin muat langsung ke *system NAND*, atur ke aplikasi bernama `Launcher`
    - Jika ingin muat langsung ke TWiLight Menu++, pilih berkas bernama `BOOT.NDS`
 1. Lalu pilih `SAVE & EXIT`

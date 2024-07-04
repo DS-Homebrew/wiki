@@ -81,4 +81,4 @@ Halaman *About* juga menjelaskan sekarang di versi ARM7DLDI atau ARM9DLDI.
 
 Tahu versi mana yang digunakan akan memudahkan memeriksa daftar kompatibilitas resmi, Ini jika permainan ada yang muncul isu.
 
-Nomor *release ID* bisa dilihat di laman *release* dari repositori github GBARunner2, versinya terdiri dari tujuh alfanumerik. Contohnya, versi *Master* terkini bernama "v20200812-131430_6e4ce45", bagian "6e4ce45" mewakili nomor versi.
+Nomor *release ID* bisa dilihat di laman *release* dari repositori github GBARunner2, versinya terdiri dari tujuh alfanumerik. Contoh, versi *Master* terkini bernama "v20200812-131430_6e4ce45", bagian "6e4ce45" mewakili nomor versi.

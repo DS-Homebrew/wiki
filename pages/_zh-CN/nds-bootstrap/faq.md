@@ -27,7 +27,7 @@ description: nds-bootstrap 的常见问题 & 故障处理
 nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM是硬编码为从Slot-1读取。 还有时间问题和反烧录措施（大部分已经被删除），这两个问题将导致ROM不能正常工作。
 
 #### 为什么要在常规烧录卡上使用 nds-bootstrap？
-- 某些兼容的ROM被加载到内存中，使得加载时间甚至比普通游戏卡更快。
+- 某些兼容的ROM被加载到内存中，使得加载时间甚至比普通游戏卡更快
 - 你可以将VRAM内存总线扩展到32位
 - 利用DSi的额外CPU速度，使一些游戏的性能更佳
 - 增强你的音频至48kHz
@@ -42,10 +42,10 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 
 #### DS/DS Lite：为什么在DS烧录卡上使用nds-bootstrap？
 - 某些兼容的ROM被加载到内存扩展卡（或含有RAM的Slot-2烧录卡）中，允许加载时间甚至比普通游戏卡更快。
-- 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
+- 使用内置补丁和 DSi-Enhanced 游戏的Donor ROM可以运行超过400个DSiWare
      - 请记住，nds-bootstrap将始终用于DSiWare，无论在TWLMenu++设置中的 `nds-bootstrap` 是否启用
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
-     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
+     - 并非所有 DSiWare 游戏都能保存，这是因为很难为它们添加保存支持，以及/或者它们在保存文件系统中存储了多个文件
+     - 某些 DSiWare 将需要《四狂神战记》的 Donor ROM 设置
 - 如果你的烧录卡内核不能运行某个ROM，可以用nds-bootstrap来代替，并且可以按游戏特定设置
 - 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换
 - 使用游戏中的菜单进行截图和RAM编辑
@@ -53,14 +53,14 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 #### 什么是Donor ROM？
 在nds-bootstrap中，当一个游戏不能启动时，另一个ROM被用来“捐赠”它的ARM7（和ARM7i，如果有的话）二进制文件给无法运行的游戏，以代替游戏自己的二进制文件。     
 捐赠的ROM可以用 **TW**i**L**ight Menu++来设置。
-- **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
+- **DS模式的烧录卡：** 支持的DSi-Exclusive/DSiWare游戏将需要一个DSi-Enhanced ROM作为Donor ROM
 - **DSiWarehax：** 由于DSi-Enhanced游戏和（大多数）DSi-Exclusive/DSiWare游戏都含有不同的MBK设置，如果没有Donor ROM，DSi-Enhanced游戏将无法在DSi模式下启动。 通过将DSi-Exclusive/DSiWare游戏设置为Donor ROM，DSi-Enhanced游戏将能够在该漏洞所使用的DSiWare游戏设置的MBK内运行。
      - 在 DSi 上，如果 **TW**i**L**ight Menu++ 检测到未设置Donor ROM， *Nintendo DSi Sound* 和/或您已启动的有效游戏将自动设置为Donor ROM。
 - **CycloDS iEvolution：** 与DSiWarehax的情况相同，但是恰恰相反，DSi-Exclusive/DSiWare游戏需要将DSi-Enhanced游戏设置为Donor ROM。
 
 #### 哪个是最好的Donor ROM？
-*没有最好的*。 Most ROMs of TWL titles can be set as a Donor ROM.     
-On DS flashcards, any SDK5 DS title can be set as a Donor ROM for DSiWare.
+*没有最好的*。 大多数 TWL 游戏的 ROM 都可以设置为Donor ROM。     
+在 DS 烧录卡上，任何 SDK5 DS 作品都可以设置为 DSiWare 的Donor ROM。
 
 例如：
 - **DSi 上的 DSiWarehax：** *Nintendo DSi Sound* 和/或您已启动的有效游戏将自动设置为 Donor ROM（如果尚未设置）。
@@ -118,4 +118,4 @@ DSi二进制文件是游戏代码中用于DSi（以及3DS）系统的部分，�
 
 - 没有DSi二进制文件的ROM仍然可以通过DS模式在任何游戏机上玩，在该模式下，游戏将像在任天堂DS/Lite上一样运行
 
-要获得包含DSi二进制文件的ROM， [重新转储你的游戏卡](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games)。
+要获得包含DSi二进制文件的ROM，请 [重新转储你的游戏卡](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games)。

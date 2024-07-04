@@ -11,11 +11,9 @@ description: ニンテンドーDSiにTWiLight Menu++をインストールする�
 DSiに自作ソフトを実行する方法がない場合は、[dsi.cfw.guide](https://dsi.cfw.guide)に従って、TWiLight Menu++をインストールしてください
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### インストール
 1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロード
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-DSi.7z`を抽出
 1. `_nds`フォルダをSDカードのルートにコピー
 1. `BOOT.NDS`ファイルをSDカードのルートにコピー
@@ -60,4 +58,4 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
      - If the SELECT menu is enabled, you can do so there as well
      - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+     - If you use the R4, GBC, or Wood themes, press `R` button

@@ -8,14 +8,12 @@ long_title: Pemasangan TWiLight Menu++ (DSi)
 description: Cara memasang TWiLight Menu++ pada Nintendo DSi
 ---
 
-Jika belum punya cara menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
+Jika belum mampu menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://dsi.cfw.guide) untuk memasang TWiLight Menu++
 {:.alert .alert-info}
-
-Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan dikira Trojan karena positif palsu. Untuk mengatasi positif palsu, pastikan Windows Defender sudah mutakhir.
-{:.alert .alert-warning}
 
 ### Pemasangan
 1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
+   - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-DSi.7z`
 1. Salin folder `_nds` ke akar kartu SD
 1. Salin berkas `BOOT.NDS` ke akar kartu SD
@@ -25,7 +23,7 @@ Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan 
 ### Memuat langsung dengan Unlaunch
 1. Nyalakan Nintendo DSi sambil menahan tombol <kbd class="face">A</kbd> dan <kbd class="face">B</kbd>
 1. Di menu Unlaunch, masuk ke `OPTIONS`
-1. Ubah `NO BUTTON` atau tombol pilihan Anda ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah
+1. Atur `NO BUTTON` atau tombol pilihan Anda ke `TWiLight Menu++` yang bertuliskan `BOOT.NDS` di layar bawah
 
 ### Mengakses isi *flashcard*
 
@@ -50,7 +48,7 @@ Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan 
 1. Buka Pengaturan TWLMenu++
 1. Pindah ke halaman `Pengaturan lain`
 1. Nyalakan `Akses SCFG di Slot-1` (Mohon diingat opsi ini mengesampingkan `Akses SD di Slot-1`)
-1. Ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
+1. Atur `Slot-1: Mode Sentuh` ke `Mode DSi`
 1. Nyalakan `Langsung mulai Slot-1`
 1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
      - Jika masuk ke Menu DS Klasik, luncurkan *flashcard*
@@ -60,4 +58,4 @@ Jika menggunakan Windows yang mana terdapat Windows Defender, berkas `.7z` akan 
 - Tekan `SELECT`+`Atas` atau `SELECT`+`Bawah` untuk beralih antara isi kartu SD dan *flashcard*
      - Jika menu SELECT diaktifkan, boleh dilakukan dari situ
      - Jika menggunakan tema 3DS, sentuh ikon Kaset/Kartu SD
-     - Jika menggunakan tema R4/GBC, tekan tombol `L`
+     - Jika menggunakan tema Wood, R4, atau GBC; tekan tombol `L`

@@ -44,7 +44,8 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 1. Dans l'Homebrew Launcher, ouvrez `NDS Forwarder Generator`
 1. Naviguez jusqu'à l'emplacement de votre jeu et appuyez sur <kbd class="face">A</kbd>
 1. Confirmez l'installation en sélectionnant `Yes`
-1. After it is installed, your game will now appear as a title on your HOME menu
+1. Une fois installé, votre jeu apparaîtra comme un titre dans votre menu HOME
+   - Si le lancement du titre fait apparaître un message d'erreur indiquant `/_nds/ntr-forwarder/sdcard.nds not found`, suivez les étapes 2 et 3 de la partie 1 de l'onglet `Carte SD DSi`
 
 ### Part 3: Getting the AP-fix pack from TWiLight Menu++
 

@@ -11,8 +11,8 @@ A TWiLight Menu++ tud olyan egyedi betűkészleteket használni, amik NFTR (Nitr
 
 ### Könyvtár szerkezet
 Az egyedi betűkészletek a `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` útvonalról kerülnek betöltésre, ahol a `[font name]` bármi lehet amit szeretne, és a `[font file].nftr` egyike a következőknek:
-- `large.nftr`: The larger font used for titles
-- `small.nftr`: The smaller font used for most other text
+- `large.nftr`: A címekhez használt nagyobb betűméret
+- `small.nftr`: A legtöbb más szöveghez használt kisebb betűméret
 
 ### Szkin betűkészletek
 Hozzá adhatsz betűkészleteket az [egyedi DSi/3DS téma szkinekhez](custom-dsi-3ds-skins), ami felül fogja bírálni azt ami van be TWiLight Menu++ beállításaiban. Ezek a betűkészletek a `font` mappába kerülnek a szkin gyökér könyvtárába.

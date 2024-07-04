@@ -25,7 +25,7 @@ A Master buildek vagy "fő" buildek a GBARunner2 megfelelő kiadásai. Általáb
 
 ### [Wi-Fi-Link](https://github.com/Gericom/GBARunner2/releases/tag/v20200217-194452_0b8bbe3)
 
-A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsolását. Fontos megjegyezni, hogy nem az Interneten keresztül és az nem is lesz soha lehetséges a látencia miatt. A jelenlegi előrehaladás változó és az egyetlen biztosan stabil kapcsolatot tartani tudó az Advance Guardian Heroes és az is csak akkor, ha követed a nagyon speciális utasításokat. Mondani sem kell, hogy ezt az ág jelenlegi állapotában újdonságnak tekinthető és egy koncepció, nem olyannak, amit ténylegesen használni kell. Néhány más játék képes csatlakozni, de ezek nagyon függenek a külső tényezőktől, például más Wi-Fi jelek interferenciájától, sok más dolog mellett. To setup Wi-Fi linking, please see the [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+A Wi-Fi-Link ág lehetővé teszi két rendszer vezeték nélküli összekapcsolását. Fontos megjegyezni, hogy nem az Interneten keresztül és az nem is lesz soha lehetséges a látencia miatt. A jelenlegi előrehaladás változó és az egyetlen biztosan stabil kapcsolatot tartani tudó az Advance Guardian Heroes és az is csak akkor, ha követed a nagyon speciális utasításokat. Mondani sem kell, hogy ezt az ág jelenlegi állapotában újdonságnak tekinthető és egy koncepció, nem olyannak, amit ténylegesen használni kell. Néhány más játék képes csatlakozni, de ezek nagyon függenek a külső tényezőktől, például más Wi-Fi jelek interferenciájától, sok más dolog mellett. A Wi-Fi Linking beállításához lásd a [WikiTemp oldalát](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 ## DS-specifikus build-ek
 

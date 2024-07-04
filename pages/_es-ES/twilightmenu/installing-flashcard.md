@@ -8,11 +8,9 @@ long_title: Instalando TWiLight Menu++ (Flashcard)
 description: Cómo instalar TWiLight Menu++ en una flashcard de Nintendo DS
 ---
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### Instalación
 1. Descarga [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) de la versión más reciente
+   - Si no se descarga, visita la <0>página de descargas</0>
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root

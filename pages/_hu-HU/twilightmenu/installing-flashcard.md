@@ -8,11 +8,9 @@ long_title: A TWiLight Menu++ telepítése (Flashcard)
 description: Hogyan telepítsd a TWiLight Menu++-t Nintendo DS flashcard-ra
 ---
 
-Ha olyan Windows kiadást használ, amely tartalmazza a Windows Defendert, az hamis pozitív eredmény miatt trójai vírusként fogja észlelni a `.7z` fájlt. A hamis pozitív eredmény kijavításához ellenőrizd, hogy a Windows Defender naprakész.
-{:.alert .alert-warning}
-
 ### Telepítés
 1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót
+   - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Nyisd meg vagy csomagold ki a `TWiLightMenu-Flashcard.7z` fájlt
 1. Húzd az `_nds` mappát a flash kártyád microSD kártyájának gyökerébe
 1. Húzd a `BOOT.NDS` fájlt a flash kártyád microSD kártyájának gyökerébe

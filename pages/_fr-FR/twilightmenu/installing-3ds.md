@@ -24,7 +24,8 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
 1. Trouvez TWiLight Menu++ dans la grille des applications, vous pouvez effectuer une recherche avec le 3<sup>ème</sup> onglet de la barre latérale si vous avez des difficultés à le trouver
    - Il a cette icône : ![Icône de TWiLight Menu ++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou touchez l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
-   - Cela va prendre un certain temps
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
    - Il a cette icône : ![Icône de TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou touchez l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
    - Cela va prendre un certain temps
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Téléchargez le dernier [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrayez `TWiLightMenu-3DS.7z`
 1. Copiez le dossier `_nds` à la racine de votre carte SD
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
@@ -96,4 +95,4 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 - Appuyez sur `SELECT`+`Haut` ou `SELECT`+`Bas` pour passer du contenu de la carte SD à celui du linker
      - Si le menu SELECT est activé, vous pouvez également le faire à cet endroit
      - Si vous utilisez le thème 3DS, touchez l'icône Carte de jeu/Carte SD
-     - Si vous utilisez le thème R4/GBC, appuyez sur le bouton `L`
+     - Si vous utilisez les thèmes R4, GBC ou Wood, appuyez sur le bouton `R`

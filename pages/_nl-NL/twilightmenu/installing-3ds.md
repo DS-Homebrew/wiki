@@ -24,7 +24,8 @@ Je moet eerst aangepaste firmware op je 3DS hebben, volg de instructies op [3ds.
 1. Vind TWiLight Menu++ in het app-raster, je kunt zoeken met het 3de tabblad op de zijbalk als je het probleem hebt om het te vinden
    - Het heeft dit pictogram: ![TWiLight Menu++-pictogram](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Druk op <kbd class="face">A</kbd> of tik op het download-pictogram in de zijbalk en selecteer `TWiLight Menu++` om het te installeren
-   - Dit kan even duren
+   - This will take a while
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,15 +41,13 @@ Je moet eerst aangepaste firmware op je 3DS hebben, volg de instructies op [3ds.
    - Het heeft dit pictogram: ![TWiLight Menu++-pictogram](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Druk op <kbd class="face">A</kbd> of tik op het download-pictogram in de zijbalk en selecteer `TWiLight Menu++` om het te installeren
    - Dit kan even duren
+   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
-
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 1. Download de meest recente versie van [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Pak `TWiLightMenu-3DS.7z` uit
 1. Kopieer de map `_nds` naar de root van je SD-kaart
 1. Kopieer het bestand `BOOT.NDS` naar de root van je SD-kaart
@@ -96,4 +95,4 @@ Een flashkaart is iets wat in de spelkaartsleuf gaat, en een microSD-kaartsleuf 
 - Druk op `SELECT`+`Omhoog` of `SELECT`+`Omlaag` om te wisselen tussen de inhoud van de SD- en flashkaart
      - Als het SELECT-menu is ingeschakeld, kan je dat ook daar doen
      - Als je het 3DS-thema gebruikt, raak het Spelkaart- / SD-kaartpictogram aan
-     - Als je het R4- / GBC-thema gebruikt, druk dan op `L`
+     - If you use the R4, GBC, or Wood themes, press `R` button

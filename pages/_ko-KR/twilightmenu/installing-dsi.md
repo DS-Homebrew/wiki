@@ -11,11 +11,9 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 아직 사용자의 DSi 본체에 홈브류를 설치하지 않았다면, TWiLight Menu++를 설치하기 위해 [dsi.cfw.guide](https://dsi.cfw.guide)를 따르세요.
 {:.alert .alert-info}
 
-If you use a Windows edition which contains Windows Defender, it'll detect the `.7z` file as a Trojan due to a false positive. To fix the false positive, ensure Windows Defender is up to date.
-{:.alert .alert-warning}
-
 ### 설치하기
 1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
+   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-DSi.7z`를 압축 해제하세요
 1. SD 카드 루트에 `_nds` 폴더를 복사하세요
 1. SD 카드 루트에 `BOOT.NDS` 파일을 복사하세요
@@ -60,4 +58,4 @@ If you use a Windows edition which contains Windows Defender, it'll detect the `
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
      - SELECT 메뉴가 활성화된 경우 이 메뉴에서도 선택할 수 있습니다
      - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4/GBC theme, press `L` button
+     - If you use the R4, GBC, or Wood themes, press `R` button
