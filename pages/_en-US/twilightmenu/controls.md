@@ -22,6 +22,7 @@ description: Controls for using TWiLight Menu++
       - <kbd class="l">L</kbd>: Disable all cheats
 - <kbd class="face">X</kbd>: Delete/hide game
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
 
 #### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app
