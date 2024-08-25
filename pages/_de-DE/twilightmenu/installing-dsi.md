@@ -13,7 +13,7 @@ Wenn du noch keine Möglichkeit hast, Homebrew auf dem DSi auszuführen, folge [
 
 ### Installation
 1. Lade die neueste Version von [`TWiLightMenu-DSi`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) herunter
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+   - Wenn die Datei nicht heruntergeladen werden kann, lesen Sie die [Release-Seite](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Entpacke `TWiLightMenu-DSi.7z`
 1. Kopiere den `_nds` Ordner in dein SD-Kartenverzeichnis
 1. Kopiere den `BOOT.NDS` Ordner in dein SD-Kartenverzeichnis
@@ -58,4 +58,4 @@ Eine Flashcard ist etwas, das in den Spielkartensteckplatz passt und einen micro
 - Drücken Sie entweder `SELECT`+`oben` oder `SELECT`+`unten`, um zwischen dem Inhalt der SD-Karte und der Flash-Karte zu wechseln
      - Wenn das Menü SELECT aktiviert ist, können Sie dies auch dort tun
      - Wenn Sie das 3DS-Thema verwenden, berühren Sie das Symbol Spielkarte/SD-Karte
-     - If you use the R4, GBC, or Wood themes, press `R` button
+     - Wenn Sie die Themen R4, GBC oder Wood verwenden, drücken Sie die Taste `R`

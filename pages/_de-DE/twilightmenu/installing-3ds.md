@@ -18,14 +18,14 @@ Du brauchst zuerst die benutzerdefinierte Firmware auf deinem 3DS, folge [3ds.ha
 
 {% capture tab-working-camera %}
 1. Öffne FBI und wähle `Remote-Installation`, dann `QR-Code scannen`
-1. Scannen Sie diesen QR-Code, um die neueste Version von [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) zu installieren<br> ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
+1. Scannen Sie diesen QR-Code, um die neueste Version von [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) zu installieren<br> ![Universal-Updater QR-Code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Schließe FBI und starte Universal-Updater
    - Falls es nicht auf deinem Home-Menü erscheint, starte deinen 3DS neu
 1. Finde TWiLight Menü++ im App-Raster, du kannst mit der 3. Registerkarte in der Seitenleiste suchen, falls du Probleme hast es zu finden
-   - Es hat dieses Symbol: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+   - Es hat dieses Symbol: ![TWiLight Menü++ Symbol](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Drücke <kbd class="face">A</kbd> oder tippe auf das Download-Symbol in der Seitenleiste und wähle `TWiLight Menu++`, um es zu installieren
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+   - Dies wird eine Weile dauern
+   - Wenn die Installation fehlschlägt, stellen Sie sicher, dass die Konsole mit dem Internet verbunden ist. Andernfalls klicken Sie auf die Registerkarte `Manual`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -41,13 +41,13 @@ Du brauchst zuerst die benutzerdefinierte Firmware auf deinem 3DS, folge [3ds.ha
    - Es hat dieses Symbol: ![TWiLight Menu++ Icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Drücke <kbd class="face">A</kbd> oder tippe auf das Download-Symbol in der Seitenleiste und wähle `TWiLight Menü++`, um es zu installieren
    - Dies kann eine Weile dauern
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+   - Wenn die Installation fehlschlägt, stellen Sie sicher, dass die Konsole mit dem Internet verbunden ist. Andernfalls klicken Sie auf die Registerkarte `Manual`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Lade die neueste Version von[`TWiLightMenu-3DS.7z herunter`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+   - Wenn die Datei nicht heruntergeladen werden kann, lesen Sie die [Release-Seite](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Entpacke `TWiLightMenu-3DS.7z`
 1. Kopiere den `_nds` Ordner in dein SD-Karten Stammverzeichnis
 1. Kopiere die `BOOT.NDS` Datei in dein SD-Karten Stammverzeichnis
@@ -72,14 +72,14 @@ Eine Flashcard ist etwas, das in den Spielkartensteckplatz passt und einen micro
 1. Folgen Sie [dieser](installing-flashcard) Anleitung ab `, um Spiele mit Ihrer Flashcard-Firmware auszuführen`
      - Sie können die Warnungen getrost ignorieren
 1. TWiLigtMenu++ Einstellungen öffnen
-1. Wechseln Sie zur `Misc Einstellungen` Seite
-1. Schalten Sie `ein Slot-1 microSD Zugriff`ß
+1. Wechseln Sie zur `Misc settings` Seite
+1. `Slot-1 microSD access` einschalten
 1. Verlassen Sie TWLMenu++ Einstellungen durch Drücken der Taste `B`
      - Wenn Sie im klassischen DS-Menü landen, drücken Sie erneut `B`
 
 #### Wenn Sie kein R4(i) Ultra haben
 
-1. Erstellen Sie eine Datei oder einen Ordner mit dem Namen `primär` in `sd:/_nds/` (nicht die Flashkarte), damit TWiLight Menu++ die Einstellungen von der SD-Karte der Konsole liest, nachdem es Ihre Flashkarte gestartet hat
+1. Erstellen Sie eine Datei oder einen Ordner mit dem Namen `primary` in `sd:/_nds/` (nicht die Flashkarte), damit TWiLight Menu++ die Einstellungen von der SD-Karte der Konsole liest, nachdem es Ihre Flashkarte gestartet hat
 1. Folgen Sie [dieser](installing-flashcard) Anleitung, beginnend mit `Autobooting TWiLight Menu++`
 1. Kopieren Sie die Datei `BOOT.NDS` von `TWiLightMenu-Flashcard.7z` in das Stammverzeichnis Ihrer microSD-Karte
 1. TWiLigtMenu++ Einstellungen öffnen
@@ -95,4 +95,4 @@ Eine Flashcard ist etwas, das in den Spielkartensteckplatz passt und einen micro
 - Drücken Sie entweder `SELECT`+`oben` oder `SELECT`+`unten`, um zwischen dem Inhalt der SD-Karte und der Flash-Karte zu wechseln
      - Wenn das Menü SELECT aktiviert ist, können Sie dies auch dort tun
      - Wenn Sie das 3DS-Thema verwenden, berühren Sie das Symbol Spielkarte/SD-Karte
-     - If you use the R4, GBC, or Wood themes, press `R` button
+     - Wenn Sie die Themen R4, GBC oder Wood verwenden, drücken Sie die Taste `R`

@@ -11,8 +11,8 @@ description: Wie man TWiLight Menu++ von einer Nintendo DSi- oder DS-Flashkarte 
 ### Deinstallation
 1. Gehe zur SD-Karte der Konsole oder zur SD-Karte der Flashkarte
 1. Öffne `_nds`
-1. Delete the `TWiLightMenu` folder
-    - **IMPORTANT:** Before deleting the folder, open it, and check if a `saves` folder exists. If it does, then backup everything inside that folder
+1. Löschen Sie den Ordner `TWiLightMenu`
+    - **WICHTIG:** Bevor Sie den Ordner löschen, öffnen Sie ihn und prüfen Sie, ob ein `Speicherordner` vorhanden ist. Wenn dies der Fall ist, sichern Sie alles in diesem Ordner
 1. Lösche die nds-bootstrap und GBARunner2 Dateien
 1. Verlasse `_nds`
 1. Lösche `boot.nds`

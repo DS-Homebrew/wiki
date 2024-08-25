@@ -3,65 +3,65 @@ lang: de-DE
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi/3DS Skins - Custom SFX
-description: How to use custom background music and sound effects in DSi and 3DS skins for TWiLight Menu++
+title: DSi/3DS Skins - Benutzerdefinierte SFX
+description: Wie man benutzerdefinierte Hintergrundmusik und Soundeffekte in DSi und 3DS Skins für TWiLight Menu++ verwendet
 ---
 
-TWiLight Menu++ supports custom sound files in themes. Place your sound files under the `sound` subdirectory in your theme folder, for example for the `white` theme, you would place the files at `themes/white/sound/sfx.bin` and `themes/white/sound/bgm.pcm.raw` respectively. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.
+TWiLight Menu++ unterstützt benutzerdefinierte Sounddateien in Themen. Legen Sie Ihre Sounddateien im `Sound-Unterverzeichnis` in Ihrem Themenordner ab. Für das `weiße` Thema beispielsweise würden Sie die Dateien unter `themes/white/sound/sfx.bin` bzw. `themes/white/sound/bgm.pcm.raw` ablegen. Beide Dateien sind optional, wenn `bmg.pcm.raw` fehlt, wird die Standardmusik verwendet. Das Gleiche würde mit den Soundeffekten passieren, wenn die `Datei sfx.bin` ebenfalls fehlt.
 
-These instructions assume you have devkitPro installed with mmutil. You can get devkitPro at the [devkitPro website](https://devkitpro.org/wiki/Getting_Started).
+Diese Anleitung geht davon aus, dass Sie devkitPro mit mmutil installiert haben. Sie können devkitPro über die [devkitPro-Website](https://devkitpro.org/wiki/Getting_Started) beziehen.
 
-## Sound Effect Bank
-The sound effect bank (`sfx.bin`) contains sound effects such as the icon select sound, etc.
+## Sound-Effekt-Bank
+Die Soundeffekt-Bank`(sfx.bin`) enthält Soundeffekte wie z. B. den Sound für die Symbolauswahl usw.
 
-| File        | Beschreibung                                                                           |
-| ----------- | -------------------------------------------------------------------------------------- |
-| startup.wav | Played on startup. See the section on [Startup sound](#startup-sound) for more details |
-| back.wav    | Back                                                                                   |
-| launch.wav  | Played when launching a game                                                           |
-| select.wav  | Played when moving the cursor in the per-game settings and select menu                 |
-| wrong.wav   | Played when reaching the end of the page                                               |
-| switch.wav  | Played when switching pages                                                            |
-| stop.wav    | Played on the DSi Theme when the select cursor stops moving                            |
+| Datei       | Beschreibung                                                                                                     |
+| ----------- | ---------------------------------------------------------------------------------------------------------------- |
+| startup.wav | Wird beim Starten abgespielt. Weitere Einzelheiten finden Sie im Abschnitt über den [Startsound](#startup-sound) |
+| back.wav    | Zurück                                                                                                           |
+| launch.wav  | Wird beim Starten eines Spiels abgespielt                                                                        |
+| select.wav  | Wird abgespielt, wenn der Cursor im Menü "Einstellungen pro Spiel" und "Auswahl" bewegt wird                     |
+| wrong.wav   | Wird abgespielt, wenn das Ende der Seite erreicht wird                                                           |
+| switch.wav  | Wird beim Seitenwechsel abgespielt                                                                               |
+| stop.wav    | Wird auf dem DSi Theme abgespielt, wenn sich der Auswahlcursor nicht mehr bewegt                                 |
 
-All the files listed above are required to build a custom sound effect bank. If you want a sound to be mute, you can use a silent audio file. The `.wav` format is mandatory and the encoding *must* be PCM.
+Alle oben aufgeführten Dateien sind erforderlich, um eine benutzerdefinierte Soundeffektbank zu erstellen. Wenn Sie möchten, dass ein Ton stummgeschaltet wird, können Sie eine stumme Audiodatei verwenden. Das `.wav-Format` ist obligatorisch und die Kodierung *muss* PCM sein.
 
-[This file](/assets/files/sfx-example.zip) includes the sounds used in the default DSi and 3DS themes, along with the makefile used to build them into a valid sfx.bin file. Feel free to edit and change the sound files to make a custom sound effect bank.
+[Diese Datei](/assets/files/sfx-example.zip) enthält die Sounds, die in den Standard-DSi- und 3DS-Themen verwendet werden, zusammen mit dem Makefile, das verwendet wird, um sie in eine gültige sfx.bin-Datei zu erstellen. Sie können die Sounddateien nach Belieben bearbeiten und ändern, um eine eigene Sound-Effekt-Bank zu erstellen.
 
-To build your custom sound effect bank, open your terminal (or command line if you are using Windows), change the current directory (`cd`) to the folder where `Makefile` is, and then run the `make` command. You will get a resulting `sfx.bin` file that can be copied to the `sound` subfolder in your theme folder. **This file must be under 512000B = 512 kB**. Any file larger than that will result in either crashes or some sounds not playing fully.
+Um Ihre benutzerdefinierte Soundeffekt-Bank zu erstellen, öffnen Sie Ihr Terminal (oder die Befehlszeile, wenn Sie Windows verwenden), wechseln Sie in das aktuelle Verzeichnis`(cd`), in dem sich `Makefile` befindet, und führen Sie dann den Befehl `make` aus. Sie erhalten eine `sfx.bin-Datei`, die Sie in den `Sound-Unterordner` in Ihrem Themenordner kopieren können. **Diese Datei muss kleiner als 512000B = 512 kB sein**. Jede Datei, die größer ist als diese, führt entweder zu Abstürzen oder dazu, dass einige Sounds nicht vollständig abgespielt werden.
 
-### Startup sound
-While the other sound effects will work with any WAV file with PCM encoding, the startup sound must be in a specific format in order to work properly, otherwise there will be a gap between when the startup sound stops and the background music begins.
+### Startsound
+Während die anderen Soundeffekte mit jeder WAV-Datei mit PCM-Kodierung funktionieren, muss der Startsound in einem bestimmten Format vorliegen, um richtig zu funktionieren, da sonst eine Lücke entsteht, wenn der Startsound aufhört und die Hintergrundmusik beginnt.
 
-The startup.wav file must be **16-bit 16 kHz**. You can use [Audacity](https://github.com/audacity/audacity/releases/latest) for example to convert to this format. Once the file is loaded in Audacity, change the **Project Rate (Hz)** to **16000**, then press **Shift+M**, and change the **Format** to **16-bit PCM**.
+Die Datei startup.wav muss **16 Bit und 16 kHz** haben. Sie können z. B. [Audacity](https://github.com/audacity/audacity/releases/latest) verwenden, um in dieses Format zu konvertieren. Sobald die Datei in Audacity geladen ist, ändern Sie die **Projektrate (Hz)** auf **16000**, drücken Sie dann **Umschalt+M** und ändern Sie das **Format** auf **16-Bit-PCM**.
 
-If your file is in Stereo, you should also go to **Tracks > Mix > Mix Stereo down to Mono**.
+Wenn Ihre Datei in Stereo ist, sollten Sie auch zu **Tracks > Mix > Mix Stereo down to Mono** gehen.
 
-You must set `PlayStartupJingle=1` in your `theme.ini` for the startup jingle to play.
+Sie müssen `PlayStartupJingle=1` in Ihrer `theme.ini` einstellen, damit der Start-Jingle abgespielt wird.
 
 
-## Menu BGM
-Menu BGM needs to be a **16-bit Mono** `.wav` file. Below is the method for converting audio files into that format.
+## Menü BGM
+Menü BGM muss eine **16-Bit Mono** `.wav` Datei sein. Nachfolgend finden Sie die Methode zur Konvertierung von Audiodateien in dieses Format.
 
-Unlike `sfx.bin`, `bgm.wav` can be arbitrarily large.
+Im Gegensatz zu `sfx.bin` kann `bgm.wav` beliebig groß sein.
 
-Please note that if your audio file already comes as a `.wav` file, you must follow the below method anyways, as TWLMenu++ has specific requirements.
+Bitte beachten Sie, dass Sie, wenn Ihre Audiodatei bereits als `.wav-Datei` vorliegt, trotzdem die unten beschriebene Methode anwenden müssen, da TWLMenu++ bestimmte Anforderungen stellt.
 
 ### Audacity
-To get started, download [the latest version of Audacity](https://github.com/audacity/audacity/releases/latest).
+Laden Sie [die neueste Version von Audacity](https://github.com/audacity/audacity/releases/latest) herunter, um loszulegen.
 
-To convert the audio:
-1. Load the file in Audacity
-1. If your file is in stereo, click on the song then select `Tracks` > `Mix` > `Mix Stereo down to Mono`
-1. Go to `Audio Setup` > `Audio Settings...`, and make sure the `Project Sample Rate` is not set to be above `48000 Hz` (which is the limit)
+Zum Konvertieren des Tons:
+1. Laden Sie die Datei in Audacity
+1. Wenn Ihre Datei in Stereo ist, klicken Sie auf den Song und wählen Sie `Tracks` > `Mix` > `Mix Stereo down to Mono`
+1. Gehen Sie zu `Audio Setup` > `Audio Settings...`, und vergewissern Sie sich, dass die `Projekt-Samplerate` nicht auf über `48000 Hz` eingestellt ist (das ist die Grenze)
 
-To export in the correct format:
-1. Select `File` > `Export` > `Export Audio...`
-1. Set `Save as type` to `WAV (Microsoft)`
-1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.wav` and click `Save`
-1. Click `Clear` and then click `OK` to the metadata editing
+Um im richtigen Format zu exportieren:
+1. Wählen Sie `Datei` > `Exportieren` > `Audio exportieren...`
+1. `Speichern als Typ` auf `WAV (Microsoft)` setzen
+1. `Kodierung` auf `Signed 16-bit PCM` einstellen
+1. Legen Sie den Ausgabenamen `bgm.wav` fest und klicken Sie auf `Speichern`
+1. Klicken Sie auf `Löschen` und dann auf `OK`, um die Metadaten zu bearbeiten
 
-Now you have a `bgm.wav` file that can be copied to the `sound` subfolder in your theme folder.
+Jetzt haben Sie eine `bgm.wav-Datei`, die Sie in den `Sound-Unterordner` in Ihrem Themenordner kopieren können.
 
- You should then set the `DSi/3DS Theme Music` option in TWiLight Menu++ settings to "Theme" for your custom BGM to play on the menu.
+ Sie sollten dann die `DSi/3DS-Theme-Musik-Option` in den TWiLight Menu++-Einstellungen auf "Theme" setzen, damit Ihre benutzerdefinierte BGM im Menü abgespielt wird.

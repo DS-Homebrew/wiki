@@ -42,7 +42,7 @@ Jika ingin mengatur jejaring agar kompatibel untuk DS, harus sesuai spesifikasi 
 1. Masuk ke Nintendo Wi-Fi Connection Setup
 1. Sambungkan ke titik akses
 1. Atur nilai *Primary DNS* ke salah satu nilai di bawah ini, sesuai layanan yang ingin digunakan:
-    - **[Wiimmfi](https://wiimmfi.de)** - `167.235.229.36` atau `178.62.43.212`
+    - **[Wiimmfi](https://wiimmfi.de)** - `178.62.43.212`
     - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([daftar pemain daring](http://zwei.moe:9001))** - `172.104.88.237`
 1. Atur `1.1.1.1` sebagai *secondary DNS*
 1. Mungkin ROM juga perlu ditambal NoSSL, tergantung permainan

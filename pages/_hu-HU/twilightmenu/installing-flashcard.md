@@ -48,6 +48,7 @@ Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy csalások
    - R4 SDHC Revolution
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
+   - R4 Gold 3DS RTS (r4i-gold.com)
    - R4xDS
    - DSTT(i)
    - DSONE SDHC & DSONEi (a nem-SDHC modellek ***nem*** támogatottak)

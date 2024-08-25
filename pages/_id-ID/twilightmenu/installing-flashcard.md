@@ -48,6 +48,7 @@ Fitur *cheat* akan hilang jika permainan dijalankan dengan cara ini. Jika tetap 
    - R4 SDHC Revolution
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
+   - R4 Gold 3DS RTS (r4i-gold.com)
    - R4xDS
    - DSTT(i)
    - DSONE SDHC & DSONEi (model bukan SDHC sudah ***tidak*** didukung)
@@ -55,7 +56,7 @@ Fitur *cheat* akan hilang jika permainan dijalankan dengan cara ini. Jika tetap 
    - M3i Zero (model bukan GMP-Z003)
    - iTouchDS dan iTouch2 (perlu berkas YSMenu M3Real_M3iZero)
    - R4(i)RTS (r4rts.com) (perlu berkas YSMenu M3Real_M3iZero)
-   - R4 SDHC RTS (kaset hitam) (r4isdhc.com) (perlu berkas YSMenu M3Real_M3iZero)
+   - R4 SDHC RTS (kartrid hitam) (r4isdhc.com) (perlu berkas YSMenu M3Real_M3iZero)
 
    Pasang [YSMenu dari RetroGameFan](https://gbatemp.net/download/35737/).
       - Pastikan sudah ada `YSMenu.nds` (dari `TTMenu.dat` diubah nama, jika belum ada) dan folder `TTMenu` pada akar kartu microSD *flashcard*

@@ -83,6 +83,7 @@ description: ЧаПи та усунення проблем для TWiLight Menu+
 - **Теми Nintendo DSi/SEGA Saturn/Homebrew Launcher, які не використовують меню SELECT:** Натиснувши <kbd>SELECT</kbd>, ви потрапите в меню DS Classic
 - **Тема Nintendo 3DS:** Торкніться піктограми гайкового ключа на нижньому екрані
 - **R4 Оригінальна тема:** Натисніть <kbd>START</kbd> (якщо ви перебуваєте у файловому браузері), потім натисніть <kbd>SELECT</kbd>
+- **Wood UI theme:** Hitting <kbd>START</kbd> will bring you to the DS Classic Menu
 
 Ви також можете утримувати <kbd>SELECT</kbd> під час запуску TWiLight Menu++, щоб отримати прямий доступ до налаштувань.
 
@@ -102,6 +103,7 @@ description: ЧаПи та усунення проблем для TWiLight Menu+
 - Скіни для теми Nintendo DSi знаходяться у `d:\_nds\TWiLightMenu\dsimenu\themes\`
 - Скіни для теми Nintendo DSi знаходяться у `d:\_nds\TWiLightMenu\dsimenu\themes\`
 - Скіни для теми R4 Original знаходяться в `d:\_nds\TWiLightMenu\r4menu\themes\`
+- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
 Якщо ви використовуєте консоль сімейства 3DS, ви можете встановити власні скіни за допомогою [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Перейдіть до налаштувань Universal-Updater, потім `Виберіть Unistore`, `+`, `TWiLight Menu++ Skins`.
 

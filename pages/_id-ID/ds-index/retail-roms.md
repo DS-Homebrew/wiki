@@ -19,7 +19,7 @@ Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau men
 *Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main rangkap satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
 
 ### Berkas simpanan
-Kaset Nintendo DS diketahui ada 4 jenis simpanan:
+Kartrid Nintendo DS diketahui ada 4 jenis simpanan:
 
 - EEPROM - Memori Hanya-Baca Tertataolahkan Terhapuskan Berlistrik
 - FLASH
@@ -64,7 +64,7 @@ Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 - DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini sesudah siap
 
 ### Judul Demonstrasi dan Distribusi:
-Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya hanya peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk seri Nintendo DS, kasetnya sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kaset juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
+Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya hanya peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk kartrid Nintendo DS sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kartrid juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
 
 Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kaset judul jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, karena hampir semua judul ini pada dasarnya sama dengan versi retailnya, biasanya kaset diberi pengenal tambahan di ID judul label.
 

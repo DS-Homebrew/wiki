@@ -3,82 +3,82 @@ lang: de-DE
 layout: wiki
 section: gbarunner2
 title: GBARunner2 Builds
-description: Information on the various GBARunner2 Builds and their uses
+description: Informationen über die verschiedenen GBARunner2-Builds und ihre Verwendung
 ---
 
 
-There are a number of different GBARunner2 releases, or "builds," which one can use. They come from different branches and forks of GBARunner2 and have different features targeting either different GBA games or some different functions. **For most users**, using the build that comes with **TW**i**L**ight Menu++ is enough.
+Es gibt eine Reihe von verschiedenen GBARunner2-Versionen, oder "Builds", die man verwenden kann. Sie stammen aus verschiedenen Zweigen und Abzweigungen von GBARunner2 und haben unterschiedliche Funktionen, die entweder auf verschiedene GBA-Spiele oder einige andere Funktionen abzielen. **Für die meisten Benutzer** ist es ausreichend, die mit TWiLightMenu++ gelieferte Version zu verwenden.
 
 ## DS vs DSi vs 3DS Builds
 
-GBARunner2 has had builds made that make use of the extra hardware found inside the DSi and 3DS. Naturally, these DSi and 3DS-specific builds will not work on a DS. However, they also will not work if you are running GBARunner2 from a flashcard on any of the systems, DSi and 3DS included. The details about this will not be covered here.
+GBARunner2 hat Builds erstellt, die die zusätzliche Hardware des DSi und 3DS nutzen. Natürlich funktionieren diese DSi- und 3DS-spezifischen Builds nicht auf einem DS. Sie funktionieren jedoch auch nicht, wenn Sie GBARunner2 von einer Flashcard auf einem der Systeme, einschließlich DSi und 3DS, ausführen. Die Einzelheiten dazu werden hier nicht behandelt.
 
-This means that you can use builds for the DS on both DSi and 3DS, but not vice-versa.
+Das bedeutet, dass Sie Builds für den DS sowohl auf dem DSi als auch auf dem 3DS verwenden können, aber nicht umgekehrt.
 
-## Shared Builds Between the DS, DSi and 3DS
+## Gemeinsame Builds für DS, DSi und 3DS
 
-These are the builds that are present for all three lines of systems.
+Dies sind die Builds, die für alle drei Systemlinien vorhanden sind.
 
 ### [Master](https://github.com/Gericom/GBARunner2/releases)
 
-The Master builds, or "main" builds, are the proper releases of GBARunner2. This should generally be the most stable build. All other branches than this one are considered experimental and not stable enough to be included into the Master. The Master builds are divided into different builds for the DS, DSi and 3DS. They each have the name of the corresponding system appended at the end of the filename.
+Die Master-Builds oder "Haupt"-Builds sind die eigentlichen Versionen von GBARunner2. Dies sollte im Allgemeinen der stabilste Build sein. Alle anderen Zweige gelten als experimentell und nicht stabil genug, um in den Master aufgenommen zu werden. Die Master-Builds sind in verschiedene Builds für den DS, DSi und 3DS unterteilt. Sie haben jeweils den Namen des entsprechenden Systems am Ende des Dateinamens angehängt.
 
 ### [Wi-Fi-Link](https://github.com/Gericom/GBARunner2/releases/tag/v20200217-194452_0b8bbe3)
 
-The Wi-Fi-Link branch adds the possibility to link up two systems wirelessly. Note that this does not go over the Internet, and this will never be possible due to latency. Currently your mileage will vary, and the only sure-fire game that will be able to keep a stable connection is Advance Guardian Heroes, and that is provided that you follow very specific instructions. Needless to say, consider this branch in its current state a novelty and a proof of concept, and not something to actually use. A few other games are able to connect, but they are very dependent on external factors like interference from other Wi-Fi signals, among many other things. To setup Wi-Fi linking, please see the [WikiTemp page](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Der Wi-Fi-Link-Zweig bietet die Möglichkeit, zwei Systeme drahtlos miteinander zu verbinden. Beachten Sie, dass dies nicht über das Internet geht und aufgrund der Latenzzeit auch nie möglich sein wird. Das einzige Spiel, das mit Sicherheit eine stabile Verbindung aufrechterhalten kann, ist Advance Guardian Heroes, vorausgesetzt, Sie befolgen ganz bestimmte Anweisungen. Es erübrigt sich zu erwähnen, dass dieser Zweig in seiner jetzigen Form eine Neuheit und ein Proof of Concept ist, und nicht etwas, das man tatsächlich benutzen sollte. Einige andere Spiele können zwar eine Verbindung herstellen, aber sie sind sehr abhängig von externen Faktoren wie Störungen durch andere Wi-Fi-Signale und viele andere Dinge. Um eine Wi-Fi-Verbindung einzurichten, lesen Sie bitte die [WikiTemp-Seite](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
-## DS-Specific Builds
+## DS-spezifische Builds
 
-### ARM7DLDI vs ARM9DLDI
+### ARM7DLDI vs. ARM9DLDI
 
-**Normally use the ARM9DLDI**, and if that does not work then try the ARM7DLDI. Some flashcards need either the ARM7DLDI or the ARM9DLDI, and some might work with both. There is no list of which flashcards work with which builds, but if you are running into issues getting GBARunner2 to run then you might want to try the other one.
+**Normalerweise verwenden Sie den ARM9DLDI**, und wenn das nicht funktioniert, versuchen Sie den ARM7DLDI. Einige flashcards benötigen entweder den ARM7DLDI oder den ARM9DLDI, und einige können mit beiden funktionieren. Es gibt keine Liste, welche Flashcards mit welchen Builds funktionieren, aber wenn Sie Probleme haben, GBARunner2 zum Laufen zu bringen, sollten Sie vielleicht die andere Version ausprobieren.
 
-If you are using **TW**i**L**ight Menu++ on your flashcard, you can switch between ARM7DLDI and ARM9DLDI in the **TW**i**L**ight Menu++ settings.
+Wenn Sie **TWiLight**Menu++ auf Ihrer Flashcard verwenden, können Sie in den **TWiLight**Menu++ Einstellungen zwischen ARM7DLDI und ARM9DLDI umschalten.
 
-There are no feature or performance differences between the two so there is no use in testing both to see if a game runs better or has less issues on the other.
+Es gibt keine Funktions- oder Leistungsunterschiede zwischen den beiden, sodass es sinnlos ist, beide zu testen, um zu sehen, ob ein Spiel auf dem anderen besser läuft oder weniger Probleme hat.
 
-See further down to find out what build you are currently using.
+Weiter unten finden Sie heraus, welchen Build Sie derzeit verwenden.
 
 ### [rom3M](https://github.com/Gericom/GBARunner2/releases/tag/v20190911-201047_371815e)
 
-This branch might help if trying to run ROMs that are a bit larger on the DS, but there is a limit due to the limited amount of RAM present in the DS. This is basically the Pokémon Emerald branch for the DS.
+Diese Verzweigung könnte hilfreich sein, wenn man versucht, ROMs, die etwas größer sind, auf dem DS auszuführen, aber es gibt eine Grenze aufgrund der begrenzten Menge an RAM, die im DS vorhanden ist. Dies ist im Grunde der Pokémon-Smaragd-Ableger für den DS.
 
-Void Star made [a fork of GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) that merges the rom3M branch into the latest Master with some other neat features, and this is the build that comes with **TW**i**L**ight Menu++ if you are using a DS.
+Void Star hat [einen Fork von GBARunner2](https://github.com/unresolvedsymbol/GBARunner2-DSL-Enhanced/releases) gemacht, der den rom3M-Zweig in den neuesten Master mit einigen anderen netten Features einbindet, und dies ist der Build, der mit **TWiLight**Menu++ kommt, wenn du einen DS benutzt.
 
-## DSi- and 3DS-Specific Builds
+## DSi- und 3DS-spezifische Builds
 
-The DSi and 3DS can generally run the same builds, but due to the difference in amount of RAM between the DSi and 3DS the compatibility for games can differ. This means that the DSi might have trouble running larger ROMs that the 3DS can run fine.
+Der DSi und der 3DS können in der Regel die gleichen Builds ausführen, aber aufgrund der unterschiedlichen Größe des Arbeitsspeichers zwischen dem DSi und dem 3DS kann die Kompatibilität für Spiele unterschiedlich sein. Das bedeutet, dass der DSi Probleme mit der Ausführung größerer ROMs haben könnte, die der 3DS problemlos ausführen kann.
 
-The 3DS also has an accelerometer chip for gyro controls built-in, and this can be used in a 3DS-specific build.
+Der 3DS hat auch einen Beschleunigungssensor-Chip für die Gyrosteuerung eingebaut, der in einem 3DS-spezifischen Build verwendet werden kann.
 
 ### [DSP](https://github.com/Gericom/GBARunner2/releases/tag/v20200809-113646_551ae99_dsp-audio)
 
-If you are using **TW**i**L**ight Menu++, then you are already using this feature in the GBARunner2 build that comes with it.
+Wenn Sie **TWiLight**Menu++ verwenden, dann nutzen Sie diese Funktion bereits in der mitgelieferten GBARunner2-Version.
 
-The DSP builds make use of the digital sound processor present in both DSi and 3DS. This helps to produce a lot better sound and give better performance. There are some regressions, like a couple of ROMs that do not work in this branch.
+Die DSP-Builds nutzen den digitalen Soundprozessor, der sowohl im DSi als auch im 3DS vorhanden ist. Dies trägt zu einem viel besseren Klang und einer besseren Leistung bei. Es gibt einige Rückschritte, wie z. B. ein paar ROMs, die in diesem Zweig nicht funktionieren.
 
-### [Hybrid Hicode](https://github.com/Gericom/GBARunner2/releases/tag/v20200812-130512_d5dc8d8)
+### [Hybrider Hicode](https://github.com/Gericom/GBARunner2/releases/tag/v20200812-130512_d5dc8d8)
 
-If you are using **TW**i**L**ight Menu++, then you are already using this feature in the GBARunner2 build that comes with it.
+Wenn Sie **TWiLight**Menu++ verwenden, dann nutzen Sie diese Funktion bereits in der mitgelieferten GBARunner2-Version.
 
-The Hybrid Hicode branch deals with ROMs that are large and have problems running on the Master branch. This is a very useful branch for the DSi since this mostly solves the issue with having less RAM than the 3DS.
+Der Hybrid-Hicode-Zweig befasst sich mit ROMs, die groß sind und auf dem Master-Zweig nicht laufen. Dies ist ein sehr nützlicher Zweig für den DSi, da er das Problem des geringeren Arbeitsspeichers im Vergleich zum 3DS weitgehend löst.
 
-### [Hicode/DSP merge](https://github.com/therealteamplayer/GBARunner2/releases/tag/v20210911-merges-and-tweaks)
+### [Hicode/DSP-Zusammenführung](https://github.com/therealteamplayer/GBARunner2/releases/tag/v20210911-merges-and-tweaks)
 
-This fork by therealteamplayer merges the Hicode and DSP branches into one build, along with some other tweaks listed in the release notes. This build is currently used by **TW**i**L**ight Menu++ for the DSi/3DS SD card.
+Dieser Fork von therealteamplayer fasst die Hicode- und DSP-Zweige in einem Build zusammen, zusammen mit einigen anderen Änderungen, die in den Release Notes aufgeführt sind. Dieses Build wird derzeit von **TWiLight**Menu++ für die DSi/3DS SD-Karte verwendet.
 
-### 3DS-Specific: [Gyro](https://github.com/Gericom/GBARunner2/releases/tag/v20191228-021638_ee7f6a0)
+### 3DS-spezifisch: [Gyro](https://github.com/Gericom/GBARunner2/releases/tag/v20191228-021638_ee7f6a0)
 
-This branch makes use of the internal accelerometer in the 3DS so that GBA games that had this functionality can be played properly. There are several steps needed to take to make it work. Note that since there are different accelerometer chips between 3DS systems, this will not work on all 3DSes because all chips do not have code supporting them.
+Dieser Zweig nutzt den internen Beschleunigungssensor des 3DS, damit GBA-Spiele, die diese Funktion hatten, richtig gespielt werden können. Damit das funktioniert, sind mehrere Schritte erforderlich. Da die 3DS-Systeme unterschiedliche Beschleunigungssensor-Chips haben, funktioniert dies nicht auf allen 3DS-Systemen, da nicht alle Chips einen entsprechenden Code haben.
 
-There is no consistency in what type of 3DS has what chip, at least as far as anyone knows.
+Es gibt keine einheitliche Regelung, welcher 3DS-Typ mit welchem Chip ausgestattet ist, zumindest so weit man weiß.
 
-## Finding the Build Info
+## Auffinden der Build-Informationen
 
-GBARunner2 has a menu that you can open by touching the touchscreen and pressing the right shoulder button. Within this you can find the About menu, which tells you which build you are on. However, the builds that currently come with **TW**i**L**ight Menu++ do not report a build version because they are based on forks by other people. This means that if your About page shows blank for build, you are most likely using one of these.
+GBARunner2 verfügt über ein Menü, das Sie durch Berühren des Touchscreens und Drücken der rechten Schultertaste öffnen können. Darin finden Sie das Menü "Über", in dem Sie erfahren, auf welchem Build Sie sich befinden. Die Builds, die derzeit mit **TWiLight**Menu++ ausgeliefert werden, geben jedoch keine Build-Version an, da sie auf Forks von anderen Personen beruhen. Das bedeutet, dass Sie höchstwahrscheinlich eine dieser Seiten verwenden, wenn Ihre Info-Seite für den Aufbau leer ist.
 
-The About page also tells you if you are using an ARM7DLDI or ARM9DLDI build.
+Auf der "Über"-Seite erfahren Sie auch, ob Sie ein ARM7DLDI- oder ARM9DLDI-Build verwenden.
 
-Knowing which build to use is useful when checking the official compatibility list, in case you are having issues with running a game.
+Wenn Sie wissen, welches Build Sie verwenden müssen, ist es hilfreich, die offizielle Kompatibilitätsliste zu prüfen, falls Sie Probleme mit einem Spiel haben.
 
-The release ID can be seen on the release page of the GBARunner2's github repository, where the last seven alphanumeric symbols represent the version. For example, the current latest Master release is "v20200812-131430_6e4ce45" and "6e4ce45" is used to represent its version.
+Die Release-ID kann auf der Release-Seite des GBARunner2-Github-Repositorys eingesehen werden, wobei die letzten sieben alphanumerischen Zeichen die Version darstellen. Die aktuellste Master-Version ist beispielsweise "v20200812-131430_6e4ce45", und "6e4ce45" wird als Versionsangabe verwendet.

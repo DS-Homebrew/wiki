@@ -26,7 +26,7 @@ This page assumes you are running a modern CFW environment from [dsi.cfw.guide](
 
 1. Download [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 1. Copy `dsibiosdumper.nds` from the dsibiosdumper `.7z` file to the root of your SD card
-1. Reinsert your SD card into your device
+1. Setzen Sie Ihre SD-Karte wieder in Ihr Gerät ein
 
 ### Part 2: dsibiosdumper
 1. With your device still powered off, hold the following buttons: <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, and while holding these buttons together, power on your device

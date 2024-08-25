@@ -83,6 +83,7 @@ La forma de acceder a los ajustes de TWiLight Menu++ varía según tu configurac
 - **Temas Nintendo DSi/SEGA Saturn/Homebrew Launcher sin usar el menú SELECT:** Presionar <kbd>SELECT</kbd> te llevará al Menú Clásico DS
 - **Tema Nintendo 3DS:** Toca el icono de la parte superior izquierda de la pantalla inferior
 - **Tema R4 Original:** Presiona <kbd>START</kbd> (si estás en el selector de archivos), luego presiona <kbd>SELECT</kbd>
+- **Wood UI theme:** Hitting <kbd>START</kbd> will bring you to the DS Classic Menu
 
 También puedes mantener presionado <kbd>SELECT</kbd> al iniciar TWiLight Menu++ para acceder directamente a los ajustes.
 
@@ -102,6 +103,7 @@ Una vez tengas una skin personalizada, puedes instalarla colocando su carpeta en
 - Las skins para el tema Nintendo DSi van en `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Las skins para el tema Nintendo 3DS van en `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Las skins para el tema R4 Original van en `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
 Si estás usando una consola de la familia de la 3DS, puedes instalar skins personalizadas usando [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Ve a los ajustes de Universal-Updater, luego a `Seleccionar Unistore`, `+`, `TWiLight Menu Skins`.
 

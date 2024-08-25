@@ -9,7 +9,7 @@ description: Informationen zur Verwendung von WLAN auf dem Nintendo DS
 
 - Bei Nintendo DS-Anwendungen können nur die WLAN-Sicherheitseinstellungen WEP und "Offen" verwendet werden
 - Bei Nintendo DSi-Enhanced/Exclusive-Anwendungen, die im DSi-Modus laufen, gibt es zusätzlichen Optionen der WPA- und WPA2-Sicherheit
-- If you're on DSi or 3DS, ensure you've accepted the network agreement first
+- Wenn Sie einen DSi oder 3DS benutzen, vergewissern Sie sich, dass Sie zuerst die Netzwerkvereinbarung akzeptiert haben
 
 Hotspots sind nutzbar, daher musst du deine Router-Konfiguration nicht ändern.
 
@@ -32,39 +32,39 @@ Wenn du mit den oben genannten Methoden keinen DS-kompatiblen Hotspot erstellen 
 - WLAN-Extender
 
 #### Einstellungen
-If you are setting up a network to be DS-compatible, it must meet the following specifications:
+Wenn Sie ein DS-kompatibles Netzwerk einrichten wollen, muss es die folgenden Spezifikationen erfüllen:
 - WEP oder Offen (keine) Sicherheit
 - WLAN Frequenz 2,4 GHz
 - WLAN Modus 802.11b
     - Dies kann als "Legacy-Modus" oder ähnlich aufgeführt sein
 
 ### Nintendo DS WFC Wiederherstellung
-1. Launch Nintendo Wi-Fi Connection Setup
-1. Connect to your access point
-1. Set your Primary DNS value as one of the values below, depending on which service you want to use:
-    - **[Wiimmfi](https://wiimmfi.de)** - `167.235.229.36` or `178.62.43.212`
-    - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([online player list](http://zwei.moe:9001))** - `172.104.88.237`
-1. Set `1.1.1.1` as your secondary DNS
-1. You might need to NoSSL patch your game at this point, depending on the game
+1. Nintendo Wi-Fi Connection Setup starten
+1. Verbinden Sie sich mit Ihrem Access Point
+1. Legen Sie Ihren primären DNS-Wert als einen der folgenden Werte fest, je nachdem, welchen Dienst Sie verwenden möchten:
+    - **[Wiimmfi](https://wiimmfi.de)** - `178.62.43.212`
+    - **[AltWFC/WFCZwei](https://save-nintendo-wifi.com/) ([Online-Spielerliste](http://zwei.moe:9001))** - `172.104.88.237`
+1. Legen Sie `1.1.1.1` als Ihren sekundären DNS fest
+1. Je nach Spiel müssen Sie Ihr Spiel an dieser Stelle möglicherweise mit einem NoSSL-Patch versehen
 
 ### Manuelles Patchen der DS-ROMs
-Follow the guide below in case your ISP blocks custom DNS servers, otherwise it is *strongly* recommended to follow the guide above.
+Befolgen Sie die nachstehende Anleitung, falls Ihr ISP benutzerdefinierte DNS-Server blockiert, andernfalls wird *dringend* empfohlen, die obige Anleitung zu befolgen.
 
 - Benutzer von GNU/Linux und macOS können sehr ähnliche Anweisungen befolgen, müssen aber Mono verwenden
 - WfcPatcher unterstützt derzeit keine DSiWare
 
 1. Lade [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases) herunter
-1. Copy the ROM of the game you want to patch to the same folder where WfcPatcher is saved and open that folder
+1. Kopieren Sie die ROM des Spiels, das Sie patchen möchten, in denselben Ordner, in dem WfcPatcher gespeichert ist, und öffnen Sie diesen Ordner
 1. Erstelle eine Textdatei
-1. In the file, enter `wfcpatcher.exe %1 --domain wiimmfi.de` then save the text file with the name `patch.bat` and close the window
-    - You can replace wiimmfi.de with another URL, if you wish to use a different server
-    - If the file still appears to be a text document, [enable file name extensions](https://dsi.cfw.guide/file-extensions-%28windows%29) and remove `.txt` from the file name
-1. Now drag all the ROMs you wish to patch on to patch.bat
+1. Geben Sie in die Datei `wfcpatcher.exe %1 --domain wiimmfi.de` ein, speichern Sie die Textdatei unter dem Namen `patch.bat` und schließen Sie das Fenster
+    - Sie können wiimmfi.de durch eine andere URL ersetzen, wenn Sie einen anderen Server verwenden möchten
+    - Wenn die Datei immer noch ein Textdokument zu sein scheint, [aktivieren Sie die Dateinamenerweiterungen](https://dsi.cfw.guide/file-extensions-%28windows%29) und entfernen Sie `.txt` aus dem Dateinamen
+1. Ziehen Sie nun alle ROMs, die Sie patchen möchten, in die Datei patch.bat
 1. Fertig! die gepatchten ROMs werden die sein, die auf (wiimmfi) enden
 
-Don't forget to remove any DNS you might have saved on your Wi-Fi settings before attempting to connect with the patched ROM.
+Vergessen Sie nicht, alle DNS zu entfernen, die Sie möglicherweise in Ihren Wi-Fi-Einstellungen gespeichert haben, bevor Sie versuchen, eine Verbindung mit dem gepatchten ROM herzustellen.
 
 ### Fehlerbehebung und weiteres Lesen
 Wenn du irgendwelche Fehlermeldungen erhältst, kannst du den Fehlercode in Wiimmfis [Fehlersuche](https://wiimmfi.de/error) eingeben, um Lösungen zu finden.
 
-For more specific troubleshooting and more information, such as how to connect to online on emulators or using a Nintendo Wi-Fi USB Connector, you can read this [Wiimmfi Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) written by members of the [Mario Kart DS Network](https://discord.gg/pa9bea6).
+Für eine spezifischere Fehlerbehebung und weitere Informationen, z. B. wie man eine Online-Verbindung über Emulatoren herstellt oder einen Nintendo Wi-Fi USB Connector verwendet, können Sie diesen [Wiimmfi-Guide](https://docs.google.com/document/d/1f3PChwQig40UaiPXlh-Gi5CggGiBPzyrpiecLZlT8ZE/edit?usp=sharing) lesen, der von Mitgliedern des [Mario Kart DS-Netzwerks](https://discord.gg/pa9bea6) geschrieben wurde.

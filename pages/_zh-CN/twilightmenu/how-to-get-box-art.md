@@ -9,7 +9,7 @@ tabs:
   - 
     windows: Windows
     other: macOS/Linux
-    manual: 手动安装
+    manual: 手动安装(身处国内建议使用此方法)
 ---
 
 {% capture tab-windows %}

@@ -2,116 +2,118 @@
 lang: de-DE
 layout: faq
 section: twilightmenu
-title: FAQ & Troubleshooting
-long_title: TWiLight Menu++ FAQ & Troubleshooting
-description: FAQs and troubleshooting for TWiLight Menu++
+title: FAQ & Fehlerbehebung
+long_title: TWiLight Menu++ FAQ & Fehlerbehebung
+description: FAQs und Fehlersuche für TWiLight Menu++
 ---
 
-For more FAQs, please visit the [GBAtemp thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
+Für weitere FAQs besuchen Sie bitte den [GBAtemp-Thread](https://gbatemp.net/threads/ds-i-3ds-twilight-menu-gui-for-ds-i-games-and-ds-i-menu-replacement.472200/).
 {:.alert .alert-info}
 
-#### Why does my 3DS get stuck on black screens, crash, power off, etc when launching TWiLight Menu++?
-TWL_FIRM might've somehow got corrupted. Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
+#### Warum bleibt mein 3DS bei schwarzen Bildschirmen hängen, stürzt ab, schaltet sich aus usw., wenn ich TWiLight Menu++ starte?
+TWL_FIRM könnte irgendwie beschädigt worden sein. Folgen Sie dieser Anleitung, um das Problem zu beheben: <https://3ds.hacks.guide/troubleshooting#dsi--ds-functionality-is-broken-after-completing-the-guide>
 
-#### How do I fix getting a white screen when booting TWiLight Menu++?
-- Reboot the console
-- If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
-   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
-- If that also doesn't work, try a different SD card
+#### Wie behebe ich das Behalten eines weißen Bildschirms beim Booten des TWiLight Menü++?
+- Konsole neu starten
+- Wenn das nicht funktioniert, formatieren Sie Ihre SD-Karte auf FAT32 mit 32 KB Cluster/Zuweisungsgröße
+   - Siehe [dsi.cfw.guide's Seite](https://dsi.cfw.guide/sd-card-setup.html) für die empfohlenen Werkzeuge
+- Wenn das auch nicht funktioniert, versuche eine andere SD-Karte
 
-#### How do I fix touch screen not working after launching a game?
-- If you're launching a cartridge, then make sure the `Slot-1 Touch Mode` setting is set to `DS mode`
-- If the issue persists, or if you're using a ROM instead, then follow this guide: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
+#### Wie behebe ich den Touchscreen, der nach dem Start eines Spiels nicht funktioniert?
+- Wenn Sie eine Kassette starten, stellen Sie sicher, dass die `Slot-1 Touch Mode` Einstellung auf `DS Modus` gesetzt ist
+- Wenn das Problem weiterhin besteht oder wenn Sie stattdessen eine ROM verwenden, folgen Sie dieser Anleitung: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
-#### How do I fix TWiLight Menu++ restarting or giving a Guru Meditation Error when launching a game?
-Go into TWLMenu++ Settings, and disable `Update recently played list`.
+#### Wie kann ich TWiLight Menu++ beim Starten eines Spiels neu starten oder einen Guru Meditationsfehler geben?
+Gehen Sie in die TWLMenu++ Einstellungen und deaktivieren Sie `Update kürzlich gespielte Liste`.
 
-#### Why do I get a white screen when trying to load a DS game from SD card?
-See [I’m having issues with my ROM(s), what should I do?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) on the nds-bootstrap FAQ page.
+#### Warum bekomme ich einen weißen Bildschirm, wenn ich versuche, ein DS von der SD-Karte zu laden?
+Siehe [Ich habe Probleme mit meinen ROM(s), was soll ich tun?](../nds-bootstrap/faq?faq=im-having-issues-with-my-roms-what-should-i-do) auf der nds-bootstrap FAQ-Seite.
 
-#### How do I use cheats?
-You need to have a cheat DB in the form of a `usrcheat.dat` file in the `sd:/_nds/TWiLightMenu/extras/` folder. The most updated cheat database is [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
-- On the 3DS, this database is available in the Universal-Updater app as "NDS(i) Cheat Databases". This will automatically install it to the required location.
+#### Wie verwende ich Cheats?
+Sie müssen einen Cheat DB in Form einer `usrcheat.dat` Datei im Ordner `sd:/_nds/TWiLightMenu/extras/` haben. Die aktuellste Cheat-Datenbank ist [DeadSkullzJr's NDS(i) Cheat Datenbanken](https://gbatemp.net/threads/488711/).
+- Auf dem 3DS ist diese Datenbank in der Universal-Updater-App als "NDS(i) Cheat-Datenbanken" verfügbar. Dadurch wird es automatisch an dem gewünschten Ort installiert.
 
-Alternatively, you can use [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
+Alternativ können Sie auch [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) verwenden, um Ihre eigene Cheat-DB zu erstellen.
 
-Once you have a cheat DB, you can enable cheats by pressing <kbd class="face">Y</kbd> in TWiLight Menu++ when the cursor is on the game to open the per-game settings, then <kbd class="face">X</kbd> to open the cheats menu.
+Sobald Sie einen Cheat-DB haben, können Sie Cheats aktivieren, indem Sie in TWiLight Menu++ <kbd class="face">Y</kbd> drücken, wenn sich der Cursor auf dem Spiel befindet, um die Einstellungen pro Spiel zu öffnen, und dann <kbd class="face">X</kbd>, um das Cheats-Menü zu öffnen.
 
-#### How do I show a custom picture on the top screen of the DSi theme? Can I hide it instead?
-A random `.png` image in `sd:/_nds/TWiLightMenu/dsimenu/photos/` will be shown each time the menu is loaded. If there are no applicable images, screenshots taken by nds-bootstrap will be used instead.
+#### Wie kann ich ein benutzerdefiniertes Bild auf dem oberen Bildschirm des DSi-Themas anzeigen? Kann ich es stattdessen ausblenden?
+Ein zufälliges `.png-Bild` in `sd:/_nds/TWiLightMenu/dsimenu/photos/` wird jedes Mal angezeigt, wenn das Menü geladen wird. Wenn keine entsprechenden Bilder vorhanden sind, werden stattdessen die von nds-bootstrap erstellten Screenshots verwendet.
 
-- The images(s) must be no bigger than 208x156
-- If you have errors, it's most likely an error with the image size. Please use [tinypng](https://tinypng.com) to reduce the size
+- Die Bilder dürfen nicht größer als 208x156 sein
+- Wenn Sie Fehler haben, liegt das höchstwahrscheinlich an der Bildgröße. Bitte verwenden Sie [tinypng](https://tinypng.com), um die Größe zu reduzieren
 
-As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/`. Open the file with a text editor, change the line `RenderPhoto` from `1` to `0`, then save the file.
+Zum Verstecken des Bildes müssen Sie die `theme.ini` Datei in `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin folder]/` bearbeiten. Öffnen Sie die Datei mit einem Texteditor, ändern Sie die Zeile `RenderPhoto` von `1` auf `0`, und speichern Sie die Datei.
 
-#### How do I get games?
-You can download homebrew games from [Universal-DB](https://db.universal-team.net/ds) and [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). To get officially released games, you need to get those as dumps, either from your physical cartridges, or from an existing console:
-- On DS you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your GBA games and, if you have a Slot-2 flashcart, DS games. If you only have a Slot-1 flashcard and would like to dump a DS game, you can use [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), which requires a Wi-Fi connection compatible with the DS, as well as an FTP client on a separate device to receive the ROM
-- On DSi you can use [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) to dump your DS games and DSiWare
-- On 3DS you can use [GodMode9](https://github.com/d0k3/GodMode9/releases) to dump your DS games, DSiWare, and Virtual Console titles
+#### Wie bekomme ich Spiele?
+Sie können Homebrew-Spiele von [Universal-DB](https://db.universal-team.net/ds) und [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games) herunterladen. Um offiziell freigegebene Spiele zu erhalten, müssen Sie diese als Dumps erhalten, entweder von Ihren physischen Cartridges oder von einer vorhandenen Konsole:
+- Auf dem DS kannst du [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) verwenden, um deine GBA-Spiele und, wenn du eine Slot-2-Flashcart hast, DS-Spiele zu dumpen. Wenn Sie nur eine Slot-1-Flashkarte haben und ein DS-Spiel dumpen möchten, können Sie [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/) verwenden, das eine Wi-Fi-Verbindung benötigt, die mit dem DS kompatibel ist, sowie einen FTP-Client auf einem separaten Gerät, um das ROM zu empfangen
+- Auf dem DSi kannst du [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) verwenden, um deine DS-Spiele und DSiWare zu dumpen
+- Auf dem 3DS kannst du [GodMode9](https://github.com/d0k3/GodMode9/releases) verwenden, um deine DS-Spiele, DSiWare und Virtual Console-Titel zu dumpen
 
-#### Can I get the save files from my Game Cards onto my SD card or vice versa?
-Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) on 3DS, or [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) on DSi / 3DS.
+#### Kann ich die Speicherdateien von meinen Game Cards auf meine SD-Karte übertragen oder umgekehrt?
+Ja. Du kannst [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) auf 3DS oder [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) auf DSi / 3DS verwenden.
 
-#### How do I change TWiLight Menu++'s language?
-1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
-1. Change the first option until you see the language you want, then exit settings
-   - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
+#### Wie kann ich die Sprache von TWiLight Menu++ ändern?
+1. Öffnen Sie die TWiLight Menu++ Einstellungen, indem Sie <kbd>SELECT</kbd> gedrückt halten, während Sie TWiLight Menu++ laden
+1. Ändern Sie die erste Option, bis die gewünschte Sprache angezeigt wird, und beenden Sie dann die Einstellungen
+   - Möglicherweise möchten Sie auch die ersten drei Optionen auf der nds-bootstrap-Einstellungsseite ändern, da sie die Sprache und Region der DS-Spiele und ihrer Titel in TWiLight Menu++ steuern
 
-#### Is this a DS(i) emulator?
-No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).
+#### Ist dies ein DS(i)-Emulator?
+Nein, es handelt sich nicht um einen Emulator. Das Menü und die DS-Spiele (geladen über nds-bootstrap) werden nativ im DS/DSi-Modus der Konsole ausgeführt. Die einzigen Konsolen, die emuliert werden, sind die früheren Konsolen, aber teilweise für den GBA (da einige oder alle Teile wie die Grafik nativ ausgeführt werden).
 
-#### What systems does TWiLight Menu++ support?
-See [List of Systems Supported by TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+#### Welche Systeme werden von TWiLight Menu++ unterstützt?
+Siehe [Liste der von TWiLight Menu++ unterstützten Systeme](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
-#### Can exploits of Slot-1 games boot TWiLight Menu++?
-No. SD card access is only granted to DSiWare applications, so Slot-1 games cannot launch (or even access) TWiLight Menu++.
+#### Können Exploits von Slot-1-Spielen TWiLight Menu++ booten?
+No. Der Zugriff auf die SD-Karte ist nur für DSiWare-Anwendungen möglich, d. h. Slot-1-Spiele können TWiLight Menu++ nicht starten (oder sogar darauf zugreifen).
 
-#### Why can't I find/see my games?
-There are a multiple reasons you may be unable to find them.
-- The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (skins, configuration, images, emulators and more). If you've placed your titles here, please move them to another location.
-- If you have more than 39 items in a folder and all of the slots on the menu are taken, your games may be on the next page. Use <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> to switch pages
-- If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
-- If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
-- If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+#### Warum kann ich meine Spiele nicht finden/sehen?
+Es gibt eine Reihe von Gründen, warum Sie sie nicht finden können.
+- Der Ordner `_nds` im Stammverzeichnis der SD-Karte ist nicht für Anwendungen gedacht, auf die man über TWiLight Menu++ zugreifen würde, da er für funktionsbasierte Dateien (Skins, Konfiguration, Bilder, Emulatoren und mehr) reserviert ist. Wenn Sie Ihre Titel hier platziert haben, verschieben Sie sie bitte an einen anderen Ort.
+- Wenn Sie mehr als 39 Einträge in einem Ordner haben und alle Plätze im Menü belegt sind, befinden sich Ihre Spiele möglicherweise auf der nächsten Seite. Verwenden Sie <kbd class="r">L/R</kbd> oder <kbd>SELECT</kbd> + <kbd>Links/Rechts</kbd>, um die Seiten zu wechseln
+- Wenn Ihr Spiel oder Ihr Ordner versteckt ist, müssen Sie möglicherweise versteckte Dateien über die GUI-Einstellungen von TWiLight Menu++ anzeigen
+- Wenn Ihr Spiel in einem Archiv`(zip`, `rar`, `7z`, etc.) vorliegt, kann es von TWiLight Menu++ nicht verwendet werden. Entpacken Sie das Spiel aus dem Archiv, um es zu verwenden
+- Wenn Ihr Spiel keine der [unterstützten Erweiterungen](../ds-index/emulators#list-of-systems-supported-by-twilight-menu) verwendet, müssen Sie möglicherweise die Erweiterung ändern, indem Sie die Datei umbenennen
 
-#### How do I access TWiLight Menu++ settings?
-The way to access the TWiLight Menu++ settings varies between your configuration.
-- **DS Classic Menu:** Tap the DS icon at the bottom of the lower screen
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes: using SELECT Menu:** Press <kbd>SELECT</kbd>, then launch the Settings Applet (use the D-PAD to highlight options)
-- **Nintendo DSi/SEGA Saturn/Homebrew Launcher themes not using SELECT Menu:** Hitting <kbd>SELECT</kbd> will bring you to the DS Classic Menu
-- **Nintendo 3DS theme:** Tap the the wrench icon on the lower screen
-- **R4 Original theme:** Hit <kbd>START</kbd> (if you’re in the file browser), then hit <kbd>SELECT</kbd>
+#### Wie kann ich auf die TWiLight Menu++ Einstellungen zugreifen?
+Die Art und Weise, wie Sie auf die TWiLight Menu++ Einstellungen zugreifen können, hängt von Ihrer Konfiguration ab.
+- **DS Klassisches Menü:** Tippen Sie auf das DS-Symbol am unteren Rand des unteren Bildschirms
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher-Themen: mit SELECT Menu:** Drücken Sie <kbd>SELECT</kbd> und starten Sie dann das Einstellungs-Applet (verwenden Sie das D-PAD, um Optionen zu markieren)
+- **Nintendo DSi/SEGA Saturn/Homebrew Launcher-Themen, die das SELECT-Menü nicht verwenden:** Wenn Sie <kbd>SELECT</kbd> drücken, gelangen Sie zum DS Classic-Menü
+- **Nintendo 3DS-Thema:** Tippen Sie auf das Schraubenschlüssel-Symbol auf dem unteren Bildschirm
+- **R4 Originalthema:** Klicken Sie auf <kbd>START</kbd> (wenn Sie sich im Dateibrowser befinden) und dann auf <kbd>SELECT</kbd>
+- **Holz-UI-Thema:** Wenn Sie <kbd>START</kbd> drücken, gelangen Sie zum klassischen DS-Menü
 
-You can also hold <kbd>SELECT</kbd> while launching TWiLight Menu++ to directly access the settings.
+Sie können auch <kbd>SELECT</kbd> gedrückt halten, während Sie TWiLight Menu++ starten, um direkt auf die Einstellungen zuzugreifen.
 
-#### How do I use custom icons/banners for games?
-You can use a custom banner in either PNG or DS banner.bin format by placing it in the `sd:/_nds/TWiLightMenu/icons` folder with the name of the ROM (including the extension) or folder + `.png` or `.bin`.
+#### Wie kann ich benutzerdefinierte Symbole/Banner für Spiele verwenden?
+Sie können ein benutzerdefiniertes Banner entweder im PNG- oder DS banner.bin-Format verwenden, indem Sie es im Ordner `sd:/_nds/TWiLightMenu/icons` mit dem Namen des ROM (einschließlich der Erweiterung) oder des Ordners + `.png` oder `.bin` ablegen.
 
-For PNG banners you simply need any PNG file with 15 colors or fewer and a maximum resolution of 32x32. Full transparency works and does not count towards the 15 colors, but semitransparency does not work.
+Für PNG-Banner benötigen Sie einfach eine PNG-Datei mit 15 Farben oder weniger und einer maximalen Auflösung von 32x32. Volle Transparenz funktioniert und zählt nicht zu den 15 Farben, aber Semitransparenz funktioniert nicht.
 
-banner.bin type banners are able to be animated and allow you to replace the title that will be shown in TWiLight Menu++. They can be made using [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases).
+banner des Typs banner.bin können animiert werden und ermöglichen es Ihnen, den Titel, der in TWiLight Menu++ angezeigt wird, zu ersetzen. Sie können mit dem [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) erstellt werden.
 
-Pre-made banners can be found in the [icons section of the TWiLight Menu++ skins site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
+Vorgefertigte Banner finden Sie im [Bereich Icons auf der TWiLight Menu++ Skins-Website](https://skins.ds-homebrew.com/icon/), und wenn Sie selbst welche erstellen, können Sie diese ebenfalls dort veröffentlichen.
 
-#### How do I install custom themes for TWiLight Menu++?
-Custom skins for themes can be acquired from [the official skins site](https://skins.ds-homebrew.com/), which houses serveral community-made skins ready to apply. You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
+#### Wie kann ich benutzerdefinierte Themen für TWiLight Menu++ installieren?
+Benutzerdefinierte Skins für Themes können auf der [offiziellen Skins-Website](https://skins.ds-homebrew.com/) erworben werden, auf der mehrere von der Community erstellte Skins zur Anwendung bereitstehen. Du kannst auch selbst einen eigenen Skin für die Nintendo 3DS- und Nintendo DSi-Themen erstellen, indem du [dieser Anleitung](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins) folgst. Die **Homebrew Launcher**, **Sega Saturn** und **Game Boy Color** Themen sind _**nicht**_ anpassbar.
 
-Once you have acquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
-- Skins for the Nintendo DSi theme go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
-- Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
-- Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
+Sobald Sie eine benutzerdefinierte Skin erworben haben, können Sie sie installieren, indem Sie den Ordner in den entsprechenden Pfad verschieben, der davon abhängt, für welches Thema die Skin erstellt wurde.
+- Skins für das Nintendo DSi-Thema werden in "sd:\_nds\TWiLightMenu\dsimenu\themes\" gespeichert
+- Skins für das Nintendo 3DS-Thema werden in `sd:\_nds\TWiLightMenu\3dsmenu\themes\` gespeichert
+- Skins für das R4 Original-Thema werden in `sd:\_nds\TWiLightMenu\r4menu\themes\` gespeichert
+- Skins für das Wood UI-Thema werden in `sd:\_nds\TWiLightMenu\akmenu\themes\` gespeichert
 
-If you are using a 3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
+Wenn Sie eine Konsole der 3DS-Familie verwenden, können Sie benutzerdefinierte Skins mit [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases) installieren. Gehen Sie zu den Universal-Updater-Einstellungen, dann `wählen Sie Unistore`, `+`, `TWiLight Menu++ Skins`.
 
-To apply a custom theme you must access TWiLight Menu++ Settings.
-1. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad.
-1. Once the target theme is selected, press the A button to choose between the skin you have installed.
-1. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
-1. Apply the settings by pressing B to go back to TWiLight Menu++.
+Um ein benutzerdefiniertes Thema anzuwenden, müssen Sie auf TWiLight Menu++ Einstellungen zugreifen.
+1. Gehen Sie auf der Seite `GUI-Einstellungen` zur Option `Thema` und wählen Sie das Thema mit der rechten und linken Taste auf dem D-Pad aus.
+1. Sobald das Zielthema ausgewählt ist, drücken Sie die Taste A, um zwischen den von Ihnen installierten Skins zu wählen.
+1. Markieren Sie mit den Aufwärts- und Abwärtstasten des D-Pads den gewünschten Skin und drücken Sie A, um ihn auszuwählen.
+1. Übernehmen Sie die Einstellungen, indem Sie B drücken, um zum TWiLight Menü++ zurückzukehren.
 
-TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
+TWiLight Menu++ sollte nun ein individuelles Aussehen haben (und Musik, wenn das ausgewählte Skin dies unterstützt und in den Einstellungen aktiviert ist).
 
-#### Is there a 3DS emulator for DS(i)?
-No, there isn't. It is not possible to emulate 3DS on DS(i) because of the 3DS using newer hardware.
+#### Gibt es einen 3DS-Emulator für DS(i)?
+Nein, das gibt es nicht. Es ist nicht möglich, den 3DS auf dem DS(i) zu emulieren, da der 3DS eine neuere Hardware verwendet.

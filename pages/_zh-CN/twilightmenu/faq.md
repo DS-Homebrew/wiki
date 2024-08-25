@@ -83,6 +83,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 - **Nintendo DSi/SEGA Saturn/Homebrew Launcher主题不使用SELECT菜单：** 按下 <kbd>SELECT</kbd> 将使你进入DS经典菜单
 - **任天堂3DS主题：** 点击屏幕下方的扳手图标
 - **原版R4主题：** 按下 <kbd>START</kbd> （如果你在文件浏览器中），然后按下 <kbd>SELECT</kbd>
+- **Wood UI theme:** Hitting <kbd>START</kbd> will bring you to the DS Classic Menu
 
 你也可以在启动TWiLight Menu++时按住 <kbd>SELECT</kbd> 来直接访问设置。
 
@@ -95,13 +96,14 @@ banner.bin类型的banner能够动画化，并允许你替换将在TWiLight Menu
 
 预制的banner可以在TWiLight Menu++皮肤网站 [icons](https://skins.ds-homebrew.com/icon/) 部分找到，如果你制作了任何banner，也可以在那里分享。
 
-#### How do I install custom themes for TWiLight Menu++?
-Custom skins for themes can be acquired from [the official skins site](https://skins.ds-homebrew.com/), which houses serveral community-made skins ready to apply. You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
+#### 如何安装 TWiLight Menu++的自定义主题？
+你可以从 [处下载官方主题](https://skins.ds-homebrew.com/),该网站包含众多众多由社区制作的可用皮肤 You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
 
 Once you have acquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
 - Skins for the Nintendo DSi theme go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
 If you are using a 3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
 

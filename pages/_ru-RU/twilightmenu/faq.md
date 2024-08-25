@@ -83,6 +83,7 @@ Homebrew игры можно загрузить с сайтов [Universal-DB](h
 - **Темы Nintendo DSi/SEGA Saturn/Homebrew Launcher не используя меню SELECT: ** Нажав <kbd>SELECT</kbd>, вы попадете в Классическое Меню DS
 - **Тема Nintendo 3DS:** Нажмите на значок гаечного ключа в нижней части экрана
 - **Оригинальная тема R4:** Нажмите <kbd>START</kbd> (если вы находитесь в браузере файлов), затем нажмите <kbd>SELECT</kbd>
+- **Wood UI theme:** Hitting <kbd>START</kbd> will bring you to the DS Classic Menu
 
 Вы также можете удерживать <kbd>SELECT</kbd> при запуске TWiLight Menu++ для прямого доступа к настройкам.
 
@@ -102,6 +103,7 @@ Homebrew игры можно загрузить с сайтов [Universal-DB](h
 - Скины для темы Nintendo DSi находятся в `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Скины для темы Nintendo 3DS находятся в `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Скины для темы Оригинального R4 находятся в `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
 Если вы используете консоль семейства 3DS, вы можете установить пользовательские скины с помощью [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Зайдите в настройки Universal-Updater, затем `Выберите Unistore`, `+`, `TWiLight Menu++ Skins`.
 

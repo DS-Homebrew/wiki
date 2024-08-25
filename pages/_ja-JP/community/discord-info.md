@@ -98,11 +98,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
 
-Owner: shutterbug2000
+Owner: @rocketrobz
 
-Administrators: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
+Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
 
-Server Maintainers: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
+Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

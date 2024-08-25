@@ -98,11 +98,11 @@ Hay montón de comandos divertidos que puedes usar, pero por favor mantenlos en 
 ## El Personal del Servidor
 Estas son las personas que mantienen el servidor. Si dicen algo, es definitivo, y no hay lugar para debate. Estos miembros están anclados en la lista de miembros. No solicites formar parte del personal, así solo disminuirás las posibilidades de hacerlo. Se añadirán miembros al personal solo si y cuando se considere oportuno.
 
-Dueño: shutterbug2000
+Owner: @rocketrobz
 
-Administradores: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
+Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
 
-Moderación: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
+Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

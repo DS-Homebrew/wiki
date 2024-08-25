@@ -20,7 +20,7 @@ TWL_FIRM mungkin saja rusak. Ikuti panduan ini untuk memperbaiki isu: <https://3
 - Jika tidak berhasil juga, coba kartu SD lain
 
 #### Layar sentuh tidak tanggap setelah memuat permainan, bagaimana ini?
-- Jika memuat kaset, pastikan pengaturan `Mode Sentuh Slot-1` diatur ke `Mode DS`
+- Jika memuat kartrid, pastikan pengaturan `Mode Sentuh Slot-1` diatur ke `Mode DS`
 - Jika masih muncul isu, atau jika menggunakan ROM, ikuti panduan ini: https://gbatemp.net/threads/recover-ds-mode-after-an-nvram-brick-eg-after-using-a-ds-bricker.516444/
 
 #### Bagaimana memperbaiki TWiLight Menu++ mengulang atau galat Guru Meditation saat memuat permainan?
@@ -46,7 +46,7 @@ Gambar `.png` acak dari `sd:/_nds/TWiLightMenu/dsimenu/photos/` akan muncul seti
 Untuk menyembunyikan gambar, berkas `theme.ini` harus disunting dari `sd:/_nds/TWiLightMenu/dsimenu/themes/[folder skin]/`. Buka berkas di penyunting teks, ubah baris `RenderPhoto` dari `1` ke `0`, lalu simpan berkas.
 
 #### Di mana mendapat permainan?
-Permainan swayasa atau *homebrew* bisa diunduh dari [Universal-DB](https://db.universal-team.net/ds) dan [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Untuk permainan resmi, harus dilakukan *dump*, baik dari kaset fisik, atau dari konsol yang ada:
+Permainan swayasa atau *homebrew* bisa diunduh dari [Universal-DB](https://db.universal-team.net/ds) dan [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Untuk permainan resmi, harus dilakukan *dump*, baik dari kartrid fisik, atau dari konsol yang ada:
 - Di konsol DS, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid GBA dan, jika punya *flashcart* Slot-2, kaset DS juga. Jika hanya punya *flashcard* Slot-1 dan ingin men-*dump* kaset DS, bisa gunakan [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), tapi perlu sambungan Wi-Fi yang bisa dibaca DS, serta klien FTP pada perangkat lain untuk menerima ROM
 - Di konsol DSi, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kaset DS dan DSiWare
 - Di konsol 3DS, gunakan [GodMode9](https://github.com/d0k3/GodMode9/releases) untuk men-*dump* kaset DS, DSiWare, dan Virtual Console
@@ -77,12 +77,13 @@ Ada beberapa alasan kenapa permainan tidak ketemu.
 - Jika permainan tidak menggunakan [ekstensi yang didukung](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), mungkin ekstensi harus diubah nama dulu
 
 #### Bagaimana mengakses pengaturan TWiLight Menu++?
-Cara mengakses pengaturan TWiLight Menu++ berbeda tergantung setelan.
+Mengakses pengaturan TWiLight Menu++ bisa berbeda tergantung setelan.
 - **Menu DS Klasik:** Ketuk ikon DS di bagian bawah layar bawah
 - **Tema Nintendo DSi/SEGA Saturn/Homebrew Launcher: dengan Menu SELECT:** Tekan <kbd>SELECT</kbd>, lalu buka *Applet* Pengaturan (gunakan tombol arah untuk memilih)
 - **Tema Nintendo DSi/SEGA Saturn/Homebrew Launcher yang tidak ada Menu SELECT:** Menekan <kbd>SELECT</kbd> akan masuk ke Menu DS Klasik
 - **Tema Nintendo 3DS:** Ketuk ikon kunci bengkel di layar bawah
 - **Tema R4 Original:** Tekan <kbd>START</kbd> (jika di peramban berkas), lalu tekan <kbd>SELECT</kbd>
+- **Tema Wood UI:** Menekan <kbd>START</kbd> akan masuk ke menu DS Klasik
 
 Menahan <kbd>SELECT</kbd> saat memuat TWiLight Menu++ juga akan langsung ke pengaturan.
 
@@ -102,6 +103,7 @@ Sesudah mendapatkan skin kustom, cara memasangnya tinggal taruh folder skin sesu
 - Skin untuk tema Nintendo DSi ditaruh di `sd:\_nds\TWiLightMenu\dsimenu\themes\`
 - Skin untuk tema Nintendo 3DS ditaruh di `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
 - Skin untuk tema R4 Original ditaruh di `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Skin untuk tema Wood UI ditaruh di `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
 Jika menggunakan sejenis konsol 3DS, lebih mudah memasang skin dengan [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Masuk ke pengaturan Universal-Updater, pilih `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
 

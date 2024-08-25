@@ -11,7 +11,7 @@ tabs:
     other: macOS/Linux
 ---
 
-Mengoprek keras rentan merusak DSi. Jika ingin konsol DSi betul lagi, coba dengan cara [ntrboot](ntrboot) dulu.
+Mengoprek keras rentan merusak DSi. Jika ingin konsol DSi tidak matot lagi, coba cara [ntrboot](ntrboot) dulu.
 {:.alert .alert-danger}
 
 Oprek keras atau *hardmod* adalah tindakan menyolder papan induk Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
@@ -52,7 +52,7 @@ Untuk mengoprek keras Nintendo DSi/DSi XL (LL) diperlukan:
 #### Membuang *footer* no$gba
 Pertama-tama harus menghapus *footer* NOCASH dari cadangan yang akan di-*flash* ke DSi. Caranya dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Unduh versi aplikasi untuk sistem operasi yang digunakan
+1. Unduh versi aplikasi sesuai sistem operasi komputer
 1. Jalankan naskah, pilih cadangan NAND yang ingin di-*flash* ke DSi
 1. Ganti ke mode NAND dengan tombol di sebelah kiri jalur berkas
 1. Pencet `Start` untuk mencadang NAND tanpa *footer* no$gba

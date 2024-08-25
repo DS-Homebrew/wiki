@@ -98,11 +98,11 @@ Ada banyak perintah lain yang juga bisa diketik, tapi lakukan di [#end-of-server
 ## Regu Staf
 Orang-orang ini yang mengurus server. Jika keputusan mereka bulat, tidak perlu dibahas lagi. Para anggota ini dikeataskan di Daftar Anggota. Jangan juga minta diterima ke regu, itu malah mengurangi kesempatan akan diterima. Anggota akan diterima ke regu jika dianggap sesuai.
 
-Pemilik: shutterbug2000
+Pemilik: @rocketrobz
 
-Administrator: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
+Administrator: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
 
-Pemelihara Server: kalamty, lightsage01, lifehackerhansol, kodtiz3d, Pk11#3666, kaisaan
+Pemelihara Server: @kalamty, @lightsage01, @kodtiz3d, @Pk11, @lifehackerhansol
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

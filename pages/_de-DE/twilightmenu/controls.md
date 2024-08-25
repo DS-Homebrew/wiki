@@ -5,40 +5,40 @@ section: twilightmenu
 category: other
 title: Steuerung
 long_title: TWiLight Menu++ Steuerung
-description: Controls for using TWiLight Menu++
+description: Steuerelemente für die Verwendung von TWiLight Menu++
 ---
 
-#### Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes
-- <kbd>Left</kbd>/<kbd>Right</kbd>: Select a game/app
-- <kbd class="face">A</kbd>/<kbd>START</kbd>: Launch game/app
-- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Switch pages
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
-- <kbd class="face">X</kbd>: Delete/hide game
-- (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
+#### Nintendo DSi, Nintendo 3DS, SEGA Saturn und Homebrew Launcher Themen
+- <kbd>Links</kbd>/<kbd>Rechts</kbd>: Spiel/Anwendung auswählen
+- <kbd class="face">A</kbd>/<kbd>START</kbd>: Spiel/Anwendung starten
+- <kbd class="l">L</kbd>/<kbd class="r">R</kbd> Oder <kbd>SELECT</kbd> + <kbd>Links</kbd>/<kbd>Rechts</kbd>: Seitenwechsel
+- (DSi/Saturn/HBL-Thema) <kbd>SELECT</kbd> + <kbd>Oben</kbd>/<kbd>Unten</kbd> & <kbd>SELECT</kbd>: loslassen: Umschalten zwischen SD-Karte und Flashkarte
+- <kbd class="face">Y</kbd>: Einstellungen pro Spiel
+   - <kbd class="face">X</kbd>: Cheat-Menü
+      - <kbd class="face">A</kbd>: Cheat umschalten
+      - <kbd class="face">B</kbd>: Cheat-Menü beenden
+      - <kbd class="face">X</kbd>: Cheat-Menü speichern und beenden
+      - <kbd class="face">Y</kbd>: Cheat-Beschreibung anzeigen
+      - <kbd class="l">L</kbd>: Alle Cheats deaktivieren
+- <kbd class="face">X</kbd>: Spiel löschen/ausblenden
+- (DSi/Saturn/HBL-Thema) <kbd>SELECT</kbd>: SELECT-Menü oder DS Classic-Menü (hier können Systemmenü, TWiLight-Menü++ Einstellungen und GBA-Modus aufgerufen werden)
 
-#### Original R4, GameBoy Color and Wood UI themes
-- <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app
-- <kbd class="face">A</kbd>: Launch game/app
-- <kbd class="r">R</kbd>: Switch between the SD card and flashcard
-- <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
-- (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
+#### Original R4, GameBoy Color und Wood UI Themen
+- <kbd>Oben</kbd>/<kbd>Unten</kbd>: Spiel/Anwendung auswählen
+- <kbd class="face">A</kbd>: Spiel/App starten
+- <kbd class="r">R</kbd>: Umschalten zwischen SD-Karte und Flashkarte
+- <kbd class="face">Y</kbd>: Einstellungen pro Spiel
+   - <kbd class="face">X</kbd>: Cheat-Menü
+      - <kbd class="face">A</kbd>: Cheat umschalten
+      - <kbd class="face">B</kbd>: Cheat-Menü beenden
+      - <kbd class="face">X</kbd>: Cheat-Menü speichern und beenden
+      - <kbd class="face">Y</kbd>: Cheat-Beschreibung anzeigen
+      - <kbd class="l">L</kbd>: Alle Cheats deaktivieren
+- (Wood UI-Thema) <kbd>SELECT</kbd>: Auflistungsmethode wechseln
 
-#### Boot shortcuts
-These should be pressed on the TWiLight Menu++ splash screen / right after the Nintendo DSi splash screen.
+#### Boot-Abkürzungen
+Diese sollten auf dem TWiLight Menu++ Startbildschirm / direkt nach dem Nintendo DSi Startbildschirm gedrückt werden.
 
-- <kbd>SELECT</kbd>: Open settings
-- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Reset all TWiLight Menu++ settings
-- <kbd class="face">B</kbd>: Boot the last ran ROM
+- <kbd>Select</kbd>: Einstellungen öffnen
+- <kbd class="face">A</kbd> + <kbd class="face">B</kbd> + <kbd class="face">X</kbd> + <kbd class="face">Y</kbd>: Alle TWiLight Menu++ Einstellungen zurücksetzen
+- <kbd class="face">B</kbd>: Booten des zuletzt verwendeten ROMs

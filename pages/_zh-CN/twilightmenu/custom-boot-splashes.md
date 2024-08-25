@@ -3,11 +3,11 @@ lang: zh-CN
 layout: wiki
 section: twilightmenu
 category: customization
-title: Custom Boot Splashes
+title: 自定义启动动画
 description: How to use custom splash screens for TWiLight Menu++
 ---
 
-You can use custom GIF files to have custom splash screens while booting TWiLight Menu++. They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
+你可以使用自己的GIF动图修改TWiLight Menu++启动时的画面。 They need to be named `splashtop.gif` and `splashbottom.gif` and be in `sd:/_nds/TWiLightMenu/extras`, then set `DSi Splash Screen` to `Custom` in TWiLight Menu++ settings.
 
 Most GIF files up to 256x192 should work, with a few exceptions:
 - GIF files over 1 MiB (DSi Mode) or 256 KiB (DS Mode) may not play at full speed as they will be decompressed on the fly

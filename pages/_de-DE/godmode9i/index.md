@@ -3,20 +3,20 @@ lang: de-DE
 layout: wiki
 section: godmode9i
 title: GodMode9i
-description: Information about GodMode9i
+description: Informationen über GodMode9i
 ---
 
-[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) is an open source file browser for the Nintendo DS ecosystem, taking inspiration from GodMode9 for the Nintendo 3DS. GodMode9i has the ability to dump games, manage SD card files, browse NitroFS, calculate the SHA1 hash of files, edit binary files with a hex editor, and more.
+[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/) ist ein Open-Source-Dateibrowser für das Nintendo DS-Ökosystem, der sich an GodMode9 für den Nintendo 3DS orientiert. GodMode9i kann Spiele dumpen, SD-Karten-Dateien verwalten, NitroFS durchsuchen, den SHA1-Hash von Dateien berechnen, Binärdateien mit einem Hex-Editor bearbeiten und vieles mehr.
 
-## Dumping functionality
+## Dumping-Funktionalität
 
-To dump games, select the drive in the drives list and follow the on-screen prompts.
-- On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
-   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
-- On the Nintendo DSi family of systems, Unlaunch is required for dumping Slot-1 games to the SD card
-   - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
-- On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
-   - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+Um Spiele zu dumpen, wählen Sie das Laufwerk in der Laufwerksliste aus und folgen Sie den Anweisungen auf dem Bildschirm.
+- Auf dem Nintendo DS und Nintendo DS Lite kann GodMode9i Slot-2-Kassetten auswerfen, wenn es von einer Slot-1-Flashcard läuft, oder Slot-1-Spielkarten, wenn GodMode9i von einer Slot-2-Flashcard läuft
+   - Speicherdateien können auch mit GBA-Cartridges übertragen werden, siehe [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) für weitere Informationen
+- Bei den Systemen der Nintendo DSi-Familie ist Unlaunch erforderlich, um Slot-1-Spiele auf die SD-Karte zu übertragen
+   - Folgen Sie [dsi.cfw.guide](https://dsi.cfw.guide/) für Anweisungen zur Installation von Unlaunch
+- Auf der Nintendo 3DS-Systemfamilie ist eine moderne CFW-Umgebung erforderlich, um GodMode9i zu starten
+   - Folgen Sie [3ds.hacks.guide](https://3ds.hacks.guide/) für Anweisungen zur Installation von Luma3DS + boot9strap
 
-### Restoring saves
-GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.
+### Speicherstände wiederherstellen
+GodMode9i kann auch Speicherdateien auf DS Game Cards/GBA-Cartridges wiederherstellen. Wählen Sie dazu die `.sav-Datei` auf Ihrer SD-Karte aus, während die Game Card/Cartridge eingelegt ist, und wählen Sie `Speichern wiederherstellen`.

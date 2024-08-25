@@ -48,6 +48,7 @@ Tieni presente che perderai la possibilità di utilizzare i trucchi durante l'es
    - R4 SDHC Revolution
    - R4(i) Pocket
    - R4i Gold (v1.4.1) (3DS)
+   - R4 Gold 3DS RTS (r4i-gold.com)
    - R4xDS
    - DSTT(i)
    - DSONE SDHC & DSONEi (i modelli non SDHC non ***sono*** supportati)

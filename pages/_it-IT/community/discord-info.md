@@ -98,11 +98,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## Lo staff
 Queste sono le persone che mantengono il server. Se dicono che qualcosa è definitiva, non si può mettere in discussione. Essi saranno posizionati nella lista dei membri. Non chiedere di essere parte del team, in quanto diminuirà la tua probabilità di essere accettato. I membri saranno aggiunti alla squadra se e quando verrà riputato opportuno.
 
-Proprietario: shutterbug2000
+Owner: @rocketrobz
 
-Amministratori: rocketrobz, nightscript, gericom., ahezard#8037, apachethunder
+Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
 
-Manutentori del server: kaisaan, Pk11#3666, kodtiz3d, lifehackerhansol, lightsage01, kalamty
+Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

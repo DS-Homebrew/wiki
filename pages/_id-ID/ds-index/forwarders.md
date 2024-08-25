@@ -15,7 +15,7 @@ tabs:
 
 *Forwarder* adalah pintasan permainan yang bisa dipasang di HOME Menu, hiyaCFW, atau menu *flashcard*. Permainan DS(i) akan dibaca dari kartu SD (dengan nds-bootstrap) atau dari *flashcard* kompatibel (lewat *kernel*-nya) dengan memasang *forwarder* ke menu. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
-Permainan DS perlu di-*dump* dulu ke format `.nds`. Kaset DS bisa di-*dump* dengan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
+Permainan DS perlu di-*dump* dulu ke format `.nds`. Kartrid DS bisa di-*dump* dengan [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) di 3DS, atau [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) di DSi.
 {:.alert .alert-info}
 
 Jika mengalami isu, lihat Pertanyaan Umum atau FAQ di [utas GBAtemp](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).

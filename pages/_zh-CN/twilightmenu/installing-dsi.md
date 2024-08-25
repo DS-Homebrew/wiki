@@ -58,4 +58,4 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 - 按 `SELECT`+`↑` 或 `SELECT`+`↓` 在 SD 卡和烧录卡内容之间切换
      - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
      - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
-     - If you use the R4, GBC, or Wood themes, press `R` button
+     - 如果你用的主题是 R4、GBC 或 Wood 主题，按`R`键

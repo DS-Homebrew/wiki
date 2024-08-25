@@ -35,7 +35,7 @@ Cabang *Wi-Fi-Link* ini mampu menghubungkan dua sistem secara nirkabel. Tapi buk
 
 Jika menggunakan **TW**i**L**ight Menu++ di *flashcard*, bisa dipilih versi ARM7DLDI atau ARM9DLDI di pengaturan **TW**i**L**ight Menu++.
 
-Keduanya tidak ada perbedaan dari segi fitur atau kinerja, sehingga keduanya tidak usah diuji yang mana yang lebih lancar atau lebih sedikit ada isu.
+Keduanya tidak ada perbedaan dari segi fitur atau kinerja, sehingga keduanya tidak usah diuji yang mana yang lebih sedikit ada isu atau lebih lancar.
 
 Lihat lagi ke bawah untuk memeriksa sekarang di versi apa.
 
@@ -79,6 +79,6 @@ Menu di GBARunner2 bisa dibuka dengan menyentuh layar bawah dan menekan tombol R
 
 Halaman *About* juga menjelaskan sekarang di versi ARM7DLDI atau ARM9DLDI.
 
-Tahu versi mana yang digunakan akan memudahkan memeriksa daftar kompatibilitas resmi, Ini jika permainan ada yang muncul isu.
+Tahu versi mana yang digunakan akan memudahkan memeriksa daftar kompatibilitas resmi, ini jika permainan ada yang muncul isu.
 
 Nomor *release ID* bisa dilihat di laman *release* dari repositori github GBARunner2, versinya terdiri dari tujuh alfanumerik. Contoh, versi *Master* terkini bernama "v20200812-131430_6e4ce45", bagian "6e4ce45" mewakili nomor versi.

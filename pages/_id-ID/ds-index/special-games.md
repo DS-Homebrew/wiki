@@ -472,11 +472,11 @@ Saat ini, nds-bootstrap belum ada emulasi Slot-2. Ada beberapa yang tertera cara
 
 ### Lainnya (Permainan Khusus yang tidak masuk kategori di atas)
 - Learn with Pokémon: Typing Adventures
-   - Kaset terdapat cip bluetooth khusus untuk menyambung ke papan ketik
+   - Kartrid terdapat cip bluetooth khusus untuk tersambung papan ketik
 - ElectroPlankton
-   - Kaset tidak ada RAM simpanan
+   - Kartrid tidak ada RAM simpanan
 - DS Download Station
-   - Serangkaian kaset untuk mengagihkan permainan demo
+   - Serangkai kartrid untuk mengagihkan permainan demo
 - Sonic Classics Collection
    - Struktur emulasi Sega Genesis dikonversi menjadi emulator
 - Nitro Development Cart

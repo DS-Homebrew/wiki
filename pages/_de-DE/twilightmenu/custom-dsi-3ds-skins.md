@@ -110,10 +110,10 @@ Es wird empfohlen, beim Exportieren das Kontrollkästchen `Farbrauminformationen
 | scroll_window | Der Teil der Scrollleiste, der die angezeigten Symbole anzeigt                                             |
 | small_cart    | Die oben (3DS-Theme) und im SELECT-Menü (DSi-Theme) angezeigten Symbole                                    |
 | start_border  | Der Rahmen mit Animationsbildern, die das ausgewählte Symbol anzeigen (3DS-Theme)                          |
-| start_text    | The text displayed on the start border (DSi Theme)                                                         |
-| wirelessicons | The icons displayed to indicate a game has wireless support                                                |
+| start_text    | Der auf dem Startbildschirm angezeigte Text (DSi-Theme)                                                    |
+| wirelessicons | Die Symbole, die angezeigt werden, um anzuzeigen, dass ein Spiel drahtlose Unterstützung bietet            |
 
-### DS Classic Menu textures (`quickmenu` folder)
+### DS Classic Menü Texturen (`Schnellmenü` Ordner)
 Diese müssen PNG-Dateien sein.
 
 | Textur     | Beschreibung                                                      |
@@ -125,16 +125,16 @@ Diese müssen PNG-Dateien sein.
 ### UI-Texturen (`ui`-Ordner)
 Diese müssen PNG-Dateien sein. Transparenz wird unterstützt, aber nur 100 % Transparenz wird funktionieren. Jedes Pixel, das in einer Textur transparent ist, sollte dies in allen Texturen sein, damit es bei einer Änderung ordnungsgemäß überschrieben wird.
 
-| Textur                   | Beschreibung                                                     |
-| ------------------------ | ---------------------------------------------------------------- |
-| Lshoulder                | Die linke Schulter                                               |
-| Lshoulder_greyed         | Die linke Schulter, wenn sich links keine Seiten befinden        |
-| Lshoulder_photo          | The left shoulder when there is a photo being shown              |
-| Lshoulder_photo_greyed | The left shoulder with no pages to the left and a photo showing  |
-| Rshoulder                | Die rechte Schulter                                              |
-| Rshoulder_greyed         | Die rechte Schulter, wenn sich rechts keine Seiten befinden      |
-| Rshoulder_photo          | The right shoulder when there is a photo being shown             |
-| Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
+| Textur                   | Beschreibung                                                            |
+| ------------------------ | ----------------------------------------------------------------------- |
+| Lshoulder                | Die linke Schulter                                                      |
+| Lshoulder_greyed         | Die linke Schulter, wenn sich links keine Seiten befinden               |
+| Lshoulder_photo          | Die linke Schultertaste, wenn ein Foto gezeigt wird                     |
+| Lshoulder_photo_greyed | Die linke Schultertaste ohne Seiten nach links und ein Foto mit         |
+| Rshoulder                | Die rechte Schulter                                                     |
+| Rshoulder_greyed         | Die rechte Schulter, wenn sich rechts keine Seiten befinden             |
+| Rshoulder_photo          | Die rechte Schultertaste, wenn ein Foto gezeigt wird                    |
+| Rshoulder_photo_greyed | Die rechte Schultertaste ohne Seiten nach links und ein Foto, das zeigt |
 
 ### Videotextur (`video`-Ordner)
 Nur für das 3DS-Thema verwendet, `3dsRotatingCubes.rvid` ist eine Rocket-Video-Datei. Für weitere Informationen zum Konvertieren von Videos in rvid, lies [Converting a video to .rvid](https://github.com/RocketRobz/Vid2RVID/wiki/Converting-a-video-to-.rvid) (englisch) im Vid2RVID Wiki. Wenn du das nicht willst, kannst du es einfach löschen.
@@ -181,68 +181,68 @@ In der Datei `theme.ini` kannst du verschiedene Optionen für die Darstellung de
 | `BatteryRenderY`           | Die Y-Position auf dem oberen Bildschirm, um das Akku-Symbol zu zeichnen                                                                                    | 5              | 5              |
 | `UsernameRenderX`          | Die X-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen                                                                        | 28             | 28             |
 | `UsernameRenderY`          | Die Y-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen                                                                        | 15             | 15             |
-| `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                                                          | 4              | 4              |
-| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                                                       | 162            | 162            |
-| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                                                       | 7              | 7              |
-| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                                                       | 200            | 200            |
-| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                                                       | 7              | 7              |
-| `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                                                        | 1              | 1              |
-| `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                                                 | 0x0000         | 0x0000         |
-| `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                                                  | 0xDEF7         | 0xDEF7         |
+| `UsernameRenderXDS`        | Die X-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen, wenn auf einem DS Phat/Lite                                           | 4              | 4              |
+| `DateRenderX`              | Die X-Position auf dem oberen Bildschirm zum Zeichnen des Datumstextes                                                                                      | 162            | 162            |
+| `DateRenderY`              | Die Y-Position auf dem oberen Bildschirm zum Zeichnen des Datumstextes                                                                                      | 7              | 7              |
+| `TimeRenderX`              | Die X-Position auf dem oberen Bildschirm zum Zeichnen des Zeittextes                                                                                        | 200            | 200            |
+| `TimeRenderY`              | Die Y-Position auf dem oberen Bildschirm zum Zeichnen des Zeittextes                                                                                        | 7              | 7              |
+| `PurpleBatteryAvailable`   | Ob die violetten Batteriesymbole verwendet werden sollen oder nicht, wenn die `Farbe der Power-LED` in den Einstellungen auf `Violett` eingestellt ist      | 1              | 1              |
+| `FontPalette1`             | Die transparente Farbe der Schrift, unbenutzt für Standard-Schriften                                                                                        | 0x0000         | 0x0000         |
+| `FontPalette2`             | Die Farben der Schrift, verwenden Sie [diese Website](http://www.conradshome.com/html2bgr15/) zu konvertieren                                               | 0xDEF7         | 0xDEF7         |
 | `FontPalette3`             |                                                                                                                                                             | 0xC631         | 0xC631         |
 | `FontPalette4`             |                                                                                                                                                             | 0xA108         | 0xA108         |
-| `FontPaletteDateTime1`     | The override transparent color of the font for the date and time                                                                                            | 0x0000         | 0x0000         |
-| `FontPaletteDateTime2`     | The override color of the font for the date and time                                                                                                        | 0xDEF7         | 0xA529         |
+| `FontPaletteDateTime1`     | Die transparente Farbe der Schrift für das Datum und die Uhrzeit überschreiben                                                                              | 0x0000         | 0x0000         |
+| `FontPaletteDateTime2`     | Die Überschreibungsfarbe der Schrift für Datum und Uhrzeit                                                                                                  | 0xDEF7         | 0xA529         |
 | `FontPaletteDateTime3`     |                                                                                                                                                             | 0xC631         | 0xBDEF         |
 | `FontPaletteDateTime4`     |                                                                                                                                                             | 0xA108         | 0xD6B5         |
-| `FontPaletteTitlebox1`     | The override transparent color of the font for the ROM title box                                                                                            | 0x0000         | 0x0000         |
-| `FontPaletteTitlebox2`     | The override color of the font for the ROM title box                                                                                                        | 0xDEF7         | 0xDEF7         |
+| `FontPaletteTitlebox1`     | Die transparente Farbe der Schrift für das ROM-Titelfeld überschreiben                                                                                      | 0x0000         | 0x0000         |
+| `FontPaletteTitlebox2`     | Die Überschreibungsfarbe der Schriftart für das ROM-Titelfeld                                                                                               | 0xDEF7         | 0xDEF7         |
 | `FontPaletteTitlebox3`     |                                                                                                                                                             | 0xC631         | 0xC631         |
 | `FontPaletteTitlebox4`     |                                                                                                                                                             | 0xA108         | 0xA108         |
-| `FontPaletteDialog1`       | The override transparent color of the font for dialogs                                                                                                      | 0x0000         | 0x0000         |
-| `FontPaletteDialog2`       | The override color of the font for dialogs                                                                                                                  | 0xDEF7         | 0xDEF7         |
+| `FontPaletteDialog1`       | Die überschreibende transparente Farbe der Schrift für Dialoge                                                                                              | 0x0000         | 0x0000         |
+| `FontPaletteDialog2`       | Die Override-Farbe der Schrift für Dialoge                                                                                                                  | 0xDEF7         | 0xDEF7         |
 | `FontPaletteDialog3`       |                                                                                                                                                             | 0xC631         | 0xC631         |
 | `FontPaletteDialog4`       |                                                                                                                                                             | 0xA108         | 0xA108         |
-| `FontPaletteOverlay1`      | The override transparent color of the font for overlayed text                                                                                               | 0x0000         | 0x0000         |
-| `FontPaletteOverlay2`      | The override color of the font for overlayed text                                                                                                           | 0xDEF7         | 0xDEF7         |
+| `FontPaletteOverlay1`      | Die überschreibende transparente Farbe der Schrift für überlagerten Text                                                                                    | 0x0000         | 0x0000         |
+| `FontPaletteOverlay2`      | Die Überlagerungsfarbe der Schriftart für überlagerten Text                                                                                                 | 0xDEF7         | 0xDEF7         |
 | `FontPaletteOverlay3`      |                                                                                                                                                             | 0xC631         | 0xC631         |
 | `FontPaletteOverlay4`      |                                                                                                                                                             | 0xA108         | 0xA108         |
-| `FontPaletteUsername1`     | The override transparent color of the font for the username                                                                                                 | 0x0000         | 0x0000         |
-| `FontPaletteUsername2`     | The override color of the font for the username                                                                                                             | 0xDEF7         | 0xDEF7         |
+| `FontPaletteUsername1`     | Die überschreibende transparente Farbe der Schrift für den Benutzernamen                                                                                    | 0x0000         | 0x0000         |
+| `FontPaletteUsername2`     | Die Überschreibungsfarbe der Schrift für den Benutzernamen                                                                                                  | 0xDEF7         | 0xDEF7         |
 | `FontPaletteUsername3`     |                                                                                                                                                             | 0xC631         | 0xC631         |
 | `FontPaletteUsername4`     |                                                                                                                                                             | 0xA108         | 0xA108         |
-| `BipsUserPalette`          | Whether or not to use the DS Profile color for the palette of the bips on the scrollbar                                                                     |                | 0              |
-| `BoxUserPalette`           | Whether or not to use the DS Profile color for the palette of the boxes containing the game icons in the DSi Theme                                          |                | 0              |
-| `BoxEmptyUserPalette`      | Whether or not to use the DS Profile color for the palette of empty boxes in the 3DS Theme                                                                  | 0              |                |
-| `BoxFullUserPalette`       | Whether or not to use the DS Profile color for the palette of the boxes containing the game icons in the 3DS Theme                                          | 0              |                |
-| `BraceUserPalette`         | Whether or not to use the DS Profile color for the palette of the brace at the start and end of the game list                                               |                | 0              |
-| `BubbleUserPalette`        | Whether or not to use the DS Profile color for the palette of the tip of the title bubble                                                                   | 0              | 0              |
-| `ButtonArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow buttons on the bottom of the screen                                                 |                | 1              |
-| `CornerButtonUserPalette`  | Whether or not to use the DS Profile color for the palette of the DSi Menu and Settings icons in the SELECT menu                                            |                | 0              |
-| `CursorUserPalette`        | Whether or not to use the DS Profile color for the palette of the cursor                                                                                    | 0              |                |
-| `DialogBoxUserPalette`     | Whether or not to use the DS Profile color for the palette of the dialog box                                                                                | 0              | 1              |
-| `FolderUserPalette`        | Whether or not to use the DS Profile color for the palette of folders                                                                                       | 0              | 0              |
-| `LaunchDotsUserPalette`    | Whether or not to use the DS Profile color for the palette of the launch dots                                                                               |                | 1              |
-| `MovingArrowUserPalette`   | Whether or not to use the DS Profile color for the palette of the arrow shown when moving icons                                                             |                | 1              |
-| `ProgressUserPalette`      | Whether or not to use the DS Profile color for the palette of the loading progress spinner                                                                  | 1              | 1              |
-| `ScrollWindowUserPalette`  | Whether or not to use the DS Profile color for the palette of the background to the scroll window on the scrollbar                                          |                | 0              |
-| `SmallCartUserPalette`     | Whether or not to use the DS Profile color for the palette of the cartridge icons                                                                           | 0              | 0              |
-| `StartBorderUserPalette`   | Whether or not to use the DS Profile color for the palette of the start border                                                                              |                | 1              |
-| `StartTextUserPalette`     | Whether or not to use the DS Profile color for the palette of the start text                                                                                |                | 1              |
-| `WirelessIconsUserPalette` | Whether or not to use the DS Profile color for the palette of the wireless icons                                                                            | 0              | 0              |
-| `IconA26UserPalette`       | Whether or not to use the DS Profile color for the palette of the Atari 2600 icon                                                                           | 0              | 0              |
-| `IconCOLUserPalette`       | Whether or not to use the DS Profile color for the palette of the ColecoVision icon                                                                         | 0              | 0              |
-| `IconGBUserPalette`        | Whether or not to use the DS Profile color for the palette of the Game Boy icon                                                                             | 0              | 0              |
-| `IconGBAUserPalette`       | Whether or not to use the DS Profile color for the palette of the Game Boy Advance icon                                                                     | 0              | 0              |
-| `IconGBAModeUserPalette`   | Whether or not to use the DS Profile color for the palette of the native GBA Mode icon                                                                      | 0              | 0              |
-| `IconGGUserPalette`        | Whether or not to use the DS Profile color for the palette of the Game Gear icon                                                                            | 0              | 0              |
-| `IconIMGUserPalette`       | Whether or not to use the DS Profile color for the palette of the image icon                                                                                | 0              | 0              |
-| `IconINTUserPalette`       | Whether or not to use the DS Profile color for the palette of the Intellivision icon                                                                        | 0              | 0              |
-| `IconM5UserPalette`        | Whether or not to use the DS Profile color for the palette of the Sord M5 icon                                                                              | 0              | 0              |
-| `IconManualUserPalette`    | Whether or not to use the DS Profile color for the palette of the manual icon                                                                               | 0              | 0              |
-| `IconMDUserPalette`        | Whether or not to use the DS Profile color for the palette of the Genesis/Mega Drive icon                                                                   | 0              | 0              |
-| `IconNESUserPalette`       | Whether or not to use the DS Profile color for the palette of the NES/Famicom icon                                                                          | 0              | 0              |
-| `IconNGPUserPalette`       | Whether or not to use the DS Profile color for the palette of the Neo Geo Pocket icon                                                                       | 0              | 0              |
+| `BipsUserPalette`          | Ob die DS-Profilfarbe für die Palette der Bips auf der Bildlaufleiste verwendet werden soll oder nicht                                                      |                | 0              |
+| `BoxUserPalette`           | Ob die DS-Profilfarbe für die Palette der Felder mit den Spielsymbolen im DSi-Theme verwendet werden soll oder nicht                                        |                | 0              |
+| `BoxEmptyUserPalette`      | Ob die DS-Profilfarbe für die Palette der leeren Felder im 3DS-Thema verwendet werden soll oder nicht                                                       | 0              |                |
+| `BoxFullUserPalette`       | Ob die DS-Profilfarbe für die Palette der Felder mit den Spielsymbolen im 3DS-Thema verwendet werden soll oder nicht                                        | 0              |                |
+| `BraceUserPalette`         | Ob die DS-Profilfarbe für die Palette der Klammer am Anfang und Ende der Spielliste verwendet werden soll oder nicht                                        |                | 0              |
+| `BubbleUserPalette`        | Ob die DS-Profilfarbe für die Palette der Spitze der Titelblase verwendet werden soll oder nicht                                                            | 0              | 0              |
+| `ButtonArrowUserPalette`   | Ob die DS-Profilfarbe für die Palette der Pfeiltasten am unteren Bildschirmrand verwendet werden soll oder nicht                                            |                | 1              |
+| `CornerButtonUserPalette`  | Ob die DS-Profilfarbe für die Palette der DSi-Menü- und Einstellungssymbole im SELECT-Menü verwendet werden soll oder nicht                                 |                | 0              |
+| `CursorUserPalette`        | Ob die DS-Profilfarbe für die Palette des Cursors verwendet werden soll oder nicht                                                                          | 0              |                |
+| `DialogBoxUserPalette`     | Ob die DS-Profilfarbe für die Palette des Dialogfelds verwendet werden soll oder nicht                                                                      | 0              | 1              |
+| `FolderUserPalette`        | Ob die DS-Profilfarbe für die Palette der Ordner verwendet werden soll oder nicht                                                                           | 0              | 0              |
+| `LaunchDotsUserPalette`    | Ob die DS-Profilfarbe für die Palette der Startpunkte verwendet werden soll oder nicht                                                                      |                | 1              |
+| `MovingArrowUserPalette`   | Ob die DS-Profilfarbe für die Palette des Pfeils beim Verschieben von Symbolen verwendet werden soll oder nicht                                             |                | 1              |
+| `ProgressUserPalette`      | Ob die DS-Profilfarbe für die Palette der Ladefortschrittsanzeige verwendet werden soll oder nicht                                                          | 1              | 1              |
+| `ScrollWindowUserPalette`  | Ob die DS-Profilfarbe für die Palette des Hintergrunds des Bildlauffensters auf der Bildlaufleiste verwendet werden soll oder nicht                         |                | 0              |
+| `SmallCartUserPalette`     | Ob die DS-Profilfarbe für die Palette der Cartridge-Symbole verwendet werden soll oder nicht                                                                | 0              | 0              |
+| `StartBorderUserPalette`   | Ob die DS-Profilfarbe für die Palette des Startrahmens verwendet werden soll oder nicht                                                                     |                | 1              |
+| `StartTextUserPalette`     | Ob die DS-Profilfarbe für die Palette des Starttextes verwendet werden soll oder nicht                                                                      |                | 1              |
+| `WirelessIconsUserPalette` | Ob die DS-Profilfarbe für die Palette der Drahtlos-Symbole verwendet werden soll oder nicht                                                                 | 0              | 0              |
+| `IconA26UserPalette`       | Ob die DS-Profilfarbe für die Palette des Atari 2600-Symbols verwendet werden soll oder nicht                                                               | 0              | 0              |
+| `IconCOLUserPalette`       | Ob die DS-Profilfarbe für die Palette des ColecoVision-Symbols verwendet werden soll oder nicht                                                             | 0              | 0              |
+| `IconGBUserPalette`        | Ob die DS-Profilfarbe für die Palette des Game Boy-Symbols verwendet werden soll oder nicht                                                                 | 0              | 0              |
+| `IconGBAUserPalette`       | Ob die DS-Profilfarbe für die Farbpalette des Game Boy Advance-Symbols verwendet werden soll oder nicht                                                     | 0              | 0              |
+| `IconGBAModeUserPalette`   | Ob die DS-Profilfarbe für die Palette des nativen GBA-Modus-Symbols verwendet werden soll oder nicht                                                        | 0              | 0              |
+| `IconGGUserPalette`        | Ob die DS-Profilfarbe für die Palette des Game Gear-Symbols verwendet werden soll oder nicht                                                                | 0              | 0              |
+| `IconIMGUserPalette`       | Ob die DS-Profilfarbe für die Palette des Bildsymbols verwendet werden soll oder nicht                                                                      | 0              | 0              |
+| `IconINTUserPalette`       | Ob die DS-Profilfarbe für die Palette des Intellivision-Symbols verwendet werden soll oder nicht                                                            | 0              | 0              |
+| `IconM5UserPalette`        | Ob die DS-Profilfarbe für die Palette des Sord M5-Symbols verwendet werden soll oder nicht                                                                  | 0              | 0              |
+| `IconManualUserPalette`    | Ob die DS-Profilfarbe für die Palette des Handbuchsymbols verwendet werden soll oder nicht                                                                  | 0              | 0              |
+| `IconMDUserPalette`        | Ob die DS-Profilfarbe für die Palette des Genesis/Mega Drive-Symbols verwendet werden soll oder nicht                                                       | 0              | 0              |
+| `IconNESUserPalette`       | Ob die DS-Profilfarbe für die Palette des NES/Famicom-Symbols verwendet werden soll oder nicht                                                              | 0              | 0              |
+| `IconNGPUserPalette`       | Ob die DS-Profilfarbe für die Palette des Neo Geo Pocket-Symbols verwendet werden soll oder nicht                                                           | 0              | 0              |
 | `IconPCEUserPalette`       | Ob die DS-Profilfarbe für die Palette des PC-Engine/TurboGrafx-16-Symbols verwendet werden soll oder nicht                                                  | 0              | 0              |
 | `IconPLGUserPalette`       | Ob die DS-Profilfarbe für die Palette des DSTWO-Plugins verwendet werden soll verwendet werden soll oder nicht                                              | 0              | 0              |
 | `IconSettingsUserPalette`  | Ob die DS-Profilfarbe für die Palette des DSi-Einstellungssymbols verwendet werden soll oder nicht                                                          | 0              | 0              |
@@ -262,41 +262,41 @@ In der Datei `theme.ini` kannst du verschiedene Optionen für die Darstellung de
 | `StartupJingleDelayAdjust` | Die Anzahl der Samples zu Beginn des Startup-Sounds, mit denen die BGM beginnen soll                                                                        | 0              | 0              |
 
 ### Optionen für den Makromodus
-You may add specific override options to `theme.ini` for use in Macro Mode. To do this, add `[MACRO]` to a blank line at the bottom of the configuration file, then add any specified configurations below it.
+Für die Verwendung im Makromodus können Sie der `Datei theme.ini` spezielle Überschreibungsoptionen hinzufügen. Fügen Sie dazu `[MACRO]` in eine leere Zeile am Ende der Konfigurationsdatei ein und fügen Sie dann alle angegebenen Konfigurationen darunter ein.
 
-## Custom background music and sound effects
-The DSi and 3DS themes also support custom music. See [DSi/3DS skins - Custom SFX](custom-dsi-3ds-sfx) for more details.
+## Benutzerdefinierte Hintergrundmusik und Soundeffekte
+Die DSi- und 3DS-Themen unterstützen auch eigene Musik. Siehe [DSi/3DS Skins - Benutzerdefinierte SFX](custom-dsi-3ds-sfx) für weitere Details.
 
-## Custom fonts
-You may put [Custom Fonts](custom-fonts) in the `font` folder for use in the skin. You can also add override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+## Benutzerdefinierte Schriftarten
+Sie können [benutzerdefinierte Schriftarten](custom-fonts) zur Verwendung im Skin in den `Schriftartenordner` legen. Sie können auch überschreibende Schriftarten für das Datum & Zeit mit `date_time.nftr` und den Konsolenbenutzernamen mit `username.nftr` hinzufügen.
 
-## Custom palettes
-For the paletted textures (`grf` folder), you can optionally add override palette sets which are used when the corresponding `UserPalette` setting is enabled. Palette set files can be created using [this editor](https://skinpaltool.dvdo.dev/). When using the editor, import the image you would like to work with, then create a palette for each of the 16 DS Profile colors. You can use this [example palette file](/assets/files/example-palette.bin) as a starting point.
+## Benutzerdefinierte Paletten
+Für die palettierten Texturen (`grf` Ordner), können Sie optional die Palettenüberschreibungen hinzufügen, die verwendet werden, wenn die entsprechende `BenutzerPalette` Einstellung aktiviert ist. Paletten-Sets können mit [diesem Editor](https://skinpaltool.dvdo.dev/) erstellt werden. Wenn Sie den Editor verwenden, importieren Sie das Bild, mit dem Sie arbeiten möchten, und erstellen dann eine Palette für jede der 16 DS-Profilfarben. Sie können diese [Beispiel-Paletten-Datei](/assets/files/example-palette.bin) als Ausgangspunkt verwenden.
 
-The 16 rows of the palette collection correspond to each profile color and should be in the following order:
-1. Gray-Blue
-2. Brown
+Die 16 Zeilen der Palettensammlung entsprechen den einzelnen Profilfarben und sollten in der folgenden Reihenfolge angeordnet werden:
+1. Graublau
+2. Braun
 3. Rot
 4. Rosa
 5. Orange
 6. Gelb
-7. Lime Green
+7. Limettengrün
 8. Grün
-9. Dark Green
-10. Turquoise
-11. Cyan/Light Blue
+9. Dunkelgrün
+10. Türkis
+11. Cyan/Hellblau
 12. Blau
-13. Dark Blue/Indigo
-14. Violet/Dark Purple
+13. Dunkelblau/Indigo
+14. Violett/Dunkellila
 15. Lila
 16. Magenta
 
-Once you've created a palette file, place it in the `palettes` folder. The name of the palette file should match the name of its image but with a `.bin` extension instead (ex. `start_border.bin` will be applied to `start_border.bmp`).
+Sobald Sie eine Palettendatei erstellt haben, legen Sie sie in den `Paletten` Ordner. Der Name der Palettendatei sollte mit dem Namen des Bildes übereinstimmen, stattdessen jedoch mit einer `.bin` Endung (z. B. `start_border.bin` wird auf `start_border.bmp` angewendet).
 
-You may also put a `username.bin` palette file to change the palettes of the username font. Make sure to set the palette editor to `Font Mode` when creating this file.
+Sie können auch eine `-Benutzername.bin` Palettendatei angeben, um die Paletten des Benutzernamens zu ändern. Stellen Sie sicher, dass der Paletteneditor bei der Erstellung dieser Datei auf den `Schriftmodus` eingestellt ist.
 
-## Part 3: Adding to TWiLight Menu++
-Once you've edited some graphics and would like to test your skin, simply copy your skin folder (the folder containing the `background`, `battery`, etc folders) to `sd:/_nds/TWiLightMenu/3dsmenu/themes/` or `sd:/_nds/TWiLightMenu/dsimenu/themes/` for 3DS and DSi theme skins respectively.
+## Teil 3: Hinzufügen zu TWiLight Menu++
+Sobald Sie einige Grafiken bearbeitet haben und Ihre Haut testen möchten, kopieren Sie einfach Ihren Skin Ordner (der Ordner mit dem `Hintergrund`, `Batterie`, etc Ordner) zu `sd:/_nds/TWiLightMenu/3dsmenu/themes/` oder `sd:/_nds/TWiLightMenu/dsimenu/themes/` für 3DS bzw. DSi Theme Skins.
 
-## Part 4: Sharing your skin
-Once you've completed your skin, you can share it with the community by creating a Pull Request adding it to the [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub repository in a `.7z` file. If you're unfamiliar with using git you can also simply create an issue on that repository with a zip file of your skin requesting it be added.
+## Teil 4: Teile deinen Skin
+Sobald Sie Ihren Skin fertiggestellt haben, können Sie ihn mit der Community teilen, indem Sie einen Pull Request erstellen und ihn in einer `.7z-Datei` zum [DS-Homebrew/twlmenu-extras](https://github.com/DS-Homebrew/twlmenu-extras) GitHub-Repository hinzufügen. Wenn Sie mit der Verwendung von Git nicht vertraut sind, können Sie auch einfach eine Anfrage an das Repository mit einer Zip-Datei Ihres Skins stellen und darum bitten, dass es hinzugefügt wird.

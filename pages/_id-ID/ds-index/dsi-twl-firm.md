@@ -25,12 +25,12 @@ Nintendo DS dirakit dengan prosesor 67 MHz pada 2004, dan Nintendo DSi dengan pr
 Terdapat opsi *TWL Clock Speed* di nds-bootstrap, tapi ROM tidak akan dipaksa lancar di laju jam lebih tinggi. Jadi ROM yang kacau di laju jam lebih tinggi itu *bukan* gara-gara kutu nds-bootstrap, tapi dari ROM itu sendiri.
 
 ### Menu Nintendo DSi
-Di versi 1.4.0, tanda tangan RSA di daftar putih Kaset DS tidak diverifikasi. Ini kerentanan yang bisa dieksploitasi agar mampu mengambil alih akses prosesor ARM9. Perlu versi 1.4.0 (karena di versi baru sudah ditambal dan di versi lama tidak ada) dan *flashcard* dengan ROM dimodif.
+Di versi 1.4.0, tanda tangan RSA di daftar putih Kartrid DS tidak diverifikasi. Ini kerentanan yang bisa dieksploitasi agar mampu mengambil alih akses prosesor ARM9. Perlu versi 1.4.0 (karena di versi baru sudah ditambal dan di versi lama tidak ada) dan *flashcard* dengan ROM dimodif.
 
 Tapi ada juga *glitch* dari cara Nintendo DSi Menu menghitung ruang kosong yang mana bisa galat jika menu tidak dibaca dari NAND asli; untuk informasi lanjut, lihat [Pertanyaan Umum & Sidik Gangguan hiyaCFW](../hiyacfw/faq#the-free-space-bug).
 
 ### Akses & pemblokiran Slot-1 Nintendo DSi
-Akses Slot-1 diblokir jika memuat aplikasi dari menu sistem, kecuali jika aplikasi tersebut peluncur Slot-1 itu sendiri atau System Settings. Untuk menjalankan kaset Slot-1 yang biasanya tak terbacakan, perlu eksploit System Settings atau pasang Unlaunch. Tanpa salah satu kedua ini, maka tidak akan bisa membaca *flashcard* tak terbacakan dan men-*dump* ROM ke kartu SD.
+Akses Slot-1 diblokir jika memuat aplikasi dari menu sistem, kecuali jika aplikasi tersebut peluncur Slot-1 itu sendiri atau System Settings. Untuk menjalankan kartrid Slot-1 yang biasanya tak terbacakan, perlu eksploit System Settings atau pasang Unlaunch. Tanpa salah satu kedua ini, maka tidak akan bisa membaca *flashcard* tak terbacakan dan men-*dump* ROM ke kartu SD.
 
 Sebelum v1.4.0, daftar putih hanya berisi dua bagian. Di v1.4.0, mulai ada bagian ketiga untuk memblokir *flashcard* yang bisa molos dua bagian tadi. Bagian ketiga ini membaca delapan bagian berbeda dari ROM yang diperiksa dengan *hash* agar tahu ROM diutak-atik atau tidak. Namun, karena kurangnya kendali, ini bisa diluapkan ke vektor pengecualian/alamat interupsi menggunakan nilai cukup besar. Hebatnya, ternyata ini berjalan di ARM7 (prosesor keamanan) menjadikan ini eksploit pertama ke prosesor ARM7. Karena ini berjalan sebelum tutup izin register SCFG, *homebrew* tingkat lanjut (seperti Slot-1 dumpers) bisa dijalankan.
 

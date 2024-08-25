@@ -3,13 +3,13 @@ lang: de-DE
 layout: wiki
 section: hiyacfw
 title: hiyaCFW
-description: Information on how to install and use hiyaCFW
+description: Informationen zur Installation und Verwendung von hiyaCFW
 ---
 
-[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) is a custom firmware that allows running the Nintendo DSi firmware off the console SD card instead of the NAND (internal memory) chip. This is useful because the SD card is replaceable, while the internal NAND chip is weak and has the potential to break.
+[hiyaCFW](https://github.com/RocketRobz/hiyaCFW) ist eine benutzerdefinierte Firmware, die es ermöglicht, die Nintendo DSi-Firmware von der SD-Karte der Konsole statt vom NAND-Chip (interner Speicher) auszuführen. Dies ist nützlich, da die SD-Karte austauschbar ist, während der interne NAND-Chip schwach ist und brechen kann.
 
-Alongside the safety benefit, it provides the ability to...
-- Safely install apps to the Nintendo DSi Menu with 100% DSiWare compatibility
-- Keep settings separate from the one found in the internal NAND
+Neben dem Sicherheitsaspekt bietet es die Möglichkeit,...
+- Sichere Installation von Apps auf dem Nintendo DSi Menu mit 100%iger DSiWare-Kompatibilität
+- Halten Sie die Einstellungen getrennt von denen im internen NAND
 
-However, unless you specifically want to use the official Nintendo DSi Menu, it is recommended to simply use [TWiLight Menu++](../twilightmenu/) instead as the official menu has many disadvantages, such as being more difficult to install games to and slowing down significantly on large SD cards.
+Es wird jedoch empfohlen, [TWiLight Menu++](../twilightmenu/) zu verwenden, es sei denn, Sie möchten ausdrücklich das offizielle Nintendo DSi-Menü verwenden, da das offizielle Menü viele Nachteile hat, wie z. B. dass es schwieriger ist, Spiele zu installieren, und dass es auf großen SD-Karten deutlich langsamer ist.

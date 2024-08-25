@@ -83,6 +83,7 @@ A TWiLight Menu++ beállításainak elérési módja a konfigurációtól függ�
 - **Nintendo DSi/SEGA Saturn/Homebrew Launcher témák, amik nem használják a SELECT Menu-t:** A <kbd>SELECT</kbd> megnyomása a DS Classic Menu-be visz
 - **Nintendo 3DS téma:** Érintsd meg a csavarkulcs ikont az alsó képernyőn
 - **R4 Eredeti téma:** Nyomd meg a <kbd>START</kbd> gombot (ha a fájlböngészőben vagy), majd nyomd meg a <kbd>SELECT</kbd> gombot
+- **Wood UI téma:** A <kbd>START</kbd> gomb megnyomása a DS Classic Menu-be visz
 
 Továbbá nyomva tarthatod a <kbd>SELECT</kbd> gombot a TWiLight Menu++ indításakor, ami közvetlenül a beállításokhoz visz.
 
@@ -102,6 +103,7 @@ Miután beszereztél egy egyéni szkint, telepíteni tudod azzal, hogy a megfele
 - A szkinek a Nintendo DSi témához az `sd:\_nds\TWiLightMenu\dsimenu\themes\` mappába kell kerüljenek
 - A szkinek a Nintendo 3DS témához az `sd:\_nds\TWiLightMenu\3dsmenu\themes\` mappába kell kerüljenek
 - A szkinek az R4 Original témához az `sd:\_nds\TWiLightMenu\r4menu\themes\` mappába kell kerüljenek
+- A Wood UI téma szkinjeidnek az `sd:\_nds\TWiLightMenu\akmenu\themes\` mappába kell kerülnie
 
 Ha a 3DS csláadba tartozó konzolt használsz, az egyedi szkinek telepíthetők az [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases) használatával. Menj az Universal-Updater beállításaiba, majd `UniStore választás...`, `+`, `TWiLight Menu++ Skins`.
 

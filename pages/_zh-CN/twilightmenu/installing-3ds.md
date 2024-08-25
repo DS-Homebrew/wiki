@@ -8,12 +8,12 @@ long_title: 安装 TwiLight Menu++（3DS）
 description: 如何在 Nintendo 3DS上安装 TWiLight Menu++
 tabs:
   - 
-    working-camera: 摄像头可用
-    non-working-camera: 摄像头不可用
-    manual: 手动安装
+    working-camera: 摄像头没坏的情况
+    non-working-camera: 摄像头坏掉的情况
+    manual: 手动安装(身处国内建议使用此方法)
 ---
 
-你首先需要在你的 3DS 安装好自定义固件（Custom Firmware，CFW），如果没有，请按照 [3ds.hacks.guide](https://3ds.hacks.guide) 的步骤来安装自定义固件。
+你首先需要在你的 3DS 安装好自制固件（Custom Firmware，CFW），如果没有，请按照 [3ds.hacks.guide](https://3ds.hacks.guide) 的步骤来安装自制固件。
 {:.alert .alert-info}
 
 {% capture tab-working-camera %}
@@ -62,7 +62,7 @@ tabs:
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### 访问烧录卡内容
+### 让TWLMenu++能访问烧录卡的内容
 
 烧录卡是一种可插入游戏卡插槽的东西，包含一个 microSD 卡插槽。 如果您没有烧录卡，可以无需继续阅读本指南。
 {:.alert .alert-warning}
@@ -95,4 +95,4 @@ tabs:
 - 按 `SELECT`+`↑` 或 `SELECT`+`↓` 在 SD 卡和烧录卡内容之间切换
      - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
      - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
-     - If you use the R4, GBC, or Wood themes, press `R` button
+     - 如果你用的主题是 R4、GBC 或 Wood 主题，按`R`键
