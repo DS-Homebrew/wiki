@@ -66,7 +66,7 @@ Nein, es handelt sich nicht um einen Emulator. Das Menü und die DS-Spiele (gela
 Siehe [Liste der von TWiLight Menu++ unterstützten Systeme](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Können Exploits von Slot-1-Spielen TWiLight Menu++ booten?
-No. Der Zugriff auf die SD-Karte ist nur für DSiWare-Anwendungen möglich, d. h. Slot-1-Spiele können TWiLight Menu++ nicht starten (oder sogar darauf zugreifen).
+Nein. Der Zugriff auf die SD-Karte ist nur für DSiWare-Anwendungen möglich, d. h. Slot-1-Spiele können TWiLight Menu++ nicht starten (oder sogar darauf zugreifen).
 
 #### Warum kann ich meine Spiele nicht finden/sehen?
 Es gibt eine Reihe von Gründen, warum Sie sie nicht finden können.

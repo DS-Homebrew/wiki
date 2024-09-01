@@ -16,7 +16,7 @@ AP (Anti-Pembajakan) adalah salah satu cara pengembang agar pembeli tidak membaj
 Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau menambal ROM, coba modif langsung ROM itu sendiri dengan [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
 
 ### *Cloneboot*
-*Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main rangkap satu-kaset. Namun tidak semua permainan punya *cloneboot* untuk main bersama di satu-kaset.
+*Cloneboot* adalah tindakan mengirim biner ARM7 dan ARM9 permainan ke konsol lain. Ini digunakan DS Download Play untuk main rangkap satu-kartrid. Namun tidak semua permainan ada *cloneboot* untuk main bersama di satu-kartrid.
 
 ### Berkas simpanan
 Kartrid Nintendo DS diketahui ada 4 jenis simpanan:
@@ -48,7 +48,7 @@ Kode *cheat* Action Replay adalah kode yang memanfaatkan tata olah tingkat renda
 
 Cara lainnya secara *homebrew*/digital juga bisa membaca pangkalan data *cheat*, peranti lunak yang menggunakan *cheat* di antaranya:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kaset asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
+   - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([*fork* usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` atau `usrcheat.dat`)
    - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
@@ -64,9 +64,9 @@ Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 - DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini sesudah siap
 
 ### Judul Demonstrasi dan Distribusi:
-Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kasetnya hanya peragaan dari apa yang akan menjadi versi retail, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk kartrid Nintendo DS sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kartrid juga ada stiker "*Not for Resale*". Kaset ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
+Judul demonstrasi (demo) berbeda dengan judul retail dari banyak hal. Penanda jelas di sini seperti kartrid hanya lah versi peragaan dari bentuk retailnya nanti, intinya demo itu bentuk icip dari apa yang akan dirilis penuh ke depannya. Untuk kartrid Nintendo DS sering ditandai "*Not for Resale*" (Tidak Dijualbelikan) di label judul, setiap demo juga tertulis ID judul berbeda dibanding versi retailnya, dan di belakang kartrid juga ada stiker "*Not for Resale*". Kartrid ini biasanya hanya *kiosk demo* di toko atau tempat promosi lainnya.
 
-Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kaset judul jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, karena hampir semua judul ini pada dasarnya sama dengan versi retailnya, biasanya kaset diberi pengenal tambahan di ID judul label.
+Untuk judul distribusi agak berbeda penggunaannya, namun demo juga bisa ditandai label distribusi pada beberapa judul permainan. Kebanyakan judul distribusi hanya permainan versi retail untuk dipajang saja atau disertakan dalam suatu kemasan promosi. Kartrid jenis ini juga berlabel "*Not for Resale*" seperti judul permainan demonstrasi. Terkadang juga digunakan di kios agar pemain atau pengunjung bisa mencoba permainan. Namun, hampir semua kartrid ini pada dasarnya sama dengan versi retailnya, jadi biasanya kartrid diberi pengenal tambahan di ID judul label.
 
 Contoh ID: `DIS-NTR-NTRJ-JPN`
 
@@ -74,7 +74,7 @@ Contoh ID: `DIS-NTR-NTRJ-JPN`
 
 
 ### Label Judul
-Melihat bagian bawah label kaset akan ada ID judul dan informasi kecil lainnya, berikut contoh dengan ID:
+Melihat bagian bawah label kartrid akan ada ID judul dan informasi kecil lainnya, berikut contoh dengan ID:
 
 - NTR-NTRJ-**XXX**
 

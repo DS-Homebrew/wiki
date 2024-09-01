@@ -16,7 +16,7 @@ description: Pertanyaan umum dan sidik gangguan terkait nds-bootstrap
     - Di setelan tiap-permainan **TW**i**L**ight Menu++, ubah semua ke `Bawaan`
     - Jika ada bentuk setelan tertentu yang ternyata bermasalah, mohon laporkan ke [repositori GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
 - Jika ada pangkalan data *cheat* (`usrcheat.dat`), hapus di `sd:/_nds/TWiLightMenu/extras`
-- [*Dump* lagi kaset](https://wiki.ds-homebrew.com/id-ID/twilightmenu/faq?faq=how-do-i-get-games) agar yakin ROM tidak rusak
+- [*Dump* lagi kartrid](https://wiki.ds-homebrew.com/id-ID/twilightmenu/faq?faq=how-do-i-get-games) agar yakin ROM tidak rusak
 - Jika langkah-langkah di atas sudah diikuti, tanya ke [server Discord](https://discord.gg/yD3spjv)
 - Jika di server berkata ini isu nds-bootstrap, lihat dulu permainan tersebut sudah dilaporkan atau belum di GitHub
     - Lihat juga label isu yang tutup, mungkin saja isu tersebut ditutup karena sama dengan isu lain
@@ -27,13 +27,13 @@ description: Pertanyaan umum dan sidik gangguan terkait nds-bootstrap
 Karena nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihkan ke kartu SD. Masalahnya ada di pewaktuan dan tindakan AP (sebagian besar sudah dihilangkan) yang keduanya membuat ROM tidak berfungsi benar.
 
 #### Kenapa perlu nds-bootstrap daripada flashcard biasa?
-- ROM tertentu bisa dimuat ke RAM, agar bisa dibaca lebih cepat daripada kaset permainan biasa
+- ROM tertentu bisa dimuat ke RAM, agar bisa dibaca lebih cepat daripada kartrid permainan biasa
 - Bisa memperluas bus memori VRAM sampai 32-bit
 - Memanfaatkan cepat CPU tambahan DSi, agar kinerja beberapa permainan meningkat
 - Memperbagus audio ke 48 kHz
 - Mampu ke mode DSi, untuk akses fitur DSi
 - Lebih sedikit menguras baterai
-- Jika disisip kaset tertentu, fitur IR bisa digunakan pada aplikasi
+- Jika disisip kartrid tertentu, fitur IR bisa digunakan pada aplikasi
 - nds-bootstrap bersumber terbuka, sehingga pengembang bisa terus memperbarui untuk mengatasi kutu atau hal lainnya, bahkan jika sudah tidak diurus
 - Memory Expansion Pak DS bisa diemulasi untuk permainan yang perlu pengaya ini
      - Saat ini, baru diemulasi di *Nintendo DS Browser*
@@ -41,7 +41,7 @@ Karena nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihk
 - Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
 
 #### DS/DS Lite: Kenapa perlu nds-bootstrap di flashcard DS?
-- ROM tertentu bisa dimuat ke Memory Expansion Pak (atau *flashcart* Slot-2 yang berisi RAM), agar bisa dibaca lebih cepat daripada kaset biasa
+- ROM tertentu bisa dimuat ke Memory Expansion Pak (atau *flashcart* Slot-2 yang berisi RAM), agar terbaca lebih cepat daripada kartrid biasa
 - 400+ DSiWare bisa dijalankan dengan tambalan sekemas dan ROM Donor DS SDK5
      - Mohon diingat nds-bootstrap akan selalu digunakan untuk DSiWare, terlepas dari pengaturan `Pemuat Permainan` di TWLMenu++
      - Tidak semua DSiWare bisa menyimpan, karena susahnya menambah fitur simpan, dan/atau struktur simpanan bisa lebih dari satu berkas
@@ -96,7 +96,7 @@ Alasan kenapa hanya bisa menangkap layar utama karena keterbatasan peranti keras
 Saat menangkap layar dengan nds-bootstrap maka fitur tangkap tampilan DS digunakan untuk menangkap gambar dari mesin utama, namun tangkapan ini hanya bisa ditulis ke VRAM dan memerlukan salah satu dari empat bank pertama. nds-bootstrap akan langsung memilih bank yang tidak sedang digunakan mesin utama, jadi biasanya ini boleh diabaikan; namun kadang keempat bank VRAM digunakan mesin utama semua, berarti tangkapan layar akan tidak bagus sehingga harus memilih bank yang terlihat lebih bagus.
 
 #### Apakah bisa bermain daring dengan nds-bootstrap?
-Bermain daring dengan nds-bootstrap akan berfungsi persis seperti di kaset sungguhan. Lihat laman [Wi-Fi](../ds-index/wifi) ini untuk informasi cara menyambung layanan daring alternatif.
+Bermain daring dengan nds-bootstrap akan berfungsi persis seperti di kartrid sungguhan. Lihat laman [Wi-Fi](../ds-index/wifi) ini untuk informasi cara menyambung layanan daring alternatif.
 - Jika permainan *DSi-Enhanced* dijalankan di mode DS, keamanan sambungan jejaring hanya bisa WEP atau tidak ada
 
 #### Apakah mengatur CPU permainan ke 133 MHz (TWL) akan merusak konsol?
@@ -118,4 +118,4 @@ Sebagian biner DSi adalah kode permainan yang digunakan di konsol DSi (dan juga 
 
 - ROM tanpa biner DSi masih bisa dimainkan di konsol apa pun lewat mode DS, tapi akan dijalankan seolah-olah di spesifikasi Nintendo DS Phat/Lite
 
-Untuk mendapat ROM dengan biner DSi, coba [*dump* ulang Kaset Permainan](https://wiki.ds-homebrew.com/id-ID/twilightmenu/faq?faq=how-do-i-get-games).
+Untuk mendapat ROM dengan biner DSi, coba [*dump* ulang Kartrid Permainan](https://wiki.ds-homebrew.com/id-ID/twilightmenu/faq?faq=how-do-i-get-games).

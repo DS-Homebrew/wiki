@@ -9,7 +9,7 @@ description: Pertanyaan umum dan sidik gangguan terkait hiyaCFW
 
 #### Bagaimana memasang aplikasi atau DSiWare ke SDNAND hiyaCFW?
 Perlu [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) untuk memasang aplikasi ke SDNAND, tapi *homebrew* DS lawas mungkin tidak kompatibel.
-- Jika ingin memasang *dump* ROM Kaset, gunakan [*forwarder*](../ds-index/forwarders)
+- Jika ingin memasang *dump* ROM Kartrid, gunakan [*forwarder*](../ds-index/forwarders)
 
 #### Kenapa muncul kode galat #-2435-8325?
 Jika konsol Nintendo DSi muncul galat ini saat dinyalakan (tanda # mewakili nomor), berarti *bootstage 2* mengira ada yang salah dengan SDNAND. Ini bisa diperbaiki dengan [memasang ulang hiyaCFW](installing).
@@ -32,5 +32,5 @@ DSiWare juga dibatasi sampai 200 *blocks* (25MB) di folder `00030004`. Ini bisa 
 
 ##### Judul tidak absah
 Ada beberapa hal yang perlu dipertimbangkan saat memasang judul ke hiyaCFW:
-- *Dump* ROM Kaset tidak bisa dijalankan kecuali dengan [*forwarder*](../ds-index/forwarders)
+- *Dump* ROM Kartrid tidak bisa dijalankan kecuali dengan [*forwarder*](../ds-index/forwarders)
 - *Homebrew* perlu dibuat dengan alat modern agar berfungsi di Nintendo DSi Menu

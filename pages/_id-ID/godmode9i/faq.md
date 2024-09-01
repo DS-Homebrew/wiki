@@ -36,15 +36,15 @@ Bisa juga menulis jalur sendiri ke berkas terjemahan apa pun di kartu SD pada be
 Beberapa *font* yang sudah dikonversi bisa dicari di [folder *resources*](https://github.com/DS-Homebrew/GodMode9i/tree/master/resources/fonts) repositori GitHub atau bisa dibuat sendiri dengan mengonversi gambar PBM dan berkas TXT berisi pemetaan Unicode dengan naskah [fontriff.py](https://github.com/d0k3/GodMode9/blob/master/utils/fontriff.py) GodMode9.
 
 #### Bagaimana men-dump simpanan DS dengan simpanan GBA?
-GodMode9i mampu menggunakan data simpanan kartrid GBA untuk men-*dump* simpanan sebagian besar kaset DS. Berkas ROM dan simpanan di atas 1 MiB tidak bisa di-*dump* dengan cara ini karena tidak muat. Ini juga bisa dilakukan Haxxstation selain dengan *flashcard* DS jika simpanan GBA bisa di-*dump* cara lain, nanti bisa digabung ulang dan diekstrak di komputer.
+GodMode9i mampu menggunakan simpanan di kartrid GBA untuk men-*dump* simpanan sebagian besar kartrid DS. Berkas ROM dan simpanan di atas 1 MiB tidak bisa di-*dump* dengan cara ini karena tidak muat. Ini juga bisa dilakukan Haxxstation selain dengan *flashcard* DS jika simpanan GBA bisa di-*dump* cara lain, nanti bisa digabung ulang dan diekstrak di komputer.
 
 1. Buka GodMode9i di *flashcard*
 1. Cadangkan dulu simpanan GBA!!
    - Semua data simpanan yang belum dicadang akan hilang
-   - Periksa berkasnya dan cari yang besar, tidak usah kartrid bersimpanan 512 bita karena simpanan 64 atau 128 KiB saja bisa muat simpanan DS untuk 1 atau 2 kaset
+   - Periksa berkasnya dan cari yang besar, tak perlu kartrid bersimpanan 512 bita karena simpanan 64 atau 128 KiB saja bisa muat 1 atau 2 simpanan kartrid DS
 1. Di menu kandar, tekan <kbd class="r">R</kbd> + <kbd class="face">B</kbd> untuk lepas baca *flashcard*
 1. Keluarkan *flashcard*, sisipkan kaset DS dan kartrid GBA
-1. Pilih `KASET NDS` lalu `Simpan`
+1. Pilih `KARTRID NDS` lalu `Simpan`
 1. Saat diminta, tekan <kbd class="face">A</kbd> untuk menaruh data ke kartrid GBA
    - Ganti ke kartrid GBA lain dan ulangi sampai seluruh simpanan tersalin
 1. Nyalakan ulang DS dengan *flashcard* Slot-1 dan buka lagi GodMode9i
@@ -53,4 +53,4 @@ GodMode9i mampu menggunakan data simpanan kartrid GBA untuk men-*dump* simpanan 
 1. Ganti terus ke semua kartrid yang tadi ditaruh *dump*
 1. Simpanan DS akan disimpan di `fat:/gm9i/out`, dan sekarang simpanan GBA yang tadi dicadang bisa dipulihkan ke kartridnya
 
-Jika ingin menaruh simpanan lagi ke kaset DS, cukup pilih berkas `.sav` dan pilih `Pulihkan simpanan (Slot-1)`, lalu ganti *flashcard* Slot-1 ke kaset DS saat diminta.
+Jika ingin menaruh simpanan lagi ke kartrid DS, cukup pilih berkas `.sav` dan pilih `Pulihkan simpanan (Slot-1)`, lalu ganti *flashcard* Slot-1 ke kartrid DS saat diminta.

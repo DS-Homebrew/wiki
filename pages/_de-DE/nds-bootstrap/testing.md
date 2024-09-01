@@ -2,35 +2,35 @@
 lang: de-DE
 layout: wiki
 section: nds-bootstrap
-title: Compatibility List & Testing Tips
-description: Compatibility list and tips for testing ROMs
+title: Kompatibilitätsliste & Testtipps
+description: Kompatibilitätsliste und Tipps zum Testen von ROMs
 ---
 
-### Compatibility List
-To view tested ROMs, check the [compatibility list](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). If you want to contribute, press `View only` and then `Request edit access`. Make sure to add entries to the proper sheet according to the tabs on the bottom of the page.
+### Kompatibilitätsliste
+Um getestete ROMs anzuzeigen, überprüfen Sie bitte die [Kompatibilitätsliste](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Wenn Sie einen Beitrag leisten möchten, klicken Sie auf `Nur anzeigen` und dann `auf Bearbeitungszugriff anfordern`. Stellen Sie sicher, dass Sie Einträge zu den Tabs am unteren Rand der Seite hinzufügen.
 
-To view ROMs with known issues, check the [issues page](https://github.com/DS-Homebrew/nds-bootstrap/issues) on Github. If you want to create a [new issue](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), please properly follow the issue template.
+Um ROMs mit bekannten Problemen zu sehen, besuchen Sie die [Issues-Seite](https://github.com/DS-Homebrew/nds-bootstrap/issues) auf Github. Wenn Sie ein [neues Ticket](https://github.com/DS-Homebrew/nds-bootstrap/issues/new)erstellen möchten, folgen Sie bitte der Problemvorlage.
 
-### Tips For Testing ROMs
-- In general, look through the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) and [glossary](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) to make sure that you understand how to troubleshoot issues
+### Tipps zum Testen von ROMs
+- Im Allgemeinen sehen Sie sich die [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq) und [Glossar](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) an, um sicherzustellen, dass Sie verstehen, wie Sie Probleme lösen können
 
-#### If testing for a specific reported bug
-- Replicate the steps as close as possible
-- If there are any differences (such as nds-bootstrap version, system used, or settings changed), make sure to include that in your report
-- Feel free to ask the original reporter for more details (such as uploading a save file or any missing information) if possible
-- If there is no solution, make sure to update the compatibility list
+#### Wenn auf einen bestimmten Fehler getestet wird
+- Reproduzieren Sie die Schritte so genau wie möglich
+- Wenn es irgendwelche Unterschiede gibt (z. B. nds-bootstrap-Version, verwendetes System oder geänderte Einstellungen), sollten Sie dies in Ihrem Bericht angeben
+- Bitten Sie den ursprünglichen Berichterstatter um weitere Einzelheiten (z. B. Hochladen einer Speicherdatei oder fehlender Informationen), falls möglich
+- Wenn es keine Lösung gibt, achten Sie darauf, die Kompatibilitätsliste zu aktualisieren
 
-#### If a ROM has an issue after updating nds-bootstrap
-- Find which specific version first introduced this issue
-- You can downgrade nds-bootstrap by downloading a [past release](https://github.com/DS-Homebrew/nds-bootstrap/releases) and following the update instructions
-- Downgrading to a past release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) might be needed as well
+#### Wenn ein ROM nach dem Aktualisieren von nds-bootstrap ein Problem hat
+- Finden Sie heraus, welche Version dieses Problem zum ersten Mal eingeführt hat
+- Du kannst nds-bootstrap herunterstufen, indem du eine [vergangene Version](https://github.com/DS-Homebrew/nds-bootstrap/releases) herunterlädst und den Updateanweisungen folgst
+- Herabstufung auf eine frühere Version von [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) könnte ebenfalls benötigt werden
 
-#### If testing for a ROM that has no known issues or has not been tested before
-- Be thorough with testing the ROM, going through anything that other users might see
-- Make sure to add the appropriate information on the compatibility list on the correct sheet
-- Also make sure to remove games that have been tested off of the Testing Queue sheet
+#### Wenn Tests auf ein ROM ohne bekannte Probleme oder noch nicht getestet wurden
+- Sei gründlich mit dem Testen des ROM, indem du alles durchführst, was andere Benutzer sehen könnten
+- Achten Sie darauf, die entsprechenden Informationen auf der Kompatibilitätsliste auf dem richtigen Blatt hinzuzufügen
+- Achte auch darauf, Spiele zu entfernen, die vom Testing Queue Sheet getestet wurden
 
-#### If testing to update blacklists
-- Change only the blacklisted options, these being: 133 MHz (TWL) CPU Speed, Card Read DMA, and Asynch Card Read
-- To enable blacklisted options in the per-game settings, go to `sd:/_nds/TWiLightMenu/settings.ini` and set `IGNORE_BLACKLISTS` to `1`
-- If there are any issues caused when turning on these settings, please report them on the Github issues page 
+#### Bei Tests auf Blacklisten zu aktualisieren
+- Ändern Sie nur die Optionen auf der schwarzen Liste: 133 MHz (TWL) CPU Speed, Card Read DMA und Asynch Card Read
+- Um blockierte Optionen in den Spieleinstellungen zu aktivieren, gehen Sie zu `sd:/_nds/TWiLightMenu/settings.ini` und setzen Sie `IGNORE_BLACKLISTS` auf `1`
+- Wenn beim Einschalten dieser Einstellungen irgendwelche Probleme auftreten, melden Sie sie bitte auf der Github Problemseite 

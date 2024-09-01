@@ -158,7 +158,7 @@ Kompatibel:
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
 - [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Versi Normal dan RTS)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Kaset ungu mungkin tidak kompatibel)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Kartrid ungu mungkin tidak kompatibel)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
 - [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Versi Normal dan Plus)
 
@@ -170,16 +170,16 @@ Sebagian kompatibel:
 - Gateway *Blue Card* (Berkompatibilitas buruk, menyimpan/memuat simpanan akan mogok)
 - EX4DS (Berkompatibilitas buruk, menyimpan/memuat simpanan akan mogok)
 - R4iLS (Berkompatibilitas buruk, menyimpan/memuat simpanan akan mogok)
-- Kaset bertuliskan [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Berkompatibilitas buruk, menyimpan/memuat simpanan akan mogok)
+- Kartrid bertuliskan [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Berkompatibilitas buruk, menyimpan/memuat simpanan akan mogok)
 
 Tidak kompatibel:
 - CycloDS (i)Evolution (Bisa memuat langsung ROM, tapi caranya beda dari *flashcard* lain)
 - (i)Edge (Tidak bisa memuat langsung .nds)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (kaset akan matot karena YSMenu, bukan karena proses *forwarder*)
+- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (kartrid akan matot karena YSMenu, bukan karena proses *forwarder*)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)/www.r4isdhc.hk) (kaset akan matot karena YSMenu, bukan karena proses *forwarder*)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)/www.r4isdhc.hk) (kartrid akan matot karena YSMenu, bukan karena proses *forwarder*)
 {% endcapture %}
 
 <details>

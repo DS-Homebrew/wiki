@@ -3,11 +3,11 @@ lang: de-DE
 layout: wiki
 section: community
 category: discord
-title: DS⁽ⁱ⁾ Mode Hacking Rules
-description: The rules for the DS⁽ⁱ⁾ Mode Hacking Discord server
+title: DS⁽ⁱ⁾ Mode Hacking Info
+description: Die Regeln für den DS⁽ⁱ⁾ Mode Hacking Discord Server
 ---
 
-This page provides more details to the rules outlined in the [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) channel in the Discord server. If you have any further questions, ask in [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Note that the [English version of the rules](/community/discord-rules) is the canonical version and any potential discrepancies in translations will not affect their enforcement.
+Diese Seite bietet weitere Details zu den Regeln im Kanal [#info-and-rules](https://discord.com/channels/283769550611152897/626620520330428436) auf dem Discord Server. Wenn Sie weitere Fragen haben, fragen Sie unter [#community-meta](https://discord.com/channels/283769550611152897/715651368391671919). Beachten Sie, dass die [englische Version der Regeln](/community/discord-rules) die kanonische Version ist und dass eventuelle Abweichungen in der Übersetzung keinen Einfluss auf ihre Durchsetzung haben.
 
 {% include_relative rules/1.md %}
 
@@ -37,18 +37,18 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 
 {% include_relative rules/14.md %}
 
-## Consequences
+## Konsequenzen
 
-The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
-- Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
-- Joining for the purpose of rule breaking will get you banned
+The consequences of breaking these rules are a warning, mute, kick or ban. Natürlich werden die spezifischen Folgen von Fall zu Fall gehandhabt.
+- Die meisten Benutzer haben am Ende 4 Warnungen, bevor sie gebannt werden
+   - Diese Warnungen beinhalten die Verwendung des eigentlichen !warn-Befehls, das Stummschalten und auch verbale Warnungen
+- Wenn du dich zum Regelbruch anmeldest, wirst du gebannt
 
-## Reporting
+## Berichterstattung
 
-- If someone is breaking the rules and a moderator is already not handling the case, please ping an online moderator
-- If the incident was in DMs, there needs to be evidence, such as other people reporting it too, implications on the server, or anything of the sort
-- However, when doing your report, cover any links; do not give the DM advertiser more visibility than they already got by Direct Messaging everyone
+- Wenn jemand die Regeln verletzt und ein Moderator den Fall bereits nicht bearbeitet, pingen Sie bitte einen Online-Moderator
+- Wenn sich der Vorfall in DMs befand, muss es Beweise geben, wie andere Leute, die es ebenfalls melden, Implikationen auf den Server oder irgendetwas dergleichen
+- Wenn Sie jedoch Ihren Bericht erstellen, decken Sie alle Links ab; geben Sie dem DM-Werbetreibenden nicht mehr Sichtbarkeit als er bereits durch Direct Messaging für alle
 
 
-Last updated: 2022-06-28
+Zuletzt aktualisiert: 2022-06-28

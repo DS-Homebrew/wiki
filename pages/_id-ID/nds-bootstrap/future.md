@@ -18,7 +18,7 @@ Membuat kompatibilitas nds-bootstrap hampir 1:1 dengan permainan retail
 - Perbaiki semua seri Brain Age DSiWare [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 Peningkatan Tambahan ke Permainan
-Menambah fitur baru yang tidak ada di kaset saat dimainkan
+Menambah fitur baru yang tidak ada di kartrid saat dimainkan
 - Sambungan WPA di permainan mode DS [#628](https://github.com/DS-Homebrew/nds-bootstrap/issues/628)
 - Emulasi Slot-2 [#19](https://github.com/DS-Homebrew/nds-bootstrap/issues/19)
 - Perbaiki kode *cheat* E-type [#746](https://github.com/DS-Homebrew/nds-bootstrap/issues/746)

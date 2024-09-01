@@ -38,35 +38,35 @@ Um eine Nintendo DSi/DSi XL (engl. LL) zu starten, benötigst du:
 [![DSi XL Seite B Pinbelegung](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - Sie müssen die Punkte auf der Motherboard mit dem microSD-Kartenadapter lösen
-   - CMD to pin 2
-   - GND to pins 3 and 6
-   - CLK to pin 5
-   - DAT0 to pin 7
+   - CMD zu Pin 2
+   - GND zu Pins 3 und 6
+   - CLK an Pin 5
+   - DAT0 bis Pin 7
 
-#### Soldered microSD adapter example
-[![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
+#### Gelöstetes MikroSD-Adapter Beispiel
+[![microSD Beispiel](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
-- Insert the microSD card adapter into your computer
-   - **WARNING** - Windows will ask you to format it: **DO NOT** format it - this might cause irrepairable damage
+- Stecken Sie den microSD-Kartenadapter in Ihren Computer
+   - **WARNUNG** - Windows wird Sie auffordern, die Festplatte zu formatieren: **NICHT** formatieren - dies könnte irreparable Schäden verursachen
 
-#### Removing the no$gba footer
-You will first need to remove the NOCASH footer from the backup you are flashing to the DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
+#### Keine$gba Fußzeile wird entfernt
+Sie müssen zuerst die NOCASH Fußzeile aus dem Backup entfernen, das Sie auf die DSi. Dies kann mit dem [HiyaCFW Helfer](https://github.com/mondul/HiyaCFW-Helper/releases/latest) gemacht werden.
 
-1. Download the version for the operating system you are using
-1. Run the script, selecting the NAND backup you wish to flash to your DSi
-1. Switch to NAND mode with the button to the left of the file path
-1. Click `Start` to create the NAND backup without the no$gba footer
+1. Lade die Version für das Betriebssystem herunter, das du benutzt hast
+1. Führe das Skript aus, wähle das NAND-Backup aus, das du auf deinen DSi flashen möchtest
+1. Wechseln Sie zum NAND-Modus mit der Schaltfläche links neben dem Dateipfad
+1. Klicken Sie auf `Start` um das NAND-Backup ohne$gba Fußzeile zu erstellen
 
-- Once the script completes, there should be a file with a long name ending in `-no-footer.bin` in the folder where your terminal is open
-   - Use this file as the NAND image you flash onto the DSi
+- Sobald das Skript fertig ist, sollte es eine Datei mit einem langen Namen geben, die in `-no-footer endet. in` im Ordner, in dem Ihr Terminal geöffnet ist
+   - Benutze diese Datei als NAND-Bild, das du auf den DSi flashst
 
 {% capture tab-windows %}
-1. Open Win32DiskImager
-1. Click the folder icon and browse to your desktop. In the text box, write `NAND_0.bin`. When selecting type, choose `All types *.*`
-1. Choose the device that is the DSi and click read
-1. Once it is done, click the folder icon, change the name to `NAND_1.bin` and read again
-1. Open HxD and drag both files into the editor. Go to the top bar, click "Analysis", click "File compare" from the drop down menu, then click "Compare".
-1. Choose to compare both files then click OK when done
+1. Win32DiskImager öffnen
+1. Klicken Sie auf das Ordnersymbol und stöbern Sie auf Ihrer Arbeitsfläche. In das Textfeld schreiben Sie `NAND_0.bin`. Wählen Sie bei der Auswahl des Typs `alle Typen *.*`
+1. Wählen Sie das Gerät aus, das der DSi ist und klicken Sie auf "Lesen"
+1. Sobald das erledigt ist, klicke auf das Ordnersymbol, ändere den Namen auf `NAND_1.bin` und lese es erneut
+1. Öffnen Sie HxD und ziehen Sie beide Dateien in den Editor. Gehen Sie zur oberen Leiste, klicken Sie auf "Analyse", klicken Sie im Dropdown-Menü auf "Vergleichen".
+1. Wählen Sie den Vergleich beider Dateien und klicken Sie auf OK, wenn Sie fertig sind
    - Wenn es heißt "Die ausgewählten Dateien sind identisch", können Sie zum nächsten Abschnitt übergehen
    - Wenn das nicht der Fall ist und beide NANDs nicht 240 MB groß sind, löschen Sie NAND_1/NAND_0 erneut
 1. Öffnen Sie Win32DiskImager, klicken Sie auf das Ordnersymbol und wählen Sie Ihr NAND-Backup aus, das Sie zuvor erstellt haben

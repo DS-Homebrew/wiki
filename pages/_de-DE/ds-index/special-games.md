@@ -15,54 +15,54 @@ description: DS(i) Games that have special properties
    - Free Play mode removed
 - Advance Wars: Days of Ruin/Dark Conflict
    - DSiWare version exclusive to Japan, as "Famicom Wars DS: Ushinawareta Hikari"
-   - A patch that changes the Japanese files to the US English versions is available [here](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+   - Ein Patch, der die japanischen Dateien in die US-englischen Versionen umwandelt, ist [hier](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0) verfügbar
 - Animal Boxing
 - Art Academy
-   - Split into First & Second Semesters
+   - Aufgeteilt in erste & zweite Semester
 - Astro Invaders
-   - DSiWare version called "Astro"
-   - Instruction Manual interestingly still shows it as "Astro Invaders" in page 1
+   - DSiWare-Version namens "Astro"
+   - In der Gebrauchsanweisung steht auf Seite 1 interessanterweise immer noch "Astro Invaders"
 - Bejeweled Twist
-   - Some features removed
+   - Einige Funktionen entfernt
 - Bomberman 2
-   - Multiplayer feature turned into a standalone title called "Bomberman Blitz"
+   - Multiplayer-Funktion wurde in einen eigenständigen Titel namens "Bomberman Blitz" umgewandelt
 - Bookworm
-   - Download Play feature removed
-   - Icon is animated
+   - Download Play-Funktion entfernt
+   - Icon ist animiert
 - Brain Challenge
-   - New features related to the DSi camera are added
-   - Versus mode is removed
-   - Many files are compressed for the game to fit within the DSiWare size limit
-   - Icon is animated
+   - Neue Funktionen im Zusammenhang mit der DSi-Kamera wurden hinzugefügt
+   - Der Versus-Modus wurde entfernt
+   - Viele Dateien sind komprimiert, damit das Spiel in die DSiWare-Größenbeschränkung passt
+   - Icon ist animiert
 - Chronos Twins
 - Clubhouse Games
-   - Split into three DSiWare titles called
+   - Aufgeteilt in drei DSiWare-Titel namens
       - Clubhouse Games Express: Card Classics
       - Clubhouse Games Express: Family Favorites
       - Clubhouse Games Express: Strategy Pack
 - Coropata
 - Dragon's Lair
-   - Extras menu containing Watch Mode is replaced with the Manual
+   - Das Menü Extras, das den Überwachungsmodus enthält, wird durch das Menü Manuell ersetzt
 - Electroplankton
-   - Each mode are turned into standalone DSiWare titles
+   - Jeder Modus wird in einen eigenständigen DSiWare-Titel verwandelt
 - Elite Forces: Unit 77
-   - Multiplayer added
-- G.G Series DSiWare titles
-   - A collection called "G.G Series Collection+" physically released exclusively in Japan
-   - Contains some exclusive titles of which released a few years later as DSiWare
-       - In those late DSiWare releases, some contain incorrect/missing audio!
-   - Built as an NTR title, allowing for playing on DS consoles
-   - Manual screens contain a unique UI
+   - Multiplayer hinzugefügt
+- DSiWare-Titel der G.G-Serie
+   - Eine Kollektion mit dem Namen "G.G Series Collection+", die physisch exklusiv in Japan veröffentlicht wird
+   - Enthält einige exklusive Titel, die ein paar Jahre später als DSiWare veröffentlicht wurden
+       - In diesen späten DSiWare-Veröffentlichungen enthalten einige falsche/fehlende Audios!
+   - Gebaut als NTR-Titel, der auf DS-Konsolen gespielt werden kann
+   - Manuelle Bildschirme enthalten eine einzigartige UI
 - Heathcliff: Frantic Foto
-   - DSiWare version called "Heathcliff: Spot On"
+   - DSiWare-Version namens "Heathcliff: Spot On"
 - Jewel Adventures
 - Jewel Legends: Tree of Life
 - Jewel Quest 4: Heritage
 - Jewel Quest 5: The Sleepless Star
 - Master of Illusion/Magic Made Fun
-   - Split into six DSiWare titles called "Master of Illusion Express" (USA), or "A Little Bit of... Magic Made Fun" (Europe)
+   - Aufgeteilt in sechs DSiWare-Titel namens "Master of Illusion Express" (USA), oder "A Little Bit of... Magic Made Fun" (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
-   - DSiWare version called "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
+   - DSiWare-Version mit dem Titel "Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light"
 - Need for Speed: Nitro
    - DSiWare version called "Need for Speed: Nitro-X"
    - Download Play feature and various music are removed
@@ -71,7 +71,7 @@ description: DS(i) Games that have special properties
    - DSiWare version exclusive to China
 - Phantasy Star 0
    - A demo(?) version of the original game, called "Phantasy Star 0 Mini", exclusive to Japan
-   - Icon is animated
+   - Icon ist animiert
 - Planet Puzzle League
    - DSiWare version called "Puzzle League Express" (USA), or "A Little Bit of... Puzzle League" (Europe)
    - Multiplayer removed
@@ -79,7 +79,7 @@ description: DS(i) Games that have special properties
 - Plants vs. Zombies
    - Download Play feature, some achievements, and music video are removed
    - Includes exclusive minigame
-   - Icon is animated
+   - Icon ist animiert
 - The Price Is Right: 2010 Edition
    - DSiWare version called "The Price Is Right"
    - Some files are compressed for the game to fit within the DSiWare size limit
@@ -87,7 +87,7 @@ description: DS(i) Games that have special properties
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
-   - Icon is animated
+   - Icon ist animiert
 - Slingo Quest
 - Space Invaders Extreme 2
    - DSiWare version called "Space Invaders Extreme Z", exclusive to Japan
@@ -106,7 +106,7 @@ description: DS(i) Games that have special properties
 - Tetris Party Deluxe
    - DSiWare version called "Tetris Party Live"
    - Field Climber, Shadow, Stage Racer, Sprint, Master Mode, Bombliss Mode are removed
-   - Icon is animated
+   - Icon ist animiert
 - True Swing Golf/Nintendo Touch Golf
    - DSiWare version called "True Swing Golf Express" (USA), or "A Little Bit of... Nintendo Touch Golf" (Europe)
    - The DSiWare version of the game does not include any Wi-Fi features, such as Local/Download Play or the in-game PictoChat function. It also features far fewer courses than the retail game
@@ -115,22 +115,22 @@ description: DS(i) Games that have special properties
 - WarioWare: Touched!
    - Slot-2 features removed
 - Zombiez Seeker
-   - DSiWare version called "Zombie Blaster"
+   - DSiWare-Version namens "Zombie Blaster"
 - Zuma's Revenge!
-   - Multiplayer removed
-   - Icon is animated
+   - Multiplayer entfernt
+   - Icon ist animiert
 
-### DSiWare with Wi-Fi support (WPA 1/2 included)
+### DSiWare mit Wi-Fi-Unterstützung (WPA 1/2 enthalten)
 - Bomberman Blitz
    - Multiplayer
 - Dragon Quest Wars
    - Multiplayer
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
-   - Multiplayer & Records
-- Mario vs. Donkey Kong: Minis March Again
-   - Downloading user-created stages
+   - Multiplayer & Rekorde
+- Mario vs. Donkey Kong™: Minis March Again!
+   - Herunterladen der vom Benutzer erstellten Stufen
 - Metal Torrent
-   - Records
+   - Rekorde
 - Sujin Taisen: Number Battles
    - Multiplayer
 - Tetris Party Live
@@ -138,39 +138,39 @@ description: DS(i) Games that have special properties
 - UNO
    - Multiplayer
 
-### DSiWare compiled as DSi-Enhanced ROMs
+### DSiWare kompiliert als DSi-Enhanced ROMs
 - 1st Class Poker & BlackJack
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Base 10 (Art Style)
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Bird & Beans (Japan)
 - Box Pusher
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Bridge
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Clubhouse Games Express
-     - Uses cloneboot for Multiplayer
-- Cosmo Fighters
-     - The base ROM is compiled as DSi-Exclusive, but the included demo ROM file is compiled as DSi-Enhanced
+     - Verwendet Cloneboot für Multiplayer
+- Cosmo Kämpfer
+     - Die Basis-ROM ist als DSi-Exclusive kompiliert, aber die enthaltene Demo-ROM-Datei ist als DSi-Enhanced kompiliert
 - Dr. Mario Express
 - Globulos Party
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Hearts Spades Euchre
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Metal Torrent
 - Paper Airplane Chase (Japan)
 - Pocket Pack: Strategy Games
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Pocket Pack: Words & Numbers
-     - Uses cloneboot for Multiplayer
+     - Verwendet Cloneboot für Multiplayer
 - Pop Island
-     - Has a feature to send a game demo to any DS family console
+     - Verfügt über eine Funktion zum Senden einer Spieldemo an eine beliebige Konsole der DS-Familie
 - Pop Island: Paperfield
-     - Has a feature to send a game demo to any DS family console
+     - Verfügt über eine Funktion zum Senden einer Spieldemo an eine beliebige Konsole der DS-Familie
 
 ### DSiWare moved from an originally planned DS/DS lite release
 - Flipper
-     - The original publisher for the DS version went bankrupt. [See page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+     - Der ursprüngliche Herausgeber der DS-Version ging in Konkurs. [Siehe Seite](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
 - Go! Go! Island Rescue! (unconfirmed)
      - The game has an unused help menu which isn't like in other DSiWare titles
      - The About menu displays a different (possibly old) name, "Go! Go! Rescue Squad!"
@@ -236,14 +236,14 @@ Total: 39, some may be missing
 - You Don't Know Jack
 - Zhu Zhu Pets 2: Featuring The Wild Bunch
 
-### DSiWare games with backup code
-These would write save data to the cartridge save chip, if they happen to be running from a cartridge.
+### DSiWare-Spiele mit Sicherungscode
+Diese würden Daten in die Cartridge speichern Chip, wenn sie zufällig von einer Cartridge laufen.
 
 - Dragon Quest Wars
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
 
-#### Unused code
-Hacking is required to activate the code.
+#### Unbenutzter Code
+Hacking ist erforderlich, um den Code zu aktivieren.
 
 - Antipole
 - Cake Ninja
@@ -254,8 +254,8 @@ Hacking is required to activate the code.
 - Go! Go! Kokopolo
 - Make Up & Style
 
-### Games that can connect with GBA titles
-Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possible alternatives.
+### Spiele, die mit GBA-Titeln verbunden werden können
+Zurzeit hat nds-bootstrap keine Slot-2-Emulation. Dazu gehören einige mögliche Alternativen.
 
 - Advance Wars: Dual Strike
    - Advance Wars
@@ -264,7 +264,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Bleach Advance: Kurenai ni Somaru Soul Society
 - Castlevania Dawn of Sorrow
    - Castlevania Aria of Sorrow
-   - Use [cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) to get specific items
+   - Verwende [Cheats](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) um bestimmte Items zu erhalten
 - Daigasso! Band Brothers
    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power
@@ -317,20 +317,20 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - MegaMan Battle Network 5 Team ProtoMan/Colonel
    - Boktai: The Sun is in Your Hand
    - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō Gyakushū no Sabata (Japan only)
+   - Shin Bokura no Taiyō Gyakushū no Sabata (nur Japan)
 - Mega Man Star Force Pegasus/Leo/Dragon
    - Mega Man Battle Network
    - Mega Man Battle Network 2
    - Mega Man Battle Network 3 White/Blue
    - Mega Man Battle Chip Challenge
    - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (Japan only)
+   - Rockman EXE 4.5 Real Operation (nur Japan)
    - Mega Man Battle Network 5 Team ProtoMan/Colonel
    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
    - Mega Man Zero 3
    - Mega Man Zero 4
-   - Use this [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) to access the content in Area N
+   - Benutzen Sie diesen [Slot-2 Patch](https://www.romhacking.net/hacks/4649/) um auf den Inhalt im Bereich N zuzugreifen
 - Phoenix Wright: Ace Attorney
    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
@@ -345,7 +345,7 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
    - Pokémon Ruby/Sapphire
    - Pokémon FireRed/LeafGreen
    - Pokémon Emerald
-   - (Use [pkmn-chest](https://universal-team.net/projects/pkmn-chest) or [PKSM](https://flagbrew.org/projects/PKSM) to transfer/add Pokémon)
+   - (Benutze [pkmn-Truhe](https://universal-team.net/projects/pkmn-chest) oder [PKSM](https://flagbrew.org/projects/PKSM) um Pokémon zu transferieren/hinzufügen)
 - Pokémon Mystery Dungeon: Blue Rescue Team
    - Pokémon Mystery Dungeon: Red Rescue Team
 - Shrek Super Slam

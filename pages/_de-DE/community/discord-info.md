@@ -4,105 +4,105 @@ layout: wiki
 section: community
 category: discord
 title: DS⁽ⁱ⁾ Mode Hacking Info
-description: Information for the DS⁽ⁱ⁾ Mode Hacking Discord server
+description: Informationen für den DS⁽ⁱ⁾ Mode Hacking Discord Server
 ---
 
-This is a Discord server that specializes in all things related to Nintendo DS(i) modding and homebrew, from helping set up your flashcard to homebrew development. This server also has a focus on other things such as creating ROM hacks, playing DS games, and TWL_FIRM modding on 3DS.
+Dies ist ein Discord Server, der sich auf alle Dinge im Zusammenhang mit Nintendo DS(i) Modding und Homebrew spezialisiert von der Unterstützung beim Einrichten Ihrer Karteikarte bis zur Homebrew-Entwicklung. Dieser Server konzentriert sich auch auf andere Dinge wie das Erstellen von ROM-Hacks, das Spielen von DS Spielen und das TWL_FIRM-Modding auf 3DS.
 
-## Discord Channels
-There are plenty of channels for different topics, so make sure you're using the right channel so the others don't get flooded with unrelated conversations.
+## Discord-Kanäle
+Es gibt viele Kanäle für verschiedene Themen, also stellen Sie sicher, dass Sie den richtigen Kanal verwenden, damit die anderen nicht mit unzusammenhängenden Unterhaltungen überschwemmt werden.
 
-Always remember to check the channel topic and pinned messages before talking in a channel.
+Denken Sie immer daran, das Thema und die angehefteten Nachrichten zu überprüfen, bevor Sie in einem Kanal sprechen.
 {:.alert .alert-info}
 
-**Important**
-- [#info-and-rules][info-and-rules] - This provides brief information on the rules and information on this server. For more detailed information on the rules, see [the rules page](discord-rules) on this wiki
-- [#useful-resources][useful-resources] - Links to useful resources that are outside of the Discord server, such as other servers or this wiki
-- [#member-logs][member-logs] - Shows user joins and server boosts
+**Wichtig**
+- [#info-and-rules][info-and-rules] - Hier finden Sie kurze Informationen zu den Regeln und Informationen auf diesem Server. Für detailliertere Informationen zu den Regeln siehe [die Regelnseite](discord-rules) in diesem Wiki
+- [#Nützliche Ressourcen][useful-resources] - Links zu nützlichen Ressourcen außerhalb des Discord Servers, wie andere Server oder dieses Wiki
+- [#Member-Logs][member-logs] - Zeigt Benutzer-Joins und Server-Boosts
 
-**Server Hub**
-- [#announcements][announcements] - Information on new updates to homebrew, as well as general announcements related to the server
-- [#github-updates][github-updates] - Feed of all contributions to and discussions in DS-Homebrew project GitHub repositories
-- [#subreddit-feed][subreddit-feed] - Updates for new posts in the [Subreddit](https://reddit.com/r/NDSBrew)
-- [#community-meta][community-meta] - For giving feedback about the community, including the Discord server, the subreddit, and the [GitHub organization](http://github.com/DS-Homebrew)
+**Server-Hub**
+- [#announcements][announcements] - Informationen über neue Updates für Homebrew sowie allgemeine Ankündigungen zum Server
+- [#github-updates][github-updates] - Feed aller Beiträge zu und Diskussionen in DS-Homebrew Projekt-GitHub Repositories
+- [#subreddit-feed][subreddit-feed] - Updates für neue Beiträge im [Subreddit](https://reddit.com/r/NDSBrew)
+- [#community-meta][community-meta] - Für Feedback über die Community, einschließlich des Discord-Servers, des Subreddit, und der [GitHub-Organisation](http://github.com/DS-Homebrew)
 
 **Nintendo DS⁽ⁱ⁾ Modding**
-- [#nds-help][nds-help] - Have an issue with anything Nintendo DS(i) related? Need to ask a general question? Go ahead and do it here, providing all the information you can give (error messages, your console, methods tried, logs, and so forth). Keep 3DS modding in #other-console-modding unless it involves TWL_FIRM
-- [#nds-hardware][nds-hardware] - Place to discuss flashcards, AP patches, and general DS understandings and research. While this channel covers TWL_FIRM on 3DS, please keep 3DS Mode discussions in #other-console-modding
-- [#nds-hacks][nds-hacks] - Talk about ROM hacks, mods, and cheats for Nintendo DS(i) titles. Check the pinned messages for a list of dedicated communities
-- [#nds-dev][nds-dev] - Resources and discussions about DS(i) homebrew development. Regualar discussion of existing homebrew should go in #other-nds-homebrew
+- [#nds-help][nds-help] - Haben Sie ein Problem mit irgendeinem Nintendo DS(i) verwandt? Müssen Sie eine allgemeine Frage stellen? Gehen Sie hier voran und liefern Sie alle Informationen, die Sie geben können (Fehlermeldungen, Ihre Konsole, Methoden ausgeführt, Protokolle und so weiter). Behalte das 3DS Modding in #other-console-modding bei, es sei denn, es involviert TWL_FIRM
+- [#nds-hardware][nds-hardware] - Hier können Sie über Flashkarten, APP-Patches und allgemeine DS-Verständnisse und Forschung diskutieren. Während dieser Kanal TWL_FIRM auf 3DS abdeckt, halten Sie bitte die Diskussionen im 3DS Modus in #other-console-modding
+- [#nds-hacks][nds-hacks] - Sprich über ROM-Hacks, Mods und Cheats für Nintendo DS(i) Titel. Überprüfen Sie die angehefteten Nachrichten auf eine Liste von dedizierten Communities
+- [#nds-dev][nds-dev] - Ressourcen und Diskussionen über DS(i) Homebrew Entwicklung. Regelmäßige Diskussionen über bestehende Homebrew sollten in #other-nds-homebrew stattfinden
 
-**Main DS⁽ⁱ⁾ Homebrew Projects**
-- [#nds-bootstrap-dev][nds-bootstrap-dev] - This channel is for discussion of the development of nds-bootstrap. For help, use #nds-help
-- [#twilight-menu-dev][twilight-menu-dev] - This channel is for discussion of the development of TWiLight Menu++. For help, use #nds-help
-- [#gbarunner3-dev][gbarunner3-dev] - This channel is for discussion of the development of GBARunner3. For help, use #nds-help
-- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - This channel is for discussion of DSi ntrboot development.
-- [#web-dev][web-dev] - Discussion and suggestions for [dsi.cfw.guide](https://dsi.cfw.guide/) and all [DS-Homebrew sites](https://ds-homebrew.com/) go here
+**Haupt-DS⁽ⁱ⁾ Homebrew Projekte**
+- [#nds-bootstrap-dev][nds-bootstrap-dev] - Dieser Kanal ist für Diskussionen über die Entwicklung von nds-bootstrap. Benutze #nds-help für Hilfe
+- [#twilight-menu-dev][twilight-menu-dev] - Dieser Kanal ist zur Diskussion der Entwicklung des TWiLight Menü++. Benutze #nds-help für Hilfe
+- [#gbarunner3-dev][gbarunner3-dev] - Dieser Kanal ist für Diskussionen über die Entwicklung von GBARunner3. Benutze #nds-help für Hilfe
+- [#dsi-ntrboot-dev][dsi-ntrboot-dev] - Dieser Kanal ist für die Diskussion der DSi ntrboot Entwicklung.
+- [#web-dev][web-dev] - Diskussion und Vorschläge für [dsi.cfw.guide](https://dsi.cfw.guide/) und alle [DS-Homebrew Seiten](https://ds-homebrew.com/) gehen Sie hierher
 
-**Secondary DS⁽ⁱ⁾ Homebrew Projects**
-- [#godmode9i][godmode9i] - This channel is for discussion of the development of GodMode9i. For help, use #nds-help
-- [#fastvideods][fastvideods] - This channel is for discussion of the development of the FastVideoDS Player and Encoder. For help, use #nds-help
-- [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
+**Haupt-DS⁽ⁱ⁾ Homebrew Projekte**
+- [#godmode9i][godmode9i] - Dieser Kanal ist für Diskussionen über die Entwicklung von GodMode9i gedacht. Benutze #nds-help für Hilfe
+- [#fastvideods][fastvideods] - Dieser Kanal ist zur Diskussion über die Entwicklung des FastVideoDS Players und des Encoders. Benutze #nds-help für Hilfe
+- [#other-nds-homebrew][other-nds-homebrew] - Dieses Forum ist für Support, Updates und Diskussionen von Nintendo DS(i) Homebrew, die nicht von anderen Kanälen abgedeckt ist. Es gibt Threads für einzelne Homebrew-Anwendungen und du kannst einen neuen erstellen, wenn es noch keinen Thread dafür gibt
 
 **Community**
-- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
-- [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
-- [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
-- [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Use this to post your memes, bot commands, and other things that don't facilitate discussion
+- [#off-topic][off-topic] - Ein Kanal für jedes Thema, das nicht unbedingt zu den anderen Kanälen passt. Beiträge von niedrigerer Qualität sollten auf #end-of-server gehalten werden
+- [#nds-gaming][nds-gaming] - Ein Ort, um im Allgemeinen über Spiele auf dem DS(i) zu diskutieren und Spieler für das Online-Spiel zu suchen. Überprüfen Sie die angehefteten Nachrichten auf eine Liste von dedizierten Communities
+- [#other-console-modding][other-console-modding] - Sprich über Homebrew und Mods für andere Spielsysteme, wie den 3DS wenn nicht in TWL_FIRM
+- [#other-dev][other-dev] - Sprich über Programmierung und Entwicklung außer für Nintendo DS
+- [#end-of-server][end-of-server] - Für gelegentliches Chatten von geringerer Qualität. Die Regeln sind etwas lockerer, werden aber immer noch durchgesetzt. Hier können Sie Ihre Memes, Bot-Befehle und andere Dinge posten, die eine Diskussion nicht erleichtern
 
-## Roles & User Flairs
-There are several roles you can get on the server, some of them being accessible with just a [Lightning bot command](#lightning-commands).
+## Rollen & Benutzerkennzeichen
+Es gibt mehrere Rollen, die du auf den Server bekommen kannst, von denen einige nur mit einem [Blitzbot-Befehl](#lightning-commands) zugänglich sind.
 
-### Moderator Roles
-These roles are given to people that are well trusted to maintain the server. They have the ability to ban, kick, mute, and give other roles to users.
+### Moderator-Rollen
+Diese Rollen werden Personen verliehen, denen man gut vertraut, um den Server zu verwalten. Sie haben die Möglichkeit Benutzer zu verbieten, zu kicken, zu stummen und anderen Rollen zu geben.
 
-- Da Master - The owner's role
-- Admin - Has all possible permissions, usually gets final say between the Server Maintainers
-- Server Maintainers - Help enforce the server rules and manage the server. If there is an issue, contact them first before going higher up
+- Da Master - Die Rolle des Eigentümers
+- Admin - Hat alle möglichen Berechtigungen, hat normalerweise das letzte Wort zwischen den Server-Maintainern
+- Server-Maintainer - Helfen, die Serverregeln durchzusetzen und den Server zu verwalten. Wenn es ein Problem gibt, wenden Sie sich zuerst an sie, bevor Sie sich an höhere Stellen wenden
 
-### User Flair Roles
-These roles can only be given by moderators, and indicate that these users are knowledgeable in those fields, some give access to private channels. If you think that you fit the descriptions for any of these roles, ask in #community-meta. Moderators will evaluate your request based on the role's requirements.
+### Benutzer Flair-Rollen
+Diese Rollen können nur von Moderatoren vergeben werden und zeigen an, dass diese Benutzer in diesen Bereichen sachkundig sind, einige geben Zugang zu privaten Kanälen. Wenn du denkst, dass du die Beschreibungen für eine dieser Rollen passt, frage in #community-meta. Die Moderatoren werden Ihre Anfrage anhand der Anforderungen der Rolle bewerten.
 
-- Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev
-- Helpers - This role is given to those that actively provide meaningful assistance in #nds-help or have contributed to compatibility reporting
-   - Helpers have no moderator permissions, please ping a moderator if a situation needs one
-- Nitro Booster - Automatically given to those that have given Server Boosts to the server. This role has no additional permissions, and is not hoisted in the Member List
+- Developers - Diese Rolle wird an diejenigen vergeben, die Code zur Nintendo DS-Szene beigetragen haben. Wenn Sie Projekte für diese Rolle haben, zeigen Sie sie in #nds-dev
+- Helpers - Diese Rolle wird an diejenigen vergeben, die aktiv sinnvolle Hilfe in #nds-help leisten oder zur Kompatibilitätsmeldung beigetragen haben
+   - Helfer haben keine Moderatorenrechte, bitte pingen Sie einen Moderator an, wenn eine Situation dies erfordert
+- Nitro Booster - Wird automatisch an diejenigen vergeben, die dem Server Server Boosts gegeben haben. Diese Rolle hat keine zusätzlichen Berechtigungen und wird nicht in der Mitgliederliste aufgeführt
 
-### Punishment Roles
-If you have broken the rules, you may receive these roles from a moderator.
+### Rollen der Bestrafung
+Wenn Sie gegen die Regeln verstoßen haben, können Sie diese Rollen von einem Moderator erhalten.
 
-- No Community - Removes access for all the channels under the Community category
-- No Help - Removes access from [#nds-help][nds-help]
-- No Reaction - Disables reaction permissions for all channels
-- No VC - Removes access to the voice channel
-- Muted - Disables the ability to send messages
+- No Community - Entfernt den Zugang für alle Kanäle unter der Kategorie Community
+- No Help - Entfernt den Zugang von [#nds-help][nds-help]
+- No Reaction - Deaktiviert Reaktionsberechtigungen für alle Kanäle
+- No VC - Entfernt den Zugriff auf den Sprachkanal
+- Muted - Deaktiviert die Möglichkeit, Nachrichten zu senden
 
 ### Andere
-These roles are only given for very specific purposes by moderators.
+Diese Rollen werden nur für sehr spezifische Zwecke von Moderatoren vergeben.
 
-- Bots - Used to mark the Discord bots in the server
-- Special Thanks - People that have contributed to the community in a major way
+- Bots - Verwendet um die Discord Bots auf dem Server zu markieren
+- Special Thanks - Personen, die einen wichtigen Beitrag zur Gemeinschaft geleistet haben
 
 ## Lightning Commands
-Lightning is a Discord bot made by [LightSage](https://github.com/LightSage) which has useful commands for modding communities. The most common command used is `!togglerole`, which will give you any of the following roles below:
+Lightning ist ein Discord-Bot von [LightSage](https://github.com/LightSage), der nützliche Befehle für Modding-Communities enthält. Der gebräuchlichste Befehl ist `!togglerole`, mit dem Sie eine der folgenden Rollen erhalten:
 
-- Updates - Get pings for updates on new releases of DS(i) homebrew in #announcements
-- Nintendo DS Online Players - Anyone can ping this role in #nds-gaming when they're looking for people to play DS games online with
-- Translators - Anyone that wants to be notified for contributing to translations of various DS-Homebrew projects
+- Updates - Erhalte Pings für Updates zu neuen Versionen von DS(i) Homebrew in #announcements
+- Nintendo DS Online Players - Jeder kann diese Rolle in #nds-gaming anpingen, wenn er auf der Suche nach Leuten ist, mit denen er DS-Spiele online spielen kann
+- Translators - Jeder, der benachrichtigt werden möchte, wenn er zu den Übersetzungen verschiedener DS-Homebrew-Projekte beiträgt
 
-There are a ton of fun commands you can run as well, but please keep them to [#end-of-server][end-of-server]. To learn more, check out their website: <https://lightning.lightsage.dev/>
+Es gibt eine Menge lustiger Befehle, die Sie ebenfalls ausführen können, aber bitte beschränken Sie diese auf [#end-of-server][end-of-server]. Weitere Informationen finden Sie auf ihrer Website: <https://lightning.lightsage.dev/>
 
-**Lightning is also used for moderation purposes (to log warns, kicks, mutes, and bans). Keep Direct Messages enabled in the server in case we ever need to reach you.**
+**Lightning wird auch für Moderationszwecke verwendet (um Verwarnungen, Tritte, Stummschaltungen und Verbote zu protokollieren). Lassen Sie Direktnachrichten auf dem Server aktiviert, falls wir Sie jemals erreichen müssen.**
 
-## The Staff Team
-These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
+## Das Team der Mitarbeiter
+Dies sind die Leute, die den Server betreuen. Wenn sie sagen, dass etwas endgültig ist, dann steht es nicht zur Debatte. Diese Mitglieder werden in der Mitgliederliste gejagt. Bitten Sie nicht, Teil des Teams zu sein, da dies Ihre Chance auf Akzeptanz verringert. Mitglieder werden dem Team hinzugefügt, wenn sie passend gesehen werden.
 
-Owner: @rocketrobz
+Besitzer: @rocketrobz
 
-Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Administratoren: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
 
-Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
+Server-Maintainer: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436

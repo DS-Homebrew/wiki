@@ -4,48 +4,48 @@ layout: wiki
 section: ds-index
 category: guides
 title: DS Game Forwarders
-description: How to use DS game forwarders on hiyaCFW or 3DS HOME menu
+description: Wie man DS Game-Forwarder auf HiyaCFW oder 3DS HOME Menü nutzt
 tabs:
   - 
-    3ds-sd-card: 3DS SD card
-    dsi-sd-card: DSi SD card
-    flashcard: Flashcard only
-    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
+    3ds-sd-card: 3DS SD-Karte
+    dsi-sd-card: DSi SD-Karte
+    flashcard: Nur Flashcard
+    flashcard-dsi-3ds: Flashcard auf modifiziertem DSi/3DS
 ---
 
-Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
+Forwarder sind Verknüpfungen für Spiele, die Sie in Ihrem HOME-Menü, hiyaCFW-Menü oder Karteikartenmenü installieren können. Sie können DS(i)-Spiele von der SD-Karte (mit nds-bootstrap) oder von einer kompatiblen Flash-Karte (über den entsprechenden Kernel) laden, indem Sie Forwarder im Menü Ihrer Wahl installieren. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
 
-DS games need to be dumped to a digital `.nds` format. You can dump your DS cartridges using [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) on 3DS, or [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) on DSi.
+DS-Spiele müssen in ein digitales `.nds-Format` umgewandelt werden. Du kannst deine DS-Kassetten mit [GodMode9](https://3ds.hacks.guide/dumping-titles-and-game-cartridges#dumping-a-game-cartridge) auf 3DS oder [GodMode9i](https://dsi.cfw.guide/dumping-game-cards) auf DSi entsorgen.
 {:.alert .alert-info}
 
-If you have any issues, check the FAQs on the [GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
+Wenn Sie irgendwelche Probleme haben, lesen Sie die FAQs im [GBAtemp-Thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/).
 {:.alert .alert-warning}
 
-Choose one of the following to add to the HOME menu:
+Wählen Sie eine der folgenden Optionen, um sie dem HOME-Menü hinzuzufügen:
 
 {% capture tab-3ds-sd-card %}
 
-This page assumes you are running a modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide).
+Diese Seite nimmt an, dass Sie eine moderne CFW-Umgebung von [3ds.hacks.guide](https://3ds.hacks.guide) verwenden.
 {:.alert .alert-warning}
 
-### Part 1: Getting the required files
+### Teil 1: Erhalte die erforderlichen Dateien
 
-If you already have Universal Updater installed on your console, you can skip to step 3.
+Wenn Sie bereits Universal Updater auf Ihrer Konsole installiert haben, können Sie Schritt 3 überspringen.
 {:.alert .alert-info}
 
 1. Öffne FBI und wähle `Remote-Installation`, dann `QR-Code scannen`
 1. Scannen Sie diesen QR-Code, um die neueste Version von [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) zu installieren<br> ![Universal-Updater QR-Code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
-1. Open Universal Updater from your HOME Menu
-1. Install the NDSForwarder package
-1. NDSForwarder and its required files are now set up in its respective locations
+1. Öffnen Sie Universal Updater über Ihr HOME-Menü
+1. Installiere das NDSForwarder-Paket
+1. NDSForwarder und die benötigten Dateien sind nun an den jeweiligen Standorten eingerichtet
 
-### Part 2: NDSForwarder
-1. Open the Homebrew Launcher
-1. In the Homebrew Launcher, open `NDS Forwarder Generator`
-1. Navigate to your game's location and press <kbd class="face">A</kbd>
-1. Confirm you wish to install by selecting `Yes`
-1. After it is installed, your game will now appear as a title on your HOME menu
-   - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, follow steps 2-3 in Part 1 of the `DSi SD card` tab
+### Teil 2: NDSForwarder
+1. Öffne den Homebrew Launcher
+1. Öffne im Homebrew Launcher `NDS Forwarder Generator`
+1. Navigieren Sie zum Ort Ihres Spiels und drücken Sie <kbd class="face">A</kbd>
+1. Bestätigen Sie, dass Sie installieren möchten, indem Sie `Ja` wählen
+1. Nachdem es installiert ist, erscheint dein Spiel nun als Titel in deinem HOME-Menü
+   - Beim Ausführen des Titels wird eine Fehlermeldung mit der Angabe `/_nds/ntr-forwarder/sdcard angezeigt. ds nicht gefunden`, folgen Sie den Schritten 2-3 in Teil 1 der `DSi SD-Karte`
 
 ### Teil 3: Abrufen des AP-Fix-Pakets aus TWiLight Menu++
 
@@ -134,22 +134,22 @@ Wenn Sie TWiLight Menu++ bereits installiert haben oder nur DSiWare verwenden m�
    - Ein Nintendo DSi mit [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) und [hiyaCFW](installing) installiert
    - Die neueste Version von [Title Manager für Hiya](https://github.com/JeffRuLz/TMFH/releases)
 - **3DS-Benutzer:**
-   - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
+   - Eine Nintendo 3DS-Familienkonsole mit moderner CFW-Umgebung von [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}
-The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. The only downside is that it drains your system battery faster.
+Die empfohlenen Karteikarten sind die DSTT und Acekard 2i. Wenn Sie eine perfekte Spielkompatibilität wünschen, erhalten Sie die SuperCard DSTWO/DSTWO PLUS. Der einzige Nachteil ist, dass die Batterie schneller entlastet wird.
 
-If you have a flashcard that works with Apache Thunder's NTR Launcher, you can request it [on the GBAtemp thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/). Be sure to specify which build you're using (Normal or Alt), and if `RESETSLOT1` is set to `0` or `1` in `sd:/nds/ntr_launcher.ini`.
+Wenn Sie eine Karteikarte haben, die mit dem NTR Launcher von Apache Thunder funktioniert, können Sie sie [im GBAtemp Thread](https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/) anfordern. Stellen Sie sicher, dass Sie angeben, welches Build Sie verwenden (Normal oder Alt), und ob `RESETSLOT1` auf `0` oder `1` in `sd:/nds/ntr_launcher gesetzt ist. ni`.
 
-Compatible:
-- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced games, including newer NTR games, don't work)
+Kompatibel:
+- [Acekard 2(i)](http://www.nds-card.com/ProShow.asp?ProID=160) (DSi-Enhanced Spiele, einschließlich neuerer NTR-Spiele, funktionieren nicht)
 - [Acekard RPG](http://wiki.gbatemp.net/wiki/Acekard_RPG)
 - [DSTT](http://www.nds-card.com/ProShow.asp?ProID=157)
 - [DSTT Advance](http://kaze-tado.way-nifty.com/moo/images/2008/11/19/200811202.jpg)
 - Galaxy Eagle
 - M3 DS Real
-- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (uses < 2 GB microSD card)
-- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Non-SDHC version, uses < 2 GB microSD card)
+- [M3 DS Simply](https://farm2.static.flickr.com/1333/752793411_d91b182eb7.jpg) (verwendet < 2 GB microSD-Karte)
+- [R4 DS](http://www.nds-card.com/ProShow.asp?ProID=141) (Original Nicht-SDHC-Version, verwendet < 2 GB microSD-Karte)
 - [R4 SDHC Snoopy](http://www.nds-card.com/ProShow.asp?ProID=567)
 - [R4 SDHC RTS LITE](http://www.nds-card.com/ProShow.asp?ProID=450) ([www.r4isdhc.com](http://www.r4isdhc.com/))
 - R4 SDHC Upgrade ([www.r4i-sdhc.com](http://www.r4i-sdhc.com/))
@@ -157,47 +157,47 @@ Compatible:
 - [R4iDSN](http://3ds-flashcard.com/home/28-r4idsn-3ds.html)
 - [R4i Gold](http://www.nds-card.com/ProShow.asp?ProID=330)
 - [R4i Gold RTS](http://www.nds-card.com/ProShow.asp?ProID=149) ([www.r4ids.cn](http://www.r4ids.cn/))
-- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146) ([www.r4i-sdhc.com](http://www.r4i-sdhc.com)) (Normal and RTS versions)
-- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Purple card may be incompatible)
+- [R4i-SDHC](http://www.nds-card.com/ProShow.asp?ProID=146)[(www.r4i-sdhc.com)](http://www.r4i-sdhc.com)(normale und RTS-Versionen)
+- R4iTT ([www.r4itt.net](http://www.r4itt.net/)) (Lila Karte ist möglicherweise nicht kompatibel)
 - [SuperCard DSONE](http://wiki.gbatemp.net/wiki/SuperCard_DSONEi)
-- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (Normal and Plus versions)
+- [SuperCard DSTWO](http://www.nds-card.com/ProShow.asp?ProID=135) (normale und Plus-Version)
 
-Untested:
-- R4i3D NEW (Use R4iDSN template and pack)
+Ungetestet:
+- R4i3D NEW (Verwenden Sie R4iDSN Vorlage und Pack)
 
-Partially compatible:
-- Ace 3DS+ (Game compatibility is bad, so saving/loading save file results in crashing)
-- Gateway Blue Card (Game compatibility is bad, so saving/loading save file results in crashing)
-- EX4DS (Game compatibility is bad, so saving/loading save file results in crashing)
-- R4iLS (Game compatibility is bad, so saving/loading save file results in crashing)
-- Cards with [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Game compatibility is bad, so saving/loading save file results in crashing)
+Teilweise kompatibel:
+- Ace 3DS+ (Spielkompatibilität ist schlecht, so dass das Speichern/Laden einer Speicherdatei zum Absturz führt)
+- Gateway Blue Card (Spielkompatibilität ist schlecht, so dass das Speichern/Laden einer Speicherdatei zum Absturz führt)
+- EX4DS (Die Spielkompatibilität ist schlecht, so dass das Speichern/Laden einer Speicherdatei zum Absturz führt)
+- R4iLS (Spielkompatibilität ist schlecht, so dass das Speichern/Laden einer Speicherdatei zum Absturz führt)
+- Karten mit [www.r4isdhc.com.cn](http://www.r4isdhc.com.cn/) (Spielkompatibilität ist schlecht, so dass das Speichern/Laden einer Speicherdatei zum Absturz führt)
 
-Incompatible:
-- CycloDS (i)Evolution (Can autoboot ROMs, but it works differently than other flashcards)
-- (i)Edge (Unable to autoboot a .nds ROM)
-- R4 Gold Pro ([www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me](http://www.r4i-gold.me)) (YSMenu (not the forwarder process) bricks the card)
+Inkompatibel:
+- CycloDS (i)Evolution (Kann ROMs autobooten, funktioniert aber anders als andere Flashcards)
+- (i)Edge (Unfähig zum automatischen Booten eines .nds ROM)
+- R4 Gold Pro[(www.r4i-gold.com](http://www.r4i-gold.com) / [www.r4i-gold.me)](http://www.r4i-gold.me) (YSMenu (nicht der Forwarder-Prozess) (brickt die Karte)
 - R4i3D (2012)
 - R4 Infinity Dual Core
 - R4 SDHC
-- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (not the forwarder process) bricks the card)
+- R4 SDHC Dual-Core ([www.r4isdhc.com](http://www.r4isdhc.com/)) (YSMenu (nicht der Weiterleitungsprozess) brickt die Karte)
 {% endcapture %}
 
 <details>
-    <summary>A supported flashcard from this list</summary>
+    <summary>Eine unterstützte Karteikarte aus dieser Liste</summary>
     <div class="details-content">
         {{ flashcards | markdownify }}
     </div>
 </details>
 
-- A 64 bit OS
-- [Forwarder3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
+- Ein 64-Bit-Betriebssystem
+- [Spediteur3-DS](https://www.dropbox.com/s/b9de5ii6vm3dxfn/Forwarder3DS-v2.9.6.zip?dl=0)
 - [Java 8](https://www.java.com/en/download/)
-- **Linux users:** JavaFX
-   - Debian-based: Run [this script](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh)
+- **Linux-Benutzer:** JavaFX
+   - Debian-basiert: Führen Sie [dieses Skript](https://gist.githubusercontent.com/puntillol59/7532b6583380baca236dcaf2d8f75b5c/raw/e8b9d193f8b24de941160c7292ec0bb3b997e98e/main.sh) aus
    - Arch: `sudo pacman -S java8-openjfx && sudo archlinux-java set java-8-openjdk/jre`
 
 ### Teil 1: Erste Schritte
-1. Download one of these packs:
+1. Laden Sie eines dieser Pakete herunter:
    - [Original R4 / M3 Simply](https://www.dropbox.com/s/juxzri7h8bttunh/DS%20Game%20Forwarder%20pack%20%28Original%20R4%2C%20M3%20Simply%29.7z?dl=0)
    - [Acekard 2(i) / M3DS Real](https://www.dropbox.com/s/5elogf885sd62hu/DS%20Game%20Forwarder%20pack%20%28M3DS%20Real%29.7z?dl=0)
    - [DSTT / R4i Gold / R4i-SDHC / R4 SDHC Upgrade / SC DSONE](https://www.dropbox.com/s/xxfmvikwmnvsu63/DS%20Game%20Forwarder%20pack%20%28DSTT%2C%20R4i%20Gold%2C%20R4i-SDHC%2C%20SC%20DSONE%29.7z?dl=0)

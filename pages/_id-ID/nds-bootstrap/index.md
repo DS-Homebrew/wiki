@@ -6,7 +6,7 @@ title: nds-bootstrap
 description: Informasi cara menggunakan nds-bootstrap
 ---
 
-Aplikasi [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) adalah *homebrew* sumber terbuka yang mengalihkan baca/tulis Slot-1 permainan Nintendo SDK resmi menjadi ke kartu SD, baik di *flashcard* maupun kartu SD konsol.
+[nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap) adalah *homebrew* sumber terbuka yang mengalihkan baca/tulis Slot-1 permainan Nintendo SDK resmi menjadi ke kartu SD, baik di *flashcard* maupun kartu SD konsol.
 
 Ada juga proyek sampingan agar *homebrew* lawas untuk *flashcard* bisa dijalankan di kartu SD Nintendo DSi/3DS.
 

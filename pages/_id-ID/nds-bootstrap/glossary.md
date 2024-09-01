@@ -13,7 +13,7 @@ Pengaturan berikut ada di setelan tiap-permainan TWiLight Menu++. Beberapa opsi 
 Versi dari *Software Development Kit* (SDK) sebagai pengompilasi ROM.
 
 ### ID Judul
-ID atau identitas ini ditampilkan di bawah stiker kaset (contoh: `NTR-ASME-USA`). Bisa juga didapat dengan membaca *header* ROM.
+ID atau identitas ini ditampilkan di bawah stiker kartrid (contoh: `NTR-ASME-USA`). Bisa juga didapat dengan membaca *header* ROM.
 
 ### Nomor simpanan
 Berkas simpanan atau *save* permainan akan berekstensi `.savX`, tanda X menandakan angka simpanan selain 0. Mampu menyimpan sampai 10 simpanan di ROM yang sama.

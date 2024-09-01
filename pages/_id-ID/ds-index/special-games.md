@@ -458,7 +458,7 @@ Saat ini, nds-bootstrap belum ada emulasi Slot-2. Ada beberapa yang tertera cara
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
 
-### Kaset permainan dengan IR
+### Kartrid dengan Inframerah
 - Pokémon Heartgold/Soulsilver
    - Untuk menyambung ke pedometer Pokéwalker
 - Pokémon Black/White/Black 2/White 2

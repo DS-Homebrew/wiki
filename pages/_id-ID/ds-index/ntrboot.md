@@ -16,7 +16,7 @@ tabs:
 
 Untuk ntrboot di konsol DSi diperlukan:
 
-- <i>Flashcard</i> yang bisa ntrboot. [Berikut kaset-kaset yang bisa](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Abaikan kaset yang <i>pre-flashed</i> karena ntrboot-nya versi 3DS.
+- <i>Flashcard</i> yang bisa ntrboot. [Berikut kartrid-kartrid yang bisa](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Abaikan kartrid yang <i>pre-flashed</i> karena ntrboot-nya versi 3DS.
 - Besi berani untuk masuk ntrboot
 - Konsol DSi/3DS lain untuk mem-<i>flash</i> ntrboot ke <i>flashcard</i>
 

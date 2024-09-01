@@ -54,7 +54,7 @@ Ikuti panduan di bawah ini jika ISP Wi-Fi memblokir server DNS kustom, jika tida
 - WfcPatcher saat ini belum bisa untuk DSiWare
 
 1. Unduh [WfcPatcher](https://github.com/AdmiralCurtiss/WfcPatcher/releases)
-1. Salin ROM yang ingin ditambal ke folder WfcPatcher tadi diunduh dan buka foldernya
+1. Salin ROM yang ingin ditambal ke folder tempat WfcPatcher diunduh dan buka foldernya
 1. Buat berkas teks
 1. Buka berkasnya, tulis `wfcpatcher.exe %1 --domain wiimmfi.de` lalu simpan dengan nama `patch.bat` dan tutup jendelanya
     - Tulisan `wiimmfi.de` boleh diganti URL lain, jika ingin menggunakan server lain

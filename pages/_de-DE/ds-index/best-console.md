@@ -3,33 +3,33 @@ lang: de-DE
 layout: wiki
 section: ds-index
 category: guides
-title: Which DS family console is the best for me?
-description: Looking at the features of each console to decide the best DS(i) mode experience
+title: Welche DS Familie Konsole ist die beste für mich?
+description: Betrachten Sie die Funktionen jeder Konsole um das beste DS(i) Modus Erlebnis zu entscheiden
 ---
 
-The Nintendo DS, Nintendo DSi, Nintendo 3DS, and Nintendo 2DS consoles are all capable of running in DS(i) mode, as well as GBA games. To help decide which console is best for you, please read this page.
+Die Nintendo DS, Nintendo DSi, Nintendo 3DS und Nintendo 2DS Konsolen können alle im DS(i) Modus sowie im GBA Modus laufen. Um bei der Entscheidung zu helfen, welche Konsole am besten für Sie ist, lesen Sie bitte diese Seite.
 
-| Features          | Nintendo DS                                            | Nintendo DSi                                                 | Nintendo 3DS/2DS                               |
-| ----------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| Max RAM           | 4MB (up to 36MB with RAM expansion) | 16MB                                                         | 32MB                                           |
-| Max CPU Speed     | 67mhz                                                  | 133mhz[^1]                                                   | 133mhz[^1]                                     |
-| Camera            | No                                                     | Yes                                                          | Yes                                            |
-| Screen type       | TN(?)                               | TN (Regular), IPS (XL) | TN or IPS (varies by model) |
-| Screen scaling    | No                                                     | No                                                           | Yes[^2]                                        |
-| Brightness levels | 2 (On/Off for Phat), 4 (Lite)[^3]                      | 5                                                            | 5                                              |
-| GBA Compatiblity  | Native, Near-Perfect[^4]                               | Great                                                        | Native, Near-Perfect[^5]                       |
-| DSiWare Support   | Yes, Partial[^6]                                       | Yes[^7]                                                      | Yes[^7]                                        |
+| Eigenschaften                | Nintendo DS                                                | Nintendo DSi                                                | Nintendo 3DS/2DS                                         |
+| ---------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| Maximaler Arbeitsspeicher    | 4 MB (bis zu 36 MB mit RAM-Erweiterung) | 16MB                                                        | 32MB                                                     |
+| Maximale CPU-Geschwindigkeit | 67mhz                                                      | 133mhz[^1]                                                  | 133mhz[^1]                                               |
+| Kamera                       | Nein                                                       | Ja                                                          | Ja                                                       |
+| Bildschirmtyp                | TN(?)                                   | TN (Normal), IPS (XL) | TN oder IPS (variiert je nach Modell) |
+| Skalierung des Bildschirms   | Nein                                                       | Nein                                                        | Ja[^2]                                                   |
+| Helligkeitsstufen            | 2 (On/Off für Phat), 4 (Lite)[^3]                          | 5                                                           | 5                                                        |
+| Kompatibilität mit dem GBA   | Nativ, nahezu perfekt[^4]                                  | Sehr gut                                                    | Nativ, nahezu perfekt[^5]                                |
+| DSiWare-Unterstützung        | Ja, Teilweise[^6]                                          | Ja[^7]                                                      | Ja[^7]                                                   |
 
-[^1]: DS games will run at 67mhz, but most can be configured to run at 133mhz, though certain games will have issues.
+[^1]: DS-Spiele laufen bei 67mhz, aber die meisten können so konfiguriert werden, dass sie mit 133mHz laufen, obwohl bestimmte Spiele Probleme haben werden.
 
-[^2]: When launching in DS(i) mode, the screens are not properly scaled, and will not appear pixel-perfect. Holding START or SELECT button will disable screen scaling, but will reveal black borders around the screen images.
+[^2]: Beim Start im DS(i) Modus werden die Bildschirme nicht richtig skaliert und erscheinen nicht pixel-perfekt. Wenn Sie die START- oder SELECT-Taste gedrückt halten, wird die Skalierung des Bildschirms deaktiviert, aber es werden schwarze Ränder um die Bilder auf dem Bildschirm angezeigt.
 
-[^3]: Later Phat models have the same brightness levels as the Lite model, but will require FlashMe to be installed in order to use those levels (at least in the original menu).
+[^3]: Spätere Phat-Modelle haben die gleichen Helligkeitsstufen wie das Lite-Modell, aber FlashMe muss installiert sein, um diese Level zu verwenden (zumindest im Originalmenü).
 
-[^4]: The only game known to have a compatibility issue, _MegaMan Battle Network 3_ crashes after the Capcom logo.
+[^4]: Das einzige Spiel, von dem bekannt ist, dass es ein Kompatibilitätsproblem gibt, ist _MegaMan Battle Network 3_, das nach dem Capcom-Logo abstürzt.
 
-[^5]: Large GBA Video ROMs (above 32MB) will not work. Gyro and rumble features will also not work.
+[^5]: Große GBA-Video-ROMs (über 32 MB) werden nicht funktionieren. Gyro und Rumble Features werden auch nicht funktionieren.
 
-[^6]: Majority of supported titles do not require the camera. See [this page](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) for which titles are supported. **TW**i**L**ight Menu++ is required to be installed on your flashcard.
+[^6]: Die meisten unterstützten Titel benötigen nicht die Kamera. Siehe [diese Seite](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) für welche Titel unterstützt werden. **TW**i**L**ight Menu++ wird benötigt, um auf deiner Flashcard installiert zu werden.
 
-[^7]: If you're using **TW**i**L**ight Menu++ with either `DSiWare Booter` setting set to `nds-bootstrap` or if using a 3DS/2DS, then compatibility is near-perfect.
+[^7]: Wenn du **TW**i**L**ight Menu++ mit `DSiWare Booter` Einstellung auf `nds-bootstrap` gesetzt hast oder wenn du einen 3DS/2DS verwendest, dann ist die Kompatibilität fast perfekt.

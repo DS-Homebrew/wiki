@@ -27,7 +27,7 @@ Jika belum mampu menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://ds
 
 ### Mengakses isi *flashcard*
 
-*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
+*Flashcard* adalah kartrid yang disisipkan ke slot permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
 {:.alert .alert-warning}
 
 #### Jika punya R4(i) Ultra
@@ -57,5 +57,5 @@ Jika belum mampu menjalankan *homebrew* di DSi, ikuti [dsi.cfw.guide](https://ds
 #### Beralih antara isi kartu SD dan *flashcard*
 - Tekan `SELECT`+`Atas` atau `SELECT`+`Bawah` untuk beralih antara isi kartu SD dan *flashcard*
      - Jika menu SELECT diaktifkan, boleh dilakukan dari situ
-     - Jika menggunakan tema 3DS, sentuh ikon Kaset/Kartu SD
+     - Jika menggunakan tema 3DS, sentuh ikon Kartrid/Kartu SD
      - Jika menggunakan tema Wood, R4, atau GBC; tekan tombol `L`

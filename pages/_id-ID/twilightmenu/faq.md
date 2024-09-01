@@ -47,11 +47,11 @@ Untuk menyembunyikan gambar, berkas `theme.ini` harus disunting dari `sd:/_nds/T
 
 #### Di mana mendapat permainan?
 Permainan swayasa atau *homebrew* bisa diunduh dari [Universal-DB](https://db.universal-team.net/ds) dan [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Untuk permainan resmi, harus dilakukan *dump*, baik dari kartrid fisik, atau dari konsol yang ada:
-- Di konsol DS, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid GBA dan, jika punya *flashcart* Slot-2, kaset DS juga. Jika hanya punya *flashcard* Slot-1 dan ingin men-*dump* kaset DS, bisa gunakan [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), tapi perlu sambungan Wi-Fi yang bisa dibaca DS, serta klien FTP pada perangkat lain untuk menerima ROM
-- Di konsol DSi, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kaset DS dan DSiWare
-- Di konsol 3DS, gunakan [GodMode9](https://github.com/d0k3/GodMode9/releases) untuk men-*dump* kaset DS, DSiWare, dan Virtual Console
+- Di konsol DS, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid GBA dan, jika punya *flashcart* Slot-2, kartrid DS juga. Jika hanya punya *flashcard* Slot-1 dan ingin men-*dump* kartrid DS, gunakan [Wooddumper](https://digiex.net/attachments/wooddumper_r89-zip.14735/), tapi perlu sambungan Wi-Fi yang bisa dibaca DS, serta klien FTP pada perangkat lain untuk menerima ROM
+- Di konsol DSi, gunakan [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) untuk men-*dump* kartrid DS dan DSiWare
+- Di konsol 3DS, gunakan [GodMode9](https://github.com/d0k3/GodMode9/releases) untuk men-*dump* kartrid DS, DSiWare, dan Virtual Console
 
-#### Apakah simpanan dari Kaset bisa disimpan ke kartu SD atau sebaliknya?
+#### Apakah simpanan dari Kartrid bisa disimpan ke kartu SD atau sebaliknya?
 Bisa. Gunakan [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) untuk di 3DS, atau [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) di DSi / 3DS.
 
 #### Bagaimana mengubah bahasa di TWiLight Menu++?
@@ -66,7 +66,7 @@ Bukan, ini bukan emulator. Untuk menu dan permainan DS (dimuat nds-bootstrap) di
 Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
 
 #### Apakah eksploit Slot-1 bisa memuat ke TWiLight Menu++?
-Tidak. Akses kartu SD hanya diperuntukkan aplikasi DSiWare, jadi kaset Slot-1 tidak bisa memuat (atau mengakses) TWiLight Menu++.
+Tidak. Akses kartu SD hanya dikhususkan aplikasi DSiWare, jadi kartrid Slot-1 tidak bisa memuat (atau mengakses) TWiLight Menu++.
 
 #### Kenapa permainan saya tidak ketemu?
 Ada beberapa alasan kenapa permainan tidak ketemu.
