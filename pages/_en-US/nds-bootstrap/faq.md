@@ -37,16 +37,16 @@ There are also timing issues and AP measures (which most are already removed), b
 - Using certain Game Cards, you are able to use IR in your application
 - nds-bootstrap is open source, meaning developers can always update it to fix bugs and other things, even if the project gets discontinued
 - The DS Memory Expansion Pak is emulated, meaning games that require that accessory will work
-     - Currently, only *Nintendo DS Browser* emulates it
+    - Currently, only *Nintendo DS Browser* emulates it
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Take screenshots and edit values in the RAM using the in-game menu
 
 #### DS/DS Lite: Why use nds-bootstrap on a DS flashcard?
 - Certain compatible ROMs are loaded into the Memory Expansion Pak (or Slot-2 flashcarts containing RAM), allowing for load times to be faster than even normal Game Cards
 - 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
-     - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
-     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
+    - Keep in mind that nds-bootstrap will always be used for DSiWare, regardless of `Game Loader` setting in TWLMenu++ Settings
+    - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+    - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - If your flashcard kernel cannot run a certain ROM, nds-bootstrap can be used instead, and can be set per-game
 - Swap top and bottom screens in compatible games for more comfortable gameplay, or on systems with a broken or removed screen
 - Take screenshots and edit values in the RAM using the in-game menu
@@ -56,7 +56,7 @@ In nds-bootstrap, when a game doesn't boot, another ROM is used to "donate" it's
 A Donor ROM can be set using **TW**i**L**ight Menu++.
 - **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
-     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
+    - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
 
 #### What is the best Donor ROM?
@@ -76,7 +76,7 @@ You can get nightly builds for nds-bootstrap [from the TWLBot/Builds GitHub repo
 
 #### Why do my cheats not work?
 - Some cheats may have button activators or other conditions that need to be met. Check the description of the cheat for more information
-  - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
+    - In **TW**i**L**ight Menu++, you can press Y to view a specific cheat's information, when available
 - Most cheats were developed for use in DS mode and may not work correctly while running in DSi mode. If the game is DSi-Enhanced, try setting it to run in DS mode
 - The way E-type cheats are implemented in nds-bootstrap is currently broken, meaning they may or may not work. Your cheat probably uses that type, and it is not known when this issue will be fixed
 

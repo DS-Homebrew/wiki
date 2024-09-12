@@ -17,7 +17,7 @@ Follow this guide to fix the issue: <https://3ds.hacks.guide/troubleshooting#dsi
 #### How do I fix getting a white screen when booting TWiLight Menu++?
 - Reboot the console
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
-   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
+    - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - If that also doesn't work, try a different SD card
 
 #### How do I fix touch screen not working after launching a game?
@@ -58,7 +58,7 @@ Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) o
 #### How do I change TWiLight Menu++'s language?
 1. Open TWiLight Menu++ settings, you can do this by holding <kbd>SELECT</kbd> while loading TWiLight Menu++
 1. Change the first option until you see the language you want, then exit settings
-   - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
+    - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
 
 #### Is this a DS(i) emulator?
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).

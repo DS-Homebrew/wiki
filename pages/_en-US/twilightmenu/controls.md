@@ -14,12 +14,12 @@ description: Controls for using TWiLight Menu++
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Switch pages
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
+    - <kbd class="face">X</kbd>: Cheat menu
+        - <kbd class="face">A</kbd>: Toggle cheat
+        - <kbd class="face">B</kbd>: Exit cheat menu
+        - <kbd class="face">X</kbd>: Save and exit cheat menu
+        - <kbd class="face">Y</kbd>: Show cheat description
+        - <kbd class="l">L</kbd>: Disable all cheats
 - <kbd class="face">X</kbd>: Delete/hide game
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
 - <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
@@ -29,12 +29,12 @@ description: Controls for using TWiLight Menu++
 - <kbd class="face">A</kbd>: Launch game/app
 - <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Per-game settings
-   - <kbd class="face">X</kbd>: Cheat menu
-      - <kbd class="face">A</kbd>: Toggle cheat
-      - <kbd class="face">B</kbd>: Exit cheat menu
-      - <kbd class="face">X</kbd>: Save and exit cheat menu
-      - <kbd class="face">Y</kbd>: Show cheat description
-      - <kbd class="l">L</kbd>: Disable all cheats
+    - <kbd class="face">X</kbd>: Cheat menu
+        - <kbd class="face">A</kbd>: Toggle cheat
+        - <kbd class="face">B</kbd>: Exit cheat menu
+        - <kbd class="face">X</kbd>: Save and exit cheat menu
+        - <kbd class="face">Y</kbd>: Show cheat description
+        - <kbd class="l">L</kbd>: Disable all cheats
 - (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Boot shortcuts

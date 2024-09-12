@@ -58,7 +58,7 @@ All the necessary files will be in the `dsidump` folder on the root of your SD c
 1. Navigate to the root of your SD card, and launch dsbf_dump
 1. Wait for the process to complete
 1. After the process is complete, press <kbd>START</kbd> to power off your device
-  - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
+    - On 3DS-family systems, it will instead show "Software closed". Power off your device from this screen
 1. Insert your SD card into your computer
 
 All the necessary files will be in a folder specified on the top screen of your device.

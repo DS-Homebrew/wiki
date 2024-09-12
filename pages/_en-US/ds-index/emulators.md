@@ -62,32 +62,32 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 ## Notes on specific emulators
 ### RAM Disks
 - In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-   - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
-   - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
+    - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
+    - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
 
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
-   - Was made for DSi
-   - Does not require nds-bootstrap RAM Disks
-      - Saving is supported on DSi SD cards
-      - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
-   - Supports arguments
-   - Limit is 3 MB on a **Flashcard**
-      - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
-   - No sound emulation
-   - Framerate is extremely choppy
+    - Was made for DSi
+    - Does not require nds-bootstrap RAM Disks
+        - Saving is supported on DSi SD cards
+        - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
+    - Supports arguments
+    - Limit is 3 MB on a **Flashcard**
+        - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
+    - No sound emulation
+    - Framerate is extremely choppy
 
 - **jEnesisDS**
-   - DS Mode
-      - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
-      - Saving is unavailable for DSi SD cards
-   - Takes a while to load
-   - No argument support
-   - Limit is 3 MB on all platforms (due to roms loading in RAM)
-      - No DS Memory Pak or DSi Extended Memory support
-      - There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down
-   - Sound Emulation
-   - Framerate is smooth
+    - DS Mode
+        - Requires nds-bootstrap's RAM disk to be used for DSi SD cards
+        - Saving is unavailable for DSi SD cards
+    - Takes a while to load
+    - No argument support
+    - Limit is 3 MB on all platforms (due to roms loading in RAM)
+        - No DS Memory Pak or DSi Extended Memory support
+        - There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down
+    - Sound Emulation
+    - Framerate is smooth
 
 
 <!-- Links for tables -->

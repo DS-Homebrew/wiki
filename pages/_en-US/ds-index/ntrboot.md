@@ -15,9 +15,9 @@ tabs:
 ### Required hardware
 
 To use ntrboot on your DSi you will need:
-   - An ntrboot compatible flashcard. [Here's a list of working carts](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Ignore the pre-flashed ones as those use the 3DS version of ntrboot.
-   - A magnet to trigger ntrboot
-   - A second DSi/3DS in order to flash ntrboot to the flashcard
+    - An ntrboot compatible flashcard. [Here's a list of working carts](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Ignore the pre-flashed ones as those use the 3DS version of ntrboot.
+    - A magnet to trigger ntrboot
+    - A second DSi/3DS in order to flash ntrboot to the flashcard
 
 {% capture tab-dsi %}
 
