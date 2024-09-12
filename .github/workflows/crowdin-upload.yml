@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'pages/_en_US/**.md'
+      - 'pages/_en-US/**.md'
       - '_data/_en-US/**.json'
       - 'assets/js/i18n/en-US.js'
   workflow_dispatch:
