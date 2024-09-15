@@ -20,7 +20,7 @@ Dengan TWiLight Menu++, latar belakang dan palet warna teks Unlaunch bisa digant
 1. Unduh [pemasang Unlaunch terkini](https://problemkaputt.de/unlaunch.zip) dan ekstrak `UNLAUNCH.DSI` ke kartu SD
 1. Buka Pengaturan TWiLight Menu++, pindah ke halaman `Pengaturan Unlaunch`, dan pencet `Latar Belakang`, lalu pilih salah satu gambar
 1. Keluar pengaturan dan luncurkan `Unlaunch DSi Installer`
-   - Seharusnya gambar kustom digunakan, jika tidak, matikan daya konsol dan pastikan lagi GIF sudah sesuai persyaratan di atas
+    - Seharusnya gambar kustom digunakan, jika tidak, matikan daya konsol dan pastikan lagi GIF sudah sesuai persyaratan di atas
 1. Pilih `Install Now`
 
 ### Menggunakan GIF lebih dari 31 warna
@@ -29,14 +29,14 @@ Karena palet GIF dimuat ke area VRAM yang sama dengan palet teks, palet GIF akan
 1. Di bilah menu bagian atas, pilih `Image` -> `Mode` -> `Indexed...`
 1. Pilih `Generate optimum palette` dan atur maksimum warna berapa saja sampai 226 warna
 1. Pilih pola *dither* (baur galat) dari menu tarik-turun `Color dithering`
-   - Coba dulu mana yang bagus untuk ukurannya. Gambar tanpa baur galat biasanya dipampat bagus, tapi ada baur galat juga masih bagus
+    - Coba dulu mana yang bagus untuk ukurannya. Gambar tanpa baur galat biasanya dipampat bagus, tapi ada baur galat juga masih bagus
 1. Pencet `Convert`
 1. Di bilah menu bagian atas, pilih `File` -> `Export As...`, tulis namanya dengan ekstensi `.gif`, dan pencet `Export`
-   - Jika ada peringatan, pencet tombol terima
+    - Jika ada peringatan, pencet tombol terima
 1. Di sembulan berikutnya, nonaktifkan `GIF comment` dan pencet `Export`
 1. Periksa ukuran ekspor berkas, jika berukuran 15.472 bita atau kurang, langsung ke no. 13
-1. Jika GIF terlalu besar, maka gunakan [gifsicle](http://www.lcdf.org/gifsicle/) atau [ezgif.com](https://ezgif.com/optimize) untuk mengoptimalkannya
-   - Arahan ini akan lanjut dengan ezgif karena sederhana, berbentuk web
+1. Jika GIF terlalu besar, gunakan [gifsicle](http://www.lcdf.org/gifsicle/) atau [ezgif.com](https://ezgif.com/optimize) untuk mengoptimalkannya
+    - Arahan ini akan lanjut dengan ezgif karena sederhana, berbentuk web
 1. Buka https://ezgif.com/optimize, dan unggah GIF
 1. Coba tingkat pampat yang lain sampai yang bagus serendah 15.472 bita (15,11 KiB), bagusnya agak rendah karena GIMP suka menambah ukurannya sedikit
 1. Simpan GIF optimalnya dan buka di GIMP

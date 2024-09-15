@@ -14,26 +14,27 @@ description: Bedieningselementen voor het gebruik van TWiLight Menu++
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> of <kbd>SELECT</kbd> + <kbd>Links</kbd>/<kbd>Rechts</kbd>: Wissel pagina's
 - (DSi- / Saturn- / HBL-thema) <kbd>SELECT</kbd> + <kbd>Omhoog</kbd>/<kbd>Omlaag</kbd> & loslaten <kbd>SELECT</kbd>: Schakel tussen de SD-kaart en de flashkaart
 - <kbd class="face">Y</kbd>: Instellingen per spel
-   - <kbd class="face">X</kbd>: Cheat-menu
-      - <kbd class="face">A</kbd>: Schakel cheat
-      - <kbd class="face">B</kbd>: Sluit cheat-menu
-      - <kbd class="face">X</kbd>: Sla op en sluit cheat-menu af
-      - <kbd class="face">Y</kbd>: Toon cheat-beschrijving
-      - <kbd class="l">L</kbd>: Alle cheats uitschakelen
+    - <kbd class="face">X</kbd>: Cheat-menu
+        - <kbd class="face">A</kbd>: Schakel cheat
+        - <kbd class="face">B</kbd>: Sluit cheat-menu
+        - <kbd class="face">X</kbd>: Sla op en sluit cheat-menu af
+        - <kbd class="face">Y</kbd>: Toon cheat-beschrijving
+        - <kbd class="l">L</kbd>: Alle cheats uitschakelen
 - <kbd class="face">X</kbd>: Verwijder/verbeg spel
 - (DSi- / Saturn- / HBL-thema) <kbd>SELECT</kbd>: SELECT-menu of DS Classic Menu (Waar systeemmenu, TWiLight Menu++-instellingen, en GBA Mode toegankelijk zijn)
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
 
 #### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Omhoog</kbd>/<kbd>Omlaag</kbd>: Selecteer een spel/app
 - <kbd class="face">A</kbd>: Voer spel/app uit
 - <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Instellingen per spel
-   - <kbd class="face">X</kbd>: Cheat-menu
-      - <kbd class="face">A</kbd>: Schakel cheat
-      - <kbd class="face">B</kbd>: Sluit cheat-menu
-      - <kbd class="face">X</kbd>: Sla op en sluit cheat-menu af
-      - <kbd class="face">Y</kbd>: Toon cheat-beschrijving
-      - <kbd class="l">L</kbd>: Alle cheats uitschakelen
+    - <kbd class="face">X</kbd>: Cheat-menu
+        - <kbd class="face">A</kbd>: Schakel cheat
+        - <kbd class="face">B</kbd>: Sluit cheat-menu
+        - <kbd class="face">X</kbd>: Sla op en sluit cheat-menu af
+        - <kbd class="face">Y</kbd>: Toon cheat-beschrijving
+        - <kbd class="l">L</kbd>: Alle cheats uitschakelen
 - (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Sneltoetsen voor opstarten

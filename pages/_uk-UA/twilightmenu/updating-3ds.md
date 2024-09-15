@@ -23,20 +23,20 @@ tabs:
 
 {% capture tab-universal-updater %}
 1. Відкрийте Universal-Updater
-   - Якщо у вас його немає, дотримуйтесь інструкцій зі [встановлення](installing-3ds)
+    - Якщо у вас його немає, дотримуйтесь інструкцій зі [встановлення](installing-3ds)
 1. Знайдіть TWiLight Menu++ в сітці додатків, ви можете шукати за допомогою 3-ї вкладки на бічній панелі, якщо у вас виникли проблеми з пошуком
 1. Натисніть <kbd class="face">A</kbd> або торкніться іконки завантаження на бічній панелі та виберіть `TWiLight Menu++`, щоб встановити програму
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Завантажте останню версію [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Розпакуйте `TWiLightMenu-3DS.7z`
 1. Скопіюйте теку `_nds` в кореневу теку SD карти, замінивши всі наявні файли
-   - Якщо ви використовуєте macOS, переконайтеся, що **скопіювали** та `об'єднали`, але не `замінили`
+    - Якщо ви використовуєте macOS, переконайтеся, що **скопіювали** та `об'єднали`, але не `замінили`
 1. Скопіюйте файл `BOOT.NDS` в кореневу теку SD карти, замінивши всі наявні файли
 1. Скопіюйте файл `.cia` в кореневу теку SD карти, замінивши всі вже наявні файли
 1. Встановіть CIA файл на вашу 3DS за допомогою FBI

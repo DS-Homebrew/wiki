@@ -13,36 +13,36 @@ Ezek nem érvényesek a homebrew-okra.
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> 2 másodpercig: RAM dumpolása az `sd:/_nds/nds-bootstrap` útvonalra, mint `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>LE</kbd> + <kbd class="face">B</kbd> 2 másodpercig: Visszatérés a loader-be
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> 2 másodpercig: Játék reset
-  - Sok játék alapértelmezés szerint támogatja ezt a gomb kombinációt, de ez erőltetni fogja a reset-et
+    - Sok játék alapértelmezés szerint támogatja ezt a gomb kombinációt, de ez erőltetni fogja a reset-et
 - <kbd class="l">L</kbd> + <kbd>LE</kbd> + <kbd>SELECT</kbd>: Játékonkénti menü megnyitása
-   - <kbd class="r">R</kbd>: Előre egy képkockával
-   - Képernyőkép
-      - <kbd>Fel</kbd>/<kbd>Le</kbd>/<kbd>Bal</kbd>/<kbd>Jobb</kbd>: VRAM bank módosítása
-      - <kbd class="face">A</kbd>: Képernyőkép mentése
-      - <kbd class="face">B</kbd>: Vissza a játékonkénti menübe
-   - RAM Nézegető
-      - <kbd>Fel</kbd>/<kbd>Le</kbd>: Görgetés
-      - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Gyorsgörgetés
-      - <kbd class="r">R</kbd> + <kbd>Fel</kbd>/<kbd>Le</kbd>: Gyorsabb görgetés
-      - <kbd class="r">R</kbd> + <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Legyorsabb görgetés
-      - <kbd class="face">A</kbd>: Belépés a RAM Szerkesztőbe
-      - <kbd class="face">B</kbd>: Vissza a játékonkénti menübe
-      - <kbd class="face">Y</kbd>: Adott memóriacímhez ugrás
-        - <kbd>Fel</kbd>/<kbd>Le</kbd>: Kiválasztott érték növelése/csökkentése
-        - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték választása
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Vissza a RAM Szerkesztőbe/Nézegetőbe a megadott címen
-      - <kbd>SELECT</kbd>: Váltás az [ARM7 és ARM9 memória térképek között](https://problemkaputt.de/gbatek-ds-memory-maps.htm)
-   - RAM Szerkesztő
-      - <kbd>Fel</kbd>/<kbd>Le</kbd>/<kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték választása
-      - <kbd class="face">A</kbd>: Kiválasztott érték módosítása
-         - <kbd>Up</kbd>/<kbd>Down</kbd>: Érték növelése/csökkentése 1h-val
-         - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték növelése/csökkentése 10h-val
-         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Érték módosítás befejezése
-      - <kbd class="face">B</kbd>: Vissza a RAM Nézegetőbe
-      - <kbd class="face">Y</kbd>: Adott memóriacímhez ugrás
-        - <kbd>Fel</kbd>/<kbd>Le</kbd>: Kiválasztott érték növelése/csökkentése
-        - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték választása
-        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Vissza a RAM Szerkesztőbe/Nézegetőbe a megadott címen
+    - <kbd class="r">R</kbd>: Előre egy képkockával
+    - Képernyőkép
+        - <kbd>Fel</kbd>/<kbd>Le</kbd>/<kbd>Bal</kbd>/<kbd>Jobb</kbd>: VRAM bank módosítása
+        - <kbd class="face">A</kbd>: Képernyőkép mentése
+        - <kbd class="face">B</kbd>: Vissza a játékonkénti menübe
+    - RAM Nézegető
+        - <kbd>Fel</kbd>/<kbd>Le</kbd>: Görgetés
+        - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Gyorsgörgetés
+        - <kbd class="r">R</kbd> + <kbd>Fel</kbd>/<kbd>Le</kbd>: Gyorsabb görgetés
+        - <kbd class="r">R</kbd> + <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Legyorsabb görgetés
+        - <kbd class="face">A</kbd>: Belépés a RAM Szerkesztőbe
+        - <kbd class="face">B</kbd>: Vissza a játékonkénti menübe
+        - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
+        - <kbd>SELECT</kbd>: Switch between [ARM7 and ARM9 memory maps](https://problemkaputt.de/gbatek-ds-memory-maps.htm)
+    - RAM Szerkesztő
+        - <kbd>Fel</kbd>/<kbd>Le</kbd>/<kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték választása
+        - <kbd class="face">A</kbd>: Kiválasztott érték módosítása
+            - <kbd>Up</kbd>/<kbd>Down</kbd>: Érték növelése/csökkentése 1h-val
+            - <kbd>Bal</kbd>/<kbd>Jobb</kbd>: Érték növelése/csökkentése 10h-val
+            - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Érték módosítás befejezése
+        - <kbd class="face">B</kbd>: Vissza a RAM Nézegetőbe
+        - <kbd class="face">Y</kbd>: Specify an address to jump to
+        - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
+        - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
+        - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
 - A visszatérés a loader-be elképzelhető, hogy nem működik néhány O3DS modellen és nem működik B4DS módban
 - A játékonkénti menü megnyitására szolgáló billentyű kombináció módosítható a TWiLight Menu++ beállításokban
 - A precíz hangerő beállítás ki és bekacsolható a TWiLight Menu++ beállításaiban

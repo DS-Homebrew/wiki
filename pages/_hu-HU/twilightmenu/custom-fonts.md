@@ -23,6 +23,6 @@ Hozzáadhatsz különböző felülírási betűkészleteket dátumhoz & időhöz
 Létrehozhatod az egyedi betűkészleted olyan eszközökkel, mint például Pk11 [nftr-editor](https://pk11.us/nftr-editor/)-ja. Ahhoz, hogy a TWiLight Menu++ meglévő betűkészleteit újra generálhasd:
 1. Töltsd be az NFTR fájlt az nftr-editor-ba
 1. Írd be a betűkészlet neveket, amit használni szeretnél, legmagasabb prioritástól a legkisebbig az `Input font` szöveg dobozba, vesszőkkel elválasztva
-   - Az előnézetét láthatod a bemenő betűkészletnek a felső dobozban bal oldal és az aktuális NFTR-t az alsó dobozban
+    - Az előnézetét láthatod a bemenő betűkészletnek a felső dobozban bal oldal és az aktuális NFTR-t az alsó dobozban
 1. Kattints a `Generate from font` okcióra, majd az `OK`-ra a meglévő karakterek újragenerálására, és `Cancel`-t a speciális gomb karakterek újragenerálására (pl.: &#xE000;)
 1. Kattints a `Save` opcióra, majd ismételd meg a másik méretre

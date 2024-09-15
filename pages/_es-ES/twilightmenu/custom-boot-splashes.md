@@ -14,6 +14,6 @@ La mayoría de GIFs de 256x192 funcionan, con algunas excepciones:
 - Entre los dos, los GIFs deben pesar menos de 10 MB (Modo DSi) o rondar los 2 MB (Modo DS)
 - Si ambos GIFs están puestos en bucle se mostrarán durante 3 segundos, así que pon un contador de ciclos en al menos uno de ellos para controlar el tiempo
 - Puedes usar la señal de input del usuario y un tiempo de espera en un frame si quieres mostrar la imagen y esperar como las predeterminadas
-   - Solo el GIF que espera el input se parará, por lo que el otro puede seguir moviéndose
+    - Solo el GIF que espera el input se parará, por lo que el otro puede seguir moviéndose
 - Si usas Local Color Tables el frame entero debe sobreescribirse ya que reemplazará la paleta de toda la pantalla, no solo de ese frame
 - No funcionarán frames entrelazados y de texto

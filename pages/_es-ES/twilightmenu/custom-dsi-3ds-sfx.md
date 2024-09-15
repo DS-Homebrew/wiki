@@ -64,4 +64,4 @@ Para exportar en el formato correcto:
 
 Ahora tienes un archivo `bgm.wav` que puede ser copiado a la carpeta `sound` dentro de tu carpeta de temas.
 
- Deberás establecer en la opción de `Música en temas DSi/3DS` de los ajustes de TWiLight Menu++ a "Tema" para que tu sonido personalizado suene en el menú.
+Deberás establecer en la opción de `Música en temas DSi/3DS` de los ajustes de TWiLight Menu++ a "Tema" para que tu sonido personalizado suene en el menú.

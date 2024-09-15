@@ -10,7 +10,7 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 
 ### Installazione
 1. Scarica la versione più recente di [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
@@ -20,7 +20,7 @@ description: Come installare TWiLight Menu++ su una flashcard del Nintendo DS
 
 ### Auto-avvio TWiLight Menu++
 1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
-   - Se non vedi la tua flashcard, salta questo passaggio
+    - Se non vedi la tua flashcard, salta questo passaggio
 1. **Utenti DS Phat/Lite:** Vai nelle impostazioni del menu DS e attiva l'avvio automatico, in questo modo la flashcard si avvierà automaticamente all'avvio
 
 ### Per avviare giochi utilizzando il firmware della flashcard
@@ -35,30 +35,30 @@ Tieni presente che perderai la possibilità di utilizzare i trucchi durante l'es
 {:.alert .alert-warning}
 
 1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
-   - Nella cartella `Flashcart Loader` è presente un file README.txt che aiuta a individuare il caricatore flashcart più adatto alla propria flashcard.
-   - Se l'hai già fatto, passa al terzo passaggio. In caso contrario, segui i passaggi sotto la lista delle flashcard
+    - Nella cartella `Flashcart Loader` è presente un file README.txt che aiuta a individuare il caricatore flashcart più adatto alla propria flashcard.
+    - Se l'hai già fatto, passa al terzo passaggio. In caso contrario, segui i passaggi sotto la lista delle flashcard
 
 1. Per queste flashcard:
-   - R4i-SDHC (r4i-sdhc.com)
-   - r4isdhc.com 2014-2022 card (**non** .hk o .com.cn)
-   - R4i SDHC Upgrade Revolution
-   - R4DSiXL3D
-   - R4i Advance
-   - R4-IIIi
-   - R4 SDHC Revolution
-   - R4(i) Pocket
-   - R4i Gold (v1.4.1) (3DS)
-   - R4 Gold 3DS RTS (r4i-gold.com)
-   - R4xDS
-   - DSTT(i)
-   - DSONE SDHC & DSONEi (i modelli non SDHC non ***sono*** supportati)
-   - M3 DS Real
-   - M3i Zero (modello non-GMP-Z003)
-   - iTouchDS e iTouch2 (utilizza i file YSMenu di M3Real_M3iZero)
-   - R4(i)RTS (r4rts.com) (usa i file YSMenu di M3Real_M3iZero)
-   - R4 SDHC RTS (cartuccia nera) (r4isdhc.com) (utilizza i file YSMenu di M3Real_M3iZero)
+    - R4i-SDHC (r4i-sdhc.com)
+    - r4isdhc.com 2014-2024 cards (**not** .hk or .com.cn)
+    - R4i SDHC Upgrade Revolution
+    - R4DSiXL3D
+    - R4i Advance
+    - R4-IIIi
+    - R4 SDHC Revolution
+    - R4(i) Pocket
+    - R4i Gold (v1.4.1) (3DS)
+    - R4 Gold 3DS RTS (r4i-gold.com)
+    - R4xDS
+    - DSTT(i)
+    - DSONE SDHC & DSONEi (i modelli non SDHC non ***sono*** supportati)
+    - M3 DS Real
+    - M3i Zero (modello non-GMP-Z003)
+    - iTouchDS e iTouch2 (utilizza i file YSMenu di M3Real_M3iZero)
+    - R4(i)RTS (r4rts.com) (usa i file YSMenu di M3Real_M3iZero)
+    - R4 SDHC RTS (cartuccia nera) (r4isdhc.com) (utilizza i file YSMenu di M3Real_M3iZero)
 
-   Installa [YSMenu di RetroGameFan](https://gbatemp.net/download/35737/).
-      - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se non già presente) e la cartella`TTMenu` nella root della microSD della flashcard
-      - Non copiare `TTMenu.dat` direttamente; questo interromperà l'avvio automatico e il soft reset di YSMenu
+    Installa [YSMenu di RetroGameFan](https://gbatemp.net/download/35737/).
+        - Assicurati di avere `YSMenu.nds`(rinominato `TTMenu.dat`, se non già presente) e la cartella`TTMenu` nella root della microSD della flashcard
+        - Non copiare `TTMenu.dat` direttamente; questo interromperà l'avvio automatico e il soft reset di YSMenu
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap

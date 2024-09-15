@@ -41,7 +41,7 @@ Ez az oldal részletesebb szabályokat tartalmaz, mint ami az [#info-and-rules](
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Az egyes következmények természetesen az esettől függnek.
 - A legtöbb felhasználó 4 figyelmeztetést kap kitiltás előtt
-   - Ezekbe a figyelmeztetésekbe bele kell érteni, a !warn parancs használatát, a némítást és a szóbeli figyelmeztetéseket
+    - Ezekbe a figyelmeztetésekbe bele kell érteni, a !warn parancs használatát, a némítást és a szóbeli figyelmeztetéseket
 - A szabálysértés céljával történő csatlakozás kitiltásodhoz vezet
 
 ## Jelentés

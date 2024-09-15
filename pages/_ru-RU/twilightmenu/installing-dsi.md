@@ -13,7 +13,7 @@ description: Как установить TWiLight Menu++ на Nintendo DSi
 
 ### Установка
 1. Скачайте последнюю версию [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Разархивируйте `TWiLightMenu-DSi.7z`
 1. Скопируйте папку `_nds` в корень вашей SD карты
 1. Скопируйте файл `BOOT.NDS` в корень вашей SD карты
@@ -33,12 +33,12 @@ description: Как установить TWiLight Menu++ на Nintendo DSi
 #### Если у вас есть R4(i) Ultra
 
 1. Следуйте [этому](installing-flashcard) руководству, начиная с `Для запуска игр с помощью прошивки флеш-картриджа`
-     - Вы можете спокойно игнорировать предупреждения
+    - Вы можете спокойно игнорировать предупреждения
 1. Откройте Настройки TWLMenu++
 1. Перейдите на страницу `Разные настройки`
 1. Включить `Доступ к microSD в Slot-1`
 1. Выйдите из Настроек TWLMenu++, нажав кнопку `B`
-     - Если вы оказались в Классическом Меню DS, нажмите `B` еще раз
+    - Если вы оказались в Классическом Меню DS, нажмите `B` еще раз
 
 #### Если у вас нет R4(i) Ultra
 
@@ -51,11 +51,11 @@ description: Как установить TWiLight Menu++ на Nintendo DSi
 1. Установите `Режим работы сенсора в Slot-1` на `DSi`
 1. Включите `Автозапуск Slot-1`
 1. Выйдите из Настроек TWLMenu++, нажав кнопку `B`
-     - Если вы оказались в Классическом Меню DS, запустите свой флэш-картридж
-     - В противном случае перезапустите TWiLight Меню++
+    - Если вы оказались в Классическом Меню DS, запустите свой флэш-картридж
+    - В противном случае перезапустите TWiLight Меню++
 
 #### Переключение между SD картой и флэш-картриджем
 - Нажмите либо `SELECT`+`Вверх` или `SELECT`+`Вниз` для переключения между SD картой и флэш-картриджем
-     - Если включено Меню SELECT, вы можете сделать это и в нем
-     - Если вы используете тему 3DS, коснитесь значка Игровой карты/SD карты
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - Если включено Меню SELECT, вы можете сделать это и в нем
+    - Если вы используете тему 3DS, коснитесь значка Игровой карты/SD карты
+    - If you use the R4, GBC, or Wood themes, press `R` button

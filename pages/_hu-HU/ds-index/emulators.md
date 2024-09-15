@@ -54,32 +54,32 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 ## Megjegyzések bizonyos emulátorokhoz
 ### RAM Disk-ek
 - A **jEnesisDS** vagy **neoDS** működéséhez DSi SD kártyáról RAM disket kell használnod az nds-bootstrap-pel
-   - RAM disk készítő a jEnesisDS beépített a TWiLight Menu++-ba. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
-   - Az ok, amiért a RAM disk-ek használtak, az, hogy ezen emulátorok ARM7 hook-jai nem működnek megfelelően
+    - RAM disk készítő a jEnesisDS beépített a TWiLight Menu++-ba. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
+    - Az ok, amiért a RAM disk-ek használtak, az, hogy ezen emulátorok ARM7 hook-jai nem működnek megfelelően
 
 ### A PicoDriveTWL és a jEnesisDS összehasonlítása
 - **PicoDriveTWL**
-   - DSi-hez készült
-   - Nincs szüksége nds-bootstrap RAM Disk-ekre
-      - A mentés támogatott a DSi SD kártyákra
-      - Gyorsabb betöltési idő a TWiLight Menu++ és az emulátor között DSi SD kártyán
-   - Argumentumok támogatása
-   - A korlát 3 MB egy **Flashcard-on**
-      - Felhasználja a DSi extra RAM-ot vagy a DS Memory Pak-ot, hogy kiterjessze ezt a korlátot
-   - Nincs hang emuláció
-   - A framerate extrém változó
+    - DSi-hez készült
+    - Nincs szüksége nds-bootstrap RAM Disk-ekre
+        - A mentés támogatott a DSi SD kártyákra
+        - Gyorsabb betöltési idő a TWiLight Menu++ és az emulátor között DSi SD kártyán
+    - Argumentumok támogatása
+    - A korlát 3 MB egy **Flashcard-on**
+        - Felhasználja a DSi extra RAM-ot vagy a DS Memory Pak-ot, hogy kiterjessze ezt a korlátot
+    - Nincs hang emuláció
+    - A framerate extrém változó
 
 - **jEnesisDS**
-   - DS mód
-      - Nds-bootstrap RAM disk-re van szüksége, hogy használható legyen DSi SD kártyákkal
-      - A mentés nem lehetséges DSi SD kártyákra
-   - Eltart egy ideig a betöltése
-   - Nincs argumentum támogatás
-   - A korlát 3 MB minden platformon (mert a ROM-ok betöltődnek a RAM-ba)
-      - Nincs DS Memory Pak vagy DSi Extended Memory támogatás
-      - Létezik egy patch a Sonic 3 & Knuckles-hez, ami eltávolítja a többjátékos üzemmódot, hogy csökkentse a méretet
-   - Hang emuláció
-   - A framerate állandó
+    - DS mód
+        - Nds-bootstrap RAM disk-re van szüksége, hogy használható legyen DSi SD kártyákkal
+        - A mentés nem lehetséges DSi SD kártyákra
+    - Eltart egy ideig a betöltése
+    - Nincs argumentum támogatás
+    - A korlát 3 MB minden platformon (mert a ROM-ok betöltődnek a RAM-ba)
+        - Nincs DS Memory Pak vagy DSi Extended Memory támogatás
+        - Létezik egy patch a Sonic 3 & Knuckles-hez, ami eltávolítja a többjátékos üzemmódot, hogy csökkentse a méretet
+    - Hang emuláció
+    - A framerate állandó
 
 
 <!-- Links for tables -->

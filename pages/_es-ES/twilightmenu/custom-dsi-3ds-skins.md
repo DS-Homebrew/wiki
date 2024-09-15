@@ -35,7 +35,7 @@ Estas imágenes pueden ser archivos PNG o archivos BMP de 16 bits (`A1 R5 G5 B5`
 | bottom_bubble_ds    | Para el tema Nintendo 3DS, la textura de fondo de la pantalla inferior cuando el cursor está sobre algún icono en una consola DS Phat/Lite     |
 | bottom_bubble_macro | Para el tema Nintendo DSi, la textura de fondo cuando el cursor está sobre algún icono en el modo Macro                                        |
 | bottom_moving         | Para el tema Nintendo DSi, la textura de fondo de la pantalla inferior cuando se está moviendo un icono de sitio                               |
-| bottom_moving_macro | Para el tema Nintendo DSi, la textura de fondo cuando se está moviendo un icono de sitio en el modo Macro                                      |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                                                           |
 
 ### Texturas del indicador de batería (carpeta `battery`)
 Estas imágenes deben tener formato PNG. Los píxeles transparentes se verán como tal, pero solamente píxeles 100% transparentes funcionarán.
@@ -58,7 +58,7 @@ Estas imágenes deben tener formato PNG. Los píxeles transparentes se verán co
 | batterylow         | Usado en modo DS                                                                                           |
 
 ### Texturas con paleras (carpeta `grf`)
-Estas imagenes deben ser archivos BMP de 16 colores (4 bits por pixel).
+These must be 4 BPP (16 color) BMP files.
 
 Para editar estas imágenes en GIMP, haz clic en `Imagen` -> `Modo` -> `RGB` para que puedas cambiar los colores, al terminar, haz clic en `Imagen` -> `Modo` -> `Indexado...` para convertir la imagen de vuelta a modo paleta de colores. Cuando cambies a modo indexado, asegúrate de que `Generar paleta óptima` está marcado y que `Número máximo de colores` esté puesto en `16`.
 
@@ -182,10 +182,10 @@ Puedes configurar varios parámetros de renderizado del tema en el archivo `them
 | `UsernameRenderX`          | La posición horizontal en la pantalla superior en la que se dibujará el nombre de usuario                                                              | 28                | 28                |
 | `UsernameRenderY`          | La posición vertical en la pantalla superior en la que se dibujará el nombre de usuario                                                                | 15                | 15                |
 | `UsernameRenderXDS`        | La posición horizontal en la pantalla superior en la que se dibujará el nombre de usuario al usar una DS Phat/Lite                                     | 4                 | 4                 |
-| `DateRenderX`              | La posición horizontal en la pantalla superior en la que se dibujará el texto de la fecha                                                              | 162               | 162               |
-| `DateRenderY`              | La posición vertical en la pantalla superior en la que se dibujará el texto de la fecha                                                                | 7                 | 7                 |
-| `TimeRenderX`              | La posición horizontal en la pantalla superior en la que se dibujará el texto de la hora                                                               | 200               | 200               |
-| `TimeRenderY`              | La posición vertical en la pantalla superior en la que se dibujará el texto de la hora                                                                 | 7                 | 7                 |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                                                 | 162               | 162               |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                                                 | 7                 | 7                 |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                                                 | 200               | 200               |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                                                 | 7                 | 7                 |
 | `PurpleBatteryAvailable`   | Si se usan o no lo iconos de batería púrpura si la opción `Color del LED de encendido` está establecido como `Púrpura` en los ajustes                  | 1                 | 1                 |
 | `FontPalette1`             | El color transparente de la fuente, no se usa en la fuentes por defecto                                                                                | 0x0000            | 0x0000            |
 | `FontPalette2`             | Los colores de la fuente. Usa [este sitio](http://www.conradshome.com/html2bgr15/) para convertir de formato hexadecimal a BGR15, el formato requerido | 0xDEF7            | 0xDEF7            |

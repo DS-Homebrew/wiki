@@ -23,6 +23,6 @@ TWiLight Menu++ 可以使用 NFTR（Nitro FonT Resource）格式的自定义字�
 您可以使用 Pk11 的 [nftr-editor](https://pk11.us/nftr-editor/) 等实用程序制作自己的字体。 使用它重新生成 TWiLight Menu++ 现有字体之一：
 1. 在 nftr-editor 中加载 NFTR 文件
 1. 在 `Input font`（输入字体）文本框中，按优先级从高到低键入要使用的字体名称，以逗号分隔。
-   - 您可以在左上方的方框中看到输入字体的预览，在下方的方框中看到当前的 NFTR
+    - 您可以在左上方的方框中看到输入字体的预览，在下方的方框中看到当前的 NFTR
 1. 单击 `Generate from font`（从字体生成），然后选择 `OK` 重新生成现有字符，选择 `Cancel`（取消）重新生成特殊按钮字符（例如 &#xE000;）。
 1. 单击 `Save`（保存），然后重复其他尺寸的操作

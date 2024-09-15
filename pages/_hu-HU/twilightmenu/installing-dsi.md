@@ -13,7 +13,7 @@ Ha még nincs megoldásod a homebrew futtatására a DSi-den, kövesd a [dsi.cfw
 
 ### Telepítés
 1. Töltsd le a legutolsó [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) verziót
-   - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Csomagold ki `TWiLightMenu-DSi.7z` fájlt
 1. Másold az `_nds` mappát a microSD kártyád gyökerébe
 1. Másold a `BOOT.NDS` fájlt a microSD kártyád gyökerébe
@@ -33,12 +33,12 @@ A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalm
 #### Ha R4(i) Ultra kártyád van
 
 1. Kövesd [ezt](installing-flashcard) az útmutatót a`To run games using your flashcard firmware` ponttól kezdve
-     - Biztonságosan ignorálhatod a figyelmeztetéseket
+    - Biztonságosan ignorálhatod a figyelmeztetéseket
 1. Nyisd meg a TWLMenu++ beállításait
 1. Válts az `Egyéb beállítások` oldalra
 1. Kapcsold be a `Slot-1 microSD hozzáférést`
 1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
-     - Ha a DS Classic menübe kerültél, nyomd meg újra a `B` gombot
+    - Ha a DS Classic menübe kerültél, nyomd meg újra a `B` gombot
 
 #### Ha nincs R4(i) Ultra kártyád
 
@@ -51,11 +51,11 @@ A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalm
 1. Állítsd be a `Slot-1: Érintés mód` to `DSi mód`-ra
 1. Kapcsold be az `Auto-start Slot-1`-et
 1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
-     - Ha a DS Classic menübe kerültél, indítsd el a flashcard-od
-     - Egyébként indítsd újra a TWiLight Menu++-t
+    - Ha a DS Classic menübe kerültél, indítsd el a flashcard-od
+    - Egyébként indítsd újra a TWiLight Menu++-t
 
 #### Váltás az SD és a flashcard tartalmak között
 - Nyomd meg a `SELECT`+`Fel` vagy a `SELECT`+`Le` gombokat az SD és a flashkártya tartalma közötti váltáshoz
-     - Ha a SELECT menü engedélyezve van, akkor ott is megteheted ezt
-     - Ha a 3DS témát használod, érintsd meg a Játékkártya/SD-kártya ikont
-     - Ha az R4, GBC vagy Wood témát használod, nyomd meg az `R` gombot
+    - Ha a SELECT menü engedélyezve van, akkor ott is megteheted ezt
+    - Ha a 3DS témát használod, érintsd meg a Játékkártya/SD-kártya ikont
+    - Ha az R4, GBC vagy Wood témát használod, nyomd meg az `R` gombot

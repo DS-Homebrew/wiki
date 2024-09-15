@@ -16,7 +16,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 #### 如何解决启动 TWiLight Menu++ 时出现白屏的问题？
 - 重新启动主机
 - 如果这不起作用，将你的SD卡格式化为FAT32，分配单元大小为32KB。
-   - 请参阅 [dsi.cfw.guide 的页面](https://dsi.cfw.guide/sd-card-setup.html)了解推荐的工具。
+    - 请参阅 [dsi.cfw.guide 的页面](https://dsi.cfw.guide/sd-card-setup.html)了解推荐的工具。
 - 如果这也不奏效，尝试换一张SD卡
 
 #### 如何解决启动游戏之后触摸屏失灵的问题？
@@ -57,7 +57,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 #### 我该怎么改变 TWiLight Menu++ 的语言？
 1. 打开 TWiLight Menu++ 设置，你可以在加载TWiLight Menu++时按住 <kbd>SELECT</kbd> 打开设置
 1. 改变第一个选项，直到你看到你想要的语言，然后退出设置
-   - 你可能还想改变nds-bootstrap设置页面上的前三个选项，因为它们可以控制DS游戏的语言和地区以及TWiLight Menu++ 中的标题
+    - 你可能还想改变nds-bootstrap设置页面上的前三个选项，因为它们可以控制DS游戏的语言和地区以及TWiLight Menu++ 中的标题
 
 #### 这是一个 DS(i) 模拟器吗？
 不是，这不是一个模拟器。 菜单和DS游戏（通过nds-bootstrap加载）在主机的DS/DSi模式下原生运行。 唯一模拟的游戏机是过去的游戏机，但GBA是部分模拟的（一些或所有的部分如图形是原生运行的）。

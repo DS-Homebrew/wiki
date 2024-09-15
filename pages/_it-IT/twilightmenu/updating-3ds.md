@@ -23,20 +23,20 @@ Se si esegue l'aggiornamento da una versione precedente alla v25.7.0, si consigl
 
 {% capture tab-universal-updater %}
 1. Apri Universal-Updater
-   - Se non ce l'hai, segui le istruzioni [d'installazione](installing-3ds)
+    - Se non ce l'hai, segui le istruzioni [d'installazione](installing-3ds)
 1. Trova TWiLight Menu++ nella griglia delle applicazioni, puoi effettuare una ricerca con la terza scheda sulla barra laterale se hai problemi a trovarla
 1. Premi <kbd class="face">A</kbd> o tocca l'icona del download nella barra laterale e seleziona `TWiLight Menu++` per installarlo
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Scarica la versione più recente di [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Estrai `TWiLightMenu-3DS.7z`
 1. Copia la cartella `_nds` nella root della tua scheda SD, sostituendo quella già presente
-   - Se usi macOS, assicurati di **Copiare** e `Unire<1/>, non <code>Sostituire`
+    - Se usi macOS, assicurati di **Copiare** e `Unire<1/>, non <code>Sostituire`
 1. Copia il file `BOOT.NDS` nella root della tua scheda SD, sostituendo il file già presente
 1. Copiare il file `.cia` nella root della scheda SD, sostituendo i file esistenti
 1. Sul tuo 3DS, installa il file CIA con FBI

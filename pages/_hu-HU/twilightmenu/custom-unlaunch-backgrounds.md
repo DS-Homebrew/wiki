@@ -20,7 +20,7 @@ A TWiLight Menu++ használatával patchelheted az Unlaunch installert, hogy egye
 1. Töltsd le a [legfrissebb Unlaunch telepítőt](https://problemkaputt.de/unlaunch.zip) és csomagold ki az `UNLAUNCH.DSI`-t az SD kártyádra
 1. Nyisd meg a TWiLight Menu++ beállításokat, és válts az `Unlaunch beállítások` oldalra, és kattints a `Háttér`-re, majd válaszd ki amelyiket szeretnéd
 1. Lépj ki a beállításokból és indítsd el az `Unlaunch DSi Installer`-t
-   - Használnia kell majd az egyedi képedet, ha mégsem, akkor kapcsold ki a konzolod, és ellenőrizd, hogy a GIF fájlod megfelel-e a fenti követelményeknek
+    - Használnia kell majd az egyedi képedet, ha mégsem, akkor kapcsold ki a konzolod, és ellenőrizd, hogy a GIF fájlod megfelel-e a fenti követelményeknek
 1. Válaszd az `Install Now` opciót
 
 ### 31 színnél többel rendelkező GIF használata
@@ -29,14 +29,14 @@ Mivel a GIF palettája VRAM-ba ugyanoda került betöltésre, ahova a szöveg pa
 1. A menüben felül válaszd a `Kép` -> `Mód` -> `Indexelt...` opciókat
 1. Válaszd az `Optimális paletta előállítása` opciót, és állíts a színek maximális számát 226-ra
 1. Válassz egy színszórás (dithering) mintát a `Színszórás` lenyíló listából
-   - A képek színszórás nélkül általában jobban tömöríthetők, de vele általában jobban néznek ki; próbáld ki melyik néz ki jobban a mérethez
+    - A képek színszórás nélkül általában jobban tömöríthetők, de vele általában jobban néznek ki; próbáld ki melyik néz ki jobban a mérethez
 1. Kattints az `Átalakítás` gombra
 1. A menüben felül válaszd az `Fájl` ->`Exportálás másként...` opciót, majd adj neki nevet a `.gif` kiterjesztéssel és kattints az `Exportálás` gombra
-   - Ha bármilyen figyelmeztetést ad, kattints az Elfogad gombra
+    - Ha bármilyen figyelmeztetést ad, kattints az Elfogad gombra
 1. A következő előugró ablakban tilts le a `GIF-megjegyzés`-t és kattints az `Exportálás` gombra
 1. Ellenőrizd az exportált fájl méretét, hogy 15 472 bájt vagy kisebb lett-e, és ha igen, ugorj a 13. lépésre
 1. Ha a GIF-ed túl nagy, akkor vagy a [gifsicle](http://www.lcdf.org/gifsicle/) vagy az [ezgif.com](https://ezgif.com/optimize) használatával próbáld meg optimalizálni
-   - Ezek az instrukciók az ezgif használatát mutatják be, ami egyszerű, mert ez egy weboldal
+    - Ezek az instrukciók az ezgif használatát mutatják be, ami egyszerű, mert ez egy weboldal
 1. Nyisd meg https://ezgif.com/optimize oldalt és töltsd fel a GIF fájlodat
 1. Próbálj ki különböző tömörítési szinteket, hogy megtaláld a legjobbat 15 472 bájt alatt (15.11 KiB), ideálisan egy kicsit alatta, mert a GIMP még növelheti kicsit a méretet
 1. Mentsd le az optimalizált GIF-et, majd nyisd meg GIMP-ben

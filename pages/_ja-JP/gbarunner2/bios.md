@@ -11,7 +11,7 @@ GBARunner2でソフトを実行するためには、GBA BIOSが必要になり�
 ### ダンプガイド
 
 - [GBA/DS/DS LiteとGBAフラッシュカートまたは3DS](bios-dump)
-   - GBA BIOSをDSiでダンプすることは**不可能**です
+    - GBA BIOSをDSiでダンプすることは**不可能**です
 - [Wii(Familyエディション以外)/ゲームキューブ+リンクケーブルダンパー](https://github.com/FIX94/gba-link-cable-dumper)
 
 GBARunner2がそれを読むため、BIOSをダンプした後に`bios.bin`に名前を変更する必要があり、`sd:/`、`sd:/gba/`または`sd:/_gba/`に配置してください。

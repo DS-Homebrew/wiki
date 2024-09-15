@@ -23,6 +23,6 @@ Les skins personnalisés peuvent également utiliser des polices de remplacement
 Vous pouvez créer vos propres polices en utilisant un utilitaire tel que [nftr-editor](https://pk11.us/nftr-editor/) de Pk11. Pour régénérer l'une des polices existantes de TWiLight Menu++ en l'utilisant :
 1. Charger un fichier NFTR dans nftr-editor
 1. Tapez les noms des polices que vous voulez utiliser de la plus haute à la plus basse priorité dans la zone de texte `Input font`, séparés par des virgules
-   - Vous pouvez voir un aperçu des polices d'entrée dans la boîte supérieure à gauche et le NFTR actuel dans la boîte inférieure
+    - Vous pouvez voir un aperçu des polices d'entrée dans la boîte supérieure à gauche et le NFTR actuel dans la boîte inférieure
 1. Cliquez sur `Generate from font`, puis dites `OK` pour régénérer les caractères existants et `Cancel` pour régénérer les caractères des boutons spéciaux (par ex. )
 1. Cliquer sur `Save`, puis répéter pour les autres tailles

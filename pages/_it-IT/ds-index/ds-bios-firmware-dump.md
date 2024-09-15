@@ -59,7 +59,7 @@ Tutti i file necessari si trovano nella cartella `dsidump` nella root della sche
 1. Navigare fino alla root della scheda SD e avvia dsbf_dump
 1. Attendi il termine del processo
 1. Al termine del processo, premi <kbd>START</kbd> per spegnere la console
-  - Sui sistemi della famiglia 3DS, invece, mostrerà "Software chiuso". Spegni il dispositivo da questa schermata
+    - Sui sistemi della famiglia 3DS, invece, mostrerà "Software chiuso". Spegni il dispositivo da questa schermata
 1. Inserisci la scheda SD nel tuo computer
 
 Tutti i file necessari si trovano in una cartella specificata nella schermata superiore del dispositivo.

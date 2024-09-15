@@ -64,4 +64,4 @@ A megfelelő formátumban exportáláshoz a következőket tedd:
 
 Most már rendelkezel a `bgm.wav` fájllal, ami bemásolható a `sound` almappába a témád mappáján belül.
 
- Ezután a `DSi/3DS téma zene` opciót a TWiLight Menu++ beállításaiban a "Téma" értékre kell állítani, hogy az egyéni BGM lejátszódjon a menüben.
+Ezután a `DSi/3DS téma zene` opciót a TWiLight Menu++ beállításaiban a "Téma" értékre kell állítani, hogy az egyéni BGM lejátszódjon a menüben.

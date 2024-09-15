@@ -14,6 +14,6 @@ De flesta GIF-filer upp till 256x192 bör fungera, med några undantag:
 - Mellan de två måste GIF-filerna vara mindre än ca 10 MB (DSi Mode) eller ca 2 MB (DS Mode)
 - Om båda GIF-filerna är inställda till att loopa för alltid kommer de att visas i 3 sekunder. Så ange antalen loopar till minst en gång för att styra tiden
 - Användarinmatning stöds, så ställ in den och en lång fördröjning på en ram om du vill visa en splash och vänta som standard
-   - Endast GIF-filer som väntar på indata kommer att pausas, så den andra kan fortsätta animera
+    - Endast GIF-filer som väntar på indata kommer att pausas, så den andra kan fortsätta animera
 - Om du använder lokala färgtabeller måste hela ramen skrivas över eftersom det kommer att ersätta hela skärmens palett, inte bara den aktuella ramen
 - Sammanflätade ramar och textramar fungerar inte

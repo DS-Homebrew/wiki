@@ -41,7 +41,7 @@ Questa pagina fornisce maggiori dettagli sulle regole descritte nel canale [#inf
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Naturalmente, le conseguenze specifiche saranno gestite caso per caso.
 - La maggior parte degli utenti finisce per ricevere 4 avvertimenti prima di essere bannata
-   - Questi avvertimenti includono l'uso del comando !warn, il silenziamento e gli avvertimenti verbali
+    - Questi avvertimenti includono l'uso del comando !warn, il silenziamento e gli avvertimenti verbali
 - Unirsi con lo scopo di infrangere le regole ti farà bannare
 
 ## Segnalare

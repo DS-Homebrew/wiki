@@ -13,7 +13,7 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 
 ### 安装
 1. 下载最新的 [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-DSi.7z`
 1. 将 `_nds` 文件夹复制到 SD 卡的根目录下
 1. 将 `BOOT.NDS` 文件复制到 SD 卡的根目录下
@@ -33,12 +33,12 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 #### 如果您有 R4(i) Ultra
 
 1. 要使用烧录卡固件运行游戏，请从[本指南](installing-flashcard)的`使用烧录卡固件运行游戏`章节开始阅读
-     - 您可以放心地忽略这些警告
+    - 您可以放心地忽略这些警告
 1. 打开 TWLMenu++ 设置
 1. 切换到 `Misc settings`（杂项设置）页面
 1. 打开 `Slot-1 microSD access`（Slot-1 microSD访问）
 1. 按 `B` 键退出 TWLMenu++ 设置
-     - 如果您最后进入的是 DS 经典菜单，请再次按 `B`
+    - 如果您最后进入的是 DS 经典菜单，请再次按 `B`
 
 #### 如果您没有 R4(i) Ultra
 
@@ -51,11 +51,11 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 1. 将 `Slot-1: Touch Mode` 设置为 `DSi 模式`
 1. 打开 `Auto-start Slot-1`
 1. 按 `B` 键退出 TWLMenu++ 设置
-     - 如果您最后进入的是 DS 经典菜单，请启动烧录卡
-     - 否则，重新启动 TWiLight Menu++
+    - 如果您最后进入的是 DS 经典菜单，请启动烧录卡
+    - 否则，重新启动 TWiLight Menu++
 
 #### 在 SD 卡和烧录卡内容之间切换
 - 按 `SELECT`+`↑` 或 `SELECT`+`↓` 在 SD 卡和烧录卡内容之间切换
-     - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
-     - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
-     - 如果你用的主题是 R4、GBC 或 Wood 主题，按`R`键
+    - 如果启用了 SELECT 菜单，也可以在该菜单中进行操作
+    - 如果使用 3DS 主题，请点击游戏卡/SD 卡图标
+    - 如果你用的主题是 R4、GBC 或 Wood 主题，按`R`键

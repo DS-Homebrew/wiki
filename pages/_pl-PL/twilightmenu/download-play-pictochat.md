@@ -16,7 +16,7 @@ W GodMode9:
 1. Select `Open title folder`
 1. Select `00000000.tmd`, then select `TMD file options...`
 1. Select `Dump CXI/NDS file`
-   - The file will be in `0:/gm9/out/`
+    - The file will be in `0:/gm9/out/`
 1. Copy `DS Download Play (NTR-HDNA).nds` to `0:/_nds/`, and rename it to `dlplay.nds`
 
 The above steps will increase DLP boot speed.

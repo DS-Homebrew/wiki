@@ -19,8 +19,8 @@ hiyaCFWはSDカード上にのみ存在し、NAND上には存在しません。 
 UnlaunchでhiyaCFWを自動起動に設定した場合は、使わなくなった今、この設定を変更するとことができます。
 
 1. ニンテンドーDSiにSDカードを挿入して、<kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したまま本体を起動
-   - UnlaunchのFilemenuを開きます
+    - UnlaunchのFilemenuを開きます
 1. `OPTIONS`にアクセスし、`NO BUTTON`を希望のアプリケーションに設定
-   - システムNANDを自動起動させたい場合は、`Launcher`というアプリに設定
-   - TWiLight Menu++を自動起動させたい場合は、`BOOT.NDS`というファイルを選択
+    - システムNANDを自動起動させたい場合は、`Launcher`というアプリに設定
+    - TWiLight Menu++を自動起動させたい場合は、`BOOT.NDS`というファイルを選択
 1. `SAVE & EXIT`を選択

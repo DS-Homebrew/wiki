@@ -16,7 +16,7 @@ GodMode9에서:
 1. `Open title folder`를 선택해 주세요.
 1. `00000000.tmd`를 선택하고, `TMD file options...`를 선택해 주세요.
 1. `Dump CXI/NDS file`을 선택해 주세요.
-   - `0:/gm9/out/`에 nds 파일이 있을 것입니다.
+    - `0:/gm9/out/`에 nds 파일이 있을 것입니다.
 1. `DS Download Play (NTR-HDMA).nds`를 `0:/_nds/`로 복사하고 `dlplay.nds`로 이름을 바꿔 주세요.
 
 위 절차는 다운로드 플레이 부팅 속도를 높여줍니다.

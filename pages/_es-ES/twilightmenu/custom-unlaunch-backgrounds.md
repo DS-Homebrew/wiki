@@ -20,7 +20,7 @@ Con TWiLight Menu++ puedes parchear el instalador de Unlaunch para tener una ima
 1. Descarga el último [instalador de Unlaunch](https://problemkaputt.de/unlaunch.zip) y extrae `UNLAUNCH.DSI` en la tarjeta SD
 1. Abre los ajustes de TWiLight Menu++, cambia a la página de `Unlaunch settings`, toca en `Background` y elige el que quieras
 1. Sal de los ajustes y abre `Unlaunch DSi Installer`
-   - Debería usar tu imagen, si no es el caso apaga la consola y asegúrate de que el GIF cumple los requisitos antes mencionados
+    - Debería usar tu imagen, si no es el caso apaga la consola y asegúrate de que el GIF cumple los requisitos antes mencionados
 1. Selecciona `Install Now`
 
 ### Usar GIFs con más de 31 colores
@@ -29,14 +29,14 @@ Al cargarse la paleta del GIF en el mismo sitio de la VRAM que la paleta de los 
 1. En la barra superior del menú, selecciona `Image` -> `Mode` -> `Indexed...`
 1. Selecciona `Generate optimum palette` y pon como colores máximos cualquier cantidad hasta 226
 1. Elige un patrón de dithering en el desplegable de `Color dithering`
-   - Las imágenes sin dithering suelen comprimirse mejor, pero se ven mejor si se usa, así que prueba y elige la que más te guste
+    - Las imágenes sin dithering suelen comprimirse mejor, pero se ven mejor si se usa, así que prueba y elige la que más te guste
 1. Haz clic en `Convert`
 1. En la barra superior del menú, selecciona `File` -> `Export As...`, dale un nombre con extensión `.gif`, y pincha `Export`
-   - Si salta alguna advertencia, pincha en Aceptar
+    - Si salta alguna advertencia, pincha en Aceptar
 1. En la siguiente ventana, desactiva `GIF comment` y pincha en `Export`
 1. Comprueba el tamaño del archivo exportado, si tiene 15,472 bytes o menos salta al paso 13
 1. Si el GIF es demasiado grande, usa [gifsicle](http://www.lcdf.org/gifsicle/) o [ezgif.com](https://ezgif.com/optimize) para optimizarlo
-   - Estas instrucciones son para ezgif al ser una página web y más simple
+    - Estas instrucciones son para ezgif al ser una página web y más simple
 1. Abre https://ezgif.com/optimize y sube tu GIF
 1. Prueba distintos niveles de compresión hasta que encuentres el mejor menor de 15,472 bytes (15.11 KiB), preferiblemente un poco más bajo ya que GIMP puede aumentar su tamaño
 1. Guarda el GIF optimizado y ábrelo en GIMP

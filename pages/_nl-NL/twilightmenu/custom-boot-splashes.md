@@ -14,6 +14,6 @@ De meeste GIF-bestanden tot 256x192 zouden moeten werken, met een paar uitzonder
 - Tussen beide moeten de GIF's minder dan ongeveer 10 MB (DSi-modus) of ongeveer 2 MB (DS-modus) zijn
 - Als beide GIF's zijn ingesteld om eeuwig te werken, worden ze 3 seconden getoond, dus stel een lusaantal in op tenminste één GIF om de tijd te bedienen
 - De gebruikersinvoer wordt ondersteund, dus stel deze in en een lange vertraging op een frame als u een opslagscherm wilt tonen en wacht per de standaardinstellingen
-   - Alleen de GIF die wacht op invoer wordt gepauzeerd, zodat de andere verder kan animeren
+    - Alleen de GIF die wacht op invoer wordt gepauzeerd, zodat de andere verder kan animeren
 - Bij gebruik van Lokale Kleurentabellen moet het hele frame worden overschreven, omdat het hele schermpalet wordt vervangen, niet alleen het huidige frame
 - Interlaced en tekstframes werken niet

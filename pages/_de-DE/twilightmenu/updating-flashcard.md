@@ -16,10 +16,10 @@ Wenn ein Update von einer Version älter als v21.0.0 erfolgt, verschiebe bitte d
 
 ### Aktualisieren
 1. Lade die neueste Version von [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) herunter
-   - Wenn die Datei nicht heruntergeladen werden kann, lesen Sie die [Release-Seite](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Wenn die Datei nicht heruntergeladen werden kann, lesen Sie die [Release-Seite](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-3DS.7z `entpacken
 1. Kopiere den `_nds` Ordner in den Hauptordner der microSD-Karte deiner Flashkarte, ersetze alle existierenden Dateien
-   - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`
+    - Wenn Sie macOS verwenden, vergewissern Sie sich, dass Sie **** und `Merge`kopieren, nicht `Ersetzen`
 1. Kopiere die `BOOT.NDS` Datei in das Hauptverzeichnis der microSD-Karte deiner Flashkarte, ersetze alle existierenden Dateien
 1. Wenn TWLMenu++ nach der Aktualisierung nicht bootet, aktualisieren Sie auch die Autoboot-Datei(en)
 

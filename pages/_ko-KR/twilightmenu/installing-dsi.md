@@ -13,7 +13,7 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 
 ### 설치하기
 1. 최신 버전의 [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)를 다운로드 하세요.
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-DSi.7z`를 압축 해제하세요
 1. SD 카드 루트에 `_nds` 폴더를 복사하세요
 1. SD 카드 루트에 `BOOT.NDS` 파일을 복사하세요
@@ -33,12 +33,12 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 #### R4(i) Ultra를 사용하는 경우
 
 1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - 경고는 무시해도 됩니다
+    - 경고는 무시해도 됩니다
 1. TWLMenu++ 설정을 여세요
 1. Switch to the `Misc settings` page
 1. Turn on `Slot-1 microSD access`
 1. `B` 버튼을 눌러 TWLMenu++ 설정을 종료하세요
-     - If you end up in the DS Classic Menu, press `B` again
+    - If you end up in the DS Classic Menu, press `B` again
 
 #### R4(i) Ultra가 없는 경우
 
@@ -51,11 +51,11 @@ description: 닌텐도 DSi에서 TWiLight Menu++를 설치하는 방법
 1. Set `Slot-1: Touch Mode` to `DSi mode`
 1. Turn on `Auto-start Slot-1`
 1. `B` 버튼을 눌러 TWLMenu++ 설정을 종료하세요
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+    - If you end up in the DS Classic Menu, launch your flashcard
+    - Otherwise, restart TWiLight Menu++
 
 #### Switching between SD and flashcard contents
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - SELECT 메뉴가 활성화된 경우 이 메뉴에서도 선택할 수 있습니다
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - SELECT 메뉴가 활성화된 경우 이 메뉴에서도 선택할 수 있습니다
+    - If you use the 3DS theme, touch the Game Card/SD Card icon
+    - If you use the R4, GBC, or Wood themes, press `R` button

@@ -23,20 +23,20 @@ Jika memperbarui dari versi di bawah v25.7.0, disarankan menghapus `TWiLight Men
 
 {% capture tab-universal-updater %}
 1. Buka Universal-Updater
-   - Jika belum punya, ikuti arahan [pemasangan](installing-3ds) ini
+    - Jika belum punya, ikuti arahan [pemasangan](installing-3ds) ini
 1. Cari TWiLight Menu++ di kisi layar aplikasi, gunakan tab ketiga pada bilah sisi jika kesusahan mencari
 1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
-   - Ini akan lumayan lama
-   - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
+    - Ini akan lumayan lama
+    - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
-   - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD, timpa berkas yang ada
-   - Untuk macOS, harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)
+    - Untuk macOS, harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)
 1. Salin berkas `BOOT.NDS` ke akar kartu SD, timpa berkas yang ada
 1. Salin berkas `.cia` ke akar kartu SD, timpa berkas yang ada
 1. Di konsol 3DS, pasang CIA tadi dengan FBI

@@ -41,7 +41,7 @@ This page provides more details to the rules outlined in the [#info-and-rules](h
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Of course, the specific consequences will be handled on a case by case basis.
 - Most users end up having 4 warnings before they are banned
-   - These warnings include using the actual !warn command, getting muted, and also verbal warnings
+    - These warnings include using the actual !warn command, getting muted, and also verbal warnings
 - Joining for the purpose of rule breaking will get you banned
 
 ## Reporting

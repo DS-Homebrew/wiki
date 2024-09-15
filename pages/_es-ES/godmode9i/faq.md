@@ -40,13 +40,13 @@ GodMode9i puede usar datos de guardados de cartuchos de GBA para volcar los dato
 
 1. Inicia GodMode9i desde tu flashcard
 1. ¡¡Respalda tus archivos de guardado de GBA!!
-   - Cualquier archivo que no haya sido respaldado se perderá
-   - Comprueba los archivos y encuentra los más grandes. Los archivos de 512 bytes no serán muy útiles, mientras que los de 64 o 128 KiB podrán almacenar la mayoría de archivos de guardado de DS en uno o dos cartuchos
+    - Cualquier archivo que no haya sido respaldado se perderá
+    - Comprueba los archivos y encuentra los más grandes. Los archivos de 512 bytes no serán muy útiles, mientras que los de 64 o 128 KiB podrán almacenar la mayoría de archivos de guardado de DS en uno o dos cartuchos
 1. En el menú de unidades, presiona <kbd class="r">R</kbd> + <kbd class="face">B</kbd> para desmontar la flashcard
 1. Expulsa la flashcard, inserta un cartucho de juegos de DS y un cartucho de juegos de GBA
 1. Selecciona la opción `TARJETA DE JUEGO NDS` y luego `Archivo de guardado`
 1. Cuando se te pregunte, presiona <kbd class="face">A</kbd> para escribir los datos al cartucho de GBA
-   - Cambia de cartucho de GBA y repute hasta que todo el archivo de guardado se copie
+    - Cambia de cartucho de GBA y repute hasta que todo el archivo de guardado se copie
 1. Reinicia la consola con la flashcard en la ranura Slot-1 y reabre GodMode9i
 1. Inserta el primer cartucho de GBA que usaste y selecciona la opción `TARJETA DE JUEGO GBA`
 1. Elige la opción `Archivo de Guardado DS`

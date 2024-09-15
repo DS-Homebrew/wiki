@@ -14,26 +14,27 @@ description: Kontroller för att använda TWiLight Meny++
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> or <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: Switch pages
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd> & release <kbd>SELECT</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Spelspecifika inställningar
-   - <kbd class="face">X</kbd>: Fuskmeny
-      - <kbd class="face">A</kbd>: Växla på/av fusk
-      - <kbd class="face">B</kbd>: Avsluta fuskmenyn
-      - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
-      - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
-      - <kbd class="l">L</kbd>: Inaktivera alla fusk
+    - <kbd class="face">X</kbd>: Fuskmeny
+        - <kbd class="face">A</kbd>: Växla på/av fusk
+        - <kbd class="face">B</kbd>: Avsluta fuskmenyn
+        - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
+        - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
+        - <kbd class="l">L</kbd>: Inaktivera alla fusk
 - <kbd class="face">X</kbd>: Ta bort/dölj spel
 - (DSi/Saturn/HBL theme) <kbd>SELECT</kbd>: SELECT menu or DS Classic Menu (Where system menu, TWiLight Menu++ Settings, and GBA Mode can be accessed)
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
 
 #### Original R4, GameBoy Color and Wood UI themes
 - <kbd>Up</kbd>/<kbd>Down</kbd>: Select a game/app
 - <kbd class="face">A</kbd>: Launch game/app
 - <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: Spelspecifika inställningar
-   - <kbd class="face">X</kbd>: Fuskmeny
-      - <kbd class="face">A</kbd>: Växla på/av fusk
-      - <kbd class="face">B</kbd>: Avsluta fuskmenyn
-      - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
-      - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
-      - <kbd class="l">L</kbd>: Inaktivera alla fusk
+    - <kbd class="face">X</kbd>: Fuskmeny
+        - <kbd class="face">A</kbd>: Växla på/av fusk
+        - <kbd class="face">B</kbd>: Avsluta fuskmenyn
+        - <kbd class="face">X</kbd>: Spara och avsluta fuskmenyn
+        - <kbd class="face">Y</kbd>: Visa fuskbeskrivning
+        - <kbd class="l">L</kbd>: Inaktivera alla fusk
 - (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### Boot-genvägar

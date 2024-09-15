@@ -66,7 +66,7 @@ Ezek a szerepkörök moderátorok által kioszthatók csak, és jelzik, hogy eze
 
 - Developers - Ezt azok kapják, akik hozzájárultak kóddal a Nintendo DS scene-hez. Ha van valami projekted a szerepkörhöz, mutasd meg a #nds-dev csatornán
 - Helpers - Ezt azok kapják, akik aktívan biztosítanak használható segítséget az #nds-help csatornán, vagy hozzájárultak a kompatibilitás jelentésekhez
-   - A Helper-ek nem rendelkeznek moderátor jogokkal, így moderátornak jelezz, ha a szituáció azt igényli
+    - A Helper-ek nem rendelkeznek moderátor jogokkal, így moderátornak jelezz, ha a szituáció azt igényli
 - Nitro Boosters - Azok kapják, akik adtak Server Boost-ot a szervernek. Ez a szerepkör nem rendelkezik további jogosultságokkal, és nem kerül feltüntetésre a taglistában
 
 ### Büntető szerepkörök

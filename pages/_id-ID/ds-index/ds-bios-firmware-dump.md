@@ -59,7 +59,7 @@ Semua berkas yang perlu akan ada dalam folder `dsidump` di akar kartu SD.
 1. Navigasi ke akar kartu SD, dan luncurkan dsbf_dump
 1. Tunggu proses ini selesai
 1. Setelah proses selesai, tekan <kbd>START</kbd> untuk mematikan daya konsol
-  - Di jenis konsol 3DS, nanti akan muncul "Software closed". Matikan daya konsol saat di layar ini
+    - Di jenis konsol 3DS, nanti akan muncul "Software closed". Matikan daya konsol saat di layar ini
 1. Sisipkan kartu SD ke komputer Anda
 
 Semua berkas yang perlu ada dalam folder sesuai penjelasan di layar atas konsol.

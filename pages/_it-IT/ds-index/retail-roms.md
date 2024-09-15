@@ -48,19 +48,19 @@ Flashcards can take advantage of cheat codes by using cheat databases. Cheat fun
 
 Homebrew/digital-based solutions can also take advantage of the cheat databases, the software currently available can use the following:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lets you use cheats with real Game Cards from a flashcard. L'engine utilizzato qui carica l'intero database cheats.xml nella RAM limitata del Nintendo DS e cerca di gestire le cose da lì. Questo impone un serio limite a quanti trucchi si può avere, in quanto NitroHax non caricherà un file cheats.xml al di sopra di 2,4 MB
+    - NitroHax lets you use cheats with real Game Cards from a flashcard. L'engine utilizzato qui carica l'intero database cheats.xml nella RAM limitata del Nintendo DS e cerca di gestire le cose da lì. Questo impone un serio limite a quanti trucchi si può avere, in quanto NitroHax non caricherà un file cheats.xml al di sopra di 2,4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS è una versione di NitroHax che viene eseguita dalla scheda SD del sistema su DSi o 3DS. La versione originale utilizza cheats.xml con lo stesso limite come l'originale NitroHax, ma c'è anche una fork che carica trucchi da un database usrcheat.dat senza limiti di dimensione
+    - NitroHax3DS è una versione di NitroHax che viene eseguita dalla scheda SD del sistema su DSi o 3DS. La versione originale utilizza cheats.xml con lo stesso limite come l'originale NitroHax, ma c'è anche una fork che carica trucchi da un database usrcheat.dat senza limiti di dimensione
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
-   - L'engine dei trucchi utilizzato in nds-bootstrap si basa su quello usato da NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
+    - TWiLight Menu++ reads the `usrcheat.dat` and sends off the enabled cheat values to another file, which nds-bootstrap picks up
+    - L'engine dei trucchi utilizzato in nds-bootstrap si basa su quello usato da NitroHax. However, due to the cheat file containing only enabled cheats for that specific title, there is only a limit to how many cheats can be enabled, not a limit on the database size
 
 For the most complete cheat database, using [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) is recomended.
 
 Cheat codes generally have types 0 through F, and here is an (unfinished) description of them:
 
 - The 0xE code type is a 32-bit code type that allows you to make multiple writes in many consecutive addresses all at once. Essentially, it is like the basic 32-bit RAM write code type (0x0), except this doesn't have addresses listed next the the values you want to write. Instead, the 0xE code type is programmed to automatically branch from a starting address, then determine the addresses to write to. From there, you just have to tack in the amount to write to in order for it to do the job
-  - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
+    - It is known that cheat codes of this type usually do not work with nds-bootstrap currently
 - DeadSkullzJr is working on a more comprehensive list of cheat code descriptions, this section will link to that once it is ready
 
 ### Demonstration and Distribution Titles:

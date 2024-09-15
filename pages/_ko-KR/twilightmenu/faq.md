@@ -16,7 +16,7 @@ TWL_FIRM이 알 수 없는 이유로 망가졌을 수 있습니다. 문제를 �
 #### TWiLight Menu++를 부팅할 때 하얀 화면만 떠있는 문제는 어떻게 고칠 수 있나요?
 - Reboot the console
 - If that doesn't work, format your SD card to FAT32 with 32 KB cluster/allocation size
-   - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
+    - See [dsi.cfw.guide's page](https://dsi.cfw.guide/sd-card-setup.html) for the recommended tools
 - 이렇게까지 했는데도 효과가 없으면, 다른 SD카드로 시도해보세요.
 
 #### How do I fix touch screen not working after launching a game?
@@ -57,7 +57,7 @@ Yes. You can use [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) o
 #### How do I change TWiLight Menu++'s language?
 1. TWiLight Menu++의 설정을 여세요. TWiLight Menu++가 로딩될 때 <kbd>SELECT</kbd>버튼을 누르면 바로 설정으로 넘어갈 수 있습니다.
 1. Change the first option until you see the language you want, then exit settings
-   - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
+    - You may also want to change the first three options on the nds-bootstrap settings page as they control the language and region of DS games and their titles in TWiLight Menu++
 
 #### Is this a DS(i) emulator?
 No, this is not an emulator. The menu and DS games (loaded via nds-bootstrap) are ran natively in the console's DS/DSi mode. The only consoles emulated are the past consoles, but partially for GBA (as some or all parts like graphics are ran natively).

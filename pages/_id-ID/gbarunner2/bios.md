@@ -11,7 +11,7 @@ Untuk memuat permainan di GBARunner2, diperlukan *dump* BIOS GBA. Versi terbaru 
 ### Panduan Membuat Dump
 
 - [GBA/DS/DS Lite dengan *flashcart* GBA atau 3DS](bios-dump)
-   - BIOS GBA **tidak mungkin** bisa di-*dump* dari DSi
+    - BIOS GBA **tidak mungkin** bisa di-*dump* dari DSi
 - [Wii (bukan Family Edition)/GameCube, GBA, dan *link cable dumper*](https://github.com/FIX94/gba-link-cable-dumper)
 
 Setelah men-*dump* BIOS, berkas harus diubah nama menjadi `bios.bin` lalu ditaruh di `sd:/`, di `sd:/gba/`, atau `sd:/_gba/` agar dibaca GBARunner2.

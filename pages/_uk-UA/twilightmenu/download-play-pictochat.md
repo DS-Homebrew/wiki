@@ -16,7 +16,7 @@ description: Як отримати DS Download Play та PictoChat у Класи
 1. Виберіть `Open title folder`
 1. Виберіть `00000000.tmd`, потім оберіть `TMD file options...`
 1. Виберіть `Dump CXI/NDS file`
-   - Файл буде розміщено за адресою `0:/gm9/out/`
+    - Файл буде розміщено за адресою `0:/gm9/out/`
 1. Скопіюйте `DS Download Play (NTR-HDNA).nds` у теку `0:/_nds/`та перейменуйте його на `dlplay.nds`
 
 Вищевказані кроки збільшать швидкість завантаження DLP.

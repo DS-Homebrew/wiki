@@ -48,19 +48,19 @@ Flashcards können die Vorteile von Cheat-Codes nutzen, indem sie Cheat-Datenban
 
 Homebrew/Digital-basierte Lösungen können ebenfalls die Vorteile der Cheat-Datenbanken nutzen, die derzeit verfügbare Software kann Folgendes verwenden:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - Mit NitroHax können Sie Cheats mit echten Game Cards von einer Flashcard verwenden. Die hier verwendete Engine lädt die gesamte cheats.xml-Datenbank in den begrenzten Arbeitsspeicher des Nintendo DS und versucht, die Dinge von dort aus zu verwalten. Dies stellt eine ernsthafte Einschränkung für die Anzahl der Cheats dar, da NitroHax keine Cheats.xml-Datei über 2,4 MB laden wird
+    - Mit NitroHax können Sie Cheats mit echten Game Cards von einer Flashcard verwenden. Die hier verwendete Engine lädt die gesamte cheats.xml-Datenbank in den begrenzten Arbeitsspeicher des Nintendo DS und versucht, die Dinge von dort aus zu verwalten. Dies stellt eine ernsthafte Einschränkung für die Anzahl der Cheats dar, da NitroHax keine Cheats.xml-Datei über 2,4 MB laden wird
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` oder `usrcheat.dat`)
-   - NitroHax3DS ist eine Version von NitroHax, die von der SD-Karte des Systems auf DSi oder 3DS läuft. Die Originalversion verwendet cheats.xml mit der gleichen Begrenzung von 2,4 MB wie das ursprüngliche NitroHax, aber es gibt auch einen Fork, der Cheats aus einer usrcheat.dat-Datenbank ohne Größenbegrenzung lädt
+    - NitroHax3DS ist eine Version von NitroHax, die von der SD-Karte des Systems auf DSi oder 3DS läuft. Die Originalversion verwendet cheats.xml mit der gleichen Begrenzung von 2,4 MB wie das ursprüngliche NitroHax, aber es gibt auch einen Fork, der Cheats aus einer usrcheat.dat-Datenbank ohne Größenbegrenzung lädt
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ liest die `usrcheat.dat` und sendet die aktivierten Cheat-Werte an eine andere Datei, die von nds-bootstrap abgeholt wird
-   - Die in nds-bootstrap verwendete Cheat-Engine basiert auf der in NitroHax verwendeten. Da die Cheat-Datei jedoch nur aktivierte Cheats für den jeweiligen Titel enthält, gibt es nur eine Begrenzung für die Anzahl der aktivierbaren Cheats, nicht für die Größe der Datenbank
+    - TWiLight Menu++ liest die `usrcheat.dat` und sendet die aktivierten Cheat-Werte an eine andere Datei, die von nds-bootstrap abgeholt wird
+    - Die in nds-bootstrap verwendete Cheat-Engine basiert auf der in NitroHax verwendeten. Da die Cheat-Datei jedoch nur aktivierte Cheats für den jeweiligen Titel enthält, gibt es nur eine Begrenzung für die Anzahl der aktivierbaren Cheats, nicht für die Größe der Datenbank
 
 Für die vollständigste Cheat-Datenbank wird die [NDS Cheat Database von DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) empfohlen.
 
 Cheat-Codes haben im Allgemeinen die Typen 0 bis F, und hier ist eine (unfertige) Beschreibung von ihnen:
 
 - Der Codetyp 0xE ist ein 32-Bit-Codetyp, der es ermöglicht, mehrere Schreibvorgänge an mehreren aufeinanderfolgenden Adressen auf einmal durchzuführen. Im Wesentlichen handelt es sich dabei um den grundlegenden 32-Bit-RAM-Schreibcode-Typ (0x0), nur dass hier keine Adressen neben den zu schreibenden Werten aufgeführt sind. Stattdessen ist der Codetyp 0xE so programmiert, dass er automatisch von einer Startadresse aus verzweigt und dann die Adressen bestimmt, an die geschrieben werden soll. Von dort aus müssen Sie nur noch den Betrag eingeben, auf den geschrieben werden soll, damit er seine Aufgabe erfüllt
-  - Es ist bekannt, dass Cheat-Codes dieser Art normalerweise nicht mit nds-bootstrap funktionieren
+    - Es ist bekannt, dass Cheat-Codes dieser Art normalerweise nicht mit nds-bootstrap funktionieren
 - DeadSkullzJr arbeitet an einer umfassenderen Liste von Cheat-Code-Beschreibungen, die hier verlinkt wird, sobald sie fertig ist
 
 ### Demonstrations- und Vertriebstitel:

@@ -23,6 +23,6 @@ Skin kustom bisa ditambah *font* timpaan untuk tanggal & waktu menggunakan `date
 *Font* bisa dibuat sendiri dengan utilitas seperti [nftr-editor](https://pk11.us/nftr-editor/). Untuk menghasilkan *font* seperti yang di TWiLight Menu++, caranya:
 1. Buka berkas NFTR di nftr-editor
 1. Ketik nama *font* yang ingin digunakan dari urutan yang atas sampai bawah di kotak teks `Input font`, dipisah huruf koma
-   - Pratayang masukan *font* bisa dilihat di kotak atas sebelah kiri dan NFTR saat ini di kotak bawah
+    - Pratayang masukan *font* bisa dilihat di kotak atas sebelah kiri dan NFTR saat ini di kotak bawah
 1. Pencet `Generate from font`, dan pencet `OK` untuk membentuk ulang huruf yang ada lalu `Cancel` untuk membentuk ulang huruf khusus (contoh: &#xE000;)
 1. Pencet `Save`, lalu ulangi jika untuk ukuran lain

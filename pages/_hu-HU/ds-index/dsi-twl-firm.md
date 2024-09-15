@@ -11,13 +11,13 @@ description: Információk a Nintendo DSi és a Nintendo 3DS TWL_FIRM-jéről
 A DSi és 3DS rendszer családok moddingjának legfőbb előnye, hogy több felold további lehetőségeket a konzolodban. Az egyedi firmware telepítése elég könnyű és a legtöbb esetben csak egy (micro)SD kártyára van szükséged hozzá. Alább a legjobb útmutatók, amit követhetsz, lépésről lépésre leírásokkal:
 
 - [3DS Hacking Guide](https://3ds.hacks.guide)
-   - Lightning parancs: `mod 3ds`
-   - TWLHelper parancs: `guide 3ds`
-   - Kurisu parancs: `guide 3ds`
+    - Lightning parancs: `mod 3ds`
+    - TWLHelper parancs: `guide 3ds`
+    - Kurisu parancs: `guide 3ds`
 - [DSi Hacking Guide](https://dsi.cfw.guide)
-   - Lightning parancs: `mod dsi`
-   - TWLHelper parancs: `guide dsi`
-   - Kurisu parancs: `guide dsi`
+    - Lightning parancs: `mod dsi`
+    - TWLHelper parancs: `guide dsi`
+    - Kurisu parancs: `guide dsi`
 
 ### CPU sebességek
 A Nintendo DS 67 MHz-es processzorral került szállításra 2004-ben, a Nintendo DSi pedig 133 MHz-es processzorral öt év múlva. A legtöbb játék a Nintendo DS könyvtárból azelőtt készült, mielőtt a Nintendo DSi kijött, így az elérhető processzor sebesség számukra csak 67 MHz volt. Néhány alkalmazás ehhez az órajelhez kötötte magát, és azok ennek eredményeként nem fognak jól működni magasabb órajel sebességgel. A legtöbb játék azonban jobban teljesít az eredetinél magasabb órajellel.

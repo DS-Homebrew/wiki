@@ -41,7 +41,7 @@ Diese Seite bietet weitere Details zu den Regeln im Kanal [#info-and-rules](http
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Natürlich werden die spezifischen Folgen von Fall zu Fall gehandhabt.
 - Die meisten Benutzer haben am Ende 4 Warnungen, bevor sie gebannt werden
-   - Diese Warnungen beinhalten die Verwendung des eigentlichen !warn-Befehls, das Stummschalten und auch verbale Warnungen
+    - Diese Warnungen beinhalten die Verwendung des eigentlichen !warn-Befehls, das Stummschalten und auch verbale Warnungen
 - Wenn du dich zum Regelbruch anmeldest, wirst du gebannt
 
 ## Berichterstattung

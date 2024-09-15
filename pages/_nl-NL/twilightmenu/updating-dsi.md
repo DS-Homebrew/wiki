@@ -16,10 +16,10 @@ Als je bijwerkt vanaf een versie ouder dan v21.0.0, verplaats dan je `.pub`- en/
 
 ### Bijwerken
 1. Download de meest recente versie van [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Pak `TWiLightMenu-DSi.7z` uit
 1. Kopieer de map `_nds` naar de root van je SD-kaart, alle bestaande bestanden zullen worden vervangen
-   - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`
+    - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`
 1. Kopieer het bestand `BOOT.NDS` naar de root van je SD-kaart, alle bestaande bestanden zullen worden vervangen
 1. **hiyaCFW-gebruikers:** Kopieer de map `title` naar de root van je SD-kaart, alle bestaande bestanden zullen worden vervangen
-   - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`
+    - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`

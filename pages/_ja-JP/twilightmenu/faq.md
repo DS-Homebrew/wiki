@@ -16,7 +16,7 @@ TWL_FIRMが何らかの原因で破損した可能性があります。 この�
 #### TWiLight Menu++の起動時に、白い画面が表示されるのを修正したい
 - 本体を再起動してください
 - それでもうまくいかない場合は、32KBのアロケーションサイズに指定したFAT32でSDカードをフォーマットしてください
-   - 推奨ツールは[dsi.cfw.guideのページ](https://dsi.cfw.guide/sd-card-setup.html)をご覧ください
+    - 推奨ツールは[dsi.cfw.guideのページ](https://dsi.cfw.guide/sd-card-setup.html)をご覧ください
 - それでもうまくいかない場合は、別のSDカードをお試しください
 
 #### How do I fix touch screen not working after launching a game?
@@ -57,7 +57,7 @@ nds-bootstrapの良くある質問ページの[I'm having issues with my ROM(s),
 #### How do I change TWiLight Menu++'s language?
 1. TWiLight Menu++設定を開きます。これを行うには、TWiLight Menu++を読み込んでいる間に<kbd>SELECT</kbd>を押し続けます
 1. 言語が表示されるまで最初のオプションを変更し、設定を終了します
-   - また、nds-bootstrap設定ページの最初の3つのオプションを変更することもできます。これらのオプションは、DSゲームの言語と地域、およびTWiLight Menu++のタイトルを制御します
+    - また、nds-bootstrap設定ページの最初の3つのオプションを変更することもできます。これらのオプションは、DSゲームの言語と地域、およびTWiLight Menu++のタイトルを制御します
 
 #### Is this a DS(i) emulator?
 いいえ、これはエミュレータではありません。 メニューとDSゲーム（nds-bootstrap経由で起動）は、本体のDS・DSiモードでネイティブに実行されます。 エミュレートされるのは過去のゲーム機だけです。GBAは一部がエミュレートされます（グラフィックなど一部または全部がネイティブで動作しているため）。

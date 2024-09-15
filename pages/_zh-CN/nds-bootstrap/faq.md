@@ -36,16 +36,16 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 - 使用某些游戏卡，你能够在你的游戏中使用红外线
 - nds-bootstrap是开源的，这意味着开发人员可以随时更新它，以修复错误和其他东西，即使项目被终止
 - 模拟DS内存扩展卡，这意味着需要该附件的游戏可以运行
-     - 目前，只有 *Nintendo DS Browser* 可模拟它
+    - 目前，只有 *Nintendo DS Browser* 可模拟它
 - 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换
 - 使用游戏中的菜单进行截图和RAM编辑
 
 #### DS/DS Lite：为什么在DS烧录卡上使用nds-bootstrap？
 - 某些兼容的ROM被加载到内存扩展卡（或含有RAM的Slot-2烧录卡）中，允许加载时间甚至比普通游戏卡更快。
 - 使用内置补丁和 DSi-Enhanced 游戏的Donor ROM可以运行超过400个DSiWare
-     - 请记住，nds-bootstrap将始终用于DSiWare，无论在TWLMenu++设置中的 `nds-bootstrap` 是否启用
-     - 并非所有 DSiWare 游戏都能保存，这是因为很难为它们添加保存支持，以及/或者它们在保存文件系统中存储了多个文件
-     - 某些 DSiWare 将需要《四狂神战记》的 Donor ROM 设置
+    - 请记住，nds-bootstrap将始终用于DSiWare，无论在TWLMenu++设置中的 `nds-bootstrap` 是否启用
+    - 并非所有 DSiWare 游戏都能保存，这是因为很难为它们添加保存支持，以及/或者它们在保存文件系统中存储了多个文件
+    - 某些 DSiWare 将需要《四狂神战记》的 Donor ROM 设置
 - 如果你的烧录卡内核不能运行某个ROM，可以用nds-bootstrap来代替，并且可以按游戏特定设置
 - 在兼容的游戏中调换上下屏幕，以获得更舒适的游戏体验，或者在屏幕破损或拆除的系统上调换
 - 使用游戏中的菜单进行截图和RAM编辑
@@ -55,7 +55,7 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 捐赠的ROM可以用 **TW**i**L**ight Menu++来设置。
 - **DS模式的烧录卡：** 支持的DSi-Exclusive/DSiWare游戏将需要一个DSi-Enhanced ROM作为Donor ROM
 - **DSiWarehax：** 由于DSi-Enhanced游戏和（大多数）DSi-Exclusive/DSiWare游戏都含有不同的MBK设置，如果没有Donor ROM，DSi-Enhanced游戏将无法在DSi模式下启动。 通过将DSi-Exclusive/DSiWare游戏设置为Donor ROM，DSi-Enhanced游戏将能够在该漏洞所使用的DSiWare游戏设置的MBK内运行。
-     - 在 DSi 上，如果 **TW**i**L**ight Menu++ 检测到未设置Donor ROM， *Nintendo DSi Sound* 和/或您已启动的有效游戏将自动设置为Donor ROM。
+    - 在 DSi 上，如果 **TW**i**L**ight Menu++ 检测到未设置Donor ROM， *Nintendo DSi Sound* 和/或您已启动的有效游戏将自动设置为Donor ROM。
 - **CycloDS iEvolution：** 与DSiWarehax的情况相同，但是恰恰相反，DSi-Exclusive/DSiWare游戏需要将DSi-Enhanced游戏设置为Donor ROM。
 
 #### 哪个是最好的Donor ROM？
@@ -74,7 +74,7 @@ nds-bootstrap对ROM功能进行了修补，以便从SD卡上运行，因为ROM�
 
 #### 为什么我的金手指不起作用？
 - 一些金手指可能需要使用按键激活或其他需要满足的条件。 请查看金手指的描述以了解更多信息
-  - 在 **TW**i**L**ight Menu++中，你可以按Y键查看特定金手指的信息（如果有的话）
+    - 在 **TW**i**L**ight Menu++中，你可以按Y键查看特定金手指的信息（如果有的话）
 - 大多数金手指是为在DS模式下使用而开发的，在DSi模式下运行时可能无法正确工作。 如果游戏是DSi-Enhanced，尝试将其设置为在DS模式下运行
 - nds-bootstrap中实现的E-type金手指目前是不稳定，这意味着它们可能会也可能不会工作。 你的金手指可能使用了这种类型，而且不知道这个问题何时能得到解决。
 

@@ -40,13 +40,13 @@ GodMode9i is able to use the save data of GBA cartridges to dump the saves of mo
 
 1. Load GodMode9i on your flashcard
 1. Backup your GBA saves!!
-   - Any save data that hasn't been backed up will be lost
-   - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
+    - Any save data that hasn't been backed up will be lost
+    - Check the files and find the larger ones, using 512 byte carts won't help much while 64 or 128 KiB saves will fit most DS saves in 1 or 2 carts
 1. On the drive menu, press <kbd class="r">R</kbd> + <kbd class="face">B</kbd> to unmount the flashcard
 1. Eject the flashcard, insert a DS Game Card and GBA cartridge
 1. Select `NDS GAMECARD` then `Save`
 1. When asked, press <kbd class="face">A</kbd> to write the data to the GBA cart
-   - Swap to different GBA cartridges and repeat until the whole save is copied
+    - Swap to different GBA cartridges and repeat until the whole save is copied
 1. Reboot your DS with your Slot-1 flashcard back in and reopen GodMode9i
 1. Insert the first GBA cartridge you used and select `GBA GAMECART`
 1. Choose `DS Save`

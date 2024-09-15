@@ -66,7 +66,7 @@ Peran berikut hanya diberikan oleh moderator, dan menandakan pengguna tersebut m
 
 - Developers - Peran ini diberikan untuk pengembang yang bersumbangsih kode pada belantika Nintendo DS. Jika punya proyek dan ingin peran ini, beri tahu di #nds-dev
 - Helpers - Peran ini diberikan untuk penolong yang giat memberi bantuan berarti di #nds-help atau yang bersumbangsih melaporkan kompatibilitas
-   - Helpers tidak punya izin moderator, silakan "ping" moderator jika di saat sulit
+    - Helpers tidak punya izin moderator, silakan "ping" moderator jika di saat sulit
 - Nitro Booster - Diberikan otomatis untuk yang telah memberi *Server Boost* ke server. Peran ini tidak diberi izin tambahan, dan tidak dikeataskan di Daftar Anggota
 
 ### Peran Hukuman
@@ -82,7 +82,7 @@ Jika melanggar peraturan, maka peran berikut akan diberikan moderator.
 Peran berikut hanya diberikan oleh moderator untuk hal tertentu.
 
 - Bots - Menandai bot Discord yang di server
-- Special Thanks - Terima kasih khusus untuk yang bersumbangsih besar ke komunitas
+- Special Thanks - Terima kasih khusus untuk penyumbangsih besar ke komunitas
 
 ## Perintah "Lightning"
 Lightning adalah bot Discord oleh [LightSage](https://github.com/LightSage) yang terdapat perintah-perintah berguna untuk komunitas modifikasi. Perintah yang paling umum digunakan itu `!togglerole`, nanti akan muncul daftar peran berikut:

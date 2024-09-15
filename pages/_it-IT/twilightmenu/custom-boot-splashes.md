@@ -14,6 +14,6 @@ La maggior parte dei file GIF fino a 256x192 dovrebbe funzionare, con alcune ecc
 - Tra i due, le GIF devono essere inferiori a circa 10 MB (Modalità DSI) o circa 2 MB (Modalità DS)
 - Se entrambe le GIF sono impostate su loop per sempre, verranno mostrate per 3 secondi, quindi imposta un conteggio del loop su almeno uno per controllare il tempo
 - Il flag per l'input dell'utente è supportato, quindi impostalo insieme a un ritardo prolungato su un fotogramma, se vuoi mostrare uno splash e attendere come nelle impostazioni predefinite
-   - Solo la GIF che aspetta un input viene stoppata, così le altre possono continuare
+    - Solo la GIF che aspetta un input viene stoppata, così le altre possono continuare
 - Se si utilizzano le tabelle colori locali, è necessario sovrascrivere l'intero fotogramma, poiché verrà sostituita l'intera tavolozza dello schermo, non solo il fotogramma corrente
 - I fotogrammi interlacciati e di testo non funzionano

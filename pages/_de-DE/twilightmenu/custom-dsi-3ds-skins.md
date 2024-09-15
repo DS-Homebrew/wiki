@@ -35,7 +35,7 @@ Dies können PNG-Dateien oder 16-Bit (`A1 R5 G5 B5` oder `X1 R5 G5 B5`) BMP-Date
 | bottom_bubble_ds    | Für das 3DS-Thema, die untere Hintergrundtextur, wenn auf einem DS Phat/Lite der Mauszeiger auf ein Symbol zeigt                 |
 | bottom_bubble_macro | Für das DSi-Thema, die Hintergrundtextur, wenn der Mauszeiger, während der Makromodus verwendet wird, auf ein Symbol zeigt       |
 | bottom_moving         | Für das DSi-Thema, die untere Hintergrundtextur beim Verschieben eines Symbols                                                   |
-| bottom_moving_macro | Für das DSi-Thema, die Hintergrundtextur beim Verschieben eines Symbols im Makromodus                                            |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                                             |
 
 ### Batterie-Texturen (`battery` Ordner)
 Diese müssen PNG-Dateien sein. Transparenz wird unterstützt, aber nur 100 % Transparenz wird funktionieren.
@@ -58,7 +58,7 @@ Diese müssen PNG-Dateien sein. Transparenz wird unterstützt, aber nur 100 % T
 | batterylow         | Wird im DS-Modus verwendet                                                                                       |
 
 ### Palettierte Texturen (`grf` Ordner)
-Es muss sich um 4 BPP-Dateien (16 Farben) handeln.
+These must be 4 BPP (16 color) BMP files.
 
 Um diese in GIMP zu bearbeiten, wählen Sie `Bild` -> `Modus` -> `RGB`, um das Ändern von Farben zu ermöglichen, dann, wenn Sie mit dem Ändern der Farben fertig sind, wählen Sie `Bild` -> `Modus` -> `Indexed...`, um wieder in eine Palette zu konvertieren. Wenn Sie auf Indexed umschalten, stellen Sie sicher, dass `Optimale Palette generieren` aktiviert ist und `Maximale Anzahl von Farben` auf `16`eingestellt ist.
 
@@ -182,10 +182,10 @@ In der Datei `theme.ini` kannst du verschiedene Optionen für die Darstellung de
 | `UsernameRenderX`          | Die X-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen                                                                        | 28             | 28             |
 | `UsernameRenderY`          | Die Y-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen                                                                        | 15             | 15             |
 | `UsernameRenderXDS`        | Die X-Position auf dem oberen Bildschirm, um den Text des Benutzernamens zu zeichnen, wenn auf einem DS Phat/Lite                                           | 4              | 4              |
-| `DateRenderX`              | Die X-Position auf dem oberen Bildschirm zum Zeichnen des Datumstextes                                                                                      | 162            | 162            |
-| `DateRenderY`              | Die Y-Position auf dem oberen Bildschirm zum Zeichnen des Datumstextes                                                                                      | 7              | 7              |
-| `TimeRenderX`              | Die X-Position auf dem oberen Bildschirm zum Zeichnen des Zeittextes                                                                                        | 200            | 200            |
-| `TimeRenderY`              | Die Y-Position auf dem oberen Bildschirm zum Zeichnen des Zeittextes                                                                                        | 7              | 7              |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                                                      | 162            | 162            |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                                                      | 7              | 7              |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                                                      | 200            | 200            |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                                                      | 7              | 7              |
 | `PurpleBatteryAvailable`   | Ob die violetten Batteriesymbole verwendet werden sollen oder nicht, wenn die `Farbe der Power-LED` in den Einstellungen auf `Violett` eingestellt ist      | 1              | 1              |
 | `FontPalette1`             | Die transparente Farbe der Schrift, unbenutzt für Standard-Schriften                                                                                        | 0x0000         | 0x0000         |
 | `FontPalette2`             | Die Farben der Schrift, verwenden Sie [diese Website](http://www.conradshome.com/html2bgr15/) zu konvertieren                                               | 0xDEF7         | 0xDEF7         |

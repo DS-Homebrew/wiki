@@ -64,4 +64,4 @@ Um im richtigen Format zu exportieren:
 
 Jetzt haben Sie eine `bgm.wav-Datei`, die Sie in den `Sound-Unterordner` in Ihrem Themenordner kopieren können.
 
- Sie sollten dann die `DSi/3DS-Theme-Musik-Option` in den TWiLight Menu++-Einstellungen auf "Theme" setzen, damit Ihre benutzerdefinierte BGM im Menü abgespielt wird.
+Sie sollten dann die `DSi/3DS-Theme-Musik-Option` in den TWiLight Menu++-Einstellungen auf "Theme" setzen, damit Ihre benutzerdefinierte BGM im Menü abgespielt wird.

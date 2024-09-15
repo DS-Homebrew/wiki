@@ -15,6 +15,7 @@ A Nintendo DS, Nintendo DSi, Nintendo 3DS ésNintendo 2DS konzolok mind képesek
 | Max CPU sebesség      | 67mhz                                               | 133mhz[^1]                                                  | 133mhz[^1]                                              |
 | Kamera                | Nem                                                 | Igen                                                        | Igen                                                    |
 | Képernyő típus        | TN(?)                            | TN (normál), IPS (XL) | TN vagy IPS (modellenként változhat) |
+| Touch sensitivity     | Igen                                                | DSi mode only                                               | Nem                                                     |
 | Képernyő átméretezése | Nem                                                 | Nem                                                         | Igen[^2]                                                |
 | Fényerőszintek        | 2 (Be/Ki a Phat esetében), 4 (Lite)[^3]             | 5                                                           | 5                                                       |
 | GBA kompatibilitás    | Natív, majdnem tökéletes[^4]                        | Kitűnő                                                      | Natív, majdnem tökéletes[^5]                            |

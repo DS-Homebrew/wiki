@@ -19,8 +19,8 @@ hiyaCFW est seulement présent sur la carte SD et n'a aucune présence sur votre
 Si vous aviez configuré Unlaunch pour qu'il démarre automatiquement hiyaCFW, vous voudrez peut-être modifier ces paramètres maintenant que vous ne l'utilisez plus.
 
 1. Insérez votre carte SD dans votre Nintendo DSi et démarrez la console en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
-   - Cela ouvrira le menu fichier d'Unlaunch
+    - Cela ouvrira le menu fichier d'Unlaunch
 1. Allez à `OPTIONS` et définissez `NO BUTTON` à l'application que vous souhaitez
-   - Si vous souhaitez lancer automatiquement la NAND système, définissez-la sur l'application nommée `Launcher`
-   - Si vous souhaitez lancer automatiquement TWiLight Menu++, choisissez le fichier nommé `BOOT.NDS`
+    - Si vous souhaitez lancer automatiquement la NAND système, définissez-la sur l'application nommée `Launcher`
+    - Si vous souhaitez lancer automatiquement TWiLight Menu++, choisissez le fichier nommé `BOOT.NDS`
 1. Choisissez `SAVE & EXIT`

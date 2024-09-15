@@ -10,17 +10,17 @@ description: Informasi tentang <i>homebrew</i> di Nintendo DS
 ### Pengembangan
 *Homebrew* Nintendo DS biasanya dikembangkan dengan alat devkitPro; seperti devkitARM, libnds, dan libfat. Namun, boleh juga merambah ke peranti lunak lain sebagai alternatif:
 
-- **Pustaka kartu SD:** Umumnya dianjurkan [libfat](https://github.com/devkitPro/libfat) yang ada dalam libnds, atau [libslim](https://github.com/DS-Homebrew/libslim/) malah lebih baik tapi terkadang tidak stabil
-- **Pustaka grafis:** Dianjurkan [easyGL2D](http://rel.phatcode.net/junk.php?id=117) yang ada dalam libnds, tapi [NightFox Lib](https://github.com/knightfox75/nds_nflib) juga bisa digunakan
-- **Seluruh rantai alat:** Dianjurkan [devkitARM](https://devkitpro.org/wiki/Getting_Started) dan [libnds](https://libnds.devkitpro.org/), karena berkompatibilitas DSi dan berekosistem lebih besar, sedangkan [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) untuk pengembangan khusus *flashcard*
+- **Pustaka kartu SD:** [libfat](https://github.com/devkitPro/libfat) yang ada di libnds umumnya dianjurkan, sementara [libslim](https://github.com/DS-Homebrew/libslim/) bisa lebih baik tapi terkadang tidak stabil
+- **Pustaka grafis:** [easyGL2D](http://rel.phatcode.net/junk.php?id=117) yang ada di libnds dianjurkan, tapi [NightFox Lib](https://github.com/knightfox75/nds_nflib) juga bisa digunakan
+- **Seluruh rantai alat:** [devkitARM](https://devkitpro.org/wiki/Getting_Started) dan [libnds](https://libnds.devkitpro.org/) dianjurkan karena berkompatibilitas DSi dan berekosistem lebih besar, sedangkan [ToolchainGenericDS](https://bitbucket.org/Coto88/toolchaingenericds) untuk pengembangan khusus *flashcard*
 
 Bagi pemula, baca [utas GBAtemp ini](https://gbatemp.net/threads/useful-resources-to-help-you-out-with-starting-to-make-nds-homebrew.580507/#post-9322674) yang berisi banyak sumber daya bagus. Untuk informasi DS(i) lebih teknis, lihat [GBATEK](https://problemkaputt.de/gbatek-contents.htm).
 
 ### *Flashcard*
-*Flashcard* mode DS adalah cara menjalankan aplikasi Nintendo DS dari Slot-1. *Flashcard* mampu menyimpan berkas konsol dan berkas portabel tetap terpisah, bisa digunakan tanpa perlu memodif konsol, dan bisa digunakan di konsol DS Phat/Lite. Tapi, tidak seperti memodif konsol langsung, harus pintar memilih *flashcard* di pasaran dengan kernel berbeda-beda. Ketahui juga *kernel* yang digunakan dan cadangkan.
+*Flashcard* mode DS adalah cara menjalankan aplikasi Nintendo DS dari Slot-1. *Flashcard* bisa menyimpan berkas konsol dan berkas portabel secara terpisah, bisa digunakan tanpa perlu memodif konsol, dan bisa digunakan di konsol DS Phat/Lite. Tapi, tidak seperti memodif konsol langsung, harus pintar memilih *flashcard* di pasaran dengan kernel berbeda-beda. Ketahui dan cadangkan juga *kernel* yang digunakan.
 
 ### DLDI
-Slot kartu SD berbeda (sering kali) punya papan fisik berbeda, dan kode untuk suatu *flashcard* belum tentu bisa di *flashcard* lain. DLDI (singkatan dari *Dynamically Linked Device Interface*) akan mengatasinya dengan menambal kode *handling* kartu SD dari cara luar. *Loader* (pemuat) seperti YSMenu, Wood R4, dan TWiLight Menu++ bisa otomatis menambal DLDI ke *homebrew*, tapi jika ingin menambal sendiri, gunakan [DLDI Patcher](https://www.chishm.com/DLDI#tools) di komputer.
+Slot kartu SD lain (sering kali) punya papan fisik berbeda, dan kode untuk suatu *flashcard* belum tentu bisa di *flashcard* lain. DLDI (singkatan dari *Dynamically Linked Device Interface*) akan mengatasinya dengan menambal kode *handling* kartu SD dari cara luar. *Loader* (pemuat) seperti YSMenu, Wood R4, dan TWiLight Menu++ bisa otomatis menambal DLDI ke *homebrew*, tapi jika ingin menambal sendiri, gunakan [DLDI Patcher](https://www.chishm.com/DLDI#tools) di komputer.
 
 ### *Time bomb*
 Di *kernel flashcard* tertentu, ada beragam tenggat kedaluwarsa (dikenal sebagai *time bomb*) oleh para pengembang *kernel* agar konsumen membeli produk baru mereka. Berikut cara kerjanya:
@@ -28,7 +28,7 @@ Di *kernel flashcard* tertentu, ada beragam tenggat kedaluwarsa (dikenal sebagai
 1. *Flashcard* diluncurkan lalu berkas *kernel* di kartu SD akan dimuat tanpa memeriksa itu *kernel* dari pengembang apa bukan
 1. Setiap kali berkas *kernel* dimuat dari kartu SD, tanggal sistem akan diperiksa apakah lewat tenggat
 
-Jika yang kedua hasilnya positif, *kernel* tidak akan dimuat. Ini bisa diuji dengan memajukan tanggal sistem ke paling ujung. Namun, keamanannya lemah dan hasilnya tidak di-*cache*, berarti ada cara lain menyiasatinya:
+Jika cara kedua hasilnya positif, *kernel* tidak akan dimuat. Ini bisa diuji dengan memajukan tanggal sistem ke paling ujung. Namun, keamanannya lemah dan hasilnya tidak di-*cache*, berarti ada cara lain menyiasatinya:
 
 Jika ingin menggunakan *kernel* bawaan yang dibuat produsen *flashcard*, jam sistem harus dimundurkan di aplikasi System Settings konsol. Perlu diingat, ini bisa mengacau permainan apa pun yang bergantung jam sistem (seperti Animal Crossing: Wild World).
 
@@ -42,4 +42,4 @@ Namun, *kernel* yang disertakan dengan *flashcard* ini memang kurang bagus dan l
 ARGV adalah pemancar informasi antara dua aplikasi *homebrew* Nintendo DS. Bisa digunakan sebagai *forwarder* atau menu alternatif.
 
 - *Homebrew* perlu ditata olah atau diprogram untuk memanfaatkannya. Contoh: GBARunner2, NesDS, dan GameYob sudah ada dukungan ARGV
-- Diperlukan juga kemampuan mengatur peubah ARGV. TWiLight Menu++ dan HBMenu mampu mengatur *argument* ARGV
+- Lalu, perlu ada cara untuk mengatur peubah ARGV. TWiLight Menu++ dan HBMenu mampu mengatur *argument* ARGV

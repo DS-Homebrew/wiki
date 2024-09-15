@@ -16,7 +16,7 @@ TWL_FIRM könnte irgendwie beschädigt worden sein. Folgen Sie dieser Anleitung,
 #### Wie behebe ich das Behalten eines weißen Bildschirms beim Booten des TWiLight Menü++?
 - Konsole neu starten
 - Wenn das nicht funktioniert, formatieren Sie Ihre SD-Karte auf FAT32 mit 32 KB Cluster/Zuweisungsgröße
-   - Siehe [dsi.cfw.guide's Seite](https://dsi.cfw.guide/sd-card-setup.html) für die empfohlenen Werkzeuge
+    - Siehe [dsi.cfw.guide's Seite](https://dsi.cfw.guide/sd-card-setup.html) für die empfohlenen Werkzeuge
 - Wenn das auch nicht funktioniert, versuche eine andere SD-Karte
 
 #### Wie behebe ich den Touchscreen, der nach dem Start eines Spiels nicht funktioniert?
@@ -57,7 +57,7 @@ Ja. Du kannst [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) auf 
 #### Wie kann ich die Sprache von TWiLight Menu++ ändern?
 1. Öffnen Sie die TWiLight Menu++ Einstellungen, indem Sie <kbd>SELECT</kbd> gedrückt halten, während Sie TWiLight Menu++ laden
 1. Ändern Sie die erste Option, bis die gewünschte Sprache angezeigt wird, und beenden Sie dann die Einstellungen
-   - Möglicherweise möchten Sie auch die ersten drei Optionen auf der nds-bootstrap-Einstellungsseite ändern, da sie die Sprache und Region der DS-Spiele und ihrer Titel in TWiLight Menu++ steuern
+    - Möglicherweise möchten Sie auch die ersten drei Optionen auf der nds-bootstrap-Einstellungsseite ändern, da sie die Sprache und Region der DS-Spiele und ihrer Titel in TWiLight Menu++ steuern
 
 #### Ist dies ein DS(i)-Emulator?
 Nein, es handelt sich nicht um einen Emulator. Das Menü und die DS-Spiele (geladen über nds-bootstrap) werden nativ im DS/DSi-Modus der Konsole ausgeführt. Die einzigen Konsolen, die emuliert werden, sind die früheren Konsolen, aber teilweise für den GBA (da einige oder alle Teile wie die Grafik nativ ausgeführt werden).

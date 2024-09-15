@@ -26,10 +26,10 @@ Kartrid Nintendo DS diketahui ada 4 jenis simpanan:
 - FRAM - Memori Akses Acak Feroelektrik
 - NAND - Gerbang NOT-AND
 
-Ada beberapa format berbeda untuk dibaca pemuatnya, di sini nds-bootstrap menggunakan format `.sav` mentah. Jika simpanannya berbeda format, gunakan situs berikut untuk konversi: http://www.shunyweb.info/convert.php.
+Format yang dibaca oleh pemuat ada beragam, di sini nds-bootstrap menggunakan format `.sav` mentah. Jika simpanannya berbeda format, gunakan situs berikut untuk konversi: http://www.shunyweb.info/convert.php.
 
 ### *Assembly*
-Bahasa *assembly* (ASM) adalah bahasa penataolahan tingkat rendah dengan komunikasi kuat antara instruksi bahasa dan prosesor. Untuk di DS, kode *assembly* ini berbentuk intruksi ARM atau pun THUMB, instruksi THUMB merupakan subhimpunan ARM. THUMB ini mampu menghemat lebar pita memori karena menjalankan instruksi 16-bit daripada instruksi ARM 32-bit.
+Bahasa *assembly* (ASM) adalah bahasa penataolahan tingkat rendah yang berurusan erat antara instruksi bahasa dan prosesor. Untuk di DS, kode *assembly* ini berbentuk instruksi ARM atau pun THUMB, instruksi THUMB merupakan subhimpunan ARM. THUMB ini lebih hemat lebar pita memori karena menjalankan instruksi 16-bit dan bukan instruksi 32-bit seperti ARM.
 
 Untuk informasi lebih lanjut terkait instruksi *assembly*, serta informasi teknis lainnya untuk DS dan DSi ada di [GBATEK](https://problemkaputt.de/gbatek.htm).
 
@@ -40,7 +40,7 @@ Untuk permainan dengan DMA bisa dilacak di no$gba dengan mengaktifkan *DMA log* 
 - Contoh: `DMA2: 04100010 023C18C0 AF000001`
 
 ### *Cheat* Action Replay
-Kode *cheat* Action Replay adalah kode yang memanfaatkan tata olah tingkat rendah untuk mengubah daerah memori permainan. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
+Kode *cheat* Action Replay adalah kode tata olah tingkat rendah yang mengubah daerah memori pada permainan kesukaan Anda. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
 
 *Flashcard* bisa memanfaatkan kode *cheat* jika ada pangkalan data *cheat*. Untungnya, fungsi *cheat* sudah sepadu dalam *kernel flashcard*. *Kernel* berikut ini mampu membaca *cheat*:
 - Wood R4 (`usrcheat.dat`)
@@ -48,19 +48,19 @@ Kode *cheat* Action Replay adalah kode yang memanfaatkan tata olah tingkat renda
 
 Cara lainnya secara *homebrew*/digital juga bisa membaca pangkalan data *cheat*, peranti lunak yang menggunakan *cheat* di antaranya:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
+    - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([*fork* usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` atau `usrcheat.dat`)
-   - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
+    - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ membaca `usrcheat.dat` dan menyalurkan nilai *cheat* yang aktif ke berkas lain, lalu dibaca oleh nds-bootstrap
-   - Mesin *cheat* yang digunakan di nds-bootstrap didasarkan dari NitroHax. Namun, karena berkas *cheat* hanya berisi *cheat* untuk judul tertentu, maka yang dibatasi hanya jumlah *cheat* yang bisa diaktifkan, bukan ukuran pangkalan datanya
+    - TWiLight Menu++ membaca `usrcheat.dat` dan menyalurkan nilai *cheat* yang aktif ke berkas lain, lalu dibaca oleh nds-bootstrap
+    - Mesin *cheat* yang digunakan di nds-bootstrap didasarkan dari NitroHax. Namun, karena berkas *cheat* hanya berisi *cheat* untuk judul tertentu, maka yang dibatasi hanya jumlah *cheat* yang bisa diaktifkan, bukan ukuran pangkalan datanya
 
 Untuk pangkalan data *cheat* terlengkap, kami anjurkan [DeadSkullzJr's NDS Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
 Kode *cheat* umumnya berjenis 0 sampai F, berikut ini uraiannya (belum selesai):
 
 - Jenis kode 0xE adalah kode 32-bit yang mampu menulis bersamaan di banyak alamat beruntun sekaligus. Pada intinya, ini seperti jenis kode tulis RAM 32-bit dasar (0x0), bedanya ini tidak disenaraikan alamat di sebelah nilai yang ingin Anda tulis. Melainkan, jenis kode 0xE diprogram untuk langsung bercabang dari alamat awal, lalu akan ditentukan ditulis ke alamat mana. Dari situ, tentukan saja jumlah tulisnya untuk dijalankan
-  - Kode *cheat* jenis ini diketahui susah berfungsi dengan nds-bootstrap saat ini
+    - Kode *cheat* jenis ini diketahui susah berfungsi dengan nds-bootstrap saat ini
 - DeadSkullzJr sedang mengerjakan daftar uraian kode *cheat* yang lebih menyeluruh, tautan akan ditaruh di sini sesudah siap
 
 ### Judul Demonstrasi dan Distribusi:

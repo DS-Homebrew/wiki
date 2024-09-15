@@ -13,7 +13,7 @@ Als je nog geen manier hebt om homebrew op je DSi uit te voeren, volg dan de ins
 
 ### Installeren
 1. Download de meest recente versie van [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Pak `TWiLightMenu-DSi.7z` uit
 1. Kopieer de map `_nds` naar de root van je SD-kaart
 1. Kopieer het bestand `BOOT.NDS` naar de root van je SD-kaart
@@ -33,12 +33,12 @@ Een flashkaart is iets wat in de spelkaartsleuf gaat, en een microSD-kaartsleuf 
 #### Als je een R4(i) Ultra hebt
 
 1. Volg [deze](installing-flashcard) gids vanaf `To run games using your flashcard firmware`
-     - Je kan de waarschuwingen gerust negeren
+    - Je kan de waarschuwingen gerust negeren
 1. Open TWLMenu++-instellingen
 1. Ga naar de pagina `Misc settings`
 1. Schakel `Slot-1 microSD access` in
 1. Sluit TWLMenu++-instellingen af door op `B` te drukken
-     - Als je in het DS Classic Menu terechtkomt, druk nogmaals op `B`
+    - Als je in het DS Classic Menu terechtkomt, druk nogmaals op `B`
 
 #### Als je geen R4(i) Ultra hebt
 
@@ -51,11 +51,11 @@ Een flashkaart is iets wat in de spelkaartsleuf gaat, en een microSD-kaartsleuf 
 1. Stel `Slot-1: Touch Mode` in op `DSi mode`
 1. Zet `Autostart Slot-1` aan
 1. Sluit TWLMenu++-instellingen af door op `B` te drukken
-     - Als je in het DS Classic Menu terechtkomt, voer dan je flashkaart uit
-     - Start anders TWiLight Menu++ opnieuw op
+    - Als je in het DS Classic Menu terechtkomt, voer dan je flashkaart uit
+    - Start anders TWiLight Menu++ opnieuw op
 
 #### Schakelen tussen SD- en flashcardinhoud
 - Druk op `SELECT`+`Omhoog` of `SELECT`+`Omlaag` om te schakelen tussen de inhoud van de SD- en flashcard
-     - Als het SELECT-menu is ingeschakeld, kan je dat ook daar doen
-     - Als je het 3DS-thema gebruikt, raak het Spelkaart- / SD-kaartpictogram aan
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - Als het SELECT-menu is ingeschakeld, kan je dat ook daar doen
+    - Als je het 3DS-thema gebruikt, raak het Spelkaart- / SD-kaartpictogram aan
+    - If you use the R4, GBC, or Wood themes, press `R` button

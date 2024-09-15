@@ -22,13 +22,13 @@ Hardmodowanie polega na fizycznym lutowaniu płyty głównej Nintendo DSi do ada
 ### Nintendo DSi
 
 By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
-   - [Lutownica z końcówką jak u ołówka](https://www.amazon.com/dp/B01N4571Q6)
-   - [Bardzo Cienki drut](https://allegro.pl/oferta/drut-ok-30awg-drut-miedziany-ocynowany-10161055095), 28AWG lub mniejszy, najlepiej 30AWG wzwyż
-   - Adapter SD na microSD
-   - Czytnik kart SD, który może odczytywać czipy eMMC działające w trybie jednego wiersza danych. [Oto przykład (Amazon)](https://www.amazon.com/dp/B006T9B6R2)
-   - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) i [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jeśli korzystasz z Windowsa
-   - Działający backup NAND hardmodowanego DSi
-   - Czucia się komfortowo lutując pola o średnicy nawet 0,5 mm
+    - [Lutownica z końcówką jak u ołówka](https://www.amazon.com/dp/B01N4571Q6)
+    - [Bardzo Cienki drut](https://allegro.pl/oferta/drut-ok-30awg-drut-miedziany-ocynowany-10161055095), 28AWG lub mniejszy, najlepiej 30AWG wzwyż
+    - Adapter SD na microSD
+    - Czytnik kart SD, który może odczytywać czipy eMMC działające w trybie jednego wiersza danych. [Oto przykład (Amazon)](https://www.amazon.com/dp/B006T9B6R2)
+    - [Win32DiskImager](https://sourceforge.net/projects/win32diskimager/) i [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) jeśli korzystasz z Windowsa
+    - Działający backup NAND hardmodowanego DSi
+    - Czucia się komfortowo lutując pola o średnicy nawet 0,5 mm
 
 #### Pinout DSi - strona A
 [![Pinout DSi - strona A](/assets/images/dsi-hardmod/side_a.jpg)](/assets/images/dsi-hardmod/side_a.jpg)
@@ -38,16 +38,16 @@ By wykonać hardmoda Nintendo DSi / DSi XL (LL) będziesz potrzebować:
 [![Pinout DSi XL - strona B](/assets/images/dsi-hardmod/dsi_xl_side_b.png)](/assets/images/dsi-hardmod/dsi_xl_side_b.png)
 
 - Będziesz musiał przylutować punkty z płyty głównej do adaptera kart microSD
-   - CMD do pinu 2
-   - GND do pinów 3 i 6
-   - CLK do pinu 5
-   - DAT0 do pinu7
+    - CMD do pinu 2
+    - GND do pinów 3 i 6
+    - CLK do pinu 5
+    - DAT0 do pinu7
 
 #### Przykład przylutowanego adaptera microSD
 [![microSD example](/assets/images/dsi-hardmod/sd.jpg)](/assets/images/dsi-hardmod/sd.jpg)
 
 - Wsadź adapter kart microSD do komputera
-   - **UWAGA** - WIndows poprosi Cię o sformatowanie go: **ABSOLUTNIE NIE** formatuj go - może to spowodować nieodwracalne uszkodzenia
+    - **UWAGA** - WIndows poprosi Cię o sformatowanie go: **ABSOLUTNIE NIE** formatuj go - może to spowodować nieodwracalne uszkodzenia
 
 #### Usuwanie stopki no$gba
 Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DSi. This can be done using the [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
@@ -58,7 +58,7 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Wciśnij `Start` by utworzyć kopię zapasową NAND bez stopki no$gba
 
 - Po ukończeniu skryptu powinien pojawić się plik z długą nazwą kończącą się na `-no-footer.bin` w folderze otworzonym przez terminal
-   - Użyj tego pliku jako obrazu NAND, którego wgrasz na DSi
+    - Użyj tego pliku jako obrazu NAND, którego wgrasz na DSi
 
 {% capture tab-windows %}
 1. Otwórz Win32DiskImager
@@ -67,8 +67,8 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 1. Po zakończeniu zrób to samo, tym razem z `NAND_1.bin`
 1. Otwórz HxD i przeciągnij oba pliki do edytora. W górnym pasku wybierz "Analizy", następnie z "Porównanie danych" wybierz "Porównaj".
 1. Wybierrz to w celu porównaniania obu plików, wciśnij OK po zakończeniu
-   - Jeśli wyskoczy "Wybrane pliki są identyczne", możesz przejść dalej
-   - Jeśli tak nie jest, a obie pamięci NAND nie mają około 240 MB, zrzuć NAND_1/NAND_0 ponownie
+    - Jeśli wyskoczy "Wybrane pliki są identyczne", możesz przejść dalej
+    - Jeśli tak nie jest, a obie pamięci NAND nie mają około 240 MB, zrzuć NAND_1/NAND_0 ponownie
 1. Otwórz Win32DiskImager, wciśnij ikonę folderu i wybierz utworzony wcześniej backup NAND
 1. Sflashuj go używając przycisku `Write`
 1. Odłącz adapter karty SD i spróbuj uruchomić konsolę
@@ -78,44 +78,44 @@ Najpierw musisz usunąć stopkę NOCASH z kopii zapasowej, którą flashujesz DS
 
 {% capture tab-other %}
 1. Dowiedz się, gdzie karta SD jest zamontowana
-   - Linux:
-      1. Odłącz adapter karty SD
-      1. Run `lsblk` in a terminal
-      1. Podłącz adapter karty SD
-      1. Run `lsblk` again
-      1. Tym razem powinno pojawić się nowe urządzenie
-         - Może (ale nie musi) się nazywać `/dev/sdb`, zapisz jak się nazywa na *Twoim* terminalu
+    - Linux:
+        1. Odłącz adapter karty SD
+        1. Run `lsblk` in a terminal
+        1. Podłącz adapter karty SD
+        1. Run `lsblk` again
+        1. This time a new device should appear
+            - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
 
-   - macOS:
-      1. Odłącz adapter karty SD
-      1. Uruchom `df` w terminalu
-      1. Podłącz adapter karty SD
-      1. Uruchom ponownie `df`
-      1. Na liście powinno się pokazać nowe urządzenie
-         - Może (ale nie musi) się nazywać `/dev/disk1s1`, zapisz jak się nazywa na *Twoim* terminalu
+    - macOS:
+        1. Odłącz adapter karty SD
+        1. Uruchom `df` w terminalu
+        1. Podłącz adapter karty SD
+        1. Uruchom ponownie `df`
+        1. A new device should appear in the list
+            - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
 
 1. Zrzuć NAND
-   - Uruchom te polecenia w terminalu:
-      - `cat {nazwa-urządzenia} > nand0.bin`
-      - Zamień `{nazwa-urządzenia}` na lokalizację karty SD
-      - N.p. ` cat /dev/sdb > nand0.bin`
-      - Następnie uruchom `cat {nazwa-urządzenia} > nand1.bin`
+    - Uruchom te polecenia w terminalu:
+        - `cat {nazwa-urządzenia} > nand0.bin`
+        - Zamień `{nazwa-urządzenia}` na lokalizację karty SD
+        - N.p. ` cat /dev/sdb > nand0.bin`
+        - Następnie uruchom `cat {nazwa-urządzenia} > nand1.bin`
 
 
 1. Porównaj zrzuty NAND
-   1. Uruchom następujące polecenie:
-      - Linux: `md5sum nand0.bin nand1.bin`
-      - macOS: `md5 -r nand0.bin nand1.bin`
-   1. Sprawdź czy wygenerowane hashe są identyczne
-   1. Jeśli nie, zrzuć NAND ponownie, poprawiając okablowanie w razie potrzeby
-   1. Zrzucaj dopóki hashe nie będą się zgadzać
+    1. Uruchom następujące polecenie:
+        - Linux: `md5sum nand0.bin nand1.bin`
+        - macOS: `md5 -r nand0.bin nand1.bin`
+    1. Sprawdź czy wygenerowane hashe są identyczne
+    1. Jeśli nie, zrzuć NAND ponownie, poprawiając okablowanie w razie potrzeby
+    1. Zrzucaj dopóki hashe nie będą się zgadzać
 
 1. Sflashuj NAND
-   1. Zlokalizuj backup NAND używając terminala
-   1. Uruchom następujące polecenie:
-      - `cat {backup-nand} > {nazwa-urządzenia}`
-      - Zastąp `{existing-nand-backup}` lokalizacją i nazwą starej kopii zapasowej pamięci NAND
-      - Zastąp `{device-name}` z punktem montowania karty SD
+    1. Zlokalizuj backup NAND używając terminala
+    1. Uruchom następujące polecenie:
+        - `cat {existing-nand-backup} > {device-name}`
+        - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
+        - Replace `{device-name}` with the mount point of the SD card
 
 W tym momencie można odłączyć adapter karty SD i spróbować włączyć DSi. Jeśli wszystko poszło dobrze, DSi powinien uruchomić się w stanie, w jakim znajdował się w momencie tworzenia kopii zapasowej!
 {% endcapture tab-other %}

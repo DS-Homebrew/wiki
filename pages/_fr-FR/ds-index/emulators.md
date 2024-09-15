@@ -54,32 +54,32 @@ Ce ne sont que des émulateurs et lanceurs recommandés qui sont présents dans 
 ## Notes sur les émulateurs spécifiques
 ### Disques RAM
 - Pour que **jEnesisDS** ou **neoDS** fonctionne sur la carte SD de la DSi, vous devrez utiliser un disque RAM avec nds-bootstrap
-   - Un générateur de disque RAM pour jEnesisDS est intégré à TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
-   - La raison pour laquelle les disques RAM sont utilisés est que les hooks ARM7 de ces émulateurs ne fonctionnent pas correctement
+    - Un générateur de disque RAM pour jEnesisDS est intégré à TWiLight Menu++. Vous devrez créer votre propre disque RAM pour neoDS. Consultez [Création de disques RAM](../twilightmenu/creating-ram-disks) pour savoir comment procéder
+    - La raison pour laquelle les disques RAM sont utilisés est que les hooks ARM7 de ces émulateurs ne fonctionnent pas correctement
 
 ### Comparaison entre PicoDriveTWL et jEnesisDS
 - **PicoDriveTWL**
-   - A été conçu pour la DSi
-   - Ne nécessite pas de disques RAM de nds-bootstrap
-      - La sauvegarde est prise en charge sur les cartes SD de la DSi
-      - Temps de chargement plus rapide entre TWiLight Menu++ et l'émulateur sur la carte SD de la DSi
-   - Supporte les arguments
-   - La limite est de 3 Mo sur un **linker**
-      - Se sert de la RAM supplémentaire de la DSi ou du DS Memory Pak pour étendre cette limite
-   - Pas d'émulation du son
-   - La fréquence d'images est extrêmement irrégulière
+    - A été conçu pour la DSi
+    - Ne nécessite pas de disques RAM de nds-bootstrap
+        - La sauvegarde est prise en charge sur les cartes SD de la DSi
+        - Temps de chargement plus rapide entre TWiLight Menu++ et l'émulateur sur la carte SD de la DSi
+    - Supporte les arguments
+    - La limite est de 3 Mo sur un **linker**
+        - Se sert de la RAM supplémentaire de la DSi ou du DS Memory Pak pour étendre cette limite
+    - Pas d'émulation du son
+    - La fréquence d'images est extrêmement irrégulière
 
 - **jEnesisDS**
-   - Mode DS
-      - Requiert l'utilisation d'un disque RAM de nds-bootstrap pour les cartes SD de DSi
-      - La sauvegarde n'est pas disponible pour les cartes SD de DSi
-   - Le chargement prend un certain temps
-   - Ne supporte pas les arguments
-   - La limite est de 3 Mo sur toutes les plates-formes (en raison du chargement des ROMs dans la RAM)
-      - Pas de prise en charge du DS Memory Pak ou de la mémoire étendue de la DSi
-      - Il y a un patch pour *Sonic 3 & Knuckles* qui supprime le multijoueur, en obtenant le décompte des tailles
-   - Émulation du son
-   - La fréquence d'images est régulière
+    - Mode DS
+        - Requiert l'utilisation d'un disque RAM de nds-bootstrap pour les cartes SD de DSi
+        - La sauvegarde n'est pas disponible pour les cartes SD de DSi
+    - Le chargement prend un certain temps
+    - Ne supporte pas les arguments
+    - La limite est de 3 Mo sur toutes les plates-formes (en raison du chargement des ROMs dans la RAM)
+        - Pas de prise en charge du DS Memory Pak ou de la mémoire étendue de la DSi
+        - Il y a un patch pour *Sonic 3 & Knuckles* qui supprime le multijoueur, en obtenant le décompte des tailles
+    - Émulation du son
+    - La fréquence d'images est régulière
 
 
 <!-- Links for tables -->

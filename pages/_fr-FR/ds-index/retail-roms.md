@@ -48,19 +48,19 @@ Les linkers peuvent tirer parti des codes de triche en utilisant des bases de do
 
 Les homebrews/solutions numériques peuvent également tirer parti des bases de données de codes de triche, les logiciels actuellement disponibles peuvent utiliser les éléments suivants :
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax vous permet d'utiliser des codes de triches avec de vraies cartes de jeu à partir d'un linker. Le moteur utilisé ici charge la totalité de la base de données cheats.xml dans la RAM limitée de la Nintendo DS et tente de gérer les choses à partir de là. Cela impose une limite importante au nombre de codes de triche que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml de plus de 2,4 Mo
+    - NitroHax vous permet d'utiliser des codes de triches avec de vraies cartes de jeu à partir d'un linker. Le moteur utilisé ici charge la totalité de la base de données cheats.xml dans la RAM limitée de la Nintendo DS et tente de gérer les choses à partir de là. Cela impose une limite importante au nombre de codes de triche que vous pouvez avoir, car NitroHax ne chargera pas un fichier cheats.xml de plus de 2,4 Mo
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([fork usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` ou `usrcheat.dat`)
-   - NitroHax3DS est une version de NitroHax qui fonctionne à partir de la carte SD système sur DSi ou 3DS. La version originale utilise cheats.xml avec la même limite de 2,4 Mo que le NitroHax original, mais il y a aussi un fork qui charge les codes de triche à partir d'une base de données usrcheat.dat sans limitation de taille
+    - NitroHax3DS est une version de NitroHax qui fonctionne à partir de la carte SD système sur DSi ou 3DS. La version originale utilise cheats.xml avec la même limite de 2,4 Mo que le NitroHax original, mais il y a aussi un fork qui charge les codes de triche à partir d'une base de données usrcheat.dat sans limitation de taille
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ lit le fichier `usrcheat.dat` et envoie les valeurs des codes de triche activés vers un autre fichier, que nds-bootstrap récupère
-   - Le moteur de triche utilisé dans nds-bootstrap est basé sur celui utilisé dans NitroHax. Cependant, étant donné que le fichier de triche ne contient que les codes de triches activés pour ce titre spécifique, il n'y a qu'une limite au nombre de codes de triches pouvant être activés, et non une limite à la taille de la base de données
+    - TWiLight Menu++ lit le fichier `usrcheat.dat` et envoie les valeurs des codes de triche activés vers un autre fichier, que nds-bootstrap récupère
+    - Le moteur de triche utilisé dans nds-bootstrap est basé sur celui utilisé dans NitroHax. Cependant, étant donné que le fichier de triche ne contient que les codes de triches activés pour ce titre spécifique, il n'y a qu'une limite au nombre de codes de triches pouvant être activés, et non une limite à la taille de la base de données
 
 Pour la base de données de codes de triche la plus complète, il est recommandé d'utiliser la [base de données de codes de triche NDS de DeadSkullzJr](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711).
 
 Les codes de triche sont généralement de type 0 à F, et voici une description (inachevée) de ceux-ci :
 
 - Le type de code 0xE est un type de code 32 bits qui vous permet d'effectuer des écritures multiples dans plusieurs adresses consécutives en une seule fois. Essentiellement, c'est comme le type de code d'écriture RAM 32 bits de base (0x0), sauf qu'il n'y a pas d'adresses listées à côté des valeurs que vous voulez écrire. Au lieu de cela, le type de code 0xE est programmé pour se brancher automatiquement à partir d'une adresse de départ, puis déterminer les adresses où écrire. À partir de là, il suffit d'ajouter le montant à écrire pour que le système fasse son travail
-  - Il est connu que les codes de triche de ce type ne fonctionnent généralement pas avec nds-bootstrap actuellement
+    - Il est connu que les codes de triche de ce type ne fonctionnent généralement pas avec nds-bootstrap actuellement
 - DeadSkullzJr travaille à l'élaboration d'une liste plus complète de descriptions de codes de triche. Cette section sera liée à cette liste dès qu'elle sera prête
 
 ### Titres de démonstration et de distribution :

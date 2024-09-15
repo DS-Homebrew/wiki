@@ -35,7 +35,7 @@ Il peut s'agir de fichiers PNG ou de fichiers BMP 16 bits (`A1 R5 G5 B5` ou `X1 
 | bottom_bubble_ds    | Pour le thème 3DS, la texture de l'arrière-plan inférieur lorsqu'une icône est survolée sur une DS Tank/Lite       |
 | bottom_bubble_macro | Pour le thème DSi, la texture de l'arrière-plan lorsqu'une icône est survolée en utilisant le mode Macro           |
 | bottom_moving         | Pour le thème DSi, la texture de l'arrière-plan inférieur lors du déplacement d'une icône                          |
-| bottom_moving_macro | Pour le thème DSi, la texture de l'arrière-plan lors du déplacement d'une icône en mode Macro                      |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                               |
 
 ### Textures de batterie (dossier `battery`)
 Il doit s'agir de fichiers PNG. La transparence est prise en charge, mais seule une transparence à 100 % fonctionnera.
@@ -58,7 +58,7 @@ Il doit s'agir de fichiers PNG. La transparence est prise en charge, mais seule 
 | batterylow         | Utilisé en mode DS                                                                                                                                      |
 
 ### Textures palettisées (dossier `grf`)
-Il doit s'agir de 4 fichiers BMP BPP (16 couleurs).
+These must be 4 BPP (16 color) BMP files.
 
 Pour les modifier dans GIMP, sélectionnez `Image` -> `Mode` -> `RVB` pour permettre de changer les couleurs, puis, une fois les couleurs modifiées, sélectionner `Image` -> `Mode` -> `Couleurs indexées…` pour reconvertir en palettisé. Lorsque vous passez en mode indexé, assurez-vous que `Générer une palette optimale` est coché et que `Nombre maximal de couleurs` est fixé à `16`.
 
@@ -182,10 +182,10 @@ Vous pouvez configurer diverses options sur la façon dont le thème est dessin�
 | `UsernameRenderX`          | La position X sur l'écran supérieur pour afficher le texte du nom d'utilisateur                                                                                           | 28               | 28               |
 | `UsernameRenderY`          | La position Y sur l'écran supérieur pour afficher le texte du nom d'utilisateur                                                                                           | 15               | 15               |
 | `UsernameRenderXDS`        | La position X sur l'écran supérieur pour afficher le texte du nom d'utilisateur, sur une DS Tank/Lite                                                                     | 4                | 4                |
-| `DateRenderX`              | La position X sur l'écran supérieur pour afficher le texte de la date                                                                                                     | 162              | 162              |
-| `DateRenderY`              | La position Y sur l'écran supérieur pour afficher le texte de la date                                                                                                     | 7                | 7                |
-| `TimeRenderX`              | La position X sur l'écran supérieur pour afficher le texte de l'heure                                                                                                     | 200              | 200              |
-| `TimeRenderY`              | La position Y sur l'écran supérieur pour afficher le texte de l'heure                                                                                                     | 7                | 7                |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                                                                    | 162              | 162              |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                                                                    | 7                | 7                |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                                                                    | 200              | 200              |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                                                                    | 7                | 7                |
 | `PurpleBatteryAvailable`   | Utilisation ou non des icônes violettes de la batterie lorsque l'option `Couleur DEL alim.` est réglée sur `Violet` dans les paramètres                                   | 1                | 1                |
 | `FontPalette1`             | La couleur transparente de la police, inutilisée pour les polices par défaut                                                                                              | 0x0000           | 0x0000           |
 | `FontPalette2`             | Les couleurs de la police, utilisez [ce site](http://www.conradshome.com/html2bgr15/) pour convertir                                                                      | 0xDEF7           | 0xDEF7           |

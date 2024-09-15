@@ -41,7 +41,7 @@ Cette page fournit plus de détails sur les règles décrites dans le salon [#in
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Bien entendu, les conséquences spécifiques seront traitées au cas par cas.
 - La plupart des utilisateurs finissent par recevoir quatre avertissements avant d'être bannis
-   - Ces avertissements comprennent l'utilisation de la commande !warn, la mise en sourdine et les avertissements verbaux
+    - Ces avertissements comprennent l'utilisation de la commande !warn, la mise en sourdine et les avertissements verbaux
 - Si vous vous inscrivez dans le but d'enfreindre les règles, vous serez banni
 
 ## Rapport

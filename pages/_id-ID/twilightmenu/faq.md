@@ -16,7 +16,7 @@ TWL_FIRM mungkin saja rusak. Ikuti panduan ini untuk memperbaiki isu: <https://3
 #### Bagaimana memperbaiki layar putih saat memuat TWiLight Menu++?
 - Nyalakan ulang konsol
 - Jika tidak berhasil, formatkan kartu SD ke FAT32 di ukuran *32 KB cluster/allocation*
-   - Lihat laman [dsi.cfw.guide](https://dsi.cfw.guide/sd-card-setup.html) untuk aplikasi anjuran
+    - Lihat laman [dsi.cfw.guide](https://dsi.cfw.guide/sd-card-setup.html) untuk aplikasi anjuran
 - Jika tidak berhasil juga, coba kartu SD lain
 
 #### Layar sentuh tidak tanggap setelah memuat permainan, bagaimana ini?
@@ -57,7 +57,7 @@ Bisa. Gunakan [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) untu
 #### Bagaimana mengubah bahasa di TWiLight Menu++?
 1. Buka pengaturan TWiLight Menu++, atau sambil menahan <kbd>SELECT</kbd> saat membuka TWiLight Menu++
 1. Ubah opsi pertama sampai muncul bahasa yang diinginkan, lalu keluar dari pengaturan
-   - Mungkin ubah juga tiga opsi pertama pada halaman pengaturan nds-bootstrap untuk mengatur bahasa, daerah, dan judul ROM DS di TWiLight Menu++
+    - Mungkin ubah juga tiga opsi pertama pada halaman pengaturan nds-bootstrap untuk mengatur bahasa, daerah, dan judul ROM DS di TWiLight Menu++
 
 #### Apakah ini emulator DS(i)?
 Bukan, ini bukan emulator. Untuk menu dan permainan DS (dimuat nds-bootstrap) dijalankan lokal atau *native* di mode DS/DSi konsol. Konsol yang diemulasi hanya konsol lama, tapi untuk GBA ada sebagian (beberapa atau semua bagian seperti grafik dibaca lokal).
@@ -113,7 +113,7 @@ Untuk menerapkan tema kustom harus ke Pengaturan TWiLight Menu++.
 1. Dengan tombol atas dan bawah, sorot skin yang diinginkan, lalu tekan A untuk memilih.
 1. Terapkan dengan menekan B untuk kembali ke TWiLight Menu++.
 
-TWiLight Menu++ seharusnya berubah tampilan (dan juga musik, jika ada di skin yang dipilih dan diaktifkan di pengaturan).
+TWiLight Menu++ seharusnya berubah tampilan (musiknya juga, jika ada di skin yang dipilih dan diaktifkan di pengaturan).
 
 #### Apakah ada emulator 3DS untuk DS(i)?
-Tidak ada. Mengemulasi 3DS pada DS(i) pasti tidak mungkin karena peranti keras 3DS lebih baru.
+Tidak ada. Mengemulasi 3DS pada DS(i) jelas tidak mungkin karena peranti keras 3DS lebih baru.

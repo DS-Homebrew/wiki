@@ -16,7 +16,7 @@ tabs:
 1. Download [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)
 1. Extract `TwilightBoxart-Windows-GUI.zip` and run `TwilightBoxart.exe`
 1. Click `Detect SD`
-   - If it doesn't find the correct SD card click `Browse...` and select the right one
+    - If it doesn't find the correct SD card click `Browse...` and select the right one
 1. **Optional:** Change the size, border, etc options to your liking
 1. Click `Start`
 1. Asegúrate de que la carátula está configurada para mostrarse en los ajustes de TWiLight Menu++
@@ -28,7 +28,7 @@ tabs:
 1. Extract the MacOS or Linux `.zip`
 1. Open `TwilightBoxart.ini` in the extracted folder in a text editor
 1. Type the path to your SD card after `SdRoot=`, then save the file
-   - On macOS this is `/Volumes/` then the name of your SD card
+    - On macOS this is `/Volumes/` then the name of your SD card
 1. Open the terminal
 1. In the terminal, type `cd ` then drag drop the folder with `TwilightBoxart.CLI` in it onto your terminal
 1. Run `chmod +x TwilightBoxart.CLI`

@@ -16,7 +16,7 @@ En GodMode9:
 1. Selecciona `Open title folder`
 1. Selecciona `00000000.tmd` y luego `TMD file options...`
 1. Selecciona `Dump CXI/NDS file`
-   - El archivo estará en `0:/gm9/out/`
+    - El archivo estará en `0:/gm9/out/`
 1. Copia `DS Download Play (NTR-HDNA).nds` a `0:/_nds/`, y renómbralo como `dlplay.nds`
 
 Los pasos anteriores aumentarán la velocidad de arranque de DLP.

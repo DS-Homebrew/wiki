@@ -40,13 +40,13 @@ GodMode9i est capable d'utiliser les données de sauvegarde des cartouches GBA p
 
 1. Lancez GodMode9i sur votre linker
 1. Faites plusieurs copies de vos sauvegardes GBA !!
-   - Toutes les données de sauvegardes qui n'ont pas été conservées ailleurs seront perdues
-   - Vérifiez les fichiers et trouvez les plus gros, l'utilisation de cartouches de 512 octets ne sera pas d'une grande aide alors que des sauvegardes de 64 ou 128 kio feront tenir la plupart des sauvegardes DS dans 1 ou 2 cartouches
+    - Toutes les données de sauvegardes qui n'ont pas été conservées ailleurs seront perdues
+    - Vérifiez les fichiers et trouvez les plus gros, l'utilisation de cartouches de 512 octets ne sera pas d'une grande aide alors que des sauvegardes de 64 ou 128 kio feront tenir la plupart des sauvegardes DS dans 1 ou 2 cartouches
 1. Dans le menu du lecteur, appuyez sur <kbd class="r">R</kbd> + <kbd class="face">B</kbd> pour démonter le linker
 1. Éjectez le linker, insérez une carte de jeu DS et une cartouche GBA
 1. Sélectionnez `CARTE DS` puis `Sauvegarde`
 1. Lorsque cela est demandé, appuyez sur <kbd class="face">A</kbd> pour écrire les données sur la cartouche GBA
-   - Passez à des cartouches GBA différentes et répétez jusqu'à ce que toute la sauvegarde soit copiée
+    - Passez à des cartouches GBA différentes et répétez jusqu'à ce que toute la sauvegarde soit copiée
 1. Redémarrez votre DS avec votre linker Slot-1 et rouvrez GodMode9i
 1. Insérez la première cartouche GBA que vous avez utilisée et sélectionnez `CARTOUCHE GBA`
 1. Choisissez `Sauvegarde DS`

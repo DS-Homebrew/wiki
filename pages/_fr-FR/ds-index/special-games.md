@@ -9,173 +9,173 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 
 ### Jeux DS disponibles sous forme de DSiWare
 - 100 Livres Classiques
-   - Version DSiWare appelée « Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20 »
-   - Seulement 20 livres sont inclus
+    - Version DSiWare appelée « Chotto DS Bun ga Kuzenshuu: Sekai no Bungaku 20 »
+    - Seulement 20 livres sont inclus
 - 7 Wonders II
-   - Mode Jeu Libre indisponible
+    - Mode Jeu Libre indisponible
 - Advance Wars: Days of Ruin/Dark Conflict
-   - Version DSiWare exclusive au Japon, sous le nom de « Famicom Wars DS: Ushinawareta Hikari »
-   - Un patch qui change les fichiers japonais en versions anglaises américaines est disponible [ici](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+    - Version DSiWare exclusive au Japon, sous le nom de « Famicom Wars DS: Ushinawareta Hikari »
+    - Un patch qui change les fichiers japonais en versions anglaises américaines est disponible [ici](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Animal Boxing
 - Art Academy
-   - Divisé en Premier et Second Semestres
+    - Divisé en Premier et Second Semestres
 - Astro Invaders
-   - Version DSiWare appelée « Astro »
-   - Il est intéressant de noter que le manuel d'instructions indique toujours « Astro Invaders » à la page 1
+    - Version DSiWare appelée « Astro »
+    - Il est intéressant de noter que le manuel d'instructions indique toujours « Astro Invaders » à la page 1
 - Bejeweled Twist
-   - Certaines fonctionnalités ont été supprimées
+    - Certaines fonctionnalités ont été supprimées
 - Bomberman 2
-   - La fonction multijoueur est devenue un titre autonome appelé « Bomberman Blitz »
+    - La fonction multijoueur est devenue un titre autonome appelé « Bomberman Blitz »
 - Bookworm
-   - Suppression de la fonction Téléchargement DS
-   - L'icône est animée
+    - Suppression de la fonction Téléchargement DS
+    - L'icône est animée
 - Brain Challenge
-   - De nouvelles fonctionnalités liées à l'appareil photo DSi sont ajoutées
-   - Le mode Versus est supprimé
-   - De nombreux fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
-   - L'icône est animée
+    - De nouvelles fonctionnalités liées à l'appareil photo DSi sont ajoutées
+    - Le mode Versus est supprimé
+    - De nombreux fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
+    - L'icône est animée
 - Chronos Twins
 - 42 Jeux Indémodables
-   - Divisé en trois titres DSiWare appelés
-      - Une pause avec… Des jeux indémodables : Jeux de cartes
-      - Une pause avec… Des jeux indémodables : Jeux de société
-      - Une pause avec… Des jeux indémodables : Jeux de stratégie
+    - Divisé en trois titres DSiWare appelés
+        - Une pause avec… Des jeux indémodables : Jeux de cartes
+        - Une pause avec… Des jeux indémodables : Jeux de société
+        - Une pause avec… Des jeux indémodables : Jeux de stratégie
 - Coropata
 - Dragon's Lair
-   - Le menu Extras contenant "Watch Mode" est remplacé par le manuel
+    - Le menu Extras contenant "Watch Mode" est remplacé par le manuel
 - Electroplankton
-   - Chaque mode fut converti en jeu DSiWare individuel
+    - Chaque mode fut converti en jeu DSiWare individuel
 - Elite Forces: Unit 77
-   - Multijoueur ajouté
+    - Multijoueur ajouté
 - G.G Series DSiWare titles
-   - A collection called "G.G Series Collection+" physically released exclusively in Japan
-   - Contains some exclusive titles of which released a few years later as DSiWare
+    - A collection called "G.G Series Collection+" physically released exclusively in Japan
+    - Contains some exclusive titles of which released a few years later as DSiWare
        - In those late DSiWare releases, some contain incorrect/missing audio!
-   - Built as an NTR title, allowing for playing on DS consoles
-   - Manual screens contain a unique UI
+    - Built as an NTR title, allowing for playing on DS consoles
+    - Manual screens contain a unique UI
 - Heathcliff: Frantic Foto
-   - Version DSiWare appelée « Heathcliff: Spot On »
+    - Version DSiWare appelée « Heathcliff: Spot On »
 - Jewel Adventures
 - Jewel Legends: Tree of Life
 - Jewel Quest 4: Heritage
 - Jewel Quest 5: The Sleepless Star
 - Faites de la magie
-   - Divisé en six titres DSiWare appelés « Une pause avec… Faites de la magie ». En anglais, ils sont appelés « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
+    - Divisé en six titres DSiWare appelés « Une pause avec… Faites de la magie ». En anglais, ils sont appelés « Master of Illusion Express » (USA) ou « A Little Bit of… Magic Made Fun » (Europe)
 - Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu
-   - Version DSiWare appelée « Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light »
+    - Version DSiWare appelée « Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light »
 - Need for Speed: Nitro
-   - Version DSiWare appelée « Need for Speed: Nitro-X »
-   - La fonction Téléchargement DS et diverses musiques sont supprimées
-   - Nouvelles voitures de police disponibles
+    - Version DSiWare appelée « Need for Speed: Nitro-X »
+    - La fonction Téléchargement DS et diverses musiques sont supprimées
+    - Nouvelles voitures de police disponibles
 - Nintendogs : Labrador & ses amis
-   - Version DSiWare exclusive à la Chine
+    - Version DSiWare exclusive à la Chine
 - Phantasy Star 0
-   - Une version démo (?) du jeu original, nommée « Phantasy Star 0 Mini », est exclusive au Japon
-   - L'icône est animée
+    - Une version démo (?) du jeu original, nommée « Phantasy Star 0 Mini », est exclusive au Japon
+    - L'icône est animée
 - Puzzle League DS
-   - Version DSiWare appelée « Une pause avec… Puzzle League ». En anglais, elle est appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
-   - Multijoueur retiré
-   - Certaines pistes musicales ont été retirées
+    - Version DSiWare appelée « Une pause avec… Puzzle League ». En anglais, elle est appelée « Puzzle League Express » (USA) ou « A Little Bit of… Puzzle League » (Europe)
+    - Multijoueur retiré
+    - Certaines pistes musicales ont été retirées
 - Plantes contre Zombies
-   - La fonction Téléchargement DS, certains succès et la vidéo musicale ont été retirés
-   - Comprend un mini-jeu exclusif
-   - L'icône est animée
+    - La fonction Téléchargement DS, certains succès et la vidéo musicale ont été retirés
+    - Comprend un mini-jeu exclusif
+    - L'icône est animée
 - The Price Is Right: 2010 Edition
-   - La version DSiWare fut nommée "The Price Is Right"
-   - Certains fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
-   - Certains mini-jeux sont indisponibles
+    - La version DSiWare fut nommée "The Price Is Right"
+    - Certains fichiers sont compressés pour que le jeu respecte la limite de taille DSiWare
+    - Certains mini-jeux sont indisponibles
 - Puzzler Brain Games
 - Puzzler World 2013
 - Real Crimes: Jack the Ripper
-   - L'icône est animée
+    - L'icône est animée
 - Slingo Quest
 - Space Invaders Extreme 2
-   - Version DSiWare appelée « Space Invaders Extreme Z », exclusive au Japon
-   - Fonctionnalités sans fil retirées
+    - Version DSiWare appelée « Space Invaders Extreme Z », exclusive au Japon
+    - Fonctionnalités sans fil retirées
 - Statego: Next Edition
-   - Les fichiers de sprites sont compressés pour que le jeu ne dépasse pas la limite de taille de fichier d'un jeu DSiWare
+    - Les fichiers de sprites sont compressés pour que le jeu ne dépasse pas la limite de taille de fichier d'un jeu DSiWare
 - Successfully Learning: English, Year 2+3
 - Successfully Learning: English, Year 4+5
 - Successfully Learning: Mathematics, Year 2+3
 - Successfully Learning: Mathematics, Year 4+5
 - Sujin Taisen : La guerre des chiffres
-   - Version DSiWare connue sous le nom de « Number Battle » aux États-Unis
-   - Le multijoueur local est retiré, mais le multijoueur en ligne est conservé
+    - Version DSiWare connue sous le nom de « Number Battle » aux États-Unis
+    - Le multijoueur local est retiré, mais le multijoueur en ligne est conservé
 - Tantei Jinguuji Saburou DS: Fuserareta Shinjitsu
-   - Divisé en 5 parties (?)
+    - Divisé en 5 parties (?)
 - Tetris Party Deluxe
-   - Version DSiWare nommée « Tetris Party Live »
-   - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
-   - L'icône est animée
+    - Version DSiWare nommée « Tetris Party Live »
+    - Les modes Escalade, Ombre, Course, Sprint, Maître et Bombe sont supprimés
+    - L'icône est animée
 - Nintendo Touch Golf: Birdie Challenge
-   - Version DSiWare appelée « Une pause avec… Nintendo Touch Golf ». En anglais, elle est appelée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
-   - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
-      - Le moteur du jeu est amélioré
-      - Le mode challenge remplace le mode championnat du jeu commercial
+    - Version DSiWare appelée « Une pause avec… Nintendo Touch Golf ». En anglais, elle est appelée « True Swing Golf Express » (USA) ou « A Little Bit of… Nintendo Touch Golf » (Europe)
+    - La version DSiWare du jeu ne comprend aucune fonction Wi-Fi, comme le jeu en local/Téléchargement DS ou la fonction PictoChat propre au jeu. Il comporte également beaucoup moins de parcours que le jeu commercial
+        - Le moteur du jeu est amélioré
+        - Le mode challenge remplace le mode championnat du jeu commercial
 - WarioWare: Touched!
-   - Fonctionnalités Slot-2 retirées
+    - Fonctionnalités Slot-2 retirées
 - Zombiez Seeker
-   - La version DSiWare fut nommée "Zombie Blaster"
+    - La version DSiWare fut nommée "Zombie Blaster"
 - Zuma's Revenge!
-   - Multijoueur retiré
-   - L'icône est animée
+    - Multijoueur retiré
+    - L'icône est animée
 
 ### DSiWare with Wi-Fi support (WPA 1/2 included)
 - Bomberman Blitz
-   - Multiplayer
+    - Multiplayer
 - Dragon Quest Wars
-   - Multiplayer
+    - Multiplayer
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
-   - Multiplayer & Records
+    - Multiplayer & Records
 - Mario vs. Donkey Kong: Minis March Again
-   - Downloading user-created stages
+    - Downloading user-created stages
 - Metal Torrent
-   - Records
+    - Records
 - Sujin Taisen: Number Battles
-   - Multiplayer
+    - Multiplayer
 - Tetris Party Live
-   - Multiplayer
+    - Multiplayer
 - UNO
-   - Multiplayer
+    - Multiplayer
 
 ### DSiWare compilés sous forme de ROMs optimisées DSi
 - 1st Class Poker & BlackJack
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Art Style: CODE
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Pyoro (Japon)
 - Box Pusher
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Bridge
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Une pause avec… Des jeux indémodables
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Cosmo Fighters
-     - La ROM de base fut compilée pour être jouable exclusivement sur la DSi, mais le fichier ROM démo inclus est compilé pour recevoir des fonctionnalités supplémentaires sur une DSi
+    - La ROM de base fut compilée pour être jouable exclusivement sur la DSi, mais le fichier ROM démo inclus est compilé pour recevoir des fonctionnalités supplémentaires sur une DSi
 - Une pause avec… Dr. Mario
 - Globulos Party
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Hearts Spades Euchre
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Metal Torrent
 - Papier volant (Japon)
 - Pocket Pack: Strategy Games
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Pocket Pack: Words & Numbers
-     - Utilise le cloneboot pour le multijoueur
+    - Utilise le cloneboot pour le multijoueur
 - Pop Island
-     - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
+    - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
 - Pop Island Paperfield
-     - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
+    - Permet d'envoyer une démo de jeu à n'importe quelle console de la famille DS
 
 ### DSiWare ayant eu une sortie initialement prévue sur DS/DS Lite
 - Flipper
-     - L'éditeur original de la version DS a fait faillite. [Consulter la page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
+    - L'éditeur original de la version DS a fait faillite. [Consulter la page](https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1)
 - Go! Go! Island Rescue! (non confirmé)
-     - Le jeu dispose d'un menu d'aide inutilisé, ce qui n'est pas le cas des autres titres DSiWare
-     - Le menu À propos affiche un nom différent (probablement plus ancien), « Go ! Go! Rescue Squad! »
+    - Le jeu dispose d'un menu d'aide inutilisé, ce qui n'est pas le cas des autres titres DSiWare
+    - Le menu À propos affiche un nom différent (probablement plus ancien), « Go ! Go! Rescue Squad! »
 - Go! Go! Kokopolo: Harmonious Forest Revenge
-     - Annoncé pour la première fois en octobre 2008 comme un titre en cours de développement pour la Nintendo DS, dans une série de « Developers Diaries » du magazine de jeux vidéo britannique NGamer. [Consulter la page](http://n-europe.com/news.php?nid=12428)
+    - Annoncé pour la première fois en octobre 2008 comme un titre en cours de développement pour la Nintendo DS, dans une série de « Developers Diaries » du magazine de jeux vidéo britannique NGamer. [Consulter la page](http://n-europe.com/news.php?nid=12428)
 
 ### Jeux qui ont reçu des mises à jour du SDK
 - Advance Wars: Days of Ruin/Dark Conflict : SDK4 -> SDK5 au Japon (en tant que DSiWare)
@@ -258,171 +258,171 @@ Hacking is required to activate the code.
 Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-dessous quelques alternatives possibles.
 
 - Advance Wars: Dual Strike
-   - Advance Wars
-   - Advance Wars 2: Black Hole Rising
+    - Advance Wars
+    - Advance Wars 2: Black Hole Rising
 - Bleach: The Blade of Fate
-   - Bleach Advance: Kurenai ni Somaru Soul Society
+    - Bleach Advance: Kurenai ni Somaru Soul Society
 - Castlevania: Dawn of Sorrow
-   - Castlevania: Aria of Sorrow
-   - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
+    - Castlevania: Aria of Sorrow
+    - Utilisez des [codes de triche](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/) pour obtenir des objets spécifiques
 - Daigasso! Band Brothers
-   - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
+    - Daigasso! Band Brothers Tsuika Kyoku (Expansion Pak)
 - Eyeshield 21: MAX Devil Power!
-   - Eyeshield 21: DevilBats DevilDays
+    - Eyeshield 21: DevilBats DevilDays
 - Project Rub
-   - ChuChu Rocket!
-   - Puyo Pop
-   - Sonic Advance
-   - Sonic Advance 2
-   - Sonic Advance 3
-   - Sonic Battle
-   - Sonic Pinball Party
-   - Space Channel 5: Ulala's Cosmic Attack
+    - ChuChu Rocket!
+    - Puyo Pop
+    - Sonic Advance
+    - Sonic Advance 2
+    - Sonic Advance 3
+    - Sonic Battle
+    - Sonic Pinball Party
+    - Space Channel 5: Ulala's Cosmic Attack
 - Final Fantasy Tactics A2: Grimoire of the Rift
-   - Final Fantasy Tactics Advance
+    - Final Fantasy Tactics Advance
 - Frogger: Helmet Chaos
-   - Frogger's Journey: The Forgotten Relic
-   - Frogger's Adventures: Temple of the Frog
-   - Frogger's Adventures 2: The Lost Wand
+    - Frogger's Journey: The Forgotten Relic
+    - Frogger's Adventures: Temple of the Frog
+    - Frogger's Adventures 2: The Lost Wand
 - Fullmetal Alchemist: Dual Sympathy
-   - Hagane no Renkinjutsushi: Omoide no Sonata
-   - Hagane no Renkinjutsushi: Meisō no Rondo
+    - Hagane no Renkinjutsushi: Omoide no Sonata
+    - Hagane no Renkinjutsushi: Meisō no Rondo
 - Ganbare Goemon: Tōkai Dōchū Ōedo Tengu ri Kaeshi no Maki
-   - Kessakusen! Ganbare Goemon 1•2: Yuki-hime to Magginesu
+    - Kessakusen! Ganbare Goemon 1•2: Yuki-hime to Magginesu
 - Harvest Moon DS
-   - Harvest Moon: Friends of Mineral Town
-   - Harvest Moon: More Friends of Mineral Town
+    - Harvest Moon: Friends of Mineral Town
+    - Harvest Moon: More Friends of Mineral Town
 - Disney's Kim Possible: Kimmunicator
-   - Disney's Kim Possible: Revenge of Monkey Fist
-   - Disney's Kim Possible 2: Drakken's Demise
-   - Disney's Kim Possible 3: Team Possible
+    - Disney's Kim Possible: Revenge of Monkey Fist
+    - Disney's Kim Possible 2: Drakken's Demise
+    - Disney's Kim Possible 3: Team Possible
 - Kirby : Le Pinceau du Pouvoir
-   - Kirby : Cauchemar au Pays des Rêves
-   - Kirby et le Labyrinthe des Miroirs
+    - Kirby : Cauchemar au Pays des Rêves
+    - Kirby et le Labyrinthe des Miroirs
 - Knights in the Nightmare
-   - Yggdra Union: We'll Never Fight Alone
+    - Yggdra Union: We'll Never Fight Alone
 - Lunar Knights
-   - Boktai: The Sun is in Your Hand
-   - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
+    - Boktai: The Sun is in Your Hand
+    - Boktai 2: Solar Boy Django
+    - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
 - Madden NFL 06
-   - Madden NFL 06
-   - Madden NFL 2005
+    - Madden NFL 06
+    - Madden NFL 2005
 - MegaMan Battle Network 5: Double Team DS
-   - Mega Man Battle Network
-   - Mega Man Battle Network 2
-   - Mega Man Battle Network 3 White/Blue
-   - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
-   - Mega Man Battle Network 5 Team ProtoMan/Colonel
-   - Boktai: The Sun is in Your Hand
-   - Boktai 2: Solar Boy Django
-   - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
+    - Mega Man Battle Network
+    - Mega Man Battle Network 2
+    - Mega Man Battle Network 3 White/Blue
+    - Mega Man Battle Network 4 Red Sun/Blue Moon
+    - Rockman EXE 4.5 Real Operation (exclusif au Japon)
+    - Mega Man Battle Network 5 Team ProtoMan/Colonel
+    - Boktai: The Sun is in Your Hand
+    - Boktai 2: Solar Boy Django
+    - Shin Bokura no Taiyō: Gyakushū no Sabata (exclusif au Japon)
 - Mega Man Star Force Pegasus/Leo/Dragon
-   - Mega Man Battle Network
-   - Mega Man Battle Network 2
-   - Mega Man Battle Network 3 White/Blue
-   - Mega Man Battle Chip Challenge
-   - Mega Man Battle Network 4 Red Sun/Blue Moon
-   - Rockman EXE 4.5 Real Operation (exclusif au Japon)
-   - Mega Man Battle Network 5 Team ProtoMan/Colonel
-   - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
+    - Mega Man Battle Network
+    - Mega Man Battle Network 2
+    - Mega Man Battle Network 3 White/Blue
+    - Mega Man Battle Chip Challenge
+    - Mega Man Battle Network 4 Red Sun/Blue Moon
+    - Rockman EXE 4.5 Real Operation (exclusif au Japon)
+    - Mega Man Battle Network 5 Team ProtoMan/Colonel
+    - Mega Man Battle Network 6 Cyberbeast Falzar/Gregar
 - Mega Man ZX
-   - Mega Man Zero 3
-   - Mega Man Zero 4
-   - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
+    - Mega Man Zero 3
+    - Mega Man Zero 4
+    - Utilisez ce [patch Slot-2](https://www.romhacking.net/hacks/4649/) pour accéder au contenu de la Zone N
 - Phoenix Wright: Ace Attorney
-   - Gyakuten Saiban
+    - Gyakuten Saiban
 - Phoenix Wright: Justice for All
-   - Gyakuten Saiban 2
+    - Gyakuten Saiban 2
 - Phoenix Wright: Trials and Tribulations
-   - Gyakuten Saiban 3
+    - Gyakuten Saiban 3
 - Pokémon Dash
-   - Pokémon Rubis/Saphir
-   - Pokémon Rouge Feu/Vert Feuille
-   - Pokémon Émeraude
+    - Pokémon Rubis/Saphir
+    - Pokémon Rouge Feu/Vert Feuille
+    - Pokémon Émeraude
 - Pokémon Diamant/Perle/Platine/HeartGold/SoulSilver
-   - Pokémon Rubis/Saphir
-   - Pokémon Rouge Feu/Vert Feuille
-   - Pokémon Émeraude
-   - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
+    - Pokémon Rubis/Saphir
+    - Pokémon Rouge Feu/Vert Feuille
+    - Pokémon Émeraude
+    - (Utilisez [pkmn-chest](https://universal-team.net/projects/pkmn-chest) ou [PKSM](https://flagbrew.org/projects/PKSM) pour transférer/ajouter des Pokémon)
 - Pokémon Donjon Mystère : Équipe de Secours Bleue
-   - Pokémon Donjon Mystère : Équipe de Secours Rouge
+    - Pokémon Donjon Mystère : Équipe de Secours Rouge
 - Shrek SuperSlam
-   - Shrek SuperSlam
+    - Shrek SuperSlam
 - Spider-Man 2
-   - Spider-Man: Mysterio's Menace
+    - Spider-Man: Mysterio's Menace
 - Super Robot Wars W
-   - Super Robot Wars A
-   - Super Robot Wars R
-   - Super Robot Wars D
-   - Super Robot Wars J
-   - Super Robot Taisen: Original Generation
-   - Super Robot Taisen: Original Generation 2
-   - Dai-2-Ji Super Robot Taisen Famicom Mini
+    - Super Robot Wars A
+    - Super Robot Wars R
+    - Super Robot Wars D
+    - Super Robot Wars J
+    - Super Robot Taisen: Original Generation
+    - Super Robot Taisen: Original Generation 2
+    - Dai-2-Ji Super Robot Taisen Famicom Mini
 - Super Robot Wars K
-   - Super Robot Wars A
-   - Super Robot Wars R
-   - Super Robot Wars D
-   - Super Robot Wars J
-   - Super Robot Taisen: Original Generation
-   - Super Robot Taisen: Original Generation 2
-   - Dai-2-Ji Super Robot Taisen Famicom Mini
+    - Super Robot Wars A
+    - Super Robot Wars R
+    - Super Robot Wars D
+    - Super Robot Wars J
+    - Super Robot Taisen: Original Generation
+    - Super Robot Taisen: Original Generation 2
+    - Dai-2-Ji Super Robot Taisen Famicom Mini
 - The Rub Rabbits!
-   - ChuChu Rocket!
-   - Puyo Pop
-   - Sonic Advance
-   - Sonic Advance 2
-   - Sonic Advance 3
-   - Sonic Battle
+    - ChuChu Rocket!
+    - Puyo Pop
+    - Sonic Advance
+    - Sonic Advance 2
+    - Sonic Advance 3
+    - Sonic Battle
 - Les Sims 2 (DS)
-   - Les Sims 2 (GBA)
+    - Les Sims 2 (GBA)
 - WarioWare: Touched!
-   - WarioWare: Twisted!
+    - WarioWare: Twisted!
 - Yoshi Touch & Go
-   - Yoshi's Island: Super Mario Advance 3
+    - Yoshi's Island: Super Mario Advance 3
 - Yu-Gi-Oh! Nightmare Troubadour
-   - Yu-Gi-Oh! GX Duel Academy
+    - Yu-Gi-Oh! GX Duel Academy
 
 ### Jeux qui utilisent des cartouches d'option GBA
 - Memory Expansion Pak
-   - Navigateur Nintendo DS
+    - Navigateur Nintendo DS
 - Motion Pack
-   - Tony Hawk's Motion
+    - Tony Hawk's Motion
 - Rumble Pak
-   - 42 Jeux Indémodables
-   - Custom Robo Arena
-   - Diddy Kong Racing DS
-   - Elite Beat Agents
-   - Ferrari Challenge
-   - Race Driver: GRID
-   - Hotel Dusk: Room 215
-   - Iron Man
-   - Juiced 2: Hot Import Nights
-   - Last Window : le secret de Cape West
-   - The Legend of Spyro: A New Beginning
-   - Actionloop
-   - Mahjong Fight Club DS: Wi-Fi Taiyou
-   - Mario et Luigi : Les Frères du Temps
-   - Metroid Prime Pinball
-   - Metroid Prime Hunters
-   - Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ōendan 2
-   - Need for Speed: Nitro
-   - Orcs & Elves
-   - Picross DS
-   - Power Pro Kun Pocket 9
-   - Power Pro Kun Pocket 10
-   - Puyo Puyo! 15th Anniversary
-   - Race Driver: Create & Race
-   - SEGA Superstars Tennis
-   - Sonic & SEGA All Stars Racing
-   - Space Invaders Extreme
-   - Star Fox Command
-   - Star Trek: Tactical Assault
-   - Super Princess Peach
-   - Tomb Raider: Underworld
-   - Wario: Master of Disguise
-   - WWE SmackDown vs. Raw 2008
+    - 42 Jeux Indémodables
+    - Custom Robo Arena
+    - Diddy Kong Racing DS
+    - Elite Beat Agents
+    - Ferrari Challenge
+    - Race Driver: GRID
+    - Hotel Dusk: Room 215
+    - Iron Man
+    - Juiced 2: Hot Import Nights
+    - Last Window : le secret de Cape West
+    - The Legend of Spyro: A New Beginning
+    - Actionloop
+    - Mahjong Fight Club DS: Wi-Fi Taiyou
+    - Mario et Luigi : Les Frères du Temps
+    - Metroid Prime Pinball
+    - Metroid Prime Hunters
+    - Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ōendan 2
+    - Need for Speed: Nitro
+    - Orcs & Elves
+    - Picross DS
+    - Power Pro Kun Pocket 9
+    - Power Pro Kun Pocket 10
+    - Puyo Puyo! 15th Anniversary
+    - Race Driver: Create & Race
+    - SEGA Superstars Tennis
+    - Sonic & SEGA All Stars Racing
+    - Space Invaders Extreme
+    - Star Fox Command
+    - Star Trek: Tactical Assault
+    - Super Princess Peach
+    - Tomb Raider: Underworld
+    - Wario: Master of Disguise
+    - WWE SmackDown vs. Raw 2008
 
 ### Jeux avec connectivité Wii
 - Animal Crossing: Wild World
@@ -460,30 +460,30 @@ Actuellement, nds-bootstrap n'a pas d'émulation Slot-2. Vous trouverez ci-desso
 
 ### Jeux avec des cartes de jeu IR
 - Pokémon HeartGold/SoulSilver
-   - Pour la connexion au podomètre Pokéwalker
+    - Pour la connexion au podomètre Pokéwalker
 - Pokémon Noir/Blanc/Noir 2/Blanc 2
-   - Pour les échanges, combats et Tests de Compatibilité en utilisant le C-Gear, ainsi que les partages de clés
+    - Pour les échanges, combats et Tests de Compatibilité en utilisant le C-Gear, ainsi que les partages de clés
 - Marche avec moi : Quel est ton rythme ?
-   - Possède deux podomètres infrarouges
-   - Non compatible avec les ROMs Pokémon
+    - Possède deux podomètres infrarouges
+    - Non compatible avec les ROMs Pokémon
 - Active Health with Carol Worderman
-   - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais il n'y en a qu'un
-   - Non compatible avec les ROMs Pokémon
+    - Podomètre similaire à celui de Marche avec moi : Quel est ton rythme ?, mais il n'y en a qu'un
+    - Non compatible avec les ROMs Pokémon
 
 ### Autres (jeux spéciaux qui n'entrent pas dans l'une des catégories ci-dessus)
 - Apprends avec Pokémon : À la Conquête du Clavier
-   - La carte est équipée d'une puce Bluetooth spéciale pour se connecter au clavier
+    - La carte est équipée d'une puce Bluetooth spéciale pour se connecter au clavier
 - Electroplankton
-   - La carte n'a pas de RAM de sauvegarde
+    - La carte n'a pas de RAM de sauvegarde
 - DS Download Station
-   - Série de cartes utilisées pour distribuer des jeux de démonstration
+    - Série de cartes utilisées pour distribuer des jeux de démonstration
 - Sonic Classic Collection
-   - La structure d'émulation de la Mega Drive a été convertie en émulateur
+    - La structure d'émulation de la Mega Drive a été convertie en émulateur
 - Nitro Development Cart
-   - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
+    - Dispose de RAM supplémentaire pour développer des jeux pour la DSi
 - Slide Adventure MAGKID
-   - Accompagné d'une souris optique Slot-2
+    - Accompagné d'une souris optique Slot-2
 - Daigasso! Band Brothers
-   - Possède une cartouche Slot-2 qui ajoute plus de chansons
+    - Possède une cartouche Slot-2 qui ajoute plus de chansons
 - Arkanoid DS
-   - Accompagné d'une manette paddle Slot-2
+    - Accompagné d'une manette paddle Slot-2

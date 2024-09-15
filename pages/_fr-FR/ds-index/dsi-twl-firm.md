@@ -11,13 +11,13 @@ description: Informations sur la Nintendo DSi et le TWL_FIRM de la Nintendo 3DS
 Le principal avantage du modding des systèmes des familles DSi et 3DS est que vous pouvez débloquer davantage de possibilités avec vos consoles. L'installation d'un firmware personnalisé est assez facile et, dans la plupart des cas, tout ce dont vous avez besoin est d'une carte (micro)SD. Voici le meilleur des guides que vous pouvez suivre, avec des instructions étape par étape :
 
 - [Guide de hacking 3DS](https://3ds.hacks.guide)
-   - Commande de Lightning : `mod 3ds`
-   - Commande de TWLHelper : `guide 3ds`
-   - Commande de Kuriisu : `guide 3ds`
+    - Commande de Lightning : `mod 3ds`
+    - Commande de TWLHelper : `guide 3ds`
+    - Commande de Kuriisu : `guide 3ds`
 - [Guide de hacking DSi](https://dsi.cfw.guide)
-   - Commande de Lightning : `mod dsi`
-   - Commande de TWLHelper : `guide dsi`
-   - Commande de Kuriisu : `guide dsi`
+    - Commande de Lightning : `mod dsi`
+    - Commande de TWLHelper : `guide dsi`
+    - Commande de Kuriisu : `guide dsi`
 
 ### Vitesses du CPU
 La Nintendo DS a été dotée d'un processeur de 67 MHz en 2004, et la Nintendo DSi d'un processeur de 133 MHz cinq ans plus tard. La plupart des jeux de la bibliothèque Nintendo DS ont été réalisés avant la sortie de la Nintendo DSi, et à ce titre, le seul processeur dont ils disposaient était de 67 MHz. Certaines applications se sont liées à cette vitesse d'horloge et, par conséquent, elles ne fonctionneront pas bien avec une vitesse d'horloge plus élevée. La plupart des jeux, cependant, sont plus performants que l'originale avec une vitesse d'horloge plus élevée.

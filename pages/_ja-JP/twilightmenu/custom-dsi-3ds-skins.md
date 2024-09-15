@@ -24,18 +24,18 @@ TWiLight Menu++のスキンを作るには、画像編集ソフト、特に`.png
 PNGファイル または 16 ビット（`A1 R5 G5 B5` または `X1 R5 G5 B5`）BMPファイルが使用できます。
 - BMPファイルを使用する場合は、エクスポート時に「詳細設定」で16ビットに設定することができます。 BMPでエクスポートするたびに、この操作が必要になる場合があります。
 
-| テクスチャ                 | 説明                                                            |
-| --------------------- | ------------------------------------------------------------- |
-| top                   | 上画面の背景テクスチャ                                                   |
-| top_photo             | The top screen background texture when a photo is being shown |
-| bottom                | アイコンにカーソルを合わせていない時の下画面背景テクスチャ                                 |
-| bottom_ds             | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせていない時の下画面背景テクスチャ             |
-| bottom_macro          | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                    |
-| bottom_bubble         | アイコンにカーソルを合わせた時の下画面背景テクスチャ                                    |
-| bottom_bubble_ds    | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                |
-| bottom_bubble_macro | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                    |
-| bottom_moving         | DSiテーマで、アイコン移動時の下画面背景テクスチャ                                    |
-| bottom_moving_macro | DSiテーマかつマクロモードで、アイコン移動時の下画面背景テクスチャ                            |
+| テクスチャ                 | 説明                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------ |
+| top                   | 上画面の背景テクスチャ                                                                          |
+| top_photo             | The top screen background texture when a photo is being shown                        |
+| bottom                | アイコンにカーソルを合わせていない時の下画面背景テクスチャ                                                        |
+| bottom_ds             | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせていない時の下画面背景テクスチャ                                    |
+| bottom_macro          | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                                           |
+| bottom_bubble         | アイコンにカーソルを合わせた時の下画面背景テクスチャ                                                           |
+| bottom_bubble_ds    | DS・DS Lite上の3DSテーマで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                                       |
+| bottom_bubble_macro | DSiテーマかつマクロモードで、アイコンにカーソルを合わせた時の下画面背景テクスチャ                                           |
+| bottom_moving         | DSiテーマで、アイコン移動時の下画面背景テクスチャ                                                           |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode |
 
 ### 電池テクスチャ（`battery` フォルダ）
 PNGファイルとすること。 透明度には対応していますが、100％透明でないと効果がありません。
@@ -58,7 +58,7 @@ PNGファイルとすること。 透明度には対応していますが、100�
 | batterylow         | DSモード用                         |
 
 ### パレット付きテクスチャ（`grf` フォルダ）
-4BPP（16色）BMPファイルとすること。
+These must be 4 BPP (16 color) BMP files.
 
 To edit these in GIMP, select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. When switching to indexed, ensure that `Generate optimum palette` is checked and `Maximum number of colors` is set to `16`.
 
@@ -182,10 +182,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28        | 28        |
 | `UsernameRenderY`          | The Y position on the top screen to draw the username text                                                                      | 15        | 15        |
 | `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                              | 4         | 4         |
-| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                           | 162       | 162       |
-| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                           | 7         | 7         |
-| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                           | 200       | 200       |
-| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                           | 7         | 7         |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                          | 162       | 162       |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                          | 7         | 7         |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                          | 200       | 200       |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                          | 7         | 7         |
 | `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                            | 1         | 1         |
 | `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                     | 0x0000    | 0x0000    |
 | `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7    | 0xDEF7    |

@@ -36,16 +36,16 @@ nds-bootstrap parchea las funciones de la ROM para poder ejecutarse desde una ta
 - Usando ciertos cartuchos, puedes usar comunicación IR en las aplicaciones y juegos que lo admiten
 - nds-bootstrap es de código abierto, lo que significa que los desarrolladores pueden actualizarlo para corregir bugs y otras cosas, incluso si se abandona el proyecto
 - Se emula el cartucho de expansión de memoria, lo que significa que los juegos que requieren dicho accesorio funcionarán
-     - Actualmente, sólo se emula con la aplicación *Nintendo DS Browser*
+    - Actualmente, sólo se emula con la aplicación *Nintendo DS Browser*
 - Se pueden intercambiar las pantallas, lo que permite una experiencia de juego más cómoda en sistemas con pantallas rotas o removidas
 - Puedes tomar capturas de pantalla y editar valores en la memoria RAM a través del menú dentro del juego
 
 #### ¿Por qué debería usar B4DS en una flashcard si uso una DS/DS Lite?
 - Ciertas ROMs compatibles se cargan en el cartucho de expansión de memoria (o en flashcards de la ranura Slot-2 que tengan RAM), lo que permite tiempos de carga más rápidos que al usar cartuchos
 - 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
-     - Ten en cuenta que siempre se usará nds-bootstrap para ejecutar títulos DSiWare, independientemente de si configuraste TWiLight Menu++ para usar el kernel de tu flashcard en lugar de nds-bootstrap en los ajustes
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
-     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
+    - Ten en cuenta que siempre se usará nds-bootstrap para ejecutar títulos DSiWare, independientemente de si configuraste TWiLight Menu++ para usar el kernel de tu flashcard en lugar de nds-bootstrap en los ajustes
+    - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+    - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Si el kernel de tu flashcard no puede ejecutar alguna ROM, puedes usar nds-bootstrap en su lugar, y esto puedes configurarlo independientemente según cada juego
 - Se pueden intercambiar las pantallas, lo que permite una experiencia de juego más cómoda en sistemas con pantallas rotas o removidas
 - Puedes tomar capturas de pantalla y editar valores en la memoria RAM a través del menú dentro del juego
@@ -55,7 +55,7 @@ En nds-bootstrap, cuando un juego no puede iniciarse, se toma prestado el binari
 Puedes establecer una ROM como donante usando **TW**i**L**ight Menu++.
 - **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax:** Ya que la tanto los juegos con mejoras DSi como los que son exclusivos o los títulos DSiWare contienen configuraciones distintas de MKB, los juegos con mejoras DSI no podrán iniciar en modo DSi sin una ROM donante. Al establecer como ROM donante un juego exclusivo para DSI o un título DSiWare, los juegos con mejoras DSi podrán ejecutarse con la configuración de MBK establecida por el título DSiWare en el que usa el exploit
-     - En una DSi, si if **TW**i**L**ight Menu++ detecta que no se ha establecido una ROM donante, *Nintendo DSi Sound* y/o otro título válido con el que se haya hecho un exploit se establecerá de manera automática
+    - En una DSi, si if **TW**i**L**ight Menu++ detecta que no se ha establecido una ROM donante, *Nintendo DSi Sound* y/o otro título válido con el que se haya hecho un exploit se establecerá de manera automática
 - **CycloDS iEvolution:** Ocurre lo mismo que con DSiWarehax, pero los juegos con mejoras DSi y los títulos DSiWare requerirán un juego con mejoras DSi como ROM donante, y no al revés
 
 #### ¿Cuál es la mejor ROM donante?
@@ -74,7 +74,7 @@ Una versión nightly es una versión construida con el último cambio en el cód
 
 #### ¿Por qué no funcionan mis trucos?
 - Algunos trucos requieren pulsar un botón o alguna otra condición para activarse. Revisa la descripción del truco para obtener más información
-  - En **TW**i**L**ight Menu++, puedes presionar Y para ver la información de un truco específico, si esta está disponible
+    - En **TW**i**L**ight Menu++, puedes presionar Y para ver la información de un truco específico, si esta está disponible
 - La mayoría de trucos fueron desarrollados con el modo DS en mente, y podrían no funcionar al ejecutar un juego en modo DSi. Si el juego tiene mejoras para DSi, intenta ejecutarlo en modo DS
 - Actualmente, la forma en la que los trucos tipo E están implementados en nds-bootsrap está rota, lo que quiere decir su funcionamiento no está garantizado. Tu truco probablemente es de este tipo, y no se sabe cuando se podría resolver este problema
 

@@ -35,7 +35,7 @@ Dit kunnen PNG-bestanden of 16-bits (`A1 R5 G5 B5` of `X1 R5 G5 B5`) BMP-bestand
 | bottom_bubble_ds    | Voor het 3DS-thema, de achtergrondtextuur van het onderste scherm wanneer je over een pictogram zweeft op een DS Phat/Lite      |
 | bottom_bubble_macro | Voor het DSi-thema, de achtergrondtextuur wanneer je over een pictogram zweeft tijdens het gebruik van de Macro-modus           |
 | bottom_moving         | Voor het DSi-thema, de achtergrondtextuur van het onderste scherm bij het verplaatsen van een pictogram                         |
-| bottom_moving_macro | Voor het DSi-thema, de achtergrondtextuur wanneer je over een pictogram zweeft tijdens het gebruik van de Macro-modus           |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                                            |
 
 ### Batterijtexturen (`battery` map)
 Dit moeten PNG-bestanden zijn. Transparantie wordt ondersteund, maar alleen 100% transparantie werkt.
@@ -58,7 +58,7 @@ Dit moeten PNG-bestanden zijn. Transparantie wordt ondersteund, maar alleen 100%
 | batterylow         | Gebruikt in DS-modus                                                                                   |
 
 ### Gepalletiseerde texturen (`grf` map)
-Dit moeten 4 BPP (16 kleuren) BMP-bestanden zijn.
+These must be 4 BPP (16 color) BMP files.
 
 Om deze in GIMP te bewerken, selecteer je `Image` -> `Mode` -> `RGB` om kleuren te kunnen veranderen, en als je klaar bent met het veranderen van kleuren, selecteer je `Image` -> `Mode` -> `Indexed...` om terug te converteren naar palet. Wanneer je overschakelt op geïndexeerd, moet je ervoor zorgen dat `Generate optimum palette` is aangevinkt en `Maximum number of colors` is ingesteld op `16`.
 
@@ -182,10 +182,10 @@ Je kan in `theme.ini` verschillende opties configureren over hoe het thema wordt
 | `UsernameRenderX`          | De X-positie op het bovenste scherm om de gebruikersnaam te tekenen                                                                        | 28              | 28              |
 | `UsernameRenderY`          | De Y-positie op het bovenste scherm om de gebruikersnaam te tekenen                                                                        | 15              | 15              |
 | `UsernameRenderXDS`        | De X-positie op het bovenste scherm om de gebruikersnaam tekst te tekenen, op een DS Phat/Lite                                             | 4               | 4               |
-| `DateRenderX`              | De X-positie op het bovenste scherm om de datum te tekenen                                                                                 | 162             | 162             |
-| `DateRenderY`              | De Y-positie op het bovenste scherm om de datum te tekenen                                                                                 | 7               | 7               |
-| `TimeRenderX`              | De X-positie op het bovenste scherm om de tijdtekst te tekenen                                                                             | 200             | 200             |
-| `TimeRenderY`              | De Y-positie op het bovenste scherm om de tijdtekst te tekenen                                                                             | 7               | 7               |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                                     | 162             | 162             |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                                     | 7               | 7               |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                                     | 200             | 200             |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                                     | 7               | 7               |
 | `PurpleBatteryAvailable`   | Of de paarse batterijpictogrammen al dan niet moeten worden gebruikt wanneer `Power LED color` is ingesteld op `Purple` in de instellingen | 1               | 1               |
 | `FontPalette1`             | De transparante kleur van het lettertype, ongebruikt voor standaardlettertypen                                                             | 0x0000          | 0x0000          |
 | `FontPalette2`             | De kleuren van het lettertype, gebruik [deze site](http://www.conradshome.com/html2bgr15/) om te converteren                               | 0xDEF7          | 0xDEF7          |

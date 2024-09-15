@@ -19,8 +19,8 @@ hiyaCFW existe únicamente en la tarjeta SD, y no está presente en tu NAND. Ant
 Si estableciste los ajustes de Unlaunch para que hiyaCFW se ejecutase al iniciar la consola, tendrás que cambiar estos ajustes ya que no lo vas a usar más.
 
 1. Inserta tu tarjeta SD en la consola y enciéndela mientras mantienes pulsados los botones <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
-   - Esto iniciará el sistema de archivos de Unlaunch
+    - Esto iniciará el sistema de archivos de Unlaunch
 1. Selecciona `OPTIONS` y establece la opción `NO BUTTON` a la aplicación que desees
-   - Si quieres iniciar el menú original de la consola, escoge la opción llamada `Launcher`
-   - Si quieres iniciar TWiLight Menu++, escoge la opción llamada `TWiLight Menu++`
+    - Si quieres iniciar el menú original de la consola, escoge la opción llamada `Launcher`
+    - Si quieres iniciar TWiLight Menu++, escoge la opción llamada `TWiLight Menu++`
 1. Elige la opción `SAVE & EXIT` para guardar los ajustes

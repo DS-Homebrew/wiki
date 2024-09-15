@@ -16,7 +16,7 @@ A TWL_FIRM elképzelhető, hogy valahogy megsérült. Kövesd ezt az útmutatót
 #### Hogyan javítom, ha fehér képernyőt kapok a TWiLight Menu++ bootolásakor?
 - Indítsd újra a konzolt
 - Ha ez nem működik, formázd az SD kártyádat FAT32-re 32 KB cluster/foglalási mérettel
-   - Tekintsd meg a [dsi.cfw.guide oldalt](https://dsi.cfw.guide/sd-card-setup.html) az ajánlott eszközökért
+    - Tekintsd meg a [dsi.cfw.guide oldalt](https://dsi.cfw.guide/sd-card-setup.html) az ajánlott eszközökért
 - Ha ez sem működik, próbálj egy másik SD kártyát
 
 #### Hogyan javíthatom, ha az érintő képernyő nem működik egy játék indítását követően?
@@ -57,7 +57,7 @@ Igen. Használhatod erre a [Checkpoint](https://github.com/FlagBrew/Checkpoint/r
 #### Hogyan állítom be a TWiLight Menu++-ban a nyelvet?
 1. Nyisd meg a TWiLight Menu++ beállításokat, ezt a <kbd>SELECT</kbd> gomb nyomvatartásával tudod megtenni, a TWiLight Menu++ betöltésekor
 1. Módosítsd az első opciót, amíg nem látod a nyelvet, amit szeretnél, majd lépj ki a beállításokból
-   - Elképzelhető, hogy módosítanád az első három opciót, az nds-bootstrap beállítások oldalon, ami a DS játékok és címeik nyelvét és régióját befolyásolja a a TWiLight Menu++-ban
+    - Elképzelhető, hogy módosítanád az első három opciót, az nds-bootstrap beállítások oldalon, ami a DS játékok és címeik nyelvét és régióját befolyásolja a a TWiLight Menu++-ban
 
 #### Ez egy DS(i) emulátor?
 Nem, ez nem egy emulátor. A menü és a DS játékok (nds-bootstrap-en keresztül betöltve) natívan futnak a konzol DS/DSi módjában. Csak a korábbi idők konzoljai kerülnek emulálásra, illetve részben a GBA (mivel egy része vagy az összes, mint például a grafika natívan fut).

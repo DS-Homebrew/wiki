@@ -23,20 +23,20 @@ crwdns39217:0{:.alert .alert-info}crwdne39217:0
 
 crwdns39219:0{% capture tab-universal-updater %}crwdne39219:0
 1. crwdns14080:0crwdne14080:0
-   - crwdns14844:0crwdne14844:0
+    - crwdns14844:0crwdne14844:0
 1. crwdns14846:0crwdne14846:0
 1. crwdns14590:0crwdne14590:0
-   - crwdns41144:0crwdne41144:0
-   - crwdns41146:0crwdne41146:0 crwdns41148:0crwdne41148:0
+    - crwdns41144:0crwdne41144:0
+    - crwdns41146:0crwdne41146:0 crwdns41148:0crwdne41148:0
 crwdns16458:0{% endcapture %}crwdne16458:0
 crwdns19986:0crwdne19986:0
 
 crwdns39221:0{% capture tab-manual %}crwdne39221:0
 1. crwdns22312:0crwdne22312:0
-   - crwdns41150:0crwdne41150:0
+    - crwdns41150:0crwdne41150:0
 1. crwdns19992:0crwdne19992:0
 1. crwdns29996:0crwdne29996:0
-   - crwdns33232:0crwdne33232:0
+    - crwdns33232:0crwdne33232:0
 1. crwdns30000:0crwdne30000:0
 1. crwdns36533:0crwdne36533:0
 1. crwdns36535:0crwdne36535:0

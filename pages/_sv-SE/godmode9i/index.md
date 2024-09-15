@@ -12,11 +12,11 @@ description: Information om GodMode9i
 
 To dump games, select the drive in the drives list and follow the on-screen prompts.
 - On the Nintendo DS and Nintendo DS Lite, GodMode9i can dump Slot-2 cartridges if running from Slot-1 flashcard, or Slot-1 Game Cards if GodMode9i is running from a Slot-2 flashcart
-   - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
+    - Save files can also be dumped using GBA cartridges, see the [FAQ](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) for more information
 - On the Nintendo DSi family of systems, Unlaunch is required for dumping Slot-1 games to the SD card
-   - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
+    - Follow [dsi.cfw.guide](https://dsi.cfw.guide/) for instructions on how to install Unlaunch
 - On the Nintendo 3DS family of systems, a modern CFW environment is required to launch GodMode9i
-   - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
+    - Follow [3ds.hacks.guide](https://3ds.hacks.guide/) for instructions on how to install Luma3DS + boot9strap
 
 ### Restoring saves
 GodMode9i can also restore save files to DS Game Cards/GBA cartridges. This is done by selecting the `.sav` file on your SD card while the Game Card/cartridge is inserted and choosing `Restore save`.

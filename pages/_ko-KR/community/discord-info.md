@@ -66,7 +66,7 @@ These roles can only be given by moderators, and indicate that these users are k
 
 - Developers - This role is given to those who have contributed code to the Nintendo DS scene. If you have any projects for the role, show them in #nds-dev
 - Helpers - This role is given to those that actively provide meaningful assistance in #nds-help or have contributed to compatibility reporting
-   - Helpers have no moderator permissions, please ping a moderator if a situation needs one
+    - Helpers have no moderator permissions, please ping a moderator if a situation needs one
 - Nitro Booster - Automatically given to those that have given Server Boosts to the server. This role has no additional permissions, and is not hoisted in the Member List
 
 ### Punishment Roles

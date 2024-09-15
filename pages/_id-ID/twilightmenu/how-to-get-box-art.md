@@ -16,7 +16,7 @@ tabs:
 1. Unduh [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases)
 1. Ekstrak `TwilightBoxart-Windows-GUI.zip` dan jalankan `TwilightBoxart.exe`
 1. Pencet `Detect SD`
-   - Jika kartu SD yang dipilih salah, pencet `Browse...` lalu pilih yang benar
+    - Jika kartu SD yang dipilih salah, pencet `Browse...` lalu pilih yang benar
 1. **Tidak Wajib:** Ubah opsi ukuran, tepian, dll sesuai keinginan
 1. Pencet `Start`
 1. Pastikan pengaturan *box art* diatur ke muncul di TWiLight Menu++
@@ -28,7 +28,7 @@ tabs:
 1. Ekstrak `.zip` yang MacOS atau Linux
 1. Buka `TwilightBoxart.ini` dari folder terekstrak di penyunting teks
 1. Ketik jalur ke kartu SD sebelah tulisan `SdRoot=`, lalu simpan berkasnya
-   - Pada macOS, jalurnya `/Volumes/` lalu nama kartu SD
+    - Pada macOS, jalurnya `/Volumes/` lalu nama kartu SD
 1. Buka terminal
 1. Di terminal, ketik `cd ` lalu seret folder dengan `TwilightBoxart.CLI` ke jendela terminal
 1. Jalankan `chmod +x TwilightBoxart.CLI`

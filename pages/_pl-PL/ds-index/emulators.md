@@ -54,32 +54,32 @@ To są tylko rekomendowane emulatory i loadery, które są również dostępne w
 ## Uwagi dotyczące niektórych emulatorów
 ### Ramdyski
 - Żeby **jEnesisDS** lub **neoDS** działały na karcie SD DSi, będziesz musiał(a) użyć ramdysku z nds-bootstrap
-   - Program tworzący Ramdyski dla jEnesisDS jest dostępny w TWiLight Menu++. Dla neoDS trzeba stworzyć ramdysk własnoręcznie. Zaglądnij do [Tworzenie Ramdysków](../twilightmenu/creating-ram-disks), żeby się dowiedzieć jak to zrobić
-   - Potrzeba użycia ramdysków dla tych emulatorów, wynika z tego, że ich hooki ARM7 nie działają poprawnie
+    - Program tworzący Ramdyski dla jEnesisDS jest dostępny w TWiLight Menu++. Dla neoDS trzeba stworzyć ramdysk własnoręcznie. Zaglądnij do [Tworzenie Ramdysków](../twilightmenu/creating-ram-disks), żeby się dowiedzieć jak to zrobić
+    - Potrzeba użycia ramdysków dla tych emulatorów, wynika z tego, że ich hooki ARM7 nie działają poprawnie
 
 ### Porównanie pomiędzy PicoDriveTWL i jEnesisDS
 - **PicoDriveTWL**
-   - Został stworzony dla DSi
-   - Nie wymaga ramdysków nds-bootstrap
-      - Jest obsługiwany zapis na karcie SD DSi
-      - Szybsze czasy ładowania między TWiLight Menu++ a emulatorem na karcie SD DSi
-   - Obsługuje argumenty
-   - Limit is 3 MB on a **Flashcard**
-      - Wykorzystuje dodatkową pamięć RAM DSi lub DS Memory Pak, aby zwiększyć ten limit
-   - Brak emulacji dźwięku
-   - Niska ilość klatek na sekundę
+    - Został stworzony dla DSi
+    - Nie wymaga ramdysków nds-bootstrap
+        - Jest obsługiwany zapis na karcie SD DSi
+        - Szybsze czasy ładowania między TWiLight Menu++ a emulatorem na karcie SD DSi
+    - Obsługuje argumenty
+    - Limit is 3 MB on a **Flashcard**
+        - Wykorzystuje dodatkową pamięć RAM DSi lub DS Memory Pak, aby zwiększyć ten limit
+    - Brak emulacji dźwięku
+    - Niska ilość klatek na sekundę
 
 - **jEnesisDS**
-   - DS Mode
-      - Wymaga ramdysku nds-bootstrap, by był używany na karcie SD DSi
-      - Zapisywanie jest niedostępne dla kart SD DSi
-   - Trochę długo się ładuje
-   - Brak wsparcia argumentów
-   - Limit wynosi 3 MB na wszystkich platformach (romy są ładowane do pamięci RAM)
-      - Brak obsługi DS Memory Pak i DSi Extended Memory
-      - Jest patch dla Sonic 3 & Knuckles, który zmniejsza rozmiar gry poprzez usunięcie trybu multiplayer
-   - Emulacja dźwięku
-   - Wysoka ilość klatek na sekundę
+    - DS Mode
+        - Wymaga ramdysku nds-bootstrap, by był używany na karcie SD DSi
+        - Zapisywanie jest niedostępne dla kart SD DSi
+    - Trochę długo się ładuje
+    - Brak wsparcia argumentów
+    - Limit wynosi 3 MB na wszystkich platformach (romy są ładowane do pamięci RAM)
+        - Brak obsługi DS Memory Pak i DSi Extended Memory
+        - Jest patch dla Sonic 3 & Knuckles, który zmniejsza rozmiar gry poprzez usunięcie trybu multiplayer
+    - Emulacja dźwięku
+    - Wysoka ilość klatek na sekundę
 
 
 <!-- Links for tables -->

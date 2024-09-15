@@ -41,7 +41,7 @@ Laman ini memerincikan peraturan yang dijabarkan di saluran [#info-and-rules](ht
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Dampak akibat atau konsekuensi spesifik akan ditangani kasus demi kasus.
 - Sebagian besar pengguna diberi peringatan 4x sebelum dicekal
-   - Peringatan ini seperti diberi !warn sungguhan, dibisukan, dan diperingatkan verbal
+    - Peringatan ini seperti diberi !warn sungguhan, dibisukan, dan diperingatkan verbal
 - Bergabung hanya untuk melanggar peraturan pastinya akan dicekal
 
 ## Pelaporan

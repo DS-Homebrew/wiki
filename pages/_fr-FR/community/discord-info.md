@@ -66,7 +66,7 @@ Ces rôles ne peuvent être donnés que par les modérateurs, et indiquent que c
 
 - Developers (« Développeurs ») - Ce rôle est attribué à ceux qui ont contribué au code de la scène Nintendo DS. Si vous avez des projets pour le rôle, montrez-les dans #nds-dev
 - Helpers (« Aides ») - Ce rôle est attribué à ceux qui fournissent activement une assistance significative dans le cadre de #nds-help ou qui ont contribué aux rapports de compatibilité
-   - Les *Helpers* n'ont aucune permission de modération, veuillez contacter un modérateur si une situation le nécessite
+    - Les *Helpers* n'ont aucune permission de modération, veuillez contacter un modérateur si une situation le nécessite
 - Nitro Booster (« Booster Nitro ») - Automatiquement donné à ceux qui ont offert des boosts au serveur. Ce rôle n'a pas de permissions supplémentaires, et n'est pas affiché plus haut dans la liste des membres
 
 ### Rôles de punition

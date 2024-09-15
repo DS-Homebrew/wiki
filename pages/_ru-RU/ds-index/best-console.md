@@ -15,6 +15,7 @@ The Nintendo DS, Nintendo DSi, Nintendo 3DS, and Nintendo 2DS consoles are all c
 | Max CPU Speed     | 67mhz                                                  | 133mhz[^1]                                                   | 133mhz[^1]                                     |
 | Camera            | No                                                     | Yes                                                          | Yes                                            |
 | Screen type       | TN(?)                               | TN (Regular), IPS (XL) | TN or IPS (varies by model) |
+| Touch sensitivity | Yes                                                    | DSi mode only                                                | No                                             |
 | Screen scaling    | No                                                     | No                                                           | Yes[^2]                                        |
 | Brightness levels | 2 (On/Off for Phat), 4 (Lite)[^3]                      | 5                                                            | 5                                              |
 | GBA Compatiblity  | Native, Near-Perfect[^4]                               | Great                                                        | Native, Near-Perfect[^5]                       |

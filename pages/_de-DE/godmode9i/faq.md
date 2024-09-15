@@ -40,13 +40,13 @@ GodMode9i ist in der Lage, die Speicherdaten von GBA-Cartridges zu verwenden, um
 
 1. Lade GodMode9i auf deine Flashcard
 1. Sichern Sie Ihre GBA-Speicher!!
-   - Alle Speicherdaten, die nicht gesichert wurden, gehen verloren
-   - Überprüfen Sie die Dateien und finden Sie die größeren, mit 512 Byte Carts wird nicht viel helfen, während 64 oder 128 KiB speichert die meisten DS speichert in 1 oder 2 Carts passen
+    - Alle Speicherdaten, die nicht gesichert wurden, gehen verloren
+    - Überprüfen Sie die Dateien und finden Sie die größeren, mit 512 Byte Carts wird nicht viel helfen, während 64 oder 128 KiB speichert die meisten DS speichert in 1 oder 2 Carts passen
 1. Drücken Sie im Laufwerksmenü die Tasten <kbd class="r">R</kbd> + <kbd class="face">B</kbd>, um die Speicherkarte auszuhängen
 1. Werfen Sie die Flashcard aus, legen Sie eine DS Game Card und eine GBA Cartridge ein
 1. Wählen Sie `NDS GAMECARD` und dann `Save`
 1. Wenn Sie dazu aufgefordert werden, drücken Sie <kbd class="face">A</kbd>, um die Daten auf den GBA-Wagen zu schreiben
-   - Wechseln Sie zu anderen GBA-Kassetten und wiederholen Sie den Vorgang, bis der gesamte Spielstand kopiert ist
+    - Wechseln Sie zu anderen GBA-Kassetten und wiederholen Sie den Vorgang, bis der gesamte Spielstand kopiert ist
 1. Starte deinen DS mit der Slot-1-Flashkarte neu und öffne GodMode9i erneut
 1. Legen Sie die erste GBA-Kassette ein, die Sie benutzt haben, und wählen Sie `GBA GAMECART`
 1. Wählen Sie `DS Save`

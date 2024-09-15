@@ -16,7 +16,7 @@ GodMode9で:
 1. `Open title folder`を選択します
 1. `00000000.tmd`を選択し、`TMD file options...`を選択します
 1. `Dump CXI/NDS file`を選択してください
-   - ファイルは`0:/gm9/out/`にあります
+    - ファイルは`0:/gm9/out/`にあります
 1. `DS Download Play (NTR-HDNA).nds`を`0:/_nds/`にコピーし、`dlplay.nds`に名前を変更します。
 
 上記の手順は、ダウンロードプレイの起動速度を向上します。

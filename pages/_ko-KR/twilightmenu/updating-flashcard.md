@@ -16,10 +16,10 @@ v21.0.0보다 낮은 버전에서 업데이트 한다면, `.pub` 그리고/또�
 
 ### 업데이트하기
 1. 최신 버전의 [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)를 다운로드 하세요.
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-Flashcard.7z`를 압축 해제하세요
 1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
-   - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
 1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 

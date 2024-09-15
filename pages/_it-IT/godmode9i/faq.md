@@ -40,13 +40,13 @@ GodMode9i è in grado di utilizzare i dati di salvataggio delle cartucce GBA per
 
 1. Carica GodMode9i sulla tua flashcard
 1. Fai dei backup ai tuoi salvataggi GBA!!
-   - Tutti i dati di salvataggio di cui non è stato eseguito il backup andranno persi
-   - Controlla i file e trova quelli più grandi, usare carrelli da 512 byte non servirà a molto, mentre i salvataggi da 64 o 128 KiB si adattano alla maggior parte dei salvataggi DS in 1 o 2 carrelli
+    - Tutti i dati di salvataggio di cui non è stato eseguito il backup andranno persi
+    - Controlla i file e trova quelli più grandi, usare carrelli da 512 byte non servirà a molto, mentre i salvataggi da 64 o 128 KiB si adattano alla maggior parte dei salvataggi DS in 1 o 2 carrelli
 1. Nel menu delle unità, premi <kbd class="r">R</kbd> + <kbd class="face">B</kbd> per smontare la flashcard
 1. Espelli la flashcard, inserisci una scheda di gioco DS e una cartuccia GBA
 1. Seleziona `SCHEDA NDS` poi `Salva`
 1. Quando viene richiesto, premi <kbd class="face">A</kbd> per scrivere i dati sulla cartuccia GBA
-   - Passa a cartucce GBA diverse e ripeti il procedimento fino a che tutti i salvataggi sono stati copiati
+    - Passa a cartucce GBA diverse e ripeti il procedimento fino a che tutti i salvataggi sono stati copiati
 1. Riavvia il DS con la flashcard Slot-1 inserita e riapri GodMode9i
 1. Inserisci la prima cartuccia GBA utilizzata e seleziona `CARTUCCIA GBA`
 1. Scegli `Salvataggio DS`

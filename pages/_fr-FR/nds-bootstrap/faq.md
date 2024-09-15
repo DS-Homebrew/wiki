@@ -36,16 +36,16 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 - En utilisant certaines cartes de jeu, vous pouvez utiliser l'infrarouge dans votre application
 - nds-bootstrap est open source, ce qui signifie que les développeurs peuvent toujours le mettre à jour pour corriger les bogues et autres choses, même si le projet est abandonné
 - Le Memory Expansion Pak DS est émulé, ce qui signifie que les jeux nécessitant cet accessoire fonctionneront
-     - Actuellement, seul le *Navigateur Nintendo DS* l'émule
+    - Actuellement, seul le *Navigateur Nintendo DS* l'émule
 - Intervertissez les écrans supérieur et inférieur dans les jeux compatibles pour un meilleur confort de jeu, ou sur les systèmes dont l'écran est cassé ou retiré
 - Faites des captures d'écran et modifiez les valeurs de la RAM à l'aide du menu en jeu
 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
 - Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
 - 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
-     - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Lanceur de jeu` dans les paramètres de TWLMenu++
-     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
-     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
+    - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Lanceur de jeu` dans les paramètres de TWLMenu++
+    - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
+    - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu
 - Intervertissez les écrans supérieur et inférieur dans les jeux compatibles pour un meilleur confort de jeu, ou sur les systèmes dont l'écran est cassé ou retiré
 - Faites des captures d'écran et modifiez les valeurs de la RAM à l'aide du menu en jeu
@@ -55,7 +55,7 @@ Dans nds-bootstrap, lorsqu'un jeu ne démarre pas, une autre ROM est utilisée p
 Une ROM donatrice peut être définie en utilisant **TW**i**L**ight Menu++.
 - **Flashcards in DS mode:** The supported DSi-Exclusive/DSiWare titles will require an SDK5 DS ROM set as a Donor ROM
 - **DSiWarehax :** Comme les jeux optimisés DSi et (la plupart) des jeux exclusifs DSi/DSiWare contiennent des paramètres MBK différents les uns des autres, les jeux optimisés DSi ne pourront pas démarrer en mode DSi sans une ROM donatrice. En définissant un titre exclusif DSi/DSiWare en tant que ROM donatrice, les jeux optimisés DSi pourront fonctionner avec les paramètres MBK définis par le titre DSiWare sur lequel l'exploit est utilisé
-     - Sur DSi, si **TW**i**L**ight Menu++ détecte qu'aucune ROM donatrice n'est définie, le *Studio son Nintendo DSi* et/ou un titre exploité valide que vous avez lancé seront automatiquement définis comme ROM donatrice(s)
+    - Sur DSi, si **TW**i**L**ight Menu++ détecte qu'aucune ROM donatrice n'est définie, le *Studio son Nintendo DSi* et/ou un titre exploité valide que vous avez lancé seront automatiquement définis comme ROM donatrice(s)
 - **CycloDS iEvolution :** Même cas avec DSiWarehax, mais les titres exclusifs DSi/DSiWare nécessiteront un jeu optimisé DSi défini en tant que ROM donatrice, au lieu de l'inverse
 
 #### Quelle est la meilleure ROM donatrice ?
@@ -74,7 +74,7 @@ Un build nightly est compilé pour le dernier commit. Les builds nightly peuvent
 
 #### Pourquoi mes codes de triche ne fonctionnent pas ?
 - Certains codes de triche peuvent comporter des boutons d'activation ou d'autres conditions à remplir. Consultez la description du code de triche pour plus d'informations
-  - Dans **TW**i**L**ight Menu++, vous pouvez appuyer sur Y pour afficher les informations d'un code de triche spécifique, lorsqu'elles sont disponibles
+    - Dans **TW**i**L**ight Menu++, vous pouvez appuyer sur Y pour afficher les informations d'un code de triche spécifique, lorsqu'elles sont disponibles
 - La plupart des codes de triche ont été développés pour être utilisés en mode DS et peuvent ne pas fonctionner correctement en mode DSi. Si le jeu est optimisé DSi, essayez de le configurer pour qu'il fonctionne en mode DS
 - La façon dont les codes de triche de type E sont implémentés dans nds-bootstrap est actuellement défectueuse, ce qui signifie qu'ils peuvent ou non fonctionner. Votre code de triche utilise probablement ce type, et il est impossible de savoir quand ce problème sera résolu
 

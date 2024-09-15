@@ -11,7 +11,7 @@ A GBARunner2-nek, hogy betöltse a címeket szüksége van egy GBA BIOS dumpra. 
 ### Dumpolási útmutatók
 
 - [GBA/DS/DS Lite egy GBA Flashcard-dal vagy 3DS](bios-dump)
-   - **Nem** lehetséges a GBA BIOS dumpolása egy DSi-n
+    - **Nem** lehetséges a GBA BIOS dumpolása egy DSi-n
 - [Wii (nem Family verzió)/GameCube, GBA és link kábel dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 A BIOS dumpolása után át kell azt nevezni `bios.bin`-nek, majd az `sd:/`, `sd:/gba/`, vagy az `sd:/_gba/` könyvtárba kell rakni, hogy a GBARunner2 tudja olvasni.

@@ -23,6 +23,6 @@ Custom skins can additionally use override fonts for the date & time using `date
 Pk11の[nftr-editor](https://pk11.us/nftr-editor/)などのユーティリティを使って独自のフォントを作成できます。 To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. nftr-editorでNFTRファイルを読み込む
 1. `Input font`テキストボックスに、優先度の高いフォントから低いフォントへを入力します、カンマで区切っていください
-   - 左上のボックスに入力フォントのプレビューが、下のボックスには現在のNFTRが表示されます
+    - 左上のボックスに入力フォントのプレビューが、下のボックスには現在のNFTRが表示されます
 1. `Generate from font`をクリックし、既存の文字を再生成するには`OK`と言って、特別なボタン文字（例：&#xE000;）を再生成するに`キャンセル`を選びます
 1. `Save`をクリックし、他のサイズについて繰り返します

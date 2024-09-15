@@ -66,7 +66,7 @@ Diese Rollen können nur von Moderatoren vergeben werden und zeigen an, dass die
 
 - Developers - Diese Rolle wird an diejenigen vergeben, die Code zur Nintendo DS-Szene beigetragen haben. Wenn Sie Projekte für diese Rolle haben, zeigen Sie sie in #nds-dev
 - Helpers - Diese Rolle wird an diejenigen vergeben, die aktiv sinnvolle Hilfe in #nds-help leisten oder zur Kompatibilitätsmeldung beigetragen haben
-   - Helfer haben keine Moderatorenrechte, bitte pingen Sie einen Moderator an, wenn eine Situation dies erfordert
+    - Helfer haben keine Moderatorenrechte, bitte pingen Sie einen Moderator an, wenn eine Situation dies erfordert
 - Nitro Booster - Wird automatisch an diejenigen vergeben, die dem Server Server Boosts gegeben haben. Diese Rolle hat keine zusätzlichen Berechtigungen und wird nicht in der Mitgliederliste aufgeführt
 
 ### Rollen der Bestrafung

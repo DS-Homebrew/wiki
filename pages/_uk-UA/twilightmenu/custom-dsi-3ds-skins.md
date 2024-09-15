@@ -35,7 +35,7 @@ description: Як створювати власні скіни DSi та 3DS дл
 | bottom_bubble_ds    | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
 | bottom_bubble_macro | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
 | bottom_moving         | Для теми DSi, нижня фонова текстура при переміщенні піктограми                                |
-| bottom_moving_macro | Для теми 3DS, нижня фонова текстура, коли не наведено вказівник на піктограму на DS Phat/Lite |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode          |
 
 ### Фонові текстури (тека `background`)
 Це мають бути файли у форматі PNG. Прозорість підтримується, однак працюватиме лише 100% прозорість.
@@ -58,7 +58,7 @@ description: Як створювати власні скіни DSi та 3DS дл
 | batterylow         | Використовується в режимі DS                                                                             |
 
 ### Фонові текстури (`background` folder)
-Це повинні бути 4 BPP (16 кольорів) BMP-файли.
+These must be 4 BPP (16 color) BMP files.
 
 Щоб відредагувати їх у GIMP, виберіть `Image` -> `Mode` -> `RGB`, щоб дозволити зміну кольорів, а потім, коли ви закінчите зміну кольорів, виберіть `Image` -> `Mode` -> `Indexed...`, щоб перетворити назад у палітру. При переході на індексований формат, переконайтеся, що для `Generate optimum palette` встановлено прапорець і `Maximum number of colors` встановлена на `16`.
 
@@ -182,10 +182,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28            | 28            |
 | `UsernameRenderY`          | The Y position on the top screen to draw the username text                                                                      | 15            | 15            |
 | `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                              | 4             | 4             |
-| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                           | 162           | 162           |
-| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                           | 7             | 7             |
-| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                           | 200           | 200           |
-| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                           | 7             | 7             |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                          | 162           | 162           |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                          | 7             | 7             |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                          | 200           | 200           |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                          | 7             | 7             |
 | `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                            | 1             | 1             |
 | `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                     | 0x0000        | 0x0000        |
 | `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7        | 0xDEF7        |

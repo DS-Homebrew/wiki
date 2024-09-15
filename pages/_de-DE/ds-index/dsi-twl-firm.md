@@ -11,13 +11,13 @@ description: Informationen über den Nintendo DSi und den TWL_FIRM des Nintendo 
 Der Hauptvorteil des Modifizierens von DSi- und 3DS-Systemen besteht darin, dass du mehr Möglichkeiten mit deinen Konsolen freischalten kannst. Die Installation einer benutzerdefinierten Firmware ist recht einfach, und in den meisten Fällen benötigen Sie nur eine (Mikro-)SD-Karte. Hier finden Sie die besten Leitfäden mit Schritt-für-Schritt-Anleitungen, die Sie befolgen können:
 
 - [3DS-Hacking-Anleitung](https://3ds.hacks.guide)
-   - Blitz-Befehl: `mod 3ds`
-   - TWLHelper-Befehl: `guide 3ds`
-   - Kurisu-Befehl: `guide 3ds`
+    - Blitz-Befehl: `mod 3ds`
+    - TWLHelper-Befehl: `guide 3ds`
+    - Kurisu-Befehl: `guide 3ds`
 - [DSi-Hacking-Anleitung](https://dsi.cfw.guide)
-   - Blitz-Befehl: `mod dsi`
-   - TWLHelper-Befehl: `guide dsi`
-   - Kurisu-Befehl: `guide dsi`
+    - Blitz-Befehl: `mod dsi`
+    - TWLHelper-Befehl: `guide dsi`
+    - Kurisu-Befehl: `guide dsi`
 
 ### CPU-Geschwindigkeiten
 Der Nintendo DS wurde 2004 mit einem 67-MHz-Prozessor ausgeliefert, und der Nintendo DSi kam fünf Jahre später mit einem 133-MHz-Prozessor auf den Markt. Die meisten Spiele der Nintendo DS-Bibliothek wurden vor dem Erscheinen des Nintendo DSi entwickelt, und daher stand ihnen nur ein 67-MHz-Prozessor zur Verfügung. Einige Anwendungen sind an diese Taktfrequenz gebunden und funktionieren daher nicht gut mit einer höheren Taktfrequenz. Die meisten Spiele übertreffen jedoch das Original mit einer höheren Taktrate.

@@ -36,16 +36,16 @@ Karena nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihk
 - Jika disisip kartrid tertentu, fitur IR bisa digunakan pada aplikasi
 - nds-bootstrap bersumber terbuka, sehingga pengembang bisa terus memperbarui untuk mengatasi kutu atau hal lainnya, bahkan jika sudah tidak diurus
 - Memory Expansion Pak DS bisa diemulasi untuk permainan yang perlu pengaya ini
-     - Saat ini, baru diemulasi di *Nintendo DS Browser*
+    - Saat ini, baru diemulasi di *Nintendo DS Browser*
 - Bisa menukar layar atas dan bawah di permainan tertentu untuk bermain lebih nyaman, atau untuk layar yang rusak atau dilepas
 - Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
 
 #### DS/DS Lite: Kenapa perlu nds-bootstrap di flashcard DS?
 - ROM tertentu bisa dimuat ke Memory Expansion Pak (atau *flashcart* Slot-2 yang berisi RAM), agar terbaca lebih cepat daripada kartrid biasa
 - 400+ DSiWare bisa dijalankan dengan tambalan sekemas dan ROM Donor DS SDK5
-     - Mohon diingat nds-bootstrap akan selalu digunakan untuk DSiWare, terlepas dari pengaturan `Pemuat Permainan` di TWLMenu++
-     - Tidak semua DSiWare bisa menyimpan, karena susahnya menambah fitur simpan, dan/atau struktur simpanan bisa lebih dari satu berkas
-     - DSiWare tertentu perlu *Lufia: Curse of the Sinistrals* diatur sebagai ROM Donor
+    - Mohon diingat nds-bootstrap akan selalu digunakan untuk DSiWare, terlepas dari pengaturan `Pemuat Permainan` di TWLMenu++
+    - Tidak semua DSiWare bisa menyimpan, karena susahnya menambah fitur simpan, dan/atau struktur simpanan bisa lebih dari satu berkas
+    - DSiWare tertentu perlu *Lufia: Curse of the Sinistrals* diatur sebagai ROM Donor
 - Jika *kernel flashcard* tidak bisa membaca ROM tertentu, nds-bootstrap bisa digunakan dan diatur di tiap-permainan
 - Bisa menukar layar atas dan bawah di permainan tertentu untuk bermain lebih nyaman, atau untuk layar yang rusak atau dilepas
 - Menangkap layar dan mengubah nilai dalam RAM dengan menu *in-game*
@@ -54,17 +54,17 @@ Karena nds-bootstrap menambal fungsi ROM yang aslinya dibaca dari Slot-1 dialihk
 Jika permainan tidak bisa jalan, nds-bootstrap akan "menyumbangkan" ARM7 (dan ARM7i, jika ada) dari ROM lain untuk mengganti biner permainan tersebut sebagai donor.     
 ROM Donor bisa diatur di **TW**i**L**ight Menu++.
 - ***Flashcard* di mode DS:** ROM DSiWare/*DSi-Exclusive* yang didukung perlu ROM DS SDK5 sebagai ROM Donor
-- **DSiWarehax:** Karena permainan *DSi-Enhanced* dan (hampir semua) DSiWare/*DSi-Exclusive* saling punya pengaturan MBK berbeda, maka yang *DSi-Enhanced* perlu ROM Donor agar bisa jalan di mode DSi. Jika DSiWare/*DSi-Exclusive* diatur jadi ROM Donor, permainan *DSi-Enhanced* akan bisa dijalankan dengan pengaturan MBK dari eksploit DSiWare
-     - Di DSi, jika **TW**i**L**ight Menu++ mendeteksi belum ada yang jadi ROM Donor, *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis jadi ROM Donor
+- **DSiWarehax:** Karena permainan *DSi-Enhanced* dan (hampir semua) DSiWare/*DSi-Exclusive* saling punya pengaturan MBK berbeda, maka yang *DSi-Enhanced* perlu ROM Donor agar bisa jalan di mode DSi. Jika DSiWare/*DSi-Exclusive* dijadikan ROM Donor, permainan *DSi-Enhanced* akan bisa dijalankan dengan pengaturan MBK dari eksploit DSiWare
+    - Di DSi, jika **TW**i**L**ight Menu++ mendeteksi belum ada yang jadi ROM Donor, *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis jadi ROM Donor
 - **CycloDS iEvolution:** Sama halnya seperti DSiWarehax, tapi ROM DSiWare/*DSi-Exclusive* perlu permainan *DSi-Enhanced* sebagai ROM Donor, bukan sebaliknya
 
 #### ROM Donor apa yang terbaik?
-Tidak ada yang *terbaik* digunakan. Hampir semua ROM TWL bisa diatur jadi ROM Donor.     
-Untuk *flashcard* DS, ROM DS SDK5 apa pun bisa jadi ROM Donor untuk DSiWare.
+Tidak ada yang *terbaik* digunakan. Hampir semua ROM TWL bisa dijadikan ROM Donor.     
+Untuk *flashcard* DS, ROM DS SDK5 apa pun bisa dijadikan ROM Donor untuk DSiWare.
 
 Contoh:
-- **DSiWarehax di DSi:** *Nintendo DSi Sound* dan/atau judul eksploit absah yang dijalankan akan otomatis jadi ROM Donor, jika belum ada yang diatur.
-- **DSiWarehax di 3DS:** *Dump* dulu ROM DS WiFi Settings (SDK5.5) dengan GodMode9, lalu atur jadi ROM Donor.
+- **DSiWarehax di DSi:** Membuka *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis menjadi ROM Donor, jika belum ada yang diatur.
+- **DSiWarehax di 3DS:** *Dump* dulu ROM DS WiFi Settings (SDK5.5) dengan GodMode9, lalu jadikan ROM Donor.
 
 #### Kenapa ada ROM Donor yang tidak bisa?
 Jika ada judul yang memerlukan ROM Donor, dan ROM yang dianjur TWLMenu++ malah tidak ada opsi untuk jadi ROM Donor (jika sudah gulir ke bawah), maka cari ROM lain sebagai donor.
@@ -74,7 +74,7 @@ Versi *nightly* adalah *commit* paling baru. Versi *nightly* mungkin tidak stabi
 
 #### Kenapa cheat tidak berfungsi?
 - Beberapa *cheat* mungkin perlu kombinasi tombol atau syarat lain agar aktif. Coba periksa dulu keterangan di tiap *cheat*
-  - Di **TW**i**L**ight Menu++, tekan Y untuk melihat keterangan *cheat* tertentu, jika ada
+    - Di **TW**i**L**ight Menu++, tekan Y untuk melihat keterangan *cheat* tertentu, jika ada
 - Hampir semua *cheat* dibuat untuk di mode DS dan mungkin tidak berfungsi di mode DSi. Jika permainan berjenis *DSi-Enhanced*, coba atur ke mode DS
 - Implementasi *cheat* E-type di nds-bootstrap masih kacau, kadang berfungsi kadang tidak. Mungkin *cheat* Anda sejenis itu, dan ini masih belum pasti kapan akan diperbaiki
 

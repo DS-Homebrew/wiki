@@ -20,12 +20,12 @@ crwdns16372:0{% capture tab-working-camera %}crwdne16372:0
 1. crwdns14788:0crwdne14788:0
 1. crwdns14794:0crwdne14794:0<br> ![crwdns14792:0crwdne14792:0](crwdns26561:0crwdne26561:0)
 1. crwdns14796:0crwdne14796:0
-   - crwdns14798:0crwdne14798:0
+    - crwdns14798:0crwdne14798:0
 1. crwdns14800:0crwdne14800:0
-   - crwdns14806:0crwdne14806:0![crwdns14804:0crwdne14804:0](crwdns14802:0crwdne14802:0)
+    - crwdns14806:0crwdne14806:0![crwdns14804:0crwdne14804:0](crwdns14802:0crwdne14802:0)
 1. crwdns14808:0crwdne14808:0
-   - crwdns41004:0crwdne41004:0
-   - crwdns41006:0crwdne41006:0 crwdns41008:0crwdne41008:0
+    - crwdns41004:0crwdne41004:0
+    - crwdns41006:0crwdne41006:0 crwdns41008:0crwdne41008:0
 crwdns19834:0{% endcapture %}crwdne19834:0
 crwdns19836:0crwdne19836:0
 
@@ -36,18 +36,18 @@ crwdns19838:0{% capture tab-non-working-camera %}crwdne19838:0
 1. crwdns19846:0crwdne19846:0
 1. crwdns19848:0crwdne19848:0
 1. crwdns19850:0crwdne19850:0
-   - crwdns19852:0crwdne19852:0
+    - crwdns19852:0crwdne19852:0
 1. crwdns19854:0crwdne19854:0
-   - crwdns19860:0crwdne19860:0![crwdns19858:0crwdne19858:0](crwdns19856:0crwdne19856:0)
+    - crwdns19860:0crwdne19860:0![crwdns19858:0crwdne19858:0](crwdns19856:0crwdne19856:0)
 1. crwdns19862:0crwdne19862:0
-   - crwdns19864:0crwdne19864:0
-   - crwdns41010:0crwdne41010:0 crwdns41012:0crwdne41012:0
+    - crwdns19864:0crwdne19864:0
+    - crwdns41010:0crwdne41010:0 crwdns41012:0crwdne41012:0
 crwdns19866:0{% endcapture %}crwdne19866:0
 crwdns19868:0crwdne19868:0
 
 crwdns19870:0{% capture tab-manual %}crwdne19870:0
 1. crwdns22322:0crwdne22322:0
-   - crwdns41014:0crwdne41014:0
+    - crwdns41014:0crwdne41014:0
 1. crwdns19874:0crwdne19874:0
 1. crwdns19876:0crwdne19876:0
 1. crwdns19878:0crwdne19878:0
@@ -70,12 +70,12 @@ crwdns35561:0{:.alert .alert-warning}crwdne35561:0
 #### crwdns35563:0crwdne35563:0
 
 1. crwdns35565:0crwdne35565:0
-     - crwdns35567:0crwdne35567:0
+    - crwdns35567:0crwdne35567:0
 1. crwdns35569:0crwdne35569:0
 1. crwdns35571:0crwdne35571:0
 1. crwdns35573:0crwdne35573:0
 1. crwdns35575:0crwdne35575:0
-     - crwdns35577:0crwdne35577:0
+    - crwdns35577:0crwdne35577:0
 
 #### crwdns35579:0crwdne35579:0
 
@@ -88,11 +88,11 @@ crwdns35561:0{:.alert .alert-warning}crwdne35561:0
 1. crwdns35593:0crwdne35593:0
 1. crwdns35595:0crwdne35595:0
 1. crwdns35597:0crwdne35597:0
-     - crwdns35599:0crwdne35599:0
-     - crwdns35601:0crwdne35601:0
+    - crwdns35599:0crwdne35599:0
+    - crwdns35601:0crwdne35601:0
 
 #### crwdns35603:0crwdne35603:0
 - crwdns35605:0crwdne35605:0
-     - crwdns35607:0crwdne35607:0
-     - crwdns35609:0crwdne35609:0
-     - crwdns41156:0crwdne41156:0
+    - crwdns35607:0crwdne35607:0
+    - crwdns35609:0crwdne35609:0
+    - crwdns41156:0crwdne41156:0

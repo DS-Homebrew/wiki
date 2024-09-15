@@ -16,7 +16,7 @@ description: Как получить DS Download Play и PictoChat в TWiLight M
 1. Выберете `Open title folder`
 1. Выберете `00000000.tmd`, затем `TMD file options...`
 1. Выберете `Dump CXI/NDS file`
-   - Файл будет находиться в `0:/gm9/out/`
+    - Файл будет находиться в `0:/gm9/out/`
 1. Скопируйте `DS Download Play (NTR-HDNA).nds` в `0:/_nds/`, и переименуйте его в `dlplay.nds`
 
 Вышеописанные действия позволят увеличить скорость загрузки DS Download Play.

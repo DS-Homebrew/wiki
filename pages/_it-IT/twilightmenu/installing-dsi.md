@@ -13,7 +13,7 @@ Se non hai già un modo per eseguire gli homebrew sul tuo DSi, segui [dsi.cfw.gu
 
 ### Installazione
 1. Scarica la versione piè recente di [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Estrai `TWiLightMenu-DSi.7z`
 1. Copia la cartella `_nds` nella tua scheda SD
 1. Copia il file `BOOT.NDS` nella tua scheda SD
@@ -33,12 +33,12 @@ Una flashcard è un oggetto che si inserisce nello slot della scheda di gioco e 
 #### Se hai un R4(i) Ultra
 
 1. Segui [questa guida](installing-flashcard) a partire da `Per avviare giochi utilizzando il firmware della flashcard`
-     - Puoi tranquillamente ignorare gli avvisi
+    - Puoi tranquillamente ignorare gli avvisi
 1. Apri le impostazioni di TWLMenu++
 1. Vai alla pagina `Impostazioni varie`
 1. Attiva `Accesso microSD Slot-1`
 1. Esci dalle impostazioni TWLMenu++ premendo il pulsante `B`
-     - Se finisci nel menu DS classico, premi di nuovo `B`
+    - Se finisci nel menu DS classico, premi di nuovo `B`
 
 #### Se non hai un R4(i) Ultra
 
@@ -51,11 +51,11 @@ Una flashcard è un oggetto che si inserisce nello slot della scheda di gioco e 
 1. Imposta `Slot-1: Modalità Touch` in `Modalità DSi`
 1. Attiva `Avvio automatico Slot-1`
 1. Esci dalle impostazioni TWLMenu++ premendo il pulsante `B`
-     - Se finisci nel menu DS classico, avvia la tua flashcard
-     - Altrimenti, riavvia TWiLight Menu++
+    - Se finisci nel menu DS classico, avvia la tua flashcard
+    - Altrimenti, riavvia TWiLight Menu++
 
 #### Passare tra i contenuti della scheda SD a quelli della flashcard
 - Premi o `SELECT`+`Sù` o `SELECT`+`Giù` per passare dai contenuti della SD a quelli della flashcard
-     - Se il menu SELECT è abilitato, puoi farlo anche lì
-     - Se utilizzi il tema 3DS, tocca l'icona della scheda di gioco/scheda SD
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - Se il menu SELECT è abilitato, puoi farlo anche lì
+    - Se utilizzi il tema 3DS, tocca l'icona della scheda di gioco/scheda SD
+    - If you use the R4, GBC, or Wood themes, press `R` button

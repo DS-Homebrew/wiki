@@ -40,13 +40,13 @@ A GodMode9i képes a GBA cartridge-ek mentési adatainak használatára, ahhoz, 
 
 1. Töltsd be a GodMode9i-t a flashcard-odról
 1. Mentsd a GBA mentéseid!!
-   - Minden mentés adat, ami nem volt mentve el fog veszni
-   - Ellenőrizd a fájlokat és keresd meg a nagyobbakat, 512 byte-os kártyák használata nem sokat segít, míg a 64 vagy 128 KiB-osakra a legtöbb DS mentés 1 vagy 2 kártyában elfér
+    - Minden mentés adat, ami nem volt mentve el fog veszni
+    - Ellenőrizd a fájlokat és keresd meg a nagyobbakat, 512 byte-os kártyák használata nem sokat segít, míg a 64 vagy 128 KiB-osakra a legtöbb DS mentés 1 vagy 2 kártyában elfér
 1. A meghajtó menüben nyomj <kbd class="r">R</kbd> + <kbd class="face">B</kbd> gombokat a flashcard lecsatolásához
 1. Távolítsd el a flashcard-ot és rakj be egy DS átékkártyát és egy GBA cartridge-t
 1. Válaszd az `NDS JÁTÉKKÁRTYA` opciót, majd a `Mentést`-t
 1. Ha kérdezi, nyomj <kbd class="face">A</kbd> gombot az adatok GBA kártyára írásához
-   - Cserélj másik GBA kártyára, és ezt ismételd, amíg a teljes mentés másolásra nem került
+    - Cserélj másik GBA kártyára, és ezt ismételd, amíg a teljes mentés másolásra nem került
 1. Indítsd újra a DS-t a Slot-1 flash kártyádat újra berakva, majd nyisd meg újra a GodMode9i-t
 1. Helyezd be az első használt GBA kártyát és válaszd a `GBA JÁTÉKKÁRTYA` lehetőséget
 1. Válaszd a `DS mentés`-t

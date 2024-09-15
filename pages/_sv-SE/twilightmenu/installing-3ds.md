@@ -20,12 +20,12 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Öppna FBI och välj `Remote Install`, sedan `Scan QR Code`
 1. Skanna denna QR-kod för att installera den senaste versionen av [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![Universal-Updater QR kod](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Stäng FBI och starta Universal-Updater
-   - Om det inte dyker upp på hemmenyn, starta om din 3DS
+    - Om det inte dyker upp på hemmenyn, starta om din 3DS
 1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen
-   - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -36,18 +36,18 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. I FBI, gå till den plats du klistrade in `Universal-Updater.cia` filen
 1. Välj filen `Universal-Updater.cia` och tryck på "Install & Delete"
 1. Stäng FBI och starta Universal-Updater
-   - Om det inte dyker upp på hemmenyn, starta om din 3DS
+    - Om det inte dyker upp på hemmenyn, starta om din 3DS
 1. Hitta TWiLight Menu++ i apprutnätet. Du kan söka med den tredje fliken i sidofältet om du har problem med att hitta appen
-   - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Appen har denna ikon: ![TWiLight Menu++ ikon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tryck på <kbd class="face">A</kbd> eller tryck på nedladdningsikonen i sidofältet och välj `TWiLight Menu++` för att installera den
-   - Det kommer att ta ett tag
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - Det kommer att ta ett tag
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrahera `TWiLightMenu-3DS.7z`
 1. Kopiera mappen `_nds` till ditt SD-korts rot
 1. Kopiera filen `BOOT.NDS` till din SD-korts rot
@@ -70,12 +70,12 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 #### If you have an R4(i) Ultra
 
 1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
-     - You can safely ignore the warnings
+    - You can safely ignore the warnings
 1. Open TWLMenu++ Settings
 1. Switch to the `Misc settings` page
 1. Turn on `Slot-1 microSD access`
 1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, press `B` again
+    - If you end up in the DS Classic Menu, press `B` again
 
 #### If you don't have an R4(i) Ultra
 
@@ -88,11 +88,11 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 1. Set `Slot-1: Touch Mode` to `DSi mode`
 1. Turn on `Auto-start Slot-1`
 1. Exit TWLMenu++ Settings by pressing `B` button
-     - If you end up in the DS Classic Menu, launch your flashcard
-     - Otherwise, restart TWiLight Menu++
+    - If you end up in the DS Classic Menu, launch your flashcard
+    - Otherwise, restart TWiLight Menu++
 
 #### Switching between SD and flashcard contents
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
-     - If the SELECT menu is enabled, you can do so there as well
-     - If you use the 3DS theme, touch the Game Card/SD Card icon
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - If the SELECT menu is enabled, you can do so there as well
+    - If you use the 3DS theme, touch the Game Card/SD Card icon
+    - If you use the R4, GBC, or Wood themes, press `R` button

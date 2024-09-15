@@ -14,6 +14,6 @@ Die meisten GIF-Dateien bis zu einer Größe von 256x192 sollten funktionieren, 
 - Zwischen den beiden müssen die GIFs weniger als 10 MB (DSi-Modus) oder etwa 2 MB (DS-Modus) groß sein
 - Wenn beide GIFs so eingestellt sind, dass sie in einer Endlosschleife angezeigt werden, werden sie 3 Sekunden lang angezeigt, also stellen Sie bei mindestens einem eine Schleifenanzahl ein, um die Zeit zu kontrollieren
 - Die Benutzereingabe Flagge wird unterstützt, so setzen Sie es und eine lange Verzögerung auf einem Frame, wenn Sie ein Splash zeigen und warten wie die Standardeinstellungen wollen
-   - Nur das GIF, das auf eine Eingabe wartet, wird angehalten, so dass das andere weiter animiert werden kann
+    - Nur das GIF, das auf eine Eingabe wartet, wird angehalten, so dass das andere weiter animiert werden kann
 - Bei Verwendung von lokalen Farbtabellen muss der gesamte Rahmen überschrieben werden, da die Palette des gesamten Bildschirms ersetzt wird, nicht nur der aktuelle Rahmen
 - Zeilensprung- und Textrahmen werden nicht funktionieren

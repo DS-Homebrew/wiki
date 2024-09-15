@@ -64,4 +64,4 @@ Per esportare nel formato corretto:
 
 Ora hai un file `bgm.wav` che può essere copiato nella sottocartella `sound` della cartella del tema.
 
- Dovresti quindi impostare l'opzione `Musica Tema DSi/3DS` nelle impostazioni di TWiLight Menu++ su "Tema" affinché la tua musica di sottofondo personalizzata venga riprodotta nel menu.
+Dovresti quindi impostare l'opzione `Musica Tema DSi/3DS` nelle impostazioni di TWiLight Menu++ su "Tema" affinché la tua musica di sottofondo personalizzata venga riprodotta nel menu.

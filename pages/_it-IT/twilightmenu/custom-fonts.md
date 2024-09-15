@@ -23,6 +23,6 @@ Le skin personalizzate possono inoltre utilizzare caratteri di sovrascrittura pe
 Puoi creare i tuoi caratteri personali usando un'utilità come [nftr-editor](https://pk11.us/nftr-editor/) di Pk11. Puoi rigenerare uno dei caratteri esistenti di TWiLight Menu++ nel seguente modo:
 1. Caricare un file NFTR in nftr-editor
 1. Digitare i nomi dei caratteri che si desidera utilizzare dalla priorità più alta a quella più bassa nella casella di testo, separandoli con delle virgole
-   - Puoi vedere un'anteprima dei caratteri di input nella casella in alto a sinistra e l'NFTR corrente nella casella in basso
+    - Puoi vedere un'anteprima dei caratteri di input nella casella in alto a sinistra e l'NFTR corrente nella casella in basso
 1. Clicca `Generate from font `, poi clicca su `OK` per rigenerare i caratteri esistenti e `Cancel` per rigenerare i caratteri speciali dei pulsanti (esempio &#xE000;)
 1. Clicca sul `Salva`, e ripetilo per le altre dimensioni del carattere

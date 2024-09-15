@@ -20,12 +20,12 @@ tabs:
 1. Відкрийте FBI і виберіть `Remote Install`, потім `Scan QR Code`
 1. Відскануйте цей QR-код, щоб встановити останню версію [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br> ![QR код Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Закрийте FBI та запустіть Universal-Updater
-   - Якщо додаток не відображається у головному меню, перезавантажте 3DS
+    - Якщо додаток не відображається у головному меню, перезавантажте 3DS
 1. Знайдіть TWiLight Menu++ в сітці додатків, ви можете шукати за допомогою 3-ї вкладки на бічній панелі, якщо у вас виникли проблеми з пошуком
-   - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Натисніть <kbd class="face">A</kbd> або торкніться іконки завантаження на бічній панелі та виберіть `TWiLight Menu++`, щоб встановити програму
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -36,18 +36,18 @@ tabs:
 1. У FBI, перейдіть до місця, куди ви скопіювали файл `Universal-Updater.cia`
 1. Виберіть файл `Universal-Updater.cia` та натисніть "Install & Delete"
 1. Закрийте FBI та запустіть Universal-Updater
-   - Якщо додаток не відображається у головному меню, перезавантажте 3DS
+    - Якщо додаток не відображається у головному меню, перезавантажте 3DS
 1. Знайдіть TWiLight Menu++ в сітці додатків, ви можете шукати за допомогою 3-ї вкладки на бічній панелі, якщо у вас виникли проблеми з пошуком
-   - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Натисніть <kbd class="face">A</kbd> або торкніться іконки завантаження на бічній панелі та виберіть `TWiLight Menu++`, щоб встановити програму
-   - This will take a while
-   - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Завантажте останню версію [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Розпакуйте `TWiLightMenu-3DS.7z`
 1. Скопіюйте теку `_nds` в кореневу теку вашої SD карти
 1. Скопіюйте файл `BOOT.NDS` в кореневу теку вашої SD карти
@@ -70,12 +70,12 @@ tabs:
 #### Якщо у вас є R4(i) Ultra
 
 1. Дотримуйтесь [цього посібника](installing-flashcard), починаючи з `Запуск ігор за допомогою прошивки вашої флешкарти`
-     - Ви можете сміливо ігнорувати попередження
+    - Ви можете сміливо ігнорувати попередження
 1. Відкрийте Налаштування TWLMenu++
 1. Перейдіть на сторінку `Змішані налаштування`
 1. Увімкніть `Доступ до microSD у Slot-1`
 1. Вийдіть з Налаштувань TWLMenu++, натиснувши кнопку `B`
-     - Якщо ви опинитеся в Класичному DS Меню, натисніть `B` ще раз
+    - Якщо ви опинитеся в Класичному DS Меню, натисніть `B` ще раз
 
 #### Якщо у вас немає R4(i) Ultra
 
@@ -88,11 +88,11 @@ tabs:
 1. Встановіть `Сенсорний режим у Slot-1` на `У режимі DSi`
 1. Увімкніть `Автозапуск Slot-1`
 1. Вийдіть з Налаштувань TWLMenu++, натиснувши кнопку `B`
-     - Якщо ви опинитеся в Класичному DS Меню, запустіть вашу флешкарту
-     - В іншому випадку, перезапустіть TWiLight Menu++
+    - Якщо ви опинитеся в Класичному DS Меню, запустіть вашу флешкарту
+    - В іншому випадку, перезапустіть TWiLight Menu++
 
 #### Перемикання між вмістом SD та флешкарти
 - Натисніть `SELECT`+`Вгору` чи `SELECT`+`Вниз`, щоб перемикатися між вмістом SD та флешкарти
-     - Якщо меню SELECT увімкнено в налаштуваннях, ви також можете зробити це там
-     - Якщо ви використовуєте тему 3DS, торкніться піктограми Ігровий Картридж/SD картка
-     - If you use the R4, GBC, or Wood themes, press `R` button
+    - Якщо меню SELECT увімкнено в налаштуваннях, ви також можете зробити це там
+    - Якщо ви використовуєте тему 3DS, торкніться піктограми Ігровий Картридж/SD картка
+    - If you use the R4, GBC, or Wood themes, press `R` button

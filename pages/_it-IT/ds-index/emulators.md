@@ -54,32 +54,32 @@ Questi sono solo gli emulatori e i loader consigliati presenti in TWiLight Menu+
 ## Note su emulatori specifici
 ### RAM Disk
 - Per far sì che **jEnesisDS** o **neoDS** funzionino sulla scheda SD del DSi, è necessario utilizzare un RAM disk con nds-bootstrap
-   - In TWiLight Menu++ è integrato un creatore di RAM disk per jEnesisDS. Dovrai essere tu a creare i RAM disk per neoDS. Vedi [Creare RAM Disk](../twilightmenu/creating-ram-disks) per capire come fare
-   - La ragione per cui i RAM disk sono utilizzati è perchè gli agganci ARM7 degli emulatori non funzionano correttamente
+    - In TWiLight Menu++ è integrato un creatore di RAM disk per jEnesisDS. Dovrai essere tu a creare i RAM disk per neoDS. Vedi [Creare RAM Disk](../twilightmenu/creating-ram-disks) per capire come fare
+    - La ragione per cui i RAM disk sono utilizzati è perchè gli agganci ARM7 degli emulatori non funzionano correttamente
 
 ### Confronto tra PicoDriveTWL e jEnesisDS
 - **PicoDriveTWL**
-   - È stato sviluppato per DSi
-   - Non richiede i RAM Disk di nds-bootstrap
-      - È supportato il salvataggio sulla scheda SD del DSi
-      - Tempi di caricamento più rapidi tra TWiLight Menu++ e l'emulatore sulla scheda SD del DSi
-   - Supporta gli argomenti
-   - Il limite è di 3 MB su una **Flashcard**
-      - Sfrutta la RAM extra del DSi o il DS Memory Pak per aumentare questo limite
-   - Nessuna emulazione del suono
-   - Il framerate è molto instabile
+    - È stato sviluppato per DSi
+    - Non richiede i RAM Disk di nds-bootstrap
+        - È supportato il salvataggio sulla scheda SD del DSi
+        - Tempi di caricamento più rapidi tra TWiLight Menu++ e l'emulatore sulla scheda SD del DSi
+    - Supporta gli argomenti
+    - Il limite è di 3 MB su una **Flashcard**
+        - Sfrutta la RAM extra del DSi o il DS Memory Pak per aumentare questo limite
+    - Nessuna emulazione del suono
+    - Il framerate è molto instabile
 
 - **jEnesisDS**
-   - Modalità DS
-      - Richiede i RAM disk di nds-bootstrap per poter essere usato sulla scheda SD del DSi
-      - Non è possibile salvare sulla scheda SD del DSi
-   - Un po' lento per caricare
-   - Non supporta gli argomenti
-   - Il limite è di 3 MB su tutte le piattaforme (questo perchè le rom sono caricate nella RAM)
-      - Non supporta il DS Memory Pak o il DSi Extended Memory
-      - C'è una patch per Sonic 3 & Knuckles che rimuove il multiplayer, diminuendo le dimensioni
-   - Emulazione del suono
-   - Il framerate è stabile
+    - Modalità DS
+        - Richiede i RAM disk di nds-bootstrap per poter essere usato sulla scheda SD del DSi
+        - Non è possibile salvare sulla scheda SD del DSi
+    - Un po' lento per caricare
+    - Non supporta gli argomenti
+    - Il limite è di 3 MB su tutte le piattaforme (questo perchè le rom sono caricate nella RAM)
+        - Non supporta il DS Memory Pak o il DSi Extended Memory
+        - C'è una patch per Sonic 3 & Knuckles che rimuove il multiplayer, diminuendo le dimensioni
+    - Emulazione del suono
+    - Il framerate è stabile
 
 
 <!-- Links for tables -->

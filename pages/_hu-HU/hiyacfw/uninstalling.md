@@ -19,8 +19,8 @@ a hiyaCFW csak az SD-kártyán van jelen, és nincs jelen a NAND-on. A folytatá
 Ha a hiyaCFW automatikus indítására állítottad be az Unlaunch-ot, akkor most, hogy már nem használod valószínűleg szeretnéd megváltoztatni ezeket a beállításokat.
 
 1. Helyezd be az SD kártyád és kapcsold be a Nintendo DSi konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
-   - Ez meg kell nyissa az Unlaunch Filemenu-t
+    - Ez meg kell nyissa az Unlaunch Filemenu-t
 1. Menj az `OPTIONS`-be, majd a `NO BUTTON` opcióhoz állítsd be a kívánt alkalmazást
-   - Ha a rendszer NAND-ot szeretnéd automatikusan bootolni, válaszd a `Launcher` nevű alkalmazást
-   - Ha a TWiLight Menu++ szeretnéd automatikusan bootolni, válaszd a `BOOT.NDS` nevű fájlt
+    - Ha a rendszer NAND-ot szeretnéd automatikusan bootolni, válaszd a `Launcher` nevű alkalmazást
+    - Ha a TWiLight Menu++ szeretnéd automatikusan bootolni, válaszd a `BOOT.NDS` nevű fájlt
 1. Válaszd a `SAVE & EXIT` opciót

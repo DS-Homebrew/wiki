@@ -16,7 +16,7 @@ description: כיצד להשיג את הDownload Play של הDS ואת PictoChat
 1. בחרו ב`Open title folder`
 1. בחרו ב`00000000.tmd` ולאחר מכן `TMD file options...`
 1. בחרו ב`Dump CXI/NDS file`
-   - הקובץ ימצא ב`0:/gm9/out/`
+    - הקובץ ימצא ב`0:/gm9/out/`
 1. העתיקו את `DS Download Play (NTR-HDNA).nds` אל `0:/_nds/` ושנו את שמו אל `dlplay.nds`
 
 הצעדים מעלה יגברו את זמן העליה של DLP.

@@ -23,6 +23,6 @@ Benutzerdefinierte Skins können zusätzlich Override-Schriftarten für das Datu
 Sie können Ihre eigenen Schriftarten mit einem Dienstprogramm wie Pk11's [nftr-editor](https://pk11.us/nftr-editor/) erstellen. Um eine der vorhandenen Schriften von TWiLight Menu++ neu zu generieren, verwenden Sie diese:
 1. Laden einer NFTR-Datei in nftr-editor
 1. Geben Sie die Namen der Schriftarten ein, die Sie von der höchsten bis zur untersten Priorität im Textfeld `Eingabe der Schriftart` verwenden möchten, durch Komma getrennt
-   - Im oberen Feld links sehen Sie eine Vorschau der Eingabeschriften und im unteren Feld die aktuelle NFTR
+    - Im oberen Feld links sehen Sie eine Vorschau der Eingabeschriften und im unteren Feld die aktuelle NFTR
 1. Klicken Sie auf " `Aus Schriftart generieren"` und sagen Sie `"OK"`, um die vorhandenen Zeichen zu regenerieren, und `"Abbrechen"`, um die Sonderzeichen für die Schaltflächen zu regenerieren (z. B. &#xE000;)
 1. Klicken Sie auf `Speichern`, und wiederholen Sie den Vorgang für die anderen Größen

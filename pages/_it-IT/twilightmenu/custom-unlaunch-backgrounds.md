@@ -20,7 +20,7 @@ Usando TWiLight Menu++ è possibile patchare il programma di installazione di Un
 1. Scarica [programma di installazione di Unlaunch](https://problemkaputt.de/unlaunch.zip) e estrai `UNLAUNCH.DSI` nella tua SD
 1. Apri le impostazioni di TWiLight Menu++ andare sulla schermata `Impostazioni di Unlaunch`, e clicca su `Background`, e seleziona lo sfondo desiderato
 1. Esci dalle impostazioni e avvia `Unlaunch DSi Installer`
-   - Si dovrebbe visualizzarre la tua immagine personalizzata, se non lo fa allora spegni la tua console e assicurati che la tua GIF sia conforme ai requisiti indicati prima
+    - Si dovrebbe visualizzarre la tua immagine personalizzata, se non lo fa allora spegni la tua console e assicurati che la tua GIF sia conforme ai requisiti indicati prima
 1. Seleziona `Install Now`
 
 ### Usare GIF con più di 31 colori
@@ -29,14 +29,14 @@ Poichè la palette della GIF è caricata nella stessa area della VRAM delle pale
 1. Nella barra dei menu in alto, seleziona `Image` -> `Mode` -> `Indexed...`
 1. Seleziona `Generate optimum palette`e impsta i colori massimi fino a 226 colori
 1. Seleziona un modello di dithering del menu a tendina `Color dithering`
-   - Le immagini senza dithering in genere si comprimono meglio, ma con esso in genere hanno un aspetto migliore, prova a vedere quale sembra migliore per le dimensioni
+    - Le immagini senza dithering in genere si comprimono meglio, ma con esso in genere hanno un aspetto migliore, prova a vedere quale sembra migliore per le dimensioni
 1. Clicca `Convert`
 1. Nella barra dei menu in alto, seleziona `File` -> `Export As...`, dagli un nome con l'estensione`.gif`, e clicca su `Export`
-   - Se dà qualche avvertimento, clicca sul pulsante acceta
+    - Se dà qualche avvertimento, clicca sul pulsante acceta
 1. Nel prossimo popup, disabilita il comando `GIF comment` e clicca `Export`
 1. Controlla la dimensione del file esportato, se è uguale o inferiore a 15.472 byte, passa al passaggio 13
 1. Se la tua GIF è troppo grande, puoi usare [gifsicle](http://www.lcdf.org/gifsicle/) o [ezgif.com](https://ezgif.com/optimize) e provare a ottimizzarla
-   - Queste istruzioni si baseranno su ezgif, essendo un sito web
+    - Queste istruzioni si baseranno su ezgif, essendo un sito web
 1. Apri https://ezgif.com/optimize, e carica la tua GIF
 1. Prova diversi livelli di compressione fino a quando non ne trovi una che porta la tua immagine sotto i 15.472 byte (15.11 KiB), sarebbe meglio un pò sotto perchè GIMP può aumentare un pò la dimensione
 1. Salva la GIF ottimizzata e aprila con GIMP

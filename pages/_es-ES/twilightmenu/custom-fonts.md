@@ -23,6 +23,6 @@ La skins personalizadas pueden, adicionalmente, usar fuentes personalizadas para
 Puedes crear tus propias fuentes usando herramientas como [nftr-editor](https://pk11.us/nftr-editor/), de Pk11. Para regenerar una de las fuentes existentes de TWiLight Menu++ usando esta herramienta:
 1. Abre un archivo NFTR con nftr-editor
 1. Escribe los nombres de las fuentes que quieres usar de mayor a menor prioridad en `Input font`, separándolos con comas
-   - En la caja de arriba, a la izquierda, tendrás una vista previa de las fuentes introducidas, y la NFTR actual en la caja de abajo
+    - En la caja de arriba, a la izquierda, tendrás una vista previa de las fuentes introducidas, y la NFTR actual en la caja de abajo
 1. Haz clic en `Generate from font` y escribe `OK` para regenerar caracteres ya existentes y `Cancel` para regenerar los caracteres especiales de los botones (ej. &#xE000;)
 1. Haz clic en `Save` y repítelo para el resto de tamaños

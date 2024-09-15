@@ -59,7 +59,7 @@ Minden szükséges fájl a `dsidump` mappában lesz az SD kártyád gyökerében
 1. Navigálj az SD kártyád gyökerébe és indítsd el a dsbf_dump-ot
 1. Várja meg, amíg a folyamat befejeződik
 1. Ha a folyamat végzett, nyomd meg a <kbd>START</kbd> gombot az eszközöd kikapcsolásáshoz
-  - A 3DS-család rendszerei "Software closed" jelenik meg helyette. Kapcsold ki a készüléked ezen a képernyőn
+    - A 3DS-család rendszerei "Software closed" jelenik meg helyette. Kapcsold ki a készüléked ezen a képernyőn
 1. Helyezd az SD kártyád a számítógépedbe
 
 Minden szükséges fájl a készülék felső képernyőjén megjelenített mappában lesz.

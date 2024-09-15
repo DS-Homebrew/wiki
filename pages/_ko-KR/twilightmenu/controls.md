@@ -14,26 +14,27 @@ description: TWiLight Menu++의 조작법
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> 또는 <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd>: 페이지 전환
 - (DSi/새턴/홈브류 테마) <kbd>SELECT</kbd> + <kbd>위</kbd>/<kbd>아래</kbd> & <kbd>SELECT</kbd>를 손에서 뗌: SD카드와 flashcard 간 전환
 - <kbd class="face">Y</kbd>: 게임별 설정
-   - <kbd class="face">X</kbd>: 치트 메뉴
-      - <kbd class="face">A</kbd>: 치트 켬/끔
-      - <kbd class="face">B</kbd>: 치트 메뉴 나가기
-      - <kbd class="face">X</kbd>: 치트 저장하고 나가기
-      - <kbd class="face">Y</kbd>: 치트 설명 보기
-      - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
+    - <kbd class="face">X</kbd>: 치트 메뉴
+        - <kbd class="face">A</kbd>: 치트 켬/끔
+        - <kbd class="face">B</kbd>: 치트 메뉴 나가기
+        - <kbd class="face">X</kbd>: 치트 저장하고 나가기
+        - <kbd class="face">Y</kbd>: 치트 설명 보기
+        - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
 - <kbd class="face">X</kbd>: 게임 제거/숨기기
 - (DSi/새턴/홈브류 테마) <kbd>SELECT</kbd>: SELECT 메뉴 또는 DS 클래식 메뉴 (시스템 메뉴, TWiLightMenu++ 설정, GBA모드에 접근할 수 있는 곳)
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
 
 #### Original R4, GameBoy Color and Wood UI themes
 - <kbd>위</kbd>/<kbd>아래</kbd>: 게임 또는 응용프로그램 선택
 - <kbd class="face">A</kbd>: 게임 또는 응용프로그램 실행
 - <kbd class="r">R</kbd>: Switch between the SD card and flashcard
 - <kbd class="face">Y</kbd>: 게임별 설정
-   - <kbd class="face">X</kbd>: 치트 메뉴
-      - <kbd class="face">A</kbd>: 치트 켬/끔
-      - <kbd class="face">B</kbd>: 치트 메뉴 나가기
-      - <kbd class="face">X</kbd>: 치트 저장하고 나가기
-      - <kbd class="face">Y</kbd>: 치트 설명 보기
-      - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
+    - <kbd class="face">X</kbd>: 치트 메뉴
+        - <kbd class="face">A</kbd>: 치트 켬/끔
+        - <kbd class="face">B</kbd>: 치트 메뉴 나가기
+        - <kbd class="face">X</kbd>: 치트 저장하고 나가기
+        - <kbd class="face">Y</kbd>: 치트 설명 보기
+        - <kbd class="l">L</kbd>: 모든 치트 비활성화하기
 - (Wood UI theme) <kbd>SELECT</kbd>: Switch listing method
 
 #### 부팅 단축키

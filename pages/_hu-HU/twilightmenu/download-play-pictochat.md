@@ -16,7 +16,7 @@ A GodMode9-ben:
 1. Válaszd az `Open title folder` opciót
 1. Válaszd a `00000000.tmd`-t, majd válaszd a `TMD file options...`-t
 1. Válaszd a `Dump CXI/NDS file` opciót
-   - A fájl az `sd:/gm9/out` mappában található
+    - A fájl az `sd:/gm9/out` mappában található
 1. Másold a `DS Download Play (NTR-HDNA).nds`-t az `sd:/_nds/` mappába, és nevezd át `dlplay.nds`-nek
 
 A fenti lépések megnövelik a DLP boot sebességet.

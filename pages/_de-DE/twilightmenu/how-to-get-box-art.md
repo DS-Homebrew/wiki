@@ -16,7 +16,7 @@ tabs:
 1. [TWiLightBoxart](https://github.com/MateusRodCosta/TwilightBoxart/releases) herunterladen
 1. Entpacken Sie `TwilightBoxart-Windows-GUI.zip` und starten Sie `TwilightBoxart.exe`
 1. Klicken Sie auf `SD erkennen`
-   - Wenn die richtige SD-Karte nicht gefunden wird, klicken Sie auf `Durchsuchen...` und wählen Sie die richtige Karte aus
+    - Wenn die richtige SD-Karte nicht gefunden wird, klicken Sie auf `Durchsuchen...` und wählen Sie die richtige Karte aus
 1. **Optional:** Ändern Sie die Größe, den Rahmen usw. nach Ihren Wünschen
 1. `Konvertieren` anklicken
 1. Vergewissern Sie sich, dass in den Einstellungen von TWiLight Menu++ die Anzeige von Box-Art eingestellt ist
@@ -28,7 +28,7 @@ tabs:
 1. Entpacken Sie die MacOS- oder Linux- `.zip-Datei`
 1. Öffnen Sie die `Datei TwilightBoxart.ini` im entpackten Ordner in einem Texteditor
 1. Geben Sie den Pfad zu Ihrer SD-Karte nach `SdRoot=` ein, und speichern Sie die Datei
-   - Unter macOS ist dies `/Volumes/` und dann der Name Ihrer SD-Karte
+    - Unter macOS ist dies `/Volumes/` und dann der Name Ihrer SD-Karte
 1. Öffne das Terminal
 1. Geben Sie im Terminal `cd` ein und ziehen Sie dann den Ordner mit `TwilightBoxart.CLI` auf Ihr Terminal
 1. `chmod +x TwilightBoxart.CLI` ausführen

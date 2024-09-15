@@ -14,26 +14,27 @@ description: A TWiLight Menu++ irányítása
 - <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd> /<kbd>Jobb</kbd>: Oldalak lapozása
 - (DSi/Saturn/HBL téma) <kbd>SELECT</kbd> + <kbd>Fel</kbd>/<kbd>Le</kbd> & és <kbd>SELECT</kbd> elengedése: Átkapcsolás az SD kártya és a flashcard között
 - <kbd class="face">Y</kbd>: Játékonkénti beállítások
-   - <kbd class="face">X</kbd>: Csalás menü
-      - <kbd class="face">A</kbd>: Csalás be-/kikapcsolása
-      - <kbd class="face">B</kbd>: Kilépés a csalás menüből
-      - <kbd class="face">X</kbd>: Mentés és kilépés a csalás menüből
-      - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
-      - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
+    - <kbd class="face">X</kbd>: Csalás menü
+        - <kbd class="face">A</kbd>: Csalás be-/kikapcsolása
+        - <kbd class="face">B</kbd>: Kilépés a csalás menüből
+        - <kbd class="face">X</kbd>: Mentés és kilépés a csalás menüből
+        - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
+        - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 - <kbd class="face">X</kbd>: Játék törlése/elrejtése
 - (DSi/Saturn/HBL téma) <kbd>SELECT</kbd>: SELECT menü vagy DS Classic Menü (Ahol a rendszer menü, TWiLight Menu++ Beállítások és a GBA Mód érhető el)
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
 
 #### Original R4, GameBoy Color és Wood UI témák
 - <kbd>Fel</kbd>/<kbd>Le</kbd>: Játék/app kiválasztása
 - <kbd class="face">A</kbd>: Játék/app indítása
 - <kbd class="r">R</kbd>: Váltás az SD kártya és a flashcard között
 - <kbd class="face">Y</kbd>: Játékonkénti beállítások
-   - <kbd class="face">X</kbd>: Csalás menü
-      - <kbd class="face">A</kbd>: Csalás be-/kikapcsolása
-      - <kbd class="face">B</kbd>: Kilépés a csalás menüből
-      - <kbd class="face">X</kbd>: Mentés és kilépés a csalás menüből
-      - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
-      - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
+    - <kbd class="face">X</kbd>: Csalás menü
+        - <kbd class="face">A</kbd>: Csalás be-/kikapcsolása
+        - <kbd class="face">B</kbd>: Kilépés a csalás menüből
+        - <kbd class="face">X</kbd>: Mentés és kilépés a csalás menüből
+        - <kbd class="face">Y</kbd>: Csalás leírás megjelenítése
+        - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 - (Wood UI téma) <kbd>SELECT</kbd>: Listázási módszer váltása
 
 #### Indítási gyorsbillentyűk

@@ -13,7 +13,7 @@ Si vous n'avez pas déjà un moyen d'exécuter des homebrews sur votre DSi, suiv
 
 ### Installation
 1. Téléchargez le dernier [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrayez `TWiLightMenu-DSi.7z`
 1. Copiez le dossier `_nds` à la racine de votre carte SD
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
@@ -33,12 +33,12 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 #### Si vous avez une R4(i) Ultra
 
 1. Suivez [ce guide](installing-flashcard) à partir de `Pour lancer des jeux en utilisant le firmware de votre linker`
-     - Vous pouvez ignorer les avertissements
+    - Vous pouvez ignorer les avertissements
 1. Ouvrez les paramètres de TWLMenu++
 1. Allez à la page `Autres paramètres`
 1. Activez `Accès microSD Slot-1`
 1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
-     - Si vous vous retrouvez dans le menu DS Classic, appuyez à nouveau sur `B`
+    - Si vous vous retrouvez dans le menu DS Classic, appuyez à nouveau sur `B`
 
 #### Si vous n'avez pas de R4(i) Ultra
 
@@ -51,11 +51,11 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 1. Définissez `Slot-1 : Mode tactile` à `Mode DSi`
 1. Activez `Démarrage automatique Slot-1`
 1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
-     - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker
-     - Sinon, redémarrez TWiLight Menu++
+    - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker
+    - Sinon, redémarrez TWiLight Menu++
 
 #### Basculer entre le contenu de la carte SD et celui du linker
 - Appuyez sur `SELECT`+`Haut` ou `SELECT`+`Bas` pour passer du contenu de la carte SD à celui du linker
-     - Si le menu SELECT est activé, vous pouvez également le faire à cet endroit
-     - Si vous utilisez le thème 3DS, touchez l'icône Carte de jeu/Carte SD
-     - Si vous utilisez les thèmes R4, GBC ou Wood, appuyez sur le bouton `R`
+    - Si le menu SELECT est activé, vous pouvez également le faire à cet endroit
+    - Si vous utilisez le thème 3DS, touchez l'icône Carte de jeu/Carte SD
+    - Si vous utilisez les thèmes R4, GBC ou Wood, appuyez sur le bouton `R`

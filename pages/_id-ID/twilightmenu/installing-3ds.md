@@ -20,12 +20,12 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 1. Buka FBI dan pilih `Remote Install`, lalu `Scan QR Code`
 1. Pindai kode QR berikut untuk memasang [Universal-Updater](https://github.com/Universal-Team/Universal-Updater) versi terkini<br> ![Kode QR Universal-Updater](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Tutup FBI dan luncurkan Universal-Updater
-   - Jika tidak muncul di HOME Menu, nyalakan ulang 3DS
+    - Jika tidak muncul di HOME Menu, nyalakan ulang 3DS
 1. Cari TWiLight Menu++ di kisi layar aplikasi, gunakan tab ketiga pada bilah sisi jika kesusahan mencari
-   - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
-   - Ini akan lumayan lama
-   - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
+    - Ini akan lumayan lama
+    - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -36,18 +36,18 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 1. Saat di FBI, masuk ke tempat ditaruhnya berkas `Universal-Updater.cia`
 1. Pilih berkas `Universal-Updater.cia` dan tekan "Install & Delete"
 1. Tutup FBI dan luncurkan Universal-Updater
-   - Jika tidak muncul di HOME Menu, nyalakan ulang 3DS
+    - Jika tidak muncul di HOME Menu, nyalakan ulang 3DS
 1. Cari TWiLight Menu++ di kisi layar aplikasi, gunakan tab ketiga pada bilah sisi jika kesusahan mencari
-   - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+    - Ikon seperti ini: ![Ikon TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Tekan <kbd class="face">A</kbd> atau ketuk ikon unduh di bilah sisi dan pilih `TWiLight Menu++` untuk memasangnya
-   - Ini akan lumayan lama
-   - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
+    - Ini akan lumayan lama
+    - Jika gagal memasang, pastikan konsol sudah tersambung internet. Jika tidak, pencet tab `Urus sendiri`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
-   - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD
 1. Salin berkas `BOOT.NDS` ke akar kartu SD
@@ -64,18 +64,18 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 
 ### Mengakses isi *flashcard*
 
-*Flashcard* adalah kaset yang disisipkan ke slot kaset permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
+*Flashcard* adalah kartrid yang disisipkan ke slot permainan, dan terdapat slot kartu microSD. Jika tidak punya *flashcard*, panduan ini selesai di sini.
 {:.alert .alert-warning}
 
 #### Jika punya R4(i) Ultra
 
 1. Ikuti [panduan ini](installing-flashcard) mulai dari `Menjalankan permainan dengan firmware flashcard`
-     - Peringatan yang ada boleh diabaikan
+    - Peringatan yang ada boleh diabaikan
 1. Buka Pengaturan TWLMenu++
 1. Pindah ke halaman `Pengaturan lain`
 1. Nyalakan `Akses microSD Slot-1`
 1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
-     - Jika masuk ke Menu DS Klasik, tekan `B` lagi
+    - Jika masuk ke Menu DS Klasik, tekan `B` lagi
 
 #### Jika tidak punya R4(i) Ultra
 
@@ -88,11 +88,11 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 1. Ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
 1. Nyalakan `Langsung mulai Slot-1`
 1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
-     - Jika masuk ke Menu DS Klasik, luncurkan *flashcard*
-     - Jika tidak, mulai ulang TWiLight Menu++
+    - Jika masuk ke Menu DS Klasik, luncurkan *flashcard*
+    - Jika tidak, mulai ulang TWiLight Menu++
 
 #### Beralih antara isi kartu SD dan *flashcard*
 - Tekan `SELECT`+`Atas` atau `SELECT`+`Bawah` untuk beralih antara isi kartu SD dan *flashcard*
-     - Jika menu SELECT diaktifkan, boleh dilakukan dari situ
-     - Jika menggunakan tema 3DS, sentuh ikon Kaset/Kartu SD
-     - Jika menggunakan tema Wood, R4, atau GBC; tekan tombol `L`
+    - Jika menu SELECT diaktifkan, boleh dilakukan dari situ
+    - Jika menggunakan tema 3DS, sentuh ikon Kartrid/Kartu SD
+    - Jika menggunakan tema Wood, R4, atau GBC; tekan tombol `L`

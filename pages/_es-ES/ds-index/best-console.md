@@ -15,6 +15,7 @@ Las consolas Nintendo DS, DSi, 3DS y 2DS pueden correr el modo DS(i) al igual qu
 | Velocidad máxima CPU | 67mhz                                                          | 133mhz[^1]                                                  | 133mhz[^1]                                          |
 | Cámara               | No                                                             | Sí                                                          | Sí                                                  |
 | Pantalla             | TN(?)                                       | TN (Normal), IPS (XL) | TN o IPS (varía según el modelo) |
+| Touch sensitivity    | Sí                                                             | DSi mode only                                               | No                                                  |
 | Escalado             | No                                                             | No                                                          | Sí[^2]                                              |
 | Niveles Brillo       | 2 (Encendido/Apagado para Phat), 4 (Lite)[^3]                  | 5                                                           | 5                                                   |
 | Compatibilidad GBA   | Nativo, casi perfecto[^4]                                      | Excelente                                                   | Nativo, casi perfecto[^5]                           |

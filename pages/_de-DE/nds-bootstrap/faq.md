@@ -36,16 +36,16 @@ nds-bootstrap patcht die ROM-Funktionen so, dass sie von einer SD-Karte aus lauf
 - Mit bestimmten Spielkarten können Sie IR in Ihrer Anwendung verwenden
 - nds-bootstrap ist Open Source, was bedeutet, dass Entwickler es immer aktualisieren können, um Fehler und andere Dinge zu beheben, auch wenn das Projekt eingestellt wird
 - Der DS Memory Expansion Pak ist emuliert und das bedeutet, dass Spiele, die Zubehör benötigen, funktionieren
-     - Derzeit wird er nur vom *Nintendo DS Browser* emuliert
+    - Derzeit wird er nur vom *Nintendo DS Browser* emuliert
 - Tausche die oberen und unteren Bildschirme in kompatiblen Spielen für komfortablere Spiele, oder auf Systemen mit kaputtem oder entferntem Bildschirm
 - Screenshots aufnehmen und Werte im RAM im Ingame-Menü bearbeiten
 
 #### DS/DS Lite: Warum nds-bootstrap auf einer DS-Flashkarte verwenden?
 - Bestimmte kompatible ROMs werden in den Memory Expansion Pak (oder Slot-2 Flashkarten mit RAM) geladen sodass Ladezeiten schneller als normale Spielkarten sein können
 - 400+ DSiWare-Titel können über integrierte Patches und eine Spender-ROM eines SDK5 DS Titels ausgeführt werden
-     - Beachten Sie, dass nds-bootstrap immer für DSiWare verwendet wird, unabhängig von der `Game Loader` Einstellung in TWLMenu++ Einstellungen
-     - Nicht alle DSiWare-Titel können speichern, da es schwierig ist, Speicherunterstützung für diese hinzuzufügen und/oder sie speichern mehr als eine Datei im Speicher-Dateisystem
-     - Bestimmte DSiWare benötigt *Lufia: Curse of the Sinistrals* als Spender-ROM gesetzt
+    - Beachten Sie, dass nds-bootstrap immer für DSiWare verwendet wird, unabhängig von der `Game Loader` Einstellung in TWLMenu++ Einstellungen
+    - Nicht alle DSiWare-Titel können speichern, da es schwierig ist, Speicherunterstützung für diese hinzuzufügen und/oder sie speichern mehr als eine Datei im Speicher-Dateisystem
+    - Bestimmte DSiWare benötigt *Lufia: Curse of the Sinistrals* als Spender-ROM gesetzt
 - Wenn Ihr Flashcard-Kernel einen bestimmten ROM nicht ausführen kann, kann nds-bootstrap stattdessen verwendet werden und kann pro Spiel eingestellt werden
 - Tausche die oberen und unteren Bildschirme in kompatiblen Spielen für komfortablere Spiele, oder auf Systemen mit kaputtem oder entferntem Bildschirm
 - Screenshots aufnehmen und Werte im RAM im Ingame-Menü bearbeiten
@@ -55,7 +55,7 @@ Im nds-bootstrap, wenn ein Spiel nicht bootet, wird eine andere ROM verwendet, u
 Eine Spender-ROM kann mit **TW**i**L**ight menu++ gesetzt werden.
 - **Flashcards im DS-Modus:** Die unterstützten DSi-Exclusive/DSiWare Titel erfordern ein SDK5 DS ROM als Donor-ROM gesetzt
 - **DSiWarehax:** Da sowohl DSi-Enhanced Spiele als auch (meist) DSi-Exclusive/DSiWare Spiele unterschiedliche MBK-Einstellungen enthalten DSi-Enhanced Spiele werden nicht im DSi Modus booten ohne einem Donor-ROM. Durch Setzen eines DSi-Exclusive/DSiWare-Titels als Spender ROM, DSi-Enhanced Spiele können in den MBK-Einstellungen des DSiWare-Titels ausgeführt werden, auf dem der Exploit verwendet wird
-     - Auf DSi, wenn **TW**i**L**Nacht Menu++ erkennt, dass kein Spender-ROM gesetzt ist *Nintendo DSi Sound* und/oder ein gültiger von dir gestarteter Titel werden automatisch als Donor-ROMs gesetzt
+    - Auf DSi, wenn **TW**i**L**Nacht Menu++ erkennt, dass kein Spender-ROM gesetzt ist *Nintendo DSi Sound* und/oder ein gültiger von dir gestarteter Titel werden automatisch als Donor-ROMs gesetzt
 - **CycloDS iEvolution:** Gleicher Fall mit DSiWarehax, aber DSi-Exclusive/DSiWare-Titel erfordern ein DSi-Enhanced Spiel als Donor ROM statt umgekehrt
 
 #### Was ist die beste Donor-ROM?
@@ -74,7 +74,7 @@ Ein Nightly-Build wird für den letzten Commit erstellt. Nightly-Builds können 
 
 #### Warum funktionieren meine Cheats nicht?
 - Einige Cheats haben möglicherweise Tastenaktivierer oder andere Bedingungen, die erfüllt werden müssen. Überprüfe die Beschreibung des Cheats für weitere Informationen
-  - Im **TW**i**L**ight Menu++ können Sie Y drücken, um die Informationen eines Cheats anzuzeigen, falls verfügbar
+    - Im **TW**i**L**ight Menu++ können Sie Y drücken, um die Informationen eines Cheats anzuzeigen, falls verfügbar
 - Die meisten Cheats wurden für den Einsatz im DS Modus entwickelt und funktionieren möglicherweise nicht korrekt, wenn sie im DSi Modus ausgeführt werden. Wenn das Spiel DSi-Enhanced ist, versuche es so einzustellen, dass es im DS Modus läuft
 - Die Art und Weise, wie E-Cheats in nds-bootstrap implementiert werden, ist derzeit defekt, was bedeutet, dass sie möglicherweise nicht funktionieren. Dein Cheat benutzt diesen Typ, und es ist nicht bekannt, wann dieses Problem behoben wird
 

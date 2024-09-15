@@ -26,7 +26,7 @@ Program hiyaCFW Helper jest znany z tego, że powoduje fałszywe wyniki w Window
 {: .alert .alert-info}
 
 1. Pobierz i zainstaluj najnowszą wersję [7-Zip](https://www.7-zip.org/download.html)
-   - To nie będzie działać z żadnym innym narzędziem do rozpakowywania archiwów, takim jak WinRAR, pomocnik hiyaCFW opiera się na samym 7-Zip, a nie na ogólnym rozpakowywaniu archiwów
+    - To nie będzie działać z żadnym innym narzędziem do rozpakowywania archiwów, takim jak WinRAR, pomocnik hiyaCFW opiera się na samym 7-Zip, a nie na ogólnym rozpakowywaniu archiwów
 1. Pobierz najnowszą wersję [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) dla systemu Windows
 1. Rozpakuj archiwum hiyaCFW Helper w dowolnym miejscu na swoim komputerze
 {% endcapture %}
@@ -43,7 +43,7 @@ Program hiyaCFW Helper jest znany z tego, że powoduje fałszywe wyniki w Window
 1. Pobierz najnowszą wersję [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) dla Pythona
 1. Rozpakuj archiwum hiyaCFW Helper w dowolnym miejscu na swoim komputerze
 1. Zainstaluj tkinter za pomocą poniższej komendy dla swojego distro, jeśli jeszcze go nie masz:
-   - Oparte na debianie: `sudo apt-get install python3-tk`
+    - Oparte na debianie: `sudo apt-get install python3-tk`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -54,23 +54,23 @@ Program hiyaCFW Helper jest znany z tego, że powoduje fałszywe wyniki w Window
 ![Zrzut ekranu HiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Uruchom HiyaCFW Helper
-  - **Windows:** Uruchom plik `HiyaCFW_Helper.exe` wyodrębniony z archiwum hiyaCFW Helper (może być konieczne tymczasowe wyłączenie programu antywirusowego)
-  - **macOS:** Kliknij prawym przyciskiem myszy plik `HiyaCFW_Helper` wyodrębniony z archiwum hiyaCFW Helper i wybierz `Open`
-  - **Linux:** Uruchom `HiyaCFW_Helper.py` pobrany z archiwum hiyaCFW Helper
+    - **Windows:** Uruchom plik `HiyaCFW_Helper.exe` wyodrębniony z archiwum hiyaCFW Helper (może być konieczne tymczasowe wyłączenie programu antywirusowego)
+    - **macOS:** Kliknij prawym przyciskiem myszy plik `HiyaCFW_Helper` wyodrębniony z archiwum hiyaCFW Helper i wybierz `Open`
+    - **Linux:** Uruchom `HiyaCFW_Helper.py` pobrany z archiwum hiyaCFW Helper
 1. Kliknij przycisk `...` w polu "NAND file with no$GBA footer"
 1. Przejdź do swojej kopii zapasowej NAND i kliknij `Otwórz`
 1. Naciśnij `Start`
 1. W nowym wyskakującym oknie przejdź do katalogu głównego karty SD i naciśnij `OK`.
-   - Może to zająć pare minut
+    - Może to zająć pare minut
 1. Kiedy aplikacja powie `Done!`, zamknij hiyaCFW Helper
 1. Zamknij okno terminala
 
 ### Część 3: Konfiguracja Unlaunch i hiyaCFW
 1. Włączając swoją konsolę Nintendo DSi, przytrzymaj <kbd class="face">A</kbd> i <kbd class="face">B</kbd>
-   - To powinno zabrać cię do menu plików Unlaunch'a
+    - To powinno zabrać cię do menu plików Unlaunch'a
 1. Przejdź do `OPTIONS`, a następnie `NO BUTTON`
 1. Wybierz `hiyaCFW` i naciśnij <kbd class="face">A</kbd>
-   - Spowoduje to automatyczne uruchomianie systemu hiyaCFW
+    - Spowoduje to automatyczne uruchomianie systemu hiyaCFW
 1. Zapisz ustawienia i zrestartuj konsolę
 1. Przytrzymaj <kbd>SELECT</kbd> podczas włączania swojej konsoli Nintendo DSi, aby zdobyć dostęp do ustawień hiyaCFW
 1. Zmień ustawienia jak ci się żywnie podoba, a następnie naciśnij <kbd>START</kbd> aby kontynuować

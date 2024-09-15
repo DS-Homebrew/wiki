@@ -11,7 +11,7 @@ GBARunner2에서 게임을 로드하기 위해, GBA BIOS의 덤프파일이 필�
 ### 덤핑 가이드
 
 - [GBA 플레시카드가 있는 GBA/DS/DS Lite나 3DS](bios-dump)
-   - DSi에서는 GBA BIOS를 덤핑할 수 **없습니다.**
+    - DSi에서는 GBA BIOS를 덤핑할 수 **없습니다.**
 - [(패밀리 에디션이 아닌) Wii/게임큐브, GBA, 링크 케이블 덤퍼](https://github.com/FIX94/gba-link-cable-dumper)
 
 BIOS를 덤핑 한 후 이름을 `bios.bin`으로 변경하여야 하며, GBARunner2가 읽을 수 있도록 `sd:/`, `sd:/gba/`, 또는 `sd:/_gba/`에 파일을 위치시켜야 합니다.

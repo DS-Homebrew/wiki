@@ -36,16 +36,16 @@ Az nds-bootstrap a ROM funkciókat patcheli, hogy fussanak SD kártyáról, és 
 - Bizonyos játék kártyák használatakor lehetőséged van az IR használatára az alkalmazásodból
 - Az nds-bootstrap nyílt forrású, így a fejlesztől mindig tudják frissíteni a hibák és egyéb dolgok javítása érdekében, még akkor is, ha a projekt megszűnik
 - A DS Memory Expansion Pak emulált, így azok a játékok amiknek szüksége van rá működni fognak
-     - Jelenleg csak a *Nintendo DS Browser* emulálja ezt
+    - Jelenleg csak a *Nintendo DS Browser* emulálja ezt
 - Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
 - Képernyőképek készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
 
 #### DS/DS Lite: Miért használjak nds-bootstrap-et egy DS flashcard-on?
 - Bizonyos kompatibilis ROM-ok betöltésre kerülnek a Memory Expansion Pak-ba (vagy RAM-ot tartalmazó Slot-2 flashcard-o memóriájába), gyorsabb betöltési időket lehetővé téve, mint a normál játék kártyák
 - 400+ számú DSiWare cím futtatható a beépített patchek és egy SDK5 DS cím Donor ROM-ja segítségével
-     - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `Játék betöltő` beállítástól a TWLMenu++ beállításokban
-     - Nem minden DSiWare cím tud menteni, mivel nehéz hozzáadni a mentés támogatását, és/vagy egynél több fájlt tárolnak a mentési fájlrendszerben
-     - Bizonyos DSiWare termékekhez a *Lufia: Curse of the Sinistrals* játékra lesz szükség, mint Donor ROM-ra
+    - Ne feledd, hogy az nds-bootstrap lesz mindig a DSiWare-hez használva, függetlenül az `Játék betöltő` beállítástól a TWLMenu++ beállításokban
+    - Nem minden DSiWare cím tud menteni, mivel nehéz hozzáadni a mentés támogatását, és/vagy egynél több fájlt tárolnak a mentési fájlrendszerben
+    - Bizonyos DSiWare termékekhez a *Lufia: Curse of the Sinistrals* játékra lesz szükség, mint Donor ROM-ra
 - Ha a flashcard kernel-ed nem tud futtatni egy bizonyos ROM-ot, akkor az nds-bootstrap használható helyette, és ez játékonként beállítható
 - Az alsó és felső képernyő cserélhető a kompatibilis játékoknál a még kényelmesebb játékmenetért, vagy olyan rendszerekhez, ahol törött vagy eltávolított a képernyő
 - Képernyőképek készítése és értékek szerkesztése a RAM-ban a játékbani menü használatával
@@ -55,7 +55,7 @@ Az nds-bootstrap-ben, amikor egy játék nem bootol, egy másik ROM-ot használu
 A Donor ROM beállítható a **TW**i**L**ight Menu++-szal.
 - **Flashcard-ok DS módban:** A támogatott DSi-Exklúzív/DSiWare címek SDK5 DS ROM készletet igényelnek, mint Donor ROM
 - **DSiWarehax:** Mivel a DSi-Enhanced játékok és a (legtöbb) DSi-Exkluzív/DSiWare játék eltérő MBK-beállításokat tartalmaznak, a DSi-Enhanced játékok nem fognak elindulni DSi módban Donor ROM nélkül. Egy DSi-Exkluzív/DSiWare cím Donor ROM-ként való beállításával a DSi-Enhanced játékok képesek lesznek futni a DSiWare cím által beállított MBK-beállításokon belül, amelyen az exploitot használják
-     - DSi-n, ha **TW**i**L**ight Menu++ észleli, hogy nincs Donor ROM beállítva, *Nintendo DSi Sound* és/vagy egy érvényes, már elindított exploitolt cím automatikusan Donor ROM(ok)-ként lesz beállítva
+    - DSi-n, ha **TW**i**L**ight Menu++ észleli, hogy nincs Donor ROM beállítva, *Nintendo DSi Sound* és/vagy egy érvényes, már elindított exploitolt cím automatikusan Donor ROM(ok)-ként lesz beállítva
 - **CycloDS iEvolution:** Ugyanez a helyzet, mint a DSiWarehax-szal, de a DSi-Exkluzív/DSiWare címekhez DSi-Enhanced játékra lesz szükség, amely Donor ROM-ként van beállítva, nem pedig fordítva
 
 #### Mi a legjobb Donor ROM?
@@ -74,7 +74,7 @@ Az esti fordítás egy fordítás a legutolsó változtatásokkal. Az esti ford�
 
 #### Miért nem működnek a csalásaim?
 - Egyes csalások lehet, hogy gombbal aktiválhatók vagy vannak egyéb feltételek, amelyeket teljesíteni kell. További információkért nézd meg a csalás leírását
-  - A **TW**i**L**ight Menu++-ban Y-t nyomva megtekintheted a csalás információit, ha elérhető
+    - A **TW**i**L**ight Menu++-ban Y-t nyomva megtekintheted a csalás információit, ha elérhető
 - A legtöbb csalást DS módban való használatra fejlesztették ki, és előfordulhat, hogy DSi módban nem működik megfelelően. Ha a játék DSi-Enhanced, próbáld meg beállítani, hogy DS módban fusson
 - A mód, ahogy az E csalás típusok implementálva vannak az nds-bootstrap-ben jelenleg hibás, ami azt jelenti, hogy vagy működnek vagy nem. A csalás, amit használsz valószínűleg ilyen típusú és nem tudni ez mikor lesz javítva
 

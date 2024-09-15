@@ -40,13 +40,13 @@ GodMode9i mampu menggunakan simpanan di kartrid GBA untuk men-*dump* simpanan se
 
 1. Buka GodMode9i di *flashcard*
 1. Cadangkan dulu simpanan GBA!!
-   - Semua data simpanan yang belum dicadang akan hilang
-   - Periksa berkasnya dan cari yang besar, tak perlu kartrid bersimpanan 512 bita karena simpanan 64 atau 128 KiB saja bisa muat 1 atau 2 simpanan kartrid DS
+    - Semua data simpanan yang belum dicadang akan hilang
+    - Periksa berkasnya dan cari yang besar, tak perlu kartrid bersimpanan 512 bita karena simpanan 64 atau 128 KiB saja bisa muat 1 atau 2 simpanan kartrid DS
 1. Di menu kandar, tekan <kbd class="r">R</kbd> + <kbd class="face">B</kbd> untuk lepas baca *flashcard*
 1. Keluarkan *flashcard*, sisipkan kaset DS dan kartrid GBA
 1. Pilih `KARTRID NDS` lalu `Simpan`
 1. Saat diminta, tekan <kbd class="face">A</kbd> untuk menaruh data ke kartrid GBA
-   - Ganti ke kartrid GBA lain dan ulangi sampai seluruh simpanan tersalin
+    - Ganti ke kartrid GBA lain dan ulangi sampai seluruh simpanan tersalin
 1. Nyalakan ulang DS dengan *flashcard* Slot-1 dan buka lagi GodMode9i
 1. Sisipkan kartrid GBA pertama yang tadi digunakan dan pilih `KARTRID GBA`
 1. Pilih `Simpanan DS`

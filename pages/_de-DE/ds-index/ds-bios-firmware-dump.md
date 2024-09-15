@@ -59,7 +59,7 @@ Alle erforderlichen Dateien befinden sich im Ordner `dsidump` im Stammverzeichni
 1. Navigieren Sie zum Stammverzeichnis Ihrer SD-Karte und starten Sie dsbf_dump
 1. Warten Sie, bis der Vorgang abgeschlossen ist
 1. Drücken Sie nach Abschluss des Vorgangs <kbd>START</kbd>, um Ihr Gerät auszuschalten
-  - Auf Systemen der 3DS-Familie wird stattdessen "Software geschlossen" angezeigt. Schalten Sie Ihr Gerät von diesem Bildschirm aus
+    - Auf Systemen der 3DS-Familie wird stattdessen "Software geschlossen" angezeigt. Schalten Sie Ihr Gerät von diesem Bildschirm aus
 1. Stecken Sie Ihre SD-Karte in Ihren Computer
 
 Alle erforderlichen Dateien befinden sich in einem Ordner, der auf dem oberen Bildschirm Ihres Geräts angegeben ist.

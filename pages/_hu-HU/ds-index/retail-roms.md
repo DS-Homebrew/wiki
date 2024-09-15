@@ -48,19 +48,19 @@ A flashcardok a csalás kódok előnyeit ki tudják használni csalás adatbázi
 
 Homebrew/digitális bázisú megoldások is élvezhetik az előnyeit a csalás-adatbázisoknak; a szoftverek, amik aktuálisan használják őket:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-   - NitroHax lehetővé teszi a csalások használatát valódi játék kártyákkal egy flashcard-ról. A motor betölti a teljes cheats.xml adatbázist a Nintendo DS korlátozott RAM-jába, és próbálja onnan menedzselni őket. Ez létrehoz egy erős korlátot, hogy hány csalással rendelkezhet, mert a NitroHax nem tölt be olyan cheats.xml fájlt, ami 2,4 MB feletti méretű
+    - NitroHax lehetővé teszi a csalások használatát valódi játék kártyákkal egy flashcard-ról. A motor betölti a teljes cheats.xml adatbázist a Nintendo DS korlátozott RAM-jába, és próbálja onnan menedzselni őket. Ez létrehoz egy erős korlátot, hogy hány csalással rendelkezhet, mert a NitroHax nem tölt be olyan cheats.xml fájlt, ami 2,4 MB feletti méretű
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([usrcheat.dat fork](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` or `usrcheat.dat`)
-   - NitroHax3DS egy NitroHax verzió, ami a rendszer SD kártyájáról fut DSi-n vagy 3DS-en. Az eredeti verzió a cheats.xml-t a korábbi 2.4 MB korláttal használja, úgy mint az eredeti NitroHax, de létezik belőle olyan fork, ami méretkorlát nélkül tölti be a usrcheat.dat adatbázist
+    - NitroHax3DS egy NitroHax verzió, ami a rendszer SD kártyájáról fut DSi-n vagy 3DS-en. Az eredeti verzió a cheats.xml-t a korábbi 2.4 MB korláttal használja, úgy mint az eredeti NitroHax, de létezik belőle olyan fork, ami méretkorlát nélkül tölti be a usrcheat.dat adatbázist
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
-   - TWiLight Menu++ olvassa a `usrcheat.dat` fájlt, és kiküldi az engedélyezett csalás értékeket egy másik fájlba, amit az nds-bootstrap fel tud venni
-   - Az nds-bootstrap-ban lévő csalás motor a NitroHax-ban is lévőn alapul. Mivel a csalás fájl csak az engedélyezett csalásokat tartalmazza, az adott címhez, csak az az egy korlát marad, hogy hány csalás engedélyezhető egyszerre, az adatbázis mérete már nincs korlátozva
+    - TWiLight Menu++ olvassa a `usrcheat.dat` fájlt, és kiküldi az engedélyezett csalás értékeket egy másik fájlba, amit az nds-bootstrap fel tud venni
+    - Az nds-bootstrap-ban lévő csalás motor a NitroHax-ban is lévőn alapul. Mivel a csalás fájl csak az engedélyezett csalásokat tartalmazza, az adott címhez, csak az az egy korlát marad, hogy hány csalás engedélyezhető egyszerre, az adatbázis mérete már nincs korlátozva
 
 A legteljesebb csalás adatbázis a [DeadSkullzJr's Cheat Database](https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711) ajánlott.
 
 A csalás kódok jellemzően 0-tól F-ig típusúak, és alább egy (befejezettlen) leírásuk:
 
 - Az 0xE kód típus 32-bites kód, ami lehetővé tesz egyszerre több egymás követő címre írást a memóriába. Lényegében olyan, mint az alap 32 bites RAM írási kódtípus (0x0), azzal a különbséggel, hogy az írandó értékek mellett nem szerepelnek címek. Ezzel szemben a 0xE kód típus úgy programozott, hogy automatikusan elágazzon egy indító címről, és utána döntse el a címet ahova írnia kell. Innentől kezdve, már csak meg kell írni, hogy elvégezze a munkát
-  - Ismert, hogy ezek a típusú csalás kódok jelenleg nem működnek nds-bootstrap-pel
+    - Ismert, hogy ezek a típusú csalás kódok jelenleg nem működnek nds-bootstrap-pel
 - DeadSkullzJr dolgozik egy sokkal részletesebb csalás kód leírás listával, amit ez a fejezet linkelni fog, ha elkészül
 
 ### Demonstrációs és terjesztési címek:

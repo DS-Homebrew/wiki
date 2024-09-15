@@ -54,32 +54,32 @@ Ini semua jenis emulator dan pemuat anjuran yang disediakan di TWiLight Menu++. 
 ## Catatan pada emulator tertentu
 ### *RAM Disk*
 - Agar **jEnesisDS** atau **neoDS** berfungsi di kartu SD DSi, diperlukan *RAM disk* dengan nds-bootstrap
-   - Pembuat *RAM disk* untuk jEnesisDS sudah ada di TWiLight Menu++. Tapi *RAM disk* neoDS harus dibuat sendiri. Lihat laman [Membuat *RAM Disk*](../twilightmenu/creating-ram-disks) untuk caranya
-   - *RAM disk* ini diperlukan karena kail ARM7 emulator tersebut tidak berfungsi baik
+    - Pembuat *RAM disk* untuk jEnesisDS sudah ada di TWiLight Menu++. Tapi *RAM disk* neoDS harus dibuat sendiri. Lihat laman [Membuat *RAM Disk*](../twilightmenu/creating-ram-disks) untuk caranya
+    - *RAM disk* ini diperlukan karena kail ARM7 emulator tersebut tidak berfungsi baik
 
 ### Perbandingan antara PicoDriveTWL dan jEnesisDS
 - **PicoDriveTWL**
-   - Dibuat khusus DSi
-   - Tidak memerlukan *RAM Disk* nds-bootstrap
-      - Mampu menyimpan di kartu SD DSi
-      - Waktu pemuatan TWiLight Menu++ ke emulator lebih cepat di kartu SD DSi
-   - Mendukung *argument*
-   - Batasnya 3 MB di ***Flashcard***
-      - Membaca RAM tambahan DSi atau DS Memory Pak untuk memperluas batas
-   - Tidak ada emulasi suara
-   - Laju bingkai sangat patah-patah
+    - Dibuat khusus DSi
+    - Tidak memerlukan *RAM Disk* nds-bootstrap
+        - Mampu menyimpan di kartu SD DSi
+        - Waktu pemuatan TWiLight Menu++ ke emulator lebih cepat di kartu SD DSi
+    - Mendukung *argument*
+    - Batasnya 3 MB di ***Flashcard***
+        - Membaca RAM tambahan DSi atau DS Memory Pak untuk memperluas batas
+    - Tidak ada emulasi suara
+    - Laju bingkai sangat patah-patah
 
 - **jEnesisDS**
-   - Mode DS
-      - Perlu *RAM disk* nds-bootstrap untuk digunakan di kartu SD DSi
-      - Tidak bisa menyimpan di kartu SD DSi
-   - Pemuatan agak lama
-   - Tidak mendukung *argument*
-   - Batasnya 3 MB di semua pelantar (karena berkas dimuat ke RAM)
-      - Tidak mendukung DS Memory Pak atau Memori Tambahan DSi
-      - Tersedia tambalan Sonic 3 & Knuckles yang menghapus main rangkap agar hemat ukuran
-   - Ada emulasi suara
-   - Laju bingkai mulus
+    - Mode DS
+        - Perlu *RAM disk* nds-bootstrap untuk digunakan di kartu SD DSi
+        - Tidak bisa menyimpan di kartu SD DSi
+    - Pemuatan agak lama
+    - Tidak mendukung *argument*
+    - Batasnya 3 MB di semua pelantar (karena berkas dimuat ke RAM)
+        - Tidak mendukung DS Memory Pak atau Memori Tambahan DSi
+        - Tersedia tambalan Sonic 3 & Knuckles yang menghapus main rangkap agar hemat ukuran
+    - Ada emulasi suara
+    - Laju bingkai mulus
 
 
 <!-- Links for tables -->

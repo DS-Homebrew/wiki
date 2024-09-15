@@ -35,7 +35,7 @@ Ezek vagy PNG fájlok vagy 16 bites (`A1 R5 G5 B5` vagy `X1 R5 G5 B5`) BMP-fájl
 | bottom_bubble_ds    | A 3DS téma esetén, az alsó háttér texturája, amikor egy ikon felett állsz, DS Phat/Lite-ot van használatban    |
 | bottom_bubble_macro | A DSi téma esetén, a háttér textúrája, amikor egy ikon fölé állsz és a Macro mód van használatban              |
 | bottom_moving         | A DSi téma esetén, az alsó háttér textúrája, amikor egy ikont mozgatsz                                         |
-| bottom_moving_macro | A DSi téma esetén, a háttér textúrája, amikor egy ikont mozgatsz és Macro mód van használatban                 |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                           |
 
 ### Elem textúrák (`battery` mappa)
 Ezeknek PNG fájloknak kell lenniük. Az átlátszóság támogatott, azonban csak a 100%-os átlátszóság fog működni.
@@ -58,7 +58,7 @@ Ezeknek PNG fájloknak kell lenniük. Az átlátszóság támogatott, azonban cs
 | batterylow         | DS módban használt                                                                                            |
 
 ### Palettás texturák (`grf` mappa)
-Ezeknek 4 BPP (16 színű) BMP fájloknak kell lenniük.
+These must be 4 BPP (16 color) BMP files.
 
 Ezek beállításához a GIMP-ben válaszd a `Kép` -> `Mód` ->`RGB`-t a színek módostásához, majd ha készen vagy a színek módosításával, válaszd a `Kép` -> `Mód` -> `Indexelt...` opciókat a palettásra visszakonvertálásához. Indexáltra váltáskor győződj meg arról, hogy `Optimális paletta generálása` be van jelölve, és `Maximális színszám` `16`.
 
@@ -182,10 +182,10 @@ Különböző opciókat konfigurálhatsz arról, hogy hogyan kerüljön rajzolá
 | `UsernameRenderX`          | Az X pozíció a felső képernyőn, ahova a felhasználónév kerüljön kirajzolásra                                                                                    | 28                   | 28                   |
 | `UsernameRenderY`          | Az Y pozíció a felső képernyőn, ahova a felhasználónév kerüljön kirajzolásra                                                                                    | 15                   | 15                   |
 | `UsernameRenderXDS`        | Az X pozíció a felső képernyőn, ahova a felhasználónév kerüljön kirajzolásra, DS Phat/Lite használata esetén                                                    | 4                    | 4                    |
-| `DateRenderX`              | Az X pozíció a felső képernyőn, ahova a dátum kerüljön kirajzolásra                                                                                             | 162                  | 162                  |
-| `DateRenderY`              | Az Y pozíció a felső képernyőn, ahova a dátum kerüljön kirajzolásra                                                                                             | 7                    | 7                    |
-| `TimeRenderX`              | Az X pozíció a felső képernyőn, ahova az idő kerüljön kirajzolásra                                                                                              | 200                  | 200                  |
-| `TimeRenderY`              | Az Y pozíció a felső képernyőn, ahova az idő kerüljön kirajzolásra                                                                                              | 7                    | 7                    |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                                                          | 162                  | 162                  |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                                                          | 7                    | 7                    |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                                                          | 200                  | 200                  |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                                                          | 7                    | 7                    |
 | `PurpleBatteryAvailable`   | Használja-e vagy sem a lila elem ikonokat, amikor a `Power LED szín` be lett állítva `Lila` színre a beállításokban                                             | 1                    | 1                    |
 | `FontPalette1`             | A betűtípus átlátszó színe, alapértelmezett betűtípusok esetében nem használt                                                                                   | 0x0000               | 0x0000               |
 | `FontPalette2`             | A betűtípus színei, használd [ezt az oldalt](http://www.conradshome.com/html2bgr15/) a konvertáláshoz                                                           | 0xDEF7               | 0xDEF7               |

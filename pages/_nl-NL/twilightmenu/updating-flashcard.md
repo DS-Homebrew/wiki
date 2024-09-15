@@ -16,10 +16,10 @@ Als je bijwerkt vanaf een versie ouder dan v21.0.0, verplaats dan je `.pub`- en/
 
 ### Bijwerken
 1. Download de meest recente versie van [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Pak `TWiLightMenu-Flashcard.7z` uit
 1. Kopieer de map `_nds` naar de root van de micro-SD-kaart van je flashkaart, alle bestaande bestanden zullen worden vervangen
-   - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`
+    - Als je macOS gebruikt, zorg er dan voor dat je **kopieert** en `Samenvoegt`, en niet `Vervangt`
 1. Kopieer het bestand `BOOT.NDS` naar de root van de micro-SD-kaart van je flashkaart, alle bestaande bestanden zullen worden vervangen
 1. Als TWLMenu++ niet opstart na het bijwerken, werk dan ook de autoboot bestanden bij
 

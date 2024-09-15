@@ -16,10 +16,10 @@ v21.0.0より古いバージョンから更新する場合は、DSiウェアタ�
 
 ### 更新
 1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. `TWiLightMenu-Flashcard.7z`を抽出
 1. `_nds`フォルダをフラッシュカードのmicroSDカードのルートにコピーし、既存のファイルを置き換えます
-   - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください
+    - macOSをお使いの場合、必ず**コピー**して`結合`してください。`置き換える`は使わないでください
 1. `BOOT.NDS`ファイルをフラッシュカードのmicroSDカードのルートにコピーし、既存のファイルを置き換えます
 1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
 

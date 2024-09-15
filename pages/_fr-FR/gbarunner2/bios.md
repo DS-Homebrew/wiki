@@ -11,7 +11,7 @@ Pour que GBARunner2 puisse charger des titres, un dump du BIOS GBA est nécessai
 ### Tutoriels de dumping
 
 - [Une GBA/DS/DS Lite avec un linker GBA ou une 3DS](bios-dump)
-   - Il n'est **pas** possible de dumper le BIOS GBA sur une DSi
+    - Il n'est **pas** possible de dumper le BIOS GBA sur une DSi
 - [Une Wii (pas la Family Edition)/GameCube, GBA, et GBA Link Cable Dumper](https://github.com/FIX94/gba-link-cable-dumper)
 
 Après avoir dumpé le BIOS, il doit être renommé en `bios.bin` et doit ensuite être placé dans `sd:/`, `sd:/gba/`, ou `sd:/_gba/` pour que GBARunner2 puisse le lire.

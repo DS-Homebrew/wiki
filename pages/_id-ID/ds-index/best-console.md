@@ -15,6 +15,7 @@ Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca p
 | Maks. Cepat CPU | 67mhz                                             | 133mhz[^1]                                                 | 133mhz[^1]                                        |
 | Kamera                          | Tidak                                             | Iya                                                        | Iya                                               |
 | Jenis layar                     | TN(?)                          | TN (Biasa), IPS (XL) | TN atau IPS (tergantung model) |
+| Kepekaan sentuh                 | Iya                                               | Hanya mode DSi                                             | Tidak                                             |
 | Penskalaan                      | Tidak                                             | Tidak                                                      | Iya[^2]                                           |
 | Tingkat kecerahan               | 2 (Nyala/Mati di Phat), 4 (Lite)[^3]              | 5                                                          | 5                                                 |
 | Kompatibilitas GBA              | Lokal, Hampir Sempurna[^4]                        | Bagus                                                      | Lokal, Hampir Sempurna[^5]                        |

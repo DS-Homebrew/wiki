@@ -11,13 +11,13 @@ description: Informasi tentang Nintendo DSi dan TWL_FIRM Nintendo 3DS
 Manfaat utama memodif jenis konsol DSi dan 3DS adalah membuka kemampuan lebih pada konsol tersebut. Memasang *custom firmware* itu cukup mudah, biasanya hanya perlu kartu (micro)SD. Berikut panduan pilihan yang tersedia, dengan arahan langkah demi langkah:
 
 - [Panduan Meretas 3DS](https://3ds.hacks.guide)
-   - Perintah "Lightning": `mod 3ds`
-   - Perintah "TWLHelper": `guide 3ds`
-   - Perintah "Kurisu": `guide 3ds`
+    - Perintah "Lightning": `mod 3ds`
+    - Perintah "TWLHelper": `guide 3ds`
+    - Perintah "Kurisu": `guide 3ds`
 - [Panduan Meretas DSi](https://dsi.cfw.guide)
-   - Perintah "Lightning": `mod dsi`
-   - Perintah "TWLHelper": `guide dsi`
-   - Perintah "Kurisu": `guide dsi`
+    - Perintah "Lightning": `mod dsi`
+    - Perintah "TWLHelper": `guide dsi`
+    - Perintah "Kurisu": `guide dsi`
 
 ### Cepat CPU
 Nintendo DS dirakit dengan prosesor 67 MHz pada 2004, dan Nintendo DSi dengan prosesor 133 MHz lima tahun kemudian. Hampir semua pustaka Nintendo DS dibuat sebelum Nintendo DSi dirilis, sehingga banyak permainan hanya membaca prosesor 67 MHz. Beberapa aplikasi dibuat dengan laju jam tersebut sehingga tidak akan berfungsi benar jika di laju jam lebih tinggi. Tapi hampir semua permainan lebih lancar daripada aslinya di laju jam tinggi.

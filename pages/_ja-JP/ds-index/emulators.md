@@ -54,32 +54,32 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 ## 特定のエミュレータに関する注意
 ### RAMディスク
 - DSiのSDカードで**jEnesisDS**または**neoDS**を機能するには、nds-bootstrapでRAMディスクを使用する必要があります
-   - jEnesisDS用のRAMディスクメーカーは、TWiLight Menu++に組み込まれています neoDS用に独自のRAMディスクを作成する必要があります。 その方法については、[RAMディスクを作成](../twilightmenu/creating-ram-disks)を参照してください
-   - RAMディスクが使用されている理由は、これらのエミュレータのARM7フックが正しく動作しないためです
+    - jEnesisDS用のRAMディスクメーカーは、TWiLight Menu++に組み込まれています neoDS用に独自のRAMディスクを作成する必要があります。 その方法については、[RAMディスクを作成](../twilightmenu/creating-ram-disks)を参照してください
+    - RAMディスクが使用されている理由は、これらのエミュレータのARM7フックが正しく動作しないためです
 
 ### PicoDriveTWLとjEnesisDSの比較
 - **PicoDriveTWL**
-   - DSi用に作られました
-   - nds-bootstrapのRAMディスクは必要ありません
-      - DSiのSDカードで保存するがサポートされています
-      - DSiのSDカードのエミュレータにTWiLight Menu++間の読み込み時間を短縮します
-   - 引数をサポート
-   - Limit is 3 MB on a **Flashcard**
-      - この制限を延長するために、DSiの追加のRAMまたはDSメモリ拡張カートリッジを利用します
-   - サウンドエミュレーションなし
-   - フレームレートは非常に不安定です
+    - DSi用に作られました
+    - nds-bootstrapのRAMディスクは必要ありません
+        - DSiのSDカードで保存するがサポートされています
+        - DSiのSDカードのエミュレータにTWiLight Menu++間の読み込み時間を短縮します
+    - 引数をサポート
+    - Limit is 3 MB on a **Flashcard**
+        - この制限を延長するために、DSiの追加のRAMまたはDSメモリ拡張カートリッジを利用します
+    - サウンドエミュレーションなし
+    - フレームレートは非常に不安定です
 
 - **jEnesisDS**
-   - DSモード
-      - DSiのSDカードにはnds-bootstrapのRAMディスクが必要です
-      - DSiのSDカードに保存することができません
-   - ロードに時間がかかります
-   - 引数をサポートしません
-   - 制限はすべてのプラットフォームで3MBです（ROMをRAM内に読み取りに起因します）
-      - DSメモリ拡張カートリッジまたはDSi拡張メモリーサポートなし
-      - ソニック3&ナックルズにはマルチプレイヤーを削除するパッチがあり、サイズを小さくします
-   - サウンドエミュレーションあり
-   - フレームレートは滑らかです
+    - DSモード
+        - DSiのSDカードにはnds-bootstrapのRAMディスクが必要です
+        - DSiのSDカードに保存することができません
+    - ロードに時間がかかります
+    - 引数をサポートしません
+    - 制限はすべてのプラットフォームで3MBです（ROMをRAM内に読み取りに起因します）
+        - DSメモリ拡張カートリッジまたはDSi拡張メモリーサポートなし
+        - ソニック3&ナックルズにはマルチプレイヤーを削除するパッチがあり、サイズを小さくします
+    - サウンドエミュレーションあり
+    - フレームレートは滑らかです
 
 
 <!-- Links for tables -->

@@ -23,6 +23,6 @@ Aangepaste skins kunnen bovendien overschrijflettertypen gebruiken voor de datum
 Je kunt je eigen lettertypen maken met behulp van een hulpbron zoals [nftr-editor](https://pk11.us/nftr-editor/) van Pk11. Om één van de bestaande lettertypen van TWiLight Menu++ te regenereren:
 1. Laad een NFTR-bestand in nftr-editor
 1. Typ de namen van de lettertypen die je wilt gebruiken van de hoogste naar de laagste prioriteit in het tekstvak `Input font`, komma gescheiden
-   - Je kunt een voorbeeld zien van de invoerlettertypen in het bovenste vak links en de huidige NFTR in het onderste vak
+    - Je kunt een voorbeeld zien van de invoerlettertypen in het bovenste vak links en de huidige NFTR in het onderste vak
 1. Klik op `Generate from font`, en `OK` om bestaande tekens te regenereren en `Cancel` om de speciale knoptekens te regenereren (bijv. &#xE000;)
 1. Klik op `Save`, en herhaal dit voor de andere maten

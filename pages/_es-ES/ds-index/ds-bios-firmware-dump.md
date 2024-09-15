@@ -59,7 +59,7 @@ Todos los archivos necesarios estarán en la carpeta `dsidump` en la raíz de tu
 1. Navega hasta la carpeta raíz de tu tarjeta SD e inicia dsbf_dump
 1. Espera a que el proceso termine
 1. Después de que la consola termine, pulsa <kbd>START</kbd> para apagar tu consola
-  - En los sistemas de la familia de la 3DS, aparecerá el mensaje "Software cerrado." Apaga tu dispositivo manualmente al llegar a esta pantalla
+    - En los sistemas de la familia de la 3DS, aparecerá el mensaje "Software cerrado." Apaga tu dispositivo manualmente al llegar a esta pantalla
 1. Inserta la tarjeta SD en tu ordenador
 
 Todos los archivos necesarios estarán en una carpeta especificada en la pantalla superior de tu consola.

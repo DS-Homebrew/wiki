@@ -35,7 +35,7 @@ Download and install [GIMP](https://www.gimp.org)
 | bottom_bubble_ds    | For the 3DS theme, the bottom background texture when hovering over an icon when on a DS Phat/Lite     |
 | bottom_bubble_macro | For the DSi theme, the background texture when hovering over an icon while using Macro Mode            |
 | bottom_moving         | For the DSi theme, the bottom background texture when moving an icon                                   |
-| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Maco Mode                    |
+| bottom_moving_macro | For the DSi theme, the background texture when moving an icon while using Macro Mode                   |
 
 ### 电池纹理 (`电池` 文件夹)
 These must be PNG files. Transparency is supported, however only 100% transparency will work.
@@ -58,7 +58,7 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 | batterylow         | 在DS模式时使用                              |
 
 ### 调色板纹理(`grf` 文件夹)
-这些必须是4个BPP（16色）BMP文件的文件。
+These must be 4 BPP (16 color) BMP files.
 
 To edit these in GIMP, select `Image` -> `Mode` -> `RGB` to allow changing colors, then when done changing colors, select `Image` -> `Mode` -> `Indexed...` to convert back to paletted. 当切换到索引时，确保勾选 `生成最佳调色板` ，并将 `最大颜色数` 设置为 `16`。
 
@@ -182,10 +182,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28            | 28            |
 | `UsernameRenderY`          | The Y position on the top screen to draw the username text                                                                      | 15            | 15            |
 | `UsernameRenderXDS`        | The X position on the top screen to draw the username text, when on a DS Phat/Lite                                              | 4             | 4             |
-| `DateRenderX`              | The X postion on the top screen to draw the date text                                                                           | 162           | 162           |
-| `DateRenderY`              | The Y postion on the top screen to draw the date text                                                                           | 7             | 7             |
-| `TimeRenderX`              | The X positon on the top screen to draw the time text                                                                           | 200           | 200           |
-| `TimeRenderY`              | The Y positon on the top screen to draw the time text                                                                           | 7             | 7             |
+| `DateRenderX`              | The X position on the top screen to draw the date text                                                                          | 162           | 162           |
+| `DateRenderY`              | The Y position on the top screen to draw the date text                                                                          | 7             | 7             |
+| `TimeRenderX`              | The X position on the top screen to draw the time text                                                                          | 200           | 200           |
+| `TimeRenderY`              | The Y position on the top screen to draw the time text                                                                          | 7             | 7             |
 | `PurpleBatteryAvailable`   | Whether or not to use the purple battery icons when `Power LED color` is set to `Purple` in settings                            | 1             | 1             |
 | `FontPalette1`             | The transparent color of the font, unused for default fonts                                                                     | 0x0000        | 0x0000        |
 | `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7        | 0xDEF7        |

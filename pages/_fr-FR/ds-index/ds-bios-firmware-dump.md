@@ -59,7 +59,7 @@ Tous les fichiers nécessaires se trouvent dans le dossier `dsidump` à la racin
 1. Naviguez jusqu'à la racine de votre carte SD et lancez dsbf_dump
 1. Attendez la fin du processus
 1. Une fois le processus terminé, appuyez sur <kbd>START</kbd> pour éteindre votre appareil
-  - Sur les systèmes de la famille 3DS, l'écran affichera plutôt « Logiciel fermé ». Éteignez votre appareil à partir de cet écran
+    - Sur les systèmes de la famille 3DS, l'écran affichera plutôt « Logiciel fermé ». Éteignez votre appareil à partir de cet écran
 1. Insérez votre carte SD dans votre ordinateur
 
 Tous les fichiers nécessaires se trouvent dans un dossier spécifié sur l'écran supérieur de votre appareil.

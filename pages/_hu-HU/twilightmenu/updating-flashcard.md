@@ -16,10 +16,10 @@ Ha régebbi verzióról frissítesz, mint a v21.0.0, kérjük mozgasd a `.pub` �
 
 ### Frissítés
 1. Töltsd le a legutolsó [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) verziót
-   - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Csomagold ki `TWiLightMenu-Flashcard.7z` fájlt
 1. Másold az `_nds` mappát a flashcard-od microSD kártyájának gyökerébe, felülírva bármilyen létező fájlt
-   - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
+    - Ha macOS-t használsz, győződ meg róla, hogy **másolsz** és `egyesítesz`, nem `cserélsz`
 1. Másold az `BOOT.NDS` fájlt aa flashcard-od microSD kártyájának gyökerébe, felülírva bármilyen létező fájlt
 1. If TWLMenu++ nem bootol a frisítést követően, akkor frissítsd az autoboot fájl(oka)t is
 

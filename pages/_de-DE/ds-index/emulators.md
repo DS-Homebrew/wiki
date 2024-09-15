@@ -54,32 +54,32 @@ Dies sind nur die empfohlenen Emulatoren und Lader, die in TWiLight Menu++ vorha
 ## Hinweise zu bestimmten Emulatoren
 ### RAM-Disks
 - Damit **jEnesisDS** oder **neoDS** auf der DSi SD-Karte arbeitet Sie müssen eine RAM-Festplatte mit nds-bootstrap verwenden
-   - Ein RAM-Disk Maker für jEnesisDS ist in TWiLight Menu++ integriert. Sie müssen Ihre eigene RAM-Festplatte für neoDS erstellen. Siehe [Erstellen von RAM-Festplatten](../twilightmenu/creating-ram-disks) wie man dies tut
-   - Der Grund, warum RAM-Festplatten verwendet werden, liegt darin, dass die ARM7-Hooks dieser Emulatoren nicht richtig funktionieren
+    - Ein RAM-Disk Maker für jEnesisDS ist in TWiLight Menu++ integriert. Sie müssen Ihre eigene RAM-Festplatte für neoDS erstellen. Siehe [Erstellen von RAM-Festplatten](../twilightmenu/creating-ram-disks) wie man dies tut
+    - Der Grund, warum RAM-Festplatten verwendet werden, liegt darin, dass die ARM7-Hooks dieser Emulatoren nicht richtig funktionieren
 
 ### Vergleich zwischen PicoDriveTWL und jEnesisDS
 - **PicoDriveTWL**
-   - Wurde für DSi gemacht
-   - Benötigt keine nds-bootstrap RAM-Festplatten
-      - Speichern wird auf DSi SD-Karten unterstützt
-      - Schnellere Ladezeiten zwischen TWiLight Menu++ und Emulator auf der DSi SD-Karte
-   - Unterstützt Argumente
-   - Limit ist 3 MB auf eine **Flashcard**
-      - Nutzt den Vorteil des DSi extra RAM oder DS Memory Pak um dieses Limit zu erhöhen
-   - Keine Sound-Emulation
-   - Die Framerate ist extrem abgehackt
+    - Wurde für DSi gemacht
+    - Benötigt keine nds-bootstrap RAM-Festplatten
+        - Speichern wird auf DSi SD-Karten unterstützt
+        - Schnellere Ladezeiten zwischen TWiLight Menu++ und Emulator auf der DSi SD-Karte
+    - Unterstützt Argumente
+    - Limit ist 3 MB auf eine **Flashcard**
+        - Nutzt den Vorteil des DSi extra RAM oder DS Memory Pak um dieses Limit zu erhöhen
+    - Keine Sound-Emulation
+    - Die Framerate ist extrem abgehackt
 
 - **jEnesisDS**
-   - DS-Modus
-      - Erfordert, dass die RAM-Disk von nds-bootstrap für DSi SD-Karten verwendet wird
-      - Speichern ist für DSi SD-Karten nicht möglich
-   - Das Laden dauert eine Weile
-   - Keine Unterstützung durch Argumente
-   - Die Grenze liegt bei 3 MB auf allen Plattformen (aufgrund des Ladens von Roms im RAM)
-      - Keine Unterstützung für DS Memory Pak oder DSi Extended Memory
-      - Es gibt einen Patch für Sonic 3 & Knuckles, der den Mehrspielermodus entfernt und den Umfang verringert
-   - Sound-Emulation
-   - Die Framerate ist gleichmäßig
+    - DS-Modus
+        - Erfordert, dass die RAM-Disk von nds-bootstrap für DSi SD-Karten verwendet wird
+        - Speichern ist für DSi SD-Karten nicht möglich
+    - Das Laden dauert eine Weile
+    - Keine Unterstützung durch Argumente
+    - Die Grenze liegt bei 3 MB auf allen Plattformen (aufgrund des Ladens von Roms im RAM)
+        - Keine Unterstützung für DS Memory Pak oder DSi Extended Memory
+        - Es gibt einen Patch für Sonic 3 & Knuckles, der den Mehrspielermodus entfernt und den Umfang verringert
+    - Sound-Emulation
+    - Die Framerate ist gleichmäßig
 
 
 <!-- Links for tables -->

@@ -41,7 +41,7 @@ Esta página proporciona más detalles para la reglas descritas en el canal [#in
 
 The consequences of breaking these rules are a warning, mute, kick or ban. Las consecuencias específicas son dependientes para cada caso.
 - La mayoría de usuarios tienen hasta cuatro advertencias antes de ser vetados
-   - Estas advertencias incluyen usar el comando !warn, ser silenciado y las advertencias verbales por el chat
+    - Estas advertencias incluyen usar el comando !warn, ser silenciado y las advertencias verbales por el chat
 - Unirse con el propósito de romper las reglas hará que seas vetado inmediatamente
 
 ## Reportar

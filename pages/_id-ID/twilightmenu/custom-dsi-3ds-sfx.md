@@ -31,7 +31,7 @@ Berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jik
 Untuk membuat bank efek suara kustom, buka terminal (atau *command line* jika di Windows), ubah direktori saat ini (`cd`) ke folder yang ada `Makefile`, lalu jalankan perintah `make`. Nanti akan ada berkas `sfx.bin` yang bisa disalin ke subfolder `sound` di folder tema. **Ukuran berkas harus di bawah 512000B = 512 kB**. Jika lebih dari itu, suara akan *crash* (mogok) atau tidak diputar penuh.
 
 ### Suara awal buka
-Walaupun efek suara lain bisa berfungsi dengan berkas WAV apa pun ber-*encode* PCM, suara awal buka atau *startup* harus berformat spesifik agar jalan, karena akan ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.
+Walaupun efek suara lain bisa dengan berkas WAV apa pun ber-*encode* PCM, tapi suara awal buka atau *startup* harus berformat spesifik agar berjalan, karena akan ada celah saat suara awal buka berhenti dan musik latar belakang dimulai.
 
 Berkas startup.wav harus **16-bit 16 kHz**. [Audacity](https://github.com/audacity/audacity/releases/latest) boleh digunakan untuk konversi ke format tersebut. Sesudah berkas dibuka di Audacity, ubah **Project Rate (Hz)** ke **16000**, lalu tekan **Shift+M**, dan ubah bentuk **Format** ke **16-bit PCM**.
 
@@ -64,4 +64,4 @@ Mengekspor ke format yang benar:
 
 Hasilnya akan ada berkas `bgm.wav` yang bisa disalin ke subfolder `sound` di folder tema.
 
- Jangan lupa atur opsi `Musik Tema DSi/3DS` di pengaturan TWiLight Menu++ ke "Tema" agar diputarkan BGM kustom di menu.
+Jangan lupa atur opsi `Musik Tema DSi/3DS` di pengaturan TWiLight Menu++ ke "Tema" agar diputarkan BGM kustom di menu.

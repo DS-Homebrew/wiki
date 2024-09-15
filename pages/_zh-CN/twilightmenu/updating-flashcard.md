@@ -16,10 +16,10 @@ description: 如何在 Nintendo DS 烧录卡上更新 TWiLight Menu++
 
 ### 更新
 1. 下载最新的 [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-Flashcard.7z`
 1. 将 `_nds` 文件夹复制到烧录卡的 microSD 卡根目录，替换所有现有文件
-   - 如果使用 macOS，请确保选择**复制**及`合并`，不要选择`替换`
+    - 如果使用 macOS，请确保选择**复制**及`合并`，不要选择`替换`
 1. 将 `BOOT.NDS` 文件复制到烧录卡的 microSD 卡根目录，替换所有现有文件
 1. 如果更新后 TWLMenu++ 没有启动，请同时更新自动启动文件
 

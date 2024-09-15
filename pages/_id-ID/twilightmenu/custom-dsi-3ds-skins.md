@@ -18,11 +18,11 @@ Unduh dan pasang [GIMP](https://www.gimp.org)
 
 Sesudah terpasang, buka GIMP, dan pilih `Windows` -> `Dockable Dialogs` -> `Colormap`. Ini akan membuka dialog *colormap* untuk memudahkan menyunting palet pada gambar.
 
-Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan itu beragam tergantung letak foldernya, jadi ikuti cara ekspor sesuai bagiannya.
+Sekarang gambar sudah boleh dibuka dan disunting di GIMP, lanjut ke bagian di bawah ini berdasarkan letak foldernya. Mohon diingat TWiLight Menu++ pilih-pilih soal ketepatan format gambar dan berbeda-beda tergantung letak foldernya, jadi ikuti cara ekspor sesuai bagiannya.
 
 ### Tekstur latar belakang (folder `background`)
 Berkas boleh PNG atau BMP yang 16-bit (`A1 R5 G5 B5` atau `X1 R5 G5 B5`).
-- Jika berkasnya BMP, bisa diatur ke 16-bit di bawah *Advance Options* ketika mengekspor. Ini mungkin harus dilakukan setiap kali mengekspor BMP
+- Jika berkasnya BMP, bisa diatur ke 16-bit di *Advance Options* ketika mengekspor. Ini mungkin harus dilakukan setiap kali mengekspor BMP
 
 | Tekstur               | Keterangan                                                                                  |
 | --------------------- | ------------------------------------------------------------------------------------------- |
@@ -60,11 +60,11 @@ Untuk ini harus berkas PNG. Mendukung warna lejas atau transparan, namun harus d
 ### Tekstur Berpalet (folder `grf`)
 Untuk ini harus berkas BMP 4 BPP (16 warna).
 
-Untuk disunting di GIMP, pilih `Image` -> `Mode` -> `RGB` agar boleh mengubah warna, setelah selesai mengubah warna, pilih `Image` -> `Mode` -> `Indexed...` untuk dipaletkan kembali. Saat berpindah ke *indexed*, pastikan `optimum palette` tercentang dan `Maximum number of colors` diatur ke `16`.
+Untuk disunting di GIMP, pilih `Image` -> `Mode` -> `RGB` agar boleh mengubah warna, setelah selesai mengubah warna, pilih `Image` -> `Mode` -> `Indexed...` untuk dipaletkan kembali. Saat berpindah ke *indexed*, pastikan `Generate optimum palette` dicentang dan `Maximum number of colors` diatur ke `16`.
 
 **Catatan:** Beberapa palet gambar di tema DSi ditimpakan sesuai warna profil pengguna. Jika ingin menyunting warna palet tersebut, pastikan opsi `UserPalette` di `theme.ini` diatur ke `0`.
 
-Setelah dikonversi ke *indexed*, buka dialog *colormap* dan pastikan warna lejas (#FF00FF) sudah di warna #0 pada *colormap*. Jika belum, pencet kanan pada *colormap* dan pilih `Rearrange Colormap...` lalu pindahkan warna lejas menjadi warna pertama di *colormap* lalu tekan `OK`.
+Setelah dikonversi ke *indexed*, buka dialog *colormap* dan pastikan warna lejas (#FF00FF) sudah di warna #0 pada *colormap*. Jika belum, pencet kanan pada *colormap* dan pilih `Rearrange Colormap...` lalu pindahkan warna lejas ke warna pertama di *colormap* lalu tekan `OK`.
 
 Jika jumlah warna di *colormap* kurang dari 16, tekan tombol `+` di bawah dialog *colormap* sampai ada 16 warna.
 
@@ -256,7 +256,7 @@ Opsi bentuk permunculan tema bisa disetel di `theme.ini` untuk mewadahi grafik l
 | `ProgressBarColor`         | Ini warna bilah pemuatan jika `ProgressBarUserPalette` dinonaktifkan                                                     | 0x7C00       | 0x7C00       |
 | `UseAlphaBlend`            | Memadukan warna teks layar atas (nama pengguna dan tanggal/waktu) dengan warna latar belakang atau tidak                 | 1            | 1            |
 | `DarkLoading`              | Warna memudar putih diganti ke hitam atau tidak di layar pemuatan                                                        | 0            | 0            |
-| `RenderPhoto`              | Mempermuncul foto atau tidak di layar atas                                                                               | 0            | 1            |
+| `RenderPhoto`              | Mempermuncul foto di layar atas atau tidak                                                                               | 0            | 1            |
 | `RotatingCubesRenderY`     | Posisi Y permunculan rotatingcubes di layar atas                                                                         | 78           |              |
 | `PlayStartupJingle`        | Dengan suara awal buka atau tidak sebelum BGM utama. Lihat laman [SFX kustom](custom-dsi-3ds-sfx) untuk informasi lanjut | 1            | 0            |
 | `StartupJingleDelayAdjust` | Jumlah sampel di awalan suara awal buka untuk kapan BGM diputar                                                          | 0            | 0            |
@@ -289,7 +289,7 @@ Ke-16 baris kumpulan palet merujuk ke masing-masing warna profil dan harus dalam
 13. Biru Tua/Nila
 14. Lembayung/Ungu Tua
 15. Ungu
-16. Patma
+16. Magenta
 
 Sesudah membuat berkas palet, taruh berkasnya di folder `palettes`. Nama berkas palet harus sama dengan nama gambarnya tapi dengan ekstensi `.bin` (contoh: `start_border.bin` akan diterapkan ke gambar `start_border.bmp`).
 
