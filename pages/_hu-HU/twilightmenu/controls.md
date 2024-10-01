@@ -22,7 +22,7 @@ description: A TWiLight Menu++ irányítása
         - <kbd class="l">L</kbd>: Minden csalás kikapcsolása
 - <kbd class="face">X</kbd>: Játék törlése/elrejtése
 - (DSi/Saturn/HBL téma) <kbd>SELECT</kbd>: SELECT menü vagy DS Classic Menü (Ahol a rendszer menü, TWiLight Menu++ Beállítások és a GBA Mód érhető el)
-- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Alapértelmezett könyvtár beállítása
 
 #### Original R4, GameBoy Color és Wood UI témák
 - <kbd>Fel</kbd>/<kbd>Le</kbd>: Játék/app kiválasztása

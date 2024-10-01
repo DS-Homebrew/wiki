@@ -40,7 +40,7 @@ Fontos megjegyezned, hogy ezzel elveszted a lehetőségét annak, hogy csalások
 
 1. Ezekhez a flashcard-okhoz:
     - R4i-SDHC (r4i-sdhc.com)
-    - r4isdhc.com 2014-2024 cards (**not** .hk or .com.cn)
+    - r4isdhc.com 2014-2024 kártyák (**nem** .hk vagy .com.cn)
     - R4i SDHC Upgrade Revolution
     - R4DSiXL3D
     - R4i Advance

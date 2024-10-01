@@ -242,8 +242,8 @@ Ha már van TWiLight Menu++-od, ugorj a következő részre.
 ### 4. rész: A forwarder telepítése
 
 - Ha 3DS család konzolt használsz:
-    1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-        - If using EmuNAND, install to both SysNAND and EmuNAND
+    1. Másold a CIA fál(oka)t a 3DS-ed SD kártyájára, majd telepítsd őket az FBI alkalmazással
+        - Ha EmuNAND használsz, telepítsd a SysNAND-ot és az EmuNAND-ot is
 - Ha DSi-t használsz:
     1. Másold át a `tmfh.nds` fájlt a TMFH `.zip` fájlból az SD kártyád gyökerébe
     1. Helyezd vissza az SD kártyát a DSi-dbe

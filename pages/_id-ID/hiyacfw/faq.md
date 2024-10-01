@@ -18,7 +18,7 @@ Jika konsol Nintendo DSi muncul galat ini saat dinyalakan (tanda # mewakili nomo
 Saat Nintendo DSi Menu sadar ada masalah, biasanya akan muncul pesan galat umum ini, beberapa sebabnya yaitu:
 
 ##### Kutu memori sisa ruang
-Nintendo DSi Menu terdapat *bug* (kutu) saat memeriksa sisa ruang di penyimpanan besar. Walaupun ini pasti tidak terjadi di NAND aslinya (karena cip hanya 256 MiB), tapi ini bisa terjadi di kartu SD.
+Nintendo DSi Menu terdapat *bug* (kutu) saat memeriksa sisa ruang di penyimpanan besar. Walaupun ini mustahil terjadi di cip NAND aslinya (karena hanya 256 MiB), tapi ini bisa terjadi di kartu SD.
 
 Berfungsi dan tidaknya ini terjadi setiap rentang dua gibibita. Contoh, sisa ruang 0-2 GiB akan berfungsi, tapi 2-4 GiB tidak. Begitu juga 4-6 GiB lalu 6-8 GiB, ini terus sampai sebesar ukuran kartu SD.
 

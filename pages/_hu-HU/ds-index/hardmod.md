@@ -83,16 +83,16 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
         1. Futtasd a `lsblk` parancsot a terminálban
         1. Dugd be az SD kártya adaptert
         1. Futtasd a `lsblk` parancsot újra
-        1. This time a new device should appear
-            - It may be called `/dev/sdb`, make sure you note down what it is called on *your* computer
+        1. Ez alkalommal egy új eszköznek kell megjelennie
+            - Lehet, hogy `/dev/sdb`-nek hívják, jegyezd fel, hogyan hívják a *te* számítógépeden
 
     - macOS:
         1. Húzd ki az SD kártya adaptert
         1. Futtasd a `df` parancsot a terminálban
         1. Dugd be az SD kártya adaptert
         1. Futtasd a `df` parancsot újra
-        1. A new device should appear in the list
-            - It may be called `/dev/disk1s1`, make sure you note down what it is called on *your* computer
+        1. Egy új eszköznek kell megjelennie a listában
+            - Lehet, hogy `/dev/disk1s1`-nek hívják, jegyezd fel, hogyan hívják a *te* számítógépeden
 
 1. A NAND dumpolása
     - Futtasd a következő parancsot a terminálban:
@@ -114,10 +114,10 @@ Először el kell távolítanod a NOCASH láblécet a mentésről, amit flasheln
     1. Keresd meg a NAND mentés, amit a konzolról csináltál
     1. Futtasd a következő parancsot:
         - `cat {existing-nand-backup} > {device-name}`
-        - Replace `{existing-nand-backup}` with the location and name of your old NAND backup
-        - Replace `{device-name}` with the mount point of the SD card
+        - Cseréld az `{existing-nand-backup}` részt a helyére és a nevére a NAND mentésednek
+        - Cseréld a `{device-name}` részt az SD kártya csatolási pontjára
 
-Ezen a ponton kihúzhatod az SD kártya adapter, és megpróbálhatod bekapcsolni a DSi-t. Ha minden rendben ment a DSi-nek be kell bootolnia abba az állapotba, amin a mentés készült!
+Ezen a ponton kihúzhatod az SD kártya adaptert, és megpróbálhatod bekapcsolni a DSi-t. Ha minden rendben ment a DSi-nek be kell bootolnia abba az állapotba, amin a mentés készült!
 {% endcapture tab-other %}
 {% assign tab-other = tab-other | split: "////////" %}
 

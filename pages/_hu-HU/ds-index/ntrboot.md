@@ -14,10 +14,10 @@ Az **ntrboot** helreállítási mód, ami beépítésre került minden DSi és 3
 
 ### Szükséges hardver
 
-To use ntrboot on your DSi you will need:
-\- An ntrboot compatible flashcard. [Itt van egy lista a működő cart-okról](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Hagyd figyelmen kívül az elő-flashelteket, mert azok a 3Ds verzióját használják az ntrboot-nak.
-\- A magnet to trigger ntrboot
-\- A second DSi/3DS in order to flash ntrboot to the flashcard
+Az ntrboot használatához a DSi-n a következőkre lesz szükséged:
+\- Egy ntrboot kompatibilis flashcard. [Itt van egy lista a működő cart-okról](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Hagyd figyelmen kívül az elő-flashelteket, mert azok a 3Ds verzióját használják az ntrboot-nak.
+\- Egy mágnes az ntrboot indításához
+\- Egy második DSi/3DS, hogy az ntrboot-ot a flashkártyára flashelhesd
 
 {% capture tab-dsi %}
 
