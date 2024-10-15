@@ -84,8 +84,8 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
 1. Open TWLMenu++ Settings
 1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Turn on `Auto-start Slot-1`
 1. Exit TWLMenu++ Settings by pressing `B` button
     - If you end up in the DS Classic Menu, launch your flashcard

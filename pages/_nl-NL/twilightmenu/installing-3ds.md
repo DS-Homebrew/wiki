@@ -84,8 +84,8 @@ Een flashkaart is iets wat in de spelkaartsleuf gaat, en een microSD-kaartsleuf 
 1. Kopieer het bestand `BOOT.NDS` van `TWiLightMenu-Flashcard.7z` naar de root van uw microSD-kaart
 1. Open TWLMenu++-instellingen
 1. Ga naar de pagina `Misc settings`
-1. Schakel `SCFG access in Slot-1` in (Let op: deze optie overschrijft `SD access Slot-1`)
-1. Stel `Slot-1: Touch Mode` in op `DSi mode`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Zet `Autostart Slot-1` aan
 1. Sluit TWLMenu++-instellingen af door op `B` te drukken
     - Als je in het DS Classic Menu terechtkomt, voer dan je flashkaart uit

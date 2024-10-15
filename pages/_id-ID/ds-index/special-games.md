@@ -14,8 +14,8 @@ description: Permainan DS(i) berkesifatan khusus
 - 7 Wonders II
     - Mode "Free Play" dihapus
 - Advance Wars: Days of Ruin/Dark Conflict
-    - Versi DSiWare hanya di Jepang, sebagai "Famicom Wars DS: Ushinawareta Hikari"
-    - Tambalan yang mengubah berkas bahasa Jepang ke versi Inggris AS tersedia [di sini](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
+    - Versi DSiWare hanya di Jepang, bernama "Famicom Wars DS: Ushinawareta Hikari"
+    - Tambalan pengubah berkas bahasa Jepang ke versi Inggris AS tersedia [di sini](https://www.dropbox.com/s/9spnmwpt3lhrxqv/famicom%20wars%20dsi%20%28eng%29.xdelta?dl=0)
 - Animal Boxing
 - Art Academy
     - Dipisah menjadi "First" dan "Second Semesters"
@@ -75,7 +75,7 @@ description: Permainan DS(i) berkesifatan khusus
 - Planet Puzzle League
     - Versi DSiWare bernama "Puzzle League Express" (AS), atau "A Little Bit of... Puzzle League" (Eropa)
     - *Multiplayer* dihapus
-    - Beberapa jalur musik dihapus
+    - Beberapa lajur musik dihapus
 - Plants vs. Zombies
     - Fitur Download Play, beberapa pencapaian, dan video musik dihapus
     - Terdapat permainan kecil eksklusif
@@ -110,7 +110,7 @@ description: Permainan DS(i) berkesifatan khusus
 - True Swing Golf/Nintendo Touch Golf
     - Versi DSiWare bernama "True Swing Golf Express" (AS), atau "A Little Bit of... Nintendo Touch Golf" (Eropa)
     - Versi DSiWare ini tidak dilengkapi fitur Wi-Fi apa pun, seperti Local/Download Play atau fitur PictoChat dalam permainan. Lapangan golf juga lebih sedikit dari yang retail
-        - Mesin lunaknya diperbagus
+        - Mesin permainan diperbagus
         - Mode "Challenge" menggantikan "Championship Tour" permainan retail
 - WarioWare: Touched!
     - Fitur Slot-2 dihapus
@@ -128,7 +128,7 @@ description: Permainan DS(i) berkesifatan khusus
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
     - Main Rangkap & Rekor
 - Mario vs. Donkey Kong: Minis March Again
-    - Mengunduh loka pengguna lain
+    - Mengunduh level pengguna lain
 - Metal Torrent
     - Rekor
 - Sujin Taisen: Number Battles

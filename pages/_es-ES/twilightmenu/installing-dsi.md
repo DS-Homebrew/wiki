@@ -47,8 +47,8 @@ Una flashcard es una tarjeta que va en la ranura de los cartuchos, en la que pue
 1. Copia el archivo `BOOT.NDS` del archivo `TWiLightMenu-Flashcard.7z` a la carpeta raíz de la tarjeta microSD de tu flashcard
 1. Abre los ajustes de TWLMenu++
 1. Cambia a la pestaña `Otros ajustes`
-1. Habilita la opción `Acceso a SCFG en Slot-1` (Ten en cuenta que esta opción toma prioridad sobre `Acceso a SD en Slot-1`)
-1. Establece la opción `Slot-1: Configuración Táctil` a `Modo DSi`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Habilita la opción `Inicio Automático del Slot-1`
 1. Sal de los ajustes de TWLMenu++ pulsando el botón `B`
     - Si te salta el menú Clásico DS, inicia tu flashcard

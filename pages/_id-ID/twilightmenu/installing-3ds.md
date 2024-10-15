@@ -84,8 +84,8 @@ Sebelumnya harus punya *custom firmware* di 3DS, ikuti [3ds.hacks.guide](https:/
 1. Salin berkas `BOOT.NDS` dari `TWiLightMenu-Flashcard.7z` ke akar kartu microSD *flashcard*
 1. Buka Pengaturan TWLMenu++
 1. Pindah ke halaman `Pengaturan lain`
-1. Nyalakan `Akses SCFG di Slot-1` (Mohon diingat opsi ini mengesampingkan `Akses SD di Slot-1`)
-1. Ubah `Slot-1: Mode Sentuh` ke `Mode DSi`
+1. Nyalakan `Akses SD di Slot-1`
+1. Nyalakan `Akses SCFG di Slot-1`
 1. Nyalakan `Langsung mulai Slot-1`
 1. Keluar dari Pengaturan TWLMenu++ dengan tombol `B`
     - Jika masuk ke Menu DS Klasik, luncurkan *flashcard*

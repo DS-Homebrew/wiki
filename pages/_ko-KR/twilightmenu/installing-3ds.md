@@ -84,8 +84,8 @@ tabs:
 1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
 1. TWLMenu++ 설정을 여세요
 1. Switch to the `Misc settings` page
-1. Turn on `SCFG access in Slot-1` (Note that this option overrides `SD access in Slot-1`)
-1. Set `Slot-1: Touch Mode` to `DSi mode`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Turn on `Auto-start Slot-1`
 1. `B` 버튼을 눌러 TWLMenu++ 설정을 종료하세요
     - If you end up in the DS Classic Menu, launch your flashcard

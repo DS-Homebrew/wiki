@@ -115,13 +115,13 @@ Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian i
 1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
 
 ### Bagian 3: NDSForwarder-DSi
-1. Sisip kembali kartu SD ke *flashcard*, lalu *flashcard* ke konsol
+1. Sisip kembali kartu SD ke *flashcard*, lalu sisip *flashcard* ke konsol
 1. Nyalakan daya konsol dan luncurkan *flashcard*
 1. Luncurkan `NDSForwarder.nds`
     - Jika muncul pesan `nitroFSInit() fail`, coba luncurkan dengan TWiLight Menu++, atau taruh `NDSForwarder.nds` di akar kartu SD
 1. Tekan <kbd class="face">A</kbd> pada `Install`
 1. Navigasi ke letak permainan dan tekan <kbd class="face">A</kbd>
-1. Setelah dipasang, permainan akan muncul di folder bernama `forwarders` pada akar kartu SD *flashcard*
+1. Setelah dipasang, permainan akan muncul dalam folder bernama `forwarders` di akar kartu SD *flashcard*
 
 {% endcapture %}
 {% assign tab-flashcard = tab-flashcard | split: "////////" %}
@@ -228,8 +228,8 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 ### Bagian 3: Forwarder3-DS
 1. Buka `Forwarder3DS.jar`
     - **Pengguna Windows:** Jika tidak bisa buka, unduh [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), lalu taruh di folder yang sama dengan Forwarder3DS.jar, dan jalankan
-1. Pilih jenis kartu sebagai `Target` di kiri
-    - **CATATAN:** Jika tidak muncul daftar kartu, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ubah namanya jadi `.forwarders`
+1. Pilih jenis kartrid sebagai `Target` di kiri
+    - **CATATAN:** Jika tidak muncul daftar kartrid, unduh [zip ini](https://github.com/Olmectron/olmectron.github.io/archive/master.zip), dan taruh folder `forwarders` di folder yang sama dengan Forwarder3DS.jar, lalu ubah namanya jadi `.forwarders`
 1. Aktifkan `Automatically set ROM path`
     - **Pengguna Linux:** Jalur otomatis dianggap salah karena ada nama lengkap jalurnya (misal: `/media/$USER/anu-anu/`), mohon hapus bagian itu
     - **Pengguna MacOS:** Jalur otomatis dianggap salah karena ada nama `/Volumes/(nama kartu)/` di awalan, mohon hapus bagian itu

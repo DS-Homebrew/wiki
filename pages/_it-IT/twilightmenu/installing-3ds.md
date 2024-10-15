@@ -84,8 +84,8 @@ Una flashcard è un oggetto che si inserisce nello slot della scheda di gioco e 
 1. Copia il file `BOOT.NDS` da `TWiLightMenu-Flashcard.7z` nella root della scheda microSD della tua flashcard
 1. Apri le impostazioni di TWLMenu++
 1. Vai alla pagina `Impostazioni varie`
-1. Attiva `Accesso SCFG da Slot-1` (questa opzione sovrascrive `Accesso SD da Slot-1`)
-1. Imposta `Slot-1: Modalità Touch` in `Modalità DSi`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Attiva `Avvio automatico Slot-1`
 1. Esci dalle impostazioni TWLMenu++ premendo il pulsante `B`
     - Se finisci nel menu DS classico, avvia la tua flashcard

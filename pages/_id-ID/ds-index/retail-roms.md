@@ -48,7 +48,7 @@ Kode *cheat* Action Replay adalah kode tata olah tingkat rendah yang mengubah da
 
 Cara lainnya secara *homebrew*/digital juga bisa membaca pangkalan data *cheat*, peranti lunak yang menggunakan *cheat* di antaranya:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-    - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesin lunaknya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
+    - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesinnya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([*fork* usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` atau `usrcheat.dat`)
     - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)

@@ -75,7 +75,7 @@ Dari kartu SD, unggah `Bios_Dumper.sav` ke sini:
 {% assign tabs = tab-3ds-sd-card | concat: tab-gba-flashcart %}
 {% include tabs.html index=0 tabs=tabs %}
 
-Berkas `bios.bin` akan otomatis diunduh. Ini berkas BIOS GBA hasil akhir.
+Berkas `bios.bin` akan otomatis diunduh. Ini hasil akhir berkas BIOS GBA.
 {:.alert .alert-success}
 
 <script src="https://geraintluff.github.io/sha256/sha256.min.js"></script>

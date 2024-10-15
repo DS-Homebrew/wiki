@@ -38,7 +38,7 @@ Karena palet GIF dimuat ke area VRAM yang sama dengan palet teks, palet GIF akan
 1. Jika GIF terlalu besar, gunakan [gifsicle](http://www.lcdf.org/gifsicle/) atau [ezgif.com](https://ezgif.com/optimize) untuk mengoptimalkannya
     - Arahan ini akan lanjut dengan ezgif karena sederhana, berbentuk web
 1. Buka https://ezgif.com/optimize, dan unggah GIF
-1. Coba tingkat pampat yang lain sampai yang bagus serendah 15.472 bita (15,11 KiB), bagusnya agak rendah karena GIMP suka menambah ukurannya sedikit
+1. Coba tingkat pampat lain yang bagus sampai di bawah 15.472 bita (15,11 KiB), bagusnya di bawahnya karena GIMP suka menambah ukurannya sedikit
 1. Simpan GIF optimalnya dan buka di GIMP
 1. Di bilah menu bagian atas, pilih `Windows` -> `Dockable Dialogs` -> `Colormap`
 1. Ubah `Foreground color` saat ini ke #080808 dan tambah 14 warna baru dengan tombol `+`

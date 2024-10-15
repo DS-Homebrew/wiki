@@ -47,8 +47,8 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 1. Copiez le fichier `BOOT.NDS` de `TWiLightMenu-DSi.7z` à la racine de la carte microSD de votre linker
 1. Ouvrez les paramètres de TWLMenu++
 1. Allez à la page `Autres paramètres`
-1. Activez `Accès au SCFG par Slot-1` (Notez que cette option remplace `Accès microSD Slot-1`)
-1. Définissez `Slot-1 : Mode tactile` à `Mode DSi`
+1. Turn on `SD access in Slot-1`
+1. Turn on `SCFG access in Slot-1`
 1. Activez `Démarrage automatique Slot-1`
 1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
     - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker

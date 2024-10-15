@@ -84,8 +84,8 @@ A flashcard egy olyan eszköz, ami a játékkártya helyére kerül, és tartalm
 1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-Flashcard.7z` fájlból a flashcard-od microSD kártyája gyökerébe
 1. Nyisd meg a TWLMenu++ Beállítások menüpontját
 1. Válts az `Egyéb beállítások` oldalra
-1. Kapcsold be a `SCFG hozzáférés a Slot-1-ben` opciót (Figyelem, ez felülírja a `Slot-1 microSD hozzáférés` opciót)
-1. Állítsd be a `Slot-1: Érintés mód` to `DSi mód`-ra
+1. Kapcsold be az `SD hozzáférés a Slot-1`-ben opciót
+1. Kapcsold be az `SCFG hozzáférés a Slot-1`-ben opciót
 1. Kapcsold be az `Auto-start Slot-1`-et
 1. Lépj ki a TWLMenu++ beállításaiból a `B` gomb megnyomásával
     - Ha a DS Classic menübe kerültél, indítsd el a flashcard-od

@@ -29,8 +29,8 @@ Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca p
 
 [^4]: Ada satu permainan yang ada isu kompatibilitas; _MegaMan Battle Network 3_ akan mogok setelah logo Capcom.
 
-[^5]: ROM Video GBA besar (di atas 32MB) tidak bisa. Fitur <i>gyro</i> dan getar tidak akan berfungsi.
+[^5]: ROM Video GBA besar (di atas 32MB) tidak bisa. Fitur getar dan <i>gyro</i> juga tidak berfungsi.
 
-[^6]: Sebagian besar permainan tidak perlu kamera. Lihat [laman ini](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) untuk apa saja yang didukung. <i>Flashcard</i> perlu dipasang **TW**i**L**ight Menu++ dulu.
+[^6]: Sebagian besar permainan tidak perlu kamera. Lihat [laman ini](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) untuk apa saja yang didukung. Perlu pasang **TW**i**L**ight Menu++ dulu di <i>flashcard</i>.
 
-[^7]: Jika menggunakan **TW**i**L**ight Menu++ dengan `Pemulai DSiWare` diatur ke `nds-bootstrap` atau pun dengan 3DS/2DS, kompatibilitas pasti hampir sempurna.
+[^7]: Jika menggunakan **TW**i**L**ight Menu++ pada konsol 3DS/2DS atau setelan `Pemulai DSiWare` diatur ke `nds-bootstrap`, kompatibilitas pasti hampir sempurna.
