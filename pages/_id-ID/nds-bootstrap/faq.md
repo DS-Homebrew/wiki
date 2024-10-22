@@ -17,7 +17,7 @@ description: Pertanyaan umum dan sidik gangguan terkait nds-bootstrap
     - Jika ada bentuk setelan tertentu yang ternyata bermasalah, mohon laporkan ke [repositori GitHub](https://github.com/DS-Homebrew/nds-bootstrap/issues)
 - Jika ada pangkalan data *cheat* (`usrcheat.dat`), hapus di `sd:/_nds/TWiLightMenu/extras`
 - [*Dump* lagi kartrid](https://wiki.ds-homebrew.com/id-ID/twilightmenu/faq?faq=how-do-i-get-games) agar yakin ROM tidak rusak
-- Jika langkah-langkah di atas sudah diikuti, tanya ke [server Discord](https://discord.gg/yD3spjv)
+- Jika langkah-langkah di atas sudah diikuti, tanya ke [server Discord](https://discord.gg/fCzqcWteC4)
 - Jika di server berkata ini isu nds-bootstrap, lihat dulu permainan tersebut sudah dilaporkan atau belum di GitHub
     - Lihat juga label isu yang tutup, mungkin saja isu tersebut ditutup karena sama dengan isu lain
     - Jika belum dicantum label isu Github, silakan buat isu baru

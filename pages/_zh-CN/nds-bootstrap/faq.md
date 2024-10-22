@@ -17,7 +17,7 @@ description: nds-bootstrap 的常见问题 & 故障处理
     - 如果有一个游戏特定设置导致你的问题，请报告给 [GitHub仓库](https://github.com/DS-Homebrew/nds-bootstrap/issues)
 - 如果存在，请删除 `sd:/_nds/WiLightMenu/extras` 中的金手指数据库(`usrcheat.dat`)
 - [重新转储ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) ，以确保它没有被损坏
-- 如果你已经遵循了上述所有步骤，请在 [Discord服务器](https://discord.gg/yD3spjv)上提问（仅限英语）
+- 如果你已经遵循了上述所有步骤，请在 [Discord服务器](https://discord.gg/fCzqcWteC4)上提问（仅限英语）
 - 如果服务器的人说是nds-bootstrap的问题，请检查该游戏是否已经在GitHub上被报告了
     - 也要检查已关闭的issue，以防止已经关闭的issue转向另一个issue
     - 如果它没有任何匹配的GitHub issue，请继续创建一个新的issue

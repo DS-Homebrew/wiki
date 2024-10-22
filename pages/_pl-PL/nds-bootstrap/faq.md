@@ -17,7 +17,7 @@ description: FAQ i Rozwiązywanie problemów nds-bootstrap
     - If there is a specific per-game setting that causes your issue, please report this to the [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)
 - If present, delete the cheat database (`usrcheat.dat`) in `sd:/_nds/TWiLightMenu/extras`
 - [Re-dump the ROM](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) to ensure that it is not corrupted
-- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/yD3spjv)
+- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/fCzqcWteC4)
 - If the server says it's an nds-bootstrap issue, check if the game hasn't been reported already on GitHub
     - Check the closed issues too in case there has already been an issue closed in preference a different one
     - If it doesn't have any GitHub issue attached to it, go ahead and make a new one
