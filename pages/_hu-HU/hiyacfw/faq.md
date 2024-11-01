@@ -8,7 +8,7 @@ description: GYIK & hibaelhárítás a hiyaCFW-hez
 ---
 
 #### Hogyan telepítek alkalmazásokat vagy DSiWare-t a hiyaCFW SDNAND-jára?
-Szükséged van a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) telepítésére, hogy telepíthess alkalmazást az SDNAND-ra, de néhány régebbi DS homebrew elképzelhető, hogy nem lesz kompatibilis.
+Szükséged van az [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) telepítésére, hogy telepíthess alkalmazást az SDNAND-ra, de néhány régebbi DS homebrew elképzelhető, hogy nem lesz kompatibilis.
 - Ha játék kártya dumpokat telepítenél [forwarder](../ds-index/forwarders)-t kell használnod
 
 #### Miért kapom a #-2435-8325 hiba kódot?
@@ -25,10 +25,10 @@ Hogy mi működik és mi nem hasonló a többi gibibájt méretnél is. Példáu
 A legutolsó hiyaCFW verzió létre tud hozni dummy fájlokat, a probléma megkerüléséhez, így legyél biztos abban, hogy letöltötted a legfrissebb verzióját a [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)-nek és bemásoltad a `hiya.dsi` fájlt a "for SDNAND SD card" útvonalról az SD kártyád gyökerébe.
 
 ##### 39 cím felett
-A Nintendo DSi Menü-nek 39 cím a korlátja. Ha ennél több van, törölj néhányat az `sd:/title` mappából vagy használd a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)-t az eltávolításukhoz.
+A Nintendo DSi Menü-nek 39 cím a korlátja. Ha ennél több van, törölj néhányat az `sd:/title` mappából vagy használd az [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) -et az eltávolításukhoz.
 
 ##### Túl sok területet használ a DSiWare
-Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a DSiWare alkalmazások rendszer alkalmazásként telepítésével a [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) használatával.
+Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a DSiWare alkalmazások rendszer alkalmazásként telepítésével az [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) használatával.
 
 ##### Érvénytelen cím
 Van néhány további dolog, amit figyelembe kell venned, amikor címeket adsz hozzá a hiyaCFW-hez:

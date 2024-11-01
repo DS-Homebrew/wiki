@@ -17,7 +17,7 @@ description: GYIK & hibaelhárítás az nds-bootstrap-hez
     - Ha van egy konkrét játékonkénti beállítás, ami a problémát okozza, kérjük, jelentsd a [GitHub repository](https://github.com/DS-Homebrew/nds-bootstrap/issues)-ba
 - Ha van, töröld a cheat adatbázist (`usrcheat.dat`) a `sd:/_nds/TWiLightMenu/extras` mappában
 - [Re-dumpold a ROM-ot](https://wiki.ds-homebrew.com/twilightmenu/faq?faq=how-do-i-get-games) hogy biztos lehess abban, nem sérült
-- Ha a fenti lépéseket követted, kérdezd meg a [Discord szerveren](https://discord.gg/fCzqcWteC4)
+- If you have followed all the above steps, ask in the [Discord server](https://discord.gg/fCzqcWteC4)
 - Ha a szerver azt mondja, hogy ez egy nds-bootstrap hiba, ellenőrizd, hogy a játék jelentésre került-e már a GitHub-ra
     - Ellenőrizd a lezárt jegyeket is, arra az esetre, ha valamelyik hiba lezárásra került egy másik preferálása miatt
     - Ha nem tartozik hozzá GitHub hiba, akkor csinálj neki egy újat

@@ -58,7 +58,7 @@ ROM Donor bisa diatur di **TW**i**L**ight Menu++.
     - Di DSi, jika **TW**i**L**ight Menu++ mendeteksi belum ada yang jadi ROM Donor, *Nintendo DSi Sound* dan/atau judul eksploit absah akan otomatis jadi ROM Donor
 - **CycloDS iEvolution:** Sama halnya seperti DSiWarehax, tapi ROM DSiWare/*DSi-Exclusive* perlu permainan *DSi-Enhanced* sebagai ROM Donor, bukan sebaliknya
 
-#### ROM Donor apa yang terbaik?
+#### ROM Donor mana yang terbaik?
 Tidak ada yang *terbaik* digunakan. Hampir semua ROM TWL bisa dijadikan ROM Donor.     
 Untuk *flashcard* DS, ROM DS SDK5 apa pun bisa dijadikan ROM Donor untuk DSiWare.
 

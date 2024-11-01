@@ -16,7 +16,7 @@ description: Jak zainstalować TWiLight Menu++ na Nintendo DS z flashcard
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
 1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. Jeśli już masz dane zapisu, przenieś pliki `.sav`, które są umiejscowione razem z ROMami, do nowego folderu `saves`, który także ma się znaleźć razem z ROMami
-1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and/or insert a DS Memory Expansion Pak, and try again
+1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
 ### Autobooting TWiLight Menu++
 1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card

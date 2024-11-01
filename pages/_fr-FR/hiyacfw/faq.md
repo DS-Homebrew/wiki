@@ -8,7 +8,7 @@ description: FAQ et dépannage pour hiyaCFW
 ---
 
 #### Comment installer des applications ou DSiWare sur la SDNAND de hiyaCFW ?
-Vous devrez utiliser [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) pour installer des applications sur la SDNAND, mais les anciens homebrew DS peuvent ne pas être compatibles.
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - Si vous souhaitez installer des dumps de cartes de jeu, vous devez utiliser un [forwarder](../ds-index/forwarders)
 
 #### Pourquoi est-ce que j'obtiens le code d'erreur #-2435-8325 ?
@@ -25,10 +25,10 @@ Ce qui marche et ce qui ne marche pas passe par une fourchette de deux gibioctet
 La dernière version de hiyaCFW peut créer des fichiers factices pour contourner ce problème, donc assurez-vous que vous téléchargez la dernière version de [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) et copiez `hiya.dsi` de « for SDNAND SD card » à la racine de votre carte SD.
 
 ##### Plus de 39 titres
-Le menu Nintendo DSi est limité à 39 titres. Si vous en avez plus, supprimez-en certains des dossiers dans `sd:/title` ou utilisez [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) pour les désinstaller.
+Le menu Nintendo DSi est limité à 39 titres. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### Trop d'espace utilisé par les DSiWare
-Il existe également une limite de 200 blocs (25Mo) pour les DSiWare dans le dossier `00030004` . Cela peut être contourné en installant les DSiWare comme des applications système en utilisant [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+Il existe également une limite de 200 blocs (25Mo) pour les DSiWare dans le dossier `00030004` . This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### Titre invalide
 Il y a plusieurs choses que vous devez prendre en compte lorsque vous ajoutez des titres à hiyaCFW :

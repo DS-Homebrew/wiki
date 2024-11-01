@@ -8,7 +8,7 @@ description: hiyaCFWのよくある質問とトラブルシューティング
 ---
 
 #### hiyaCFWのSDNANDにアプリまたはDSiウェアをインストールするにはどうすればいいですか？
-SDNANDにアプリをインストールするには、 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用する必要がありますが、古いDS自作ソフトには互換性がないかもしれません。
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - ゲームカードのダンプをインストールしたい場合は、[フォワーダー](../ds-index/forwarders)を使用する必要があります
 
 #### #-2435-8325エラーコードを取得するのはなぜですか？
@@ -25,10 +25,10 @@ SDNANDにアプリをインストールするには、 [TMFH](https://github.com
 最新のhiyaCFWバージョンでは、これを回避するにはダミーファイルを作成できるため、必ず最新のバージョンの[hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)をダウンロードし、`hiya.dsi`を「for SDNANDSD card」からSDカードのルートにコピーしてください。
 
 ##### 40タイトル以上
-ニンテンドーDSiメニューには39タイトルの制限があります。 それ以上のものがある場合は、 `sd:/title`のフォルダからいくつかを削除しますか、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使ってアンインストールしてください。
+ニンテンドーDSiメニューには39タイトルの制限があります。 If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### DSiWareの使用する容量が多すぎます
-`00030004`フォルダには、DSiWare用の200ブロック（25MB）の制限もあります。 これは、[TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)を使用してDSiウェアをシステムアプリとしてインストールすることで回避できます。
+`00030004`フォルダには、DSiWare用の200ブロック（25MB）の制限もあります。 This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### 無効なタイトル
 hiyaCFWにタイトルを追加する時に考慮する必要があることがいくつかあります：

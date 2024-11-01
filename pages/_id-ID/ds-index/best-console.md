@@ -33,4 +33,4 @@ Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca p
 
 [^6]: Sebagian besar permainan tidak perlu kamera. Lihat [laman ini](https://github.com/DS-Homebrew/TWiLightMenu/blob/master/universal/include/compatibleDSiWareMap.h) untuk apa saja yang didukung. Perlu pasang **TW**i**L**ight Menu++ dulu di <i>flashcard</i>.
 
-[^7]: Jika menggunakan **TW**i**L**ight Menu++ pada konsol 3DS/2DS atau setelan `Pemulai DSiWare` diatur ke `nds-bootstrap`, kompatibilitas pasti hampir sempurna.
+[^7]: Jika menjalankan **TW**i**L**ight Menu++ di konsol 3DS/2DS atau setelan `Pemulai DSiWare` diatur ke `nds-bootstrap`, kompatibilitas akan hampir sempurna.

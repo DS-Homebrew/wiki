@@ -40,7 +40,7 @@ Ada dua cara melakukannya, yaitu menggunakan:
 Dari kartu SD, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` ke sini:
 {% endcapture %}
 
-### Bagian 3: Memetik BIOS dari hasil berkas simpanan
+### Bagian 3: Mengekstrak BIOS dari hasil berkas simpanan
 1. Sisipkan kartu SD ke komputer Anda
 1. {% include bios-shrinker.html text=upload-bios-text %}
 
@@ -65,7 +65,7 @@ Dari kartu SD, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` ke sini:
 Dari kartu SD, unggah `Bios_Dumper.sav` ke sini:
 {% endcapture %}
 
-### Bagian 3: Memetik BIOS dari hasil berkas simpanan
+### Bagian 3: Mengekstrak BIOS dari hasil berkas simpanan
 1. Sisipkan kartu SD ke komputer Anda
 1. {% include bios-shrinker.html text=upload-bios-text %}
 

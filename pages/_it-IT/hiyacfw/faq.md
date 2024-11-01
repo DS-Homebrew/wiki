@@ -8,7 +8,7 @@ description: Domande frequenti e risoluzione dei possibili problemi di hiyaCFW
 ---
 
 #### Come posso installare applicazioni o DSiWare sulla SDNAND di hiyaCFW?
-Bisogna usare [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) per installare le applicazioni sulla SDNAND, ma i vecchi homebrew DS potrebbero non essere compatibili.
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - Se vuoi installare i dump delle schede di gioco, dovresti usare un [forwarder](../ds-index/forwarders)
 
 #### Perché ricevo il codice di errore #-2435-8325?
@@ -25,10 +25,10 @@ Lo spazio libero funziona a gruppi alterni di due gibibyte. Per esempio, avere t
 L'ultima versione di hiyaCFW può creare dei file fittizi per aggirare questo problema, quindi assicurati di scaricare l'ultima versione di [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) e copia `hiya.dsi` dalla cartella "for SDNAND SD card" alla root della scheda SD.
 
 ##### Più di 39 titoli
-Il menu del Nintendo DSi ha un limite di 39 titoli. Se ne hai di più, cancellane alcuni dalle cartelle in `sd:/title` o usa [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) per disinstallarli.
+Il menu del Nintendo DSi ha un limite di 39 titoli. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### Troppo spazio utilizzato da DSiWare
-C'è anche un limite di 200 blocchi (25MB) per DSiWare nella cartella `00030004`. Questo limite può essere raggirato installando le app DSiware come app di sistema utilizzando [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+C'è anche un limite di 200 blocchi (25MB) per DSiWare nella cartella `00030004`. This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### Titolo non valido
 Ci sono diverse cose da tenere in considerazione quando si aggiungono titoli a hiyaCFW:

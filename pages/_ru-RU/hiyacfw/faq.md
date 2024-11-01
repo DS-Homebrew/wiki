@@ -8,7 +8,7 @@ description: ЧаВо & Устранение неполадок hiyaCFW
 ---
 
 #### Как установить приложения или DSiWare на SDNAND hiyaCFW?
-Для установки приложений на SDNAND необходимо использовать [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) , но старые DS homebrew могут быть несовместимы.
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - Если вы хотите установить дампы игровых карт, вам следует использовать [переадресатор](../ds-index/forwarders)
 
 #### Почему я получаю код ошибки #-2435-8325?
@@ -25,10 +25,10 @@ description: ЧаВо & Устранение неполадок hiyaCFW
 Последняя версия hiyaCFW может создавать фиктивные файлы для обхода этой проблемы, поэтому убедитесь, что вы загрузили последнюю версию [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) и скопировали `hiya.dsi` из "for SDNAND SD card" в корень вашей SD карты.
 
 ##### Более 39 приложений
-Меню Nintendo DSi имеет ограничение в 39 приложений. Если у вас их больше, удалите некоторые из папок в каталоге `sd:/title` или используйте [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) для их удаления.
+Меню Nintendo DSi имеет ограничение в 39 приложений. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### Слишком много места используется для DSiWare
-Также существует ограничение в 200 блоков (25 МБ) для DSiWare в папке `00030004`. Это можно обойти, установив DSiWare в качестве системных приложений с помощью [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+Также существует ограничение в 200 блоков (25 МБ) для DSiWare в папке `00030004`. This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### Некоректное приложение
 При добавлении приложений в hiyaCFW необходимо учитывать несколько моментов:

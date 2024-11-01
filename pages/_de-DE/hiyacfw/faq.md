@@ -8,7 +8,7 @@ description: FAQ & Fehlersuche für hiyaCFW
 ---
 
 #### Wie installiere ich Anwendungen oder DSiWare auf dem SDNAND des hiyaCFW?
-Sie müssen [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) verwenden, um Anwendungen auf dem SDNAND zu installieren, aber ältere DS Homebrew ist möglicherweise nicht kompatibel.
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - Wenn Sie Game Card Dumps installieren möchten, sollten Sie einen [Forwarder](../ds-index/forwarders) verwenden
 
 #### Warum erhalte ich den Fehlercode #-2435-8325?
@@ -25,10 +25,10 @@ Was funktioniert und was nicht, geht durch jeden anderen Bereich von zwei Gibiby
 Die neueste hiyaCFW-Version kann Dummy-Dateien erstellen, um dieses Problem zu umgehen. Stellen Sie also sicher, dass Sie die neueste Version von [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) herunterladen und `hiya.dsi` aus "for SDNAND SD card" in das Stammverzeichnis Ihrer SD-Karte kopieren.
 
 ##### Über 39 Titel
-Das Nintendo DSi-Menü hat ein Limit von 39 Titeln. Wenn Sie mehr als das haben, löschen Sie einige aus den Ordnern in `sd:/title` oder verwenden Sie [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest), um sie zu deinstallieren.
+Das Nintendo DSi-Menü hat ein Limit von 39 Titeln. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### Zu viel Speicherplatz durch DSiWare belegt
-Es gibt auch ein Limit von 200 Blöcken (25 MB) für DSiWare im Ordner `00030004`. Dies kann umgangen werden, indem DSiWare mit [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) als Systemanwendungen installiert wird.
+Es gibt auch ein Limit von 200 Blöcken (25 MB) für DSiWare im Ordner `00030004`. This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### Ungültiger Titel
 Beim Hinzufügen von Titeln zu hiyaCFW sind mehrere Dinge zu beachten:

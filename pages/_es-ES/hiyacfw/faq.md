@@ -8,7 +8,7 @@ description: Preguntas frecuentes y resolución de problemas de hiyaCFW
 ---
 
 #### ¿Cómo instalo aplicaciones o títulos DSiWare a la SDNAND hiyaCFW?
-Necesitas usar [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) para instalar aplicaciones a la SDNAND, pero las aplicaciones Homebrew para DS podrían no ser compatibles.
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - Si quieres instalar ROMs volcadas de cartuchos, deberás usar un [redireccionador](../ds-index/forwarders)
 
 #### ¿Por qué aparece el código de error #-2435-8325?
@@ -25,10 +25,10 @@ Lo que funciona y lo que no, se ve dictado por cada dos potencias de dos gibibyt
 La última versión de hiyaCFW puede crear archivos de relleno para evitar este problema, así que asegúrate de descargar la última versión de [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) y copia `hiya.dsi` desde la carpeta "for SDNAND SD card" a la carpeta raíz de tu tarjeta SD.
 
 ##### Más de 39 títulos
-El menú de la Nintendo DSi tiene un límite de 39 títulos. Si tienes más títulos que eso, elimina algunas de las carpetas en `sd:/title` o usa [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) para desinstalar algunos.
+El menú de la Nintendo DSi tiene un límite de 39 títulos. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### Mucho espacio usado por títulos DSiWare
-También existe un límite de 200 bloques (25MB) para los títulos DSiWare en la carpeta `00030004`. Este error puede evitarse instalando títulos DSiWare como aplicaciones de sistema usando [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest).
+También existe un límite de 200 bloques (25MB) para los títulos DSiWare en la carpeta `00030004`. This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### Título no válido
 Hay varias cosas a tener en cuenta al añadir títulos a hiyaCFW:

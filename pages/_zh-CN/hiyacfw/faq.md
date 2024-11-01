@@ -8,7 +8,7 @@ description: hiyaCFW 的常见问题 & 故障处理
 ---
 
 #### 如何在 hiyaCFW 的SDNAND上安装应用程序或DSiWare？
-你需要使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) ，将应用程序安装到SDNAND，但旧的DS自制软件可能不兼容。
+You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to install apps to the SDNAND, but older DS homebrew may not be compatible.
 - 如果你想安装游戏卡转储，你应该使用 [forwarder](../ds-index/forwarders)
 
 #### 为什么出现了#-2435-8325错误代码？
@@ -25,10 +25,10 @@ description: hiyaCFW 的常见问题 & 故障处理
 最新版本的 hiyaCFW 可以创建虚拟文件， 所以请确保您下载最新版本的 [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) 并将 `hiya.dsi` 从“for SDNAND SD card”放到SD卡的根目录。
 
 ##### 超过39个应用
-任天堂DSi菜单有39个应用的硬性限制。 如果你超出了这个数量，从 `sd:/title` 的文件夹中删除一些，或者使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest) 来卸载它们。
+任天堂DSi菜单有39个应用的硬性限制。 If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.
 
 ##### DSiWare 使用的空间太大
-`00030004` 文件夹中的DSiWare也有200格（25MB）的限制。 这可以通过使用 [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)，将DSiWare安装为系统应用来解决。
+`00030004` 文件夹中的DSiWare也有200格（25MB）的限制。 This can be worked around by installing DSiWare as system apps using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest).
 
 ##### 无效的应用
 在向hiyaCFW添加应用时，你需要考虑到几件事。
