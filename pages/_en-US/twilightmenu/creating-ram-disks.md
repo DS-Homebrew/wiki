@@ -15,7 +15,7 @@ The software used here requires the Windows operating system.
 You do not need to follow this if you're using a flashcard.
 {:.alert .alert-info}
 
-To make a RAM disk, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instructions by Dakkon7, modified by Rocket Robz:
 
