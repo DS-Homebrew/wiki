@@ -15,7 +15,7 @@ description: 如何使用 TWiLight Menu++ 创建 RAM 磁盘以使用旧版 DS �
 如果您使用的是烧录卡，则无需遵循此步骤。
 {:.alert .alert-info}
 
-要制作 RAM 磁盘，请下载 [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)（单击 `Download Software`），并按照以下说明操作。
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 由 Dakkon7 编写，由 Rocket Robz 修改：
 

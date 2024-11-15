@@ -15,7 +15,7 @@ Peranti lunak di sini memerlukan sistem operasi Windows.
 Panduan ini tidak usah diikuti jika menggunakan *flashcard*.
 {:.alert .alert-info}
 
-Untuk membuat *RAM disk*, unduh [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (pencet `Download Software`), dan ikuti arahan di bawah ini.
+Untuk membuat *RAM disk*, unduh [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (pencet `Download Software`), dan ikuti arahan di bawah ini.
 
 Arahan dibuat oleh Dakkon7, diubah oleh Rocket Robz:
 

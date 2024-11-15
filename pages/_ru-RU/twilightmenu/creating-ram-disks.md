@@ -15,7 +15,7 @@ description: Как создать RAM-диски для использован�
 Вам не нужно следовать этому руководству, если вы используете флеш-картридж.
 {:.alert .alert-info}
 
-Чтобы создать RAM-диск, загрузите [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (нажмите `Download Software`) и следуйте приведенным ниже инструкциям.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Инструкции от @Dakkon7, изменены RocketRobz:
 

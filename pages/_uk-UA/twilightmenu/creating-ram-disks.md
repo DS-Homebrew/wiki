@@ -15,7 +15,7 @@ description: Як створити RAM диски для використанн�
 Вам не потрібно дотримуватися цього посібника, якщо ви використовуєте флешкарту.
 {:.alert .alert-info}
 
-Щоб зробити RAM диск, завантажте [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (натисніть `Download Software`) та дотримуйтесь наведених нижче інструкцій.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Інструкції від Dakkon7, модифіковані Rocket Robz:
 

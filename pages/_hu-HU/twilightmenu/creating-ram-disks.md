@@ -15,7 +15,7 @@ Az itt használt szoftver Windows operációs rendszert igényel.
 Nem szükséges ezt végrehajtanod, ha flashcard-ot használsz.
 {:.alert .alert-info}
 
-A RAM disk létrehozásához töltsd le [Dataram RAMDisk-et](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (kattints a `Download Software`-re), és kövesd az alábbi lépéseket.
+A RAM disk létrehozásához töltsd le [Dataram RAMDisk-et](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (kattints a `Download Software`-re), és kövesd az alábbi lépéseket.
 
 A lépések Dakkon7-tól, Rocket Robz módosításaival:
 

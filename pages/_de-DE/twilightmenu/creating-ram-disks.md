@@ -15,7 +15,7 @@ Die hier verwendete Software setzt das Betriebssystem Windows voraus.
 Wenn Sie eine Flashcard verwenden, müssen Sie dem nicht folgen.
 {:.alert .alert-info}
 
-Um eine RAM-Disk zu erstellen, laden Sie [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) herunter (klicken Sie auf `Software herunterladen`) und befolgen Sie die nachstehenden Anweisungen.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Anleitung von Dakkon7, geändert von Rocket Robz:
 

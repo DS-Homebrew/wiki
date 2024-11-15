@@ -15,7 +15,7 @@ De hier gebruikte software vereist het Windows-besturingssysteem.
 Je hoeft dit niet te volgen als je een flashkaart gebruikt.
 {:.alert .alert-info}
 
-Om een RAM-schijf te maken, download [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (klik op `Download Software`), en volg de onderstaande instructies.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instructies door Dakkon7, gewijzigd door Rocket Robz:
 

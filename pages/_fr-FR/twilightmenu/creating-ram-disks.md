@@ -15,7 +15,7 @@ Le logiciel utilisé ici nécessite le système d'exploitation Windows.
 Vous n'avez pas besoin de suivre cette procédure si vous utilisez un linker.
 {:.alert .alert-info}
 
-Pour créer un disque RAM, téléchargez [Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware) (cliquez sur `Download Software`), et suivez les instructions ci-dessous.
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Instructions par Dakkon7, modifiées par Rocket Robz :
 

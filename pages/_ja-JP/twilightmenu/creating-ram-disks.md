@@ -15,7 +15,7 @@ description: TWiLight Menu++で古いDS Homebrewを使うためのRAM ディス�
 マジコンをお使いの場合、このガイドは必要ありません。
 {:.alert .alert-info}
 
-RAMディスクを作成するには、[Dataram RAMDisk](http://memory.dataram.com/products-and-services/software/ramdisk#freeware)をダウンロード（`Download Software`をクリック）し、以下の手順に従ってください。
+To make a RAM disk, download [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (click `Download Software`), and follow the instructions below.
 
 Dakkon7考案（Rocket Robz修正）の手順：
 
