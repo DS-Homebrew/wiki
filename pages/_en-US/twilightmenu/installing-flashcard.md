@@ -19,7 +19,9 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
 ### Autobooting TWiLight Menu++
-1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Autoboot` -> `(your flashcard)` folders
+1. Drag and drop the contents to the root of the flashcard's microSD card
     - Skip this, if you don't see your flashcard
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
@@ -34,9 +36,11 @@ Please note that not all flashcards support running games in this fashion. If th
 Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
-1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Flashcart Loader` -> `(your flashcard)` folders
     - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
-    - If you have done so, continue to step 3. If not, follow the steps below the flashcard list below
+1. Drag and drop the contents to the root of the flashcard's microSD card
+    - If you have done so, continue to step 4. If not, follow the steps below the flashcard list below
 
 1. For these flashcards:
     - R4i-SDHC (r4i-sdhc.com)
