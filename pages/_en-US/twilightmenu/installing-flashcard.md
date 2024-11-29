@@ -6,6 +6,9 @@ category: installing
 title: Installing (Flashcard)
 long_title: Installing TWiLight Menu++ (Flashcard)
 description: How to install TWiLight Menu++ on a Nintendo DS flashcard
+tabs:
+  - loader: Flashcart Loader
+    ysmenu: YSMenu
 ---
 
 ### Installing
@@ -21,30 +24,38 @@ description: How to install TWiLight Menu++ on a Nintendo DS flashcard
 ### Autobooting TWiLight Menu++
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Open the `Autoboot` -> `(your flashcard)` folders
-1. Drag and drop the contents to the root of the flashcard's microSD card
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
     - Skip this, if you don't see your flashcard
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
-### To run games using your flashcard firmware
+### To run games using your flashcard firmware (optional)
 
-Please note this only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
+**Please note:**
+- This only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
+- Not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
+- You'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
 {:.alert .alert-warning}
 
-Please note that not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
-{:.alert .alert-warning}
+{% capture tab-loader %}
 
-Please note that you'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
-{:.alert .alert-warning}
+If your flashcart does not have a compatible loader for this section, choose the "YSMenu" tab.
+{:.alert .alert-info}
 
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Open the `Flashcart Loader` -> `(your flashcard)` folders
     - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard.
-1. Drag and drop the contents to the root of the flashcard's microSD card
-    - If you have done so, continue to step 4. If not, follow the steps below the flashcard list below
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
-1. For these flashcards:
+{% endcapture tab-loader %}
+{% assign tab-loader = tab-loader | split: "////////" %}
+
+{% capture tab-ysmenu %}
+ 
+1. Please confirm that you have one of the below flashcarts:
     - R4i-SDHC (r4i-sdhc.com)
-    - r4isdhc.com 2014-2024 cards (**not** .hk or .com.cn)
+    - r4isdhc.com 2014+ cards (**not** .hk or .com.cn)
     - R4i SDHC Upgrade Revolution
     - R4DSiXL3D
     - R4i Advance
@@ -61,8 +72,16 @@ Please note that you'll lose the ability to use cheats when running games in thi
     - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
     - R4(i)RTS (r4rts.com) (use the M3Real_M3iZero YSMenu files)
     - R4 SDHC RTS (black cartridge) (r4isdhc.com) (use the M3Real_M3iZero YSMenu files)
-
-    Install [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
-        - Make sure you have `YSMenu.nds` (renamed from `TTMenu.dat` if there isn't one) and the `TTMenu` folder on the flashcard microSD root
-        - Do not copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
+1. Download [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
+1. Extract it to a folder on your computer. Navigate to the folder required for your flashcart.
+1. Inside the folder, rename `TTMenu.dat` to `YSMenu.nds` if a `YSMenu.nds` file does not already exist
+1. Copy the `TTMenu` folder and `YSMenu.nds` file to the root of your MicroSD card. **Do not** copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
+
+{% endcapture tab-ysmenu %}
+{% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
+
+### Running games with your flashcart firmware
+{% assign tabs = tab-loader | concat: tab-ysmenu %}
+{% include tabs.html index=0 tabs=tabs %}
