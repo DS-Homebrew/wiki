@@ -15,7 +15,7 @@ Laman ini menjabarkan ikhtisar utama nds-bootstrap ke depannya. Tonggak capaian 
 Membuat kompatibilitas nds-bootstrap hampir 1:1 dengan permainan retail
 - Perbaiki Romancing SaGa 3 [#271](https://github.com/DS-Homebrew/nds-bootstrap/issues/271)
 - Perbaiki sambungan Pokemon DS-Wii [#415](https://github.com/DS-Homebrew/nds-bootstrap/issues/415)
-- Perbaiki semua seri Brain Age DSiWare [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
+- Perbaiki semua serial Brain Age DSiWare [#1166](https://github.com/DS-Homebrew/nds-bootstrap/issues/1166)
 
 ### 1.1 Peningkatan Tambahan ke Permainan
 Menambah fitur baru yang tidak ada di kartrid saat dimainkan

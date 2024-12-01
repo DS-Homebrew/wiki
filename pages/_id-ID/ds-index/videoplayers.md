@@ -34,7 +34,7 @@ Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 in
 1. Salin dan pindahkan video ke tempat berkas `.bat` tadi
 1. Seret dan taruh video yang disalin atau pindah ke berkas `.bat`
 
-Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar melalui **TW**i**L**ight Menu++.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar lewat **TW**i**L**ight Menu++.
 
 ## Konversi video Moonshell (DPG4x)
 

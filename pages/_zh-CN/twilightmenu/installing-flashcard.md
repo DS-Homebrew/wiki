@@ -6,6 +6,10 @@ category: installing
 title: 安装（烧录卡）
 long_title: 安装 TWiLight Menu++（烧录卡）
 description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
+tabs:
+  - 
+    loader: Flashcart Loader
+    ysmenu: YSMenu
 ---
 
 ### 安装步骤
@@ -19,28 +23,40 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
 ### 自动启动 TWiLight Menu++
-1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Autoboot` -> `(your flashcard)` folders
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
     - 如果没有找到您的烧录卡，请跳过本步骤
 1. **对于 DS Phat/Lite 用户：**在 DS 设置菜单中打开自动运行，这样开机时就会自动进入烧录卡
 
-### 使用烧录卡固件运行游戏
+### To run games using your flashcard firmware (optional)
 
-请注意，这只在烧录卡已被设置为自动启动 TWiLight Menu++ 时生效。 请参阅上文如何配置。
+**Please note:**
+- This only works if your flashcard is set to autoboot TWiLight Menu++. 请参阅上文如何配置。
+- Not all flashcards support running games in this fashion. 如果以下步骤不适用于您的烧录卡，您可以跳过此部分。
+- You'll lose the ability to use cheats when running games in this fashion. 如果您想保留金手指功能，请跳过本节。
 {:.alert .alert-warning}
 
-请注意，并非所有烧录卡都支持以这种方式运行游戏。 如果以下步骤不适用于您的烧录卡，您可以跳过此部分。
-{:.alert .alert-warning}
+{% capture tab-loader %}
 
-请注意，以这种方式运行游戏时，您将无法使用金手指。 如果您想保留金手指功能，请跳过本节。
-{:.alert .alert-warning}
+If your flashcart does not have a compatible loader for this section, choose the "YSMenu" tab.
+{:.alert .alert-info}
 
-1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Flashcart Loader` -> `(your flashcard)` folders
     - `Flashcart Loader` 文件夹中有一个 README.txt 文件，可帮助找到适合您的烧录卡的加载器。
-    - 如果已完成，请看第 3 步。 如果没有，请按照下面烧录卡列表中的步骤操作
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
-1. 烧录卡
+{% endcapture tab-loader %}
+{% assign tab-loader = tab-loader | split: "////////" %}
+
+{% capture tab-ysmenu %}
+
+1. Please confirm that you have one of the below flashcarts:
     - R4i-SDHC (r4i-sdhc.com)
-    - r4isdhc.com 2014-2024 cards (**not** .hk or .com.cn)
+    - r4isdhc.com 2014+ cards (**not** .hk or .com.cn)
     - R4i SDHC Upgrade Revolution
     - R4DSiXL3D
     - R4i Advance
@@ -57,8 +73,16 @@ description: 如何在 Nintendo DS 烧录卡上安装 TWiLight Menu++
     - iTouchDS and iTouch2（使用 M3Real_M3iZero YSMenu 的文件）
     - R4(i)RTS (r4rts.com)（使用 M3Real_M3iZero YSMenu 的文件）
     - R4 SDHC RTS（黑卡）(r4isdhc.com)（使用 M3Real_M3iZero YSMenu 的文件）
-
-    安装 [RetroGameFan 的 YSMenu](https://gbatemp.net/download/35737/)。
-        - 确认在烧录卡的 microSD 卡根目录已经有 `YSMenu.nds`（如果没有，请直接将 `TTMenu.dat` 重命名）文件和 `TTMenu` 文件夹
-        - 请勿直接复制 `TTMenu.dat` ；这将破坏自动启动和 YSMenu 的软重启功能
+1. Download [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
+1. Extract it to a folder on your computer. Navigate to the folder required for your flashcart.
+1. Inside the folder, rename `TTMenu.dat` to `YSMenu.nds` if a `YSMenu.nds` file does not already exist
+1. Copy the `TTMenu` folder and `YSMenu.nds` file to the root of your MicroSD card. **Do not** copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
+
+{% endcapture tab-ysmenu %}
+{% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
+
+### Running games with your flashcart firmware
+{% assign tabs = tab-loader | concat: tab-ysmenu %}
+{% include tabs.html index=0 tabs=tabs %}

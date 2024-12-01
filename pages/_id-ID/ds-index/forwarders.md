@@ -47,15 +47,6 @@ Jika di konsol sudah ada Universal Updater, langsung ke langkah 3.
 1. Setelah dipasang, permainan akan muncul di HOME Menu
     - Jika muncul pesan galat bertulis `/_nds/ntr-forwarder/sdcard.nds not found` saat memuat, ikuti langkah 2-3 di Bagian 1 dari tab `Kartu SD DSi`
 
-### Bagian 3: Mendapatkan AP-fix dari TWiLight Menu++
-
-Jika sudah ada TWiLight Menu++, panduan ini selesai di sini.
-{:.alert .alert-info}
-
-1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
-1. Di dalam berkas `.7z`, masuk ke folder `_nds/TWiLightMenu/extras`
-1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
-
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -72,16 +63,7 @@ Jika sudah ada TWiLight Menu++, panduan ini selesai di sini.
 1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD dari DSi.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
-### Bagian 2: Mendapatkan AP-fix dari TWiLight Menu++
-
-Jika sudah ada TWiLight Menu++, lewati bagian ini.
-{:.alert .alert-info}
-
-1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
-1. Di dalam berkas `.7z`, masuk ke folder `_nds/TWiLightMenu/extras`
-1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
-
-### Bagian 3: NDSForwarder-DSi
+### Bagian 2: NDSForwarder-DSi
 1. Sisip kembali kartu SD ke konsol
 1. Tahan <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, lalu nyalakan konsol untuk memuat Unlaunch
 1. Luncurkan `NDSForwarder.dsi`
@@ -105,16 +87,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 1. Unduh [kemasan *Forwarder*](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Ekstrak isi dari folder `for SD card root` ke akar kartu SD *flashcard*.<br>Akar atau *root* adalah bagian paling awal direktori folder
 
-### Bagian 2: Mendapatkan AP-fix dari TWiLight Menu++
-
-Jika sudah ada TWiLight Menu++ atau hanya ingin bermain DSiWare, lewati bagian ini.
-{:.alert .alert-info}
-
-1. Unduh [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z) yang terkini
-1. Di dalam berkas `.7z`, masuk ke folder `_nds/TWiLightMenu/extras`
-1. Seret berkas `apfix.pck` ke `sd:/_nds/ntr-forwarder/`
-
-### Bagian 3: NDSForwarder-DSi
+### Bagian 2: NDSForwarder-DSi
 1. Sisip kembali kartu SD ke *flashcard*, lalu sisip *flashcard* ke konsol
 1. Nyalakan daya konsol dan luncurkan *flashcard*
 1. Luncurkan `NDSForwarder.nds`
@@ -216,16 +189,7 @@ Setelah mengekstrak kemasan sesuai *flashcard*, pengaturan di `sd:/_nds/ntr_forw
     - `DISABLEANIMATION`: Jika diatur ke `1` atau jika menahan <kbd class="face">B</kbd>, layar awal nyala DS/DSi dilewati
     - `HEALTHSAFETYMSG`: Jika diatur ke `1`, pesan kesehatan dan keselamatan akan muncul di layar bawah; jika tidak, layar bawah akan putih tanpa pesan kesehatan dan keselamatan
 
-### Bagian 2: Mendapatkan AP fix dari TWiLight Menu++
-
-Jika sudah ada TWiLight Menu++, lewati bagian ini.
-{:.alert .alert-info}
-
-1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
-1. Di dalam berkas 7z, masuk ke folder `_nds/TWiLightMenu/extras`
-1. Seret berkas `apfix.pck` ke `fat:/_nds/ntr-forwarder/`
-
-### Bagian 3: Forwarder3-DS
+### Bagian 2: Forwarder3-DS
 1. Buka `Forwarder3DS.jar`
     - **Pengguna Windows:** Jika tidak bisa buka, unduh [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), lalu taruh di folder yang sama dengan Forwarder3DS.jar, dan jalankan
 1. Pilih jenis kartrid sebagai `Target` di kiri
@@ -239,7 +203,7 @@ Jika sudah ada TWiLight Menu++, lewati bagian ini.
 1. Untuk ROM *homebrew*, dipencet dulu, lalu kosongkan `Game title` dan ketik judulnya
 1. Pencet tombol cakram liuk untuk membuat *forwarder*
 
-### Bagian 4: Memasang *forwarder*
+### Bagian 3: Memasang *forwarder*
 
 - Untuk jenis konsol 3DS:
     1. Salin berkas CIA tadi ke kartu SD 3DS, lalu pasang dengan FBI

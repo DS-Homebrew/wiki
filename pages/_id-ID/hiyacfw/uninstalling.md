@@ -7,7 +7,7 @@ long_title: Pencopotan hiyaCFW
 description: Cara mencopot hiyaCFW dari Nintendo DSi
 ---
 
-hiyaCFW hanya boleh ada di kartu SD dan tidak boleh di NAND. Sebelum lanjut, pastikan data simpanan yang ingin disimpan sudah dicadangkan dari SDNAND. Untuk caranya bisa dilihat di Bagian III dari panduan [Pencadangan DSiWare](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) [dsi.cfw.guide](https://dsi.cfw.guide).
+hiyaCFW hanya boleh ada di kartu SD dan tidak boleh di NAND. Sebelum lanjut, pastikan data simpanan yang ingin disimpan sudah dicadangkan dari SDNAND. Untuk caranya bisa dilihat di Bagian III panduan [Mencadang DSiWare](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) dari [dsi.cfw.guide](https://dsi.cfw.guide).
 
 ### Pencopotan
 1. Hapus `hiya.dsi` dari akar kartu SD

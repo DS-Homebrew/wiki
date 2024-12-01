@@ -27,7 +27,7 @@ Terdapat opsi *TWL Clock Speed* di nds-bootstrap, tapi ROM tidak akan dipaksa la
 ### Menu Nintendo DSi
 Di versi 1.4.0, tanda tangan RSA di daftar putih Kartrid DS tidak diverifikasi. Ini kerentanan yang bisa dieksploitasi agar mampu mengambil alih akses prosesor ARM9. Perlu versi 1.4.0 (karena di versi baru sudah ditambal dan di versi lama tidak ada) dan *flashcard* dengan ROM dimodif.
 
-Tapi ada juga *glitch* dari cara Nintendo DSi Menu menghitung ruang kosong yang mana bisa galat jika menu tidak dibaca dari NAND asli; untuk informasi lanjut, lihat [Pertanyaan Umum & Sidik Gangguan hiyaCFW](../hiyacfw/faq#the-free-space-bug).
+Tapi ada juga *glitch* dari cara Nintendo DSi Menu menghitung ruang kosong yang mana bisa galat jika menu tidak dibaca dari NAND asli; untuk informasi lanjut, lihat [Pertanyaan Umum & Sidik Gangguan hiyaCFW](../hiyacfw/faq#kutu-memori-sisa-ruang).
 
 ### Akses & pemblokiran Slot-1 Nintendo DSi
 Akses Slot-1 diblokir jika memuat aplikasi dari menu sistem, kecuali jika aplikasi tersebut peluncur Slot-1 itu sendiri atau System Settings. Untuk menjalankan kartrid Slot-1 yang biasanya tak terbacakan, perlu eksploit System Settings atau pasang Unlaunch. Tanpa salah satu kedua ini, maka tidak akan bisa membaca *flashcard* tak terbacakan dan men-*dump* ROM ke kartu SD.

@@ -9,17 +9,17 @@ description: Betrachten Sie die Funktionen jeder Konsole um das beste DS(i) Modu
 
 Die Nintendo DS, Nintendo DSi, Nintendo 3DS und Nintendo 2DS Konsolen können alle im DS(i) Modus sowie im GBA Modus laufen. Um bei der Entscheidung zu helfen, welche Konsole am besten für Sie ist, lesen Sie bitte diese Seite.
 
-| Eigenschaften                | Nintendo DS                                                | Nintendo DSi                                                | Nintendo 3DS/2DS                                         |
-| ---------------------------- | ---------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
-| Maximaler Arbeitsspeicher    | 4 MB (bis zu 36 MB mit RAM-Erweiterung) | 16MB                                                        | 32MB                                                     |
-| Maximale CPU-Geschwindigkeit | 67mhz                                                      | 133mhz[^1]                                                  | 133mhz[^1]                                               |
-| Kamera                       | Nein                                                       | Ja                                                          | Ja                                                       |
-| Bildschirmtyp                | TN(?)                                   | TN (Normal), IPS (XL) | TN oder IPS (variiert je nach Modell) |
-| Touch sensitivity            | Ja                                                         | DSi mode only                                               | Nein                                                     |
-| Skalierung des Bildschirms   | Nein                                                       | Nein                                                        | Ja[^2]                                                   |
-| Helligkeitsstufen            | 2 (On/Off für Phat), 4 (Lite)[^3]                          | 5                                                           | 5                                                        |
-| Kompatibilität mit dem GBA   | Nativ, nahezu perfekt[^4]                                  | Sehr gut                                                    | Nativ, nahezu perfekt[^5]                                |
-| DSiWare-Unterstützung        | Ja, Teilweise[^6]                                          | Ja[^7]                                                      | Ja[^7]                                                   |
+| Eigenschaften                | Nintendo DS                                                                                     | Nintendo DSi                                                | Nintendo 3DS/2DS                                         |
+| ---------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| Maximaler Arbeitsspeicher    | 4 MB (bis zu 36 MB mit RAM-Erweiterung)                                      | 16MB                                                        | 32MB                                                     |
+| Maximale CPU-Geschwindigkeit | 67mhz                                                                                           | 133mhz[^1]                                                  | 133mhz[^1]                                               |
+| Kamera                       | Nein                                                                                            | Ja                                                          | Ja                                                       |
+| Bildschirmtyp                | TN(?), Frontlit (Phat), Backlit (Lite) | TN (Normal), IPS (XL) | TN oder IPS (variiert je nach Modell) |
+| Touch sensitivity            | Ja                                                                                              | DSi mode only                                               | Nein                                                     |
+| Skalierung des Bildschirms   | Nein                                                                                            | Nein                                                        | Ja[^2]                                                   |
+| Helligkeitsstufen            | 2 (On/Off für Phat), 4 (Lite)[^3]                                                               | 5                                                           | 5                                                        |
+| Kompatibilität mit dem GBA   | Nativ, nahezu perfekt[^4]                                                                       | Sehr gut                                                    | Nativ, nahezu perfekt[^5]                                |
+| DSiWare-Unterstützung        | Ja, Teilweise[^6]                                                                               | Ja[^7]                                                      | Ja[^7]                                                   |
 
 [^1]: DS-Spiele laufen bei 67mhz, aber die meisten können so konfiguriert werden, dass sie mit 133mHz laufen, obwohl bestimmte Spiele Probleme haben werden.
 

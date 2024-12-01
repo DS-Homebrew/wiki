@@ -47,15 +47,6 @@ If you already have Universal Updater installed on your console, you can skip to
 1. After it is installed, your game will now appear as a title on your HOME menu
     - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, follow steps 2-3 in Part 1 of the `DSi SD card` tab
 
-### Part 3: Getting the AP-fix pack from TWiLight Menu++
-
-If you already have TWiLight Menu++ installed, you are done with this guide.
-{:.alert .alert-info}
-
-1. 最新の[`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)をダウンロード
-1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
-1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
-
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
 
@@ -72,16 +63,7 @@ If you already have TWiLight Menu++ installed, you are done with this guide.
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
 
-### Part 2: Getting the AP-fix pack from TWiLight Menu++
-
-If you already have TWiLight Menu++ installed, skip to the next part.
-{:.alert .alert-info}
-
-1. 最新の[`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロード
-1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
-1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
-
-### Part 3: NDSForwarder-DSi
+### Part 2: NDSForwarder-DSi
 1. Reinsert your SD card into your device
 1. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd>, then power on your device to boot to Unlaunch
 1. Launch `NDSForwarder.dsi`
@@ -105,16 +87,7 @@ If you already have TWiLight Menu++ installed, skip to the next part.
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD Card root` folder to the root of your flashcard's SD card
 
-### Part 2: Getting the AP-fix pack from TWiLight Menu++
-
-If you already have TWiLight Menu++ installed or just plan to run DSiWare, skip to the next part.
-{:.alert .alert-info}
-
-1. 最新の[`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)をダウンロード
-1. In the `.7z` file, go to the `_nds/TWiLightMenu/extras` folder
-1. Drag the `apfix.pck` file to `sd:/_nds/ntr-forwarder/`
-
-### Part 3: NDSForwarder-DSi
+### Part 2: NDSForwarder-DSi
 1. Reinsert your SD card into your flashcard, and the flashcard into your device
 1. Power on your device and launch your flashcard
 1. Launch `NDSForwarder.nds`
@@ -216,16 +189,7 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
     - `DISABLEANIMATION`: If set to `1` or <kbd class="face">B</kbd> is held, the DS/DSi boot screen is skipped
     - `HEALTHSAFETYMSG`: If set to `1`, the boot screen's health and safety message will appear on the bottom screen, otherwise the bottom screen stays white with no health and safety message
 
-### Part 2: Getting the AP fix files from TWiLight Menu++
-
-If you already have TWiLight Menu++, skip to the next part.
-{:.alert .alert-info}
-
-1. 最新の[`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)をダウンロード
-1. In the 7z file, go to the `_nds/TWiLightMenu/extras` folder
-1. Drag the `apfix.pck` file to `fat:/_nds/ntr-forwarder/`
-
-### Part 3: Forwarder3-DS
+### Part 2: Forwarder3-DS
 1. Open `Forwarder3DS.jar`
     - **Windows users:** If it doesn't open, download this [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat), place it in the same folder as Forwarder3DS.jar, and run it
 1. Set your card as the `Target` on the left
@@ -239,7 +203,7 @@ If you already have TWiLight Menu++, skip to the next part.
 1. If using a homebrew ROM, click on it, then clear the `Game title` and type the game's title
 1. Click the floppy disk button to generate the forwarders
 
-### Part 4: Installing the forwarder
+### Part 3: Installing the forwarder
 
 - If using a 3DS family console:
     1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI

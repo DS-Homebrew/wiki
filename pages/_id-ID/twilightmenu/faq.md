@@ -63,7 +63,7 @@ Bisa. Gunakan [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases) untu
 Bukan, ini bukan emulator. Untuk menu dan permainan DS (dimuat nds-bootstrap) dijalankan lokal atau *native* di mode DS/DSi konsol. Konsol yang diemulasi hanya konsol lama, tapi untuk GBA ada sebagian (beberapa atau semua bagian seperti grafik dibaca lokal).
 
 #### Sistem apa saja yang didukung TWiLight Menu++?
-Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#list-of-supported-systems-by-twilight-menu).
+Lihat [Daftar Sistem yang Didukung TWiLight Menu++](../ds-index/emulators#daftar-sistem-yang-didukung-twilight-menu).
 
 #### Apakah eksploit Slot-1 bisa memuat ke TWiLight Menu++?
 Tidak. Akses kartu SD hanya dikhususkan aplikasi DSiWare, jadi kartrid Slot-1 tidak bisa memuat (atau mengakses) TWiLight Menu++.
@@ -74,7 +74,7 @@ Ada beberapa alasan kenapa permainan tidak ketemu.
 - Jika dalam satu folder ada 39+ permainan dan slot di menu terisi semua, mungkin sisanya ada di halaman lain. Gunakan <kbd class="l">L</kbd>/<kbd class="r">R</kbd> atau <kbd>SELECT</kbd> + <kbd>Kiri</kbd>/<kbd>Kanan</kbd> untuk pindah halaman
 - Jika permainan atau folder disembunyikan, munculkan berkasnya lewat pengaturan GUI TWiLight Menu++
 - Jika berkas berbentuk arsip (`zip`, `rar`, `7z`, dll), maka tidak bisa dibaca TWiLight Menu++. Ekstrak dulu isi arsip untuk digunakan
-- Jika permainan tidak menggunakan [ekstensi yang didukung](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), mungkin ekstensi harus diubah nama dulu
+- Jika permainan tidak menggunakan [ekstensi yang didukung](../ds-index/emulators#daftar-sistem-yang-didukung-twilight-menu), mungkin ekstensi harus diubah nama dulu
 
 #### Bagaimana mengakses pengaturan TWiLight Menu++?
 Mengakses pengaturan TWiLight Menu++ bisa berbeda tergantung setelan.

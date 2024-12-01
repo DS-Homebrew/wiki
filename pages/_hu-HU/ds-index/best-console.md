@@ -9,17 +9,17 @@ description: Az egyes konzolok jellemzőinek vizsgálata a legjobb DS(i) üzemm�
 
 A Nintendo DS, Nintendo DSi, Nintendo 3DS ésNintendo 2DS konzolok mind képesek DS(i) módban futni és GBA játékokat futtatni. Annak eldöntéséhez, hogy melyik konzol a legjobb számodra, kérjük, olvasd el ezt az oldalt.
 
-| Funkciók              | Nintendo DS                                         | Nintendo DSi                                                | Nintendo 3DS/2DS                                        |
-| --------------------- | --------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------- |
-| Max RAM               | 4 MB (RAM-bővítéssel akár 36 MB) | 16MB                                                        | 32MB                                                    |
-| Max CPU sebesség      | 67mhz                                               | 133mhz[^1]                                                  | 133mhz[^1]                                              |
-| Kamera                | Nem                                                 | Igen                                                        | Igen                                                    |
-| Képernyő típus        | TN(?)                            | TN (normál), IPS (XL) | TN vagy IPS (modellenként változhat) |
-| Érintés érzékenység   | Igen                                                | Csak DSi módban                                             | Nem                                                     |
-| Képernyő átméretezése | Nem                                                 | Nem                                                         | Igen[^2]                                                |
-| Fényerőszintek        | 2 (Be/Ki a Phat esetében), 4 (Lite)[^3]             | 5                                                           | 5                                                       |
-| GBA kompatibilitás    | Natív, majdnem tökéletes[^4]                        | Kitűnő                                                      | Natív, majdnem tökéletes[^5]                            |
-| DSiWare támogatás     | Igen, részleges[^6]                                 | Igen[^7]                                                    | Igen[^7]                                                |
+| Funkciók              | Nintendo DS                                                                                     | Nintendo DSi                                                | Nintendo 3DS/2DS                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------- |
+| Max RAM               | 4 MB (RAM-bővítéssel akár 36 MB)                                             | 16MB                                                        | 32MB                                                    |
+| Max CPU sebesség      | 67mhz                                                                                           | 133mhz[^1]                                                  | 133mhz[^1]                                              |
+| Kamera                | Nem                                                                                             | Igen                                                        | Igen                                                    |
+| Képernyő típus        | TN(?), Frontlit (Phat), Backlit (Lite) | TN (normál), IPS (XL) | TN vagy IPS (modellenként változhat) |
+| Érintés érzékenység   | Igen                                                                                            | Csak DSi módban                                             | Nem                                                     |
+| Képernyő átméretezése | Nem                                                                                             | Nem                                                         | Igen[^2]                                                |
+| Fényerőszintek        | 2 (Be/Ki a Phat esetében), 4 (Lite)[^3]                                                         | 5                                                           | 5                                                       |
+| GBA kompatibilitás    | Natív, majdnem tökéletes[^4]                                                                    | Kitűnő                                                      | Natív, majdnem tökéletes[^5]                            |
+| DSiWare támogatás     | Igen, részleges[^6]                                                                             | Igen[^7]                                                    | Igen[^7]                                                |
 
 [^1]: A DS-játékok 67 MHz-en futnak, de a legtöbbet be lehet állítani 133 MHz-es sebességre, bár bizonyos játékoknál ez problémát okozhat.
 

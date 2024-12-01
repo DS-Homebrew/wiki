@@ -10,7 +10,7 @@ description: Kereskedelmi DS játékokkal kapcsolatos információk
 ### Anti-Piracy
 Az AP (Anti-Piracy) egy módja annak, hogy a fejlesztők a legális vásárlásokat erőltessék és megelőzzék a kalózkodást. Ez megkerülhető a loaderben és a ROM-ban is egyaránt.
 
-- Az nds-bootstrap számára betölthető egy `.ips` fájl, annak érdekében, hogy, megkerüld az említett patcheket. Ez az `.ips` fájl az nds-bootstrap-on belül a RAM-ban kerül felhasználásra, így a ROM fájlok sértetlenek maradnak. Egy `.ips` fájl csomag automatikusan beágyazott a TWiLight Menu++-ba
+- Az nds-bootstrap számára betölthető egy `.ips` fájl (egyaránt belső és külső), annak érdekében, hogy, megkerüld az említett patcheket. Ez az `.ips` fájl az nds-bootstrap-on belül a RAM-ban kerül felhasználásra, így a ROM fájlok sértetlenek maradnak.
 - A Wood R4-hez ezek a patchek beágyazottak a szoftverbe, így nem szükséges a ROM-ok módosítása
 
 Abban az esetben, ha nincs `.ips` fájl a ROM-jához, vagy a szoftvere nem patcheli a ROM-ját, megpróbálhatja közvetlenül, magának módosítani a ROM-ot az [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) használatával.
@@ -137,3 +137,24 @@ A rendszer azonosítók terminológiájában:
 ### DSi Enhanced:
 
 A "DSi Enhanced" funkcionalitással rendelkező játékok olyan játékok, amelyek igénybe veszik a DSi hardver néhány aspektusát, de továbbra is kompatibilisek maradnak a DS Phat/Lite-tal. Ezek a játékok `TWL` jelölésűek, de továbbra is "Nintendo DS" jelölésűek a címkén "Nintendo DSi" helyett.
+
+### DSiWare:
+
+A DSiWare olyan digitális játékok és alkalmazások, amelyek letölthetők a DSi Shopból, majd a DSi System Menüből indíthatók.
+    - Például:
+        - Art Style sorozat
+        - Flipnote Studio
+        - G.G sorozat
+        - The Legend of Zelda: Four Swords: Anniversary Edition
+        - Nintendo DSi Browser
+        - Shantae: Risky's Revenge
+        - Az EA Sudoku-ja
+    - A legtöbb DSiWare cím a 3DS eShopon keresztül is letölthető volt.
+    - A DSiWare címek már nem tölthetők le, mivel mindkét bolt bezárt.
+
+A DSiWare programok csak a belső rendszermemóriából futtathatók, kivéve, ha a **TW**i**L**ight Menu++ segítségével a DSi/3DS SD-kártyáról vagy flashcardról indítod őket.
+    - Egy flashcard használatával néhány some DSiWare cím elindíthato DS vagy DS Lite konzolon.
+
+Minden DSiWare/DSi rendszeralkalmazás (a System Menu kivételével) letiltja a Slot-1 (azaz a DS játékkártya foglalat) elérését, így nem férhetsz hozzá a játékkártyán vagy akár egy flashkártyán tárolt adatokhoz.
+    - Ez azt jelenti, hogy a fejlesztők nem adhattak hozzá támogatást a DS-játékokhoz, hogy hozzáférjenek a DSiWare-címek rejtett funkcióihoz.
+    - Ez azt is jelenti, hogy a homebrew alkalmazások (amelyek a DSiWare alkalmazásokon keresztül futnának), mint például a GodMode9**i**, nem tudnak ROM-okat dumpolni/extraktolni a DS játékkártyákról, kivéve, ha az Unlaunch-on keresztül futnak.

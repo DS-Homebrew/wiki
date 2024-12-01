@@ -10,7 +10,7 @@ description: Информация, связанная с розничными и
 ### Anti-piracy
 AP (Anti-Piracy) - это метод, используемый разработчиками для обеспечения законных покупок и предотвращения пиратства. Это можно обойти либо в загрузчике, либо в самом RОМ-е.
 
-- nds-bootstrap может загрузить файл `.ips`, чтобы обойти указанные ограничения. Этот файл `.ips` будет применен nds-bootstrap в оперативной памяти, так что файлы ROM-а останутся нетронутыми. Пакет файлов `.ips` включен в TWiLight Menu++
+- For nds-bootstrap, it can load an `.ips` file (both internal and external) in order to circumvent said patches. Этот файл `.ips` будет применен nds-bootstrap в оперативной памяти, так что файлы ROM-а останутся нетронутыми.
 - В Wood R4 эти патчи включены в само программное обеспечение, вам не нужно будет модифицировать ROM
 
 Если для вашего ROM-a нет файла `.ips` или ваша программа не модифицирует этот ROM вы можете попробовать изменить его напрямую с помощью [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
@@ -137,3 +137,24 @@ Homebrew/цифровые решения также могут использо�
 ### Адаптированные для DSi:
 
 Игры с функцией "DSi Enhanced" - это игры, которые используют преимущества некоторых аспектов аппаратного обеспечения DSi, оставаясь при этом совместимыми с DS Phat/Lite. Эти игры помечены как `TWL`, но на обложке написано "Nintendo DS", а не "Nintendo DSi".
+
+### DSiWare:
+
+DSiWare are digital games and apps which we're downloadable from the DSi Shop, to then launch from the DSi System Menu.
+    - Examples are:
+        - Art Style Series
+        - Flipnote Studio
+        - G.G Series
+        - The Legend of Zelda: Four Swords: Anniversary Edition
+        - Nintendo DSi Browser
+        - Shantae: Risky's Revenge
+        - EA's Sudoku
+    - Most DSiWare titles could also be downloaded via the 3DS eShop.
+    - DSiWare titles are no longer downloadable, due to both shops being closed.
+
+DSiWare can only be run from the internal system memory, unless when using **TW**i**L**ight Menu++ to launch them from the DSi/3DS SD Card or flashcard.
+    - By using a flashcard, some DSiWare titles can be run on a DS or DS Lite console.
+
+Every DSiWare/DSi system application (except for the System Menu) disables Slot-1 (aka the DS game card slot) access, preventing access to what's stored on the game card or even a flashcard.
+    - This means developers could not add support for DS games as a way of accessing hidden features within DSiWare titles.
+    - This also means homebrew apps (which would be run via exploited DSiWare apps) such as GodMode9**i** cannot dump/extract ROMs from DS game cards, unless when running via Unlaunch.

@@ -6,6 +6,10 @@ category: installing
 title: Installation (linker)
 long_title: Installation de TWiLight Menu++ (linker)
 description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
+tabs:
+  - 
+    loader: Flashcart Loader
+    ysmenu: YSMenu
 ---
 
 ### Installation
@@ -19,28 +23,40 @@ description: Comment installer TWiLight Menu++ sur un linker Nintendo DS
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
 ### Démarrage automatique de TWiLight Menu++
-1. Drag and drop everything inside `Autoboot/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Autoboot` -> `(your flashcard)` folders
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
     - Sautez cette étape si vous ne voyez pas votre linker
 1. **Utilisateurs de DS Tank/Lite :** Allez dans les paramètres du menu principal de la DS et activez le mode automatique pour que votre linker se lance au démarrage
 
-### Pour lancer des jeux en utilisant le firmware de votre linker
+### To run games using your flashcard firmware (optional)
 
-Veuillez noter que cela ne fonctionne que si votre linker est configuré pour un démarrage automatique du TWiLight Menu++. Consultez la section ci-dessus pour savoir comment procéder.
+**Please note:**
+- This only works if your flashcard is set to autoboot TWiLight Menu++. Consultez la section ci-dessus pour savoir comment procéder.
+- Not all flashcards support running games in this fashion. Si les étapes ci-dessous ne s'appliquent pas à votre linker, vous pouvez sauter cette section.
+- You'll lose the ability to use cheats when running games in this fashion. Si vous souhaitez conserver la fonctionnalité des codes de triche, veuillez sauter cette section.
 {:.alert .alert-warning}
 
-Veuillez noter que tous les linkers ne permettent pas d'exécuter des jeux de cette manière. Si les étapes ci-dessous ne s'appliquent pas à votre linker, vous pouvez sauter cette section.
-{:.alert .alert-warning}
+{% capture tab-loader %}
 
-Veuillez noter que vous perdrez la possibilité d'utiliser des codes de triche lorsque vous exécuterez des jeux de cette manière. Si vous souhaitez conserver la fonctionnalité des codes de triche, veuillez sauter cette section.
-{:.alert .alert-warning}
+If your flashcart does not have a compatible loader for this section, choose the "YSMenu" tab.
+{:.alert .alert-info}
 
-1. Drag and drop everything inside `Flashcart Loader/(your flashcard)` to the root of the flashcard's microSD card
+1. Open or extract `TWiLightMenu-Flashcard.7z`
+1. Open the `Flashcart Loader` -> `(your flashcard)` folders
     - Un fichier README.txt est présent dans le dossier `Flashcart Loader`, pour aider à trouver quel lanceur de linker est approprié pour votre linker.
-    - Si vous l'avez fait, passez à l'étape 3. Si ce n'est pas le cas, suivez les étapes de la liste de linkers ci-dessous
+1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
-1. Pour ces linkers :
+{% endcapture tab-loader %}
+{% assign tab-loader = tab-loader | split: "////////" %}
+
+{% capture tab-ysmenu %}
+
+1. Please confirm that you have one of the below flashcarts:
     - R4i-SDHC (r4i-sdhc.com)
-    - r4isdhc.com 2014-2024 cards (**not** .hk or .com.cn)
+    - r4isdhc.com 2014+ cards (**not** .hk or .com.cn)
     - R4i SDHC Upgrade Revolution
     - R4DSiXL3D
     - R4i Advance
@@ -57,8 +73,16 @@ Veuillez noter que vous perdrez la possibilité d'utiliser des codes de triche l
     - iTouchDS et iTouch2 (utilisez les fichiers M3Real_M3iZero de YSMenu)
     - R4(i)RTS (r4rts.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
     - R4 SDHC RTS (carte noire) (r4isdhc.com) (utilisez les fichiers M3Real_M3iZero de YSMenu)
-
-    Installez le [YSMenu de RetroGameFan](https://gbatemp.net/download/35737/).
-        - Assurez-vous d'avoir `YSMenu.nds` (renommé depuis `TTMenu.dat` s'il n'y est pas) et le dossier `TTMenu` à la racine de la microSD du linker
-        - Ne copiez pas directement `TTMenu.dat` ; cela casserait le démarrage automatique et la réinitialisation logicielle de YSMenu
+1. Download [RetroGameFan's YSMenu](https://gbatemp.net/download/35737/).
+1. Extract it to a folder on your computer. Navigate to the folder required for your flashcart.
+1. Inside the folder, rename `TTMenu.dat` to `YSMenu.nds` if a `YSMenu.nds` file does not already exist
+1. Copy the `TTMenu` folder and `YSMenu.nds` file to the root of your MicroSD card. **Do not** copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
+
+{% endcapture tab-ysmenu %}
+{% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
+
+### Running games with your flashcart firmware
+{% assign tabs = tab-loader | concat: tab-ysmenu %}
+{% include tabs.html index=0 tabs=tabs %}

@@ -49,4 +49,4 @@ Karena palet GIF dimuat ke area VRAM yang sama dengan palet teks, palet GIF akan
 1. Di bilah menu bagian atas, pilih `File` -> `Export As...`, tulis namanya dengan ekstensi `.gif`, dan pencet `Export`
 1. Di sembulan berikutnya, pastikan `GIF comment` tidak aktif dan pencet `Export`
 1. Pastikan gambar masih di bawah 15.472 bita, jika terlalu besar maka ulangi dari nomor 10 dengan tingkat pampat lebih tinggi
-1. Selesai dah! Ikuti bagian [pemasangan](#installing) di atas untuk memasang gambar!
+1. Selesai dah! Ikuti bagian [pemasangan](#pemasangan) di atas untuk memasang gambar!

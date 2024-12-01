@@ -52,7 +52,7 @@ Jangan lupa periksa dulu topik dan pesan tersemat di tiap saluran sebelum mulai 
 - [#end-of-server][end-of-server] - Untuk santai-santai, obrolan kurang mutu. Peraturan di sini lebih luwes, tapi masih ditegaskan. Gunakan jika ingin mengirim meme, perintah bot, dan hal lain yang tidak selalu harus bahasan
 
 ## Peran & *Flair*
-Ada beberapa peran yang bisa didapatkan di server, beberapa bisa diakses dengan [perintah bot Lightning](#lightning-commands).
+Ada beberapa peran yang bisa didapatkan di server, beberapa bisa diakses dengan [perintah bot Lightning](#perintah-lightning).
 
 ### Peran Moderator
 Peran ini diberikan untuk orang-orang yang dipercayakan mengurus server. Mereka mampu mencekal, menendang, membisu, dan memberi peran ke pengguna.

@@ -27,7 +27,7 @@ Jika masih di Luma v13, mohon perbarui dulu ke v13.0.1, lalu boleh ikuti panduan
 1. Tekan <kbd>START</kbd> untuk menghasilkan berkas `TwlBg.cxi` dengan layar lebar
     - Jika layar atas tidak menandakan *wide patch* diaktifkan, mulai lagi dari langkah 3
 1. Pindahkan `TwlBg.cxi` dari `sd:/luma/sysmodules/` ke `sd:/_nds/TWiLightMenu/TwlBg/` (buat folder `TwlBg`, jika belum ada), dan ubah nama berkas menjadi `Widescreen.cxi`
-1. Nyalakan ulang 3DS sambil menahan <kbd>SELECT</kbd> untuk membuka penyetelan Luma3DS
+1. Nyalakan ulang 3DS sambil menahan <kbd>SELECT</kbd> untuk ke konfigurasi Luma3DS
 1. Aktifkan `external FIRMs and modules`, lalu tekan <kbd>START</kbd> untuk simpan dan keluar
 1. Buka TWiLight Menu++, tekan <kbd class="face">Y</kbd> pada permainan pilihan untuk membuka setelan tiap-permainan, dan atur `Nisbah Aspek Layar` ke `16:10`
 

@@ -14,15 +14,15 @@ Arahan ini beranggapan Anda sudah memasang devkitPro dengan mmutil. Unduh berkas
 ## Bank Efek Suara (SFX)
 Berkas bank efek suara (`sfx.bin`) terdapat efek suara seperti suara memilih ikon, dll.
 
-| Berkas      | Keterangan                                                                                         |
-| ----------- | -------------------------------------------------------------------------------------------------- |
-| startup.wav | Diputar di awal buka atau *startup*. Lihat bagian [Suara awal buka](#startup-sound) untuk jelasnya |
-| back.wav    | Kembali                                                                                            |
-| launch.wav  | Diputar saat permainan dimuat                                                                      |
-| select.wav  | Diputar saat kursor digerakkan di setelan tiap-permainan dan menu SELECT                           |
-| wrong.wav   | Diputar saat mentok di ujung halaman                                                               |
-| switch.wav  | Diputar saat mengganti halaman                                                                     |
-| stop.wav    | Diputar di Tema DSi saat kursor pemilih berhenti bergerak                                          |
+| Berkas      | Keterangan                                                                                           |
+| ----------- | ---------------------------------------------------------------------------------------------------- |
+| startup.wav | Diputar di awal buka atau *startup*. Lihat bagian [Suara awal buka](#suara-awal-buka) untuk jelasnya |
+| back.wav    | Kembali                                                                                              |
+| launch.wav  | Diputar saat permainan dimuat                                                                        |
+| select.wav  | Diputar saat kursor digerakkan di setelan tiap-permainan dan menu SELECT                             |
+| wrong.wav   | Diputar saat mentok di ujung halaman                                                                 |
+| switch.wav  | Diputar saat mengganti halaman                                                                       |
+| stop.wav    | Diputar di Tema DSi saat kursor pemilih berhenti bergerak                                            |
 
 Berkas yang tertera di atas diperlukan untuk membuat bank efek suara kustom. Jika ingin suaranya senyap, gunakan berkas audio hening. Diwajibkan berformat `.wav` dan *harus* ber-*encode* PCM.
 

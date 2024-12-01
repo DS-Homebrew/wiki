@@ -10,7 +10,7 @@ description: Informasi terkait permainan DS eceran atau retail
 ### Anti-pembajakan
 AP (Anti-Pembajakan) adalah salah satu cara pengembang agar pembeli tidak membajak dan mencegah pembajakan. Ini bisa disiasati dari pemuat atau ROM itu sendiri.
 
-- Untuk nds-bootstrap, akan dimuatkan tambalan `.ips` untuk mengatasinya. Berkas `.ips` ini akan diterapkan oleh nds-bootstrap dalam RAM sehingga ROM tetap utuh. Satuan berkas `.ips` sudah ada di TWiLight Menu++
+- Untuk nds-bootstrap, akan dimuatkan tambalan `.ips` (dari Anda dan internal) untuk mengatasinya. Berkas `.ips` ini akan diterapkan oleh nds-bootstrap dalam RAM sehingga ROM tetap utuh.
 - Untuk Wood R4, tambalan ini sudah ada dalam peranti lunaknya, sehingga ROM tidak perlu dimodif lagi
 
 Jika tidak ada berkas `.ips` untuk ROM tertentu atau peranti lunak tidak mau menambal ROM, coba modif langsung ROM itu sendiri dengan [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/).
@@ -137,3 +137,24 @@ Untuk mengidentifikasi sistem:
 ### *DSi Enhanced*:
 
 Permainan dengan fungsi "*DSi Enhanced*" adalah permainan yang mampu menggunakan beberapa fitur peranti keras DSi tapi tetap bisa dimainkan di DS Phat/Lite. Permainan jenis ini ditandai `TWL` tapi tetap berlabel "Nintendo DS", bukan "Nintendo DSi".
+
+### DSiWare:
+
+DSiWare adalah permainan dan aplikasi digital yang bisa diunduh dari DSi Shop dan dijalankan dari System Menu DSi.
+    - Contohnya:
+        - Serial Art Style
+        - Flipnote Studio
+        - Serial G.G
+        - The Legend of Zelda: Four Swords: Anniversary Edition
+        - Nintendo DSi Browser
+        - Shantae: Risky's Revenge
+        - Sudoku terbitan EA
+    - Sebagian besar DSiWare juga bisa diunduh lewat 3DS eShop.
+    - DSiWare sudah tidak bisa diunduh lagi karena tutupnya toko DSi dan 3DS.
+
+DSiWare hanya bisa dijalankan dari memori internal konsol, kecuali jika dijalankan **TW**i**L**ight Menu++ dari kartu SD DSi/3DS atau *flashcard*.
+    - Dengan *flashcard*, beberapa DSiWare bisa dijalankan di konsol DS atau DS Lite.
+
+Setiap aplikasi sistem DSiWare/DSi (kecuali System Menu) menonaktifkan akses Slot-1 (alias slot kartrid DS), sehingga tidak bisa membaca isi dari kartrid DS atau bahkan *flashcard*.
+    - Ini berarti pengembang tidak bisa menambahkan kartrid DS sebagai alat akses fitur tersembunyi di DSiWare.
+    - Ini juga berarti *homebrew* (yang dijalankan lewat eksploit apli DSiWare) seperti GodMode9**i** tidak bisa men-*dump*/ekstrak ROM kartrid DS, kecuali jika lewat Unlaunch.

@@ -10,7 +10,7 @@ description: 与零售 DS 游戏相关的信息
 ### 反盗版
 AP（反盗版）是开发商用来执行合法购买和防止盗版的一种方法。 这可以通过加载程序或 ROM 本身来规避。
 
-- 对于 nds-bootstrap，它可以加载 `.ips` 文件，以规避上述补丁。 `.ips` 文件将由 nds-bootstrap 在 RAM 中应用，因此可以保持 ROM 文件完好无损。 TWiLight Menu++ 包含一个 `.ips` 文件包。
+- For nds-bootstrap, it can load an `.ips` file (both internal and external) in order to circumvent said patches. `.ips` 文件将由 nds-bootstrap 在 RAM 中应用，因此可以保持 ROM 文件完好无损。
 - 对于 Wood R4，这些补丁包含在软件本身中，您无需修改 ROM 本身
 
 如果您的 ROM 没有 `.ips` 文件，或者您的软件没有为 ROM 打补丁，您可以尝试使用 [DS-Scene ROM Tool](https://gbatemp.net/download/retrogamefan-nds-rom-tool-v1-0_b1215.35735/) 直接修改 ROM 本身。
@@ -137,3 +137,24 @@ title ID 的最后一个字母本身代表游戏的语言。 使用上一个示�
 ### DSi Enhanced:
 
 Games with "DSi Enhanced" functionality are games that take advantage of some aspect of the DSi's hardware while still remaining compatible with the DS Phat/Lite. These games are marked as `TWL` but still say "Nintendo DS" instead of "Nintendo DSi" on the label.
+
+### DSiWare:
+
+DSiWare are digital games and apps which we're downloadable from the DSi Shop, to then launch from the DSi System Menu.
+    - Examples are:
+        - Art Style Series
+        - Flipnote Studio
+        - G.G Series
+        - The Legend of Zelda: Four Swords: Anniversary Edition
+        - Nintendo DSi Browser
+        - Shantae: Risky's Revenge
+        - EA's Sudoku
+    - Most DSiWare titles could also be downloaded via the 3DS eShop.
+    - DSiWare titles are no longer downloadable, due to both shops being closed.
+
+DSiWare can only be run from the internal system memory, unless when using **TW**i**L**ight Menu++ to launch them from the DSi/3DS SD Card or flashcard.
+    - By using a flashcard, some DSiWare titles can be run on a DS or DS Lite console.
+
+Every DSiWare/DSi system application (except for the System Menu) disables Slot-1 (aka the DS game card slot) access, preventing access to what's stored on the game card or even a flashcard.
+    - This means developers could not add support for DS games as a way of accessing hidden features within DSiWare titles.
+    - This also means homebrew apps (which would be run via exploited DSiWare apps) such as GodMode9**i** cannot dump/extract ROMs from DS game cards, unless when running via Unlaunch.

@@ -28,7 +28,7 @@ Mengubah kecepatan yang dijalankan CPU ARM9. Secara bawaan, ROM di Mode DS berja
 Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, ROM di Mode DS menggunakan Mode VRAM DS. Ini bisa diubah ke Mode VRAM DSi tapi tidak berpengaruh dan akan ada isu visual. ROM di Mode DSi hanya bisa diatur ke Mode VRAM DSi. Untuk ROM jenis TWL (*DSi-Enhanced* atau DSiWare) di Mode DSi, Mode VRAM akan diatur permainan sendiri.
 
 ### DMA Bacaan Kartu
-Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Jika ini diaktifkan akan sedikit mempercepat ROM, tapi akan ada isu. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#card-read-dma).
+Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Jika ini diaktifkan akan sedikit mempercepat ROM, tapi akan ada isu. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#dma-bacaan-kartu).
 
 ### Mulai Langsung
 Hanya muncul pada ROM *homebrew* di *flashcard*. Jika diatur ke `Nyala`, ROM tidak akan dimuat dengan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.

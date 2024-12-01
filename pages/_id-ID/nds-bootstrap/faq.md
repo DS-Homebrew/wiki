@@ -78,7 +78,7 @@ Versi *nightly* adalah *commit* paling baru. Versi *nightly* mungkin tidak stabi
 - Hampir semua *cheat* dibuat untuk di mode DS dan mungkin tidak berfungsi di mode DSi. Jika permainan berjenis *DSi-Enhanced*, coba atur ke mode DS
 - Implementasi *cheat* E-type di nds-bootstrap masih kacau, kadang berfungsi kadang tidak. Mungkin *cheat* Anda sejenis itu, dan ini masih belum pasti kapan akan diperbaiki
 
-Untuk info lanjut terkait *cheat*, lihat [bagian *Cheat* Action Replay dari laman ROM Retail](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#action-replay-cheats).
+Untuk info lanjut terkait *cheat*, lihat [bagian *Cheat* Action Replay dari laman ROM Retail](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#cheat-action-replay).
 
 #### Bagaimana cara menangkap layar?
 Menangkap layar utama bisa dilakukan dari menu *in-game*. Buka menu *in-game* secara bawaan dengan tombol <kbd class="l">L</kbd> + <kbd>Bawah</kbd> + <kbd>SELECT</kbd>, dan pilih `Tangkap Layar...`, ubah bank VRAM jika perlu, lalu tekan <kbd class="face">A</kbd> untuk menangkap layar.

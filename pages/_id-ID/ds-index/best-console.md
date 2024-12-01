@@ -9,17 +9,17 @@ description: Melihat fitur dari tiap konsol untuk menyesuaikan keperluan bermain
 
 Konsol Nintendo DS, Nintendo DSi, Nintendo 3DS, dan Nintendo 2DS mampu membaca permainan DS(i) dan juga permainan GBA. Untuk menentukan konsol mana yang terbaik untuk Anda, baca laman ini.
 
-| Fitur                           | Nintendo DS                                       | Nintendo DSi                                               | Nintendo 3DS/2DS                                  |
-| ------------------------------- | ------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
-| Maks. RAM       | 4MB (+penambah RAM, bisa 36MB) | 16MB                                                       | 32MB                                              |
-| Maks. Cepat CPU | 67mhz                                             | 133mhz[^1]                                                 | 133mhz[^1]                                        |
-| Kamera                          | Tidak                                             | Iya                                                        | Iya                                               |
-| Jenis layar                     | TN(?)                          | TN (Biasa), IPS (XL) | TN atau IPS (tergantung model) |
-| Kepekaan sentuh                 | Iya                                               | Hanya mode DSi                                             | Tidak                                             |
-| Penskalaan                      | Tidak                                             | Tidak                                                      | Iya[^2]                                           |
-| Tingkat kecerahan               | 2 (Nyala/Mati di Phat), 4 (Lite)[^3]              | 5                                                          | 5                                                 |
-| Kompatibilitas GBA              | Lokal, Hampir Sempurna[^4]                        | Bagus                                                      | Lokal, Hampir Sempurna[^5]                        |
-| Dukungan DSiWare                | Iya, Sebagian [^6]                                | Iya[^7]                                                    | Iya[^7]                                           |
+| Fitur                           | Nintendo DS                                                                                     | Nintendo DSi                                               | Nintendo 3DS/2DS                                  |
+| ------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------- |
+| Maks. RAM       | 4MB (+penambah RAM, bisa 36MB)                                               | 16MB                                                       | 32MB                                              |
+| Maks. Cepat CPU | 67mhz                                                                                           | 133mhz[^1]                                                 | 133mhz[^1]                                        |
+| Kamera                          | Tidak                                                                                           | Iya                                                        | Iya                                               |
+| Jenis layar                     | TN(?), Frontlit (Phat), Backlit (Lite) | TN (Biasa), IPS (XL) | TN atau IPS (tergantung model) |
+| Kepekaan sentuh                 | Iya                                                                                             | Hanya mode DSi                                             | Tidak                                             |
+| Penskalaan                      | Tidak                                                                                           | Tidak                                                      | Iya[^2]                                           |
+| Tingkat kecerahan               | 2 (Nyala/Mati di Phat), 4 (Lite)[^3]                                                            | 5                                                          | 5                                                 |
+| Kompatibilitas GBA              | Lokal, Hampir Sempurna[^4]                                                                      | Bagus                                                      | Lokal, Hampir Sempurna[^5]                        |
+| Dukungan DSiWare                | Iya, Sebagian [^6]                                                                              | Iya[^7]                                                    | Iya[^7]                                           |
 
 [^1]: Permainan DS berjalan di 67mhz, tapi hampir semua bisa disetel ke 133mhz, sayangnya beberapa akan muncul isu.
 
