@@ -48,12 +48,6 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | ---------------------------------------------- |
 | Neo Geo                 | [neoDS][neods]                                   | `.neo`                                 | (unknown)                                      |
 
-## Notes on specific emulators
-### RAM Disks
-- In order for **jEnesisDS**, **SNEmulDS** (legacy version), or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-    - A RAM disk maker for jEnesisDS and SNEmulDS (legacy version) is built into nds-bootstrap. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
-    - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
-
 ### BIOS usage
 
 | Format                  | Loader                                           | Path                                   | Required  |
@@ -61,6 +55,13 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 | Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                               | No        |
 | Game Boy Advance        | [GBARunner2][gbarunner2], native[^5]             | `/_gba/bios.bin`                       | See [^10] |
 | Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                         | Yes       |
+
+## Notes on specific emulators
+
+### RAM Disks
+- In order for **jEnesisDS**, **SNEmulDS** (legacy version), or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+    - A RAM disk maker for jEnesisDS and SNEmulDS (legacy version) is built into nds-bootstrap. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
+    - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
 
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
