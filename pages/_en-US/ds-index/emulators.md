@@ -56,11 +56,11 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### BIOS usage
 
-| Format                  | Loader                                           | Path                                   | Required |
-| ----------------------- | ------------------------------------------------ | -------------------------------------- | -------- |
-| Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                               | No       |
+| Format                  | Loader                                           | Path                                   | Required  |
+| ----------------------- | ------------------------------------------------ | -------------------------------------- | --------- |
+| Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                               | No        |
 | Game Boy Advance        | [GBARunner2][gbarunner2], native[^5]             | `/_gba/bios.bin`                       | See [^10] |
-| Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                         | Yes      |
+| Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                         | Yes       |
 
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
