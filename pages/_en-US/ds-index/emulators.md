@@ -40,18 +40,6 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                                                        |
 | Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                                            |
 
-[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
-[^2]: Only for retail ROMs, homebrew do not have specific save files
-[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the flashcard
-[^4]: When running in DSi Mode, it can use the DSP for better sound
-[^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
-[^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
-[^7]: Only when running in B4DS mode
-[^8]: Saving requires a flashcard or a new version of the emulator (legacy version is used by default)
-
-- Footnotes -
-{:footnotes}
-
 These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
 ### Other emulators for the DS
@@ -70,16 +58,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 | Format                  | Loader                                           | Path                                   | Required |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | -------- |
-| Game Boy (Color)        | [GameYob][gameyob][^1]                           | User-set                               | No       |
-| Game Boy Advance        | [GBARunner2][gbarunner2], native[^2]             | `/_gba/bios.bin`                       | See [^3] |
+| Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                               | No       |
+| Game Boy Advance        | [GBARunner2][gbarunner2], native[^5]             | `/_gba/bios.bin`                       | See [^10] |
 | Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                         | Yes      |
-
-[^1]: Has a bug where the BIOS screen is not shown when starting a game via arguments
-[^2]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
-[^3]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
-
-- Footnotes2 -
-{:footnotes2}
 
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
@@ -104,6 +85,20 @@ These are just recommended emulators and loaders that are present in TWiLight Me
         - There is a patch for *Sonic 3 & Knuckles* that removes the multiplayer, getting the size count down
     - Sound Emulation
     - Framerate is smooth
+
+[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
+[^2]: Only for retail ROMs, homebrew do not have specific save files
+[^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the flashcard
+[^4]: When running in DSi Mode, it can use the DSP for better sound
+[^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
+[^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^7]: Only when running in B4DS mode
+[^8]: Saving requires a flashcard or a new version of the emulator (legacy version is used by default)
+[^9]: Has a bug where the BIOS screen is not shown when starting a game via arguments
+[^10]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
+
+- Footnotes -
+{:footnotes}
 
 
 <!-- Links for tables -->
