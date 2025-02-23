@@ -78,8 +78,8 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [^2]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
 [^3]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
 
-- Footnotes -
-{:footnotes}
+- Footnotes2 -
+{:footnotes2}
 
 ### Comparison between PicoDriveTWL and jEnesisDS
 - **PicoDriveTWL**
