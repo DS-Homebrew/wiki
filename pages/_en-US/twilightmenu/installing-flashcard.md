@@ -27,7 +27,7 @@ tabs:
 1. Open the `(your flashcard)` folder
     - A README.txt file is present in the `Autoboot` folder, to help find which autoboot files are appropriate for your flashcard
 1. Drag and drop the contents to the root of the flashcard's microSD card
-    - Do not drag and drop the flashcard folder itself onto the root
+    - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
     - Skip this, if you don't see your flashcard listed
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
@@ -49,7 +49,7 @@ If your flashcart does not have a compatible loader for this section, choose the
 1. Open the `(your flashcard)` folder
     - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard
 1. Drag and drop the contents to the root of the flashcard's microSD card
-    - Do not drag and drop the flashcard folder itself onto the root
+    - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard kernel will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
