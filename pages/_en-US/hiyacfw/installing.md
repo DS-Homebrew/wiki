@@ -21,23 +21,20 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 
 ### Part 1: Preparing your PC for installing hiyaCFW
 {% capture tab-windows %}
-1. Download the latest Windows version of [TWLMagician](https://web.archive.org/web/20250322062023/https://github.com/R-YaTian/TWLMagician/releases/tag/v1.4.2)
+1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-The download link for macOS is unavailable
-{:.alert .alert-info}
-
-1. Download the latest macOS version of [TWLMagician](https://web.archive.org/web/20250322062023/https://github.com/R-YaTian/TWLMagician/releases/tag/v1.4.2)
+1. Download the latest macOS version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
 1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of [TWLMagician](https://web.archive.org/web/20250322062023/https://github.com/R-YaTian/TWLMagician/releases/tag/v1.4.2)
+1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Extract the TWLMagician archive anywhere on your PC
 1. Install tkinter with the following command for your distro if you don't already have it:
     - Debian-based: `sudo apt-get install python3-tk`
