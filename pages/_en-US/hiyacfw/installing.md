@@ -30,8 +30,8 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 The download link for macOS is unavailable
 {:.alert .alert-info}
 
-1. ~~Download the latest macOS version of [TWLMagician](https://web.archive.org/web/20250322062023/https://github.com/R-YaTian/TWLMagician/releases/tag/v1.4.2)~~
-1. ~~Extract the TWLMagician archive anywhere on your PC~~
+1. Download the latest macOS version of [TWLMagician](https://web.archive.org/web/20250322062023/https://github.com/R-YaTian/TWLMagician/releases/tag/v1.4.2)
+1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
