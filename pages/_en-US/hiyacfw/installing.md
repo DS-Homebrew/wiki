@@ -26,20 +26,20 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
     - This will not work with any other archive extractor tool, such as WinRAR, the hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Download the latest Windows version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Download the latest macOS version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Download the latest macOS version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
 1. Install Python 3 using your package manager if its not already installed
-1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Download the latest Python version of the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 1. Install tkinter with the following command for your distro if you don't already have it:
     - Debian-based: `sudo apt-get install python3-tk`
