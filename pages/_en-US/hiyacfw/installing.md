@@ -20,7 +20,9 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 - A Windows, macOS, or Linux device
 
 ### Part 1: Preparing your PC for installing hiyaCFW
-{% capture tab-windows %}
+
+1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
+    - This will not work with any other archive extractor tool, such as WinRAR, the TWLMagician relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
@@ -38,9 +40,6 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 1. Extract the TWLMagician archive anywhere on your PC
 1. Install tkinter with the following command for your distro if you don't already have it:
     - Debian-based: `sudo apt-get install python3-tk`
-    - Arch Linux: `sudo pacman -S tk`
-    - Fedora: `sudo dnf install python3-tkinter`
-    - CentOS: `sudo yum install python3-tkinter`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -48,7 +47,7 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Part 2: Adding hiyaCFW files to your SD card
-![Screenshot of TWLMagician](https://i.ibb.co/xXr3nd3/336ffe68-abd9-4880-b2ca-5421cbf5958a.png)
+![Screenshot of TWLMagician](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Launch TWLMagician
     - **Windows:** Launch the `TWLMagician.exe` file extracted from the TWLMagician archive (you may need to temporarily disable your antivirus)
@@ -60,7 +59,7 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
     - The process may take several minutes
 1. When the application says `Done!`, close out of TWLMagician
-1. Close the terminal window (optional)
+1. Close the terminal window
 
 ### Part 3: Configuring Unlaunch and hiyaCFW
 1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
