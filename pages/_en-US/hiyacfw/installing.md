@@ -43,9 +43,6 @@ The hiyaCFW Helper is known to cause false positives with Windows Defender and o
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 1. Install tkinter with the following command for your distro if you don't already have it:
     - Debian-based: `sudo apt-get install python3-tk`
-    - Arch Linux: `sudo pacman -S tk`
-    - Fedora: `sudo dnf install python3-tkinter`
-    - CentOS: `sudo yum install python3-tkinter`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
