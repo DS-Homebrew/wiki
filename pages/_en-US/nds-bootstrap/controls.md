@@ -10,6 +10,7 @@ These do not apply to homebrew.
 - <kbd>SELECT</kbd> + <kbd>Up</kbd>/<kbd>Down</kbd>: Precise volume control
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to loader
+    - Does not work in B4DS mode on flashcards
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> for 2 seconds: Reset game
     - Many games support simply pressing this button combination by default, but this will force reset it
 - <kbd class="l">L</kbd> + <kbd>Down</kbd> + <kbd>SELECT</kbd>: Open the in-game menu
