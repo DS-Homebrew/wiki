@@ -20,7 +20,7 @@ You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which w
 Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
 
 ### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
+You can make your own fonts using a utility such as Pk11's [nftr-editor](https://web.archive.org/web/20240618221756/https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. Load an NFTR file in nftr-editor
 1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
     - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box
