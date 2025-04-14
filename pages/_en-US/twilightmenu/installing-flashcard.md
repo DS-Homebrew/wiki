@@ -24,8 +24,8 @@ tabs:
 ### Autobooting TWiLight Menu++
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Open the `Autoboot` folder
+1. Open the `README.txt` file to help find which autoboot files are appropriate for your flashcard
 1. Open the `(your flashcard)` folder
-    - A README.txt file is present in the `Autoboot` folder, to help find which autoboot files are appropriate for your flashcard
 1. Drag and drop the contents to the root of the flashcard's microSD card
     - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
     - Skip this, if you don't see your flashcard listed
@@ -46,8 +46,8 @@ If your flashcart does not have a compatible loader for this section, choose the
 
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Open the `Flashcart Loader` folder
+1. Open the `README.txt` file to help find which flashcart loader is appropriate for your flashcard
 1. Open the `(your flashcard)` folder
-    - A README.txt file is present in the `Flashcart Loader` folder, to help find which flashcart loader is appropriate for your flashcard
 1. Drag and drop the contents to the root of the flashcard's microSD card
     - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard kernel will be used instead of nds-bootstrap
