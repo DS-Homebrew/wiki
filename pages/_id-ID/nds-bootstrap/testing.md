@@ -9,7 +9,7 @@ description: Daftar kesesuaian dan saran cara menguji ROM
 ### Daftar Kompatibilitas
 Untuk ROM yang sudah diuji, lihat [daftar kompatibilitas](https://docs.google.com/spreadsheets/d/1LRTkXOUXraTMjg1eedz_f7b5jiuyMv2x6e_jY_nyHSc/). Jika ingin bersumbangsih, tekan `view only` lalu `request edit access`. Pastikan entri ditambahkan di lembar yang benar sesuai tab di bawah laman.
 
-Untuk isu yang ada pada ROM, lihat [laman *issues*](https://github.com/DS-Homebrew/nds-bootstrap/issues) di Github. Jika ingin membuat [*issue* baru](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), ikuti templat *issue* dengan benar.
+Untuk isu yang ada pada ROM, lihat [laman *issue*](https://github.com/DS-Homebrew/nds-bootstrap/issues) di Github. Jika ingin membuat [*issue* baru](https://github.com/DS-Homebrew/nds-bootstrap/issues/new), ikuti templat *issue* dengan benar.
 
 ### Saran Pengujian ROM
 - Baiknya, baca dulu [pertanyaan umum ](https://wiki.ds-homebrew.com/id-ID/nds-bootstrap/faq) dan [glosarium nds-bootstrap](https://wiki.ds-homebrew.com/nds-bootstrap/glossary) untuk memahami cara menyidik gangguan isu
@@ -33,4 +33,4 @@ Untuk isu yang ada pada ROM, lihat [laman *issues*](https://github.com/DS-Homebr
 #### Untuk memperbarui daftar hitam
 - Ubah opsi terdaftar hitam saja, yaitu: Cepat CPU 133 MHz (TWL), DMA Bacaan Kartu, dan Bacaan Kartu Tak Selaras
 - Untuk mengaktifkan opsi terdaftar hitam di setelan tiap-permainan, buka `sd:/_nds/TWiLightMenu/settings.ini` dan atur `IGNORE_BLACKLISTS` ke `1`
-- Jika terjadi isu apa pun saat mengaktifkan pengaturan ini, mohon laporkan ke laman Github issues 
+- Jika terjadi isu apa pun saat mengaktifkan pengaturan ini, mohon laporkan ke laman *issue* Github 

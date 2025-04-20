@@ -10,7 +10,7 @@ tabs:
     3ds-sd-card: crwdns25083:0crwdne25083:0
     dsi-sd-card: crwdns25085:0crwdne25085:0
     flashcard: crwdns40458:0crwdne40458:0
-    flashcard-dsi-3ds: crwdns40460:0crwdne40460:0
+    flashcard-dsi-3ds: crwdns44028:0crwdne44028:0
 ---
 
 crwdns40462:0crwdne40462:0 crwdns40464:0crwdne40464:0 <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -103,11 +103,7 @@ crwdns40506:0{% capture tab-flashcard-dsi-3ds %}crwdne40506:0
 
 ### crwdns40508:0crwdne40508:0
 
-- **crwdns32870:0crwdne32870:0**
-    - crwdns32872:0crwdne32872:0
-    - crwdns32874:0crwdne32874:0
-- **crwdns32876:0crwdne32876:0**
-    - crwdns32878:0crwdne32878:0
+- crwdns32878:0crwdne32878:0
 
 crwdns32880:0{% capture flashcards %}crwdne32880:0
 crwdns32882:0crwdne32882:0 crwdns32884:0crwdne32884:0 crwdns32886:0crwdne32886:0
@@ -205,14 +201,8 @@ crwdns33000:0crwdne33000:0 crwdns33002:0crwdne33002:0
 
 ### crwdns41276:0crwdne41276:0
 
-- crwdns33014:0crwdne33014:0
-    1. crwdns41208:0crwdne41208:0
-        - crwdns41210:0crwdne41210:0
-- crwdns33020:0crwdne33020:0
-    1. crwdns33022:0crwdne33022:0
-    1. crwdns33024:0crwdne33024:0
-    1. crwdns33026:0crwdne33026:0
-    1. crwdns33028:0crwdne33028:0
+1. crwdns44030:0crwdne44030:0
+1. crwdns44032:0crwdne44032:0
 crwdns40518:0{% endcapture %}crwdne40518:0
 crwdns40520:0crwdne40520:0
 

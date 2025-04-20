@@ -7,20 +7,20 @@ title: カスタムフォント
 description: TWiLight Menu++でカスタムフォントを使う方法
 ---
 
-TWiLight Menu++では、NFTR（Nitro FonT Resource）形式のカスタムフォントを利用できます。 設定画面、説明書のタイトル、およびニンテンドーDSi、ニンテンドー3DS、セガサターン、Homebrew Launcherのテーマに使われます。
+TWiLight Menu++では、NFTR（Nitro FonT Resource）形式のカスタムフォントを利用できます。 They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher UIs.
 
 ### ディレクトリ構造
 カスタムフォントは`sd:/_nds/TWiLightMenu/extras/fonts/[フォントの名前]/[フォントファイル].nftr`から読み込まれます。ここで、`[フォントの名前]`は任意の名前であり、`[フォントファイル].nftr`は以下のいずれかです。
 - `large.nftr`: The larger font used for titles
 - `small.nftr`: The smaller font used for most other text
 
-### スキンフォント
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+### Theme fonts
+You may add fonts to [custom DSi/3DS themes](custom-dsi-3ds-themes), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the theme's root folder.
 
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+Custom themes can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
 
 ### カスタムフォントの生成
-Pk11の[nftr-editor](https://pk11.us/nftr-editor/)などのユーティリティを使って独自のフォントを作成できます。 To regenerate one of TWiLight Menu++'s existing fonts using it:
+You can make your own fonts using a utility such as Pk11's [nftr-editor](https://web.archive.org/web/20240618221756/https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. nftr-editorでNFTRファイルを読み込む
 1. `Input font`テキストボックスに、優先度の高いフォントから低いフォントへを入力します、カンマで区切っていください
     - 左上のボックスに入力フォントのプレビューが、下のボックスには現在のNFTRが表示されます

@@ -17,7 +17,7 @@ tabs:
 1. Ekstrak `TwilightBoxart-Windows-GUI.zip` dan jalankan `TwilightBoxart.exe`
 1. Pencet `Detect SD`
     - Jika kartu SD yang dipilih salah, pencet `Browse...` lalu pilih yang benar
-1. **Tidak Wajib:** Ubah opsi ukuran, tepian, dll sesuai keinginan
+1. **Opsional:** Ubah opsi ukuran, tepian, dll sesuai keinginan
 1. Pencet `Start`
 1. Pastikan pengaturan *box art* diatur ke muncul di TWiLight Menu++
 {% endcapture %}
@@ -28,7 +28,7 @@ tabs:
 1. Ekstrak `.zip` yang MacOS atau Linux
 1. Buka `TwilightBoxart.ini` dari folder terekstrak di penyunting teks
 1. Ketik jalur ke kartu SD sebelah tulisan `SdRoot=`, lalu simpan berkasnya
-    - Pada macOS, jalurnya `/Volumes/` lalu nama kartu SD
+    - Pada macOS, jalurnya `/Volumes/` lalu nama kartu SD-nya
 1. Buka terminal
 1. Di terminal, ketik `cd ` lalu seret folder dengan `TwilightBoxart.CLI` ke jendela terminal
 1. Jalankan `chmod +x TwilightBoxart.CLI`
@@ -50,7 +50,7 @@ tabs:
 
 **Cara menambah *box art*:** Taruh berkasnya di `sd:/_nds/TWiLightMenu/boxart`.
 - Boleh sesuai TID permainan (contoh: `ASME.png`), atau nama berkas (contoh: `SM64DS.nds.png`)
-- Harus berformat `.png`, disarankan berukuran 128x115 dan maksimum 208x143
+- Harus berformat `.png`, dianjurkan berukuran 128x115 dan maksimum 208x143
 - Jika setelan *Box art* di **TW**i**L**ight Menu++ diatur ke `di-cache`, ukuran gambar harus kurang dari 44 KiB. Pampat gambar ke ukuran yang pas dengan alat seperti [tinypng](https://tinypng.com/)
 
 *Box art* juga bisa diunduh satu-satu dari GameTDB, di kategori **S Covers (png)**.

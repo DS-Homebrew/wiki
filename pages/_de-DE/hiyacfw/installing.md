@@ -22,28 +22,28 @@ Führen Sie nach der Installation von hiyaCFW kein Systemupdate durch. Dadurch w
 
 ### Teil 1: Vorbereiten des PCs für die Installation von hiyaCFW
 {% capture tab-windows %}
-Der hiyaCFW Helper ist dafür bekannt, dass er bei Windows Defender und anderen Antivirenprogrammen Fehlalarme auslöst. Bitte deaktivieren Sie solche Programme vorübergehend, wenn Sie Probleme beim Herunterladen oder Ausführen des Programms haben.
-{: .alert .alert-info}
-
-1. Laden Sie & herunter und installieren Sie die neueste Version von [7-Zip.](https://www.7-zip.org/download.html)
-    - Dies funktioniert nicht mit anderen Archiv-Extraktionsprogrammen, wie z. B. WinRAR. Die hiyaCFW-Hilfe basiert auf 7-Zip selbst und nicht auf einem allgemeinen Archiv-Extraktionsprogramm
-1. Laden Sie die neueste Windows-Version des [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) herunter
-1. Entpacken Sie das hiyaCFW Helper-Archiv irgendwo auf Ihrem PC
+1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Run the TWLMagician MSI package and extract it to anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Laden Sie die neueste macOS-Version des [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) herunter
-1. Entpacken Sie das hiyaCFW Helper-Archiv irgendwo auf Ihrem PC
+1. Download the latest macOS version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
 1. Installieren Sie Python 3 mit Ihrem Paketmanager, falls es nicht bereits installiert ist
-1. Laden Sie die neueste Python-Version des [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) herunter
-1. Entpacken Sie das hiyaCFW Helper-Archiv irgendwo auf Ihrem PC
+1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 1. Installieren Sie tkinter mit dem folgenden Befehl für Ihre Distribution, wenn Sie es nicht bereits haben:
-    - Debian-basiert: `sudo apt-get install python3-tk`
+    - Debian-based: `sudo apt-get install python3-tk`
+    - Arch Linux: `sudo pacman -S tk`
+    - Fedora: `sudo dnf install python3-tkinter`
+    - CentOS: `sudo yum install python3-tkinter`
+1. Install requirements with the following command:
+    - `pip3 install -r requirements.txt`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -51,19 +51,19 @@ Der hiyaCFW Helper ist dafür bekannt, dass er bei Windows Defender und anderen 
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Teil 2: Hinzufügen von hiyaCFW-Dateien zur SD-Karte
-![Screenshot des HiyaCFW Helfers](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+![Screenshot of TWLMagician](https://i.ibb.co/xXr3nd3/336ffe68-abd9-4880-b2ca-5421cbf5958a.png)
 
-1. Starten Sie den hiyaCFW-Helfer
-    - **Windows:** Starten Sie die Datei `HiyaCFW_Helper.exe`, die aus dem hiyaCFW Helper-Archiv extrahiert wurde (möglicherweise müssen Sie Ihr Antivirusprogramm vorübergehend deaktivieren)
-    - **macOS:** Rechtsklicke auf die `HiyaCFW_Helper` Datei aus dem HiyaCFW Helper Archiv und wähle `Öffnen`
-    - **Linux:** Starten Sie die Datei `HiyaCFW_Helper.py`, die aus dem hiyaCFW Helper-Archiv extrahiert wurde
+1. Launch TWLMagician
+    - **Windows:** Launch the `TWLMagician.exe` file extracted from the TWLMagician archive (you may need to temporarily disable your antivirus)
+    - **macOS:** Right click the `TWLMagician` file extracted from the TWLMagician archive and choose `Open`
+    - **Linux:** Launch the `TWLMagician.py` extracted from the TWLMagician archive
 1. Klicken Sie auf die Schaltfläche `...` im Feld "NAND-Datei ohne$GBA Fußzeile"
 1. Navigieren Sie zu Ihrem NAND-Backup, und klicken Sie auf `Open`
 1. Drücke `Start`
 1. Navigieren Sie im neuen Pop-up-Fenster zum Stammverzeichnis Ihrer SD-Karte und drücken Sie auf `OK`.
     - Dieser Vorgang kann mehrere Minuten dauern
-1. Wenn die Anwendung " `Done!"` meldet, schließen Sie den hiyaCFW Helper
-1. Schließen Sie das Terminalfenster
+1. When the application says `Done!`, close out of TWLMagician
+1. Close the terminal window (optional)
 
 ### Teil 3: Konfigurieren von Unlaunch und hiyaCFW
 1. Schalten Sie Ihre Nintendo DSi-Konsole ein, während Sie <kbd class="face">A</kbd> und <kbd class="face">B</kbd> gedrückt halten

@@ -17,10 +17,10 @@ Saat ini belum. Tapi kode *cheat* bisa disemat permanen ke ROM GBA dengan [GBAAT
 Biasanya, versi yang disertakan di TWiLight Menu++ sudah cukup. Untuk informasi lebih lanjut terkait berbagai versi GBARunner, lihat [laman wiki Versi](https://wiki.ds-homebrew.com/id-ID/gbarunner2/builds).
 
 #### Bagaimana menggunakan fitur Wi-Fi link?
-Diperlukan versi dari cabang [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) untuk menggunakan fiturnya. Untuk perincian arahan cara menyiapkan versi ini ada di [laman WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
+Diperlukan versi dari cabang [wifi_link](https://github.com/Gericom/GBARunner2/tree/wifi_link) untuk menggunakan fiturnya. Untuk perincian cara menyiapkan versi ini ada di [laman WikiTemp](https://wiki.gbatemp.net/wiki/GBARunner2/Link).
 
 #### Kenapa RTC (Real Time Clock) tidak didukung di ROM hack?
-RTC tiap permainan dibaca berbeda-beda. Jadi, ID judul ROM perlu diubah menyerupai permainan yang mendukung RTC agar mau dibaca GBARunner2. Lihat daftar ID judul yang didukung di dalam [kode GBARunner2](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
+RTC tiap permainan dibaca berbeda-beda. Jadi, ID judul ROM perlu diubah ke ID permainan yang mendukung RTC agar mau dibaca GBARunner2. Lihat daftar ID judul yang didukung di dalam [kode GBARunner2](https://github.com/Gericom/GBARunner2/blob/master/arm9/source/emu/romGpio.vram.cpp#L14-L61).
 
 ID judul bisa diubah menggunakan ini:
 1. <label for="file-input" class="form-label">Pilih berkas ROM GBA:</label> <input id="file-input" class="form-control mb-2" type="file" onchange="loadRom(this.files[0])" />
@@ -34,4 +34,4 @@ Daftar kompatibilitas GBARunner2 utamanya diuji dengan BIOS GBA resmi yang mana 
 
 #### Bagaimana memperbaiki gambar berulang di bagian bawah layar 3DS?
 Ini *bug* (kutu) di TWLBg yang cukup lazim di GBARunner2. Perbaikan sementara bisa dengan mengulang GBARunner2.
-- Jika bisa, lebih baik gunakan opsi lain menjalankan ROM GBA di 3DS, seperti VC inject, open_agb_firm, atau mGBA di seri new3DS
+- Jika bisa, lebih baik gunakan opsi lain untuk ROM GBA di 3DS, seperti VC inject, open_agb_firm, atau mGBA di model new3DS

@@ -22,28 +22,28 @@ tabs:
 
 ### Часть 1: Подготовка компьютера к установке hiyaCFW
 {% capture tab-windows %}
-Известно, что hiyaCFW Helper вызывает ложные срабатывания Windows Defender и других антивирусных программ, пожалуйста, временно отключите такие программы, если у вас возникли проблемы с её загрузкой или запуском.
-{: .alert .alert-info}
-
-1. Скачайте и установите последнюю версию [7-Zip](https://www.7-zip.org/download.html)
-    - Это не будет работать с любым другим инструментом извлечения архивов, таким как WinRAR, hiyaCFW helper полагается на сам 7-Zip, а не на обычный архиватор
-1. Загрузите последнюю версию программы для Windows [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Распакуйте архив hiyaCFW Helper в любое место на вашем компьютере
+1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Run the TWLMagician MSI package and extract it to anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Загрузите последнюю версию для macOS [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Распакуйте архив hiyaCFW Helper в любое место на вашем компьютере
+1. Download the latest macOS version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
 1. Установите Python 3 с помощью менеджера пакетов, если он еще не установлен
-1. Загрузите последнюю Python версию [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Распакуйте архив hiyaCFW Helper в любое место на вашем компьютере
+1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 1. Если у вас еще нет tkinte, установите с помощью следующей команды для вашего дистрибутива:
-    - На основе Debian: `sudo apt-get install python3-tk`
+    - Debian-based: `sudo apt-get install python3-tk`
+    - Arch Linux: `sudo pacman -S tk`
+    - Fedora: `sudo dnf install python3-tkinter`
+    - CentOS: `sudo yum install python3-tkinter`
+1. Install requirements with the following command:
+    - `pip3 install -r requirements.txt`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -51,19 +51,19 @@ tabs:
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Часть 2: Добавление файлов hiyaCFW на SD-карту
-![Скриншот hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+![Screenshot of TWLMagician](https://i.ibb.co/xXr3nd3/336ffe68-abd9-4880-b2ca-5421cbf5958a.png)
 
-1. Запустите hiyaCFW Helper
-    - **Windows:** Запустите файл `HiyaCFW_Helper.exe`, извлеченный из архива hiyaCFW Helper (может потребоваться временное отключение антивируса)
-    - **macOS:** Щёлкните правой кнопкой мыши по `HiyaCFW_Helper`извлеките файлы из архива hiyaCFW Helper и выберите `Открыть`
-    - **Linux:** Запустите `HiyaCFW_Helper.py` извлеченный из архива hiyaCFW Helper
+1. Launch TWLMagician
+    - **Windows:** Launch the `TWLMagician.exe` file extracted from the TWLMagician archive (you may need to temporarily disable your antivirus)
+    - **macOS:** Right click the `TWLMagician` file extracted from the TWLMagician archive and choose `Open`
+    - **Linux:** Launch the `TWLMagician.py` extracted from the TWLMagician archive
 1. Нажмите кнопку `...` в окне "NAND file with No$GBA footer"
 1. Перейдите к резервной копии NAND и нажмите `Открыть`
 1. Нажмите `Start`
 1. В новом всплывающем окне перейдите к корню вашей SD-карты и подтвердите.
     - Процесс может занять несколько минут
-1. Когда в приложении появится сообщение `Done!` закройте программу hiyaCFW Helper
-1. Закройте окно терминала
+1. When the application says `Done!`, close out of TWLMagician
+1. Close the terminal window (optional)
 
 ### Часть 3: Настройка Unlaunch и hiyaCFW
 1. Включите DSi удерживая <kbd class="face">A</kbd> и <kbd class="face">B</kbd>

@@ -9,7 +9,7 @@ description: 在 Nintendo DS 上使用 Wi-Fi 的信息
 
 - 在 Nintendo DS 应用程序中，您只能使用 WEP 和开放式 Wi-Fi 安全设置
 - 在以 DSi 模式运行的Nintendo DSi-Enhanced/Exclusive 应用程序中，您还可以选择 WPA 和 WPA2 安全性
-- If you're on DSi or 3DS, ensure you've accepted the network agreement first
+- 如果您使用的是 DSi 或 3DS，请先确保您已接受网络协议
 
 个人热点是可用的，因此您无需更改路由器配置。
 

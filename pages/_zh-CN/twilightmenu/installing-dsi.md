@@ -13,7 +13,7 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 
 ### 安装
 1. 下载最新的 [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - 如果未下载，请查看 [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-DSi.7z`
 1. 将 `_nds` 文件夹复制到 SD 卡的根目录下
 1. 将 `BOOT.NDS` 文件复制到 SD 卡的根目录下
@@ -47,8 +47,8 @@ description: 如何在 Nintendo DSi上安装 TWiLight Menu++
 1. 将 `BOOT.NDS` 文件从 `TWiLightMenu-Flashcard.7z` 复制到烧录卡的 microSD 卡根目录。
 1. 打开 TWLMenu++ 设置
 1. 切换到 `Misc settings`（杂项设置）页面
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. 打开 `SD access in Slot-1`
+1. 打开 `SCFG access in Slot-1`
 1. 打开 `Auto-start Slot-1`
 1. 按 `B` 键退出 TWLMenu++ 设置
     - 如果您最后进入的是 DS 经典菜单，请启动烧录卡

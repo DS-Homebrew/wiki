@@ -45,11 +45,11 @@ Mindig ellenőrizd a csatorna témáját és a rögzített üzeneteket, mielőtt
 - [#other-nds-homebrew][other-nds-homebrew] - Ez a fórum a Nintendo DS(i) homebrew-okról beszélgetésre, támogatásukre, frissítéseikre, más csatornák által még nem lefedett kérdéseikre használatos. Az egyes homebrew alkalmazásoknak lehetnek saját szálai, ha még nem lenne hozzá szál, akkor készíthetsz egy újat is
 
 **Közösség**
-- [#off-topic][off-topic] - Egy csatorna minden olyan témához, ami nem fér bele a többi csatornába. Az alacsony minőségű postokat tartsd az #end-of-server csatornán
+- [#off-topic][off-topic] - Egy csatorna minden olyan témához, ami nem fér bele a többi csatornába. Az alacsony minőségű postokat tartsd a [#shadow-of-server](end-of-server) csatornán
 - [#nds-gaming][nds-gaming] - Egy csatorna általános beszélgetésekre játékokról a DS(i)-n és játékokosok keresése online játékhoz. Nézd meg a rögzített üzeneteket a dedikált közösségekről
 - [#other-console-modding][other-console-modding] - Beszélgetés homebrew-ról és mod-okról más játék rendszerekhez, mint például 3DS, ha nem TWL_FIRM
 - [#other-dev][other-dev] - Beszélgetés nem Nintendo DS fejlesztésekről
-- [#end-of-server][end-of-server] - Ez alkalmi, gyengébb minőségű csevegéshez használható. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
+- [#shadow-of-server][end-of-server] - Ez alkalmi, gyengébb minőségű csevegéshez használható. A szabályok itt könnyítettek, de továbbra is betartatásra kerülnek. Használd ezt a mémjeid posztolására, bot parancsokara, vagy egyebekre, amik nem könnyítik meg a vitát
 
 ## Szerepek & felhasználók
 Számos szerepkörünk van, amelyeket elérhetsz ezen a szerveren, azonban némelyikük csak [Lightning bot paranccsal](#lightning-commands) érhető el.
@@ -98,11 +98,11 @@ Egy csomó mókás parancs van még, amit futtatni lehet még, de kérjük ezeke
 ## A Staff Team
 Ezek az emberek azok, akik gondozzák a szervert. Ha azt mondják, hogy valami végleges, akkor nem vitatható. Ezek a tagok szerepelnek a tagok listáján. Ne kérd, hogy tagja legyél a csapatnak, ez csökkenti az esélyedet, hogy el leszel fogadva. A csapatot akkor és úgy egészítjük ki, ha és amikor azt szükségesnek látjuk.
 
-Tulajdonos: @rocketrobz
+Adminisztrátorok: @kaisaan, @kalamity, @kodtiz3d, @lifehackerhansol, @lightsage01, @nightscript, @rocketrobz
 
-Adminisztrátorok: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Moderátorok: @apachethunder, @gericom, @pk11.us
 
-Szerver üzemeltetők: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
+Minimodok: @dartzsoryu, @deletecat, @janni9009, @vikirinox
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -133,4 +133,5 @@ Szerver üzemeltetők: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @ka
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
+[end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

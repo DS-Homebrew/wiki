@@ -27,13 +27,13 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 1. TWiLight Menu++를 앱 그리드에서 찾으세요. 찾는 데 문제가 있는 경우 사이드바의 세 번째 탭으로 검색할 수 있습니다.
 1. 사이드바에서 <kbd class="face">A</kbd>를 누르거나 다운로드 아이콘을 터치한 후, `TWiLight Menu++`를 선택해서 설치를 진행하세요.
     - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - 설치에 실패하면 콘솔이 인터넷에 연결되어 있는지 확인하세요. 연결되어 있지 않다면 `수동` 방법을 이용하세요.
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. 최신 버전의 [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)를 다운로드 하세요.
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - 다운로드가 되지 않으면 [릴리스 페이지를](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) 참조하세요.
 1. `TWiLightMenu-3DS.7z`를 압축 해제하세요
 1. Copy the `_nds` folder to your SD card root, replacing any existing files
     - If using macOS, make sure to **copy** and `Merge`, don't `Replace`

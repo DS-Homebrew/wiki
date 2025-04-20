@@ -3,8 +3,8 @@ lang: he-IL
 layout: wiki
 section: twilightmenu
 category: customization
-title: סקינים לDSi/3DS - התאמה אישית של SFX
-description: כיצד להשתמש במוזיקת רקע מותאמת אישית ואפקטי סאונד בסקינים של DSi ו3DS עבור TWiLight Menu++
+title: DSi/3DS Themes - Custom SFX
+description: How to use custom background music and sound effects in DSi and 3DS themes for TWiLight Menu++
 ---
 
 TWiLight Menu++ תומך בקבצי שמע מותאמים אישית בערכות הנושא. מקמו את קבצי השמע שלכם בתת התיקיה `sound` שבתיקיה ערכת הנושא שלכם, למשל עבור ערכת הנושא `white`, תמקמו את הקבצים ב`themes/white/sound/sfx.bin` וב`themes/white/sound/bgm.pcm.raw` בהתאמה. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.

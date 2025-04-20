@@ -32,7 +32,7 @@ This method requires a working DS, DSi or 3DS console and does not require custo
 4. Download the [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) and copy it to anywhere on your flashcart's MicroSD card
 5. Insert the MicroSD card into the flashcart and boot the flashcart on the working console
 6. Launch `ntrboot_flasher_nds.nds` from your flashcart's kernel
-7. Follow the instructions on screen. Select your cartridge from the list, back up your flashcard with the `Dump Flash` option, then inject ntrboot. You must select the "TWL" option
+7. Follow the instructions on screen. Select your cartridge from the list, back up your flashcard with the `Dump Flash` option, then select the `Inject GCD` option.
 
 {% endcapture tab-unhacked %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
@@ -45,7 +45,7 @@ You must have already followed [dsi.cfw.guide](https://dsi.cfw.guide) and have a
 1. Download the [ntrboot image](/assets/files/default.gcd) to your DSi SD card as `sdmc:/ntrboot/default.gcd`
 2. Download the [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) to anywhere on your SD card
 3. Insert your SD card into a modded DSi, then run the ntrboot flasher
-4. Follow the instructions on screen. Select your cartridge from the list, back up your flashcard with the `Dump Flash` option, then inject ntrboot. You must select the "TWL" option
+4. Follow the instructions on screen. Select your cartridge from the list, back up your flashcard with the `Dump Flash` option, then select the `Inject GCD` option.
 
 {% endcapture tab-dsi %}
 {% assign tab-dsi = tab-dsi | split: "////////" %}

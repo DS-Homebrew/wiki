@@ -24,8 +24,8 @@ tabs:
 1. Знайдіть TWiLight Menu++ в сітці додатків, ви можете шукати за допомогою 3-ї вкладки на бічній панелі, якщо у вас виникли проблеми з пошуком
     - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Натисніть <kbd class="face">A</kbd> або торкніться іконки завантаження на бічній панелі та виберіть `TWiLight Menu++`, щоб встановити програму
-    - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - Це займе деякий час
+    - Якщо встановлення не вдалося, переконайтеся, що консоль підключена до інтернету. В іншому випадку перейдіть на вкладку `Manual`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -40,14 +40,14 @@ tabs:
 1. Знайдіть TWiLight Menu++ в сітці додатків, ви можете шукати за допомогою 3-ї вкладки на бічній панелі, якщо у вас виникли проблеми з пошуком
     - Там повинна бути така іконка: ![Значок TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Натисніть <kbd class="face">A</kbd> або торкніться іконки завантаження на бічній панелі та виберіть `TWiLight Menu++`, щоб встановити програму
-    - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - Це займе деякий час
+    - Якщо встановлення не вдалося, переконайтеся, що консоль підключена до інтернету. В іншому випадку перейдіть на вкладку `Manual`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Завантажте останню версію [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Якщо воно не завантажується, див. [сторінку релізу](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Розпакуйте `TWiLightMenu-3DS.7z`
 1. Скопіюйте теку `_nds` в кореневу теку вашої SD карти
 1. Скопіюйте файл `BOOT.NDS` в кореневу теку вашої SD карти
@@ -84,8 +84,8 @@ tabs:
 1. Скопіюйте файл `BOOT.NDS` з `TWiLightMenu-Flashcard.7z` у кореневу теку вашої microSD карти, що використовуватиметься у вашій флешкарті
 1. Відкрийте Налаштування TWLMenu++
 1. Перейдіть на сторінку `Змішані налаштування`
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. Увімкніть `доступ до SD у Slot-1`
+1. Увімкніть `доступ до SCFG у Slot-1`
 1. Увімкніть `Автозапуск Slot-1`
 1. Вийдіть з Налаштувань TWLMenu++, натиснувши кнопку `B`
     - Якщо ви опинитеся в Класичному DS Меню, запустіть вашу флешкарту
@@ -95,4 +95,4 @@ tabs:
 - Натисніть `SELECT`+`Вгору` чи `SELECT`+`Вниз`, щоб перемикатися між вмістом SD та флешкарти
     - Якщо меню SELECT увімкнено в налаштуваннях, ви також можете зробити це там
     - Якщо ви використовуєте тему 3DS, торкніться піктограми Ігровий Картридж/SD картка
-    - If you use the R4, GBC, or Wood themes, press `R` button
+    - Якщо ви використовуєте теми R4, GBC, або Wood, натисніть кнопку `R`

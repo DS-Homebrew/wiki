@@ -45,11 +45,11 @@ N'oubliez jamais de vérifier le sujet du salon et les messages épinglés avant
 - [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. Il y a des fils de discussion pour les applications homebrew individuelles, et vous pouvez en créer un nouveau s'il n'y a pas déjà un fil de discussion pour votre application
 
 **Community (« Communauté »)**
-- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Les messages de moindre qualité doivent rester sur #end-of-server
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to [#shadow-of-server](end-of-server)
 - [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Consultez les messages épinglés pour obtenir une liste des communautés dédiées
 - [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
 - [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Les règles sont un peu plus souples, mais sont toujours appliquées. Utilisez cet espace pour poster vos mèmes, commandes de bots et autres choses qui ne facilitent pas la discussion
+- [#shadow-of-server][end-of-server] - This is for casual, lower-quality chatting. Les règles sont un peu plus souples, mais sont toujours appliquées. Utilisez cet espace pour poster vos mèmes, commandes de bots et autres choses qui ne facilitent pas la discussion
 
 ## Rôles et étiquettes utilisateur
 Il existe plusieurs rôles que vous pouvez obtenir sur le serveur, certains d'entre eux étant accessibles avec une simple [commande du bot Lightning](#lightning-commands).
@@ -98,11 +98,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## Le staff
 Ce sont les personnes qui gèrent le serveur. Si elles disent que quelque chose est définitif, il n'y a pas de débat possible. Ces membres sont en haut de la liste des membres. Ne demandez pas à faire partie de l'équipe, car cela diminuerait vos chances d'être accepté. Des membres seront ajoutés à l'équipe si et quand cela sera jugé nécessaire.
 
-Owner: @rocketrobz
+Administrators: @kaisaan, @kalamity, @kodtiz3d, @lifehackerhansol, @lightsage01, @nightscript, @rocketrobz
 
-Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Moderator: @apachethunder, @gericom, @pk11.us
 
-Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
+Minimods: @dartzsoryu, @deletecat, @janni9009, @vikirinox
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -133,4 +133,5 @@ Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalam
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
+[end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

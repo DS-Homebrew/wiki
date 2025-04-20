@@ -10,7 +10,7 @@ tabs:
     3ds-sd-card: 3DS SD card
     dsi-sd-card: DSi SD card
     flashcard: Flashcard only
-    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
+    flashcard-dsi-3ds: Flashcard on modded 3DS
 ---
 
 Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -103,11 +103,7 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Krav
 
-- **DSi users:**
-    - A Nintendo DSi with [Unlaunch](https://dsi.cfw.guide/installing-unlaunch) and [hiyaCFW](installing) installed
-    - The latest release of [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases)
-- **3DS users:**
-    - A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
+- A Nintendo 3DS family console with modern CFW environment from [3ds.hacks.guide](https://3ds.hacks.guide)
 
 {% capture flashcards %}
 The recommended flashcards are the DSTT and Acekard 2i. If you want perfect game compatibility, get the SuperCard DSTWO/DSTWO PLUS. The only downside is that it drains your system battery faster.
@@ -205,14 +201,8 @@ After you extract the pack for your card, you can edit `sd:/_nds/ntr_forwarder.i
 
 ### Part 3: Installing the forwarder
 
-- If using a 3DS family console:
-    1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-        - If using EmuNAND, install to both SysNAND and EmuNAND
-- If using a DSi:
-    1. Copy `tmfh.nds` from the TMFH `.zip` file to the root of your SD card
-    1. Reinsert your SD card into your DSi
-    1. Launch `tmfh.nds` from Unlaunch or TWiLight Menu++
-    1. Install the forwarder NDS file using TMFH
+1. Copy the CIA(s) to your 3DS' SD card
+1. Install them using FBI
 {% endcapture %}
 {% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 

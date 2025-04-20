@@ -22,7 +22,7 @@ Nintendo DSi Menu terdapat *bug* (kutu) saat memeriksa sisa ruang di penyimpanan
 
 Berfungsi dan tidaknya ini terjadi setiap rentang dua gibibita. Contoh, sisa ruang 0-2 GiB akan berfungsi, tapi 2-4 GiB tidak. Begitu juga 4-6 GiB lalu 6-8 GiB, ini terus sampai sebesar ukuran kartu SD.
 
-Versi terkini hiyaCFW bisa membuat berkas bonekaan untuk mengatasi ini, caranya unduh dulu [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) versi terkini dan salin `hiya.dsi` dari "for SDNAND SD card" ke akar kartu SD.
+Kami membuat penambal *launcher* baru untuk mengatasi kutu memori. Pastikan menjalankan TWLMagician yang versi terkini saat memasang hiyaCFW. Jika tidak, [pasang ulang hiyaCFW](installing).
 
 ##### Melebihi 39 judul
 Nintendo DSi Menu punya batas 39 judul. Jika ada lebih, hapus beberapa isi folder di `sd:/title` atau gunakan [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) untuk mencopotnya.
@@ -33,4 +33,4 @@ Jumlah DSiWare dibatasi 200 *blocks* (25MB) di folder `00030004`. Ini bisa diata
 ##### Judul tidak absah
 Ada beberapa hal yang perlu dipertimbangkan saat memasang judul ke hiyaCFW:
 - *Dump* ROM Kartrid tidak bisa dijalankan kecuali dengan [*forwarder*](../ds-index/forwarders)
-- *Homebrew* perlu dibuat dengan alat modern agar berfungsi di Nintendo DSi Menu
+- *Homebrew* perlu dibuat dengan alat modern agar berfungsi dari menu Nintendo DSi

@@ -27,13 +27,13 @@ tabs:
 1. 在应用列表中找到 TWiLight Menu++，如果找不到它，可以使用侧边栏上的第 3 个按钮进行搜索
 1. 按 <kbd class="face">A</kbd> 键，或是点击侧边栏中的下载图标并选择 `TWiLight Menu++` 来安装它
     - This will take a while
-    - 如果安装失败，请确保掌机已连接到互联网。 否则，请单击 "`Manual`"选项卡
+    - 如果安装失败，请确保设备已连接到互联网。 否则，请单击 "`Manual`"选项卡
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. 下载最新的 [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - 如果未下载，请查看 [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-3DS.7z`
 1. 将 `_nds` 文件夹复制到 SD 卡根目录，替换所有现有文件
     - 如果使用 macOS，请确保选择**复制**及`合并`，不要选择`替换`

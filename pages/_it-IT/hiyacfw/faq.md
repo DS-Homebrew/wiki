@@ -22,7 +22,7 @@ Il menu del Nintendo DSi ha un bug quando controlla lo spazio libero su disposit
 
 Lo spazio libero funziona a gruppi alterni di due gibibyte. Per esempio, avere tra 0 e 2 GiB di spazio libero funziona, ma tra 2 e 4 GiB no. Lo stesso vale per 4-6 GiB contro 6-8 GiB, fino ad arrivare alla dimensione della scheda SD.
 
-L'ultima versione di hiyaCFW può creare dei file fittizi per aggirare questo problema, quindi assicurati di scaricare l'ultima versione di [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) e copia `hiya.dsi` dalla cartella "for SDNAND SD card" alla root della scheda SD.
+We made the brand new launcher patches which fix the free space bug. To work around this, please ensure that you are running the latest TWLMagician when installing hiyaCFW. If not, please [reinstall hiyaCFW](installing).
 
 ##### Più di 39 titoli
 Il menu del Nintendo DSi ha un limite di 39 titoli. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.

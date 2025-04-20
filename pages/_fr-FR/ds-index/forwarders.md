@@ -10,7 +10,7 @@ tabs:
     3ds-sd-card: Carte SD 3DS
     dsi-sd-card: Carte SD DSi
     flashcard: Flashcard only
-    flashcard-dsi-3ds: Flashcard on modded DSi/3DS
+    flashcard-dsi-3ds: Flashcard on modded 3DS
 ---
 
 Forwarders are shortcuts for games that you can install to your HOME menu, hiyaCFW menu, or flashcard menu. You can load DS(i) games from the SD card (using nds-bootstrap) or from a compatible flashcard (via its respective kernel) using forwarders installed to your menu of choice. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -103,11 +103,7 @@ Si Universal-Updater est déjà installé sur votre console, vous pouvez passer 
 
 ### Prérequis
 
-- **Utilisateurs de DSi :**
-    - Une Nintendo DSi avec [Unlaunch](https://dsi.cfw.guide/fr_FR/installing-unlaunch) et [hiyaCFW](installing) installés
-    - La dernière version de [Title Manager for HiyaCFW](https://github.com/JeffRuLz/TMFH/releases)
-- **Utilisateurs de 3DS :**
-    - Une console de la famille Nintendo 3DS avec un environnement CFW moderne d'après [3ds.hacks.guide](https://3ds.hacks.guide/fr_FR/)
+- Une console de la famille Nintendo 3DS avec un environnement CFW moderne d'après [3ds.hacks.guide](https://3ds.hacks.guide/fr_FR/)
 
 {% capture flashcards %}
 Les linkers recommandés sont le DSTT et l'Acekard 2i. Si vous voulez une compatibilité parfaite avec les jeux, prenez la SuperCard DSTWO/DSTWO PLUS. Le seul inconvénient est qu'elle vide plus rapidement la batterie de votre système.
@@ -205,14 +201,8 @@ Après avoir extrait le pack de votre carte, vous pouvez modifier `sd:/_nds/ntr_
 
 ### Part 3: Installing the forwarder
 
-- Si vous utilisez une console de la famille 3DS :
-    1. Copy the CIA(s) to your 3DS's SD card, then install them using FBI
-        - If using EmuNAND, install to both SysNAND and EmuNAND
-- Si vous utilisez une DSi :
-    1. Copiez `tmfh.nds` depuis l'archive `.zip` de TMFH à la racine de votre carte SD
-    1. Réinsérez votre carte SD dans votre DSi
-    1. Lancez `tmfh.nds` depuis Unlaunch ou TWiLight Menu++
-    1. Installez le fichier NDS du forwarder en utilisant TMFH
+1. Copy the CIA(s) to your 3DS' SD card
+1. Install them using FBI
 {% endcapture %}
 {% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 

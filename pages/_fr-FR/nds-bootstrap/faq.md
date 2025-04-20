@@ -43,7 +43,7 @@ nds-bootstrap patche les fonctions de la ROM pour qu'elle fonctionne depuis une 
 #### DS/DS Lite : Pourquoi utiliser nds-bootstrap sur un linker DS ?
 - Certaines ROMs compatibles sont chargées dans le Memory Expansion Pak (ou dans les linkers Slot-2 contenant de la RAM), ce qui permet des temps de chargement plus rapides que les cartes de jeu normales
 - 400+ DSiWare titles can be run using built-in patches and a Donor ROM of an SDK5 DS title
-    - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Lanceur de jeu` dans les paramètres de TWLMenu++
+    - Gardez à l'esprit que nds-bootstrap sera toujours utilisé pour les DSiWare, indépendamment du paramètre `Chargeur de jeu` dans les paramètres de TWLMenu++
     - Not all DSiWare titles can save, due to the difficulty of adding save support for them, and/or them storing more than one file in the save filesystem
     - Certain DSiWare will require *Lufia: Curse of the Sinistrals* set as a Donor ROM
 - Si le kernel de votre linker ne peut pas exécuter une certaine ROM, nds-bootstrap peut être utilisé à la place, et peut être réglé par jeu

@@ -36,12 +36,9 @@ Istnieje wiele emulatorów dla DS i DSi. This page provides a comprehensive expl
 | Rocket Video              | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                                            |
 | SG-1000                   | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                                            |
 | Sord M5                   | [ColecoDS][colecods]                             | `.m5`                                  |                                                                            |
-| SNES                      | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[nazwa romu].srm`                                                         |
+| SNES                      | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                                                       |
 | WonderSwan (Color)        | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                                                        |
 | Xvid                      | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                                            |
-
-- Footnotes -
-{:footnotes}
 
 To są tylko rekomendowane emulatory i loadery, które są również dostępne w TWiLight Menu++. Istnieją także inne emulatory dostępne dla tych konsol (np. lolSnes, Gbaemu4ds itp.)
 
@@ -51,10 +48,22 @@ To są tylko rekomendowane emulatory i loadery, które są również dostępne w
 | ------- | -------------- | ------------ | ----------- |
 | Neo Geo | [neoDS][neods] | `.neo`       | (nieznane)  |
 
+### BIOS usage
+
+| Format              | Loader                               | Path             | Required  |
+| ------------------- | ------------------------------------ | ---------------- | --------- |
+| Game Boy (Color)    | [GameYob][gameyob][^9]               | User-set         | No        |
+| Game Boy Advance    | [GBARunner2][gbarunner2], native[^5] | `/_gba/bios.bin` | See [^10] |
+| Famicom Disk System | [nesDS][nesds]                       | `/disksys.rom`   | Yes       |
+
+- Footnotes -
+{:footnotes}
+
 ## Uwagi dotyczące niektórych emulatorów
+
 ### Ramdyski
-- Żeby **jEnesisDS** lub **neoDS** działały na karcie SD DSi, będziesz musiał(a) użyć ramdysku z nds-bootstrap
-    - Program tworzący Ramdyski dla jEnesisDS jest dostępny w TWiLight Menu++. Dla neoDS trzeba stworzyć ramdysk własnoręcznie. Zaglądnij do [Tworzenie Ramdysków](../twilightmenu/creating-ram-disks), żeby się dowiedzieć jak to zrobić
+- In order for **jEnesisDS**, **SNEmulDS** (legacy version), or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+    - A RAM disk maker for jEnesisDS and SNEmulDS (legacy version) is built into nds-bootstrap. Dla neoDS trzeba stworzyć ramdysk własnoręcznie. Zaglądnij do [Tworzenie Ramdysków](../twilightmenu/creating-ram-disks), żeby się dowiedzieć jak to zrobić
     - Potrzeba użycia ramdysków dla tych emulatorów, wynika z tego, że ich hooki ARM7 nie działają poprawnie
 
 ### Porównanie pomiędzy PicoDriveTWL i jEnesisDS
@@ -65,7 +74,7 @@ To są tylko rekomendowane emulatory i loadery, które są również dostępne w
         - Szybsze czasy ładowania między TWiLight Menu++ a emulatorem na karcie SD DSi
     - Obsługuje argumenty
     - Limit is 3 MB on a **Flashcard**
-        - Wykorzystuje dodatkową pamięć RAM DSi lub DS Memory Pak, aby zwiększyć ten limit
+        - Takes advantage of the DSi extra RAM or DS Memory Expansion Pak to extend this limit
     - Brak emulacji dźwięku
     - Niska ilość klatek na sekundę
 
@@ -76,20 +85,23 @@ To są tylko rekomendowane emulatory i loadery, które są również dostępne w
     - Trochę długo się ładuje
     - Brak wsparcia argumentów
     - Limit wynosi 3 MB na wszystkich platformach (romy są ładowane do pamięci RAM)
-        - Brak obsługi DS Memory Pak i DSi Extended Memory
-        - Jest patch dla Sonic 3 & Knuckles, który zmniejsza rozmiar gry poprzez usunięcie trybu multiplayer
+        - No DS Memory Expansion Pak or DSi Extended Memory support
+        - There is a patch for *Sonic 3 & Knuckles* that removes the multiplayer, getting the size count down
     - Emulacja dźwięku
     - Wysoka ilość klatek na sekundę
 
 
 <!-- Links for tables -->
-[^1]: Pliki tekstowe zawierające ścieżkę i argumenty do aplikacji homebrew DS. Zaglądnij do [pliku README nds-hb-menu](https://github.com/devkitPro/nds-hb-menu#passing-arguments), aby uzyskać więcej informacji
+[^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
 [^2]: Only for retail ROMs, homebrew do not have specific save files
 [^7]: Only when running in B4DS mode
 [^3]: Only works from a SuperCard DSTWO flashcard as it has additional processing power and RAM inside the flashcard
 [^4]: When running in DSi Mode, it can use the DSP for better sound
 [^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
 [^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^8]: Saving requires a flashcard or a new version of the emulator (legacy version is used by default)
+[^9]: Has a bug where the BIOS screen is not shown when starting a game via arguments
+[^10]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -108,7 +120,7 @@ To są tylko rekomendowane emulatory i loadery, które są również dostępne w
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
+[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [neods]: https://www.gamebrew.org/wiki/NeoDS

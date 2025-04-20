@@ -3,8 +3,8 @@ lang: hu-HU
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi/3DS szkinek - Egyedi hangeffektusok
-description: Hogyan használj egyedi háttérzenét és hang effekteket a DSi és 3DS szkinekben a TWiLight Menu++-ban
+title: DSi/3DS témák - Egyedi hangeffektusok
+description: Hogyan használj egyedi háttérzenét és hang effekteket a DSi és 3DS témákban a TWiLight Menu++-ban
 ---
 
 A TWiLight Menu++ támogatja az egyedi hang fájlokat a témákban. Rakd a hangfájlokat a `sound` alkönyvtárba a téma mappádba, például a `white` téma esetén, a fájljaid a `themes/white/sound/sfx.bin` és a `themes/white/sound/bgm.pcm.raw` kell legyenek. Mindkét fájl opcionális, ha a `bmg.pcm.raw` hiányzik, az alapértelmezett zene kerül felhasználásra. Ugyanez történik a hangeffektekkel is, ha az `sfx.bin` szintén hiányzik.

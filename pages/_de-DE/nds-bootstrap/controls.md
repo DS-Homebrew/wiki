@@ -9,13 +9,14 @@ description: Tastensteuerung für nds-bootstrap
 
 Diese gelten nicht für Homebrew.
 - <kbd>SELECT</kbd> + <kbd>Oben</kbd>/<kbd>Unten</kbd>: Präzise Lautstärkeregelung
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Oben</kbd> + <kbd class="face">X</kbd> für 1 Sekunde: Tausche die Bildschirme
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Unten</kbd> + <kbd class="face">A</kbd> für 2 Sekunden: Dump RAM auf `sd:/_nds/nds-bootstrap`, als `ramDump.bin`
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Unten</kbd> + <kbd class="face">B</kbd> für 2 Sekunden: Zurück zum Loader
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
+    - Does not work in B4DS mode on flashcards
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to loader
+    - Does not work in B4DS mode on flashcards
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> für 2 Sekunden: Spiel zurücksetzen
     - Viele Spiele unterstützen standardmäßig das Drücken dieser Tastenkombination, aber dadurch wird sie zwangsweise zurückgesetzt
+    - Does not work in B4DS mode on flashcards
 - <kbd class="l">L</kbd> + <kbd>Unten</kbd> + <kbd>Select</kbd>: Öffnen Sie das Menü im Spiel
-    - <kbd class="r">R</kbd>: Um ein Bild vorrücken
     - Screenshot
         - <kbd>Oben</kbd>/<kbd>Unten</kbd>/<kbd>Links</kbd>/<kbd>Rechts</kbd>: VRAM-Bank ändern
         - <kbd class="face">A</kbd>: Screenshot speichern
@@ -43,8 +44,7 @@ Diese gelten nicht für Homebrew.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- Die Rückkehr zum Lader funktioniert möglicherweise bei einigen O3DS-Modellen nicht, und im B4DS-Modus funktioniert sie nicht
+- Returning to loader may not work on some O3DS models, and does not work in B4DS mode when running DSiWare
 - Die Tastenkombination zum Öffnen des Menüs im Spiel kann in den TWiLight Menu++ Einstellungen geändert werden
 - Präzise Lautstärkeregelung kann in den TWiLight Menu++ Einstellungen ein- oder ausgeschaltet werden
 - Screenshots werden auf `sd:/_nds/nds-bootstrap/screenshots.tar` gespeichert. Diese Datei kann mit einem Archiv-Viewer wie [7-Zip](https://www.7-zip.org/) geöffnet werden
-- Screenshots sind im B4DS-Modus derzeit nicht möglich

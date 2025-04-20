@@ -189,6 +189,7 @@ description: Különleges tulajdonságokkal rendelkező DS(i) játékok
 - Phineas and Ferb: SDK4 -> SDK5 Európában (mint DSi-Enhanced cím)
 - Pokémon Diamond/Pearl: SDK3 -> SDK4 Koreában
 - Pokémon Dash: SDK2 -> SDK3 Koreában
+- Professor Layton and the Curious Village: SDK3 -> SDK4 Japánban & Koreában
 - Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 Koreában
 - Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (mint DSiWare)
 - Sonic Rush Adventure: SDK3 -> SDK4 Koreában

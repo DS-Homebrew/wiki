@@ -40,15 +40,15 @@ Untuk permainan dengan DMA bisa dilacak di no$gba dengan mengaktifkan *DMA log* 
 - Contoh: `DMA2: 04100010 023C18C0 AF000001`
 
 ### *Cheat* Action Replay
-Kode *cheat* Action Replay adalah kode tata olah tingkat rendah yang mengubah daerah memori pada permainan kesukaan Anda. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
+Kode *cheat* Action Replay adalah kode tata olah tingkat rendah yang mengubah daerah memori dari permainan kesukaan Anda. Ubahan ini mulai dari utak-atik nilai yang sederhana sampai utak-atik ASM amat canggih, keduanya bisa mengubah pengalaman main permainan.
 
-*Flashcard* bisa memanfaatkan kode *cheat* jika ada pangkalan data *cheat*. Untungnya, fungsi *cheat* sudah sepadu dalam *kernel flashcard*. *Kernel* berikut ini mampu membaca *cheat*:
+*Flashcart* bisa memanfaatkan kode *cheat* jika ada pangkalan data *cheat*. Untungnya, fungsi *cheat* sudah sepadu dalam *kernel flashcart*. *Kernel* berikut ini mampu membaca *cheat*:
 - Wood R4 (`usrcheat.dat`)
 - YSMenu (`usrcheat.dat`)
 
 Cara lainnya secara *homebrew*/digital juga bisa membaca pangkalan data *cheat*, peranti lunak yang menggunakan *cheat* di antaranya:
 - [NitroHax](https://www.chishm.com/NitroHax) (`cheats.xml`)
-    - NitroHax mampu menerapkan *cheat* dari *flashcard* ke Kartrid asli. Mesinnya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
+    - NitroHax mampu menerapkan *cheat* dari *flashcart* ke kartrid asli. Mesinnya akan memuat seluruh pangkalan data cheats.xml ke RAM Nintendo DS yang terbatas lalu dikelola dari situ. Hal ini membuat jumlah *cheat* yang ditaruh sangat terbatas, karena NitroHax tidak akan membaca cheats.xml yang melebihi 2,4 MB
 - [NitroHax3DS](https://github.com/ahezard/NitroHax3DS/releases) ([*fork* usrcheat.dat](https://github.com/Epicpkmn11/NitroHax3DS/releases)) (`cheats.xml` atau `usrcheat.dat`)
     - NitroHax3DS adalah versi NitroHax yang berjalan di kartu SD konsol DSi atau 3DS. Versi aslinya menggunakan cheats.xml dengan batas 2,4 MB seperti NitroHax asli, tapi ada *fork* yang membaca *cheat* dari usrcheat.dat bahkan tanpa batas ukuran
 - [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases) (`usrcheat.dat`)
@@ -105,7 +105,7 @@ Huruf terakhir pada ID judul itu sendiri mewakili bahasa judul. Berikut contoh d
 **X** mewakili berikut:
 
 - A - Sedunia (tak penting, hanya digunakan satu hal)
-- C - Bahasa Cina (Huruf Sederhana)
+- C - Bahasa Cina (Han Sederhana)
 - D - Bahasa Jerman
 - E - Bahasa Inggris Amerika
 - F - Bahasa Prancis
@@ -136,7 +136,7 @@ Untuk mengidentifikasi sistem:
 
 ### *DSi Enhanced*:
 
-Permainan dengan fungsi "*DSi Enhanced*" adalah permainan yang mampu menggunakan beberapa fitur peranti keras DSi tapi tetap bisa dimainkan di DS Phat/Lite. Permainan jenis ini ditandai `TWL` tapi tetap berlabel "Nintendo DS", bukan "Nintendo DSi".
+Permainan "*DSi Enhanced*" adalah permainan DS Phat/Lite yang bisa memanfaatkan beberapa fitur pada konsol DSi jika dimainkan di DSi. Permainan jenis ini ditandai `TWL` tapi tetap berlabel "Nintendo DS", bukan "Nintendo DSi".
 
 ### DSiWare:
 
@@ -152,9 +152,9 @@ DSiWare adalah permainan dan aplikasi digital yang bisa diunduh dari DSi Shop da
     - Sebagian besar DSiWare juga bisa diunduh lewat 3DS eShop.
     - DSiWare sudah tidak bisa diunduh lagi karena tutupnya toko DSi dan 3DS.
 
-DSiWare hanya bisa dijalankan dari memori internal konsol, kecuali jika dijalankan **TW**i**L**ight Menu++ dari kartu SD DSi/3DS atau *flashcard*.
-    - Dengan *flashcard*, beberapa DSiWare bisa dijalankan di konsol DS atau DS Lite.
+DSiWare hanya bisa dijalankan dari memori internal konsol, kecuali jika dijalankan **TW**i**L**ight Menu++ dari kartu SD DSi/3DS atau *flashcart*.
+    - Dengan *flashcart*, beberapa DSiWare bisa dijalankan di konsol DS atau DS Lite.
 
-Setiap aplikasi sistem DSiWare/DSi (kecuali System Menu) menonaktifkan akses Slot-1 (alias slot kartrid DS), sehingga tidak bisa membaca isi dari kartrid DS atau bahkan *flashcard*.
+Setiap aplikasi sistem DSiWare/DSi (kecuali System Menu) menonaktifkan akses Slot-1 (alias slot kartrid DS), sehingga tidak bisa membaca isi dari kartrid DS atau bahkan *flashcart*.
     - Ini berarti pengembang tidak bisa menambahkan kartrid DS sebagai alat akses fitur tersembunyi di DSiWare.
     - Ini juga berarti *homebrew* (yang dijalankan lewat eksploit apli DSiWare) seperti GodMode9**i** tidak bisa men-*dump*/ekstrak ROM kartrid DS, kecuali jika lewat Unlaunch.

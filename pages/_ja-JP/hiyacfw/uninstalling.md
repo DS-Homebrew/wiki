@@ -7,7 +7,7 @@ long_title: HiyaCFWのアンインストール
 description: ニンテンドーDSiからhiyaCFWをアンインストールする方法
 ---
 
-hiyaCFWはSDカード上にのみ存在し、NAND上には存在しません。 その前に、保存したいSDNANDからセーブデータをバックアップしてください。 [dsi.cfw.guide](https://dsi.cfw.guide)の[DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional)ガイドのSection IIIに従って学ぶことができます。
+hiyaCFWはSDカード上にのみ存在し、NAND上には存在しません。 その前に、保存したいSDNANDからセーブデータをバックアップしてください。 You can learn how to do that by following [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html) guide.
 
 ### アンインストール
 1. `hiya.dsi`をSDカードのルートから削除

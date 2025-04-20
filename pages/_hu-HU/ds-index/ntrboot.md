@@ -32,7 +32,7 @@ Ehhez a módszerhez egy működő DS, DSi vagy 3DS konzolra van szükség, és n
 4. Töltsd le az [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) fájlt és másold bárhová a flashcart-od MicroSD kártyájára
 5. Tedd be a microSD kártyád a flashcart-odba, és bootold a flashcart-od a működő konzolodba
 6. Indítsd el az `ntrboot_flasher_nds.nds` fájlt a flashcart-od kerneléből
-7. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, készíts biztonsági másolatot a flashcardról, `Dump Flash` opcióval, majd injektáld az ntrboot-ot. A "TWL" opciót kell kiválasztanod
+7. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, készíts biztonsági másolatot a flashcardról, `Dump Flash` opcióval, majd válaszd az `Inject GCD` opciót.
 
 {% endcapture tab-unhacked %}
 {% assign tab-unhacked = tab-unhacked | split: "////////" %}
@@ -45,7 +45,7 @@ Már követned kellett a [dsi.cfw.guide](https://dsi.cfw.guide) útmutatót és 
 1. Töltsd le az [ntrboot image](/assets/files/default.gcd) fájlt a DSi SD kártyádra `sdmc:/ntrboot/default.gcd` néven
 2. Töltsd le az [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) fájlt az SD-kártyádra
 3. Helyezd be az SD kártyád egy moddolt DSi-be, majd futtasd az ntrboot flasher-t
-4. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, készíts biztonsági másolatot a flashcardról, `Dump Flash` opcióval, majd injektáld az ntrboot-ot. A "TWL" opciót kell kiválasztanod
+4. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, készíts biztonsági másolatot a flashcardról, `Dump Flash` opcióval, majd válaszd az `Inject GCD` opciót.
 
 {% endcapture tab-dsi %}
 {% assign tab-dsi = tab-dsi | split: "////////" %}

@@ -22,7 +22,7 @@ description: Steuerelemente für die Verwendung von TWiLight Menu++
         - <kbd class="l">L</kbd>: Alle Cheats deaktivieren
 - <kbd class="face">X</kbd>: Spiel löschen/ausblenden
 - (DSi/Saturn/HBL-Thema) <kbd>SELECT</kbd>: SELECT-Menü oder DS Classic-Menü (hier können Systemmenü, TWiLight-Menü++ Einstellungen und GBA-Modus aufgerufen werden)
-- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Set default directory
+- <kbd>SELECT</kbd> + <kbd class="face">X</kbd>: Standardverzeichnis festlegen
 
 #### Original R4, GameBoy Color und Wood UI Themen
 - <kbd>Oben</kbd>/<kbd>Unten</kbd>: Spiel/Anwendung auswählen

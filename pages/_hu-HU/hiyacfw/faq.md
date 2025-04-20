@@ -22,7 +22,7 @@ A Nintendo DSi Menünek van egy hibája, amikor ellenőrzi a szabad területet n
 
 Hogy mi működik és mi nem hasonló a többi gibibájt méretnél is. Például, 0-2 GiB szabad tárhely működik, míg 2-4 GiB nem. Hasonló 4-6 GiB és 6-8 GiB esetén, egészen amíg el nem jutsz az SD kártyád méretéig.
 
-A legutolsó hiyaCFW verzió létre tud hozni dummy fájlokat, a probléma megkerüléséhez, így legyél biztos abban, hogy letöltötted a legfrissebb verzióját a [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)-nek és bemásoltad a `hiya.dsi` fájlt a "for SDNAND SD card" útvonalról az SD kártyád gyökerébe.
+Elkészítettük a vadonatúj launcher patcheket, amelyek kijavítják a szabad hely hibát. Ennek kiküszöbölése érdekében kérjük, győződj meg róla, hogy a hiyaCFW telepítésekor a legújabb TWLMagician-t futtatod. Ha nem, kérjük [telepítsd újra a hiyaCFW-t](installing).
 
 ##### 39 cím felett
 A Nintendo DSi Menü-nek 39 cím a korlátja. Ha ennél több van, törölj néhányat az `sd:/title` mappából vagy használd az [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) -et az eltávolításukhoz.

@@ -36,12 +36,9 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                                            |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                                            |
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                                            |
-| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`                                                           |
+| SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                                                       |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                                                        |
 | Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                                            |
-
-- Footnotes -
-{:footnotes}
 
 These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
@@ -51,10 +48,22 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 | ------- | -------------- | ---------- | --------- |
 | Neo Geo | [neoDS][neods] | `.neo`     | (unknown) |
 
+### BIOS usage
+
+| Format              | Loader                               | Path             | Required  |
+| ------------------- | ------------------------------------ | ---------------- | --------- |
+| Game Boy (Color)    | [GameYob][gameyob][^9]               | User-set         | Немає     |
+| Game Boy Advance    | [GBARunner2][gbarunner2], native[^5] | `/_gba/bios.bin` | See [^10] |
+| Famicom Disk System | [nesDS][nesds]                       | `/disksys.rom`   | Є         |
+
+- Footnotes -
+{:footnotes}
+
 ## Notes on specific emulators
+
 ### RAM Disks
-- In order for **jEnesisDS** or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
-    - A RAM disk maker for jEnesisDS is built into TWiLight Menu++. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
+- In order for **jEnesisDS**, **SNEmulDS** (legacy version), or **neoDS** to work on the DSi SD card, you'll have to use a RAM disk with nds-bootstrap
+    - A RAM disk maker for jEnesisDS and SNEmulDS (legacy version) is built into nds-bootstrap. You will need to create your own RAM disk for neoDS. See [Creating RAM Disks](../twilightmenu/creating-ram-disks) on how to do so
     - The reason why RAM disks are used is because these emulators' ARM7 hooks don't work properly
 
 ### Comparison between PicoDriveTWL and jEnesisDS
@@ -65,7 +74,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
         - Quicker load times between TWiLight Menu++ to the emulator on the DSi SD card
     - Supports arguments
     - Limit is 3 MB on a **Flashcard**
-        - Takes advantage of the DSi extra RAM or DS Memory Pak to extend this limit
+        - Takes advantage of the DSi extra RAM or DS Memory Expansion Pak to extend this limit
     - No sound emulation
     - Framerate is extremely choppy
 
@@ -76,8 +85,8 @@ These are just recommended emulators and loaders that are present in TWiLight Me
     - Takes a while to load
     - No argument support
     - Limit is 3 MB on all platforms (due to roms loading in RAM)
-        - No DS Memory Pak or DSi Extended Memory support
-        - There is a patch for Sonic 3 & Knuckles that removes the multiplayer, getting the size count down
+        - No DS Memory Expansion Pak or DSi Extended Memory support
+        - There is a patch for *Sonic 3 & Knuckles* that removes the multiplayer, getting the size count down
     - Sound Emulation
     - Framerate is smooth
 
@@ -90,6 +99,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [^4]: When running in DSi Mode, it can use the DSP for better sound
 [^5]: Requires a Slot-2 flashcart and thus only works on DS Phat and DS Lite
 [^6]: jEnesis can only save when running from a flashcard, but PicoDriveTWL can save from SD and flashcard
+[^8]: Saving requires a flashcard or a new version of the emulator (legacy version is used by default)
+[^9]: Has a bug where the BIOS screen is not shown when starting a game via arguments
+[^10]: Not required for native, required for a few games with GBARunner2, required for all games with GBARunner3
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -108,7 +120,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
+[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [neods]: https://www.gamebrew.org/wiki/NeoDS

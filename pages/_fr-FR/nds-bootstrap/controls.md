@@ -9,13 +9,14 @@ description: Contrôles des boutons pour nds-bootstrap
 
 Ceux-ci ne s'appliquent pas aux homebrews.
 - <kbd>SELECT</kbd> + <kbd>Haut</kbd>/<kbd>Bas</kbd> : Contrôle précis du volume sonore
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Haut</kbd> + <kbd class="face">X</kbd> pendant 1 seconde : Permuter les écrans
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Bas</kbd> <kbd class="face">A</kbd> pendant 2 secondes : Dumper la RAM vers `sd:/_nds/nds-bootstrap` en tant que `ramDump.bin`
-- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Bas</kbd> + <kbd class="face">B</kbd> pendant 2 secondes : Retourner au lanceur
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">A</kbd> for 2 seconds: Dump RAM to `sd:/_nds/nds-bootstrap`, as `ramDump.bin`
+    - Does not work in B4DS mode on flashcards
+- <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>Down</kbd> + <kbd class="face">B</kbd> for 2 seconds: Return to loader
+    - Does not work in B4DS mode on flashcards
 - <kbd class="l">L</kbd> + <kbd class="r">R</kbd> + <kbd>START</kbd> + <kbd>SELECT</kbd> pendant 2 secondes : Redémarrer le jeu
     - De nombreux jeux permettent d'appuyer simplement sur cette combinaison de boutons par défaut, mais ceci va forcer la réinitialisation
+    - Does not work in B4DS mode on flashcards
 - <kbd class="l">L</kbd> + <kbd>Bas</kbd> + <kbd>SELECT</kbd> : Ouvrir le menu en jeu
-    - <kbd class="r">R</kbd> : Avancer d'une frame
     - Capture d'écran
         - <kbd>Haut</kbd>/<kbd>Bas</kbd>/<kbd>Gauche</kbd>/<kbd>Droite</kbd> : Changer de banque VRAM
         - <kbd class="face">A</kbd> : Enregistrer la capture d'écran
@@ -43,8 +44,7 @@ Ceux-ci ne s'appliquent pas aux homebrews.
         - <kbd>Up</kbd>/<kbd>Down</kbd>: Increase/Decrease selected value
         - <kbd>Left</kbd>/<kbd>Right</kbd>: Select a value
         - <kbd class="face">A</kbd>/<kbd class="face">B</kbd>: Return to RAM Viewer/Editor at specified address
-- Le retour au lanceur peut ne pas fonctionner sur certains modèles O3DS, et ne fonctionne pas en mode B4DS
+- Returning to loader may not work on some O3DS models, and does not work in B4DS mode when running DSiWare
 - La combinaison de boutons pour ouvrir le menu en jeu peut être modifiée dans les paramètres de TWiLight Menu++
 - Le contrôle précis du volume peut être activé ou désactivé dans les paramètres de TWiLight Menu++
 - Les captures d'écran sont enregistrées dans `sd:/_nds/nds-bootstrap/screenshots.tar`. Ce fichier peut être ouvert à l'aide d'un visualiseur d'archives tel que [7-Zip](https://www.7-zip.org/)
-- Il est actuellement impossible de faire des captures d'écran en mode B4DS

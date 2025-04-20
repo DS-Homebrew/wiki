@@ -47,8 +47,8 @@ Eine Flashcard ist etwas, das in den Spielkartensteckplatz passt und einen micro
 1. Kopieren Sie die Datei `BOOT.NDS` von `TWiLightMenu-Flashcard.7z` in das Stammverzeichnis Ihrer microSD-Karte
 1. TWiLigtMenu++ Einstellungen öffnen
 1. Wechseln Sie zur `Misc Einstellungen` Seite
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. Machen sie `SD Zugriff in Slot-1` an
+1. Machen sie `SCFG Zugriff in Slot-1` an
 1. Einschalten `Auto-Start Slot-1`
 1. Verlassen Sie TWLMenu++ Einstellungen durch Drücken der Taste `B`
     - Wenn Sie im klassischen DS-Menü landen, starten Sie Ihre Karteikarte

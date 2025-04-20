@@ -30,4 +30,4 @@ DS/DS Lite/3DS 패밀리:
 - **SHA-1:** `c11531d5261006810cdc954bd4bec0afe3187b35`{:.wrap}
 - **SHA-256:** `782eb3894237ec6aa411b78ffee19078bacf10413856d33cda10b44fd9c2856b`{:.wrap}
 
-If you don't know how to obtain a file checksum, you can use an [online checksum calculator](https://emn178.github.io/online-tools/crc32_checksum.html).
+파일 체크섬을 구하는 방법을 모르는 경우 [온라인 체크섬 계산기를](https://emn178.github.io/online-tools/crc32_checksum.html) 사용할 수 있습니다.

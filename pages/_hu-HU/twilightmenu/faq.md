@@ -33,7 +33,7 @@ Lásd a [Problémáim vannak a ROM(ok)-mal, mit tegyek?](../nds-bootstrap/faq?fa
 Szükséged van egy csalás adatbázisra a `usrcheat.dat` fájl formájában, az `sd:/_nds/TWiLightMenu/extras/` mappában. A leginkább frissített csalás adatbázis [DeadSkullzJr NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/) adatbázisa.
 - A 3DS-en az az adatbázis elérhető az Universal Updater appban, mint "NDS(i) Cheat Databases". Ez automatikusan telepíti azt a szükséges helyre.
 
-Alternatívaként használhatod az [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
+Alternatívaként használhatod az [r4cce](https://web.archive.org/web/20241130133125/http://hp.vector.co.jp/authors/VA013928/soft_en.html)-t, hogy létrehozd a saját csalás adatbázisod.
 
 Ha már van cheat DB-d, akkor a csalásokat a TWiLight menüben a <kbd class="face">Y</kbd> megnyomásával engedélyezheted, ami a játékonkénti beállításokat nyitja meg, majd a <kbd class="face">X</kbd> gombbal nyitohatod meg a csalások menüt.
 
@@ -43,7 +43,7 @@ Egy véletlen `.png` kép az `sd:/_nds/TWiLightMenu/dsimenu/photos/` mappából 
 - A kép(ek) felbontása nem lehet nagyobb, mint 208x156
 - Ha hibát tapasztalsz, az leginkább a képméret hiba. Használd a [tinypng](https://tinypng.com)-t a méret csökkentéséhez
 
-A kép elrejtéséhez a `theme.ini` fájlt kell szerkesztened, amely a `sd:/_nds/TWiLightMenu/dsimenu/themes/[skin mappa]/` mappában található. Nyisd meg a fájlt egy szövegszerkesztővel, módosítsd a `RenderPhoto` sort `1` -ről `0-ra`, majd mentsd el a fájlt.
+A kép elrejtéséhez a `theme.ini` fájlt kell szerkesztened, amely a `sd:/_nds/TWiLightMenu/dsimenu/themes/[téma mappa]/` mappában található. Nyisd meg a fájlt egy szövegszerkesztővel, módosítsd a `RenderPhoto` sort `1` -ről `0-ra`, majd mentsd el a fájlt.
 
 #### Hogyan szerezhetek játékokat?
 Homebrew játékokat az [Universal-DB](https://db.universal-team.net/ds)-ből és a [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)-ról tölthetsz le. Ahhoz, hogy hivatalosan kiadott játékot szerezz, dump-ként kell azokat beszerezned vagy egy fizikai cartridge-ről, vagy egy másik konzolról:
@@ -70,7 +70,7 @@ Nem. Az SD kártyához hozzáférés csak a DSiWare alkalmazások számára bizt
 
 #### Miért nem találom/látom a játékaimat?
 Több oka lehet, hogy nem találod őket.
-- Az `_nds` mappa, amely az SD kártya gyökerében található, nem a TWiLight Menu++ segítségével elérhető alkalmazások számára készült, mivel a mappa a funkcionalitáson alapuló fájloknak (skinek, konfiguráció, képek, emulátorok stb.) fenntartott. Ha ide raktad a címeid, kérjük, helyezd át őket egy másik helyre.
+- Az `_nds` mappa, amely az SD kártya gyökerében található, nem a TWiLight Menu++ segítségével elérhető alkalmazások számára készült, mivel a mappa a funkcionalitáson alapuló fájloknak (témák, konfiguráció, képek, emulátorok stb.) fenntartott. Ha ide raktad a címeid, kérjük, helyezd át őket egy másik helyre.
 - Ha több mint 39 játékod van egy mappában és minden slot a menüben foglalt a játékod lehet, hogy a következő oldalon van. Használd az <kbd class="l">L</kbd>/<kbd class="r">R</kbd> vagy <kbd>SELECT</kbd> + <kbd>Bal</kbd> /<kbd>Jobb</kbd> gombokat az oldalak lapozásához
 - Ha a játék mappád láthatatlan, be kell kapcsolnod a láthatatlan fájlok megjelenítését a TWiLight Menu++'s GUI beállításai között
 - Ha a játékod egy archív fájlban van (`zip`, `rar`, `7z`, stb.), nem használható a TWiLight Menu++ által. Csomagold ki a játékot az archívumból a használatához
@@ -94,26 +94,26 @@ A PNG bannerekhet egy PNG fájlra van szükséged 15 vagy kevesebb színnel és 
 
 A banner.bin típusú bannerek animálhatók, és lehetővé teszik a TWiLight Menu++-ban megjelenő cím cseréjét. Ezek létrehozhatók az [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) segítségével.
 
-Előre lekésztett bannerek találhatók az [ikonok szekciójában a TWiLight Menu++ szkinek oldalon](https://skins.ds-homebrew.com/icon/) és ha késztesz egyet, azok meg is oszhatók ott.
+Előre lekésztett bannerek találhatók az [ikonok szekciójában a TWiLight Menu++ témák oldalon](https://skins.ds-homebrew.com/icon/) és ha készítesz egyet, azok meg is oszhatók ott.
 
 #### Hogyan telepítek egyéni témákat a TWiLight Menu++-ba?
-Egyedi szkinek a témákhoz beszerezhetők [a hivatalos szkin oldalról](https://skins.ds-homebrew.com/), amely számos közösségi készítésű szkinnek ad otthont felhasználásra készen. Egyedi szkineket is készíthetsz a Nintendo 3DS és Nintendo DSi témákhoz [ezen útmutató](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins) alapján. A **Homebrew Launcher**, a **Sega Saturn** ésd **Game Boy Color** témák _**nem**_ módosíthatók.
+Egyedi szkinek a témákhoz beszerezhetők [a hivatalos téma oldalról](https://skins.ds-homebrew.com/), amely számos közösségi készítésű témának ad otthont felhasználásra készen. Egyedi témákat is készíthetsz a Nintendo 3DS és Nintendo DSi témákhoz [ezen útmutató](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-themes) alapján. A **Homebrew Launcher**, a **Sega Saturn** ésd **Game Boy Color** témák _**nem**_ módosíthatók.
 
-Miután beszereztél egy egyéni szkint, telepíteni tudod azzal, hogy a megfelelő útvonalra rakod, ami függ attól, hogy melyik témához készült a szkin.
-- A szkinek a Nintendo DSi témához az `sd:\_nds\TWiLightMenu\dsimenu\themes\` mappába kell kerüljenek
-- A szkinek a Nintendo 3DS témához az `sd:\_nds\TWiLightMenu\3dsmenu\themes\` mappába kell kerüljenek
-- A szkinek az R4 Original témához az `sd:\_nds\TWiLightMenu\r4menu\themes\` mappába kell kerüljenek
-- A Wood UI téma szkinjeidnek az `sd:\_nds\TWiLightMenu\akmenu\themes\` mappába kell kerülnie
+Miután beszereztél egy egyéni témét, telepíteni úgy tudod, hogy a megfelelő útvonalra rakod, ami függ attól, hogy az melyik felülethez készült a téma.
+- A témák a Nintendo DSi felülethez az `sd:\_nds\TWiLightMenu\dsimenu\themes\` mappába kell kerüljenek
+- A témák a Nintendo 3DS felülethez az `sd:\_nds\TWiLightMenu\3dsmenu\themes\` mappába kell kerüljenek
+- A témák az R4 Original felülethez az `sd:\_nds\TWiLightMenu\r4menu\themes\` mappába kell kerüljenek
+- A témák a Wood felülethez az `sd:\_nds\TWiLightMenu\akmenu\themes\` mappába kell kerüljenek
 
-Ha a 3DS csláadba tartozó konzolt használsz, az egyedi szkinek telepíthetők az [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases) használatával. Menj az Universal-Updater beállításaiba, majd `UniStore választás...`, `+`, `TWiLight Menu++ Skins`.
+Ha a 3DS csláadba tartozó konzolt használsz, az egyedi témák telepíthetők az [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases) használatával. Menj az Universal-Updater beállításaiba, majd `UniStore választás...`, `+`, `TWiLight Menu++ Themes`.
 
 Az egyedi témák beállításához hozzá kell férned a TWiLight Menu++ beállításaihoz.
-1. A `GUI beállítások` oldalon navigálj a `Téma` opcióhoz, majd válaszd ki a témát a D-Pad bal és jobb gombjával.
-1. Ha a cél téma kiválasztásra került, nyomd meg az A gombot, hogy választhass a szkinek közül, ami telepítve van.
-1. A D-Pad fel-le gombjaival jelöld ki a kívánt szkint, majd nyomd meg az A gombot a kiválasztásához.
+1. A `GUI beállítások` oldalon navigálj a `Felhasználói felület` opcióhoz, majd válaszd ki a témát a D-Pad bal és jobb gombjával.
+1. Ha a cél felület kiválasztásra került, menj az `Egyéni téma`opcióhoz, majd nyomd meg az A gombot, hogy választhass a telepített témák közül.
+1. A D-Pad fel-le gombjaival jelöld ki a kívánt témát, majd nyomd meg az A gombot a kiválasztásához.
 1. Alkalmazd a beállításokat a B gomb megnyomásával és hogy vissza kerülj a TWiLight Menu++-ba.
 
-A TWiLight Menu++-nak mostantól egyéni megjelenést (és zenét, ha a kiválasztott szkin támogatja és engedélyezve van a beállításokban) kell kapnia.
+A TWiLight Menu++-nak mostantól egyéni megjelenést (és zenét, ha a kiválasztott téma támogatja és engedélyezve van a beállításokban) kell kapnia.
 
 #### Van 3DS emulátor a DS(i)-re?
 Nem, nincs. A 3DS-t nem lehet emulálni a DS(i)-en, mivel a 3DS újabb hardvert használ.

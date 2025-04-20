@@ -14,7 +14,7 @@ tabs:
 
 ### 安装步骤
 1. 下载最新的 [`TwiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - 如果未下载，请查看 [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
@@ -24,12 +24,15 @@ tabs:
 
 ### 自动启动 TWiLight Menu++
 1. Open or extract `TWiLightMenu-Flashcard.7z`
-1. Open the `Autoboot` -> `(your flashcard)` folders
-1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
-    - 如果没有找到您的烧录卡，请跳过本步骤
-1. **对于 DS Phat/Lite 用户：**在 DS 设置菜单中打开自动运行，这样开机时就会自动进入烧录卡
+1. Open the `Autoboot` folder
+1. Open the `README.txt` file to help find which autoboot files are appropriate for your flashcard
+1. Open the `(your flashcard)` folder
+1. Drag and drop the contents to the root of the flashcard's microSD card
+    - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
+    - Skip this, if you don't see your flashcard listed
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
-### To run games using your flashcard firmware (optional)
+### To run games using the flashcard kernel (optional)
 
 **Please note:**
 - This only works if your flashcard is set to autoboot TWiLight Menu++. 请参阅上文如何配置。
@@ -43,10 +46,12 @@ If your flashcart does not have a compatible loader for this section, choose the
 {:.alert .alert-info}
 
 1. Open or extract `TWiLightMenu-Flashcard.7z`
-1. Open the `Flashcart Loader` -> `(your flashcard)` folders
-    - `Flashcart Loader` 文件夹中有一个 README.txt 文件，可帮助找到适合您的烧录卡的加载器。
-1. Drag and drop the contents of the folder to the root of the flashcard's microSD card
-1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open the `Flashcart Loader` folder
+1. Open the `README.txt` file to help find which flashcart loader is appropriate for your flashcard
+1. Open the `(your flashcard)` folder
+1. Drag and drop the contents to the root of the flashcard's microSD card
+    - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard kernel will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
 {% endcapture tab-loader %}
@@ -77,12 +82,12 @@ If your flashcart does not have a compatible loader for this section, choose the
 1. Extract it to a folder on your computer. Navigate to the folder required for your flashcart.
 1. Inside the folder, rename `TTMenu.dat` to `YSMenu.nds` if a `YSMenu.nds` file does not already exist
 1. Copy the `TTMenu` folder and `YSMenu.nds` file to the root of your MicroSD card. **Do not** copy `TTMenu.dat` directly; this will break autobooting and YSMenu's soft reset
-1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard firmware will be used instead of nds-bootstrap
+1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard kernel will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
 
 {% endcapture tab-ysmenu %}
 {% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
 
-### Running games with your flashcart firmware
+### Running games with the flashcard kernel
 {% assign tabs = tab-loader | concat: tab-ysmenu %}
 {% include tabs.html index=0 tabs=tabs %}

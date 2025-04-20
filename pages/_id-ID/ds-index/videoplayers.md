@@ -23,18 +23,18 @@ Catatan:
 
 ## FastVideoDS
 
-Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 instructions`, berarti perlu menggunakan komputer terkini, atau pasang CPU terbaru.
+Catatan: Jika muncul pesan `This encoder requires a cpu with support for AVX2 instructions`, berarti perlu komputer lebih modern, atau pasang CPU terbaru.
 {: .alert .alert-warning}
 
 ### Windows
 
 1. Unduh [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.12-windows-x64-installer?cid=getdotnetcore), lalu pasangkan
 1. Unduh [FastVideoDS Encoder](https://mega.nz/file/mYwiBTZA#FX6k-9cclPig4_WutE9IueVR7NN0Kxl-mZvRXyhpQRg)
-1. Unduh [FastVideoDS.bat](/assets/files/FastVideoDS.bat) ke tempat yang sama dengan berkas `.exe` *encoder*
-1. Salin dan pindahkan video ke tempat berkas `.bat` tadi
-1. Seret dan taruh video yang disalin atau pindah ke berkas `.bat`
+1. Unduh [FastVideoDS.bat](/assets/files/FastVideoDS.bat) dan taruh ke tempat berkas `.exe` *encoder* tadi
+1. Salin/taruh video pilihan ke tempat berkas `.bat` tadi
+1. Seret videonya ke berkas `.bat`
 
-Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar lewat **TW**i**L**ight Menu++.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah videonya di kartu SD, sekarang bisa diputar lewat **TW**i**L**ight Menu++.
 
 ## Konversi video Moonshell (DPG4x)
 
@@ -56,12 +56,12 @@ Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD.
 1. Atur `Quality` sesuka Anda
 1. Pencet `Start Encoding` untuk mengonversi video
 
-Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar melalui Moonshell.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah videonya di kartu SD, sekarang bisa diputar lewat Moonshell.
 
 ## Panduan TunaViDS
 
 ### Windows
-Siapkan video yang ingin diubah. Dianjurkan videonya berukuran 4:3, tapi FFmpeg akan taruh tepi hitam di bagian kosong.
+Siapkan video yang ingin diubah. Dianjurkan videonya 4:3, FFmpeg akan taruh tepi hitam di bagian kosong jika tidak.
 
 Peringatan: Jangan ubah pengaturan ROM Tuna-ViDS, nanti susah dijalankan. Panduan ini beranggapan Anda sudah di **TW**i**L**ight Menu++ versi terkini.
 {: .alert .alert-warning}
@@ -70,19 +70,19 @@ Lalu, unduh FFmpeg dari [tautan langsung ini](https://www.gyan.dev/ffmpeg/builds
 
 Usahakan tetap di zona aman pengaturan jika mengonversi video (10-15fps), nanti videonya akan mengacau konsol. Akan melambat pada adegan riuh (ada konfeti, hujan, dll).
 
-Untuk menggunakan FFmpeg di mana pun, dianjurkan menambah direktori ke jalur peubah dari lingkungan sistem. Ini bisa mengacau program yang mengandalkan FFmpeg, jadi pastikan entrinya dihapus saat selesai.
+Untuk menggunakan FFmpeg di mana pun, tambah direktorinya ke entri jalur peubah dari lingkungan sistem. Ini bisa mengacau program yang mengandalkan FFmpeg, jadi nanti hapus entrinya seusai dari ini.
 
-Seret dan taruh videonya ke salah satu berkas tumpak untuk dikonversi:
+Seret videonya ke salah satu berkas tumpak ini untuk dikonversi:
 - [xvid-ds.bat](/assets/files/xvid-ds.bat): Konversi ke video 12FPS yang optimal di konsol DS
 - [xvid-dsi.bat](/assets/files/xvid-dsi.bat): Konversi ke video 12FPS yang optimal di konsol DSi
 - [xvid-ds-vol4.bat](/assets/files/xvid-ds-vol4.bat): Konversi ke video 12FPS yang optimal di konsol DS dengan volume menaik 400%
 - [xvid-dsi-vol4.bat](/assets/files/xvid-dsi-vol4.bat): Konversi ke video 12FPS yang optimal di konsol DSi dengan volume menaik 400%
 
-Jika mau, pengaturan berikut bisa diubah dari salah satu .bat di atas:
+Jika mau, baris kode berikut bisa diubah dari salah satu .bat di atas:
 - `12` di `-r 12` ke nomor yang lain antara `10` dan `15` untuk laju bingkai berbeda
 - `-2` di `scale=256:-2` ke ukuran menegak yang diinginkan, jika video terlihat ada distorsi
 
-Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah menaruh videonya ke kartu SD, sekarang bisa diputar melalui **TW**i**L**ight Menu++.
+Setelah proses selesai, seharusnya tinggal seret dan taruh hasilnya ke kartu SD. Sesudah videonya di kartu SD, sekarang bisa diputar lewat **TW**i**L**ight Menu++.
 
 Video akan ke menu setelah selesai. Jika ingin videonya berulang, harus tempel-dan-ulang videonya di penyunting video lalu konversikan menjadi xvid avi dengan metode ini.
 

@@ -16,7 +16,7 @@ description: Як оновити TWiLight Menu++ на флешкарту Nintend
 
 ### Оновлення
 1. Завантажте останню версію [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Якщо воно не завантажується, див. [сторінку релізу](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Розпакуйте `TWiLightMenu-Flashcard.7z`
 1. Скопіюйте теку `_nds` в кореневу теку вашої microSD карти, замінивши всі наявні файли
     - Якщо ви використовуєте macOS, переконайтеся, що **скопіювали** та `об'єднали`, але не `замінили`

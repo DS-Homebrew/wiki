@@ -11,7 +11,7 @@ description: Informasi tentang GodMode9i
 ## Kemampuan *dump*
 
 Untuk menyalin permainan, pilih *drive* (kandar) di daftar kandar dan ikuti perintah di layar.
-- Untuk Nintendo DS dan Nintendo DS Lite, GodMode9i bisa men-*dump* kartrid Slot-2 jika dijalankan dari *flashcard* Slot-1, atau kartrid DS jika GodMode9i dijalankan dari *flashcart* Slot-2
+- Untuk Nintendo DS dan Nintendo DS Lite, GodMode9i bisa men-*dump* kartrid GBA jika dijalankan dari *flashcart* Slot-1, atau kartrid DS jika GodMode9i dijalankan dari *flashcart* Slot-2
     - Berkas simpanan atau *save* bisa di-*dump* dengan kartrid GBA, lihat [Pertanyaan Umum](faq?faq=how-do-i-dump-ds-saves-using-gba-save-data) untuk informasi lanjut
 - Untuk di jenis konsol Nintendo DSi, Unlaunch diperlukan untuk men-*dump* permainan Slot-1 ke kartu SD
     - Ikuti [dsi.cfw.guide](https://dsi.cfw.guide/) untuk arahan cara memasang Unlaunch

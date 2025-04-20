@@ -13,7 +13,7 @@ Si vous n'avez pas déjà un moyen d'exécuter des homebrews sur votre DSi, suiv
 
 ### Installation
 1. Téléchargez le dernier [`TwiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Si le téléchargement ne démarre pas, consulter [la page des mises à jour](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrayez `TWiLightMenu-DSi.7z`
 1. Copiez le dossier `_nds` à la racine de votre carte SD
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
@@ -47,8 +47,8 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 1. Copiez le fichier `BOOT.NDS` de `TWiLightMenu-DSi.7z` à la racine de la carte microSD de votre linker
 1. Ouvrez les paramètres de TWLMenu++
 1. Allez à la page `Autres paramètres`
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. Activez `l'accès SD dans Slot-1`
+1. Activez `l'accès SCFG dans Slot-1`
 1. Activez `Démarrage automatique Slot-1`
 1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
     - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker

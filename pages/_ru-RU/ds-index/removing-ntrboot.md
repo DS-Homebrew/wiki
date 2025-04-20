@@ -10,7 +10,7 @@ tabs:
     3ds: 3DS
 ---
 
-Once a flashcart has been flashed with **ntrboot** it is typically no longer usable as a DS flashcart (with the exception of certain flashcarts such as the Acekard 2i). It is possible to restore a flashrom file back to an ntrboot compatible flashcart to return it to it's previous functionality. If you followed the ntrboot guide, you should have a copy of the flashrom backup.
+Once a flashcart has been flashed with **ntrboot** it is typically no longer usable as a DS flashcart. It is possible to restore a flashrom file back to an ntrboot compatible flashcart to return it to it's previous functionality. If you followed the ntrboot guide, you should have a copy of the flashrom backup.
 
 ### Required hardware
 

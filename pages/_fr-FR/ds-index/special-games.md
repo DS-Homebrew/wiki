@@ -122,9 +122,9 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 
 ### DSiWare with Wi-Fi support (WPA 1/2 included)
 - Bomberman Blitz
-    - Multiplayer
+    - Multijoueur
 - Dragon Quest Wars
-    - Multiplayer
+    - Multijoueur
 - Famicom Wars DS: Ushinawareta Hikari (Advance Wars: Days of Ruin/Dark Conflict)
     - Multiplayer & Records
 - Mario vs. Donkey Kong: Minis March Again
@@ -132,11 +132,11 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 - Metal Torrent
     - Records
 - Sujin Taisen: Number Battles
-    - Multiplayer
+    - Multijoueur
 - Tetris Party Live
-    - Multiplayer
+    - Multijoueur
 - UNO
-    - Multiplayer
+    - Multijoueur
 
 ### DSiWare compilés sous forme de ROMs optimisées DSi
 - 1st Class Poker & BlackJack
@@ -189,6 +189,7 @@ description: Jeux DS(i) qui ont des propriétés spéciales
 - Phineas et Ferb : SDK4 -> SDK5 en Europe (en tant que titre optimisé DSi)
 - Pokémon Diamant/Perle : SDK3 -> SDK4 en Corée
 - Pokémon Dash : SDK2 -> SDK3 en Corée
+- Professor Layton and the Curious Village: SDK3 -> SDK4 in Japan & Korea
 - Professeur Layton et la boîte de Pandore : SDK4 -> SDK5 en Corée
 - Sawaru Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (en tant que DSiWare)
 - Sonic Rush Adventure : SDK3 -> SDK4 en Corée

@@ -14,7 +14,7 @@ Walaupun hampir semua emulator GBA bisa langsung membaca ROM GBA, ada emulator d
 
 Ada dua cara melakukannya, yaitu menggunakan:
 - Konsol 3DS yang ada CFW, atau
-- GBA/DS/DS Lite dengan *flashcart* mode GBA
+- GBA/DS/DS Lite dengan *flashcart* GBA
 
 {% capture tab-3ds-sd-card %}
 ### Bagian 1: Menyiapkan berkas yang perlu
@@ -37,7 +37,7 @@ Ada dua cara melakukannya, yaitu menggunakan:
 1. Matikan daya konsol
 
 {% capture upload-bios-text %}
-Dari kartu SD, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` ke sini:
+Lalu, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` dari kartu SD ke sini:
 {% endcapture %}
 
 ### Bagian 3: Mengekstrak BIOS dari hasil berkas simpanan
@@ -51,18 +51,18 @@ Dari kartu SD, unggah `/3ds/open_agb_firm/saves/Bios_Dumper.sav` ke sini:
 {% capture tab-gba-flashcart %}
 ### Bagian 1: Menyiapkan berkas yang perlu
 1. Unduh [Bios_Dumper.gba](https://github.com/GlaZedBelmont/Random-Stuff/releases/download/0.0.5/Bios_Dumper.gba)
-1. Salin `Bios_Dumper.gba` ke akar kartu SD *flashcart*
-1. Sisip kembali kartu SD ke *flashcart*
-1. Sisip kembali *flashcart* GBA ke Slot-2
+1. Salin `Bios_Dumper.gba` ke akar kartu SD *flashcart* GBA
+1. Sisip kembali kartu SD ke *flashcart* GBA
+1. Sisip kembali *flashcart* GBA ke slot GBA
 
 ### Bagian 2: Bios_Dumper
-1. Luncurkan *flashcart*, lalu jalankan `Bios_Dumper.gba`
+1. Luncurkan *flashcart* GBA, lalu jalankan `Bios_Dumper.gba`
 1. Layar akan berkelip merah, lalu berkelip hijau
 1. Tunggu sekitar lima detik
 1. Matikan daya konsol
 
 {% capture upload-bios-text %}
-Dari kartu SD, unggah `Bios_Dumper.sav` ke sini:
+Lalu, unggah `Bios_Dumper.sav` dari kartu SD ke sini:
 {% endcapture %}
 
 ### Bagian 3: Mengekstrak BIOS dari hasil berkas simpanan

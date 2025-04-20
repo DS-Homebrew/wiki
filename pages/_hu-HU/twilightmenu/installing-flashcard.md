@@ -24,15 +24,18 @@ tabs:
 
 ### TWiLight Menu++ automatikus bootolása
 1. Nyisd meg vagy csomagold ki a `TWiLightMenu-Flashcard.7z` fájlt
-1. Nyisd meg a `Autoboot` -> `(a flashcard-od)` mappákat
+1. Nyisd meg az `Autoboot` mappát
+1. Nyisd meg a `README.txt` fájlt, amely segít megtalálni, hogy mely autoboot fájlok megfelelőek a flashcard-odhoz
+1. Nyisd meg a `(your flashcard)` mappát
 1. Húzd a mappa tartalmát a flashcard-od microSD kártyája gyökerébe
-    - Lépd át ezt, ha nem látod a flashcard-od
+    - Győződj meg róla, hogy a `(your flashcard)` mappa már nyitva van, ne húzd a mappát a gyökérre
+    - Lépd át ezt, ha nem látod a flashcard-od listázva
 1. **DS Phat/Lite felhasználók:** Menj a beállításokba a DS menüben és kapcsold be az auto-start-ot, így a flash kártyád fog bootolni induláskor
 
-### Játékok futtatása a flashcard firmware használatával (opcionális)
+### Játékok futtatása a flashcard kernel használatával (opcionális)
 
 **Kérjük, vedd figyelembe:**
-- EVedd figyelembe, hogy ez csak akkor működik, ha a flashcard-od beállított autoboot-ra a TWiLight Menu++-ban. Tekintsd meg az előző fejezetet, arról, hogyan teheted ezt meg.
+- EEVedd figyelembe, hogy ez csak akkor működik, ha a flashcard-od beállított autoboot-ra a TWiLight Menu++-ban. Tekintsd meg az előző fejezetet, arról, hogyan teheted ezt meg.
 - Nem minden flashcard támogatja a játékok ilyen módon futtatását. Ha az alábbi lépések nem vonatkoznak a flashcard-odra, átugorhatod ezt a szakaszt.
 - Elveszted a lehetőségét annak, hogy csalásokat használj, ha a játékokat így indítod. Ha továbbra is szeretnéd elérni a csalás funkcionalitást, lépd át ezt a részt.
 {:.alert .alert-warning}
@@ -43,10 +46,12 @@ Ha a flashcart nem rendelkezik kompatibilis betöltővel ehhez a részhez, vála
 {:.alert .alert-info}
 
 1. Nyisd meg vagy csomagold ki a `TWiLightMenu-Flashcard.7z` fájlt
-1. Nyissa meg a `Flashcart Loader` -> `(a flashcard-od)` mappákat
-    - A `Flashcart Loader` mappában található egy README.txt fájl, amely segít megtalálni, hogy melyik flashcart betöltő a megfelelő a flashcard-odhoz.
+1. Nyisd meg a `Flashcart Loader` mappát
+1. Nyisd meg a `README.txt` fájlt, amely segít megtalálni, hogy mely flashcart loader-ek megfelelőek a flashcard-odhoz
+1. Nyisd meg a `(your flashcard)` mappát
 1. Húzd a mappa tartalmát a flashcard-od microSD kártyája gyökerébe
-1. Nyisd meg a TWLMenu++ Beállításokat, válts az `Játék és app beállítások` oldalra és állítsd be az `Játék betöltő`-t `Kernel`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
+    - Győződj meg róla, hogy a `(your flashcard)` mappa már nyitva van, ne húzd a mappát a gyökérre
+1. Nyisd meg a TWLMenu++ Beállításokat, válts az `Játék és app beállítások` oldalra és állítsd be az `Játék betöltő`-t `Kernel`-re, így a flashcard kernel kerül felhasználásra az nds-bootstrap helyett
     - Alternatívaként ezt játékonkénti beállításokban is megteheted, ha megnyomod az `Y` gombot a kiválasztott játékban, és megváltoztatod a `Game Loader` opciót
 
 {% endcapture tab-loader %}
@@ -77,12 +82,12 @@ Ha a flashcart nem rendelkezik kompatibilis betöltővel ehhez a részhez, vála
 1. Csomagold ki egy mappába a számítógépeden. Navigálj a flashcart-odhoz szükséges mappába.
 1. A Mappában nevezd át a `TTMenu.dat` fájlt `YSMenu.nds`-tá, ha az `YSMenu.nds` fájl még nem létezne
 1. Másold át a `TTMenu` mappát és `YSMenu.nds` fájlt a microSD kártyád gyökerébe. **Ne másold** a `TTMenu.dat`-ot közvetlenül; ez megtöri az automatikus indítást és az YSMenu soft reset-et
-1. Nyisd meg a TWLMenu++ Beállításokat, válts az `Játék és app beállítások` oldalra és állítsd be az `Játék betöltő`-t `Kernel`-re, így a flashcard firmware kerül felhasználásra az nds-bootstrap helyett
+1. Nyisd meg a TWLMenu++ Beállításokat, válts az `Játék és app beállítások` oldalra és állítsd be az `Játék betöltő`-t `Kernel`-re, így a flashcard kernel kerül felhasználásra az nds-bootstrap helyett
     - Alternatívaként ezt játékonkénti beállításokban is megteheted, ha megnyomod az `Y` gombot a kiválasztott játékban, és megváltoztatod a `Game Loader` opciót
 
 {% endcapture tab-ysmenu %}
 {% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
 
-### Játékok futtatása a flashcart-od firmware-jének használatával
+### Játékok futtatása a flashcard kernel használatával
 {% assign tabs = tab-loader | concat: tab-ysmenu %}
 {% include tabs.html index=0 tabs=tabs %}

@@ -3,8 +3,8 @@ lang: ko-KR
 layout: wiki
 section: twilightmenu
 category: customization
-title: DSi/3DS 스킨 - 커스텀 사운드 효과
-description: TWiLight Menu++용 DSi와 3DS 스킨의 커스텀 배경음악과 사운드 효과를 사용하는 방법
+title: DSi/3DS Themes - Custom SFX
+description: How to use custom background music and sound effects in DSi and 3DS themes for TWiLight Menu++
 ---
 
 TWiLight Menu++는 테마에서 커스텀 사운드를 지원합니다. 사용할 사운드 파일을 테마 폴더 안의 `sound` 디렉토리에 넣습니다. 예를 들어, `white`라는 테마가 있다고 치면 파일을 각각 `themes/white/sound/sfx.bin` 그리고 `themes/white/sound/bgm.pcm.raw`으로 해서 넣어둡니다. Both files are optional, if `bmg.pcm.raw` is missing, the default music will be used. The same thing would happen with the sound effects if `sfx.bin` is missing as well.

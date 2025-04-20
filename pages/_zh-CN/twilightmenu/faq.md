@@ -33,7 +33,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 你需要在 `sd:/_nds/TWiLightMenu/extras/` 文件夹中有一个 `usrcheat.dat` 文件格式的金手指数据库。 最新的金手指数据库可在此处下载: [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/)
 - 在3DS上，这个数据库可以在Universal-Updater应用程序中安装 "NDS(i) Cheat Databases"软件包来获得。 这个软件包将自动将其安装到所需位置。
 
-另外，你还可以使用 [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) 来创建你自己的金手指数据库。
+Alternatively, you can use [r4cce](https://web.archive.org/web/20241130133125/http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
 安装了金手指数据库之后， 你可以在TWiLight Menu++中选中一个游戏，按下 <kbd class="face">Y</kbd> 键来启用金手指。 然后按 <kbd class="face">X</kbd> 键打开金手指菜单。
 
@@ -43,7 +43,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 - 所有图像必须不大于208x156
 - 如果启动时发生了错误，很可能是图像尺寸的错误。 请使用 [tinypng](https://tinypng.com) 来减小尺寸
 
-至于隐藏图片，你需要编辑 `theme.ini` 文件，在 `sd:/_nds/WiLightMenu/dsimenu/themes/[皮肤文件夹]/` 找到。 用文本编辑器打开文件，将 `RenderPhoto` 一行的值从 `1` 改为 `0`，然后保存该文件。
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme folder]/`. 用文本编辑器打开文件，将 `RenderPhoto` 一行的值从 `1` 改为 `0`，然后保存该文件。
 
 #### 我该如何获取游戏？
 你可以从 [Universal-DB](https://db.universal-team.net/ds) 和 [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games)下载自制游戏。 要获得正式发布的游戏，你需要从实体卡带或现有的游戏机中获得转储游戏：
@@ -70,7 +70,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 
 #### 为什么我找不到/看不到我的游戏？
 有多种原因导致你可能无法找到它们。
-- 在SD卡根目录的 `_nds` 文件夹不是为了在TWiLight Menu++访问准备的，因为它保留了基于功能的文件（皮肤、配置、图像、模拟器等等）。 如果你把你的游戏放到了这里，请把它们移到其他地方。
+- The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (themes, configuration, images, emulators and more). 如果你把你的游戏放到了这里，请把它们移到其他地方。
 - 如果你在一个文件夹里有超过39个项目，并且菜单上的所有空位都被占用，你的游戏可能会在下一页。 使用 <kbd class="l">L</kbd>/<kbd class="r">R</kbd> 或 <kbd>SELECT</kbd> + <kbd>Left</kbd>/<kbd>Right</kbd> 来切换页面
 - 如果你的游戏或文件夹是隐藏的，你可能需要修改TWiLight Menu++的GUI设置来显示隐藏文件
 - 如果你的游戏是在一个压缩文件里面（`zip`, `rar`, `7z`, 等等），它不能被TWiLight Menu++读取。 从压缩文件中提取游戏以使用它
@@ -83,7 +83,7 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 - **Nintendo DSi/SEGA Saturn/Homebrew Launcher主题不使用SELECT菜单：** 按下 <kbd>SELECT</kbd> 将使你进入DS经典菜单
 - **任天堂3DS主题：** 点击屏幕下方的扳手图标
 - **原版R4主题：** 按下 <kbd>START</kbd> （如果你在文件浏览器中），然后按下 <kbd>SELECT</kbd>
-- **Wood UI theme:** Hitting <kbd>START</kbd> will bring you to the DS Classic Menu
+- **Wood UI主题：**按下 <kbd>START</kbd> 将进入 DS 经典菜单
 
 你也可以在启动TWiLight Menu++时按住 <kbd>SELECT</kbd> 来直接访问设置。
 
@@ -94,26 +94,26 @@ TWL_FIRM 可能已经损坏了。 按照这个指南来解决这个问题：<htt
 
 banner.bin类型的banner能够动画化，并允许你替换将在TWiLight Menu++中显示的标题。 它们可以使用 [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases) 生成。
 
-预制的banner可以在TWiLight Menu++皮肤网站 [icons](https://skins.ds-homebrew.com/icon/) 部分找到，如果你制作了任何banner，也可以在那里分享。
+Pre-made banners can be found in the [icons section of the TWiLight Menu++ themes site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
 
 #### 如何安装 TWiLight Menu++的自定义主题？
-你可以从 [处下载官方主题](https://skins.ds-homebrew.com/),该网站包含众多众多由社区制作的可用皮肤 You can also make a custom skin for the Nintendo 3DS and Nintendo DSi themes on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** themes are _**not**_ customizable.
+Custom themes can be acquired from [the official themes site](https://skins.ds-homebrew.com/), which houses serveral community-made themes ready to apply. You can also make a custom theme for the Nintendo 3DS and Nintendo DSi UIs on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-themes). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** UIs are _**not**_ customizable.
 
-Once you have acquired a custom skin, you can install it by placing its folder on the appropiate path, which depends on what theme the skin is made for.
-- Skins for the Nintendo DSi theme go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
-- Skins for the Nintendo 3DS theme go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
-- Skins for the R4 Original theme go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
-- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
+Once you have acquired a custom theme, you can install it by placing its folder on the appropiate path, which depends on what UI the theme is made for.
+- Themes for the Nintendo DSi UI go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
+- Themes for the Nintendo 3DS UI go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
+- Themes for the R4 Original UI go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Themes for the Wood UI go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
-If you are using a 3DS family console, you can install custom skins using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Skins`.
+If you are using a 3DS family console, you can install custom themes using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Themes`.
 
 To apply a custom theme you must access TWiLight Menu++ Settings.
-1. On the `GUI Settings` page, go to the `Theme` option and choose the theme using the right and left buttons on the D-Pad.
-1. Once the target theme is selected, press the A button to choose between the skin you have installed.
-1. Using the up and down buttons on the D-Pad, highlight the desired skin, then press A to select it.
+1. On the `GUI Settings` page, go to the `User Interface` option and choose the UI using the right and left buttons on the D-Pad.
+1. Once the target UI is selected, go to the `Custom Theme` option and press the A button to choose between the themes you have installed.
+1. Using the up and down buttons on the D-Pad, highlight the desired theme, then press A to select it.
 1. Apply the settings by pressing B to go back to TWiLight Menu++.
 
-TWiLight Menu++ should now have a customized look (and music, if the selected skin supports it and is enabled on the settings).
+TWiLight Menu++ should now have a customized look (and music, if the selected theme supports it and is enabled on the settings).
 
 #### 有一个用于 DS(i) 的3DS 模拟器吗？
 没有。 由于3DS使用较新的硬件，因此不可能在 DS(i) 上模拟 3DS.

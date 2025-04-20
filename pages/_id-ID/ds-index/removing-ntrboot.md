@@ -3,57 +3,57 @@ lang: id-ID
 layout: wiki
 section: ds-index
 category: guides
-title: Removing ntrboot
-description: How to remove ntrboot and restore a flashcart
+title: Menghapus ntrboot
+description: Cara menghapus ntrboot dan memulihkan flashcart
 tabs:
   - dsi: DSi
     3ds: 3DS
 ---
 
-Once a flashcart has been flashed with **ntrboot** it is typically no longer usable as a DS flashcart (with the exception of certain flashcarts such as the Acekard 2i). It is possible to restore a flashrom file back to an ntrboot compatible flashcart to return it to it's previous functionality. If you followed the ntrboot guide, you should have a copy of the flashrom backup.
+<i>Flashcart</i> yang sudah di-<i>flash</i> dengan **ntrboot** biasanya fungsi <i>flashcart</i>-nya akan hilang. Tenang, memulihkan fungsinya bisa dengan mem-<i>flash</i> cadangan <i>flashrom</i> ke <i>flashcart</i> yang bisa ntrboot tersebut. Jika sudah mengikuti panduan ntrboot, seharusnya ada cadangan <i>flashrom</i>-nya.
 
 ### Peranti keras yang perlu
 
-To remove ntrboot from your flashcart you will need:
+Untuk menghapus ntrboot dari <i>flashcart</i> diperlukan:
 
-- A flashcard that has been flashed with ntrboot
-- A hacked DSi/3DS running ntrboot flasher in order to restore the flashrom backup to the flashcard
-- A flashrom backup of your flashcart. If you followed the ntrboot flashing guide, you should have this as a `.bin` file in the `ntrboot` folder from your flashcart MicroSD card or DSi/3DS SD card
-- If you do **not** have this backup, you may download the corresponding flashrom backup for your flashcart from the [3ds.hacks.guide ntrboot guide](https://3ds.hacks.guide/installing-boot9strap-\(ntrboot\).html#section-v-removing-ntrboot). These are available as magnet links and require torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download) to download them
+- <i>Flashcart</i> yang sudah di-<i>flash</i> ntrboot
+- DSi/3DS termodif dengan ntrboot flasher untuk memulihkan cadangan <i>flashrom</i> ke <i>flashcart</i>
+- <i>Flashrom</i> dari <i>flashcart</i> tersebut. Jika sudah mengikuti [Mem-<i>flash</i> ntrboot](https://wiki.ds-homebrew.com/id-ID/ds-index/ntrboot), seharusnya ini ada sebagai `.bin` di folder `ntrboot` dari microSD <i>flashcart</i> atau kartu SD DSi/3DS
+- Jika **tidak** punya cadangannya, coba unduh cadangan <i>flashrom</i> yang cocok untuk <i>flashcart</i> tersebut dari [panduan ntrboot 3ds.hacks.guide](https://3ds.hacks.guide/installing-boot9strap-\(ntrboot\).html#section-v-removing-ntrboot). Ini berbentuk tautan magnet dan perlu klien torrent seperti [qBittorrent](https://www.qbittorrent.org/download.php) atau [Deluge](http://dev.deluge-torrent.org/wiki/Download) untuk mengunduhnya
 
 {% capture tab-dsi %}
 
-Harus sudah pernah mengikuti [dsi.cfw.guide](https://dsi.cfw.guide) dan mampu menjalankan <i>homebrew</i>.
+Konsol harus sudah bisa <i>homebrew</i> dan pernah mengikuti [dsi.cfw.guide](https://dsi.cfw.guide).
 {:.alert .alert-warning}
 
-1. Place your flashcart's flashrom backup in the `ntrboot` folder on your DSi SD card. Create this folder if it does not exist
-2. Unduh [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) ke kartu SD di mana saja
+1. Taruh cadangan <i>flashrom flashcart</i> ke folder `ntrboot` di kartu SD DSi. Buat folder tersebut jika belum ada
+2. Unduh [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) ke mana saja di kartu SD
 3. Sisipkan kartu SD ke konsol DSi termodif, lalu jalankan ntrboot flasher
-4. Ikuti arahan di layar. Select your cartridge from the list, then choose the `Restore Flash` option. After the restore has finished, your flashcart should now work as a DS flashcart again
+4. Ikuti arahan di layar. Pilih jenis <i>flashcart</i> dari daftar, lalu pilih opsi `Restore Flash`. Selesai memugar, <i>flashcart</i> sekarang akan berfungsi lagi sebagai <i>flashcart</i> DS
 
 {% endcapture tab-dsi %}
 {% assign tab-dsi = tab-dsi | split: "////////" %}
 
 {% capture tab-3ds %}
 
-You must have already followed [3ds.hacks.guide](https://3ds.hacks.guide) and have luma installed
+Konsol harus sudah ada Luma dan pernah mengikuti [3ds.hacks.guide](https://3ds.hacks.guide)
 {:.alert .alert-warning}
 
-1. Place your flashcart's flashrom backup in the `ntrboot` folder on your 3DS SD card. Create this folder if it does not exist.
+1. Taruh cadangan <i>flashrom flashcart</i> ke folder `ntrboot` di kartu SD 3DS. Buat folder tersebut jika belum ada.
 2. Unduh [ntrboot flasher](/assets/files/ntrboot_flasher.firm) ke kartu SD sebagai `sdmc:/luma/payloads/ntrboot_flasher.firm`
-3. Sisipkan kartu SD ke 3DS termodif. Power on your 3DS while holding `START` to open the luma chainloader, then select the ntrboot flasher
-4. Ikuti arahan di layar. Select your cartridge from the list, then choose the `Restore Flash` option. After the restore has finished, your flashcart should now work as a DS flashcart again
+3. Sisipkan kartu SD ke 3DS termodif. Nyalakan 3DS sambil menahan `START` untuk masuk <i>chainloader</i> Luma, lalu pilih ntrboot flasher
+4. Ikuti arahan di layar. Pilih jenis <i>flashcart</i> dari daftar, lalu pilih opsi `Restore Flash`. Selesai memugar, <i>flashcart</i> sekarang akan berfungsi lagi sebagai <i>flashcart</i> DS
 
 {% endcapture tab-3ds %}
 {% assign tab-3ds = tab-3ds | split: "////////" %}
 
-### Removing ntrboot
+### Menghapus ntrboot
 
 {% assign tabs = tab-dsi | concat: tab-3ds %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Troubleshooting
+### Sidik Gangguan
 
-In some cases, the restore may fail. This may be due to either an incorrect flashrom backup file, or your flashcard may be incompatible with the restore. ntrboot uses a hardcoded name for restoring flashrom backups. If you renamed the `.bin` file and do not have the original name, you can create a flash dump which will create a `.bin` file of the correct name of which you can then use to rename your flashrom backup.
+Di kasus tertentu, pemulihan bisa gagal. Ini mungkin karena cadangan <i>flashrom</i> yang salah, atau jenis <i>flashcart</i> tidak kompatibel untuk pemulihan. ntrboot itu <i>hardcoded</i> (terkode tetap) pada <b>nama cadangan <i>flashrom</i></b> untuk pemulihan. Jika nama `.bin` diubah/lupa nama aslinya, lakukan <i>Flash Dump</i> untuk membuat `.bin` dengan nama yang benar, lalu salin tempel namanya sebagai nama baru cadangan <i>flashrom</i> tadi.
 
-If you are unsure and require assistance you can ask in the [DS(i) Mode Hacking](https://ds-homebrew.com/discord) Discord server.
+Jika tidak yakin dan perlu bantuan, bisa tanyakan di server Discord [DS(i) Mode Hacking](https://ds-homebrew.com/discord).

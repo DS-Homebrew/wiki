@@ -189,6 +189,7 @@ description: 具有特殊属性的 DS(i) 游戏
 - Phineas and Ferb: SDK4 -> SDK5 in Europe (as a DSi-Enhanced title)
 - Pokémon Diamond/Pearl: SDK3 -> SDK4 in Korea
 - Pokémon Dash: SDK2 -> SDK3 in Korea
+- Professor Layton and the Curious Village: SDK3 -> SDK4 in Japan & Korea
 - Professor Layton and the Diabolical/Pandora's Box: SDK4 -> SDK5 in Korea
 - Sawaru: Made in Wario: SDK2 -> SDK4 (Rev 3) -> SDK5 (as DSiWare)
 - Sonic Rush Adventure: SDK3 -> SDK4 in Korea

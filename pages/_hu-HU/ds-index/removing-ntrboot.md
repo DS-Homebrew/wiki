@@ -4,13 +4,13 @@ layout: wiki
 section: ds-index
 category: útmutatók
 title: Az ntrboot eltávolítása
-description: How to remove ntrboot and restore a flashcart
+description: Hogy távolítsd el az ntrboot-ot és állíts vissza egy flashcart-ot
 tabs:
   - dsi: DSi
     3ds: 3DS
 ---
 
-Once a flashcart has been flashed with **ntrboot** it is typically no longer usable as a DS flashcart (with the exception of certain flashcarts such as the Acekard 2i). It is possible to restore a flashrom file back to an ntrboot compatible flashcart to return it to it's previous functionality. If you followed the ntrboot guide, you should have a copy of the flashrom backup.
+Ha egy flashcartot egyszer már **ntrboot**-ra flasheltek, akkor az általában már nem használható DS flashcartként. Lehetséges van flashrom fájl egy ntrboot kompatibilis flashcartra, hogy visszaállítsa annak korábbi funkcionalitását. Ha követted az ntrboot útmutatót, akkor rendelkezned kell a flashrom biztonsági másolatával.
 
 ### Szükséges hardver
 
@@ -26,10 +26,10 @@ Az ntrboot eltávolításához a flashcart-odról a következőre lesz szükség
 Már követned kellett a [dsi.cfw.guide](https://dsi.cfw.guide) útmutatót és rendelkezned kell a homebrew futtatásának valamilyen módjával.
 {:.alert .alert-warning}
 
-1. Place your flashcart's flashrom backup in the `ntrboot` folder on your DSi SD card. Create this folder if it does not exist
+1. Rakd a flashcart-od flashrom mentését az `ntrboot` mappába a DSi-d SD kártyáján. Hozd létre ezt a mappát, ha nem létezik
 2. Töltsd le az [ntrboot flasher](/assets/files/ntrboot_flasher_nds.nds) fájlt az SD-kártyádra
 3. Helyezd be az SD kártyád egy moddolt DSi-be, majd futtasd az ntrboot flasher-t
-4. Kövesd a képernyőn megjelenő utasításokat. Select your cartridge from the list, then choose the `Restore Flash` option. After the restore has finished, your flashcart should now work as a DS flashcart again
+4. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, majd válaszd a `Restore Flash` opciót. Amint a helyreállítás végzett, a flashcart-odnak újra úgy kell működnie mint egy DS flashcart-nak
 
 {% endcapture tab-dsi %}
 {% assign tab-dsi = tab-dsi | split: "////////" %}
@@ -39,10 +39,10 @@ Már követned kellett a [dsi.cfw.guide](https://dsi.cfw.guide) útmutatót és 
 Már követned kellett a [3ds.hacks.guide](https://3ds.hacks.guide) útmutatót és rendelkezned kell a luma telepítéssel.
 {:.alert .alert-warning}
 
-1. Place your flashcart's flashrom backup in the `ntrboot` folder on your 3DS SD card. Create this folder if it does not exist.
+1. Rakd a flashcart-od flashrom mentését az `ntrboot` mappába a 3DS-ed SD kártyáján. Hozd létre ezt a mappát, ha nem létezik.
 2. Töltsd le az [ntrboot flasher](/assets/files/ntrboot_flasher.firm) fájlt az SD-kártyádra, mint `sdmc:/luma/payloads/ntrboot_flasher.firm`
 3. Helyezd be az SD-kártyád egy moddolt 3DS-be. Kapcsold be a 3DS-ed, miközben nyomva tartod a `START` gombot a luma chainloader megnyitásához, majd válaszd ki az ntrboot flasher-t
-4. Kövesd a képernyőn megjelenő utasításokat. Select your cartridge from the list, then choose the `Restore Flash` option. After the restore has finished, your flashcart should now work as a DS flashcart again
+4. Kövesd a képernyőn megjelenő utasításokat. Válaszd ki a cartridge-ed a listából, majd válaszd a `Restore Flash` opciót. Amint a helyreállítás végzett, a flashcart-odnak újra úgy kell működnie mint egy DS flashcart-nak
 
 {% endcapture tab-3ds %}
 {% assign tab-3ds = tab-3ds | split: "////////" %}
@@ -54,6 +54,6 @@ Már követned kellett a [3ds.hacks.guide](https://3ds.hacks.guide) útmutatót 
 
 ### Hibaelhárítás
 
-In some cases, the restore may fail. This may be due to either an incorrect flashrom backup file, or your flashcard may be incompatible with the restore. ntrboot uses a hardcoded name for restoring flashrom backups. If you renamed the `.bin` file and do not have the original name, you can create a flash dump which will create a `.bin` file of the correct name of which you can then use to rename your flashrom backup.
+Bizonyos esetekben a visszaállítás nem fog sikerülni. Ennek oka lehet egy hibás flashrom biztonsági mentési fájl, vagy a flashcard nem kompatibilis a visszaállítással. Az ntrboot a flashrom biztonsági mentések visszaállításához keményen kódolt nevet használ. Ha átnevezted a `.bin` fájlt, és nincs meg az eredeti neve, akkor létrehozhatsz egy flash dumpot, amely létrehoz egy `.bin` fájlt a megfelelő névvel, amelyet aztán felhasználhatsz a flashrom biztonsági mentés átnevezéséhez.
 
-If you are unsure and require assistance you can ask in the [DS(i) Mode Hacking](https://ds-homebrew.com/discord) Discord server.
+Ha nem vagy biztos és segítségre van szükséged, kérdezz a [DS(i) Mode Hacking](https://ds-homebrew.com/discord) Discord szerveren.

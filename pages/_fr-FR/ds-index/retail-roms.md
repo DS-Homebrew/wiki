@@ -8,7 +8,7 @@ description: Informations relatives aux jeux DS commerciaux
 ---
 
 ### Anti-piratage
-L'AP (anti-piratage) est une méthode utilisée par les développeurs pour faire respecter les achats légitimes et empêcher le piratage. Celle-ci peut être contournée soit à partir du lanceur, soit à partir de la ROM elle-même.
+L'AP (anti-piratage) est une méthode utilisée par les développeurs pour faire respecter les achats légitimes et empêcher le piratage. Celle-ci peut être contournée soit à partir du chargeur, soit à partir de la ROM elle-même.
 
 - For nds-bootstrap, it can load an `.ips` file (both internal and external) in order to circumvent said patches. Ce fichier `.ips` sera appliqué par nds-bootstrap dans la RAM afin que vous puissiez garder les fichiers ROMs intacts.
 - Pour Wood R4, ces correctifs sont inclus dans le logiciel lui-même, vous n'aurez pas besoin de modifier la ROM elle-même
@@ -26,7 +26,7 @@ Les cartes Nintendo DS ont 4 types de sauvegarde connus :
 - FRAM - Mémoire à accès aléatoire ferroélectrique
 - NAND - NON-ET
 
-Il existe différents formats à utiliser en fonction du lanceur, mais nds-bootstrap utilise le format brut `.sav`. Si vous avez une sauvegarde dans un format différent, voici un site Web que vous pouvez utiliser pour la convertir : http://www.shunyweb.info/convert.php.
+Il existe différents formats à utiliser en fonction du chargeur, mais nds-bootstrap utilise le format brut `.sav`. Si vous avez une sauvegarde dans un format différent, voici un site Web que vous pouvez utiliser pour la convertir : http://www.shunyweb.info/convert.php.
 
 ### Assembleur
 Le langage assembleur est un langage de programmation de bas niveau avec une forte connexion entre les instructions du langage et les instructions du processeur. Sur la DS, le code d'assemblage se présente sous la forme d'instructions ARM ou THUMB, les instructions THUMB étant un sous-ensemble des instructions ARM. THUMB est utile pour économiser la bande passante de la mémoire car il utilise des instructions de 16 bits au lieu des instructions 32 bits habituelles utilisées par ARM.

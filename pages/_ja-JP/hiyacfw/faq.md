@@ -22,7 +22,7 @@ You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to
 
 何が動作する・しないは、一つ置きの2つのギガバイトの範囲に依存します。 例えば、0〜2GiBの空き容量は動作しますが、2〜4GiBは動作しません。 同じことは、SDカードの容量になるまで、4〜6GiB対6〜8GiBなどに当てはまります。
 
-最新のhiyaCFWバージョンでは、これを回避するにはダミーファイルを作成できるため、必ず最新のバージョンの[hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)をダウンロードし、`hiya.dsi`を「for SDNANDSD card」からSDカードのルートにコピーしてください。
+We made the brand new launcher patches which fix the free space bug. To work around this, please ensure that you are running the latest TWLMagician when installing hiyaCFW. If not, please [reinstall hiyaCFW](installing).
 
 ##### 40タイトル以上
 ニンテンドーDSiメニューには39タイトルの制限があります。 If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.

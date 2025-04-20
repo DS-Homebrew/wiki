@@ -17,7 +17,7 @@ Mengoprek fisik rentan merusak DSi. Jika ingin konsol DSi tidak matot lagi, coba
 Oprek fisik atau *hardmod* adalah tindakan menyolder papan induk Nintendo DSi ke adaptor kartu SD agar terbaca di komputer. Ini berguna untuk memulihkan cadangan NAND, melihat NAND di komputer, dll...
 
 ### Nintendo DS
-[![Papan induk DS Orisinal dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
+[![Papan induk DS Phat dengan titik-sentuh berlabel](/assets/images/ds-hardmod/mobo_pinout.png)](/assets/images/ds-hardmod/mobo_pinout.png)
 
 ### Nintendo DSi
 
@@ -52,7 +52,7 @@ Untuk mengoprek fisik Nintendo DSi/DSi XL (LL) diperlukan:
 #### Membuang *footer* no$gba
 Pertama-tama harus menghapus *footer* NOCASH dari cadangan yang akan di-*flash* ke DSi. Caranya dengan [hiyaCFW helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest).
 
-1. Unduh versi aplikasi sesuai sistem operasi komputer
+1. Unduh versi program sesuai sistem operasi komputer
 1. Jalankan naskah, pilih cadangan NAND yang ingin di-*flash* ke DSi
 1. Ganti ke mode NAND dengan tombol di sebelah kiri jalur berkas
 1. Pencet `Start` untuk mencadang NAND tanpa *footer* no$gba

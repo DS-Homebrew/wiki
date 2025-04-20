@@ -22,28 +22,28 @@ Non aggiornare il sistema dopo aver installato hiyaCFW. Se si aggiorna il sistem
 
 ### Parte 1: Preparazione del PC per l'installazione di hiyaCFW
 {% capture tab-windows %}
-L'helper hiyaCFW è causa di falsi positivi con Windows Defender e altri programmi antivirus. Si prega di disattivare temporaneamente tali programmi se si hanno problemi a scaricarlo o eseguirlo.
-{: .alert .alert-info}
-
-1. Scarica e installa l'ultima versione di [7-Zip](https://www.7-zip.org/download.html)
-    - Questo non funzionerà con nessun altro strumento di estrazione di archivi, come WinRAR. L'helper hiyaCFW si basa su 7-Zip stesso, e non su un estrattore di archivi generale
-1. Scarica l'ultima versione per Windows di [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Estrai l'archivio hiyaCFW Helper ovunque sul tuo PC
+1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Run the TWLMagician MSI package and extract it to anywhere on your PC
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
 {% capture tab-macos %}
-1. Scarica l'ultima versione per macOS di [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Estrai l'archivio hiyaCFW Helper ovunque sul tuo PC
+1. Download the latest macOS version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 {% endcapture %}
 {% assign tab-macos = tab-macos | split: "////////" %}
 
 {% capture tab-other %}
 1. Se non è già installato, installa Python 3 usando il gestore di pacchetti della tua distribuzione
-1. Scarica l'ultima versione per Python di [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Estrai l'archivio hiyaCFW Helper ovunque sul tuo PC
+1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
+1. Extract the TWLMagician archive anywhere on your PC
 1. Se non è già installato, installa tkinter con il seguente comando per la tua distribuzione:
     - Debian-based: `sudo apt-get install python3-tk`
+    - Arch Linux: `sudo pacman -S tk`
+    - Fedora: `sudo dnf install python3-tkinter`
+    - CentOS: `sudo yum install python3-tkinter`
+1. Install requirements with the following command:
+    - `pip3 install -r requirements.txt`
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -51,19 +51,19 @@ L'helper hiyaCFW è causa di falsi positivi con Windows Defender e altri program
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Parte 2: Aggiunta dei file hiyaCFW alla scheda SD
-![Schermata di hiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+![Screenshot of TWLMagician](https://i.ibb.co/xXr3nd3/336ffe68-abd9-4880-b2ca-5421cbf5958a.png)
 
-1. Avvia hiyaCFW Helper
-    - **Windows:** Avvia il file `HiyaCFW_Helper.exe` estratto dall'archivio hiyaCFW Helper (potrebbe essere necessario disattivare temporaneamente il tuo antivirus)
-    - **macOS:** Fai clic con il pulsante destro del mouse sul file `HiyaCFW_Helper` estratto dall'archivio hiyaCFW Helper e scegliere `Apri`
-    - **Linux:** Lancia il file `HiyaCFW_Helper.py` estratto dall'archivio hiyaCFW Helper
+1. Launch TWLMagician
+    - **Windows:** Launch the `TWLMagician.exe` file extracted from the TWLMagician archive (you may need to temporarily disable your antivirus)
+    - **macOS:** Right click the `TWLMagician` file extracted from the TWLMagician archive and choose `Open`
+    - **Linux:** Launch the `TWLMagician.py` extracted from the TWLMagician archive
 1. Fai clic sul pulsante `...` nella casella "NAND file with No$GBA footer"
 1. Naviga al tuo backup NAND, e clicca su `Open`
 1. Premi `Start`
 1. Nella nuova finestra pop-up, vai nella root della tua scheda SD e premi `OK`.
     - Il processo può richiedere diversi minuti
-1. Quando l'applicazione dice `Done!`, chiudi l'Helper hiyaCFW
-1. Chiudi la finestra del terminale
+1. When the application says `Done!`, close out of TWLMagician
+1. Close the terminal window (optional)
 
 ### Parte 3: Configurazione di Unlaunch e hiyaCFW
 1. Avvia la console Nintendo DSi tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>

@@ -36,12 +36,9 @@ Számos emulátor létezik DS-re és DSi-re. Ez az oldal összefoglaló bemutat�
 | Rocket Video            | [Rocket Video Player][rvidplayer]               | `.rvid`                                |                                                                            |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]              | `.sg`                                  |                                                                            |
 | Sord M5                 | [ColecoDS][colecods]                            | `.m5`                                  |                                                                            |
-| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`                                                           |
+| SNES                    | [SNEmulDS][snemulds]                            | `.smc`, `.sfc`                         | `[rom neve].srm`[^8]                                                       |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                          | `.ws`, `.wsc`                          | ???                                                                        |
 | Xvid                    | [tuna-viDS][tunavids]                           | `.avi`                                 |                                                                            |
-
-- Lábjegyzetek -
-{:footnotes}
 
 Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLight Menu++-ban. Léteznek még más emulátorok ezekhez a konzolokhoz (mint például lolSnes, Gbaemu4ds, stb.)
 
@@ -51,10 +48,22 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 | -------- | -------------- | -------------- | ------------ |
 | Neo Geo  | [neoDS][neods] | `.neo`         | (ismeretlen) |
 
+### BIOS használat
+
+| Formátum            | Betöltő                             | Útvonal                | Kötelező   |
+| ------------------- | ----------------------------------- | ---------------------- | ---------- |
+| Game Boy (Color)    | [GameYob][gameyob][^9]              | Felhasználó beállított | Nem        |
+| Game Boy Advance    | [GBARunner2][gbarunner2], natív[^5] | `/_gba/bios.bin`       | Lásd [^10] |
+| Famicom Disk System | [nesDS][nesds]                      | `/disksys.rom`         | Igen       |
+
+- Lábjegyzetek -
+{:footnotes}
+
 ## Megjegyzések bizonyos emulátorokhoz
+
 ### RAM Disk-ek
-- A **jEnesisDS** vagy **neoDS** működéséhez DSi SD kártyáról RAM disket kell használnod az nds-bootstrap-pel
-    - RAM disk készítő a jEnesisDS beépített a TWiLight Menu++-ba. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
+- A **jEnesisDS**, **SNEmulDS** (legacy verzió) vagy sa **neoDS** működéséhez DSi SD kártyáról RAM disket kell használni az nds-bootstrap-hez
+    - RAM disk készítők léteznek a jEnesisDS és az SNEmulDS (legacy verzió) emulátorokhoz és beépítettek az nds-bootstrap-be. Saját RAM disket kell létrehoznod a neoDS-hez. Tekintsd meg a [RAM Disk-ek létrehozását](../twilightmenu/creating-ram-disks) ennek a módjáról
     - Az ok, amiért a RAM disk-ek használtak, az, hogy ezen emulátorok ARM7 hook-jai nem működnek megfelelően
 
 ### A PicoDriveTWL és a jEnesisDS összehasonlítása
@@ -65,7 +74,7 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
         - Gyorsabb betöltési idő a TWiLight Menu++ és az emulátor között DSi SD kártyán
     - Argumentumok támogatása
     - A korlát 3 MB egy **Flashcard-on**
-        - Felhasználja a DSi extra RAM-ot vagy a DS Memory Pak-ot, hogy kiterjessze ezt a korlátot
+        - Felhasználja a DSi extra RAM-ot vagy a DS Memory Expansion Pak-ot, hogy kiterjessze ezt a korlátot
     - Nincs hang emuláció
     - A framerate extrém változó
 
@@ -76,8 +85,8 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
     - Eltart egy ideig a betöltése
     - Nincs argumentum támogatás
     - A korlát 3 MB minden platformon (mert a ROM-ok betöltődnek a RAM-ba)
-        - Nincs DS Memory Pak vagy DSi Extended Memory támogatás
-        - Létezik egy patch a Sonic 3 & Knuckles-hez, ami eltávolítja a többjátékos üzemmódot, hogy csökkentse a méretet
+        - Nincs DS Memory Expansion Pak vagy DSi Extended Memory támogatás
+        - Létezik egy patch a *Sonic 3 & Knuckles*-hez, ami eltávolítja a többjátékos üzemmódot, hogy csökkentse a méretet
     - Hang emuláció
     - A framerate állandó
 
@@ -90,6 +99,9 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [^4]: Ha DSi módban fut, használni tudja a DSP-t a jobb hanghoz
 [^5]: Egy Slot-2 flashcard-ot igényel, így csak DS Phat-on és DS Lite-on működik
 [^6]: A jEnesis csak akkor tud menteni, ha flashcard-ról fut, de a PicoDriveTWL tud menteni SD kártyáról és flashcard-ról futtatás esetén is
+[^8]: A mentéshez flashcardra vagy az emulátor új verziójára van szükség (alapértelmezés szerint a legacy verzió van használatban)
+[^9]: Van egy hibája, hogy a BIOS képernyő nem jelenik meg, amikor egy játékot indítunk el paraméterekkel
+[^10]: Nem szükséges a natívhoz, szükséges néhány játékhoz a GBARunner2-vel, szükséges minden játékhoz a GBARunner3-mal
 
 [a5200ds]: https://github.com/wavemotion-dave/A5200DS
 [a7800ds]: https://github.com/wavemotion-dave/A7800DS
@@ -108,7 +120,7 @@ Ezek csak az ajánlott emulátorok és betöltők, amik megtalálhatók a TWiLig
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
 [rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
-[snemulds]: https://www.gamebrew.org/wiki/SnemulDS_-_Revival
+[snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [neods]: https://www.gamebrew.org/wiki/NeoDS

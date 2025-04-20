@@ -7,7 +7,7 @@ long_title: A hiyaCFW eltávolítása
 description: Hogyan távolítsd el a hiyaCFW-t Nintendo DSi-ról
 ---
 
-a hiyaCFW csak az SD-kártyán van jelen, és nincs jelen a NAND-on. A folytatás előtt mindenképpen készíts biztonsági mentést az SDNAND-ról minden olyan mentett adatról, amelyet meg szeretnél tartani. Ennek lépéseit a III. részében a [dsi.cfw.guide](https://dsi.cfw.guide)-nak [DSiWare mentések](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) útmutatóban találod.
+a hiyaCFW csak az SD-kártyán van jelen, és nincs jelen a NAND-on. A folytatás előtt mindenképpen készíts biztonsági mentést az SDNAND-ról minden olyan mentett adatról, amelyet meg szeretnél tartani. Ennek módját a [dsi.cfw.guide](https://dsi.cfw.guide) [DSiWare mentésekről](https://dsi.cfw.guide/dsiware-backups.html) szóló útmutatója segítségével tanulhatod meg.
 
 ### Eltávolítás
 1. Töröld a `hiya.dsi` fájlt az SD kártya gyökeréből

@@ -11,7 +11,7 @@ Ada sejumlah versi atau *build* berbeda dari GBARunner2 yang bisa digunakan. Ver
 
 ## Versi DS, DSi, dan 3DS
 
-GBARunner2 terdapat versi yang memanfaatkan spesifikasi tambahan konsol DSi dan 3DS. Tentu saja, versi khusus DSi dan 3DS tidak akan berfungsi di DS. GBARunner2 versi tersebut juga tidak berfungsi jika dijalankan dari *flashcard* di sistem apa pun, termasuk DSi dan 3DS. Untuk perinciannya tidak akan dibahas di sini.
+GBARunner2 terdapat versi yang memanfaatkan spesifikasi tambahan konsol DSi dan 3DS. Tentu saja, versi khusus DSi dan 3DS tidak akan berfungsi di DS. GBARunner2 versi tersebut juga tidak berfungsi jika dijalankan dari *flashcart* di konsol apa pun, termasuk DSi dan 3DS. Untuk perinciannya tidak akan dibahas di sini.
 
 Berarti, versi untuk DS bisa digunakan di konsol DSi dan 3DS, tapi tidak sebaliknya.
 
@@ -31,9 +31,9 @@ Cabang *Wi-Fi-Link* ini mampu menghubungkan dua sistem secara nirkabel. Tapi buk
 
 ### ARM7DLDI vs ARM9DLDI
 
-**ARM9DLDI biasanya digunakan**, dan jika tidak berfungsi, coba yang ARM7DLDI. Beberapa *flashcard* ada yang hanya bisa ARM7DLDI atau ARM9DLDI, atau ada yang bisa keduanya. Tidak ada daftar pasti *flashcard* berfungsi di versi mana, tapi jika ada isu menjalankan GBARunner2 mungkin coba versi satunya lagi.
+**ARM9DLDI biasanya digunakan**, dan jika tidak berfungsi, coba yang ARM7DLDI. Beberapa *flashcart* ada yang hanya bisa ARM7DLDI atau ARM9DLDI, atau ada yang bisa keduanya. Tidak ada daftar pasti *flashcart* berfungsi di versi mana, tapi jika ada isu menjalankan GBARunner2 mungkin coba versi satunya lagi.
 
-Jika menggunakan **TW**i**L**ight Menu++ di *flashcard*, bisa dipilih versi ARM7DLDI atau ARM9DLDI di pengaturan **TW**i**L**ight Menu++.
+Jika menggunakan **TW**i**L**ight Menu++ di *flashcart*, bisa ganti ke versi ARM7DLDI atau ARM9DLDI di pengaturan **TW**i**L**ight Menu++.
 
 Keduanya tidak ada perbedaan dari segi fitur atau kinerja, sehingga keduanya tidak usah diuji yang mana yang lebih sedikit ada isu atau lebih lancar.
 

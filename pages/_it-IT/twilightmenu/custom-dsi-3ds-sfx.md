@@ -3,8 +3,8 @@ lang: it-IT
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skin DSi/3DS - Effetti sonori personalizzati
-description: Come utilizzare musica di sottofondo ed effetti sonori personalizzati nelle skin DSi e 3DS per TWiLight Menu++
+title: DSi/3DS Themes - Custom SFX
+description: How to use custom background music and sound effects in DSi and 3DS themes for TWiLight Menu++
 ---
 
 TWiLight Menu++ supporta i file audio personalizzati nei temi. Colloca i file audio nella sottocartella `sound` della cartella del tema, ad esempio per il tema `white` i file vanno collocati rispettivamente in `themes/white/sound/sfx.bin` e `themes/white/sound/bgm.pcm.raw`. Entrambi i file sono opzionali; se `bmg.pcm.raw` manca, verrà utilizzata la musica predefinita. La stessa cosa accadrebbe con gli effetti sonori se mancasse anche `sfx.bin`.

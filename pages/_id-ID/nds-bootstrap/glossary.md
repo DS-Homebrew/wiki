@@ -10,13 +10,13 @@ description: Daftar istilah di nds-bootstrap
 Pengaturan berikut ada di setelan tiap-permainan TWiLight Menu++. Beberapa opsi ini bisa diubah di menu *in-game* dari nds-bootstrap
 
 ### Versi SDK
-Versi dari *Software Development Kit* (SDK) sebagai pengompilasi ROM.
+Versi dari *Software Development Kit* (SDK) sebagai kompilator ROM.
 
 ### ID Judul
-ID atau identitas ini ditampilkan di bawah stiker kartrid (contoh: `NTR-ASME-USA`). Bisa juga didapat dengan membaca *header* ROM.
+Identitas (ID) ini ditampilkan di bagian bawah stiker kartrid (contoh: `NTR-ASME-USA`). Ini didapat dengan membaca *header* ROM.
 
 ### Nomor simpanan
-Berkas simpanan atau *save* permainan akan berekstensi `.savX`, tanda X menandakan angka simpanan selain 0. Mampu menyimpan sampai 10 simpanan di ROM yang sama.
+Berkas simpanan atau *save* permainan akan berekstensi `.savX`, tanda X itu angka simpanan selain 0. Mampu menyimpan sampai 10 simpanan di ROM yang sama.
 
 ### Jalankan di
 Mengubah mode yang dijalankan ROM. Cepat CPU ARM9 dan opsi Mode VRAM juga terpengaruh. Jika ROM yang tidak didukung diubah ke mode DSi tidak akan ada efeknya.
@@ -31,7 +31,7 @@ Mengubah mode *Video Random Access Memory* (VRAM) dari sistem. Secara bawaan, RO
 Mengaktifkan *Direct Memory Access* (DMA) untuk bacaan kartu. Jika ini diaktifkan akan sedikit mempercepat ROM, tapi akan ada isu. Info lebih teknis bisa dilihat di [Indeks DS](https://wiki.ds-homebrew.com/id-ID/ds-index/retail-roms#dma-bacaan-kartu).
 
 ### Mulai Langsung
-Hanya muncul pada ROM *homebrew* di *flashcard*. Jika diatur ke `Nyala`, ROM tidak akan dimuat dengan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
+Hanya muncul pada ROM *homebrew* di *flashcart*. Jika diatur ke `Nyala`, ROM tidak akan dimuat dengan nds-bootstrap. Ini berguna untuk *homebrew* yang tidak perlu/berfungsi dengan nds-bootstrap.
 
 ### Bootstrap
 Mengubah cara jalan ROM apakah dengan nds-boostrap versi *Release* atau *Nightly*. Informasi untuk versi *Nightly* bisa dilihat di [Pertanyaan Umum nds-bootstrap](https://wiki.ds-homebrew.com/id-ID/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)

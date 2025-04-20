@@ -7,20 +7,20 @@ title: 폰트 변경하기
 description: TWiLight Menu++에서 커스텀 폰트를 사용하는 방법
 ---
 
-TWiLight Menu++에서는 NFTR (Nitro FonT Resource) 포맷 파일로 커스텀 폰트를 사용할 수 있습니다. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher themes.
+TWiLight Menu++에서는 NFTR (Nitro FonT Resource) 포맷 파일로 커스텀 폰트를 사용할 수 있습니다. They will be used in Settings, the Manual's titles, and in the Nintendo DSi, Nintendo 3DS, SEGA Saturn, and Homebrew Launcher UIs.
 
 ### 디렉토리 구조
 Custom fonts are loaded from `sd:/_nds/TWiLightMenu/extras/fonts/[font name]/[font file].nftr` where `[font name]` is whatever name you want and `[font file].nftr` is one of the following:
 - `large.nftr`: The larger font used for titles
 - `small.nftr`: The smaller font used for most other text
 
-### Skin fonts
-You may add fonts to [custom DSi/3DS theme skins](custom-dsi-3ds-skins), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the skin's root folder.
+### Theme fonts
+You may add fonts to [custom DSi/3DS themes](custom-dsi-3ds-themes), which will override whatever is set in TWiLight Menu++ settings. These fonts go in the `font` folder, in the theme's root folder.
 
-Custom skins can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
+Custom themes can additionally use override fonts for the date & time using `date_time.nftr`, and the console username with `username.nftr`.
 
 ### Generating custom fonts
-You can make your own fonts using a utility such as Pk11's [nftr-editor](https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
+You can make your own fonts using a utility such as Pk11's [nftr-editor](https://web.archive.org/web/20240618221756/https://pk11.us/nftr-editor/). To regenerate one of TWiLight Menu++'s existing fonts using it:
 1. Load an NFTR file in nftr-editor
 1. Type the names of the fonts you want to use from highest to lowest priority in the `Input font` text box, comma separated
     - You can see a preview of the input fonts in the top box on the left and the current NFTR in the bottom box

@@ -25,7 +25,7 @@ tabs:
     - 它的图标长这样：![TWiLight Menu++ 图标](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. 按 <kbd class="face">A</kbd> 键，或是点击侧边栏中的下载图标并选择 `TWiLight Menu++` 来安装它
     - 可能需要一段时间
-    - 如果安装失败，请确保掌机已连接到互联网。 否则，请单击 "`Manual`"选项卡
+    - 如果安装失败，请确保设备已连接到互联网。 否则，请单击 "`Manual`"选项卡
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -47,7 +47,7 @@ tabs:
 
 {% capture tab-manual %}
 1. 下载最新的 [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - 如果未下载，请查看 [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. 解压 `TWiLightMenu-3DS.7z`
 1. 将 `_nds` 文件夹复制到 SD 卡的根目录下
 1. 将 `BOOT.NDS` 文件复制到 SD 卡的根目录下
@@ -84,8 +84,8 @@ tabs:
 1. 将 `BOOT.NDS` 文件从 `TWiLightMenu-Flashcard.7z` 复制到烧录卡的 microSD 卡根目录。
 1. 打开 TWLMenu++ 设置
 1. 切换到 `Misc settings`（杂项设置）页面
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. 打开 `SD access in Slot-1`
+1. 打开 `SCFG access in Slot-1`
 1. 打开 `Auto-start Slot-1`
 1. 按 `B` 键退出 TWLMenu++ 设置
     - 如果您最后进入的是 DS 经典菜单，请启动烧录卡

@@ -24,8 +24,8 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
 1. Trouvez TWiLight Menu++ dans la grille des applications, vous pouvez effectuer une recherche avec le 3<sup>ème</sup> onglet de la barre latérale si vous avez des difficultés à le trouver
     - Il a cette icône : ![Icône de TWiLight Menu ++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou touchez l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
-    - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - L'installation prendra un moment
+    - Si l'installation échoue, assurez vous que la console soit connectée à internet. Sinon, cliquez sur l'onglet `Manuel`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -41,13 +41,13 @@ Vous devrez d'abord avoir un firmware personnalisé sur votre 3DS, suivez [3ds.h
     - Il a cette icône : ![Icône de TWiLight Menu++](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Appuyez sur <kbd class="face">A</kbd> ou touchez l'icône de téléchargement dans la barre latérale et sélectionnez `TWiLight Menu++` pour l'installer
     - Cela va prendre un certain temps
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+    - Si l'installation échoue, assurez vous que la console soit connectée à internet. Sinon, cliquez sur l'onglet `Manuel`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
 {% capture tab-manual %}
 1. Téléchargez le dernier [`TwiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Si le téléchargement ne démarre pas, consulter [la page des mises à jour](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extrayez `TWiLightMenu-3DS.7z`
 1. Copiez le dossier `_nds` à la racine de votre carte SD
 1. Copiez le fichier `BOOT.NDS` à la racine de votre carte SD
@@ -84,8 +84,8 @@ Un linker est un élément qui se place dans l'emplacement de la carte de jeu, e
 1. Copiez le fichier `BOOT.NDS` de `TWiLightMenu-DSi.7z` à la racine de la carte microSD de votre linker
 1. Ouvrez les paramètres de TWLMenu++
 1. Allez à la page `Autres paramètres`
-1. Turn on `SD access in Slot-1`
-1. Turn on `SCFG access in Slot-1`
+1. Activez `l'accès SD dans Slot-1`
+1. Activez `l'accès SCFG dans Slot-1`
 1. Activez `Démarrage automatique Slot-1`
 1. Quittez les paramètres de TWLMenu++ en appuyant sur le bouton `B`
     - Si vous vous retrouvez dans le menu DS Classic, lancez votre linker

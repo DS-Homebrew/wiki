@@ -12,7 +12,7 @@ Beberapa *homebrew* DS tidak tahu cara mengakses sistem berkas kartu SD. Makanya
 Peranti lunak di sini memerlukan sistem operasi Windows.
 {:.alert .alert-info}
 
-Panduan ini tidak usah diikuti jika menggunakan *flashcard*.
+Panduan ini tidak usah diikuti jika menggunakan *flashcart*.
 {:.alert .alert-info}
 
 Untuk membuat *RAM disk*, unduh [Dataram RAMDisk](https://web.archive.org/web/20240923165935/https://memory.dataram.com/products-and-services/software/ramdisk#freeware) (pencet `Download Software`), dan ikuti arahan di bawah ini.
@@ -21,11 +21,11 @@ Arahan dibuat oleh Dakkon7, diubah oleh Rocket Robz:
 
 1. Jalankan RAMDisk
 1. Pencet **View** -> **Advanced**
-1. Untuk **Disk Size**, tulis `12` untuk DSi, atau `28` untuk 3DS, di atasnya **Max 1023 MB**
+1. Untuk **Disk Size**, tulis `12` untuk DSi, atau `28` untuk 3DS, di atas kolom **Max 1023 MB**
 1. Hapus tanda **Create TEMP Directory**, jika telah ditandai
 1. Pencet **Load/Save**
 1. Pencet `Start RAMDisk`, dan akan muncul jendela baru untuk .img
-1. Taruh berkas dan/atau folder yang *homebrew* perlukan di situ, dan/atau berkas lainnya
+1. Taruh berkas dan/atau folder yang diperlukan *homebrew* di situ, dan/atau berkas lain
 1. Pada program RAMDisk, pencet `Save Disk Image Now`
 1. Simpan `[nama rom].img` ke folder `ramdisks` di letak .nds tersebut. Jika foldernya belum ada, buat dulu
 1. Pencet `Stop RAMDisk` jika sudah selesai

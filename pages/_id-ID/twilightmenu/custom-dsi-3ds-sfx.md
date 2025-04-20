@@ -3,8 +3,8 @@ lang: id-ID
 layout: wiki
 section: twilightmenu
 category: customization
-title: Skin DSi/3DS - Efek Suara Kustom
-description: Cara membuat suara latar belakang dan efek suara kustom di skin DSi dan 3DS untuk TWiLight Menu++
+title: Tema DSi/3DS - Efek Suara Kustom
+description: Cara membuat suara latar belakang dan efek suara kustom di tema DSi dan 3DS untuk TWiLight Menu++
 ---
 
 TWiLight Menu++ mendukung suara kustom untuk tema. Taruh berkas suaranya di subdirektori `sound` dalam folder tema; contoh, jika di tema `white`, masing-masing berkas harus ditaruh di `themes/white/sound/sfx.bin` dan `themes/white/sound/bgm.pcm.raw`. Keduanya opsional, jadi jika `bmg.pcm.raw` hilang, musik yang bawaan akan diputar. Begitu juga dengan efek suara jika berkas `sfx.bin` hilang.
@@ -64,4 +64,4 @@ Mengekspor ke format yang benar:
 
 Hasilnya akan ada berkas `bgm.wav` yang bisa disalin ke subfolder `sound` di folder tema.
 
-Jangan lupa atur opsi `Musik Tema DSi/3DS` di pengaturan TWiLight Menu++ ke "Tema" agar diputarkan BGM kustom di menu.
+Jangan lupa atur opsi `Musik Tema DSi/3DS` ke "Tema" di pengaturan TWiLight Menu++ agar diputarkan BGM kustom di menu.

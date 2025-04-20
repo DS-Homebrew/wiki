@@ -10,7 +10,7 @@ tabs:
     3ds-sd-card: 3DS SD kártya
     dsi-sd-card: DSi SD kártya
     flashcard: Csak flashcard
-    flashcard-dsi-3ds: Flashcard moddolt DSi/3DS-en
+    flashcard-dsi-3ds: Flashcard moddolt 3DS-en
 ---
 
 A forwarderek a játékok parancsikonjai, amelyeket a HOME menübe, a hiyaCFW menübe vagy a flashcard menübe telepíthetsz. Betölthetsz DS(i) játékot SD kártyáról (az nds-bootstrap használatával) vagy kompatibilis flashcard-ról (a megfelelő kernel-lel) a forwarderek használatával, abból a menüből, amit választottál. <!--- I feel like this still needs a bit of work. Still better than what was there before. -->
@@ -63,7 +63,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 1. Csomagold ki a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a DSi SD kártyájának gyökerébe
 
-### Part 2: NDSForwarder-DSi
+### 2. rész: NDSForwarder-DSi
 1. Tedd vissza az SD kártyád a készülékedbe
 1. Tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, majd kapcsold be az eszközöd az Unlaunch-e bootoláshoz
 1. Indítsd el az `NDSForwarder.dsi`-t
@@ -87,7 +87,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 1. Töltsd le a [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)-ot
 1. Csomagold ki a `for SD Card root` mappa tartalmát a flashcard SD kártyájának gyökerébe
 
-### Part 2: NDSForwarder-DSi
+### 2. rész: NDSForwarder-DSi
 1. Tedd vissza az SD kártyád a flashcard-odba, és a flashcard-od az eszközödbe
 1. Kapcsold be az eszközöd és indítsd el a flashcard-ot
 1. Indítsd el az `NDSForwarder.nds`-t
@@ -103,11 +103,7 @@ Ha már van Universal Updater telepítve a konzolodra, ugorj a 3. lépéshez.
 
 ### Követelmények
 
-- **DSi felhasználók:**
-    - Egy Nintendo DSi telepített [Unlaunch,](https://dsi.cfw.guide/installing-unlaunch) és [hiyaCFW](installing) alkalmazásokkal
-    - A [Title Manager for Hiya](https://github.com/JeffRuLz/TMFH/releases) legutolsó kiadása
-- **3DS felhasználók:**
-    - Egy Nintendo 3DS család konzol modern CFW környezettel a [3ds.hacks.guide](https://3ds.hacks.guide) oldalról
+- Egy Nintendo 3DS család konzol modern CFW környezettel a [3ds.hacks.guide](https://3ds.hacks.guide) oldalról
 
 {% capture flashcards %}
 A DSTT és az Acekard 2i az ajánlott flashcard-ok. Ha tökéletes játék kompatibilitást szeretnél, szerezd be a SuperCard DSTWO/DSTWO PLUS-t. Az egyetlen hátránya, hogy a rendszer akkumulátort gyorsabban fogyasztja.
@@ -189,7 +185,7 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
     - `DISABLEANIMATION`: Ha `1` van beállítva, vagy <kbd class="face">B</kbd> van nyomva tartva, akkor a DS/DSi boot képernyő átugrásra kerül
     - `HEALTHSAFETYMSG`: Ha `1` van beállítva, a boot képernyő "health and safety" üzenete megjelenik az alsó képernyőn, egyébként az alsó képernyő fehér marad "health and safety" üzenet nélkül
 
-### Part 2: Forwarder3-DS
+### 2. rész: Forwarder3-DS
 1. Nyisd meg a `Forwarder3DS.jar`-t
     - **Windows felhasználók:** ha nem nyílik meg, töltsd le ezt a [Forwarder3DS.bat](/assets/files/Forwarder3DS.bat)-ot, rakd a Forwarder3DS.jar-ral egy könyvtárba, majd futtasd
 1. Állítsd be a kártyád, mint `Target` a bal oldalon
@@ -203,16 +199,10 @@ Miután kicsomagoltad a csomagot, szerkesztheted az `sd:/_nds/ntr-forwarder.ini`
 1. Ha homebrew ROM-ot használsz, kattintsd rá, majd töröld a `Game title` mezőt, és írd be a játék címét
 1. Kattints a floppy lemez ikonra, hogy legeneráld a forwardert
 
-### Part 3: Installing the forwarder
+### 3. rész: A forwarder telepítése
 
-- Ha 3DS család konzolt használsz:
-    1. Másold a CIA fál(oka)t a 3DS-ed SD kártyájára, majd telepítsd őket az FBI alkalmazással
-        - Ha EmuNAND használsz, telepítsd a SysNAND-ot és az EmuNAND-ot is
-- Ha DSi-t használsz:
-    1. Másold át a `tmfh.nds` fájlt a TMFH `.zip` fájlból az SD kártyád gyökerébe
-    1. Helyezd vissza az SD kártyát a DSi-dbe
-    1. Indítsd el a `tmfh.nds`-t az Unlaunch-ből vagy a TWiLight Menu++-on keresztül
-    1. Telepítsd a forwarder NDS fájlt a TMFH használatával
+1. Másold a CIA fájl(oka)t a 3DS-ed SD kártyájára
+1. Telepítsd őket az FBI alkalmazással
 {% endcapture %}
 {% assign tab-flashcard-dsi-3ds = tab-flashcard-dsi-3ds | split: "////////" %}
 

@@ -7,7 +7,7 @@ long_title: Удаление hiyaCFW
 description: Как удалить hiyaCFW с Nintendo DSi
 ---
 
-hiyaCFW присутствует только на SD-карте и не присутствует в NAND. Перед началом работы обязательно создайте резервную копию всех данных на SDNAND, которые вы не хотите потерять. Вы можете узнать, как это сделать, следуя разделу III руководства по [резервному копированию DSiWare](https://dsi.cfw.guide/dsiware-backups.html#section-iii---extracting-the-save-file-optional) от [dsi.cfw.guide](https://dsi.cfw.guide).
+hiyaCFW присутствует только на SD-карте и не присутствует в NAND. Перед началом работы обязательно создайте резервную копию всех данных на SDNAND, которые вы не хотите потерять. You can learn how to do that by following [dsi.cfw.guide](https://dsi.cfw.guide)'s [DSiWare Backups](https://dsi.cfw.guide/dsiware-backups.html) guide.
 
 ### Удаление
 1. Удалите `hiya.dsi` из корня SD-карты

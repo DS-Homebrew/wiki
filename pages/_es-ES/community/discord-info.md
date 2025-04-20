@@ -45,11 +45,11 @@ Siempre recuerda revisar el tema del canal y los mensajes anclados antes de habl
 - [#other-nds-homebrew][other-nds-homebrew] - Este foro es para soporte, actualizaciones y discusiones sobre las aplicaciones homebrew para Nintendo DS(i) que no estén cubiertas por otros canales. Hay hilos disponibles para aplicaciones homebrew de forma individual, y puedes crear hilos nuevos si ves que no existe uno para la aplicación sobre la que vas a conversar
 
 **Community (Comunidad)**
-- [#off-topic][off-topic] - Un canal para cualquier tema que no encaje en otros canales. Las publicaciones de calidad baja deberían estar en #end-of-server
+- [#off-topic][off-topic] - Un canal para cualquier tema que no encaje en otros canales. Lower-quality posts should be kept to [#shadow-of-server](end-of-server)
 - [#nds-gaming][nds-gaming] - Un lugar para discusión general sobre juegos para DS(i), así como para aquellos que quieran jugar en línea. Revisa los mensajes anclados para obtener una lista de comunidades dedicadas
 - [#other-console-modding][other-console-modding] - Charla sobre homebrew y modificaciones para otras consolas, como la 3DS cuando no se habla sobre el modo DS(i) de la misma
 - [#other-dev][other-dev] - Charla sobre código y desarrollo de software para plataformas que no sean la Nintendo DS
-- [#end-of-server][end-of-server] - Charla casual y de baja calidad. Las reglas aquí se aplican de forma más relajadas, pero se aplican igualmente. Usa este canal para publicar tus memes, comandos para los bots, y otras cosas que no inicien o contribuyan a la discusión
+- [#shadow-of-server][end-of-server] - This is for casual, lower-quality chatting. Las reglas aquí se aplican de forma más relajadas, pero se aplican igualmente. Usa este canal para publicar tus memes, comandos para los bots, y otras cosas que no inicien o contribuyan a la discusión
 
 ## Roles y distintivos de usuario
 Hay varios roles que puedes conseguir en el servidor, algunos a los cuales puedes acceder simplemente usando un [comando del bot Lightning](#lightning-commands).
@@ -98,11 +98,11 @@ Hay montón de comandos divertidos que puedes usar, pero por favor mantenlos en 
 ## El Personal del Servidor
 Estas son las personas que mantienen el servidor. Si dicen algo, es definitivo, y no hay lugar para debate. Estos miembros están anclados en la lista de miembros. No solicites formar parte del personal, así solo disminuirás las posibilidades de hacerlo. Se añadirán miembros al personal solo si y cuando se considere oportuno.
 
-Owner: @rocketrobz
+Administrators: @kaisaan, @kalamity, @kodtiz3d, @lifehackerhansol, @lightsage01, @nightscript, @rocketrobz
 
-Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Moderator: @apachethunder, @gericom, @pk11.us
 
-Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
+Minimods: @dartzsoryu, @deletecat, @janni9009, @vikirinox
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -133,4 +133,5 @@ Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalam
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
+[end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

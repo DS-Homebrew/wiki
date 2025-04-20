@@ -18,7 +18,7 @@ Jika memperbarui dari versi di bawah v6.8.3, mohon pindahkan dulu berkas `.sav` 
 Jika memperbarui dari versi di bawah v21.0.0, mohon pindahkan dulu berkas `.pub` dan/atau `.prv` dari DSiWare ke folder baru bernama `saves`; tempat folder `saves` harus sama dengan ROM DSiWare.
 {:.alert .alert-info}
 
-Jika memperbarui dari versi di bawah v25.7.0, disarankan menghapus `TWiLight Menu++ Game Booter` dari daftar judul menggunakan FBI.
+Jika memperbarui dari versi di bawah v25.7.0, dianjurkan menghapus `TWiLight Menu++ Game Booter` lewat aplikasi FBI di tab "Titles".
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
@@ -33,7 +33,7 @@ Jika memperbarui dari versi di bawah v25.7.0, disarankan menghapus `TWiLight Men
 
 {% capture tab-manual %}
 1. Unduh [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z) yang terkini
-    - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Jika tidak terunduh, buka [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-3DS.7z`
 1. Salin folder `_nds` ke akar kartu SD, timpa berkas yang ada
     - Untuk macOS, harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)

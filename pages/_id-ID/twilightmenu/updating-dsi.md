@@ -16,7 +16,7 @@ Jika memperbarui dari versi di bawah v21.0.0, mohon pindahkan dulu berkas `.pub`
 
 ### Pembaruan
 1. Unduh [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) yang terkini
-    - Jika tidak terunduh, lihat [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - Jika tidak terunduh, buka [laman *release*](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Ekstrak `TWiLightMenu-DSi.7z`
 1. Salin folder `_nds` ke akar kartu SD, timpa berkas yang ada
     - Untuk macOS, harus **copy** (salin) dan `merge` (gabung), jangan `replace` (timpa)

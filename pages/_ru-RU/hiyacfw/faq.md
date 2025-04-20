@@ -22,7 +22,7 @@ You will need to use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to
 
 Что работает, а что нет определяется диапазоном в 2 ГБ. Например, при наличии 0-2 ГБ свободного места ошибки не возникают, а 2-4 ГБ - возникают. То же самое касается 4-6 ГБ и 6-8 ГБ, вплоть до размера вашей SD-карты.
 
-Последняя версия hiyaCFW может создавать фиктивные файлы для обхода этой проблемы, поэтому убедитесь, что вы загрузили последнюю версию [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) и скопировали `hiya.dsi` из "for SDNAND SD card" в корень вашей SD карты.
+We made the brand new launcher patches which fix the free space bug. To work around this, please ensure that you are running the latest TWLMagician when installing hiyaCFW. If not, please [reinstall hiyaCFW](installing).
 
 ##### Более 39 приложений
 Меню Nintendo DSi имеет ограничение в 39 приложений. If you have more than that, delete some from the folders in `sd:/title` or use [NTM](https://github.com/Epicpkmn11/NTM/releases/latest) to uninstall them.

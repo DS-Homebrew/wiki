@@ -7,7 +7,7 @@ title: Info DS⁽ⁱ⁾ Mode Hacking
 description: Informasi perihal server Discord DS⁽ⁱ⁾ Mode Hacking
 ---
 
-Server Discord ini mengkhususkan diri terkait hal-hal modifikasi dan *homebrew* Nintendo DS(i), mulai dari penyiapan *flashcard* sampai pengembangan *homebrew*. Server ini juga berpumpun pada peretasan ROM, permainan DS, dan modifikasi TWL_FIRM di 3DS.
+Server Discord ini mengkhususkan diri terkait hal-hal modifikasi dan *homebrew* Nintendo DS(i), mulai dari penyiapan *flashcart* sampai pengembangan *homebrew*. Server ini juga berpumpun pada peretasan ROM, permainan DS, dan modifikasi TWL_FIRM di 3DS.
 
 ## Saluran Discord
 Tersedia berbagai saluran untuk tiap topik berbeda, jadi pastikan Anda masuk ke saluran yang benar sesuai topiknya agar yang lain tidak dibanjiri obrolan tidak berhubungan.
@@ -16,7 +16,7 @@ Jangan lupa periksa dulu topik dan pesan tersemat di tiap saluran sebelum mulai 
 {:.alert .alert-info}
 
 **Penting**
-- [#info-and-rules][info-and-rules] - Menyediakan info ringkas tentang peraturan serta info server ini. Untuk info peraturan yang lebih memerinci, lihat [laman peraturan](discord-rules) di wiki ini
+- [#info-and-rules][info-and-rules] - Menyediakan info ringkas tentang peraturan serta info server ini. Untuk informasi peraturan lebih memerinci, lihat [laman peraturan](discord-rules) di wiki ini
 - [#useful-resources][useful-resources] - Berisi tautan ke sumber daya berguna dari luar server Discord, seperti server lain atau wiki ini
 - [#member-logs][member-logs] - Menampilkan yang bergabung dan *server boost*
 
@@ -28,7 +28,7 @@ Jangan lupa periksa dulu topik dan pesan tersemat di tiap saluran sebelum mulai 
 
 **Modifikasi Nintendo DS⁽ⁱ⁾**
 - [#nds-help][nds-help] - Punya masalah terkait dengan Nintendo DS(i)? Ingin menanyakan hal umum? Silakan lakukan di sini, sebutkan juga informasi penting lainnya (pesan galat, jenis konsol, metodenya, catatan log, dst). Perihal modifikasi 3DS harus di #other-console-modding, kecuali jika TWL_FIRM juga kena
-- [#nds-hardware][nds-hardware] - Tempat membahas *flashcard*, tambalan AP, penelitian dan pemahaman umum DS. Walaupun saluran ini mencakup TWL_FIRM di 3DS, bahasan mode 3DS harus tetap di #other-console-modding
+- [#nds-hardware][nds-hardware] - Tempat membahas *flashcart*, tambalan AP, serta penelitian dan pemahaman umum DS. Walaupun saluran ini mencakup TWL_FIRM di 3DS, bahasan mode 3DS harus tetap di #other-console-modding
 - [#nds-hacks][nds-hacks] - Membicarakan retasan ROM, dan *cheat* permainan Nintendo DS(i). Periksa pesan tersemat untuk melihat daftar komunitas khusus
 - [#nds-dev][nds-dev] - Sumber daya dan tempat membahas pengembangan *homebrew* DS(i). Untuk *homebrew* yang sudah ada harus dibahas di #other-nds-homebrew
 
@@ -45,11 +45,11 @@ Jangan lupa periksa dulu topik dan pesan tersemat di tiap saluran sebelum mulai 
 - [#other-nds-homebrew][other-nds-homebrew] - Forum ini untuk dukungan, perbaruan, dan pembahasan *homebrew* Nintendo DS(i) yang tidak dicakup saluran lain. Tersedia utas untuk membahas masing-masing *homebrew*, dan bisa membuat utas baru untuk yang belum ada
 
 **Komunitas**
-- [#off-topic][off-topic] - Saluran ini untuk topik apa pun yang tidak begitu cocok di saluran lain. Postingan kurang mutu harus tetap di #end-of-server
+- [#off-topic][off-topic] - Saluran ini untuk topik apa pun yang tidak begitu cocok di saluran lain. Postingan kurang mutu harus tetap di [#shadow-of-server](end-of-server)
 - [#nds-gaming][nds-gaming] - Tempat membahas permainan DS(i) secara umum, sekaligus mencari teman bermain daring. Periksa pesan tersemat untuk melihat daftar komunitas khusus
 - [#other-console-modding][other-console-modding] - Membicarakan *homebrew* dan modifikasi permainan konsol lain, seperti 3DS tapi bukan TWL_FIRM
 - [#other-dev][other-dev] - Membicarakan pengodean dan pengembangan selain Nintendo DS
-- [#end-of-server][end-of-server] - Untuk santai-santai, obrolan kurang mutu. Peraturan di sini lebih luwes, tapi masih ditegaskan. Gunakan jika ingin mengirim meme, perintah bot, dan hal lain yang tidak selalu harus bahasan
+- [#shadow-of-server][end-of-server] - Untuk santai-santai, obrolan kurang mutu. Peraturan di sini lebih luwes, tapi masih ditegaskan. Gunakan jika ingin mengirim meme, perintah bot, dan hal lain yang tidak selalu harus bahasan
 
 ## Peran & *Flair*
 Ada beberapa peran yang bisa didapatkan di server, beberapa bisa diakses dengan [perintah bot Lightning](#perintah-lightning).
@@ -98,11 +98,11 @@ Ada banyak perintah lain yang juga bisa diketik, tapi lakukan di [#end-of-server
 ## Regu Staf
 Orang-orang ini yang mengurus server. Jika keputusan mereka bulat, tidak perlu dibahas lagi. Para anggota ini dikeataskan di Daftar Anggota. Jangan juga minta diterima ke regu, itu malah mengurangi kesempatan akan diterima. Anggota akan diterima ke regu jika dianggap sesuai.
 
-Pemilik: @rocketrobz
+Pengurus: @rocketrobz, @nightscript, @lightsage01, @lifehackerhansol, @kodtiz3d, @kalamity, @kaisaan
 
-Administrator: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Moderator: @apachethunder, @gericom, @pk11.us
 
-Pemelihara Server: @kalamty, @lightsage01, @kodtiz3d, @Pk11, @lifehackerhansol
+Kenek Moderator: @dartzsoryu, @deletecat, @janni9009, @vikirinox
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -133,4 +133,5 @@ Pemelihara Server: @kalamty, @lightsage01, @kodtiz3d, @Pk11, @lifehackerhansol
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
+[end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648

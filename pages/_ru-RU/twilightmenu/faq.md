@@ -33,7 +33,7 @@ description: ЧаВо и устранение неполадок для TWiLight
 Вам необходимо иметь БД читов в виде файла `usrcheat.dat` в папке `sd:/_nds/TWiLightMenu/extras/`. Самая свежая база читов это - [DeadSkullzJr's NDS(i) Cheat Databases](https://gbatemp.net/threads/488711/).
 - На 3DS эта база данных доступна в приложении Universal-Updater под названием "NDS(i) Cheat Databases". При помощи этой программы вы сможете автоматически установить базу данных.
 
-В качестве альтернативы вы можете использовать [r4cce](http://hp.vector.co.jp/authors/VA013928/soft_en.html) для создания собственной чит-базы данных.
+Alternatively, you can use [r4cce](https://web.archive.org/web/20241130133125/http://hp.vector.co.jp/authors/VA013928/soft_en.html) to create your own cheat DB.
 
 Как только у вас будет БД с читами, наведите курсор на нужную игру и нажмите <kbd class="face">Y</kbd>, чтобы открыть дополнительные настройки, затем <kbd class="face">X</kbd>, чтобы открыть меню читов.
 
@@ -43,7 +43,7 @@ description: ЧаВо и устранение неполадок для TWiLight
 - Изображения должны быть размером не более 208x156
 - Если у вас возникают ошибки, то, скорее всего, это из-за размера изображения. Пожалуйста, используйте [tinypng](https://tinypng.com) для уменьшения размера
 
-Что касается скрытия картинки, вам нужно отредактировать файл `theme.ini`, который находится в `sd:/_nds/TWiLightMenu/dsimenu/themes/[папка skin]/`. Откройте файл в текстовом редакторе, измените строку `RenderPhoto` с `1` на `0`, затем сохраните файл.
+As for hiding the picture, you need to edit the `theme.ini` file found in `sd:/_nds/TWiLightMenu/dsimenu/themes/[theme folder]/`. Откройте файл в текстовом редакторе, измените строку `RenderPhoto` с `1` на `0`, затем сохраните файл.
 
 #### Где брать игры?
 Homebrew игры можно загрузить с сайтов [Universal-DB](https://db.universal-team.net/ds) и [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew#Games). Чтобы играть в официально выпущенные игры, вам необходимо получить их копии, снятые либо с ваших картриджей, либо с другой консоли:
@@ -70,7 +70,7 @@ Homebrew игры можно загрузить с сайтов [Universal-DB](h
 
 #### Почему я не могу найти/просмотреть свои игры?
 Существует множество причин, по которым вы можете не найти их.
-- Папка `_nds`, расположенная в корне SD-карты, не предназначена для приложений, которые можно использовать в TWiLight Menu++, поскольку она зарезервирована для системных файлов (скины, конфигурация, изображения, эмуляторы и многое другое). Если вы разместили здесь свои игры, пожалуйста, переместите их в другое место.
+- The `_nds` folder found on the root of the SD card is not intended for applications one would access via TWiLight Menu++, due to its reservation for functionality based files (themes, configuration, images, emulators and more). Если вы разместили здесь свои игры, пожалуйста, переместите их в другое место.
 - Если в папке более 39 элементов и все ячейки в меню заняты, ваши игры могут оказаться на следующей странице. Используйте <kbd class="l">L</kbd>/<kbd class="r">R</kbd> или <kbd>SELECT</kbd> + <kbd>Влево</kbd>/<kbd>Впрво</kbd> для переключения страниц
 - Если ваша игра или папка скрыта, вам может понадобиться включить отображение скрытых файлов, через Настройки Графического Интерфейса TWiLight Menu++
 - Если ваша игра находится в архиве (`zip`, `rar`, `7z`и т. д.), она не может быть использована TWiLight Menu++. Извлеките игру из архива, чтобы использовать ее
@@ -94,26 +94,26 @@ Homebrew игры можно загрузить с сайтов [Universal-DB](h
 
 баннер типа banner.bin может быть анимированным и позволяет заменить иконку, которая будет отображаться в TWiLight Menu++. Их можно сделать с помощью [NDS Banner Editor](https://github.com/TheGameratorT/NDS_Banner_Editor/releases).
 
-Готовые баннеры можно найти в разделе иконок [на сайте скинов TWiLight Menu++](https://skins.ds-homebrew.com/icon/), и если вы тоже сделаете какие-нибудь баннеры, то можете поделиться ими там же.
+Pre-made banners can be found in the [icons section of the TWiLight Menu++ themes site](https://skins.ds-homebrew.com/icon/) and if you make any they can be shared there as well.
 
 #### Как установить пользовательскую тему для TWiLight Menu++?
-Пользовательские скины для тем можно найти на [официальном сайте скинов](https://skins.ds-homebrew.com/). На нем размещены несколько скинов, сделанных сообществом и готовых к использованию. Вы также можете самостоятельно создать скин для тем Nintendo 3DS и Nintendo DSi, следуя [этому руководству](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-skins). Темы **Homebrew Launcher**, **Sega Saturn** и **Game Boy Color** являются _**не**_ настраиваемыми.
+Custom themes can be acquired from [the official themes site](https://skins.ds-homebrew.com/), which houses serveral community-made themes ready to apply. You can also make a custom theme for the Nintendo 3DS and Nintendo DSi UIs on your own by following [this guide](https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-themes). The **Homebrew Launcher**, **Sega Saturn** and **Game Boy Color** UIs are _**not**_ customizable.
 
-Как только вы обзаведетесь скином, вы можете установить его, поместив его папку в соответствующий путь, который зависит от того, для какой темы создан скин.
-- Скины для темы Nintendo DSi находятся в `sd:\_nds\TWiLightMenu\dsimenu\themes\`
-- Скины для темы Nintendo 3DS находятся в `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
-- Скины для темы Оригинального R4 находятся в `sd:\_nds\TWiLightMenu\r4menu\themes\`
-- Skins for the Wood UI theme go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
+Once you have acquired a custom theme, you can install it by placing its folder on the appropiate path, which depends on what UI the theme is made for.
+- Themes for the Nintendo DSi UI go in `sd:\_nds\TWiLightMenu\dsimenu\themes\`
+- Themes for the Nintendo 3DS UI go in `sd:\_nds\TWiLightMenu\3dsmenu\themes\`
+- Themes for the R4 Original UI go in `sd:\_nds\TWiLightMenu\r4menu\themes\`
+- Themes for the Wood UI go in `sd:\_nds\TWiLightMenu\akmenu\themes\`
 
-Если вы используете консоль семейства 3DS, вы можете установить пользовательские скины с помощью [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Зайдите в настройки Universal-Updater, затем `Выберите Unistore`, `+`, `TWiLight Menu++ Skins`.
+If you are using a 3DS family console, you can install custom themes using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/releases). Go to Universal-Updater settings, then `Select Unistore`, `+`, `TWiLight Menu++ Themes`.
 
 Чтобы применить пользовательскую тему, необходимо войти в Настройки TWiLight Menu++.
-1. На странице `Настройки интерфейса` перейдите к параметру `Тема` и выберите тему, используя правую и левую кнопки на D-Pad.
-1. После выбора целевой темы нажмите кнопку A, чтобы выбрать между установленными скинами.
-1. С помощью кнопок вверх и вниз на D-Pad выделите нужный скин, затем нажмите A, чтобы выбрать его.
+1. On the `GUI Settings` page, go to the `User Interface` option and choose the UI using the right and left buttons on the D-Pad.
+1. Once the target UI is selected, go to the `Custom Theme` option and press the A button to choose between the themes you have installed.
+1. Using the up and down buttons on the D-Pad, highlight the desired theme, then press A to select it.
 1. Примените настройки, нажав B - вернитесь в TWiLight Menu++.
 
-TWiLight Menu++ теперь должно иметь индивидуальный внешний вид (и музыку, если выбранный скин поддерживает ее и включен в настройках).
+TWiLight Menu++ should now have a customized look (and music, if the selected theme supports it and is enabled on the settings).
 
 #### Существует ли эмулятор 3DS для DS(i)?
 Нет, его не существует. Эмуляция 3DS на DS(i) невозможна, поскольку 3DS мощнее.

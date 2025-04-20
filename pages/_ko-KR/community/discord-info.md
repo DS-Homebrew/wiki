@@ -45,11 +45,11 @@ Always remember to check the channel topic and pinned messages before talking in
 - [#other-nds-homebrew][other-nds-homebrew] - This forum is for support, updates, and discussion of Nintendo DS(i) homebrew that isn't covered by other channels. There are threads for individual homebrew applications, and you can make a new one if there isn't already a thread for it
 
 **커뮤니티**
-- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to #end-of-server
+- [#off-topic][off-topic] - A channel for any topic that does not necessarily fit the other channels. Lower-quality posts should be kept to [#shadow-of-server](end-of-server)
 - [#nds-gaming][nds-gaming] - A place to generally discuss games on the DS(i), as well as seek players for online play. Check the pinned messages for a list of dedicated communities
 - [#other-console-modding][other-console-modding] - Talk about homebrew and mods for any other game systems, such as the 3DS when not in TWL_FIRM
 - [#other-dev][other-dev] - Talk about coding and development other than for Nintendo DS
-- [#end-of-server][end-of-server] - This for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Use this to post your memes, bot commands, and other things that don't facilitate discussion
+- [#shadow-of-server][end-of-server] - This is for casual, lower-quality chatting. Rules are slightly more relaxed, but are still enforced. Use this to post your memes, bot commands, and other things that don't facilitate discussion
 
 ## Roles & User Flairs
 There are several roles you can get on the server, some of them being accessible with just a [Lightning bot command](#lightning-commands).
@@ -98,11 +98,11 @@ There are a ton of fun commands you can run as well, but please keep them to [#e
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
 
-Owner: @rocketrobz
+Administrators: @kaisaan, @kalamity, @kodtiz3d, @lifehackerhansol, @lightsage01, @nightscript, @rocketrobz
 
-Administrators: @shutterbug2000, @nightscript, @gericom., @apachethunder, @kaisaan
+Moderator: @apachethunder, @gericom, @pk11.us
 
-Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalamty
+Minimods: @dartzsoryu, @deletecat, @janni9009, @vikirinox
 
 <!-- Discord channel links -->
 [info-and-rules]: https://discord.com/channels/283769550611152897/626620520330428436
@@ -133,4 +133,5 @@ Server Maintainers: @pk11.us, @kodtiz3d, @lifehackerhansol, @lightsage01, @kalam
 [nds-gaming]: https://discord.com/channels/283769550611152897/668680785154408448
 [other-console-modding]: https://discord.com/channels/283769550611152897/653706029736919051
 [other-dev]: https://discord.com/channels/283769550611152897/1169696607294468177
+[end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
 [end-of-server]: https://discord.com/channels/283769550611152897/283770736215195648
