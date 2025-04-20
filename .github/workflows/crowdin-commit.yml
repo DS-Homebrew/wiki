@@ -26,8 +26,10 @@ jobs:
           npm i -g @crowdin/cli
 
       - name: Pull from Crowdin
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
         run: |
-          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./crowdin-pull.sh
+          ./crowdin-pull.sh
 
       - name: Pull origin
         run: git pull origin main --ff-only # Pull origin in case a commit has been done while updating
