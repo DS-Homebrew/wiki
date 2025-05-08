@@ -37,7 +37,6 @@ If you already have Universal Updater installed on your console, you can skip to
    ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
 1. Open Universal Updater from your HOME Menu
 1. Install the NDSForwarder package
-1. NDSForwarder and its required files are now set up in its respective locations
 1. Install the nds-bootstrap forwarder pack
 
 ### Part 2: NDSForwarder
