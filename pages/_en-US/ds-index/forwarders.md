@@ -38,6 +38,7 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Open Universal Updater from your HOME Menu
 1. Install the NDSForwarder package
 1. NDSForwarder and its required files are now set up in its respective locations
+1. Install the nds-bootstrap forwarder pack
 
 ### Part 2: NDSForwarder
 1. Open the Homebrew Launcher
@@ -45,7 +46,7 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
 1. Confirm you wish to install by selecting `Yes`
 1. After it is installed, your game will now appear as a title on your HOME menu
-    - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, follow steps 2-3 in Part 1 of the `DSi SD card` tab
+    - If launching the title brings up an error message saying `/_nds/ntr-forwarder/sdcard.nds not found`, ensure the nds-bootstrap forwarder pack is installed
 
 {% endcapture %}
 {% assign tab-3ds-sd-card = tab-3ds-sd-card | split: "////////" %}
@@ -61,7 +62,8 @@ If you already have Universal Updater installed on your console, you can skip to
 1. Copy `NDSForwarder.dsi` to your SD card root
     - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
-1. Extract the contents of the `for SD Card root` folder to the root of your DSi's SD card
+1. Open the `for SD Card root` folder
+1. Drag the `_nds` folder to the root of your DSi's SD card
 
 ### Part 2: NDSForwarder-DSi
 1. Reinsert your SD card into your device
