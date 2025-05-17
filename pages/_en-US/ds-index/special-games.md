@@ -250,9 +250,13 @@ Hacking is required to activate the code.
 - Cake Ninja
 - Cake Ninja 2
 - Cake Ninja: XMAS
+- California Super Sports
 - Cosmos X2
+- Crazy Cheebo: Puzzle Party
+- Curling Super Championship
 - Dreamwalker
 - Go! Go! Kokopolo
+- Ice Hockey Slovakia 2011
 - Make Up & Style
 
 ### Games that can connect with GBA titles
