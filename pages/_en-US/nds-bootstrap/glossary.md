@@ -34,7 +34,7 @@ Enables the uses of Direct Memory Access (DMA) for card reads. Having this setti
 Appears only for homebrew ROMs on flashcards. Setting this to `On` will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
 
 ### DS Phat Colors
-If on DSi or 3DS, the colors on-screen will be changed to look like the DS Phat console screens. Can reduce high color saturation on some early DS games.
+If on DSi or 3DS, the colors on-screen will be changed to look like the DS Phat (the first DS model) console screens. Can reduce high color saturation on some early DS games.
 
 ### Bootstrap
 Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
