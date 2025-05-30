@@ -25,13 +25,16 @@ The Mode which the ROM should be run. This affects the ARM9 CPU Speed and VRAM M
 Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mhz (NTR) by default. This can be changed to 133 Mhz (TWL) to reduce slowdowns, but may also cause issues. ROMs ran in DSi Mode can only be set at 133 Mhz (TWL).
 
 ### VRAM Mode
-Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. ROMs ran in DSi Mode can only be set at DSi VRAM Mode. If you're playing a TWL-type (DSi-Enhanced or DSiWare) ROM in DSi Mode, the VRAM Mode is set by the game itself.
+Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. If you're playing a TWL-type (DSi-Enhanced or DSiWare) ROM in DSi Mode, the VRAM Mode is set by the game itself.
 
 ### Card Read DMA
 Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on can speed up ROMs slightly, but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
 ### Direct Boot
 Appears only for homebrew ROMs on flashcards. Setting this to `On` will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
+
+### DS Phat Colors
+If on DSi or 3DS, the colors on-screen will be changed to look like the DS Phat console screens. Can reduce high color saturation on some early DS games.
 
 ### Bootstrap
 Change whether to run the ROM with either the Release or Nightly build of nds-bootstrap. Information on Nightly builds can be found on the [nds-bootstrap FAQ](https://wiki.ds-homebrew.com/nds-bootstrap/faq?faq=what-is-a-nightly-and-where-do-i-get-it)
