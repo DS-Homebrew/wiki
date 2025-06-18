@@ -16,14 +16,12 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 
 ### Updating
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
-    - If you installed an add-on, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) to download the up-to-date version(s)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extract `TWiLightMenu-Flashcard.7z`
 1. Copy the `_nds` folder to your flashcard's microSD card root, replacing any existing files
     - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your flashcard's microSD card root, replacing any existing files
 1. If TWLMenu++ does not boot after updating, then update the autoboot file(s) as well
-1. If you have an add-on installed, then to update it, extract the `.7z` file of it, and copy the `_nds` folder to your SD card root (merge when asked)
-    - Repeat the step for each add-on you installed
 
 ### More steps for the DSi/3DS SD card side
 
@@ -32,3 +30,9 @@ If you can switch between the SD and flashcard contents in TWLMenu++, and if the
 1. Go into TWLMenu++ Settings
 1. Select `Update TWiLight Menu++`
 1. Select `Slot-1 microSD > Console (micro)SD`
+
+::: tip
+
+If you have installed any add-ons, see [Updating Add-ons](updating-addons)
+
+:::

@@ -13,13 +13,12 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 
 ### Installing
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - **Optional:** To download and install additional features (or add-ons), see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extract `TWiLightMenu-DSi.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
 1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
-1. **Optional:** If you have downloaded an add-on, extract the `.7z` file of it, and copy the `_nds` folder to your SD card root (merge when asked)
 
 ### Autobooting with Unlaunch
 1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
@@ -60,3 +59,9 @@ A flashcard is something that goes in the game card slot, and contains a microSD
     - If the SELECT menu is enabled, you can do so there as well
     - If you use the 3DS UI, touch the Game Card/SD Card icon
     - If you use the R4, GBC, or Wood UIs, press `R` button
+
+::: tip
+
+**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
+
+:::

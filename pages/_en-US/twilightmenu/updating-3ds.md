@@ -9,8 +9,6 @@ description: How to update TWiLight Menu++ on the Nintendo 3DS
 tabs:
   - universal-updater: Universal-Updater
     manual: Manual
-    addon-universal-updater: Universal-Updater
-    addon-manual: Manual
 ---
 
 If updating from a version older than v6.8.3, please move your `.sav` files for DS games to a new folder called `saves`, with the `saves` folder being in the same place as the DS ROMs.
@@ -23,7 +21,7 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 {:.alert .alert-info}
 
 {% capture tab-universal-updater %}
-1. Launch Universal-Updater
+1. Open Universal-Updater
     - If you don't have it, follow the [installing](installing-3ds) instructions
 1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
@@ -31,16 +29,6 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
-
-{% capture tab-addon-universal-updater %}
-1. Launch Universal-Updater if you have not done so yet
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select an option starting with `(Add-on)` to install it
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
-	- Repeat this step for each installed add-on
-{% endcapture %}
-{% assign tab-addon-universal-updater = tab-addon-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
@@ -54,23 +42,13 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
-{% capture tab-addon-manual %}
-1. Open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
-1. Download the add-on(s) you have installed
-1. Extract the downloaded `AddOn-???.7z` file(s)
-1. Copy the `_nds` folder to your SD card root from each add-on, replacing any existing files
-    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
-{% endcapture %}
-{% assign tab-addon-manual = tab-addon-manual | split: "////////" %}
-
 ### Updating
 
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Updating Add-Ons
+::: tip
 
-If you have installed any add-ons, it is required to follow these steps.
+If you have installed any add-ons, see [Updating Add-ons](updating-addons)
 
-{% assign addon-tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
-{% include tabs.html index=0 tabs=addon-tabs %}
+:::
