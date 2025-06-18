@@ -10,6 +10,8 @@ tabs:
   - working-camera: Working camera
     non-working-camera: Non-working camera
     manual: Manual
+    addon-universal-updater: Universal-Updater
+    addon-manual: Manual
 ---
 
 You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
@@ -26,7 +28,6 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
     - This will take a while
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
-1. **Optional:** To install additional features (or add-ons), press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select an option starting with `(Add-on)`
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -43,13 +44,21 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
     - This will take a while
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
-1. **Optional:** To install additional features (or add-ons), press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select an option starting with `(Add-on)`
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
+{% capture tab-addon-universal-updater %}
+1. Launch Universal-Updater if you have not done so yet
+1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
+    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
+1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select an option starting with `(Add-on)` to install it
+    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+{% endcapture %}
+{% assign tab-addon-universal-updater = tab-addon-universal-updater | split: "////////" %}
+
 {% capture tab-manual %}
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - **Optional:** To download and install additional features (or add-ons), see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extract `TWiLightMenu-3DS.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
@@ -60,9 +69,25 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
+{% capture tab-addon-manual %}
+1. Open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+1. Download whichever add-on you want to install
+1. Extract `AddOn-???.7z`
+1. Copy the `_nds` folder to your SD card root, replacing any existing files
+    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+{% endcapture %}
+{% assign tab-addon-manual = tab-addon-manual | split: "////////" %}
+
 ### Installing
 
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
+{% include tabs.html index=0 tabs=tabs %}
+
+### Installing Add-Ons
+
+If you want to add an additional feature, then follow these steps.
+
+{% assign tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Accessing flashcard contents
