@@ -47,8 +47,4 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 {% assign tabs = tab-universal-updater | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-::: tip
-
 If you have installed any add-ons, see [Updating Add-ons](updating-addons)
-
-:::

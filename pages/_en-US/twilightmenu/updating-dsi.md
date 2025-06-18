@@ -24,8 +24,4 @@ If updating from a version older than v21.0.0, please move your `.pub` and/or `.
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root, replacing any existing files
     - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 
-::: tip
-
 If you have installed any add-ons, see [Updating Add-ons](updating-addons)
-
-:::

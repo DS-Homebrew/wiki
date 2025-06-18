@@ -31,8 +31,4 @@ If you can switch between the SD and flashcard contents in TWLMenu++, and if the
 1. Select `Update TWiLight Menu++`
 1. Select `Slot-1 microSD > Console (micro)SD`
 
-::: tip
-
 If you have installed any add-ons, see [Updating Add-ons](updating-addons)
-
-:::
