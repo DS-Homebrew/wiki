@@ -49,14 +49,14 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 
 {% capture tab-manual %}
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - To download and install additional features (or add-ons), see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - **Optional:** To download and install additional features (or add-ons), see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
 1. Extract `TWiLightMenu-3DS.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
 1. Copy the `roms` folder to your SD card root
 1. Copy the `.cia` file to your SD card root
 1. On your 3DS, install the CIA with FBI
-1. If you have downloaded an add-on, extract the `.7z` file of it, and copy the `_nds` folder to your SD card root (merge when asked)
+1. **Optional:** If you have downloaded an add-on, extract the `.7z` file of it, and copy the `_nds` folder to your SD card root (merge when asked)
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
