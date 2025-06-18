@@ -38,6 +38,7 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
     - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select an option starting with `(Add-on)` to install it
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+	- Repeat this step for each installed add-on
 {% endcapture %}
 {% assign tab-addon-universal-updater = tab-addon-universal-updater | split: "////////" %}
 
@@ -71,5 +72,5 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 
 If you have installed any add-ons, it is required to follow these steps.
 
-{% assign tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
-{% include tabs.html index=0 tabs=tabs %}
+{% assign addon-tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
+{% include tabs.html index=0 tabs=addon-tabs %}

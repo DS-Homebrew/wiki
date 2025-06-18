@@ -87,8 +87,8 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 
 If you want to add an additional feature, then follow these steps.
 
-{% assign tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
-{% include tabs.html index=0 tabs=tabs %}
+{% assign addon-tabs = tab-addon-universal-updater | concat: tab-addon-manual %}
+{% include tabs.html index=0 tabs=addon-tabs %}
 
 ### Accessing flashcard contents
 
