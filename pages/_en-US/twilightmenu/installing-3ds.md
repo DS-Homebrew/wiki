@@ -62,6 +62,8 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
+**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
+
 ### Accessing flashcard contents
 
 A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
@@ -96,9 +98,3 @@ A flashcard is something that goes in the game card slot, and contains a microSD
     - If the SELECT menu is enabled, you can do so there as well
     - If you use the 3DS UI, touch the Game Card/SD Card icon
     - If you use the R4, GBC, or Wood UIs, press `R` button
-
-::: tip
-
-**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
-
-:::

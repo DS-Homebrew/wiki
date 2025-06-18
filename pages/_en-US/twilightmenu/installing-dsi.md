@@ -20,6 +20,8 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
+**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
+
 ### Autobooting with Unlaunch
 1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 1. In the Unlaunch menu, go to `OPTIONS`
@@ -59,9 +61,3 @@ A flashcard is something that goes in the game card slot, and contains a microSD
     - If the SELECT menu is enabled, you can do so there as well
     - If you use the 3DS UI, touch the Game Card/SD Card icon
     - If you use the R4, GBC, or Wood UIs, press `R` button
-
-::: tip
-
-**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
-
-:::

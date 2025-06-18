@@ -21,6 +21,8 @@ tabs:
 1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
+**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
+
 ### Autobooting TWiLight Menu++
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Open the `Autoboot` folder
@@ -90,9 +92,3 @@ If your flashcart does not have a compatible loader for this section, choose the
 ### Running games with the flashcard kernel
 {% assign tabs = tab-loader | concat: tab-ysmenu %}
 {% include tabs.html index=0 tabs=tabs %}
-
-::: tip
-
-**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
-
-:::
