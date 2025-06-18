@@ -27,7 +27,7 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
     - This will take a while
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
-1. If you installed an add-on, press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select the add-on you installed
+1. If you have an add-on installed, press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select the add-on you installed
     - Repeat the step for each add-on you installed
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
