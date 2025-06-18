@@ -27,18 +27,23 @@ If updating from a version older than v25.7.0, it is recommended to delete the `
 1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
     - This will take a while
     - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
+1. If you installed an add-on, press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select the add-on you installed
+    - Repeat the step for each add-on you installed
 {% endcapture %}
 {% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download the latest [`TWiLightMenu-3DS.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-3DS.7z)
-    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+    - If you installed an add-on, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) to download the up-to-date version(s)
 1. Extract `TWiLightMenu-3DS.7z`
 1. Copy the `_nds` folder to your SD card root, replacing any existing files
     - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
 1. Copy the `BOOT.NDS` file to your SD card root, replacing any existing files
 1. Copy the `.cia` file to your SD card root, replacing any existing files
 1. On your 3DS, install the CIA with FBI
+1. If you have an add-on installed, then to update it, extract the `.7z` file of it, and copy the `_nds` folder to your SD card root
+    - If using macOS, make sure to **copy** and `Merge`, don't `Replace`
+    - Repeat the step for each add-on you installed
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
