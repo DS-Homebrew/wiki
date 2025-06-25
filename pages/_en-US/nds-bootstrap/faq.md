@@ -58,6 +58,9 @@ A Donor ROM can be set using **TW**i**L**ight Menu++.
 - **DSiWarehax:** As both DSi-Enhanced games and (most) DSi-Exclusive/DSiWare games contain different MBK settings from each other, DSi-Enhanced games will not boot in DSi mode without a Donor ROM. By setting a DSi-Exclusive/DSiWare title as a Donor ROM, DSi-Enhanced games will be able to run within the MBK settings set by the DSiWare title the exploit is used on
     - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
 - **CycloDS iEvolution:** Same case with DSiWarehax, but DSi-Exclusive/DSiWare titles will require a DSi-Enhanced game set as a Donor ROM, instead of the other way around
+- **DSi & 3DS users:** A DSi-Exclusive/DSiWare title can be set as a Donor ROM for DSi-Enhanced titles in order to work around a potential error where nds-bootstrap shows the `An error has occurred.` message due to the low the size of the ROM cluster cache. Setting the Donor ROM will increase the size of the cluster cache
+    - On DSi, if **TW**i**L**ight Menu++ detects no Donor ROM is set, *Nintendo DSi Sound* and/or a valid exploited title you've launched will automatically be set as Donor ROM(s)
+- **All users:** The European version of *Yoshi Touch & Go* requires an SDK2 title (the USA version of *Yoshi Touch & Go* for example) set as a Donor ROM
 
 #### What is the best Donor ROM?
 There is no *best* one to use. Most ROMs of TWL titles can be set as a Donor ROM.     
