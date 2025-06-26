@@ -20,7 +20,8 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
-**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons)
+**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons).
+{:.alert .alert-info}
 
 ### Autobooting with Unlaunch
 1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
