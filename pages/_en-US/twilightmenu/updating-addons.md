@@ -8,7 +8,7 @@ long_title: Updating TWiLight Menu++ Add-ons
 description: How to update TWiLight Menu++ Add-ons
 tabs:
   - universal-updater: Universal-Updater (3DS)
-    manual: Manual
+    manual: Manual (DS/DSi/3DS)
 ---
 
 If you have installed any add-ons, it is required to follow these steps.

@@ -8,7 +8,7 @@ long_title: Installing TWiLight Menu++ Add-ons
 description: How to install TWiLight Menu++ Add-ons
 tabs:
   - universal-updater: Universal-Updater (3DS)
-    manual: Manual
+    manual: Manual (DS/DSi/3DS)
 ---
 
 Additional features can be added on to **TW**i**L**ight Menu++. The following can be installed.
