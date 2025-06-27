@@ -25,6 +25,7 @@ If you have installed any add-ons, it is required to follow these steps.
 
 {% capture tab-manual %}
 1. Open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+1. Scroll down to the `Assets` section
 1. Download the add-on(s) you have installed
 1. Extract the downloaded `AddOn-???.7z` file(s)
 1. Copy the `_nds` folder to your SD card root from each add-on, replacing any existing files

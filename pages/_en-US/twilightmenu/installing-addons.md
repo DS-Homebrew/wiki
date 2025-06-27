@@ -30,6 +30,7 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
 
 {% capture tab-manual %}
 1. Open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+1. Scroll down to the `Assets` section
 1. Download whichever add-on you want to install
 1. Extract `AddOn-???.7z`
 1. Copy the `_nds` folder to your SD card root, replacing any existing files
