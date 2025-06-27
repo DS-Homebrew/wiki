@@ -71,6 +71,8 @@ If you already have Universal Updater installed on your console, you can skip to
     - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.dsi` on the root of your SD card
 1. Press <kbd class="face">A</kbd> on `Install`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Select `Install`
+    - The `Randomize TID and install` option can be used to randomize the title ID in case there's a conflict (ex. trying to install a hacked version of a game alongside the clean/unhacked version)
 1. After it is installed, your game will now appear as a title on your hiyaCFW DSi Menu
 
 {% endcapture %}
