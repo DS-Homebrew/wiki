@@ -97,6 +97,7 @@ If you already have Universal Updater installed on your console, you can skip to
     - If you get a `nitroFSInit() fail` message, try using TWiLight Menu++ to launch, or place `NDSForwarder.nds` on the root of your SD card
 1. Press <kbd class="face">A</kbd> on `Install`
 1. Navigate to your game's location and press <kbd class="face">A</kbd>
+1. Select `Install`
 1. After it is installed, your game will now appear in a folder called `forwarders` on the flashcard's SD card root
 
 {% endcapture %}
