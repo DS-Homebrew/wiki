@@ -252,6 +252,7 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `IconUnknownUserPalette`   | Whether or not to use the DS Profile color for the palette of the unknown (missing) icon                                        | 0             | 0             |
 | `IconWSUserPalette`        | Whether or not to use the DS Profile color for the palette of the WonderSwan icon                                               | 0             | 0             |
 | `UsernameUserPalette`      | Whether or not to use the DS Profile color for the palette of the username                                                      | 1             | 1             |
+| `UsernameEdgeAlpha`        | Whether or not to use the original white edges for the palette of the username                                                  | 0             | 0             |
 | `ProgressBarUserPalette`   | Whether or not to use the DS Profile color as the color of the progress bar                                                     | 1             | 1             |
 | `ProgressBarColor`         | The color of the progress bar if `ProgressBarUserPalette` is disabled                                                           | 0x7C00        | 0x7C00        |
 | `UseAlphaBlend`            | Whether or not to blend the colors of the top screen text (the date/time and username) with the colors of the background        | 1             | 1             |
