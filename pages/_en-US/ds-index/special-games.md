@@ -458,10 +458,15 @@ Currently, nds-bootstrap does not have Slot-2 emulation. Included are some possi
     - Pokémon Battle Revolution
 - Personal Trainer: Walking
     - Mii Channel
+- Tomodachi Collection
+    - Mii Channel
 - Ultimate Band
     - Ultimate Band (Wii)
 - WarioWare D.I.Y.
     - WarioWare D.I.Y. Showcase
+- Yosuke Ide no Kenkou Mahjong DSi (DSiWare)
+    - Mii Channel
+    - Yakuman Wii: Ide Yōsuke no Kenkō Mahjong
 
 ### Games with IR Game Cards
 - Pokémon Heartgold/Soulsilver
