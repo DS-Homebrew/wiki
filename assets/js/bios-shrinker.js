@@ -2,8 +2,8 @@ const gbaSha = "fd2547724b505f487e6dcb29ec2ecff3af35a841a77ab2e85fd87350abd36570
 const dsSha = "782eb3894237ec6aa411b78ffee19078bacf10413856d33cda10b44fd9c2856b";
 
 function shrinkBios(file) {
-    // Check that the file is 32 KiB
-    if(file.size != 32 << 10)
+    // Check that the file is 32 KiB or more
+    if(file.size < 32 << 10)
         return alert("Error! This is not a correct GBA BIOS dumper save.");
 
     // Read the file
