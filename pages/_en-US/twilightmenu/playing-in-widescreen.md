@@ -1,6 +1,6 @@
 ---
 lang: en-US
 layout: redirect
-destination: installing-rtcom
+destination: ../ds-index/rtcom
 title: Playing in Widescreen
 ---
