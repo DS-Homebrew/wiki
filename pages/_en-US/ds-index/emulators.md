@@ -106,7 +106,6 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [a8ds]: https://github.com/wavemotion-dave/A8DS
 [colecods]: https://github.com/wavemotion-dave/ColecoDS
 [dstwo]: http://eng.supercard.sc
-[fastvideodsplayer]: https://github.com/Gericom/FastVideoDSPlayer
 [gameyob]: https://github.com/Drenn1/GameYob
 [gbarunner2]: https://github.com/Gericom/GBARunner2
 [jenesis]: https://www.gamebrew.org/wiki/JEnesisDS
@@ -116,11 +115,9 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [nitrografx]: https://www.gamebrew.org/wiki/NitroGrafx
 [nitroswan]: https://github.com/FluBBaOfWard/NitroSwan
 [pdtwl]: https://github.com/DS-Homebrew/PicoDriveTWL
-[rvidplayer]: https://gbatemp.net/threads/539163
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
 [snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
-[tunavids]: https://github.com/chishm/tuna-vids
