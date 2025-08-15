@@ -86,7 +86,7 @@ If your video does not have audio, skip to `Converting to the .rvid format`
 1. When asked to choose the audio sample rate, choose the one that you've kept in mind during the audio export process in Audacity
 1. When asked to choose the encoding of the audio, choose either `8-bit` or `16-bit` depending on which one you picked during the audio export process in Audacity
 1. You'll now be asked if the entered information is correct. If you believe it to be correct, press the `Y` key to save the information and begin the conversion process
-1. If you've picked `256 (8-bit BMP, RGB565)` as the color amount, open the `Process Frames.bat` file that has been created in the same place as the folder containing the video's frames, and wait until it's done, where you can then press the `ENTER` key to continue
+1. If you've picked `256 (8 BPP, RGB565)` as the color amount, open the `Process Frames.bat` file that has been created in the same place as the folder containing the video's frames, and wait until it's done, where you can then press the `ENTER` key to continue
    - If you've gotten an error for one of the video frames, that means ImageMagick has failed to process that frame, so it'll not be displayed properly in Rocket Video Player
 
 When this process is done, drag and drop the new `.rvid` video file to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++ or the standalone Rocket Video Player.
