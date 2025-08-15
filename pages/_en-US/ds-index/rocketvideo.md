@@ -90,3 +90,5 @@ If your video does not have audio, skip to `Converting to the .rvid format`
    - If you've gotten an error for one of the video frames, that means ImageMagick has failed to process that frame, so it'll not be displayed properly in Rocket Video Player
 
 When this process is done, drag and drop the new `.rvid` video file to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++ or the standalone Rocket Video Player.
+
+**NOTE:** If the video file is above 4GB, it cannot be placed on the SD card, and as a result, cannot be played.
