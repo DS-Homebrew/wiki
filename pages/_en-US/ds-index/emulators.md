@@ -30,15 +30,12 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Master System           | [S8DS][s8ds]                                     | `.sms`                                 | `[rom name].sms.sav`                                                       |
 | MSX                     | [ColecoDS][colecods]                             | `.msx`                                 | ???                                                                        |
 | Neo Geo Pocket (Color)  | [NGPDS][ngpds]                                   | `.ngp`, `.ngc`                         | `/data/ngpds/[rom name].ngp.fla`                                           |
-| FastVideoDS             | [FastVideoDSPlayer][fastvideodsplayer]           | `.fv`                                  |                                                                            |
 | NES/Famicom             | [nesDS][nesds]                                   | `.nes`, `.fds`                         | `[rom name].sav`                                                           |
 | PC Engine/TurboGrafx-16 | [NitroGrafx][nitrografx]                         | `.pce`                                 |                                                                            |
-| Rocket Video            | [Rocket Video Player][rvidplayer]                | `.rvid`                                |                                                                            |
 | SG-1000                 | [S8DS][s8ds], [ColecoDS][colecods]               | `.sg`                                  |                                                                            |
 | Sord M5                 | [ColecoDS][colecods]                             | `.m5`                                  |                                                                            |
 | SNES                    | [SNEmulDS][snemulds]                             | `.smc`, `.sfc`                         | `[rom name].srm`[^8]                                                       |
 | WonderSwan (Color)      | [NitroSwan][nitroswan]                           | `.ws`, `.wsc`                          | ???                                                                        |
-| Xvid                    | [tuna-viDS][tunavids]                            | `.avi`                                 |                                                                            |
 
 These are just recommended emulators and loaders that are present in TWiLight Menu++. There are other emulators for these consoles (such as lolSnes, Gbaemu4ds, etc.)
 
