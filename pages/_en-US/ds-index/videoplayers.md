@@ -10,20 +10,22 @@ description: Homebrew Video Players for the Nintendo DS(i)
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-|Player name     |Supported containers/Codecs     |Drawbacks                                  |Max FPS                                        |
-|----------------|--------------------------------|-------------------------------------------|-----------------------------------------------|
-|FastVideoDS     |`.fv`, FastVideoDS              |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)              |
-|Moonshell       |`.dpg`, MPEG1                   |Can only reach a certain framerate/bitrate.|24fps                                          |
-|Tuna-ViDS       |`.avi`, XVid                    |Can only reach a certain framerate/bitrate.|15fps                                          |
-|MPEG4Player     |`.mp4`, MPEG-4                  |Can only play short videos.                |24fps                                          |
+|Player name        |Supported containers/Codecs|Drawbacks                                  |Max FPS                          |
+|-------------------|---------------------------|-------------------------------------------|---------------------------------|
+|FastVideoDS        |`.fv`, FastVideoDS         |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)|
+|Rocket Video Player|`.rvid`, RocketVideoDS     |Large file size due to raw video output.   |60fps (8 BPP), 30fps (16 BPP)    |
+|Moonshell          |`.dpg`, MPEG1              |Can only reach a certain framerate/bitrate.|24fps                            |
+|Tuna-ViDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |
+|MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |
 
-Notes:
+**Notes:**
+- The only player which supports 60FPS (on DS and DS Lite) and dual-screen playback (up to 30FPS) is Rocket Video Player.
 - Actual max FPS is dependent on video content and length.
 - Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
 ## FastVideoDS
 
-Note: If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
+If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
 {: .alert .alert-warning}
 
 ### Windows
@@ -35,6 +37,10 @@ Note: If you get a message saying `This encoder requires a cpu with support for 
 1. Drag and drop the copied or moved video into the `.bat` file
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
+
+## Rocket Video Player (Advanced users, Windows only)
+
+*See [Rocket Video Player](rocketvideo)*
 
 ## Moonshell video conversion (DPG4x)
 
@@ -58,7 +64,7 @@ When this process is done, it should be easy as drag and drop to SD card. Once y
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
 
-## TunaViDS Guide
+## TunaViDS
 
 ### Windows
 First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
