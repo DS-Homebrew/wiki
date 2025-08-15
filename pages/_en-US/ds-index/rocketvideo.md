@@ -7,7 +7,7 @@ title: Rocket Video Player
 description: How to play videos with Rocket Video Player
 ---
 
-# Rocket Video Player (Advanced users, Windows x64 only)
+# Advanced users, Windows x64 only
 
 The below steps apply to upcoming versions of both Vid2RVID and Rocket Video Player, and should not be followed until they release.
 {: .alert .alert-warning}
