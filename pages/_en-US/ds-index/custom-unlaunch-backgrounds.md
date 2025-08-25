@@ -1,27 +1,29 @@
 ---
 lang: en-US
 layout: wiki
-section: twilightmenu
-category: customization
+section: ds-index
+category: guides
 title: Custom Unlaunch Backgrounds
-description: How to make custom Unlaunch backgrounds and install them using TWiLight Menu++
+description: How to make and use custom Unlaunch backgrounds
 ---
 
-You can find premade Unlaunch backgrounds on the [TWiLight Menu++ skins site](https://skins.ds-homebrew.com/unlaunch/).
+You can find premade Unlaunch backgrounds on the [TWiLight Menu++ themes site](https://skins.ds-homebrew.com/unlaunch/).
 {:.alert .alert-info}
 
-Using TWiLight Menu++ you can patch the Unlaunch installer to have a custom background image and text color palette. This needs to be a 256 x 192 GIF, with a few restrictions:
+Unlaunch can be patched to have a custom background image and text color palette. This needs to be a 256 x 192 GIF, with a few restrictions:
 - Only the first frame will be shown, no animated backgrounds
 - The file must be less than or equal to 15,472 bytes
 - GIFs with more than 31 colors require specially made palettes to prevent breaking the text
 
 ### Installing
-1. Copy the GIF file to `sd:/_nds/TWiLightMenu/unlaunch/backgrounds`
-1. Download the [latest Unlaunch installer](https://problemkaputt.de/unlaunch.zip) and extract `UNLAUNCH.DSI` to your SD card
-1. Open TWiLight Menu++ Settings, switch to the `Unlaunch settings` page, and click on `Background`, then select the one you want
-1. Exit settings and launch `Unlaunch DSi Installer`
-    - It should use your custom image, if it does not then turn off your console and make sure your GIF conforms with the requirements above
-1. Choose `Install Now`
+1. Copy the GIF file to `sd:/backgrounds/`
+1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi) to your SD card
+1. Open the installer using whichever menu you're using (ex. TWLMenu++, akmenu-next, etc.)
+1. Select `[Custom background]`
+1. Select one of the custom backgrounds listed, and select `Yes` to confirm
+1. Select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press <kbd class="face">A</kbd> once it's done
+1. Select the `Install unlaunch` option
+1. Press the <kbd class="face">A</kbd> button once installation is done
 
 ### Using GIFs with more than 31 colors
 As the GIF's palette is loaded to the same area of VRAM as the text palettes it will overwrite them if the palette gets too large, however this can be worked around by including the text palettes in the GIF's palettes. Using this with different colors would also let you have different text colors, should you want that. These instructions will be for [GIMP](https://gimp.org), but any image editor capable of rearranging the palette of an image will work.
