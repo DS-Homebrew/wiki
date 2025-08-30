@@ -62,7 +62,7 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 {% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
-**Optional:** If you want to install additional features (known as add-ons), see [Installing Add-ons](installing-addons).
+**Optional:** If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](installing-addons).
 {:.alert .alert-info}
 
 ### Accessing flashcard contents
