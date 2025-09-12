@@ -7,6 +7,9 @@ title: Video Players
 description: Homebrew Video Players for the Nintendo DS(i)
 ---
 
+As these video players (except for Rocket Video Player) do not have their own menus for opening a video, this guide assumes you are using **TW**i**L**ight Menu++ with the Multimedia add-on installed. If you do not have the Multimedia add-on installed, see [Installing Add-ons](../twilightmenu/installing-addons) for how to install it.
+{:.alert .alert-info}
+
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
