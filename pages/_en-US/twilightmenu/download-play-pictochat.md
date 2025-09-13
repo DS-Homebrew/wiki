@@ -14,7 +14,7 @@ Otherwise, if you have a 3DS with no existing dump(s), proceed below.
 In GodMode9:
 1. Press the HOME/Power button
 1. Select `Title Manager`, then select `[1:] NAND / TWL`
-1. Find and select `DS Download Play (NTR-HDNA)`
+1. Find and select `DS Download Play (NTR-HNDA)`
 1. Select `Open title folder`
 1. Select `00000000.tmd`, then select `TMD file options...`
 1. Select `Dump CXI/NDS file`
