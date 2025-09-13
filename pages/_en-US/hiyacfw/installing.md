@@ -58,8 +58,9 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
     - **Linux:** Launch the `TWLMagician.py` extracted from the TWLMagician archive
 1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
+1. Press `Start`, and a new pop-up window should appear
+1. Navigate to the root of your SD card
+1. Press `OK`
     - The process may take several minutes
 1. When the application says `Done!`, close out of TWLMagician
 1. Close the terminal window (optional)
