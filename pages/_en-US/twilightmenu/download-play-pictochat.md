@@ -8,7 +8,7 @@ description: How to get DS Download Play and PictoChat in TWiLight Menu++'s DS C
 ---
 
 If you're using a DSi console, you should already be able to launch those apps.
-Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu on a DSi.
+Getting dumps of them for your flashcard or 3DS requires accessing the DS Classic Menu on a DSi running **TW**i**L**ight Menu++ from the DSi's SD card slot.
 Otherwise, if you have a 3DS with no existing dump(s), proceed below.
 
 In GodMode9:
