@@ -114,10 +114,6 @@ While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster spe
 #### Can I remap button inputs using nds-bootstrap?
 No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
 
-#### How do I play randomized Pokémon ROMs with nds-bootstrap?
-Pokémon HeartGold/SoulSilver, Black/White, and Black 2 / White 2 have anti-piracy measures that have to be manually patched out *before* randomizing the ROM. You can do this with [DS-Scene ROM Tool](https://gbatemp.net/download/35735/).
-- Randomized ROMs cannot be AP-patched on-the-fly like the vanilla versions of these games are, because randomizing a ROM has far too many unique possible outputs to be reasonably included with **TW**i**L**ight Menu++
-
 #### What are DSi binaries? How do I get them?
 DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
 
