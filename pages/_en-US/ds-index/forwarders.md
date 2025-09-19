@@ -59,7 +59,7 @@ If you already have Universal Updater installed on your console, you can skip to
 
 ### Part 1: Getting started
 1. Copy `NDSForwarder.dsi` to your SD card root
-    - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi)
+    - This can optionally be installed to hiyaCFW directly using [NTM](https://github.com/Epicpkmn11/NTM/releases/latest/download/NTM.dsi)
 1. Download the [Forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Open the `for SD Card root` folder
 1. Drag the `_nds` folder to the root of your DSi's SD card
