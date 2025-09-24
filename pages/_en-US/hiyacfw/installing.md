@@ -21,6 +21,7 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 
 ### Part 1: Preparing your PC for installing hiyaCFW
 {% capture tab-windows %}
+1. Download and install the latest version of [vcredist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version)
 1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Run the TWLMagician MSI package and extract it to anywhere on your PC
 {% endcapture %}
