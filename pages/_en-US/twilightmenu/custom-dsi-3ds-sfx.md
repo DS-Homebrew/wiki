@@ -57,10 +57,13 @@ To convert the audio:
 
 To export in the correct format:
 1. Select `File` > `Export` > `Export Audio...`
-1. Set `Save as type` to `WAV (Microsoft)`
+1. Set `File Name` to `bgm.wav` and click `Save`
+1. Set `Format` to `WAV (Microsoft)`
+1. Set ` Sample Rate` to the same one as the project (and not above `48000 Hz`)
 1. Set `Encoding` to `Signed 16-bit PCM`
-1. Set the output name to `bgm.wav` and click `Save`
-1. Click `Clear` and then click `OK` to the metadata editing
+1. Click `Edit Metadata...`
+1. Click `Clear` and then click `OK`
+1. Click `Export`
 
 Now you have a `bgm.wav` file that can be copied to the `sound` subfolder in your theme folder.
 
