@@ -34,3 +34,11 @@ There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder.
 There are several things you need to take into account when adding titles to hiyaCFW:
 - Game Card dumps cannot be run without being using a [forwarder](../ds-index/forwarders)
 - Homebrew need to be built correctly using modern tools to work from the Nintendo DSi Menu
+
+#### Why do I get the "The system memory is full" error?
+When the Nintendo DSi Menu detects less than 17 MB of free space, it will pop up this error dialog. However, on SDNand, the `Another free space` bug is usually triggered even when the SD card has far more than 17 MB of free space.
+
+##### The Another free space bug
+When the remaining space on the SD card falls within the range `[4096 × n, 4096 × n + 17) MB (n ∈ ℕ⁺)`, an integer overflow causes the Nintendo DSi Menu to interpret the free space as less than 17 MB. This triggers the error dialog and prompts the user to open Data Management to delete some Titles.
+
+We update the launcher patches which fix this bug. To work around this, please [update hiyaCFW](updating).

@@ -2,24 +2,20 @@
 lang: en-US
 layout: wiki
 section: hiyacfw
-title: Installing
-long_title: Installing hiyaCFW
-description: How to install hiyaCFW on the Nintendo DSi
+title: Updating
+long_title: Updating hiyaCFW
+description: How to update hiyaCFW on the Nintendo DSi
 tabs:
   - windows: Windows
     macos: macOS
     other: Linux
 ---
 
-Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD patches.
-{: .alert .alert-danger}
-
 ### Requirements
-- A Nintendo DSi with [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch)
-- A NAND Backup taken from your device [using dumpTool](https://dsi.cfw.guide/dumping-nand)
+- A Nintendo DSi with [hiyaCFW installed](installing)
 - A Windows, macOS, or Linux device
 
-### Part 1: Preparing your PC for installing hiyaCFW
+### Part 1: Preparing your PC for updating hiyaCFW
 {% capture tab-windows %}
 1. Download and install the latest version of [vcredist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version)
 1. Download the latest Windows version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
@@ -50,31 +46,18 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
 {% assign tabs = tab-windows | concat: tab-macos | concat: tab-other %}
 {% include tabs.html index=0 tabs=tabs %}
 
-### Part 2: Adding hiyaCFW files to your SD card
-![Screenshot of TWLMagician](https://i.ibb.co/M5yFhJZv/c5e946b5-bdc9-4256-94bd-df1be54aa61b.png)
+### Part 2: Updating hiyaCFW using TWLMagician
+![Screenshot of TWLMagician's Advanced Mode](https://i.ibb.co/Pz4Gbzz3/03b42861-19f4-47e4-b971-a94a6ce588b3.png)
 
 1. Launch TWLMagician
     - **Windows:** Launch the `TWLMagician.exe` file extracted from the TWLMagician archive (you may need to temporarily disable your antivirus)
     - **macOS:** Right click the `TWLMagician` file extracted from the TWLMagician archive and choose `Open`
     - **Linux:** Launch the `TWLMagician.py` extracted from the TWLMagician archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`, and a new pop-up window should appear
-1. Navigate to the root of your SD card
-1. Press `OK`
+1. Click the `Advanced` button
+1. Click the `...` button in the "The root of SD card" box
+1. Navigate to the root of your SD card, and click `OK`
+1. Click the `Update hiyaCFW` checkbox 
+1. Press `Start`. Note that `Advanced Mode` will also update TWiLight Menu++ on your SD card
     - The process may take several minutes
 1. When the application says `Done!`, close out of TWLMagician
 1. Close the terminal window (optional)
-
-### Part 3: Configuring Unlaunch and hiyaCFW
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-    - This should take you to Unlaunch's file menu
-1. Navigate to `OPTIONS`, then `NO BUTTON`
-1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
-    - This will make the system launch hiyaCFW automatically
-1. Save your settings and restart your console
-1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-1. Change the settings to your liking, then press <kbd>START</kbd> to continue
-
-If it shows `An error has occurred`, please see the [faq](faq?faq=why-do-i-get-an-error-has-occurred-message-when-booting-hiyacfw) page.
-{: .alert .alert-warning}
