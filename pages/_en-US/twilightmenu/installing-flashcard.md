@@ -75,6 +75,9 @@ If your flashcart does not have a compatible loader for this section, choose the
     - R4xDS
     - DSTT(i)
     - DSONE SDHC & DSONEi (non-SDHC models are ***not*** supported)
+    - Original R4
+    - Original R4SDHC
+    - M3 DS Simply
     - M3 DS Real
     - M3i Zero (non-GMP-Z003 model)
     - iTouchDS and iTouch2 (use the M3Real_M3iZero YSMenu files)
