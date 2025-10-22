@@ -175,8 +175,14 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `VolumeRenderY`            | The Y position on the top screen to draw the volume icon                                                                        | 5             | 5             |
 | `ShoulderLRenderX`         | The X position on the top screen to draw the left shoulder                                                                      | 0             | 0             |
 | `ShoulderLRenderY`         | The Y position on the top screen to draw the left shoulder                                                                      | 172           | 172           |
+| `ShoulderLTextX`           | The X position on the top screen to draw the left shoulder text                                                                 | 18            | 18            |
+| `ShoulderLTextY`           | The Y position on the top screen to draw the left shoulder text                                                                 | 176           | 176           |
+| `ShoulderLTextAlign`       | The alignment of the left shoulder text. 1 = left, 0 = center, -1 = right                                                       | 1             | 1             |
 | `ShoulderRRenderX`         | The X position on the top screen to draw the right shoulder                                                                     | 178           | 178           |
 | `ShoulderRRenderY`         | The Y position on the top screen to draw the right shoulder                                                                     | 172           | 172           |
+| `ShoulderRTextX`           | The X position on the top screen to draw the right shoulder text                                                                | 238           | 238           |
+| `ShoulderRTextY`           | The Y position on the top screen to draw the right shoulder text                                                                | 176           | 176           |
+| `ShoulderRTextAlign`       | The alignment of the right shoulder text. 1 = left, 0 = center, -1 = right                                                      | -1            | -1            |
 | `BatteryRenderX`           | The X position on the top screen to draw the battery icon                                                                       | 235           | 235           |
 | `BatteryRenderY`           | The Y position on the top screen to draw the battery icon                                                                       | 5             | 5             |
 | `UsernameRenderX`          | The X position on the top screen to draw the username text                                                                      | 28            | 28            |
@@ -191,6 +197,10 @@ You may configure various options on how the theme is drawn in the `theme.ini` t
 | `FontPalette2`             | The colors of the font, use [this site](http://www.conradshome.com/html2bgr15/) to convert                                      | 0xDEF7        | 0xDEF7        |
 | `FontPalette3`             |                                                                                                                                 | 0xC631        | 0xC631        |
 | `FontPalette4`             |                                                                                                                                 | 0xA108        | 0xA108        |
+| `FontPaletteDisabled1`     | The override transparent color of the font for disabled text                                                                    | 0x0000        | 0x0000        |
+| `FontPaletteDisabled2`     | The override color of the font for disabled text                                                                                | 0xF39C        | 0xF39C        |
+| `FontPaletteDisabled3`     |                                                                                                                                 | 0xE318        | 0xE318        |
+| `FontPaletteDisabled4`     |                                                                                                                                 | 0xD6B5        | 0xD6B5        |
 | `FontPaletteDateTime1`     | The override transparent color of the font for the date and time                                                                | 0x0000        | 0x0000        |
 | `FontPaletteDateTime2`     | The override color of the font for the date and time                                                                            | 0xDEF7        | 0xA529        |
 | `FontPaletteDateTime3`     |                                                                                                                                 | 0xC631        | 0xBDEF        |
