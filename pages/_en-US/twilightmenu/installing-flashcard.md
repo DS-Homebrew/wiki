@@ -21,7 +21,7 @@ tabs:
 1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
-**Optional:** If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](installing-addons).
+**Optional:** If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](installing-addons?tab=manual).
 {:.alert .alert-info}
 
 ### Autobooting TWiLight Menu++
