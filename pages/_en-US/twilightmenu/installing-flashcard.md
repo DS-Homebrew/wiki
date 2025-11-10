@@ -34,13 +34,23 @@ tabs:
     - Skip this, if you don't see your flashcard listed
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
-### To run games using the flashcard kernel (optional)
+### Installing the flashcard kernel
+
+By default, TWiLight Menu++ uses nds-bootstrap to run DS games. On DS flashcards, nds-bootstrap uses it's B4DS mode in order to run games, so compatibility will be slightly lower than expected.
+
+To restore the original flashcard-level compatibility, please follow this section.
 
 **Please note:**
 - This only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
-- Not all flashcards support running games in this fashion. If the below steps do not apply to your flashcard, you can skip this section.
-- You'll lose the ability to use cheats when running games in this fashion. If you want to retain cheat functionality, please skip this section.
+- Some flashcards do not support running games in this fashion, and only support nds-bootstrap. If you are using a flashcard listed below, you are done with this guide.
+- You'll lose the ability to use cheats and the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
+If you want to retain those functionalities, you can set the game loader to nds-bootstrap for either all games or a specific game. Read this section to find out how.
 {:.alert .alert-warning}
+
+**Known unsupported flashcards:**
+- Any Slot-2 flashcard (such as SuperCard MiniSD)
+- CycloDS Evolution
+- CycloDS iEvolution
 
 {% capture tab-loader %}
 
@@ -93,6 +103,5 @@ If your flashcart does not have a compatible loader for this section, choose the
 {% endcapture tab-ysmenu %}
 {% assign tab-ysmenu = tab-ysmenu | split: "////////" %}
 
-### Running games with the flashcard kernel
 {% assign tabs = tab-loader | concat: tab-ysmenu %}
 {% include tabs.html index=0 tabs=tabs %}
