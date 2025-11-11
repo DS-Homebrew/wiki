@@ -70,9 +70,13 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 A flashcard is something that goes in the game card slot, and contains a microSD card slot. If you do not have a flashcard, you are done with this guide.
 {:.alert .alert-warning}
 
+- For cheats, widescreen, and other nds-bootstrap features to work, keep the `Game Loader` setting set to `nds-bootstrap`
+- As B4DS mode will not be used in nds-bootstrap in this case, compatibility will mostly be the same as running from the 3DS' SD card slot
+{:.alert .alert-info}
+
 #### If you have an R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `To run games using your flashcard firmware`
+1. Follow [this](installing-flashcard) guide starting from `Installing the flashcard kernel`
     - You can safely ignore the warnings
 1. Open TWLMenu++ Settings
 1. Switch to the `Misc settings` page
