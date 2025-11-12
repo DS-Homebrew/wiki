@@ -33,6 +33,6 @@ If you've used a version older than v27.15.0, then after you've updated, [instal
 
 If you can switch between the SD and flashcard contents in TWLMenu++, and if the flashcard TWLMenu++ is on v16.3.0 or later, please follow these steps.
 
-1. Go into TWLMenu++ Settings
+1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 1. Select `Update TWiLight Menu++`
 1. Select `Slot-1 microSD > Console (micro)SD`

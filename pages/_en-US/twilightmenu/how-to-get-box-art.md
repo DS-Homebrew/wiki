@@ -18,7 +18,7 @@ tabs:
     - If it doesn't find the correct SD card click `Browse...` and select the right one
 1. **Optional:** Change the size, border, etc options to your liking
 1. Click `Start`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in [TWiLight Menu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 {% endcapture %}
 {% assign tab-windows = tab-windows | split: "////////" %}
 
@@ -33,14 +33,14 @@ tabs:
 1. Run `chmod +x TwilightBoxart.CLI`
 1. Run `./TwilightBoxart.CLI`
 1. Use the arrow and enter keys to select `Yes` if it shows your SD path correctly
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in [TWiLight Menu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 {% endcapture %}
 {% assign tab-macos_linux = tab-macos_linux | split: "////////" %}
 
 {% capture tab-manual %}
 1. Download a png box art pack from [GameTDB](https://www.gametdb.com/DS/Downloads#cover_packs), under the **S Covers (png)** category
 1. Extract the .png files to `sd:/_nds/TWiLightMenu/boxart`
-1. Make sure box art is set to be shown in TWiLight Menu++ settings
+1. Make sure box art is set to be shown in [TWiLight Menu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 

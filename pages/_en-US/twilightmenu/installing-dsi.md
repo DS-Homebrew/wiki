@@ -41,7 +41,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 
 1. Follow [this](installing-flashcard) guide starting from `Installing the flashcard kernel`
     - You can safely ignore the warnings
-1. Open TWLMenu++ Settings
+1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 1. Switch to the `Misc settings` page
 1. Turn on `Slot-1 microSD access`
 1. Exit TWLMenu++ Settings by pressing `B` button
@@ -52,7 +52,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 1. Create a file or folder called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
 1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
 1. Copy the `BOOT.NDS` file from `TWiLightMenu-Flashcard.7z` to your flashcard’s microSD card root
-1. Open TWLMenu++ Settings
+1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 1. Switch to the `Misc settings` page
 1. Turn on `SD access in Slot-1`
 1. Turn on `SCFG access in Slot-1`
