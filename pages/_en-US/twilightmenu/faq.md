@@ -75,6 +75,7 @@ There are a multiple reasons you may be unable to find them.
 - If your game or folder is hidden, you may need to show hidden files via TWiLight Menu++'s GUI settings
 - If your game is in an archive (`zip`, `rar`, `7z`, etc), it cannot be used by TWiLight Menu++. Extract the game from the archive to use it
 - If your game does not use one of the [supported extensions](../ds-index/emulators#list-of-systems-supported-by-twilight-menu), you may have to change the extension by renaming the file
+- If the game you have has been released before the GBA and/or DS(i) systems existed, you may be missing the Virtual Console add-on. Install it by following [this guide](installing-addons)
 
 #### How do I access TWiLight Menu++ settings?
 The way to access the TWiLight Menu++ settings varies between your configuration.
