@@ -65,6 +65,7 @@ If your flashcart does not have a compatible loader for this section, choose the
     - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
 1. Open TWLMenu++ Settings, switch to `Games and Apps settings` page, and set `Game Loader` to `Kernel`, so the flashcard kernel will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
+	- If you want to retain the nds-bootstrap features and/or if the game does not work with the kernel, you can keep the `Game Loader` setting as `nds-bootstrap`
 
 {% endcapture tab-loader %}
 {% assign tab-loader = tab-loader | split: "////////" %}
