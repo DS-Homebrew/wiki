@@ -42,7 +42,7 @@ To restore the original flashcard-level compatibility, please follow this sectio
 
 **Please note:**
 - This only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
-- Some flashcards do not support running games in this fashion, and only support nds-bootstrap. If you are using a flashcard listed below, you are done with this guide.
+- Some flashcards do not support running games in this fashion, and only support nds-bootstrap. If you are using a flashcard listed under `Known unsupported flashcards`, you are done with this guide.
 - You'll lose the ability to use cheats and the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
 If you want to retain those functionalities, you can set the game loader to nds-bootstrap for either all games or a specific game. Read this section to find out how.
 {:.alert .alert-warning}
