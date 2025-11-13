@@ -71,8 +71,8 @@ Activating it for every (compatible) game:
 
 {% capture tab-forwarders %}
 
-
-1. From the HOME menu, hold <kbd class="face">Y</kbd>, and while holding <kbd class="face">Y</kbd>, launch the forwarded game that you wish to enable widescreen for
+1. From the HOME menu, launch the forwarded game that you wish to enable widescreen for
+1. After the white screens appear, hold <kbd class="face">Y</kbd> until a menu opens
 1. Use the D-Pad to scroll to `Widescreen`
 1. Press <kbd class="face">A</kbd> to switch it to `On`
 1. Press <kbd>START</kbd> to save
