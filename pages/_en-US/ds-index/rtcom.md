@@ -36,6 +36,7 @@ If you're currently using Luma v13, please update to the latest version before f
 1. Press <kbd>START</kbd> to generate a `TwlBg.cxi` file with widescreen + RTCom
     - If the top screen doesn't indicate that wide patch is enabled, start from step 3 again
 1. Move `TwlBg.cxi` from `sd:/luma/sysmodules/` to `sd:/_nds/TWiLightMenu/TwlBg/` (create `TwlBg` folder, if it doesn't exist), and rename the file to `Widescreen.cxi`
+    - If TWiLight Menu++ is not installed and you are only using forwarders, move `TwlBg.cxi` to `sd:/_nds/ntr-forwarder/`, and rename the file to `Widescreen.cxi`
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
 1. Launch TWPatch
