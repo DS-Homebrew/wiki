@@ -257,6 +257,7 @@ Hacking is required to activate the code.
 - Dreamwalker
 - Go! Go! Kokopolo
 - Ice Hockey Slovakia 2011
+- Jagged Alliance
 - Make Up & Style
 
 ### Games that can connect with GBA titles
