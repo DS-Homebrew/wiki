@@ -48,7 +48,8 @@ If you want to retain those functionalities, you can set the game loader to nds-
 {:.alert .alert-warning}
 
 **Known unsupported flashcards:**
-- Any Slot-2 flashcard (such as SuperCard MiniSD)
+- Any Slot-2 flashcard (such as G6 Lite, M3 Adapter, Max Media Dock, SuperCard MiniSD, etc.)
+- Action Replay DS(i)
 - CycloDS Evolution
 - CycloDS iEvolution
 
