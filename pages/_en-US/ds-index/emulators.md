@@ -47,11 +47,13 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 
 ### BIOS usage
 
-| Format                  | Loader                                           | Path                                   | Required  |
-| ----------------------- | ------------------------------------------------ | -------------------------------------- | --------- |
-| Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                               | No        |
-| Game Boy Advance        | [GBARunner2][gbarunner2], native[^5]             | `/_gba/bios.bin`                       | See [^10] |
-| Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                         | Yes       |
+| Format                  | Loader                                           | Path                                         | Required  |
+| ----------------------- | ------------------------------------------------ | -------------------------------------------- | --------- |
+| ColecoVision            | [S8DS][s8ds], [ColecoDS][colecods]               | `coleco.rom` in `/roms/bios` or `/data/bios` | Yes       |
+| Game Boy (Color)        | [GameYob][gameyob][^9]                           | User-set                                     | No        |
+| Game Boy Advance        | [GBARunner2][gbarunner2], native[^5]             | `/_gba/bios.bin`                             | See [^10] |
+| Famicom Disk System     | [nesDS][nesds]                                   | `/disksys.rom`                               | Yes       |
+| Sord M5                 | [ColecoDS][colecods]                             | `sordm5.rom` in `/roms/bios` or `/data/bios` | Yes       |
 
 [^1]: Text files containing the path to a DS homebrew app and arguments to launch it with, see [nds-hb-menu's README](https://github.com/devkitPro/nds-hb-menu#passing-arguments) for more info
 [^2]: Only for retail ROMs, homebrew do not have specific save files
