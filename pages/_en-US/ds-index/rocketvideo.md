@@ -37,7 +37,8 @@ This is a time-consuming process, and may not be noob-friendly. It should only b
 
 ## Extracting video frames (bottom screen)
 
-If your video is not dual-screen, skip to `Extracting audio`
+If your video is not dual-screen, skip to [Extracting audio](#extracting-audio)
+{: .alert .alert-info}
 
 1. Make sure the video is the exact same aspect ratio and resolution as the video for the top screen (ex. if the top screen video is 4:3, the bottom screen video must also be 4:3)
 1. Create a folder called `bottom` inside the folder containing the video's frames
@@ -46,7 +47,8 @@ If your video is not dual-screen, skip to `Extracting audio`
 
 ## Extracting audio
 
-If your video does not have audio, skip to `Converting to the .rvid format`
+If your video does not have audio, skip to [Converting to the .rvid format](#converting-to-the-rvid-format)
+{: .alert .alert-info}
 
 1. Click `Audio` -> `Full processing mode`
 1. Click `Audio` -> `Conversion...`
@@ -89,3 +91,4 @@ If your video does not have audio, skip to `Converting to the .rvid format`
 When this process is done, drag and drop the new `.rvid` video file to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++ or the standalone Rocket Video Player.
 
 **NOTE:** If the video file is above 4GB, it cannot be placed on the SD card, and as a result, cannot be played.
+{: .alert .alert-info}
