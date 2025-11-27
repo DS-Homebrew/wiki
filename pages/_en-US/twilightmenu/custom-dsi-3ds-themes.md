@@ -137,7 +137,7 @@ These must be PNG files. Transparency is supported, however only 100% transparen
 | Rshoulder_photo_greyed | The right shoulder with no pages to the left and a photo showing |
 
 ### Video texture (`video` folder)
-Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [this guide here](ds-index/rocketvideo). If you don't want this to be drawn you can simply delete it.
+Only used for the 3DS theme, `3dsRotatingCubes.rvid` is a Rocket Video file. For more information on converting videos to rvid, read [this guide here](../ds-index/rocketvideo). If you don't want this to be drawn you can simply delete it.
 
 ### Volume textures (`volume` folder)
 Volume textures are only displayed in DSi Mode.
