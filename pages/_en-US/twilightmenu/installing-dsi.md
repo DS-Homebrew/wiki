@@ -17,6 +17,8 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 1. Extract `TWiLightMenu-DSi.7z`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
+    - If your console is bricked and can only be used with ntrboot, copy the `ntrboot.nds` file to your SD card root
+    - If your console functions normally, you only need `BOOT.NDS`
 1. Copy the `roms` folder to your SD card root
 1. **hiyaCFW users:** Copy the `title` folder to your SD card root
 
