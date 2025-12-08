@@ -14,6 +14,7 @@ Most GIF files up to 256x192 should work, with a few exceptions:
 - Between the two, the GIFs must be less than about 10 MB (DSi Mode) or about 2 MB (DS Mode)
 - If both GIFs are set to loop forever then they will show for 3 seconds, so set a loop count on at least one to control the time
 - The user input flag is supported so set it and a long delay on a frame if you want to show a splash and wait like the defaults
+    - The flag can be set by using [this script](https://gist.github.com/Epicpkmn11/90d1c3008e61beaf9f928fd57221cd49)
     - Only the GIF waiting for input will be paused, so the other can continue animating 
 - If using Local Color Tables the whole frame must be overwritten as it will replace the whole screen's palette, not just the current frame
 - Interlaced and text frames will not work
