@@ -51,6 +51,7 @@ If you want to retain those functionalities, you can set the game loader to `pic
 
 1. Open the [Pico Loader download page](https://github.com/LNH-team/pico-loader/releases)
 1. Download the correct Pico Loader zip file for your flashcard
+    - Read [Supported platforms](https://github.com/LNH-team/pico-loader?tab=readme-ov-file#supported-platforms) to find out which one to use
 1. Drag and drop the `.bin` files inside the zip file to the `_pico` folder on the root of the flashcard's microSD card
 1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings), switch to `Games and Apps settings` page, and set `Game Loader` to `pico`, so Pico Loader will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
