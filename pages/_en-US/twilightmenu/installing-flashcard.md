@@ -59,6 +59,8 @@ If you want to retain those functionalities, you can set the game loader to `pic
 
 #### Flashcard Kernel
 
+This restores the original flashcard-level compatibility with varying boot times depending on the flashcard.
+
 **Please note:**
 - This only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
 - Some flashcards do not support running games in this fashion, and only support nds-bootstrap. If you are using a flashcard listed under `Known unsupported flashcards`, you are done with this guide.
