@@ -41,7 +41,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 
 #### If you have an R4(i) Ultra
 
-1. Follow [this](installing-flashcard) guide starting from `Installing the flashcard kernel`
+1. Follow [this](installing-flashcard) guide starting from `Flashcard Kernel`
     - You can safely ignore the warnings
 1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings)
 1. Switch to the `Misc settings` page

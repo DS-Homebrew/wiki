@@ -34,17 +34,35 @@ tabs:
     - Skip this, if you don't see your flashcard listed
 1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
 
-### Installing the flashcard kernel
+### Installing more game loaders
 
 By default, TWiLight Menu++ uses nds-bootstrap to run DS games. On DS flashcards, nds-bootstrap uses it's B4DS mode in order to run games, so compatibility will be slightly lower than expected.
 
-To restore the original flashcard-level compatibility, please follow this section.
+To increase compatibility, please follow this section.
+
+#### Pico Loader
+
+Pico Loader is the smallest and fastest game loader option available. Most DS games will work properly, with a few that either don't boot or not work properly.
+
+**Please note:**
+- You'll lose the ability to use cheats and the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
+If you want to retain those functionalities, you can set the game loader to `pico` for either all games or a specific game. Read this sub-section to find out how.
+{:.alert .alert-warning}
+
+1. Open the [Pico Loader download page](https://github.com/LNH-team/pico-loader/releases)
+1. Download the correct Pico Loader zip file for your flashcard
+1. Drag and drop the `.bin` files inside the zip file to the `_pico` folder on the root of the flashcard's microSD card
+1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings), switch to `Games and Apps settings` page, and set `Game Loader` to `pico`, so Pico Loader will be used instead of nds-bootstrap
+    - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
+	- If you want to retain the nds-bootstrap features and/or if the game does not work with the kernel, you can keep the `Game Loader` setting as `nds-bootstrap`
+
+#### Flashcard Kernel
 
 **Please note:**
 - This only works if your flashcard is set to autoboot TWiLight Menu++. See above section for how to do so.
 - Some flashcards do not support running games in this fashion, and only support nds-bootstrap. If you are using a flashcard listed under `Known unsupported flashcards`, you are done with this guide.
 - You'll lose the ability to use cheats and the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
-If you want to retain those functionalities, you can set the game loader to nds-bootstrap for either all games or a specific game. Read this section to find out how.
+If you want to retain those functionalities, you can set the game loader to nds-bootstrap for either all games or a specific game. Read this sub-section to find out how.
 {:.alert .alert-warning}
 
 **Known unsupported flashcards:**
