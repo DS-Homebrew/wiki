@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.2.0"
+gem "jekyll", "~> 4.3.3"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -27,3 +27,7 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 gem "webrick", "~> 1.8.1"
+gem "csv", "~> 3.3.5"
+gem 'base64', '~> 0.1.0'
+gem 'erb', '~> 6.0'
+gem 'logger', '~> 1.7'

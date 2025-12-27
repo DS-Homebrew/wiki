@@ -7,7 +7,8 @@ title: Installing (3DS)
 long_title: Installing TWiLight Menu++ (3DS)
 description: How to install TWiLight Menu++ on the Nintendo 3DS
 tabs:
-  - working-camera: Working camera
+  - universal-updater: Universal-Updater
+    working-camera: Working camera
     non-working-camera: Non-working camera
     manual: Manual
 ---
@@ -15,17 +16,23 @@ tabs:
 You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide](https://3ds.hacks.guide) to install it
 {:.alert .alert-info}
 
+{% capture tab-universal-updater %}
+1. Open Universal-Updater
+    - If you don't have it, follow the [working camera](?tab=working-camera) or [non-working camera](?tab=non-working-camera) instructions
+1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
+1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
+    - This will take a while
+    - If installation fails, ensure the console is connected to the internet. Otherwise, use the [manual](?tab=manual) method
+{% endcapture %}
+{% assign tab-universal-updater = tab-universal-updater | split: "////////" %}
+
+
 {% capture tab-working-camera %}
 1. Open FBI and select `Remote Install`, then `Scan QR Code`
 1. Scan this QR code to install the latest version of [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)<br>
    ![Universal-Updater QR code](https://db.universal-team.net/assets/images/qr/universal-updater-cia.png)
-1. Close FBI and launch Universal-Updater
+1. Close FBI and continue with the [Universal-Updater method](?tab=universal-updater)
     - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-    - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-working-camera = tab-working-camera | split: "////////" %}
 
@@ -35,13 +42,8 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 1. Launch FBI on your Nintendo 3DS
 1. In FBI, go to the place you pasted the `Universal-Updater.cia` file
 1. Select the `Universal-Updater.cia` file and hit "Install & Delete"
-1. Close FBI and launch Universal-Updater
+1. Close FBI and continue with the [Universal-Updater method](?tab=universal-updater)
     - If it doesn't show up on your home menu, reboot your 3DS
-1. Find TWiLight Menu++ in the app grid, you can search with the 3rd tab on the sidebar if you have trouble finding it
-    - It has this icon: ![TWiLight Menu++ icon](https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/icon.bmp)
-1. Press <kbd class="face">A</kbd> or tap the download icon in the sidebar and select `TWiLight Menu++` to install it
-    - This will take a while
-    - If installation fails, ensure the console is connected to the internet. Otherwise, click the `Manual` tab
 {% endcapture %}
 {% assign tab-non-working-camera = tab-non-working-camera | split: "////////" %}
 
@@ -59,7 +61,7 @@ You will first need to have custom firmware on your 3DS, follow [3ds.hacks.guide
 
 ### Installing
 
-{% assign tabs = tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
+{% assign tabs = tab-universal-updater | concat: tab-working-camera | concat: tab-non-working-camera | concat: tab-manual %}
 {% include tabs.html index=0 tabs=tabs %}
 
 **Optional:** If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](installing-addons).
