@@ -81,7 +81,7 @@ If your video does not have audio, skip to [Converting to the .rvid format](#con
 1. Choose the amount of colors to display on-screen by pressing one of the number keys
 1. When asked to choose the frame rate, choose the one that you've kept in mind during the video frame extraction process in VirtualDub2
    - If for example, the frame rate you checked in VirtualDub is `24.000 fps` instead of `23.976 fps`, hold the Right `->` key while selecting the `23.976FPS` option
-1. If the frame rate is 24FPS or less, you'll be asked to compress the video frames. Press the `Y` key to compress the frames
+1. If the frame rate is 25FPS or less, you'll be asked to compress the video frames. Press the `Y` key to compress the frames
 1. When asked to choose the audio sample rate, choose the one that you've kept in mind during the audio export process in Audacity
 1. When asked to choose the encoding of the audio, choose either `8-bit` or `16-bit` depending on which one you picked during the audio export process in Audacity
 1. You'll now be asked if the entered information is correct. If you believe it to be correct, press the `Y` key to save the information and begin the conversion process
