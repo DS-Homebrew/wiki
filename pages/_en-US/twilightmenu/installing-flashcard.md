@@ -17,6 +17,7 @@ tabs:
 1. Open or extract `TWiLightMenu-Flashcard.7z`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
+    - If you are using a DSi flashcard such as the CycloDSi or DSpico, use `BOOT_ALT.NDS` instead
 1. Drag and drop the `roms` folder to your flashcard's microSD card root
 1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
