@@ -13,7 +13,7 @@ This is a time-consuming process, and may not be noob-friendly. It should only b
 {: .alert .alert-warning}
 
 1. Download [Vid2RVID](https://github.com/RocketRobz/Vid2RVID/releases)
-1. Download [VirtualDub2 build 42671](https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%20pack/version%2020/VirtualDub2_42671.zip/download)
+1. Download [VirtualDub2 build 42671](https://sourceforge.net/projects/vdfiltermod/files/VirtualDub%20pack/version%2020/VirtualDub2_42671.zip/download) (a later build may not extract frames properly)
 1. Download and install [Audacity](https://www.audacityteam.org/download/)
 1. Download and install the first-listed `Win64 dynamic at 16 bits-per-pixel component` build of [ImageMagick](https://imagemagick.org/script/download.php) under `Windows Binary Release`
    - During installation, once you've reached `Select Additional Tasks`, tick on `Add application directory to your system path`
