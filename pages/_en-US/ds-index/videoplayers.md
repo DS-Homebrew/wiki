@@ -13,13 +13,13 @@ As these video players (except for Rocket Video Player) do not have their own me
 # Homebrew Video Players for the Nintendo DS(i)
 This page contains a list of working video players for the Nintendo DS and DSi that explains how each works.
 
-|Player name        |Supported containers/Codecs|Drawbacks                                  |Max FPS                          |
-|-------------------|---------------------------|-------------------------------------------|---------------------------------|
-|FastVideoDS        |`.fv`, FastVideoDS         |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)|
-|Rocket Video Player|`.rvid`, RocketVideoDS     |Large file size due to raw video output.   |72fps                            |
-|Moonshell          |`.dpg`, MPEG1              |Can only reach a certain framerate/bitrate.|24fps                            |
-|Tuna-ViDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |
-|MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |
+|Player name        |Supported containers/Codecs|Drawbacks                                  |Max FPS                          |Temporal Dithering|
+|-------------------|---------------------------|-------------------------------------------|---------------------------------|------------------|
+|FastVideoDS        |`.fv`, FastVideoDS         |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)|No                |
+|Rocket Video Player|`.rvid`, RocketVideoDS     |Large file size due to raw video output.   |72fps                            |Yes               |
+|Moonshell          |`.dpg`, MPEG1              |Can only reach a certain framerate/bitrate.|24fps                            |Yes               |
+|Tuna-ViDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |No                |
+|MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |No(?)             |
 
 **Notes:**
 - Actual max FPS is dependent on video content and length.
@@ -45,6 +45,7 @@ When this process is done, it should be easy as drag and drop to SD card. Once y
 The only player which supports
 - Videos up to 72FPS
 - 60-72FPS support on DS and DS Lite
+- Maximum quality 16BPP RGB565 playback
 - Dual-screen videos
 
 *See [Rocket Video Player](rocketvideo)*
