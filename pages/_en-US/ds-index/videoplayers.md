@@ -22,7 +22,6 @@ This page contains a list of working video players for the Nintendo DS and DSi t
 |MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |
 
 **Notes:**
-- The only player which supports 60FPS (on DS and DS Lite) and dual-screen playback is Rocket Video Player.
 - Actual max FPS is dependent on video content and length.
 - Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
@@ -42,6 +41,11 @@ If you get a message saying `This encoder requires a cpu with support for AVX2 i
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++.
 
 ## Rocket Video Player (Advanced users, Windows x64 only)
+
+The only player which supports
+- Videos up to 72FPS
+- 60-72FPS support on DS and DS Lite
+- Dual-screen videos
 
 *See [Rocket Video Player](rocketvideo)*
 

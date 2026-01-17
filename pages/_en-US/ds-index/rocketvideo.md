@@ -53,16 +53,21 @@ If your video does not have audio, skip to [Converting to the .rvid format](#con
 1. Click `Audio` -> `Full processing mode`
 1. Click `Audio` -> `Conversion...`
 1. Under `Precision`, click `16-bit`
-1. Under `Channels`, click `Mono`
+1. Under `Channels`, click either `Mono` or `Stereo`
 1. Click `File` -> `Save audio...` to save the `.wav` file somewhere
 1. Open Audacity
 1. Click `File` -> `Open...`
 1. Search for the `.wav` file, and open it
    - If you're asked to set the project tempo, click `Yes`
+1. Click on the left-side box of the audio stream
 1. If the audio waveform is below `0.5`, click `Effect` -> `Volume and Compression` -> `Amplify...`
 1. Make sure `Allow clipping` is ticked
-1. Depending on how low the wafeform is, set `Amplification (dB)` to either `6` or `12`
+1. Depending on how low the wafeform is, set `Amplification (dB)` to either `6` or `12` (or something in between)
 1. Click `Apply`
+1. If this is stereo audio:
+   - Right-click on the left-side box of the audio stream
+   - Click on `Split Stereo to Mono`
+   - Click `Solo` on the top stream to mark it
 1. Click `File` -> `Export Audio...`
 1. Set `File Name` to `sound.raw`
 1. Set `Folder` to the folder containing the video's extracted frames
@@ -73,6 +78,10 @@ If your video does not have audio, skip to [Converting to the .rvid format](#con
 1. Set `Encoding` to either `Signed 8-bit PCM` or `Signed 16-bit PCM`, keep that in mind for Vid2RVID as well
 1. Set `Export Range` to `Entire Project`
 1. Click `Export`
+1. If this is stereo audio:
+   - Click `Solo` on the top stream to unmark it
+   - Click `Solo` on the bottom stream to mark it
+   - Repeat steps 15-24, but set `File Name` to `soundRight.raw` instead of `sound.raw`
 
 ## Converting to the `.rvid` format
 
@@ -90,5 +99,5 @@ If your video does not have audio, skip to [Converting to the .rvid format](#con
 
 When this process is done, drag and drop the new `.rvid` video file to SD card. Once you put the video on your SD card, it will be ready for playback via **TW**i**L**ight Menu++ or the standalone Rocket Video Player.
 
-**NOTE:** If the video file is above 4GB, it cannot be placed on the SD card, and as a result, cannot be played.
+**NOTE:** If the `.rvid.3` file is above 4GB, it cannot be placed on the SD card, and as a result, the video cannot be played.
 {: .alert .alert-info}
