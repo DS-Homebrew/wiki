@@ -20,7 +20,7 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
     - If your console is bricked and can only be used with ntrboot, copy the `ntrboot.nds` file to your SD card root
     - If your console functions normally, you only need `BOOT.NDS`
 1. Copy the `roms` folder to your SD card root
-1. **hiyaCFW users:** Copy the `title` folder to your SD card root
+    - If hiyaCFW is installed, copy the `title` folder to your SD card root as well
 
 **Optional:** If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](installing-addons?tab=manual).
 {:.alert .alert-info}
@@ -29,6 +29,7 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 1. Turn on your DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 1. In the Unlaunch menu, go to `OPTIONS`
 1. Set `NO BUTTON` or a button of your choice to the `TWiLight Menu++` that says `BOOT.NDS` on the bottom screen
+    - If hiyaCFW is installed, set it to `hiyaCFW` which shows `hiya.dsi` on the bottom screen
 
 ### Accessing flashcard contents
 
