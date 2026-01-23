@@ -111,9 +111,6 @@ No. While not all games may function correctly under this setting, the DSi and 3
 #### Can I speed up games using nds-bootstrap?
 While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
 
-#### Can I remap button inputs using nds-bootstrap?
-No. Since nds-bootstrap runs games natively, it cannot change the function of most buttons. The only way to do so would be to modify the game itself, or by using cheat codes.
-
 #### What are DSi binaries? How do I get them?
 DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
 
