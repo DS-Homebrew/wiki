@@ -109,7 +109,7 @@ No. While not all games may function correctly under this setting, the DSi and 3
 - If you encounter an issue with a game when running at 133 MHz (TWL) CPU speed, create an issue on the [**TW**i**L**ight Menu++ GitHub repository](https://github.com/DS-Homebrew/TWiLightMenu/issues) detailing the effects so that it may be blacklisted from being launched at that CPU speed
 
 #### Can I speed up games using nds-bootstrap?
-While TWL CPU speed may reduce lag, nds-bootstrap cannot run games at faster speeds than intended.
+Yes. This can be achieved by setting the refresh rate above 59.9 Hz in the in-game menu, but will cause the 3D engine to not function.
 
 #### What are DSi binaries? How do I get them?
 DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
