@@ -112,7 +112,7 @@ No. While not all games may function correctly under this setting, the DSi and 3
 Yes. This can be achieved by setting the refresh rate above 59.9 Hz in the in-game menu, but will cause the 3D engine to not function.
 
 #### Can I remap button inputs using nds-bootstrap?
-Yes. Buttons can be remapped in nds-bootstrap as of v2.13.0, and can be changed in the per-game settings menu of TWiLight Menu++ and/or forwarders. Make sure TWLMenu++ and nds-bootstrap are on their latest versions.     
+Yes. Buttons can be remapped as of nds-bootstrap v2.13.0, and can be changed in the per-game settings menu of TWiLight Menu++ and/or forwarders. Make sure TWLMenu++ and nds-bootstrap are on their latest versions.     
 Please note that button remapping may not work in all areas of some games.
 
 #### What are DSi binaries? How do I get them?
