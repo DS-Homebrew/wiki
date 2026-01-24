@@ -111,6 +111,10 @@ No. While not all games may function correctly under this setting, the DSi and 3
 #### Can I speed up games using nds-bootstrap?
 Yes. This can be achieved by setting the refresh rate above 59.9 Hz in the in-game menu, but will cause the 3D engine to not function.
 
+#### Can I remap button inputs using nds-bootstrap?
+Yes. Buttons can be remapped in nds-bootstrap as of v2.13.0, and can be changed in the per-game settings menu of TWiLight Menu++ and/or forwarders.     
+Please note that button remapping may not work in all areas of some games.
+
 #### What are DSi binaries? How do I get them?
 DSi binaries are the portions of a game's code to be used on DSi (as well as 3DS) systems for use of the DSi's features, such as the cameras and improved Wi-Fi capabilities. Older dumping methods may not have properly dumped these.
 
