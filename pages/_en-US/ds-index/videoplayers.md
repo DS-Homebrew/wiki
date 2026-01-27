@@ -25,6 +25,14 @@ This page contains a list of working video players for the Nintendo DS and DSi t
 - Actual max FPS is dependent on video content and length.
 - Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
+## Picture Quality Comparison
+
+This can help with deciding which player to use. Look closely to see the differences.
+
+Tested with *Sonic The Hedgehog* (2020)
+
+![A comparison between video players](/assets/images/video-players/quality-comparison.png)
+
 ## FastVideoDS
 
 If you get a message saying `This encoder requires a cpu with support for AVX2 instructions`, then you need to either install a newer CPU chip, or use a newer PC.
