@@ -80,7 +80,7 @@ First you want to grab your video of choice. It is recommended that your video b
 Warning: Do not change the ROM settings of Tuna-ViDS, it will not boot properly. This guide assumes you have the latest build of **TW**i**L**ight Menu++.
 {: .alert .alert-warning}
 
-Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to C:\ffmpeg or somewhere you can access without admin rights.
+Next, download FFmpeg from [this direct link](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) and extract it to `C:\ffmpeg` or somewhere you can access without admin rights.
 
 You should probably stay in the safe zone for converting videos (10-15fps), otherwise your video may crash your console. Slowdowns may occur on busy scenes (confetti, rain, etc).
 
@@ -104,6 +104,7 @@ The video will quit to the menu after it is done playing, so if you want to loop
 
 ### Windows
 
-The process is the same for Tuna-ViDS, but you can have videos up to 24fps.
-- [dsmp4-43.bat](/assets/files/dsmp4.bat): For 4:3 videos
-- [dsmp4.bat](/assets/files/dsmp4.bat): For 16:9 videos
+1. Download FFmpeg v7.0.2 from [this direct link](https://github.com/GyanD/codexffmpeg/releases/download/7.0.2/ffmpeg-7.0.2-essentials_build.7z) (Later versions will not work with this method)
+1. Extract it to `C:\ffmpeg` or somewhere you can access without admin rights
+1. After extraction, rename `ffmpeg.exe` to `ffmpeg702.exe`
+1. Drag and drop your video into this batch file to convert it: [dsmp4.bat](/assets/files/dsmp4.bat)
