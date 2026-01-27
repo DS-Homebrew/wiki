@@ -17,9 +17,9 @@ This page contains a list of working video players for the Nintendo DS and DSi t
 |-------------------|---------------------------|-------------------------------------------|---------------------------------|------------------|
 |FastVideoDS        |`.fv`, FastVideoDS         |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)|No                |
 |Rocket Video Player|`.rvid`, RocketVideoDS     |Large file size due to raw video output.   |72fps                            |Yes               |
-|Moonshell          |`.dpg`, MPEG1              |Can only reach a certain framerate/bitrate.|24fps                            |Yes               |
+|Moonshell          |`.dpg`, MPEG-1             |Can only reach a certain framerate/bitrate.|24fps                            |Yes               |
 |Tuna-ViDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |No                |
-|MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |No(?)             |
+|MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |No                |
 
 **Notes:**
 - Actual max FPS is dependent on video content and length.
