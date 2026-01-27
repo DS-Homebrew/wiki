@@ -18,20 +18,31 @@ This page contains a list of working video players for the Nintendo DS and DSi t
 |FastVideoDS        |`.fv`, FastVideoDS         |Confetti spam slows down high FPS video.   |60fps (DSi mode), 30fps (DS mode)|No                |
 |Rocket Video Player|`.rvid`, RocketVideoDS     |Large file size due to raw video output.   |72fps                            |Yes               |
 |Moonshell          |`.dpg`, MPEG-1             |Can only reach a certain framerate/bitrate.|24fps                            |Yes               |
-|Tuna-ViDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |No                |
+|tuna-viDS          |`.avi`, XVid               |Can only reach a certain framerate/bitrate.|15fps                            |No                |
 |MPEG4Player        |`.mp4`, MPEG-4             |Can only play short videos.                |24fps                            |No                |
 
 **Notes:**
 - Actual max FPS is dependent on video content and length.
 - Moonshell v1.x and beta builds of v2.00 may lock-up later on, if video bitrate is higher than around `192`. It is recommended to use v2.10.
 
-## Picture Quality Comparison
+## Comparison
 
 This can help with deciding which player to use. Look closely to see the differences.
 
 Tested with *Sonic The Hedgehog* (2020)
 
+### Picture Quality
+
 ![A comparison between video players](/assets/images/video-players/quality-comparison.png)
+
+### Filesize
+
+- RocketVideoDS (16BPP RGB565, 32KHz 16-bit Stereo audio): 4.34 GB
+- RocketVideoDS (8BPP, 32KHz 16-bit Stereo audio): 3.06 GB
+- FastVideoDS: 663 MB
+- Moonshell (Quality: Extra High, Video Bitrate: 464): 439 MB
+- MPEG4Player: 311 MB
+- tuna-viDS: 276 MB
 
 ## FastVideoDS
 
@@ -80,7 +91,7 @@ The only player which supports
 
 When this process is done, it should be easy as drag and drop to SD card. Once you put the video on your SD card, it will be ready for playback via Moonshell.
 
-## TunaViDS
+## tuna-viDS
 
 ### Windows
 First you want to grab your video of choice. It is recommended that your video be 4:3, but FFmpeg add black bars to the video if it isn't.
