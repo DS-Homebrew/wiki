@@ -42,7 +42,7 @@ Tested with *Sonic The Hedgehog* (2020)
 - FastVideoDS: 663 MB
 - Moonshell (Quality: Extra High, Video Bitrate: 464): 439 MB
 - MPEG4Player: 311 MB
-- tuna-viDS: 276 MB
+- tuna-viDS (12fps): 276 MB
 
 ## FastVideoDS
 
