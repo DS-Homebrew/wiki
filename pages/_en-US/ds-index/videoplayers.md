@@ -27,11 +27,13 @@ This page contains a list of working video players for the Nintendo DS and DSi t
 
 ## Comparison
 
-This can help with deciding which player to use. Look closely to see the differences.
+This can help with deciding which player to use.
 
 Tested with *Sonic The Hedgehog* (2020)
 
 ### Picture Quality
+
+Look closely to see the differences.
 
 ![A comparison between video players](/assets/images/video-players/quality-comparison.png)
 
