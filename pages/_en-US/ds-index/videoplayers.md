@@ -39,8 +39,8 @@ Look closely to see the differences.
 
 ### Filesize
 
-- RocketVideoDS (16BPP RGB565, 32KHz 16-bit Stereo audio): 4.34 GB
-- RocketVideoDS (8BPP, 32KHz 16-bit Stereo audio): 3.06 GB
+- RocketVideo (16BPP RGB565, 32KHz 16-bit Stereo audio): 4.34 GB
+- RocketVideo (8BPP, 32KHz 16-bit Stereo audio): 3.06 GB
 - FastVideoDS: 663 MB
 - Moonshell (Quality: Extra High, Video Bitrate: 464): 439 MB
 - MPEG4Player: 311 MB
