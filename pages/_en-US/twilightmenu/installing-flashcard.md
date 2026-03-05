@@ -56,7 +56,7 @@ If you want to retain those functionalities, you can set the game loader to `pic
 1. Drag and drop the `.bin` files inside the zip file to the `_pico` folder on the root of the flashcard's microSD card
 1. [Open TWLMenu++ Settings](faq?faq=how-do-i-access-twilight-menu-settings), switch to `Games and Apps settings` page, and set `Game Loader` to `pico`, so Pico Loader will be used instead of nds-bootstrap
     - Alternatively you may do this as a per-game setting by pressing `Y` on a selected game and changing the `Game Loader` option there
-	- If you want to retain the nds-bootstrap features and/or if the game does not work with the kernel, you can keep the `Game Loader` setting as `nds-bootstrap`
+	- If you want to retain the nds-bootstrap features and/or if the game does not work with Pico Loader, you can keep the `Game Loader` setting as `nds-bootstrap`
 
 #### Flashcard Kernel
 
