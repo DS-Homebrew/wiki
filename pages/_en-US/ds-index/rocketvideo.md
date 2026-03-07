@@ -36,7 +36,7 @@ This is a time-consuming process, and may not be noob-friendly. It should only b
    - `192` for Nintendo DS, DS(i), and 3DS/2DS
 1. Click `Video` -> `Frame Rate...` to check the video's frame rate displayed next to `No change (current: `, and keep it in mind (or write it somewhere) for when you'll use Vid2RVID later
 1. Click `File` -> `Export->Image sequence...`
-1. Set the exact following in this screenshot: ![VirtualDub settings](https://github.com/RocketRobz/Vid2RVID/blob/master/vDub%20export%20settings.png?raw=true)    
+1. Set the exact following in this screenshot: ![VirtualDub settings](https://raw.githubusercontent.com/RocketRobz/Vid2RVID/refs/heads/master/vDub%20export%20settings.png)    
    and click `...` to find the new folder where the extracted video frames will go
 1. Click `OK` to export the frames, and wait until the extraction is done
 
