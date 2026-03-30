@@ -17,6 +17,8 @@ Once a flashcart has been flashed with **ntrboot** it is typically no longer usa
 
 To remove ntrboot from your flashcart you will need:
   - A flashcard that has been flashed with ntrboot
+
+If you do not have a DSpico flashcard, you will also need:
   - A hacked DSi/3DS running ntrboot flasher in order to restore the flashrom backup to the flashcard
   - A flashrom backup of your flashcart. If you followed the ntrboot flashing guide, you should have this as a `.bin` file in the `ntrboot` folder from your flashcart MicroSD card or DSi/3DS SD card
   - If you do **not** have this backup, you may download the corresponding flashrom backup for your flashcart from the [3ds.hacks.guide ntrboot guide](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html#section-v-removing-ntrboot). These are available as magnet links and require torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download) to download them
