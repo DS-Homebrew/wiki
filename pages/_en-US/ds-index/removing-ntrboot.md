@@ -6,7 +6,8 @@ category: guides
 title: Removing ntrboot
 description: How to remove ntrboot and restore a flashcart
 tabs:
-  - dsi: DSi
+  - dspico: DSpico
+    dsi: DSi
     3ds: 3DS
 ---
 
@@ -19,6 +20,15 @@ To remove ntrboot from your flashcart you will need:
   - A hacked DSi/3DS running ntrboot flasher in order to restore the flashrom backup to the flashcard
   - A flashrom backup of your flashcart. If you followed the ntrboot flashing guide, you should have this as a `.bin` file in the `ntrboot` folder from your flashcart MicroSD card or DSi/3DS SD card
   - If you do **not** have this backup, you may download the corresponding flashrom backup for your flashcart from the [3ds.hacks.guide ntrboot guide](https://3ds.hacks.guide/installing-boot9strap-(ntrboot).html#section-v-removing-ntrboot). These are available as magnet links and require torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download) to download them
+
+{% capture tab-dspico %}
+
+1. Connect the DSpico flashcard to your PC via USB
+1. Download the [DSpico hybrid firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
+
+{% endcapture tab-dspico %}
+{% assign tab-dspico = tab-dspico | split: "////////" %}
+
 
 {% capture tab-dsi %}
 
@@ -48,7 +58,7 @@ You must have already followed [3ds.hacks.guide](https://3ds.hacks.guide) and ha
 {% assign tab-3ds = tab-3ds | split: "////////" %}
 
 ### Removing ntrboot
-{% assign tabs = tab-dsi | concat: tab-3ds %}
+{% assign tabs = tab-dspico | concat: tab-dsi | concat: tab-3ds %}
 {% include tabs.html index=0 tabs=tabs %}
 
 
