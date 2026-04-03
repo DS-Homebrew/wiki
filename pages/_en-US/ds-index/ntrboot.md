@@ -6,8 +6,7 @@ category: guides
 title: ntrboot
 description: How to use ntrboot on a Nintendo DSi
 tabs:
-  - dspico: DSpico
-    unhacked: Unhacked DS/DSi/3DS
+  - unhacked: Unhacked DS/DSi/3DS
     dsi: DSi
     3ds: 3DS
 ---
@@ -20,14 +19,6 @@ To use ntrboot on your DSi you will need:
   - An ntrboot compatible flashcard. [Here's a list of working carts](https://www.flashcarts.net/ntrboot-ds-carts.html?tab=flashable). Ignore the pre-flashed ones as those use the 3DS version of ntrboot.
   - A magnet to trigger ntrboot
   - A working DS/DSi/3DS in order to flash ntrboot to the flashcard
-
-{% capture tab-dspico %}
-
-1. Connect the DSpico flashcard to your PC via USB
-1. Download the [DSpico hybrid ntrboot firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid_ntrboot.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
-
-{% endcapture tab-dspico %}
-{% assign tab-dspico = tab-dspico | split: "////////" %}
 
 {% capture tab-unhacked %}
 
@@ -73,7 +64,7 @@ You must have already followed [3ds.hacks.guide](https://3ds.hacks.guide) and ha
 {% assign tab-3ds = tab-3ds | split: "////////" %}
 
 ### Flashing ntrboot
-{% assign tabs = tab-dspico | concat: tab-unhacked | concat: tab-dsi | concat: tab-3ds %}
+{% assign tabs = tab-unhacked | concat: tab-dsi | concat: tab-3ds %}
 {% include tabs.html index=0 tabs=tabs %}
 
 ### Running ntrboot
