@@ -35,7 +35,7 @@ tabs:
 1. Drag and drop the contents to the root of the flashcard's microSD card
     - Ensure the `(your flashcard)` folder is already open, do not drag and drop the folder itself onto the root
     - Skip this, if you don't see your flashcard listed
-1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto-start, so your flashcard will start on boot
+1. **DS Phat/Lite users:** Go to settings in the DS menu, and turn on auto start-up mode, so your flashcard will start on boot
 
 ### Installing more game loaders
 
