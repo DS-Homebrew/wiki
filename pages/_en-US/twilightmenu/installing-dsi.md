@@ -15,6 +15,7 @@ If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.gu
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
     - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) and scroll down to `Assets` to download the file
 1. Extract `TWiLightMenu-DSi.7z`
+    - If you're using Windows, right-click on `TWiLightMenu-DSi.7z`, click `Show more options` (if using Win11), hover over `7-Zip`, then click `Open archive`
 1. Copy the `_nds` folder to your SD card root
 1. Copy the `BOOT.NDS` file to your SD card root
     - If your console is bricked and can only be used with ntrboot, copy the `ntrboot.nds` file to your SD card root

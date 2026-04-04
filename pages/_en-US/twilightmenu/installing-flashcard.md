@@ -15,6 +15,7 @@ tabs:
 1. Download the latest [`TWiLightMenu-Flashcard.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-Flashcard.7z)
     - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) and scroll down to `Assets` to download the file
 1. Open or extract `TWiLightMenu-Flashcard.7z`
+    - To open it on Windows, right-click on `TWiLightMenu-Flashcard.7z`, click `Show more options` (if using Win11), hover over `7-Zip`, then click `Open archive`
 1. Drag and drop the `_nds` folder to your flashcard's microSD card root
 1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
     - If you are using a DSi flashcard such as the CycloDSi or DSpico, use `BOOT_ALT.NDS` instead
@@ -27,6 +28,7 @@ tabs:
 
 ### Autobooting TWiLight Menu++
 1. Open or extract `TWiLightMenu-Flashcard.7z`
+    - To open it on Windows, right-click on `TWiLightMenu-Flashcard.7z`, click `Show more options` (if using Win11), hover over `7-Zip`, then click `Open archive`
 1. Open the `Autoboot` folder
 1. Open the `README.txt` file to help find which autoboot files are appropriate for your flashcard
 1. Open the `(your flashcard)` folder
@@ -81,6 +83,7 @@ If your flashcart does not have a compatible loader for this section, choose the
 {:.alert .alert-info}
 
 1. Open or extract `TWiLightMenu-Flashcard.7z`
+    - To open it on Windows, right-click on `TWiLightMenu-Flashcard.7z`, click `Show more options` (if using Win11), hover over `7-Zip`, then click `Open archive`
 1. Open the `Flashcart Loader` folder
 1. Open the `README.txt` file to help find which flashcart loader is appropriate for your flashcard
 1. Open the `(your flashcard)` folder
