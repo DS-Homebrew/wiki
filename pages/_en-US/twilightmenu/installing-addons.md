@@ -20,6 +20,7 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
 - **Virtual Console:** Play games from some well-known retro consoles prior to the GBA.
   - [View list of supported consoles/systems](../ds-index/emulators)
   - If you're using a 3DS or 2DS console, it is recommended to run the emulators made specifically for 3DS mode instead of installing this add-on.
+  - When installing, copy the `snemul.cfg` file to the SD card root
 
 {% capture tab-universal-updater %}
 1. Launch Universal-Updater
