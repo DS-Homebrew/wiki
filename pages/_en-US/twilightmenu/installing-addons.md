@@ -48,6 +48,7 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
 1. Extract `AddOn-???.7z`
 1. Open `_nds` -> `TWiLightMenu`
 1. Copy the listed files/folders into `sd:/_nds/TWiLightMenu/`
+    - If there's already an `addons` folder in `sd:/_nds/TWiLightMenu/`, open the `addons` folder from the `.7z` file, then copy the listed files/folders to `sd:/_nds/TWiLightMenu/addons/`
 {% endcapture %}
 {% assign tab-manual-chromebook = tab-manual-chromebook | split: "////////" %}
 
