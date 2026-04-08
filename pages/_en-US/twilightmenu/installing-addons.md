@@ -9,6 +9,7 @@ description: How to install TWiLight Menu++ Add-ons
 tabs:
   - universal-updater: Universal-Updater (3DS)
     manual: Manual (DS/DSi/3DS)
+    manual-chromebook: Manual, Chromebook (DS/DSi/3DS)
 ---
 
 Additional features can be added on to **TW**i**L**ight Menu++. The following can be installed.
@@ -39,7 +40,17 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
 {% endcapture %}
 {% assign tab-manual = tab-manual | split: "////////" %}
 
+{% capture tab-manual-chromebook %}
+1. Open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)
+1. Scroll down to the `Assets` section
+1. Download whichever add-on you want to install
+1. Extract `AddOn-???.7z`
+1. Open `_nds` -> `TWiLightMenu`
+1. Copy the listed files/folders into `sd:/_nds/TWiLightMenu/`
+{% endcapture %}
+{% assign tab-manual-chromebook = tab-manual-chromebook | split: "////////" %}
+
 ### Installing
 
-{% assign tabs = tab-universal-updater | concat: tab-manual %}
+{% assign tabs = tab-universal-updater | concat: tab-manual | concat: tab-manual-chromebook %}
 {% include tabs.html index=0 tabs=tabs %}
