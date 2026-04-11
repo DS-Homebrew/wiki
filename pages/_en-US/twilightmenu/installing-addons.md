@@ -22,7 +22,7 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
 - **Virtual Console:** Play games from some well-known retro consoles prior to the GBA.
   - [View list of supported consoles/systems](../ds-index/emulators) (Return to this page once you're done viewing the list.)
   - If you're using a 3DS or 2DS console, it is recommended to run the emulators made specifically for 3DS mode instead of installing this add-on.
-  - When installing, copy the `snemul.cfg` file to the SD card root
+  - When installing, copy the `snemul.cfg` file to the SD card root.
   - After installation, the retro games placed on the SD card will appear as icons in **TW**i**L**ight Menu++. After launching, their respective emulators will run.
 
 {% capture tab-universal-updater %}
