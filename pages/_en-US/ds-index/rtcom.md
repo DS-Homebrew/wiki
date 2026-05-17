@@ -40,7 +40,7 @@ If you're currently using Luma v13, please update to the latest version before f
 1. Restart your 3DS while holding <kbd>SELECT</kbd> to open Luma3DS's configuration
 1. Enable `external FIRMs and modules`, then press <kbd>START</kbd> to save and quit
 1. Launch TWPatch
-1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and disable `Widescreen patch (384x240 16:10)`
+1. Hold <kbd class="face">Y</kbd> + <kbd class="face">B</kbd> to open the patch menu and ensure `Widescreen patch (384x240 16:10)` is disabled
 1. Press <kbd class="face">B</kbd> to exit the patch menu
 1. Select your screen filter
     - If unsure, select `Nintendo default`
