@@ -19,10 +19,10 @@ Additional features can be added on to **TW**i**L**ight Menu++. The following ca
   - After installation, the new music options will appear in TWLMenu++ Settings.
 - **Multimedia:** View image/photo files and play videos (the latter which uses tuna-viDS, FastVideoDSPlayer, and/or Rocket Video Player).
   - After installation, the multimedia files placed on the SD card will appear as icons in **TW**i**L**ight Menu++.
-- **Virtual Console:** Play games from some well-known retro consoles prior to the GBA.
+- **Virtual Console:** Play games from some well-known retro consoles prior to the DS(i) and/or GBA.
   - [View list of supported consoles/systems](../ds-index/emulators) (Return to this page once you're done viewing the list.)
-  - If you're using a 3DS or 2DS console, it is recommended to run the emulators made specifically for 3DS mode instead of installing this add-on.
-  - When installing, copy the `snemul.cfg` file to the SD card root.
+  - If you're using a 3DS or 2DS console, there are two versions of the add-on. We recommend installing the *Minimal* version, as it leaves out emulators/runners which already have better 3DS-mode versions/alternatives (such as NES/GEN/SNES/GBA).
+  - When installing manually, copy the `snemul.cfg` file to the SD card root.
   - After installation, the retro games placed on the SD card will appear as icons in **TW**i**L**ight Menu++. After launching, their respective emulators will run.
 
 {% capture tab-universal-updater %}
