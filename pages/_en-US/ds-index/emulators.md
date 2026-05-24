@@ -14,6 +14,7 @@ There are many emulators present for the DS and DSi. This page provides a compre
 | Format                  | Loader                                           | Extensions                             | Save file                                                                  |
 | ----------------------- | ------------------------------------------------ | -------------------------------------- | -------------------------------------------------------------------------- |
 | ARGV[^1]                | Native                                           | `.argv`                                |                                                                            |
+| Amstrad CPC             | [SugarDS][sugards]                               | `.dsk`                                 |                                                                            |
 | Atari 2600              | [StellaDS][stellads]                             | `.a26`                                 |                                                                            |
 | Atari 5200              | [A5200DS][a5200ds]                               | `.a52`                                 |                                                                            |
 | Atari 7800              | [A7800DS][a7800ds]                               | `.a78`                                 |                                                                            |
@@ -120,6 +121,7 @@ These are just recommended emulators and loaders that are present in TWiLight Me
 [s8ds]: https://github.com/FluBBaOfWard/S8DS
 [snemulds]: https://www.gamebrew.org/wiki/SNEmulDS
 [stellads]: https://github.com/wavemotion-dave/StellaDS
+[sugards]: https://github.com/wavemotion-dave/SugarDS
 [unlaunch]: https://problemkaputt.de/unlaunch.htm
 [neods]: https://www.gamebrew.org/wiki/NeoDS
 [nintellivision]: https://github.com/wavemotion-dave/NINTV-DS
