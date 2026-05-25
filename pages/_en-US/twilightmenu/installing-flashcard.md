@@ -48,8 +48,8 @@ To increase compatibility, please follow this section.
 Pico Loader is the smallest and fastest game loader option available. Most DS games will work properly, with a few that either don't boot or not work properly.
 
 **Please note:**
-- You'll lose the ability to use cheats and the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
-If you want to retain those functionalities, you can set the game loader to `pico` for either all games or a specific game. Read this sub-section to find out how.
+- You'll lose the ability to use the nds-bootstrap in-game menu (containing features such as taking screenshots) when running games in this fashion.     
+If you want to retain the in-game menu, you can set the game loader to `pico` for either all games or a specific game. Read this sub-section to find out how.
 {:.alert .alert-warning}
 
 1. Open the [Pico Loader download page](https://github.com/LNH-team/pico-loader/releases)
