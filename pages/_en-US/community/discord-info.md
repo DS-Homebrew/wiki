@@ -96,6 +96,11 @@ To learn more, check out their website: <https://lightning.lightsage.dev/>
 
 **Lightning is also used for moderation purposes (to log warns, kicks, mutes, and bans). Keep Direct Messages enabled in the server in case we ever need to reach you.**
 
+## TWLHelper commands
+TWLHelper is a Discord bot made by the DS⁽ⁱ⁾ Mode Hacking staff team which has many "shortcut" commands to common wiki and guide pages, as well as helpful utilities for theming, checking game compatibility, and others.
+
+You can view its privacy policy [here](twlhelper-privacy-policy).
+
 ## The Staff Team
 These are the people who maintain the server. If they say something is final, it is not up for debate. These members are hoisted in the Member List. Do not ask to be a part of the team, as it will decrease your chance of getting accepted. Members will be added to the team if and when seen fit.
 
