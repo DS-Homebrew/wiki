@@ -42,8 +42,11 @@ Do not system update after installing hiyaCFW. Doing so will remove hiyaCFW's SD
     - Arch Linux: `sudo pacman -S tk`
     - Fedora: `sudo dnf install python3-tkinter`
     - CentOS: `sudo yum install python3-tkinter`
-1. Install requirements with the following command:
-    - `pip3 install -r requirements.txt`
+1. Install required dependency packages with the following commands in the TWLMagician directory:
+    - `python3 -m venv .venv` to create a **v**irtual **env**ironment for pip
+    - `source .venv/bin/activate` to activate the virtual environment
+        - If you use `fish`, source `activate.fish` instead
+    - `pip3 install -r requirements.txt` to install dependencies
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 

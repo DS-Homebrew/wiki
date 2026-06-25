@@ -38,8 +38,11 @@ tabs:
     - Arch Linux: `sudo pacman -S tk`
     - Fedora: `sudo dnf install python3-tkinter`
     - CentOS: `sudo yum install python3-tkinter`
-1. Install requirements with the following command:
-    - `pip3 install -r requirements.txt`
+1. Install required dependency packages with the following commands in the TWLMagician directory:
+    - `python3 -m venv .venv` to create a **v**irtual **env**ironment for pip
+    - `source .venv/bin/activate` to activate the virtual environment
+        - If you use `fish`, source `activate.fish` instead
+    - `pip3 install -r requirements.txt` to install dependencies
 {% endcapture %}
 {% assign tab-other = tab-other | split: "////////" %}
 
@@ -56,7 +59,7 @@ tabs:
 1. Click the `Advanced` button
 1. Click the `...` button in the "The root of SD card" box
 1. Navigate to the root of your SD card, and click `OK`
-1. Click the `Update hiyaCFW` checkbox 
+1. Click the `Update hiyaCFW` checkbox
 1. Press `Start`. Note that `Advanced Mode` will also update TWiLight Menu++ on your SD card
     - The process may take several minutes
 1. When the application says `Done!`, close out of TWLMagician
