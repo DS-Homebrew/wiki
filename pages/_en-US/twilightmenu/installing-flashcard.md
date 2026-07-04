@@ -16,10 +16,10 @@ tabs:
     - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) and scroll down to `Assets` to download the file
 1. Open or extract `TWiLightMenu-Flashcard.7z`
     - To open it on Windows, right-click on `TWiLightMenu-Flashcard.7z`, click `Show more options` (if using Win11), hover over `7-Zip`, then click `Open archive`
-1. Drag and drop the `_nds` folder to your flashcard's microSD card root
-1. Drag and drop the `BOOT.NDS` file to your flashcard's microSD card root
-    - If you are using a DSi flashcard such as the CycloDSi or DSpico, use `BOOT_ALT.NDS` instead
-1. Drag and drop the `roms` folder to your flashcard's microSD card root
+1. Copy the following files/folders to your flashcard's microSD card root:
+    - `_nds`
+    - `BOOT.NDS` (**NOTE:** If you are using a DSi flashcard such as the CycloDSi or DSpico, copy `BOOT_ALT.NDS` instead)
+    - `roms`
 1. If you already have save data, move your `.sav` files, which are in your DS ROM location, to a new folder called `saves`, which also goes in the DS ROM location
 1. **DS Phat/Lite users:** If booting `BOOT.NDS` causes a white screen lock-up, then follow the below steps for autobooting, and try again
 
