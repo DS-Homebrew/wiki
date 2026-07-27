@@ -28,7 +28,10 @@ Changes the speed at which the ARM9 CPU runs. ROMs ran in DS Mode will use 67 Mh
 Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ran in DS Mode will use the DS VRAM Mode by default. This can be changed to DSi VRAM Mode but does not do anything and may cause visual issues. If you're playing a TWL-type (DSi-Enhanced or DSiWare) ROM in DSi Mode, the VRAM Mode is set by the game itself.
 
 ### Card Read DMA
-Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on can speed up ROMs slightly, but may cause issues. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
+Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on will allow some ROM data to be read asynchronously, but may cause issues with a few games due to timing differences from the original DS game cards. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
+
+### Asynch Card Read
+Allows more ROM data to be read asynchronously that card read DMA can't.
 
 ### Direct Boot
 Appears only for homebrew ROMs on flashcards. Setting this to `On` will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
