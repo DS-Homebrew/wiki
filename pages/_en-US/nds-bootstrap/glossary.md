@@ -31,7 +31,7 @@ Changes the mode of the Video Random Access Memory (VRAM) of the system. ROMs ra
 Enables the uses of Direct Memory Access (DMA) for card reads. Having this setting on will allow some ROM data to be read asynchronously, but may cause issues with a few games due to timing differences from the original DS game cards. More technical info can be found on the [DS Index](https://wiki.ds-homebrew.com/ds-index/retail-roms#card-read-dma).
 
 ### Asynch Card Read
-Allows more ROM data to be read asynchronously that card read DMA can't.
+Allows more ROM data to be read asynchronously that card read DMA can't, but will cause more issues in some games due to how they're developed.
 
 ### Direct Boot
 Appears only for homebrew ROMs on flashcards. Setting this to `On` will not use nds-bootstrap when launching the ROM. This is useful for homebrew ROMs that do not need or work with nds-bootstrap.
