@@ -24,7 +24,7 @@ To use ntrboot on your DSi you will need:
 {% capture tab-dspico %}
 
 1. Connect the DSpico flashcard to your PC via USB
-1. Download the [DSpico hybrid ntrboot firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid_ntrboot.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
+1. Download the [DSpico hybrid ntrboot firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_Hybrid_B9S-1.3_GCD.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
 
 {% endcapture tab-dspico %}
 {% assign tab-dspico = tab-dspico | split: "////////" %}

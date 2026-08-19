@@ -26,7 +26,7 @@ If you do not have a DSpico flashcard, you will also need:
 {% capture tab-dspico %}
 
 1. Connect the DSpico flashcard to your PC via USB
-1. Download the [DSpico hybrid firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/latest/download/DSpico_hybrid.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
+1. Download the [DSpico hybrid firmware](https://github.com/coderkei/dspico-hybrid-fw/releases/download/0040d92/DSpico_hybrid.uf2) and copy it to the root of the DSpico. If the window closes and the file has disappeared, that means the firmware has been flashed
 
 {% endcapture tab-dspico %}
 {% assign tab-dspico = tab-dspico | split: "////////" %}
