@@ -41,7 +41,20 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - As B4DS mode will not be used in nds-bootstrap in this case, compatibility will mostly be the same as running from the DSi's SD card slot
 {:.alert .alert-info}
 
-#### If you have an R4(i) Ultra
+If you use one of these flashcards, follow the [recommended method](#recommended-method). Otherwise, follow the [alternate method](#alternate-method).
+
+- Acekard 2(i)
+- CycloDS Evolution
+- DSpico
+- DSTT
+- Demon/DSTTi clones
+- EZ Flash Parellel
+- Games n' Music
+- N-Card
+- R4 (Original, no SDHC)
+- R4(i) Ultra (r4ultra.com)
+
+#### Recommended method
 
 1. Follow [this](installing-flashcard) guide starting from `Flashcard Kernel`
     - You can safely ignore the warnings
@@ -51,7 +64,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 1. Exit TWLMenu++ Settings by pressing `B` button
     - If you end up in the DS Classic Menu, press `B` again
 
-#### If you don't have an R4(i) Ultra
+#### Alternate method
 
 1. Create a file or folder called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
 1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
