@@ -34,7 +34,7 @@ tabs:
 1. Download the latest Python version of [TWLMagician](https://github.com/R-YaTian/TWLMagician/releases)
 1. Extract the TWLMagician archive anywhere on your PC
 1. Install tkinter with the following command for your distro if you don't already have it:
-    - Debian-based: `sudo apt-get install python3-tk`
+    - Debian-based: `sudo apt-get install python3-tk python3-venv`
     - Arch Linux: `sudo pacman -S tk`
     - Fedora: `sudo dnf install python3-tkinter`
     - CentOS: `sudo yum install python3-tkinter`
