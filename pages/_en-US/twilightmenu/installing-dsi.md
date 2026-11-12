@@ -6,6 +6,9 @@ category: installing
 title: Installing (DSi)
 long_title: Installing TWiLight Menu++ (DSi)
 description: How to install TWiLight Menu++ on the Nintendo DSi
+tabs:
+  - recommended-method: Recommended method
+    alternate-method: Alternate method
 ---
 
 If you do not already have a way to run homebrew on your DSi, follow [dsi.cfw.guide](https://dsi.cfw.guide) to install TWiLight Menu++
@@ -41,7 +44,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - As B4DS mode will not be used in nds-bootstrap in this case, compatibility will mostly be the same as running from the DSi's SD card slot
 {:.alert .alert-info}
 
-If you use one of these flashcards, follow the [recommended method](#recommended-method). Otherwise, follow the [alternate method](#alternate-method).
+If you use one of these flashcards, follow the recommended method.
 
 - Acekard 2(i)
 - CycloDS Evolution
@@ -54,7 +57,9 @@ If you use one of these flashcards, follow the [recommended method](#recommended
 - R4 (Original, no SDHC)
 - R4(i) Ultra (r4ultra.com)
 
-#### Recommended method
+Otherwise, follow the alternate method.
+
+{% capture tab-recommended-method %}
 
 1. Follow [this](installing-flashcard) guide starting from `Flashcard Kernel`
     - You can safely ignore the warnings
@@ -64,7 +69,10 @@ If you use one of these flashcards, follow the [recommended method](#recommended
 1. Exit TWLMenu++ Settings by pressing `B` button
     - If you end up in the DS Classic Menu, press `B` again
 
-#### Alternate method
+{% endcapture tab-recommended-method %}
+{% assign tab-recommended-method = tab-recommended-method | split: "////////" %}
+
+{% capture tab-alternate-method %}
 
 1. Create a file or folder called `primary` in `sd:/_nds/` (not the flashcard one), so that TWiLight Menu++ reads settings from the console's SD card after it starts your flashcard
 1. Follow [this](installing-flashcard) guide starting from `Autobooting TWiLight Menu++`
@@ -77,6 +85,12 @@ If you use one of these flashcards, follow the [recommended method](#recommended
 1. Exit TWLMenu++ Settings by pressing `B` button
     - If you end up in the DS Classic Menu, launch your flashcard
     - Otherwise, restart TWiLight Menu++
+
+{% endcapture tab-alternate-method %}
+{% assign tab-alternate-method = tab-alternate-method | split: "////////" %}
+
+{% assign tabs = tab-recommended-method | concat: tab-alternate-method %}
+{% include tabs.html index=0 tabs=tabs %}
 
 #### Switching between SD and flashcard contents
 - Press either `SELECT`+`Up` or `SELECT`+`Down` to switch between the SD and flashcard contents
