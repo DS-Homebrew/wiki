@@ -44,7 +44,7 @@ A flashcard is something that goes in the game card slot, and contains a microSD
 - As B4DS mode will not be used in nds-bootstrap in this case, compatibility will mostly be the same as running from the DSi's SD card slot
 {:.alert .alert-info}
 
-If you use one of these flashcards, follow the recommended method.
+If you use one of these flashcards, follow the recommended method. Otherwise, follow the alternate method.
 
 - Acekard 2(i)
 - CycloDS Evolution
@@ -56,8 +56,6 @@ If you use one of these flashcards, follow the recommended method.
 - N-Card
 - R4 (Original, no SDHC)
 - R4(i) Ultra (r4ultra.com)
-
-Otherwise, follow the alternate method.
 
 {% capture tab-recommended-method %}
 
